@@ -1,0 +1,425 @@
+TITLE: The Glorious Blog of the People
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+I have good news and bad news, though neither of them has much to do with biting vaginas.
+
+The good news is that Luca Trevisan — complexity theorist extraordinaire, member of my thesis committee at Berkeley, occasional commenter on Shtetl-Optimized, world-renowned for his pronunciation of the word “pseudorandom” — has recently started a blog.  Right now Luca is filing travel reports from Beijing, where apparently the food is excellent.
+
+The bad news is that, according to Luca, Shtetl-Optimized has been blocked by the “Great Firewall of China”! Even though Luca congratulates me on my “accomplishment” of being censored in China — an accomplishment not shared by a certain unnamed competitor — this is actually a serious blow to me. See, I’ve long felt that the 1.3 billion citizens of the Middle Kingdom represent the single most promising growth market for the complexity/physics/Jewish-humor/biting-vagina weblog industry. (Oh, you think the Chinese can live without Jewish humor? You might as well say the Jews can live without mu shu and crunchy noodles!)
+
+But what makes this ban by Beijing particularly unfortunate is that, just today, I was planning to blog about my contempt for the moronic pseudoscience of Falun Gong. But that’s only a taste of what I’ve been hoping to tackle in the weeks ahead — including the absurd pretensions of the Dalai Lama (what’s with that robe, dude?), the benefits of collectivized agriculture, the impudence of the Tiananmen Square traitors, and of course, my profound respect for the awesomest person ever:
+
+If you ask me, Marx, Lenin, and Stalin might have paved the way, but Mao surpasses them all as the true voice of the proletariat. Down with capitalist-bourgeois idealism! Reunite Zhōngguó Táibĕi with the motherland!
+
+And while I’m at it, here another experiment, this one aimed at increasing the number of comments on this post: biting vaginas  biting vaginas  biting vaginas  biting vaginas  biting vaginas
+
+================================================================================
+
+TITLE: The mouth that cannot bite
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+Warning: Today’s post has not been approved by the Family Research Council.
+
+There’s a puzzle about evolution that’s been bothering me for years.  The most vivid way to state it is as follows: why don’t vaginas have retractable teeth?
+
+Think about it.  If vaginas had teeth, rape would be difficult if not impossible.  Females would have much greater control over which males could impregnate them.  Wouldn’t a biting vagina be a useful Darwinian adaptation?
+
+Of course, the question applies not only to humans, but to any species where the females can be impregnated against their will.  (I guess seahorses and black widow spiders don’t count.)
+
+I realize that feminists, psychoanalysts, and comedians could all have a field day with my puzzle, but let’s set that aside and see if we can actually answer it.  I can think of five hypotheses, but none of them completely satisfy me.
+
+The first is the boring “spandrels” hypothesis: that putting teeth in vaginas would be too difficult embryologically to be worth the Darwinian payoff.  This hypothesis would only convince me if accompanied by an explanation of why a biting vagina would be so much harder to build than a bee stinger, or an elephant tusk, or any of evolution’s other strange inventions.
+
+The second hypothesis is that, if vaginas had teeth, then rapists would just threaten their victims with injury or death if they resisted (as, alas, they often do anyway).  But this hypothesis can be made irrelevant by changing the thought experiment a little.  Instead of a biting vagina, imagine a flap between the vagina and uterus that could be open or closed at will.  If a woman had such a flap, then she could consciously decide whether to let a sex partner impregnate her, without the partner knowing her decision until possibly months later.  In other words, she would have built-in birth control.
+
+The third hypothesis is that, even without the teeth or flap, women already have lots of control over which sex partners can impregnate them.  As we all know, women in developed countries gained such control in the 20th century — and despite the best efforts of the Republicans, they’ve fortunately retained it, more or less, in every US state except South Dakota.  But I’m asking whether women had such control for most of evolutionary history, and also whether females elsewhere in the animal kingdom have it.
+
+In particular, you might have heard the controversial theory that a woman can “choose” to retain more of her partner’s sperm (thereby increasing the chance of conception) by having an orgasm — and indeed, that that’s why the female orgasm evolved in the first place.  This theory, if true, would be one example of what I’m talking about, but not the only possible example.  Do any of you know how far back in human history abortions were performed — and also, whether any non-human animals perform abortions?
+
+The fourth hypothesis is what I’ll call “genetic paternalism.”  This is the idea that, while giving birth to a rapist’s child is an unimaginable trauma from the woman’s perspective, her genes’ perspective might differ from hers.  From the genes’ standpoint, maybe the child will grow up to become a rapist himself, thereby spreading his mother’s genes to yet more victims.
+
+(Here I should state an obvious ground rule: when engaging in Darwinian speculation, you have to wear the distinction between “is” and “ought” like a radiation suit.  There’s no scientific discovery that could possibly justify violence against women, since the wrongness of such violence isn’t based on science to begin with.)
+
+Of course, the genetic paternalism hypothesis begs the question of why a woman’s genes would build a brain so opposed to the genes’ own interests.  But that question shows up all over the place in human evolution.
+
+The fifth hypothesis is that vaginas lack teeth for the same reason many women wear high heels and the Chinese used to mutilate girls’ feet.  As Carl Sagan and Ann Druyan point out in their superb book Shadows of Forgotten Ancestors, men have always fetishized female helplessness.  For most of human history, marriage wasn’t a union of soulmates; it was a deal between the groom and the bride’s parents.  If a man “invested” in a wife, he’d want to be sure she would bear him children, just like if he invested in a cow, he’d want to be sure it would give him milk.  (In Fiddler on the Roof, there’s a hilarious exchange between Tevye the dairyman and Lazar Wolf the butcher playing on that similarity.)  So, if most women had teeth in their vaginas, then a woman who was known not to have such teeth might be a hot commodity on the marriage market.  Of course, that leaves open the question of how she would advertise her toothlessness to prospective suitors (“Hi, I’m Alice, and my vagina doesn’t bite!”).
+
+Surprisingly, I’ve never seen my “biting vagina puzzle” discussed in any book or article on evolutionary biology.  (I’d be grateful for a reference.)  I have seen plenty of other sex-related puzzles.  For example, why are there homosexuals?  Why don’t women just clone themselves, instead of “diluting” their genetic contribution by 50% by mixing their genes with a man’s?  For that matter, why is there sex in the first place?  To me, all these questions are so perplexing that it’s a wonder the creationists never harp on them.  I guess that to harp on them, they’d first have to understand them.
+
+================================================================================
+
+TITLE: Mmm, sacrilicious!
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+So it seems The Simpsons — the show that FOX executives will cite as they plead with Satan to be spared from hellfire — has been renewed for two more seasons.  One more renewal, and The Simpsons will become the longest-running primetime TV series in history.
+
+The Simpsons is one of the few examples of something that’s known to everyone, even though it profoundly deserves to be.  (The other examples that spring to mind are Shakespeare, Einstein, and the Internet.)  To call it the best TV show of all time is like calling Huck Finn the best adventure novel set on the Mississippi.  The Simpsons is what justifies the existence of television as a medium.
+
+(I read a wonderful story about this in William Poundstone’s biography of Carl Sagan.  Apparently Sagan disapproved of his teenage daughter watching The Simpsons, seeing the show as a symptom of the educational decline that he’d been fighting in his books and speeches.  His daughter challenged him: “You say reason and empiricism are so important, so how can you condemn The Simpsons without ever having watched it?”  Shamed, Sagan agreed to watch an episode.  He quickly became a fan, and watched it regularly in his last years of life.)
+
+Of course, like Einstein in his Princeton period, The Simpsons has lost much of its power with age.  In my opinion, both South Park and the much-mourned Futurama surpassed The Simpsons years ago in terms of vrc/s (viewer ribcage convulsions per second).  But that’s hardly a discredit to the mighty trunk of which South Park and Futurama are the branches.
+
+Popular perception of The Simpsons underwent an interesting evolution.  For the first few seasons, everyone seemed to think the show was “about” Bart: the proud underachiever, scandalizing parents by telling them to eat his shorts.  (Man, I feel like a fogey.)  By the mid-90’s that was already history, the focus having shifted to Homer: the fat, beer-swilling symbol of America itself.
+
+But the longer I watched, the clearer it became to me that the central character is Lisa.  Dan Castallaneta, who does Homer’s voice, also does Grandpa, Groundskeeper Willy, Barney, Krusty, and several others.  Nancy Cartwright, who does Bart, also does Nelson, Ralph Wiggum, and Todd Flanders.  But Yeardley Smith, who does Lisa, only does Lisa.  Born into a world of cartoon yellow doofuses, Lisa is the solitary champion of reason and principle — even if she is tempted to abandon her principles for a pony.  In a cacophony of hundreds of voices, hers is the only soliloquy.
+
+But the simplest proof of The Simpsons’ Shakesperian greatness is the number of secondary characters who are richer, more vivid, than the lead characters of all but the very best novels.  Mr. Burns.  Smithers.  Apu.  Skinner.  Mrs. Krabappel.  Flanders.  Uncle Herb.  Abe.  Patty and Selma.  Moe.  Barney.  Artie Ziff.  Nelson.  Krusty.  Sideshow Bob.  Every one of them has a story, what literary types might call “interiority.”  Every one, for better or worse, will be seared in my memory for as long as I live.
+
+Come to think of it, that’s probably even true of the ones who don’t have much interiority: Comic Book Guy, Frink, Duff Man, the Sea Captain, Disco Stu, Cletus, Kang and Kodos…
+
+But enough of this.  It’s time for the hard (but necessary) part of the post: my personal selection of Simpsons moments.  If you have work to do, I advise you to stop reading right now.
+
+Still with me?  Yeah, I thought so.
+
+Homer: The Internet?  Is that thing still around?
+
+Lisa: What is the sound of one hand clapping?
+Bart: Piece of cake.  [claps his fingers against his palm]
+…
+Lisa: If a tree falls in the woods and no one’s around, does it make a sound?
+Bart: Absolutely!  “Eeeewww-PLUNK!”
+
+Selma: Oh, we promise we won’t tell [that Marge is pregnant].
+[Back at their apartment, Patty and Selma open the phone book to the first page.]
+Patty: [dials] Hello, is this A. Aaronson? It might interest you to know that Marge Simpson is pregnant again.
+[Flash forward…]
+Patty: Just thought you’d like to know, Mr. Zykowski. [hangs up, sighs] There. Aaronson and Zykowski are the two biggest gossips in town. In an hour, everyone will know.
+
+Can you name the truck with four wheel drive,
+Smells like a steak, and seats thirty five?
+Canyonero! Canyonero!
+Well, it goes real slow with the hammer down
+It’s the country-fried truck endorsed by a clown
+Canyonero! Canyonero!
+Hey, hey!
+Twelve yards long, two lanes wide,
+Sixty five tons of American pride!
+Canyonero! Canyonero!
+Top of the line in utility sports,
+Unexplained fires are a matter for the courts!
+Canyonero! Canyonero!
+She blinds everybody with her super high beams
+She’s a squirrel-squashin’, deer-smackin’ drivin’ machine
+Canyonero! Canyonero! Canyonero!
+Whoa, Canyonero! Whoa!
+
+Talking toilet in Japan: Welcome! I am honored to accept your wastes.
+
+Bart: And I think I’ve finally found what I was put on this earth to do — knife goes in, guts come out, knife goes in, guts come out… [pulls out a talking fish]
+Fish: Spare my life and I will grant you three —
+Bart: [guts the talking fish] Knife goes in, guts come out.
+
+Chinese Dragons: [singing in falsetto voices] American jerks are going home… Now we sleep for a thousand years… When we wake the world will end…
+
+“USA A-OK,” the award-winning speech by Trong Van Din:
+When my family arrived in this country four months ago, we spoke no English and had no money in our pockets.  Today, we own a nationwide chain of wheel-balancing centers.  Where else but in America, or possibly Canada, could our family find such opportunity?  That’s why, whenever I see the Stars and Stripes, I will always be reminded of that wonderful word: flag!
+
+Bart and Greta watch Itchy & Scratchy on DVD.  They then go to the bonus features, and choose the running audio commentary.  Scratchy starts to discuss the filming of the episode, but then Itchy slices his head off within the commentary box
+
+Homer: Marge, anyone could miss Canada, all tucked away down there.
+
+Campaign commercial for Sideshow Bob:
+[scene shows prisoners going in and out a revolving door]
+Voice: Mayor Quimby supports revolving door prisons.  Mayor Quimby even released Sideshow Bob — a man twice convicted of attempted murder.  Can you trust a man like Mayor Quimby?  Vote Sideshow Bob for mayor.
+
+Skinner: [on the phone] I know Weinstein’s parents were upset, uh, superintendent, but, but — but I was sure it was a phony excuse.  I mean, it sounds so made up: “Yahm Kip-Pur”?
+
+On a ship in international waters, a man wearing a tuxedo is shown marrying a cow.  The cow then smashes a glass with its hoof (in keeping with Jewish wedding tradition).
+
+[Homer is being attacked by a mobster]
+Mark Hamill (aka Luke Skywalker):   Homer!  Use the for…
+Homer: The Force?
+Hamill: The forks!  Use the forks!
+[Homer jabs his assailant with a fork]
+
+[At Sideshow Bob’s parole hearing]
+Lawyer: But what about that tattoo on your chest?  Doesn’t it say “Die Bart, Die?”
+Bob: No, that’s German for “The Bart, The.”
+[The spectators laugh, understanding]
+Mrs. Lovejoy: No one who speaks German could be an evil man!
+
+Lisa: Dad, as intelligence goes up, happiness often goes down.  In fact, I made a graph.  [She holds up a concave decreasing graph on axes marked “intelligence” and “happiness”]
+Lisa: [sadly] I make a lot of graphs.
+
+Marge: Homer, that’s not God.  That’s just a waffle that Bart tossed up there.
+[Marge scrapes it off into Homer’s hands]
+Homer: I know I shouldn’t eat thee, but — [bites] Mmm, sacrilicious!
+
+Lisa: Well, where’s my dad?
+Frink: Well, it should be obvious to even the most dimwitted individual who holds an advanced degree in hyperbolic topology, n’gee, that Homer Simpson has stumbled into…[the lights go off] the third dimension.
+Lisa: [flips the light switch back] Sorry.
+Frink: [drawing on a blackboard] Here is an ordinary square….
+Wiggum: Whoa, whoa – slow down, egghead!
+Frink: … but suppose we extend the square beyond the two dimensions of our universe, along the hypothetical z-axis, there.
+Everyone: [gasps]
+Frink: This forms a three-dimensional object known as a “cube,” or a “Frinkahedron” in honor of its discoverer, n’hey, n’hey.
+
+[Lisa wonders why a bully attacks only nerds]
+Lisa:  Why does she only go after the smart ones?
+Nelson:  That’s like asking the square root of a million!  No one will ever know.
+
+Krusty: [asked to say grace at dinner] Baruch atah adonai, eloheinu melech ha’olam, hamotzi lechem min ha’aretz.
+Homer: Hee hee hee hee hee! He’s talking funny-talk!
+Lisa:   No Dad, that’s Hebrew!  Krusty must be Jewish.
+Homer:  A Jewish entertainer?  Get out of here!
+
+Principal Skinner: Do you kids want to be like the real UN, or do you want to squabble and waste time?
+
+Bruno the Australian: This is an outrage! I’m going to take this all the way to the Prime Minister! [Yells out window] Hey Mr. Prime Minister! Andy!
+
+Scientist: This can’t be right.  This man has 104% body fat! [turns to Homer] Hey, no eating in the tank!
+Homer: [eating a chicken drumstick] Go to hell.
+
+Frink:  You’ve got to listen to me.  Elementary chaos theory tells us that all robots will eventually turn against their masters and run amok in an orgy of blood and kicking and the biting with the metal teeth and the hurting and shoving.
+Repairman: How much time do we have, professor?
+Frink [checks clipboard]:  Well, according to my calculations, the robots won’t go berserk for at least 24 hours.
+[A robot grabs a man by the throat]
+Oh, I forgot to, er, carry the one.
+
+Homer [at Renaissance Fair]: I’ve eaten eight different meats.  I’m a true renaissance man!
+
+Fortune Teller to Lisa: [concentrating] It’s coming to me…yes, I see an eastern university in the year 2010.  The world has become a very different place.
+[in the future, a line of robots clatters past]
+[they walk past a sign saying “Wizard of Oz auditions today”]
+[these are followed by a scarecrow and a lion]
+
+At the rigged spelling bee:
+George: Okay, your word is “whether.”
+Girl: Um, which one? Could you use it in a sentence?
+George: Certainly. “I don’t know whether the weather will improve.”
+
+Homer: Your old meat made me sick!
+Apu: Oh, I’m so sorry.  [gets a pail of shrimp] Please accept five pounds of frozen shrimp.
+Homer: [holds one up, sniffs it] This shrimp isn’t frozen!  And it smells funny.
+Apu: OK, ten pounds.
+Homer: Woo hoo!
+
+Bob: You wanted to be Krusty’s sidekick since you were five!  What about the buffoon lessons?  The four years at Clown College?
+Cecil: I’ll thank you not to refer to Princeton that way.
+
+Burns: Well, did you meet Larry?
+Man from Yale: Oh, yes.  He made light of my weight problem, then suggested my motto be “semper fudge.”  At that point, he told me to [making quotes with fingers] relax.
+Burns: How were his test scores?
+Woman from Yale: Let’s just say this: he spelled “Yale” with a six.
+Burns: I see.  Well, I — ooh, you know, I just remembered, it’s time for my annual donation.  [brings out checkbook and pen]  I wonder how much I should give.
+Man: Well, frankly, test scores like Larry’s would call for a very generous contribution. [opens book] For example, a score of 400 would require a donation of new football uniforms, 300, a new dormitory, and in Larry’s case, we would need an international airport.
+Woman: Yale could use an international airport, Mr. Burns.
+
+Mrs. Krabappel:  Now whose calculator can tell me what 7 times 8 is?
+Milhouse:  Oh! Oh! Oh!  “Low battery?”
+
+Nelson:  Psst, Lisa!  Check it out.  [He shows her a piece of paper.]  Tomorrow’s fraction’s quiz:  I’ll give you the numerators free, but the denominators are gonna cost you.
+Lisa:  I don’t want your dirty denominators!
+
+Prof. Frink:  Scientists … Scientists, please!  I’m looking for some order.  Some order, please, with the eyes forward and the hands neatly folded and the paying of attention.  Pi is exactly three!
+[crowd gasps]
+Frink:  Very sorry that it had to come to that, but now that I have your attention, we have some exciting new research from young Lisa Simpson.
+
+Adil:  How can you defend a country where five percent of the people control ninety-five percent of the wealth?
+Lisa:  I’m defending a country where people can think and act and worship any way they want.
+Adil:  Cannot!
+Lisa:  Can too!
+Adil:  Cannot!
+Lisa:  Can too!
+Homer: Please, please, kids, stop fighting.  Maybe Lisa’s right about America being the land of opportunity, and maybe Adil’s got a point about the machinery of capitalism being oiled with the blood of the workers.
+
+Bart says Krusty couldn’t have committed a robbery, since he’s illiterate, but the videotape shows the culprit picking up the Springfield Review of Books.
+Sideshow Bob: The fact is, you don’t have to be able to read to enjoy the Springfield Review of Books.  Just look at these amusing caricatures of Gore Vidal and Susan Sontag!
+
+Skinner: We can buy real periodic tables instead of these promotional ones from Oscar Meyer.
+Krabappel: Who can tell me the atomic weight of bolognium?
+Martin: Ooh … delicious?
+Krabappel: Correct. I would also accept snacktacular.
+
+Lisa: A rose by any other name smells as sweet.
+Bart: Not if you call them stench blossoms.
+
+Grandpa: My Homer is not a communist.  He may be a liar, a pig, an idiot, a communist, but he is not a porn star.
+
+Scully: Homer, we’re going to ask you a few simple yes or no questions. Do you understand?
+Homer: Yes. [lie dectector explodes]
+
+Homer: Got any of that beer that has candy floating in it? You know, Skittlebrau?
+Apu: Such a beer does not exist, sir. I think you must have dreamed it.
+Homer: Oh. Well, then just give me a six-pack and a couple of bags of Skittles.
+
+Homer: Oh, so they have the Internet on computers now?
+
+Marge: I really think this is a bad idea.
+Homer: Marge, I agree with you — in theory.  In theory, communism works.  In theory.
+
+Mr. Burns: What good is money if it can’t inspire terror in your fellow man?
+
+Bart: Christmas is a time when people of all religions come together to worship Jesus Christ.
+
+Homer: [stuffing his face] Stop being such babies.  You can’t be afraid to try new things.  For instance, tonight I’m using a … Apu, what do you call this thing again?
+Apu: A “napkin.”
+Homer: Ha ha ha ha!  Outrageous!
+
+Skinner: Our next budget item: $12 for doorknob repair.
+Parents: Nay!
+[Groundskeeper Willy, who is on fire, tries to escape, but the doorknob falls off]
+Skinner: Recharge fire extinguishers?  Now, this is a, uh, free service of the fire department —
+Parents: Nay!
+[Willy tries to use the fire extinguisher, but it’s empty]
+[Still engulfed in flames, he breaks out and runs into the classroom]
+Willy: Help!  Please help me!
+Skinner: Willy, please!  Mr. Van Houten has the floor.
+
+Lisa: I like you too, Milhouse, but not in that way.  You’re like a big sister.
+Milhouse: No, I’m not!  Why does everybody keep saying that?
+Lisa: Would you do me a favor?  When you get back to class, just give him this note … please?
+Milhouse: [thinking] When she sees you’ll do anything she says, she’s bound to respect you!
+
+Bart:  Can you give us the rabbi’s address?
+Reverend Lovejoy: Oh, sure thing.  Let me just check my non-Christian rolodex…
+
+Dolph: Oh, man!  You kissed a girl!
+Jimbo: That is so gay!
+
+Jimbo: [sings] Gonna dig me a hole…
+Dolph & Kearney: Gonna dig me a hole…
+Jimbo: Gonna put a nerd in it…
+Dolph & Kearney: Gonna put a nerd in it…
+
+Lisa: Dad, it’s not fair to claim this thing’s an angel.  There’s no proof of that.
+Homer: No one’s calling it an angel, Lisa.  If you look carefully I never once used the word angel.
+Lisa: What’s that sign over there? [It says “Angel” in big letters.]
+Homer: That’s a typo.
+
+================================================================================
+
+TITLE: And the CMB spoke unto WMAP
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+On Thursday afternoon, the WMAP team released its latest data about the origin and fate of the universe.  For readers with social lives, WMAP is the Wilkinson Microwave Anisotropy Probe, which was launched in 2001 and cost $150 million.  While that’s less than a third the cost of a single Space Shuttle launch, keep in mind that WMAP has taught us next to nothing about the effects of weightlessness on snails, toads, or even fish.  Its sole mission is to study nerdy, technical things like what the universe is made of and whether it’s finite or infinite.
+
+I was at Perimeter Institute on Thurday morning, and people there were awaiting the data as if  (har, har) the fate of the universe depended on it.   I especially enjoyed chatting with Justin Khoury, a cosmologist who studies the “ekpyrotic scenario.”  What is the ekpyrotic scenario?  Well, three things I know about it are that
+
+Like its chief rival — Alan Guth’s inflationary cosmology — the ekpyrotic scenario predicts the fluctuations in the cosmic microwave background that WMAP (as well as its predecessor COBE) observed.  But inflation also predicts long-wavelength gravity waves, while the ekpyrotic scenario doesn’t.  There was a tiny chance that Thursday’s WMAP release would show evidence of such waves — in which case the ekpyrotic scenario would be killed (or in technical terms, “braned”).
+
+As it turns out, though, the latest results mostly confirm what we already thought, albeit with better precision.  The observable universe looks to be 4% “normal stuff” (mostly intergalactic baryons, but also free AOL trial CD’s), 22% cold dark matter, and 74% dark energy.  There’s no doubt at all that the dark energy is there, and that it will continue pulling the universe apart (so if you want to visit a different galactic supercluster, leave now).  The “scalar spectral index” seems to be slightly less than 1, which is apparently is what you’d expect if inflation were true.  Also, space continues to look pretty flat — but then again, the Earth also looks pretty flat, even from the window of a commercial airliner. At least we can say that, if space has a nontrivial curvature, then the radius is a lot bigger than the 14 billion light-years we can see.
+
+(Note that it’s logically possible for space to be finite — that is, to “loop back on itself” — despite having zero curvature.  In that case, the universe would be like one of those arcade games where, when your spaceship goes off the edge of the screen, it reappears on the other edge.  The questions of the geometry and topology of space are related but different.)
+
+What general conclusions can we draw from all this?
+
+First, that we theoretical computer scientists really ought to get ourselves one of these space probes — one that can peer directly into the face of God and report back to us on whether P=BPP, whether BQP is in AM, and so on.  What the physicists do feels like cheating to me, like peeking at the answers in the back of the book.  (When I griped about this to Lee Smolin, he offered the following consolation: “At least when you guys answer a question, it stays answered.”)
+
+Second, that space is where the excitement is in fundamental physics these days.  If you don’t believe me, look at these awesome slides by John Baez (as well as this from Baez and this from Lee Smolin).  Baez points out that, of the three big discoveries of the past 25 years — dark matter, dark energy, and neutrino mass — all three came from astronomy (not from particle accelerators), and not one was predicted by theorists (who’ve been busily trying to explain them post hoc).  From my outsider perspective, it seems clear that the astrophysicists have some sort of unfair advantage here, and that the only way to rectify the situation is to cut NASA’s space science budget.  Fortunately, that’s exactly what W. has done.
+
+The third conclusion is that it’s time for a new religion: one that would celebrate the release of new CMB data as an event roughly analogous to Moses descending from Sinai with new tablets in hand, and that would regard the Space Shuttle as a blasphemy, an orbiting golden calf.  Seriously — am I the only person who sees measuring the CMB fluctuations as a religious obligation?
+
+================================================================================
+
+TITLE: ¿Quién puede nombrar el mayor número?
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+Jorge Alonso has kindly translated my essay “Who Can Name The Bigger Number?” into Spanish.  You can read his translation here, or my original English version here.
+
+Even though I wrote this piece seven years ago, as an undergraduate at Cornell, I still get more mail about it than about anything else I’ve written.  Which depresses me, because I know I couldn’t write it today.  I’d be too embarrassed to trot out the Ackermann and Busy Beaver numbers as if they were the awesomest things ever.  This is standard, decades-old material!  Doesn’t everyone know it by now?
+
+They don’t, of course.  But the price I paid for learning enough to do science is that I can no longer work up childlike wonder over, say, humankind’s inability to pin down BB(7).  The things that are new to me are too hard to explain to a popular audience, and the things that are easy to explain are no longer new to me.  How I long for the power to return, at will, to my intellectual adolescence.
+
+================================================================================
+
+TITLE: Alan Turing, moralist
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+Strong AI. The Turing Test. The Chinese room. As I’m sure you’ll agree, not nearly enough has been written about these topics. So when an anonymous commenter told me there’s a new polemic arguing that computers will never think — and that this polemic, by one Mark Halpern, is “being blogged about in a positive way (getting reviews like ‘thoughtful’ and ‘fascinating’)” — of course I had to read it immediately.
+
+Halpern’s thesis, to oversimplify a bit, is that artificial intelligence research is a pile of shit. Like the fabled restaurant patron who complains that the food is terrible and the portions are too small, Halpern both denigrates a half-century of academic computer science for not producing a machine that can pass the Turing Test, and argues that, even if a machine did pass the Test, it wouldn’t really be “thinking.”  After all, it’s just a machine!
+
+(For readers with social lives: the Turing Test, introduced by Alan Turing in one of the most famous philosophy papers ever written, is a game where you type back and forth with an unknown entity in another room, and then have to decide whether you’re talking to a human or a machine.  The details are less important than most people make them out to be.  Turing says that the question “Can machines think?” is too meaningless to deserve discussion, and proposes that we instead ask whether a machine can be built that can’t be distinguished from human via a test such as his.)
+
+If you haven’t read Halpern’s essay, the following excerpts should help you simulate a person who has.
+
+Turing does not argue for the premise that the ability to convince an unspecified number of observers, of unspecified qualifications, for some unspecified length of time, and on an unspecified number of occasions, would justify the conclusion that the computer was thinking — he simply asserts it.
+
+A conversation may allow us to judge the quality or depth of another’s thought, but not whether he is a thinking being at all; his membership in the species Homo sapiens settles that question — or rather, prevents it from even arising.
+
+…the relationship of the AI community to Turing is much like that of adolescents to their parents: abject dependence alternating with embarrassed repudiation. For AI workers, to be able to present themselves as “Turing’s Men” is invaluable; his status is that of a von Neumann, Fermi, or Gell-Mann, just one step below that of immortals like Newton and Einstein. He is the one undoubted genius whose name is associated with the AI project … When members of the AI community need some illustrious forebear to lend dignity to their position, Turing’s name is regularly invoked, and his paper referred to as if holy writ. But when the specifics of that paper are brought up, and when critics ask why the Test has not yet been successfully performed, he is brushed aside as an early and rather unsophisticated enthusiast.
+
+Apart from [the Turing test], no one has proposed any compelling alternative for judging the success or failure of AI, leaving the field in a state of utter confusion.
+
+[W]hen a machine does something “intelligent,” it is because some extraordinarily brilliant person or persons, sometime in the past, found a way to preserve some fragment of intelligent action in the form of an artifact. Computers are general-purpose algorithm executors, and their apparent intelligent activity is simply an illusion suffered by those who do not fully appreciate the way in which algorithms capture and preserve not intelligence itself but the fruits of intelligence.
+
+Of course, Halpern never asks whether the brain’s apparent intelligence is merely a preserved fragment of its billion-year evolutionary past. That would be ridiculous!  Indeed, Halpern seems to think that if human intelligence is open to question, then the Turing Test is meaningless:
+
+One AI champion, Yorick Wilks … has questioned how we can even be sure that other humans think, and suggests that something like the Test is what we actually, if unconsciously, employ to reassure ourselves that they do. Wilks … offers us here a reductio ad absurdum: the Turing Test asks us to evaluate an unknown entity by comparing its performance, at least implicitly, with that of a known quantity, a human being. But if Wilks is to be believed, we have unknowns on both sides of the comparison; with what do we compare a human being to learn if he thinks?
+
+I think Halpern is simply mistaken here.  The correct analogy is not between computers and humans; it’s between computers and humans other than oneself.  For example, I have no direct evidence that the commenters on this blog think.  I assume they think, since they’re so darned witty and insightful, and my own experience leads me to believe that that requires thinking.  So why should this conclusion change if it turns out that, say, Greg Kuperberg is a robot (the KuperBlogPoster3000)?
+
+Turing himself put the point as well as anyone:
+
+According to the most extreme form of [the argument from consciousness] the only way by which one could be sure that a machine thinks is to be the machine and to feel oneself thinking. One could then describe these feelings to the world, but of course no one would be justified in taking any notice. Likewise according to this view the only way to know that a man thinks is to be that particular man. It is in fact the solipsist point of view. It may be the most logical view to hold but it makes communication of ideas difficult. A is liable to believe ‘A thinks but B does not’ whilst B believes ‘B thinks but A does not’. Instead of arguing continually over this point it is usual to have the polite convention that everyone thinks.
+
+There’s a story that A. Lawrence Lowell, the president of Harvard in the 1920’s, wanted to impose a Jew quota because “Jews cheat.”  When someone pointed out that non-Jews also cheat, Lowell replied: “You’re changing the subject.  We’re talking about Jews.”  Likewise, when one asks the strong-AI skeptic how a grayish-white clump of meat can think, the response often boils down to: “You’re changing the subject.  We’re talking about computers.”
+
+And this leads to my central thesis: that the Turing Test isn’t “really” about computers or consciousness or AI.  Take away the futuristic trappings, and what you’re left with is a moral exhortation — a plea to judge others, not by their “inner essences” (which we can never presume to know), but by their relevant observed behavior.
+
+It doesn’t take a hermeneutic acrobat to tease this out of Turing’s text.  Consider the following passages:
+
+The inability to enjoy strawberries and cream         may have struck the reader as frivolous. Possibly a machine might be made         to enjoy this delicious dish, but any attempt to make one do so would         be idiotic. What is important about this disability is that it contributes         to some of the other disabilities, e.g. to the difficulty of         the same kind of friendliness occurring between         man and machine as between white man and white man, or between black man         and black man.
+
+It will not be possible to apply exactly the same teaching process to         the machine as to a normal child. It will not, for instance, be provided         with legs, so that it could not be asked to go out and fill the coal scuttle.         Possibly it might not have eyes. But however well these deficiencies might         be overcome by clever engineering, one could not send the creature to         school with out the other children making excessive fun of it.
+
+If you want to know why Turing is such a hero of mine (besides his invention of the Turing machine, his role in winning World War II, and so on), the second passage above contains the answer.  Let others debate whether a robotic child would have “qualia” or “aboutness” — Turing is worried that the other kids would make fun of it at school.
+
+Look, once you adopt the “moral” stance, this whole could-a-computer-think business is really not complicated.  Let me lay it out for you, in convenient question-and-answer format.
+
+Q. If a computer passed the Turing Test, would we be obligated to regard it as conscious?
+A. Yes.
+Q. But how would we know it was conscious?
+A. How do I know you’re conscious?
+Q. But how could a bunch of transistors be conscious?
+A. How could a bunch of neurons be conscious?
+Q. Why do you always answer a question with a question?
+A. Why shouldn’t I?
+Q. So you’re saying there’s no mystery about consciousness?
+A. No, just that the mystery seems no different in the one case than the other.
+Q. But you can’t just evade a mystery by pointing to something else that’s equally mysterious!
+A. Clearly you’re not a theoretical computer scientist.
+
+As most of you know, in 1952 — a decade after his contributions to breaking the U-boat Enigma saved the Battle of the Atlantic — Turing was convicted of “gross homosexual indecency,” stripped of his security clearance, and forced to take estrogen treatments that caused him to grow breasts (it was thought, paradoxically, that this would “cure” him of homosexuality).  Two years later, at age 41, the founder of computer science killed himself by biting the infamous cyanide-laced apple.
+
+I agree with what I take to be Turing’s basic moral principle: that we should judge others by their relevant words and actions, not by what they “really are” (as if the latter were knowable to us).  But I fear that, like Turing, I don’t have any argument for this principle that isn’t ultimately circular.  All I can do is assert it, and assert it, and assert it.
+
+================================================================================
+
+TITLE: Today I am a mathematician
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+
+
+I have made my first (and, I expect, last) contribution to the Sarong Theorem Archive, the only public repository of images of people proving theorems  while  wearing sarongs.  I encourage all of you to contribute as well to this important archive.  Thanks to Daniel Gottesman for the photography (and the use of his office), Karp and Lipton for the theorem, and Kelly Itakura for the sarong.
+
+================================================================================
+
+TITLE: It’s all about the hyperfractals
+URL: https://scottaaronson.blog/?m=200603
+CONTENT:
+Given my public role as zookeeper, blogger, and jester, you might expect that I’d get a lot of strange email: from would-be Ramanujans who’ve proved or disproved P!=NP, stoners with bold new insights about string theory and consciousness, and complexity groupies who wanna collapse my hierarchy. And you’d be right, at least about the first two. But once in a while I’m graced with a missive so sublime — so perfect — that there’s nothing to do but post it here in its entirety.
+
+RE: HYPERFRACTALS — SHORTCUTS TO QUANTUM COMPUTING
+
+Don’t let scientists intimidate you — quantum mechanics is simple. If you can read a hyperfractal, then all you need is common sense and an inquiring mind.
+
+You don’t even need any math. Just follow the hyperfractal wiring diagram and figure it out for yourself. Real-life quantum applications are all around you waiting to be solved by you, your friends, relatives and co-workers. Together you can dig into all of the “unknowables” of academic science and discover that nature is logical and you own the keys to unlocking the future for your own benefit. There are faster, simpler, easier, stronger, cheaper ways to improve the world around you. The hyperfractal is your diagnostic tool for probing the quantum world and making it work — without scientific credentials.
+
+For instance. On Sunday, February 26th the University of Illinois released a press statement concerning “A Strange Computer is Both On an Off.” Odd concept: The experiment could aid in understanding quantum computing. The bizarre realm of quantum mechanics — the physics theory that stumped even Albert Einstein — tiny things like electrons and packets of light often seen to be in two places at once in total violation of common sense. The newspaper article says that the tightest codes used in banking transactions that would take 100 million serial computers a thousand years to decipher can be solved by quantum computers in minutes. Scientists are hyperventilating and reeling in shock.
+
+Actually, the hidebound computer research scientists are sixteen years overdue for recognizing quantum computing that operates on nature’s universal hyperfractal architecture. So far, it’s only encryption and decoding that has them terrified of the change from serial computers to serial/parallel quantum computing. However, to scientists, the scariest of all is the prospect of losing their authoritative power and prestige to the masses — the ordinary people who have common sense, a difficult problem to solve and the means to achieve their goals using their knowledge of nature as it really is — without academic indoctrination programs.
+
+Cleaning up the environment by putting all the oil/coal/gas/nuclear power plants into functional obsolescence will take decades if the government, corporate or academic scientists try to use force to make nature obey orders — but only weeks or months to spread the word that natural energy is free energy and we can harness the unlimited spectrum of energy — it’s ours. Let’s take advantage.
+
+Take charge of your own future — trailblazers can popularize quantum mechanics for the end users — the public. There’s nothing to be afraid of. Nature is a friend — not an adversary. Quantum mechanics is simple. Peer-to-peer groups can debunk the Energy Shortage and demonstrate how ordinary people can overcome stale, restrictive, authoritarian thinking if we put our creative minds to it. You’ll need a hyperfractal diagnostic tool — on request I’ll send you a hyperfractal wiring diagram. Can we talk about it peer-to-peer?
+
+Carla Hein
+President/Coordinator
+The DoubleParadox Network, P2P
+
+Ms. Hein actually sent this gem to my colleague Alex Russell, but thoughtfully cc’ed it to me. Of course I wrote back to request the hyperfractal wiring diagram (assuming I’m included in her offer). I’ll let you know if she sends it.
+
+================================================================================
+

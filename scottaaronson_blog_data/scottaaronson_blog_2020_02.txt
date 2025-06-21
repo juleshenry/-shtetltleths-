@@ -1,0 +1,59 @@
+TITLE: Freeman Dyson and Boris Tsirelson
+URL: https://scottaaronson.blog/?m=202002
+CONTENT:
+Today, as the world braces for the possibility of losing millions of lives to the new coronavirus—to the hunger for pangolin meat, of all things (combined with the evisceration of competent public health agencies like the CDC)—we also mourn the loss of two incredibly special lives, those of Freeman Dyson (age 96) and Boris Tsirelson (age 69).
+
+Freeman Dyson was sufficiently legendary, both within and beyond the worlds of math and physics, that there’s very little I can add to what’s been said.  It seemed like he was immortal, although I’d heard from mutual friends that his health was failing over the past year.  When I spent a year as a postdoc at the Institute for Advanced Study, in 2004-5, I often sat across from Dyson in the common room, while he drank tea and read the news.  That I never once struck up a conversation with him is a regret that I’ll now carry with me forever.
+
+My only exchange with Dyson came when he gave a lecture at UC Berkeley, about how life might persist infinitely far into the future, even after the last stars had burnt out, by feeding off steadily dimishing negentropy flows in the nearly-thermal radiation.  During the Q&A, I challenged Dyson that his proposal seemed to assume an analog model of computation.  But, I asked, once we took on board the quantum-gravity insights of Jacob Bekenstein and others, suggesting that nature behaves like a (quantum) digital computer at the Planck scale, with at most ~1043 operations per second and ~1069 qubits per square meter and so forth, wasn’t this sort of proposal ruled out?  “I’m not going to argue with you,” was Dyson’s response.  Yes, he’d assumed an analog computational model; if computation was digital then that surely changed the picture.
+
+Sometimes—and not just with his climate skepticism, but also (e.g.) with his idea that general relativity and quantum mechanics didn’t need to be reconciled, that it was totally fine for the deepest layer of reality to be a patchwork of inconsistent theories—Dyson’s views struck me as not merely contrarian but as a high-level form of trolling.  Even so, Dyson’s book Disturbing the Universe had had a major impact on me as a teenager, for the sparkling prose as much as for the ideas.
+
+With Dyson’s passing, the scientific world has lost one of its last direct links to a heroic era, of Einstein and Oppenheimer and von Neumann and a young Richard Feynman, when theoretical physics stood at the helm of civilization like never before or since.  Dyson, who apparently remained not only lucid but mathematically powerful (!) well into his last year, clearly remembered when the Golden Age of science fiction looked like simply sober forecasting; when the smartest young people, rather than denouncing each other on Twitter, dreamed of scouting the solar system in thermonuclear-explosion-powered spacecraft and seriously worked to make that happen.
+
+Boris Tsirelson (homepage, Wikipedia), who emigrated from the Soviet Union and then worked at Tel Aviv University (where my wife Dana attended his math lectures), wasn’t nearly as well known as Dyson to the wider world, but was equally beloved within the quantum computing and information community.  Tsirelson’s bound, which he proved in the 1980s, showed that even quantum mechanics could only violate the Bell inequality by so much and by no more, could only let Alice and Bob win the CHSH game with probability cos2(π/8).  This seminal result anticipated many of the questions that would only be asked decades later with the rise of quantum information.  Tsirelson’s investigations of quantum nonlocality also led him to pose the famous Tsirelson’s problem: loosely speaking, can all sets of quantum correlations that can arise from an infinite amount of entanglement, be arbitrarily well approximated using finite amounts of entanglement?  The spectacular answer—no—was only announced one month ago, as a corollary of the MIP*=RE breakthrough, something that Tsirelson happily lived to see although I don’t know what his reaction was (update: I’m told that he indeed learned of it in his final weeks, and was happy about it).  Sadly, for some reason, I never met Tsirelson in person, although I did have lively email exchanges with him 10-15 years ago about his problem and other topics.  This amusing interview with Tsirelson gives some sense for his personality (hat tip to Gil Kalai, who knew Tsirelson well).
+
+Please share any memories of Dyson or Tsirelson in the comments section.
+
+================================================================================
+
+TITLE: My video interview with Lex Fridman at MIT about philosophy and quantum computing
+URL: https://scottaaronson.blog/?m=202002
+CONTENT:
+Here it is (about 90 minutes; I recommend the 1.5x speed)
+
+I had buried this as an addendum to my previous post on the quantum supremacy lecture tour, but then decided that a steely-eyed assessment of what’s likely to have more or less interest for this blog’s readers probably militated in favor of a separate post.
+
+Thanks so much to Lex for arranging the interview and for his questions!
+
+================================================================================
+
+TITLE: My “Quantum Supremacy: Skeptics Were Wrong” 2020 World Speaking Tour
+URL: https://scottaaronson.blog/?m=202002
+CONTENT:
+(At a few people’s request, I’ve changed the title so that it no longer refers to a specific person.  I try always to be accurate, amusing, and appropriate, but sometimes I only hit 1 or 2 of the 3.)
+
+As part of my speaking tour, in the last month I’ve already given talks at the following fine places:
+
+World Economic Forum at DavosUniversity of WaterlooPerimeter InstituteUC BerkeleyHarvardMITPrincetonUniversity of Houston
+
+And I’ll be giving talks at the following places over the next couple of months:
+
+Louisiana State UniversityPittsburgh Quantum InstituteFermilabYale
+
+For anyone who’s interested, I’ll add links and dates to this post later (if you want that to happen any faster, feel free to hunt them down for me!).
+
+In the meantime, there are also interviews!  See, for example, this 5-minute one on Texas Standard (an NPR affiliate), where I’m asked about the current state of quantum computing in the US, in light of the Trump administration’s recent proposal to give a big boost to quantum computing and AI research, even while slashing and burning basic science more broadly.  I made some critical comments—for example, about the need to support the whole basic research ecosystem (I pointed out that “quantum computing can’t thrive in isolation”), and also about the urgent need to make it feasible for the best researchers from around the world to get US visas and green cards.  Unfortunately, those parts seem to have been edited out, in favor of my explanations of basic points about quantum computing.
+
+More Updates:
+
+There was a discussion on Twitter of the ethics of the “Quantum Bullshit Detector” Twitter feed—which dishes out vigilante justice,  like some dark and troubled comic-book hero, by rendering anonymous, unexplained, unaccountable, very often correct albeit not infallible verdicts of “Bullshit” or “Not Bullshit” on claimed quantum information advances.  As part of that discussion, Christopher Savoie wrote:
+
+[Criticizing] is what we do in science.  [But not calling] “bullshit” anonymously and without any accountability.  Look at Scott Aaronson’s blog.  He takes strong positions.  But as Scott.  I respect that.
+
+What do people think: should “He takes strong positions.  But as Scott.” be added onto the Shtetl-Optimized header bar?
+
+In other news, I was amused by the following headline, for a Vice story about the MIP*=RE breakthrough: Mathematicians Are Studying Planet-Sized Supercomputers With God-Like Powers.  (If I’m going to quibble about accuracy: only planet-sized???)
+
+================================================================================
+

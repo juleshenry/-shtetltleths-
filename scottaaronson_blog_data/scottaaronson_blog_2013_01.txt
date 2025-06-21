@@ -1,0 +1,142 @@
+TITLE: TCS+ online seminars
+URL: https://scottaaronson.blog/?m=201301
+CONTENT:
+Good news, everyone!  Anindya De, Oded Regev, and my postdoc Thomas Vidick are launching an online theoretical computer science seminar series called TCS+, modeled after the successful Q+ quantum information seminars run by Daniel Burgarth and Matt Leifer.  The inaugural TCS+ lecture will be on Wednesday Feb. 6, at noon Eastern Standard Time.  Ronald de Wolf, longtime friend both of this blog and of its author, will be speaking on Exponential Lower Bounds for Polytopes in Combinatorial Optimization, his STOC’2012 Best Paper with Samuel Fiorini, Serge Massar, Sebastian Pokutta and Hans Raj Tiwary.  This is the paper that used ideas originally from quantum communication complexity to solve a 20-year-old problem in classical optimization: namely, to rule out the possibility of proving P=NP by reducing the Traveling Salesman Problem to certain kinds of linear programs.  Ronald previously gave the talk at MIT, and it rocked.  See Thomas’s blog for details about how to watch.
+
+================================================================================
+
+TITLE: “Quantum Information and the Brain”
+URL: https://scottaaronson.blog/?m=201301
+CONTENT:
+A month and a half ago, I gave a 45-minute lecture / attempted standup act with the intentionally-nutty title above, for my invited talk at the wonderful NIPS (Neural Information Processing Systems) conference at Lake Tahoe.  Video of the talk is now available at VideoLectures net.  That site also did a short written interview with me, where they asked about the “message” of my talk (which is unfortunately hard to summarize, though I tried!), as well as the Aaron Swartz case and various other things.  If you just want the PowerPoint slides from my talk, you can get those here.
+
+Now, I could’ve just given my usual talk on quantum computing and complexity.  But besides increasing boredom with that talk, one reason for my unusual topic was that, when I sent in the abstract, I was under the mistaken impression that NIPS was at least half a “neuroscience” conference.  So, I felt a responsibility to address how quantum information science might intersect the study of the brain, even if the intersection ultimately turned out to be the empty set!  (As I say in the talk, the fact that people have speculated about connections between the two, and have sometimes been wrong but for interesting reasons, could easily give me 45 minutes’ worth of material.)
+
+Anyway, it turned out that, while NIPS was founded by people interested in modeling the brain, these days it’s more of a straight machine learning conference.  Still, I hope the audience there at least found my talk an amusing appetizer to their hearty meal of kernels, sparsity, and Bayesian nonparametric regression.  I certainly learned a lot from them; while this was my first machine learning conference, I’ll try to make sure it isn’t my last.
+
+(Incidentally, the full set of NIPS videos is here; it includes great talks by Terry Sejnowski, Stanislas Dehaene, Geoffrey Hinton, and many others.  It was a weird honor to be in such distinguished company — I wouldn’t have invited myself!)
+
+================================================================================
+
+TITLE: Lily Rebecca Aaronson
+URL: https://scottaaronson.blog/?m=201301
+CONTENT:
+
+
+In 7+ years of blogging, one lesson I’ve learned is to go easy on the highly-personal stuff.  But sometimes one does need to make an exception.  Lily Rebecca Aaronson was born today (Jan. 20), at 6:55am, to me and Dana, weighing 3.3kg.  (After seeing her placenta, the blog category “Adventures in Meatspace” never seemed more appropriate.)  I’m blogging from the postpartum ward, which has free wifi and excellent food—we’ll probably stay here as long as they’ll let us.
+
+Given that her parents are both complexity theorists, one question people will have is whether Lily demonstrates any early aptitude in that field.  All I can say is that, so far, she’s never once confused quantum computing with classical exponential parallelism, treated relativization as acting on a complexity class rather than on its definition, or made any other mathematical mistake that I can see.  (She has, on the other hand, repeatedly mistaken her hand for food.)
+
+================================================================================
+
+TITLE: Statement on Aaron Swartz
+URL: https://scottaaronson.blog/?m=201301
+CONTENT:
+Scott Aaronson
+ Sasha Costanza-Chock
+ Kai von Fintel
+ Richard Holton
+ George Stephanopoulos
+ Anne Whiston Spirn
+
+Members of the MIT Open Access Working Group
+
+================================================================================
+
+TITLE: Aaron Swartz (1986-2013)
+URL: https://scottaaronson.blog/?m=201301
+CONTENT:
+Update (1/18): Some more information has emerged.  First, it’s looking like the prosecution’s strategy was to threaten Aaron with decades of prison time, in order to force him to accept a plea bargain involving at most 6 months.  (Carmen Ortiz issued a statement that conveniently skips the first part of the strategy and focuses on the second.)  This is standard operating procedure in our wonderful American justice system, due (in part) to the lack of resources actually to bring most cases to trial.  The only thing unusual about the practice is the spotlight being shone on it, now that it was done not to some poor unknown schmuck but to a tortured prodigy and nerd hero.  Fixing the problem would require far-reaching changes to our justice system.
+
+Second, while I still strongly feel that we should await the results of Hal Abelson’s investigation, I’ve now heard from several sources that there was some sort of high-level decision at MIT—by whom, I have no idea—not to come out in support of Aaron.  Crucially, though, I’m unaware of the faculty (or students, for that matter) ever being consulted about this decision, or even knowing that there was anything for MIT to decide.  Yesterday, feeling guilty about having done nothing to save Aaron, I found myself wishing that either he or his friends or parents had made an “end run” around the official channels, and informed MIT faculty and students directly of the situation and of MIT’s ability to help.  (Or maybe they did, and I simply wasn’t involved?)
+
+Just to make sure I hadn’t missed anything, I searched my inbox for “Swartz”, but all I found relevant to the case were a couple emails from a high-school student shortly after the arrest (for a project he was doing about the case), and then the flurry of emails after Aaron had already committed suicide.  By far the most interesting thing that I found was the following:
+
+Aaron Swartz (December 12, 2007): I’m really enjoying the Democritus lecture notes. Any chance we’ll ever see lecture 12?
+
+My response: It’s a-comin’!
+
+As I wrote on this blog at the time of Aaron’s arrest: I would never have advised him to do what he did.  Civil disobedience can be an effective tactic, but off-campus access to research papers simply isn’t worth throwing your life away for—especially if your life holds as much spectacular promise as Aaron’s did, judging from everything I’ve read about him.  At the same time, I feel certain that the world will eventually catch up to Aaron’s passionate belief that the results of publicly-funded research should be freely available to the public.  We can honor Aaron’s memory by supporting the open science movement, and helping the world catch up with him sooner.
+
+================================================================================
+
+TITLE: Zork’s bloogorithm
+URL: https://scottaaronson.blog/?m=201301
+CONTENT:
+If you have opinions about quantum computing, and haven’t yet read through the discussion following my “response to Dyakonov” post, you’re missing out.  The comments—by QC researchers (Preskill, Kuperberg, Gottesman, Fitzsimons…), skeptics (Dyakonov, Kalai, …), and interested outsiders alike—are some of the most interesting I’ve seen in this two-decade-old debate.
+
+At the risk of crass immodesty, I just posted a comment whose ending amused me so much, I had to promote it to its own post.  My starting point was an idea that several skeptics, including Dyakonov, have articulated in this debate, and which I’ll paraphrase as follows:
+
+Sure, quantum computing might be “possible in principle.”  But only in the same sense that teaching a donkey how to read, transmuting large amounts of lead into gold, or doing a classical computation in the center of the Sun are “possible in principle.”  In other words, the task is at the same time phenomenally difficult, and fundamentally arbitrary and quixotic even if you did somehow achieve it.
+
+Since I considered this argument an important one, I wrote a response, which stressed how quantum computing is different both because it strives to solve problems that flat-out can’t feasibly be solved any other way if standard complexity conjectures are correct, and because the goal—namely, expanding the human race’s computational powers beyond classical polynomial time—is not at all an arbitrary one.  However, I then felt the need to expand on the last point, since it occurred to me that it’s both central to this debate and almost never discussed explicitly.
+
+How do I know that the desire for computational power isn’t just an arbitrary human quirk?
+
+Well, the reason I know is that math isn’t arbitrary, and computation is nothing more or less than the mechanizable part of solving math problems.
+
+Let me put it this way: if we ever make contact with an advanced extraterrestrial civilization, they might have three sexes and five heads. But they, too, will have encountered the problem of factoring integers into primes. Indeed, because they’ll inhabit the same physical universe as we do, they’ll even have encountered the problem of simulating quantum physics. And therefore, putting the two together, they’ll almost certainly have discovered something like Shor’s algorithm — though they’ll call it “Zork’s bloogorithm” or whatever.
+
+================================================================================
+
+TITLE: Happy New Year!  My response to M. I. Dyakonov
+URL: https://scottaaronson.blog/?m=201301
+CONTENT:
+A couple weeks ago M. I. Dyakonov, a longtime quantum computing skeptic, published a new paper setting out his arguments (maybe “grievances” is a more accurate word) against quantum computing research.  Looking for a way to procrastinate from other work I have to do, I decided to offer some thoughts in response.
+
+To me, perhaps the most striking aspect of Dyakonov’s paper is what it doesn’t claim.  Unlike Leonid Levin, Oded Goldreich, and several other quantum computing skeptics I’ve engaged, Dyakonov never seriously entertains the possibility of a general principle that would explain why scalable quantum computing is not possible.  (Thus, my $100K prize presumably isn’t relevant to him.)  He even ridicules discussion of such a principle (see the end of this post).  The unwillingness to say that scalable QC can’t work, or to articulate a reason why, saves Dyakonov from the need to explore what else would need to be true about the physical world if scalable QC were impossible.  For example, would there then be an efficient algorithm to simulate arbitrary quantum systems on a classical computer—or at least, all quantum systems that can plausibly arise in Nature?  Dyakonov need not, and does not, evince any curiosity about such questions.  In his game, it’s only the quantum computing proponents who are on trial; there’s no need for examination of the other side.
+
+That being so, Dyakonov focuses on what he sees as unrealistic assumptions in known versions of the Quantum Fault-Tolerance Theorem, covering well-trodden ground but with some strange twists.  He accuses quantum computing researchers of a “widespread belief that the |0〉 and |1〉 states ‘in the computational basis’ are something absolute, akin to the on/off states of an electrical switch, or of a transistor in a digital computer.”  He then follows with a somewhat-patronizing discussion of how no continuous quantity can be manipulated perfectly, and how |0〉 and |1〉 are just arbitrary labels whose meanings could change over time due to drift in the preparation and measurement devices.  Well, yes, it’s obvious that |0〉 and |1〉 don’t have absolute meanings, but is it not equally obvious that we can give them meanings, through suitable choices of initial states, gates, and measurement settings?  And if the meanings of |0〉 and |1〉 drift over time, due to the imprecision of our devices … well, if the amount of drift is upper-bounded by some sufficiently small constant, then we can regard it as simply yet another source of noise, and apply standard fault-tolerance methods to correct it.  If the drift is unbounded, then we do need better devices.
+
+(Fault-tolerance mavens: please use the comments for more detailed discussion!  To my inexpert eyes, Dyakonov doesn’t seem to engage the generality of the already-known fault-tolerance theorems—a generality traceable to the fact that what powers those results is ultimately just the linearity of quantum mechanics, not some fragile coincidence that one expects to disappear with the slightest change in assumptions.  But I’m sure others can say more.)
+
+Anyway, from his discussion of fault-tolerance, Dyakonov concludes only that the possibility of scalable quantum computing in the real world should be considered an open question.
+
+Surprisingly—since many QC skeptics wouldn’t be caught dead making such an argument—Dyakonov next turns around and says that, well, OK, fine, even if scalable QCs can be built, they still won’t be good for much.  Shor’s factoring algorithm is irrelevant, since people would simply switch to other public-key cryptosystems that appear secure even against quantum attack.  Simulating quantum physics “would be an interesting and useful achievement, but hardly revolutionary, unless we understand this term in some very narrow sense.”  And what about Grover’s algorithm?  In an endnote, Dyakonov writes:
+
+Quantum algorithms that provide (with an ideal quantum computer!) only polynomial speed-up compared to digital computing, like the Grover algorithm, became obsolete due to the polynomial slow-down imposed by error correction.
+
+The above is flat-out mistaken.  The slowdown imposed by quantum error-correction is polylogarithmic, not polynomial, so it doesn’t come close to wiping out the Grover speedup (or the subexponential speedups that might be achievable, e.g., with the adiabatic algorithm, which Dyakonov doesn’t mention).
+
+But disregarding the polylog/polynomial confusion (which recurs elsewhere in the article), and other technical issues about fault-tolerance, up to this point many quantum computing researchers could happily agree with Dyakonov—and have said similar things many times themselves.  Dyakonov even quotes Dorit Aharonov, one of the discoverers of quantum fault-tolerance, writing, “In a sense, the question of noisy quantum computation is theoretically closed. But a question still ponders our minds: Are the assumptions on the noise correct?”
+
+(And as for QC researchers coming clean about limitations of quantum computers?  This is just hearsay, but I’m told there’s a QC researcher who actually chose “Quantum computers are not known to be able to solve NP-complete problems in polynomial time” as the tagline for his blog!)
+
+Dyakonov fumes about how popular articles, funding agency reports, and so forth have overhyped progress in quantum computing, leaving the conditions out of theorems and presenting incremental advances as breakthroughs.  Here I sadly agree.  As readers of Shtetl-Optimized can hopefully attest, I’ve seen it as my professional duty to spend part of my life battling cringeworthy quantum computing claims.  Every week, it feels like I talk to another journalist who tries to get me to say that this or that QC result will lead to huge practical applications in the near future, since that’s what the editor is looking for.  And every week I refuse to say it, and try to steer the conversation toward “deeper” scientific questions.  Sometimes I succeed and sometimes not, but at least I never hang up the phone feeling dirty.
+
+On the other hand, it would be interesting to know whether, in the history of science, there’s ever been a rapidly-developing field, of interest to large numbers of scientists and laypeople alike, that wasn’t surrounded by noxious clouds of exaggeration, incomprehension, and BS.  I can imagine that, when Isaac Newton published his Principia, a Cambridge University publicist was there to explain to reporters that the new work proved that the Moon was basically an apple.
+
+But none of that is where Dyakonov loses me.  Here’s where he does: from the statements
+
+A) The feasibility of scalable quantum computing in the physical world remains open, and
+
+B) The applications of quantum computing would probably be real but specialized,
+
+he somehow, unaided by argument, arrives at the conclusion
+
+C) Quantum computing is a failed, pathological research program, which will soon die out and be of interest only to sociologists.
+
+Let me quote from his conclusion at length:
+
+I believe that, in spite of appearances, the quantum computing story is nearing its end, not because somebody proves that it is impossible, but rather because 20 years is a typical lifetime of any big bubble in science, because too many unfounded promises have been made, because people get tired and annoyed by almost daily announcements of new “breakthroughs”, because all the tenure positions in quantum computing are already occupied, and because the proponents are growing older and less zealous, while the younger generation seeks for something new …
+
+In fact, quantum computing is not so much a scientific, as a sociological problem which has expanded out of all proportion due to the US system of funding scientific research (which is now being copied all over the world). While having some positive sides, this system is unstable against spontaneous formation of bubbles and mafia-like structures. It pushes the average researcher to wild exaggerations on the border of fraud and sometimes beyond. Also, it is much easier to understand the workings of the funding system, than the workings of Nature, and these two skills only rarely come together.
+
+The QC story says a lot about human nature, the scientific community, and the society as a whole, so it deserves profound psycho-sociological studies, which should begin right now, while the main actors are still alive and can be questioned.
+
+In case the message isn’t yet clear enough, Dyakonov ends by comparing quantum computing to the legend of Nasreddin, who promised the Sultan that he could teach a donkey how to read.
+
+Had he [Nasreddin] the modern degree of sophistication, he could say, first, that there is no theorem forbidding donkeys to read. And, since this does not contradict any known fundamental principles, the failure to achieve this goal would reveal new laws of Nature.  So, it is a win-win strategy: either the donkey learns to read, or new laws will be discovered.
+
+Second, he could say that his research may, with some modifications, be generalized to other animals, like goats and sheep, as well as to insects, like ants, gnats, and flies, and this will have a tremendous potential for improving national security: these beasts could easily cross the enemy lines, read the secret plans, and report them back to us.
+
+Dyakonov chose his example carefully.  Turnabout: consider the first person who had the idea of domesticating a wild donkey, teaching the beast to haul people’s stuff on its back.  If you’d never seen a domestic animal before, that idea would sound every bit as insane as donkey literacy.  And indeed, it probably took hundreds of years of selective breeding before it worked well.
+
+In general, if there’s no general principle saying that X can’t work, the truth might be that X can probably never work, but the reasons are too messy to articulate.   Or the truth might be that X can work.  How can you ever find out, except by, y’know, science?  Try doing X.  If you fail, try to figure out why.  If you figure it out, share the lessons with others.  Look for an easier related problem Y that you can solve.  Think about whether X is impossible; if you could show its impossibility, that might advance human knowledge even more than X itself would have.  If the methods you invented for X don’t work, see if they work for some other, unrelated problem Z.  Congratulations!  You’ve just reinvented quantum computing research.  Or really, any kind of research.
+
+But there’s something else that bothers me about Dyakonov’s donkey story: its specificity.  Why fixate on teaching a donkey, only a donkey, how to read?  Earlier in his article, Dyakonov ridicules the diversity of physical systems that have been considered as qubits—electron spin qubits, nuclear spin qubits, Josephson superconducting qubits, cavity photon qubits, etc.—seeing the long list as symptomatic of some deep pathology in the field.  Yet he never notices the tension with his donkey story.  Isn’t it obvious that, if Nasreddin had been a quantum computing experimentalist, then after failing to get good results with donkeys, he’d simply turn his attention to teaching cows, parrots, snakes, elephants, dolphins, or gorillas how to read?  Furthermore, while going through the zoo, Nasreddin might discover that he could teach gorillas how to recognize dozens of pictorial symbols: surely a nice partial result.  But maybe he’d have an even better idea: why not build his own reading machine?  The machine could use a camera to photograph the pages of a book, and a computer chip to decode the letters.  If one wanted, the machine could be even be the size and shape of a donkey, and could emit braying sounds.  Now, maybe Nasreddin would fail to build this reading machine, but even then, we know today that it would have been a noble failure, like those of Charles Babbage or Ted Nelson.  Nasreddin would’ve failed only by being too far ahead of his time.
+
+Update (Jan. 7): See Dyakonov’s response to this post, and my response to his response.
+
+================================================================================
+

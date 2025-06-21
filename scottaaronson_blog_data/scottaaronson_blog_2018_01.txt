@@ -1,0 +1,32 @@
+TITLE: Practicing the modus ponens of Twitter
+URL: https://scottaaronson.blog/?m=201801
+CONTENT:
+I saw today that Ryan Lackey generously praised my and Zach Weinersmith’s quantum computing SMBC comic on Twitter:
+
+Somehow this SMBC comic is the best explanation of quantum computing for non-professionals that I’ve ever found
+
+To which the venture capitalist Matthew Ocko replied, in another tweet:
+
+Except Scott Aaronson is a surly little troll who has literally never built anything at all of meaning. He’s a professional critic of braver people.  So, no, this is not a good explanation – anymore than Jeremy Rifkin on CRISPR would be…
+
+Now, I don’t mind if Ocko hates me, and also hates my and Zach’s comic.  What’s been bothering me is just the logic of his tweet.  Like: what did he have in his head when he wrote the word “So”?  Let’s suppose for the sake of argument that I’m a “surly little troll,” and an ax murderer besides.  How does it follow that my explanation of quantum computing wasn’t good?  To reach that stop in proposition-space, wouldn’t one still need to point to something wrong with the explanation?
+
+But I’m certain that my inability to understand this is just another of my many failings.  In a world where Trump is president, bitcoin is valued at $11,000 when I last checked, and the attack-tweet has fully replaced the argument, it’s obvious that those of us who see a word like “so” or “because,” and start looking for the inferential step, are merely insufficiently brave.  For godsakes, I’m not even on Twitter!  I’m a sclerotic dinosaur who needs to get with the times.
+
+But maybe I, too, could learn the art of the naked ad-hominem.  Let me try: from a Google search, we learn that Ocko is an enthusiastic investor in D-Wave.  Is it possible he’s simply upset that there’s so much excitement right now in experimental quantum computing—including “things of meaning” being built by brave people, at Google and IBM and Rigetti and IonQ and elsewhere—but that virtually none of this involves D-Wave, whose devices remain interesting from various physics and engineering standpoints, but still fail to achieve any clear quantum speedups, just as the professional critics predicted?  Is he upset that the brave system-builders who are racing finally to achieve quantum computational supremacy over the next year, are the ones who actually interacted with academic researchers (sorry: surly little trolls), and listened to what they said?  Who understood, for example, why scaling up to 50+ qubits only made a lot of sense once you had one or two qubits that at least behaved well enough in isolation—which, after years of heroic effort, many of these system-builders now do?
+
+How’d I do?  Was there still too much argument there for the world of 2018?
+
+================================================================================
+
+TITLE: John Preskill, laziness enabler
+URL: https://scottaaronson.blog/?m=201801
+CONTENT:
+The purpose of this post is just to call everyone’s attention to a beautiful and accessible new article by John Preskill: Quantum Computing in the NISQ era and beyond.  The article is based on John’s keynote address at the recent “Q2B” (Quantum Computing for Business) conference, which I was unfortunately unable to attend.  Here’s the abstract:
+
+Noisy Intermediate-Scale Quantum (NISQ) technology will be available in the near future. Quantum computers with 50-100 qubits may be able to perform tasks which surpass the capabilities of today’s classical digital computers, but noise in quantum gates will limit the size of quantum circuits that can be executed reliably. NISQ devices will be useful tools for exploring many-body quantum physics, and may have other useful applications, but the 100-qubit quantum computer will not change the world right away — we should regard it as a significant step toward the more powerful quantum technologies of the future. Quantum technologists should continue to strive for more accurate quantum gates and, eventually, fully fault-tolerant quantum computing.
+
+Did you ever wish you had something even better than a clone: namely, someone who writes exactly what you would’ve wanted to write, on a topic people keep asking you to write about, but ten times better than you would’ve written it?  To all journalists and others who ask me over the coming year about the application potential for near-term quantum computers, I can now simply respond with a link.
+
+================================================================================
+

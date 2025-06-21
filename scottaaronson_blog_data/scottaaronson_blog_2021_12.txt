@@ -1,0 +1,89 @@
+TITLE: My values, howled into the wind
+URL: https://scottaaronson.blog/?m=202112
+CONTENT:
+I’m about to leave for a family vacation—our first such since before the pandemic, one planned and paid for literally the day before the news of Omicron broke.  On the negative side, staring at the case-count graphs that are just now going vertical, I estimate a ~25% chance that at least one of us will get Omicron on this trip.  On the positive side, I estimate a ~60% chance that in the next 6 months, at least one of us would’ve gotten Omicron or some other variant even without this trip—so maybe it’s just as well if we get it now, when we’re vaxxed to the maxx and ready and school and university are out.
+
+If, however, I do end this trip dead in an ICU, I wouldn’t want to do so without having clearly set out my values for posterity.  So with that in mind: in the comments of my previous post, someone asked me why I identify as a liberal or a progressive, if I passionately support educational practices like tracking, ability grouping, acceleration, and (especially) encouraging kids to learn advanced math whenever they’re ready for it.  (Indeed, that might be my single stablest political view, having been held, for recognizably similar reasons, since I was about 5.)
+
+Incidentally, that previous post was guest-written by my colleagues Edith Cohen and Boaz Barak, and linked to an open letter that now has almost 1500 signatories.  Our goal was, and is, to fight the imminent dumbing-down of precollege math education in the United States, spearheaded by the so-called “California Mathematics Framework.”  In our joint efforts, we’ve been careful with every word—making sure to maintain the assent of our entire list of signatories, to attract broad support, to stay narrowly focused on the issue at hand, and to bend over backwards to concede much as we could.  Perhaps because of those cautions, we—amazingly—got some actual traction, reaching people in government (such as Rep. Ro Khanna, D – Silicon Valley) and technology leaders, and forcing the “no one’s allowed to take Algebra in 8th grade” faction to respond to us.
+
+This was disorienting to me.  On this blog, I’m used just to howling into the wind, having some agree, some disagree, some take to Twitter to denounce me, but in any case, having no effect of any kind on the real world.
+
+So let me return to howling into the wind.  And return to the question of what I “am” in ideology-space, which doesn’t have an obvious answer.
+
+It’s like, what do you call someone who’s absolutely terrified about global warming, and who thinks the best response would’ve been (and actually, still is) a historic surge in nuclear energy, possibly with geoengineering to tide us over?
+
+… who wants to end world hunger … and do it using GMO crops?
+
+… who wants to smash systems of entrenched privilege in college admissions … and believes that the SAT and other standardized tests are the best tools ever invented for that purpose?
+
+… who feels a personal distaste for free markets, for the triviality of what they so often elevate and the depth of what they let languish, but tolerates them because they’ve done more than anything else to lift up the world’s poor?
+
+… who’s happiest when telling the truth for the cause of social justice … but who, if told to lie for the cause of social justice, will probably choose silence or even, if pushed hard enough, truth?
+
+… who wants to legalize marijuana and psychedelics, and also legalize all the promising treatments currently languishing in FDA approval hell?
+
+… who feels little attraction to the truth-claims of the world’s ancient religions, except insofar as they sometimes serve as prophylactics against newer and now even more virulent religions?
+
+… who thinks the covid response of the CDC, FDA, and other authorities was a historic disgrace—not because it infringed on the personal liberties of antivaxxers or anything like that, but on the contrary, because it was weak, timid, bureaucratic, and slow, where it should’ve been like that of a general at war?
+
+… who thinks the Nazi Holocaust was even worse than the mainstream holds it to be, because in addition to the staggering, one-lifetime-isn’t-enough-to-internalize-it human tragedy, the Holocaust also sent up into smoke whatever cultural process had just produced Einstein, von Neumann, Bohr, Szilard, Born, Meitner, Wigner, Haber, Pauli, Cantor, Hausdorff, Ulam, Tarski, Erdös, and Noether, and with it, one of the wellsprings of our technological civilization?
+
+… who supports free speech, to the point of proudly tolerating views that really, actually disgust them at their workplace, university, or online forum?
+
+… who believes in patriotism, the police, the rule of law, to the extent that they don’t understand why all the enablers of the January 6 insurrection, up to and including Trump, aren’t currently facing trial for treason against the United States?
+
+… who’s (of course) disgusted to the core by Trump and everything he represents, but who’s also disgusted by the elite virtue-signalling hypocrisy that made the rise of a Trump-like backlash figure predictable?
+
+… who not only supports abortion rights, but also looks forward to a near future when parents, if they choose, are free to use embryo selection to make their children happier, smarter, healthier, and free of life-crippling diseases (unless the “bioethicists” destroy that future, as a previous generation of Deep Thinkers destroyed our nuclear future)?
+
+… who, when reading about the 1960s Sexual Revolution, instinctively sides with free-loving hippies and against the scolds … even if today’s scolds are themselves former hippies, or intellectual descendants thereof, who now clothe their denunciations of other people’s gross, creepy sexual desires in the garb of feminism and social justice?
+
+What, finally, do you call someone whose image of an ideal world might include a young Black woman wearing a hijab, an old Orthodox man with black hat and sidecurls, a broad-shouldered white guy from the backwoods of Alabama, and a trans woman with purple hair, face tattoos and a nose ring … all of them standing in front of a blackboard and arguing about what would happen if Alice and Bob jumped into opposite ends of a wormhole?
+
+Do you call such a person “liberal,” “progressive,” “center-left,” “centrist,” “Pinkerite,” “technocratic,” “neoliberal,” “libertarian-ish,” “classical liberal”?  Why not simply call them “correct”? 🙂
+
+================================================================================
+
+TITLE: An alarming trend in K-12 math education: a guest post and an open letter
+URL: https://scottaaronson.blog/?m=202112
+CONTENT:
+Updates: Our open letter made the WSJ, and has been tweeted by Matt Yglesias and others.  See also Boaz Barak’s thread, and a supportive tweet from Rep. Ro Khanna (D-Silicon Valley). If you’re just arriving here, try TodayMag for an overview of some of the issues at stake.  Added: Newsweek.  See also this post in Spanish.  And see a post by Greg Ashman for more details on what’s been happening in California.
+
+Today, I’m turning over Shtetl-Optimized to an extremely important guest post by theoretical computer scientists Boaz Barak of Harvard and Edith Cohen of Google (cross-posted on the windows on theory blog).  In addition to the post below, please read—and if relevant, consider signing—our open letter about math education in the US, which now has over 150 now 535 746 952 1225 1415 signatories, including Fields Medalists, Turing Award winners, MacArthur Fellows, and Nobel laureates.  Finally, check out our fuller analysis of what the California Mathematics Framework is poised to do and why it’s such an urgent crisis for math education.  I’m particularly grateful to my colleagues for their writing efforts, since I would never have been able to discuss what’s happening in such relatively measured words. –Scott Aaronson
+
+Mathematical education at the K-12 level is critical for preparation for STEM careers. An ongoing challenge to the US K-12 system is to improve the preparation of students for advanced mathematics courses and expand access and enrollment in these courses. As stated by a Department of Education report “taking Algebra I before high school … can set students up for a strong foundation of STEM education and open the door for various college and career options.” The report states that while 80% of all students have access to Algebra I in middle school, only 24% enroll. This is also why the goal of Bob Moses’ Algebra Project is to ensure that “every child must master algebra, preferably by eighth grade, for algebra is the gateway to the college-prep curriculum, which in turn is the path to higher education.”
+
+The most significant potential for growth is among African American or Latino students, among whom only 12% enroll in Algebra before high school. This untapped potential has longer-term implications for both society and individuals. For example, although African Americans and Latinos comprise 13% and 18% (respectively) of the overall US population, they only account for 4% and 11% of engineering degrees. There is also a gap in access by income: Calculus is offered in 92% of schools serving the top income quartile but only in 77% of schools serving the bottom quartile (as measured by the share of students eligible for free or reduced-price lunch). Thus minority and low income students have less access to STEM jobs, which yield more than double the median salary of non-STEM jobs, and are projected to grow at a 50% higher rate over the next decade.
+
+Given these disparities, we applaud efforts such as the Algebra Project, the Calculus Project, and Bridge to Enter Advanced Mathematics that increase access to advanced mathematical education to underserved students. However, we are concerned by recent approaches, such as the proposed California Math Framework (CMF) revisions,  that take the opposite direction.
+
+See this document for a detailed analysis and critique of the CMF, but the bottom line is that rather than trying to elevate under-served students, such “reforms” reduce access and options for all students. In particular, the CMF encourages schools to stop offering Algebra I in middle school, while placing obstacles (such as doubling-up, compressed courses, or outside-of-school private courses) in the way of those who want to take advanced math in higher grades. When similar reforms were implemented in San Francisco, they resulted in an “inequitable patchwork scheme” of workarounds that affluent students could access but that their less privileged counterparts could not. The CMF also promotes trendy and shallow courses (such as a nearly math-free version of  “data science”) as recommended alternatives  to foundational mathematical courses such as Algebra and Calculus. These courses do not prepare students even for careers in data science itself!
+
+As educators and practitioners, we have seen first-hand the value of solid foundations in mathematics for pursuing college-level STEM education and a productive STEM career.
+
+While well-intentioned, we believe that many of the changes proposed by the CMF are deeply misguided and will disproportionately harm under-resourced students. Adopting them would result in a student population that is less prepared to succeed in STEM and other 4-year quantitative degrees in college.  The CMF states that “many students, parents, and teachers encourage acceleration beginning in grade eight (or sooner) because of mistaken beliefs that Calculus is an important high school goal.” Students, parents, and teachers are not mistaken. Neither is the National Society of Black Engineers (NSBE), which set in 2015 a goal to double the number of African American students taking calculus by 2025. Calculus is not the only goal of K-12 math education, but it is important for students who wish to prepare for STEM in college and beyond.
+
+We agree that calculus is not the “be-all and end-all” of high-school mathematics education. In particular, we encourage introducing options such as logic, probability, discrete mathematics, and algorithms design in the K-12 curriculum, as they can be valuable foundations for STEM education in college. However, when taught beyond a superficial level (which unfortunately is not the case in the CMF “data science” proposals), these topics are not any easier  than calculus. They require the same foundations of logic, algebra, and functions, and fluency with numbers and calculations. Indeed, the career paths with the highest potential for growth require more and deeper mathematical preparation than ever before. Calculus and other mathematical foundations are not important because they are admission requirements for colleges, or because they are relics of the “Sputnik era”. They are important because they provide fundamental knowledge and ways of thinking that are necessary for success in these fast growing and in-demand fields.
+
+We also fully support incorporating introductory data analysis and coding skills in the K-12 curriculum (and there are some good approaches for doing so).  But we strongly disagree with marketing such skills as replacing foundational skills in algebra and calculus when preparing for 4-year college degrees in STEM and other quantitative fields. These topics are important and build on basic math foundations but are not a replacement for such foundations any more than social media skills can replace reading and writing foundations.
+
+Given the above, we, together with more than 150 scientists, educators, and practitioners in STEM, have signed an open letter expressing our concerns with such trends. The signatories include STEM faculty in public and private universities and practitioners from industry. They include educators with decades of experience teaching students at all levels, as well as researchers that won the highest awards in their fields, including the Fields Medal and the Turing Award. Signers also include people vested in mathematical high-school education, such as Adrian Mims (founder of The Calculus Project) and Jelani Nelson (UC Berkeley EECS professor and founder of AddisCoder) who have spearheaded projects to increase access to underserved populations.
+
+We encourage you to read the letter, and if you are a US-based STEM professional or educator, consider signing it as well: https://bit.ly/mathedletter
+
+Unfortunately, in recent years, debates on US education have become politicized. The letter is not affiliated with any political organization, and we believe that the issues we highlight transcend current political debates. After all, expanding access to mathematical education is both socially just and economically wise.
+
+Note: The above guest post reflects the views of its authors, Boaz Barak and Edith Cohen.  Any comments below by them, me, or other signatories reflect their own views, not necessarily those of the entire group. –SA
+
+================================================================================
+
+TITLE: Two new talks and an interview
+URL: https://scottaaronson.blog/?m=202112
+CONTENT:
+Enjoy y’all!
+
+
+
+================================================================================
+

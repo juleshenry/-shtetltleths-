@@ -1,0 +1,148 @@
+TITLE: Once we can see them, it’s too late
+URL: https://scottaaronson.blog/?m=202101
+CONTENT:
+[updates: here’s the paper, and here’s Robin’s brief response to some of the comments here]
+
+This month Robin Hanson, the famous and controversy-prone George Mason University economics professor who I’ve known since 2004, was visiting economists here in Austin for a few weeks.  So, while my fear of covid considerably exceeds Robin’s, I met with him a few times in the mild Texas winter in an outdoor, socially-distanced way.  It took only a few minutes for me to remember why I enjoy talking to Robin so much.
+
+See, while I’d been moping around depressed about covid, the vaccine rollout, the insurrection, my inability to focus on work, and a dozen other things, Robin was bubbling with excitement about a brand-new mathematical model he was working on to understand the growth of civilizations across the universe—a model that, Robin said, explained lots of cosmic mysteries in one fell swoop and also made striking predictions.  My cloth facemask was, I confess, unable to protect me from Robin’s infectious enthusiasm.
+
+As I listened, I went through the classic stages of reaction to a new Hansonian proposal: first, bemusement over the sheer weirdness of what I was being asked to entertain, as well as Robin’s failure to acknowledge that weirdness in any way whatsoever; then, confusion about the unstated steps in his radically-condensed logic; next, the raising by me of numerous objections (each of which, it turned out, Robin had already thought through at length); finally, the feeling that I must have seen it this way all along, because isn’t it kind of obvious?
+
+Robin has been explaining his model in a sequence of Overcoming Bias posts, and will apparently have a paper out about the model soon the paper is here!  In this post, I’d like to offer my own take on what Robin taught me.  Blame for anything I mangle lies with me alone.
+
+To cut to the chase, Robin is trying to explain the famous Fermi Paradox: why, after 60+ years of looking, and despite the periodic excitement around Tabby’s star and ‘Oumuamua and the like, have we not seen a single undisputed sign of an extraterrestrial civilization?  Why all this nothing, even though the observable universe is vast, even though (as we now know) organic molecules and planets in Goldilocks zones are everywhere, and even though there have been billions of years for aliens someplace to get a technological head start on us, expanding across a galaxy to the point where they’re easily seen?
+
+Traditional answers to this mystery include: maybe the extraterrestrials quickly annihilate themselves in nuclear wars or environmental cataclysms, just like we soon will; maybe the extraterrestrials don’t want to be found (whether out of self-defense or a cosmic Prime Directive); maybe they spend all their time playing video games.  Crucially, though, all answers of that sort founder against the realization that, given a million alien civilizations, each perhaps more different from the others than kangaroos are from squid, it would only take one, spreading across a billion light-years and transforming everything to its liking, for us to have noticed it.
+
+Robin’s answer to the puzzle is as simple as it is terrifying.  Such civilizations might well exist, he says, but if so, by the time we noticed one, it would already be nearly too late.  Robin proposes, plausibly I think, that if you give a technological civilization 10 million or so years—i.e., an eyeblink on cosmological timescales—then either
+
+In cases 1 or 2, the civilization will of course be hard for us to detect, unless it happens to be close by.  But what about case 3?  There, Robin says, the “civilization” should look from the outside like a sphere expanding at nearly the speed of light, transforming everything in its path.
+
+Now think about it: when could we, on earth, detect such a sphere with our telescopes?  Only when the sphere’s thin outer shell had reached the earth—perhaps carrying radio signals from the extraterrestrials’ early history, before their rapid expansion started.  By that point, though, the expanding sphere itself would be nearly upon us!
+
+What would happen to us once we were inside the sphere?  Who knows?  The expanding civilization might obliterate us, it might preserve us as zoo animals, it might merge us into its hive-mind, it might do something else that we can’t imagine, but in any case, detecting the civilization would presumably no longer be the relevant concern!
+
+(Of course, one could also wonder what happens when two of these spheres collide: do they fight it out?  do they reach some agreement?  do they merge?  Whatever the answer, though, it doesn’t matter for Robin’s argument.)
+
+On the view described, there’s only a tiny cosmic window in which a SETI program could be expected to succeed: namely, when the thin surface of the first of these expanding bubbles has just hit us, and when that surface hasn’t yet passed us by.  So, given our “selection bias”—meaning, the fact that we apparently haven’t yet been swallowed up by one of the bubbles—it’s no surprise if we don’t right now happen to find ourselves in the tiny detection window!
+
+This basic proposal, it turns out, is not original to Robin.  Indeed, an Overcoming Bias reader named Daniel X. Varga pointed out to Robin that he (Daniel) shared the same idea right here—in a Shtetl-Optimized comment thread—back in 2008!  I must have read Daniel Varga’s comment then, but (embarrassingly) it didn’t make enough of an impression for me to have remembered it.  I probably thought the same as you probably thought while reading this post:
+
+“Sure, whatever.  This is an amusing speculation that could make for a fun science-fiction story.  Alas, like with virtually every story about extraterrestrials, there’s no good reason to favor this over a hundred other stories that a fertile imagination could just as easily spin.  Who the hell knows?”
+
+This is where Robin claims to take things further.  Robin would say that he takes them further by developing a mathematical model, and fitting the parameters of the model to the known facts of cosmic history.  Read Overcoming Bias, or Robin’s forthcoming paper, if you want to know the details of his model.  Personally, I confess I’m less interested in those details than I am in the qualitative points, which (unless I’m mistaken) are easy enough to explain in words.
+
+The key realization is this: when we contemplate the Fermi Paradox, we know more than the mere fact that we look and look and we don’t see any aliens.  There are other relevant data points to fit, having to do with the one sample of a technological civilization that we do have.
+
+For starters, there’s the fact that life on earth has been evolving for at least ~3.5 billion years—for most of the time the earth has existed—but life has a mere billion more years to go, until the expanding sun boils away the oceans and makes the earth barely habitable.  In other words, at least on this planet, we’re already relatively close to the end.  Why should that be?
+
+It’s an excellent fit, Robin says, to a model wherein there are a few incredibly difficult, improbable steps along the way to a technological civilization like ours—steps that might include the origin of life, of multicellular life, of consciousness, of language, of something else—and wherein, having achieved some step, evolution basically just does a random search until it either stumbles onto the next step or else runs out of time.
+
+Of course, given that we’re here to talk about it, we necessarily find ourselves on a planet where all the steps necessary for blog-capable life happen to have succeeded.  There might be vastly more planets where evolution got stuck on some earlier step.
+
+But here’s the interesting part: conditioned on all the steps having succeeded, we should find ourselves near the end of the useful lifetime of our planet’s star—simply because the more time is available on a given planet, the better the odds there.  I.e., look around the universe and you should find that, on most of the planets where evolution achieves all the steps, it nearly runs out the planet’s clock in doing so.  Also, as we look back, we should find the hard steps roughly evenly spaced out, with each one having taken a good fraction of the whole available time.  All this is an excellent match for what we see.
+
+OK, but it leads to a second puzzle.  Life on earth is at least ~3.5 billion years old, while the observable universe is ~13.7 billion years old.  Forget for a moment about the oft-stressed enormity of these two timescales and concentrate on their ratio, which is merely ~4.  Life on earth stretches a full quarter of the way back in time to the Big Bang.  Even as an adolescent, I remember finding that striking, and not at all what I would’ve guessed a priori.  It seemed like obviously a clue to something, if I could only figure out what.
+
+The puzzle is compounded once you realize that, even though the sun will boil the oceans in a billion years (and then die in a few billion more), other stars, primarily dwarf stars, will continue shining brightly for trillions more years.  Granted, the dwarf stars don’t seem quite as hospitable to life as sun-like stars, but they do seem somewhat hospitable, and there will be lots of them—indeed, more than of sun-like stars.  And they’ll last orders of magnitude longer.
+
+To sum up, our temporal position relative to the lifetime of the sun makes it look as though life on earth was just a lucky draw from a gigantic cosmic Poisson process.  By contrast, our position relative to the lifetime of all the stars makes it look as though we arrived crazily, freakishly early—not at all what you’d expect under a random model.  So what gives?
+
+Robin contends that all of these facts are explained under his bubble scenario.  If we’re to have an experience remotely like the human one, he says, then we have to be relatively close to the beginning of time—since hundreds of billions of years from now, the universe will likely be dominated by near-light-speed expanding spheres of intelligence, and a little upstart civilization like ours would no longer stand a chance.  I.e., even though our existence is down to some lucky accidents, and even though those same accidents probably recur throughout the cosmos, we shouldn’t yet see any of the other accidents, since if we did see them, it would already be nearly too late for us.
+
+Robin admits that his account leaves a huge question open: namely, why should our experience have been a “merely human,” “pre-bubble” experience at all?  If you buy that these expanding bubbles are coming, it seems likely that there will be trillions of times more sentient experiences inside them than outside.  So experiences like ours would be rare and anomalous—like finding yourself at the dawn of human history, with Hammurabi et al., and realizing that almost every interesting thing that will ever happen is still to the future.  So Robin simply takes as a brute fact that our experience is “earth-like” or “human-like”; he then tries to explain the other observations from that starting point.
+
+Notice that, in Robin’s scenario, the present epoch of the universe is extremely special: it’s when civilizations are just forming, when perhaps a few of them will achieve technological liftoff, but before one or more of the civilizations has remade the whole of creation for its own purposes.  Now is the time when the early intelligent beings like us can still look out and see quadrillions of stars shining to no apparent purpose, just wasting all that nuclear fuel in a near-empty cosmos, waiting for someone to come along and put the energy to good use.  In that respect, we’re sort of like the Maoris having just landed in New Zealand, or Bill Gates surveying the microcomputer software industry in 1975.  We’re ridiculously lucky.  The situation is way out of equilibrium.  The golden opportunity in front of us can’t possibly last forever.
+
+If we accept the above, then a major question I had was the role of cosmology.  In 1998, astronomers discovered that the present cosmological epoch is special for a completely different reason than the one Robin talks about.  Namely, right now is when matter and dark energy contribute roughly similarly to the universe’s energy budget, with ~30% the former and ~70% the latter.  Billions of years hence, the universe will become more and more dominated by dark energy.  Our observable region will get sparser and sparser, as the dark energy pushes the galaxies further and further away from each other and from us, with more and more galaxies receding past the horizon where we could receive signals from them at the speed of light.  (Which means, in particular, that if you want to visit a galaxy a few billion light-years from here, you’d better start out while you still can!)
+
+So here’s my question: is it just a coincidence that the time—right now—when the universe is “there for the taking,” potentially poised between competing spacefaring civilizations, is also the time when it’s poised between matter and dark energy?  Note that, in 2007, Bousso et al. tried to give a sophisticated anthropic argument for the value of the cosmological constant Λ, which measures the density of dark energy, and hence the eventual size of the observable universe.  See here for my blog post on what they did (“The array size of the universe”).  Long story short, for reasons that I explain in the post, it turns out to be essential to their anthropic explanation for Λ that civilizations flourish only (or mainly) in the present epoch, rather than trillions of years in the future.  If we had to count civilizations that far into the future, then the calculations would favor values of Λ much smaller than what we actually observe.  This, of course, seems to dovetail nicely with Robin’s account.
+
+Let me end with some “practical” consequences of Robin’s scenario, supposing as usual that we take it seriously.  The most immediate consequence is that the prospects for SETI are dimmer than you might’ve thought before you’d internalized all this.  (Even after having interalized it, I’d still like at least an order of magnitude more resources devoted to SETI than what our civilization currently spares.  Robin’s assumptions might be wrong!)
+
+But a second consequence is that, if we want human-originated sentience to spread across the universe, then the sooner we get started the better!  Just like Bill Gates in 1975, we should expect that there will soon be competitors out there.  Indeed, there are likely competitors out there “already” (where “already” means, let’s say, in the rest frame of the cosmic microwave background)—it’s just that the light from them hasn’t yet reached us.  So if we want to determine our own cosmic destiny, rather than having post-singularity extraterrestrials determine it for us, then it’s way past time to get our act together as a species.  We might have only a few hundred million more years to do so.
+
+Update: For more discussion of this post, see the SSC Reddit thread.  I especially liked a beautiful comment by “Njordsier,” which fills in some important context for the arguments in this post:
+
+Suppose you’re an alien anthropologist that sent a probe to Earth a million years ago, and that probe can send back one high-resolution image of the Earth every hundred years. You’d barely notice humans at first, though they’re there. Then, circa 10,000 years ago (99% of the way into the stream) you begin to see plots of land turned into farms. Houses, then cities, first in a few isolated places in river valleys, then exploding across five or six continents. Walls, roads, aqueducts, castles, fortresses. Four frames before the end of the stream, the collapse of the population on two of the continents as invaders from another continent bring disease. At T-minus three frames, a sudden appearance of farmland and cities on the coasts those continents. At T-minus two frames, half the continent. At the second to last frame, a roaring interconnected network of roads, cities, farms, including skyscrapers in the cities that were just trying villas three frames ago. And in the last frame, nearly 80 percent of all wilderness converted to some kind of artifice, and the sky is streaked with the trails of flying machines all over the world.
+
+Civilizations rose and fell, cultures evolved and clashed, and great and terrible men and women performed awesome deeds. But what the alien anthropologist sees is a consistent, rapid, exponential explosion of a species bulldozing everything in its path.
+
+That’s what we’re doing when we talk about the far future, or about hypothetical expansionist aliens, on long time scales. We’re zooming out past the level where you can reason about individuals or cultures, but see the strokes of much longer patterns that emerge from that messy, beautiful chaos that is civilization.
+
+Update (Jan. 31): Reading the reactions here, on Hacker News, and elsewhere underscored for me that a lot of people get off Robin’s train well before it’s even left the station.  Such people think of extraterrestrial civilizations as things that you either find or, if you haven’t found one, you just speculate or invent stories about.  They’re not even in the category of things that you have any serious hope to reason about.  For myself, I’d simply observe that trying to reason about matters far beyond current human experience, based on the microscopic shreds of fact available to us (e.g., about the earth’s spatial and temporal position within the universe), has led to some of our species’ embarrassing failures but also to some of its greatest triumphs.  Since even the failures tend to be relatively cheap, I feel like we ought to be “venture capitalists” about such efforts to reason beyond our station, encouraging them collegially and mocking them only gently.
+
+================================================================================
+
+TITLE: Research (by others) proceeds apace
+URL: https://scottaaronson.blog/?m=202101
+CONTENT:
+At age 39, I already feel more often than not like a washed-up has-been in complexity theory and quantum computing research.  It’s not intelligence that I feel like I’ve lost, so much as two other necessary ingredients: burning motivation and time.  But all is not lost: I still have students and postdocs to guide and inspire!  I still have the people who email me every day—journalists, high-school kids, colleagues—asking this and that!  Finally, I still have this blog, with which to talk about all the exciting research that others are doing!
+
+Speaking of blogging about research: I know I ought to do more of it, so let me start right now.
+
+
+
+================================================================================
+
+TITLE: Sufficiently amusing that I had no choice
+URL: https://scottaaronson.blog/?m=202101
+CONTENT:
+BREAKING: President Biden signs executive order banning people from saying “Quantum computers solve problems by just trying all possible solutions in parallel” pic.twitter.com/zeAZvmKA1T
+
+================================================================================
+
+TITLE: A day to celebrate
+URL: https://scottaaronson.blog/?m=202101
+CONTENT:
+The reason I’m celebrating is presumably obvious to all: today is my daughter Lily’s 8th birthday!  (She had a tiny Star Wars-themed party, dressed in her Rey costume.)
+
+A second reason I’m celebrating yesterday: I began teaching (via Zoom, of course) the latest iteration of my graduate course on Quantum Complexity Theory!
+
+A third reason: I’m now scheduled to get my first covid vaccine shot on Monday!  (Texas is working through its “Phase 1b,” which includes both the over-65 and those with underlying conditions—in my case, mild type-2 diabetes.)  I’d encourage everyone to do as I did: don’t lie to jump the line, but don’t sacrifice your place either.  Just follow the stated rules and get vaccinated the first microsecond you can, and urge all your friends and loved ones to do the same.  A crush of demand is actually good if it encourages the providers to expand their hours (they’re taking off weekends! they took off MLK Day!) and not to waste a single dose.
+
+Anyway, people can use this thread to talk about whatever they like, but one thing that would interest me especially is readers’ experiences with vaccination: if you’ve gotten one by now, how hard did you have to look for an appointment, how orderly or chaotic was the process where you live, and what advice can you offer?
+
+Incidentally, to the several commenters on this blog who expressed absolute certainty (as recently as yesterday) that Trump would reverse the election result and be inaugurated instead of Biden, and who confidently accused the rest of us of living in a manufactured media bubble that prevented them from seeing that: I respect that, whatever else is said about you, no one can ever again accuse you of being fair-weather friends!
+
+Congratulations to the new President!  There are difficult months ahead, but today the arc of the universe bent slightly toward sanity and goodness.
+
+Update (Jan 21): WOOHOO!  Yet another reason to celebrate: Scott Alexander is finally back in business, now blogging at Astral Codex Ten on Substack.
+
+================================================================================
+
+TITLE: To all Trumpists who comment on this blog
+URL: https://scottaaronson.blog/?m=202101
+CONTENT:
+The violent insurrection now unfolding in Washington DC is precisely the thing you called me nuts, accused me of “Trump Derangement Syndrome,” for warning about since 2016.  Crazy me, huh, always seeing brownshirts around the corner?  And you called the other side violent anarchists?  This is all your doing.  So own it.  Wallow in it.  May you live the rest of your lives in shame.
+
+Update (Jan. 7): As someone who hasn’t always agreed with BLM’s slogans and tactics, I viewed the stunning passivity of the police yesterday against white insurrectionists in the Capitol as one of the strongest arguments imaginable for BLM’s main contentions.
+
+================================================================================
+
+TITLE: Distribute the vaccines NOW!
+URL: https://scottaaronson.blog/?m=202101
+CONTENT:
+My last post about covid vaccines felt like shouting uselessly into the void … at least until Patrick Collison, the cofounder of Stripe and a wonderful friend, massively signal-boosted the post by tweeting it.  This business is of such life-and-death urgency right now, and a shift in attitude or a hardening of resolve by just a few people reading could have such an outsized effect, that with apologies to anyone wanting me to return to my math/CS/physics lane, I feel like a second post on the same topic is called for.
+
+Here’s my main point for today (as you might have noticed, I’ve changed the tagline of this entire blog accordingly):
+
+Reasonable people can disagree about whether vaccination could have, or should have, started much earlier.  But now that we in the US have painstakingly approved two vaccines, we should all agree about the urgent need to get millions of doses into people’s arms before they spoil!  Sure, better the elderly than the young, better essential than inessential workers—but much more importantly, better today than tomorrow, and better anyone than no one!
+
+Israel, which didn’t do especially well in earlier stages of the pandemic, is now putting the rest of the planet to shame with vaccinations.  What Dana and I hear from our friends and relatives there confirms what you can read here, here, and elsewhere.  Rabin Square in Tel Aviv is now a huge vaccination field site.  Vaccinations are now proceeding 24/7, even on Shabbat—something the ultra-Orthodox rabbis are grudgingly tolerating under the doctrine of “pikuach nefesh” (i.e., saving a life overrides almost every other religious obligation).  Israelis are receiving texts at all hours telling them when it’s their turn and where to go.  Apparently, after the nurses are finished with everyone who had appointments, rather than waste whatever already-thawed supply is left, they simply go into the street and offer the extra doses to anyone passing by.
+
+Contrast that with the historic fiasco—yes, another historic fiasco—now unfolding in the US.  The Trump administration had pledged to administer 20 million vaccines (well, Trump originally said 100 million) by the end of 2020.  Instead, fewer than three million were administered, with the already-glacial pace slowing even further over the holidays.  Unbelievably, millions of doses are on track to spoil this month, before they can be administered.  The bottleneck is now not manufacturing, it’s not supply, it’s just pure bureaucratic dysfunction and chaos, lack of funding and staff, and a stone-faced unwillingness by governors to deviate from harebrained “plans” and “guidelines” even with their populations’ survival at stake.
+
+Famously, the CDC urged that essential workers get vaccinated before the elderly, since even though their own modeling predicted that many more people from all ethnic groups would die that way, at least the deaths would be more equitably distributed.  While there are some good arguments to prioritize essential workers, an outcry then led to the CDC partially backtracking, and to many states just making up their own guidelines.  But we’re now, for real, headed for a scenario where none of these moral-philosophy debates turn out to matter, since the vaccines will simply spoil in freezers (!!!) while the medical system struggles to comply with the Byzantine rules about who gets them first.
+
+While I’d obviously never advocate such a thing, one wonders whether there’s an idealistic medical worker, somewhere in the US, who’s willing to risk jail for vaccinating people without approval, using supply that would otherwise be wasted.  If anything could galvanize this sad and declining nation to move faster, maybe it’s that.
+
+
+
+In my last post, I invited people to explain to me where I went wrong in my naïve, simplistic, doofus belief that, were our civilization still capable of “WWII” levels of competence, flexibility, and calculated risk-tolerance, most of the world could have already been vaccinated by now.  In the rest of this post, I’d like to list the eight most important counterarguments to that position that commenters offered (at least, those that I hadn’t already anticipated in the post itself), together with my brief responses to them.
+
+
+
+================================================================================
+

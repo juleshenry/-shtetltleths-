@@ -1,0 +1,395 @@
+TITLE: Time to vote-swap
+URL: https://scottaaronson.blog/?m=201610
+CONTENT:
+I blogged about anti-Trump vote-swapping before (and did an interview at Huffington Post with Linchuan Zhang), but now, for my most in-depth look at the topic yet, check out my podcast interview with the incomparable Julia Galef, of “Rationally Speaking.”  Or if you’re bothered by my constant uhs and y’knows, I strongly recommend reading the transcript instead—I always sound smarter in print.
+
+But don’t just read, act!  With only 9 days until the election, and with Hillary ahead but the race still surprisingly volatile, if you live in a swing state and support Gary Johnson or Jill Stein or Evan McMullin (but you nevertheless correctly regard Trump as the far greater evil than Hillary), or if you live in a relatively safe state and support Hillary (like I do), now is the time to find your vote-swap partner.  Remember that you and your partner can always back out later, by mutual consent, if the race changes (e.g., my vote-swap partner in Ohio has “released” me to vote for Hillary rather than Gary Johnson if, the night before Election Day, Texas looks like it might actually turn blue).
+
+Just one thing: I recently got a crucial piece of intelligence about vote-swapping, which is to use the site TrumpTraders.org.  Previously, I’d been pointing people to another site called MakeMineCount.org, but my informants report that they never actually get assigned a match on that site, whereas they do right away on TrumpTraders.
+
+Update (Nov. 6): Linchuan Zhang tells me that TrumpTraders.org currently has a deficit of several thousand Clinton supporters in safe states.  So if you’re such a person and you haven’t vote-swapped yet, please go there ASAP!
+
+I’ve already voted for Gary Johnson in Texas, having “teleported” my Clinton vote to Ohio.  While Clinton’s position is stronger, it seems clear that the election will indeed be close, and Texas will not be in serious contention.
+
+================================================================================
+
+TITLE: My 5-minute quantum computing talk at the White House
+URL: https://scottaaronson.blog/?m=201610
+CONTENT:
+(OK, technically it was in the Eisenhower Executive Office Building, which is not exactly the White House itself, but is adjacent to the West Wing in the White House complex.  And President Obama wasn’t there—maybe, like Justin Trudeau, he already knows everything about quantum computing?  But lots of people from the Office of Science and Technology Policy were!  And some of us talked with Valerie Jarrett, Obama’s adviser, when she passed us on her way to the West Wing.
+
+The occasion was a Quantum Information Science policy workshop that OSTP held, and which the White House explicitly gave us permission to discuss on social media.  Indeed, John Preskill already tweeted photos from the event.  Besides me and Preskill, others in attendance included Umesh Vazirani, Seth Lloyd, Yaoyun Shi, Rob Schoelkopf, Krysta Svore, Hartmut Neven, Stephen Jordan…
+
+I don’t know whether this is the first time that the polynomial hierarchy, or the notion of variation distance, were ever invoked in a speech at the White House.  But in any case, I was proud to receive a box of Hershey Kisses bearing the presidential seal.  I thought of not eating them, but then I got hungry, and realized that I can simply refill the box later if desired.
+
+For regular readers of Shtetl-Optimized, my talk won’t have all that much that’s new, but in any case it’s short.
+
+Incidentally, during the workshop, a guy from OSTP told me that, when he and others at the White House were asked to prepare materials about quantum computing, posts on Shtetl-Optimized (such as Shor I’ll Do It) were a huge help.  Honored though I was to have “served my country,” I winced, thinking about all the puerile doofosities I might’ve self-censored had I had any idea who might read them.  I didn’t dare ask whether anyone at the White House also reads the comment sections!
+
+Thanks so much to all the other participants and to the organizers for a great workshop.  –SA)
+
+Quantum Supremacy
+
+by Scott Aaronson (UT Austin)
+
+October 18, 2016
+
+Thank you; it’s great to be here.  There are lots of directions that excite me enormously right now in quantum computing theory, which is what I work on.  For example, there’s the use of quantum computing to get new insight into classical computation, into condensed matter physics, and recently, even into the black hole information problem.
+
+But since I have five minutes, I wanted to talk here about one particular direction—one that, like nothing else that I know of, bridges theory and experiment in the service of what we hope will be a spectacular result in the near future.  This direction is what’s known as “Quantum Supremacy”—John [Preskill], did you help popularize that term?  [John nods yes]—although some people have been backing away from the term recently, because of the campaign of one of the possible future occupants of this here complex.
+
+But what quantum supremacy means to me, is demonstrating a quantum speedup for some task as confidently as possible.  Notice that I didn’t say a useful task!  I like to say that for me, the #1 application of quantum computing—more than codebreaking, machine learning, or even quantum simulation—is just disproving the people who say quantum computing is impossible!  So, quantum supremacy targets that application.
+
+What is important for quantum supremacy is that we solve a clearly defined problem, with some relationship between inputs and outputs that’s independent of whatever hardware we’re using to solve the problem.  That’s part of why it doesn’t cut it to point to some complicated, hard-to-simulate molecule and say “aha!  quantum supremacy!”
+
+One discovery, which I and others stumbled on 7 or 8 years ago, is that quantum supremacy seems to become much easier to demonstrate if we switch from problems with a single valid output to sampling problems: that is, problems of sampling exactly or approximately from some specified probability distribution.
+
+Doing this has two advantages.  First, we no longer need a full, fault-tolerant quantum computer—in fact, very rudimentary types of quantum hardware appear to suffice.  Second, we can design sampling problems for which we can arguably be more confident that they really are hard for a classical computer, than we are that (say) factoring is classically hard.  I like to say that a fast classical factoring algorithm might collapse the world’s electronic commerce, but as far as we know, it wouldn’t collapse the polynomial hierarchy!  But with sampling problems, at least with exact sampling, we can often show the latter implication, which is about the best evidence you can possibly get for such a problem being hard in the present state of mathematics.
+
+One example of these sampling tasks that we think are classically hard is BosonSampling, which Alex Arkhipov and I proposed in 2011.  BosonSampling uses a bunch of identical photons that are sent through a network of beamsplitters, then measured to count the number of photons in each output mode.  Over the past few years, this proposal has been experimentally demonstrated by quantum optics groups around the world, with the current record being a 6-photon demonstration by the O’Brien group in Bristol, UK.  A second example is the IQP (“Instantaneous Quantum Polynomial-Time”) or Commuting Hamiltonians model of Bremner, Jozsa, and Shepherd.
+
+A third example—no doubt the simplest—is just to sample from the output distribution of a random quantum circuit, let’s say on a 2D square lattice of qubits with nearest-neighbor interactions.  Notably, this last task is one that the Martinis group at Google is working toward achieving right now, with 40-50 qubits.  They say that they’ll achieve it in as little as one or two years, which translated from experimental jargon, means maybe five years?  But not infinity years.
+
+The challenges on the experimental side are clear: get enough qubits with long enough coherence times to achieve this.  But there are also some huge theoretical challenges remaining.
+
+A first is, can we still solve classically hard sampling problems even in the presence of realistic experimental imperfections?  Arkhipov and I already thought about that problem—in particular, about sampling from a distribution that’s merely close in variation distance to the BosonSampling one—and got results that admittedly weren’t as satisfactory as the results for exact sampling.  But I’m delighted to say that, just within the last month or two, there have been some excellent new papers on the arXiv that tackle exactly this question, with both positive and negative results.
+
+A second theoretical challenge is, how do we verify the results of a quantum supremacy experiment?  Note that, as far as we know today, verification could itself require classical exponential time.  But that’s not the showstopper that some people think, since we could target the “sweet spot” of 40-50 qubits, where classical verification is difficult (and in particular, clearly “costlier” than running the experiment itself), but also far from impossible with cluster computing resources.
+
+If I have any policy advice, it’s this: recognize that a clear demonstration of quantum supremacy is at least as big a deal as (say) the discovery of the Higgs boson.  After this scientific milestone is achieved, I predict that the whole discussion of commercial applications of quantum computing will shift to a new plane, much like the Manhattan Project shifted to a new plane after Fermi built his pile under the Chicago stadium in 1942.  In other words: at this point, the most “applied” thing to do might be to set applications aside temporarily, and just achieve this quantum supremacy milestone—i.e., build the quantum computing Fermi pile—and thereby show the world that quantum computing speedups are a reality.  Thank you.
+
+================================================================================
+
+TITLE: May reason trump the Trump in all of us
+URL: https://scottaaronson.blog/?m=201610
+CONTENT:
+Two years ago, when I was the target of an online shaming campaign, what helped me through it were hundreds of messages of support from friends, slight acquaintances, and strangers of every background.  I vowed then to return the favor, by standing up when I saw decent people unfairly shamed.  Today I have an opportunity to make good.
+
+Some time ago I had the privilege of interacting a bit with Sam Altman, president of the famed startup incubator Y Combinator (and a guy who’s thanked in pretty much everything Paul Graham writes).  By way of our mutual friend, the renowned former quantum computing researcher Michael Nielsen, Sam got in touch with me to solicit suggestions for “outside-the-box” scientists and writers, for a new grant program that Y Combinator was starting. I found Sam eager to delve into the merits of any suggestion, however outlandish, and was delighted to be able to make a difference for a few talented people who needed support.
+
+Sam has also been one of the Silicon Valley leaders who’s written most clearly and openly about the threat to America posed by Donald Trump and the need to stop him, and he’s donated tens of thousands of dollars to anti-Trump causes.  Needless to say, I supported Sam on that as well.
+
+Now Sam is under attack on social media, and there are even calls for him to resign as the president of Y Combinator.  Like me two years ago, Sam has instantly become the corporeal embodiment of the “nerd privilege” that keeps the marginalized out of Silicon Valley.
+
+Why? Because, despite his own emphatic anti-Trump views, Sam rejected demands to fire Peter Thiel (who has an advisory role at Y Combinator) because of Thiel’s support for Trump.  Sam explained his reasoning at some length:
+
+[A]s repugnant as Trump is to many of us, we are not going to fire someone over his or her support of a political candidate.  As far as we know, that would be unprecedented for supporting a major party nominee, and a dangerous path to start down (of course, if Peter said some of the things Trump says himself, he would no longer be part of Y Combinator) … The way we got into a situation with Trump as a major party nominee in the first place was by not talking to people who are very different than we are … I don’t understand how 43% of the country supports Trump.  But I’d like to find out, because we have to include everyone in our path forward.  If our best ideas are to stop talking to or fire anyone who disagrees with us, we’ll be facing this whole situation again in 2020.
+
+The usual criticism of nerds is that we might have narrow technical abilities, but we lack wisdom about human affairs.  It’s ironic, then, that it appears to have fallen to Silicon Valley nerds to guard some of the most important human wisdom our sorry species ever came across—namely, the liberal ideals of the Enlightenment.  Like Sam, I despise pretty much everything Trump stands for, and I’ve been far from silent about it: I’ve blogged, donated money, advocated vote swapping, endured anonymous comments like “kill yourself kike”—whatever seemed like it might help even infinitesimally to ensure the richly-deserved electoral thrashing that Trump mercifully seems to be headed for in a few weeks.
+
+But I also, I confess, oppose the forces that apparently see Trump less as a global calamity to be averted, than as a golden opportunity to take down anything they don’t like that’s ever been spotted within a thousand-mile radius of Trump Tower.  (Where does this Kevin Bacon game end, anyway?  Do “six degrees of Trump” suffice to contaminate you?)
+
+And not only do I not feel a shadow of a hint of a moral conflict here, but it seems to me that precisely the same liberal Enlightenment principles are behind both of these stances.
+
+But I’d go yet further.  It sort of flabbergasts me when social-justice activists don’t understand that, if we condemn not only Trump, not only his supporters, but even vociferous Trump opponents who associate with Trump supporters (!), all we’ll do is feed the narrative that got Trumpism as far as it has—namely, that of a smug, bubble-encased, virtue-signalling leftist elite subject to runaway political correctness spirals.  Like, a hundred million Americans’ worldviews revolve around the fear of liberal persecution, and we’re going to change their minds by firing anyone who refuses to fire them?  As a recent Washington Post story illustrates, the opposite approach is harder but can bear spectacular results.
+
+Now, as for Peter Thiel: three years ago, he funded a small interdisciplinary workshop on the coast of France that I attended.  With me there were a bunch of honest-to-goodness conservative Christians, a Freudian psychoanalyst, a novelist, a right-wing radio host, some scientists and Silicon Valley executives, and of course Thiel himself.  Each, I found, offered tons to disagree about but also some morsels to learn.
+
+Thiel’s worldview, focused on the technological and organizational greatness that (in his view) Western civilization used to have and has subsequently lost, was a bit too dark and pessimistic for me, and I’m a pretty dark and pessimistic person.  Thiel gave a complicated, meandering lecture that involved comparing modern narratives about Silicon Valley entrepreneurs against myths of gods, heroes, and martyrs throughout history, such as Romulus and Remus (the legendary founders of Rome).  The talk might have made more sense to Thiel than to his listeners.
+
+At the same time, Thiel’s range of knowledge and curiosity was pretty awesome.  He avidly followed all the talks (including mine, on P vs. NP and quantum complexity theory) and asked pertinent questions. When the conversation turned to D-Wave, and Thiel’s own decision not to invest in it, he laid out the conclusions he’d come to from an extremely quick look at the question, then quizzed me as to whether he’d gotten anything wrong.  He hadn’t.
+
+From that conversation among others, I formed the impression that Thiel’s success as an investor is, at least in part, down neither to luck nor to connections, but to a module in his brain that most people lack, which makes blazingly fast and accurate judgments about tech startups.  No wonder Y Combinator would want to keep him as an adviser.
+
+But, OK, I’m so used to the same person being spectacularly right on some things and spectacularly wrong on others, that it no longer causes even slight cognitive dissonance.  You just take the issues one by one.
+
+I was happy, on balance, when it came out that Thiel had financed the lawsuit that brought down Gawker Media.  Gawker really had used its power to bully the innocent, and it had broken the law to do it.  And if it’s an unaccountable, anti-egalitarian, billionaire Godzilla against a vicious, privacy-violating, nerd-baiting King Kong—well then, I guess I’m with Godzilla.
+
+More recently, I was appalled when Thiel spoke at the Republican convention, pandering to the crowd with Fox-News-style attack lines that were unworthy of a mind of his caliber.  I lost a lot of respect for Thiel that day.  But that’s the thing: unlike with literally every other speaker at the GOP convention, my respect for Thiel had started from a point that made a decrease possible.
+
+I reject huge parts of Thiel’s worldview.  I also reject any worldview that would threaten me with ostracism for talking to Thiel, attending a workshop he sponsors, or saying anything good about him.  This is not actually a difficult balance.
+
+Today, when it sometimes seems like much of the world has united in salivating for a cataclysmic showdown between whites and non-whites, Christians and Muslims, “dudebros” and feminists, etc., and that the salivators differ mostly just in who they want to see victorious in the coming battle and who humiliated, it can feel lonely to stick up for naïve, outdated values like the free exchange of ideas, friendly disagreement, the presumption of innocence, and the primacy of the individual over the tribe.  But those are the values that took us all the way from a bronze spear through the enemy’s heart to a snarky rebuttal on the arXiv, and they’ll continue to build anything worth building.
+
+And now to watch the third debate (I’ll check the comments afterward)…
+
+Update (Oct. 20): See also this post from a blog called TheMoneyIllusion. My favorite excerpt:
+
+So let’s see. Not only should Trump be shunned for his appalling political views, an otherwise highly respected Silicon Valley entrepreneur who just happens to support Trump (along with 80 million other Americans) should also be shunned. And a person who despises Trump and works against him but who defends Thiel’s right to his own political views should also resign. Does that mean I should be shunned too? After all, I’m a guy who hates Trump, writing a post that defends a guy who hates Trump, who wrote a post defending a guy’s freedom to support Trump, who in turn supports Trump. And suppose my mother sticks up for me? Should she also be shunned?
+
+It’s almost enough to make me vote . . . no, just kidding.
+
+Question … Which people on the left are beyond the pale? Suppose Thiel had supported Hugo Chavez? How about Castro? Mao? Pol Pot? Perhaps the degrees of separation could be calibrated to the awfulness of the left-winger:
+
+Chavez: One degree of separation. (Corbyn, Sean Penn, etc.)
+
+Castro: Two degrees of separation is still toxic.
+
+Lenin: Three degrees of separation.
+
+Mao: Four degrees of separation.
+
+Pol Pot: Five degrees of separation.
+
+================================================================================
+
+TITLE: Avi Wigderson’s “Permanent” Impact on Me
+URL: https://scottaaronson.blog/?m=201610
+CONTENT:
+The following is the lightly-edited transcript of a talk that I gave a week ago, on Wednesday October 5, at Avi Wigderson’s 60th birthday conference at the Institute for Advanced Study in Princeton.  Videos of all the talks (including mine) are now available here.
+
+Thanks so much to Sanjeev Arora, Boaz Barak, Ran Raz, Peter Sarnak, and Amir Shpilka for organizing the conference and for inviting me to speak; to all the other participants and speakers for a great conference; and of course to Avi himself for being Avi. –SA
+
+I apologize that I wasn’t able to prepare slides for today’s talk. But the good news is that, ever since I moved to Texas two months ago, I now carry concealed chalk everywhere I go. [Pull chalk out of pocket]
+
+My history with Avi goes back literally half my life. I spent a semester with him at Hebrew University, and then a year with him as a postdoc here at IAS. Avi has played a bigger role in my career than just about anyone—he helped me professionally, he helped me intellectually, and once I dated and then married an Israeli theoretical computer scientist (who was also a postdoc in Avi’s group), Avi even helped me learn Hebrew. Just today, Avi taught me the Hebrew word for the permanent of a matrix. It turns out that it’s [throaty noises] pehhrmahnent.
+
+But it all started with a talk that Avi gave in Princeton in 2000, which I attended as a prospective graduate student. That talk was about the following function of an n×n matrix A∈Rn×n, the permanent:
+
+$$ \text{Per}(A) = \sum_{\sigma \in S_n} \prod_{i=1}^n a_{i,\sigma(i)}. $$
+
+Avi contrasted that function with a superficially similar function, the determinant:
+
+$$ \text{Det}(A) = \sum_{\sigma \in S_n} (-1)^{\text{sgn}(\sigma)} \prod_{i=1}^n a_{i,\sigma(i)}. $$
+
+In this talk, I want to share a few of the amazing things Avi said about these two functions, and how the things he said then reverberated through my entire career.
+
+Firstly, like we all learn in kindergarten or whatever, the determinant is computable in polynomial time, for example by using Gaussian elimination. By contrast, Valiant proved in 1979 that computing the permanent is #P-complete—which means, at least as hard as any combinatorial counting problem, a class believed to be even harder than NP-complete.
+
+So, despite differing from each other only by some innocent-looking -1 factors, which the determinant has but the permanent lacks, these two functions effectively engage different regions of mathematics. The determinant is linear-algebraic and geometric; it’s the product of the eigenvalues and the volume of the parallelipiped defined by the row vectors. But the permanent is much more stubbornly combinatorial. It’s not quite as pervasive in mathematics as the determinant is, though it does show up. As an example, if you have a bipartite graph G, then the permanent of G’s adjacency matrix counts the number of perfect matchings in G.
+
+When n=2, computing the permanent doesn’t look too different from computing the determinant: indeed, we have
+
+$$
+\text{Per}\left(
+\begin{array}
+[c]{cc}%
+a & b\\
+c & d
+\end{array}
+\right) =\text{Det}\left(
+\begin{array}
+[c]{cc}%
+a & -b\\
+c & d
+\end{array}
+\right).
+$$
+
+But as n gets larger, the fact that the permanent is #P-complete means that it must get exponentially harder to compute than the determinant, unless basic complexity classes collapse. And indeed, to this day, the fastest known algorithm to compute an n×n permanent, Ryser’s algorithm, takes O(n2n) time, which is only modestly better than the brute-force algorithm that just sums all n! terms.
+
+Yet interestingly, not everything about the permanent is hard. So for example, if A is nonnegative, then in 1997, Jerrum, Sinclair, and Vigoda famously gave a polynomial-time randomized algorithm to approximate Per(A) to within a 1+ε multiplicative factor, for ε>0 as small as you like. As an even simpler example, if A is nonnegative and you just want to know whether its permanent is zero or nonzero, that’s equivalent to deciding whether a bipartite graph has at least one perfect matching. And we all know that that can be done in polynomial time.
+
+OK, but the usual algorithm from the textbooks that puts the matching problem in the class P is already a slightly nontrivial one—maybe first grade rather than kindergarten! It involves repeatedly using depth-first search to construct augmenting paths, then modifying the graph, etc. etc.
+
+Sixteen years ago in Princeton, the first thing Avi said that blew my mind is that there’s a vastly simpler polynomial-time algorithm to decide whether a bipartite graph has a perfect matching—or equivalently, to decide whether a nonnegative matrix has a zero or nonzero permanent. This algorithm is not quite as efficient as the textbook one, but it makes up for it by being more magical.
+
+So here’s what you do: you start with the 0/1 adjacency matrix of your graph. I’ll do a 2×2 example, since that’s all I’ll be able to compute on the fly:
+
+$$ \left(
+\begin{array}
+[c]{cc}%
+1 & 1\\
+0 & 1
+\end{array}
+\right). $$
+
+Then you normalize each row so it sums to 1. In the above example, this would give
+
+$$ \left(
+\begin{array}
+[c]{cc}%
+\frac{1}{2} & \frac{1}{2} \\
+0 & 1
+\end{array}
+\right). $$
+
+Next you normalize each column so it sums to 1:
+
+$$ \left(
+\begin{array}
+[c]{cc}%
+1 & \frac{1}{3} \\
+0 & \frac{2}{3}
+\end{array}
+\right). $$
+
+OK, but now the problem is that the rows are no longer normalized, so you normalize them again:
+
+$$ \left(
+\begin{array}
+[c]{cc}%
+\frac{3}{4} & \frac{1}{4} \\
+0 & 1
+\end{array}
+\right). $$
+
+Then you normalize the columns again, and so on. You repeat something like n3log(n) times. If, after that time, all the row sums and column sums have become within ±1/n of 1, then you conclude that the permanent was nonzero and the graph had a perfect matching. Otherwise, the permanent was zero and the graph had no perfect matching.
+
+What gives? Well, it’s a nice exercise to prove why this works. I’ll just give you a sketch: first, when you multiply any row or column of a matrix by a scalar, you multiply the permanent by that same scalar. By using that fact, together with the arithmetic-geometric mean inequality, it’s possible to prove that, in every iteration but the first, when you rebalance all the rows or all the columns to sum to 1, you can’t be decreasing the permanent. The permanent increases monotonically.
+
+Second, if the permanent is nonzero, then after the first iteration it’s at least 1/nn, simply because we started with a matrix of 0’s and 1’s.
+
+Third, the permanent is always at most the product of the row sums or the product of the column sums, which after the first iteration is 1.
+
+Fourth, at any iteration where there’s some row sum or column sum that’s far from 1, rescaling must not only increase the permanent, but increase it by an appreciable amount—like, a 1+1/n2 factor or so.
+
+Putting these four observations together, we find that if the permanent is nonzero, then our scaling procedure must terminate after a polynomial number of steps, with every row sum and every column sum close to 1—since otherwise, the permanent would just keep on increasing past its upper bound of 1.
+
+But a converse statement is also true. Suppose the matrix can be scaled so that every row sum and every column sum gets within ±1/n of 1. Then the rescaled entries define a flow through the bipartite graph, with roughly the same amount of flow through each of the 2n vertices. But if such a flow exists, then Hall’s Theorem tells you that there must be a perfect matching (and hence the permanent must be nonzero)—since if a matching didn’t exist, then there would necessarily be a bottleneck preventing the flow.
+
+Together with Nati Linial and Alex Samorodnitsky, Avi generalized this to show that scaling the rows and columns gives you a polynomial-time algorithm to approximate the permanent of a nonnegative matrix. This basically follows from the so-called Egorychev-Falikman Theorem, which says that the permanent of a doubly stochastic matrix is at least n!/nn. The approximation ratio that you get this way, ~en, isn’t nearly as good as Jerrum-Sinclair-Vigoda’s, but the advantage is that the algorithm is deterministic (and also ridiculously simple).
+
+For myself, though, I just filed away this idea of matrix scaling for whenever I might need it. It didn’t take long. A year after Avi’s lecture, when I was a beginning grad student at Berkeley, I was obsessing about the foundations of quantum mechanics. Specifically, I was obsessing about the fact that, when you measure a quantum state, the rules of quantum mechanics tell you how to calculate the probability that you’ll see a particular outcome. But the rules are silent about so-called multiple-time or transition probabilities. In other words: suppose we adopt Everett’s Many-Worlds view, according to which quantum mechanics needs to be applied consistently to every system, regardless of scale, so in particular, the state of the entire universe (including us) is a quantum superposition state. We perceive just one branch, but there are also these other branches where we made different choices or where different things happened to us, etc.
+
+OK, fine: for me, that’s not the troubling part! The troubling part is that quantum mechanics rejects as meaningless questions like the following: given that you’re in this branch of the superposition at time t1, what’s the probability that you’ll be in that branch at time t2, after some unitary transformation is applied? Orthodox quantum mechanics would say: well, either someone measured you at time t1, in which case their act of measuring collapsed the superposition and created a whole new situation. Or else no one measured at t1—but in that case, your state at time t1 was the superposition state, full stop. It’s sheer metaphysics to imagine a “real you” that jumps around from one branch of the superposition to another, having a sequence of definite experiences.
+
+Granted, in practice, branches of the universe’s superposition that split from each other tend never to rejoin, for the same thermodynamic reasons why eggs tend never to unscramble themselves. And as long as the history of the Everettian multiverse has the structure of a tree, we can sensibly define transition probabilities. But if, with some technology of the remote future, we were able to do quantum interference experiments on human brains (or other conscious entities), the rules of quantum mechanics would no longer predict what those beings should see—not even probabilistically.
+
+I was interested in the question: suppose we just wanted to postulate transition probabilities, with the transitions taking place in some fixed orthogonal basis. What would be a mathematically reasonable way to do that? And it occurred to me that one thing you could do is the following. Suppose for simplicity that you have a pure quantum state, which is just a unit vector of n complex numbers called amplitudes:
+
+$$ \left(
+\begin{array}
+[c]{c}%
+\alpha_{1}\\
+\vdots\\
+\alpha_{n}%
+\end{array}
+\right) $$
+
+Then the first rule of quantum mechanics says that you can apply any unitary transformation U (that is, any norm-preserving linear transformation) to map this state to a new one:
+
+$$ \left(
+\begin{array}
+[c]{c}%
+\beta_{1}\\
+\vdots\\
+\beta_{n}%
+\end{array}
+\right) =\left(
+\begin{array}
+[c]{ccc}%
+u_{11} & \cdots & u_{1n}\\
+\vdots & \ddots & \vdots\\
+u_{n1} & \cdots & u_{nn}%
+\end{array}
+\right) \left(
+\begin{array}
+[c]{c}%
+\alpha_{1}\\
+\vdots\\
+\alpha_{n}%
+\end{array}
+\right). $$
+
+The second rule of quantum mechanics, the famous Born Rule, says that if you measure in the standard basis before applying U, then the probability that you’ll find youself in state i equals |αi|2. Likewise, if you measure in the standard basis after applying U, the probability that you’ll find youself in state j equals |βj|2.
+
+OK, but what’s the probability that you’re in state i at the initial time, and then state j at the final time? These joint probabilities, call them pij, had better add up to |αi|2 and |βj|2, if we sum the rows and columns respectively. And ideally, they should be “derived” in some way from the unitary U—so that for example, if uij=0 then pij=0 as well.
+
+So here’s something you could do: start by replacing each uij by its absolute value, to get a nonnegative matrix. Then, normalize the ith row so that it sums to |αi|2, for each i. Then normalize the jth column so that it sums to |βj|2, for each j. Then normalize the rows, then the columns, and keep iterating until hopefully you end up with all the rows and columns having the right sums.
+
+So the first question I faced was, does this process converge? And I remembered what Avi taught me about the permanent. In this case, because of the nonuniform row and column scalings, the permanent no longer works as a progress measure, but there’s something else that does work. Namely, as a first step, we can use the Max-Flow/Min-Cut Theorem to show that there exists a nonnegative matrix F=(fij) such that fij=0 whenever uij=0, and also
+
+$$ \sum_j f_{ij} = \left|\alpha_i\right|^2 \forall i,\ \ \ \ \ \sum_i f_{ij} = \left|\beta_j\right|^2 \forall j. $$
+
+Then, letting M=(mij) be our current rescaled matrix (so that initially mij:=|uij|), we use
+
+$$ \prod_{i,j : u_{ij}\ne 0} m_{ij}^{f_{ij}} $$
+
+as our progress measure. By using the nonnegativity of the Kullback-Leibler divergence, one can prove that this quantity never decreases. So then, just like with 0/1 matrices and the permanent, we get eventual convergence, and indeed convergence after a number of iterations that’s polynomial in n.
+
+I was pretty stoked about this until I went to the library, and discovered that Erwin Schrödinger had proposed the same matrix scaling process in 1931! And Masao Nagasawa and others then rigorously analyzed it. OK, but their motivations were somewhat different, and for some reason they never talked about finite-dimensional matrices, only infinite-dimensional ones.
+
+I can’t resist telling you my favorite open problem about this matrix scaling process: namely, is it stable under small perturbations? In other words, if I change one of the αi‘s or uij‘s by some small ε, then do the final pij‘s also change by at most some small δ? To clarify, several people have shown me how to prove that the mapping to the pij‘s is continuous. But for computer science applications, one needs something stronger: namely that when the matrix M, and the row and column scalings, actually arise from a unitary matrix in the way above, we get strong uniform continuity, with a 1/nO(1) change to the inputs producing only a 1/nO(1) change to the outputs (and hopefully even better than that).
+
+The more general idea that I was groping toward or reinventing here is called a hidden-variable theory, of which the most famous example is Bohmian mechanics. Again, though, Bohmian mechanics has the defect that it’s only formulated for some exotic state space that the physicists care about for some reason—a space involving pointlike objects called “particles” that move around in 3 Euclidean dimensions (why 3? why not 17?).
+
+Anyway, this whole thing led me to wonder: under the Schrödinger scaling process, or something like it, what’s the computational complexity of sampling an entire history of the hidden variable through a quantum computation? (“If, at the moment of your death, your whole life history flashes before you in an instant, what can you then efficiently compute?”)
+
+Clearly the complexity is at least BQP (i.e., quantum polynomial time), because even sampling where the hidden variable is at a single time is equivalent to sampling the output distribution of a quantum computer. But could the complexity be even more than BQP, because of the correlations between the hidden variable values at different times? I noticed that, indeed, sampling a hidden variable history would let you do some crazy-seeming things, like solve the Graph Isomorphism problem in polynomial time (OK, fine, that seemed more impressive at the time than it does after Babai’s breakthrough), or find collisions in arbitrary cryptographic hash functions, or more generally, solve any problem in the complexity class SZK (Statistical Zero Knowledge).
+
+But you might ask: what evidence do we have that any these problems are hard even for garden-variety quantum computers? As many of you know, it’s widely conjectured today that NP⊄BQP—i.e., that quantum computers can’t solve NP-complete problems in polynomial time. And in the “black box” setting, where all you know how to do is query candidate solutions to your NP-complete problem to check whether they’re valid, it’s been proven that quantum computers don’t give you an exponential speedup: the best they can give is the square-root speedup of Grover’s algorithm.
+
+But for these SZK problems, like finding collisions in hash functions, who the hell knows? So, this is the line of thought that led me to probably the most important thing I did in grad school, the so-called quantum lower bound for collision-finding. That result says that, if (again) your hash function is only accessible as a black box, then a quantum computer can provide at most a polynomial speedup over a classical computer for finding collisions in it (in this case, it turns out, at most a two-thirds power speedup). There are several reasons you might care about that, such as showing that one of the basic building blocks of modern cryptography could still be secure in a world with quantum computers, or proving an oracle separation between SZK and BQP. But my original motivation was just to understand how transition probabilities would change quantum computation.
+
+The permanent has also shown up in a much more direct way in my work on quantum computation. If we go back to Avi’s lecture from 2000, a second thing he said that blew my mind was that apparently, or so he had heard, even the fundamental particles of the universe know something about the determinant and the permanent. In particular, he said, fermions—the matter particles, like the quarks and electrons in this stage—have transition amplitudes that are determinants of matrices. Meanwhile, bosons—the force-carrying particles, like the photons coming from the ceiling that let you see this talk—have transition amplitudes that are permanents of matrices.
+
+Or as Steven Weinberg, one of the great physicists on earth, memorably put it in the first edition of his recent quantum mechanics textbook: “in the case of bosons, it is also a determinant, except without minus signs.” I’ve had the pleasure of getting to know Weinberg at Austin, so recently I asked him about that line. He told me that of course he knew that the determinant without minus signs is called a permanent, but he thought no one else would know! As far as he knew, the permanent was just some esoteric function used by a few quantum field theorists who needed to calculate boson amplitudes.
+
+Briefly, the reason why the permanent and determinant turn up here is the following: whenever you have n particles that are identical, to calculate the amplitude for them to do something, you need to sum over all n! possible permutations of the particles. Furthermore, each contribution to the sum is a product of n complex numbers, one uij for each particle that hops from i to j. But there’s a difference: when you swap two identical bosons, nothing happens, and that’s why bosons give rise to the permanent (of an n×n complex matrix, if there are n bosons). By contrast, when you swap two identical fermions, the amplitude for that state of the universe gets multiplied by -1, and that’s why fermions give rise to the determinant.
+
+Anyway, Avi ended his talk with a quip about how unfair it seemed to the bosons that they should have to work so much harder than the fermions just to calculate where they should be!
+
+And then that one joke of Avi—that way of looking at things—rattled around in my head for a decade, like a song I couldn’t get rid of. It raised the question: wait a minute, bosons—particles that occur in Nature—are governed by a #P-complete function? Does that mean we could actually use bosons to solve #P-complete problems in polynomial time? That seems ridiculous, like the kind of nonsense I’m fighting every few weeks on my blog! As I said before, most of us don’t even expect quantum computers to be able to solve NP-complete problems in polynomial time, let alone #P-complete ones.
+
+As it happens, Troyansky and Tishby had already taken up that puzzle in 1996. (Indeed Avi, being the social butterfly and hub node of our field that he is, had learned about the role of permaments and determinants in quantum mechanics from them.) What Troyansky and Tishby said was, it’s true that if you have a system of n identical, non-interacting bosons, their transition amplitudes are given by permanents of n×n matrices. OK, but amplitudes in quantum mechanics are not directly observable. They’re just what you use to calculate the probability that you’ll see this or that measurement outcome. But if you try to encode a hard instance of a #P-complete problem into a bosonic system, the relevant amplitudes will in general be exponentially small. And that means that, if you want a decent estimate of the permanent, you’ll need to repeat the experiment an exponential number of times. So OK, they said, nice try, but this doesn’t give you a computational advantage after all in calculating the permanent compared to classical brute force.
+
+In our 2011 work on BosonSampling, my student Alex Arkhipov and I reopened the question. We said, not so fast. It’s true that bosons don’t seem to help you in estimating the permanent of a specific matrix of your choice. But what if your goal was just to sample a random n×n matrix A∈Cn×n, in a way that’s somehow biased toward matrices with larger permanents? Now, why would that be your goal? I have no idea! But this sampling is something that a bosonic system would easily let you do.
+
+So, what Arkhipov and I proved was that this gives rise to a class of probability distributions that can be sampled in quantum polynomial time (indeed, by a very rudimentary type of quantum computer), but that can’t be sampled in classical polynomial time unless the polynomial hierarchy collapses to the third level. And even though you’re not solving a #P-complete problem, the #P-completeness of the permanent still plays a crucial role in explaining why the sampling problem is hard. (Basically, one proves that the probabilities are #P-hard even to approximate, but that if there were a fast classical sampling algorithm, then the probabilities could be approximated in the class BPPNP. So if a fast classical sampling algorithm existed, then P#P would equal BPPNP, which would collapse the polynomial hierarchy by Toda’s Theorem.)
+
+When we started on this, Arkhipov and I thought about it as just pure complexity theory—conceptually clarifying what role the #P-completeness of the permanent plays in physics. But then at some point it occurred to us: bosons (such as photons) actually exist, and experimentalists in quantum optics like to play with them, so maybe they could demonstrate some of this stuff in the lab. And as it turned out, the quantum optics people were looking for something to do at the time, and they ate it up.
+
+Over the past five years, a trend has arisen in experimental physics that goes by the name “Quantum Supremacy,” although some people are now backing away from the name because of Trump. The idea is: without yet having a universal quantum computer, can we use the hardware that we’re able to build today to demonstrate the reality of a quantum-computational speedup as clearly as possible? Not necessarily for a useful problem, but just for some problem? Of course, no experiment can prove that something is scaling polynomially rather than exponentially, since that’s an asymptotic statement. But an experiment could certainly raise the stakes for the people who deny such a statement—for example, by solving something a trillion times faster than we know how to solve it otherwise, using methods for which we don’t know a reason for them not to scale.
+
+I like to say that for me, the #1 application of quantum computing, more than breaking RSA or even simulating physics and chemistry, is simply disproving the people who say that quantum computing is impossible! So, quantum supremacy targets that application.
+
+Experimental BosonSampling has become a major part of the race to demonstrate quantum supremacy. By now, at least a half-dozen groups around the world have reported small-scale implementations—the record, so far, being an experiment at Bristol that used 6 photons, and experimentally confirmed that, yes, their transition amplitudes are given by permanents of 6×6 complex matrices. The challenge now is to build single-photon sources that are good enough that you could scale up to (let’s say) 30 photons, which is where you’d really start seeing a quantum advantage over the best known classical algorithms. And again, this whole quest really started with Avi’s joke.
+
+A year after my and Arkhipov’s work, I noticed that one also can run the connection between quantum optics and the permanent in the “reverse” direction. In other words: with BosonSampling, we used the famous theorem of Valiant, that the permanent is #P-complete, to help us argue that bosons can solve hard sampling problems. But if we know by some other means that quantum optics lets us encode #P-complete problems, then we can use that to give an independent, “quantum” proof that the permanent is #P-complete in the first place! As it happens, there is another way to see why quantum optics lets us encode #P-complete problems. Namely, we can use celebrated work by Knill, Laflamme, and Milburn (KLM) from 2001, which showed how to perform universal quantum computation using quantum optics with the one additional resource of “feed-forward measurements.” With minor modifications, the construction by KLM also lets us encode a #P-complete problem into a bosonic amplitude, which we know is a permanent—thereby proving that the permanent is #P-complete, in what I personally regard as a much more intuitive way than Valiant’s original approach based on cycle covers. This illustrates a theme that we’ve seen over and over in the last 13 years or so, which is the use of quantum methods and arguments to gain insight even about classical computation.
+
+Admittedly, I wasn’t proving anything here in classical complexity theory that wasn’t already known, just giving a different proof for an old result! Extremely recently, however, my students Daniel Grier and Luke Schaeffer have extended my argument based on quantum optics, to show that computing the permanent of a unitary or orthogonal matrix is #P-complete. (Indeed, even over finite fields of characteristic k, computing the permanent of an orthogonal matrix is a ModkP-complete problem, as long as k is not 2 or 3—which turns out to be the tight answer.) This is not a result that we previously knew by any means, whether quantum or classical.
+
+I can’t resist telling you the biggest theoretical open problem that arose from my and Arkhipov’s work. We would like to say: even if you had a polynomial-time algorithm that sampled a probability distribution that was merely close, in variation distance, to the BosonSampling distribution, that would already imply a collapse of the polynomial hierarchy. But we’re only able to prove that assuming a certain problem is #P-complete, which no one has been able to prove #P-complete. That problem is the following:
+
+Given an n×n matrix A, each of whose entries is an i.i.d. complex Gaussian with mean 0 and variance 1 (that is, drawn from N(0,1)C), estimate |Per(A)|2, to within additive error ±ε·n!, with probability at least 1-δ over the choice of A. Do this in time polynomial in n, 1/ε, and 1/δ.
+
+Note that, if you care about exactly computing the permanent of a Gaussian random matrix, or about approximating the permanent of an arbitrary matrix, we know how to prove both of those problems #P-complete. The difficulty “only” arises when we combine approximation and average-case in the same problem.
+
+At the moment, we don’t even know something more basic, which is: what’s the distribution over |Per(A)|2, when A is an n×n matrix of i.i.d. N(0,1)C Gaussians? Based on numerical evidence, we conjecture that the distribution converges to lognormal as n gets large. By using the interpretation of the determinant as the volume of a parallelipiped, we can prove that the distribution over |Det(A)|2 converges to lognormal. And the distribution over |Per(A)|2 looks almost the same when you plot it. But not surprisingly, the permanent is harder to analyze.
+
+This brings me to my final vignette. Why would anyone even suspect that approximating the permanent of a Gaussian random matrix would be a #P-hard problem? Well, because if you look at the permanent of an n×n matrix over a large enough finite field, say Fp, that function famously has the property of random self-reducibility. This means: the ability to calculate such a permanent in polynomial time, on 90% all matrices in Fpn×n, or even for that matter on only 1% of them, implies the ability to calculate it in polynomial time on every such matrix.
+
+The reason for this is simply that the permanent is a low-degree polynomial, and low-degree polynomials have extremely useful error-correcting properties. In particular, if you can compute such a polynomial on any large fraction of points, then you can do noisy polynomial interpolation (e.g., the Berlekamp-Welch algorithm, or list decoding), in order to get the value of the polynomial on an arbitrary point.
+
+I don’t specifically remember Avi talking about the random self-reducibility of the permanent in his 2000 lecture, but he obviously would have talked about it! And it was really knowing about the random self-reducibility of the permanent, and how powerful it was, that led me and Alex Arkhipov to the study of BosonSampling in the first place.
+
+In complexity theory, the random self-reducibility of the permanent is hugely important because it was sort of the spark for some of our most convincing examples of non-relativizing results—that is, results that fail relative to a suitable oracle. The most famous such result is that #P, and for that matter even PSPACE, admit interactive protocols (the IP=PSPACE theorem). In the 1970s, Baker, Gill, and Solovay pointed out that non-relativizing methods would be needed to resolve P vs. NP and many of the other great problems of the field.
+
+In 2007, Avi and I wrote our only joint paper so far. In that paper, we decided to take a closer look at the non-relativizing results based on interactive proofs. We said: while it’s true that these results don’t relativize—that is, there are oracles relative to which they fail—nevertheless, these results hold relative to all oracles that themselves encode low-degree polynomials over finite fields (such as the permanent). So, introducing a term, Avi and I said that results like IP=PSPACE algebrize.
+
+But then we also showed that, if you want to prove P≠NP—or for that matter, even prove circuit lower bounds that go “slightly” beyond what’s already known (such as NEXP⊄P/poly)—you’ll need techniques that are not only non-relativizing, but also non-algebrizing. So in some sense, the properties of the permanent that are used (for example) in proving that it has an interactive protocol, just “aren’t prying the black box open wide enough.”
+
+I have a more recent result, from 2011 or so, that I never got around to finishing a paper about. In this newer work, I decided to take another look at the question: what is it about the permanent that actually fails to relativize? And I prove the following result: relative to an arbitrary oracle A, the class #P has complete problems that are both random self-reducible and downward self-reducible (that is, reducible to smaller instances of the same problem). So, contrary to what certainly I and maybe others had often thought, it’s not the random self-reducibility of the permanent that’s the crucial thing about it. What’s important, instead, is a further property that the permanent has, of being self-checkable and self-correctible.
+
+In other words: given (say) a noisy circuit for the permanent, it’s not just that you can correct that circuit to compute whichever low-degree polynomial it was close to computing. Rather, it’s that you can confirm that the polynomial is in fact the permanent, and nothing else.
+
+I like the way Ketan Mulmuley thinks about this phenomenon in his Geometric Complexity Theory, which is a speculative, audacious program to try to prove that the permanent is harder than the determinant, and to tackle the other great separation questions of complexity theory (including P vs. NP), by using algebraic geometry and representation theory. Mulmuley says: the permanent is a polynomial in the entries of an n×n matrix that not only satisfies certain symmetries (e.g., under interchanging rows or columns), but is uniquely characterized by those symmetries. In other words, if you find a polynomial that passes certain tests—for example, if it behaves in the right way under rescaling and interchanging rows and columns—then that polynomial must be the permanent, or a scalar multiple of the permanent. Similarly, if you find a polynomial that passes the usual interactive proof for the permanent, that polynomial must be the permanent. I think this goes a long way toward explaining why the permanent is so special: it’s not just any hard-to-compute, low-degree polynomial; it’s one that you can recognize when you come across it.
+
+I’ve now told you about the eventual impact of one single survey talk that Avi gave 16 years ago—not even a particularly major or important one. So you can only imagine what Avi’s impact must have been on all of us, if you integrate over all the talks he’s given and papers he’s written and young people he’s mentored and connections he’s made his entire career. May that impact be permanent.
+
+================================================================================
+
+TITLE: Stuff That’s Happened
+URL: https://scottaaronson.blog/?m=201610
+CONTENT:
+Hi from FOCS’2016 in scenic New Brunswick, NJ!  (I just got here from Avi Wigderson’s 60th birthday conference, to which I’ll devote another post.)
+
+In the few weeks since I last overcame the activation barrier to blog, here are some things that happened.
+
+Politics
+
+Friday’s revelation, of Trump boasting on tape to George W. Bush’s cousin about his crotch-grabbing escapades, did not increase my opposition to Trump, for a very simple reason: because I’d already opposed Trump by the maximum amount that’s possible.  Nevertheless, I’ll be gratified if this news brings Trump down, and leads to the landslide defeat he’s deserved from the beginning for 101000 reasons.
+
+Still, history (including the history of this election) teaches us not to take things for granted.  So if you’re still thinking of voting for Trump, let me recommend Scott Alexander’s endorsement of “anyone but Trump.”  I’d go even further than my fellow Scott A. in much of what he says, but his post is nevertheless a masterful document, demonstrating how someone who nobody could accuse of being a statist social-justice warrior, but who “merely” has a sense for science and history and Enlightenment ideals and the ironic and absurd, can reach the conclusion that Trump had better be stopped, and with huge argumentative margin to spare.
+
+See also an interview with me on Huffington Post about TrumpTrading, conducted by Linchuan Zhang.  If you live in a swing state and support Johnson, or in a safe state and support Hillary, I still recommend signing up, since even a 13% probability of a Trump win is too high.  I’ve found a partner in Ohio, a libertarian-leaning professor.  The only way I can foresee not going through with the swap, is if the bus tape causes Trump’s popularity to drop so precipitously that Texas becomes competitive.
+
+In the meantime, it’s also important that we remain vigilant about the integrity of the election—not about in-person voter fraud, which statistically doesn’t exist, but about intimidation at the polls and the purging of eligible voters and tampering with electronic voting machines.  As I’ve mentioned before on this blog, my childhood friend Alex Halderman, now a CS professor at the University of Michigan, has been at the forefront of demonstrating the security problems with electronic voting machines, and advocating for paper trails.  Alex and his colleagues have actually succeeded in influencing how elections are conducted in many states—but not in all of them.  If you want to learn more, check out an in-depth profile of Alex in the latest issue of Playboy.  (There’s no longer nudity in Playboy, so you can even read the thing at work…)
+
+Now On To SCIENCE
+
+As some of you probably saw, Mohammad Bavarian, Giulio Gueltrini, and I put out a new paper about computability theory in a universe with closed timelike curves.  This complements my and John Watrous’s earlier work about complexity theory in a CTC universe, where we showed that finding a fixed-point of a bounded superoperator is a PSPACE-complete problem.  In the new work, we show that finding a fixed-point of an unbounded superoperator has the same difficulty as the halting problem.
+
+Some of you will also have seen that folks from the Machine Intelligence Research Institute (MIRI)—Scott Garrabrant, Tsvi Benson-Tilsen, Andrew Critch, Nate Soares, and Jessica Taylor—recently put out a major 130-page paper entitled “Logical Induction”.  (See also their blog announcement.)  This paper takes direct aim at a question that’s come up repeatedly in the comments section of this blog: namely, how can we sensibly assign probabilities to mathematical statements, such as “the 1010^1000th decimal digit of π is a 3″?  The paper proposes an essentially economic framework for that question, involving a marketplace for “mathematical truth futures,” in which new mathematical truths get revealed one by one, and one doesn’t want any polynomial-time traders to be able to make an infinite amount of money by finding patterns in the truths that the prices haven’t already factored in.  I won’t be able to do justice to the work in this paragraph (or even come close), but I hope this sophisticated paper gets the attention it deserves from mathematicians, logicians, CS theorists, AI people, economists, and anyone else who’s ever wondered how a “Bayesian” could sleep at night after betting on (say) the truth or falsehood of Goldbach’s Conjecture.  Feel free to discuss in the comments section.
+
+My PhD student Adam Bouland and former visiting student Lijie Chen, along with Dhiraj Holden, Justin Thaler, and Prashant Vasudevan, have put out a new paper that achieves an oracle separation between the complexity classes SZK and PP (among many other things)—thereby substantially generalizing my quantum lower bound for the collision problem, and solving an open problem that I’d thought about without success since 2002.  Huge relativized congratulations to them!
+
+A new paper by my PhD student Shalev Ben-David and Or Sattath, about using ideas from quantum money to create signed quantum tokens, has been making the rounds on social media.  Why?  Read the abstract and see for yourself!  (My only “contribution” was to tell them not to change a word.)
+
+Several people wrote in to tell me about a recent paper by Henry Lin and Max Tegmark, which tries to use physics analogies and intuitions to explain why deep learning works as well as it does.  To my inexpert eyes, the paper seemed to contain a lot of standard insights from computational learning theory (for example, the need to exploit symmetries and regularities in the world to get polynomial-size representations), but expressed in a different language.  What confused me most was the paper’s claim to prove “no-flattening theorems” showing the necessity of large-depth neural networks—since in the sense I would mean, such a theorem couldn’t possibly be proved without a major breakthrough in computational complexity (e.g., separating the levels of the class TC0). Again, anyone who understands what’s going on is welcome to share in the comments section.
+
+Sevag Gharibian asked me to advertise that the Call for Papers for the 2017 Conference on Computational Complexity, to be held July 6-9 in Riga, Latvia, is now up.
+
+================================================================================
+

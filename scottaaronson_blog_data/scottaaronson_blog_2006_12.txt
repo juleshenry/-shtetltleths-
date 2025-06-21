@@ -1,0 +1,113 @@
+TITLE: (To all x MerryChristmas(x)) and (To all x GoodNight(x))
+URL: https://scottaaronson.blog/?m=200612
+CONTENT:
+
+
+Hearty, nontrivial Christmas greetings from SAT-a-Clause, the patron saint of theoretical computer scientists! Tomorrow night, SAT-a-Clause will once again descend all possible chimneys in parallel, nondeterministically guess which ones lead to cookies, and fill the corresponding “STOC-ings” with loads of publishable results!
+
+As I’ve done every year since I was about 14, I’ll spend Christmas Eve at my best friend Alex’s house (this year bringing the girlfriend along). My role at Alex’s family gathering, of course, is to wage the secular-humanist War On Christmas: sanctimoniously insisting that guests say “Happy Holidays” instead of “Merry Christmas,” belching loudly during hymns and carols, mocking the Savior as a “competent if unoriginal 1st-century rabbi,” and just generally dampening Christian faith, fomenting impiety, and advancing the cause of Satan. After all, what Christmas Eve celebration would be complete without a JudeoGrinch?
+
+If your idea of the Christmas spirit includes, you know, peace on Earth, goodwill to all mankind, etc., you should check out this New York Times essay by Peter Singer, which Luca blogged about previously. Singer strikes me as one of the few public intellectuals who’s actually gotten wiser with age, as opposed to yet more cranky and intransigent. In this latest piece, he shows himself to be less concerned with chicken liberation than with eradicating rotavirus and malaria, less interested in the Talmudic question of whether a billionaire who’s given away 90% of his wealth is now morally obligated to give away the rest than in the practical question of how to get people to give more. I also recommend this column from last Christmas season by Nicholas Kristof — a writer who’s occassionally mistaken, never less than a mensch — in which he compares the War on Christmas to the war in Darfur, and challenges Bill O’Reilly to join him in witnessing the latter.
+
+================================================================================
+
+TITLE: Mercenary in the String Wars
+URL: https://scottaaronson.blog/?m=200612
+CONTENT:
+My sojourn in Northern California is now at an end; on Sunday I flew to my parents’ place near Philadelphia for Hanukhrismanewyears.  But not before going to Stanford to give a talk to their string theory group about “Computational Complexity and the Anthropic Principle.”  Here are the notes from that talk; you can think of them as a Quantum Computing Since Democritus Special Bonus Lecture.
+
+(The best part of the talk — the lengthy arguments with Lenny Susskind, Andrei Linde, and the other stringers and cosmologists, in which I repeatedly used humor to mask my utter lack of understanding — is sadly lost to eternity.  Fortunately, I’m sure that new such arguments will erupt in the comments section.)
+
+In preparation for meeting Susskind and the other Stanford stringers, I made sure to brush up on both sides of the String Wars.  On the anti-string side, I read Peter Woit’s Not Even Wrong and Lee Smolin’s The Trouble With Physics.  On the pro-string side, I read Susskind’s The Cosmic Landscape and also spent hours talking with Greg Kuperberg, who tried to convince me that critics of string theory are as “intellectually non-serious” as quantum computing skeptics or Ralph Nader voters.  I heartily recommend all three of the books.
+
+So, what did I learn at Stanford?   Among other things, that when you talk to string theorists in person, they’re much more open-minded and reasonable than you’d expect!  Of course, when your de facto spokesman is the self-parodying Luboš Motl — who often manages to excoriate feminists, climatologists, and loop quantum gravity theorists in the very same sentence — it’s hard not to seem reasonable by comparison.   But I’m not even talking about him.
+
+(Conflict-of-interest warning: I’m painfully well aware that, so long as Luboš is around, I can only ever be the second-funniest physics blogger — even if the world champion in this field isn’t trying to be funny.)
+
+In general, I’ve found that tolerance for alternative ideas, willingness to engage with counterarguments, rejection of appeals to authority, and so on are all greater when talking to string theorists in person than when attending their talks or reading their books and articles.  Maybe that’s to be expected — to some extent it’s true of every field!  But with string theorists, the magnitude of the difference always astonishes me.
+
+Alright, let me get more concrete.  One of the few nontrivial points of agreement between string theory and loop quantum gravity seems to be that, in any bounded region of spacetime, the number of bits of information is finite: at most ~1069 bits per square meter of surface area, or (equivalently) at most ~1 bit per Planck area.  In loop quantum gravity, this is basically because one bit of information is “stored” in each Planck area.  In string theory, it’s much more subtle than that: the bits of information can’t be put into any sort of one-to-one correspondence with the Planck areas on the horizon, but they both add up to the same number.  (Ignoring a factor of 4, which being a complexity theorist, I don’t care about.)
+
+Now, much of my conversation with Susskind and fellow string theorist Steve Shenker focused on the following question: isn’t it a bizarre coincidence that the Planck areas and the bits of information should both add up to the same number, if there’s no “dual” description of string theory in which each bit (or rather qubit) is stored in a Planck area?  Susskind agreed with me that such a “local” description of string theory (local on the boundary, not in the bulk) would be desirable — and that, if there isn’t such a description, then that by itself is a fundamental fact worthy of more attention.  I’d expected Susskind and Shenker to brush aside my question as idle pontificating; instead, they seemed to want to reinvent string theory that very afternoon so that my question would have an answer!
+
+When it became clear that no such reinvention of the theory was forthcoming (at least that afternoon), I suggested the following.  We’ve got this one proposal, string theory, which has had some spectacular technical successes (like “explaining” the Bekenstein-Hawking entropy), but which, setting aside its other well-known problems, offers no “local” description of spacetime in terms of qubits and quantum circuits at the Planck scale.  Then we’ve got this other proposal, loop quantum gravity, which has had fewer successes, but which does attempt such a local description at the Planck scale.  So, if we agree that such a local description is our eventual goal, then shouldn’t an outsider guess that string theory and loop quantum gravity are probably just different footprints of the same beast — much like the different string theories themselves were found to be different limiting cases of an as-yet-unknown M-theory?
+
+Susskind agreed that such a convergence — between the “top-down” picture of string theory, which grew out of conventional high-energy physics, and a “bottom-up” picture in terms of qubits at the Planck scale — was possible or even likely.  He stressed that his opposition was not to the idea of describing spacetime in terms of local interactions of qubits, but rather to the specific technical program of loop quantum gravity, and to the exaggerated claims often made on that program’s behalf.  When I reminded him that other people complain about exaggerated claims made on string theory’s behalf, he replied that the two cases were not even remotely comparable.
+
+All in all, it was an extremely productive and enjoyable visit — one in which the conversation topics ranged over (among other things) the explanatory role of the Anthropic Principle, the possibility that the entire universe arose as a quantum fluctuation, the prospects for an efficient quantum algorithm for Graph Isomorphism, the relation between thermodynamics and quantum error-correction, and whether or not Gerard ‘t Hooft actually disbelieves quantum mechanics.  Susskind told me, half-jokingly, that the Stanford string theory group was the world’s hotbed of anti-Landscape sentiment, and the arguments that I saw and participated in on my visit gave me no reason to doubt him.
+
+So what are we to make of the fact that, on the one hand, the string theorists are such swell folks in person, and on the other hand, even the most cursory glance at their writings will reveal that the charge of triumphalist arrogance is far from undeserved?  Well, to the anti-stringers, the obvious interpretation will be that the string theorists don’t really believe their own pablum: that they say one thing in public and a completely different thing in private.  To the pro-stringers, the obvious interpretation will be that, beneath the façade we all erect around ourselves, the string theorists are just scientists like anyone else: grasping at the truth, struggling to learn more, convinced that string theory is the best idea we have but ready to ditch it if something better comes along.  As usual, it all depends on where you’re coming from.
+
+Alas, as tidy as this resolution sounds, it doesn’t help me pick sides in the String Wars currently raging through the blogosphere.  But then again, why do I need to pick sides?  I like hanging out with the loop quantum gravity people at Perimeter Institute.  I like the fact that Lee Smolin’s publisher sent me a free review copy of The Trouble With Physics.  I like the recent paper by Denef and Douglas on computational complexity and the string Landscape.  And I like getting an all-expenses-paid trip to Stanford to have a freewheeling, day-long intellectual conversation with the string theorists there.
+
+I have therefore reached a decision.  From this day forward, my allegiances in the String Wars will be open for sale to the highest bidder.  Like a cynical arms merchant, I will offer my computational-complexity and humor services to both sides, and publicly espouse the views of whichever side seems more interested in buying them at the moment.  Fly me to an exotic enough location, put me up in a swank enough hotel, and the number of spacetime dimensions can be anything you want it to be: 4, 10, 11, or even 172.9+3πi.  Is it more important for a quantum gravity theory to connect to the Standard Model, or to build in background-independence from the outset?  Can one use the Anthropic Principle to make falsifiable predictions?  How much is riding on whether or not the LHC finds supersymmetry?  I might have opinions on these topics, but they’re nothing that a cushy job offer or a suitcase full of “reimbursements” couldn’t change.
+
+Someday, perhaps, a dramatic new experimental finding or theoretical breakthrough will change the situation vis-à-vis string theory and its competitors.  Until then, I shall answer to no quantum-gravity research program, but rather seek to profit from them all.
+
+Update (12/23): The indefatigable Luboš Motl has put up a new jeremiad against me.  Taking my ‘For Sale’ announcement completely seriously, Luboš writes:
+
+It is absolutely impossible for me to hide how intensely I despise people like Scott Aaronson … He’s the ultimate example of a complete moral breakdown of a scientist. It is astonishing that the situation became so bad that the people are not only corrupt and dishonest but they proudly announce this fact on their blogs…
+
+In fact, I have learned that the situation is so bad that when I simply state that Aaronson’s attitude is flagrantly incompatible with the ethical standards of a scholar as they have been understood for centuries, there could be some parts of the official establishment that would support him against me. There doesn’t seem to be a single blog article besides mine that denounces Aaronson’s attitude…
+
+The difference between [the] two of us is like the difference between a superman from the action movies who fights for the universal justice on one side and the most dirty corrupt villain on the other side. It’s like the Heaven and the Hell, freedom and feminism, careful evaluation of the climate and the alarmist hysteria, or string theory and loop quantum gravity…
+
+I can’t tell you how proud I am to have become “the most dirty corrupt villain” in Luboš’s cosmology, and no longer just an anonymous bystander.  Thanks so much, Luboš, and Merry Christmas to you too!
+
+Update (12/24): Man oh man, I had no idea that people would take my offer so seriously!  Because of this, I now feel obligated to provide a financial disclosure statement.   The Stanford string theorists did not actually pay my way to California, although they offered to — most of my expenses were covered by Umesh, my adviser at Berkeley.  Stanford paid for (1) one night’s hotel stay in Palo Alto, and (2) one lunch, consisting of a small cheese pizza and an iced tea.
+
+================================================================================
+
+TITLE: complexityzoo.com finally redirects to the Complexity Zoo
+URL: https://scottaaronson.blog/?m=200612
+CONTENT:
+Check it out:
+
+I think I’m finally getting the hang of this Internet thing!
+
+Update (12/21): Purely because I love you guys so much, I spent much of today reinstating images that were lost in the move to WordPress, fixing broken links, and exterminating comment spam.  As a result, the Shtetl-Optimized archives are now once again safe for human browsing.  Happy procrastinating!
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 8: Crypto
+URL: https://scottaaronson.blog/?m=200612
+CONTENT:
+Psst … one-way functions?  Pseudorandom generators?  Lattices?  RSA?  Come and get ’em, in plaintext.
+
+Gus Gutoski took notes for this “all about cryptography” lecture, and they were so good that I’ve posted them with only moderate editing and joke-reinsertion.  I’ve thereby provided you, my readers, with the unique opportunity to experience my lecture as Gus himself experienced it — as if you actually were Gus, sitting in a real Waterloo classroom taking notes.
+
+For those of you who feel the need to prepare yourselves for this experience, here’s a recap of all the lectures so far:
+
+Update: Preparing these notes is a sh&tload of work for me.  So dude — if you want me to keep doing it, please let me know in the comments section if you’re actually reading the notes and deriving any benefit therefrom.  Constructive criticism would also be fantastic.  Thanks very much!
+
+================================================================================
+
+TITLE: Announcing the Shtetl-Optimized Math Journalism Award!
+URL: https://scottaaronson.blog/?m=200612
+CONTENT:
+To those of us who can’t tell a hypotenuse from a rhombus, the phrase “math journalism” sounds like an oxymoron.  It brings to mind boring pedants like Martin Gardner, Sara Robinson, and Brian Hayes, who make everything seem confusing and complicated, and who won’t even write a single word without consulting two dozen “experts.”  But today, a new breed of journalist is bringing math directly to the people — and they’re doing it with flair, pizzazz, and an eye for the all-too-neglected human side.
+
+That’s why I’m proud to announce Shtetl-Optimized‘s semiregular Math Journalism Award, intended to recognize those journalists who make fractions, long division, and other topics of current research seem “as easy as pi” even to those of us who can’t balance our checkbooks and never did get algebra.  The inaugural award goes to Ben Moore of the BBC, for his fascinating report about a maverick professor who’s solved a problem that befuddled Newton and Pythagoras over 1,200 years ago — not to mention millions of students since!  The problem: what happens when you divide by zero?
+
+Feel free to nominate other journalists for this prestigious award.  (Hat tip for this one goes to my brother David.)
+
+================================================================================
+
+TITLE: What American accent do you have?
+URL: https://scottaaronson.blog/?m=200612
+CONTENT:
+Among all the mysteries of the universe, it’s good to know that at least one of them is answerable.  My accent, apparently, is “as Philadelphian as a cheesesteak.”  Hat tip to Greg Kuperberg.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 7: Randomness
+URL: https://scottaaronson.blog/?m=200612
+CONTENT:
+Yes, less than a week after the course itself finished, a new set of lecture notes is finally here!   The topic: randomness.
+
+I’m writing this post from über-commenter Greg Kuperberg’s office at UC Davis, where I’m visiting for a few days to give a math colloquium.  Greg has been trying to fill my thick skull with something called “t-cubature formulas,” and writing this post provides me with a much-needed break!
+
+After Davis, I’ll be going to Berkeley for a couple weeks (not that I ever really left it), then my parents’ place in Pennsylvania for the holidays, then Caltech, then New Zealand (why the hell not?), then Australia for QIP, then back to Waterloo in February. Much more relaxing than last year’s trip — note that I won’t return from this one with an (additional) 2πi phase.
+
+================================================================================
+

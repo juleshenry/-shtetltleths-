@@ -1,0 +1,87 @@
+TITLE: With electronic voting machines, it’s entirely plausible
+URL: https://scottaaronson.blog/?m=200809
+CONTENT:
+Here’s what I saw the last time I went to Intrade (yes, I’ve been checking about 200,000 times per day):
+
+
+
+I understand that in this situation, the Constitution dictates that the selection of a President goes to the IEEE 754R Technical Committee.
+
+Joke-Killing Explanation for Non-Nerds: NaN is “Not a Number,” an error code in floating-point arithmetic for expressions like 0/0.  Evidently there’s a bug in Intrade’s script to add the expected electoral college votes.
+
+
+
+================================================================================
+
+TITLE: Open thread #2
+URL: https://scottaaronson.blog/?m=200809
+CONTENT:
+Alright, no more politics for a while.  I’m sick of it.
+
+Given the relative success of Open thread #1, I thought I’d give you the readers a second opportunity to ask about whatever’s on your minds, except politics.  Quantum complexity classes and painting elephants are definitely fair game.
+
+(Update: One question at a time, please!)
+
+(Update: Thanks for the questions, everyone!  The open thread is now closed.  We’ll do this again!)
+
+================================================================================
+
+TITLE: On mathematicians and mountains
+URL: https://scottaaronson.blog/?m=200809
+CONTENT:
+Luca and Terry Tao have already reported the tragic loss of the brilliant probabilist Oded Schramm in a hiking accident.  I didn’t know Oded, but I knew some of his great results and was deeply saddened by the news.  My heartfelt condolences go out to his friends and family.
+
+It was two years ago that we lost Misha Alekhnovich, who I did know, in a whitewater rafting accident.  Other mathematicians and scientists lost in similar ways have included Heinz Pagels, Jacques Herbrand, Raymond Paley, Krzysztof Galicki, and Erik Rauch.  The teenage Einstein very nearly died while hiking on a mountain near Zurich.  I have more than one irreplaceable colleague who’s repeatedly courted death on the ski slopes.
+
+I’d like to issue a plea to any mathematicians and scientists who might be reading: please go easier on the extreme outdoor activities.  Let those who live for such things demonstrate their daring by gambling their lives; those who live for the ages can find safer recreations.  The world needs more nerds, not fewer.
+
+================================================================================
+
+TITLE: The Singularity Is Far
+URL: https://scottaaronson.blog/?m=200809
+CONTENT:
+In this post, I wish to propose for the reader’s favorable consideration a doctrine that will strike many in the nerd community as strange, bizarre, and paradoxical, but that I hope will at least be given a hearing.  The doctrine in question is this: while it is possible that, a century hence, humans will have built molecular nanobots and superintelligent AIs, uploaded their brains to computers, and achieved eternal life, these possibilities are not quite so likely as commonly supposed, nor do they obviate the need to address mundane matters such as war, poverty, disease, climate change, and helping Democrats win elections.
+
+Last week I read Ray Kurzweil’s The Singularity Is Near, which argues that by 2045, or somewhere around then, advances in AI, neuroscience, nanotechnology, and other fields will let us transcend biology, upload our brains to computers, and achieve the dreams of the ancient religions, including eternal life and whatever simulated sex partners we want.  (Kurzweil, famously, takes hundreds of supplements a day to maximize his chance of staying alive till then.)  Perhaps surprisingly, Kurzweil does not come across as a wild-eyed fanatic, but as a humane idealist; the text is thought-provoking and occasionally even wise.  I did have quibbles with his discussions of quantum computing and the possibility of faster-than-light travel, but Kurzweil wisely chose not to base his conclusions on any speculations about these topics.
+
+I find myself in agreement with Kurzweil on three fundamental points.  Firstly, that whatever purifying or ennobling qualities suffering might have, those qualities are outweighed by suffering’s fundamental suckiness.  If I could press a button to free the world from loneliness, disease, and death—the downside being that life might become banal without the grace of tragedy—I’d probably hesitate for about five seconds before lunging for it.  As Tevye said about the ‘curse’ of wealth: “may the Lord strike me with that curse, and may I never recover!”
+
+Secondly, there’s nothing bad about overcoming nature through technology.  Humans have been in that business for at least 10,000 years.  Now, it’s true that fanatical devotion to particular technologies—such as the internal combustion engine—might well cause the collapse of human civilization and the permanent degradation of life on Earth.  But the only plausible solution is better technology, not the Kaczynski/Flintstone route.
+
+Thirdly, were there machines that pressed for recognition of their rights with originality, humor, and wit, we’d have to give it to them.  And if those machines quickly rendered humans obsolete, I for one would salute our new overlords.  In that situation, the denialism of John Searle would cease to be just a philosophical dead-end, and would take on the character of xenophobia, resentment, and cruelty.
+
+Yet while I share Kurzweil’s ethical sense, I don’t share his technological optimism.  Everywhere he looks, Kurzweil sees Moore’s-Law-type exponential trajectories—not just for transistor density, but for bits of information, economic output, the resolution of brain imaging, the number of cell phones and Internet hosts, the cost of DNA sequencing … you name it, he’ll plot it on a log scale.  Kurzweil acknowledges that, even over the brief periods that his exponential curves cover, they have hit occasional snags, like (say) the Great Depression or World War II.  And he’s not so naïve as to extend the curves indefinitely: he knows that every exponential is just a sigmoid (or some other curve) in disguise.  Nevertheless, he fully expects current technological trends to continue pretty much unabated until they hit fundamental physical limits.
+
+I’m much less sanguine.  Where Kurzweil sees a steady march of progress interrupted by occasional hiccups, I see a few fragile and improbable victories against a backdrop of malice, stupidity, and greed—the tiny amount of good humans have accomplished in constant danger of drowning in a sea of blood and tears, as happened to so many of the civilizations of antiquity.  The difference is that this time, human idiocy is playing itself out on a planetary scale; this time we can finally ensure that there are no survivors left to start over.
+
+(Also, if the Singularity ever does arrive, I expect it to be plagued by frequent outages and terrible customer service.)
+
+Obviously, my perceptions are as colored by my emotions and life experiences as Kurzweil’s are by his.  Despite two years of reading Overcoming Bias, I still don’t know how to uncompute myself, to predict the future from some standpoint of Bayesian equanimity.  But just as obviously, it’s our duty to try to minimize bias, to give reasons for our beliefs that are open to refutation and revision.  So in the rest of this post, I’d like to share some of the reasons why I haven’t chosen to spend my life worrying about the Singularity, instead devoting my time to boring, mundane topics like anthropic quantum computing and cosmological Turing machines.
+
+The first, and most important, reason is also the reason why I don’t spend my life thinking about P versus NP: because there are vastly easier prerequisite questions that we already don’t know how to answer.  In a field like CS theory, you very quickly get used to being able to state a problem with perfect clarity, knowing exactly what would constitute a solution, and still not having any clue how to solve it.  (In other words, you get used to P not equaling NP.)  And at least in my experience, being pounded with this situation again and again slowly reorients your worldview.  You learn to terminate trains of thought that might otherwise run forever without halting.  Faced with a question like “How can we stop death?” or “How can we build a human-level AI?” you learn to respond: “What’s another question that’s easier to answer, and that probably has to be answered anyway before we have any chance on the original one?”  And if someone says, “but can’t you at least estimate how long it will take to answer the original question?” you learn to hedge and equivocate.  For looking backwards, you see that sometimes the highest peaks were scaled—Fermat’s Last Theorem, the Poincaré conjecture—but that not even the greatest climbers could peer through the fog to say anything terribly useful about the distance to the top.  Even Newton and Gauss could only stagger a few hundred yards up; the rest of us are lucky to push forward by an inch.
+
+The second reason is that as a goal recedes to infinity, the probability increases that as we approach it, we’ll discover some completely unanticipated reason why it wasn’t the right goal anyway.  You might ask: what is it that we could possibly learn about neuroscience, biology, or physics, that would make us slap our foreheads and realize that uploading our brains to computers was a harebrained idea from the start, reflecting little more than early-21st-century prejudice?  Unlike (say) Searle or Penrose, I don’t pretend to know.  But I do think that the “argument from absence of counterarguments” loses more and more force, the further into the future we’re talking about.  (One can, of course, say the same about quantum computers, which is one reason why I’ve never taken the possibility of building them as a given.)  Is there any example of a prognostication about the 21st century written before 1950, most of which doesn’t now seem quaint?
+
+The third reason is simple comparative advantage.  Given our current ignorance, there seems to me to be relatively little worth saying about the Singularity—and what is worth saying is already being said well by others.  Thus, I find nothing wrong with a few people devoting their lives to Singulatarianism, just as others should arguably spend their lives worrying about asteroid collisions.  But precisely because smart people do devote brain-cycles to these possibilities, the rest of us have correspondingly less need to.
+
+The fourth reason is the Doomsday Argument.  Having digested the Bayesian case for a Doomsday conclusion, and the rebuttals to that case, and the rebuttals to the rebuttals, what I find left over is just a certain check on futurian optimism.  Sure, maybe we’re at the very beginning of the human story, a mere awkward adolescence before billions of glorious post-Singularity years ahead.  But whatever intuitions cause us to expect that could easily be leading us astray.  Suppose that all over the universe, civilizations arise and continue growing exponentially until they exhaust their planets’ resources and kill themselves out.  In that case, almost every conscious being brought into existence would find itself extremely close to its civilization’s death throes.  If—as many believe—we’re quickly approaching the earth’s carrying capacity, then we’d have not the slightest reason to be surprised by that apparent coincidence.  To be human would, in the vast majority of cases, mean to be born into a world of air travel and Burger King and imminent global catastrophe.  It would be like some horrific Twilight Zone episode, with all the joys and labors, the triumphs and setbacks of developing civilizations across the universe receding into demographic insignificance next to their final, agonizing howls of pain.  I wish reading the news every morning furnished me with more reasons not to be haunted by this vision of existence.
+
+The fifth reason is my (limited) experience of AI research.  I was actually an AI person long before I became a theorist.  When I was 12, I set myself the modest goal of writing a BASIC program that would pass the Turing Test by learning from experience and following Asimov’s Three Laws of Robotics.  I coded up a really nice tokenizer and user interface, and only got stuck on the subroutine that was supposed to understand the user’s question and output an intelligent, Three-Laws-obeying response.  Later, at Cornell, I was lucky to learn from Bart Selman, and worked as an AI programmer for Cornell’s RoboCup team—an experience that taught me little about the nature of intelligence but a great deal about how to make robots pass a ball.  At Berkeley, my initial focus was on machine learning and statistical inference; had it not been for quantum computing, I’d probably still be doing AI today.  For whatever it’s worth, my impression was of a field with plenty of exciting progress, but which has (to put it mildly) some ways to go before recapitulating the last billion years of evolution.  The idea that a field must either be (1) failing or (2) on track to reach its ultimate goal within our lifetimes, seems utterly without support in the history of science (if understandable from the standpoint of both critics and enthusiastic supporters).  If I were forced at gunpoint to guess, I’d say that human-level AI seemed to me like a slog of many more centuries or millennia (with the obvious potential for black swans along the way).
+
+As you may have gathered, I don’t find the Singulatarian religion so silly as not to merit a response.  Not only is the “Rapture of the Nerds” compatible with all known laws of physics; if humans survive long enough it might even come to pass.  The one notion I have real trouble with is that the AI-beings of the future would be no more comprehensible to us than we are to dogs (or mice, or fish, or snails).  After all, we might similarly expect that there should be models of computation as far beyond Turing machines as Turing machines are beyond finite automata.  But in the latter case, we know the intuition is mistaken.  There is a ceiling to computational expressive power.  Get up to a certain threshold, and every machine can simulate every other one, albeit some slower and others faster.  Now, it’s clear that a human who thought at ten thousand times our clock rate would be a pretty impressive fellow.  But if that’s what we’re talking about, then we don’t mean a point beyond which history completely transcends us, but “merely” a point beyond which we could only understand history by playing it in extreme slow motion.
+
+Yet while I believe the latter kind of singularity is possible, I’m not at all convinced of Kurzweil’s thesis that it’s “near” (where “near” means before 2045, or even 2300).  I see a world that really did change dramatically over the last century, but where progress on many fronts (like transportation and energy) seems to have slowed down rather than sped up; a world quickly approaching its carrying capacity, exhausting its natural resources, ruining its oceans, and supercharging its climate; a world where technology is often powerless to solve the most basic problems, millions continue to die for trivial reasons, and democracy isn’t even clearly winning over despotism; a world that finally has a communications network with a decent search engine but that still hasn’t emerged from the tribalism and ignorance of the Pleistocene.  And I can’t help thinking that, before we transcend the human condition and upload our brains to computers, a reasonable first step might be to bring the 18th-century Enlightenment to the 98% of the world that still hasn’t gotten the message.
+
+
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 21: Ask Me Anything
+URL: https://scottaaronson.blog/?m=200809
+CONTENT:
+In the final Democritus installment, I entertain students’ questions about everything from derandomization to the “complexity class for creativity” to the future of religion.  (In this edited version, I omitted questions that seemed too technical, which surprisingly was almost half of them.)  Thanks to all the readers who’ve stuck with me to this point, to the students for a fantastic semester (if they still remember it) as well as their scribing help, to Chris Granade for further scribing, and to Waterloo’s Institute for Quantum Computing for letting me get away with this.  I hope you’ve enjoyed it, and only wish I’d kept my end of the bargain by getting these notes done a year earlier.
+
+A question for the floor: some publishers have expressed interest in adapting the Democritus material into book form.  Would any of you actually shell out money for that?
+
+================================================================================
+

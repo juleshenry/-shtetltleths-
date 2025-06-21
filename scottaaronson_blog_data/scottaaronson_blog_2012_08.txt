@@ -1,0 +1,106 @@
+TITLE: The Toaster-Enhanced Turing Machine
+URL: https://scottaaronson.blog/?m=201208
+CONTENT:
+Over at Theoretical Computer Science StackExchange, an entertaining debate has erupted about the meaning and validity of the Church-Turing Thesis.  The prompt for this debate was a question asking for opinions about Peter Wegner and Dina Goldin’s repetitive diatribes claiming to refute “the myth of the Church-Turing Thesis”—on the grounds that, you see, Turing machines can only handle computations with static inputs and outputs, not interactivity, or programs like operating systems that run continuously.  For a demolition of this simple misunderstanding, see Lance Fortnow’s CACM article.  Anyway, I wrote my own parodic response to the question, which generated so many comments that the moderators started shooing people away.  So I decided to repost my answer on my blog.  That way, after you’re done upvoting my answer over at CS Theory StackExchange :-), you can come back here and continue the discussion in the comments section.
+
+Here’s my favorite analogy. Suppose I spent a decade publishing books and papers arguing that, contrary to theoretical computer science’s dogma, the Church-Turing Thesis fails to capture all of computation, because Turing machines can’t toast bread. Therefore, you need my revolutionary new model, the Toaster-Enhanced Turing Machine (TETM), which allows bread as a possible input and includes toasting it as a primitive operation.
+
+You might say: sure, I have a “point”, but it’s a totally uninteresting one. No one ever claimed that a Turing machine could handle every possible interaction with the external world, without first hooking it up to suitable peripherals. If you want a Turing machine to toast bread, you need to connect it to a toaster; then the TM can easily handle the toaster’s internal logic (unless this particular toaster requires solving the halting problem or something like that to determine how brown the bread should be!). In exactly the same way, if you want a TM to handle interactive communication, then you need to hook it up to suitable communication devices, as Neel discussed in his answer. In neither case are we saying anything that wouldn’t have been obvious to Turing himself.
+
+So, I’d say the reason why there’s been no “followup” to Wegner and Goldin’s diatribes is that theoretical computer science has known how to model interactivity whenever needed, and has happily done so, since the very beginning of the field.
+
+Update (8/30): A related point is as follows. Does it ever give the critics pause that, here inside the Elite Church-Turing Ivory Tower (the ECTIT), the major research themes for the past two decades have included interactive proofs, multiparty cryptographic protocols, codes for interactive communication, asynchronous protocols for routing, consensus, rumor-spreading, leader-election, etc., and the price of anarchy in economic networks? If putting Turing’s notion of computation at the center of the field makes it so hard to discuss interaction, how is it that so few of us have noticed?
+
+Another Update: To the people who keep banging the drum about higher-level formalisms being vastly more intuitive than TMs, and no one thinking in terms of TMs as a practical matter, let me ask an extremely simple question. What is it that lets all those high-level languages existin the first place, that ensures they can always be compiled down to machine code? Could it be … err … THE CHURCH-TURING THESIS, the very same one you’ve been ragging on? To clarify, the Church-Turing Thesis is not the claim that “TURING MACHINEZ RULE!!” Rather, it’s the claim that any reasonable programming language will be equivalent in expressive power to Turing machines — and as a consequence, that you might as well think in terms of the higher-level languages if it’s more convenient to do so. This, of course, was a radical new insight 60-75 years ago.
+
+Update (Sept. 6): Check out this awesome comment by Lou Scheffer, describing his own tale of conversion from a Church-Turing skeptic to believer, and making an extremely apt comparison to the experience of conversion to the belief that R, R2, and so on all have the same cardinality (an experience I also underwent!).
+
+================================================================================
+
+TITLE: Why Many-Worlds is not like Copernicanism
+URL: https://scottaaronson.blog/?m=201208
+CONTENT:
+[Update (8/26): Inspired by the great responses to my last Physics StackExchange question, I just asked a new one—also about the possibilities for gravitational decoherence, but now focused on Gambini et al.’s “Montevideo interpretation” of quantum mechanics.
+
+Also, on a completely unrelated topic, my friend Jonah Sinick has created a memorial YouTube video for the great mathematician Bill Thurston, who sadly passed away last week.  Maybe I should cave in and set up a Twitter feed for this sort of thing…]
+
+[Update (8/26): I’ve now posted what I see as one of the main physics questions in this discussion on Physics StackExchange: “Reversing gravitational decoherence.”  Check it out, and help answer if you can!]
+
+[Update (8/23): If you like this blog, and haven’t yet read the comments on this post, you should probably do so!  To those who’ve complained about not enough meaty quantum debates on this blog lately, the comment section of this post is my answer.]
+
+[Update: Argh!  For some bizarre reason, comments were turned off for this post.  They’re on now.  Sorry about that.]
+
+I’m in Anaheim, CA for a great conference celebrating the 80th birthday of the physicist Yakir Aharonov.  I’ll be happy to discuss the conference in the comments if people are interested.
+
+In the meantime, though, since my flight here was delayed 4 hours, I decided to (1) pass the time, (2) distract myself from the inanities blaring on CNN at the airport gate, (3) honor Yakir’s half-century of work on the foundations of quantum mechanics, and (4) honor the commenters who wanted me to stop ranting and get back to quantum stuff, by sharing some thoughts about a topic that, unlike gun control or the Olympics, is completely uncontroversial: the Many-Worlds Interpretation of quantum mechanics.
+
+Proponents of MWI, such as David Deutsch, often argue that MWI is a lot like Copernican astronomy: an exhilarating expansion in our picture of the universe, which follows straightforwardly from Occam’s Razor applied to certain observed facts (the motions of the planets in one case, the double-slit experiment in the other).  Yes, many holdouts stubbornly refuse to accept the new picture, but their skepticism says more about sociology than science.  If you want, you can describe all the quantum-mechanical experiments anyone has ever done, or will do for the foreseeable future, by treating “measurement” as an unanalyzed primitive and never invoking parallel universes.  But you can also describe all astronomical observations using a reference frame that places the earth at the center of the universe.  In both cases, say the MWIers, the problem with your choice is its unmotivated perversity: you mangle the theory’s mathematical simplicity, for no better reason than a narrow parochial urge to place yourself and your own experiences at the center of creation.  The observed motions of the planets clearly want a sun-centered model.  In the same way, Schrödinger’s equation clearly wants measurement to be just another special case of unitary evolution—one that happens to cause your own brain and measuring apparatus to get entangled with the system you’re measuring, thereby “splitting” the world into decoherent branches that will never again meet.  History has never been kind to people who put what they want over what the equations want, and it won’t be kind to the MWI-deniers either.
+
+This is an important argument, which demands a response by anyone who isn’t 100% on-board with MWI.  Unlike some people, I happily accept this argument’s framing of the issue: no, MWI is not some crazy speculative idea that runs afoul of Occam’s razor.  On the contrary, MWI really is just the “obvious, straightforward” reading of quantum mechanics itself, if you take quantum mechanics literally as a description of the whole universe, and assume nothing new will ever be discovered that changes the picture.
+
+Nevertheless, I claim that the analogy between MWI and Copernican astronomy fails in two major respects.
+
+The first is simply that the inference, from interference experiments to the reality of many-worlds, strikes me as much more “brittle” than the inference from astronomical observations to the Copernican system, and in particular, too brittle to bear the weight that the MWIers place on it.  Once you know anything about the dynamics of the solar system, it’s hard to imagine what could possibly be discovered in the future, that would ever again make it reasonable to put the earth at the “center.”  By contrast, we do more-or-less know what could be discovered that would make it reasonable to privilege “our” world over the other MWI branches.  Namely, any kind of “dynamical collapse” process, any source of fundamentally-irreversible decoherence between the microscopic realm and that of experience, any physical account of the origin of the Born rule, would do the trick.
+
+Admittedly, like most quantum folks, I used to dismiss the notion of “dynamical collapse” as so contrived and ugly as not to be worth bothering with.  But while I remain unimpressed by the specific models on the table (like the GRW theory), I’m now agnostic about the possibility itself.  Yes, the linearity of quantum mechanics does indeed seem incredibly hard to tinker with.  But as Roger Penrose never tires of pointing out, there’s at least one phenomenon—gravity—that we understand how to combine with quantum-mechanical linearity only in various special cases (like 2+1 dimensions, or supersymmetric anti-deSitter space), and whose reconciliation with quantum mechanics seems to raise fundamental problems (i.e., what does it even mean to have a superposition over different causal structures, with different Hilbert spaces potentially associated to them?).
+
+To make the discussion more concrete, consider the proposed experiment of Bouwmeester et al., which seeks to test (loosely) whether one can have a coherent superposition over two states of the gravitational field that differ by a single Planck length or more.  This experiment hasn’t been done yet, but some people think it will become feasible within a decade or two.  Most likely it will just confirm quantum mechanics, like every previous attempt to test the theory for the last century.  But it’s not a given that it will; quantum mechanics has really, truly never been tested in this regime.  So suppose the interference pattern isn’t seen.  Then poof!  The whole vast ensemble of parallel universes spoken about by the MWI folks would have disappeared with a single experiment.  In the case of Copernicanism, I can’t think of any analogous hypothetical discovery with even a shred of plausibility: maybe a vector field that pervades the universe but whose unique source was the earth?  So, this is what I mean in saying that the inference from existing QM experiments to parallel worlds seems too “brittle.”
+
+As you might remember, I wagered $100,000 that scalable quantum computing will indeed turn out to be compatible with the laws of physics.  Some people considered that foolhardy, and they might be right—but I think the evidence seems pretty compelling that quantum mechanics can be extrapolated at least that far.  (We can already make condensed-matter states involving entanglement among millions of particles; for that to be possible but not quantum computing would seem to require a nasty conspiracy.)  On the other hand, when it comes to extending quantum-mechanical linearity all the way up to the scale of everyday life, or to the gravitational metric of the entire universe—as is needed for MWI—even my nerve falters.  Maybe quantum mechanics does go that far up; or maybe, as has happened several times in physics when exploring a new scale, we have something profoundly new to learn.  I wouldn’t give much more informative odds than 50/50.
+
+The second way I’d say the MWI/Copernicus analogy breaks down arises from a closer examination of one of the MWIers’ favorite notions: that of “parochial-ness.”  Why, exactly, do people say that putting the earth at the center of creation is “parochial”—given that relativity assures us that we can put it there, if we want, with perfect mathematical consistency?  I think the answer is: because once you understand the Copernican system, it’s obvious that the only thing that could possibly make it natural to place the earth at the center, is the accident of happening to live on the earth.  If you could fly a spaceship far above the plane of the solar system, and watch the tiny earth circling the sun alongside Mercury, Venus, and the sun’s other tiny satellites, the geocentric theory would seem as arbitrary to you as holding Cheez-Its to be the sole aim and purpose of human civilization.  Now, as a practical matter, you’ll probably never fly that spaceship beyond the solar system.  But that’s irrelevant: firstly, because you can very easily imagine flying the spaceship, and secondly, because there’s no in-principle obstacle to your descendants doing it for real.
+
+Now let’s compare to the situation with MWI.  Consider the belief that “our” universe is more real than all the other MWI branches.  If you want to describe that belief as “parochial,” then from which standpoint is it parochial?  The standpoint of some hypothetical godlike being who sees the entire wavefunction of the universe?  The problem is that, unlike with my solar system story, it’s not at all obvious that such an observer can even exist, or that the concept of such an observer makes sense.  You can’t “look in on the multiverse from the outside” in the same way you can look in on the solar system from the outside, without violating the quantum-mechanical linearity on which the multiverse picture depends in the first place.
+
+The closest you could come, probably, is to perform a Wigner’s friend experiment, wherein you’d verify via an interference experiment that some other person was placed into a superposition of two different brain states.  But I’m not willing to say with confidence that the Wigner’s friend experiment can even be done, in principle, on a conscious being: what if irreversible decoherence is somehow a necessary condition for consciousness?  (We know that increase in entropy, of which decoherence is one example, seems intertwined with and possibly responsible for our subjective sense of the passage of time.)  In any case, it seems clear that we can’t talk about Wigner’s-friend-type experiments without also talking, at least implicitly, about consciousness and the mind/body problem—and that that fact ought to make us exceedingly reluctant to declare that the right answer is obvious and that anyone who doesn’t see it is an idiot.  In the case of Copernicanism, the “flying outside the solar system” thought experiment isn’t similarly entangled with any of the mysteries of personal identity.
+
+There’s a reason why Nobel Prizes are regularly awarded for confirmations of effects that were predicted decades earlier by theorists, and that therefore surprised almost no one when they were finally found.  Were we smart enough, it’s possible that we could deduce almost everything interesting about the world a priori.  Alas, history has shown that we’re usually not smart enough: that even in theoretical physics, our tendencies to introduce hidden premises and to handwave across gaps in argument are so overwhelming that we rarely get far without constant sanity checks from nature.
+
+I can’t think of any better summary of the empirical attitude than the famous comment by Donald Knuth: “Beware of bugs in the above code.  I’ve only proved it correct; I haven’t tried it.”  In the same way, I hereby declare myself ready to support MWI, but only with the following disclaimer: “Beware of bugs in my argument for parallel copies of myself.  I’ve only proved that they exist; I haven’t heard a thing from them.”
+
+================================================================================
+
+TITLE: The right to bear ICBMs
+URL: https://scottaaronson.blog/?m=201208
+CONTENT:
+(Note for non-US readers: This will be another one of my America-centric posts.  But don’t worry, it’s probably one you’ll agree with.)
+
+There’s one argument in favor of gun control that’s always seemed to me to trump all others.
+
+In your opinion, should private citizens should be allowed to own thermonuclear warheads together with state-of-the-art delivery systems?  Does the Second Amendment give them the right to purchase ICBMs on the open market, maybe after a brief cooling-off period?  No?  Why not?
+
+OK, whatever grounds you just gave, I’d give precisely the same grounds for saying that private citizens shouldn’t be allowed to own assault weapons, and that the Second Amendment shouldn’t be construed as giving them that right.  (Personally, I’d ban all guns except for the bare minimum used for sport-shooting, and even that I’d regulate pretty tightly.)
+
+Now, it might be replied that the above argument can be turned on its head: “Should private citizens be allowed to own pocket knives?  Yes, they should?  OK then, whatever grounds you gave for that, I’d give the precisely same grounds for saying that they should be allowed to own assault weapons.”
+
+But crucially, I claim that’s a losing argument for the gun-rights crowd.  For as soon as we’re anywhere on the slippery slope—that is, as soon as it’s conceded that the question hinges, not on absolute rights, but on an actual tradeoffs in actual empirical reality—then the facts make it blindingly obvious that letting possibly-deranged private citizens buy assault weapons is only marginally less crazy than letting them buy ICBMs.
+
+[Related Onion story]
+
+================================================================================
+
+TITLE: Ten reasons why the Olympics suck
+URL: https://scottaaronson.blog/?m=201208
+CONTENT:
+1. The 1936 Berlin Olympics, in which American participation was ensured by the racist, sexist, antisemitic, Nazi-sympathizing future decades-long IOC president Avery Brundage (also, the IOC’s subsequent failure to accept responsibility for its role in legimitizing Hitler).
+
+2. The 1972 Munich Olympics (and the IOC’s subsequent refusal even to memorialize the victims, apparently for fear of antagonizing those Olympic countries that still celebrate the murder of the 11 Israeli athletes).
+
+3. Even after you leave out 1936 and 1972, the repeated granting of unearned legitimacy to the world’s murderous dictatorships—as well as “glory” to those countries most able to coerce their children into lives of athletic near-slavery (or, in the case of more “civilized” countries, outspend their rivals).
+
+4. The sanctimonious fiction that, after all this, we need the Olympics because of their contributions to world peace and brotherhood (a claim about which we now arguably have a century of empirical data).
+
+5. The double-standard that holds “winning a medal is everything” to be a perfectly-reasonable life philosophy for a gymnast, yet would denounce the same attitude if expressed by a scientist or mathematician.
+
+6. The increasingly-convoluted nature of what it is that the athletes are supposed to be optimizing (“run the fastest, but having taken at most these performance-enhancing substances and not those, unless of course you’re a woman with unusually-high testosterone, in which case you must artificially decrease your testosterone before competing in order to even things out”)
+
+7. The IOC’s notorious corruption, and the fact that hosting the Olympics is nevertheless considered such a wonderful honor and goal for any aspiring city.
+
+8. The IOC’s farcical attempts to control others’ use of five interlocked rings and of the word “Olympics.”
+
+9. The fact that swimmers have to use a particular stroke, rather than whichever stroke will propel them through the water the fastest (alright, while the “freestyle” rules still seem weird to me, I’m taking this one out given the amount of flak it’s gotten)
+
+10. The fact that someone like me, who knows all the above, and who has less interest in sports than almost anyone on earth, is still able to watch an Olympic event and care about its outcome.
+
+================================================================================
+

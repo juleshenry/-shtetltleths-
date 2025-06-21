@@ -1,0 +1,160 @@
+TITLE: One down
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+Last summer I posed Ten Semi-Grand Challenges for Quantum Computing Theory.  Today I’m pleased to report that (part of) one of my challenges has been “solved” — where, as always in this business, the word “solved” is defined broadly so as to include “proven to be not really worth working on, since a solution to it would imply a solution to something else that most of us gave up on years ago.”
+
+Challenge 10 involved finding a polynomial-time quantum algorithm to PAC-learn neural networks (that is, the class TC0 of polynomial-size, constant-depth threshold circuits).   In a new ECCC preprint, Adam Klivans and Alex Sherstov show that, if there’s a fast quantum algorithm to learn even depth-2 neural nets, then there’s also a fast quantum algorithm for the ~n1.5-approximate shortest vector problem.  Embarrassingly for me, once you have the idea — to use Oded Regev’s lattice-based public key cryptosystems — the quantum hardness of learning (say) depth 4 or 5 neural nets is immediate, while getting down to depth 2 takes another page.  This is one of those results that hangs in the wonderful balance between “you could’ve thought of that” and “nyah nyah, you didn’t.”
+
+Feel free to post your own challenges in the comments section.  But please, no “spouter challenges” like “where does the power of quantum computing come from?” or “is there a deeper theoretical framework for quantum algorithms?”  In general, if you’re going to pose a scientific challenge, you should (1) indicate some technical problem whose solution would clearly represent progress, and (2) be willing to place at least 25% odds on such progress being made within five years.  Or if you’re not a gambler, pick technical problems that you yourself intend to solve — that’s the approach I took with Semi-Grand Challenges 4 and 7.
+
+Theoretical computer science is often disheartening: there are so many open problems, and a week later they’re all still open, and a week after that, they’re all still open.  Wait a year, though, or five years, or twenty, and some grad student will have had the insight that’s eluded everyone else: that the problem can’t be solved with any existing technique, unless Blum integers are factorable in 2n^ε time for all ε>0.
+
+================================================================================
+
+TITLE: In his country there is problem
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+So it seems that Borat — the racist, misogynist, khrum-grabbing “reporter” from Da Ali G Show — has become a serious public relations problem for the former Soviet Republic of Kazakhstan. See here for an old New Yorker piece, and here for the latest on this important story.
+
+Respek.
+
+================================================================================
+
+TITLE: Alright, alright, back to complexity
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+I’ve learned my lesson, at least for the next day or two.
+
+And speaking of learning — in computational learning theory, there’s an “obvious” algorithm for learning a function from random samples.  Here’s the algorithm: output any hypothesis that minimizes the error on those samples.
+
+I’m being intentionally vague about what the learning model is — since as soon as you specify  a model, it seems like some version of that algorithm is what you want to do, if you want the best tradeoff between the number of samples and the error of your hypothesis.  For example, if you’re trying to learn a Boolean function from a class C, then you want to pick any hypothesis from C that’s consistent with all your observations.  If you’re trying to learn a Boolean function based on noisy observations, then you want to pick any hypothesis that minimizes the total number of disagreements.  If you’re trying to learn a degree-d real polynomial based on observations subject to Gaussian noise, then you want to pick any degree-d polynomial that minimizes the least-squared error, and so on.
+
+Here’s my question: is the “obvious” algorithm always the best one, or is there a case where a different algorithm needs asymptotically fewer samples?  That is, do you ever want to pick a hypothesis that disagrees with more of your observations over one that disagrees with less?
+
+While I’m on the subject, have you ever wished you could help Scott Aaronson do his actual research, and even be thanked — by name — in the acknowledgments of one of his papers?  Well then, don’t miss this chance!  All you have to do is read this seminal paper by Alon, Ben-David, Cesa-Bianchi, and Haussler, and then tell me what upper bound on the sample complexity of p-concept learning follows from their results.  (Perversely, all they prove in the paper is that some finite number of samples suffices — must be a mathematician thing.)
+
+================================================================================
+
+TITLE: Earth Day, Doomsday, and Chicken Little
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+It’s Earth Day, so time for a brief break from my laserlike, day-long focus on complexity theory, and for my long-promised post about climate change.
+
+Let me lay my cards on the table.  I think that we’re in the same position with climate change today that we were with Hitler in 1938.  That position, in case you’re wondering, is on the brink of a shitstorm.  And as with the lead-up to that earlier shitstorm, some people are sanely worried, some are in active denial, and the rest are in “passive denial” — accepting the obvious if pressed, but preferring to think about more pleasant things like NP intersect coNP.  It’s frustrating even to have to defend the “worried” view explicitly, since it’s so clear which way the debate will have been settled 50 years from now.
+
+At the same time, I can’t ignore that there are thoughtful, humane, intelligent people — just like there were in the 1930’s — who downplay, equivocate over, and rationalize away the shitstorm that (again from my perspective) is gathering over our heads.
+
+After all, isn’t the climate change business more complicated than all that?  Do we even know the Earth is getting warmer?  Okay, so maybe we do know, but do we really know why?  Couldn’t it just be a coincidence that we’re pumping out billions of tons of CO2 and methane each year, and 19th-century physics tells us that will make the temperature rise, and the temperature is in fact rising as predicted?  What about feedbacks like cloud cover, ocean absorbtion, and ice caps?  And sure, maybe the feedbacks could at most buy a few decades, and maybe some of them (like melting ice caps darkening the Earth’s surface) are rapidly making things worse rather than better, but even so, wouldn’t the loss of some low-lying countries be more than balanced out by warmer winters in Ontario?  And granted, maybe if our goal was to run a massive, irreversible geophysics experiment on an entire planet, it might be smarter to start with (say) Venus or Mars instead of Earth, but still — wouldn’t it be easier to adapt to a climate unlike any the planet has experienced in the last 200 million years than to drive Priuses instead of Cherokees?  Isn’t it just a question of how to allocate resources, of how to maximize expected utility?  And aren’t there other risks we should be more worried about, like bird flu, or out-of-control nanorobots converting the planet into grey goo?
+
+I’ll tackle some of these questions in future posts or comments — though for most of them, the professionals at RealClimate can do a better job than I can.  Today I want to try a different tack: flying over most of this well-worn ground, and aiming immediately for the one place where the climate skeptics invariably end up anyway when all of their other arguments have been exhausted.  That place is the Chicken Little Argument.
+
+“Back in the 1970’s, all you academics were screaming about overpopulation, and the oil shortage, and global cooling.  That’s right, cooling: the exact opposite of warming!  And before that it was radiation poisoning, or an accidental nuclear launch, and before that probably something else.  Yet time after time, the doomsayers were wrong.  So why should this time be any different?  Why should ours be the one time when the so-called crisis is real, when it’s not a figment of a few scientists’ overheated imaginations?”
+
+The first response, of course, is that sometimes the alarmists were right.  More than once, our civilization really did face an existential threat, only to escape it by a hair.  I already mentioned Hitler, but there’s another example that’s closer to the subject at hand.
+
+In the 1970’s, Mario Molina and F. Sherwood Rowland realized that chlorofluorocarbons, then a common refrigerant, propellant, and cleaning solvent, could be broken down by UV light into compounds that then attacked the ozone molecules in the upper atmosphere.  Had the resulting loss of ozone continued for much longer, the increased UV light reaching the Earth’s surface would eventually have decimated populations of plankton and cyanobacteria, which in turn could have destabilized much of the world’s food chain.
+
+As with global warming today, the initial response of the chemical companies was to attack the ivory-tower, tree-hugging, funding-crazed, Cassandra-like messenger.  But in 1985, Joseph Farman, Brian Gardiner, and Jonathan Shanklin looked into a weird error in ozone measurements over Antarctica, which seemed to show more than half the ozone there disappearing from September to December.  When it turned out not to be an error, even Du Pont decided that planetary suicide wasn’t in its best interest, and CFC’s were phased out in most of the world by 1996.  We survived that one.
+
+But there’s a deeper response to the Chicken Little Argument, one that goes straight to the meat of the issue (chicken, I suppose).  This is that, when we’re dealing with “indexical” questions — questions of the form “why us?  why were we born in this era rather than a different one?” — we can’t apply the same rules of induction that work elsewhere.
+
+To illustrate, consider a hypothetical planet where the population doubles every generation, until it finally depletes the planet’s resources and goes extinct.  (Like bacteria in a petri jar.)  Now imagine that in every generation, there are doomsayers preaching that the end is nigh, who are laughed off by folks with more common sense.  By assumption, eventually the doomsayers will be right — their having been wrong in the past is just a precondition for there being a debate in the first place.  But there’s a further point.  If you imagine yourself chosen uniformly at random among all people ever to live on the planet, then with about 99% probability, you’ll belong to one of the last seven generations.  The assumption of exponential growth makes it not just possible, but probable, that you’re near the end.
+
+That’s one formulation (though not the best one) of the infamous Doomsday Argument, which says (roughly speaking) that the probability of human history continuing for millions of years longer is less than one would naïvely expect, since if it did so continue, then we would occupy an improbable position near the very beginning of that history.   Obviously cavemen could have made the same argument, and they would have been wrong.  The point is that, if everyone in history makes the Doomsday Argument, then most people who make it (or a suitable version of it) will by definition be right.
+
+On hearing the Doomsday Argument for the first time, almost everyone thinks there must be a fallacy somewhere.  But once you accept one key assumption, the Argument is a trivial consequence of Bayes’ Rule.  So what is that key assumption?  It’s what Nick Bostrom, in one of the only metaphysical page-turners ever written, calls the Self-Sampling Assumption (SSA).  The SSA states that, if you consider a possible history of the world to have a prior probability p, and if that history contains N>0 people who you imagine you “could have been,” then you should judge the probability of your being a specific one of those people within that history to be p/N.  Sound obvious?  Well, you might imagine instead that you need to weight the probability of each history by the number of people in it — so that, if a history has ten times as many people who you “could have been,” then you would be ten times as likely to exist in that history in the first place.  Bostrom calls this alternative the Self-Indication Assumption (SIA).
+
+It’s not hard to show that switching from SSA to SIA exactly cancels out the effect of the Doomsday Argument — bringing you back to your “naïve” prior probabilities for each possible history.  In short, if you accept SSA then the Doomsday Argument goes through, while if you accept SIA then it doesn’t.
+
+But before you buy that “SIA not SSA” bumper-sticker for your SUV, let me point out the downsides.  Firstly, SIA forces you to treat your own existence as a random variable — not as something you can just condition on!  Indeed, the image that springs to mind is that of a warehouse full of souls, not all of which will get “picked” to inhabit a body.  And secondly, assuming it’s logically possible for there to be a universe with an infinite number of people, SIA implies that we must live in such a universe.  Usually, if you reach a definite empirical conclusion starting from pure thought, your best bet is to look around you.  You might find yourself in a medieval monastery or an Amsterdam coffeeshop.
+
+On the other hand, as Bostrom observed, the SSA carries some heavy baggage of its own.  For example, it suggests the following “algorithm” by which the first people ever to live, call them (I dunno) “Adam” and “Eve,” could solve NP-complete problems in polynomial time.  They simply guess a random solution, having formed the firm intention to
+
+(For this algorithm, it really does have to be “Adam and Eve, not Adam and Steve.”)  Here’s the punchline: the prior probability of Adam and Eve’s choosing a wrong solution is close to 1, but under SSA, the posterior probability is close to 0.  For if Adam and Eve guess a wrong solution, then with overwhelming probability they wouldn’t be Adam and Eve to begin with — they would be one of the numerous descendants thereof.
+
+Indeed, there’s a loony, crackpot paper showing that if Adam and Eve had a quantum computer, then they could even solve PP-complete problems in polynomial time.  Every day I’m dreading the Exxon ad: “If the assumptions underlying the Doomsday Argument were valid, it’s not just that Adam and Eve could solve NP-complete problems in polynomial time.  Modulo a plausible derandomization assumption, a theorem of S. Aaronson implies they could decide the entire polynomial hierarchy!  So go ahead, buy that monster SUV.”
+
+If this discussion seems hopelessly speculative, well, that’s exactly the point.  The Doomsday Argument is hopelessly speculative, but not more so than the Chicken Little Argument.  Ultimately, both arguments rest on metaphysical assumptions about “why we’re us and not someone else” — about the probability of having been born into one historical epoch rather than another.  This is not the sort of question that science gives us the tools to answer.
+
+For me, then, the Doomsday Argument is like an ethereal missile that neutralizes the opposing missile of the Chicken Little Argument — leaving the ground troops below to slog it out based on, you know, actual facts and evidence.  So I think the environmentalists’ message to the climate contrarians should be as follows: if you stick to the science, then we will too.  But if you fall back on your favorite lazy meta-argument — “why should the task of saving the world have fallen to this generation, and not to some other one?” — then don’t be surprised to find that metareasoning cuts both ways.
+
+================================================================================
+
+TITLE: And while I’m at it
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+Yaroslav Bulatov sent me the following nice question.  Given vectors (a1,…,an) and (b1,…,bn) in Rn, is there an efficient algorithm to decide whether sgn(a1x1+…+anxn) equals sgn(b1x1+…+bnxn) for all x in {0,1}n?  I could think about it myself, but wouldn’t it be more fun to call upon the collective expertise of my readers?  After all, this is a Serious Blog now.  I await the observation that’s eluded me for the past five minutes.
+
+================================================================================
+
+TITLE: What is the name of this post?
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+No need to thank me for my turnabout — we’ve got work to do.  There’s a new complexity class in town, and I need you to help me name it.
+
+My new class is like P/poly, except that the polynomial-size advice can’t be trusted — you have to verify it.  Or to put it another way, it’s like NP intersect coNP, except that there’s only one witness for each input length.  Give me that witness, and I’ll correctly decide every input of size n.  Give me a different witness, and for every input of size n I’ll either output the right answer or else say “I don’t know.”
+
+Now, anyone could make up a name for this animal — even I could!  But I want the name to be naturally extensible to further classes.  For example, if (hypothetically speaking) I was able to use a new result about the learnability of quantum states to prove that AvgBQP/qpoly is contained in AvgQMA/poly, but my proof actually yielded the stronger result that AvgBQP/qpoly is contained in the subclass of AvgQMA/poly where there’s only one QMA witness for each input length, then your naming convention should immediately give me a name for that subclass.
+
+So let the christening commence!  And for extra credit, prove or (relative to an oracle) disprove that if my class contains NP, then P=NP.
+
+================================================================================
+
+TITLE: Repentance
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+This morning I got an email pointedly criticizing several aspects of this blog — including my handling of l’affaire Chad Okere, and my ridiculing (as opposed to answering) people who think that if P=NP, the major implication would be that airlines could schedule their flights better.  The author summed up his critique as follows:
+
+I like your blog. I only wish it would be a little bit more about complexity theory and things at least vaguely related. You have a knack for writing, and for making hard things easy. That’s something which separates you from the large majority of the (blogging) complexity theorists. I understand that you blog in order to procrastinate, and that you have no special obligation to write about anything you don’t want to write about, but I don’t believe I’m alone in thinking that such talent could nonetheless be used to better ends than writing about biting vaginas.
+
+Godammit, I muttered.  Though he overestimates my talent, the dude has a point.  In my constant battle against predictability, I’ve become too self-absorbed — like Frank Gehry designing the MIT Stata Center, or a Playboy model discoursing on international politics.  I’ve neglected the meat-and-potatoes that readers want and expect from me.
+
+So, welcome to a reconceptualized shtetl.  From now on I’ll be sure to ladle out the heaping helpings of complexity you crave.  The danger, of course, is that as the earnestness and scientific-ness goes up, the sexual innuendoes, heavy-handed irony, ethnic jokes, and crass ridicule will decrease proportionately.  Rest assured that I’ll guard against that possibility.
+
+================================================================================
+
+TITLE: Doofioso
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+
+
+From Discovery News comes a report that Bernardo Provenzano, the recently-arrested “Boss of Bosses” of the Sicilian Mafia, was finally caught because he relied on an encryption system that consisted of ….. [cue the opening notes of The Godfather theme song] ….. adding 3 to the numerical value of each letter.   Apparently this has really been a bad week for evil masterminds in Italy.
+
+================================================================================
+
+TITLE: Chicken Soup for the Complexity Soul
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+From the comments on my last post:
+
+scott would you be so kind, if you have some spare time, to post a list of textbooks that you’ve read in math and cs?
+
+Now this is the kind of blog topic I like: zero expenditure of emotional energy required; lends itself to snarky one-liners.   So here’s a list of math and CS books that I’ve read and you should too. Pitifully incomplete, but enough to get you started.
+
+================================================================================
+
+TITLE: My day job
+URL: https://scottaaronson.blog/?m=200604
+CONTENT:
+You’ve probably spent days, or even months, wondering why I don’t update this blog more often.  What could possibly be more important to my career — besides napping, web surfing, napping again, or watching Jon Stewart?
+
+So it’s time to come clean: besides my gig at Shtetl-Optimized, I also have a “day job,” most of which is actually performed at night.  Greg Kuperberg, who used to be my most regular commenter before he went M.I.A., has a similar “day job.”  If you don’t already know what this day job is, it’s a little hard to explain.  We barely understand it ourselves.  One thing I can say is that it involves the production of documents like the following:
+
+S. Aaronson and G. Kuperberg,  Quantum Versus Classical Proofs and Advice, quant-ph/0604056.
+
+This paper studies whether quantum proofs are more powerful than classical proofs, or in complexity terms, whether QMA=QCMA. We prove two results about this question. First, we give a “quantum oracle separation” between QMA and QCMA. More concretely, we show that any quantum algorithm needs Ω(sqrt(2n/(m+1))) queries to find an n-qubit “marked state” |ψ>, even if given an m-bit classical description of |ψ> together with a quantum black box that recognizes |ψ>. We also prove a matching upper bound. Second, we show that, in the one previously-known case where quantum proofs seemed to help, classical proofs are basically just as powerful. In particular, Watrous gave a QMA protocol for verifying non-membership in finite groups. Under plausible group-theoretic assumptions, we give a QCMA protocol for the same problem. Even with no assumptions, our protocol makes only polynomially many queries to the group oracle. Both of our results apply equally to the problem of quantum versus classical advice — that is, of whether BQP/qpoly equals BQP/poly. We end with some conjectures about quantum versus classical oracles, and about the problem of achieving a classical oracle separation between QMA and QCMA.
+
+Alright, suppose you’re King Arthur.  Merlin, your staff wizard, claims to have solved a very hard math problem (a “Holy Grail,” so to speak) on which your entire kingdom depends.  The problem might involve, say, the speed of an African swallow, or the best kind of oil in which to boil heretics — the details aren’t important.
+
+Being suspicious of wizards, you want to check Merlin’s solution, but being a king, you don’t have much time to do it.  You do, however, have a quantum computer at hand (why not?).  Here’s the question: is there anything Merlin could convince you of by giving you a quantum-mechanical superposition, that he couldn’t convince you of by just communicating classically?
+
+QMA, which stands for “Quantum Merlin Arthur,” is (basically) the class of problems for which Merlin could feasibly convince you of the answer by giving you a quantum state.  QCMA, which stands for “Quantum Classical Merlin Arthur,” is the class of problems for which Merlin could feasibly convince you of the answer by just communicating classically.  (Some people have suggested changing the acronym to CMQA, for “Classical Merlin Quantum Arthur,” since Arthur has the quantum computer while Merlin has to communicate classically.)
+
+The key question is whether QMA and QCMA are equal.  So, do Greg and I answer that question in our paper?  Of course not — are you nuts?!  All we do is get closer to answering it than anyone before.  We do so by giving two new pieces of evidence: one suggesting that QMA and QCMA are equal, and another suggesting that they’re not.  You might not realize it, but this represents Progress.
+
+To those who aren’t “in the business,” all of this medieval quantum intrigue might raise a question: why do we bother?  Why do we spend months writing papers that (if we’re lucky) maybe a hundred people will ever be aware of, and ten will ever understand?  Well, Greg can answer for himself. As for me, I’ve always liked the answer once given by Bertrand Russell.  And no, this isn’t my “serious” or “official” answer (nor was it Bertie’s), but it’s a fine response to anyone who has to ask.
+
+…a word of advice to such of my hearers as may happen to be professors. I am allowed to use plain English because everybody knows that I could use mathematical logic if I chose. Take the statement: “Some people marry their deceased wives’ sisters.” I can express this in language which only becomes intelligible after years of study, and this gives me freedom. I suggest to young professors that their first work should be written in a jargon only to be understood by the erudite few. With that behind them, they can ever after say what they have to say in a language “understanded of the people.”
+
+================================================================================
+

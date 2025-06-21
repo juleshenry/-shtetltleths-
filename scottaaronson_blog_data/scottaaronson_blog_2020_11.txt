@@ -1,0 +1,138 @@
+TITLE: Happy Thanksgiving Y’All!
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+While a lot of pain is still ahead, this year I’m thankful that a dark chapter in American history might be finally drawing to a close.  I’m thankful that the mRNA vaccines actually work.  I’m thankful that my family has remained safe, and I’m thankful for all the essential workers who’ve kept our civilization running.
+
+A few things:
+
+
+
+================================================================================
+
+TITLE: Huck Finn and the gaslighting of America
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+For the past month, I’ve been reading The Adventures of Huckleberry Finn to my 7-year-old daughter Lily.  Is she too young for it?  Is there a danger that she’ll slip up and say the n-word in school?  I guess so, maybe.  But I found it worthwhile just for the understanding that lit up her face when she realized what it meant that Huck would help Jim escape slavery even though Huck really, genuinely believed that he’d burn in hell for it.
+
+Huck Finn has been one of my favorite books since I was just slightly older than Lily.  It’s the greatest statement by one of history’s greatest writers about human stupidity and gullibility and evil and greed, but also about the power of seeing what’s right in front of your nose to counteract those forces.  (It’s also a go-to source for details of 19th-century river navigation.)  It rocks.
+
+The other day, after we finished a chapter, I asked Lily whether she thought that injustice against Black people in America ended with the abolition of slavery.  No, she replied.  I asked: how much longer did it continue for?  She said she didn’t know.  So I said: if I told you that once, people in charge of an American election tried to throw away millions of votes that came from places where Black people lived—supposedly because some numbers didn’t exactly add up, except they didn’t care about similar numbers not adding up in places where White people lived—how long ago would she guess that happened?  100 years ago?  50 years?  She didn’t know.  So I showed her the news from the last hour.
+
+These past few weeks, my comment queue has filled with missives, most of which I’ve declined to publish, about the giant conspiracy involving George Soros and Venezuela and dead people, which fabricated the overwhelmingly Democratic votes from overwhelmingly Democratic cities like Philadelphia and Milwaukee and Detroit (though for some reason, they weren’t quite as overwhelmingly Democratic as in other recent elections), while for some reason declining to help Democrats in downballot races.  Always, these commenters confidently insist, I’m the Pravda-reading brainwashed dupe, I’m the unreasonable one, if I don’t accept this.
+
+This is the literal meaning of “gaslighting”: the intentional construction of an alternate reality so insistently as to make the sane doubt their sanity.  It occurred to me: Huck Finn could be read as an extended fable about gaslighting.  The Grangerfords make their deadly feud with the Shepherdsons seem normal and natural.  The fraudulent King and Duke make Huck salute them as royalty.  Tom convinces Huck that the former’s harebrained schemes for freeing Jim are just the way it’s done, and Huck is an idiot for preferring the simplistic approach of just freeing him.  And of course, the entire culture gaslights Huck that good is evil and evil is good.  Huck doesn’t fight the gaslighting as hard as we’d like him to, but he develops as a character to the extent he does.
+
+Today, the Confederacy—which, as we’ve learned the past five years, never died, and is as alive and angry now as it was in Twain’s time—is trying to win by gaslighting what it couldn’t win at Antietam and Gettysburg and Vicksburg.  It’s betting that if it just insists, adamantly enough, that someone who lost an election by hundreds of thousands of votes spread across multiple states actually won the election, then it can bend the universe to its will.
+
+Glued to the news, listening to Giuliani and McEnany and so on, reading the Trump campaign’s legal briefs, I keep asking myself one question: do they actually believe this shit?  Some of the only insight I got about that question came from a long piece by Curtis Yarvin a.k.a. Mencius Moldbug, who’s been called one of the leading thinkers of neoreaction and who sometimes responds to this blog.  Esoterically, Yarvin says that he actually prefers a Biden victory, but only because Trump has proven himself unworthy by submitting himself to nerdy electoral rules rather than simply seizing power.  (If that’s not quite what Yarvin meant—well, I’m about as competent to render his irony-soaked meanings in plain language as I’d be to render Heidegger or Judith Butler!)
+
+As for whether the election was “fraudulent,” here’s Yarvin’s key passage:
+
+The fundamental purpose of a democratic election is to test the strength of the sides in a civil conflict, without anyone actually getting hurt. The majority wins because the strongest side would win … But this guess is much better if it actually measures humans who are both willing and able to walk down the street and show up. Anyone who cannot show up at the booth is unlikely to show up for the civil war. This is one of many reasons that an in-person election is a more accurate election. (If voters could be qualified by physique, it would be even more accurate) … My sense is that in many urban communities, voting by proxy in some sense is the norm. The people whose names are on the ballots really exist; and almost all of them actually did support China Joe. Or at least, preferred him. The extent to which they perform any tangible political action, including physically going to the booth, is very low; so is their engagement with the political system. They do not watch much CNN. The demand for records of their engagement is very high, because each such datum cancels out some huge, heavily-armed redneck with a bass boat. This is why, in the data, these cities look politics-obsessed, but photos of the polling places look empty. Most votes from these communities are in some sense “organized” … Whether or not such a design constitutes “fraud” is the judge’s de gustibus.
+
+Did you catch that?  Somehow, Yarvin manages to insinuate that votes for Biden are plausibly fraudulent and plausibly shouldn’t count—at least if they were cast by mail, in “many urban communities” (which ones?), during a pandemic—even as Yarvin glaincingly acknowledges that the votes in question actually exist and are actually associated with Biden-preferring legal voters.  This is gaslighting in pure, abstract form, unalloyed with the laughable claims about Hugo Chávez or Dominion Voting Systems.
+
+What I find terrifying about gaslighting is that it’s so effective.  In response to this post, I’ll again get long, erudite comments making the case that up is down, turkeys are mammals, and Trump won in a landslide.  And simply to read and understand those comments, some part of me will need to entertain the idea that they might be right.  Much like with Bigfoot theories, this will be purely a function of the effort the writers put in, not of any merit to the thesis.
+
+And there’s a second thing I find terrifying about gaslighting.  Namely: it turns me into an ally of the SneerClubbers.  Like them, I feel barely any space left for rational discussion or argument.  Like them, I find it difficult to think of an appropriate response to Trumpian conspiracy theorists except to ridicule them, shame them as racists, and try to mute their influence.  Notably, public shaming (“[t]he Trump stain, the stain of racism that you, William Hartmann and Monica Palmer, have covered yourself in, is going to follow you throughout history”) seems to have actually worked last week to get the Wayne County Board of Canvassers to back down and certify the votes from Detroit.  So why not try more of it?
+
+Of course, even if I agree with the wokeists that there’s a line beyond which rational discussion can’t reach, I radically disagree with them about the line’s whereabouts.  Here, for example, I try to draw mine generously enough to include any Republicans willing to stand up, however feebly, against the Trump cult, whereas the wokeists draw their line so narrowly as to exclude most Democrats (!).
+
+There’s a more fundamental difference as well: the wokeists define their worldview in opposition to the patriarchy, the white male power structure, or whatever else is preventing utopia.  I, taking inspiration from Huck, define my moral worldview in opposition to gaslighting itself, whatever its source, and in favor of acknowledging obvious realities (especially realities about any harm we might be causing others).  Thus, it’s not just that I see no tension between opposing the excesses of the woke and opposing Trump’s attempted putsch—rather, it’s that my opposition to both comes from exactly the same source.  It’s a source that, at least in me, often runs dry of courage, but I’ve found Huck Finn to be helpful in replenishing it, and for that I’m grateful.
+
+Endnote: There are, of course, many actual security problems with the way we vote in the US, and there are computer scientists who’ve studied those problems for decades, rather than suddenly getting selectively interested in November 2020.  If you’re interested, see this letter (“Scientists say no credible evidence of computer fraud in the 2020 election outcome, but policymakers must work with experts to improve confidence”), which was signed by 59 of the leading figures in computer security, including Ron Rivest, Bruce Schneier, Hovav Shacham, Dan Wallach, Ed Felten, David Dill, and my childhood best friend Alex Halderman.
+
+Update: I just noticed this Twitter thread by friend-of-the-blog Sean Carroll, which says a lot of what I was trying to say here.
+
+================================================================================
+
+TITLE: Annual post: Come join UT Austin’s Quantum Information Center!
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+Hook ’em Hadamards!
+
+If you’re a prospective PhD student: Apply here for the CS department (the deadline this year is December 15th), here for the physics department (the deadline is December 1st), or here for the ECE department (the deadline is 15th).  GREs are not required this year because of covid.  If you apply to CS and specify that you want to work with me, I’ll be sure to see your application.  If you apply to physics or ECE, I won’t see your application, but once you arrive, I can sometimes supervise or co-supervise PhD students in other departments (or, of course, serve on their committees).  In any case, everyone in the UT community is extremely welcome at our quantum information group meetings (which are now on Zoom, naturally, but depending on vaccine distribution, hopefully won’t be by the time you arrive!).  Emailing me won’t make a difference.  Admissions are very competitive, so apply broadly to maximize your chances.
+
+If you’re a prospective postdoctoral fellow: By January 1, 2021, please email me a cover letter, your CV, and two or three of your best papers (links or attachments).  Please also ask two recommenders to email me their letters by January 1.  While my own work tends toward computational complexity, I’m open to all parts of theoretical quantum computing and information.
+
+If you’re a prospective faculty member: Yes, faculty searches are still happening despite covid!  Go here to apply for an opening in the CS department (which, in quantum computing, currently includes me and MIP*=RE superstar John Wright), or here to apply to the physics department (which, in quantum computing, currently includes Drew Potter, along with a world-class condensed matter group).
+
+================================================================================
+
+TITLE: The Complexity Zoo needs a new home
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+Update (Nov. 14): I now have a deluge of serious hosting offers—thank you so much, everyone!  No need for more.
+
+
+
+Since I’m now feeling better that the first authoritarian coup attempt in US history will probably sort itself out OK, here’s a real problem:
+
+Nearly a score years ago, I created the Complexity Zoo, a procrastination project turned encyclopedia of complexity classes.  Nearly half a score years ago, the Zoo moved to my former employer, the Institute for Quantum Computing in Waterloo, Canada, which graciously hosted it ever since.  Alas, IQC has decided that it can no longer do so.  The reason is new regulations in Ontario about the accessibility of websites, which the Zoo might be out of compliance with.  My students and I were willing to look into what was needed—like, does the polynomial hierarchy need ramps between its levels or something?  The best would be if we heard from actual blind or other disabled complexity enthusiasts about how we could improve their experience, rather than trying to parse bureaucratese from the Ontario government.  But IQC informed us that in any case, they can’t deal with the potential liability and their decision is final.  I thank them for hosting the Zoo for eight years.
+
+Now I’m looking for a volunteer for a new host.  The Zoo runs on the MediaWiki platform, which doesn’t work with my own hosting provider (Bluehost) but is apparently easy to set up if you, unlike me, are the kind of person who can do such things.  The IQC folks kindly offered to help with the transfer; I and my students can help as well.  It’s a small site with modest traffic.  The main things I need are just assurances that you can host the site for a long time (“forever” or thereabouts), and that you or someone else in your organization will be reachable if the site goes down or if there are other problems.  I own the complexityzoo.com domain and can redirect from there.
+
+In return, you’ll get the immense prestige of hosting such a storied resource for theoretical computer science … plus free publicity for your cause or organization on Shtetl-Optimized, and the eternal gratitude of thousands of my readers.
+
+Of course, if you’re into complexity theory, and you want to update or improve the Zoo while you’re at it, then so much the awesomer!  It could use some updates, badly.  But you don’t even need to know P from NP.
+
+If you’re interested, leave a comment or shoot me an email.  Thanks!!
+
+Unrelated Announcement: I’ll once again be doing an Ask-Me-Anything session at the Q2B (“Quantum to Business”) conference, December 8-10.  Other speakers include Umesh Vazirani, John Preskill, Jennifer Ouellette, Eric Schmidt, and many others.  Since the conference will of course be virtual this year, registration is a lot cheaper than in previous years.  Check it out!  (Full disclosure: Q2B is organized by QC Ware, Inc., for which I’m a scientific advisor.)
+
+================================================================================
+
+TITLE: On defeating a sociopath
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+There are people who really, genuinely, believe, as far as you can dig down, that winning is everything—that however many lies they told, allies they betrayed, innocent lives they harmed, etc. etc., it was all justified by the fact that they won and their enemies lost.  Faced with such sociopaths, people like me typically feel an irresistible compulsion to counterargue: to make the sociopath realize that winning is not everything, that truth and honor are terminal values as well; to subject the sociopath to the standards by which the rest of us are judged; to find the conscience that the sociopath buried even from himself and drag it out into the light.  Let me know if you can think of any case in human history where such efforts succeeded, because I’m having difficulty doing so.
+
+Clearly, in the vast majority of cases if not in all, the only counterargument that a sociopath will ever understand is losing.  And yet not just any kind of losing suffices.  For victims, there’s an enormous temptation to turn the sociopath’s underhanded tools against him, to win with the same deceit and naked power that the sociopath so gleefully inflicted on others.  And yet, if that’s what it takes to beat him, then you have to imagine the sociopath deriving a certain perverse satisfaction from it.
+
+Think of the movie villain who, as the panting hero stands over him with his lightsaber, taunts “Yes … yes … destroy me!  Do it now!  Feel the hate and the rage flow through you!”  What happens next, of course, is that the hero angrily decides to give the villain one more chance, the ungrateful villain lunges to stab the hero in the back or something, and only then does the villain die—either by a self-inflicted accident, or else killed by the hero in immediate self-defense.  Either way, the hero walks away with victory and honor.
+
+In practice, it’s a tall order to arrange all of that.  This explains why sociopaths are so hard to defeat, and why I feel so bleak and depressed whenever I see one flaunting his power.  But, you know, the great upside of pessimism is that it doesn’t take much to beat your expectations!  Whenever a single sociopath is cleanly and honorably defeated, or even just rendered irrelevant—no matter that the sociopath’s friends and allies are still in power, no matter that they’ll be back to fight another day, etc. etc.—it’s a genuine occasion for rejoicing.
+
+Anyway, that pretty much sums up my thoughts regarding Arthur Chu.  In other news, hooray about the election!
+
+================================================================================
+
+TITLE: Five Thoughts
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+(1) A friend commented that Biden’s victory becomes more impressive after you contemplate the enthusiasm gap: Trump’s base believed that Trump was sent by God, whereas Biden’s base believed that Biden probably wasn’t a terrible human being.  I replied that what we call the “Enlightenment” was precisely this, the switch from cowering before leaders who were sent by God to demanding leaders who probably aren’t terrible human beings.
+
+(2) I would love for Twitter to deactivate Trump’s account—not for any ideological reason, simply for Trump’s hundreds of past violations of Twitter’s Terms of Service, and for there no longer being a compelling public interest in what Trump has to say that would override all his Terms of Service violations.
+
+(3) When Biden appeared last night, and then again tonight, it wasn’t merely that he came across like a President-Elect of the US, but rather that he came across like a President-Elect of the US who’s filling a vacant position.  Until Biden starts, there won’t be a president of the US; there will only continue to be the president of those who voted for him.
+
+(4) Now that Trump has gone this far in shattering all the norms of succession, part of me wants to see him go the rest of the way … to being physically dragged out of the Oval Office by Secret Service agents on January 20, in pathetic and humiliating footage that would define how future generations remembered him.
+
+(5) I had an idea for something that could make a permanent contribution to protecting liberal democracy in the US, and that anti-Trump forces could implement unilaterally for a few tens of millions of dollars—no need to win another election.  The idea is to build a Donald J. Trump Historical Museum in Washington, DC.  But, you see, this museum would effectively be the opposite of a presidential library.  It would be designed by professional historians; they might solicit cooperation from former members of Trump’s inner circle, but would never depend on it.  It would, in fact, be a museum that teenage students might tend to be taken to on the same DC field trips that also brought them to the Vietnam Memorial and the United States Holocaust Memorial Museum (USHMM).  Obviously, the new museum would be different from those bleak places; it would (thankfully) have a little less tragedy and more farce … and that’s precisely the role that the new museum would fill.  To show the kids on the field trips that it’s not always unmitigated horribleness, that here was a case where we Americans took a gigantic stumble backwards, seeming to want to recreate the first few rooms in the USHMM exhibition, the one where the macho-talking clown thrills Germany by being serious rather than literal.  But then, here in the US, we successfully stopped it before it got to the later rooms.  Sure, the victory wasn’t as decisive as we would’ve liked, it came at a great cost, but it was victory nonetheless.  A 244-year-old experiment in self-governance is back in operation.
+
+================================================================================
+
+TITLE: On the removal of a hideous growth
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+The title of this post is not an allegory.
+
+At 10am this morning, I had a previously-scheduled appointment with an oral surgeon to remove a large, hideous, occasionally painful growth on the inside of my lower lip.  (I’d delayed getting it looked at for several months because of covid, but I no longer could.)
+
+So right now I’m laying in bed at home, with gauze on my lips, dazed, hopped up on painkillers.  I regret that things ever got to the point where this was needed.  I believe, intellectually, that the surgeon executed about as competently as anyone could ask.  But I still wish, if we’re being honest, that there hadn’t been quite this much pain in the surgery or in the recovery from it.
+
+Again intellectually, I know that there’s still lots more pain in the days ahead.  I’m not sure that whatever it was won’t just quickly grow back.  And yet, I couldn’t be feeling more joy through my whole body with every one of these words that I write.  At last I can honestly tell myself: the growth is gone.
+
+================================================================================
+
+TITLE: A Drawing for Singularity Eve
+URL: https://scottaaronson.blog/?m=202011
+CONTENT:
+Lily, my 7-year-old, asked me to share the above on my blog.  She says it depicts the US Army luring Trump out of the White House with a hamburger, in order to lock the front door once he’s out—what she proposes should happen if Trump refuses to acknowledge a loss.
+
+If you haven’t yet voted, especially if you live in a contested state, please do so tomorrow.  Best wishes to us all!
+
+Update (Nov. 3): Even if it comes 4-5 years late, this 8-minute podcast by Sam Harris gives perhaps the sharpest solution ever articulated to the mystery of how tens of millions of Americans could enthusiastically support an obvious fraud, liar, incompetent, and threat to civilization.  Briefly, it’s not despite his immense failings but because of them—because by flaunting his failings he absolves his supporters for their own, even while the other side serves those same supporters relentless moral condemnation and scorn.  I think I had known this—I even said something similar as the tagline of this blog (“The Far Right is destroying the world, and the Far Left thinks it’s my fault!”).  But Sam Harris expresses it as only he can.  If this analysis is right—and I feel virtually certain it is—then it bodes well that Biden, unlike Hillary Clinton, isn’t seen as especially sanctimonious or judgmental.  Biden’s own gaffes and failings probably help him.
+
+================================================================================
+

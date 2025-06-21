@@ -1,0 +1,233 @@
+TITLE: Quantum query complexity: the other shoe drops
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+Two weeks ago I blogged about a breakthrough in query complexity: namely, the refutation by Ambainis et al. of a whole slew of conjectures that had stood for decades (and that I mostly believed, and that had helped draw me into theoretical computer science as a teenager) about the largest possible gaps between various complexity measures for total Boolean functions. Specifically, Ambainis et al. built on a recent example of Göös, Pitassi, and Watson to construct bizarre Boolean functions f with, among other things, near-quadratic gaps between D(f) and R0(f) (where D is deterministic query complexity and R0 is zero-error randomized query complexity), near-1.5th-power gaps between R0(f) and R(f) (where R is bounded-error randomized query complexity), and near-4th-power gaps between D(f) and Q(f) (where Q is bounded-error quantum query complexity). See my previous post for more about the definitions of these concepts and the significance of the results (and note also that Mukhopadhyay and Sanyal independently obtained weaker results).
+
+Because my mental world was in such upheaval, in that earlier post I took pains to point out one thing that Ambainis et al. hadn’t done: namely, they still hadn’t shown any super-quadratic separation between R(f) and Q(f), for any total Boolean function f. (Recall that a total Boolean function, f:{0,1}n→{0,1}, is one that’s defined for all 2n possible input strings x∈{0,1}n. Meanwhile, a partial Boolean function is one where there’s some promise on x: for example, that x encodes a periodic sequence. When you phrase them in the query complexity model, Shor’s algorithm and other quantum algorithms achieving exponential speedups work only for partial functions, not for total ones. Indeed, a famous result of Beals et al. from 1998 says that D(f)=O(Q(f)6) for all total functions f.)
+
+So, clinging to a slender reed of sanity, I said it “remains at least a plausible conjecture” that, if you insist on a fair comparison—i.e., bounded-error quantum versus bounded-error randomized—then the biggest speedup quantum algorithms can ever give you over classical ones, for total Boolean functions, is the square-root speedup that Grover’s algorithm easily achieves for the n-bit OR function.
+
+Today, I can proudly report that my PhD student, Shalev Ben-David, has refuted that conjecture as well.  Building on the Göös et al. and Ambainis et al. work, but adding a new twist to it, Shalev has constructed a total Boolean function f such that R(f) grows roughly like Q(f)2.5 (yes, that’s Q(f) to the 2.5th power). Furthermore, if a conjecture that Ambainis and I made in our recent “Forrelation” paper is correct—namely, that a problem called “k-fold Forrelation” has randomized query complexity roughly Ω(n1-1/k)—then one would get nearly a cubic gap between R(f) and Q(f).
+
+The reason I found this question so interesting is that it seemed obvious to me that, to produce a super-quadratic separation between R and Q, one would need a fundamentally new kind of quantum algorithm: one that was unlike Simon’s and Shor’s algorithms in that it worked for total functions, but also unlike Grover’s algorithm in that it didn’t hit some impassable barrier at the square root of the classical running time.
+
+Flummoxing my expectations once again, Shalev produced the super-quadratic separation, but not by designing any new quantum algorithm. Instead, he cleverly engineered a Boolean function for which you can use a combination of Grover’s algorithm and the Forrelation algorithm (or any other quantum algorithm that gives a huge speedup for some partial Boolean function—Forrelation is just the maximal example), to get an overall speedup that’s a little more than quadratic, while still keeping your Boolean function total. I’ll let you read Shalev’s short paper for the details, but briefly, it once again uses the Göös et al. / Ambainis et al. trick of defining a Boolean function that equals 1 if and only if the input string contains some hidden substructure, and the hidden substructure also contains a pointer to a “certificate” that lets you quickly verify that the hidden substructure was indeed there. You can use a super-fast algorithm—let’s say, a quantum algorithm designed for partial functions—to find the hidden substructure assuming it’s there. If you don’t find it, you can simply output 0. But if you do find it (or think you found it), then you can use the certificate, together with Grover’s algorithm, to confirm that you weren’t somehow misled, and that the substructure really was there. This checking step ensures that the function remains total.
+
+Are there further separations to be found this way? Almost certainly! Indeed, Shalev, Robin Kothari, and I have already found some more things (as well as different/simpler proofs of known separations), though nothing quite as exciting as the above.
+
+Update (July 1): Ronald de Wolf points out in the comments that this “trust-but-verify” trick, for designing total Boolean functions with unexpectedly low quantum query complexities, was also used in a recent paper by himself and Ambainis (while Ashley Montanaro points out that a similar trick was used even earlier, in a different context, by Le Gall).  What’s surprising, you might say, is that it took as long as it did for people to realize how many applications this trick has.
+
+Update (July 2): In conversation with Robin Kothari and Cedric Lin, I realized that Shalev’s superquadratic separation between R and Q, combined with a recent result of Lin and Lin, resolves another open problem that had bothered me since 2001 or so.  Given a Boolean function f, define the “projective quantum query complexity,” or P(f), to be the minimum number of queries made by a bounded-error quantum algorithm, in which the answer register gets immediately measured after each query.  This is a model of quantum algorithms that’s powerful enough to capture (for example) Simon’s and Shor’s algorithms, but not Grover’s algorithm.  Indeed, one might wonder whether there’s any total Boolean function for which P(f) is asymptotically smaller than R(f)—that’s the question I wondered about around 2001, and that I discussed with Elham Kashefi.  Now, by using an argument based on the “Vaidman bomb,” Lin and Lin recently proved the fascinating result that P(f)=O(Q(f)2) for all functions f, partial or total.  But, combining with Shalev’s result that there exists a total f for which R(f)=Ω(Q(f)2.5), we get that there’s a total f for which R(f)=Ω(P(f)1.25).  In the other direction, the best I know is that P(f)=Ω(bs(f)) and therefore R(f)=O(P(f)3).
+
+================================================================================
+
+TITLE: Celebrate gay marriage—and its 2065 equivalent
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+Yesterday was a historic day for the United States, and I was as delighted as everyone else I know.  I’ve supported gay marriage since the mid-1990s, when as a teenager, I read Andrew Hodges’ classic biography of Alan Turing, and burned with white-hot rage at Turing’s treatment.  In the world he was born into—our world, until fairly recently—Turing was “free”: free to prove the unsolvability of the halting problem, free to help save civilization from the Nazis, just not free to pursue the sexual and romantic fulfillment that nearly everyone else took for granted.  I resolved then that, if I was against anything in life, I was against the worldview that had hounded Turing to his death, or anything that even vaguely resembled it.
+
+So I’m proud for my country, and I’m thrilled for my gay friends and colleagues and relatives.  At the same time, seeing my Facebook page light up with an endless sea of rainbow flags and jeers at Antonin Scalia, there’s something that gnaws at me.  To stand up for Alan Turing in 1952 would’ve taken genuine courage.  To support gay rights in the 60s, 70s, 80s, even the 90s, took courage.  But celebrating a social change when you know all your friends will upvote you, more than a decade after the tide of history has made the change unstoppable?  It’s fun, it’s righteous, it’s justified, I’m doing it myself.  But let’s not kid ourselves by calling it courageous.
+
+Do you want to impress me with your moral backbone?  Then go and find a group that almost all of your Facebook friends still consider it okay, even praiseworthy, to despise and mock, for moral failings that either aren’t failings at all or are no worse than the rest of humanity’s.  (I promise: once you start looking, it shouldn’t be hard to find.)  Then take a public stand for that group.
+
+================================================================================
+
+TITLE: “Can Quantum Computing Reveal the True Meaning of Quantum Mechanics?”
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+I now have a 3500-word post on that question up at NOVA’s “Nature of Reality” blog.  If you’ve been reading Shtetl-Optimized religiously for the past decade (why?), there won’t be much new to you there, but if not, well, I hope you like it!  Comments are welcome, either here or there.  Thanks so much to Kate Becker at NOVA for commissioning this piece, and for her help editing it.
+
+================================================================================
+
+TITLE: FCRC Highlights
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+By popular request, here are some highlights from this week’s FCRC conference in Portland, Oregon:
+
+There are many great things that I haven’t written about—for example, I haven’t even said a word about any of the three best paper talks!—but I’m out of energy right now.  Others are more than welcome to share other FCRC highlights in the comments section.
+
+================================================================================
+
+TITLE: A query complexity breakthrough
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+Update (June 26): See this just-released paper, which independently obtains a couple of the same results as the Ambainis et al. paper, but in a different way (using the original Göös et al. function, rather than modifications of it).
+
+Lots of people have accused me of overusing the word “breakthrough” on this blog. So I ask them: what word should I use when a paper comes out that solves not one, not two, but three of the open problems I’ve cared about most for literally half of my life, since I was 17 years old?
+
+Yesterday morning, Andris Ambainis, Kaspars Balodis, Aleksandrs Belovs, Troy Lee, Miklos Santha, and Juris Smotrovs posted a preprint to ECCC in which they give:
+
+(1) A total Boolean function f with roughly a fourth-power separation between its deterministic and bounded-error quantum query complexities (i.e., with D(f)~Q(f)4). This refutes the conjecture, which people have been making since Beals et al.’s seminal work in 1998, that the biggest possible gap is quadratic.
+
+(2) A total Boolean function f with a quadratic separation between its deterministic and randomized query complexities (with D(f)~R0(f)2). This refutes a conjecture of Saks and Wigderson from 1986, that the best possible gap is R0(f)~D(f)0.753 (from the recursive AND/OR tree), and shows that the known relation D(f)=O(R0(f)2) is close to tight.
+
+(3) The first total Boolean function f with any asymptotic gap between its zero-error and bounded-error randomized query complexities (in particular, with R0(f)~R(f)3/2).
+
+(There are also other new separations—for example, involving exact quantum query complexity and approximate degree as a real polynomial. But the above three are the most spectacular to me.)
+
+In updates to this post (coming soon), I’ll try my best to explain to general readers what D(f), R(f), and so forth are (see here for the classic survey of these measures), and I’ll also discuss how Ambainis et al. designed the strange functions f that achieve the separations (though their paper already does a good job of explaining it). For now, I’ll just write the stuff that’s easier to write.
+
+I’m at the Federated Computing Research Conference in Portland, Oregon right now, where yesterday I gave my STOC talk (click here for the PowerPoint slides) about the largest possible separations between R(f) and Q(f) for partial Boolean functions f. (That paper is also joint work with Andris Ambainis, who has his fingers in many pies, or his queries in many oracles, or something.) Anyway, when I did a practice run of my talk on Monday night, I commented that, of course, for total Boolean functions f (those not involving a promise), the largest known gap between R(f) and Q(f) is quadratic, and is achieved when f is the OR function because of Grover’s algorithm.
+
+Then, Tuesday morning, an hour before I was to give my talk, I saw the Ambainis et al. bombshell, which made that comment obsolete. So, being notoriously bad at keeping my mouth shut, I mentioned to my audience that, while it was great that they came all the way to Portland to learn what was new in theoretical computer science, if they wanted real news in the subfield I was talking about, they could stop listening to me and check their laptops.
+
+(Having said that, I have had a wonderful time at FCRC, and have learned lots of other interesting things—I can do another addendum to the post about FCRC highlights if people want me to.)
+
+Anyway, within the tiny world of query complexity—i.e., the world where I cut my teeth and spent much of my career—the Ambainis et al. paper is sufficiently revolutionary that I feel the need to say what it doesn’t do.
+
+First, the paper does not give a better-than-quadratic gap between R(f) and Q(f) (i.e., between bounded-error randomized and quantum query complexities). The quantum algorithms that compute their functions f are still “just” variants of the old standbys, Grover’s algorithm and amplitude amplification. What’s new is that the authors have found functions where you can get the quadratic, Grover speedup between R(f) and Q(f), while also getting asymptotic gaps between D(f) and R(f), and between R0(f) and R(f). So, putting it together, you get superquadratic gaps between D(f) and Q(f), and between R0(f) and Q(f). But it remains at least a plausible conjecture that R(f)=O(Q(f)2) for all total Boolean functions f—i.e., if you insist on a “fair comparison,” then the largest known quantum speedup for total Boolean functions remains the Grover one.
+
+Second, as far as I can tell (I might be mistaken) (I’m not), the paper doesn’t give new separations involving certificate complexity or block sensitivity (e.g., between D(f) and bs(f)). So for example, it remains open whether D(f)=O(bs(f)2), and whether C(f)=O(bs(f)α) for some α<2. (Update: Avishay Tal, in the comments, informs me that the latter conjecture was falsified by Gilmer, Saks, and Srinivasan in 2013. Wow, I’m really out of it!)
+
+In the end, achieving these separations didn’t require any sophisticated new mathematical machinery—just finding the right functions, something that could’ve been done back in 1998, had anyone been clever enough. So, where did these bizarre functions f come from? Ambainis et al. directly adapted them from a great recent communication complexity paper by Mika Göös, Toniann Pitassi, and Thomas Watson. But the Göös et al. paper itself could’ve been written much earlier. It’s yet another example of something I’ve seen again and again in this business, how there’s no substitute for just playing around with a bunch of examples.
+
+The highest compliment one researcher can pay another is, “I wish I’d found that myself.” And I do, of course, but having missed it, I’m thrilled that at least I get to be alive for it and blog about it. Huge congratulations to the authors!
+
+Addendum: What’s this about?
+
+OK, so let’s say you have a Boolean function f:{0,1}n→{0,1}, mapping n input bits to 1 output bit. Some examples are the OR function, which outputs 1 if any of the n input bits are 1, and the MAJORITY function, which outputs 1 if the majority of them are.
+
+Query complexity is the study of how many input bits you need to read in order to learn the value of the output bit. So for example, in evaluating the OR function, if you found a single input bit that was 1, you could stop right there: you’d know that the output was 1, without even needing to look at the remaining bits. In the worst case, however, if the input consisted of all 0s, you’d have to look at all of them before you could be totally sure the output was 0. So we say that the OR function has a deterministic query complexity of n.
+
+In this game, we don’t care about any other resources used by an algorithm, like memory or running time: just how many bits of the input it looks at! There are many reasons why, but the simplest is that, unlike with memory or running time, for many functions we can actually figure out how many input bits need to be looked at, without needing to solve anything like P vs. NP. (But note that this can already be nontrivial! For algorithms can often cleverly avoid looking at all the bits, for example by looking at some and then deciding which ones to look at next based on which values they see.)
+
+In general, given a deterministic algorithm A and an n-bit input string x, let DA,x (an integer from 0 to n) be the number of bits of x that A examines when you run it. Then let DA be the maximum of DA,x over all n-bit strings x. Then D(f), or the deterministic query complexity of f, is the minimum of DA, over all algorithms A that correctly evaluate f(x) on every input x.
+
+For example, D(OR) and D(MAJORITY) are both n: in the worst case, you need to read everything. For a more interesting example, consider the 3-bit Boolean function
+
+f(x,y,z) = (not(x) and y) or (x and z).
+
+This function has D(f)=2, even though it depends on all 3 of the input bits. (Do you see why?) In general, even if f depends on n input bits, D(f) could be as small as log2n.
+
+The bounded-error randomized query complexity, or R(f), is like D(f), except that now we allow the algorithm to make random choices of which input bit to query, and for each input x, the algorithm only needs to compute f(x) with probability 2/3. (Here the choice of 2/3 is arbitrary; if you wanted the right answer with some larger constant probability, say 99.9%, you could just repeat the algorithm a constant number of times and take a majority vote.) The zero-error randomized query complexity, or R0(f), is the variant where the algorithm is allowed to make random choices, but at the end of the day, needs to output the correct f(x) with probability 1.
+
+To illustrate these concepts, consider the three-bit majority function, MAJ(x,y,z). We have D(MAJ)=3, since if a deterministic algorithm queried one bit and got a 0 and queried a second bit and got a 1 (as can happen), it would have no choice but to query the third bit. But for any possible setting of x, y, and z, if we choose which bits to query randomly, there’s at least a 1/3 chance that the first two queries will return either two 0s or two 1s—at which point we can stop, with no need to query the third bit. Hence R0(MAJ)≤(1/3)2+(2/3)3=8/3 (in fact it equals 8/3, although we haven’t quite shown that). Meanwhile, R(MAJ), as we defined it, is only 1, since if you just need a 2/3 probability of being correct, you can simply pick x, y, or z at random and output it!
+
+The bounded-error quantum query complexity, or Q(f), is the minimum number of queries made by a quantum algorithm for f, which, again, has to output the right answer with probability at least 2/3 for every input x. Here a quantum algorithm makes a “query” by feeding a superposition of basis states, each of the form |i,a,w〉, to a “black box,” which maps each basis state to |i, a XOR xi, w〉, where i is the index of the input bit xi to be queried, a is a 1-qubit “answer register” into which xi is reversibly written, and w is a “workspace” that doesn’t participate in the query. In between two queries, the algorithm can apply any unitary transformation it wants to the superposition of |i,a,w〉’s, as long as it doesn’t depend on x. Finally, some designated qubit is measured to decide whether the algorithm accepts or rejects.
+
+As an example, consider the 2-bit XOR function, XOR(x,y). We have D(XOR)=R0(XOR)=R(XOR)=2, since until you’ve queried both bits, you’ve learned nothing about their XOR. By contrast, Q(XOR)=1, because of the famous Deutsch-Jozsa algorithm.
+
+It’s clear that
+
+0 ≤ Q(f) ≤ R(f) ≤ R0(f) ≤ D(f) ≤ n,
+
+since a quantum algorithm can simulate a randomized one and a randomized one can simulate a deterministic one.
+
+A central question for the field, since these measures were studied in the 1980s or so, has been how far apart these measures can get from each other. If you allow partial Boolean functions—meaning that only some n-bit strings, not all of them, are “valid inputs” for which the algorithm needs to return a definite answer—then it’s easy to get enormous separations between any two of the measures (indeed, even bigger than exponential), as for example in my recent paper with Andris.
+
+For total functions, by contrast, it’s been known for a long time that these measures can differ by at most polynomial factors:
+
+D(f) = O(R(f)3) (Nisan)
+
+D(f) = O(R0(f)2) (folklore, I think)
+
+R0(f) = O(R2 log(n)) (Midrijanis)
+
+D(f) = O(Q(f)6) (Beals et al. 1998)
+
+OK, so what were the largest known gaps? For D versus R0 (as well as D versus R), the largest known gap since 1986 has come from the “recursive AND/OR tree”: that is, an OR of two ANDs of two ORs of two ANDs of … forming a complete binary tree of depth d, with the n=2d input variables comprising the leaves. For this function, we have D(f)=n, whereas Saks and Wigderson showed that R0(f)=Θ(n0.753) (and later, Santha showed that R(f)=Θ(n0.753) as well).
+
+For D versus Q, the largest gap has been for the OR function: we have D(OR)=n (as mentioned earlier), but Q(OR)=Θ(√n) because of Grover’s algorithm. Finally, for R0 versus R, no asymptotic gap has been known for any total function. (This is a problem that I clearly remember working on back in 2000, when I was an undergrad. I even wrote a computer program, the Boolean Function Wizard, partly to search for separations between R0 versus R. Alas, while I did find one or two functions with separations, I was unable to conclude anything from them about asymptotics.)
+
+So, how did Ambainis et al. achieve bigger gaps for each of these? I’ll try to have an explanation written by the time my flight from Portland to Boston has landed tonight. But if you can’t wait for that, or you prefer it straight from the horse’s mouth, read their paper!
+
+Addendum 2: The Actual Functions
+
+As I mentioned before, the starting point for everything Ambainis et al. do is a certain Boolean function g recently constructed by Göös, Pitassi, and Watson (henceforth GPW), for different purposes than the ones that concern Ambainis et al. We think of the inputs to g as divided into nm “cells,” which are arranged in a rectangular grid with m columns and n rows. Each cell contains a bit that’s either 0 or 1 (its “label), as well as a pointer to another cell (consisting of ~log2(nm) bits). The pointer can also be “null” (i.e., can point nowhere). We’ll imagine that a query of a cell gives you everything: the label and all the bits of the pointer. This could increase the query complexity of an algorithm, but only by a log(n) factor, which we won’t worry about.
+
+Let X be a setting of all the labels and pointers in the grid. Then the question we ask about X is the following:
+
+If such a marked column exists, then we set g(X)=1; otherwise we set g(X)=0. Crucially, notice that if a marked column exists, then it’s unique, since the chain of pointers “zeroes out” all m-1 of the other columns, and prevents them from being marked.
+
+This g already leads to a new query complexity separation, one that refutes a strengthened form of the Saks-Wigderson conjecture. For it’s not hard to see that D(g)=Ω(mn): indeed, any deterministic algorithm must query almost all of the cells. A variant of this is proved in the paper, but the basic idea is that an adversary can answer all queries with giant fields of ‘1’ labels and null pointers—until a given column is almost completed, at which point the adversary fills in the last cell with a ‘0’ label and a pointer to the last ‘0’ cell that it filled in. The algorithm just can’t catch a break; it will need to fill in m-1 columns before it knows where the marked one is (if a marked column exists at all).
+
+By contrast, it’s possible to show that, if n=m, then R(g) is about O(n4/3). I had an argument for R(g)=O((n+m)log(m)) in an earlier version of this post, but the argument was wrong; I thank Alexander Belov for catching the error. I’ll post the R(g)=O(n4/3) argument once I understand it.
+
+To get the other separations—for example, total Boolean functions for which D~R02, D~Q4, R0~Q3, R0~R3/2, and R~approxdeg4—Ambainis et al. need to add various “enhancements” to the basic GPW function g defined above. There are three enhancements, which can either be added individually or combined, depending on one’s needs.
+
+1. Instead of just a single marked column, we can define g(X) to be 1 if and only if there are k marked columns, which point to each other in a cycle, and which also point to a trail of m-k ‘0’ cells, showing that none of the other columns contain all ‘1’ cells. This can help a bounded-error randomized algorithm—which can quickly find one of the all-1 columns using random sampling—while not much helping a zero-error randomized algorithm.
+
+2. Instead of a linear chain of pointers showing that all the non-marked columns contain a ‘0’ cell, for g(X) to be 1 we can demand a complete binary tree of pointers, originating at a marked column and fanning out to all the unmarked columns in only log(m) layers. This can substantially help a quantum algorithm, which can’t follow a pointer trail any faster than a classical algorithm can; but which, given a complete binary tree, can “fan out” and run Grover’s algorithm on all the leaves in only the square root of the number of queries that would be needed classically. Meanwhile, however, putting the pointers in a tree doesn’t much help deterministic or randomized algorithms.
+
+3. In addition to pointers “fanning out” from a marked column to all of the unmarked columns, we can demand that in every unmarked column, some ‘0’ cell contains a back-pointer, which leads back to a marked column. These back-pointers can help a randomized or quantum algorithm find a marked column faster, while not much helping a deterministic algorithm.
+
+Unless I’m mistaken, the situation is this:
+
+With no enhancements, you can get D~R2 and something like D~R03/2 (although I still don’t understand how you get the latter with no enhancements; the paper mentions it without proof Andris has kindly supplied a proof here).
+
+With only the cycle enhancement, you can get R0~R3/2.
+
+With only the binary tree enhancement, you can get R~approxdeg4.
+
+With only the back-pointer enhancement, you can get D~R02.
+
+With the cycle enhancement and the binary-tree enhancement, you can get R0~Q3.
+
+With the back-pointer enhancement and the binary-tree enhancement, you can get D~Q4.
+
+It’s an interesting question whether there are separations that require both the cycle enhancement and the back-pointer enhancement; Ambainis et al. don’t give any examples.
+
+And here’s another interesting question not mentioned in the paper. Using the binary-tree enhancement, Ambainis et al. achieve a fourth-power separation between bounded-error randomized query complexity and approximate degree as a real polynomial—i.e., quadratically better than any separation that was known before. Their proof of this involves cleverly constructing a low-degree polynomial by summing a bunch of low-degree polynomials derived from quantum algorithms (one for each possible marked row). As a result, their final, summed polynomial does not itself correspond to a quantum algorithm, meaning that they don’t get a fourth-power separation between R and Q (which would’ve been even more spectacular than what they do get). On the other hand, purely from the existence of a function with R~approxdeg4, we can deduce that that function has either
+
+(i) a super-quadratic gap between R and Q (refuting my conjecture that the Grover speedup is the best possible quantum speedup for total Boolean functions), or
+(ii) a quadratic gap between quantum query complexity and approximate degree—substantially improving over the gap found by Ambainis in 2003.
+
+I conjecture that the truth is (ii); it would be great to have a proof or disproof of this.
+
+================================================================================
+
+TITLE: 97% environmentalist
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+I decided to add my name to a petition by, as of this writing, 81 MIT faculty, calling on MIT to divest its endowment from fossil fuel companies.  (My co-signatories include Noam Chomsky, so I guess there’s something we agree about!)  There’s also a wider petition signed by nearly 3500 MIT students, faculty, and staff, mirroring similar petitions all over the world.
+
+When the organizers asked me for a brief statement about why I signed, I sent them the following:
+
+Signing this petition wasn’t an obvious choice for me, since I’m sensitive to the charge that divestment petitions are just meaningless sanctimony, a way for activists to feel morally pure without either making serious sacrifices or engaging the real complexities of an issue.  In the end, though, that kind of meta-level judgment can’t absolve us of the need to consider each petition on its merits: if we think of a previous crisis for civilization (say, in the late 1930s), then it seems obvious that even symbolic divestment gestures were better than nothing.  What made up my mind was reading the arguments pro and con, and seeing that the organizers of this petition had a clear-eyed understanding of what they were trying to accomplish and why: they know that divestment can’t directly drive down oil companies’ stock prices, but it can powerfully signal to the world a scientific consensus that, if global catastrophe is to be averted, most of the known fossil-fuel reserves need to be left in the ground, and that current valuations of oil, gas, and coal companies fail to reflect that reality.
+
+For some recent prognoses of the climate situation, see (for example) this or this from Vox.  My own sense is that the threat has been systematically understated even by environmentalists, because of the human impulse to shoehorn all news into a hopeful narrative (“but there’s still time!  if we just buy locally-grown produce, everything can be OK!”).  Logically, there’s an obvious tension between the statements:
+
+(a) there was already an urgent need to act decades ago, and
+
+(b) having failed to act then, we can still feasibly avert a disaster now.
+
+And indeed, (b) appears false to me.  We’re probably well into the era where, regardless of what we do or don’t do, some of us will live to see a climate dramatically different from the one in which human civilization developed for the past 10,000 years, at least as different as the last Ice Ages were.
+
+And yet that fact still doesn’t relieve us of moral responsibility.  We can buy more time to prepare, hoping for technological advances in the interim; we can try to bend the curve of CO2 concentration away from the worst futures and toward the merely terrible ones.  Alas, even those steps will require political will that’s unprecedented outside of major wars.  For the capitalist free market (which I’m a big fan of) to work its magic, actual costs first need to get reflected in prices—which probably means massively taxing fossil fuels, to the point where it’s generally cheaper to leave them in the ground and switch to alternatives.  (Lest anyone call me a doctrinaire treehugger, I also support way less regulation of the nuclear industry, to drive down the cost of building the hundreds of new nuclear plants that we’ll probably need.)
+
+These realities have a counterintuitive practical implication that I wish both sides understood better.  Namely, if you share my desperation and terror about this crisis, the urgent desire to do something, then limiting your personal carbon footprint should be very far from your main concern.  Like, it’s great if you can bike to work, and you should keep it up (fresh air and exercise and all).  But I’d say the anti-environmentalists are right that such voluntary steps are luxuries of the privileged, and will accordingly never add up to a hill of beans.  Let me go further: even to conceptualize this problem in terms of personal virtue and blame seems to me like a tragic mistake, one on which the environmentalists and their opponents colluded.  Given the choice, I’d much rather that the readers of this blog flew to all the faraway conferences they wanted, drove gas-guzzling minivans, ate steaks every night, and had ten kids, but then also took some steps that made serious political action to leave most remaining fossil fuels in the ground even ε more likely, ε closer to the middle of our Overton window.  I signed the MIT divestment petition because it seemed to me like such a step, admittedly with an emphasis on the ε.
+
+================================================================================
+
+TITLE: Can blog posts nourish the soul?  Scott A. (alas, not me) as existence proof
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+Reading the essays and speculative fiction of Scott Alexander, as they’ve grown in awesomeness even just within the past half-year, has for me been like witnessing the birth of a new Asimov.  (For more Alexandery goodness, check out Universal Love, Said the Cactus Person.)  That this nerd-bard, this spinner of stupid Internet memes into reflections on eternity, came to my attention by way of his brilliantly defending me, is almost immaterial at this point; I don’t think it plays any role in my continuing admiration for his work.  Whatever you do, just keep writing, other Scott A.
+
+================================================================================
+
+TITLE: The End of Suffering?
+URL: https://scottaaronson.blog/?m=201506
+CONTENT:
+A computer science undergrad who reads this blog recently emailed me about an anxiety he’s been feeling connected to the Singularity—not that it will destroy all human life, but rather that it will make life suffering-free and therefore no longer worth living (more Brave New World than Terminator, one might say).
+
+As he puts it:
+
+This probably sounds silly, but I’ve been existentially troubled by certain science fiction predictions for about a year or two, most of them coming from the Ray Kurzweil/Singularity Institute types … What really bothers me is the idea of the “abolition of suffering” as some put it. I just don’t see the point. Getting rid of cancer, premature death, etc., that all sounds great. But death itself? All suffering? At what point do we just sit down and ask ourselves, why not put our brains in a jar, and just activate our pleasure receptors for all eternity? That seems to be the logical conclusion of that line of thinking. If we want to reduce the conscious feeling of pleasure to the release of dopamine in the brain, well, why not?
+
+I guess what I think I’m worried about is having to make the choice to become a cyborg, or to upload my mind to a computer, to live forever, or to never suffer again. I don’t know how I’d answer, given the choice. I enjoy being human, and that includes my suffering. I really don’t want to live forever. I see that as a hedonic treadmill more than anything else. Crazy bioethicists like David Pearce, who want to genetically re-engineer all species on planet Earth to be herbivores, and literally abolish all suffering, just add fuel to my anxiety.
+
+… Do you think we’re any closer to what Kurzweil (or Pearce) predicted (and by that I mean, will we see it in our lifetimes)? I want to stop worrying about these things, but something is preventing me from doing so. Thoughts about the far flung (or near) future are just intrusive for me. And it seems like everywhere I go I’m reminded of my impending fate. Ernst Jünger would encourage me to take up an attitude of amor fati, but I can’t see myself doing that. My father says I’m too young to worry about these things, and that the answer will be clear when I’ve actually lived my life. But I just don’t know. I want to stop caring, more than anything else. It’s gotten to a point where the thoughts keep me up at night.
+
+I don’t know how many readers might have had similar anxieties, but in any case, I thought my reply might be of some interest to others, so with the questioner’s kind permission, I’m reproducing it below.
+
+1. An end to suffering removing the meaning from life? As my grandmother might say, “we should only have such problems”! I believe, alas, that suffering will always be with us, even after a hypothetical technological singularity, because of basic Malthusian logic. I.e., no matter how many resources there are, population will expand exponentially to exploit them and make the resources scarce again, thereby causing fighting, deprivation, and suffering. What’s terrifying about Malthus’s logic is how fully general it is: it applies equally to tenure-track faculty positions, to any extraterrestrial life that might exist in our universe or in any other bounded universe, and to the distant post-Singularity future.
+
+But if, by some miracle, we were able to overcome Malthus and eliminate all suffering, my own inclination would be to say “go for it”! I can easily imagine a life that was well worth living—filled with beauty, humor, play, love, sex, and mathematical and scientific discovery—even though it was devoid of any serious suffering. (We could debate whether the “ideal life” would include occasional setbacks, frustrations, etc., even while agreeing that at any rate, it should certainly be devoid of cancer, poverty, bullying, suicidal depression, and one’s Internet connection going down.)
+
+2. If you want to worry about something, then rather than an end to suffering, I might humbly suggest worrying about a large increase in human suffering within our lifetimes. A few possible culprits: climate change, resurgent religious fundamentalism, large parts of the world running out of fresh water.
+
+3. It’s fun to think about these questions from time to time, to use them to hone our moral intuitions—and I even agree with Scott Alexander that it’s worthwhile to have a small number of smart people think about them full-time for a living.  But I should tell you that, as I wrote in my post The Singularity Is Far, I don’t expect a Singularity in my lifetime or my grandchildrens’ lifetimes. Yes, technically, if there’s ever going to be a Singularity, then we’re 10 years closer to it now than we were 10 years ago, but it could still be one hell of a long way away! And yes, I expect that technology will continue to change in my lifetime in amazing ways—not as much as it changed in my grandparents’ lifetimes, probably, but still by a lot—but how to put this? I’m willing to bet any amount of money that when I die, people’s shit will still stink.
+
+================================================================================
+

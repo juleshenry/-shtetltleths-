@@ -1,0 +1,123 @@
+TITLE: Oh right, quantum computing
+URL: https://scottaaronson.blog/?m=202210
+CONTENT:
+These days, I often need to remind myself that, as an undergrad, grad student, postdoc, or professor, I’ve now been doing quantum computing research for a quarter-century—i.e., well over half of the subject’s existence.  As a direct result, when I feel completely jaded about a new development in QC, it might actually be exciting.  When I feel moderately excited, it might actually be the most exciting thing for years.
+
+With that in mind:
+
+(1) Last week National Public Radio’s Marketplace interviewed me, John Martinis, and others about the current state of quantum computing.  While the piece wasn’t entirely hype-free, I’m pleased to report that my own views were represented accurately!  To wit:
+
+“There is a tsunami of hype about what quantum computers are going to revolutionize,” said Scott Aaronson, a professor of computer science at the University of Texas at Austin. “Quantum computing has turned into a word that venture capitalists or people seeking government funding will sprinkle on anything because it sounds good.”
+
+Aaronson warned we can’t be certain that these computers will in fact revolutionize machine learning and finance and optimization problems.  “We can’t prove that there’s not a quantum algorithm that solves all these problems super fast, but we can’t even prove there’s not an algorithm for a conventional computer that does it,” he said.  [In the recorded version, they replaced this by a simpler but also accurate thought: namely, that we can’t prove one way or the other whether there’s a useful quantum advantage for these tasks.]
+
+
+
+(2) I don’t like to use this blog to toot my own research horn, but on Thursday my postdoc Jason Pollack and I released a paper, entitled Discrete Bulk Reconstruction. And to be honest, I’m pretty damned excited about it.  It represents about 8 months of Jason—a cosmologist and string theorist who studied under Sean Carroll—helping me understand AdS/CFT in the language of the undergraduate CS curriculum, like min-cuts on undirected graphs, so that we could then look for polynomial-time algorithms to implement the holographic mapping from boundary quantum states to the spatial geometry in the bulk.  We drew heavily on previous work in the same direction, especially the already-seminal 2015 holographic entropy cone paper by Ning Bao et al.  But I’d like to think that, among other things, our work represents a new frontier in just how accessible AdS/CFT itself can be made to CS and discrete math types.  Anyway, here’s the abstract if you’re interested:
+
+According to the AdS/CFT correspondence, the geometries of certain spacetimes are fully determined by quantum states that live on their boundaries — indeed, by the von Neumann entropies of portions of those boundary states. This work investigates to what extent the geometries can be reconstructed from the entropies in polynomial time. Bouland, Fefferman, and Vazirani (2019) argued that the AdS/CFT map can be exponentially complex if one wants to reconstruct regions such as the interiors of black holes. Our main result provides a sort of converse: we show that, in the special case of a single 1D boundary, if the input data consists of a list of entropies of contiguous boundary regions, and if the entropies satisfy a single inequality called Strong Subadditivity, then we can construct a graph model for the bulk in linear time. Moreover, the bulk graph is planar, it has O(N2) vertices (the information-theoretic minimum), and it’s “universal,” with only the edge weights depending on the specific entropies in question. From a combinatorial perspective, our problem boils down to an “inverse” of the famous min-cut problem: rather than being given a graph and asked to find a min-cut, here we’re given the values of min-cuts separating various sets of vertices, and need to find a weighted undirected graph consistent with those values. Our solution to this problem relies on the notion of a “bulkless” graph, which might be of independent interest for AdS/CFT. We also make initial progress on the case of multiple 1D boundaries — where the boundaries could be connected via wormholes — including an upper bound of O(N4) vertices whenever a planar bulk graph exists (thus putting the problem into the complexity class NP).
+
+(3) Anand Natarajan and Chinmay Nirkhe posted a preprint entitled A classical oracle separation between QMA and QCMA, which makes progress on a problem that’s been raised on this blog all the way back to its inception.  A bit of context: QMA, Quantum Merlin-Arthur, captures what can be proven using a quantum state with poly(n) qubits as the proof, and a polynomial-time quantum algorithm as the verifier.  QCMA, or Quantum Classical Merlin-Arthur, is the same as QMA except that now the proof has to be classical.  A fundamental problem of quantum complexity theory, first raised by Aharonov and Naveh in 2002, is whether QMA=QCMA.  In 2007, Greg Kuperberg and I introduced the concept of quantum oracle separation—that is, a unitary that can be applied in a black-box manner—in order to show that there’s a quantum oracle relative to which QCMA≠QMA.  In 2015, Fefferman and Kimmel improved this, to show that there’s a “randomized in-place” oracle relative to which QCMA≠QMA.  Natarajan and Nirkhe now remove the “in-place” part, meaning the only thing still “wrong” with their oracle is that it’s randomized.  Derandomizing their construction would finally settle this 20-year-old open problem (except, of course, for the minor detail of whether QMA=QCMA in the “real,” unrelativized world!).
+
+(4) Oh right, the Google group reports the use of their superconducting processor to simulate non-abelian anyons.  Cool.
+
+================================================================================
+
+TITLE: On Bryan Caplan and his new book
+URL: https://scottaaronson.blog/?m=202210
+CONTENT:
+Yesterday I attended a lecture by George Mason University economist Bryan Caplan, who’s currently visiting UT Austin, about his new book entitled Don’t Be a Feminist.  (See also here for previous back-and-forth between me and Bryan about his book.)  A few remarks:
+
+(1) Maybe surprisingly, there were no protesters storming the lectern, no security detail, not even a single rotten vegetable thrown. About 30 people showed up, majority men but women too. They listened politely and asked polite questions afterward. One feminist civilly challenged Bryan during the Q&A about his gender pay gap statistics.
+
+(2) How is it that I got denounced by half the planet for saying once, in a blog comment, that I agreed with 97% of feminism but had concerns with one particular way it was operationalized, whereas Bryan seems to be … not denounced in the slightest for publishing a book and going on a lecture tour about how he rejects feminism in its entirety as angry and self-pitying in addition to factually false? Who can explain this to me?
+
+(3) For purposes of his argument, Bryan defines feminism as “the view that women are generally treated less fairly than men,” rather than (say) “the view that men and women ought to be treated equally,” or “the radical belief that women are people,” or other formulations that Bryan considers too obvious to debate.  He then rebuts feminism as he’s defined it, by taking the audience on a horror tour of all the ways society treats men less fairly than women (expectations of doing dirty and dangerous work, divorce law, military drafts as in Ukraine right now, …), as well as potentially benign explanations for apparent unfairness toward women, to argue that it’s at least debatable which sex gets the rawer deal on average.
+
+During the Q&A, I raised what I thought was the central objection to Bryan’s relatively narrow definition of feminism. Namely that, by the standards of 150 years ago, Bryan is obviously a feminist, and so am I, and so is everyone in the room. (Whereupon a right-wing business school professor interjected: “please don’t make assumptions about me!”)
+
+I explained that this is why I call myself a feminist, despite agreeing with many of Bryan’s substantive points: because I want no one to imagine for a nanosecond that, if I had the power, I’d take gender relations back to how they were generations ago.
+
+Bryan replied that >60% of Americans call themselves non-feminists in surveys. So, he asked me rhetorically, do all those Americans secretly yearn to take us back to the 19th century? Such a position, he said, seemed so absurdly uncharitable as not to be worth responding to.
+
+Reflecting about it on my walk home, I realized: actually, give or take the exact percentages, this is precisely the progressive thesis. I.e., that just like at least a solid minority of Germans turned out to be totally fine with Nazism, however much they might’ve denied it beforehand, so too at least a solid minority of Americans would be fine with—if not ecstatic about—The Handmaid’s Tale made real. Indeed, they’d add, it’s only vociferous progressive activism that stands between us and that dystopia.
+
+And if anyone were tempted to doubt this, progressives might point to the election of Donald Trump, the failed insurrection to maintain his power, and the repeal of Roe as proof enough to last for a quadrillion years.
+
+Bryan would probably reply: why even waste time engaging with such a hysterical position? To me, though, the hysterical position sadly has more than a grain of truth to it. I wish we lived in a world where there was no point in calling oneself a pro-democracy anti-racist feminist and a hundred other banal and obvious things. I just don’t think that we do.
+
+================================================================================
+
+TITLE: Explanation-Gödel and Plausibility-Gödel
+URL: https://scottaaronson.blog/?m=202210
+CONTENT:
+Here’s an observation that’s mathematically trivial but might not be widely appreciated.  In kindergarten, we all learned Gödel’s First Incompleteness Theorem, which given a formal system F, constructs an arithmetical encoding of
+
+G(F) = “This sentence is not provable in F.”
+
+If G(F) is true, then it’s an example of a true arithmetical sentence that’s unprovable in F.  If, on the other hand, G(F) is false, then it’s provable, which means that F isn’t arithmetically sound.  Therefore F is either incomplete or unsound.
+
+Many have objected: “but despite Gödel’s Theorem, it’s still easy to explain why G(F) is true.  In fact, the argument above basically already did it!”
+
+[Note: Please stop leaving comments explaining to me that G(F) follows from F’s consistency.  I understand that: the “heuristic” part of the argument is F’s consistency!  I made a pedagogical choice to elide that, which nerd-sniping has now rendered untenable.]
+
+You might make a more general point: there are many, many mathematical statements for which we currently lack a proof, but we do seem to have a fully convincing heuristic explanation: one that “proves the statement to physics standards of rigor.”  For example:
+
+And so on.  No one has any idea how to prove any of the above statements—and yet, just on statistical grounds, it seems clear that it would require a ludicrous conspiracy to make any of them false.
+
+Conversely, one could argue that there are statements for which we do have a proof, even though we lack a “convincing explanation” for the statements’ truth.  Maybe the Four-Color Theorem or Hales’s Theorem, for which every known proof requires a massive computer enumeration of cases, belong to this class.  Other people might argue that, given a proof, an explanation could always be extracted with enough time and effort, though resolving this dispute won’t matter for what follows.
+
+You might hope that, even if some true mathematical statements can’t be proved, every true statement might nevertheless have a convincing heuristic explanation.  Alas, a trivial adaptation of Gödel’s Theorem shows that, if (1) heuristic explanations are to be checkable by computer, and (2) only true statements are to have convincing heuristic explanations, then this isn’t possible either.  I mean, let E be a program that accepts or rejects proposed heuristic explanations, for statements like the Twin Prime Conjecture or the Collatz Conjecture.  Then construct the sentence
+
+S(E) = “This sentence has no convincing heuristic explanation accepted by E.”
+
+If S(E) is true, then it’s an example of a true arithmetical statement without even a convincing heuristic explanation for its truth (!).  If, on the other hand, S(E) is false, then there’s a convincing heuristic explanation of its truth, which means that something has gone wrong.
+
+What’s happening, of course, is that given the two conditions we imposed, our “heuristic explanation system” was a proof system, even though we didn’t call it one.  This is my point, though: when we use the word “proof,” it normally invokes a specific image, of a sequence of statements that marches from axioms to a theorem, with each statement following from the preceding ones by rigid inference rules like those of first-order logic.  None of that, however, plays any direct role in the proof of the Incompleteness Theorem, which cares only about soundness (inability to prove falsehoods) and checkability by a computer (what, with hindsight, Gödel’s “arithmetization of syntax” was all about).  The logic works for “heuristic explanations” too.
+
+Now we come to something that I picked up from my former student (and now AI alignment leader) Paul Christiano, on a recent trip to the Bay Area, and which I share with Paul’s kind permission.  Having learned that there’s no way to mechanize even heuristic explanations for all the true statements of arithmetic, we could set our sights lower still, and ask about mere plausibility arguments—arguments that might be overturned on further reflection.  Is there some sense in which every true mathematical statement at least has a good plausibility argument?
+
+Maybe you see where this is going.  Letting P be a program that accepts or rejects proposed plausibility arguments, we can construct
+
+S(P) = “This sentence has no argument for its plausibility accepted by P.”
+
+If S(P) is true, then it’s an example of a true arithmetical statement without even a plausibility argument for its truth (!).  If, on the other hand, S(P) is false, then there is a plausibility argument for it.  By itself, this is not at all a fatal problem: all sorts of false statements (IP≠PSPACE, switching doors doesn’t matter in Monty Hall, Trump couldn’t possibly become president…) have had decent plausibility arguments.  Having said that, it’s pretty strange that you can have a plausibility argument that’s immediately contradicted by its own existence!  This rules out some properties that you might want your “plausibility system” to have, although maybe a plausibility system exists that’s still nontrivial and that has weaker properties.
+
+Anyway, I don’t know where I’m going with this, or even why I posted it, but I hope you enjoyed it!  And maybe there’s something to be discovered in this direction.
+
+================================================================================
+
+TITLE: Postdocs, matrix multiplication, and WSJ: yet more shorties
+URL: https://scottaaronson.blog/?m=202210
+CONTENT:
+I’m proud to say that Nick Hunter-Jones and Matteo Ippoliti—both of whom work at the interface between quantum information science and condensed-matter physics (Nick closer to the former and Matteo to the latter)—have joined the physics faculty at UT Austin this year.  And Nick, Matteo, and I are jointly seeking postdocs to start in Fall 2023!  Please check out our call for applications here.  The deadline is December 1; you apply through AcademicJobsOnline rather than by emailing me as in past years.
+
+The big news in AI and complexity theory this week was DeepMind’s AlphaTensor, and its automated discovery of new algorithms for matrix multiplication.  (See here for the Nature paper.)  More concretely, they’ve used AI to discover (among other things) an algorithm for multiplying 4×4 matrices, over finite fields of characteristic 2, using only 47 scalar multiplications.  This beats the 49=7×7 that you’d get from Strassen’s algorithm.  There are other improvements for other matrix dimensions, many of which work over fields of other characteristics.
+
+Since I’ve seen confusion about the point on social media: this does not improve over the best known asymptotic exponent for matrix multiplication, which over any field, still stands at the human-discovered 2.373 (meaning, we know how to multiply two N×N matrices in O(N2.373) time, but not faster).  But it does asymptotically improve over Strassen’s O(N2.81) algorithm from 1968, conceivably even in a way that could have practical relevance for multiplying hundreds-by-hundreds or thousands-by-thousands matrices over F2.
+
+Way back in 2007, I gave a talk at MIT CSAIL’s “Wild and Crazy Ideas Session,” where I explicitly proposed to use computer search to look for faster algorithms for 4×4 and 5×5 matrix multiplication.  The response I got at the time was that it was hopeless, since the search space was already too huge.  Of course, that was before the deep learning revolution.
+
+This morning, the Wall Street Journal published an article by Karen Hao about competition between China and the US in quantum computing.  Unfortunately paywalled, but includes the following passage:
+
+Meanwhile, American academics say it’s gotten harder for Chinese students to obtain visas to conduct quantum research in the U.S. “It’s become common knowledge that when Chinese students or postdocs come to the U.S., they can’t say they’re doing quantum computing,” says Scott Aaronson, director of the Quantum Information Center at the University of Texas, Austin.
+
+================================================================================
+
+TITLE: Two more shorties
+URL: https://scottaaronson.blog/?m=202210
+CONTENT:
+For anyone living under a rock with no access to nerd social media, Alain Aspect, John Clauser, and Anton Zeilinger have finally won the Nobel Prize in Physics, for their celebrated experiments that rubbed everyone’s faces in the reality of quantum entanglement (including Bell inequality violation and quantum teleportation).  I don’t personally know Aspect or Clauser, but Zeilinger extremely graciously hosted me and my wife Dana when we visited Vienna in 2012, even bringing us to the symphony (he knows the director and has front-row seats), and somehow making me feel more cultured rather than less.
+
+As usual, the recipe for winning the Nobel Prize in Physics is this:
+
+(1) Do something where anyone who knows about it is like, “why haven’t they given the Nobel Prize in Physics for that yet?”
+
+(2) Live long enough.
+
+Huge congratulations to Aspect, Clauser, and Zeilinger!
+
+Elham Kashefi, my quantum complexity theory colleague and treasured friend for more than 20 years, brought to my attention a Statement of Solidarity with Students in Iran from the International Academic Community.  Of course I was happy to sign the statement, just like I was back in 2009 when brave Iranian students similarly risked their lives and freedom for women’s rights and other Enlightenment values against the theocracy.  I urge you to sign the statement as well.  If enough Shtetl-Optimized readers disapprove of their brutal repression, surely the mullahs will reconsider!  More seriously though: if any readers can recommend a charity that’s actually making a difference in helping Iranians participate in the modern world, I’d be happy to do another of my matching donation drives.
+
+================================================================================
+

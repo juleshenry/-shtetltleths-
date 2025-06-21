@@ -1,0 +1,80 @@
+TITLE: Cerebrum-stuffer from Shtetl Claus
+URL: https://scottaaronson.blog/?m=201112
+CONTENT:
+Ho3!  Home with family for the holidays and looking for something to do?  Then check out the archives of our 6.893 Philosophy and Theoretical Computer Science course blog.  The course just ended last week, so you can find discussions of everything from the interpretation of quantum mechanics to Occam’s Razor to the Church-Turing Thesis to strong AI, as well as links to student projects, including Criticisms of the Turing Test and Why You Should Ignore (Most of) Them, Barwise Inverse Relation Principle, Bayesian Surprise, Boosting, and Other Things that Begin with the Letter B, and an interactive demonstration of interactive proofs.  Thanks to my TA Andy Drucker, and especially to the students, for making this such an interesting course.
+
+================================================================================
+
+TITLE: My New York Times essay on quantum computing
+URL: https://scottaaronson.blog/?m=201112
+CONTENT:
+I have a special treat for those commenters who consider me an incorrigible publicity-hound: an essay I was invited to write for the New York Times Science section, entitled Quantum Computing Promises New Insights, Not Just Supermachines.  (My original title was “The Real Reasons to Study Quantum Computing.”)  This piece is part of a collection of essays on “the future of computing,” which include one on self-driving cars by Sebastian Thrun, one on online learning by Daphne Koller, and other interesting stuff (the full list is here).
+
+In writing my essay, the basic constraints were:
+
+(a) I’d been given a rare opportunity to challenge at least ten popular misconceptions about quantum computing, and would kick myself for years if I didn’t hit all of them,
+
+(b) I couldn’t presuppose the reader had heard of quantum computing, and
+
+(c) I had 1200 words.
+
+Satisfying these constraints was harder than it looked, and I benefited greatly from the feedback of friends and colleagues, as well as the enormously helpful Times staff.  I did get one request that floored me: namely, to remove all the material about “interference” and “amplitudes” (too technical), and replace it by something ordinary people could better relate to—like, say, a description of how a quantum computer would work by trying every possible answer in parallel.  Eventually, though, the Gray Lady and I found a compromise that everyone liked (and that actually improved the piece): namely, I’d first summarize the usual “try all answers in parallel” view, and then explain why it was wrong, bringing in the minus signs and Speaking Truth to Parallelism.
+
+To accompany the essay, I also did a short podcast interview about quantum computing with the Times‘ David Corcoran.  (My part starts around 8:20.)  Overall, I’m happy with the interview, but be warned: when Corcoran asks me what quantum computers’ potential is, I start talking about the “try all answers in parallel” misconception—and then they cut to the next question before I get to the part about its being a misconception!  I need to get better at delivering soundbites…
+
+One final comment: in case you’re wondering, those black spots on the Times‘ cartoon of me seem to be artifacts of whatever photo-editing software they used.  They’re not shrapnel wounds or disfiguring acne.
+
+================================================================================
+
+TITLE: Quantum Algorithms for Quantum Field Theories
+URL: https://scottaaronson.blog/?m=201112
+CONTENT:
+For weeks, I’ve been meaning to blog about an important recent paper by Stephen Jordan, Keith Lee, and John Preskill, entitled Quantum Algorithms for Quantum Field Theories.  So I’m now doing so.
+
+As long as I’ve been in quantum computing, people have been wondering aloud about the computational power of realistic quantum field theories (for example, the Standard Model of elementary particles).  But no one seemed to have any detailed analysis of this question (if there’s something I missed, surely commenters will let me know).  The “obvious” guess would be that realistic quantum field theories should provide exactly the same computational power as “ordinary,” nonrelativistic quantum mechanics—in other words, the power of BQP (the class of problems solvable in polynomial time by a quantum computer).  That would be analogous to the situation in classical physics, where bringing in special relativity dramatically changes our understanding of space, time, matter, and energy, but seems (unlike quantum mechanics) to have little or no effect on which computational problems can be solved efficiently.  Analogously, it would seem strange if quantum field theories (QFTs)—which tie together quantum mechanics, special relativity, and detailed knowledge about the elementary particles and their interactions, but seen from far enough away are “just” quantum mechanics—forced any major revision to quantum computing theory.
+
+Until now, though, there seems to have been only one detailed analysis supporting that conclusion, and it applied to (2+1)-dimensional topological QFTs (TQFTs) only, rather than “realistic” (3+1)-dimensional QFTs.  This was the seminal work of Freedman, Kitaev, and Wang and Freedman, Larsen, and Wang in 2000.  (Six years later, Aharonov, Jones, and Landau gave a more computer-science-friendly version, by directly proving the BQP-completeness of approximating the Jones polynomial at roots of unity.  The latter problem was known to be closely-related to simulating TQFTs, from the celebrated work of Witten and others in the 1980s.)  To a theoretical computer scientist, dropping from three to two spatial dimensions might not sound like a big deal, but what’s important is that the relevant degrees of freedom become “topological”, making possible a clean, simple model of computation.  For “realistic” QFTs, by contrast, it wasn’t even obvious how to define a model of computation; putting realistic QFTs on a rigorous mathematical footing remains a notorious open problem.
+
+In their new paper, Jordan, Lee, and Preskill say that they give an algorithm, running on a “conventional” quantum computer, to estimate scattering probabilities in a class of QFTs called “continuum φ4 theories.”  Their algorithm uses time polynomial in the number of incoming particles in the scattering experiment and in their total energy, and inversely polynomial in the desired precision ε and in the distance λ-λc between the QFT’s coupling constant λ and a phase transition λc.  (In d=2 spatial dimensions, they say the dependence on the precision scales like (1/ε)2.376, the 2.376 coming from matrix multiplication. Naturally, that should now be amended to (1/ε)2.373.)  To develop their algorithm, Jordan et al. apparently had to introduce some new techniques for coping with the error incurred by discretizing QFTs.  No classical algorithm is known with similar scaling—so when suitably formalized, the “QFT simulation problem” might indeed be in BQP-BPP, matching the uninformed doofus intuition of complexity theorists like me.  Jordan et al. don’t say whether the problem they’re solving is also BQP-complete; I imagine that could be a topic for future research.  They also don’t say whether their precision parameter ε bounds the variation distance between the real and simulated output distributions (rather than just the differences between probabilities of individual scattering outcomes); I hope they or someone else will be able to clarify that point.
+
+In case it isn’t obvious yet, let me make it crystal-clear that I lack the physics background to evaluate Jordan et al.’s work in a serious technical way.  All I can say with confidence is that the small number of people who (1) have the requisite background and (2) care about computational complexity, will probably spend non-negligible time discussing and understanding this paper in the weeks and months to come.
+
+Conflict-of-Interest Warning: At a deep, subconscious level, I probably chose to blog about Jordan et al.’s paper not for any legitimate scientific reason, but simply because I know John Preskill and Stephen Jordan personally, and, despite being physicists, they’re both tremendously-respected colleagues who’ve made many outstanding contributions to quantum computing theory besides this one.  Then again, everything I’ve ever done—and everything you’ve ever done—has probably had such unsavory hidden motives as well, so who’s counting?  In all of history, there have only been ten or twenty people whose commitment to scientific objectivity has been absolute and pure, and since they comment on complexity blogs anonymously, we’ll probably never even know their names…
+
+================================================================================
+
+TITLE: The Alternative to Resentment
+URL: https://scottaaronson.blog/?m=201112
+CONTENT:
+A year ago, in a post entitled Anti-Complexitism, I tried to grapple with the strange phenomenon—one we’ve seen in force this past week—of anonymous commenters getting angry about the mere fact of announcements, on theoretical computer science blogs, of progress on longstanding open problems in theoretical computer science.  When I post something about global warming, Osama Bin Laden, or (of course) the  interpretation of quantum mechanics, I expect a groundswell of anger … but a lowering of the matrix-multiplication exponent ω?  Huh?  What was that about?
+
+Well, in this case, some commenters were upset about attribution issues (which hopefully we can put behind us now, everyone agreeing about the importance of both Stothers’ and Vassilevska Williams’ contributions), while others honestly but mistakenly believed that a small improvement to ω isn’t a big deal (I tried to explain why they’re wrong here).  What interests me in this post is the commenters who went further, positing the existence of a powerful “clique” of complexity bloggers that’s doing something reprehensible by “hyping” progress in complexity theory, or by exceeding some quota (what, exactly?) on the use of the word “breakthrough.”
+
+One of the sharpest responses to that paranoid worldview came (ironically) from a wonderful anonymous comment on my Anti-Complexitism post, which I recommend everyone read.  Here was my favorite paragraph:
+
+The final criticism [by the anti-complexites] seems to be: complexity theory makes too much noise which people in other areas do not like.  I really don’t understand this one, I mean what is wrong with people in an area being excited about their area?  Is that wrong?  And where do we make those noise?  On complexity blogs!  If you don’t like complexity theorists being excited about their area why are you reading these blogs?  The metaphor would be an outsider going to a wedding and asking the people in the wedding with a very serious tone: “why is everyone happy here?”
+
+Yesterday, in response to my reposting the above comment on Lance and Bill’s blog, another anonymous commenter had something extremely illuminating to say:
+
+Scott, you are missing the larger socio-economical context: it’s not about excitement.  It’s about researchers competing for scarce resources, primarily funding.  The work involved in funding acquisition is generally loathed, and directly reduces the time scientists have for research and teaching.  If some researchers ramp up their hype-level vis-a-vis the rest of the community, as the complexity community is believed to be doing (what with all them Goedel awards?), they are forcing (or are seen as forcing) the rest either to accept a lower level of funding with all the concomitant disadvantages, or invest more time in hype themselves.  In other words, hypers are defecting in the prisoners dilemma type game scientists are playing, the objective of which is to minimise the labour involved in funding acquisition.
+
+This is similar to teeth-whitening: in the past, it was perfectly possible to be considered attractive with natural, slightly yellowish teeth. Then some defected by bleaching, then more and more, and today natural teeth are socially hardly acceptable, certainly not if you want to be good-looking.  Is that progress?
+
+I posted a response on Lance and Bill’s blog, but then decided it was important enough to repost here.  So:
+
+Dear Anonymous 2:47,
+
+Let me see whether I understand you correctly.  On the view you propose, other scientists shouldn’t have praised (say) Carl Sagan for getting millions of people around the world excited about science.  Rather, they should have despised him, for using hype to divert scarce funding dollars from their own fields to the fields Sagan favored (like astronomy, or Sagan’s preferred parts of astronomy).  Sagan forced all those other scientists to accept a terrible choice: either accept reduced funding, or else sink to Sagan’s level, and perform the loathed task of communicating their own excitement about their own fields to the public.
+
+Actually, there were other scientists who drew essentially that conclusion.  As an example, Sagan was famously denied membership in the National Academy of Sciences, apparently because of a few vocal NAS members who were jealous and resentful of Sagan’s outreach activities.  The view we’re now being asked to accept is that those NAS members are the ones who emerge from the story the moral victors.
+
+So let me thank you, Anonymous 2:47: it’s rare for anyone to explain the motivation behind angry TCS blog comments with that much candor.
+
+Now that the real motivation has (apparently) crawled out from underneath its rock, I can examine it and refute it.  The central point is simply that science isn’t a Prisoner’s-Dilemma-type game.   What you describe as the “socially optimal equilibrium,” where no scientists need to be bothered to communicate their excitement about their fields, is not socially optimal at all—neither from the public’s standpoint nor from science’s.
+
+At the crudest level, science funding is not a fixed-size pie.  For example, when Congress was debating the cancellation of the Superconducting Supercollider, a few physicists from other fields eagerly jumped on the anti-SSC bandwagon, hoping that the SSC money might then get diverted to their own fields.  Ultimately, of course, the SSC was cancelled, and none of the money ever found its way to other areas of physics.
+
+So, if you see people using blogs to talk about research results that excite them, then instead of resenting it, consider starting your own blog to talk about the research results that excite YOU.  If your blog is well-written and interesting, I’ll even add you to my blogroll, game-theoretic funding considerations be damned.  Just go to WordPress.com—it’s free, and it takes only a few minutes to set one up.
+
+================================================================================
+

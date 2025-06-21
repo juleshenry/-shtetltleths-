@@ -1,0 +1,126 @@
+TITLE: The Busy Beaver Frontier
+URL: https://scottaaronson.blog/?m=202007
+CONTENT:
+Update (July 27): I now have a substantially revised and expanded version (now revised and expanded even a second time), which incorporates (among other things) the extensive feedback that I got from this blog post.  There are new philosophical remarks, some lovely new open problems, and an even-faster-growing (!) integer sequence.  Check it out!
+
+Another Update (August 13): Nick Drozd now has a really nice blog post about his investigations of my Beeping Busy Beaver (BBB) function.
+
+
+
+A life that was all covid, cancellations, and Trump, all desperate rearguard defense of the beleaguered ideals of the Enlightenment, would hardly be worth living.  So it was an exquisite delight, these past two weeks, to forget current events and write an 18-page survey article about the Busy Beaver function: the staggeringly quickly-growing function that probably encodes a huge portion of all interesting mathematical truth in its first hundred values, if only we could know those values or exploit them if we did.
+
+Without further ado, here’s the title, abstract, and link:
+
+The Busy Beaver Frontierby Scott Aaronson
+
+The Busy Beaver function, with its incomprehensibly rapid growth, has captivated generations of computer scientists, mathematicians, and hobbyists.  In this survey, I offer a personal view of the BB function 58 years after its introduction, emphasizing lesser-known insights, recent progress, and especially favorite open problems.  Examples of such problems include: when does the BB function first exceed the Ackermann function?  Is the value of BB(20) independent of set theory?  Can we prove that BB(n+1)>2BB(n) for large enough n?  Given BB(n), how many advice bits are needed to compute BB(n+1)?  Do all Busy Beavers halt on all inputs, not just the 0 input?  Is it decidable whether BB(n) is even or odd?
+
+The article is slated to appear soon in SIGACT News.  I’m grateful to Bill Gasarch for suggesting it—even with everything else going on, this was a commission I felt I couldn’t turn down!
+
+Besides Bill, I’m grateful to the various Busy Beaver experts who answered my inquiries, to Marijn Heule and Andy Drucker for suggesting some of the open problems, to Marijn for creating a figure, and to Lily, my 7-year-old daughter, for raising the question about the first value of n at which the Busy Beaver function exceeds the Ackermann function.  (Yes, Lily’s covid homeschooling has included multiple lessons on very large positive integers.)
+
+There are still a few days until I have to deliver the final version. So if you spot anything wrong or in need of improvement, don’t hesitate to leave a comment or send an email.  Thanks in advance!
+
+Of course Busy Beaver has been an obsession that I’ve returned to many times in my life: for example, in that Who Can Name the Bigger Number? essay that I wrote way back when I was 18, in Quantum Computing Since Democritus, in my public lecture at Festivaletteratura, and in my 2016 paper with Adam Yedidia that showed that the values of all Busy Beaver numbers beyond the 7910th are independent of the axioms of set theory (Stefan O’Rear has since shown that independence starts at the 748th value or sooner).  This survey, however, represents the first time I’ve tried to take stock of BusyBeaverology as a research topic—collecting in one place all the lesser-known theorems and empirical observations and open problems that I found the most striking, in the hope of inspiring not just contemplation or wonderment but actual progress.
+
+Within the last few months, the world of deep mathematics that you can actually explain to a child lost two of its greatest giants: John Conway (who died of covid, and who I eulogized here) and Ron Graham.  One thing I found poignant, and that I didn’t know before I started writing, is that Conway and Graham both play significant roles in the story of the Busy Beaver function.  Conway, because most of the best known candidates for Busy Beaver Turing machines turn out, when you analyze them, to be testing variants of the notorious Collatz Conjecture—and Conway is the one who proved, in 1972, that the set of “Collatz-like questions” is Turing-undecidable.  And Graham because of Graham’s number from Ramsey theory—a candidate for the biggest number that’s ever played a role in mathematical research—and because of the discovery, four years ago, that the 18th Busy Beaver number exceeds Graham’s number.
+
+(“Just how big is Graham’s number?  So big that the 17th Busy Beaver number is not yet known to exceed it!”)
+
+Anyway, I tried to make the survey pretty accessible, while still providing enough technical content to sink one’s two overgrown front teeth into (don’t worry, there are no such puns in the piece itself).  I hope you like reading it at least 1/BB(10) as much as I liked writing it.
+
+Update (July 24): Longtime commenter Joshua Zelinsky gently reminded me that one of the main questions discussed in the survey—namely, whether we can prove BB(n+1)>2BB(n) for all large enough n—was first brought to my attention by him, Joshua, in a 2013 Ask-Me-Anything session on this blog!  I apologize to Joshua for the major oversight, which has now been corrected.  On the positive side, we just got a powerful demonstration both of the intellectual benefits of blogging, and of the benefits of sharing paper drafts on one’s blog before sending them to the editor!
+
+================================================================================
+
+TITLE: Is this blog obsolete?
+URL: https://scottaaronson.blog/?m=202007
+CONTENT:
+Longtime friend-of-the-blog Michael Nielsen, formerly a quantum computing theorist and now an independent thinker about science and AI and learning, posted the following exchange with the astounding GPT-3 text generator / chatbot:
+
+Q: Is it possible to use quantum computers to solve NP-complete problems in polynomial time?A: It is not possible to use quantum computers to solve NP-complete problems in polynomial time.
+
+Q: Why not?A: Because NP-complete problems are not in BQP.
+
+Q: You’ve just restated your earlier assertion!  What I’d like is to understand the underlying reason why not!A: I’m sorry, but I don’t have time to explain the underlying reason why not.
+
+Q: No offence, but this seems really bogus.  I don’t believe you understand the reason why!A: I’m sorry, but I don’t have time to explain the underlying reason why not.
+
+(And then there are a few more rounds of the AI not having time to “explain the underlying reason why not.”)
+
+This is, like, 80% of the way to replacing Shtetl-Optimized!
+
+For much more discussion of GPT-3 and its implications, and samples of its output, see for example the SSC subreddit.  At the moment, as far as I can tell, the closest a person off the street can easily come to experimenting with GPT-3 themselves is using a website called AI Dungeon.
+
+And yes, as many have already remarked, this is clearly the MITS Altair of text-generating AI, an amusing toy that’s also the start of something that will change the world.
+
+================================================================================
+
+TITLE: My Enlightenment fanaticism
+URL: https://scottaaronson.blog/?m=202007
+CONTENT:
+Update (July 17): Friend-of-the-blog Karen Morenz points me to a piece by Bonny Brooks, articulating a left-wing case against cancel culture.  I read it and found much to agree with.  Mostly, though, I was really happy to spend this week doing some actual research (nearly the first since the pandemic started) rather than blogging culture-war stuff!  Speaking of which, please get in any last comments within the next day or so; then I’ll close down the thread.
+
+
+
+If there were ever a time for liberals and progressives to put aside their internal squabbles, you’d think it was now.  The President of the United States is a racist gangster, who might not leave if he loses the coming election—all the more reason to ensure he loses in a landslide.  Due in part to that gangster’s breathtaking incompetence, 130,000 Americans are now dead, and the economy tanked, from a pandemic that the rest of the world has under much better control.  The gangster’s latest “response” to the pandemic has been to disrupt the lives of thousands of foreign scientists—including several of my students—by threatening to cancel their visas.  (American universities will, of course, do whatever they legally can to work around this act of pure spite.)
+
+So how is the left responding to this historic moment?
+
+This weekend, 536 people did so by … trying to cancel Steven Pinker, stripping him of “distinguished fellow” and “media expert” status (whatever those are) in the Linguistics Society of America for ideological reasons.
+
+Yes, Steven Pinker: the celebrated linguist and cognitive scientist, author of The Language Instinct and How the Mind Works (which had a massive impact on me as a teenager) and many other books, and academic torch-bearer for the Enlightenment in our time.  For years, I’d dreaded the day they’d finally come for Steve, even while friends assured me my fears must be inflated since, after all, they hadn’t come for him yet.
+
+I concede that the cancelers’ logic is impeccable.  If they can get Pinker, everyone will quickly realize that there’s no longer any limit to who they can get—including me, including any writer or scientist who crosses them.  If you’ve ever taken, or aspire to take, any public stand riskier than “waffles are tasty,” then don’t delude yourself that you’ll be magically spared—certainly not by your own progressive credentials.
+
+I don’t know if the “charges” against Pinker merit a considered response  (Pinker writes that some people wondered if they were satire).  For those who care, though, here’s a detailed and excellent takedown by the biologist and blogger Jerry Coyne, and here’s another by Barbara Partee.
+
+So, it seems Pinker once used the term “urban crime,” which can be a racist dogwhistle—except that in this case, it literally meant “urban crime.”  Pinker once referred to Bernie Goetz, whose 1984 shooting of four robbers in the NYC subway polarized the US at the time, as a “mild-mannered engineer,” in a sentence whose purpose was to contrast that description with the ferocity of Goetz’s act.  Pinker “appropriated” the work of a Black scholar, Harvard Dean Lawrence Bobo, which apparently meant approvingly citing him in a tweet.  Etc.  Ironically, it occurred to me that the would-be Red Guards could’ve built a much stronger case against Pinker had they seriously engaged with his decades of writing—writing that really does take direct aim at their whole worldview, they aren’t wrong about that—rather than superficially collecting a few tweets.
+
+What Coyne calls the “Purity Posse” sleazily gaslights its readers as follows:
+
+We want to note here that we have no desire to judge Dr. Pinker’s actions in moral terms, or claim to know what his aims are. Nor do we seek to “cancel” Dr. Pinker, or to bar him from participating in the linguistics and LSA communities (though many of our signatories may well believe that doing so would be the right course of action).
+
+In other words: many of us “may well believe” that Pinker’s scientific career should be ended entirely.  But magnanimously, for now, we’ll settle for a display of our power that leaves the condemned heretic still kicking.  So don’t accuse us of wanting to “cancel” anyone!
+
+In that same generous spirit:
+
+Though no doubt related, we set aside questions of Dr. Pinker’s tendency to move in the proximity of what The Guardian called a revival of “scientific racism”, his public support for David Brooks (who has been argued to be a proponent of “gender essentialism”), his expert testimonial in favor of Jeffrey Epstein (which Dr. Pinker now regrets), or his dubious past stances on rape and feminism.
+
+See, even while we make these charges, we disclaim all moral responsibility for making them.  (For the record, Alan Dershowitz asked Pinker for a linguist’s opinion of a statute, so Pinker provided it; Pinker didn’t know at the time that the request had anything to do with Epstein.)
+
+Again and again, spineless institutions have responded to these sorts of ultimatums by capitulating to them.  So I confess that the news about Pinker depressed me all weekend.  The more time passed, though, the more it looked like the Purity Posse might have actually overplayed its hand this time.  Steven Pinker is not weak prey.
+
+Let’s start with what’s missing from the petition: Noam Chomsky pointedly refused to sign.  How that must’ve stung his comrades!  For that matter, virtually all of the world’s well-known linguists refused to sign.  Ray Jackendoff and Michel DeGraff were originally on the petition, but their names turned out to have been forged (were others?).
+
+But despite the flimsiness of the petition, suppose the Linguistics Society of America caved.  OK, I mused, how many people have even heard of the Linguistics Society of America, compared to the number who’ve heard of Pinker or read his books?  If the LSA expelled Pinker, wouldn’t they be forever known to the world only as the organization that had done that?
+
+I’m tired of the believers in the Enlightenment being constantly on the defensive.  “No, I’m not a racist or a misogynist … on the contrary, I’ve spent decades advocating for … yes, I did say that, but you completely misunderstood my meaning, which in context was … please, I’m begging you, can’t we sit and discuss this like human beings?”
+
+It’s time for more of us to stand up and say: yes, I am a center-left extremist.  Yes, I’m an Enlightenment fanatic, a radical for liberal moderation and reason.  If liberalism is the vanilla of worldviews, then I aspire to be the most intense vanilla anyone has ever tasted.  I’m not a closeted fascist.  I’m not a watered-down leftist.  I’m something else.  I consider myself ferociously anti-racist and anti-sexist and anti-homophobic and pro-downtrodden, but I don’t cede to any ideological faction the right to dictate what those terms mean.  The world is too complicated, too full of ironies and surprises, for me to outsource my conscience in that way.
+
+Enlightenment liberalism at least has the virtue that it’s not some utopian dream: on the contrary, it’s already led to most of the peace and prosperity that this sorry world has ever known, wherever and whenever it’s been allowed to operate.  And while “the death of the Enlightenment” gets proclaimed every other day, liberal ideals have by now endured for centuries.  They’ve outlasted kings and dictators, the Holocaust and the gulag.  They certainly have it within them to outlast some online sneerers.
+
+Yes, sometimes martyrdom (or at least career martyrdom) is the only honorable course, and yes, the childhood bullies did gift me with a sizeable persecution complex—I’ll grant the sneerers that.  But on reflection, no, I don’t want to be a martyr for Enlightenment values.  I want Enlightenment values to win, and not by vanquishing their opponents but by persuading them.  As Pinker writes:
+
+A final comment: I feel sorry for the signatories. Moralistic dudgeon is a shallow and corrosive indulgence, & policing the norms of your peer group a stunting of the intellect. Learning new ideas & rethinking conventional wisdom are deeper pleasures … and ultimately better for the world. Our natural state is ignorance, fallibility, & self-deception. Progress comes only from broaching & evaluating ideas, including those that feel unfamiliar and uncomfortable.
+
+Spend a lot of time on Twitter and Reddit and news sites, and it feels like the believers in the above sentiment are wildly outnumbered by the self-certain ideologues of all sides.  But just like the vanilla in a cake can be hard to taste, so there are more Enlightenment liberals than it seems, even in academia—especially if we include all those who never explicitly identified that way, because they were too busy building or fixing or discovering or teaching, and because they mistakenly imagined that if they just left the Purity Posse alone then the Posse would do likewise.  If that’s you, then please ask yourself now: what is my personal break-point for speaking up?
+
+================================================================================
+
+TITLE: Scott’s Zoom tip: Email the link!
+URL: https://scottaaronson.blog/?m=202007
+CONTENT:
+Like many academics, I’ve now been regularly “attending” conferences and giving talks via Zoom for four months.  Naturally, I’ve learned a lot about how to use this platform—one that, despite numerous quirks and flaws, actually works well enough that it could probably replace at least 2/3 of in-person talks and meetings after the covid crisis is over.  But one particular lesson is so important that I thought I’d make a public service announcement of it.  So without further ado:
+
+Email the link.
+
+You know, the thing like
+
+https://us02web.zoom.us/jblahblah
+
+that you actually click to get to the actual conversation.  Definitely email the link to the speaker (!).  But also email it to whomever said they plan to attend.  Resend the link between a day and an hour in advance, so that it doesn’t get buried, but turns up right away when people search their inboxes.  If possible, put the link in every single email about the meeting or lecture.  Even if you already sent the link for previous iterations of the meeting and it hasn’t changed, send it again.  Don’t assume people will find the link on the web.  Don’t make them click through five other links or open an attached PDF for it.  Don’t send ten emails that explain every possible detail of the meeting except how to get to it.  Just email the link.  That’s all.  Thanks!
+
+================================================================================
+

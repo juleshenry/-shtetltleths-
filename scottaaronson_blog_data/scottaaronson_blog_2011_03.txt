@@ -1,0 +1,42 @@
+TITLE: Valiant’s valiance recognized
+URL: https://scottaaronson.blog/?m=201103
+CONTENT:
+Update (March 25): I have a new paper called A Linear-Optical Proof that the Permanent is #P-Hard, which is dedicated to Les Valiant on the occasion of his Turing Award.  Here’s the abstract:
+
+One of the crown jewels of complexity theory is Valiant’s 1979 theorem  that computing the permanent of an n*n matrix is #P-hard.  Here we show  that, by using the model of linear-optical quantum computing—and in  particular, a universality theorem due to Knill, Laflamme, and  Milburn—one can give a different and arguably more intuitive proof of  this theorem.
+
+For decades, Harvard’s Leslie Valiant has obviously deserved a Turing Award—and today, the ACM most excellently announced its agreement with the obvious.  I have little to add to the prize citation (see also Lance’s post): from launching new fields whose reach extends beyond theory (PAC-learning), to proving epochal results (#P-completeness of the permanent), to asking hugely influential questions (permanent vs. determinant), Valiant has been a creative powerhouse of theoretical computer science for longer than I’ve been alive.
+
+One thing the prize citation doesn’t mention is that Valiant is now the third Turing Award winner (after Andy Yao and Len Adleman) to have made a major contribution to quantum computing theory.  Valiant’s 2001 paper Quantum Computers that can be Simulated Classically in Polynomial Time introduced the beautiful computational model that computer scientists now know as “matchgates,” and that physicists know as “noninteracting fermions.” It still amazes that Valiant proposed this model for purely mathematical reasons—hitting physical relevance straight between the eyes despite (as far as I can tell) not having that target anywhere in his sights.
+
+To put the point in terms that my physicist friends will understand, that Valiant himself would probably dispute, but that I would defend:
+
+Valiant’s work has shown that, even if our universe hadn’t been made of bosons and fermions, theoretical computer scientists would have had compelling reasons of their own to invent those particles or something equivalent to them—and furthermore, that at least one theoretical computer scientist would have had the imagination to do so.
+
+Certainly Valiant has had a huge influence on me, both through his work and as someone who made time to talk to me as an obscure grad student a decade ago.   Three of my papers—The Learnability of Quantum States, A Full Characterization of Quantum Advice, and The Computational Complexity of Linear Optics—would collapse entirely without Valiant-laid foundations.
+
+Congratulations, Les!
+
+================================================================================
+
+TITLE: Science journalism: good and hilarious
+URL: https://scottaaronson.blog/?m=201103
+CONTENT:
+On Wednesday, Larry Hardesty of the MIT News Office published a nice article about my work with Alex Arkhipov on the computational complexity of linear optics.  Although the title—“The quantum singularity”—made me wince a little, I was impressed by the effort Larry put into getting the facts right, and especially laying out the problems that still need to be solved.
+
+Less successful was a story in PC Magazine based on MIT’s press release, which contained the following sentence (let me know if you can decipher what the author meant—I couldn’t):
+
+Aaronson says that he and Arkhipov have not successfully proven that  designing a device capable of testing the theory is impossible—which is  an important first step, whether to eventually building a quantum  computer, or even just laying the initial framework for using the  microscopic secrets of the universe to let humans better understand the  world that surrounds them.
+
+However, in the competition for Popular Science Article Sentence of the Year, the sentence above will have to contend with a now-classic sentence from the New York Times article about Watson:
+
+More than anything, the contest was a vindication for the academic field  of computer science, which began with great promise in the 1960s  with the vision of creating a thinking machine and which became the  laughingstock of Silicon Valley in the 1980s, when a series of heavily  financed start-up companies went bankrupt.
+
+
+
+To the NYT’s credit, they quickly posted a correction:
+
+An article last  Thursday about the I.B.M. computer Watson  misidentified the academic  field vindicated by Watson’s besting of two  human opponents on  “Jeopardy!” It is artificial intelligence — not  computer science, a  broader field that includes artificial intelligence.
+
+================================================================================
+

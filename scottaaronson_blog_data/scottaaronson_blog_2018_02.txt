@@ -1,0 +1,81 @@
+TITLE: Review of Vivek Wadhwa’s Washington Post column on quantum computing
+URL: https://scottaaronson.blog/?m=201802
+CONTENT:
+Various people pointed me to a Washington Post piece by Vivek Wadhwa, entitled “Quantum computers may be more of an immiment threat than AI.”  I know I’m late to the party, but in the spirit of Pete Wells’ famous New York Times “review” of Guy Fieri’s now-closed Times Square restaurant, I have a few questions that have been gnawing at me:
+
+Mr. Wadhwa, when you decided to use the Traveling Salesman Problem as your go-to example of a problem that quantum computers can solve quickly, did the thought ever cross your mind that maybe you should look this stuff up first—let’s say, on Wikipedia?  Or that you should email one person—just one, anywhere on the planet—who works in quantum algorithms?
+
+When you wrote of the Traveling Salesman Problem that “[i]t would take a laptop computer 1,000 years to compute the most efficient route between 22 cities”—how confident are you about that?  Willing to bet your house?  Your car?  How much would it blow your mind if I told you that a standard laptop, running a halfway decent algorithm, could handle 22 cities in a fraction of a second?
+
+When you explained that quantum computing is “equivalent to opening a combination lock by trying every possible number and sequence simultaneously,” where did this knowledge come from?  Did it come from the same source you consulted before you pronounced the death of Bitcoin … in January 2016?
+
+Had you wanted to consult someone who knew the first thing about quantum computing, the subject of your column, would you have been able to use a search engine to find one?  Or would you have simply found another “expert,” in the consulting or think-tank worlds, who “knew” the same things about quantum computing that you do?
+
+Incidentally, when you wrote that quantum computing “could pose a greater burden on businesses than the Y2K computer bug did toward the end of the ’90s,” were you trying to communicate how large the burden might be?
+
+And when you wrote that
+
+[T]here is substantial progress in the development of algorithms that are “quantum safe.” One promising field is matrix multiplication, which takes advantage of the techniques that allow quantum computers to be able to analyze so much information.
+
+—were you generating random text using one of those Markov chain programs?  If not, then what were you referring to?
+
+Would you agree that the Washington Post has been a leader in investigative journalism exposing Trump’s malfeasance?  Do you, like me, consider them one of the most important venues on earth for people to be able to trust right now?  How does it happen that the Washington Post publishes a quantum computing piece filled with errors that would embarrass a high-school student doing a term project (and we won’t even count the reference to Stephen “Hawkings”—that’s a freebie)?
+
+Were the fact-checkers home with the flu?  Did they give your column a pass simply because it was “perspective” rather than news?  Or did they trust you as a widely-published technology expert?  How does one become such an expert, anyway?
+
+Thanks!
+
+Update (Feb. 21): For casual readers, Vivek Wadhwa quickly came into the comments section to try to defend himself—before leaving in a huff as a chorus of commenters tried to explain why he was wrong.  As far as I know, he has not posted any corrections to his Washington Post piece.  Wadhwa’s central defense was that he was simply repeating what Michelle Simmons, a noted quantum computing experimentalist in Australia, said in various talks in YouTube—which turns out to be largely true (though Wadhwa said explicitly that quantum computers could efficiently solve TSP, while Simmons mostly left this as an unstated implication).  As a result, while Wadhwa should obviously have followed the journalistic practice of checking incredible-sounding claims—on Wikipedia if nowhere else!—before repeating them in the Washington Post, I now feel that Simmons shares in the responsibility for this.  As John Preskill tweeted, an excellent lesson to draw from this affair is that everyone in our field needs to be careful to say things that are true when speaking to the public.
+
+================================================================================
+
+TITLE: Three updates
+URL: https://scottaaronson.blog/?m=201802
+CONTENT:
+
+
+================================================================================
+
+TITLE: Interpretive cards (MWI, Bohm, Copenhagen: collect ’em all)
+URL: https://scottaaronson.blog/?m=201802
+CONTENT:
+I’ve been way too distracted by actual research lately from my primary career as a nerd blogger—that’s what happens when you’re on sabbatical.  But now I’m sick, and in no condition to be thinking about research.  And this morning, in a thread that had turned to my views on the interpretation of quantum mechanics called “QBism,” regular commenter Atreat asked me the following pointed question:
+
+Scott, what is your preferred interpretation of QM? I don’t think I’ve ever seen you put your cards on the table and lay out clearly what interpretation(s) you think are closest to the truth. I don’t think your ghost paper qualifies as an answer, BTW. I’ve heard you say you have deep skepticism about objective collapse theories and yet these would seemingly be right up your philosophical alley so to speak. If you had to bet on which interpretation was closest to the truth, which one would you go with?
+
+Many people have asked me some variant of the same thing.  As it happens, I’d been toying since the summer with a huge post about my views on each major interpretation, but I never quite got it into a form I wanted.  By contrast, it took me only an hour to write out a reply to Atreat, and in the age of social media and attention spans measured in attoseconds, many readers will probably prefer that short reply to the huge post anyway.  So then I figured, why not promote it to a full post and be done with it?  So without further ado:
+
+Dear Atreat,
+
+It’s no coincidence that you haven’t seen me put my cards on the table with a favored interpretation of QM!
+
+There are interpretations (like the “transactional interpretation”) that make no sense whatsoever to me.
+
+There are “interpretations” like dynamical collapse that aren’t interpretations at all, but proposals for new physical theories.  By all means, let’s test QM on larger and larger systems, among other reasons because it could tell us that some such theory is true or—vastly more likely, I think—place new limits on it! (People are trying.)
+
+Then there’s the deBroglie-Bohm theory, which does lay its cards on the table in a very interesting way, by proposing a specific evolution rule for hidden variables (chosen to match the predictions of QM), but which thereby opens itself up to the charge of non-uniqueness: why that rule, as opposed to a thousand other rules that someone could write down?  And if they all lead to the same predictions, then how could anyone ever know which rule was right?
+
+And then there are dozens of interpretations that seem to differ from one of the “main” interpretations (Many-Worlds, Copenhagen, Bohm) mostly just in the verbal patter.
+
+As for Copenhagen, I’ve described it as “shut-up and calculate except without ever shutting up about it”!  I regard Bohr’s writings on the subject as barely comprehensible, and Copenhagen as less of an interpretation than a self-conscious anti-interpretation: a studied refusal to offer any account of the actual constituents of the world, and—most of all—an insistence that if you insist on such an account, then that just proves that you cling naïvely to a classical worldview, and haven’t grasped the enormity of the quantum revolution.
+
+But the basic split between Many-Worlds and Copenhagen (or better: between Many-Worlds and “shut-up-and-calculate” / “QM needs no interpretation” / etc.), I regard as coming from two fundamentally different conceptions of what a scientific theory is supposed to do for you.  Is it supposed to posit an objective state for the universe, or be only a tool that you use to organize your experiences?
+
+Also, are the ultimate equations that govern the universe “real,” while tables and chairs are “unreal” (in the sense of being no more than fuzzy approximate descriptions of certain solutions to the equations)?  Or are the tables and chairs “real,” while the equations are “unreal” (in the sense of being tools invented by humans to predict the behavior of tables and chairs and whatever else, while extraterrestrials might use other tools)?  Which level of reality do you care about / want to load with positive affect, and which level do you want to denigrate?
+
+This is not like picking a race horse, in the sense that there might be no future discovery or event that will tell us who was closer to the truth.  I regard it as conceivable that superintelligent AIs will still argue about the interpretation of QM … or maybe that God and the angels argue about it now.
+
+Indeed, about the only thing I can think of that might definitively settle the debate, would be the discovery of an even deeper level of description than QM—but such a discovery would “settle” the debate only by completely changing the terms of it.
+
+I will say this, however, in favor of Many-Worlds: it’s clearly and unequivocally the best interpretation of QM, as long as we leave ourselves out of the picture!  I.e., as long as we say that the goal of physics is to give the simplest, cleanest possible mathematical description of the world that somewhere contains something that seems to correspond to observation, and we’re willing to shunt as much metaphysical weirdness as needed to those who worry themselves about details like “wait, so are we postulating the physical existence of a continuum of slightly different variants of me, or just an astronomically large finite number?” (Incidentally, Max Tegmark’s “mathematical multiverse” does even better than MWI by this standard.  Tegmark is the one waiting for you all the way at the bottom of the slippery slope of always preferring Occam’s Razor over trying to account for the specificity of the observed world.)  It’s no coincidence, I don’t think, that MWI is so popular among those who are also eliminativists about consciousness.
+
+When I taught my undergrad Intro to Quantum Information course last spring—for which lecture notes are coming soon, by the way!—it was striking how often I needed to resort to an MWI-like way of speaking when students got confused about measurement and decoherence. (“So then we apply this unitary transformation U that entangles the system and environment, and we compute a partial trace over the environment qubits, and we see that it’s as if the system has been measured, though of course we could in principle reverse this by applying U-1 … oh shoot, have I just conceded MWI?”)
+
+On the other hand, when (at the TAs’ insistence) we put an optional ungraded question on the final exam that asked students their favorite interpretation of QM, we found that there was no correlation whatsoever between interpretation and final exam score—except that students who said they didn’t believe any interpretation at all, or that the question was meaningless or didn’t matter, scored noticeably higher than everyone else.
+
+Anyway, as I said, MWI is the best interpretation if we leave ourselves out of the picture.  But you object: “OK, and what if we don’t leave ourselves out of the picture?  If we dig deep enough on the interpretation of QM, aren’t we ultimately also asking about the ‘hard problem of consciousness,’ much as some people try to deny that? So for example, what would it be like to be maintained in a coherent superposition of thinking two different thoughts A and B, and then to get measured in the |A⟩+|B⟩, |A⟩-|B⟩ basis?  Would it even be like anything?  Or is there something about our consciousness that depends on decoherence, irreversibility, full participation in the arrow of the time, not living in an enclosed little unitary box like AdS/CFT—something that we’d necessarily destroy if we tried to set up a large-scale interference experiment on our own brains, or any other conscious entities?  If so, then wouldn’t that point to a strange sort of reconciliation of Many-Worlds with Copenhagen—where as soon as we had a superposition involving different subjective experiences, for that very reason its being a superposition would be forevermore devoid of empirical consequences, and we could treat it as just a classical probability distribution?”
+
+I’m not sure, but The Ghost in the Quantum Turing Machine will probably have to stand as my last word (or rather, last many words) on those questions for the time being.
+
+================================================================================
+

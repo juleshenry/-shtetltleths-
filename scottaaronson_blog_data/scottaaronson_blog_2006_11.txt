@@ -1,0 +1,116 @@
+TITLE: Shtetl-Optimized is dead.  Long live Shtetl-Optimized!
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+So, I finally had it both with Blogger, which was constantly down, and with my web hosting service, which was constantly down and inserting hidden Cialis ads into my homepage.  (Yes, really.)  So I ditched them both!
+
+This morning Shtetl-Optimized finally departed the old country, and boarded a crowded ship bound for a strange new world: the world of Bluehost and WordPress.  So welcome to a brand-new blog, which will feature the same name as the old one, the same topics, and the same terrible jokes.  I hope you like it.
+
+(Also this morning, I discovered a little hole-in-the-wall in Waterloo that sells hot, fresh bagels barely distinguishable from what you could get in New York.  Yes, this is shaping up to be a very good day.)
+
+(Oh, yes: Happy belated Thanksgiving to my American friends.  I decided to stay in Waterloo over Thanksgiving to teach my course — is this is a sign that I’m actually becoming Canadian?)
+
+================================================================================
+
+TITLE: Handle with care
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+In today’s quant-ph we find a report of a truly dramatic experiment — one that detected entanglement between Baton Rouge, Louisiana and Givarlais, France.  How, you ask: by fiber-optic cable?  Satellite?  Neither: by postal mail!  The authors don’t say if it was FedEx, UPS, or some other carrier that managed to ship half an EPR pair across the Atlantic without decohering it — but whoever it was, that’s who I’m using from now on.
+
+(Note: On close reading, it appears that when the authors use the word “entanglement,” they actually mean “classical correlation.”  However, this is a technical distinction that should only matter for experts.)
+
+================================================================================
+
+TITLE: Public Relations 101
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+From sayat-travel.kz:
+
+ALMATY, Kazakhstan – Sayat Tour, a leading Kazakh tour operator, announced today several new tours for Americans and others who are willing to travel to Kazakhstan and see for themselves what the real country, not the Borat’s version, is really like.
+
+The tours, called “Kazakhstan vs. Boratistan” and “Jagzhemash!!! See the Real Kazakhstan”, include visits to the cosmopolitan Almaty and its beautiful surroundings, tours of ancient sites such as the Hodja Akhmed Yassaui Mausoleum in Turkestan, as well as plentiful opportunities to meet and interact with the real Kazakhs. In addition to sightseeing, tours also include visits to local colorful bazaars, artifact shops and high fashion boutiques, as well as trying kumyss, the deliciously tasting Kazakh traditional drink made from fermented horse milk.
+
+Marianna Tolekenova, Sayat’s Executive Director, said: “With the release of Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan, we are hoping many Americans will want to engage in ‘cultural learnings’ of that unknown ‘glorious nation’ for their own ‘make benefit.’ That is why we are launching these new tours and hoping the Americans will come visit us.”
+
+Earlier in October 2006, a high ranking Kazakh official said the creator of Borat, British comedian Sasha Baron Cohen, would be welcome in Kazakhstan. First Deputy Foreign Minister Rakhat Aliyev said, “His trip could yield a lot of discoveries — that women not only travel inside buses but also drive their own cars, that we make wine from grapes, that Jews can freely attend synagogues and so on.”
+
+Update (11/13): In response to a comment by Greg Kuperberg, I’ve now reached a halakhic ruling on the morality of Sacha Baron Cohen’s antics.  Go to the comments section if you want to read it.
+
+================================================================================
+
+TITLE: Woohoo!
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+
+
+================================================================================
+
+TITLE: Beating swords into pitchforks
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+Here’s a heartwarming story of religious reconciliation in Israel, one that puts the lie to those cynics who thought such ecumenism impossible.  It seems that large portions of Jerusalem’s Orthodox Jewish, Muslim, and Christian communities have finally set aside their differences, and joined together to support a common goal: threatening the marchers in a Gay Pride parade with death.
+
+================================================================================
+
+TITLE: This week, let’s overthrow the Taliban
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+Let this man’s face serve as a reminder to all my American friends, to haul your respective asses to your respective polling places with no excuses accepted.  Keep in mind that this year the Democratic voting day is Tuesday November 7th, while the Republican voting day is Wednesday November 8th.
+
+(Me?  I couldn’t find a precinct station in Waterloo for some strange reason, so I mailed an absentee ballot back to New Hope, PA.)
+
+================================================================================
+
+TITLE: More tender nuggets
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+You asked for ’em, you got ’em.  (Do you want fries with that?)
+
+================================================================================
+
+TITLE: Logicians on safari
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+Sean Carroll, who many of you know from Cosmic Variance, asked the following question in response to my last entry:
+
+I’m happy to admit that I don’t know anything about “one-way functions and interactive proofs.” So, in what sense has theoretical computer science contributed more in the last 30 years to our basic understanding of the universe than particle physics or cosmology? (Despite the fact that I’m a cosmologist, I don’t doubt your statement — I’d just like to be able to explain it in public.)
+
+I posted my response as a comment, but it’s probably better to make it an entry of its own.  So:
+
+Hi Sean,
+
+Thanks for your question!
+
+Of course I was joking when I mentioned “objective standards” for ranking scientific fields. Depending on which questions keep you up at night, different parts of “humankind’s basic picture of the universe” will seem larger or smaller.  (To say that, of course, is not to suggest any relativism about the picture itself.)
+
+What I can do, though, is to tell you why — by my own subjective standards — the contributions of theoretical computer science over the last 30 years rival those of theoretical physics or any other field I know about.  Of course, people will say I only think that because I’m a theoretical computer scientist, but that gets the causal arrow wrong: I became a theoretical computer scientist because, as a teenager, I thought it!
+
+It’s probably best to start with some examples.
+
+Alright, let me stop before I get carried away. The examples I’ve listed (and hundreds more like them) are not exactly discoveries about physics, but they don’t have the flavor of pure math either. And even if they have some practical implications for computing (which they do), they certainly don’t have the flavor of nitty-gritty software engineering.
+
+So what are they then? Maybe it’s helpful to think of them as “quantitative epistemology”: discoveries about the capacities of finite beings like ourselves to learn mathematical truths.  On this view, the theoretical computer scientist is basically a mathematical logician on a safari to the physical world: someone who tries to understand the universe by asking what sorts of mathematical questions can and can’t be answered within it.  Not whether the universe is a computer, but what kind of computer it is! Naturally, this approach to understanding the world tends to appeal most to people for whom math (and especially discrete math) is reasonably clear, whereas physics is extremely mysterious.
+
+In my opinion, one of the biggest challenges for our time is to integrate the enormous body of knowledge in theoretical computer science (or quantitative epistemology, or whatever you want to call it) with the rest of what we know about the universe.   In the past, the logical safari mostly stayed comfortably within 19th-century physics; now it’s time to venture out into the early 20th century.  Indeed, that’s exactly why I chose to work on quantum computing: not because I want to build quantum computers (though I wouldn’t mind that), but because I want to know what a universe that allows quantum computers is like.
+
+Incidentally, it’s also why I try hard to keep up with your field.   If I’m not mistaken, less than a decade ago cosmologists made an enormous discovery about the capacity of finite beings to learn mathematical truths: namely, that no computation carried out in the physical world can ever involve more than 1/Λ ~ 10122 bits.
+
+Best,
+Scott
+
+================================================================================
+
+TITLE: My daily dose of depression
+URL: https://scottaaronson.blog/?m=200611
+CONTENT:
+Yesterday’s Times ran an essay by Steve Lohr, based on speeches about the future of computing given by my former teachers Richard Karp and Jon Kleinberg.  Though most of the essay is welcome and unobjectionable, let’s look at the first two paragraphs:
+
+Computer science is not only a comparatively young field, but also one that has had to prove it is really science. Skeptics in academia would often say that after Alan Turing described the concept of the “universal machine” in the late 1930’s — the idea that a computer in theory could be made to do the work of any kind of calculating machine, including the human brain — all that remained to be done was mere engineering.
+
+The more generous perspective today is that decades of stunningly rapid advances in processing speed, storage and networking, along with the development of increasingly clever software, have brought computing into science, business and culture in ways that were barely imagined years ago. The quantitative changes delivered through smart engineering opened the door to qualitative changes.
+
+So, here are the two options on offer from the paper of record: either
+
+Even among the commenters on this post by Chad Orzel — which Dave Bacon forwarded to me with the subject line “bait” — awareness of any third possibility seems depressingly rare.  Judging from the evidence, it’s not that people have engaged the mysteries of P versus NP, randomness and determinism, one-way functions and interactive proofs, and found them insufficiently deep.  Rather, as bizarre as it sounds, it’s that people don’t know these mysteries exist — just as they wouldn’t know about black holes or the Big Bang if no one told them.  If you want to understand why our subject — which by any objective standard, has contributed at least as much over the last 30 years as (say) particle physics or cosmology to humankind’s basic picture of the universe — receives a whopping $5 million a year from the NSF (with even that in constant danger), look no further.
+
+================================================================================
+

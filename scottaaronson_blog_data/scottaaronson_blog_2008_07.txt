@@ -1,0 +1,144 @@
+TITLE: Quantum Computing Since Democritus Lecture 19: Time Travel
+URL: https://scottaaronson.blog/?m=200807
+CONTENT:
+A visitor from the year 2006, this time travel lecture appears before you now due to a blip in the space/time/procrastination continuum.  No grandfathers were harmed in the writing of it.  I’m looking backward to your comments.
+
+(Alas, these forehead-bangingly obvious lines can now never be unwritten … or can they?)
+
+================================================================================
+
+TITLE: The Pareto curve of freedom
+URL: https://scottaaronson.blog/?m=200807
+CONTENT:
+
+
+Inspired by the discussion of my fable, and specifically a comment of Ronald de Wolf, today I decided to do some amateur political science. Specifically, I created a scatterplot that ranks 156 of the world’s countries (those for which data was available) along two axes:
+
+The motivation was simple. Among educated people, political freedom is universally acknowledged as both good and important, whereas economic freedom (as defined by Heritage and the Wall Street Journal) is not. Indeed, a huge fraction of the disagreement between liberals and conservatives—at least over economics—seems to boil down to a single question: Is economic freedom (again, as defined by Heritage/WSJ) the friend or enemy of political freedom?
+
+On one side of this question, we have Milton Friedman:
+
+Historical evidence speaks with a single voice on the relation between political freedom and a free market.  I know of no example in time or place of a society that has been marked by a large measure of political freedom that has not also used something comparable to a free market to organize the bulk of economic activity. (From Capitalism and Freedom, quoted by Wu and Davis)
+
+On the other side we have anti-globalization activists like Naomi Klein (author of The Shock Doctrine), who say that “economic freedom” simply means the freedom of multinational corporations to exploit the public, and as such is incompatible with political freedom.  Klein argues that free-market economic policies almost never win democratically, and hence the ruling elites have had to force these policies on unwilling populations using strong-arm tactics of the World Bank and IMF, cynical exploitation of wars, hurricanes, and other disasters, and (when all else fails) state-sponsored torture and murder.
+
+My modest goal was to use the available cross-country data to test these two hypotheses. But before we get to that, a few caveats.
+
+Caveat #1: I know full well that the questions I’m talking about have already been studied in great detail by professional political scientists. Google Scholar turned up Lundström 2005 doing a correlational study between the Freedom House index and various components of the Economic Freedom of the World index (which is similar to the Heritage index), as well as Wu and Davis 1999, Wu and Davis 2005, Berggren 2003, Carbone 2007, and lots more. (Though see also Doucouliagos 2005 for evidence of publication bias in this area.) So why bother to reinvent the wheel?  A few answers:
+
+Caveat #2: The problems with the Freedom House and Heritage surveys—and for that matter, any surveys that try to rank countries on some linear scale of “freedom”—are evident. Indeed, reading the survey methodologies, I found plenty of things to complain about, as I’m sure you would as well. Nevertheless, both surveys struck me as (1) having reasonably consistent methodologies, (2) being reasonably well-accepted by social scientists, and (3) giving results that agree pretty well with intuition, for most of the countries I know something about.  So lacking a better alternative, I decided to go along with these indices.  Just to double-check, I also looked at the Freedom House index versus the Economic Freedom of the World index, and the plot was extremely similar to the one versus the Heritage index.
+
+Caveat #3: A major limitation of my scatterplot is that it only looks at the world of 2008, and disregards a vast wealth of historical examples (Chile under Pinochet, the US under Reagan…).  Future research by amateur procrastinating bloggers should clearly take the available historical data into account as well.
+
+Granting all of this, what can we potentially learn?
+
+1. Political and economic freedom are correlated. Any doofus could have predicted this, and lo and behold, it’s apparent from even a glance at the data. Looking at the countries in question, it seems clear that part of this correlation is due to both freedoms being correlated with economic development, i.e. “having your national shit together.”  In a country like Denmark, you can criticize the government and start a business. In a country like North Korea, you can neither criticize the government nor start a business, at least without being shot.  The studies I linked to above claim some evidence that this obvious correlation has a causal component, as follows: by and large, economic freedom helps make countries richer, and being richer helps make them more politically free.  Assuming that claim is correct, score one for Milton Friedman.
+
+2. A wide range of economic freedom levels is compatible with a “near-maximal” level of political freedom. Let’s look only at the countries on the far right of the scatterplot—those with “US-or-above” levels of political freedom (Australia, Austria, Bahamas, Barbados, Belgium, Canada, Chile, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Iceland, Ireland, Luxembourg, Malta, Netherlands, New Zealand, Norway, Portugal, Spain, Sweden, Switzerland, UK, US, and Uruguay). Here the correlation between economic and political freedom seems to disappear entirely, or even become slightly negative. The economic freedom scores of these countries range from 64.3 to 82.4, which is almost half of the total spread across all countries on earth (excepting a few dictatorships like North Korea, Cuba, and Zimbabwe). More to the point, this list includes countries commonly regarded as “socialist” in contemporary political debate (like the Scandinavian countries), and countries regarded as “capitalist” (like Australia, Chile, and the US).  Thus, the idea that countries that already have a high level of political freedom, would increase their political freedom even more by lowering taxes, privatizing industries, etc., does not seem to be borne out by this dataset.
+
+3. There might be a “Pareto curve of freedom”: that is, a basic tension between economic and political freedom that prevents them from being maximized simultaneously. I’ll admit that the evidence on this point is inconclusive.  Firstly, there aren’t enough data points; secondly, the lack of any example of a country maximizing both freedoms is obviously not an impossibility proof.  A true believer in Ayn Rand’s utopia, like a true believer in Marxism, could always disregard any empirical finding by saying that the right experiment has never been tried yet, and would self-evidently succeed if it were.
+
+However, if we do construct the “Pareto curve of freedom” for the Freedom House/Heritage data, what we find is this:
+
+(The US is conspicuously not on the Pareto curve, though wounded patriots can console themselves that it’s the only country of anywhere near its population size that comes close.)
+
+Note that Hong Kong is not in this dataset, since as part of China, it isn’t ranked separately by Freedom House. However, Heritage gives Hong Kong an economic freedom score of 90.3, which is the highest in the world (Singapore is #2). The political freedom score for China itself is a dismal 18. So, if we assigned Hong Kong the point (18,90.3), that would be a fifth point on the Pareto curve.
+
+To check the robustness of the Pareto curve, I recalculated it using the Economic Freedom in the World index in place of the Heritage index.   The result was basically similar: clustered on the right we find Finland, Iceland, and Luxembourg maximizing political freedom, then Canada, then Switzerland, then New Zealand, and then, as before, Singapore way off on its own maximizing economic freedom.
+
+To confirm the hypothesis of a tradeoff between economic freedom and political freedom, what we’d need in the dataset are “more Singapores”—or better yet, some countries that interpolated between the Western democracies and Singapore.  Conversely, to disprove the tradeoff hypothesis, all it would take is a single country that dominated the rest of the world on both axes, with the political freedom of Scandinavia and the economic freedom of Singapore.  I find it interesting that no such country seems to exist, not even a small city-state or island.
+
+Incidentally, the tradeoff idea is not necessarily rejected by libertarians.  Friedman himself stressed that “political freedom, once established, has a tendency to destroy economic freedom.”  To put it bluntly, if poor people can vote, one of the main things they vote for is to redistribute money to themselves.  There are then three possibilities: either redistribution takes place (and economic freedom as defined by Heritage and the Wall Street Journal goes down), or the poor majority is violently suppressed (and political freedom goes down), or the government is overthrown.  Amusingly, Friedman and Klein seem to be in complete agreement on this central point: it’s just that one of them laments it while the other relishes it.
+
+In summary, I conjecture that the relationship between economic freedom and political freedom is similar to that between jogging and health.  In general, we expect people to be healthier the more they jog, with at least part of the relationship being causal. But it doesn’t follow that jogging 20 hours per day is healthier than jogging one hour; indeed the former might even be detrimental.
+
+Of course, people could accept all this (even find it plunkingly obvious), and still vehemently disagree about the quantitative aspect: exactly how far out is the Pareto curve?  How much jogging is too much?  As usual, it’s the complexity-theoretic questions that are the interesting ones.  The tragedy is that you never even get to those questions if you’re too hung up on computability.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 18: Free Will
+URL: https://scottaaronson.blog/?m=200807
+CONTENT:
+If you don’t like this latest lecture, please don’t blame me: I had no choice!  (Yeah, yeah, I know.  You presumably have no choice in criticizing it either.  But it can’t hurt to ask!)
+
+Those of you who’ve been reading this blog since the dark days of 2005 might recognize some of the content from this post about Newcomb’s Paradox, and this one about the Free Will Theorem.
+
+================================================================================
+
+TITLE: The Routerhead: a fable
+URL: https://scottaaronson.blog/?m=200807
+CONTENT:
+Inspired by: reading Naomi Klein’s The Shock Doctrine this week alongside Ludwig von Mises’s The Anti-Captialistic Mentality.
+
+Addendum (7/28): Here’s my review of The Shock Doctrine.  If you want to know what I thought of the book, you should probably just read the review and ignore the dumb fable that follows.
+
+I tried unplugging the router and plugging it back in, messing around with my DHCP settings — everything I could think of.  Still no Internet.   Hours passed, then a day.  In desperation, I finally called the tech support number for my Internet service provider, Laissez-Faire Solutions.  After putting me hold for an hour with Brahms and Beethoven, “Ayn” finally picked up the phone.”I don’t know what to tell you,” she said curtly, after I’d explained the situation.  “Your connection ought to be working perfectly.”
+
+“But it isn’t.”
+
+“It ought to be.”
+
+“But it isn’t!  Look, isn’t it possible that there’s some failure on your end?”
+
+“You don’t understand, sir.  There can be no such thing as a failure on our end.  If a failure exists, then it must by definition be on your end and your end alone.  What is provided to your home qua home is Internet access qua Internet access.  It follows, then, as surely as A is A, that either your router is not configured properly, or your cable is disconnected, or in some other way your own stupidity or incompetence have prevented you from getting online, a failure you now seek absurdly to blame on the Internet itself.”
+
+“I’m not blaming anything on the Internet.  I’m blaming it on you, my ISP.”
+
+“Let me ask you something,” said Ayn.  “Did anyone hold you at gunpoint, or otherwise coerce you to sign up for Internet service with us?”
+
+“Well, I guess not…”
+
+“Then what exactly is your complaint?”
+
+“That the service you agreed to provide isn’t working.”
+
+“As I explained previously, it is working, by definition.  If for some fanciful reason you think otherwise, obviously you have the freedom of switching providers.”
+
+“But all the others suck as much as you do.”
+
+“That is not possible.  Were it the case that every Internet provider sucked, a provider that didn’t suck would have arisen and driven all the others out of business.  The market abhors a vacuum.”
+
+“Yeah, I’ve been waiting more than a decade for this particular vacuum to be filled.  Until it happens, what else would you suggest I do?”
+
+“Did you try going to Google again?”
+
+“I’m still getting a ‘Page Not Found’ error.”
+
+Frustrated, I decided to call the Tech-support Cooperative of the People’s International Proletariat (TCPIP).  Karl picked up the phone.  As I related my conversation with Ayn, Karl doubled over with laughter.  “You mean you actually believe they want it to work?”
+
+“Who exactly is the ‘they’ we’re talking about?”
+
+“All of them — the service providers, the government, even the academics who designed the Internet in the first place.   We’ve amassed mountains of evidence that they’re all conspiring to keep the Internet broken, in order to force people like you to sign up for expensive, exploitative ‘solutions’ — solutions no one would ever agree to under normal circumstances!  Won’t you join us this weekend?  We’re going to carouse around some rich neighborhoods and slice their fiber-optic cables.  Maybe the fatcats will finally get it, once their precious Internet connections work exactly as well as ours do…”
+
+“To be honest, I really just wanted to check my email and blog comments.”
+
+“This is not about the individual; it’s about the community!  There can be no truly reliable connections until the Internet as a whole has been demolished and rebuilt from scratch, until we’ve established a new social order on this planet where everyone is responsible for everyone else being able to get online…”
+
+“Until the millennium comes, can you put me in touch with someone who specializes in fixing Internet connections now?”
+
+“Traitors!  Don’t you see Internet access has to get much, much worse before it can get better?  That fixing your connection would just be a ruse to lull you into complacency and dim your justified anger?”
+
+So what did I end up doing?  Well, until my connection starts working again, I found this unsecured wireless in my apartment building that I’m sometimes able to leech off of, as well as a nearby cafe that offers free wireless from 10 to 4 on weekdays.  And when all else fails I use my Blackberry, pecking out emails on the microscopic keyboard (though that connection, too, has become finicky lately).
+
+I talked again this morning to Ayn and Karl, and they completely agreed with each other that I was beyond hope.  By focusing so obsessively on “fixing” a “problem,” they explained, I’d become distracted from the real goal: namely, comprehending a universal principle that explained why my Internet access wasn’t working, as well as every other question that I might ever want an answer to.  Maybe they’re right.  All I know is, at least for now I can usually get my email when I have to.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 17: Fun With The Anthropic Principle
+URL: https://scottaaronson.blog/?m=200807
+CONTENT:
+Here it is.  There was already a big anthropic debate in the Lecture 16 comments — spurred by a “homework exercise” at the end of that lecture — so I feel absolutely certain that there’s nothing more to argue about.  On the off chance I’m wrong, though, you’re welcome to restart the debate; maybe you’ll even tempt me to join in eventually.
+
+The past couple weeks, I was at Foo Camp in Sebastopol, CA, where I had the opportunity to meet some wealthy venture capitalists, and tell them all about quantum computing and why not to invest in it hoping for any short-term payoff other than interesting science.  Then I went to Reed College in Portland, OR, to teach a weeklong course on “The Complexity of Boolean Functions” at MathCamp’2008.  MathCamp is (as the name might suggest) a math camp for high school students.  I myself attended it way back in 1996, where some guy named Karp gave a talk about P and NP that may have changed the course of my life.
+
+Alas, neither camp is the reason I haven’t posted anything for two weeks; for that I can only blame my inherent procrastination and laziness, as well as my steadily-increasing, eminently-justified fear of saying something stupid or needlessly offensive (i.e., the same fear that leads wiser colleagues not to start blogs in the first place).
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 16: Interactive Proofs
+URL: https://scottaaronson.blog/?m=200807
+CONTENT:
+In which I try to give a non-rigorous taste of the interactive proofs revolution that rocked the complexity world in the 1990’s, as well as its consequences for circuit lower bounds.  I argue that these results matter because they offer a tiny glimpse of how one can exploit the structure of problems like 3SAT to prove lower bounds—something we know will eventually be needed for the P vs. NP question.  If you got off the train before its latest tour through the Complexity Badlands, don’t worry: it will double back into Philosophers’ Valley (where everyone has an opinion and no one has a result) by Lecture 17 (“Fun With Anthropic Principles”).
+
+================================================================================
+

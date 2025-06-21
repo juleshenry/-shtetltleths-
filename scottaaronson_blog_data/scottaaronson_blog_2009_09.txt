@@ -1,0 +1,34 @@
+TITLE: The Singularity: Now 50% Off!
+URL: https://scottaaronson.blog/?m=200909
+CONTENT:
+I’m normally loath to announce conferences on this blog, but my friend Michael Vassar has made an offer that appeals to my vanity, desire to please, and most of all legendary business sense.  Here it is: anyone who registers for the upcoming Singularity Summit, October 3-4 in New York, can get 50% off the registration fee by mentioning this blog.
+
+Topics on the agenda will include (I assume) the technical prospects for immortality, brain-uploading, superintelligent AIs, and the transformation of all matter in the universe into sentient computronium.  (In other words, none of that loony stuff we discuss at CS conferences, Merlin-Arthur and whatnot.)
+
+Speakers will include Ray Kurzweil, Michael Nielsen, Robin Hanson, Eliezer Yudkowsky, David Chalmers, and several others familiar in these parts of the nerdosphere.
+
+I’ve never been to one of these Singular shindigs before, and unfortunately can’t make this one (I’ll be visiting UC Santa Barbara and the University of Washington).  But regular readers will know that I enjoy talking with Transhumanists and Singulatarians—even if I don’t exactly share their urgency about the coming robot revolution, and worry more about the superdoofosities of today than the superintelligences of tomorrow.  I’m sure that, for some readers, the very fact that I’m willing to debate people who consider me crazy for not arranging to have my brain frozen in liquid nitrogen when I die—or that I’d advertise a conference for such people—makes me almost as far gone as the future meat-sicles themselves.  So what can I say?  Look, when I meet people who really care about the remote future, who talk about ending all the suffering in the universe like others talk about finishing an NSF proposal, who follow their chains of logic straight past the acceptably-quirky into the “childish,” “weird,” and “naïve” without even noticing the “WHAT WILL PEOPLE THINK?” danger-signs … a little twelve-year-old nerd buried deep in my psyche can’t help but rock approvingly in his chair.
+
+The 2009 Singularity Summit: “Advancing the messianic dream of Jeremiah, Isaiah, and the other ancient Israelite prophets … this time with more overclocked RAM and less overgrilled ram.”
+
+
+
+================================================================================
+
+TITLE: Worldview Manager is live
+URL: https://scottaaronson.blog/?m=200909
+CONTENT:
+A year ago, I wrote a blog entry seeking summer students to create a Worldview Manager: a web application that would prompt users to state their beliefs about various statements, and then notify them if two or more answers were in “tension” with one another, giving them the chance to modify their beliefs and thereby resolve the tension.  The idea was then covered in a short piece by Lee Gomes at Forbes.com.
+
+I ended up selecting two students: Louis Wasserman of the University of Chicago, and Leonid Grinberg of Belmont High School.  They excelled at all aspects of this project, from low-level hacking to high-level design decisions.  If there are enough young ‘uns like them, I feel better about the future of the United States.
+
+As a result of their work, I’m pleased to announce that you can now try Worldview Manager here.
+
+Currently, we have only a limited selection of “topic files”, all of them rather nerdy: Complexity Theory, Strong AI, the Axiom of Choice, Quantum Computing, Libertarianism, and Quantum Mechanics.  However, if there’s enough interest, we’ll probably add more topic files soon.  In the meantime, if you have any interest in contributing topic files yourself, please let me know!  It’s actually not hard.
+
+And if you have praise, gripes, constructive feedback, nonconstructive feedback … hey, the comments section is right underneath this sentence.
+
+
+
+================================================================================
+

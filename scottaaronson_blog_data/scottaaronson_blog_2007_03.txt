@@ -1,0 +1,153 @@
+TITLE: Quantum gravity computation: you, too, can be an expert in this field
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+I am, I’m slightly embarrassed to admit, quoted pretty extensively in the cover story of this week’s New Scientist magazine (alas, only available to subscribers or those willing to shell out $4.95). The story, by Michael Brooks, is about an interesting recent paper by Lucien Hardy of Perimeter Institute, on the power of “quantum gravity computers.” Lucien’s paper considers the following question: by exploiting quantum fluctuations in the causal structure of spacetime, can one efficiently solve problems that are not efficiently solvable with a garden-variety quantum computer?
+
+As I told Brooks, I really do think this is a hell of a question, one that’s intimately related to the challenge of understanding quantum gravity itself. The trouble is that, until an actual quantum theory of gravity chooses to make itself known to us, almost everything we can say about the question is pure speculation.
+
+But of course, pure speculation is what New Scientist gobbles up with french fries and coleslaw. And so, knowing what kind of story they were going to run, I did my best to advocate giving reality at least a few column inches. Fortunately, the end result isn’t quite as bad as I’d feared.
+
+(Full disclosure: recently New Scientist asked me to write an article for them on theoretical computer science breakthroughs of the last 30 years. Remembering some of the steamers NS has unloaded in the recent past, I faced a moral dilemma for approximately five minutes. I then wrote back to them and said I’d be delighted to do it.)
+
+Anyway, here are a few relevant excerpts from the article. If New Scientist wants me to take these down, then of course I’ll have to comply — though I imagine that being linked to from the 25,000th most popularest blog on the entire Internet could only boost their sales.
+
+A NEW computer is always welcome, isn’t it? It’s always faster than your old one, and it always does more stuff. An upgrade, the latest model with all the bells and whistles is an exciting prospect.
+
+And when it comes to the kind of machine physicists are hoping for, you really are looking at something special. No ordinary upgrade for them: this will be the ultimate computer, and radically different from anything we have ever seen. Not only might it be supremely powerful, defying the logic of cause and effect to give instantaneous answers, it might also tell us exactly how the universe works. It might even tell us how our minds produce the phenomenon we call consciousness. Clear a space on your desk, then, for the quantum gravity computer.
+
+Of course, there’s a chance it may not fit on your desktop because we don’t yet know what the machine will look like. Neither do we know how to build it, or even whether it will do all that its proponents hope. Nevertheless, just thinking about how this processor works could improve our understanding of the universe. “The power of quantum gravity computers is one of the deepest problems in physics,” says Scott Aaronson, a mathematician based at the University of Waterloo in Ontario, Canada.
+
+…
+
+Put [quantum theory and general relativity] together to make a quantum theory of gravity and it is almost inevitable that we are going to have trouble with notions of cause and effect: the logic of tock following tick or output following input just won’t apply in the quantum-gravity universe.
+
+…
+
+Aaronson agrees with Hardy. “General relativity says that the causal structure can vary, and quantum mechanics says that anything that can vary can be in superposition,” he says. “So to me, an indefinite causal structure seems like the main new conceptual feature.”
+
+…
+
+The big question is how powerful [a quantum gravity computer] could be: will it be the ultimate processor?
+
+It turns out this is a hard question to answer. Traditionally, a computer’s power is rated by the number of computations it can do in a given time. IBM’s Blue Gene computer currently tops the world rankings for classical computers: it can do 280 trillion calculations per second. In theory, a quantum computer can do even better. It will be able to crack the world’s toughest codes in the blink of an eye.
+
+The quantum gravity computer, on the other hand, can’t compete under these rules because “quickly” doesn’t mean anything in a scheme where space and time can’t be separated. Or, as Aaronson puts it: “It would be nice if the quantum gravity theorists could at least tell us what they mean by ‘time’.”
+
+Nevertheless, Hardy thinks there is good reason to suppose the quantum gravity computer would indeed be a more powerful machine than anything we have so far envisioned. The fact that it might glimpse its results without running a computation hints at this, he says — though he admits this is just speculation.
+
+What’s more convincing, he says, is the difficulty of simulating a quantum gravity computer on a quantum computer. The fact that we have no algorithm for simulating quantum systems on classical computers highlights the gulf between a classical computer and a quantum computer. If a quantum computer cannot simulate a quantum gravity computer, then that implies there might be another huge leap in computing power waiting to be exploited.
+
+…
+
+It is a controversial conclusion, though. Seth Lloyd of the Massachusetts Institute of Technology thinks there is no reason to invoke a discontinuity that separates quantum gravity from more familiar processes … Aaronson’s money is on the Lloyd camp: quantum gravity computers can’t be more powerful than quantum computers, he says. In his view, it is a short step from ultra-powerful quantum gravity computers to total cosmic anarchy. If, as Hardy suggests, a quantum gravity computer might be able to see its result without having to run its algorithms, it is essentially no different to having a quantum computer strapped to a time machine. As we all know, time machines don’t make sense: they would enable us to do things like travel back in history to kill our grandparents and thereby cease to exist. “It’s hard to come up with any plausible way to make quantum computers more powerful that wouldn’t make them absurdly more powerful,” he says.
+
+…
+
+Whatever the truth, this is why investigating the characteristics of the quantum gravity computer is so valuable. It ties theories to the real world, Aaronson says, and stops the important issues, such as a link with observable facts or staying within the bounds of what’s physically possible, from being swept under the carpet. After all, a computer has to produce an observable, measurable output based on an input and a known set of rules. “The connection to observation is no longer a minor detail,” Aaronson says. “It’s the entire problem.”
+
+Two obvious corrections:
+
+Update: Six months ago, New Scientist ran a credulous, uncomprehending story about a rocket propulsion system that flagrantly violates conservation of momentum (!). This led to interesting discussions here, here, and here about what can be done to improve the magazine’s standards. If you enjoyed the D-Wave fiasco, you’ll also like the spectacle of commenters rushing to defend the article against those elitist, ivory-tower academics with their oh-so-sacred conservation laws. In a world of Homer Simpsons, it’s not easy being a Lisa.
+
+================================================================================
+
+TITLE: The Republican Party’s intellectual
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+“The debate is over. I mean, how many more thousands and thousands of scientists do we need to say, ‘We have done a study that there is global warming?’ … I am here to make businesses boom, but let’s also protect our environment. Let’s make our air clean. Let’s make our water clean. And let’s fight global warming because we know now that this is a major danger, that this is not a debate anymore.”
+
+Addendum: Unfortunately Friedman’s NYT column on the Right’s scientific muscleman is only available to subscribers, so I’ve quoted the relevant passages in the comments section.
+
+================================================================================
+
+TITLE: A hole in the web
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+The sun rose this morning on a radically transformed blogosphere: sparser, emptier, populated by only one Cornell-educated prover of complexity class inclusions and oracle separations from the Northeast US.
+
+To everyone in the CS theory community, I want you to know that I’m acutely aware of the central role that Lance’s weblog played for all of us; and the burden of somehow filling the void he left now weighs heavily on me.  To that end, I’d like to offer you the following sneak preview of upcoming topics on Shtetl-Optimized.
+
+Oh, who am I kidding?  I can’t speak for the Establishment the way Lance could!  Having me serve as a clearinghouse for the theory community would be putting one of the very worst-behaved inmates in charge of the asylum.
+
+So maybe I should just stick to biting vagina jokes.
+
+OK, I will.  Without further ado, here’s an article sent to me by my good friend Sharon Haiduck, about a South African company that’s finally accomplished what a billion years of natural selection couldn’t.
+
+================================================================================
+
+TITLE: Barbeque ribs and AWPP forever
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+Lance has announced, completely unexpectedly, that he is ending his blog.  In shock and sadness, I posted the following comment, which I thought I should share here as well.
+
+No, Lance, no — tell me it isn’t true! Yours was the first blog I ever read. That familiar puke-green background was my rock, my North Star, in the vast and ever-shifting blogosphere. Your invitation to have me guest-blog gave me my first taste of being flamed by angry commenters — thereby leading directly to Shtetl-Optimized, where I get to repeat that same masochistic experience every single day.
+
+The burden you’ve placed on my shoulders — and Luca’s, and Dave Bacon’s, etc. — is an extremely heavy one.
+
+Lance, we will miss you (turn speakers on before clicking the link).
+
+To honor Lance’s blog’s memory, the background of my own blog will temporarily be puke-green as well.
+
+================================================================================
+
+TITLE: At most finitely many years
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+Paul Cohen, who proved that one can imagine infinite sets larger than the set of integers but smaller than the set of real numbers without leading to contradiction, and who won (to date) the only Fields Medal ever awarded for work in logic, died yesterday. He was 72. You can read more about his achievements here or in Lecture 3.
+
+I only saw Cohen once, when he participated in a panel discussion at Berkeley about Hilbert’s problems from 1900. He came across as funny and likable — which was good since, to my mind, it might as well have been Euclid or Aristotle sitting there trading quips with the other panelists. (As Rebecca Goldstein wrote about Gödel, the man whose work paved the way for Cohen’s: “I once found the philosopher Richard Rorty standing in a bit of a daze in Davidson’s food market. He told me in hushed tones that he’d just seen Gödel in the frozen food aisle.”)
+
+Like Cantor himself, Cohen started out not as a logician but as an analyst. The famous story is that Cohen was once teasing a logician friend about how there were no meaty, nontrivial open problems in logic — certainly nothing that an analyst couldn’t swoop in and solve. “Oh yeah?” the friend shot back. “I’d like to see you prove the independence of the Continuum Hypothesis!” So that’s what he did. I’d love to know whether the story has any grain of truth to it.
+
+================================================================================
+
+TITLE: The event horizon’s involved, but the singularity is committed
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+Lenny Susskind — the Stanford string theorist who Shtetl-Optimized readers will remember from this entry — is currently visiting Perimeter Institute to give a fascinating series of lectures on “Black Holes and Holography.”
+
+After this morning’s lecture (yes, I’m actually getting up at 10am for them), the following question occurred to me: what’s the connection between a black hole having an event horizon and its having a singularity?  In other words, once you’ve clumped enough stuff together that light can’t escape, why have you also clumped enough together to create a singularity?  I know there’s a physics answer; what I’m looking for is a conceptual answer.
+
+Of course, one direction of the correspondence — that you can’t have a singularity without also having an event horizon — is the famous Cosmic Censorship Hypothesis popularized by Hawking.  But what about the other direction?
+
+When I posed this question at lunch, Daniel Gottesman patiently explained to me that singularities and event horizons just sort of go together, “like bacon and eggs.”  However, this answer was unsatisfying to me for several reasons — one of them being that, with my limited bacon experience, I don’t know why bacon and eggs go together.  (I have eaten eggs with turkey bacon, but I wouldn’t describe their combined goodness as greater than the sum of their individual goodnesses.)
+
+So then Daniel gave me a second answer, which, by the time it lodged in my brain, had morphed itself into the following.  By definition, an event horizon is a surface that twists the causal structure in its interior, so that none of the geodesics (paths taken by light rays) lead outside the horizon.  But geodesics can’t just stop: assuming there are no closed timelike curves, they have to either keep going forever or else terminate at a singularity.  In particular, if you take a causal structure that “wants” to send geodesics off to infinity, and shoehorn it into a finite box (as you do when creating a black hole), the causal structure gets very, very angry — so much so that it has to “vent its anger” somewhere by forming a singularity!
+
+Of course this can’t be the full explanation, since why can’t the geodesics just circle around forever?  But if it’s even slightly correct, then it makes me much happier.  The reason is that it reminds me of things I already know, like the hairy ball theorem (there must be a spot on the Earth’s surface where the wind isn’t blowing), or Cauchy’s integral theorem (if the integral around a closed curve in the complex plane is nonzero, then there must be a singularity in the middle), or even the Nash equilibrium theorem.  In each of these cases, you take a geometric structure with some global property, and then deduce that having that property makes the structure “angry,” so that it needs a special point (a singularity, an equilibrium, or whatever) to blow off some steam.
+
+So, question for the relativistas: is there a theorem in GR anything like my beautiful story, or am I just talking out of my ass as usual?
+
+Update (3/22): Well, it turns out that I was ignorantly groping toward the famous Penrose-Hawking singularity theorems.  Thanks to Dave Bacon, Sean Carroll, and ambitwistor for immediately pointing this out.
+
+================================================================================
+
+TITLE: The Nintendo stork
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+In January, the online magazine spiked asked me to write 200 words or less on the question, “What is the greatest innovation in your field?”  I thought it was a dumb question, but I answered it anyway.  The magazine still hasn’t put up the responses — I guess not enough “thinkers” got back to them yet — but today, since I feel like blogging and don’t have anything else to post, here is my response.  Enjoy.
+
+The greatest innovation in computer science was to represent machines — objects that do things, respond to their environments, surprise their creators — as nothing but strings of information.  When I was a kid, my overriding ambition was to write my own Nintendo games.  But while I could draw the characters and the levels, I had no idea what it would be like to breathe life into a game — to teach the game how to respond to the controller.  I pictured thousands of engineers in white lab coats crafting a game cartridge using enormous factory equipment, as they would a 747.
+
+Then a friend showed me a rudimentary spaceship game written in AppleBASIC.  Look: here were the lines of code, and here was the game. Slowly it dawned on me that these screenfuls of funny-looking commands weren’t just some sort of blueprint for the game — they were the game.  Change the code, and the game would do something different.  Better yet, the task of writing the commands was ultimately just a big math problem.  This was Alan Turing’s great insight of 1936.  For me, it was a revelation comparable only to finding out where babies came from.
+
+(Unfortunately, I’ve long since lost touch with the AppleBASIC-game-playing friend — last I heard through mutual acquaintances, he went off to fight in Afghanistan, and came back injured by a shrapnel bomb.)
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 10.5: Penrose
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+You’ve eaten your polynomial-time meatloaf and your BQP brussels sprouts.   So now please enjoy a special dessert lecture, which I didn’t even deliver in class except as a brief coda to Lecture 10.  Watch me squander any remaining credibility, as I pontificate about Roger Penrose’s Gödel argument, strong AI, the No-Cloning Theorem, and whether or not the brain is a quantum computer.  So gravitationally collapse your microtubules to the basis state |fun〉, because even a Turing machine could assent to the proposition that you’re in for a wild ride!
+
+(Important Note: If you belong to a computer science department hiring committee, there is nothing whatsoever in this lecture that could possibly interest you.)
+
+================================================================================
+
+TITLE: Back from vacation
+URL: https://scottaaronson.blog/?m=200703
+CONTENT:
+I’m told that the first rule of blogging is: “never, ever apologize for the long delay in updating your blog.” As it turns out, I have no need to apologize.  You see, for the past ten days, I’ve been on an intense, meeting-packed, emotionally-draining sightseeing vacation around the United States.  The places I picked to see on my vacation — more-or-less at random — included Princeton, New Jersey; the Hyde Park neighborhood of Chicago; and the southern riverbank of Cambridge, Massachusetts.  To get the most out of my vacation, I made sure to wear my best nerd attire everywhere I went, and to sample all the fine restaurants, seminar rooms, and offices of computer science department chairs and deans.  And since I still haven’t had enough R&R, in April I’m going on a second vacation — this time to Pasadena, Palo Alto, and other exotic locations on the west coast.  As with everything else about my personal life, you can be sure to learn all the juicy details, in real-time, right here on this blog.
+
+================================================================================
+

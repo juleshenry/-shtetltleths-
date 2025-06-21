@@ -1,0 +1,19 @@
+TITLE: The Winding Road to Quantum Supremacy
+URL: https://scottaaronson.blog/?m=201901
+CONTENT:
+Greetings from QIP’2019 in Boulder, Colorado!  Obvious highlights of the conference include Urmila Mahadev’s opening plenary talk on her verification protocol for quantum computation (which I blogged about here), and Avishay Tal’s upcoming plenary on his and Ran Raz’s oracle separation between BQP and PH (which I blogged about here).  If you care, here are the slides for the talk I just gave, on the paper “Online Learning of Quantum States” by me, Xinyi Chen, Elad Hazan, Satyen Kale, and Ashwin Nayak.  Feel free to ask in the comments about what else is going on.
+
+I returned a few days ago from my whirlwind Australia tour, which included Melbourne and Sydney; a Persian wedding that happened to be held next to a pirate ship (the Steve Irwin, used to harass whalers and adorned with a huge Jolly Roger); meetings and lectures graciously arranged by friends at UTS; a quantum computing lab tour personally conducted by 2018 “Australian of the Year” Michelle Simmons; three meetups with readers of this blog (or more often, readers of the other Scott A’s blog who graciously settled for the discount Scott A); and an excursion to Grampians National Park to see wild kangaroos, wallabies, koalas, and emus.
+
+But the thing that happened in Australia that provided the actual occassion for this post is this: I was interviewed by Adam Ford in Carlton Gardens in Melbourne, about quantum supremacy, AI risk, Integrated Information Theory, whether the universe is discrete or continuous, and to be honest I don’t remember what else.  You can watch the first segment, the one about the prospects for quantum supremacy, here on YouTube.  My only complaint is that Adam’s video camera somehow made me look like an out-of-shape slob who needs to hit the gym or something.
+
+Update (Jan. 16): Adam has now posted a second video on YouTube, wherein I talk about my “Ghost in the Quantum Turing Machine” paper, my critique of Integrated Information Theory, and more.
+
+And now Adam has posted yet a third segment, in which I talk about small, lighthearted things like existential threats to civilization and the prospects for superintelligent AI.
+
+And a fourth, in which I talk about whether reality is discrete or continuous.
+
+Related to the “free will / consciousness” segment of the interview: the biologist Jerry Coyne, whose blog “Why Evolution Is True” I’ve intermittently enjoyed over the years, yesterday announced my existence to his readers, with a post that mostly criticizes my views about free will and predictability, as I expressed them years ago in a clip that’s on YouTube (at the time, Coyne hadn’t seen GIQTM or my other writings on the subject).  Coyne also took the opportunity to poke fun at this weird character he just came across whose “life is devoted to computing” and who even mistakes tips for change at airport smoothie stands.  Some friends here at QIP had a good laugh over the fact that, for the world beyond theoretical computer science and quantum information, this is what 23 years of research, teaching, and writing apparently boil down to: an 8.5-minute video clip where I spouted about free will, and also my having been arrested once in a comic mix-up at Philadelphia airport.  Anyway, since then I had a very pleasant email exchange with Coyne—someone with whom I find myself in agreement much more often than not, and who I’d love to have an extended conversation with sometime despite the odd way our interaction started.
+
+================================================================================
+

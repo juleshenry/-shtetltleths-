@@ -1,0 +1,57 @@
+TITLE: Can we reverse time to before this hypefest started?
+URL: https://scottaaronson.blog/?m=201903
+CONTENT:
+The purpose of this post is mostly just to signal-boost Konstantin Kakaes’s article in MIT Technology Review, entitled “No, scientists didn’t just ‘reverse time’ with a quantum computer.”  The title pretty much says it all—but if you want more, you should read the piece, which includes the following droll quote from some guy calling himself “Director of the Quantum Information Center at the University of Texas at Austin”:
+
+If you’re simulating a time-reversible process on your computer, then you can ‘reverse the direction of time’ by simply reversing the direction of your simulation. From a quick look at the paper, I confess that I didn’t understand how this becomes more profound if the simulation is being done on IBM’s quantum computer.
+
+Incredibly, the time-reversal claim has now gotten uncritical attention in Newsweek, Discover, Cosmopolitan, my Facebook feed, and elsewhere—hence this blog post, which has basically no content except “the claim to have ‘reversed time,’ by running a simulation backwards, is exactly as true and as earth-shattering as a layperson might think it is.”
+
+If there’s anything interesting here, I suppose it’s just that “scientists use a quantum computer to reverse time” is one of the purest examples I’ve ever seen of a scientific claim that basically amounts to a mind-virus or meme optimized for sharing on social media—discarding all nontrivial “science payload” as irrelevant to its propagation.
+
+================================================================================
+
+TITLE: “Quantum Computing and the Meaning of Life”
+URL: https://scottaaronson.blog/?m=201903
+CONTENT:
+Manolis Kellis is a computational biologist at MIT, known as one of the leaders in applying big data to genomics and gene regulatory networks.  Throughout my 9 years at MIT, Manolis was one of my best friends there, even though our research styles and interests might seem distant.  He and I were in the same PECASE class; see if you can spot us both in this photo (in the rows behind America’s last sentient president).  My and Manolis’s families also became close after we both got married and had kids.  We still keep in touch.
+
+Today Manolis will be celebrating his 42nd birthday, with a symposium on the meaning of life (!).  He asked his friends and colleagues to contribute talks and videos reflecting on that weighty topic.
+
+Here’s a 15-minute video interview that Manolis and I recorded last night, where he asks me to pontificate about the implications of quantum mechanics for consciousness and free will and whether the universe is a computer simulation—and also about, uh, how to balance blogging with work and family.
+
+Also, here’s a 2-minute birthday video that I made for Manolis before I really understood what he wanted.  Unlike the first video, this one has no academic content, but it does involve me wearing a cowboy hat and swinging a makeshift “lasso.”
+
+Happy birthday Manolis!
+
+================================================================================
+
+TITLE: Death of proof greatly exaggerated
+URL: https://scottaaronson.blog/?m=201903
+CONTENT:
+In 1993, the science writer John Horgan—who’s best known for his book The End of Science, and (of course) for interviewing me in 2016—wrote a now-(in)famous cover article for Scientific American entitled “The Death of Proof.”  Mashing together a large number of (what I’d consider) basically separate trends and ideas, Horgan argued that math was undergoing a fundamental change, with traditional deductive proofs being replaced by a combination of non-rigorous numerical simulations, machine-generated proofs, probabilistic and probabilistically-checkable proofs, and proofs using graphics and video.  Horgan also suggested that Andrew Wiles’s then-brand-new proof of Fermat’s Last Theorem—which might have looked, at first glance, like a spectacular counterexample to the “death of proof” thesis—could be the “last gasp of a dying culture” and a “splendid anachronism.”  Apparently, “The Death of Proof” garnered one of the largest volumes of angry mail in Scientific American‘s history, with mathematician after mathematician arguing that Horgan had strung together half-digested quotes and vignettes to manufacture a non-story.
+
+Now Horgan—who you could variously describe as a wonderful sport, or a ham, or a sucker for punishment—has written a 26-year retrospective on his “death of proof” article.  The prompt for this was Horgan’s recent discovery that, back in the 90s, David Hoffman and Hermann Karcher, two mathematicians annoyed by the “death of proof” article, had named a nonexistent mathematical object after its author.  The so-called Horgan surface is a minimal surface that numerical computations strongly suggested should exist, but that can be rigorously proven not to exist after all.  “The term was intended as an insult, but I’m honored anyway,” Horgan writes.
+
+As a followup to his blog post, Horgan then decided to solicit commentary from various people he knew, including yours truly, about “how proofs are faring in an era of increasing computerization.”  He wrote, “I’d love to get a paragraph or two from you.”  Alas, I didn’t have the time to do as requested, but only to write eight paragraphs.  So Horgan suggested that I make the result into a post on my own blog, which he’d then link to.  Without further ado, then:
+
+John, I like you so I hate to say it, but the last quarter century has not been kind to your thesis about “the death of proof”!  Those mathematicians sending you the irate letters had a point: there’s been no fundamental change to mathematics that deserves such a dramatic title.  Proof-based math remains quite healthy, with (e.g.) a solution to the Poincaré conjecture since your article came out, as well as to the Erdős discrepancy problem, the Kadison-Singer conjecture, Catalan’s conjecture, bounded gaps in primes, testing primality in deterministic polynomial time, etc. — just to pick a few examples from the tiny subset of areas that I know anything about.
+
+There are evolutionary changes to mathematical practice, as there always have been.  Since 2009, the website MathOverflow has let mathematicians query the global hive-mind about an obscure reference or a recalcitrant step in a proof, and get near-instant answers.  Meanwhile “polymath” projects have, with moderate success, tried to harness blogs and other social media to make advances on long-standing open math problems using massive collaborations.
+
+While humans remain in the driver’s seat, there are persistent efforts to increase the role of computers, with some notable successes.  These include Thomas Hales’s 1998 computer-assisted proof of the Kepler Conjecture (about the densest possible way to pack oranges) — now fully machine-verified from start to finish, after the Annals of Mathematics refused to publish a mixture of traditional mathematics and computer code (seems this is not exactly what happened; see the comment section for more).  It also includes William McCune’s 1996 solution to the Robbins Conjecture in algebra (the computer-generated proof was only half a page, but involved substitutions so strange that for 60 years no human had found them); and at the “opposite extreme,” the 2016 solution to the Pythagorean triples problem by Marijn Heule and collaborators, which weighed in at 200 terabytes (at that time, “the longest proof in the history of mathematics”).
+
+It’s conceivable that someday, computers will replace humans at all aspects of mathematical research — but it’s also conceivable that, by the time they can do that, they’ll be able to replace humans at music and science journalism and everything else!
+
+New notions of proof — including probabilistic, interactive, zero-knowledge, and even quantum proofs — have seen further development by theoretical computer scientists since 1993.  So far, though, these new types of proof remain either entirely theoretical (as with quantum proofs), or else they’re used for cryptographic protocols but not for mathematical research.  (For example, zero-knowledge proofs now play a major role in certain cryptocurrencies, such as Zcash.)
+
+In many areas of math (including my own, theoretical computer science), proofs have continued to get longer and harder for any one person to absorb.  This has led some to advocate a split approach, wherein human mathematicians would talk to each other only about the handwavy intuitions and high-level concepts, while the tedious verification of details would be left to computers.  So far, though, the huge investment of time needed to write proofs in machine-checkable format — for almost no return in new insight — has prevented this approach’s wide adoption.
+
+Yes, there are non-rigorous approaches to math, which continue to be widely used in physics and engineering and other fields, as they always have been.  But none of these approaches have displaced proof as the gold standard whenever it’s available.  If I had to speculate about why, I’d say: if you use non-rigorous approaches, then even if it’s clear to you under what conditions your results can be trusted, it’s probably much less clear to others.  Also, even if only one segment of a research community cares about rigor, whatever earlier work that segment builds on will need to be rigorous as well — thereby exerting constant pressure in that direction.  Thus, the more collaborative a given research area becomes, the more important is rigor.
+
+For my money, the elucidation of the foundations of mathematics a century ago, by Cantor, Frege, Peano, Hilbert, Russell, Zermelo, Gödel, Turing, and others, still stands as one of the greatest triumphs of human thought, up there with evolution or quantum mechanics or anything else.  It’s true that the ideal set by these luminaries remains mostly aspirational.  When mathematicians say that a theorem has been “proved,” they still mean, as they always have, something more like: “we’ve reached a social consensus that all the ideas are now in place for a strictly formal proof that could be verified by a machine … with the only task remaining being massive rote coding work that none of us has any intention of ever doing!”  It’s also true that mathematicians, being human, are subject to the full panoply of foibles you might expect: claiming to have proved things they haven’t, squabbling over who proved what, accusing others of lack of rigor while hypocritically taking liberties themselves.  But just like love and honesty remain fine ideals no matter how often they’re flouted, so too does mathematical rigor.
+
+Update: Here’s Horgan’s new post (entitled “Okay, Maybe Proofs Aren’t Dying After All”), which also includes a contribution from Peter Woit.
+
+================================================================================
+

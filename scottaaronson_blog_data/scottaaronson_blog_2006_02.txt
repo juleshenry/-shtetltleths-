@@ -1,0 +1,225 @@
+TITLE: Lord, send no sign
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+Lars Johansson asks me to comment on a press release entitled “Quantum computer solves problem, without running.”  Alright, what have we got this time?
+
+CHAMPAIGN, Ill. — By combining quantum computation and quantum interrogation, scientists at the University of Illinois at Urbana-Champaign have found an exotic way of determining an answer to an algorithm — without ever running the algorithm.
+
+Using an optical-based quantum computer, a research team led by physicist Paul Kwiat has presented the first demonstration of “counterfactual computation,” inferring information about an answer, even though the computer did not run.
+
+Readers, my sole ambition in life, outside the purely personal, is to prevent stuff like this from being spouted.
+
+I’m serious. You see, I have no “philosophy” to offer the world, no unifying theory, no startling new idea. All I have is a long howl of rage, which admittedly tends to take the form of STOC/FOCS papers. But if you read those papers, you’ll see that almost every one of them was born when I came across some specific claim and said, “No. Dammit. No. That can’t possibly be right.”
+
+Look — if you tell a layperson that a computer has solved a problem without ever having been switched on, then not only have you not explained anything, you haven’t even asserted anything.  All you’ve done is pose a question: namely, “what’s the catch?”
+
+In this case, the catch is simple. Say you’ve got two programs, Dif and Doof, running in the Windows taskbar. Dif is performing some enormous calculation, while Doof (being a Doof) is doing nothing. If Dif’s calculation returns any answer other than 5, then Dif closes Doof. You come back to your computer and find that Doof is still running. Even though Doof didn’t calculate anything, and even though Dif never did anything to Doof, you can immediately conclude — from Doof alone — that the answer you wanted was 5.  Mindblowing!  Unbelievable!
+
+Now let Dif and Doof run, not in different windows, but in different branches of the wavefunction — that is, in quantum superposition. And instead of Dif using an operating system to close Doof, have Dif’s branch of the wavefunction interfere destructively with Doof’s branch, thereby preventing Doof’s branch from being observed. That’s the idea of counterfactual quantum computing.
+
+I suppose this is “mysterious,” in the same way that a dog claiming to hate doggie-treats would be mysterious. In the former case, the mystery is quantum mechanics. In the latter case, the mystery is a talking dog.
+
+Having said that, the original paper by Jozsa and Mitchison is actually lovely and well worth reading. It proves some nontrivial results about limits of counterfactual computing, and it also gives a good introduction to the Vaidman bomb (which I think of as a precursor to Grover’s algorithm).
+
+I’ll end with the clearest account of counterfactual computing I’ve seen, courtesy of one Homer J. Simpson.
+
+Dear Lord, the gods have been good to me. As an offering, I present these milk and cookies. If you wish me to eat them instead, please give me no sign whatsoever.
+
+…
+
+Thy will be done (munch munch munch).
+
+Update (3/1): Paul Kwiat has written in to the comments section with some helpful clarifications.
+
+================================================================================
+
+TITLE: Mistake of the Week: Empathy=Sympathy
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+With this post, I begin an occasional series called Mistake of the Week — in which I’ll explore “obvious” howlers that nevertheless show up in many different contexts, are made by people who should know better, and do real damage in the world. If you like, you can retroactively consider my post But What If? to be part of this series.
+
+(Note that, as in This Week’s Finds by John Baez, the word “week” means there will be at most one installment per week, not at least one.)
+
+This week’s mistake is that empathy — the ability to imagine yourself into someone else’s skin — is basically the same as sympathy.  In reality, these concepts are not just subtly different: they’re often directly opposed to each other!
+
+Scam artists, stalkers, abusers, rapists, and serial killers often have tremendous empathy for their victims. If they didn’t, they wouldn’t know how to scope them out, isolate them, and prey on their vulnerabilities. In The Blank Slate, Steven Pinker discusses research showing that attempts to “cure” psychopaths by teaching them empathy can make them even more dangerous.
+
+Of course, the world champions of empathy are the guys with dozens of nicks on their bedposts. It’s precisely because they understand women that they’re able to exploit them for their own enjoyment.
+
+So that was empathy without sympathy.  What about sympathy without empathy?
+
+I was in Berkeley on 9/11, and many students I talked to in the weeks afterward thought that America basically deserved it. In their analysis, if the US had only ratified the Kyoto Protocol, increased its aid to the developing world, etc., it would have had nothing to fear from al Qaeda. It struck me that these students had considerable sympathy for the 9/11 hijackers, but no empathy for them. They couldn’t understand Mohammed Atta on his own terms — only through the lens of their own values and beliefs. (Predictably, America’s homegrown fundamentalists showed much greater empathy. They understood immediately what their Islamic counterparts were up to.)
+
+History is full of bad people who achieved their goals because good people failed to empathize with them. “But surely this Mein Kampf must only be bluster, written for internal political purposes. There’s no way Hitler could actually believe what he wrote — he’d have to be a lunatic!”
+
+Alright, it’s too easy to bring up examples that everyone already knows about. So here’s a different one: have you ever heard of a feminist writer named Valerie Solanas? If you haven’t (say, because you were born after the 60’s, like me), then I invite you to take the following empathy quiz.
+
+In 1967, Solanas wrote a booklet called the S.C.U.M. Manifesto (S.C.U.M. stands for “Society for Cutting Up Men”). In it, she argues that the human male is a “walking abortion” and an “emotional cripple,” and calls for eradicating men and creating an all-female society. Any man who resists is to be killed. Once women rule the world, however, the few remaining men will kindly be permitted to “exist out their puny days dropped out on drugs or strutting around in drag or passively watching the high-powered female in action,” or else to “go off to the nearest friendly suicide center where they will be quietly, quickly, and painlessly gassed to death.”
+
+Solanas is vague about what her female utopia will be like; however, it will definitely be “groovy.” “In a female society,” she writes, “the only Art, the only Culture, will be conceited, kooky, funky females grooving on each other and on everything else in the universe.” There will be no need for a government or even a money system. (Hence, no shoe shopping.) Solanas strikes today’s reader as perhaps too sanguine about technology: after the male scientists have been murdered, she writes, women will be able to build a fully-automated society within weeks, and eliminate death and disease within years.
+
+(Incidentally, curing death is only one way Solanas’s utopia could perpetuate itself after the sperm banks have run dry. Another way, which she doesn’t discuss, is cloning from stem cells.)
+
+In short, the whole thing reads like Rush Limbaugh’s fantasy of what feminists believe. That’s why I was surprised to learn that, far from being universally condemned, the S.C.U.M. Manifesto has been praised by feminist leaders such as Ti-Grace Atkinson, assigned in women’s studies courses, and distributed by government-run women’s shelters in Sweden. What’s going on here? The answer seems to be that, for many readers, Solanas’s “final solution to the male problem” is so outlandish that no one, including Solanas herself, could possibly intend it literally. Instead, her proposal must be interpreted as an ironic critique of patriarchal assumptions, or something like that.
+
+Here, then, is my empathy quiz.  Read the S.C.U.M. Manifesto, trying as you do to imagine what it would be like to have written it. Then answer this question: does the author strike you as a clever ironist, or as a sincere psychopath who might actually try to kill someone? You can check your answer here.
+
+================================================================================
+
+TITLE: Jewish inferiority complex in brief, unfamiliar remission
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+Five days after the Washington Post’s Richard Cohen shared his doofus insights about algebra, experts debate whether the Cohen balance of the universe has been restored
+
+================================================================================
+
+TITLE: Eigenvalues up the wazoo
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+An anonymous commenter on my last post asks:
+
+isn’t the real problem with complexity theory that the resulting mathematics is usually superficial and shallow?
+
+does this make it less fun to do complexity theory?
+
+are complexity theorists ever saying something deep?
+
+Later, the same commenter writes:
+
+i’m just curious because I don’t really understand how I feel about the issue myself.
+
+maybe we should start with something more basic. can we all agree that “logic” (i.e. foundations of math) is pretty boring and flavorless?
+
+sure, we all got that little rush when we heard the story of the “fall of mathematics” in the early 20th century … and then maybe again with the axiom of choice, continuum hypothesis, independence, forcing, and various incompleteness theorems.
+
+but is logic actually fun to do?  on an emotional level, do you achieve understanding, intuition?
+
+Alright, look, anonymous. You’ve nailed why I don’t work on logic myself — besides not understanding what the big, meaty open problems are. For me, frankly, reading about logic (or recursion theory, or programming language semantics, or distributed computing) has always felt like sipping broth. Sure, it might be delicious broth. In the case of (say) Gödel and Cohen’s independence results, it might even be the best broth I’ve ever tasted. But eventually I hanker for some noodles, some carrots, maybe some complex numbers or a Cauchy-Schwarz inequality. I mean, how long can a person go without bounding anything?
+
+But you see, anonymous, that’s what I like about complexity. It packs the same theological punch as logic does, but it’s got math in it too. And I’m not just talking combinatorics and graph theory. Let me put it to you this way:
+
+You like groups?  We got groups.
+
+You like vector spaces?  We got them too.
+
+But what about number theory?  Finite fields?  Fourier transforms?  Continued fractions?  “Shor.”
+
+Eigenvalues? Chebyshev polynomials? Gaussians? Random walks? Lattices? Convex polytopes? Banach spaces? Metric embeddings? You better believe it.
+
+Or how about this, anonymous: what’s your favorite constant? π? e? The golden mean? Maybe 0.288…=(1/2)(3/4)(7/8)(15/16)…? Becoming a complexity theorist doesn’t mean bidding any of them goodbye.
+
+Look, we even got knots, braids, manifolds, unitary representations, varieties, cohomologies, plethysms — alright, maybe not so much of the last few. But if your favorite mathematical object isn’t in stock, bring it yourself! That’s the thing about complexity: anything is fair game if it yields a new upper or lower bound. The reason it’s so hard to prove P!=NP is precisely that a fast SAT algorithm could be hiding anywhere in the math library.
+
+Now let me turn the tables, anonymous.  Can you name a subfield of math that involves so many different kinds of math?
+
+================================================================================
+
+TITLE: The Fable of the Chessmaster
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+If a layperson asks you what computational complexity is, you could do worse than to tell the following story, which I learned from Steven Rudich.
+
+A man with a flowing gray beard is standing on a street corner, claiming to be God. A bemused crowd gathers around him. “Prove it!” they taunt.
+
+“Well,” says the man,”I can beat anyone at chess.”
+
+A game is duly arranged against Kasparov, who happens to be in town. The man with the gray beard wins.
+
+“OK, so you’re pretty good at chess,” the onlookers concede.  “But that still doesn’t mean you’re God.”
+
+“O ye of little faith!  As long as I play White, it’s not just hard to beat me — it’s mathematically impossible! Play Black over and over, try every possible sequence of moves, and you’ll see: I always win.”
+
+A nerd pipes up. “But there are more sequences of moves than there are atoms in the universe! Even supposing you beat us every day for a century, we’d still have no idea whether some sequence of moves we hadn’t tried yet would lead to your defeat. We’ll be long dead before every possibility is examined. So unless you’re prepared to grant us immortality, there’s no way you can possibly convince us!”
+
+Most of you know the punchline to this story, but for those who don’t: the nerd is wrong. By asking a short sequence of randomly-chosen questions, each a followup to the last, the crowd can quickly convince itself, to as high a confidence as it likes, that the man they’re interrogating knows a winning strategy for White — or else expose his lie if he doesn’t. The reason was discovered in 1990 by Lund, Fortnow, Karloff, Nisan, and Shamir, and has less to do with chess than with the zeroes of polynomials over finite fields.
+
+There are two lessons I’d like to draw from Rudich’s Fable of the Chessmaster.
+
+The first lesson is that computational complexity theory is really, really, really not about computers. Computers play the same role in complexity that clocks, trains, and elevators play in relativity. They’re a great way to illustrate the point, they were probably essential for discovering the point, but they’re not the point.
+
+The best definition of complexity theory I can think of is that it’s quantitative theology: the mathematical study of hypothetical superintelligent beings such as gods.  Its concerns include:
+
+And of course:
+
+Incidentally, it’s ironic that some people derisively refer to string theory as “recreational mathematical theology.” String theory has to earn the status of mathematical theology — right now it’s merely physics! A good place for string theorists to start their theological training is this recent paper by Denef and Douglas.
+
+So that was my first lesson. The second lesson is that interaction helps: you can get your message across a lot faster if people are continually challenging you. If the gray-bearded man were just lecturing to a passive audience, rather than being grilled by doubters trying to trap him in a contradiction, then it would take longer than the age of the universe for him to prove his unbeatability at chess. Or rather, we theologians conjecture that it would.
+
+I’m reminded of the power of interaction every time I give a talk. Despite a certain reputation for cheap yuks, I’ve never been a good speaker. I’m terrible at explaining anything coherently — that is, in a way that anticipates people’s objections. Fortunately, as long as people interrupt me, it doesn’t matter much, since I can easily answer the objections once I know what they are. Indeed, not only do interruptions clue me in on what’s bugging people — as in the Fable of the Chessmaster, they also let me prove that I basically know what I’m talking about, even if I can’t articulate it in the allotted time!
+
+(In my ideal talk, I would begin by saying “Thank you. Are there any questions?”)
+
+For another example, take the sex columnist Dan Savage. Savage has a “philosophy,” which consists partly of a refusal to condemn sex acts if they don’t harm anyone, and a willingness to condemn them if they do. But if he tried to state his philosophy explicitly, he wouldn’t do it justice any more than I just did. So instead he answers questions about used underwear fetishes and masturbating parakeets.
+
+The same goes for comedians, at least the good ones like Jon Stewart. Stewart has an enviably easy job: news happens, he reacts to it. It’s like my ideal talk that consists entirely of questions — except that instead of questions, there’s Bush warning about “human-animal hybrids” in his State of the Union address, or Cheney shooting his hunting buddy in the face.
+
+Inspired by such examples, and by my recent positive experience answering Peter Brooke’s question, I’ve decided to open this blog to questions on a regular basis. Email them, post them in the comments section, whatever. I can’t promise to take up everything. Try to guess which of the following would have a better chance:
+
+“Please discuss the relative merits of conference and journal publication in theoretical computer science.”
+“How could schools be redesigned to improve the sex lives of nerds?”
+
+================================================================================
+
+TITLE: A Euclidean theater of misery
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+As winner of the Best Umeshism Contest (remember that?), Peter Brooke earned the right to ask me any question and have me answer it on this blog. Without further ado, here is Peter’s question:
+
+If it is assumed that God exists, what further, reasonable, conclusions can be made, or is that where logical inquiry must end? Reasonable means in the light and inclusive of present scientific understanding. Defend any assumptions and conclusions you make.
+
+At least Peter was kind enough not to spring “Is there a God?” on me.  Instead, like a true complexity theorist, he asks what consequences follow if God’s existence is assumed.
+
+Alas, Peter didn’t say which God he has in mind.  If it were Allah, or Adonai, or Zeus, or the Flying Spaghetti Monster, then I’d simply refer Peter to the requisite book (or in the case of the Spaghetti Monster, website) and be done. As it is, though, I can’t assume anything about God, except that
+
+(Note for Miss HT Psych: the third assumption is a joke.)
+
+So the only way I see to proceed is to start from known facts, and then ask what sort of God would be compatible with those facts. Though others might make different choices, the following facts seem particularly relevant to me.
+
+Now, based on the facts above, plus many others I didn’t mention, and “in the light … of present scientific understanding,” what can we say about God, assuming He exists? I think we can say the following.
+
+First, that He’s created Himself a vale of tears, a theater of misery beyond the imagination of any horror writer. That He’s either unaware of all the undeserved suffering He’s wrought, or else unable or unwilling to prevent it. That in times of greatest need, He’s nowhere to be found. That He doesn’t answer the prayers of the afflicted, or punish evildoers in any discernible way. That He most likely doesn’t intervene in human affairs at all — though I wouldn’t want to argue with those who say He does intervene, but only for the worse.
+
+Second, that He apparently prefers complex numbers to real numbers, and the L2 norm to the L1 norm.
+
+================================================================================
+
+TITLE: The Cringeometer
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+Over at Not Even Wrong, Peter Woit pans “Down the Rabbit Hole,” a movie about quantum mechanics, paranormal phenomena, and the deep imaginary connection between the two that’s setting the pseudoscience world on fire.  (Don’t worry — the fire is harmless to those who have balanced their chakras.)
+
+“Rabbit Hole” is a rehash of the 2004 film “What the Bleep Do We Know!?”; apparently the new version is longer and includes more crackpots, but the basic howlers are the same.  (Woit’s summary: “entanglement=we are all connected, superposition=anything you  want to be true is true.”)
+
+I suppose I’ll eventually have to don a fake mustache, clothespin my nose, and go endure this movie, since people often bring it up when I tell them what I do for a living:
+
+ME: …so, at least in the black-box model that we can analyze, my result implies that the quantum speedup for breaking cryptographic hash functions is only a polynomial one, as opposed to the exponential speedup of Shor’s factoring algorithm.
+
+PERSON AT COCKTAIL PARTY: How interesting!  It’s just like they were saying in the movie: reality is merely a construct of our minds.
+
+But if I do jump down the Rabbit Hole, my worry is that I won’t make it through:
+
+“Sir, if you don’t stop causing a disturbance, we’ll have to escort you out of the movie theater…”
+
+“BUT YOU CAN’T USE QUANTUM MECHANICS TO CHANNEL DEAD PEOPLE! IT’S A LINEAR THEORY!    POSTSELECTION’S NOT ALLOWED!”
+
+“Alright, come with us, sir.”
+
+“LINEAR, I TELL YOU!   AND THE MEASUREMENTS OBEY THE |Ψ|2 RULE!   WHAT THE %*#()$*$ DO THESE IDIOTS KNOW!?  I’M BEGGING YOU, STOP THE PROJECTOR!”
+
+Since this hasn’t yet happened, what inspired the present post was not the movie itself, but its title graphic:
+
+Staring at this image, I came up with something that I call the Cringeometer: a quick way for anyone, scientist or not, to predict whether a given popular depiction of science will cause scientists to cringe.  To use the Cringeometer, you don’t have to make any decisions about technical accuracy.  All you have to do is look for mathematical symbols such as Σ, ε, and π, and then ask yourself two questions:
+
+The results should be self-explanatory — but just in case they aren’t, I’ll end with three sample applications of the Cringeometer.
+
+================================================================================
+
+TITLE: Compressed squeals
+URL: https://scottaaronson.blog/?m=200602
+CONTENT:
+My car battery died. My latest research languishes half-written on my hard drive. My receipts for travel reimbursement lie unsubmitted on my floor. My academic future is yet to be decided. So what better way to spend an afternoon than by browsing the SPAM Haiku Archive, and compiling the 62 finest exemplars of the genre into this file?
+
+If you’re sitting in a shared office, or are drinking a beverage such as milk, please click at your own risk. The yuks-to-syllable ratio is one of the highest I’ve seen in months, and I’ve never even tasted the stuff.
+
+================================================================================
+

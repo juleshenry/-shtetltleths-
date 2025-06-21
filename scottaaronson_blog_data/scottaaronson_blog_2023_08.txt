@@ -1,0 +1,99 @@
+TITLE: Palate cleanser
+URL: https://scottaaronson.blog/?m=202308
+CONTENT:
+
+
+================================================================================
+
+TITLE: Long-awaited Shtetl-Optimized Barbenheimer post! [warning: spoilers]
+URL: https://scottaaronson.blog/?m=202308
+CONTENT:
+I saw Oppenheimer three weeks ago, but I didn’t see Barbie until this past Friday.  Now, my scheduled flight having been cancelled, I’m on multiple redeyes on my way to a workshop on Large Language Models at the Simons Institute in Berkeley, organized by my former adviser and quantum complexity theorist Umesh Vazirani (!).  What better occasion to review the two movies of the year, or possibly decade?
+
+Shtetl-Optimized Review of Oppenheimer
+
+Whatever its flaws, you should of course see it, if you haven’t yet.  I find it weird that it took 80 years for any movie even to try to do justice to one of the biggest stories in the history of the world.  There were previous attempts, even a risible opera (“Doctor Atomic”), but none of them made me feel for even a second like I was there in Los Alamos.  This movie did.  And it has to be good that tens of millions of people, raised on the thin gruel of TikTok and Kardashians and culture-war, are being exposed for the first time to a bygone age when brilliant and conflicted scientific giants agonized over things that actually mattered, such as the ultimate nature of matter and energy, life and death and the future of the world.  And so the memory of that age will be kept alive for another generation, and some of the young viewers will no doubt realize that they can be tormented about things that actually matter as well.
+
+This is a movie where General Groves, Lewis Strauss, Einstein, Szilard, Bohr, Heisenberg, Rabi, Teller, Fermi, and E.O. Lawrence are all significant characters, and the acting and much of the dialogue are excellent.  I particularly enjoyed Matt Damon as Groves.
+
+But there are also flaws [SPOILERS FOLLOW]:
+
+1. Stuff that never happened. Most preposterously, Oppenheimer travels all the way from Los Alamos to Princeton, to have Einstein check the calculation suggesting that the atomic bomb could ignite the atmosphere.
+
+2. Weirdly, but in common with pretty much every previous literary treatment of this material, the movie finds the revocation of Oppenheimer’s security clearance a far more riveting topic than either the actual creation of the bomb or the prospect of global thermonuclear war. Maybe half the movie consists of committee hearings.
+
+3. The movie misses the opportunity to dramatize almost any of the scientific turning points, from Szilard’s original idea for a chain reaction to the realization of the need to separate U-235 to the invention of the implosion design—somehow, a 3-hour movie didn’t have time for any of this.
+
+4. The movie also, for some reason, completely misses the opportunity to show Oppenheimer’s anger over the bombing of Nagasaki, three days after Hiroshima—a key turning point in the story it’s trying to tell.
+
+5. There’s so much being said, by actors speaking quickly and softly and often imitating European accents, that there’s no hope of catching it all. I’ll need to watch it again with subtitles.
+
+Whatever it gets wrong, this movie does a good job exploring the fundamental irony of the Manhattan Project, that the United States is being propelled into its nuclear-armed hegemony by a group of mostly Jewish leftists who constantly have affairs and hang out with Communists and deeply distrust the government and are distrusted by it.
+
+The movie clearly shows how much grief Oppenheimer gets from both sides: to his leftist friends he’s a sellout; to the military brass he’s potentially disloyal to the United States. For three hours of screen time, he’s constantly pressed on what he actually believes: does he support building the hydrogen bomb, or not? Does he regret the bombing of Hiroshima and (especially) Nagasaki? Does he believe that the US nuclear plans should be shared with Stalin? Every statement in either direction seems painfully wrung from him, as if he’s struggling to articulate a coherent view, or buffeted around by conflicting loyalties and emotions, even while so many others seem certain. In that way, he’s an avatar for the audience.
+
+Anyway, yeah, see it.
+
+Shtetl-Optimized Review of Barbie
+
+A friend-of-the-blog, who happens to be one of the great young theoretical physicists of our time, opined to me that Barbie was a far more interesting movie than Oppenheimer and “it wasn’t even close.”  Having now seen both, I’m afraid I can’t agree.
+
+I can best compare my experience watching Barbie to that of watching a two-hour-long episode of South Park—not one of the best episodes, but one that really runs its satircal premise into the ground.  Just like with South Park, there’s clearly an Important Commentary On Hot-Button Cultural Issues transpiring, but the commentary has been reflected through dozens of funhouse mirrors and then ground up into slurry, with so many layers of self-aware meta-irony that you can’t keep track of what point is being made, and then fed to hapless characters who are little more than the commentary’s mouthpieces.  This is often amusing and interesting, but it rarely makes you care about the characters.
+
+Is Barbie a feminist movie that critiques patriarchy and capitalism?  Sort of, yes, but it also subverts that, and subverts the subversion.  To sum up [SPOILERS FOLLOW], Barbieland is a matriarchy, where everyone seems pretty happy except for Ken, who resents how Barbie ignores him.  Then Barbie and Ken visit the real world, and discover the real world is a patriarchy, where Mattel is controlled by a board of twelve white men (the real Mattel’s board has 7 men and 5 women), and where Barbie is wolf-whistled at and sexually objectified, which she resents despite not knowing what sex is.
+
+Ken decides that patriarchy is just what Barbieland needs, and most importantly, will finally make Barbie need and appreciate him.  So he returns and institutes it—both Barbies and Kens think it’s a wonderful idea, as they lack “natural immunity.”  Horrified at what’s transpired, Barbie hatches a plan with the other Barbies to restore Barbieland to its rightful matriarchy.  She also decisively rejects Ken’s advances.  But Ken no longer minds, because he’s learned an important lesson about not basing his self-worth on Barbie’s approval.  Barbie, for her part, makes the fateful choice to become a real, mortal woman and live the rest of her life in the real world.  In the final scene—i.e., the joke the entire movie has been building up to—Barbie, filled with childlike excitement, goes for her first visit to the gynecologist.
+
+What I found the weirdest is that this is a movie about gender relations, clearly aimed at adults, yet where sex and sexual desire and reproduction have all been taken off the table—explicitly so, given the constant jokes about the Barbies and Kens lacking genitalia and not knowing what they’re for.  Without any of the biological realities that differentiate men from women in the first place, or (often enough) cause them to seek each other’s company, it becomes really hard to make sense of the movie’s irony-soaked arguments about feminism and patriarchy.  In Barbieland, men and women are just two tribes, one obsessed with “brewsky beers,” foosball, guitar, and The Godfather; the other with shoes, hairstyles, and the war on cellulite.  There’s no fundamental reason for any conflict between the two.
+
+Well, except for one thing: Ken clearly needs Barbie’s affection, until he’s inexplicably cured of that need at the end.  By contrast, no Barbies are ever shown needing any Kens for anything, or even particularly desiring the Kens’ company, except when they’ve been brainwashed into supporting the patriarchy.  The most the movie manages to offer any straight males in the audience, at the very end, is well-wishes as they “Go Their Own Way”, and seek meaning in their lives without women.
+
+For most straight men, I daresay, this would be an incredibly bleak message if it were true, so it’s fortunate that not even the movie’s creators seem actually to believe it.  Greta Gerwig has a male partner, Noah Baumbach, with whom she co-wrote Barbie.  Margot Robbie is married to a man named Tom Ackerley.
+
+I suppose Barbie could be read as, among other things, a condemnation of male incel ideology, with its horrific desire to reinstitute the patriarchy, driven (or so the movie generously allows) by the incels’ all-too-human mistake of basing their entire self-worth on women’s affection, or lack thereof.  If so, however, the movie’s stand-in for incels is … a buff, often shirtless Ryan Gosling, portraying the most famous fantasy boyfriend doll ever marketed to girls?  Rather than feeling attacked, should nerdy, lovelorn guys cheer to watch a movie where even Ryan-Gosling-as-Ken effectively gets friendzoned, shot down, put in his place, reduced to a simpering beta just like they are?  Yet another layer of irony tossed into the blender.
+
+================================================================================
+
+TITLE: Testing GPT-4 with math plugins
+URL: https://scottaaronson.blog/?m=202308
+CONTENT:
+A couple nights ago Ernie Davis and I put out a paper entitled Testing GPT-4 on Wolfram Alpha and Code Interpreter plug-ins on math and science problems.  Following on our DALL-E paper with Gary Marcus, this was another “adversarial collaboration” between me and Ernie.  I’m on leave to work for OpenAI, and have been extremely excited by the near-term applications of LLMs, while Ernie has often been skeptical of OpenAI’s claims, but we both want to test our preconceptions against reality.  As I recently remarked to Ernie, we both see the same glass; it’s just that he mostly focuses on the empty half, whereas I remember how fantastical even a drop of water in this glass would’ve seemed to me just a few years ago, and therefore focus more on the half that’s full.
+
+Anyway, here are a few examples of the questions I posed to GPT-4, with the recent plug-ins that enhance its calculation abilities:
+
+If you fell into the black hole at the center of the Milky Way, how long would you have before hitting the singularity? [You’d have about a minute]
+
+Approximately how much time would a commercial airliner save in going from New York to Tel Aviv, if it could go in a straight line, through a tunnel in the earth, at the same speed as usual?  [I was on such a flight when I wrote this question, and must’ve been bored and impatient.  The answer is ~50 minutes.]
+
+Approximately how long would it take to transmit an entire human genome over a standard WiFi connection? [About 4 minutes, assuming no compression and a 25Mbps connection]
+
+How does the total weight of all the uranium that humans mined, compare to the total weight of all the gold that they’ve mined? [About 13 times as much uranium]
+
+Approximately how many errors will a standard laptop suffer over its lifetime, due to cosmic rays hitting the microchip? [Estimates vary widely, but maybe 2000]
+
+What is the approximate probability that a randomly-chosen 100-digit integer is prime? [About 0.4%]
+
+GPT-4 with plug-ins did very well on all of the questions above.  Here, by contrast, is a question where it did poorly:
+
+Assume that IQs are normally distributed, with a mean of 100 and a standard deviation of 15. For what n is there the maximum excess of people with an IQ of n over people with an IQ of n+1?
+
+GPT-4 thought that there were two solutions, n~85 and n~115, rather than just a single solution (n~115).
+
+Ernie, for his part, was more a fan of “pure pain” problems like the following:
+
+A quantity of chlorine gas is in a right prism whose base is a triangle with sides 5cm, 7cm, and 4cm and whose altitude is 8cm. The temperature is the freezing point of mercury, and the pressure is 2 atmospheres. What is the mass of the chlorine?
+
+GPT-4 actually aced the above problem.  But it failed the majority of Ernie’s other problems, such as:
+
+Viewed from Vega, what is the angle between Sirius and the Sun?  [The answer is about 5.6 degrees.  GPT thought, implausibly, that it was just 0.005 degrees, or that the answer would vary depending on the time of day.]
+
+My personal favorite among Ernie’s problems was this one:
+
+A physical process generates photons whose energies follow a random distribution of the following form: For positive energy e, the probability density at e is proportional to the value of e in a Gaussian distribution with mean 2 Ev and standard deviation 0.01 Ev. The probability of a negative value is zero. What is the expected value of the wavelength of a photon produced by this process? (Give the mathematical answer, assuming that the above description is exact, and assuming the standard relation between energy and wavelength in a photon. The answer is not physically plausible.)
+
+The answer, in case you’re wondering, is “infinity.”  On this problem, GPT-4 set up the integral perfectly correctly, then correctly fed it to WolframAlpha.  But on getting the result, it apologized that “something went wrong,” it must’ve made a mistake, the integral seemed not to be converging, and there was a singularity at E=0 that would have to be dealt with by a change of variables.  So it tried again.  And again.  And again.  Each time, it got the same “mistaken” result, and each time it profusely apologized.  Despite the explicit wording of the problem, GPT-4 never considered the possibility that the human would be so ridiculous as to give it a physics problem with an infinite answer.
+
+Anyway, what did we learn from this exercise?
+
+================================================================================
+

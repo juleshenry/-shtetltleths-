@@ -1,0 +1,68 @@
+TITLE: STOC’2021 and BosonSampling
+URL: https://scottaaronson.blog/?m=202106
+CONTENT:
+Happy birthday to Alan Turing!
+
+This week I’m participating virtually in STOC’2021, which today had a celebration of the 50th anniversary of NP-completeness (featuring Steve Cook, Richard Karp, Leonid Levin, Christos Papadimitriou, and Avi Wigderson), and which tomorrow will have a day’s worth of quantum computing content, including a tutorial on MIP*=RE, two quantum sessions, and an invited talk on quantum supremacy by John Martinis.  I confess that I’m not a fan of GatherTown, the platform being used for STOC.  Basically, you get a little avatar who wanders around a virtual hotel lobby and enters sessions—but it seems to reproduce all of the frustrating and annoying parts of experience without any of the good parts.
+
+Ah!  But I got the surprising news that Alex Arkhipov and I are among the winners of STOC’s first-ever “Test of Time Award,” for our paper on BosonSampling.  It feels strange to win a “Test of Time” award for work that we did in 2011, which still seems like yesterday to me.  All the more since the experimental status and prospects of quantum supremacy via BosonSampling are still very much live, unresolved questions.
+
+Speaking of which: on Monday, Alexey Rubtsov, of the Skolkovo Institute in Moscow, gave a talk for our quantum information group meeting at UT, about his recent work with Popova on classically simulating Gaussian BosonSampling.  From the talk, I learned something extremely important.  I had imagined that their simulation must take advantage of the high rate of photon loss in actual experiments (like the USTC experiment from late 2020), because how else are you going to simulate BosonSampling efficiently?  But Rubtsov explained that that’s not how it works at all.  While their algorithm is heuristic and remains to be rigorously analyzed, numerical studies suggest that it works even with no photon losses or other errors.  Having said that, their algorithm works:
+
+So, bottom line, it now looks like the USTC experiment, amazing engineering achievement though it was, is not hard to spoof with a classical computer.  If so, this is because of multiple ways in which the experiment differed from my and Arkhipov’s original theoretical proposal.  We know exactly what those ways are—indeed, you can find them in my earlier blog posts on the subject—and hopefully they can be addressed in future experiments.  All in all, then, we’re left with a powerful demonstration of the continuing relevance of formal hardness reductions, and the danger of replacing them with intuitions and “well, it still seems hard to me.”  So I hope the committee won’t rescind my and Arkhipov’s Test of Time Award based on these developments in the past couple weeks!
+
+================================================================================
+
+TITLE: On Guilt
+URL: https://scottaaronson.blog/?m=202106
+CONTENT:
+The other night Dana and I watched “The Internet’s Own Boy,” the 2014 documentary about the life and work of Aaron Swartz, which I’d somehow missed when it came out.  Swartz, for anyone who doesn’t remember, was the child prodigy who helped create RSS and Reddit, who then became a campaigner for an open Internet, who was arrested for using a laptop in an MIT supply closet to download millions of journal articles and threatened with decades in prison, and who then committed suicide at age 26.  I regret that I never knew Swartz, though he did once send me a fan email about Quantum Computing Since Democritus.
+
+Say whatever you want about the tactical wisdom or the legality of Swartz’s actions; it seems inarguable to me that he was morally correct, that certain categories of information (e.g. legal opinions and taxpayer-funded scientific papers) need to be made freely available, and that sooner or later our civilization will catch up to Swartz and regard his position as completely obvious.  The beautifully-made documentary filled me with rage and guilt not only that the world had failed Swartz, but that I personally had failed him.
+
+At the time of Swartz’s arrest, prosecution, and suicide, I was an MIT CS professor who’d previously written in strong support of open access to scientific literature, and who had the platform of this blog.  Had I understood what was going on with Swartz—had I taken the time to find out what was going on—I could have been in a good position to help organize a grassroots campaign to pressure the MIT administration to urge prosecutors to drop the case (like JSTOR had already done), which could plausibly have made a difference.  As it was, I was preoccupied in those years with BosonSampling, getting married, etc., I didn’t bother to learn whether anything was being done or could be done about the Aaron Swartz matter, and then before I knew it, Swartz had joined Alan Turing in computer science’s pantheon of lost geniuses.
+
+But maybe there was something deeper to my inaction.  If I’d strongly defended the substance of what Swartz had done, it would’ve raised the question: why wasn’t I doing the same?  Why was I merely complaining about paywalled journals from the comfort of my professor’s office, rather than putting my own freedom on the line like Swartz was?  It was as though I had to put some psychological distance between myself and the situation, in order to justify my life choices to myself.
+
+Even though I see the error in that way of “thinking,” it keeps recurring, keeps causing me to make choices that I feel guilt or at least regret about later.  In February 2020, there were a few smart people saying that a new viral pneumonia from Wuhan was about to upend life on earth, but the people around me certainly weren’t acting that way, and I wasn’t acting that way either … and so, “for the sake of internal consistency,” I didn’t spend much time thinking about it or investigating it.  After all, if the fears of a global pandemic had a good chance of being true, I should be dropping everything else and panicking, shouldn’t I?  But I wasn’t dropping everything else and panicking … so how could the fears be true?
+
+Then I publicly repented, and resolved not to make such an error again.  And now, 15 months later, I realize that I have made such an error again.
+
+All throughout the pandemic, I’d ask my friends, privately, why the hypothesis that the virus had accidentally leaked from the Wuhan Institute of Virology wasn’t being taken far more seriously, given what seemed like a shockingly strong prima facie case.  But I didn’t discuss the lab leak scenario on this blog, except once in passing.  I could say I didn’t discuss it because I’m not a virologist and I had nothing new to contribute.  But I worry that I also didn’t discuss it because it seemed incompatible with my self-conception as a cautious scientist who’s skeptical of lurid coverups and conspiracies—and because I’d already spent my “weirdness capital” on other issues, and didn’t relish the prospect of being sneered at on social media yet again.  Instead I simply waited for discussion of the lab leak hypothesis to become “safe” and “respectable,” as today it finally has, thanks to writers who were more courageous than I was.  I became, basically, another sheep in one of the conformist herds that we rightly despise when we read about them in history.
+
+(For all that, it’s still plausible to me that the virus had a natural origin after all.  What’s become clear is simply that, even if so, the failure to take the possibility of a lab escape more seriously back when the trail of evidence was fresher will stand as a major intellectual scandal of our time.)
+
+Sometimes people are wracked with guilt, but over completely different things than the world wants them to be wracked with guilt over.  This was one of the great lessons that I learned from reading Richard Rhodes’s The Making of the Atomic Bomb.  Many of the Manhattan Project physicists felt lifelong guilt, not that they’d participated in building the bomb, but only that they hadn’t finished the bomb by 1943, when it could have ended the war in Europe and the Holocaust.
+
+On a much smaller scale, I suppose some readers would still like me to feel guilt about comment 171, or some of the other stuff I wrote about nerds, dating, and feminism … or if not that, then maybe about my defense of a two-state solution for Israel and Palestine, or of standardized tests and accelerated math programs, or maybe my vehement condemnation of Trump and his failed insurrection.  Or any of the dozens of other times when I stood up and said something I actually believed, or when I recounted my experiences as accurately as I could.  The truth is, though, I don’t.
+
+Looking back—which, now that I’m 40, I confess is an increasingly large fraction of my time—the pattern seems consistent.  I feel guilty, not for having stood up for what I strongly believed in, but for having failed to do so.  This suggests that, if I want fewer regrets, then I should click “Publish” on more potentially controversial posts!  I don’t know how to force myself to do that, but maybe this post itself is a step.
+
+================================================================================
+
+TITLE: More quantum computing popularization!
+URL: https://scottaaronson.blog/?m=202106
+CONTENT:
+I now have a feature article up at Quanta magazine, entitled “What Makes Quantum Computing So Hard To Explain?”  I.e., why do journalists, investors, etc. so consistently get central points wrong, even after the subject has been in public consciousness for more than 25 years?  Perhaps unsurprisingly, I found it hard to discuss that meta-level question, as Quanta‘s editors asked me to do, without also engaging in the object-level task of actually explaining QC.  For regular Shtetl-Optimized readers, there will be nothing new here, but I’m happy with how the piece turned out.
+
+Accompanying the Quanta piece is a 10-minute YouTube explainer on quantum computing, which (besides snazzy graphics) features interviews with me, John Preskill, and Dorit Aharonov.
+
+On a different note, my colleague Mark Wilde has recorded a punk-rock song about BosonSampling.  I can honestly report that it’s some of the finest boson-themed music I’ve heard in years.  It includes the following lyrics:
+
+Quantum computer, Ain’t no loserQuantum computer, Quantum computer
+
+People out on the streetsThey don’t know what it isThey think it finds the cliquesOr finds graph coloringsBut it don’t solve anythingSaid it don’t solve anythingBosonic slot machineMy lil’ photonic dream
+
+Speaking of BosonSampling, A. S. Popova and A. N. Rubtsov, of the Skolkovo Institute in Moscow, have a new preprint entitled Cracking the Quantum Advantage threshold for Gaussian Boson Sampling.  In it, they claim to give an efficient classical algorithm to simulate noisy GBS experiments, like the one six months ago from USTC in China.  I’m still unsure how well this scales from 30-40 photons up to 50-70 photons; which imperfections of the USTC experiment are primarily being taken advantage of (photon losses?); and how this relates to the earlier proposed classical algorithms for simulating noisy BosonSampling, like the one by Kalai and Kindler.  Anyone with any insight is welcome to share!
+
+OK, one last announcement: the Simons Institute for the Theory of Computing, in Berkeley, has a new online lecture series called “Breakthroughs,” which many readers of this blog might want to check out.
+
+================================================================================
+
+TITLE: Three updates
+URL: https://scottaaronson.blog/?m=202106
+CONTENT:
+
+
+================================================================================
+

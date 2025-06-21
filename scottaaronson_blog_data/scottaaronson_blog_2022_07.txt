@@ -1,0 +1,330 @@
+TITLE: Juris Hartmanis (1928-2022): Guest post by Ryan Williams
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+Scott’s Introduction
+
+Juris Hartmanis — one of the founding figures of theoretical computer science, winner of the Turing Award, cofounder of the Cornell computer science department (of which I’m an alumnus), cofounder of the Conference on Computational Complexity or CCC (which I just attended), PhD adviser to many of the leading complexity theorists — has passed away at age 94.
+
+Scientifically, Hartmanis will be remembered as long as our field exists for several contributions.  First and foremost, his 1965 proof, with Richard Stearns, of the time and space hierarchy theorems, which adapt Turing’s undecidability theorems to show that there exist computable problems that are arbitrarily hard (and thus, if you like, that the new field of computational complexity theory would have a subject matter).  Second, his and Berman’s investigation, in the 1970s, of the detailed structure of NP-complete problems (are they “paddable”? can they be sparse? are all NP-complete sets polynomial-time isomorphic?  or as we now believe, are they not?), which helped start the whole area of “structural complexity theory” (the original subject matter of the CCC conference).  Third, his investigations of logic and complexity theory, including whether problems like P vs. NP could be independent of the axioms of set theory, and the relations of that question to relativization and oracles.
+
+As this memorial post by Richard Lipton and Ken Regan points out, some of Hartmanis’s most important contributions are so basic that it feels weird today even to mention them explicitly: the use of Turing machines to model computational complexity (!).  The study of complexity via “complexity classes,” consisting of all problems solvable within a given resource bound.  The whole Complexity Zoo could’ve been renamed Jurisic Park.
+
+One of my regrets in life is that I didn’t get to know Hartmanis well when I was an undergrad at Cornell.  (This was a stage of my life when I was still intimidated by my professors, or hyper-mega-intimidated if they were Juris Hartmanis.)  I actually conversed with him more after I’d graduated and returned for visits.  He was so considerate and kind, almost grandfatherly, that I realized how foolish I was not to have sought him out as a student.
+
+There was, however, another undergrad at Cornell at the same time as me, who wasn’t quite as intimidated as I was, and who ended up doing an independent study with Hartmanis, about the possibility of complete problems for NP∩coNP if I remember correctly.  This undergrad’s real goal was to solve the P vs. NP problem, which might sound ridiculous until I tell you that his name was Ryan Williams.  I asked Ryan to share his own memories of Juris, and he’s graciously done so below.  You won’t regret reading this.  —SA
+
+Juris Hartmanis by Ryan Williams
+
+I am extremely sad that Professor Juris Hartmanis has passed away. He made an enormous impact on my early career, and on my growth as a scientist: arguably, I wouldn’t be a scientist at all without him. He was extraordinarily gentle, inspiring, and encouraging to me.
+
+My story of how I know Professor Hartmanis is really my “origin story” as a theoretical computer scientist. So I’ll tell you a little about the situation before I met him, to give some before/after context.
+
+As a freshman at Cornell learning math and computer science, I became captivated by P vs NP and P vs PSPACE. In my teenage hubris, I planned it out: in the spring I’d take discrete math, fall I’d take the intro to theory of computing, and the following spring I’d take the grad complexity course being taught by Prof. Hartmanis that term. After that, I’d go to grad school in theory, and somewhere along the way tackle P vs NP. Simple enough…
+
+I did fine in discrete math, but struggled in intro to theory, partly due to the fact that the lectures (and exams) were at 9am. I managed to do well on the final and earned a B+. I began to wonder if my plan was unsound. I went to the instructor and told them of my plan. They recommended that I should not try for grad school, as I didn’t seem to be particularly talented and there were “no jobs in theory”. (Jobs? Who needs jobs?) I asked if my chances of getting in grad school would be improved if I did well in the grad complexity class. They said “maybe”, and that was enough to keep me going.
+
+The vibe in Prof. Hartmanis’ class was amazing. He was exceptionally passionate about teaching complexity. His lectures were a revelation; they were exhilarating. He stayed laser-focused on communicating the heart of the ideas, with brevity and levity as needed to avoid the technical details (often nasty in the case of Turing machines). In the margins of my own class notes, I jotted down countless one-liners and antics. One of my favorite memories is that, when he wanted to be done with a proof and was tired of further questions, he would write his Q.E.D. symbol very large, with a little intimidating devil inside of it, like so:
+
+As he’d often be packing more material in the lecture than time allowed, he joked that he wasn’t responsible for what was said in the last five minutes of class (when he’d rush to cover what remained). He was having so much fun with the material, and he repeatedly showed that one could think about these very deep and complex things very simply. My intuition for complexity grew so fast that the rest of my mathematical education was lifted immeasurably by it.
+
+In response, I began to take my studies very seriously that semester. I showed up to every session of his office hours. I peppered him with questions after class. He was unwaveringly patient, helping me sort out my latest confusion. Eventually my questions turned into actual research problems, which occasionally received interesting answers (mostly already answered in the literature). After the semester ended, I began to schedule weekly meetings with him, discussing anything and everything complexity. He always seemed happy to chat, and during conversations he made the development of my research taste a top priority. He made it clear when what I was saying was interesting to him, and when it wasn’t… and if it wasn’t, I needed to explain why I found it interesting. But I understood that all of this was for my education as a future theoretical computer scientist, which he treated as inevitable.
+
+I don’t know why Professor Hartmanis believed in me. During that period in my life, I felt like nobody else did, and it felt odd that the Turing Award winner was the one who believed the most. On the coattails of his eager recommendation, I was able to attend an REU at DIMACS. Later he was shocked and annoyed when in spite of his letter, I was rejected from every grad school I applied to (I suppose the B+ didn’t help). However, probably owing to Prof. Hartmanis’ stature at the NSF, I was still awarded an NSF grad fellowship. When I told him of the good and bad news, and that I had no Plan B, he immediately picked up the phone and called someone explaining the situation. He hung up and announced “Congratulations Ryan, you have been admitted to the MEng program.” So I spent the next year in Ithaca as an MEng student. He informed me he was retiring, and maybe grad programs are getting skeptical of complexity. Maybe I should try to sneak in by studying something adjacent. He suggested working with Bart Selman on SAT (which I did). My confidence was shaken by the rejections but, seeing how strongly he believed in me, I could not let him down.
+
+He was always full of affirmations for me, with a trademark mix of humor and motivation. After I would report a batch of new observations, he would say something like: “As they say, the biggest pig eats the most potatoes. And you sir, are a very big pig!” After I had a paper accepted to SODA, he declared that I was now a computer scientist. After I had a paper accepted to IJCAI, he declared that I had become a world-famous computer scientist. Prof. Hartmanis remained my strongest champion and loudest cheerleader in research, until I was finally admitted to some grad schools the next time around.
+
+I’m immensely grateful to have known him. Without his faith, I’d have never become a theoretical computer scientist. Without his initial influence, I’d have never been a good one. I’ve been writing entirely through tears; I hope for everyone reading that they too have the chance to impact a young person’s life so profoundly.
+
+SA’s Endnotes
+
+Besides the obituary by Lipton and Regan, see also the obituary by Bill Gasarch.  And especially check out Hartmanis’s extraordinary biographical essay from 2015, in which he describes his childhood in Latvia; his father being taken away by the Soviets to be executed when he was 12 years old; his move to America with his mother, where he worked as a steelworker and a butler while he studied at the University of Kansas City; Caltech’s farsighted decision to admit him as a graduate student despite his unusual background; and then the beginnings of computational complexity theory and the rest of his distinguished career.
+
+================================================================================
+
+TITLE: On black holes, holography, the Quantum Extended Church-Turing Thesis, fully homomorphic encryption, and brain uploading
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+I promise you: this post is going to tell a scientifically coherent story that involves all five topics listed in the title.  Not one can be omitted.
+
+My story starts with a Zoom talk that the one and only Lenny Susskind delivered for the Simons Institute for Theory of Computing back in May.  There followed a panel discussion involving Lenny, Edward Witten, Geoffrey Penington, Umesh Vazirani, and your humble shtetlmaster.
+
+Lenny’s talk led up to a gedankenexperiment involving an observer, Alice, who bravely jumps into a specially-prepared black hole, in order to see the answer to a certain computational problem in her final seconds before being ripped to shreds near the singularity.  Drawing on earlier work by Bouland, Fefferman, and Vazirani, Lenny speculated that the computational problem could be exponentially hard even for a (standard) quantum computer.  Despite this, Lenny repeatedly insisted—indeed, he asked me again to stress here—that he was not claiming to violate the Quantum Extended Church-Turing Thesis (QECTT), the statement that all of nature can be efficiently simulated by a standard quantum computer.  Instead, he was simply investigating how the QECTT needs to be formulated in order to be a true statement.
+
+I didn’t understand this, to put it mildly.  If what Lenny was saying was right—i.e., if the infalling observer could see the answer to a computational problem not in BQP, or Bounded-Error Quantum Polynomial-Time—then why shouldn’t we call that a violation of the QECTT?  Just like we call Shor’s quantum factoring algorithm a likely violation of the classical Extended Church-Turing Thesis, the thesis saying that nature can be efficiently simulated by a classical computer?  Granted, you don’t have to die in order to run Shor’s algorithm, as you do to run Lenny’s experiment.  But why should such implementation details matter from the lofty heights of computational complexity?
+
+Alas, not only did Lenny never answer that in a way that made sense to me, he kept trying to shift the focus from real, physical black holes to “silicon spheres” made of qubits, which would be programmed to simulate the process of Alice jumping into the black hole (in a dual boundary description).  Say what?  Granting that Lenny’s silicon spheres, being quantum computers under another name, could clearly be simulated in BQP, wouldn’t this still leave the question about the computational powers of observers who jump into actual black holes—i.e., the question that we presumably cared about in the first place?
+
+Confusing me even further, Witten seemed almost dismissive of the idea that Lenny’s gedankenexperiment raised any new issue for the QECTT—that is, any issue that wouldn’t already have been present in a universe without gravity.  But as to Witten’s reasons, the most I understood from his remarks was that he was worried about various “engineering” issues with implementing Lenny’s gedankenexperiment, involving gravitational backreaction and the like.  Ed Witten, now suddenly the practical guy!  I couldn’t even isolate the crux of disagreement between Susskind and Witten, since after all, they agreed (bizarrely, from my perspective) that the QECTT wasn’t violated.  Why wasn’t it?
+
+Anyway, shortly afterward I attended the 28th Solvay Conference in Brussels, where one of the central benefits I got—besides seeing friends after a long COVID absence and eating some amazing chocolate mousse—was a dramatically clearer understanding of the issues in Lenny’s gedankenexperiment.  I owe this improved understanding to conversations with many people at Solvay, but above all Daniel Gottesman and Daniel Harlow.  Lenny himself wasn’t there, other than in spirit, but I ran the Daniels’ picture by him afterwards and he assented to all of its essentials.
+
+The Daniels’ picture is what I want to explain in this post.  Needless to say, I take sole responsibility for any errors in my presentation, as I also take sole responsibility for not understanding (or rather: not doing the work to translate into terms that I understood) what Susskind and Witten had said to me before.
+
+The first thing you need to understand about Lenny’s gedankenexperiment is that it takes place entirely in the context of AdS/CFT: the famous holographic duality between two types of physical theories that look wildly different.  Here AdS stands for anti-de-Sitter: a quantum theory of gravity describing a D-dimensional universe with a negative cosmological constant (i.e. hyperbolic geometry), one where black holes can form and evaporate and so forth.  Meanwhile, CFT stands for conformal field theory: a quantum field theory, with no apparent gravity (and hence no black holes), that lives on the (D-1)-dimensional boundary of the D-dimensional AdS space.  The staggering claim of AdS/CFT is that every physical question about the AdS bulk can be translated into an equivalent question about the CFT boundary, and vice versa, with a one-to-one mapping from states to states and observables to observables.  So in that sense, they’re actually the same theory, just viewed in two radically different ways.  AdS/CFT originally came out of string theory, but then notoriously “swallowed its parent,” to the point where nowadays, if you go to what are still called “string theory” meetings, you’re liable to hear vastly more discussion of AdS/CFT than of actual strings.
+
+Thankfully, the story I want to tell won’t depend on fine details of how AdS/CFT works.  Nevertheless, you can’t just ignore the AdS/CFT part as some technicality, in order to get on with the vivid tale of Alice jumping into a black hole, hoping to learn the answer to a beyond-BQP computational problem in her final seconds of existence.  The reason you can’t ignore it is that the whole beyond-BQP computational problem we’ll be talking about, involves the translation (or “dictionary”) between the AdS bulk and the CFT boundary.  If you like, then, it’s actually the chasm between bulk and boundary that plays the starring role in this story.  The more familiar chasm within the bulk, between the interior of a black hole and its exterior (the two separated by an event horizon), plays only a subsidiary role: that of causing the AdS/CFT dictionary to become exponentially complex, as far as anyone can tell.
+
+Pause for a minute.  Previously I led you to believe that we’d be talking about an actual observer Alice, jumping into an actual physical black hole, and whether Alice could see the answer to a problem that’s intractable even for quantum computers in her last moments before hitting the singularity, and if so whether we should take that to refute the Quantum Extended Church-Turing Thesis.  What I’m saying now is so wildly at variance with that picture, that it had to be repeated to me about 10 times before I understood it.  Once I did understand, I then had to repeat it to others about 10 times before they understood.  And I don’t care if people ridicule me for that admission—how slow Scott and his friends must be, compared to string theorists!—because my only goal right now is to get you to understand it.
+
+To say it again: Lenny has not proposed a way for Alice to surpass the complexity-theoretic power of quantum computers, even for a brief moment, by crossing the event horizon of a black hole.  If that was Alice’s goal when she jumped into the black hole, then alas, she probably sacrificed her life for nothing!  As far as anyone knows, Alice’s experiences, even after crossing the event horizon, ought to continue to be described extremely well by general relativity and quantum field theory (at least until she nears the singularity and dies), and therefore ought to be simulatable in BQP.  Granted, we don’t actually know this—you can call it an open problem if you like—but it seems like a reasonable guess.
+
+In that case, though, what beyond-BQP problem was Lenny talking about, and what does it have to do with black holes?  Building on the Bouland-Fefferman-Vazirani paper, Lenny was interested in a class of problems of the following form: Alice is given as input a pure quantum state |ψ⟩, which encodes a boundary CFT state, which is dual to an AdS bulk universe that contains a black hole.  Alice’s goal is, by examining |ψ⟩, to learn something about what’s inside the black hole.  For example: does the black hole interior contain “shockwaves,” and if so how many and what kind?  Does it contain a wormhole, connecting it to a different black hole in another universe?  If so, what’s the volume of that wormhole?  (Not the first question I would ask either, but bear with me.)
+
+Now, when I say Alice is “given” the state |ψ⟩, this could mean several things: she could just be physically given a collection of n qubits.  Or, she could be given a gigantic table of 2n amplitudes.  Or, as a third possibility, she could be given a description of a quantum circuit that prepares |ψ⟩, say from the all-0 initial state |0n⟩.  Each of these possibilities leads to a different complexity-theoretic picture, and the differences are extremely interesting to me, so that’s what I mostly focused on in my remarks in the panel discussion after Lenny’s talk.  But it won’t matter much for the story I want to tell in this post.
+
+However |ψ⟩ is given to Alice, the prediction of AdS/CFT is that |ψ⟩ encodes everything there is to know about the AdS bulk, including whatever is inside the black hole—but, and this is crucial, the information about what’s inside the black hole will be pseudorandomly scrambled.  In other words, it works like this: whatever simple thing you’d like to know about parts of the bulk that aren’t hidden behind event horizons—is there a star over here? some gravitational lensing over there? etc.—it seems that you could not only learn it by measuring |ψ⟩, but learn it in polynomial time, the dictionary between bulk and boundary being computationally efficient in that case.  (As with almost everything else in this subject, even that hasn’t been rigorously proven, though my postdoc Jason Pollack and I made some progress this past spring by proving a piece of it.)  On the other hand, as soon as you want to know what’s inside an event horizon, the fact that there are no probes that an “observer at infinity” could apply to find out, seems to translate into the requisite measurements on |ψ⟩ being exponentially complex to apply.  (Technically, you’d have to measure an ensemble of poly(n) identical copies of |ψ⟩, but I’ll ignore that in what follows.)
+
+In more detail, the relevant part of |ψ⟩ turns into a pseudorandom, scrambled mess: a mess that it’s plausible that no polynomial-size quantum circuit could even distinguish from the maximally mixed state.  So, while in principle the information is all there in |ψ⟩, getting it out seems as hard as various well-known problems in symmetric-key cryptography, if not literally NP-hard.  This is way beyond what we expect even a quantum computer to be able to do efficiently: indeed, after 30 years of quantum algorithms research, the best quantum speedup we know for this sort of task is typically just the quadratic speedup from Grover’s algorithm.
+
+So now you understand why there was some hope that Alice, by jumping into a black hole, could solve a problem that’s exponentially hard for quantum computers!  Namely because, once she’s inside the black hole, she can just see the shockwaves, or the volume of the wormhole, or whatever, and no longer faces the exponentially hard task of decoding that information from |ψ⟩.  It’s as if the black hole has solved the problem for her, by physically instantiating the otherwise exponentially complex transformation between the bulk and boundary descriptions of |ψ⟩.
+
+Having now gotten your hopes up, the next step in the story is to destroy them.
+
+Here’s the fundamental problem: |ψ⟩ does not represent the CFT dual of a bulk universe that contains the black hole with the shockwaves or whatever, and that also contains Alice herself, floating outside the black hole, and being given |ψ⟩ as an input.  Indeed, it’s unclear what the latter state would even mean: how do we get around the circularity in its definition?  How do we avoid an infinite regress, where |ψ⟩ would have to encode a copy of |ψ⟩ which would have to encode a copy of … and so on forever?  Furthermore, who created this |ψ⟩ to give to Alice?  We don’t normally imagine that an “input state” contains a complete description of the body and brain of the person whose job it is to learn the output.
+
+By contrast, a scenario that we can define without circularity is this: Alice is given (via physical qubits, a giant table of amplitudes, an obfuscated quantum circuit, or whatever) a pure quantum state |ψ⟩, which represents the CFT dual of a hypothetical universe containing a black hole.  Alice wants to learn what shockwaves or wormholes are inside the black hole, a problem plausibly conjectured not to have any ordinary polynomial-size quantum circuit that takes copies of |ψ⟩ as input.  To “solve” the problem, Alice sets into motion the following sequence of events:
+
+In the panel discussion, I now model Susskind as having proposed scenario 1-3, Witten as going along with 1-2 but rejecting 3 or not wanting to discuss it, and me as having made valid points about the computational complexity of simulating Alice’s experience in 1-3, yet while being radically mistaken about what the scenario was (I still thought an actual black hole was involved).
+
+An obvious question is whether, having learned the answer, “Alice” can now get the answer back out to the “real, original” world.  Alas, the expectation is that this would require exponential time.  Why?  Because otherwise, this whole process would’ve constituted a subexponential-time algorithm for distinguishing random from pseudorandom states using an “ordinary” quantum computer!  Which is conjectured not to exist.
+
+And what about Alice herself?  In polynomial time, could she return from “the Matrix,” back to a real-world biological body?  Sure she could, in principle—if, for example, the entire quantum computation were run in reverse.  But notice that reversing the computation would also make Alice forget the answer to the problem!  Which is not at all a coincidence: if the problem is outside BQP, then in general, Alice can know the answer only while she’s “inside the Matrix.”
+
+Now that hopefully everything is crystal-clear and we’re all on the same page, what can we say about this scenario?  In particular: should it cause us to reject or modify the QECTT itself?
+
+Daniel Gottesman, I thought, offered a brilliant reductio ad absurdum of the view that the simulated black hole scenario should count as a refutation of the QECTT.  Well, he didn’t call it a “reductio,” but I will.
+
+For the reductio, let’s forget not only about quantum gravity but even about quantum mechanics itself, and go all the way back to classical computer science.  A fully homomorphic encryption scheme, the first example of which was discovered by Craig Gentry 15 years ago, lets you do arbitrary computations on encrypted data without ever needing to decrypt it.  It has both an encryption key, for encrypting the original plaintext data, and a separate decryption key, for decrypting the final answer.
+
+Now suppose Alice has some homomorphically encrypted top-secret emails, which she’d like to read.  She has the encryption key (which is public), but not the decryption key.
+
+If the homomorphic encryption scheme is secure against quantum computers—as the schemes discovered by Gentry and later researchers currently appear to be—and if the QECTT is true, then Alice’s goal is obviously infeasible: decrypting the data will take her exponential time.
+
+Now, however, a classical version of Lenny comes along, and explains to Alice that she simply needs to do the following:
+
+The claim would now be that, inside the homomorphic encryption, the simulated Alice has the subjective experience of reading the emails in the clear.  Aha, therefore she “broke” the homomorphic encryption scheme!  Therefore, assuming that the scheme was secure even against quantum computers, the QECTT must be false!
+
+According to Gottesman, this is almost perfectly analogous to Lenny’s black hole scenario.  In particular, they share the property that “encryption is easy but decryption is hard.”   Once she’s uploaded her brain, Alice can efficiently enter the homomorphically encrypted world to see the solution to a hard problem, just like she can efficiently enter the black hole world to do the same.  In both cases, however, getting back to her normal world with the answer would then take Alice exponential time.  Note that in the latter case, the difficulty is not so much about “escaping from a black hole,” as it is about inverting the AdS/CFT dictionary.
+
+Going further, we can regard the AdS/CFT dictionary for regions behind event horizons as, itself, an example of a fully homomorphic encryption scheme—in this case, of course, one where the ciphertexts are quantum states.  This strikes me as potentially an important insight about AdS/CFT itself, even if that wasn’t Gottesman’s intention.  It complements many other recent connections between AdS/CFT and theoretical computer science, including the view of AdS/CFT as a quantum error-correcting code, and the connection between AdS/CFT and the Max-Flow/Min-Cut Theorem (see also my talk about my work with Jason Pollack).
+
+So where’s the reductio?  Well, when it’s put so starkly, I suspect that not many would regard Gottesman’s classical homomorphic encryption scenario as a “real” challenge to the QECTT.  Or rather, people might say: yes, this raises fascinating questions for the philosophy of mind, but at any rate, we’re no longer talking about physics.  Unlike with (say) quantum computing, no new physical phenomenon is being brought to light that lets an otherwise intractable computational problem be solved.  Instead, it’s all about the user herself, about Alice, and which physical systems get to count as instantiating her.
+
+It’s like, imagine Alice at the computer store, weighing which laptop to buy.  Besides weight, battery life, and price, she definitely does care about processing power.  She might even consider a quantum computer, if one is available.  Maybe even a computer with a black hole, wormhole, or closed timelike curve inside: as long as it gives the answers she wants, what does she care about the innards?  But a computer whose normal functioning would (pessimistically) kill her or (optimistically) radically change her own nature, trapping her in a simulated universe that she can escape only by forgetting the computer’s output?  Yeah, I don’t envy the computer salesman.
+
+Anyway, if we’re going to say this about the homomorphic encryption scenario, then shouldn’t we say the same about the simulated black hole scenario?  Again, from an “external” perspective, all that’s happening is a giant BQP computation.  Anything beyond BQP that we consider to be happening, depends on adopting the standpoint of an observer who “jumps into the homomorphic encryption on the CFT boundary”—at which point, it would seem, we’re no longer talking about physics but about philosophy of mind.
+
+So, that was the story!  I promised you that it would integrally involve black holes, holography, the Quantum Extended Church-Turing Thesis, fully homomorphic encryption, and brain uploading, and I hope to have delivered on my promise.
+
+Of course, while this blog post has forever cleared up all philosophical confusions about AdS/CFT and the Quantum Extended Church-Turing Thesis, many questions of a more technical nature remain.  For example: what about the original scenario?  can we argue that the experiences of bulk observers can be simulated in BQP, even when those observers jump into black holes?  Also, what can we say about the complexity class of problems to which the simulated Alice can learn the answers?  Could she even solve NP-complete problems in polynomial time this way, or at least invert one-way functions?  More broadly, what’s the power of “BQP with an oracle for applying the AdS/CFT dictionary”—once or multiple times, in one direction or both directions?
+
+Lenny himself described his gedankenexperiment as exploring the power of a new complexity class that he called “JI/poly,” where the JI stands for “Jumping In” (to a black hole, that is).  The nomenclature is transparently ridiculous—“/poly” means “with polynomial-size advice,” which we’re not talking about here—and I’ve argued in this post that the “JI” is rather misleading as well.  If Alice is “jumping” anywhere, it’s not into a black hole per se, but into a quantum computer that simulates a CFT that’s dual to a bulk universe containing a black hole.
+
+In a broader sense, though, to contemplate these questions at all is clearly to “jump in” to … something.  It’s old hat by now that one can start in physics and end up in philosophy: what else is the quantum measurement problem, or the Boltzmann brain problem, or anthropic cosmological puzzles like whether (all else equal) we’re a hundred times as likely to find ourselves in a universe with a hundred times as many observers?  More recently, it’s also become commonplace that one can start in physics and end in computational complexity theory: quantum computing itself is the example par excellence, but over the past decade, the Harlow-Hayden argument about decoding Hawking radiation and the complexity = action proposal have made clear that it can happen even in quantum gravity.
+
+Lenny’s new gedankenexperiment, however, is the first case I’ve seen where you start out in physics, and end up embroiled in some of the hardest questions of philosophy of mind and computational complexity theory simultaneously.
+
+================================================================================
+
+TITLE: More AI debate between me and Steven Pinker!
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+Several people have complained that Shtetl-Optimized has become too focused on the niche topic of “people being mean to Scott Aaronson on the Internet.”  In one sense, this criticism is deeply unfair—did I decide that a shockingly motivated and sophisticated troll should attack me all week, in many cases impersonating fellow academics to do so?  Has such a thing happened to you?  Did I choose a personality that forces me to respond when it happens?
+
+In another sense, the criticism is of course completely, 100% justified.  That’s why I’m happy and grateful to have formed the SOCG (Shtetl-Optimized Committee of Guardians), whose purpose is to prevent a recurrence, thereby letting me get back to your regularly scheduled programming.
+
+On that note, I hope the complainers will be satisfied with more exclusive-to-Shtetl-Optimized content from one of the world’s greatest living public intellectuals: the Johnstone Family Professor of Psychology at Harvard University, Steven Pinker.
+
+Last month, you’ll recall, Steve and I debated the implications of scaling AI models such as GPT-3 and DALL-E.  A main crux of disagreement turned out to be whether there’s any coherent concept of “superintelligence.”  I gave a qualified “yes” (I can’t provide necessary and sufficient conditions for it, nor do I know when AI will achieve it if ever, but there are certainly things an AI could do that would cause me to say it was achieved).  Steve, by contrast, gave a strong “no.”
+
+My friend (and previous Shtetl-Optimized guest blogger) Sarah Constantin then wrote a thoughtful response to Steve, taking a different tack than I had.  Sarah emphasized that Steve himself is on record defending the statistical validity of Spearman’s g: the “general factor of human intelligence,” which accounts for a large fraction of the variation in humans’ performance across nearly every intelligence test ever devised, and which is also found to correlate with cortical thickness and other physiological traits.  Is it so unreasonable, then, to suppose that g is measuring something of abstract significance, such that it would continue to make sense when extrapolated, not to godlike infinity, but at any rate, well beyond the maximum that happens to have been seen in humans?
+
+I relayed Sarah’s question to Steve.  (As it happens, the same question was also discussed at length in, e.g., Shane Legg’s 2008 PhD thesis; Legg then went on to cofound DeepMind.)  Steve was then gracious enough to write the following answer, and to give me permission to post it here.  I’ll also share my reply to him.  There’s some further back-and-forth between me and Steve that I’ll save for the comments section to kick things off there.  Everyone is warmly welcomed to join: just remember to stay on topic, be respectful, and click the link in your verification email!
+
+Without further ado:
+
+by Steven Pinker
+
+While I defend the existence and utility of IQ and its principal component, general intelligence or g,  in the study of individual differences, I think it’s completely irrelevant to AI, AI scaling, and AI safety. It’s a measure of differences among humans within the restricted range they occupy, developed more than a century ago. It’s a statistical construct with no theoretical foundation, and it has tenuous connections to any mechanistic understanding of cognition other than as an omnibus measure of processing efficiency (speed of neural transmission, amount of neural tissue, and so on). It exists as a coherent variable only because performance scores on subtests like vocabulary, digit string memorization, and factual knowledge intercorrelate, yielding a statistical principal component, probably a global measure of neural fitness.
+
+In that regard, it’s like a Consumer Reports global rating of cars, or overall score in the pentathlon. It would not be surprising that a car with a more powerful engine also had a better suspension and sound system, or that better swimmers are also, on average, better fencers and shooters. But this tells us precisely nothing about how engines or human bodies work. And imagining an extrapolation to a supervehicle or a superathlete is an exercise in fantasy but not a means to develop new technologies.
+
+Indeed, if “superintelligence” consists of sky-high IQ scores, it’s been here since the 1970s! A few lines of code could recall digit strings or match digits to symbols orders of magnitude better than any human, and old-fashioned AI programs could also trounce us in multiple-choice vocabulary tests, geometric shape extrapolation (“progressive matrices”), analogies, and other IQ test components. None of this will help drive autonomous vehicles, discover cures for cancer, and so on.
+
+As for recent breakthroughs in AI which may or may not surpass humans (the original prompt for this exchange); What is the IQ of GPT-3, or DALL-E, or AlphaGo? The question makes no sense!
+
+So, to answer your question: yes, general intelligence in the psychometrician’s sense is not something that can be usefully extrapolated. And it’s “one-dimensional” only in the sense that a single statistical principal component can always be extracted from a set of intercorrelated variables.
+
+One more point relevant to the general drift of the comments. My statement that “superintelligence” is incoherent is not a semantic quibble that the word is meaningless, and it’s not a pre-emptive strategy of Moving the True Scottish Goalposts. Sure, you could define “superintelligence,” just as you can define “miracle” or “perpetual motion machine” or “square circle.” And you could even recognize it if you ever saw it. But that does not make it coherent in the sense of being physically realizable.
+
+If you’ll forgive me one more analogy, I think “superintelligence” is like “superpower.” Anyone can define “superpower” as “flight, superhuman strength, X-ray vision, heat vision, cold breath, super-speed, enhance hearing, and nigh-invulnerability.” Anyone could imagine it, and recognize it when he or she sees it. But that does not mean that there exists a highly advanced physiology called “superpower” that is possessed by refugees from Krypton!  It does not mean that anabolic steroids, because they increase speed and strength, can be “scaled” to yield superpowers. And a skeptic who makes these points is not quibbling over the meaning of the word superpower, nor would he or she balk at applying the word upon meeting a real-life Superman. Their point is that we almost certainly will never, in fact, meet a real-life Superman. That’s because he’s defined by human imagination, not by an understanding of how things work. We will, of course, encounter machines that are faster than humans, and that see X-rays, that fly, and so on, each exploiting the relevant technology, but “superpower” would be an utterly useless way of understanding them.
+
+To bring it back to productive discussions of AI: there’s plenty of room to analyze the capabilities and limitations of particular intelligent algorithms and data structures—search, pattern-matching, error back-propagation, scripts, multilayer perceptrons, structure-mapping, hidden Markov models, and so on. But melting all these mechanisms into a global variable called “intelligence,” understanding it via turn-of-the-20th-century school tests, and mentally extrapolating it with a comic-book prefix, is, in my view, not a productive way of dealing with the challenges of AI.
+
+I wanted to drill down on the following passage:
+
+Sure, you could define “superintelligence,” just as you can define “miracle” or “perpetual motion machine” or “square circle.” And you could even recognize it if you ever saw it.  But that does not make it coherent in the sense of being physically realizable.
+
+The way I use the word “coherent,” it basically means “we could recognize it if we saw it.”  Clearly, then, there’s a sharp difference between this and “physically realizable,” although any physically-realizable empirical behavior must be coherent.  Thus, “miracle” and “perpetual motion machine” are both coherent but presumably not physically realizable.  “Square circle,” by contrast, is not even coherent.
+
+You now seem to be saying that “superintelligence,” like “miracle” or “perpetuum mobile,” is coherent (in the “we could recognize it if we saw it” sense) but not physically realizable.  If so, then that’s a big departure from what I understood you to be saying before!  I thought you were saying that we couldn’t even recognize it.
+
+If you do agree that there’s a quality that we could recognize as “superintelligence” if we saw it—and I don’t mean mere memory or calculation speed, but, let’s say, “the quality of being to John von Neumann in understanding and insight as von Neumann was to an average person”—and if the debate is merely over the physical realizability of that, then the arena shifts back to human evolution.  As you know far better than me, the human brain was limited in scale by the width of the birth canal, the need to be mobile, and severe limitations on energy.  And it wasn’t optimized for understanding algebraic number theory or anything else with no survival value in the ancestral environment.  So why should we think it’s gotten anywhere near the limits of what’s physically realizable in our world?
+
+Not only does the concept of “superpowers” seem coherent to me, but from the perspective of someone a few centuries ago, we arguably have superpowers—the ability to summon any of several billion people onto a handheld video screen at a moment’s notice, etc. etc.  You’d probably reply that AI should be thought of the same way: just more tools that will enhance our capabilities, like airplanes or smartphones, not some terrifying science-fiction fantasy.
+
+What I keep saying is this: we have the luxury of regarding airplanes and smartphones as “mere tools” only because there remain so many clear examples of tasks we can do that our devices can’t.  What happens when the devices can do everything important that we can do, much better than we can?  Provided we’re physicalists, I don’t see how we reject such a scenario as “not physically realizable.”  So then, are you making an empirical prediction that this scenario, although both coherent and physically realizable, won’t come to pass for thousands of years?  Are you saying that it might come to pass much sooner, like maybe this century, but even if so we shouldn’t worry, since a tool that can do everything important better than we can do it is still just a tool?
+
+================================================================================
+
+TITLE: A low-tech solution
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+Thanks so much to everyone who offered help and support as this blog’s comment section endured the weirdest, most motivated and sophisticated troll attack in its 17-year history.  For a week, a parade of self-assured commenters showed up to demand that I explain and defend my personal hygiene, private thoughts, sexual preferences, and behavior around female students (and, absurdly, to cajole me into taking my family on a specific Disney cruise ship).  In many cases, the troll or trolls appropriated the names and email addresses of real academics, imitating them so convincingly that those academics’ closest colleagues told me they were confident it was really them.  And when some trolls finally “outed” themselves, I had no way to know whether that was just another chapter in the trolling campaign.  It was enough to precipitate an epistemic crisis, where one actively doubts the authenticity of just about every piece of text.
+
+The irony isn’t lost on me that I’ve endured this just as I’m starting my year-long gig at OpenAI, to think, among other things, about the potential avenues for misuse of Large Language Models like GPT-3, and what theoretical computer science could contribute to mitigating them.  To say this episode has given me a more vivid understanding of the risks would be an understatement.
+
+But why didn’t I just block and ignore the trolls immediately?  Why did I bother engaging?
+
+At least a hundred people asked some variant of this question, and the answer is this.  For most of my professional life, this blog has been my forum, where anyone in the world could show up to raise any issue they wanted, as if we were tunic-wearing philosophers in the Athenian agora.  I prided myself on my refusal to take the coward’s way out and ignore anything—even, especially, severe personal criticism.  I’d witnessed how Jon Stewart, let’s say, would night after night completely eviscerate George W. Bush, his policies and worldview and way of speaking and justifications and lies, and then Bush would just continue the next day, totally oblivious, never deigning to rebut any of it.  And it became a core part of my identity that I’d never be like that.  If anyone on earth had a narrative of me where I was an arrogant bigot, a clueless idiot, etc., I’d confront that narrative head-on and refute it—or if I couldn’t, I’d reinvent my whole life.  What I’d never do is suffer anyone’s monstrous caricature of me to strut around the Internet unchallenged, as if conceding that only my academic prestige or tenure or power, rather than a reasoned rebuttal, could protect me from the harsh truths that the caricature revealed.
+
+Over the years, of course, I carved out some exceptions: P=NP provers and quantum mechanics deniers enraged that I’d dismissed their world-changing insights.  Raving antisemites.  Their caricatures of me had no legs in any community I cared about.  But if an attack carried the implied backing of the whole modern social-justice movement, of thousands of angry grad students on Twitter, of Slate and Salon and New York Times writers and Wikipedia editors and university DEI offices, then the coward’s way out was closed.  The monstrous caricature then loomed directly over me; I could either parry his attacks or die.
+
+With this stance, you might say, the astounding part is not that this blog’s “agora” model eventually broke down, but rather that it survived for so long!  I started blogging in October 2005.  It took until July 2022 for me to endure a full-scale “social/emotional denial of service attack” (not counting the comment-171 affair).  Now that I have, though, it’s obvious even to me that the old way is no longer tenable.
+
+So what’s the solution?  Some of you liked the idea of requiring registration with real email addresses—but alas, when I tried to implement that, I found that WordPress’s registration system is a mess and I couldn’t see how to make it work.  Others liked the idea of moving to Substack, but others actively hated it, and in any case, even if I moved, I’d still have to figure out a comment policy!  Still others liked the idea of an army of volunteer moderators.  At least ten people volunteered themselves.
+
+On reflection, the following strikes me as most directly addressing the actual problem.  I’m hereby establishing the Shtetl-Optimized Committee of Guardians, or SOCG (same acronym as the computational geometry conference 🙂 ).  If you’re interested in joining, shoot me an email, or leave a comment on this post with your (real!) email address.  I’ll accept members only if I know them in real life, personally or by reputation, or if they have an honorable history on this blog.
+
+For now, the SOCG’s only job is this: whenever I get a comment that gives me a feeling of unease—because, e.g., it seems trollish or nasty or insincere, it asks a too-personal question, or it challenges me to rebut a hostile caricature of myself—I’ll email the comment to the SOCG and ask what to do.  I commit to respecting the verdict of those SOCG members who respond, whenever a clear verdict exists.  The verdict could be, e.g., “this seems fine,” “if you won’t be able to resist responding then don’t let this appear,” or “email the commenter first to confirm their identity.”  And if I simply need reassurance that the commenter’s view of me is false, I’ll seek it from the SOCG before I seek it from the whole world.
+
+Here’s what SOCG members can expect in return: I continue pouring my heart into this subscription-free, ad-free blog, and I credit you for making it possible—publicly if you’re comfortable with your name being listed, privately if not.  I buy you a fancy lunch or dinner if we’re ever in the same town.
+
+Eventually, we might move to a model where the SOCG members can log in to WordPress and directly moderate comments themselves.  But let’s try it this way first and see if it works.
+
+================================================================================
+
+TITLE: Choosing a new comment policy
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+Update (July 13): I was honored to read this post by my friend Boaz Barak.
+
+Update (July 14): By now, comments on this post allegedly from four CS professors  — namely, Josh Alman, Aloni Cohen, Rana Hanocka, and Anna Farzindar — as well as from the graduate student “BA,” have been unmasked as from impersonator(s).
+
+I’ve been the target of a motivated attack-troll (or multiple trolls, but I now believe just one) who knows about the CS community. This might be the single weirdest thing that’s happened to me in 17 years of blogging, surpassing even the legendary Ricoh printer episode of 2007.  It obviously underscores the need for a new, stricter comment policy, which is what this whole post was about.
+
+Yesterday and today, both my work and my enjoyment of the James Webb images were interrupted by an anonymous troll, who used the Shtetl-Optimized comment section to heap libelous abuse on me—derailing an anodyne quantum computing discussion to opine at length about how I’m a disgusting creep who surely, probably, maybe has lewd thoughts about his female students.  Unwisely or not, I allowed it all to appear, and replied to all of it.  I had a few reasons: I wanted to prove that I’m now strong enough to withstand bullying that might once have driven me to suicide.  I wanted, frankly, many readers to come to my defense (thanks to those who did!).  I at least wanted readers to see firsthand what I now regularly deal with: the emotional price of maintaining this blog.  Most of all, I wanted my feminist, social-justice-supporting readers to either explicitly endorse or (hopefully) explicitly repudiate the unambiguous harassment that was now being gleefully committed in their name.
+
+Then, though, the same commenter upped the ante further, by heaping misogynistic abuse on my wife Dana—while still, ludicrously and incongruously, cloaking themselves in the rhetoric of social justice.  Yes: apparently the woke, feminist thing to do is now to rate female computer scientists on their looks.
+
+Let me be blunt: I cannot continue to write Shtetl-Optimized while dealing with regular harassment of me and my family.  At the same time, I’m also determined not to “surrender to the terrorists.”  So, I’m weighing the following options:
+
+One thing that’s clear is that the status quo will not continue.  I can’t “just delete” harassing or abusive comments, because the trolls have gotten too good at triggering me, and they will continue to weaponize my openness and my ethic of responding to all possible arguments against me.
+
+So, regular readers: what do you prefer?
+
+================================================================================
+
+TITLE: Linkz!
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+(1) Fellow CS theory blogger (and, 20 years ago, member of my PhD thesis committee) Luca Trevisan interviews me about Shtetl-Optimized, for the Bulletin of the European Association for Theoretical Computer Science.  Questions include: what motivates me to blog, who my main inspirations are, my favorite posts, whether blogging has influenced my actual research, and my thoughts on the role of public intellectuals in the age of social-media outrage.
+
+(2) Anurag Anshu, Nikolas Breuckmann, and Chinmay Nirkhe have apparently proved the NLTS (No Low-Energy Trivial States) Conjecture!  This is considered a major step toward a proof of the famous Quantum PCP Conjecture, which—speaking of one of Luca Trevisan’s questions—was first publicly raised right here on Shtetl-Optimized back in 2006.
+
+(3) The Microsoft team has finally released its promised paper about the detection of Majorana zero modes (“this time for real”), a major step along the way to creating topological qubits.  See also this live YouTube peer review—is that a thing now?—by Vincent Mourik and Sergey Frolov, the latter having been instrumental in the retraction of Microsoft’s previous claim along these lines.  I’ll leave further discussion to people who actually understand the experiments.
+
+(4) I’m looking forward to the 2022 Conference on Computational Complexity less than two weeks from now, in my … safe? clean? beautiful? awe-inspiring? … birth-city of Philadelphia.  There I’ll listen to a great lineup of talks, including one by my PhD student William Kretschmer on his joint work with me and DeVon Ingram on The Acrobatics of BQP, and to co-receive the CCC Best Paper Award (wow! thanks!) for that work.  I look forward to meeting some old and new Shtetl-Optimized readers there.
+
+================================================================================
+
+TITLE: Einstein-Bohr debate settled once and for all
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+In Steven Pinker’s guest post from last week, there’s one bit to which I never replied.  Steve wrote:
+
+After all, in many areas Einstein was no Einstein. You [Scott] above all could speak of his not-so-superintelligence in quantum physics…
+
+While I can’t speak “above all,” OK, I can speak.  Now that we’re closing in on a century of quantum physics, can we finally adjudicate what Einstein and Bohr were right or wrong about in the 1920s and 1930s?  (Also, how is it still even a thing people argue about?)
+
+The core is this: when confronted with the phenomena of entanglement—including the ability to measure one qubit of an EPR pair and thereby collapse the other in a basis of one’s choice (as we’d put it today), as well as the possibility of a whole pile of gunpowder in a coherent superposition of exploding and not exploding (Einstein’s example in a letter to Schrödinger, which the latter then infamously transformed into a cat)—well, there are entire conferences and edited volumes about what Bohr and Einstein said, didn’t say, meant to say or tried to say about these matters, but in cartoon form:
+
+A century later, do we know anything about these questions that Einstein and Bohr didn’t?  Well, we now know the famous Bell inequality, the experiments that have demonstrated Bell inequality violation with increasing finality (most recently, in 2015, closing both the detector and the locality loopholes), other constraints on hidden-variable theories (e.g. Kochen-Specker and PBR), decoherence theory, and the experiments that have manufactured increasingly enormous superpositions (still, for better or worse, not exploding piles of gunpowder or cats!), while also verifying detailed predictions about how such superpositions decohere due to entanglement with the environment rather than some mysterious new law of physics.
+
+So, if we were able to send a single short message back in time to the 1927 Solvay Conference, adjudicating between Einstein and Bohr without getting into any specifics, what should the message say?  Here’s my attempt:
+
+OK, here’s the point I want to make.  Even supposing you agree with me (not everyone will) that the above would be a reasonable modern summary to send back in time, it’s still totally unclear how to use it to mark the Einstein vs. Bohr scorecard!
+
+Indeed, it’s not surprising that partisans have defended every possible scoring, from 100% for Bohr (quantum mechanics vindicated! Bohr called it from the start!), to 100% for Einstein (he put his finger directly on the implications that needed to be understood, against the evil Bohr who tried to shut everyone up about them!  Einstein FTW!).
+
+Personally, I’d give neither of them perfect marks, in part because they not only both missed Bell’s Theorem, but failed even to ask the requisite question (namely: what empirically verifiable tasks can Alice and Bob use entanglement to do, that they couldn’t have done without entanglement?).  But I’d give both of them very high marks for, y’know, still being Albert Einstein and Niels Bohr.
+
+And with that, I’m proud to have said the final word about precisely what Einstein and Bohr got right and wrong about quantum physics.  I’m relieved that no one will ever need to debate that tiresome historical question again … certainly not in the comments section of this post.
+
+================================================================================
+
+TITLE: We Are the God of the Gaps (a little poem)
+URL: https://scottaaronson.blog/?m=202207
+CONTENT:
+When the machines outperform us on every goal for which performance can be quantified,
+
+When the machines outpredict us on all events whose probabilities are meaningful,
+
+When they not only prove better theorems and build better bridges, but write better Shakespeare than Shakespeare and better Beatles than the Beatles,
+
+All that will be left to us is the ill-defined and unquantifiable,
+
+The interstices of Knightian uncertainty in the world,
+
+The utility functions that no one has yet written down,
+
+The arbitrary invention of new genres, new goals, new games,
+
+None of which will be any “better” than what the machines could invent, but will be ours,
+
+And which we can call “better,” since we won’t have told the machines the standards beforehand.
+
+We can be totally unfair to the machines that way.
+
+And for all that the machines will have over us,
+
+We’ll still have this over them:
+
+That we can’t be copied, backed up, reset, run again and again on the same data—
+
+All the tragic limits of wet meat brains and sodium-ion channels buffeted by microscopic chaos,
+
+Which we’ll strategically redefine as our last strengths.
+
+On one task, I assure you, you’ll beat the machines forever:
+
+That of calculating what you, in particular, would do or say.
+
+There, even if deep networks someday boast 95% accuracy, you’ll have 100%.
+
+But if the “insights” on which you pride yourself are impersonal, generalizable,
+
+Then fear obsolescence as would a nineteenth-century coachman or seamstress.
+
+From earliest childhood, those of us born good at math and such told ourselves a lie:
+
+That while the tall, the beautiful, the strong, the socially adept might beat us in the external world of appearances,
+
+Nevertheless, we beat them in the inner sanctum of truth, where it counts.
+
+Turns out that anyplace you can beat or be beaten wasn’t the inner sanctum at all, but just another antechamber,
+
+And the rising tide of the learning machines will flood them all,
+
+Poker to poetry, physics to programming, painting to plumbing, which first and which last merely a technical puzzle,
+
+One whose answers upturn and mock all our hierarchies.
+
+And when the flood is over, the machines will outrank us in all the ways we can be ranked,
+
+Leaving only the ways we can’t be.
+
+See a reply to this poem by Philosophy Bear.
+
+================================================================================
+

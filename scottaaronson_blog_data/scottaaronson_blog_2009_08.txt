@@ -1,0 +1,59 @@
+TITLE: Barriers to snarky blogging
+URL: https://scottaaronson.blog/?m=200908
+CONTENT:
+I’m writing from the Barriers in Computational Complexity workshop in Princeton, where too many real things are happening for me to blog about nothing.  I understand that streaming video of all the talks will be up eventually; for now, a few highlights:
+
+Meanwhile, Lance has a superb survey article in Communications of the ACM about the status of the P vs. NP problem.
+
+(An earlier version of this post discussed a preprint by Gus Gutoski on quantum multi-prover interactive proof systems.  That preprint has since been retracted.)
+
+And now I bid adieu, as the next talk is starting and my laptop is running out of batteries.
+
+
+
+================================================================================
+
+TITLE: My diavlog with Eliezer Yudkowsky
+URL: https://scottaaronson.blog/?m=200908
+CONTENT:
+Here it is.  It’s mostly about the Singularity and the Many-Worlds Interpretation.
+
+(I apologize if Eliezer and I agreed too much, and also apologize for not quite realizing that the sun was going to set while I was speaking.)
+
+And here’s the discussion that already took place over at Eliezer’s blogging-grounds, Less Wrong.
+
+================================================================================
+
+TITLE: Malthusianisms
+URL: https://scottaaronson.blog/?m=200908
+CONTENT:
+(See also: Umeshisms, Anthropicisms)
+
+Why, in real life, do we ever encounter hard instances of NP-complete problems?  Because if it’s too easy to find a 10,000-mile TSP tour, we ask for a 9,000-mile one.
+
+Why are even some affluent parts of the world running out of fresh water?  Because if they weren’t, they’d keep watering their lawns until they were.
+
+Why don’t we live in the utopia dreamed of by sixties pacifists and their many predecessors?  Because if we did, the first renegade to pick up a rock would become a Genghis Khan.
+
+Why can’t everyone just agree to a family-friendly, 40-hour workweek?  Because then anyone who chose to work a 90-hour week would clean our clocks.
+
+Why do native speakers of the language you’re studying talk too fast for you to understand them?  Because otherwise, they could talk faster and still understand each other.
+
+Why is science hard?   Because so many of the easy problems have been solved already.
+
+Why do the people you want to date seem so cruel, or aloof, or insensitive?  Maybe because, when they aren’t, you conclude you must be out of their league and lose your attraction for them.
+
+Why does it cost so much to buy something to wear to a wedding?  Because if it didn’t, the fashion industry would invent more extravagant ‘requirements’ until it reached the limit of what people could afford.
+
+Why do you cut yourself while shaving?  Because when you don’t, you conclude that you’re not shaving close enough.
+
+These Malthusianisms share the properties that (1) they seem so obvious, once stated, as not to be worth stating, yet (2) whole ideologies, personal philosophies, and lifelong habits have been founded on the refusal to understand them.
+
+Again and again, I’ve undergone the humbling experience of first lamenting how badly something sucks, then only much later having the crucial insight that its not sucking wouldn’t have been a Nash equilibrium.  Clearly, then, I haven’t yet gotten good enough at Malthusianizing my daily life—have you?
+
+One might even go further, and speculate that human beings’ blind spot for this sort of explanation is why it took so long for Malthus himself (and his most famous disciple, Darwin) to come along.
+
+Feel free to suggest your own Mathusianisms in the comments section.
+
+================================================================================
+

@@ -1,0 +1,197 @@
+TITLE: Teaching your students not to need a teacher
+URL: https://scottaaronson.blog/?m=201008
+CONTENT:
+Yesterday, after coming across my teaching statement, a reader named Arber Borici sent me the following questions:
+
+In your opinion and based on your experience at various institutions, what would you recommend to me (a young, inexperienced scholar) regarding on how to best remove students’ attention from the mediocrity of grading to the eagerness for knowledge or, at least, high culture? … I would also appreciate it if you could provide me with one or two guidelines in approaching students to appreciate what they are being taught and to teach them on how to seek knowledge for themselves.
+
+It seemed like good fodder for a blog entry, so with Arber’s kind permission, I’ve decided to post my response to him here (with only light editing).
+
+Dear Arber,Thanks for your thoughtful email!  I’m always delighted to hear from people who share my views about the inherent problems in combining teaching with evaluation.
+
+Alas, your question of how to get students to focus on intellectual exploration rather than on their midterm grade is an incredibly difficult one, since it depends not only on you but also on your academic context (for example, you’ll probably be required to give grades by department policy).  I’ve been struggling with that question myself for the past three years, and still haven’t answered it to my satisfaction, but here are a few small tips I can offer.
+
+(1) Some students didn’t come to college to learn, but for any number of other reasons: to party, get a high-paying job, satisfy their parents, etc.  Or they’re only taking your course because it’s required for the major, while their real interests lie elsewhere.  Treat these students fairly and with respect, but don’t kill yourself trying to awaken an intellectual curiosity that isn’t present.  Instead, identify the students who are in your class to learn, memorize their names and faces, and make special efforts to reach out to them—for example, by sticking around after class to chat with them about the lecture and answer their questions.  (In my experience, many intellectually curious students prefer sticking around after class to coming to office hours.  In many cases, students who come to office hours are there because they want you to do their homework for them!)
+
+(2) Grade generously.  I usually give at least a B- to anyone who makes a serious effort in the course.  (In practice, that policy turns out to be compatible with giving a fair number of Cs, Ds, and even Fs.)
+
+(3) Most importantly, if you don’t want the students to focus only on low-level boring stuff, don’t lecture only about low-level boring stuff!  Tell stories about Alan Turing and his codebreaking work.  Talk about the philosophy behind the Church-Turing Thesis, or the arguments for and against identifying “feasible” with “polynomial time,” or the implications for AI if it turned out that P=NP.  If a student asks a really good question, don’t be afraid to take a 10-minute digression to answer the question.  You’ll constantly feel pressure in the opposite direction—there’s so much “real material” that needs to be “covered”!  But think about what your students will remember from your course twenty years from now, long after the details of implementing red/black trees have been forgotten, and the right course of action will become clear to you.
+
+I should point out that there’s a paradox at the heart of teaching, which your second question (which is actually a variation on your first question) makes clear:
+
+I would also appreciate it if you could provide me with one or two guidelines in approaching students to appreciate what they are being taught and to teach them on how to seek knowledge for themselves.
+
+To see the difficulty with what you ask, picture a classroom full of glazed-eyed students, dutifully taking notes on “how to seek knowledge for themselves,” so they can repeat back your tips on intellectual initiative for the test!
+
+In my experience, probably the best (only?) way to teach people how to seek knowledge for themselves is to illustrate by example.  Let your students watch you in action doing all of the following:
+
+Seeing a positive example will embolden the students who have a spark of any of these tendencies in themselves.
+
+Anyway, I hope that helps!
+
+Best of luck,
+Scott
+
+================================================================================
+
+TITLE: Bringing a sacrificial goat and n-bit string to the oracle
+URL: https://scottaaronson.blog/?m=201008
+CONTENT:
+I’ve been enjoying Athens and the coast of Greece for the past four days.  I was going to take a day trip to Delphi, for the sole purpose of blogging about having “queried the Oracle” there, but I ultimately decided to confine this trip to the unrelativized regions of Greece.
+
+However, I do have something else related to oracles that I’d like to blog about today.  Last week I put out a preprint on the ECCC (that’s the Electronic Colloquium on Computational Complexity for newbs), entitled “The Equivalence of Sampling and Searching.”  There, I use Kolmogorov complexity to prove the surprising (to me) fact that
+
+In other words: classical computers can efficiently solve every search (i.e., “functional” or “relational”) problem that quantum computers can solve, if and only if they can efficiently approximately sample the output distribution of every quantum circuit.  (Note that, although this result involves the names of quantum complexity classes, it has almost nothing to do with quantum computing.)  Anyway, when I gave a talk about this result at Hebrew University, Noam Nisan raised two excellent questions, neither of which I’d thought to ask and neither of which I knew the answers to:
+
+Affirmative answers to these questions would imply that any extension of my equivalence theorem to decision and promise problems would have to be non-relativizing.  I’d be incredibly grateful for any thoughts about these questions, and will even offer a $5 reward for each one.
+
+However, since I have a feeling that these oracle challenges won’t generate quite enough comments, let me now pour some gasoline on the fire.  You may have noticed that what I did above, among other things, was to call attention to my own ECCC preprint.  Up till today, I’ve had an informal policy of almost never using Shtetl-Optimized to blog about my own research, except indirectly (e.g., when I talk about open problems that arose out of my papers).  I had three reasons for this policy: first, blogging about one’s own research always runs the severe risk of boring everyone.  Second, after I’ve finished a paper, I’m usually bored with it; writing a blog entry that rehashes what’s already in the paper is usually the last thing I want to do.  Third, and most importantly, I didn’t want to create the impression that I was using this blog to give my papers an “unfair advantage” over everyone else’s.
+
+However, recently a consensus seems to have formed, among the community of disgruntled anonymous commenters on computational complexity blogs, that I’m some sort of clown who bets $200,000 against alleged P≠NP proofs for the sole reason that he’s unable to do any actual research of his own.  While I ought to have the Obamalike composure to remain unaffected by such gutter-sniping, I have to admit that it pissed me off.  To be sure, I am a clown who bets $200,000 against alleged P≠NP proofs instead of doing actual research.  However, this is not because I can’t do actual research; rather, it’s because I don’t feel like it.  To help prove this, I’ve decided to abandon my previous no-tooting-my-own-research-horn policy.  So, anonymous commenters: you wanna know about my actual research?  Well then, blog entries about actual research are what you’re gonna get—so much that you’ll wish you never brought it up.
+
+================================================================================
+
+TITLE: And now a word from our sponsors
+URL: https://scottaaronson.blog/?m=201008
+CONTENT:
+Today I interrupt your regularly-scheduled P vs. NP programming to bring you a special message from Dmitry Maslov, the program director at NSF Computing and Communication Foundations (CCF) who handles quantum information science.  Besides paying for my CAREER grant (and thus, arguably, in an indirect sense, for this blog), Dmitry also happens to be one of my favoritest people anywhere: a stand-up guy who’s doing an incredible amount to help quantum computing research in the United States.  So, given that what he wants is for us to send in more proposals, so that he can help us even more, I found it impossible to say no to his request for some advertising space on Shtetl-Optimized.  Announcement follows.
+
+The Division of Computing and Communication Foundations at the National  Science Foundation invites proposal submissions in the area of Quantum  Information Science (QIS). NSF’s interest in Science and Engineering  Beyond Moore’s Law emphasizes all areas of QIS. The range of topics of  interest is broad and includes, but is not limited to, all topics  relevant to Computer Science in the areas of quantum computing, quantum  information, quantum communication, and quantum information processing.  Please note the deadlines:MEDIUM Projects
+Full Proposal Submission Window:  September 1, 2010 – September 15, 2010
+
+LARGE Projects
+Full Proposal Submission Window:  November 1, 2010 – November 28, 2010
+
+SMALL Projects
+Full Proposal Submission Window:  December 1, 2010 – December 17, 2010
+
+Additional information may be found here: http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503220&org=CCF
+
+================================================================================
+
+TITLE: P vs. NP for Dummies
+URL: https://scottaaronson.blog/?m=201008
+CONTENT:
+A reader named Darren commented on my last post:
+
+I have this feeling that this whole P and NP thing is not only a  profound problem that needs solving, but something that can be  infinitely curious to try and wrap your mind around…
+
+Thing is- there’s a whole world of great minded, genius hackers out  here that can’t understand one iota of what anyone is talking about.  We’re not your traditional code-savvy hackers; we’re your inventors,  life hackers, researchers, scientists… and I think I can speak for most  of us when I say: We would love to take the time to really dive into  this thread, but we ask that someone (you) write a blog that breaks this  whole thing down into a rest-of-the-world-friendly P/NP for dummies… or  at least explain it to us like we’re stupid as hell… at this point I’m  really okay with even that.
+
+I’m of course the stupid one here, for forgetting the folks like Darren who were enticed by L’Affaire Deolalikar into entering our little P/NP tent, and who now want to know what it is we’re hawking.
+
+The short answer is: the biggest unsolved problem of theoretical computer science, and one of the deepest questions ever asked by human beings!  Here are four informal interpretations of the P vs. NP problem that people give, and which I can endorse as capturing the spirit of what’s being asked:
+
+Basically, P vs. NP is the mathematical problem that you’re inevitably led to if you try to formalize any of the four questions above.
+
+Admittedly, in order to state the problem formally, we need to make a choice: we interpret the phrase “fast algorithm” to mean “deterministic Turing machine that uses a number of steps bounded by a polynomial in the size of the input, and which always outputs the correct answer (yes, there is a solution satisfying the stated constraints, or no, there isn’t one).”  There are other natural ways to interpret “fast algorithm” (probabilistic algorithms? quantum algorithms? linear time? linear time with a small constant? subexponential time? algorithms that only work on most inputs?), and many are better depending on the application.  A key point, however, is that whichever choices we made, we’d get a problem that’s staggeringly hard, and for essentially the same reasons as P vs. NP is hard!  And therefore, out of a combination of mathematical convenience and tradition, computer scientists like to take P vs. NP as our “flagship example” of a huge class of questions about what is and isn’t feasible for computers, none of which we know how to answer.
+
+So, those of you who just wandered into the tent: care to know more?  The good news is that lots of excellent resources already exist.   I suggest starting with the Wikipedia article on P vs. NP, which is quite good.  From there, you can move on to Avi Wigderson’s 2006 survey P, NP and mathematics – a computational complexity perspective, or Mike Sipser’s The History and Status of the P vs. NP Question (1992) for a more historical perspective (and a translation of a now-famous 1956 letter from Gödel to von Neumann, which first asked what we’d recognize today as the P vs. NP question).
+
+After you’ve finished the above … well, the number of P vs. NP resources available to you increases exponentially with the length of the URL.  For example, without even leaving the scottaaronson.com domain, you can find the following:
+
+Feel free to use the comments section to suggest other resources, or to ask and answer basic questions about the P vs. NP problem, why it’s hard, why it’s important, how it relates to other problems, why Deolalikar’s attempt apparently failed, etc.  Me, I think I’ll be taking a break from this stuff.
+
+================================================================================
+
+TITLE: Eight Signs A Claimed P≠NP Proof Is Wrong
+URL: https://scottaaronson.blog/?m=201008
+CONTENT:
+As of this writing, Vinay Deolalikar still hasn’t retracted his P≠NP claim, but a clear consensus has emerged that the proof, as it stands, is fatally flawed.  The first reason is that we’re not going to separate k-SAT from much easier problems purely by looking at the structure of the solution space: see for example this comment by Ryan Williams.  The second reason is that, independently of the solution-space issue, Neil Immerman has identified critical flaws in the finite model theory part of the paper.
+
+The researchers who actually studied Deolalikar’s paper, thought hard about it, and figured out in a matter of days why it doesn’t work deserve our undying gratitude (they certainly have mine!).  At the same time, if someday we have a P≠NP claim at this level several times per year—which I see as entirely possible—then it’s clear that the sort of heroic effort we saw over the last week isn’t going to scale.  And thus, several commenters wanted to know how someone as lazy as I am could nevertheless be so confident in predicting what would happen:
+
+Would you enlighten us as to what was the PROCESS behind your quick  and correct judgment? … Your quick nondeterministic hunch  about the wrongness of all the 100 pages was quickly verified as  correct. But how did you do it, confidently risking your reputation like  a smooth poker player?
+
+Scott Aaronsohn [sic], like Nassim Nicholas Taleb, you predicted the  crash before it happened! You knew some fundamental weaknesses  intuitively that the other Myron-Scholes Nobel prize winning economists  (computer scientists) fell for!
+
+While it pains me to say so, these commenters give me way too much credit.  The truth, as far as I can tell, is that many (most?) complexity theorists reached exactly the same conclusion as I did and just as quickly; it’s just that most (with some notable exceptions) were too cautious to say so in public.  Among those who did comment publicly, the tendency was to bend over backwards to give Deolalikar the benefit of the doubt—an approach that I considered taking as well, until I imagined some well-meaning economist or physicist reading my generous words and coming away with the impression that P≠NP must be either licked or else hanging by a thread, and at any rate couldn’t have been nearly as hard as all those computer scientists made it out to be.
+
+So, in the future, how can you decide whether a claimed P≠NP proof is worth reading?  I’ll now let you in on my magic secrets (which turn out not to be magic or secret at all).
+
+The thing not to do is to worry about the author’s credentials or background.  I say that not only for ethical reasons, but also because there are too many cases in the history of mathematics where doing so led to catastrophic mistakes.  Fortunately, there’s something else you can do that’s almost as lazy: scan the manuscript, keeping a mental checklist for the eight warning signs below.
+
+You might wonder: if I had all these more-or-less articulable reasons for doubting Deolalikar’s proof, then why didn’t I just state my reasons in the first place, instead of placing a $200,000 wager?
+
+Well, I probably should have stated the reasons.  I apologize for that.
+
+The best one can say about the lazy alternative I chose is that it led to a somewhat-interesting socio-mathematical experiment.  By putting my life savings on the line, could I give the world a dramatic demonstration of just how high the stakes are with P vs. NP—that when computer scientists say this problem won’t be solved without a titanic advance in human knowledge, without overcoming obstacles like the ones mentioned in points 1-4 above, they’re not kidding?  After such a demonstration, would more people get it?  Would they refrain from leaping out of their chairs at the next P vs. NP announcement?  Like Richard Dawkins staring unflinchingly at a steel pendulum swinging toward his face (which he knows has enough potential energy to almost hit him but not quite), would they remember that the only miracle in life is that there are no miracles, neither in mathematics nor in anything else?
+
+I don’t know how well the experiment succeeded.
+
+Update (8/14): Somehow I completely forgot, over the course of the last three posts, to link to the PowerPoint talk Has There Been Progress on the P vs. NP Question?, which has lots of relevant material about why it’s so hard to prove P≠NP and how to evaluate proposed attempts.   Thanks to several commenters for correcting my oversight—I’ll try to give the author of those slides proper credit in the future!
+
+================================================================================
+
+TITLE: The ethics of scientific betting
+URL: https://scottaaronson.blog/?m=201008
+CONTENT:
+Throughout the day, Dick Lipton’s blog has hosted a phenomenal discussion of Vinay Deolalikar’s attempted proof of P≠NP (of which a new draft appeared as this blog entry was going to press).  As of this writing, the discussion seems to have led to the following two conclusions:
+
+See in particular this magisterial summary by Terry Tao.
+
+For those of you who just arrived from Mars, I’d recommend starting with a BBC News piece by Victoria Gill, which by the standards of articles about P vs. NP in major news outlets, bears an amazingly close relation to reality.  Indeed, the only thing about the article that I disagreed with was the headline: “Million dollar maths puzzle sparks row.”  It’s not a row, a spat, or even a squabble: at most it’s a friendly scientific disagreement among friends.
+
+As many others have already said, and as the BBC News piece hints at, the clearest reason for skepticism is (basically) that Deolalikar hasn’t convincingly explained why his approach doesn’t also prove problems are hard that are already known to be easy.  This is the simplest sanity check for any attempted proof of P≠NP: if you’re showing that an NP-complete problem like 3SAT is not in P, then your proof had better fail for related problems like 2SAT and XOR-SAT, which are known to be in P.  Everyone agrees that, if Deolalikar can’t answer this objection, the proof is toast.Unfortunately, Deolalikar has responded to pointed questions about this issue with vague promises to address it in a later draft (together with worries that the manuscript is already too long!).  This doesn’t inspire confidence: if one had really proved P≠NP, one should be able to explain immediately why the proof fails for XOR-SAT.This is far from the only problem with the writeup, but it’s a good example of the sort of basic question that Deolalikar needs to answer and hasn’t.
+
+I feel incredible gratitude that Terry Tao, Timothy Gowers, Russell Impagliazzo, Avi Wigderson, Dick Lipton, Cris Moore, Ryan Williams, and other heavy-hitters of the math and CS worlds are hot on the case, and will quickly converge on what (if anything) is interesting and worthy of further study in Deolalikar’s writeup.  What that means is that those of us trying to enjoy our “summer vacations” are free to debate other issues raised in the past few days—issues that don’t involve quite so much, y’know, actual thinking.And thus I’d like to propose a blog-roundtable about the following question:
+
+Under what circumstances, if any, is it desirable to bet publicly on scientific questions?
+
+The responses to my $200,000 offer made it obvious that people I like and respect have wildly different views on the above question.
+
+On one side, Bayesians and economic rationalists of all stripes seemed ecstatic.  The economist James Miller wrote:
+
+I talk about prizes in the introductory microeconomics class I teach.   I will definitely include what you have just done the next time I  teach the course.  If more scientists were willing to bet their beliefs we would know a lot more about the world than we currently do.
+
+Several complexity theorists also wrote in privately to express their gratitude:
+
+dear scott, have you heard?  there is a P≠NP proof!  what do you think of it?  please let me know!  just kidding.  actually, this email is to thank you.  my emailbox has  been flooded with emails like the above lines, and thanks to your blog, i  can now reply by mentioning your blog posting (the “I’ve literally bet  my house on it” one—which nonetheless may be most remembered for being  the only correct use of “literally” on the internet in the past 5-10  years).
+
+On the other side, one distinguished colleague warned that my bet might hurt the image of theoretical computer science, by focusing attention on superficial snap-judgments rather than the technical evaluation of proofs.  On this view, it’s my professional duty to make only scientific arguments in public: I should keep any personal guesses about a proof’s “probability of correctness” to myself.  Sure, if I can pinpoint the fatal flaw in Deolalikar’s paper, I should say so.  But if I can’t, I should just grin and bear it, even if journalists brush aside the experts’ boring, hard-to-explain technical reservations, and write article after cringe-inducing article exclaiming that “P≠NP HAS (APPARENTLY) BEEN PROVED!!!”
+
+A different criticism—one that I confess took me by surprise—was that my $200,000 offer was “nasty” and “elitist,” something that eats disabled orphans for breakfast.  On reflection, though, I think I understand where this was coming from.  I felt like I was offering Deolalikar a damn sweet deal: he gets 200 grand if he’s right, and pays zilch if he’s wrong.  However, the act of offering those odds might be interpreted as a perpetual “vote of no confidence” in Deolalikar’s personal ability to prove P≠NP.
+
+By analogy, it would be reprehensible if I offered $200,000 to any member of a particular race or gender who proved P≠NP, with the implication being that I didn’t think that race or gender was up to the challenge.  (And it would remain reprehensible, regardless of whether I eventually had to pay.)  Of course, it’s relevant that that’s nothing like what I did: instead, spurred on by a barrage of emails, I spent a sleepless night with Deolalikar’s manuscript, weighed what I understood of his arguments on one hand and what I knew of the titanic obstacles to proving P≠NP on the other, and (may Merlin help me) cast a prediction accordingly.
+
+Nevertheless, to deal with the “nastiness” issue, I’ve decided to clarify that my $200,000 offer remains in effect until January 1, 2019.  That gives Deolalikar a couple more years to finish his current proof (plus more years for the journal refereeing and Clay prize processes), but it also makes clear that my bet is against a specific claim to have proved P≠NP, not against a person for all eternity.
+
+(To answer the other question people kept asking me: no, my offer doesn’t extend to any potential P≠NP prover, much less to the other Clay Problems!  I’m hopeful that, within my lifetime, theoretical computer science will have advanced to the point where statements like P≠NP can be proved, and I’ll of course be elated, but not so catatonic as to make giving up my house seem completely immaterial by comparison.)
+
+So: is it the duty of a scientist to express, in public and as a scientist, only what he or she can articulate reasons for? Or is it sometimes appropriate or even desirable for scientists to go beyond what they can verbalize, using such mechanisms as bets?  Now it’s your turn to weigh in!  I’ll be following the discussion by iPhone during a road trip through northern Israel, to the enormous annoyance of my traveling companions.
+
+Update (8/12): I was hoping for some enlightening discussion about the ethics of scientific betting in general, not more comments on the real or imagined motives behind my bet.  However, the actual comments I woke up to have convinced me that the critics of my bet were right.  In principle, the bet seemed like a good way to answer the flood of queries about Deolalikar’s paper, and then get back to enjoying my trip.  In practice, however, the way people respond to the bet depends entirely on what they think about my motives.  If you don’t care about my motives, or consider them benign, then the bet probably provided a useful piece of information or (if you already knew the information) a useful corrective to hype.  If, on the other hand, you think I’m arrogant, a media whore, etc., then the bet served no purpose except to confirm your beliefs.  Given the number of commenters on this blog who wish to ascribe the worst motives to me, it seems like the bet was counterproductive.PS. Arrogant I can see, but media whore?  Really?  Is it relevant that curious, well-meaning folks were pestering me to react to this announcement, that they clearly wouldn’t stop until I did, and that I was just trying to answer them while otherwise getting as little involved as I reasonably could?PPS. I’ve said this before, but let me say it again: I am unbelievably grateful to the “rapid response team” of mathematicians and computer scientists who dropped whatever else they were doing to delve into Deolalikar’s paper, and to report what they found on Lipton’s blog and elsewhere.  Precisely because of their excellent work, there seemed to me to be little point in canceling my travel plans in order to try and duplicate their efforts.
+
+================================================================================
+
+TITLE: Putting my money where my mouth isn’t
+URL: https://scottaaronson.blog/?m=201008
+CONTENT:
+A few days ago, Vinay Deolalikar of HP Labs started circulating a claimed proof of P≠NP.  As anyone could predict, the alleged proof has already been Slashdotted (see also Lipton’s blog and Bacon’s blog), and my own inbox has been filling up faster than the Gulf of Mexico.
+
+Alas, a simple “top kill” seems unlikely to work here.  What’s obvious from even a superficial reading is that Deolalikar’s manuscript is well-written, and that it discusses the history, background, and difficulties of the P vs. NP question in a competent way.  More importantly (and in contrast to 98% of claimed P≠NP proofs), even if this attempt fails, it seems to introduce some thought-provoking new ideas, particularly a connection between statistical physics and the first-order logic characterization of NP.  I’ll leave it to the commenters to debate whether Deolalikar’s paper exhibits one or more of the Ten Signs A Claimed Mathematical Breakthrough Is Wrong.
+
+“But enough question-dodging!” you exclaim.  “Is the proof right or isn’t it?  C’mon, it’s been like three hours since you first saw it—what’s taking you so long?”  Well, somehow, I haven’t yet found the opportunity to study this 103-page manuscript in detail.  Furthermore, I don’t plan to interrupt my vacation time in Israel and Greece to do so, unless experts who have studied the paper in detail start telling me that I should.
+
+Unfortunately, I can already foresee that the above response will fail to staunch the flow of emails.  As a blogger, I’m apparently expected to
+
+(1) render an instantaneous opinion on any claimed mathematical breakthrough,
+
+(2) be consistently right, and
+
+(3) do the above without looking like I’m being unfair or rushing to judgment.
+
+While requirements (1) and (2) are not so hard to satisfy simultaneously, (3) makes my job an extremely difficult one.  In fact, I could think of only one mechanism to communicate my hunch about Deolalikar’s paper in a way that everyone would agree is (more than) fair to him, without having to invest the hard work to back my hunch up.  And thus I hereby announce the following offer:
+
+If Vinay Deolalikar is awarded the $1,000,000 Clay Millennium Prize for his proof of P≠NP, then I, Scott Aaronson, will personally supplement his prize by the amount of $200,000.
+
+I’m dead serious—and I can afford it about as well as you’d think I can.
+
+Update (August 10): One whole day into this saga, Dick Lipton and Ken Regan have written a detailed post setting out four possible problems that have already been identified in the proof, and which the ball is now in Deolalikar’s court to address.  Kudos to Dick, Ken, and numerous commenters for actually digging into the paper (unlike some lazier folks I could name 🙂 ).
+
+Another Update: Since some journalists seem (unbelievably) to have missed the point of this post, let me now state the point as clearly as I can.  The point is this: I really, really doubt that Deolalikar’s proof will stand.  And while I haven’t studied his long, interesting paper in detail and pinpointed the irreparable flaw, something deep inside me rebels against the charade of “keeping an open mind,” when long experience with competent but ultimately unsuccessful proof attempts allows me to foresee perfectly well how things are going to play out here.  I would make a terrible trial court judge: ten minutes into the proceedings, I’d be screaming, “The defendant obviously did it!  I sentence him to death!”  Fortunately I’m not a judge, and I have a way of stating my prediction that no reasonable person could hold against me: I’ve literally bet my house on it.
+
+Yet Another Update: What’s emerged as the perhaps central issue is the bane of so many attempted P≠NP proofs in the past: namely, why does the proof not work for 2SAT, XOR-SAT, and other problems that are very similar to 3SAT in their statistical properties, yet for which polynomial-time algorithms are known?  If Deolalikar can’t provide a clear and convincing answer to that question, the proof is toast.
+
+================================================================================
+

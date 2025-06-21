@@ -1,0 +1,156 @@
+TITLE: Two links
+URL: https://scottaaronson.blog/?m=200812
+CONTENT:
+1. The CRA’s Computing Community Consortium, chaired by national treasure Ed Lasowska of the University of Washington, recently put up a website with fifteen brief essays about “Computing Research Initiatives for the 21st Century.”  These essays will apparently be reviewed by the science policy staff at the Obama transition office.  Dave Bacon and I wrote the essay on quantum computing—or rather, Dave wrote it with his inimitable enthusiasm, and then I tried in vain to moderate it slightly.  (When Dave told me that President-elect Obama needed my help with quantum computing policy, what was I going to say?  “Sorry, I’m doing my laundry this weekend”?)
+
+2. Lee Gomes of Forbes magazine wrote a fun article about the Worldview Manager project that I blogged about a while ago.  (For some reason, Lee wasn’t deterred by my pointing out to him that the project hasn’t even started yet.)
+
+
+
+================================================================================
+
+TITLE: What can first-order logic do for your self-esteem?
+URL: https://scottaaronson.blog/?m=200812
+CONTENT:
+Whereas nerds stand to benefit, even more than normal people, from becoming more assertive, outgoing, optimistic, obamalike in temperament, and all those other good things,
+
+Whereas the fundamental problem with nerds is that they’re constantly overthinking everything,
+
+Whereas this means nerds are regularly beaten in life by people who think less than they do,
+
+Whereas it also means that nerds can’t read self-help books without coming up with dozens of (generally sound) reasons why everything they’re reading is a load of crap,
+
+Whereas there’s therefore a large unmet need for self-esteem-boosting, personality-improving materials that would somehow fly under nerds’ radar, disarming the rational skeptical parts of their brains,
+
+This holiday season, as my present to all my nerd readers, I’ve decided to start an occasional series entitled Nerd Self-Help.
+
+Today’s installment: What should you do when you find yourself asking whether you have any “right to exist”?
+
+Pondering the problem this morning, I hit upon a solution: Ask yourself whether the integer 8 has any right to exist.
+
+In first-order logic, existence is not even a property that can be predicated of objects.  Given a universe of objects, you can ask about properties of those objects: for example, is there a perfect cube which is one less than a perfect square?  But it’s simply assumed that when you use a phrase like “is there,” you’re quantifying over everything that exists.  (As many of you know, this was the basic insight behind Kant’s refutation of Anselm’s ontological proof of the existence of God: the notion of “a being that wouldn’t be perfect without the added perfection of existence,” said Kant, is gobbledygook.)
+
+Similarly, I claim that if you were to formulate a theory of human rights in first-order logic in any “natural” way, then whether you have a right to exist is not even a question that would arise within that theory.  Such a theory might include your right to not be murdered, to get a fair trial, to engage in consensual sexual activities, to own property, etc., but not your “right to exist”: that “right,” to the extent it even made sense, would simply be presupposed by your being part of the universe of persons that the theory of rights was quantifying over.  In other words, the sequence of words “do I have the right to exist?” seems to me to dissolve on analysis, an ill-formed non-question.
+
+Now, I don’t doubt that there are plenty of logical, metaphysical, and legal objections that might be raised against the above argument.  But here’s the key: don’t think about it too much!  Just trust that there’s a rational-sounding argument for why you shouldn’t doubt your right to exist, and be happy.
+
+Merry Christmas, everyone!
+
+================================================================================
+
+TITLE: How long could a black hole remain in the center of the earth?
+URL: https://scottaaronson.blog/?m=200812
+CONTENT:
+The above question came up in conversation with Michael Vassar and some other nerds in New York City yesterday (before I went with relatives to see Gimpel Tam, an extraordinarily dark and depressing musical performed entirely in Yiddish).  Look, I know a massive black hole would swallow the earth extremely quickly, and I also know that a microscopic black hole would quickly evaporate as Hawking radiation.  So suppose we chose one of intermediate size so as to maximize the earth’s survival time—how long a time could we achieve?  (Does the answer depend on the viscosity of the magma or whatever else is in the earth’s core?)  Sure, I could try to calculate an answer myself, but why bother when so many physicists read this blog?  Pencils out!
+
+================================================================================
+
+TITLE: Four announcements
+URL: https://scottaaronson.blog/?m=200812
+CONTENT:
+
+
+================================================================================
+
+TITLE: Time: Different from space
+URL: https://scottaaronson.blog/?m=200812
+CONTENT:
+Over at Cosmic Variance, I learned that FQXi (the organization that paid for me to go to Iceland) sponsored an essay contest on “The Nature of Time”, and the submission deadline was last week.  Because of deep and fundamental properties of time (at least as perceived by human observers), this means that I will not be able to enter the contest.  However, by exploiting the timeless nature of the blogosphere, I can now tell you what I would have written about if I had entered.(Warning: I can’t write this post without actually explaining some standard CS and physics in a semi-coherent fashion.  I promise to return soon to your regularly-scheduled programming of inside jokes and unexplained references.)
+
+I’ve often heard it said—including by physicists who presumably know better—that “time is just a fourth dimension,” that it’s no different from the usual three dimensions of space, and indeed that this is a central fact that Einstein proved (or exploited? or clarified?) with relativity.  Usually, this assertion comes packaged with the distinct but related assertion that the “passage of time” has been revealed as a psychological illusion: for if it makes no sense to talk about the “flow” of x, y, or z, why talk about the flow of t?  Why not just look down (if that’s the right word) on the entire universe as a fixed 4-dimensional crystalline structure?
+
+In this post, I’ll try to tell you why not.  My starting point is that, even if we leave out all the woolly metaphysics about our subjective experience of time, and look strictly at the formalism of special and general relativity, we still find that time behaves extremely differently from space.  In special relativity, the invariant distance between two points p and q—meaning the real physical distance, the distance measure that doesn’t depend on which coordinate system we happen to be using—is called the interval.  If the point p has coordinates (x,y,z,t) (in any observer’s coordinate system), and the point q has coordinates (x’,y’,z’,t’), then the interval between p and q equals
+
+(x-x’)2+(y-y’)2+(z-z’)2-(t-t’)2
+
+where as usual, 1 second of time equals 3×108 meters of space.  (Indeed, it’s possible to derive special relativity by starting with this fact as an axiom.)
+
+Now, notice the minus sign in front of (t-t’)2?  That minus sign is physics’ way of telling us that time is different from space—or in Sesame Street terms, “one of these four dimensions is not like the others.”  It’s true that special relativity lets you mix together the x,y,z,t coordinates in a way not possible in Newtonian physics, and that this mixing allows for the famous time dilation effect, whereby someone traveling close to the speed of light relative to you is perceived by you as almost frozen in time.  But no matter how you choose the t coordinate, there’s still going to be a t coordinate, which will stubbornly behave differently from the other three spacetime coordinates.  It’s similar to how my “up” points in nearly the opposite direction from an Australian’s “up”, and yet we both have an “up” that we’d never confuse with the two spatial directions perpendicular to it.
+
+(By contrast, the two directions perpendicular to “up” can and do get confused with each other, and indeed it’s not even obvious which directions we’re talking about: north and west? forward and right?  If you were floating in interstellar space, you’d have three perpendicular directions to choose arbitrarily, and only the choice of the fourth time direction would be an “obvious” one for you.)
+
+In general relativity, spacetime is a curved manifold, and thus the interval gets replaced by an integral over a worldline.  But the local neighborhood around each point still looks like the (3+1)-dimensional spacetime of special relativity, and therefore has a time dimension which behaves differently from the three space dimensions.  Mathematically, this corresponds to the fact that the metric at each point has (-1,+1,+1,+1) signature—in other words, it’s a 4×4 matrix with 3 positive eigenvalues and 1 negative eigenvalue.  If space and time were interchangeable, then all four eigenvalues would have the same sign.
+
+But how does that minus sign actually do the work of making time behave differently from space?  Well, because of the minus sign, the interval between two points can be either positive or negative (unlike Euclidean distance, which is always nonnegative).  If the interval between two points p and q is positive, then p and q are spacelike separated, meaning that there’s no way for a signal emitted at p to reach q or vice versa.  If the interval is negative, then p and q are timelike separated, meaning that either a signal from p can reach q, or a signal from q can reach p.  If the interval is zero, then p and q are lightlike separated, meaning a signal can get from one point to the other, but only by traveling at the speed of light.
+
+In other words, that minus sign is what ensures spacetime has a causal structure: two events can stand to each other in the relations “before,” “after,” or “neither before nor after” (what in pre-relativistic terms would be called “simultaneous”).  We know from general relativity that the causal structure is a complicated dynamical object, itself subject to the laws of physics: it can bend and sag in the presence of matter, and even contract to a point at black hole singularities.  But the causal structure still exists—and because of it, one dimension simply cannot be treated on the same footing as the other three.
+
+Put another way, the minus sign in front of the t coordinate reflects what a sufficiently-articulate child might tell you is the main difference between space and time: you can go backward in space, but you can’t go backward in time.  Or: you can revisit the city of your birth, but you can’t (literally) revisit the decade of your birth.  Or: the Parthenon could be used later to store gunpowder, and the Tower of London can be used today as a tourist attraction, but the years 1700-1750 can’t be similarly repurposed for a new application: they’re over.
+
+Notice that we’re now treating space and time pragmatically, as resources—asking what they’re good for, and whether a given amount of one is more useful than a given amount of the other.  In other words, we’re now talking about time and space like theoretical computer scientists.  If the difference between time and space shows up in physics through the (-1,+1,+1,+1) signature, the difference shows up in computer science through the famous
+
+P ≠ PSPACE
+
+conjecture.  Here P is the class of problems that are solvable by a conventional computer using a “reasonable” amount of time, meaning, a number of steps that increases at most polynomially with the problem size.  PSPACE is the class of problems solvable by a conventional computer using a “reasonable” amount of space, meaning a number of memory bits that increases at most polynomially with the problem size.  It’s evident that P ⊆ PSPACE—in other words, any problem solvable in polynomial time is also solvable in polynomial space.  For it takes at least one time step to access a given memory location—so in polynomial time, you can’t exploit more than polynomial space anyway. It’s also clear that PSPACE ⊆ EXP—that is, any problem solvable in polynomial space is also solvable in exponential time.  The reason is that a computer with K bits of memory can only be 2K different configurations before the same configuration recurs, in which case the machine will loop forever.  But computer scientists conjecture that PSPACE ⊄ P—that is, polynomial space is more powerful than polynomial time—and have been trying to prove it for about 40 years.
+
+(You might wonder how P vs. PSPACE relates to the even better-known P vs. NP problem.  NP, which consists of all problems for which a solution can be verified in polynomial time, sits somewhere between P and PSPACE.  So if P≠NP, then certainly P≠PSPACE as well.  The converse is not known—but a proof of P≠PSPACE would certainly be seen as a giant step toward proving P≠NP.)
+
+So from my perspective, it’s not surprising that time and space are treated differently in relativity.  Whatever else the laws of physics do, presumably they have to differentiate time from space somehow—since otherwise, how could polynomial time be weaker than polynomial space?
+
+But you might wonder: is reusability really the key property of space that isn’t shared by time—or is it merely one of several differences, or a byproduct of some other, more fundamental difference?  Can we adduce evidence for the computer scientist’s view of the space/time distinction—the view that sees reusability as central?  What could such evidence even consist of?  Isn’t it all just a question of definition at best, or metaphysics at worst?
+
+On the contrary, I’ll argue that the computer scientist’s view of the space/time distinction actually leads to something like a prediction, and that this prediction can be checked, not by experiment but mathematically.  If reusability really is the key difference, then if we change the laws of physics so as to make time reusable—keeping everything else the same insofar as we can—polynomial time ought to collapse with polynomial space.  In other words, the set of computational problems that are efficiently solvable ought to become PSPACE.  By contrast, if reusability is not the key difference, then changing the laws of physics in this way might well give some complexity class other than PSPACE.
+
+But what do we even mean by changing the laws of physics so as to “make time reusable”?  The first answer that suggests itself is simply to define a “time-traveling Turing machine,” which can move not only left and right on its work tape, but also backwards and forwards in time.  If we do this, then we’ve made time into another space dimension by definition, so it’s not at all surprising if we end up being able to solve exactly the PSPACE problems.
+
+But wait: if time is reusable, then “when” does it get reused?  Should we think of some “secondary” time parameter that inexorably marches forward, even as the Turing machine scuttles back and forth in the “original” time?  But if so, then why can’t the Turing machine also go backwards in the secondary time?  Then we could introduce a tertiary time parameter to count out the Turing machine’s movements in the secondary time, and so on forever.
+
+But this is stupid.  What the endless proliferation of times is telling us is that we haven’t really made time reusable.  Instead, we’ve simply redefined the time dimension to be yet another space dimension, and then snuck in a new time dimension that behaves in the same boring, conventional way as the old time dimension.  We then perform the sleight-of-hand of letting an exponential amount of the secondary time elapse, even as we restrict the “original” time to be polynomially bounded.  The trivial, uninformative result is then that we can solve PSPACE problems in “polynomial time.”
+
+So is there a better way to treat time as a reusable resource?  I believe that there is.  We can have a parameter that behaves like time in that it “never changes direction”, but behaves unlike time in that it loops around in a cycle.  In other words, we can have a closed timelike curve, or CTC.  CTCs give us a dimension that (1) is reusable, but (2) is also recognizably “time” rather than “space.”
+
+Of course, no sooner do we define CTCs than we confront the well-known problem of dead grandfathers.  How can we ensure that the events around the CTC are causally consistent, that they don’t result in contradictions?  For my money, the best answer to this question was provided by David Deutsch, in his paper “Quantum Mechanics near Closed Time-like Lines” (unfortunately not online).  Deutsch observed that, if we allow the state of the universe to be probabilistic or quantum, then we can always tell a consistent story about the events inside a CTC.  So for example, the resolution of the grandfather paradox is simply that you’re born with 1/2 probability, and if you’re born you go back in time and kill your grandfather, therefore you’re born with 1/2 probability, etc.  Everything’s consistent; there’s no paradox!
+
+More generally, any stochastic matrix S has at least one stationary distribution—that is, a distribution D such that S(D)=D.  Likewise, any quantum-mechanical operation Q has at least one stationary state—that is, a mixed state ρ such that Q(ρ)=ρ.  So we can consider a model of closed timelike curve computation where we (the users) specify a polynomial-time operation, and then Nature has to find some probabilistic or quantum state ρ which is left invariant by that operation.  (There might be more than one such ρ—in which case, being pessimists, we can stipulate that Nature chooses among them adversarially.)  We then get to observe ρ, and output an answer based on it.
+
+So what can be done in this computational model?  Long story short: in a recent paper with Watrous, we proved that
+
+PCTC = BQPCTC = PSPACE.
+
+Or in English, the set of problems solvable by a polynomial-time CTC computer is exactly PSPACE—and this holds whether the CTC computer is classical or quantum.  In other words, CTCs make polynomial time equal to polynomial space as a computational resource.  Unlike in the case of “secondary time,” this is not obvious from the definitions, but has to be proved.  (Note that to prove PSPACE ⊆ PCTC ⊆ BQPCTC ⊆ EXP is relatively straightforward; the harder part is to show BQPCTC ⊆ PSPACE.)
+
+The bottom line is that, at least in the computational world, making time reusable (even while preserving its “directionality”) really does make it behave like space.  To me, that lends some support to the contention that, in our world, the fact that space is reusable and time is not is at the core of what makes them different from each other.
+
+I don’t think I’ve done enough to whip up controversy yet, so let me try harder in the last few paragraphs.  A prominent school of thought in quantum gravity regards time as an “emergent phenomenon”: something that should not appear in the fundamental equations of the universe, just like hot and cold, purple and orange, maple and oak don’t appear in the fundamental equations, but only at higher levels of organization.  Personally, I’ve long had trouble making sense of this view.  One way to explain my difficulty is using computational complexity.  If time is “merely” an emergent phenomenon, then is the presumed intractability of PSPACE-complete problems also an emergent phenomenon?  Could a quantum theory of gravity—a theory that excluded time as “not fundamental enough”—therefore be exploited to solve PSPACE-complete problems efficiently (whatever “efficiently” would even mean in such a theory)?  Or maybe computation is also just an emergent phenomenon, so the question doesn’t even make sense?  Then what isn’t an emergent phenomenon?
+
+I don’t have a knockdown argument, but the distinction between space and time has the feel to me of something that needs to be built into the laws of physics at the machine-code level.  I’ll even venture a falsifiable prediction: that if and when we find a quantum theory of gravity, that theory will include a fundamental (not emergent) distinction between space and time.  In other words, no matter what spacetime turns out to look like at the Planck scale, the notion of causal ordering and the relationships “before” and “after” will be there at the lowest level.  And it will be this causal ordering, built into the laws of physics, that finally lets us understand why closed timelike curves don’t exist and PSPACE-complete problems are intractable.
+
+I’ll end with a quote from a June 2008 Scientific American article by Jerzy Jurkiewicz, Renate Loll and Jan Ambjorn, about the “causal dynamical triangulations approach” to quantum gravity.
+
+What could the trouble be? In our search for loopholes and loose ends in the Euclidean approach [to quantum gravity], we finally hit on the crucial idea, the one ingredient absolutely necessary to make the stir fry come out right: the universe must encode what physicists call causality. Causality means that empty spacetime has a structure that allows us to distinguish unambiguously between cause and effect. It is an integral part of the classical theories of special and general relativity.
+
+Euclidean quantum gravity does not build in a notion of causality. The term “Euclidean” indicates that space and time are treated equally. The universes that enter the Euclidean superposition have four spatial directions instead of the usual one of time and three of space. Because Euclidean universes have no distinct notion of time, they have no structure to put events into a specific order; people living in these universes would not have the words “cause” or “effect” in their vocabulary. Hawking and others taking this approach have said that “time is imaginary,” in both a mathematical sense and a colloquial one. Their hope was that causality would emerge as a large-scale property from microscopic quantum fluctuations that individually carry no imprint of a causal structure. But the computer simulations dashed that hope.
+
+Instead of disregarding causality when assembling individual universes and hoping for it to reappear through the collective wisdom of the superposition, we decided to incorporate the causal structure at a much earlier stage. The technical term for our method is causal dynamical triangulations. In it, we first assign each simplex an arrow of time pointing from the past to the future. Then we enforce causal gluing rules: two simplices must be glued together to keep their arrows pointing in the same direction. The simplices must share a notion of time, which unfolds steadily in the direction of these arrows and never stands still or runs backward.
+
+By building in a time dimension that behaves differently from the space dimensions, the authors claim to have solved a problem that’s notoriously plagued computer simulations of quantum gravity models: namely, that of recovering a spacetime that “behave[s] on large distances like a four-dimensional, extended object and not like a crumpled ball or polymer”.  Are their results another indication that time might not be an illusion after all?  Time (hopefully a polynomial amount of it) will tell.
+
+
+
+================================================================================
+
+TITLE: Nö nö nö
+URL: https://scottaaronson.blog/?m=200812
+CONTENT:
+At least three people have now asked my opinion of the paper Mathematical Undecidability and Quantum Randomness by Paterek et al., which claims to link quantum mechanics with Gödelian incompleteness.  Abstract follows:
+
+We propose a new link between mathematical undecidability and quantum physics. We demonstrate that the states of elementary quantum systems are capable of encoding mathematical axioms and show that quantum measurements are capable of revealing whether a given proposition is decidable or not within the axiomatic system. Whenever a mathematical proposition is undecidable within the axioms encoded in the state, the measurement associated with the proposition gives random outcomes. Our results support the view that quantum randomness is irreducible and a manifestation of mathematical undecidability.
+
+Needless to say, the paper has already been Slashdotted.  I was hoping to avoid blogging about it, because I doubt I can do so without jeopardizing my quest for Obamalike equanimity and composure.  But similar to what’s happened several times before, I see colleagues who I respect and admire enormously—in this case, several who have done pioneering experiments that tested quantum mechanics in whole new regimes—making statements that can be so easily misinterpreted by a public and a science press hungry to misinterpret, that I find my fingers rushing to type even as my brain struggles in vain to stop them.
+
+Briefly, what is the connection the authors seek to make between mathematical undecidability and quantum randomness?  Quantum states are identified with the “axioms” of a formal system, while measurements (technically, projective measurements in the Pauli group) are identified with “propositions.”  A proposition is “decidable” from a given set of axioms, if and only if the requisite measurement produces a determinate outcome when applied to the state (in other words, if the state is an eigenstate of the measurement).  From the simple fact that no one-qubit state can be an eigenstate of the σx and σz measurements simultaneously (in other words, the Uncertainty Principle), it follows immediately that “no axiom system can decide every proposition.”  The authors do some experiments to illustrate these ideas, which (not surprisingly) produce the outcomes predicted by quantum mechanics.
+
+But does this have anything to do with “undecidability” in the mathematical sense, and specifically with Gödel’s Theorem?  Well, it’s not an illustration of Gödel’s Theorem to point out that, knowing only that x=5, you can’t deduce the value of an unrelated variable y.  Nor is it an illustration of Gödel’s Theorem to point out that, knowing only one bit about the pair of bits (x,y), you can’t deduce x and y simultaneously.  These observations have nothing to do with Gödel’s Theorem.  Gödel’s Theorem is about statements that are undecidable within some formal system, despite having definite truth-values—since the statements just assert the existence of integers with certain properties, and those properties are stated explicitly.  To get this kind of undecidability, Gödel had to use axioms that were strong enough to encode the addition and multiplication of integers, as well as the powerful inference rules of first-order logic.  By contrast, the logical deductions in the Paterek et al. paper consist entirely of multiplications of tensor products of Pauli matrices.  And the logic of Pauli matrix multiplication (i.e., is this matrix in the subgroup generated by these other matrices or not?) is, as the authors point out, trivially decidable.  (The groups in question are all finite, so one can just enumerate their elements—or use Gaussian elimination for greater efficiency.)
+
+For this reason, I fear that Paterek et al.’s use of the phrase “mathematical undecidability” might mislead people.  The paper’s central observation can be re-expressed as follows: given an N-qubit stabilizer state |ψ〉, the tensor products of Pauli matrices that stabilize |ψ〉 form a group of order 2N.  On the other hand, the total number of tensor products of Pauli matrices is 4N, and hence the remaining 4N-2N tensor products correspond to “undecidable propositions” (meaning that they’re not in |ψ〉’s stabilizer group).  These and other facts about stabilizer states were worked out by Gottesman, Knill, and others in the 1990s.
+
+(Incidentally, the paper references results of Chaitin, which do interpret variants of Gödel’s Theorem in terms of axiom systems “not containing enough information” to decide Kolmogorov-random sentences.  But Chaitin’s results don’t actually deal with information in the technical sense, but rather with Kolmogorov complexity.  Mathematically, the statements Chaitin is talking about have zero information, since they’re all mathematical truths.)
+
+So is there a connection between quantum mechanics and logic?  There is—and it was pointed out by Birkhoff and von Neumann in 1936.  Recall that Paterek et al. identify propositions with projective measurements, and axioms with states.  But in logic, an axiom is just any proposition we assume; otherwise it has the same form as any other proposition.  So it seems to me that we ought to identify both propositions and axioms with projective measurements.  States that are eigenstates of all the axioms would then correspond to models of those axioms.  Also, logical inferences should derive some propositions from other propositions, like so: “any state that is an eigenstate of both X and Y is also an eigenstate of Z.”  As it turns out, this is precisely the approach that Birkhoff and von Neumann took; the field they started is called “quantum logic.”
+
+Update (Dec. 8): I’ve posted an interesting response from Caslav Brukner, and my response to his response.
+
+
+
+================================================================================
+

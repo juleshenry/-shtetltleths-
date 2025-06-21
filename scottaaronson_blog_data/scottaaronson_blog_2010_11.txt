@@ -1,0 +1,77 @@
+TITLE: Anti-Complexitism
+URL: https://scottaaronson.blog/?m=201011
+CONTENT:
+It’s time someone said it.  There exists, among a small but vocal subset of the nerd community, a strange animus against computational complexity theory, which is often rooted in factual misunderstandings, and seems wholly out of proportion to any real shortcomings that complexity theory has.  Granted, every field of science has its backseat-drivers, those extralusionary intellects who feel sure they could best the experts, but haven’t expended any actual effort in solving the problems on which the experts are stuck.  But, perhaps because of the unusual accessibility of its open problems, complexity theory seems (I might be wrong) to attract more such naysayers than other mathematical fields.
+
+It goes without saying that no intellectual pursuit is automatically entitled to respect: it has to earn it by actual accomplishments.  But even after complexity theory delivers spectacular accomplishments—from NP-completeness to PCPs to public-key cryptography to zero-knowledge proofs to quantum computing—the carping continues unabated.  It’s this phenomenon that I’d like to understand better.
+
+Here are the main manifestations of anti-complexitism that I’ve witnessed:
+
+“Monday-morning quarterbacking” of complexity breakthroughs.  For an example, see this thread on Lance and Bill’s blog, which is full of knowing comments seeking to minimize Ryan Williams’s recent NEXP vs. ACC breakthrough.  Some of these comments are strangely off the mark: for example, the new result is taken to task for being “nonconstructive,” relying on the ability to perform diagonalization within the huge set NEXP.  But we’ve known since Natural Proofs that, if you want to make progress on the P vs. NP question, then you’ll need “nonconstructive” techniques that seize on a special property of the function f being lower-bounded—and diagonalization remains one of the few examples of such a technique that we have.  On the other hand, we’ve also known that, if you do use diagonalization, then you’ll need to combine it with some new ingredient to get around both the relativization and algebrization barriers.  Ryan’s proof actually does all of that, which is why many of us are so excited about it.
+
+Refusal to accept the incremental nature of complexity theory (which is shared by every other scientific field known to humankind).  To me, one of the more humorous criticisms of Ryan’s breakthrough is that it “merely” shows NEXP is not in ACC, and not (for example) that the MAJORITY function is not in ACC.  Granted, the statement NEXP⊄ACC is pathetically weak compared to what we believe is true.  But then again, what have you done that’s advanced circuit complexity by 1% as much as this “pathetic” lower bound?
+
+Fervent desire to see complexity theorists get their comeuppance from an “outsider.”  The anonymous blog-commentariat’s pooh-poohing of the ACC breakthrough stands in contrast to the praise that same commentariat heaped on Vinay Deolalikar’s unsuccessful attempt at proving P≠NP a few months ago.  Even though Vinay and Ryan are both academic researchers working at industry labs (HP and IBM respectively), from reading the comments, it appears part of the reason for the differing reactions is that Deolalikar was seen as more of an “outsider.”  Now, I like to root for the underdog as much as the next American, but it’s worth remembering that every scientist starts as an outsider.  It was only a decade ago that Ryan and I were both nerdy kids at Cornell, trying to get our respective crazy ideas taken seriously by professors.  To paraphrase Niels Bohr, is a “scientific insider” anything more than an outsider who’s already made most of the egregious mistakes in some subfield?
+
+Presenting obvious, universally-known limitations of asymptotic analysis as if they were new insights.  Yes, I’m aware that a polynomial-time algorithm can be impractical because of huge constant factors or a whopping exponent.  I’m aware that an NP-complete problem can be easy on those instances that arise in practice.  Even if I have a debilitating brain injury, so that I no longer remember my own name or how to count to 10, I like to think that I’ll still be aware of these facts.  To me, dismissing complexity theory because of its love affair with worst-case, asymptotic analysis is like dismissing physics because of its love affair with frictionless surfaces, point particles, elastic collisions, and ideal springs and resistors.  In both cases, people make the simplifying assumptions not because they’re under any illusions that the world really is that way, but rather because their goal is understanding.  And in both cases, the theory itself gives you the tools to complicate your model—to put legs and hooves on your spherical cow—until you get reasonably-accurate predictions for the practical problems that interest you.  (See: D. E. Knuth, The Art of Computer Programming.)
+
+Dismissal of complexity theory as “not real mathematics.”  There’s no denying that complexity theory is young compared to (say) complex analysis, differential equations, or Lie groups.  But if you were choosing an area to work on, why would that be a point against complexity?  It means all the more to do and discover: instead of having the elegant, unifying theory presented to you in yellow books, you get to create it!  Furthermore, we’ve seen that the connections between complexity theory and “traditional” areas of mathematics are as deep as people want to make them (and often deeper): in recent years, metric embeddings, elliptic curves, algebraic geometry, and arithmetic combinatorics have all played starring roles in complexity results.  On the other hand, yes, sometimes you can achieve a complexity breakthrough the way Ryan did, not by using “deep” mathematics, but just by thinking incredibly hard about simple facts like fast matrix multiplication and the Time Hierarchy Theorem.  Again, that’s a negative?
+
+Attacks on complexity theory for over-reliance on conjectures, even though almost every field outside mathematics (and quite a few within mathematics) rely on conjectures as well.  This one really gets me—and is the reason why I often point out that, if we complexity theorists were physicists, we would have declared P≠NP a law of nature decades ago, then looked back with pride on our far-reaching discovery about the workings of the universe.  The problem of rigorously proving the No-SuperSearch Law would have been relegated to the mathematical physicists, much like the problem of proving the consistency of (3+1)-dimensional quantum field theory.  Instead, because we complexity theorists have the custom of trumpeting what we can’t prove from the rooftops, we give our extralusionary friends the ammunition they need to regard us as dismal failures, should they so choose.  “So you landed on the moon?  How adorable.  But tell me, why does that represent even the slightest progress toward the real goal of visiting other galaxies?”  The response, which should be obvious, is that taunting mountain-climbers for being out-of-shape laggards works best when you’re at the peak of the mountain looking down at them, not at the base looking up.  But then again, if you were climbing the mountain too, you’d be less likely to want to taunt other climbers, even those behind you: for then the competitive instincts common to all humans would have to contend with the feeling of being part of a great and difficult shared enterprise.
+
+
+
+================================================================================
+
+TITLE: The Computational Complexity of Linear Optics
+URL: https://scottaaronson.blog/?m=201011
+CONTENT:
+I usually avoid blogging about my own papers—since, as a tenure-track faculty member, I prefer to be known as a media-whoring clown who trashes D-Wave Sudoku claims, bets $200,000 against alleged P≠NP proofs, and complains about his lecture notes being appropriated by Australian actresses to sell printers.  Any research that I happen to do is best kept secret, lest it interfere with that carefully-constructed persona.
+
+Today, though, I’m making an exception.  On Thursday, my PhD student Alex Arkhipov and I finally finished our mammoth 94 95-page preprint on The Computational Complexity of Linear Optics, which we were writing for the past year.  (Remarkably, this is Alex’s first paper.  Congratulations, Alex!)  Never before was I involved in a project that forced me to learn so many unfamiliar things, from experimental quantum optics to random matrix theory to exotic complexity classes like BPPNP and PostBQP.  (Alright, that last one wasn’t particularly unfamiliar, but the others were.)
+
+In one sentence, the goal of our paper is to help bridge the yawning gap between what complexity theorists believe is true about quantum mechanics—namely, that it’s exponentially-hard to simulate on a classical computer—and what experimentalists can currently demonstrate.  To do so, we try to “meet the experimentalists halfway,” by proposing a linear-optical setup that seems significantly closer to practicality than (say) a universal quantum computer, but still solves a computational problem that we can show is intractable for classical computers, under plausible and clearly-stated hardness assumptions (which don’t just amount to “our system is hard to simulate”!).
+
+Without further ado, here’s the abstract:
+
+We give new evidence that quantum computers — moreover, rudimentary quantum computers built entirely out of linear-optical elements — cannot be efficiently simulated by classical computers.  In particular, we define a model of computation in which identical photons are generated, sent through a linear-optical network, then nonadaptively measured to count the number of photons in each mode.  This model is not known or believed to be universal for quantum computation, and indeed, we discuss the prospects for realizing the model using current technology.  On the other hand, we prove that the model is able to solve sampling problems and search problems that are classically intractable under plausible assumptions.
+
+Our first result says that, if there exists a polynomial-time classical algorithm that samples from the same probability distribution as a linear-optical network, then P#P=BPPNP, and hence the polynomial hierarchy collapses to the third level.  Unfortunately, this result assumes an extremely accurate simulation.
+
+Our main result suggests that even an approximate or noisy classical simulation would already imply a collapse of the polynomial hierarchy.  For this, we need two unproven conjectures: the Permanent-of-Gaussians Conjecture, which says that it is #P-hard to approximate the permanent of a matrix A of independent N(0,1) Gaussian entries, with high probability over A; and the Permanent Anti-Concentration Conjecture, which says that |Per(A)|≥√(n!)/poly(n) with high probability over A.  We present evidence for these conjectures, both of which seem interesting even apart from our application.
+
+This paper does not assume knowledge of quantum optics. Indeed, part of its goal is to develop the beautiful theory of noninteracting bosons underlying our model, and its connection to the permanent function, in a self-contained way accessible to theoretical computer scientists.
+
+As you can see from the abstract, there’s a huge amount still to be done—of which the most obvious is (1) proving our #P-hardness conjecture and (2) doing our experiment!  I’m also hopeful that people will take up the challenge of proving similar hardness results for other “rudimentary” quantum systems, besides linear optics.  In that vein, one immediate question is whether we can give evidence that the beautiful “commuting quantum computations” model of Bremner, Jozsa, and Shepherd is hard to simulate even approximately by a classical computer.
+
+Here are a few options for anyone who’s slightly curious about our work, but not curious enough to, y’know, download the paper:
+
+Anyway, the main purpose of this post was simply to provide a place for people with questions about our paper to ask them.  So, shoot!
+
+
+
+
+
+================================================================================
+
+TITLE: State of circuit lower bounds now slightly less humiliating
+URL: https://scottaaronson.blog/?m=201011
+CONTENT:
+When people want to emphasize how pathetically far we are from proving P≠NP, they often use the following argument: for godsakes, we can’t even prove that NEXP-complete problems aren’t solvable by depth-3, polynomial-size circuits consisting entirely of mod 6 gates!
+
+But no more.
+
+As some of you may have heard, recently Ryan Williams achieved a breakthrough in circuit lower bounds.  And as a result, now we can prove that NEXP-complete problems aren’t solvable by depth-3, polynomial-size circuits consisting entirely of mod 6 gates.
+
+More generally, Williams proves that NEXP does not have ACC circuits of third-exponential size: that is, size f(n) where f(f(f(n))) is exponential.  Here NEXP means nondeterministic exponential time (the exponential-time analogue of NP), and was long a “barrier class” for circuit lower bounds.  (Note that, if we go even slightly above NEXP, to MAEXP, then Buhrman, Fortnow, and Thierauf proved in 1998 that MAEXP doesn’t have polynomial-size circuits of any depth, and here the polynomial can be improved to half-exponential.)  Meanwhile, by “ACC circuits” we mean a nonuniform family of constant-depth circuits consisting of AND, OR, NOT, and MOD m gates for arbitrary positive integers m.  ACC is another “barrier class” for circuit lower bounds: if we go even slightly below it, to AC0[p] (the same as ACC, except that now we only allow MOD p gates for some fixed prime p), then we’ve known how to prove exponential circuit-size lower bounds since the work of Razborov and Smolensky in the 1980s.
+
+To achieve the combination of NEXP and ACC, Williams implements a program proposed in his previous STOC’2010 paper, for the specific case of ACC.  At the core of his lower bound is an algorithm for deciding satisfiability of ACC circuits, which does slightly (not much) better than brute-force search.  (The algorithm relies on, of all things, fast multiplication of rectangular matrices.)  While Williams’s techniques have nothing to do with Mulmuley’s GCT program, they do fit in well with the Mulmuleyist “flip” philosophy of “proving lower bounds by proving upper bounds.”
+
+I haven’t verified Williams’s proof, but the high-level ideas are compelling—and while the result is one of the most spectacular of the decade, it’s not so far beyond the current frontier as to strain credulity.  Suffice it to say that I won’t be betting $200,000 against this one.
+
+Congratulations, Ryan!
+
+Update: Amusingly, if you google Ryan Williams ACC, you get a football player of the same name who was apparently Rookie of the Year in the Atlantic Coast Conference.  Let’s all link to Ryan’s paper from our homepages, and see if we can make our “ACC Rookie of the Year” win out!
+
+================================================================================
+

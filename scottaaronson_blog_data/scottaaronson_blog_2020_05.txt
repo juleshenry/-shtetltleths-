@@ -1,0 +1,99 @@
+TITLE: The Collapsing Leviathan
+URL: https://scottaaronson.blog/?m=202005
+CONTENT:
+I was seriously depressed for the last week, by noticeably more than my baseline amount for the new pandemic-ravaged world.  The depression seems to have been triggered by two pieces of news:
+
+To put it bluntly—since events like these leave no room for euphemism—a hundred thousand Americans are now dead from covid, and hundreds of thousands more are poised to die, because smart people are no longer in charge.  And the death of the SAT will help ensure that smart people will never be back in charge.  Obama might be remembered by history as America’s last smart-person-in-charge, its last competent technocrat—but one man couldn’t stop a tidal wave of stupid.
+
+I know from experience what many will readers will say to all this: “instead of wallowing in gloom, Scott, why don’t you just make falsifiable predictions about the bad outcomes you expect from these developments, and then score yourself later?”
+
+So here’s the thing about that.
+
+Shortly after Trump was elected, I changed this blog’s background to black, as a small way to mourn the United States that I’d grown up thinking that I lived in, the one that had at least some ideals.  Today, with four years of hindsight, my thinking then feels overly optimistic: why plain black?  Why not, like, images of rotting corpses in a pit?
+
+And yet, were I foolish enough to register predictions in 2016, I would’ve said that within one year, Trump’s staggering incompetence would surely cause some catastrophe or other to grip the country—a really obvious one, with mass death and even Trump’s beloved stock market cratering.
+
+And then after a year, commenters would ridicule me, because none of that had happened.  After two years, they’d ridicule me again because it still hadn’t happened, and after three years they’d ridicule me a third time.
+
+Now it’s happened.
+
+America, we now know, is like the cartoon character who runs off a cliff: it dangled in midair for three years, defying physics, before it finally looked down.
+
+Look, I’m a theoretical computer scientist.  By training, I deal in asymptotics, not in constant factors.  I don’t often make predictions with deadlines; when I do, I often regret it.  It’s a good thing that I became an academic rather than an investor!  For I’ve learned that the only “oracular power” I have is to make statements like:
+
+My eyes, my brain, and the pit of my stomach are all blaring at me that the asymptotics of this situation just took a sharp turn for the worse.  Sure, for an unknown length of time, noise and constant factors could mask the effects.  But eventually, either (1) society will need to reverse what it just did, or else (2) terrible effects will spring from it, or else (3) the entire universe no longer makes sense.
+
+When I’ve felt this way in the past, option (3) rarely turned out to be the right answer.
+
+So, what can anyone say that will make me less depressed?  Thanks in advance!
+
+Update (May 30): Woohoo!!  Avoiding yet another tragedy, after years of setbacks and struggles, it looks like today the US has finally launched humans into orbit, thereby recapitulating a technological achievement from 1961 that the US had already vastly surpassed by 1969.  I hereby retract the pessimism of this post.
+
+================================================================================
+
+TITLE: Quantum Computing Lecture Notes 2.0
+URL: https://scottaaronson.blog/?m=202005
+CONTENT:
+Two years ago, I posted detailed lecture notes on this blog for my Intro to Quantum Information Science undergrad course at UT Austin.  Today, with enormous thanks to UT PhD student Corey Ostrove, we’ve gotten the notes into a much better shape (for starters, they’re now in LaTeX).  You can see the results here (7MB)—it’s basically a 260-page introductory quantum computing textbook in beta form, covering similar material as many other introductory quantum computing textbooks, but in my style for those who like that.  It’s missing exercises, as well as material on quantum supremacy experiments, recent progress in hardware, etc., but that will be added in the next version if there’s enough interest.  Enjoy!
+
+Unrelated Announcement: Bjorn Poonen at MIT pointed me to researchseminars.org, a great resource for finding out about technical talks that are being held online in the era of covid.  The developers recently added CS as a category, but so far there are very few CS talks listed.  Please help fix that!
+
+================================================================================
+
+TITLE: Four striking papers
+URL: https://scottaaronson.blog/?m=202005
+CONTENT:
+In the past week or two, four striking papers appeared on quant-ph.  Rather than doing my usual thing—envisioning a huge, meaty blog post about each paper, but then procrastinating on writing them until the posts are no longer even relevant—I thought I’d just write a paragraph about each paper and then open things up for discussion.
+
+(1) Matt Hastings has announced the first provable superpolynomial black-box speedup for the quantum adiabatic algorithm (in its original, stoquastic version).  The speedup is only quasipolynomial (nlog(n)) rather than exponential, and it’s for a contrived example (just like in the important earlier work by Freedman and Hastings, which separated the adiabatic algorithm from Quantum Monte Carlo), and there are no obvious near-term practical implications.  But still!  Twenty years after Farhi and his collaborators wrote the first paper on the quantum adiabatic algorithm, and 13 years after D-Wave made its first hype-laden announcement, this is (to my mind) the first strong theoretical indication that adiabatic evolution with no sign problem can ever get a superpolynomial speedup over not only simulated annealing, not only Quantum Monte Carlo, but all possible classical algorithms.  (This had previously been shown only for a variant of the adiabatic algorithm that jumps up to the first excited state, by Nagaj, Somma, and Kieferova.)  As such, assuming the result holds up, Hastings resolves a central question that I (for one) had repeatedly asked about for almost 20 years.  Indeed, if memory serves, at an Aspen quantum algorithms meeting a few years ago, I strongly urged Hastings to work on the problem.  Congratulations to Matt!
+
+(2) In my 2009 paper “Quantum Copy-Protection and Quantum Money,” I introduced the notion of copy-protected quantum software: a state |ψf⟩ that you could efficiently use to evaluate a function f, but not to produce more states (whether |ψf⟩ or anything else) that would let others evaluate f.  I gave candidate constructions for quantumly copy-protecting the simple class of “point functions” (e.g., recognizing a password), and I sketched a proof that quantum copy-protection of arbitrary functions (except for those efficiently learnable from their input/output behavior) was possible relative to a quantum oracle.  Building on an idea of Paul Christiano, a couple weeks ago my PhD student Jiahui Liu, Ruizhe Zhang, and I put a preprint on the arXiv improving that conclusion, to show that quantum copy-protection of arbitrary unlearnable functions is possible relative to a classical oracle.  But my central open problem remained unanswered: is quantum copy-protection of arbitrary (unlearnable) functions possible in the real world, with no oracle?  A couple days ago, Ananth and La Placa put up a preprint where they claim to show that the answer is no, assuming that there’s secure quantum Fully Homomorphic Encryption (FHE) of quantum circuits.  I haven’t yet understood the construction, but it looks plausible, and indeed closely related to Barak et al.’s seminal proof of the impossibility of obfuscating arbitrary programs in the classical world.  If this holds up, it (conditionally) resolves another of my favorite open problems—indeed, one that I recently mentioned in the Ask-Me-Anything session!
+
+(3) Speaking of Boaz Barak: he, Chi-Ning Chou, and Xun Gao have a new preprint about a fast classical way to spoof Google’s linear cross-entropy benchmark for shallow random quantum circuits (with a bias that degrades exponentially with the depth, remaining detectable up to a depth of say ~√log(n)).  As the authors point out, this by no means refutes Google’s supremacy experiment, which involved a larger depth.  But along with other recent results in the same direction (e.g. this one), it does show that some exploitable structure is present even in random quantum circuits.  Barak et al. achieve their result by simply looking at the marginal distributions on the individual output qubits (although the analysis to show that this works gets rather hairy).  Boaz had told me all about this work when I saw him in person—back when traveling and meeting people in person was a thing!—but it’s great to see it up on the arXiv.
+
+(4) Peter and Raphaël Clifford have announced a faster classical algorithm to simulate BosonSampling.  To be clear, their algorithm is still exponential-time, but for the special case of a Haar-random scattering matrix, n photons, and m=n input and output modes, it runs in only ~1.69n time, as opposed to the previous bound of ~2n.  The upshot is that, if you want to achieve quantum supremacy using BosonSampling, then either you need more photons than previously thought (maybe 90 photons? 100?), or else you need a lot of modes (in our original paper, Arkhipov and I recommended at least m~n2 modes for several reasons, but naturally the experimentalists would like to cut any corners they can).
+
+And what about my own “research program”?  Well yesterday, having previously challenged my 7-year-old daughter Lily with instances of comparison sorting, Eulerian tours, undirected connectivity, bipartite perfect matching, stable marriage, factoring, graph isomorphism, unknottedness, 3-coloring, subset sum, and traveling salesman, I finally introduced her to the P vs. NP problem!  Even though Lily can’t yet formally define “polynomial,” let alone “algorithm,” I’m satisfied that she understands something of what’s being asked.  But, in an unintended echo of one of my more controversial recent posts, Lily insists on pronouncing NP as “nip.”
+
+================================================================================
+
+TITLE: Announcements
+URL: https://scottaaronson.blog/?m=202005
+CONTENT:
+Update (May 10): Extremely sorry to everyone who wanted to attend my SlateStarCodex talk on quantum necromancy, but wasn’t able due to technical problems!  My PowerPoint slides are here; a recording might be made available later.  Thanks to everyone who attended and asked great questions.  Even though there were many, many bugs to be worked out, I found giving my first talk in virtual reality a fascinating experience; thanks so much to Patrick V. for inviting me and setting it up.
+
+(1) I’ll be giving an online talk at SlateStarCodex (actually, in a VR room where you can walk around with your avatar, mingle, and even try to get “front-row seating”), this coming Sunday at 10:30am US Pacific time = 12:30pm US Central time (i.e., me) = 1:30pm US Eastern time = …  Here’s the abstract:
+
+Schrödinger’s Cat and Quantum Necromancy
+
+I’ll try, as best I can, to give a 10-minute overview of the century-old measurement problem of quantum mechanics.  I’ll then discuss a new result, by me and Yosi Atia, that might add a new wrinkle to the problem.  Very roughly, our result says that if you had the technological ability, as measured by (say) quantum circuit complexity, to prove that a cat was in a coherent superposition of the alive and dead states, then you’d necessarily also have the technological ability to bring a dead cat back to life.  Of course, this raises the question of in what sense such a cat was ever “dead” in the first place.
+
+(2) Robin Kothari has a beautiful blog post about a new paper by me, him, Avishay Tal, and Shalev Ben-David, which uses Huang’s recent breakthrough proof of the Sensitivity Conjecture to show that D(f)=O(Q(f)4) for all total Boolean functions f, where D(f) is the deterministic query complexity of f and Q(f) is the quantum query complexity—thereby resolving another longstanding open problem (the best known relationship since 1998 had been D(f)=O(Q(f)6)).  Check out his post!
+
+(3) For all the people who’ve been emailing me, and leaving blog comments, about Stephen Wolfram’s new model of fundamental physics (his new new kind of science?)—Adam Becker now has an excellent article for Scientific American, entitled Physicists Criticize Stephen Wolfram’s “Theory of Everything.”  The article quotes me, friend-of-the-blog Daniel Harlow, and several others.  The only thing about Becker’s piece that I disagreed with was the amount of space he spent on process (e.g. Wolfram’s flouting of traditional peer review).  Not only do I care less and less about such things, but I worry that harping on them feeds directly into Wolfram’s misunderstood-genius narrative.  Why not use the space to explain how Wolfram makes a hash of quantum mechanics—e.g., never really articulating how he proposes to get unitarity, or the Born rule, or even a Hilbert space?  Anyway, given the demand, I guess I’ll do a separate blog post about this when I have time.  (Keep in mind that, with my kids home from school, I have approximately 2 working hours per day.)
+
+(4) Oh yeah, I forgot!  Joshua Zelinsky pointed me to a website by Martin Ugarte, which plausibly claims to construct a Turing machine with only 748 states whose behavior is independent of ZF set theory—beating the previous claimed record of 985 states due to Stefan O’Rear (see O’Rear’s GitHub page), which in turn beat the 8000 states of me and Adam Yedidia (see my 2016 blog post about this).  I should caution that, to my knowledge, the new construction hasn’t been peer-reviewed, let alone proved correct in a machine-checkable way (well, the latter hasn’t yet been done for any of these constructions).  For that matter, while an absolutely beautiful interface is provided, I couldn’t even find documentation for the new construction.  Still, Turing machine and Busy Beaver aficionados will want to check it out!
+
+================================================================================
+
+TITLE: Vaccine challenge trials NOW!
+URL: https://scottaaronson.blog/?m=202005
+CONTENT:
+Update (May 5): Here’s a Quillette article making the case for human challenge trials.  I think there’s an actual non-negligible chance that this cause will win—but every wasted day means thousands more dead.
+
+I’ve asked myself again and again over the last few months: why are human challenge trials for covid vaccines not an ethical no-brainer?  What am I missing that all the serious medical experts see?  And what are we waiting for: for 10 million more to die? 20 million?  So it made me feel a little less crazy that the world’s most famous living ethicist agrees.
+
+I loved the way James Miller put it on my Facebook:
+
+This is the trolley problem where the fat man wants to jump knowing his chance of death is below 1% and our decision is whether to stop him.
+
+Like, suppose someone willingly sacrificed themselves so that doctors could use their body parts to save 10 million people.  We might say: we would’ve lacked the strength to do the same in their place.  We might say: we hope they weren’t pressured or coerced into it.  But after the deed is done, is there anything to call this person but a hero, or even a martyr?  Whatever we feel about the fireman who sacrifices his life in the course of saving 10 kids from a burning building, shouldn’t we feel it about this person a million times over?  And of course, I deliberately made this vastly more extreme than the actual situation faced by young, healthy volunteers in a covid challenge trial, who in all likelihood would recover and be fine.
+
+Regarding the obvious question: so would I volunteer to take an unproved vaccine, followed by a deliberate covid injection?  Sure!  Unfortunately, I might no longer be a candidate: I’m now nearing middle age and pre-diabetic, I help watch two young kids, and I live with two immunocompromised parents.  But on the principle of walking the walk: if it were a vaccine candidate that I considered promising (and there are now several), and if it were practical to isolate me away from home for the requisite time, and if I could actually be of use, then absolutely, jab me.
+
+On a somewhat related note: Last night I watched the Ender’s Game movie with my 7-year-old daughter Lily (neither of us had seen it; I’d read the book but only as a kid).  Not surprisingly, the movie was a huge hit with Lily; she’s already begging to see it again.  As for me, my first thought was: what a hackneyed sci-fi premise, that the entire human race is under attack from some alien species, and that all human children grow up in the shadow of that knowledge.  Nothing whatsoever like the real world of 2020!  My second thought was: what a quaint concept, that faced with a threat to humanity, the earth-authorities would immediately respond “quick, we need to find and train and cultivate super-geniuses willing to break the rules, and put them in command!”  Only in the movies, never in real life!  Except in, y’know, WWII, where that mindset was pretty crucial to the Allied victory?  But 75 years later, yes, it reads to us as science fiction.
+
+To inject a tiny note of optimism, I’m hopeful that we will eventually see some fruits of genius commensurate with the threat, whether in the realm of treatments or vaccines or contact-tracing apps or PPE or something else that no one’s thought of yet.  Right now, though, the sad fact is this: as far as I know, the only indisputable work of genius to have arisen in response to the covid crisis has been the Twitter account for steak-umms.
+
+================================================================================
+

@@ -1,0 +1,142 @@
+TITLE: The destruction of graduate education in the United States
+URL: https://scottaaronson.blog/?m=201711
+CONTENT:
+If and when you emerged from your happiness bubble to read the news, you’ll have seen (at least if you live in the US) that the cruel and reckless tax bill has passed the House of Representatives, and remains only to be reconciled with an equally-vicious Senate bill and then voted on by the Republican-controlled Senate.  The bill will add about $1.7 trillion to the national debt and raise taxes for about 47.5 million people, all in order to deliver a massive windfall to corporations, and to wealthy estates that already pay some of the lowest taxes in the developed world.
+
+In a still-functioning democracy, those of us against such a policy would have an intellectual obligation to seek out the strongest arguments in favor of the policy and try to refute them.  By now, though, it seems to me that the Republicans hold the public in such contempt, and are so sure of the power of gerrymandering and voter restrictions to protect themselves from consequences, that they didn’t even bother to bring anything to the debate more substantive than the schoolyard bully’s “stop punching yourself.”  I guess some of them still repeat the fairytale about the purpose of tax cuts for the super-rich being to trickle down and help everyone else—but can even they advance that “theory” anymore without stifling giggles?  Mostly, as far as I can tell, they just brazenly deny that they’re doing what they obviously are doing: i.e., gleefully setting on fire anything that anyone, regardless of their ideology, could recognize as the national interest, in order to enrich a small core of supporters.
+
+But none of that is what interests me in this post—because it’s “merely” as bad as, and no worse than, what one knew to expect when a coalition of thugs, kleptocrats, and white-nationalist demagogues seized control of Hamilton’s and Jefferson’s experiment.  My concern here is only with the “kill shot” that the Republicans have now aimed, with terrifying precision, at the system that’s kept American academic science the envy of the world in spite of the growing dysfunction all around it.
+
+As you’ve probably heard, one of the ways Republicans intend to pay for their tax giveaway, is to change the tax code so that graduate students will now need to pay taxes on “tuition”—a large sum of money (as much as $50,000/year) that PhD students never actually see, that can easily exceed the stipends they do see, and that’s basically just an accounting trick that serves the internal needs of universities and granting agencies.  Again, to eliminate any chance of misunderstanding: PhD students, who are effectively low-wage employees, already pay taxes on their actual stipends.  The new proposal is that they’ll also have to pay taxes on a whopping, make-believe “X” on their payroll sheet that’s always exactly balanced out by “-X.”
+
+For detailed analyses of the impacts, see, e.g. Luca Trevisan’s post or Inside Higher Ed or the Chronicle of Higher Ed or Vox or NPR.  Briefly, though, the proposal would raise taxes by a few thousand dollars per year, or in some cases as much as $10,000 per year (!), on PhD students who already live hand-to-mouth-to-ramen-bowl, with the largest impact falling on students in STEM fields.  For many students who aren’t independently wealthy, this could push a PhD beyond the realm of affordability, and cause them to leave academia or to do their graduate work in other countries.
+
+“But isn’t there some workaround?”  Indeed, financial ignoramus that I am, my first reaction was to ask: if PhD tuition is basically an accounting fiction anyway, then why can’t the universities just declare that the tuition in question no longer exists, or is now zero dollars?  Feel free to explain further in the comments if you understand this stuff, but as far as I can tell, the answer is: because PhD tuition is used to calculate how much “tax” the universities can take from professors’ grant money.  If universities could no longer take that tax, and they had no other way to make up for it, then except for the richest few universities, they’d have to scale back research and teaching pretty drastically.  To avoid that outcome, the universities would be relying on the granting agencies to let them keep taking the overhead they needed to operate, even though the “PhD tuition” no longer existed.  But the granting agencies aren’t set up for this: you can’t just throw a bomb into one part of a complicated bureaucratic machine built up over decades, and expect the machine to continue working with no disruption to science.
+
+But more ominously: as my friend Daniel Harlow and many others pointed out, it’s hard to look at the indefensible, laser-specific meanness of this policy, without suspecting that for many in Congress, the destruction of American higher education isn’t a regrettable byproduct, but the goal—just another piece of red meat to throw to the base.  If so, then we’d expect Congress to direct federal granting agencies not to loosen their rules about overhead, thereby forcing the students to pay the tax, and achieving the desired destruction.  (Note that the Trump administration has already made tightening overhead rules—i.e., doing the exact opposite of what would be needed to counteract the new tax—a central focus of its attempt to cut federal research funding.)
+
+OK, two concluding thoughts:
+
+Anyway, what else is there to say, except to call your representative, if you’re American and still have the faith in the system that such an act implies.
+
+================================================================================
+
+TITLE: Review of “Inadequate Equilibria,” by Eliezer Yudkowsky
+URL: https://scottaaronson.blog/?m=201711
+CONTENT:
+Inadequate Equilibria: Where and How Civilizations Get Stuck is a little gem of a book: wise, funny, and best of all useful (and just made available for free on the web).  Eliezer Yudkowsky and I haven’t always agreed about everything, but on the subject of bureaucracies and how they fail, his insights are gold.  This book is one of the finest things he’s written.  It helped me reflect on my own choices in life, and it will help you reflect on yours.
+
+The book is a 120-page meditation on a question that’s obsessed me as much as it’s obsessed Yudkowsky.  Namely: when, if ever, is it rationally justifiable to act as if you know better than our civilization’s “leading experts”?  And if you go that route, then how do you answer the voices—not least, the voices in your own head—that call you arrogant, hubristic, even a potential crackpot?
+
+Yudkowsky gives a nuanced answer.  To summarize, he argues that contrarianism usually won’t work if your goal is to outcompete many other actors in a free market for a scarce resource that they all want too, like money or status or fame.  In those situations, you really should ask yourself why, if your idea is so wonderful, it’s not already being implemented.  On the other hand, contrarianism can make sense when the “authoritative institutions” of a given field have screwed-up incentives that prevent them from adopting sensible policies—when even many of the actual experts might know that you’re right, but something prevents them from acting on their knowledge.  So for example, if a random blogger offers a detailed argument for why the Bank of Japan is pursuing an insane fiscal policy, it’s a-priori plausible that the random blogger could be right and the Bank of Japan could be wrong (as actually happened in a case Yudkowsky recounts), since even insiders who knew the blogger was right would find it difficult to act on their knowledge.  The same wouldn’t be true if the random blogger said that IBM stock was mispriced or that P≠NP is easy to prove.
+
+The high point of the book is a 50-page dialogue between two humans and an extraterrestrial visitor.  The extraterrestrial is confused about a single point: why are thousands of babies in the United States dying every year, or suffering permanent brain damage, because (this seems actually to be true…) the FDA won’t approve an intravenous baby food with the right mix of fats in it?  Just to answer that one question, the humans end up having to take the alien on a horror tour through what’s broken all across the modern world, from politicians to voters to journalists to granting agencies, explaining Nash equilibrium after Nash equilibrium that leaves everybody worse off but that no one can unilaterally break out of.
+
+I do have two criticisms of the book, both relatively minor compared to what I loved about it.
+
+First, Yudkowsky is brilliant in explaining how institutions can produce terrible outcomes even when all the individuals in them are smart and well-intentioned—but he doesn’t address the question of whether we even need to invoke those mechanisms for more than a small minority of cases.  In my own experience struggling against bureaucracies that made life hellish for no reason, I’d say that about 2/3 of the time my quest for answers really did terminate at an identifiable “empty skull”: i.e., a single individual who could unilaterally solve the problem at no cost to anyone, but chose not to.  It simply wasn’t the case, I don’t think, that I would’ve been equally obstinate in the bureaucrat’s place, or that any of my friends or colleagues would’ve been.  I simply had to accept that I was now face-to-face with an alien sub-intelligence—i.e., with a mind that fetishized rules made up by not-very-thoughtful humans over demonstrable realities of the external world.
+
+Second, I think the quality of the book noticeably declines in the last third.  Here Yudkowsky recounts conversations in which he tried to give people advice, but he redacts all the object-level details of the conversations—so the reader is left thinking that this advice would be good for some possible values of the missing details, and terrible for other possible values!  So then it’s hard to take away much of value.
+
+In more detail, Yudkowsky writes:
+
+“If you want to use experiment to show that a certain theory or methodology fails, you need to give advocates of the theory/methodology a chance to say beforehand what they think they predict, so the prediction is on the record and neither side can move the goalposts.”
+
+I only partly agree with this statement (which might be my first substantive disagreement in the book…).
+
+Yes, the advocates should be given a chance to say what they think the theory predicts, but then their answer need not be taken as dispositive.  For if the advocates are taken to have ultimate say over what their theory predicts, then they have almost unlimited room to twist themselves in pretzels to explain why, yes, we all know this particular experiment will probably yield such-and-such result, but contrary to appearances it won’t affect the theory at all.  For science to work, theories need to have a certain autonomy from their creators and advocates—to be “rigid,” as David Deutsch puts it—so that anyone can see what they predict, and the advocates don’t need to be continually consulted about it.  Of course this needs to be balanced, in practice, against the fact that the advocates probably understand how to use the theory better than anyone else, but it’s a real consideration as well.
+
+In one conversation, Yudkowsky presents himself as telling startup founders not to bother putting their prototype in front of users, until they have a testable hypothesis that can be confirmed or ruled out by the users’ reactions.  I confess to more sympathy here with the startup founders than with Yudkowsky.  It does seem like an excellent idea to get a product in front of users as early as possible, and to observe their reactions to it: crucially, not just a binary answer (do they like the product or not), confirming or refuting a prediction, but more importantly, reactions that you hadn’t even thought to ask about.  (E.g., that the cool features of your website never even enter into the assessment of it, because people can’t figure out how to create an account, or some such.)
+
+More broadly, I’d stress the value of the exploratory phase in science—the phase where you just play around with your system and see what happens, without necessarily knowing yet what hypothesis you want to test.  Indeed, this phase is often what leads to formulating a testable hypothesis.
+
+But let me step back from these quibbles, to address something more interesting: what can I, personally, take from Inadequate Equilibria?  Is academic theoretical computer science broken/inadequate in the same way a lot of other institutions are?  Well, it seems to me that we have some built-in advantages that keep us from being as broken as we might otherwise be.  For one thing, we’re overflowing with well-defined problems, which anyone, including a total outsider, can get credit for solving.  (Of course, the “outsider” might not retain that status for long.)  For another, we have no Institutional Review Boards and don’t need any expensive equipment, so the cost to enter the field is close to zero.  Still, we could clearly be doing better: why didn’t we invent Bitcoin?  Why didn’t we invent quantum computing?  (We did lay some of the intellectual foundations for both of them, but why did it take people outside TCS to go the distance?)  Do we value mathematical pyrotechnics too highly compared to simple but revolutionary insights?  It’s worth noting that a whole conference, Innovations in Theoretical Computer Science, was explicitly founded to try to address that problem—but while ITCS is a lovely conference that I’ve happily participated in, it doesn’t seem to have succeeded at changing community norms much.  Instead, ITCS itself converged to look a lot like the rest of the field.
+
+Now for a still more pointed question: am I, personally, too conformist or status-conscious?  I think even “conformist” choices I’ve made, like staying in academia, can be defended as the right ones for what I wanted to do with my life, just as Eliezer’s non-conformist choices (e.g., dropping out of high school) can be defended as the right ones for what he wanted to do with his.  On the other hand, my acute awareness of social status, and when I lacked any—in contrast to what Eliezer calls his “status blindness,” something that I see as a tremendous gift—did indeed make my life unnecessarily miserable in all sorts of ways.
+
+Anyway, go read Inadequate Equilibria, then venture into the world and look for some $20 bills laying on the street.  And if you find any, come back and leave a comment on this post explaining where they are, so a conformist herd can follow you.
+
+================================================================================
+
+TITLE: The Karp-Lipton Advice Column
+URL: https://scottaaronson.blog/?m=201711
+CONTENT:
+Today, Shtetl-Optimized is extremely lucky to have the special guest blogger poly: the ‘adviser’ in the computational complexity class P/poly (P with polynomial-sized advice string), defined by Richard Karp and Richard Lipton in 1982.
+
+As an adviser, poly is known for being infinitely wise and benevolent, but also for having a severe limitation: namely, she’s sensitive only to the length of her input, and not to any other information about it.  Her name comes from the fact that her advice is polynomial-size, which is the problem that prevents her from simply listing the answers to every possible question in a gigantic lookup table, the way she’d like to.
+
+Without further ado, let’s see what advice poly is able to offer her respondents.
+
+Dear poly,
+
+When my husband and I first started dating, we were going at it like rabbits!  Lately, though, he seems to have no interest in sex.  That’s not normal for a guy, is it?  What can I do to spice things up in the bedroom?
+
+Sincerely,
+Frustrated Wife
+
+Dear Frustrated Wife,
+
+Unfortunately, I don’t know exactly what your question is.  All I was told is that the question was 221 characters long.  But here’s something that might help: whenever you’re stuck in a rut, sometimes you can “shake things up” with the use of randomness.  So, please accept, free of charge, the following string of 221 random bits:
+
+111010100100010010101111110010111101011010001
+000111100101000111111011101110100110000110100
+0010010010000010110101100100100111000010110
+111001011001111111101110100010000010100111000
+0111101111001101001111101000001010110101101
+
+Well, it’s not really “random,” since everyone else with a 221-character question would’ve gotten the exact same string.  But it’s random enough for many practical purposes.  I hope it helps you somehow … good luck!
+
+Sincerely,
+poly
+
+Dear poly,
+
+I’m a 29-year-old autistic male: a former software entrepreneur currently worth about $400 million, who now spends his time donating to malaria prevention and women’s rights in the developing world.  My issue is that I’ve never been on a date, or even kissed anyone.  I’m terrified to make an advance.  All I read in the news is an endless litany of male sexual misbehavior: Harvey Weinstein, Louis C. K., Leon Wieseltier, George H. W. Bush, Roy Moore, the current president (!), you name it.  And I’m consumed by the urge not to be a pig like those guys.  Like, obviously I’m no more likely to start stripping or masturbating or something in front of some woman I just met, than I am to morph into a koala bear.  But from reading Slate, Salon, Twitter, my Facebook news feed, and so forth, I’ve gotten the clear sense that there’s nothing I could do that modern social mores would deem appropriate and non-creepy—at least, not a guy like me, who wasn’t lucky enough to be born instinctively understanding these matters.  I’m grateful to society for enabling my success, and have no desire to break any of its written or unwritten rules.  But here I genuinely don’t know what society wants me to do.  I’m writing to you because I remember you from my undergrad CS classes—and you’re the only adviser I ever encountered whose advice could be trusted unconditionally.
+
+Yours truly,
+Sensitive Nerd
+
+Dear Sensitive Nerd,
+
+I see your that letter is 1369 characters long.  Based on that, here are a few things I can tell you that might be helpful:
+
+Write me a 3592-character letter the next time, and I’ll give you an even longer list of true mathematical statements!  (I actually know how to solve the halting problem—no joke!—but am condemned to drip, drip, drip out the solutions, a few per input length.)
+
+But I confess: no sooner did I list these truths than I reflected that they, or even a longer list, might not help much with your problem, whatever it might have been.  It’s even possible to have a problem for which no amount of truth helps in solving it.  So, I dunno: maybe try not worrying so much, and write back to let me know if that helped?  (Not that I expect to understand your reply, or would be able to change any of my advice at this point even if I did.)
+
+Good luck!
+–poly
+
+Dear poly,
+
+c34;c’y9v3x
+
+Sincerely,
+Unhappy in Unary
+
+Dear Unhappy in Unary,
+
+Finally, someone who writes to me in a language I can understand!  Your question is 11 characters long.  I understand that to be a code expressing that you’re bankrupt, and are filing for Chapter 11 bankruptcy protection.  Financial insolvency isn’t easy for anyone.  But here’s some advice: put everything you have into Bitcoin, and sell out a year from now.  Unfortunately, I don’t know exactly when you’re writing to me, but at least at the time my responses were hardwired in, this was some damn good advice.
+
+You’re welcome,
+poly
+
+poly’s polynomial-sized advice column is syndicated in newspapers nationwide, and can also be accessed by simply moving your tape head across your advice tape. You’re welcome to comment on this post, but I might respond only to the lengths of the comments, rather than anything else about them. –SA
+
+================================================================================
+
+TITLE: Superposition your mouse over these five exciting QC links!
+URL: https://scottaaronson.blog/?m=201711
+CONTENT:
+(1) My TEDx talk from Dresden, entitled “What Quantum Computing Isn’t,” is finally up on YouTube.  For regular Shtetl-Optimized readers, there’s unlikely to be much that’s new here: it’s basically 15 minutes of my usual spiel, packaged for mass consumption.  But while it went over well with the live audience, right now the only comment on the video is—I quote—“uuuuuuuuuuuuuuu,” from user “imbatman8472.”  So if you feel so inclined, go over there, watch it, and try to start a more contentful discussion!  Thanks so much to Andrés Goens, and everyone else in Dresden, for inviting me there and hosting a great visit.
+
+(2) On December 4-6, there’s going to be a new conference in Mountain View, called Q2B (Quantum Computing for Business).  There, if it interests you, you can hear about the embryonic QC industry, from some of the major players at Google, IBM, Microsoft, academia, and government, as well as some of the QC startups (like IonQ) that have blossomed over the last few years.  Oh yes, and D-Wave.  The keynote speaker will be John Preskill; Google’s John Martinis and IBM’s Jerry Chow will also be giving talks.  I regret that another commitment will prevent me from attending myself, but I hope to attend next year’s iteration.  (Full disclosure: I’m a scientific adviser to QC Ware, the firm that’s organizing the conference.)
+
+(3) On October 24, the House Science Committee heard three hours of testimony—you can watch it all here—about the need for quantum information research and the danger of the US falling behind China.  In what I believe is my first entry in the Congressional record, I’m quoted (for something totally incidental) at 1:09.  John Preskill was mostly just delighted that the witness, Jim Kurose, referred to me as a “physicist.”
+
+(4) For several years, people have been asking me whether Bitcoin is resistant against quantum attack.  Now there’s finally an expert analysis, by Aggarwal et al., that looks into exactly that question.  Two-sentence summary: the proof-of-work is probably fine, although Grover’s algorithm can of course be used against it, which might eventually necessitate adjusting the difficulty parameter to account for that, and/or migrating from a pure preimage search task to collision-finding, where my result with Yaoyun Shi showed that quantum computers offer “only” an n2/3 black-box speedup over classical computers, rather than a square-root speedup.  The scheme for signing the transactions, which is currently based on elliptic curve cryptography, is the real danger point, but again one could address that by migrating to a post-quantum signature scheme.  My main comment about the matter is that, if I’d invested in Bitcoin when I first learned about it, I’d be rich now.
+
+(5) In the first significant victory for my plan to spend a whole sabbatical year just writing up unwritten papers, I’ve got a new paper out today: Shadow Tomography of Quantum States.  Comments extremely welcome!
+
+================================================================================
+

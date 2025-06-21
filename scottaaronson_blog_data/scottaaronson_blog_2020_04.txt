@@ -1,0 +1,165 @@
+TITLE: Martinis, The Plot Against America, Kill Chain
+URL: https://scottaaronson.blog/?m=202004
+CONTENT:
+Update (May 1): Check out this Forbes interview, where Martinis explains his reasons for leaving Google in much more detail.
+
+As if we didn’t have enough to worry us, this week brought the sad news that John Martinis, who for five years was the leader and public face of Google’s experimental quantum computing effort, has quit Google and returned to his earlier post at UC Santa Barbara.  I’ve spoken about what happened both with John and with Hartmut Neven, the head of Google’s Quantum AI Lab.  Without betraying confidences, or asserting anything that either side would disagree with, I think I can say that it came down to a difference in management philosophies.  Google tends to be consensus-driven, whereas John is of the view that building a million-qubit, error-corrected quantum computer will take more decisive leadership.  I can add: I’d often wondered how John had time to travel the world, giving talks about quantum supremacy, while also managing the lab’s decisions on a day-to-day basis.  It looks now like I was right to wonder!  Potential analogies flood the mind: is this like a rock band that breaks up right after its breakout hit?  Is it like Steve Jobs leaving Apple?  Anyway, I wish the Google team the best in John’s absence, and I also wish John the best with whatever he does next.
+
+I was never big on HBO (e.g., I still haven’t seen a single minute of Game of Thrones), but in the last couple of weeks, Dana and I found ourselves watching two absolutely compelling HBO shows—one a fictional miniseries and the other a documentary, but both on the theme of the fragility of American democracy.
+
+The Plot Against America, based on the 2004 Philip Roth novel of the same name (which Dana read and which I now plan to read), is about an alternate history where the aviator Charles Lindbergh defeats FDR in the 1940 presidential election, on a fascist and isolationist platform, in events that—as countless people have pointed out—are eerily, terrifyingly prescient of what would actualy befall the US in 2016.  The series follows a Jewish insurance salesman and his family in Newark, NJ—isn’t that what it always is with Philip Roth?—as they try to cope with the country’s gradual, all-too-plausible slide downward, from the genteel antisemitism that already existed in our timeline’s 1940 all the way to riots, assassinations, and pogroms (although never to an American Holocaust).  One of the series’ final images is of paper ballots, in a rematch presidential election, being carted away and burned, underscoring just how much depends here on the mundane machinery of democracy.
+
+Which brings me to Kill Chain: The Cyber War on America’s Elections, a documentary about the jaw-droppingly hackable electronic voting machines used in US elections and the fight to do something about them.  The show mostly follows the journey of Harri Hursti, a Finnish-born programmer who’s made this issue his life’s work, but it also extensively features my childhood best friend Alex Halderman.  OK, but isn’t this a theoretical issue, one that (perhaps rightly) exercises security nerds like Alex, but surely hasn’t changed the outcomes of actual elections?
+
+Yeah, so about that.  You know Brian Kemp, the doofus governor of Georgia, who’s infamously announced plans to reopen the state right away, ignoring the pleading of public health experts—a  act that will fill Georgia’s ICUs and morgues as surely as night follows day?  And you know how Kemp defeated the Democrat, Stacey Abrams, by a razor-thin margin, in a 2018 election of which Kemp himself was the overseer?  It turns out that Kemp’s office distributed defective memory cards to African-American and Democratic precincts, though not to white and Republican ones.  There’s also striking statistical evidence that at least some voting machines were hacked, although because there was no paper trail it can never be proved.
+
+In short, what The Plot Against America and Kill Chain have in common is that they would be desperately needed warnings about the ease with which democracy could collapse in the US, except for the detail that much of what they warn about has already happened, and now it’s not clear how we get back.
+
+================================================================================
+
+TITLE: AirToAll: Another guest post by Steve Ebin
+URL: https://scottaaronson.blog/?m=202004
+CONTENT:
+Scott’s foreword: Today I’m honored to host another guest post by friend-of-the-blog Steve Ebin, who not only published a beautiful essay here a month ago (the one that I titled “First it came from Wuhan”), but also posted an extremely informative timeline of what he understood when about the severity of the covid crisis, from early January until March 31st.  By the latter date, Steve had quit his job, having made a hefty sum shorting airline stocks, and was devoting his full time to a new nonprofit to manufacture low-cost ventilators, called AirToAll.  A couple weeks ago, Steve was kind enough to include me in one of AirToAll’s regular Zoom meetings; I learned more about pistons than I had in my entire previous life (admittedly, still not much).  Which brings me to what Steve wants to talk about today: what he and others are doing and how you can help.
+
+Without further ado, Steve’s guest post:
+
+In my last essay on Coronavirus, I argued that Coronavirus will radically change society.  In this blog post, I’d like to propose a structure for how we can organize to fight the virus.  I will also make a call to action for readers of this blog to help a non-profit I co-founded, AirToAll, build safe, low-cost ventilators and other medical devices and distribute them across the world at scale.
+
+There are four ways we can help fight coronavirus:
+
+Obviously, not every example I listed is practical, advisable, or will work, and some options, like producing a vaccine, may be better solutions than others. But we must pursue all approaches.
+
+I’ve been devoting my own time to pursuing the fourth approach, reducing the chance that the illness will lead to death.  Specifically, along with Neil Thanedar, I co-founded AirToAll, a nonprofit that helps bring low-cost, reliable, and clinically tested ventilators to market.  I know lots of groups are working on this problem, so I thought I’d talk about it briefly.
+
+First, like many groups, we’re designing our own ventilators.  Although designing ventilators and bringing them to market at scale poses unique challenges, particularly in an environment where supply chains are strained, this is much easier than it must have been to build iron lungs in the early part of the 20th century, when Zoom conferencing wasn’t yet invented.  When it comes to the ventilators we’re producing, we’re focused on safety and clinical validation rather than speed to market.  We are not the farthest along here, but we’ve made good progress.
+
+Second, our nonprofit is helping other groups produce safe and reliable ventilators by doing direct consultations with them and also by producing whitepapers to help them think through the issues at hand (h/t to Harvey Hawes, Abdullah Saleh, and our friends at ICChange).
+
+Third, we’re working to increase the manufacturing capacity for currently approved ventilators.
+
+The current shortage of ventilators is a symptom of a greater underlying problem: namely, the world is not good at recognizing healthcare crises early and responding to them quickly.  While our nonprofit helps bring more ventilators to market, we are also trying to solve this greater underlying problem.  I look at our work in ventilator-land as a first step towards our ultimate goal of making medical devices cheaper and more available through an open-source nonprofit model.
+
+I am writing this post as a call to action to you, dear Shtetl-Optimized reader, to get involved.
+
+You don’t have to be an engineer, pulmonologist, virologist, or epidemiologist to help us, although those skillsets are of course helpful and if you are we’d love to have you.  If you have experience in data science and modeling, supply chain and manufacturing, public health, finance, operations, community management, or anything else a rapidly scaling organization needs, you can help us too.
+
+We are a group of 700+ volunteers and growing rapidly.  If you’d like to help, we’d love to have you.  If you might be interested in volunteering, click here.  Donors click here.  Everyone else, please email me at steven@airtoall.org and include a clear subject line so I can direct you to the right person.
+
+================================================================================
+
+TITLE: Lockdown day 39
+URL: https://scottaaronson.blog/?m=202004
+CONTENT:
+
+
+================================================================================
+
+TITLE: The quantum computer that knows all
+URL: https://scottaaronson.blog/?m=202004
+CONTENT:
+This is my first post in more than a month that’s totally unrelated to the covid crisis.  Or rather, it’s related only insofar as it’s about a Hulu miniseries, the sort of thing that many of us have more occasion to watch while holed up at home.
+
+Three weeks ago, a journalist named Ben Lindbergh—who’d previously asked me to comment on the scientific accuracy of Avengers: Endgame—asked me the same question about the miniseries Devs, which I hadn’t previously heard of.
+
+[Warning: Spoilers follow]
+
+‘Devs,’ I learned, is a spooky sci-fi action thriller about a secretive Silicon Valley company that builds a quantum computer that can perfectly reconstruct the past, down to what Jesus looked like on the cross, and can also (at least up to a point) predict the future.
+
+And I was supposed, not only to endure such a show, but to comment on the accuracy of its invocations of quantum computing?  This didn’t sound promising.
+
+But, y’know, I was at home quarantined.  So I agreed to watch the first episode.  Which quickly turned into the second, third, fourth, fifth, sixth, and seventh episodes (the eighth and final one isn’t out yet).
+
+It turns out that ‘Devs’ isn’t too bad, except that it’s not particularly about quantum computers.  The latter is simply a buzzword chosen by the writers for a plot concept that would’ve been entirely familiar to the ancient Greeks, who called it the Delphic Oracle.  You know, the mysterious entity that prophesies your fate, so then you try to escape the prophecy, but your very evasive maneuvers make the prophecy come true?  Picture that, except with qubits—and for some reason, in a gleaming golden laboratory that has components that float in midair.
+
+At this point, I’ll just link you to Ben Lindbergh’s article about the show: Making Sense of the Science and Philosophy of ‘Devs.’  His long and excellent piece quotes me extensively enough that I see no need also to analyze the show in this blog post.  (It also quotes several academic philosophers.)
+
+Instead, I’ll just share a few tidbits that Ben left out, but that might be amusing to quantum computing fans.
+
+Anyway, none of the above addresses the show’s central conceit: namely, that the Laplace demon can be made real, the past and future rendered fully knowable (with at most occasional breaks and exceptions) by a machine that’s feasible to build.  This conceit is fascinating to explore, but also false.
+
+In the past, if you’d asked me to justify its falsity, I would’ve talked about chaos, and quantum mechanics, and the unknowability of the fine details of the universe’s state; I might’ve even pointed you to my Ghost in the Quantum Turing Machine essay.  I also would’ve mentioned the severe conceptual difficulties in forcing Nature to find a fixed-point of a universe where you get to see your own future and act on that information (these difficulties are just a variant of the famous Grandfather Paradox).
+
+But it occurs to me that, just as the coronavirus has now made plain the nature of exponential growth, even to the world’s least abstract-minded person, so too it’s made plain the universe’s unpredictability.  Let’s put it this way: do you find it plausible that the quantum computer from ‘Devs,’ had you booted it up six months ago, would’ve known the exact state of every nucleotide in every virus in every bat in Wuhan?  No?  Then it wouldn’t have known our future.
+
+And I see now that I’ve violated my promise that this post would have nothing to do with covid.
+
+================================================================================
+
+TITLE: John Horton Conway (1937-2020)
+URL: https://scottaaronson.blog/?m=202004
+CONTENT:
+Update (4/13): Check out the comments on this post for some wonderful firsthand Conway stories.  Or for the finest tribute I’ve seen so far, see a MathOverflow thread entitled Conway’s lesser known results.  Virtually everything there is a gem to be enjoyed by amateurs and experts alike.  And if you actually click through to any of Conway’s papers … oh my god, what a rebuke to the way most of us write papers!
+
+John Horton Conway, one of the great mathematicians and math communicators of the past half-century, has died at age 82.
+
+Update: John’s widow, Diana Conway, left a nice note in the comments section of this post.  I wish to express my condolences to her and to all of the Conway children and grandchildren.
+
+Just a week ago, as part of her quarantine homeschooling, I introduced my seven-year-old daughter Lily to the famous Conway’s Game of Life.  Compared to the other stuff we’ve been doing, like fractions and right triangles and the distributive property of multiplication, the Game of Life was a huge hit: Lily spent a full hour glued to the screen, watching the patterns evolve, trying to guess when they’d finally die out.  So this first-grader knew who John Conway was, when I told her the sad news of his passing.
+
+“Did he die from the coronavirus?” Lily immediately asked.
+
+“I doubt it, but I’ll check,” I said.
+
+Apparently it was the coronavirus.  Yes, the self-replicating snippet of math that’s now terrorizing the whole human race, in part because those in power couldn’t or wouldn’t understand exponential growth.  Conway is perhaps the nasty bugger’s most distinguished casualty so far.
+
+I regrettably never knew Conway, although I did attend a few of his wildly popular and entertaining lectures.  His The Book of Numbers (coauthored with Richard Guy, who himself recently passed away at age 103) made a huge impression on me as a teenager.  I worked through every page, gasping at gems like eπ√163 (“no, you can’t be serious…”), embarrassed to be learning so much from a “fun, popular” book but grateful that my ignorance of such basic matters was finally being remedied.
+
+A little like Pascal with his triangle or Möbius with his strip, Conway was fated to become best-known to the public not for his deepest ideas but for his most accessible—although for Conway, a principal puzzle-supplier to Martin Gardner for decades, the boundary between the serious and the recreational may have been more blurred than for any other contemporary mathematician.  Conway invented the surreal number system, discovered three of the 26 sporadic simple groups, was instrumental in the discovery of monstrous moonshine, and did many other things that bloggers more qualified than I will explain in the coming days.
+
+Closest to my wheelhouse, Conway together with Simon Kochen waded into the foundations of quantum mechanics in 2006, with their “Free Will Theorem”—a result Conway liked to summarize provocatively as “if human experimenters have free will, then so do the elementary particles they measure.”  I confess that I wasn’t a fan at the time—partly because Conway and Kochen’s theorem was really about “freshly-generated randomness,” rather than free will in any sense related to agency, but also partly because I’d already known the conceptual point at issue, but had considered it folklore (see, e.g., my 2002 review of Stephen Wolfram’s A New Kind of Science).  Over time, though, the “Free Will Theorem” packaging grew on me.  Much like with the No-Cloning Theorem and other simple enormities, sometimes it’s worth making a bit of folklore so memorable and compelling that it will never be folklore again.
+
+At a lecture of Conway’s that I attended, someone challenged him that his proposed classification of knots worked only in special cases.  “Oh, of course, this only classifies 0% of knots—but 0% is a start!” he immediately replied, to roars from the audience.  That’s just one line that I remember, but nearly everything out of his mouth was of a similar flavor.  I noted that part of it was in the delivery.
+
+As a mathematical jokester and puzzler who could delight and educate anyone from a Fields Medalist to a first-grader, Conway had no equal.  For no one else who I can think of, even going back centuries and millennia, were entertainment and mathematical depth so closely marbled together.  Here’s to a well-lived Life.
+
+Feel free to share your own Conway memories in the comments.
+
+================================================================================
+
+TITLE: When events make craziness sane
+URL: https://scottaaronson.blog/?m=202004
+CONTENT:
+This post is simply to say the following (and thereby to make it common knowledge that I said it, and that I no longer give a shit who thinks less of me for saying it):
+
+If the pandemic has radicalized you, I won’t think that makes you crazy.  It’s radicalized me, noticeably shifted my worldview.  And in some sense, I no more apologize for that, than I apologize for my worldview presumably differing from what it would’ve been in some parallel universe with no WWII.
+
+If you suspect that all those earnest, well-intentioned plans and slogans about “flattening the curve” are wonderful and essential, but still, “flattening” is only a desperate gambit to buy some time and nothing more; still, flattening or no flattening, the fundamentals of the situation are that either
+
+(1) a vaccine or cure gets discovered and deployed, or else
+
+(2) we continue in quasi-lockdown mode for the rest of our lives, or else
+
+(3) the virus spreads to the point where it definitely kills some people you know,
+
+—if you suspect this, then at least in my book you’re not crazy.  I suspect the same.
+
+If you still don’t understand, no matter how patiently it’s explained to you, why ~18 months is the absolute bare minimum needed to get a vaccine out; if all the talk of Phase 1, 2, and 3 trials and the need to learn more about rare side effects and so forth seems hard to square with the desperate world war that this is; if you wonder whether the Allied commanders and Allied medical authorities in WWII, transported to the present, would agree that 18 months is the bare minimum, or whether they’d already be distributing vaccines a month ago that probably work well enough and do bounded damage if they don’t—I hereby confess that I don’t understand it either.
+
+If you wonder how the US will possibly hold an election in November that the world won’t rightly consider a sham—given that the only safe way will be universal vote-by-mail, but Trump and his five Vichy justices will never allow it—know that I wonder this too.
+
+If you think that all those psychiatrists now doing tele-psychiatry should tell their patients, “listen, I’ve been noticing an unhealthy absence of panic attacks, obsessions about the government trying to kill your family, or compulsive disinfecting of doorknobs, so I think we’d better up your dose of pro-anxiety medication”—I’m with you.
+
+If you see any US state that wants to avoid >2% deaths, being pushed to the brink of openly defying the FDA, smuggling in medical supplies to escape federal confiscation, using illegal tests and illegal masks and illegal ventilators and illegal everything else, and you also see military commanders getting fired for going outside the chain of command to protect their soldiers’ lives, and you wonder whether this is the start of some broader dissolution of the Union—well, I don’t intend to repeat the mistake of underestimating this crisis.
+
+If you think that the feds who literally confiscate medical supplies before they can reach the hospitals, might as well just shoot the patients as they’re wheeled into the ICU and say “we’re sorry, but this action was obligatory under directive 48c(7)”—I won’t judge you for feeling that way.
+
+If you feel like, while there are still pockets of brilliance and kindness and inspiration and even heroism all over US territory, still, as a federal entity the United States effectively no longer exists or functions, at least not if you treat “try to stop the mass death of the population” as a nonnegotiable component of the “life, liberty, and happiness” foundation for the nation’s existence—if you think this, I won’t call you crazy.  I feel more like a citizen of nowhere every day.
+
+If you’d jump, should the opportunity arise (as it won’t), to appoint Bill Gates as temporary sovereign for as long as this crisis lasts, and thereafter hold a new Constitutional Convention to design a stronger democracy, attempting the first-ever Version 2.0 (as opposed to 1.3, 1.4, etc.) of the American founders’ vision, this time with even more safeguards against destruction by know-nothings and demagogues—if you’re in for that, I don’t think you’re crazy.  I’m wondering where to sign up.
+
+Finally, if you’re one of the people who constantly emails me wrong P=NP proofs or local hidden-variable explanations of quantum mechanics … sorry, I still think you’re crazy.  That stuff hasn’t been affected.
+
+Happy Passover and Easter!
+
+================================================================================
+
+TITLE: If I used Twitter…
+URL: https://scottaaronson.blog/?m=202004
+CONTENT:
+I’m thinking of writing a novel where human civilization is threatened by a global pandemic, and is then almost singlehandedly rescued by one man … a man who reigned for decades as the world’s prototypical ruthless and arrogant tech billionaire, but who was then transformed by the love of his wife.  That is, if the billionaire can make it past government regulators as evil as they are stupid.  I need some advice: how can I make my storyline a bit subtler, so critics don’t laugh it off as some immature nerd fantasy?
+
+Updates (April 5): Thanks to several commenters for emphasizing that the wife needs to be a central character here: I agree!  The other thing is, I don’t want Fox News cheering my novel for its Atlas Shrugged vibe.  So maybe the pandemic is only surging out of control in the US because of the incompetence of a Republican president?  I don’t want to go ridiculously overboard, but like, maybe the president is some thuggish conman with the diction of a 5-year-old, who the deluded Republicans cheer anyway?  And maybe he’s also a Bible-thumping fundamentalist?  OK, that’s too much, so maybe the fundamentalist is like the vice president or something, and he gets put in charge of the pandemic response and then sets about muzzling the scientists?  As I said, I really need advice on making the messages subtler.
+
+================================================================================
+

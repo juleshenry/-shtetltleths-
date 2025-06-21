@@ -1,0 +1,42 @@
+TITLE: Off the grid
+URL: https://scottaaronson.blog/?m=200910
+CONTENT:
+My primary link to the rest of the cosmos—my Gmail account, bqpqpoly at gmail.com—has been down for more than 36 hours.  I get a “502 Server Error” every time I try to log in, from any computer and any browser.
+
+Any Shtetl-Optimized readers at Google: care to fix this for me?  (Or is this some sort of Halloween prank, or a paternalistic attempt to force me to stop answering emails and finish my STOC submissions?)
+
+If you need to reach me in the meantime, please write to ghh1729 at gmail.com.  (If you understand both “bqpqpoly” and “ghh1729,” I’ll even guarantee you a response.)
+
+Update (9PM Saturday): To be clear, the issue for me is not so much the outage itself, as the lack of any acknowledgment or response from Google.  (According to the Register article, even those who are paying $50 for “Premier” service can’t get through to Google’s support line, which is advertised as being 24-hour.)  I would like not merely a fix, but a personal apology from Larry and Sergey, and an explanation of what steps they’re taking to uphold the “don’t be evil” creed in the future.And to the many CS majors who read this blog: is this the sort of unresponsive corporate behemoth you want to work for? 🙂
+
+Update (4PM Sunday): OK, Google has finally acknowledged the problem.
+
+Update (6PM Sunday): Woohoo, my email is back!  But I’m missing everything from the last few days—so if you tried to mail me over the weekend, please resend.  Thanks!Google claims that this problem affected only 0.001% of Gmail users.  All I can say is that they picked the wrong 0.001%. 🙂
+
+I’m pretty sure that this is the longest I went without accessing my inbox since 1994.
+
+My revised view: Google is not an evil behemoth. They’re a good company, and would be a great one if it didn’t take hundreds of people 40 hours to get through to them when something goes extremely wrong.
+
+================================================================================
+
+TITLE: A little experiment
+URL: https://scottaaronson.blog/?m=200910
+CONTENT:
+In a New York Times column that exemplifies the highest instincts of science journalism, Dennis Overbye writes about two physicists’ idea that creating a Higgs boson is so abhorrent to the universe that backwards-in-time causal influences have conspired to prevent humans from seeing one—first by causing Congress to cancel the Superconducting Supercollider in 1993, and more recently by causing the faulty electrical connections that have delayed the startup of the LHC.  (For reactions, see pretty much any science blog.  Peter Woit writes that, with the exception of a defense by Sean Carroll, “pretty much all of [the blog chatter] has been unremittingly hostile, when not convinced that these papers must be some sort of joke.”)
+
+One of the originators of the theory, Holger Bech Nielsen, sounded familiar, so I looked him up.  It turns out I once heard him lecture about a plan to predict the specific masses and coupling constants of the Standard Model, by starting from the assumption that the laws of physics were “chosen randomly” (from which distribution was never exactly clear).  It struck me at the time that we had a shnood among shnoods here, a leader in the field of aggressively-wrong physics.
+
+However, I didn’t know at the time about Nielsen and his collaborator Masao Ninomiya’s universe-conspiring-to-stop-the-LHC proposal.  Mulling over the new theory, I realized that it has the ring of truth about it.  Specifically, assuming (as I do) that Nielsen and Nanomiya are correct, their theory can explain an bigger deeper mystery than why we haven’t yet seen a Higgs boson: namely, why haven’t I blogged for a month?  Why, when there’s plenty to blog about … when I just spent two weeks at the Kavli Institute in Santa Barbara for their special semester on quantum computing, when I’m now at Schloss Dagstuhl, Germany, for an exciting, lower-bound-packed workshop on algebraic methods in computational complexity?
+
+Clearly, the universe itself must have decided last month that this blog was so abhorrent to it, it would employ quantum postselection effects to force me to procrastinate whenever I would otherwise have posted something.  An obvious corollary is that, if I do manage to post something nevertheless, it will bring about the immediate end of the universe.
+
+The beautiful thing about science is that theories of this kind can be tested by observation.  So:
+
+3 …
+
+2 …
+
+1 …
+
+================================================================================
+

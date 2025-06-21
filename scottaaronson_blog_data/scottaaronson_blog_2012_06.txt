@@ -1,0 +1,24 @@
+TITLE: Two announcements
+URL: https://scottaaronson.blog/?m=201206
+CONTENT:
+Tomorrow, at 9AM EST (or an hour before teatime in Britain), I’ll be giving an online talk on Quantum Money from Hidden Subspaces (see here for PowerPoint slides) at the Q+ hangout on Google+.  To watch the talk, go here, then click the “Play” button on the video that will be there tomorrow.  Abstract:
+
+Forty years ago, Wiesner pointed out that quantum mechanics raises the striking possibility of money that cannot be counterfeited according to the laws of physics. We propose the first quantum money scheme that is (1) public-key, meaning that anyone can verify a banknote as genuine, not only the bank that printed it, and (2) cryptographically secure, under a “classical” hardness assumption that has nothing to do with quantum money. Our scheme is based on hidden subspaces, encoded as the zero-sets of random multivariate polynomials. A main technical advance is to show that the “black-box” version of our scheme, where the polynomials are replaced by classical oracles, is unconditionally secure. Previously, such a result had only been known relative to a quantum oracle (and even there, the proof was never published). Even in Wiesner’s original setting — quantum money that can only be verified by the bank — we are able to use our techniques to patch a major security hole in Wiesner’s scheme. We give the first private-key quantum money scheme that allows unlimited verifications and that remains unconditionally secure, even if the counterfeiter can interact adaptively with the bank. Our money scheme is simpler than previous public-key quantum money schemes, including a knot-based scheme of Farhi et al. The verifier needs to perform only two tests, one in the standard basis and one in the Hadamard basis — matching the original intuition for quantum money, based on the existence of complementary observables. Our security proofs use a new variant of Ambainis’s quantum adversary method, and several other tools that might be of independent interest.  Joint work with Paul Christiano.
+
+Update: Here’s a YouTube video of the talk.
+
+In unrelated news, Alistair Sinclair asked me to announce that UC Berkeley’s new Simons Institute for Theoretical Computer Science—you know, the thing Berkeley recently defeated MIT (among others) to get—is soliciting proposals for programs.  The deadline is July 15, so be sure to get your proposal in soon.
+
+================================================================================
+
+TITLE: Mihai Pătraşcu (1982-2012)
+URL: https://scottaaronson.blog/?m=201206
+CONTENT:
+Yesterday brought the tragic news that Mihai Pătraşcu—who revolutionized the field of data structures since he burst onto the scene a decade ago—has passed away at the age of 29, after a year-and-a-half-long battle with brain cancer.  Mihai was not only an outstanding researcher but a fun-loving, larger-than-life personality in the computer science theory community.  For more information, see Lance and Bill’s or Michael Mitzenmacher’s blogs.
+
+Mihai was an MIT CS PhD student (advised by Erik Demaine), who worked on the same floor as me for the first couple years I was here.  I’m still in shock over his loss—I hadn’t even known about the cancer before yesterday.   Mihai and I had pretty big disagreements, mostly over the viability of quantum computing, the “technical” versus “conceptual” theory debate, various things he wrote on his blog and various things I wrote on mine.  But it seems terribly stupid now to have let this stuff get in the way of collegiality.  I feel guilty for not trying to mend bridges with him when I had the chance.
+
+Rest in peace, Mihai.
+
+================================================================================
+

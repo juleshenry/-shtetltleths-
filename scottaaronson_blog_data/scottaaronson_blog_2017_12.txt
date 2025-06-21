@@ -1,0 +1,228 @@
+TITLE: Should I join Heterodox Academy?
+URL: https://scottaaronson.blog/?m=201712
+CONTENT:
+Happy new year, everyone!
+
+An anonymous commenter wrote:
+
+Scott, you seem to admire Steven Pinker, you had problems with SJW attacks for your now famous comment 171 and, if I remember well, you said you have some “heterodox” ideas that you think it’s dangerous to make public.  [Actually, I’m not sure I ever said that—indeed, if it were true, why would I say it? 🙂 –SA ]  Why aren’t you in the Heterodox Academy? Didn’t you know about it?
+
+Heterodox Academy is an organisation of professors, adjunct professors, post-docs and graduate students who are for freedom of speech, founded by Steven Pinker, Jonathan Haidt and a few other academics, and now has over 1000 members.
+
+https://heterodoxacademy.org
+
+(I’m not a member, because I’m not an academic or graduate student, but I sympathize very much with their fight to protect freedom of thought.)
+
+By coincidence, just last week I was looking at the Heterodox Academy website, and thinking about joining.  But then I got put off by the “pledge” for new members:
+
+“I believe that university life requires that people with diverse viewpoints and perspectives encounter each other in an environment where they feel free to speak up and challenge each other. I am concerned that many academic fields and universities currently lack sufficient viewpoint diversity—particularly political diversity. I will support viewpoint diversity in my academic field, my university, my department, and my classroom.”
+
+For some reason, I’m allergic to joining any organization that involves a pledge, even if it’s a pledge that I completely agree with.  And in this case, maybe the issue goes a bit deeper.  My central concern, with university life, is that academics share a baseline commitment to Enlightenment norms and values: e.g., to freedom of speech, reason, empiricism, and judging arguments by their merits rather than by the speaker’s identity.  These are the norms that I’d say enabled the scientific revolution, and that are still the fundamental preconditions for intellectual inquiry.
+
+A diversity of viewpoints is often a good diagnostic for Enlightenment norms, but it’s not the central issue, and is neither necessary nor sufficient.  For example, I don’t care if academia lacks “viewpoint diversity” in the UFO, creationism, or birther debates.  Nor do I care if the spectrum of ideas that gets debated in academia is radically different from the spectrum debated in the wider society.  Indeed, I don’t even know that it’s mathematically possible to satisfy everyone on that count: for example, a representative sampling of American political opinions might strike a European, or a Bay Area resident, as bizarrely clustered in one or two corners of idea-space, and the reverse might be equally true.
+
+More pointedly—and bear with me as I invent a bizarre hypothetical—if some sort of delusional, autocratic thug managed to take control of the United States: someone who promoted unhinged conspiracy theories; whose whole worldview were based on the overwhelming of facts, reason, reality, and even linguistic coherence by raw strength and emotion; whose every word and deed were diametrically opposed to any conceivable vision of the mission of a university—in such an extreme case, I’d hope that American academia would speak with one voice against the enveloping darkness, just as I would’ve hoped German academia would speak with one voice in 1933 (it didn’t).  When Enlightenment norms themselves are under assault, those norms are consistent with a unified response.
+
+Having said that, I’m certainly also worried about the erosion of Enlightenment norms within academia, or specific parts of academia: the speakers shouted down rather than debated, the classrooms taken over, the dogmatic postmodernism and blank-slatism, all the stuff Jonathan Haidt reviews in this article.  This is a development for which the left, not the right, bears primary responsibility.  I view it as a huge unearned gift that the “good guys” give the “bad guys.”  It provides them endless outrage-fodder.  It stokes their paranoid fantasies while also making us look foolish.  And it lets them call us hypocrites, whose prattle about science and reason and free inquiry has been conclusively unmasked.  So if Heterodox Academy is making headway against the illiberal wing of liberalism, that does seem like something I should support, regardless of any differences in emphasis.
+
+Readers: what do you think?  In the comments, give me your best argument for why I should or shouldn’t join Heterodox Academy.  Feel free to call my attention to anything the organization has been up to; my research has been less than comprehensive.  I’ll credit the most convincing argument(s) when I make a decision.  Like, not that it’s especially consequential either way, but if commenters here are going to argue anyway, we might as well make something actually hinge on it…
+
+
+
+================================================================================
+
+TITLE: Classifieds thread
+URL: https://scottaaronson.blog/?m=201712
+CONTENT:
+In addition to the emails from journalists, I also get a large number of emails seeking interactions with me—a discussion of cryptocurrencies, help in planning a political campaign, whatever—that could probably be had just as well, or better, with some other reader of this blog.  So inspired by Slate Star Codex, my lodestar of blog-greatness, I’ve decided to host Shtetl-Optimized‘s first ever classifieds thread.  This is your place to post any announcement, ad, offer, proposal, etc. that you think would be of particular interest to fellow Shtetl-Optimized readers.  As usual, I reserve the right to remove anything too spammy or otherwise unsuitable (“C@$H 4 G0LD!!!”), but will generally be pretty permissive.
+
+Oh yes: Merry Christmas to those who celebrate it, from a spot roughly equal driving distance (about an hour 20 minutes) from Nazareth and Bethlehem!
+
+Update: OK, let me start the ball rolling, or rather the photon propagating.  Reader Piotr Migdal wrote to tell me about a quantum optics puzzle game that he created.  I tried it and it’s excellent, and best of all clear: unlike virtually every other “quantum game” I’ve tried, it took me only a minute to figure this one out.  (Admittedly, it’s less of a quantum game than an “optics game,” in the sense that the effects it teaches about also appear with laser beams and other many-photon coherent states, which you don’t really need QM for, even though QM provides their ultimate explanation.  But whatever: it’s fun!)  Piotr has lots of other great stuff on his website.
+
+================================================================================
+
+TITLE: Journalist moratorium
+URL: https://scottaaronson.blog/?m=201712
+CONTENT:
+For over a decade, one of the main ways I’ve tried to advance the cause of Enlightenment has been talking to journalists writing popular articles on quantum computing (or P vs. NP, or the universe as a computer simulation, or whatever).  Because of my blog, journalists knew how to reach me, and because I’m a ham, I always agreed to be interviewed.  Well, I told myself I was doing it as my way of giving back to the field, so that my smarter colleagues would have more time for research.
+
+Unfortunately, this task has sort of taken over my life.  It used to be once a month, then it became once a week, and by now it’s pretty much every day.  Comment on this claim by IBM, that press release by Rigetti, this embargoed Nature paper by a group in Australia.  And when you do, it would be great if you could address this itemized list of 12 questions, with more questions coming later depending on what the editor needs.
+
+On Friday we were on a family outing, with Dana driving and me in the front passenger seat, typing out another reply to a journalist on my phone.  Because of my engrossment in my Enlightenment duties, I neglected to tell Dana where the exit was, which then made us a half hour late for a scheduled museum tour and nearly ruined the day.
+
+So then and there, I swore an oath to my family: that from now until January 1, 2019, I will be on vacation from talking to journalists.  This is my New Years resolution, except that it starts slightly before New Years.  Exceptions can be made when and if there’s a serious claim to have achieved quantum computational supremacy, or in other special cases.  By and large, though, I’ll simply be pointing journalists to this post, as a public commitment device to help me keep my oath.
+
+I should add that I really like almost all of the journalists I talk to, I genuinely want to help them, and I appreciate the extreme difficulty that they’re up against: of writing a quantum computing article that avoids the Exponential Parallelism Fallacy and the “n qubits = 2n bits” fallacy and passes the Minus Sign Test, yet also satisfies an editor for whom even the so-dumbed-down-you-rip-your-hair-out version was already too technical.  And things have gotten both more exciting and more confusing in the last few years, with even the experts disagreeing about what should count as a “real quantum speedup,” or how much we should expect quantum computers to help with optimization or machine learning problems.  And of course, if journalists are trying to sort this out, then they should talk to someone who knows a bit about it, and I lack the strategic false modesty to deny being such a person.  Like, someone who calls me to fact-check a quantum computing piece should be rewarded for having done something right!  Alas, these considerations are how I let talking to journalists take over my life, so I can no longer treat them as dispositive.
+
+For journalists looking for what to do, my suggestion is to talk to literally anyone else in the field.  E.g., look at the speakers from the past 20 years of QIP conferences—pretty much any of them could answer quantum computing questions as well as I can!  I’m tempted to name one or two specific colleagues to whom everyone should direct all their inquiries for the next year, but I can’t think of anyone I hate enough.
+
+Unrelated Update: There’s at least one striking respect in which a human baby is like a dog, cat, or other domesticated animal.  Namely, these are entities for which you can look into their eyes, and wonder whether they have any awareness whatsoever of the most basic facts of their situation.  E.g., do they “know” which individual person is looking at them?  Whether it’s morning or night?  Which room they’re currently in?  And yet, as soon as it comes to the entity’s food sources, all these doubts vanish.  Yes, the baby / dog / cat clearly does understand exactly which person is supposed to feed it, and at what time of day, and often even where the food is stored.  Implications for the mind/body problem (mind/stomach problem?) are left as exercises for the reader.
+
+Unrelated Update #2: As many of you have probably seen, the cruel and monstrous tax bill awaits only Twitler’s signature, but at least the PhD student tuition tax was taken out, so American higher education lives another day.  So, does this mean academics’ apoplectic fears were overblown?  No, because public opposition, based on widely disseminated information about what the new tax would do to higher education, probably played an important role in causing the provision to be removed.  Keep up the fight.
+
+================================================================================
+
+TITLE: ITCS’2018 and more
+URL: https://scottaaronson.blog/?m=201712
+CONTENT:
+My good friend Yael Tauman Kalai asked me to share the following announcement (which is the only part of this post that she’s responsible for):
+
+Dear Colleagues,
+
+We are writing to draw your attention to the upcoming ITCS (Innovations in Theoretical Computer Science ) conference, which will be held in Cambridge, Massachusetts, USA from January 11-14, 2018, with a welcome reception on January 11, 2018 at the Marriott Hotel in Kendall Square.  Note that the conference will run for 4 full days (Thursday–Sunday).
+
+The deadline for early registration and hotel block are both December 21, 2017.
+
+ITCS has a long tradition of holding a “graduating bits” event where graduating students and postdocs give a short presentation about their work. If you fit the bill, consider signing up — this is a great chance to showcase your work and it’s just plain fun. Graduating bits will take place on Friday, January 12 at 6:30pm.
+
+In addition, we will have an evening poster session at the Marriott hotel on Thursday, January 11 from 6:30-8pm (co-located with the conference reception).
+
+For details on all this and information on how to sign up, please check out the ITCS website:  https://projects.csail.mit.edu/itcs/
+
+In unrelated news, apologies that my entire website was down for a day! After noticing that my blog was often taking me like two minutes to load (!), I upgraded to a supposedly faster Bluehost plan. Let me know if you notice any difference in performance.
+
+In more unrelated news, congratulations to the people of Alabama for not only rejecting the medieval molester (barely), but—as it happens—electing a far better Senator than the President that the US as a whole was able to produce.
+
+One last update: my cousin Alix Genter—who was previously in the national news (and my blog) for a bridal store’s refusal to sell her a dress for a same-sex wedding—recently started a freelance academic editing business. Alix writes to me:
+
+I work with scholars (including non-native English speakers) who have difficulty writing on diverse projects, from graduate work to professional publications. Although I have more expertise in historical writing and topics within gender/sexuality studies, I am interested in scholarship throughout the humanities and qualitative social sciences.
+
+If you’re interested, you can visit Alix’s website here. She’s my cousin, so I’m not totally unbiased, but I recommend her highly.
+
+OK, one last last update: my friend Dmitri Maslov, at the National Science Foundation, has asked me to share the following.
+
+NSF has recently posted a new Dear Colleague Letter (DCL) inviting proposal submissions under RAISE mechanism, https://www.nsf.gov/pubs/2018/nsf18035/nsf18035.jsp.  Interdisciplinarity is a key in this new DCL.  The proposals can be for up to $1,000,000 total.  To apply, groups of PIs should contact cognizant Program Directors from at least three of the following NSF divisions/offices: DMR, PHY, CHE, DMS, ECCS, CCF, and OAC, and submit a whitepaper by February 16, 2018.  It is a somewhat unusual call for proposals in this respect.  I would like the Computer Science community to actively participate in this call, because I believe there may be a lot of value in collaborations breaking the boundaries of the individual disciplines.
+
+================================================================================
+
+TITLE: Googatory
+URL: https://scottaaronson.blog/?m=201712
+CONTENT:
+When I awoke with glowing, translucent hands, and hundreds of five-pointed yellow stars lined up along the left of my visual field, my first thought was that a dream must have made itself self-defeatingly obvious. I was a 63-year-old computer science professor. I might’ve been dying of brain cancer, but my mind was lucid enough that I’d refused hospice care, lived at home, still even met sometimes with my students, and most importantly: still answered my email, more or less. I could still easily distinguish dreams from waking reality. Couldn’t I?
+
+I stared at the digital clock beside my bed: 6:47am. After half a minute it changed to 6:48. No leaping around haphazardly. I picked up the two-column conference paper by my nightstand. “Hash-and-Reduce: A New Approach to Distributed Proximity Queries in the Cloud.” I scanned the abstract and first few paragraphs. It wasn’t nonsense—at least, no more so than the other papers that I still sometimes reviewed. The external world still ticked with clockwork regularity. This was no dream.
+
+Nervously, I got up. I saw that my whole body was glowing and translucent. My pajamas, too. A second instance of my body, inert and not translucent, remained in the bed. I looked into the mirror: I had no reflection. The mirror showed a bedroom unoccupied but for the corpse on the bed.
+
+OK, so I was a ghost.
+
+Just then I heard my nurse enter through the front door. “Bob, how you feeling this morning?” I met her in the foyer. “Linda, look what happened! I’m a ghost now, but interestingly enough, I can still..”
+
+Linda walked right through me and into the bedroom. She let out a small gasp when she saw the corpse, then started making phone calls.
+
+Over the following days, I accompanied my body to the morgue. I attended my little memorial session at the university, made note of which of my former colleagues didn’t bother to show up. I went to my funeral. At the wake, I stood with my estranged wife and grown children, who mostly remained none the wiser—except when they talked about how eerie it was, how it felt like I was still there with them. Or maybe I’d say something, and get no response from my family, but then five minutes later their conversation would mysteriously veer toward the topic I’d broached. It seemed that I still had full input from the world of the living, but that my only output channel was doing spooky haunted things that still maintained plausible deniability about my existence.
+
+Questions flooded my mind: were there other ghosts? Why was I in this purgatory … or whatever it was? Would I be here forever? And: what was that column of yellow stars in the left of my visual field, the stars that followed me everywhere?
+
+Once it seemed clear that I was here to stay, for some definition of “here,” I figured I might as well do the same stuff that filled my waking hours when I was alive. I pulled up a chair and sat at my laptop. I hit up The Washington Post, The Onion, xkcd, SMBC Comics, Slate Star Codex. They all worked fine.
+
+Then I switched to the Gmail tab. Hundreds of new messages. Former students asking for recommendation letters, prospective students wanting to work with me, grant managers howling about overdue progress reports, none of them bothering to check if I was dead.
+
+I replied to one randomly-chosen email:
+
+Dear Ashish,
+Thanks for your interest in joining our group. Alas, I’m currently dead and walking the earth as a translucent wraith. For that reason, I’m unable to take on new PhD students at this time.
+Best of luck!
+–Bob
+
+I clicked “Send” and—part of me was expecting this—got an error. Message not sent. Email couldn’t cross the barrier from the dead to the living: too obvious.
+
+Next I opened my “Starred” folder. I was greeted by 779 starred messages: each one a pressing matter that I’d promised myself I’d get to while alive but didn’t.
+
+Dear Bob,
+Hope you’re well. I think I’ve found another error in your 2002 paper ‘Cache-Oblivious Approximation Algorithms for Sparse Linear Algebra on Big Data.’ Specifically, in the proof of Lemma 4.2, you assume a spectral bound [har har, spectral], even though your earlier definition of the matrix A_i seems to allow arbitrary norm…
+
+I chuckled. Well, I did spend most of my life on this stuff, didn’t I? Shouldn’t I sort this out, just for the sake of my intellectual conscience?
+
+I opened up my old paper in Ghostview (what else?) and found the offending lemma. Then I took out pen and paper—they worked, luckily, although presumably my scribblings remained invisible to the living—and set to work. After an hour, I’d satisfied myself that the alleged error was nothing too serious, just a gap requiring a few sentences of clarification. I sadly had no direct way to tell my years-ago correspondent that, assuming the correspondent was still even alive and research-active and at the same email address. But still: good for my peace of mind, right?
+
+Then something happened: the first intimation of what my life, or rather undeath, was to consist of from then on. Faintly but unmistakably, one of the tiny yellow stars in the left of my visual field became a blue-gray outline. It was no longer filled with yellow.
+
+Excitedly, I clicked through more starred emails. Some I saw no easy way to deal with. But every time I could satisfy myself that an email was no longer relevant—whether it was an invitation to a long-ago workshop, a grant that I never applied for, a proposed research collaboration rendered moot by subsequent work—one of those yellow stars in my visual field lost its yellow filling. Before long there were ten blue-gray outline stars, then twenty.
+
+One day, while I invisibly attended an old haunt (har har)—the weekly faculty lunch in my former department—I encountered a fellow ghost: a former senior colleague of mine, who’d died twenty years prior. He and I got to talking.
+
+For the most part, my fellow specter confirmed what I’d already guessed. Yes, in some long-ago past, purgatory no doubt had a different character. Yes, it’s no doubt different for others, who lived different lives and faced different psychic burdens. For us, though, for the faculty, purgatory is neither more nor less than the place where you must reply to every last email that was still starred “important” when you died.
+
+In the afterlife, it turns out, it doesn’t matter how “virtuous” you were, unless altruism happens to have been your obsession while alive. What matters is just that you free yourself from whatever burdened you every night when you went to sleep, that you finish what you started. Those unable to do so remain ghosts forever.
+
+“So,” I asked the other polter-guest at the faculty lunch, “how long does it take a professor to finish answering a lifetime’s worth of emails?”
+
+“Depends. I’ve been doing it for twenty years.  Hoping to finish in twenty more.”
+
+“I see. And when you’ve dealt with the last email, what then?”
+
+“You pass to another place. None of us know exactly where. But”—and here his voice dropped to a whisper, as if anyone else present could hear ghosts—“it’s said to be a place of breathtaking tranquility. Where researchers like us wear flowing robes, and sit under olive trees, and contemplate truth and beauty with Plato and Euclid, and then go out for lunch buffet. Where there’s no email, no deadlines, no journals, no grant applications, no responsibilities but one: to explore whatever has captured your curiosity in the present moment. Some call it the Paradise of Productivity.”
+
+“Does everyone have to pass through purgatory first, before they go there?”
+
+“It’s said that, among all the computer scientists who’ve lived, only Alan Turing went straight to Paradise. And he died before email was even invented. When his time comes, Donald Knuth might also escape purgatory, since he forswore email in 1990. But Knuth, alas, might spend tens of thousands of years in a different purgatory, finishing Volume 4 of The Art of Computer Programming.
+
+“As for the rest of us, we all spend more or less time here with our wretched emails—for most of us, more. For one computer scientist—an Umesh Vazi-something, I believe, from Berkeley—it’s rumored that when he enters this place, even a trillion years won’t suffice to leave it. It’s said that the Sun will swallow the Earth, the night sky will go dark, and yet there Umesh will be, still clearing his inbox.”
+
+After a few years, I’d knocked off all the easy stuff in my Starred folder. Then, alas, I was left with missives like this:
+
+Hey, earth to Bob!
+The rest of us have done our part in writing up the paper. We’re all waiting on you to integrate the TeX files, and to craft an introduction explaining why anyone cared about the problem in the first place. Also, would you mind making a detailed pass through Sections 4.3 and 5.2?
+
+Ugh. There were so many slightly different TeX files. Which were the most recent? This could take a while.
+
+Nevertheless, after weeks of … ghosting on the project, I got to work revising the paper. There was, of course, the practical difficulty that I couldn’t directly communicate my edits back to the world of the living. Fortunately, I could still do haunted stuff. One day, for example, one of my former coauthors opened her old TeX file, and “discovered” that I’d actually done way more work on the paper while I was alive than anyone remembered I had. The mysteries of when exactly I did that work, and why no one knew about it at the time, were never satisfactorily resolved.
+
+Finally, after fourteen years, I’d succeeded in putting to rest 731 of my 779 starred emails. In the corner of my visual field was a vast array of blue-gray stars—but still, ominously, 48 yellow stars scattered among them.
+
+“God in Heaven!” I cried. “Whoever you are! I can’t handle any of the remaining starred emails, and thereby pass to the Paradise of Productivity, without sending replies back into the world of the living. Please, I beg you: let me breach this metaphysical wall.”
+
+A booming voice came down from on high. “YEA, BOB, WHAT THOU REQUESTETH IS POSSIBLE.  THOU WOULDST NOT EVEN BE THE FIRST GHOUL FOR WHOM I WOULDST GRANTETH THIS REQUEST: FAR FROM IT.  BUT I MUST WARN THEE: BREACHING THE WALL BETWEEN LIVING AND DEAD WILL BRINGETH FRUITS THAT THOU MAYST NOT LIKE.”
+
+“I think I’ll take my chances with those fruits.”
+
+“VERY WELL,” said God.
+
+And that’s how it is that, half a century after my death, I remain in purgatory still, my days now filled with missives like the following:
+
+Dear Bob,
+Thanks for the reply! I’m sorry to hear that you’re now a ghost condemned to answer emails before he can pass to the next world. My sympathies. Having said that, I have to confess that I still don’t understand Section 4.2 of your paper. When you get a chance, could you please clarify? I’ve cc’ed my coauthors, who might have additional followup questions.
+
+Note: To anyone who emailed me lately, I apologize for the delay in replying. I was writing this story. –SA
+
+================================================================================
+
+TITLE: Quickies
+URL: https://scottaaronson.blog/?m=201712
+CONTENT:
+Updates (Dec. 5): The US Supreme Court has upheld Trump’s latest travel ban.  I’m grateful to all the lawyers who have thrown themselves in front of the train of fascism, desperately trying to slow it down—but I could never, ever have been a lawyer myself.  Law is fundamentally a make-believe discipline.  Sure, there are times when it involves reason and justice, possibly even resembles mathematics—but then there are times when the only legally correct thing to say is, “I guess that, contrary to what I thought, the Establishment Clause of the First Amendment does let you run for president promising to discriminate against a particular religious group, and then find a pretext under which to do it.  The people with the power to decide that question have decided it.”  I imagine that I’d last about half a day before tearing up my law-school diploma in disgust, which is surely a personality flaw on my part.
+
+In happier news, many of you may have seen that papers by the groups of Chris Monroe and of Misha Lukin, reporting ~50-qubit experiments with trapped ions and optical lattices respectively, have been published back-to-back in Nature.  (See here and here for popular summaries.)  As far as I can tell, these papers represent an important step along the road to a clear quantum supremacy demonstration.  Ideally, one wants a device to solve a well-defined computational problem (possibly a sampling problem), and also highly-optimized classical algorithms for solving the same problem and for simulating the device, which both let one benchmark the device’s performance and verify that the device is solving the problem correctly.  But in a curious convergence, the Monroe group and Lukin group work suggests that this can probably be achieved with trapped ions and/or optical lattices at around the same time that Google and IBM are closing in on the goal with superconducting circuits.
+
+As everyone knows, the flaming garbage fire of a tax bill has passed the Senate, thanks to the spinelessness of John McCain, Lisa Murkowski, Susan Collins, and Jeff Flake.  The fate of American higher education will now be decided behind closed doors, in the technical process of “reconciling” the House bill (which includes the crippling new tax on PhD students) with the Senate bill (which doesn’t—that one merely guts a hundred other things).  It’s hard to imagine that this particular line item will occassion more than about 30 seconds of discussion.  But, I dunno, maybe calling your Senator or Representative could help.  Me, I left a voicemail message with the office of Texas Senator Ted Cruz, one that I’m confident Cruz and his staff will carefully consider.
+
+Here’s talk show host Seth Meyers (scroll to 5:00-5:20):
+
+“By 2027, half of all US households would pay more in taxes [under the new bill].  Oh my god.  Cutting taxes was the one thing Republicans were supposed to be good at.  What’s even the point of voting for a Republican if they’re going to raise your taxes?  That’s like tuning in to The Kardashians only to see Courtney giving a TED talk on quantum computing.”
+
+Speaking of which, you can listen to an interview with me about quantum computing, on a podcast called Data Skeptic.  We discuss the basics and then the potential for quantum machine learning algorithms.
+
+I got profoundly annoyed by an article called The Impossibility of Intelligence Explosion by François Chollet.  Citing the “No Free Lunch Theorem”—i.e., the (trivial) statement that you can’t outperform brute-force search on random instances of an optimization problem—to claim anything useful about the limits of AI, is not a promising sign.  In this case, Chollet then goes on to argue that most intelligence doesn’t reside in individuals but rather in culture; that there are hard limits to intelligence and to its usefulness; that we know of those limits because people with stratospheric intelligence don’t achieve correspondingly extraordinary results in life [von Neumann? Newton? Einstein? –ed.]; and finally, that recursively self-improving intelligence is impossible because we, humans, don’t recursively improve ourselves.  Scattered throughout the essay are some valuable critiques, but nothing comes anywhere close to establishing the impossibility advertised in the title.  Like, there’s a standard in CS for what it takes to show something’s impossible, and Chollet doesn’t even reach the same galaxy as that standard.  The certainty that he exudes strikes me as wholly unwarranted, just as much as (say) the near-certainty of a Ray Kurzweil on the other side.
+
+I suppose this is as good a place as any to say that my views on AI risk have evolved.  A decade ago, it was far from obvious that known methods like deep learning and reinforcement learning, merely run with much faster computers and on much bigger datasets, would work as spectacularly well as they’ve turned out to work, on such a wide variety of problems, including beating all humans at Go without needing to be trained on any human game.  But now that we know these things, I think intellectual honesty requires updating on them.  And indeed, when I talk to the AI researchers whose expertise I trust the most, many, though not all, have updated in the direction of “maybe we should start worrying.”  (Related: Eliezer Yudkowsky’s There’s No Fire Alarm for Artificial General Intelligence.)
+
+Who knows how much of the human cognitive fortress might fall to a few more orders of magnitude in processing power?  I don’t—not in the sense of “I basically know but am being coy,” but really in the sense of not knowing.
+
+To be clear, I still think that by far the most urgent challenges facing humanity are things like: resisting Trump and the other forces of authoritarianism, slowing down and responding to climate change and ocean acidification, preventing a nuclear war, preserving what’s left of Enlightenment norms.  But I no longer put AI too far behind that other stuff.  If civilization manages not to destroy itself over the next century—a huge “if”—I now think it’s plausible that we’ll eventually confront questions about intelligences greater than ours: do we want to create them?  Can we even prevent their creation?  If they arise, can we ensure that they’ll show us more regard than we show chimps?  And while I don’t know how much we can say about such questions that’s useful, without way more experience with powerful AI than we have now, I’m glad that a few people are at least trying to say things.
+
+But one more point: given the way civilization seems to be headed, I’m actually mildly in favor of superintelligences coming into being sooner rather than later.  Like, given the choice between a hypothetical paperclip maximizer destroying the galaxy, versus a delusional autocrat burning civilization to the ground while his supporters cheer him on and his opponents fight amongst themselves, I’m just about ready to take my chances with the AI.  Sure, superintelligence is scary, but superstupidity has already been given its chance and been found wanting.
+
+Speaking of superintelligences, I strongly recommend an interview of Ed Witten by Quanta magazine’s Natalie Wolchover: one of the best interviews of Witten I’ve read.  Some of Witten’s prouncements still tend toward the oracular—i.e., we’re uncovering facets of a magnificent new theoretical structure, but it’s almost impossible to say anything definite about it, because we’re still missing too many pieces—but in this interview, Witten does stick his neck out in some interesting ways.  In particular, he speculates (as Einstein also did, late in life) about whether physics should be reformulated without any continuous quantities.  And he reveals that he’s recently been rereading Wheeler’s old “It from Bit” essay, because: “I’m trying to learn about what people are trying to say with the phrase ‘it from qubit.'”
+
+I’m happy to report that a group based mostly in Rome has carried out the first experimental demonstration of PAC-learning of quantum states, applying my 2006 “Quantum Occam’s Razor Theorem” to reconstruct optical states of up to 6 qubits.  Better yet, they insisted on adding me to their paper!
+
+I was at Cornell all of last week to give the Messenger Lectures: six talks in all (!!), if you include the informal talks that I gave at student houses (including Telluride House, where I lived as a Cornell undergrad from 1998 to 2000).  The subjects were my usual beat (quantum computing, quantum supremacy, learnability of quantum states, firewalls and AdS/CFT, big numbers).  Intimidatingly, the Messenger Lectures are the series in which Richard Feynman presented The Character of Physical Law in 1964, and in which many others (Eddington, Oppenheimer, Pauling, Weinberg, …) set a standard that my crass humor couldn’t live up to in a trillion years.  Nevertheless, thanks so much to Paul Ginsparg for hosting my visit, and for making it both intellectually stimulating and a trip down memory lane, with meetings with many of the professors from way back when who helped to shape my thinking, including Bart Selman, Jon Kleinberg, and Lillian Lee.  Cornell is much as I remember it from half a lifetime ago, except that they must’ve made the slopes twice as steep, since I don’t recall so much huffing and puffing on my way to class each morning.
+
+At one of the dinners, my hosts asked me about the challenges of writing a blog when people on social media might vilify you for what you say.  I remarked that it hasn’t been too bad lately—indeed that these days, to whatever extent I write anything ‘controversial,’ mostly it’s just inveighing against Trump.  “But that is scary!” someone remarked.  “You live in Texas now!  What if someone with a gun got angry at you?”  I replied that the prospect of enraging such a person doesn’t really keep me awake at night, because it seems like the worst they could do would be to shoot me.  By contrast, if I write something that angers leftists, they can do something far scarier: they can make me feel guilty!
+
+I’ll be giving a CS colloquium at Georgia Tech today, then attending workshops in Princeton and NYC the rest of the week, so my commenting might be lighter than usual … but yours need not be.
+
+================================================================================
+

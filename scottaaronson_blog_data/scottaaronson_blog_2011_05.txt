@@ -1,0 +1,235 @@
+TITLE: Projects aplenty
+URL: https://scottaaronson.blog/?m=201105
+CONTENT:
+When ambitious students ask me for projects to work on, I usually kick myself for not having a list of favorite open problems that I can simply point them to.  Sure, half a year ago I listed some of my favorite open problems in quantum complexity theory—but what can I give the majority of students who are more classically-inclined?  The following haphazard list is my attempt at an answer.  Some of the “problems” are open-ended or ill-defined, some are actually implementation projects, some are no doubt trivial or solved, others are no doubt hopelessly difficult, and a couple are shamelessly filched from MathOverflow or CS Theory StackExchange.  Almost all are missing motivation and context.  Without further apologies…
+
+1. Create a zoo of cryptographic primitives (one-way functions, one-way permutations, pseudorandom generators, etc.) and the relationships between them, paralleling the Complexity Zoo.
+
+2. Build a public library of 3SAT instances, with as few variables and clauses as possible, that would have noteworthy consequences if solved.  (For example, instances encoding the RSA factoring challenges.)  Investigate the performance of the best current SAT-solvers on this library.
+
+3. Find an explicit n (the smaller the better) for which you can prove that the value of BB(n) (the nth Busy Beaver number) is independent of ZF set theory.  More generally, find a way to enumerate the proofs of ZF set theory, which requires a shorter or simpler program than the “obvious” proof-enumerating program.
+
+4. Call a cellular automaton “physically universal” if any polynomial-time transformation on any subset of n bits can be implemented by choosing a suitable initial configuration of the surrounding poly(n) bits.  (Note that my definition is potentially more inclusive than Janzing’s.)  Find interesting examples of cellular automata that you can prove are or are not physically universal.
+
+5. Prove explicit lower bounds on the number of arithmetic operations needed to compute the permanents and determinants of 3×3 and 4×4 matrices.  In the 4×4 case, can you obtain a separation between the permanent and the determinant?
+
+6. Are there proofs with (say) n2 symbols, in a proof system of your choice, for which (a) there exist proofs of the same statements with n symbols, but (b) finding the shorter proofs is computationally intractable?
+
+7. Call a set of k-by-k unitary matrices U1,…,Uk “linear-optics universal,” if for any n, any n-by-n unitary matrix U, and any ε>0, it’s possible to approximate U to within error ε by applying some finite set of Ui‘s to various ordered lists of k of the n indices.  Give necessary and sufficient conditions for a set of unitaries to be linear-optics universal.
+
+8. How hard is it to sample a (nearly) uniformly-random n-by-n invertible matrix over GF(2)?  Clearly it can be done in matrix multiplication time, but can we give evidence that it can’t be done in less?
+
+9. Is “collinearity logic” in NP?  In other words: given a collection of n points in the Euclidean plane, together with a list of triples of points that should be collinear and a list of triples that should not be collinear, is the problem of deciding whether the requirements are consistent in NP?  (It follows from known results about the existential theory of reals that this problem is in PSPACE; I thank Peter Shor for that observation.)
+
+10. Given a weighted bipartite graph, is there a polynomial-time algorithm to decide whether or not there are two perfect matchings with the same weight?
+
+11. Give nontrivial examples of problems that are complete for PromiseBPP.  Could approximating the permanent of a nonnegative matrix be an example of such a problem?  Alternatively, can that problem be solved in randomized NC?
+
+12. Given an explicit description of a Boolean circuit C of size (say) n3, and promised there exists a circuit of size (say) n2 that computes almost the same function as C, how hard is it to find the smaller approximating circuit?  Can we give cryptographic evidence that this problem is hard?  What additional assumptions about C make the problem easy (ideally, easy for reasons that require looking at the structure of C, rather than just treating it as a black box)?
+
+13. What is the randomized one-way communication complexity of the Group Membership Problem (in which, given a finite group G known to both players, Alice knows a subgroup H≤G, Bob knows an element x of G, and Alice’s goal is to send Bob a short message that enables him to decide whether x is in H)?
+
+14. Study the lower bounds on Manifestly-Orthogonal Tree Size in my paper Multilinear Formulas and Skepticism of Quantum Computing.  In particular, do these lower bounds evade the Razborov-Rudich natural proofs barrier?
+
+15. Prove an oracle separation between BPP and PBPNC.  (Likewise, prove an oracle separation between BQP and BPPBQNC.)
+
+16. Are there plausible pseudorandom functions computable by ACC0 circuits?
+
+17. Prove a strong anti-concentration theorem for the permanent of a matrix of iid Gaussian entries.
+
+18. Given the truth table of a Boolean function f:{0,1}n*{0,1}m→{0,1}, are there efficient algorithms to compute (or approximate) the randomized and quantum one-way communication complexities of f?
+
+19. Classify the possible sets of classical reversible gates acting on bits, by the sets of transformations that they generate.  (I.e., what is the analogue of Post’s lattice in this setting?)  As a warmup, classify the possible sets of classical reversible gates that act linearly over GF(2) (like the NOT and CNOT gates).
+
+20. Do there exist probability distributions D1,D2 over n-bit strings such that (D12+D22)/2 (an equal mixture of two independent samples from D1 and two independent samples from D2) is efficiently samplable, even though D1 and D2 themselves are not efficiently samplable?  (This is closely-related to a beautiful question posed by Daniel Roy, of whether the de Finetti Theorem has a “polynomial-time analogue.”)
+
+21. Is BB(n) (the nth Busy Beaver number) odd infinitely often?  Is it decidable whether BB(n) is odd?
+
+22. Show there are tasks that Turing machines with (d+1)-dimensional tapes can solve polynomially faster than Turing machines with d-dimensional tapes.
+
+23. Extend my results from A Counterexample to the Generalized Linial-Nisan Conjecture to show that Σ2PA ≠ Π2PA with probability 1, relative to a random oracle A.
+
+24. Given a function f:[N]→[N], which is promised to be either one-to-one or two-to-one, what’s the optimal MA-protocol for proving f is one-to-one (i.e., what’s the optimal tradeoff between the size of the witness and the number of queries needed to verify it)?
+
+================================================================================
+
+TITLE: The Territory Around BQP
+URL: https://scottaaronson.blog/?m=201105
+CONTENT:
+A commenter named Blake Stacey pointed me to a talk entitled The Territory Around BQP: Results and Open Problems, which was given at the Perimeter Institute this past Friday, and which I’d had no idea was available on streaming video.  This talk was part of a fantastic workshop called Conceptual Foundations and Foils for Quantum Information Processing, which was about ways of changing the laws of quantum mechanics to get alternative theories that still make some sort of sense, and that might shed new light on the “tried-and-true original.”  In this particular talk, the speaker discusses a large number of ways to make the complexity class BQP (Bounded-Error Quantum Polynomial-Time) “slightly” bigger or smaller.  I’m embarrassed to admit that I watched this particular talk transfixed to the computer screen: I genuinely couldn’t predict how BQP was going to get mutilated next, and I looked forward to finding out.
+
+================================================================================
+
+TITLE: Quantum-Effect-Demonstrating Beef
+URL: https://scottaaronson.blog/?m=201105
+CONTENT:
+Update (May 25): See my Q&A about D-Wave’s new announcement at Forbes.com.
+
+Update (May 26): See also this very helpful Quora post by Dave Bacon, who says mostly the same things I did (though it always sounds better when he says it!)
+
+Clearly, there hasn’t been enough controversy on Shtetl-Optimized this past week.  But I have just the thing to fix that: a new D-Wave post!
+
+For three days, people have been sending me the news by land, sea, and air that D-Wave just published a paper in Nature, describing evidence for quantum annealing behavior in a system of eight superconducting flux qubits.  The paper itself is behind a paywall, but the more detailed Electronic Supplementary Material is available for free (see also D-Wave’s blog post).  As usual, my readers apparently expect me to render an instantaneous opinion.
+
+But for the first time in the history of major D-Wave announcements, I’m unable to do so.  For D-Wave is finally doing the very thing that I and others have been begging them to do for years: that is, directly addressing the question of whether their systems actually exploit quantum effects, or just perform classical simulated annealing.  In the new work, they apply an annealing operation to eight coupled qubits arranged in a 1D chain, then plot the probability of a particular basis state as a function of time, by running the experiment over and over and stopping it at various intermediate points.  They then look at the dependence of the probability-versus-time curve on a third parameter, the temperature, and claim that they can explain the curve’s temperature dependence by a numerical simulation that assumes quantum mechanics, but not by one that assumes classical simulated annealing.
+
+To be clear, an eight-qubit spin chain with a quantum-mechanical temperature dependence is still a very long way from anything commercially useful (and it’s notable that, now that D-Wave has happily joined the ruling-out-the-null-hypothesis club, we’re down from 128 qubits back to 8).  This paper also makes no claims to demonstrate entanglement, which is almost certainly necessary for any interesting quantum speedup, and which has been verified in other superconducting qubit experiments (e.g., the Schoelkopf Lab‘s at Yale), but as far as I know still not in D-Wave’s.  Even so, after four years of the quantum computing community being told to review a restaurant based solely on its ice water and table settings, I’m delighted that D-Wave has finally brought an appetizer.  Expert readers who’ve actually tasted the appetizer are urged, in the strongest terms, to share their analysis in the comments section.  I’m looking forward to our least-uninteresting D-Wave discussion ever.
+
+But first, let me anticipate the question that at least one commenter will ask (I mean you, rrtucci).  No, I don’t have any regrets about pouring cold water on D-Wave’s previous announcements, because as far as I can tell, I was right!  For years, D-Wave trumpeted “quantum computing demonstrations” that didn’t demonstrate anything of the kind; tried the research community’s patience with hype and irrelevant side claims; and persistently dodged the central question of how it knew it was doing quantum computing rather than classical simulated annealing.  So when people asked me about it, that’s exactly what I told them.  Now, whether because it took the skeptics’ criticisms to heart, or for whatever other reasons, D-Wave has done a real experiment that deserves the careful scrutiny it will receive.  I just call the shots as they’re fired.
+
+As some of you might be aware, I’m a theoretical computer scientist, not a physicist (much less an experimentalist).  So in previous posts, the only  reason I even presumed to comment on experimental matters is that D-Wave made  it easy for me!  My “expert analysis” mostly just consisted of  pointing out, over and over, that D-Wave hadn’t yet brought the QEDB (Quantum-Effect-Demonstrating Beef)—and that, until they did so, there seemed to be little reason even to discuss the other issues that D-Wave’s marketing materials and the press were both spending 95% of their time on.  Now that a slice of QEDB (or something that looks like one, anyway) is on the table, I think there’s at least as much need as ever for critical evaluation of D-Wave’s claims from the quantum computing research community, but I no longer see Shtetl-Optimized filling that need.   So I hereby announce my retirement as Chief D-Wave Skeptic, a job that I never wanted in the first place.  New applicants for this rewarding position are urged to apply in the comments section; background in experimental physics a must.
+
+================================================================================
+
+TITLE: Point/Counterpoint: “speaking truth to power” vs. speaking power to idiocy
+URL: https://scottaaronson.blog/?m=201105
+CONTENT:
+Spoiler: Actual change of opinion below!  You’ll need to read to the end, though.
+
+I’ve learned that the only way to find out who reads this blog is to criticize famous people.  For example, when I criticized Ayn Rand’s Atlas Shrugged, legions of Objectivist readers appeared out of nowhere to hammer me in the comments section, while the left-wing readers were silent.  Now that I criticize Chomsky (or originally, mainly just quoted him), I’m getting firebombed in the comments section by Chomsky fans, with only a few brave souls showing up from the right flank to offer reinforcements.  One would imagine that, on at least one of these topics, more readers must agree with me than are making themselves heard in the comments—but maybe I just have the rare gift of writing in a way that enrages everyone!
+
+Yesterday, I found myself trying to be extra-nice to people I met, as if to reassure myself that I wasn’t the monster some of the Chomskyan commenters portrayed me as.  I told myself that, if agreeing with President Obama’s decision to target bin Laden made me a barbarian unworthy of civilization, then at least I’d have the likes of Salman Rushdie, Christopher Hitchens, and Jon Stewart with me in hell—better company than Sean Hannity and Rush Limbaugh.
+
+In my view, one of the reasons the discussion was so heated is that two extremely different questions got conflated (leaving aside the third question of whether al Qaeda was “really” responsible for 9/11, which I find unworthy of discussion).
+
+The first question is whether, as Chomsky suggests, the US government is “uncontroversially” a “vastly” worse terrorist organization than al Qaeda, since it’s caused many more civilian deaths.  On this, my opinion is unchanged: the answer is a flat-out no.  There is a fundamental reason, having nothing to do with nationalist prejudices, why Osama bin Laden was much more evil than Henry Kissinger, Donald Rumsfeld, Dick Cheney, and George W. Bush combined.  The reason is one that Chomsky and his supporters find easy to elide, since—like many other facts about the actual world—it requires considering hypothetical scenarios.
+
+Give Kissinger, Rumsfeld, Cheney, and Bush magic dials that let them adjust the number of civilian casualties they inflict, consistent with achieving their (partly-justified and largely-foolish) military goals.  As odious as those men are, who can deny that they turn the dial to zero?  By contrast, give bin Laden a dial that lets him adjust the number of Jews, Americans, and apostates he kills, and what do you think the chances are that he turns it from 3000 up to 300 million, or “infinity”?  But if, implausibly (in my view), one maintains that bin Laden would have preferred not to kill any civilians, provided that he could magically attain his goal of imposing Sharia law on the world, then the crux of the matter is simply that I don’t want to live under Sharia law: I even prefer living in George W. Bush’s America.  (One obvious reason these hypotheticals matter is that, once the Jihadists get access to nuclear weapons, the dial is no longer particularly hypothetical at all.)
+
+So much for the first question.  The second, and to me much more worthwhile question, is whether the US should have made a more strenuous effort to capture bin Laden alive and try him, rather than executing him on the spot.  (Of course, part of the problem is that we don’t really understand how strenuous of an effort the SEAL team did make.  However, let’s suppose, for the sake of an interesting question, that it wasn’t very strenuous.)  It’s on this second question that my views have changed.
+
+My original reasoning was as follows: the purpose of a trial is to bring facts to light, but this is an unusual case in which the entire world has known the facts for a decade (and the “defendant” agrees to the facts, having openly declared war on the West).  It’s almost impossible to conceive of a person who would be convinced after a trial of bin Laden’s guilt, who wasn’t already convinced of it now.  The people who need convincing—such as Jihadists and 9/11 conspiracy theorists—are people who can never be convinced, for fundamental reasons.  Therefore, while a trial would have been fine—if bin Laden had come out with his hands up, or (let’s suppose) turned himself in, at any point during the last decade—a bullet to the head was fine as well.
+
+To put it differently: trials struck me as merely a means to the end of justice, just as college courses are merely a means to the end of learnin’.  Now personally, I always favor letting a student skip a course if it’s obvious that the student already knows the material—even if that means bending university rules.  It stands to reason, then, that I should similarly favor letting a government skip a trial if the verdict is already obvious to the entire sane world.
+
+Many commenters made arguments against this viewpoint—often phrased in terms of bin Laden’s “rights”—that did nothing to persuade me.  The one argument that did ultimately persuade me was that, at least for some people, trials are not just a means to an end: they’re an end in themselves, a moving demonstration of the superiority of our system to the Nazis’ and the Jihadists’.  Here’s how a reader named Steve E put it, in a personal email that he’s kindly allowed me to quote:
+
+I wonder what you think of the proposition that the Jews of Norwich  [the victims of the first blood libel, in 1190] would have preferred a show trial to the mob justice they received. I’m  not sure of this proposition, because I could also see a show trial  being somehow worse, but on the other hand wouldn’t we all prefer a real  trial to a show trial and a show trial to no trial when our lives hang  in the balance? Trials perform a nontrivial service even if they  don’t convince anyone who is not already convinced, just as human babies  perform a nontrivial service even if they have no use, and particle  colliders perform a nontrivial service even if they don’t defend our  nation. Trials make our nation worth defending; they, like human babies,  have intrinsic value not just for their potential. In this case, it may  be true that giving bin Laden a trial would have been a bonus rather  than a requirement, but wouldn’t you agree that it’d have been a bonus?  Trying Osama bin Laden would have shown our moral high ground, maybe not  to some who can’t be convinced of America’s goodness, but it would have  done so for me! (I’m very proud that Israel tried Eichmann, not just  because it showed the world about the Holocaust, but also because it  showed me about Israel’s character. Let people react to the trial as  they may. That trial had meaning to me.)
+
+And so I’ve decided that, while assassinating bin Laden was vastly better than leaving him at large, and I applaud the success of the operation, it would’ve been even better if he’d been captured alive and tried—even if that’s not what bin Laden himself wanted.  For the sake of people like Steve E.
+
+Noam Chomsky:
+
+It’s increasingly clear that the operation was a planned assassination,  multiply violating elementary norms of international law. There appears  to have been no attempt to apprehend the unarmed victim, as presumably  could have been done by 80 commandos facing virtually no  opposition—except, they claim, from his wife, who lunged towards them.  In societies that profess some respect for law, suspects are apprehended  and brought to fair trial. I stress “suspects.” In April 2002, the head  of the FBI, Robert Mueller, informed the press that after the most intensive investigation in history, the FBI could say no more than that it “believed” that the plot was hatched in Afghanistan, though implemented in the UAE and  Germany. What they only believed in April 2002, they obviously didn’t  know 8 months earlier, when Washington dismissed tentative offers by the  Taliban (how serious, we do not know, because they were instantly  dismissed) to extradite bin Laden if they were presented with  evidence—which, as we soon learned, Washington didn’t have. Thus Obama  was simply lying when he said, in his White House statement, that “we  quickly learned that the 9/11 attacks were carried out by al Qaeda.”
+
+Nothing serious has been provided since. There is much talk of bin  Laden’s “confession,” but that is rather like my confession that I won  the Boston Marathon. He boasted of what he regarded as a great  achievement.
+
+There is also much media discussion of Washington’s anger that Pakistan  didn’t turn over bin Laden, though surely elements of the military and  security forces were aware of his presence in Abbottabad. Less is said  about Pakistani anger that the U.S. invaded their territory to carry out a political assassination…
+
+We might ask ourselves how we would be reacting if Iraqi commandos  landed at George W. Bush’s compound, assassinated him, and dumped his  body in the Atlantic. Uncontroversially, his crimes vastly exceed bin  Laden’s, and he is not a “suspect” but uncontroversially the “decider”  who gave the orders to commit the “supreme international crime differing  only from other war crimes in that it contains within itself the  accumulated evil of the whole” (quoting the Nuremberg Tribunal) for  which Nazi criminals were hanged…
+
+There is much more to say, but even the most obvious and elementary facts should provide us with a good deal to think about.
+
+President Obama:
+
+Shortly after I got into office, I brought [CIA  director] Leon Panetta privately into the Oval Office and I said to him,  “We need to redouble our efforts in hunting bin Laden down. And I want  us to start putting more resources, more focus, and more urgency into  that mission” …
+
+We had multiple meetings in the Situation Room in  which we would map out — and we would actually have a model of the  compound and discuss how this operation might proceed, and what various  options there were because there was more than one way in which we might  go about this.
+
+And in some ways sending in choppers and  actually puttin’ our guys on the ground entailed some greater risks than  some other options. I thought it was important, though, for us to be  able to say that we’d definitely got the guy. We thought that it was  important for us to be able to exploit potential information that was on  the ground in the compound if it did turn out to be him.
+
+We  thought that it was important for us not only to protect the lives of  our guys, but also to try to minimize collateral damage in the region  because this was in a residential neighborhood …
+
+================================================================================
+
+TITLE: Better late than never
+URL: https://scottaaronson.blog/?m=201105
+CONTENT:
+No, I’m not talking about Osama, but about my reactions below to a New Yorker article about quantum computing—reactions whose writing was rudely interrupted by last night’s news.    Of all the possible times in the past decade to get him, they had to pick one that would overshadow an important Shtetl-Optimized discussion about complexity theory, the Many-Worlds Interpretation, and the popularization of science?   Well, I guess I’ll let it slide.
+
+As already discussed on Peter Woit’s blog, this week’s New Yorker has a long piece about quantum computing by the novelist Rivka Galchen (unfortunately the article is behind a paywall).  Most of the article is about the quantum computing pioneer David Deutsch: his genius, his eccentricity, his certainty that parallel universes exist, his insistence on rational explanations for everything, his disdain for “intellectual obfuscators” (of whom Niels Bohr is a favorite example), his indifference to most of the problems that occupy other quantum computing researchers, the messiness of his house, his reluctance to leave his house, and his love of the TV show House.
+
+Having spent a wonderful, mind-expanding day with Deutsch in 2002—at his house in Oxford, of course—I can personally vouch for all of the above (except the part about House, which hadn’t yet debuted then).  On the one hand, Deutsch is one of the most brilliant conversationalists I’ve ever encountered; on the other hand, I was astonished to find myself, as a second-year graduate student, explaining to the father of quantum computing what BQP was.  So basically, David Deutsch is someone who merits a New Yorker profile if anyone does.  And I was pleased to see Galchen skillfully leveraging Deutsch’s highly-profilable personality to expose a lay audience (well, OK, a chardonnay-sipping Manhattan socialite audience) to some of the great questions of science and philosophy.
+
+However, reading this article also depressed me, as it dawned on me that the entire thing could have  been written fifteen years ago, with only minor changes to the parts about experiment and zero change to the theoretical parts.  I thought: “has there really been that little progress in quantum computing theory the past decade and a half—at least progress that a New Yorker reader would care about?”  Even the sociological observations are dated: Galchen writes about interest in quantum computing as the “Oxford flu,” rather than the “Waterloo flu” or “Caltech flu” that it’s been since 2000 or so (the latter two capitals of the field aren’t even mentioned!).  A good analogy would be an article about the Web, published today, that described the strange and exciting new world of Netscape, HotBot, and AltaVista.
+
+A more serious issue is that the article falls victim to almost every misleading pop-science trope about quantum computing that some of us have trying to correct for the past decade.  For example:
+
+With one millionth of the hardware of an ordinary laptop, a quantum  computer could store as many bits of information as there are particles  in the universe.
+
+Noooooo!  That’s only for an extremely strange definition of “store”…
+
+Oxford’s eight-qubit quantum computer  has significantly less  computational power than an abacus, but fifty  to a hundred qubits could  make something as powerful as any laptop.
+
+Noooooo!   Fifty to a hundred qubits could maybe replace your laptop, if the only thing you wanted to use your laptop for was simulating a system of fifty to a hundred qubits…
+
+In a 1985 paper, Deutsch pointed out that, because Turing was working  with classical physics, his universal computer could imitate only a  subset of possible computers.  Turing’s theory needed to account for  quantum mechanics if its logic was to hold.  Deutsch proposed a  universal quantum computer based on quantum physics, which would have  calculating powers that Turing’s computer (even in theory) could not  simulate.
+
+There are at least three problems here.  The first is conflating simulation with efficient simulation.  At the risk of going hoarse, a classical Turing machine can calculate absolutely everything that a quantum computer can calculate! It might “merely” need exponentially more time.  Second, no one has proved that a classical Turing machine really does need exponentially more time, i.e., that it can’t efficiently simulate a quantum computer.  That remains a (deep, plausible, and widely-believed) conjecture, which will take enormous mathematical advances to resolve.  And third, Deutsch’s landmark paper wasn’t among the ones to give evidence for that conjecture.  The first such evidence only came later, with the work of Bernstein-Vazirani, Simon, and Shor.
+
+To be fair to Galchen, Deutsch himself has often been inaccurate on these points, even though he ought to (and does!) know better.  Specifically, he conflates the original Church-Turing Thesis (which isn’t challenged in the slightest by quantum computing) with its modern, polynomial-time version (which is), and he neglects to mention the conjectural status of quantum computers’ speedup.  Here are two examples out of many, from The Fabric of Reality:
+
+“quantum computers can perform computations of which no (human) mathematician will ever, even in principle, be capable.”
+“if the visible universe were the extent of physical reality, physical reality would not even remotely contain the resources required to factorize such a large number.”
+
+Am I just harping over technicalities here?  In my view, the issue goes deeper.  All of the above oversights can be understood as symptoms of complexophobia: the fear of acknowledging that one is actually making statements about computational complexity theory.  Again and again, I’ve seen science writers go through strange verbal contortions to avoid the question of how anyone could know that a computation inherently requires a huge amount of time—as if the reader must be prevented, at all costs, from seeing such a claim as anything other than obvious.  It can be fascinating to watch, in the same way it’s fascinating to watch a politician discuss (say) Confederate History Month without mentioning slavery.  How long can you poke and prod the P versus NP beast without rousting it?
+
+On the other hand, complexity theory does show up in Galchen’s article, and in an extremely interesting context: that of explaining where Deutsch got the idea for quantum computing.
+
+According to Deutsch, the insight for [his famous 1985 paper] came from a  conversation in the early eighties with the physicist Charles Bennett,  of I.B.M., about computational-complexity theory, at the time a sexy new  field that investigated the difficulty of a computational task.
+
+Is “at the time” meant to imply complexity theory is no longer sexy, or merely that  it’s no longer new?  Leaving that aside…
+
+Mass, for instance, is a fundamental property, because it remains  the same in any setting; weight is a relative property, because an  object’s weight depends on the strength of gravity acting on it … If  computational complexity was like mass—if it was a relative  property—then complexity was quite profound; if not, then not.
+
+“I was just sounding off,” Deutsch said.  “I said they make too much  of this”—meaning complexity theory—“because there’s no standard  computer with respect to which you should be calculating the complexity  of the task.”  Just as an object’s weight depends on the force of  gravity in which it’s measured, the degree of computational complexity  depended on the computer on which it was measured.  One could find out  how complex a task was to perform on a particular computer, but that  didn’t say how complex a task was fundamentally, in reference to the  universe … Complexity theorists, Deutsch reasoned, were wasting their  time.
+
+The tale continues with Bennett pointing out that the universe itself could be taken to be the “fundamental computer,” which leads Deutsch to the shocking realization that the complexity theorists weren’t complete morons. Sure, they had a silly theory where all the answers depended on which computer you chose (which somehow none of them ever noticed), but luckily, it could be fixed by the simple addition of quantum mechanics!
+
+Over the anguished howls of my classical complexity-theorist friends, I should point out that this story isn’t completely false.  There’s no denying that merging quantum mechanics with theoretical computer science was a major advance in human knowledge, and that the people who first had the idea to merge the two were not computer scientists, but physicists like Deutsch and Feynman (the latter’s role is completely left out of Galchen’s story).
+
+But complexity theory wasn’t so much a flawed early attempt at quantum computing as an essential prerequisite to it: the thing that made it possible to articulate how quantum computers might differ from classical computers in the first place.  Indeed, it occurs to me that Deutsch and Bennett’s conversation provides the key to resolving a puzzle discussed in the article:
+
+“Quantum computers should have been invented in the  nineteen-thirties,” [Deutsch] observed near the end of our conversation.  “The  stuff that I did in the late nineteen-seventies and early  nineteen-eighties didn’t use any innovation that hadn’t been known in  the thirties.”  That is straightforwardly true.  Deutsch went on, “The  question is why.”
+
+I used to go around saying the same thing: “someone like John von Neumann could have easily invented quantum computing in the 1930s, had he just put the pieces together!”  But I now suspect this view is a mistake, the result of projecting what’s obvious today onto a much earlier era.  For there’s at least one essential ingredient for quantum computing that wouldn’t enter scientific consciousness until the 1970s or so: complexity theory, and particularly the distinction between polynomial and exponential time.
+
+Over the years, I’ve developed what I call the Minus-Sign Test, a reliable way to rate popularizations of quantum mechanics.  To pass the Minus-Sign Test, all a popularization needs to do is mention the minus signs: i.e., interference between positive and negative amplitudes, the defining feature of quantum mechanics, the thing that makes it different from classical probability theory, the reason why we can’t say Schrödinger’s cat is “really either dead or alive,” and we simply don’t know which one, the reason why the entangled particles can’t have just agreed in advance that one would spin up and the other would spin down.  Another name for the Minus-Sign Test is the High-School Student Test, since it’s the thing that determines whether a bright high-school student, meeting quantum mechanics for the first time through the popularization, would come away thinking of superposition as
+
+(a) one of the coolest discoveries about Nature ever made, or
+(b) a synonym used by some famous authority figures for ignorance.
+
+Despite the low bar set by the Minus-Sign Test, I’m afraid almost every popular article about quantum mechanics ever written has failed it, the present piece included.
+
+Reading Not Even Wrong, I was surprised at first that the discussion centered around Deutsch’s argument that quantum computing proves the existence of Many Worlds.  (More precisely, Deutsch’s position is that Many Worlds is an established fact with or without quantum computing, but that for those who are too dense or stubborn to see it, a working quantum computer will be useful for hitting them over the head.)
+
+As others pointed out: yes, the state of the universe as described by quantum mechanics is a vastly, exponentially bigger thing than anything dreamt of in classical physics; and a scalable quantum computer would be dramatic evidence that this exponentiality is really “out there,” that it’s not just an artifact of our best current theory.  These are not merely truths, but truths worth shouting from the rooftops.
+
+However, there’s then the further question of whether it’s useful to talk about one quantum-mechanical universe as an exponential number of parallel semi-classical universes.  After all, to whatever extent the branches of a superposition successfully contribute to a quantum computation, to that extent they’re not so much “parallel universes” as one giant, fault-tolerantly-encoded, self-interfering blob; and to whatever extent those branches do look like parallel universes, to that extent they’re now forever out of causal contact with each other—the branches other than our own figuring into our explanations for observable events only in the way that classical counterfactuals figure in.
+
+Anyway, I thought: does anyone still care about these issues?  Wasn’t every possible argument and counterargument explored to death years ago?
+
+But this reaction just reveals my personal bias.  Sometime in graduate school, I realized that I was less interested in winning philosophical debates than in discovering new phenomena for philosophers to debate about.  Why brood over the true meaning of (say) Gödel’s Theorem or the Bell Inequality, when there are probably other such worldview-changing results still to be found, and those results might render the brooding irrelevant anyway?  Because of this attitude, I confess to being less interested in whether Many-Worlds is true than in whether it’s scientifically fruitful.  As Peter Shor once memorably put it on this blog: why not be a Many-Worlder on Monday, a Bohmian on Tuesday, and a Copenhagenist on Wednesday, if that’s what helps you prove new theorems?
+
+Ironically, this attitude seems to me to mesh well with Deutsch’s own emphasis on explanation as the goal of science.  Ask not whether the parallel universes are “really there,” or whether they should really be called “parallel universes”—ask what explanatory work they do for you!  (That is, over and above the explanatory work that QM itself already does for you, assuming you accept it and know how to use it.)
+
+So for me, the single strongest argument in favor of Many-Worlds is what I call the “Deutsch argument”:
+
+Many-Worlds is scientifically fruitful, because it led David Deutsch to think of quantum computing.
+
+This argument carries considerable force for me.  On the other hand, if we accept it, then it seems we should also accept the following argument:
+
+Bohmian mechanics is scientifically fruitful, because it led John Bell to think of the Bell inequality.
+
+Furthermore, consider the following facts:
+
+David Deutsch is a brilliant, iconoclastic theoretical physicist, who thought deeply about quantum foundations at a time when it was unfashionable to do so.  His extraordinary (and not wholly-unjustified!) self-confidence in his own powers of reasoning has led to his defending not one but many heterodox ideas.
+
+Is it possible that these facts provide a common explanation for Deutsch’s certainty about Many-Worlds and his pioneering role in quantum computing, without our needing to invoke the former to explain the latter?
+
+Let me end with a few miscellaneous reactions to Galchen’s article.
+
+Physics advances by accepting absurdities.  Its history is one of unbelievable ideas proving to be true.
+
+I’d prefer to say the history of physics is one of a vast number of unbelievable ideas proving to be false, and a few specific unbelievable ideas proving to be true—especially ideas having to do with the use of negative numbers where one might have thought only positive numbers made sense.
+
+[Robert Schoelkopf and his group at Yale] have configured their computer to run what is known as a Grover’s algorithm, one that deals with a four-card-monte type of question: Which hidden card is the queen?  It’s a sort of Shor’s algorithm for beginners, something that a small quantum computer can take on.
+
+No, small quantum computers can and have taken on both Shor’s and  Grover’s algorithms, solving tiny instances in each case.  The real difference between Shor’s and Grover’s algorithms is one that complexophobia might prevent Galchen from mentioning: Shor gives you a (conjectured) exponential speedup for some highly-specific problems (factoring and discrete log), while Grover gives you “merely” a quadratic speedup, but for a much wider class of problems.
+
+“Look,” [Deutsch] went on, “I can’t stop you from writing an article about a weird English guy who thinks there are parallel universes.  But I think that style of thinking is kind of a put-down to the reader.  It’s almost like saying, If you’re not weird in these ways, you’ve got no hope as a creative thinker.  That’s not true.  The weirdness is only superficial.”
+
+This was my favorite passage in the article.
+
+================================================================================
+

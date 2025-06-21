@@ -1,0 +1,89 @@
+TITLE: My Quantum Information Science II Lecture Notes: The wait is over!
+URL: https://scottaaronson.blog/?m=202208
+CONTENT:
+Here they are [PDF].
+
+They’re 155 pages of awesome—for a certain extremely specific definition of “awesome”—which I’m hereby offering to the world free of charge (for noncommercial use only, of course).  They cover material that I taught, for the first time, in my Introduction to Quantum Information Science II undergrad course at UT Austin in Spring 2022.
+
+The new notes pick up exactly where my older QIS I lecture notes left off, and they presuppose familiarity with the QIS I material.  So, if you’re just beginning your quantum information journey, then please start with my QIS I notes, which presuppose only linear algebra and a bit of classical algorithms (e.g., recurrence relations and big-O notation), and which self-containedly explain all the rules of QM, moving on to (e.g.) quantum circuits, density matrices, entanglement entropy, Wiesner’s quantum money, QKD, quantum teleportation, the Bell inequality, interpretations of QM, the Shor 9-qubit code, and the algorithms of Deutsch-Jozsa, Bernstein-Vazirani, Simon, Shor, and Grover.  Master all that, and you’ll be close to the quantum information research frontier of circa 1996.
+
+My new QIS II notes cover a bunch of topics, but the main theme is “perspectives on quantum computing that go beyond the bare quantum circuit model, and that became increasingly central to the field from the late 1990s onwards.”  Thus, it covers:
+
+Extra bonus topics include:
+
+Master all this, and hopefully you’ll have the conceptual vocabulary to understand a large fraction of what people in quantum computing and information care about today, how they now think about building scalable QCs, and what they post to the quant-ph arXiv.
+
+Note that my QIS II course is complementary to my graduate course on quantum complexity theory, for which the lecture notes are here.  There’s very little overlap between the two (and even less overlap between QIS II and Quantum Computing Since Democritus).
+
+The biggest, most important topic related to the QIS II theme that I didn’t cover was topological quantum computing.  I’d wanted to, but it quickly became clear that topological QC begs for a whole course of its own, and that I had neither the time nor the expertise to do it justice.  In retrospect, I do wish I’d at least covered the Kitaev surface code.
+
+Crucially, these lecture notes don’t represent my effort alone.  I worked from draft scribe notes prepared by the QIS II students, who did a far better job than I had any right to expect (including creating the beautiful figures).  My wonderful course TA and PhD student Daniel Liang, along with students Ethan Tan, Samuel Ziegelbein, and Steven Han, then assembled everything, fixed numerous errors, and compiled the bibliography.  I’m grateful to all of them.  At the last minute, we had a LaTeX issue that none of us knew how to fix—but, in response to a plea, Shtetl-Optimized reader Pablo Cingolani generously volunteered to help, completed the work by the very next day (I’d imagined it taking a month!), and earned a fruit basket from me in gratitude.
+
+Anyway, let me know of any mistakes you find!  We’ll try to fix them.
+
+================================================================================
+
+TITLE: Busy Beaver Updates: Now Even Busier
+URL: https://scottaaronson.blog/?m=202208
+CONTENT:
+Way back in the covid-filled summer of 2020, I wrote a survey article about the ridiculously-rapidly-growing Busy Beaver function.  My survey then expanded to nearly twice its original length, with the ideas, observations, and open problems of commenters on this blog.  Ever since, I’ve felt a sort of duty to blog later developments in BusyBeaverology as well.  It’s like, I’ve built my dam, I’ve built my lodge, I’m here in the pond to stay!
+
+So without further ado:
+
+================================================================================
+
+TITLE: That Financial Times QC skepticism piece
+URL: https://scottaaronson.blog/?m=202208
+CONTENT:
+Several people have asked me to comment about a Financial Times opinion piece entitled The Quantum Computing Bubble (subtitle: “The industry has yet to demonstrate any real utility, despite the fanfare, billions of VC dollars and three Spacs”) (archive link).  The piece is purely deflationary—not a positive word in it—though it never goes so far as to suggest that QC is blocked by any Gil-Kalai-like fundamental principle, nor does it even evince curiosity about that question.
+
+As it happens, the author, physicist Nikita Gourianov, had emailed me a few days ago with some nice words about my own skeptical efforts on Shtetl-Optimized, and a request for comment on his article.  So, as a way to get back into blogging after a 2-week hiatus, I figured I’d share my respoinse.
+
+Hi Nikita,
+
+Thanks for the kind words about my blog, and for your piece, which I just read.  There’s a great deal of truth in what you write, but I also take issue with a few points.  You say:
+
+A convincing strategy for overcoming these errors has not yet been demonstrated, making it unclear as to when — if ever — it will become possible to build a large-scale, fault-tolerant quantum computer.
+
+In one sense this is tautologically true — the only fully convincing and clear demonstration that something is possible is to do it, as with the Wright brothers or the Trinity nuclear test.  In other sense, though, we’ve known the “strategy” since the 1990s.  It’s just that the fault-tolerance theorem called for gate fidelities 5-6 orders of magnitude better than anything achievable at the time.  In the 25 years since, about 3 of those orders of magnitude have been achieved, so it doesn’t take any great imagination to foresee that the remainder could be as well.  A layperson reading your piece might not understand this.
+
+As for applications, my position has always been that if there were zero applications, it would still be at least as scientifically important to try to build QCs as it was to build the LHC, LIGO, or the James Webb telescope.  If there are real applications, such as simulating chemical dynamics, or certifiable randomness — and there very well might be — then those are icing on the cake.  This, of course, radically differs from the vision that now gets presented to investors and the press (hence all the railing on my blog!), but it also differs from what a reader of your piece would take away.
+
+Anyway, thanks again for sharing!
+
+Best,Scott
+
+================================================================================
+
+TITLE: Summer 2022 Quantum Supremacy Updates
+URL: https://scottaaronson.blog/?m=202208
+CONTENT:
+Update: We’re now finalizing the lecture notes—basically, a textbook—for the brand-new Quantum Information Science II course that I taught this past spring!  The notes will be freely shared on this blog.  But the bibliographies for the various lectures need to be merged, and we don’t know how.  Would any TeXpert like to help us, in exchange for a generous acknowledgment?  A reader named Pablo Cingolani has now graciously taken care of this.  Thanks so much, Pablo!
+
+I returned last week from the NSF Workshop on Quantum Advantage and Next Steps at the University of Chicago.  Thanks so much to Chicago CS professor (and my former summer student) Bill Fefferman and the other organizers for making this workshop a reality.  Given how vividly I remember the situation 12 years ago, when the idea of sampling-based quantum supremacy was the weird obsession of me and a few others, it was particularly special to attend a workshop on the topic with well over a hundred participants, some in-person and some on Zoom, delayed by covid but still excited by the dramatic experimental progress of the past few years.
+
+Of course there’s a lot still to do.  Many of the talks drew an exclamation point on something I’ve been saying for the past couple years: that there’s an urgent need for better quantum supremacy experiments, which will require both theoretical and engineering advances.  The experiments by Google and USTC and now Xanadu represent a big step forward for the field, but since they started being done, the classical spoofing attacks have also steadily improved, to the point that whether “quantum computational supremacy” still exists depends on exactly how you define it.
+
+Briefly: if you measure by total operations, energy use, or CO2 footprint, then probably yes, quantum supremacy remains.  But if you measure by number of seconds, then it doesn’t remain, not if you’re willing to shell out for enough cores on AWS or your favorite supercomputer.  And even the quantum supremacy that does remain might eventually fall to, e.g., further improvements of the algorithm due to Gao et al.  For more details, see, e.g., the now-published work of Pan, Chen, and Zhang, or this good popular summary by Adrian Cho for Science.
+
+If the experimentalists care enough, they could easily regain the quantum lead, at least for a couple more years, by (say) repeating random circuit sampling with 72 qubits rather than 53-60, and hopefully circuit depth of 30-40 rather than just 20-25.  But the point I made in my talk was that, as long as we remain in the paradigm of sampling experiments that take ~2n time to verify classically and also ~2n time to spoof classically (where n is the number of qubits), all quantum speedups that we can achieve will be fragile and contingent, however interesting and impressive.  As soon as we go way beyond what classical computers can keep up with, we’ve also gone way beyond where classical computers can check what was done.
+
+I argued that the only solution to this problem is to design new quantum supremacy experiments: ones where some secret has been inserted in the quantum circuit that lets a classical computer efficiently verify the results.  The fundamental problem is that we need three properties—
+
+and right now we only know how to get any two out of the three.  We can get 1 and 2 with QAOA and various other heuristic quantum algorithms, 1 and 3 with BosonSampling and Random Circuit Sampling, or 2 and 3 with Shor’s algorithm or Yamakawa-Zhandry or recent interactive protocols.  To get all three, there are three obvious approaches:
+
+At the Chicago workshop, I’d say that the most popular approach speakers talked about was 3, although my own focus was more on 2.
+
+Anyway, until a “best-of-all-worlds” quantum supremacy experiment is discovered, there’s plenty to do in the meantime: for example, better understand the classical hardness of spoofing Random Circuit Sampling with a constant or logarithmic number of gate layers.  Understand the best that classical algorithms can do to spoof the Linear Cross-Entropy Benchmark for BosonSampling, and build on Grier et al. to understand the power of BosonSampling with a linear number of modes.
+
+I’ll be flying back with my family to Austin today after seven weeks at the Jersey shore, but I’ll try to field any questions about the state of quantum supremacy in general or this workshop in particular in the comments!
+
+================================================================================
+
+TITLE: Updatez
+URL: https://scottaaronson.blog/?m=202208
+CONTENT:
+
+
+================================================================================
+

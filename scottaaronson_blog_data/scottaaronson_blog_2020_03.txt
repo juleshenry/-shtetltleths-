@@ -1,0 +1,208 @@
+TITLE: On “armchair epidemiology”
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+Update (March 31): Since commenter after commenter seems to have missed my point—or rather, rounded the point to something different that I didn’t say—let me try one more time.  My faith in official pronouncements from health authorities, and in institutions like the CDC and the FDA, was clearly catastrophically misplaced—and if that doesn’t force significant revisions to my worldview, then I’m beyond hope.  Maybe the failures are because these organizations are at the mercy of political incompetents—meaning ultimately Trump and his cronies.  Or maybe the rot started long before Trump.  Maybe it’s specific to the US, or maybe it’s everywhere.  I still don’t know the answers to those questions.
+
+On the other hand, my faith in my ability to listen to individual people, whether they’re expert epidemiologists or virologists or just technologists or rationalists or anyone else (who in turn listened to the experts), and to say “yes, this person clearly has good judgment and has thought about it carefully, and if they’re worried then I should be too”—my faith in that has only gone up.  The problem is simply that I didn’t do enough of that back in January and February, and when I did, I didn’t sufficiently act on it.
+
+End of Update
+
+On Feb. 4, a friend sent me an email that read, in part:
+
+Dr. A,What do you make of this coronavirus risk? …  I don’t know what level of precaution is necessary!  Please share your view.
+
+This was the first time that I’d been prompted to give this subject any thought whatsoever.  I sent a reply two minutes later:
+
+For now, I think the risk from the ordinary flu is much much greater!  But worth watching to see if it becomes a real pandemic.
+
+Strictly speaking, this reply was “correct”—even “reasonable” and “balanced,” admitting the possibility of changing circumstances.  Yet if I could go back in time, I’d probably send a slightly different message—one that would fare better in the judgment of history.  Something like this, maybe:
+
+HOLY SHIT!!!!!—GET YOUR PARENTS SOMEWHERE SAFE—CANCEL ALL TRAVEL PLANS—STOCK UP ON FOOD AND MASKS AND HAND SANITIZERS.  SELL ALL STOCK YOU OWN!!!  SHORT THE MARKET IF YOU KNOW HOW, OTHERWISE GET CASH AND BONDS.  HAVE AN ISOLATED PLACE TO ESCAPE TO.  IF YOU’RE FEELING ALTRUISTIC, JOIN GROUPS MAKING THEIR OWN MASKS AND VENTILATORS.
+
+DO NOT RELY ON OFFICIAL PRONOUNCEMENTS, OR REASSURING ARTICLES FROM MAINSTREAM SOURCES LIKE VOX OR THE WASHINGTON POST.  THEY’RE FULL OF IT.  THE CDC AND OTHER FEDERAL AGENCIES ARE ASLEEP AT THE WHEEL, HOLLOWED-OUT SHELLS OF WHAT YOU IMAGINE THEM TO BE.  FOR ALL IT WILL DO IN ITS MOMENT OF ULTIMATE NEED, IT WOULD BE BETTER IF THE CDC NEVER EXISTED.
+
+WHO THEN SHOULD YOU LISTEN TO?  CONTRARIAN, RATIONALIST NERDS AND TECH TYCOONS ON SOCIAL MEDIA.  BILL GATES, BALAJI SRINIVASAN, PAUL GRAHAM, GREG COCHRAN, ROBIN HANSON, SARAH CONSTANTIN, ELIEZER YUDKOWSKY, NICHOLAS CHRISTAKIS.  NO, NOT ALL SUCH PEOPLE—NOT ELON MUSK, FOR EXAMPLE—BUT YOU’LL DO RIDICULOUSLY BETTER THAN AVERAGE THIS WAY.
+
+BASICALLY, THE MORE SNEERCLUB WOULD SNEER AT A GIVEN PERSON, THE MORE THEY’D CALL THEM AN AUTODIDACT STEMLORD DUNNING-KRUGER ASSHOLE WHO’S THE EMBODIMENT OF EVERYTHING WRONG WITH NEOLIBERAL CAPITALISM, THE MORE YOU SHOULD LISTEN TO THAT PERSON RIGHT NOW FOR THE SAKE OF YOUR AND YOUR LOVED ONES’ FUCKING LIVES.
+
+DON’T WORRY: WITHIN 6-8 WEEKS, WHAT THE CONTRARIANS ARE SAYING TODAY WILL BE CONVENTIONAL WISDOM.  THE PUBLICATIONS THAT NOW SNEER AT PANDEMIC PREPPERS WILL TURN AROUND AND SNEER AT THE IRRESPONSIBLE NON-PREPPERS, WITHOUT EVER ADMITTING ERROR.  WE’LL ALWAYS HAVE BEEN AT WAR WITH OCEANIA—OR RATHER CORONIA.  TRUTH, OFFICIAL RECOMMENDATIONS, AND PROGRESSIVE POLITICS WILL GET BACK INTO ALIGNMENT JUST LIKE THEY NORMALLY ARE, AND WE’LL ALL BE SHARING MEMES JUSTLY DENOUNCING TRUMP AND THE CRAVEN REPUBLICAN SENATORS AND EVANGELICAL PASTORS AND NUTTY CONSPIRACY THEORISTS WHO DON’T CARE HOW MANY LIVES THEY SACRIFICE WITH THEIR DENIALS.
+
+BUT EVEN THOUGH THE ENLIGHTENED MAINSTREAM WILL FIGURE OUT THE TRUTH IN A MONTH OR SO—AND EVEN THOUGH THAT’S FAR BETTER THAN OUR IDIOT PRESIDENT AND MILLIONS OF HIS FOLLOWERS, WHO WILL UNDERSTAND ONLY AFTER THE TRENCHES OVERFLOW WITH BODIES, IF THEN—EVEN SO, WE DON’T HAVE A MONTH.  IF YOU WANT TO BE AHEAD OF THE SENSIBLE MAINSTREAM, THEN ALMOST BY DEFINITION, THAT MEANS YOU NEED TO LISTEN TO THE POLITICALLY INCORRECT, CRAZY-SOUNDING ICONOCLASTS: TO THOSE WHO, UNLIKE YOU AND ALSO UNLIKE ME, HAVE DEMONSTRATED THAT THEY DON’T CARE IF PEOPLE SNEER AT THEM.
+
+Of course, I would never have sent such an email, and not only because of the bold and all-caps.  My whole personality stands against every sentence.  I’ve always taken my cues from “mainstream, reasonable, balanced” authorities, in any subject where I’m not personally expert.  That heuristic has generally been an excellent way to maximize expected rightness.  But when it fails … holy crap!
+
+Now, and for the rest of my life, I’ll face the question: what was wrong with me, such that I would never have sent a “nutty” email like the one above?  Can I fix it?
+
+More specifically, was my problem intellectual or emotional?  I lean toward the latter.  By mid-to-late February, as more and more of my smartest friends started panicking and telling me why I should too, I got intellectually fully on board with the idea that millions of people might die as the new virus spread around the world, and I affirmed as much on Facebook and elsewhere.  And yet it still took me a few more weeks to get from “millions could die” to “HOLY SHIT MILLIONS COULD DIE—PANIC—DROP EVERYTHING ELSE—BUILD MORE VENTILATORS!!!!“
+
+A viral article implores us to “flatten the curve of armchair epidemiology”—that is, to listen only to authoritive sources like the CDC, not random people spouting on social media.  This was notable to me for being the diametric opposite of the actual lesson of the past two months.  It would be like taking the lesson from the 2008 financial crisis that from now on, you would only trust serious rating agencies, like Moody’s or Standard & Poor.
+
+Oh, but I forgot to tell you the punchline.  A couple days ago, the same friend who emailed me on February 4, emailed again to tell me that both of her parents (who live outside the US) now have covid-19.  Her father had to go to the emergency room and tested positive.  Her mother stayed home with somewhat milder symptoms.  Given the overloaded medical system in their country, neither can expect a high standard of care.  My friend has spent the past few days desperately trying to get anyone from the hospital on the phone.
+
+This post represents my apology to her.  Like, it’s one thing to be so afraid of the jeers of the enlightened that you feign asexuality and live as an ascetic for a decade.  It’s worse to be so afraid that you fail adequately to warn your friends when you see an exponential function coming to kill their loved ones.
+
+================================================================================
+
+TITLE: Ask Me Anything: Apocalypse Edition
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+So far, I confess, this pandemic is not shaping up for me like for Isaac Newton.  It’s not just that I haven’t invented calculus or mechanics: I feel little motivation to think about research at all.  Or to catch up on classic literature or films … or even to shower, shave, or brush my teeth.  I’m quarantined in the house with my wife, our two kids, and my parents, so certainly there’s been plenty of family time, although my 7-year-daughter would inexplicably rather play fashion games on her iPad than get personalized math lessons from the author of Quantum Computing Since Democritus.
+
+Mostly, it seems, I’ve been spending the time sleeping.  Or curled up in bed, phone to face, transfixed by the disaster movie that’s the world’s new reality.  Have you ever had one of those nightmares where you know the catastrophe is approaching—whether that means a missed flight, a botched presentation at your old high school, or (perhaps) more people dying than in any event since WWII—but you don’t know exactly when, and you can do nothing to avert it?  Yeah, that feeling is what I now close my eyes to escape.  And then I wake up, and I’m back in bizarro-nightmare-land, where the US is in no rush whatsoever to test people or to build ventilators or hospitals to cope with the coming deluge, and where ideas that could save millions have no chance against rotting institutions.
+
+If nothing else, I guess we now have a decisive answer to the question of why humanity can’t get its act together on climate change.  Namely, if we can’t wrap our heads around a catastrophe that explodes exponentially over a few weeks—if those who denied or minimized it face no consequences even when they’re dramatically refuted before everyone’s eyes—then what chance could we possibly have against a catastrophe that explodes exponentially over a century?  (Note that I reject the view that the virus was sent by some guardian angel as the only possible solution to climate change, one crisis cancelling another one.  For one thing, I expect emissions to roar back as soon as this new Black Death is over; for another, the virus punishes public transportation but not cars.)
+
+Anyway, I realized I needed something, not necessarily to take my mind off the crisis, but to break me out of an unproductive spiral.  Also, what better time than the present for things that I wouldn’t normally have time for?  So, continuing a tradition from 2008, 2009, 2011, 2013, 2015, and 2018, we’re going to do an Ask Me Anything session.  Questions directly or tangentially related to the crisis (continuing the discussion from the previous thread) are okay, questions totally unrelated to the crisis are even okayer, goofball questions are great, and questions that I can involve my two kids in answering are greatest of all.  Here are this year’s ground rules:
+
+So ask away!  And always look on the bright side of life.
+
+Update (March 19): No more questions, please.  Thanks, everyone!  It will take me a few days just to work through all the great questions that are already in the queue.
+
+Update (March 24): Thanks again for the 90-odd questions!  For your reading convenience, here are links to all my answers, with some answers that I’m happy with bolded.
+
+================================================================================
+
+TITLE: First it came for Wuhan
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+Update (March 13): One day after I put up this post—a post that many commenters criticized as too alarmist—the first covid cases were detected in Austin.  As a result, UT Austin closed its campus (including my son’s daycare), and at 3:30am, the Austin Independent School District announced its decision to suspend all schools until further notice.  All my remaining plans for the semester (including visits to Berkeley, Stanford, Harvard, CU Boulder, Fermilab, Yale, and CMU) are obviously cancelled.  My family is now on lockdown, in our house, probably at least until the summer.  The war on the virus has reached us.  The “1939” analogy that I mentioned in the post turned out to be more precise than I thought: then, as now, there were intense debates about how just serious the crisis would be, but those debates never even had a chance to get settled by argument; events on the ground simply rendered them irrelevant.
+
+Scott’s foreword: This week Steve Ebin, a longtime Shtetl-Optimized reader (and occasional commenter) from the San Francisco tech world, sent me the essay below.  Steve’s essay fit too well with my own recent thoughts, and indeed with this blog’s title, for me not to offer to share it here—and to my surprise and gratitude, Steve agreed.
+
+I guess there are only two things I’d add to what Steve wrote.  First, some commenters took me to task for a misplaced emphasis in my last coronavirus post, and on further reflection, I now concede that they were right.  When a preventable catastrophe strikes the world, what’s always terrified me most are not the ranting lunatics and conspiracy theorists, even if some of those lunatics actually managed to attain the height of power, from where they played a central role in the catastrophe.  No, what’s terrified me more are the blank-faced bureaucrats who’ve signed the paperwork that amounted to death warrants.  Like, for example, the state regulators who ordered the Seattle infectious disease expert to stop, after she’d had enough of the government’s failure to allow corona tests, took it upon herself to start testing anyway, and found lots of positive results.  Notably, only some countries have empowered lunatics, but the blank-faced bureaucrats rule everywhere unless something stronger overrides them.
+
+Second, I’ll forever ask myself what went wrong with me, that it took me until metaphorical 1939 to acknowledge the scale of an unfolding catastrophe (on more than a purely intellectual level)—even while others were trying to tell me way back in metaphorical 1933.  Even so, better metaphorical 1939 than metaphorical 1946.
+
+Without further ado, Steve’s essay:
+
+The most expensive meal I ever ate was in San Francisco at a restaurant called Eight Tables. As the name implies, the restaurant has only eight tables. The meal cost $1,000 and featured 12 courses, prepared by award-winning chefs.
+
+The most expensive meal a person ever ate was in late 2019, in China, and consisted of under-cooked bat meat. It cost trillions of dollars. The person who ate it, possibly a peasant, changed the course of the 21st century. The bat he ate contained a virus, and the virus threatened to spread from this man to the rest of humanity.
+
+I’m making up some details, of course. Maybe the man wasn’t a peasant. Or he could have been a woman. Or the bat could have been a pangolin. Or maybe, through a lucky accident (the guy was a loner perhaps), it could have not spread. That could have happened, but it didn’t. Or maybe sometimes that does happen and we don’t know it. These are just accidents of history.
+
+I’m writing this on March 9, 2020. The good news is that the virus, in its current form, doesn’t kill children. I am so thankful for that. The bad news is that the virus does kill adults. The virus is like a grim reaper, culling the sick, the debilitated, and the elderly from the population. It attacks the pulmonary system. I heard a 25-year-old survivor describing how he became unable to control his breathing and could not fall asleep or he would die. Even for healthy young people, the prognosis is often poor.
+
+There were Jews in Europe in the 1930s who sat around tables with the elders of their families and villages and debated whether to leave for America, or Palestine, or South America. Most of them, including my grandmother’s family, didn’t leave, and were largely exterminated. The virus of the time was Nazism, and it too attacked the pulmonary systems of the old and the debilitated, in that case with poisonous gasses.
+
+When you grow up as I did, you are taught to have a paranoia in the back of your mind that there is a major disaster about to happen. That a holocaust, or something of that magnitude, might occur in your lifetime. And so you are never complacent. For your whole life, you’re looking and waiting for a history changing event. You try to ensure that you are willing to follow your thoughts to their logical conclusion and take the necessary actions as a result, unlike many of the Jews of 1930s Europe, who refused to confront the obstacle in front of them until it was too late, and unlike many politicians and world leaders today, who are doing the same.
+
+And the conclusion we must now confront is clear. We are watching a once-in-a-century event unfold. Coronavirus–its mutations, its spawn–will change the course of human history. It will overwhelm our defense system and may kill millions. It may continue to mutate and kill millions more. We will develop painful social measures to slow its spread. We will produce vaccines and better treatment protocols. Some of this will help, but none of this will work perfectly. What will happen to society as this unfolds?
+
+My favorite biblical verse comes from Ecclesiastes: To everything there is a season, and a time to every purpose under the heaven. A time to be born, and a time to die. A time to plant and a time to pluck that which is planted. And so on.
+
+The season has changed, and the seven years of famine have begun.
+
+================================================================================
+
+TITLE: National disgrace
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+In this blog’s now 15-year-history, at Waterloo and then MIT and now UT Austin, I’ve tried to make it clear that I blog always as Scott, never as Dr. Aaronson of Such-and-Such Institution.  (God knows I’ve written a few things that a prudent dean might prefer that I hadn’t—though if I couldn’t honestly say that, in what sense would I even enjoy “academic freedom”?)  Today, though, for only about the second time, I’m also writing as a professor motivated by a duty of care toward his students.
+
+A week ago, most of my grad students were in the Bay Area for a workshop; they then returned and spent a week hanging around the CS building like normal.  Yesterday I learned that at least one of those students developed symptoms consistent with covid19.  Of course, it’s much more likely to be a boring cold or flu—but still, in any sane regime, just to be certain, such a person would promptly get tested.
+
+After quarantining himself, my student called the “24/7 covid19 hotline” listed in an email from the university’s president, but found no one answering the phone over the weekend.  Yesterday he finally got through—only to be told, flatly, that he couldn’t be tested due to insufficient capacity.  When I heard this, I asked my department chair and dean to look into the matter, and received confirmation that yeah, it sucks, but this is the situation.
+
+If it’s true that, as I’ve read, the same story is currently playing itself out all over the country, then this presumably isn’t the fault of anyone in UT’s health service or the city of Austin.  Rather, as they say in the movies, it goes all the way to the top, to the CDC director and ultimately the president—or rather, to the festering wound that now sits where the top used to be.
+
+Speaking of movies, over the weekend Dana and I watched Contagion, as apparently many people are now doing.  I confess that I’d missed it when it came out in 2011.  I think it’s a cinematic masterpiece.  It freely violates many of the rules of movie narrative: characters are neither done in by their own hubris, nor saved by their faith or by being A-list stars.  But Contagion is also more than a glorified public service announcement about the importance of washing your hands.  It wants to show you the reality of the human world of its characters, and also the reality of a virus, and how the two realities affect each other despite obeying utterly different logic.  It will show a scene that’s important to the charaters for human reasons, and then it will show you the same scene again, except this time making you focus on whose hand touched which surface in which order.
+
+But for all its excellence and now-obvious prescience, there are two respects in which Contagion failed to predict the reality of 2020.  The first is just a lucky throw of the RNA dice: namely, that the real coronavirus is perhaps an order of magnitude less fatal than the movie virus, and for some unknown reason it spares children.  But the second difference is terrifying.  All the public health authorities in the movie are ultra-empowered and competent.  They do badass things like injecting themselves with experimental vaccines.  If they stumble, it’s only in deeply understandable ways that any of us might (e.g., warning their own loved ones to evacuate a city before warning the public).
+
+In other words, when the scriptwriters, writing their disaster movie, tried to imagine the worst, they failed to imagine a US government that would essentially abandon the public, by
+
+(1) botching a simple test that dozens of other countries performed without issue,(2) preventing anyone else from performing their own tests, and then(3) turning around and using the lack of positive test results to justify its own inaction.
+
+They failed to imagine a CDC that might as well not exist for all it would do in its hour of need: one that didn’t even bother to update its website on weekends, and stopped publishing data once the data became too embarrassing.  The scriptwriters did imagine a troll gleefully spreading lies about the virus online, endangering anyone who listened to him.  They failed to imagine a universe where that troll was the president.
+
+“I mean, don’t get me wrong,” they told me.  “Trump is a racist con artist, a demagogue, the precise thing that Adams and Hamilton and Franklin tried to engineer our republic to avoid.  Just, don’t get so depressed about it all the time!  Moaning about how we’re trapped in a freakishly horrible branch of the wavefunction, blah blah.  I mean look on the bright side!  What an incredible run of luck we’ve had, that we elected a president with the mental horizons of a sadistic toddler, and yet in three years he hasn’t caused even one apocalypse.  You’re alive and healthy, your loved ones are alive and healthy.  It could be a lot worse!”
+
+The above, I suspect, is a sentiment that will now forever date any writing containing it to January 2020 or earlier.
+
+================================================================================
+
+TITLE: Coronavirus: the second-weirdest solution?
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+Many people have suggested coating handles, doorknobs and so forth with virus-killing copper tape.  It’s a shame that this isn’t being tried on a wider scale.  In the meantime, though, here’s a related but different idea that I had last night.
+
+Imagine we could coat every doorknob, every light switch, every railing, every other surface that people might touch in public buildings, with some long-lasting disgusting, sticky, slimy substance.  For a variety of reasons, one probably wouldn’t use actual excrement, although it wouldn’t hurt if the substance looked like that.  Or it could be a sickly neon green or red, to make it impossible to conceal when you’d gotten the substance on your hands.
+
+What would be the result?  Of course, people would avoid touching these surfaces.  If they had to, they’d do so with a napkin or glove whenever possible.  If they had to touch them bare-handedly, they’d rush to wash their hands with soap as soon as possible afterwards.  Certainly they wouldn’t touch their faces before having washed their hands.
+
+In short, they’d show exactly the behaviors that experts agree are among the most helpful, if our goal is to slow the spread of the coronavirus.  In effect, we’d be plugging an unfortunate gap in our evolutionary programming—namely, that the surfaces where viruses can thrive aren’t intuitively disgusting to us, as (say) vomit or putrid meat are—by making those surfaces disgusting, as they ought to be in the middle of a pandemic.
+
+Note that, even if it somehow turns out to be infeasible to coat all the touchable surfaces in public buildings with disgusting goo, you might still derive great personal benefit from imagining them so covered.  If you manage to pull that off, it will yield just the right heuristic for when and how often you should now be washing your hands (and avoiding touching your face), without no need for additional conscious reflection.
+
+Mostly, having the above thoughts made me grateful for my friend Robin Hanson.  For as long Robin is around, tweeting and blogging from his unique corner of mindspace, no one will ever be able to say that my ideas for how to control the coronavirus were the world’s weirdest or most politically tone-deaf.
+
+================================================================================
+
+TITLE: Turn down the quantum volume
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+Several people asked me to comment on the recent announcement by Honeywell that they’ll soon have what they call “the most powerful” quantum computer (see here for press release, here for Forbes article, here for paper).
+
+I’m glad that Honeywell, which many people might know as an air-conditioner manufacturer, has entered the race for trapped-ion QC.  I wish them success.  I’ve known about what they were doing in part because Drew Potter, my friend and colleague in UT Austin’s physics department, took a one-year leave from UT to contribute to their effort.
+
+Here I wanted to comment about one detail in Honeywell’s announcement: namely, the huge emphasis on “quantum volume” as the central metric for judging quantum computing progress, and the basis for calling their own planned device the “most powerful.”  One journalist asked me to explain why quantum volume is such an important measure.  I had to give her an honest answer: I don’t know whether it is.
+
+Quantum volume was invented a few years ago by a group at IBM.  According to one of their papers, it can be defined roughly as 2k, where k is the largest number such that you can run a k-qubit random quantum circuit, with depth k and with any-to-any connectivity, and have at least (say) 2/3 probability of measuring an answer that passes some statistical test.  (In the paper, they use what Lijie Chen and I named Heavy Output Generation, though Google’s Linear Cross-Entropy Benchmark is similar.)
+
+I don’t know why IBM takes the “volume” to be 2k rather than k itself.  Leaving that aside, though, the idea was to invent a single “goodness measure” for quantum computers that can’t be gamed either by building a huge number of qubits that don’t maintain nearly enough coherence (what one might call “the D-Wave approach”), or by building just one perfect qubit, or by building qubits that behave well in isolation but don’t interact easily.  Note that the any-to-any connectivity requirement makes things harder for architectures with nearest-neighbor interactions only, like the 2D superconducting chips being built by Google, Rigetti, or IBM itself.
+
+You know the notion of a researcher’s h-index—defined as the largest h such that she’s published h papers that garnered h citations each?  Quantum volume is basically an h-index for quantum computers.  It’s an attempt to take several different yardsticks of experimental progress, none terribly useful in isolation, and combine them into one “consumer index.”
+
+Certainly I sympathize with the goal of broadening people’s focus beyond the “but how many qubits does it have?” question—since the answer to that question is meaningless without further information about what the qubits can do.  From that standpoint, quantum volume seems like a clear step in the right direction.
+
+Alas, Goodhart’s Law states that “as soon as a measure becomes a target, it ceases to be a good measure.”  That happened years ago with the h-index, which now regularly pollutes academic hiring and promotion decisions, to the point where its inventor expressed regrets.  Quantum volume is now looking to me like another example of Goodhart’s Law at work.
+
+The position of Honeywell’s PR seems to be that, if they can build a device that can apply 6 layers of gates to 6 qubits, with full connectivity and good fidelity, that will then count as “the world’s most powerful quantum computer,” since it will have the largest volume.  One problem here is that such a device could be simulated by maintaining a vector of only 26=64 amplitudes.  This is nowhere near quantum supremacy (i.e., beating classical computers at some well-defined task), which is a necessary though not sufficient condition for doing anything useful.
+
+Think of a university that achieves an average faculty-to-student ratio of infinity by holding one class with zero students.  It gets the “best score” only by exploiting an obvious defect in the scoring system.
+
+So what’s the alternative?  The policy I prefer is simply to tell the world all your system specs, as clearly as you can, with no attempts made to bury the lede.  How many qubits do you have?  With what coherence times?  With what connectivity?  What are the 1- and 2-qubit gate fidelities?  What depth of circuit can you do?  What resources do the standard classical algorithms need to simulate your system?  Most importantly: what’s the main drawback of your system, the spec that’s the worst, the one you most need to improve?  What prevents you from having a scalable quantum computer right now?  And are you going to tell me, or will you make me scour Appendix III.B in your paper, or worse yet, ask one of your competitors?
+
+I confess that the answers to the above questions are hard to summarize in a single number (unless you, like, concatenated binary encodings of them or something).  But they can be ineffably combined, to produce a progress metric that one of my postdocs suggested calling “quantum scottness,” and which roughly equals the number of expressions of wide-eyed surprise minus the number of groans.
+
+================================================================================
+
+TITLE: A coronavirus poem
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+These next few months, every time I stop myself from touching my face by force of will,
+
+Let me remind myself that the same willpower is available to diet, to exercise, to throw myself into a project, to keep calm amid screaming, to introduce myself to strangers, to decrease the fraction of my life spent getting upset that someone was mean to my ingroup on social media, or otherwise to better myself as a human specimen.
+
+Yea, let all of these things be just as easy for me as it was not to touch my face.
+
+Ah, but what if I forget, what if I do keep touching my face in the next few months?
+
+In one plausible scenario, with at least ~0.1% probability and probably higher depending on my age, a cheap answer will be available to that question: namely, that I’ll no longer be around to ponder the implications.
+
+================================================================================
+
+TITLE: Paperz
+URL: https://scottaaronson.blog/?m=202003
+CONTENT:
+Soon, all anyone will want to talk about is quarantines, food shortages, N95 masks, the suspension of universities and of scientific conferences.  (As many others have pointed out, this last might actually be a boon to scientific productivity—as it was for a young Isaac Newton when Cambridge was closed for the bubonic plague, so Newton went home and invented calculus and mechanics.)
+
+Anyway, before that all happens, I figured I’d get in a last post about quantum information and complexity theory progress.
+
+Hsin-Yuan Huang, Richard Kueng, and John Preskill have a nice preprint entitled Predicting Many Properties of a Quantum System from Very Few Measurements.  In it they take shadow tomography, which I proposed a couple years ago, and try to bring it closer to practicality on near-term devices, by restricting to the special case of non-adaptive, one-shot measurements, on separate copies of the state ρ that you’re trying to learn about.  They show that this is possible using a number of copies that depends logarithmically on the number of properties you’re trying to learn (the optimal dependence), not at all on the Hilbert space dimension, and linearly on a new “shadow norm” quantity that they introduce.
+
+Rahul Ilango, Bruno Loff, and Igor Oliveira announced the pretty spectacular-sounding result that the Minimum Circuit Size Problem (MCSP) is NP-complete for multi-output functions—that is, for Boolean functions f with not only many input bits but many outputs.  Given the 2n-sized truth table of a Boolean function f:{0,1}n→{0,1}, the original MCSP simply asks for the size of the smallest Boolean circuit that computes f.  This problem was studied in the USSR as early as the 1950s; whether it’s NP-complete has stood for decades as one of the big open problems of complexity theory.  We’ve known that if you could quickly solve MCSP then you could also invert any one-way function, but we’ve also known technical barriers to going beyond that to a flat-out NP-hardness result, at least via known routes.  Before seeing this paper, I’d never thought about whether MCSP for many-output functions might somehow be easier to classify, but apparently it is!
+
+Hamoon Mousavi, Seyed Nezhadi, and Henry Yuen have now taken the MIP*=RE breakthrough even a tiny step further, by showing that “zero-gap MIP*” (that is, quantum multi-prover interactive proofs with an arbitrarily small gap between the completeness and soundness probabilities) takes you even beyond the halting problem (i.e., beyond Recursively Enumerable or RE), and up to the second level of the arithmetical hierarchy (i.e., to the halting problem for Turing machines with oracles for the original halting problem).  This answers a question that someone asked in the comments section of this blog.
+
+Several people asked me for comment on the paper What limits the simulation of quantum computers?, by Yiqing Zhou, Miles Stoudenmire, and Xavier Waintal.  In particular, does this paper refute or weaken Google’s quantum supremacy claim, as the paper does not claim to do (but, rather coyly, also does not claim not to do)?  Short answer: No, it doesn’t, or not now anyway.
+
+Longer, more technical answer: The quoted simulation times, just a few minutes for quantum circuits with 54 qubits and depth 20, assume Controlled-Z gates rather than iSWAP-like gates. Using tensor network methods, the classical simulation cost with the former is roughly the square root of the simulation cost with the latter (~2k versus ~4k for some parameter k related to the depth).  As it happens, Google switched its hardware from Controlled-Z to iSWAP-like gates a couple years ago precisely because they realized this—I had a conversation about it with Sergio Boixo at the time.  Once this issue is accounted for, the quoted simulation times in the new paper seem to be roughly in line with what was previously reported by, e.g., Johnnie Gray and Google itself.
+
+Oh yeah, I enjoyed Quantum Homeopathy Works.  Cool result, and the title is actually a pretty accurate description of the contents.
+
+To end with a community announcement: as many of you might know, the American Physical Society’s March Meeting, which was planned for this week in Denver, was abruptly cancelled due to the coronavirus (leaving thousands of physicists out their flights and hotel rooms—many had even already arrived there).  However, my colleague Michael Biercuk kindly alerted me to a “virtual March Meeting” that’s been set up online, with recorded talks and live webinars.  Even after the pandemic passes, is this a model that we should increasingly move to?  I wouldn’t have thought so ten or fifteen years ago, but today every schlep across the continent brings me a step closer to shouting “yes”…
+
+================================================================================
+

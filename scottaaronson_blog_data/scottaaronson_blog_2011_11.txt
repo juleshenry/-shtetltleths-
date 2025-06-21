@@ -1,0 +1,142 @@
+TITLE: ITCS’2012 in Cambridge, MA
+URL: https://scottaaronson.blog/?m=201111
+CONTENT:
+Since everything I write now seems to provide an occasion for bitter controversy, I’ll be curious to learn whose sensibilities I inadvertently offended by posting the following announcement for next year’s ITCS conference. -SA
+
+Dear Theorists:
+
+As you know the third Innovation in Theoretical Computer Science Conference will be held in Cambridge this January:  http://research.microsoft.com/en-us/um/newengland/events/itcs2012/.
+
+REGISTRATION IS NOW OPEN and THE PROGRAM IS ONLINE.
+
+In addition to the program, there are going to be a few novelties that we would like to point out to you.
+
+1. GRADUATING BITS
+
+In one session of the conference, students graduating this academic year (as well as researchers completing their postdoc this academic year) will be given few minutes to present themselves and their work.
+
+The presentations will be grouped by University, in alphabetic order.
+
+We hope this will give all of us an opportunity to have a synopsis of the great work being done by the “graduating” members of our community.
+
+In order to speak in this special session, please send an email at  silvio.itcs12@gmail.com by DECEMBER 15.
+
+Registration fees will be waived for presenters at Graduating Bits 2012.
+
+If you/your students are graduating this year, or you plan to hire this year, we are encourage to attend ITCS 2012!
+
+2. COMMUNITY BUILDING
+
+To strengthen our (legendary!) friendship and collaboration, we will treat you to a PLAY BACK show: an improvisational theater where OUR actors will bring to life YOUR stories.
+
+3. CHAIR RANTS
+
+In addition to the chair of each session introducing the speakers and coauthors of the session (who will then introduce themselves and their coauthors), our chairs will provide us with their insights on the papers in their sessions.
+
+We look forward to seeing all of you in Cambridge very soon!
+
+All the Best
+
+Shafi Goldwasser, Silvio Micali, and Yael Tauman Kalai
+
+================================================================================
+
+TITLE: 2.373
+URL: https://scottaaronson.blog/?m=201111
+CONTENT:
+For twenty years, the fastest known algorithm to multiply two n-by-n matrices, due to Coppersmith and Winograd, took a leisurely O(n2.376) steps.   Last year, though, in his PhD thesis, Andrew Stothers gave an improvement to O(n2.374) steps.  And today,  Virginia Vassilevska Williams of Berkeley and Stanford, released a paper that gives a general methodology for analyzing Coppersmith-Winograd-type algorithms, and that improves the matrix-multiplication time to a lightning-fast O(n2.373) steps.  (Virgi’s work was independent of Stothers’, though she credits him and applies an idea of his to simplify her proof.)  Full disclosure: I actually knew a month ago that this was coming—I had a hell of a time keeping the secret.  I’d recommend that you get started memorizing “ω<2.373,” but as Russell Impagliazzo points out in the comments, the exponent might get lowered again in short order.  Huge congratulations to Virgi and to Andrew for this breakthrough!
+
+Update (Nov. 30): Last night I received an extremely gracious email from Andrew Stothers, which he’s given me permission to summarize here.  In the email, Andrew expressed how excited he was about Virgi’s new result, apologized for the confusion he caused by not mentioning his improvement to ω until page 71 of his thesis (he says he doesn’t know why he did it), and said that he meant to publish a paper, but was prevented from doing so by health and job issues.  He also said that he didn’t take issue with anything I wrote here, except that I mistakenly referred to him as Andy rather than Andrew.  In response, I congratulated Andrew on his achievement; expressed how happy I was that—ironically—his work is now finally getting some of the attention that it deserves; and promised to buy him a beer when and if I’m ever in Edinburgh, a city I’ve always wanted to visit.  (On the other hand, I warned Andrew that his LinkedIn profile, which unselfconsciously mentions improvements to his Word and Excel skills as one of the benefits of his PhD research breaching the Coppersmith-Winograd barrier, might have earned him a place in scientific folklore forever!)
+
+In summary, I now see Andrew as an extraordinarily nice fellow who had some bad luck and—most conspicuously—a lack of good advice from people around him.  I do stand by the points that I was originally trying to make:
+
+(a) that this tangled situation shouldn’t in any way detract from Virgi’s fantastic achievement, which (except for a simplification, as she discusses) must be considered completely independent of Andrew’s, and
+
+(b) that there’s indeed an important cautionary lesson for students here, about adequately publicizing your work (yes, there’s a happy medium, between hiring a PR firm to wage a viral marketing campaign and burying your solution to a longstanding open problem so far in the body of your PhD thesis that even world experts in the subject who read your thesis will miss it).
+
+On the other hand, I hereby apologize for anything I said that could even be perceived as slighting Andrew, his important work, or his motives.
+
+Another Update: On the third hand, if you’re one of the commenters whose beef is not about attribution, but about the entire concept of using a CS theory blog to “promote” major milestones in CS theory (like the breaking of the Coppersmith-Winograd barrier), then I apologize for absolutely nothing.  Go read an economics or physics blog; I understand that those are entirely hype-free.  Better yet, go to hell.
+
+================================================================================
+
+TITLE: The quantum state cannot be interpreted as something other than a quantum state
+URL: https://scottaaronson.blog/?m=201111
+CONTENT:
+Lots of people asked me to comment on a much-discussed new preprint by Matthew Pusey, Jonathan Barrett, and Terry Rudolph (henceforth PBR), “The quantum state cannot be interpreted statistically”.  (See here for an effusive Nature News article, here for the predictable Slashdot confusion-fest, here for a related Cosmic Variance guest post by David Wallace, and here for a spiteful rant by Lubos Motl that hilariously misunderstands the new result as “anti-quantum-mechanics.”)
+
+I recommend reading the preprint if you haven’t done so yet; it should only take an hour.  PBR’s main result reminds me a little of the No-Cloning Theorem: it’s a profound triviality, something that most people who thought about quantum mechanics already knew, but probably didn’t know they knew.  (Some people are even making comparisons to Bell’s Theorem, but to me, the PBR result lacks the same surprise factor.)
+
+To understand the new result, the first question we should ask is, what exactly do PBR mean by a quantum state being “statistically interpretable”?  Strangely, PBR spend barely a paragraph justifying their answer to this central question—but it’s easy enough to explain what their answer is.  Basically, PBR call something “statistical” if two people, who live in the same universe but have different information, could rationally disagree about it.  (They put it differently, but I’m pretty sure that’s what they mean.)  As for what “rational” means, all we’ll need to know is that a rational person can never assign a probability of 0 to something that will actually happen.
+
+To illustrate, suppose a coin is flipped, and you (but not I) get a tip from a reliable source that the coin probably landed heads.  Then you and I will describe the coin using different probability distributions, but neither of us will be “wrong” or “irrational”, given the information we have.
+
+In quantum mechanics, mixed states—the most general type of state—have exactly the same observer-relative property.  That isn’t surprising, since mixed states include classical probability distributions as a special case.  As I understand it, it’s this property of mixed states, more than anything else, that’s encouraged many people (especially in and around the Perimeter Institute) to chant slogans like “quantum states are states of knowledge, not states of nature.”
+
+By contrast, pure states—states with perfect quantum coherence—seem intuitively much more “objective.”  Concretely, suppose I describe a physical system using a pure state |ψ>, and you describe the same system using a different pure state |φ>≠|ψ>.  Then it seems obvious that at least one of us has to be flat-out wrong, our confidence misplaced!  In other words, at least one of us should’ve assigned a mixed state rather than a pure state.  The PBR result basically formalizes and confirms that intuition.
+
+In the special case that |ψ> and |φ> are orthogonal, the conclusion is obvious: we can just measure the system in a basis containing |ψ> and |φ>.  If we see outcome |ψ> then you’re “unmasked as irrational”, while if we see outcome |φ>, then I’m unmasked as irrational.
+
+So let’s try a slightly more interesting, non-orthogonal example.  Suppose I describe a system S using the state |0>, while you describe it using the state |+>=(|0>+|1>)/√2.  Even then, there are some measurements and outcomes of those measurements that would clearly reveal one of us to have been irrational.  If we measure S in the {|0>,|1>} basis and get outcome |1>, then I was irrational.  If we measure in the {|+>,|->} basis (where |->=(|0>-|1>)/√2) and get outcome |->, then you were irrational.  Furthermore, if S is any qubit that obeys quantum mechanics, then it must have a decent probability either of returning outcome |1> when measured in the {|0>,|1>} basis, or of returning  outcome |-> when measured in the {|+>,|->} basis.
+
+So, are we finished?  Well, PBR don’t discuss the simple argument above, but I assume they wouldn’t be satisfied with it.  In particular, they’d probably point out that it only unmasks one of us as irrational for some measurement outcomes—but who can say what the measurement outcome will be, especially if we don’t presuppose that the quantum state provides a complete description of reality?
+
+What they want instead is a measurement that’s guaranteed to unmask someone as irrational, regardless of its outcome.  PBR show that this can be obtained, under one further assumption: that “rational beliefs behave well under tensor products.”  More concretely, suppose two people with different knowledge could rationally describe the same physical system S using different pure states, say |0> or |+> respectively.  Then if we consider a new system T, consisting of two independent copies of S, it should be rationally possible to describe T using any of the four states |0>|0>, |0>|+>, |+>|0>, or |+>|+>.  But now, PBR point out that there’s a 2-qubit orthonormal basis where the first vector is orthogonal to |0>|0>, the second vector is orthogonal to |0>|+>, the third vector is orthogonal to |+>|0>, and the fourth vector is orthogonal to |+>|+>.  So, if we measure in that basis, then someone will get unmasked as irrational regardless of the measurement result.
+
+More generally, given any physical system S that you and I describe using different pure states |ψ> and |φ>, PBR define a new system T consisting of k independent copies of S, where k is inversely proportional to the angle between |ψ> and |φ>.  They then construct a projective measurement M on T such that, whichever of M’s 2k possible outcomes is observed, one of the 2k possible “tensor product beliefs” about T gets unmasked as irrational.  And that’s it (well, other than a generalization to the noisy case).
+
+So, will this theorem finally end the century-old debate about the “reality” of quantum states—proving, with mathematical certitude, that the “ontic” camp was right and the “epistemic” camp was wrong?  To ask this question is to answer it.
+
+(Clarification added for Lubos Motl and anyone else unwilling or unable to understand: The answer that I intended was “no.”  I don’t think the battle between the “ontic” and “epistemic” camps can ever be won, by its nature.  Nor has that particular battle ever interested me greatly, except insofar as some interesting mathematical results have come out of it.)
+
+I expect that PBR’s philosophical opponents are already hard at work on a rebuttal paper: “The quantum state can too be interpreted statistically”, or even “The quantum state must be interpreted statistically.”
+
+I expect the rebuttal to say that, yes, obviously two people can’t rationally assign different pure states to the same physical system—but only a fool would’ve ever thought otherwise, and that’s not what anyone ever meant by calling quantum states “statistical”, and anyway it’s beside the point, since pure states are just a degenerate special case of the more fundamental mixed states.
+
+I expect the rebuttal to prove a contrary theorem, using a definition of the word “statistical” that subtly differs from PBRs.  I expect the difference between the two definitions to get buried somewhere in the body of the paper.
+
+I expect the rebuttal to get blogged and Slashdotted.  I expect the Slashdot entry to get hundreds of comments taking strong sides, not one of which will acknowledge that the entire dispute hinges on the two camps’ differing definitions.
+
+There’s an important lesson here for mathematicians, theoretical computer scientists, and analytic philosophers.  You want the kind of public interest in your work that the physicists enjoy?  Then stop being so goddamned precise with words!   The taxpayers who fund us—those who pay attention at all, that is—want a riveting show, a grand Einsteinian dispute about what is or isn’t real.  Who wants some mathematical spoilsport telling them: “Look, it all depends what you mean by ‘real.’  If you mean, uniquely determined by the complete state of the universe, and if you’re only talking about pure states, then…”
+
+One final remark.  In their conclusion, PBR write:
+
+… the quantum state has the striking property of being an exponentially complicated object.  Specifically, the number of real parameters needed to specify a quantum state is exponential in the number of systems n.  This has a consequence for classical simulation of quantum systems.  If a simulation is constrained by our assumptions—that is, if it must store in memory a state for a quantum system, with independent preparations assigned uncorrelated states—then it will need an amount of memory which is exponential in the number of quantum systems.
+
+The above statement is certainly true, but it seems to me that it was already demonstrated—and much more convincingly—by (for example) the exponential separations between randomized and quantum communication complexities.
+
+================================================================================
+
+TITLE: Simons Postdoctoral Fellowship Announcement
+URL: https://scottaaronson.blog/?m=201111
+CONTENT:
+The Theory of Computation (TOC) group at the Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT is seeking candidates for a post-doctoral position in the general area of the theory of computation. Applicants in all areas of theory are encouraged to apply, including (but not exclusive to) algorithms, complexity theory, combinatorial optimization, cryptography, distributed computing, game theory and computation, geometry, parallel computing, and quantum computing. This fellowship is made possible by a generous gift from the Simons Foundation.
+
+The fellowship is a two year position, starting the summer or fall of 2012. The fellowship stipend is gauged to attract the highest caliber of applicants. Generous funds for scientific travel will be available for use at the fellow’s discretion. Fellows will be assigned a faculty member close to their research interests from the TOC group. Fellows will be encouraged (although not required) to teach a graduate seminar in their area of research.
+
+Eligibility: Candidates must receive their PhD during the academic year immediately preceding that in which the fellowship would begin. There are no other restrictions based on nationality or any other basis.
+
+Application Process: Candidate applications should include a description of professional interests and goals in research. Each application should include a curriculum vitae and the names and addresses of three or more individuals who will provide letters of recommendation. Letter writers should submit their letters directly to MIT to the address below. Please submit complete applications by January 6, 2012.
+
+Address to submit application: All application materials and recommendation letters should be sent electronically to theory-postdoc@csail.mit.edu. The candidate’s name should be included in the subject line of the email. Alternatively, the materials can be also sent to the following address:
+Simons Postdoctoral Fellowship, c/o Joanne Hanley
+MIT Computer Science and Artificial Intelligence Laboratory
+The Stata Center, Building 32-G672A
+32 Vassar Street
+Cambridge, MA 02139, USA.
+
+================================================================================
+
+TITLE: The pedophile upper bound
+URL: https://scottaaronson.blog/?m=201111
+CONTENT:
+Lance Fortnow now has a post up about how wonderful Graham Spanier and Joe Paterno were, and how sorry he is to see them go.
+
+For what it’s worth, I take an extremely different view.  I’d be thrilled to see the insane football culture at many American universities—the culture that Spanier and Paterno epitomized—brought down entirely, and some good might yet come of the Penn State tragedy if it helps that happen.  Football should be, as it is at MIT, one of many fine extracurricular activities that are available to interested students (alongside table tennis, glassblowing, robot-building…), rather than a primary reason for a university’s existence.
+
+What’s interesting about the current scandal is precisely that it establishes some finite upper bound on what people will tolerate, and thereby illustrates just what it takes for the public to turn on its football heroes.  Certainly the destruction of academic standards doesn’t suffice (are you kidding?).  More interestingly, sexism, sexual harassment, and “ordinary” rape—offenses that have brought down countless male leaders in other fields—barely even make a dent in public consciousness where football stars are concerned.  With child rape, by contrast, one can actually find a non-negligible fraction of Americans who consider it comparable in gravity to football.  (Though, as the thousands of rioting Penn State students reminded us, that’s far from a universal opinion.)  Many commentators have already made the obvious comparisons to the Catholic Church’s abuse scandal, and the lesson for powerful institutions the world over is indeed a similar one: sure, imprison Galileo; by all means stay silent during the Holocaust; but don’t protect pedophiles—cross that line, and your otherwise all-forgiving constituents might finally turn on you.
+
+I should say that both of my parents are Penn State grads, and they’re both disgusted right now with the culture of hooliganism there—a culture that was present even in the late 60s and early 70s, but that’s become much more dominant since.  To the many of you at Penn State who want a university that’s more than an adjunct to a literally-rapacious football program, you have this blog’s admiration and support as you struggle to reclaim your great institution.  Go for the touchdown—WOOOOO!
+
+================================================================================
+

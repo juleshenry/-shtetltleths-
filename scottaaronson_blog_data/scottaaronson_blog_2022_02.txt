@@ -1,0 +1,88 @@
+TITLE: Nothing non-obvious to say…
+URL: https://scottaaronson.blog/?m=202202
+CONTENT:
+… but these antiwar protesters in St. Petersburg know that they’re all going to be arrested and are doing it anyway.
+
+Meanwhile, I just spent an hour giving Lily, my 9-year-old, a crash course on geopolitics, including WWII, the Cold War, the formation of NATO, Article 5, nuclear deterrence, economic sanctions, the breakup of the USSR, Ukraine, the Baltic Republics, and the prospects now for WWIII. Her comment at the end was that from now on she’s going to refer to Putin as “Poopin,” in the hope that that shames him into changing course.
+
+Update (March 1): A longtime Shtetl-Optimized reader has a friend who’s trying to raise funds to get her family out of Ukraine.  See here if you’d like to help.
+
+================================================================================
+
+TITLE: Happy 70th birthday Dad!
+URL: https://scottaaronson.blog/?m=202202
+CONTENT:
+When, before covid, I used to travel the world giving quantum computing talks, every once in a while I’d meet an older person who asked whether I had any relation to a 1970s science writer by the name of Steve Aaronson.  So, yeah, Steve Aaronson is my dad.  He majored in English in Penn State, where he was lucky enough to study under the legendary Phil Klass, who wrote under the pen name William Tenn and who basically created the genre of science-fiction comedy, half a century before there were any such things as Futurama.  After graduating, my dad became a popular physics and cosmology writer, who interviewed greats like Steven Weinberg and John Archibald Wheeler and Arno Penzias (discoverer of the cosmic microwave background radiation).  He published not only in science magazines but in Playboy and Penthouse, which (as he explained to my mom) paid better than the science magazines.  When I was growing up, my dad had a Playboy on his office shelf, which I might take down if for example I wanted to show a friend a 2-page article, with an Aaronson byline, about the latest thinking on the preponderance of matter over antimatter in the visible universe.
+
+Eventually, partly motivated by the need to make money to support … well, me, and then my brother, my dad left freelancing to become a corporate science writer at AT&T Bell Labs.  There, my dad wrote speeches, delivered on the floor of Congress, about how breaking up AT&T’s monopoly would devastate Bell Labs, a place that stood with ancient Alexandria and Cambridge University among the human species’ most irreplaceable engines of scientific creativity.  (Being a good writer, my dad didn’t put it in quite those words.)  Eventually, of course, AT&T was broken up, and my dad’s dire warning about Bell Labs turned out to be 100% vindicated … although on the positive side, Americans got much cheaper long distance.
+
+After a decade at Bell Labs, my dad was promoted to be a public relations executive at AT&T itself, where when I was a teenager, he was centrally involved in the launch of the AT&T spinoff Lucent Technologies (motto: “Bell Labs Innovations”), and then later the Lucent spinoff Avaya—developments that AT&T’s original breakup had caused as downstream effects.
+
+In the 1970s, somewhere between his magazine stage and his Bell Labs stage, my dad also worked for Eugene Garfield, the pioneer of bibliometrics for scientific papers and founder of the Institute for Scientific Information, or ISI.  (Sergey Brin and Larry Page would later cite Garfield’s work, on the statistics of the scientific-citation graph, as one of the precedents for the PageRank algorithm at the core of Google.)
+
+My dad’s job at ISI was to supply Eugene Garfield with “raw material” for essays, which the latter would then write and publish in ISI’s journal Current Contents under the byline Eugene Garfield.  Once, though, my dad supplied some “raw material” for a planned essay about “Style in Scientific Writing”—and, well, I’ll let Garfield tell the rest:
+
+This topic of style in scientific writing was first proposed as something I should undertake myself, with some research and drafting help from Steve.  I couldn’t, with a clear conscience, have put my name to the “draft” he submitted.  And, though I don’t disagree with much of it, I didn’t want to modify or edit it in order to justify claiming it as my own.  So here is Aaronson’s “draft,” as it was submitted for “review.”  You can say I got a week’s vacation.  After reading what he wrote it required little work to write this introduction.
+
+Interested yet?  You can read “Style in Scientific Writing” here.  You can, if we’re being honest, tell that this piece was originally intended as “raw material”—but only because of the way it calls forth such a fierce armada of all of history’s awesomest quotations about what makes scientific writing good or bad, like Ben Franklin and William James and the whole gang, which would make it worth the read regardless.  I love eating raw dough, I confess, and I love my dad’s essay.  (My dad, ironically enough, likes everything he eats to be thoroughly cooked.)
+
+When I read that essay, I hear my dad’s voice from my childhood.  “Omit needless words.”  There were countless revisions and pieces of advice on every single thing I wrote, but usually, “omit needless words” was the core of it.  And as terrible as you all know me to be on that count, imagine how much worse it would’ve been if not for my dad!  And I know that as soon as he reads this post, he’ll find needless words to omit.
+
+But hopefully he won’t omit these:
+
+Happy 70th birthday Pops, congrats on beating the cancer, and here’s to many more!
+
+================================================================================
+
+TITLE: AlphaCode as a dog speaking mediocre English
+URL: https://scottaaronson.blog/?m=202202
+CONTENT:
+Tonight, I took the time actually to read DeepMind’s AlphaCode paper, and to work through the example contest problems provided, and understand how I would’ve solved those problems, and how AlphaCode solved them.
+
+It is absolutely astounding.
+
+Consider, for example, the “n singers” challenge (pages 59-60). To solve this well, you first need to parse a somewhat convoluted English description, discarding the irrelevant fluff about singers, in order to figure out that you’re being asked to find a positive integer solution (if it exists) to a linear system whose matrix looks like1 2 3 44 1 2 33 4 1 22 3 4 1.Next you need to find a trick for solving such a system without Gaussian elimination or the like (I’ll leave that as an exercise…). Finally, you need to generate code that implements that trick, correctly handling the wraparound at the edges of the matrix, and breaking and returning “NO” for any of multiple possible reasons why a positive integer solution won’t exist.   Oh, and also correctly parse the input.
+
+Yes, I realize that AlphaCode generates a million candidate programs for each challenge, then discards the vast majority by checking that they don’t work on the example data provided, then still has to use clever tricks to choose from among the thousands of candidates remaining. I realize that it was trained on tens of thousands of contest problems and millions of solutions to those problems. I realize that it “only” solves about a third of the contest problems, making it similar to a mediocre human programmer on these problems. I realize that it works only in the artificial domain of programming contests, where a complete English problem specification and example inputs and outputs are always provided.
+
+Forget all that. Judged against where AI was 20-25 years ago, when I was a student, a dog is now holding meaningful conversations in English. And people are complaining that the dog isn’t a very eloquent orator, that it often makes grammatical errors and has to start again, that it took heroic effort to train it, and that it’s unclear how much the dog really understands.
+
+It’s not obvious how you go from solving programming contest problems to conquering the human race or whatever, but I feel pretty confident that we’ve now entered a world where “programming” will look different.
+
+Update: A colleague of mine points out that one million, the number of candidate programs that AlphaCode needs to generate, could be seen as roughly exponential in the number of lines of the generated programs.  If so, this suggests a perspective according to which DeepMind has created almost the exact equivalent, in AI code generation, of a non-fault-tolerant quantum computer that’s nevertheless competitive on some task (as in the quantum supremacy experiments). I.e., it clearly does something highly nontrivial, but the “signal” is still decreasing exponentially with the number of instructions, necessitating an exponential number of repetitions to extract the signal and imposing a limit on the size of the programs you can scale to.
+
+================================================================================
+
+TITLE: Scott Aaronson Speculation Grant WINNERS!
+URL: https://scottaaronson.blog/?m=202202
+CONTENT:
+Two weeks ago, I announced on this blog that, thanks to the remarkable generosity of Jaan Tallinn, and the Speculation Grants program of the Survival and Flourishing Fund that Jaan founded, I had $200,000 to give away to charitable organizations of my choice.  So, inspired by what Scott Alexander had done, I invited the readers of Shtetl-Optimized to pitch their charities, mentioning only some general areas of interest to me (e.g., advanced math education at the precollege level, climate change mitigation, pandemic preparedness, endangered species conservation, and any good causes that would enrage the people who attack me on Twitter).
+
+I’m grateful to have gotten more than twenty well-thought-out pitches; you can read a subset of them in the comment thread.  Now, having studied them all, I’ve decided—as I hadn’t at the start—to use my entire allotment to make as strong a statement as I can about a single cause: namely, subject-matter passion and excellence in precollege STEM education.
+
+I’ll be directing funds to some shockingly cash-starved math camps, math circles, coding outreach programs, magnet schools, and enrichment programs, in Maine and Oregon and England and Ghana and Ethiopia and Jamaica.  The programs I’ve chosen target a variety of ability levels, not merely the “mathematical elite.”  Several explicitly focus on minority and other underserved populations.  But they share a goal of raising every student they work with as high as possible, rather than pushing the students down to fit some standardized curriculum.
+
+Language like that ought to be meaningless boilerplate, but alas, it no longer is.  We live in a time when the state of California, in a misguided pursuit of “modernization” and “equity,” is poised to eliminate 8th-grade algebra, make it nearly impossible for high-school seniors to take AP Calculus, and shunt as many students as possible from serious mathematical engagement into a “data science pathway” that in practice might teach little more than how to fill in spreadsheets.  (This watering-down effort now itself looks liable to be watered down—but only because of a furious pushback from parents and STEM professionals, pushback in which I’m proud that this blog played a small role.)  We live in a time when elite universities are racing to eliminate the SAT—thus, for all their highminded rhetoric, effectively slamming the door on thousands of nerdy kids from poor or immigrant backgrounds who know how to think, but not how to shine in a college admissions popularity pageant.  We live in a time when America’s legendary STEM magnet high schools, from Thomas Jefferson in Virginia to Bronx Science to Lowell in San Francisco, rather than being celebrated as the national treasures that they are, or better yet replicated, are bitterly attacked as “elitist” (even while competitive sports and music programs are not similarly attacked)—and are now being forcibly “demagnetized” by bureaucrats, made all but indistinguishable from other high schools, over the desperate pleas of their students, parents, and alumni.
+
+And—alright, fine, on a global scale, arresting climate change is surely a higher-priority issue than protecting the intellectual horizons of a few teenage STEM nerds.  The survival of liberal democracy is a higher-priority issue.  Pandemic preparedness, poverty, malnutrition are higher-priority issues.  Some of my friends strongly believe that the danger of AI becoming super-powerful and taking over the world is the highest-priority issue … and truthfully, with this week’s announcements of AlphaCode and OpenAI’s theorem prover, which achieve human-competitive performance in elite programming and math competitions respectively, I can’t confidently declare that they’re wrong.
+
+On the other hand, when you think about the astronomical returns on every penny that was invested in setting a teenage Ramanujan or Einstein or Turing or Sofya Kovalevskaya or Norman Borlaug or Mario Molina onto their trajectories in life … and the comically tiny budgets of the world-leading programs that aim to nurture the next Ramanujans, to the point where $10,000 often seems like a windfall to those programs … well, you might come to the conclusion that the “protecting nerds” thing actually isn’t that far down the global priority list!  Like, it probably cracks the top ten.
+
+And there’s more to it than that.  There’s a reason beyond parochialism, it dawned on me, why individual charities tend to specialize in wildlife conservation in Ecuador or deworming in Swaziland or some other little domain, rather than simply casting around for the highest-priority cause on earth.  Expertise matters—since one wants to make, not only good judgments about which stuff to support, but good judgments that most others can’t or haven’t made.  In my case, it would seem sensible to leverage the fact that I’m Scott Aaronson.  I’ve spent much of my career in math/CS education and outreach—mostly, of course, at the university level, but by god did I personally experience the good and the bad in nearly every form of precollege STEM education!  I’m pretty confident in my ability to distinguish the two, and for whatever I don’t know, I have close friends in the area who I trust.
+
+There’s also a practical issue: in order for me to fund something, the recipient has to fill out a somewhat time-consuming application to SFF.  If I’d added, say, another $20,000 drop into the bucket of global health or sustainability or whatever, there’s no guarantee that the intended recipients of my largesse would even notice, or care enough to go through the application process if they did.  With STEM education, by contrast, holy crap!  I’ve got an inbox full of Shtetl-Optimized readers explaining how their little math program is an intellectual oasis that’s changed the lives of hundreds of middle-schoolers in their region, and how $20,000 would mean the difference between their program continuing or not.  That’s someone who I trust to fill out the form.
+
+Without further ado, then, here are the first-ever Scott Aaronson Speculation Grants:
+
+While working on this, it crossed my mind that, on my deathbed, I might be at least as happy about having directed funds to efforts like these as about any of my research or teaching.
+
+To the applicants who weren’t chosen: I’m sorry, as many of you had wonderful projects too!  As I said in the earlier post, you remain warmly invited to apply to SFF, and to make your pitch to the other Speculators and/or the main SFF committee.
+
+Needless to say, anyone who feels inspired should add to my (or rather, SFF’s) modest contributions to these STEM programs.  My sense is that, while $200k can go eye-poppingly far in this area, it still hasn’t come close to exhausting even the lowest-hanging fruit.
+
+Also needless to say, the opinions in this post are my own and are not necessarily shared by SFF or by the organizations I’m supporting.  The latter are welcome to disagree with me as long as they keep up their great work!
+
+Huge thanks again to Jaan, to SFF, to my SFF contact Andrew Critch, to everyone (whether chosen or not) who participated in this contest, and to everyone who’s putting in work to broaden kids’ intellectual horizons or otherwise make the world a little less horrible.
+
+================================================================================
+

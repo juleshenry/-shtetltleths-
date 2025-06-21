@@ -1,0 +1,294 @@
+TITLE: The Myth of the Ivory Tower
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+I know I promised no more posts about D-Wave and its “commercial” “quantum” computer for a while.  But will you look at the bait that D-Wave founder Geordie Rose has been dangling in front of me on his blog?
+
+People tend to approach problems and form opinions through the lens of their expertise. This happens all the time when disciplines are close … but it also happens in wierder [sic] situations, where the area of expertise is entirely disjoint from the situation being analyzed — like when theoretical computer scientists have opinions about real computers for example.
+
+In Geordie’s comments section, the message is clearer still.   One commenter writes that “the Professors didn’t get there first and they are angry; all truth must first come from them.”  Another imagines “the Aaronsons of the world” fervently hoping that “their fragile self-created self-contained ecosystem can be re-built just the way they like it.”
+
+For commenters like these, it would seem that the issue has nothing to do with decoherence rates or scalability, or with what the evidence is that D-Wave is actually harnessing quantum effects to obtain a computational speedup.  So in this post, I want to step back and try to understand what the real issue is.
+
+I propose that more than a few technology enthusiasts — not just the D-Wave supporters quoted above — are in the thrall of The Myth of the Ivory Tower.   According to this Myth, the basic function of academic scientists is to sit around in their armchairs, pompously declaring to be impossible what plucky inventors like Thomas Edison or the Wright Brothers then roll up their sleeves and do.  Now, I might be an academic myself, but I’m also a proud American (currently residing in the 51st state), and I won’t deny that this most American of myths has a certain resonance even for me.  In the end, though, I believe that the Myth tells us more about our Zeitgeist, or our collective psyche, or something like that, than it does about the actual history of technology.
+
+The “evidence” for the Myth (when such is offered) usually consists of famous last words from distinguished scientific authorities.  You know the sort of thing I’m talking about:
+
+Heavier-than-air flying machines are impossible.
+Radio has no future.
+X-rays will prove to be a hoax.
+-William Thomson (Lord Kelvin)
+
+I think there is a world market for maybe five computers.
+-Thomas Watson
+
+There is no reason anyone would want a computer in their home.
+-Ken Olsen
+
+(Watson and Olsen were of course CEO’s, but for the purposes of the Myth they stand in here as “academics.”)
+
+However, as soon as we think about these predictions and what they’re supposed to demonstrate, we notice some glaring problems.  The first one is confirmation bias.   No one compiles lists of pessimistic technological forecasts made by experts that turned out to be right — where would you even start?
+
+The second problem is that many of the juiciest predictions come from a single individual: Lord Kelvin.  Furthermore, they come from the twilight of his career, when he was considered to have lost his vortices even by most of his colleagues.  Seeking to better understand this great physicist of the 19th century who was so wrong about the technologies of the 20th, I just read an excellent biography called Degrees Kelvin.  One thing I learned is that, if the selective historians chose to focus on the first half of Kelvin’s career rather than the second, they could find equally exquisite anecdotes illustrating the reliability of academic opinions.
+
+In the laying of the first transatlantic telegraph cable in the 1850’s, there were two colorful personalities: Kelvin and Wildman Whitehouse.  Whitehouse, the “practical” man, detested any math or physics he couldn’t understand, and insisted that a transatlantic cable would just be a longer version of existing cables.  Kelvin, the “theorist,” said that while a transatlantic cable was certainly possible, it would need thicker insulation, a different kind of receiver, etc. than previous cables to work reliably, and that more testing and research was needed.  As it happened, after laying a cable that was every bit as unreliable as Kelvin said it would be, Whitehouse (1) had to use Kelvin’s receiver to get any signal through at all, (2) faked the transcripts to make it look like he used his own receiver, (3) fatally damaged the cable by sending 2,000 volts through it in a desperate attempt to get it to work properly, and then (4) insisted the cable was still fine after it had permanently gone silent.  Eventually the cable companies learned their lesson.
+
+Despite this and other successes (e.g., the Second Law of Thermodynamics), Kelvin’s doofus predictions in later life do illustrate two important points.  The first is that, if you’re going to make skeptical pronouncements, you’d better distinguish clearly between the provably impossible, the presumably impossible, and the merely difficult and not yet achieved.  The second is that, if you’re going to claim something’s impossible, you’d better have an argument, and you’d better understand what assumptions it rests on.
+
+Alright, so let’s move on to Watson and Olsen’s predictions about the computer industry.  The funny thing is, these predictions weren’t nearly as stupid as they sound!  Why?  Because there’s nothing inevitable about the concept of a personal computer.  Instead of billions of home PC’s, we could just as easily imagine most of the world’s computing power concentrated in a few servers, accessible remotely to anyone who wanted it.   In this alternate universe, your desktop PC would be little more than a glorified information portal — a “browser,” if you will — while most of the actual application software (email, calendars, maps, etc.) ran elsewhere. I admit that this is just a fanciful, hypothetical scenario, but what does that matter to a theorist like me?
+
+Speaking of which, the Internet was of course the child of DARPA and NSF, raised to adolescence in university CS departments.  (DARPA has since reoriented itself toward projects with shorter-term payoff, its previous funding model having failed so disastrously.)  The Web was created by Tim Berners-Lee at CERN, and the first popular web browser by Marc Andreessen at the University of Illinois.  (And yes, Al Gore had a nontrivial role in funding this work.)  R, S, and A were all at MIT.  If you’re going to argue for the irrelevance of academic research, the Internet is not the place to start.
+
+But what about some of the other spectacular inventions of the last fifty years: the laser, the transistor, the fiber-optic cable, the communications satellite?  Didn’t those come from the private sector?  As it happens, they came from Bell Labs, which is interesting as the sort of mammoth exception that proves the rule.  Because of AT&T’s government-sanctioned monopoly, for much of the 20th century Bell Labs was able to function like the world’s largest university, devoting billions of dollars to “irrelevant” research.  So in the 1980’s, when Congress decided to deregulate the phone system, many people predicted that Bell Labs would die a slow, agonizing death — a prediction that’s been borne out over the last 25 years.
+
+But surely other companies must have picked up the slack? No, not really.  While Microsoft, IBM, NEC, Xerox, and a few others all provide welcome support for basic research, none of them do so on the old Ma Bell’s scale.  From a CEO’s perspective, the problem with basic research is obvious: a rising tide lifts all boats, your competitors’ as well as yours.  (The famous cautionary example here is Xerox PARC, which made the “mistake” of giving the world the windowing system, the mouse, and the laser printer.)
+
+For those who adhere to the religion of capitalism, have the Arrow-Debreu Theorem tattoed across their chests, etc., it might be difficult to understand how a system based on peer review rather than the free market could lead so consistently to technological breakthroughs.  I mean, all those ivory-tower academics growing fat off government grants: what incentive could they possibly have to get the right answers?   Without picky customers or venture capitalists breathing down their necks, what’s the penalty for being wrong?
+
+I’m lucky enough to be friends with Robin Hanson, a brilliant economist and futurist who starts where Ayn Rand would’ve suffered a loss of nerve and keeps going from there.  Robin has long argued that the scientific peer review process is broken, and ought to be supplanted by a futures market that would reward scientists for making correct predictions.  As he writes:
+
+The pace of scientific progress may be hindered by the tendency of our  academic institutions to reward being popular, rather than being right … Academia is still  largely a medieval guild, with a few powerful elites, many slave-like  apprentices, and members who hold a monopoly on the research patronage of  princes and the teaching of their sons …
+
+Imagine that academics are expected to “put up  or shut up” and accompany claims with at least token bets, and that  statistics are collected on how well people do.  Imagine that funding  agencies subsidize pools on questions of interest to them, and that  research labs pay for much of their research with winnings from previous  pools.  And imagine that anyone could play, either to take a stand on an  important issue, or to insure against technological risk.
+
+Personally, I hope that Robin’s science futures market gets tried on a significant scale, and I can’t wait to see the results.  (Naturally, even the marketplace of ideas has to compete in the marketplace of ideas!)  I agree with Robin that academic science is often tradition-bound to the point of absurdity, and that its institutions ought to be as open to scrutiny and replacement as its theories.   But I don’t go as far as he apparently does in the direction of the Myth of the Ivory Tower.  For me, the interesting thing about science is not that it’s broken, but rather that it’s about the least broken enterprise in the whole sorry history of our species.
+
+================================================================================
+
+TITLE: A Woitian links, links, links post (slightly stale but still edible)
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+Razborov and Rudich won the Gödel Prize for “Natural Proofs”, which probably did as much as any single paper to elucidate the nature of the P vs. NP problem.  (More from the Bearded One and the Pontiff.) Loosely speaking, R&R showed that any circuit lower bound satisfying certain extremely broad criteria would “bite its own tail,” and lead to efficient algorithms to distinguish random from pseudorandom functions — the very sort of thing that we wanted to prove was hard. This doesn’t by any means imply that a P≠NP proof is impossible, but it does show how the problem has a strange, self-referential character that’s not quite like anything previously encountered in mathematics, including in the work of Gödel and Turing.  Technically simple but conceptually profound, the paper is also a masterpiece of clear, forceful exposition.  When I first came across it as an undergrad at Cornell, I knew complexity was my subject.
+
+Following on the heels of the New Yorker, the New York Times ran its own epic on the Large Hadron Collider.  So science writers can do a decent job when they feel like it.  Why can’t they write about P vs. NP the same way?  Oh, right … them big machines …
+
+Andy Drucker poses the following problem: suppose there are n blog posts, and for each post bi, you’re told only that it was posted during the time interval [ti,ui].  Is there an efficient algorithm to count how many orderings of the blog posts are compatible with that information?  Alternatively, is the problem #P-complete?  Let me stress that Andy doesn’t know the answer to this question, and neither do I.
+
+A certain MIT undergrad of my acquaintance sent the following letter to MIT’s DMCA enforcement office.
+
+Dear MIT DMCA Agent,
+
+After viewing Scoop and receiving your notice, I was more than happy to comply with NBC’s request to destroy it. Rest assured that I will no longer be downloading or sharing any post-Manhattan Woody Allen films.
+
+================================================================================
+
+TITLE: Religion’s rules of inference
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+Besides defending quantum computing day and night, having drinks with Cosmic Variance‘s Sean Carroll, and being taken out to dinner at lots of restaurants with tablecloths, the other highlight of my job interview tour was meeting a friendly, interesting, articulate divinity student on the flight from San Francisco to Philadelphia, who tried to save my soul from damnation.
+
+Here’s how it happened: the student (call him Kurt) was reading a Christian theological tract, while I, sitting next to him, was reading Russell on Religion.  (This is true.)  I sheepishly covered the spine of my book, trying to delay the inevitable conversation — but it finally happened, when Kurt asked me how I was liking ole’ Bert.  I said I was liking him just fine, thank you very much.
+
+Kurt then made some comment about the inadequacy of a materialistic worldview, and how, without God as the basis of morality, the whole planet would degenerate into what we saw at Virginia Tech.  I replied that the prevention of suffering seemed like a pretty good basis for morality to me.
+
+“Oh!” said Kurt. “So then suffering is bad. How do you know it’s bad?”
+
+“How do you know it’s bad?”
+
+“Because I believe the word of God.”
+
+“So if God said that suffering was good, that would make it good?”
+
+I can’t remember Kurt’s response, but I’m sure it was eloquent and well-practiced — nothing I said really tripped him up, nor did I expect it to.  Wanting to change the subject, I asked him about his family, his studies, his job, what he’d been doing in the vipers’ den of San Francisco, etc.   I told him a little about quantum computing and my job search.   I mused that, different though we were, we both valued something in life more than money, and that alone probably set us apart from most people on the plane.  Kurt said it was fitting that I’d gone to grad school at Berkeley.  I replied that, as a mere Democrat, I was one of the most conservative people there.
+
+Finally I blurted out the question I really wanted to ask.  In his gentle, compassionate, way, Kurt made it clear to me that yes, I was going to roast in hell, and yes, I’d still roast in hell even if I returned to the religion of my ancestors (that, of course, being at best a beta version of the true religion).  In response, I told Kurt that when I read Dante’s Inferno in freshman English, I decided that the place in the afterlife I really wanted to go was the topmost layer of hell: the place where Dante put the “righteous unbaptized” such as Euclid, Plato, and Aristotle.  There, these pre-Christian luminaries could carry on an eternal intellectual conversation — cut off from God’s love to be sure, but also safe from the flames and pitchforks.   How could angels and harps possibly compete with infinite tenure at Righteous Unbaptized University?  If God wanted to lure me away from that, He’d probably have to throw in the Islamic martyr package.
+
+San Francisco to Philadelphia is a five-hour flight, and the conversation ranged over everything you might expect: the age of the earth (Kurt was undecided but leaning toward 6,000 years), whether the universe needs a reason for its existence external to itself, etc.  With every issue, I resolved not to use the strongest arguments at my disposal, since I was more interested in understanding my adversary’s reasoning process — and ideally, in getting him to notice inconsistencies within his own frame of reference.  Alas, in that I was to be mostly disappointed.
+
+Here’s an example. I got Kurt to admit that certain Bible passages — in particular, the ones about whipping your slaves — reflected a faulty, limited understanding of God’s will, and could only be understood in the historical context in which they were written.  I then asked him how he knew that other passages — for example, the ones condemning homosexuality — didn’t also reflect a limited understanding of God’s will.  He replied that, in the case of homosexuality, he didn’t need the Bible to tell him it was immoral: he knew it was immoral because it contradicted human beings’ biological nature, gay couples being unable to procreate.  I then asked whether he thought that infertile straight couples should similarly be banned from getting married.  Of course not, he replied, since marriage is about more than procreation — it’s also about love, bonding, and so on.  I then pointed out that gay and lesbian couples also experience love and bonding. Kurt agreed that this was true, but then said the reason homosexuality was wrong went back to the Bible.
+
+What fascinated me was that, with every single issue we discussed, we went around in a similar circle — and Kurt didn’t seem to see any problem with this, just so long as the number of 2SAT clauses that he had to resolve to get a contradiction was large enough.
+
+In the study of rationality, there’s a well-known party game: the one where everyone throws a number from 0 to 100 into a hat, and that player wins whose number was closest to two-thirds of the average of everyone’s numbers.  It’s easy to see that the only Nash equilibrium of this game — that is, the only possible outcome if everyone is rational, knows that everyone is rational, knows everyone knows everyone is rational, etc. — is for everyone to throw in 0.  Why? For simplicity, consider the case of two people: one can show that I should throw in 1/2 of what I think your number will be, which is 1/2 of what you think my number will be, and so on ad infinitum until we reason ourselves down to 0.
+
+On the other hand, how should you play if you actually want to win this game?  The answer, apparently, is that you should throw in about 20.  Most people, when faced with a long chain of logical inferences, will follow the chain for one or two steps and then stop.  And, here as elsewhere in life, “being rational” is just a question of adjusting yourself to everyone else’s irrationalities.  “Two-thirds of 50 is 33, and two-thirds of that is 22, and … OK, good enough for me!”
+
+I’ve heard it said that the creationists are actually perfectly rational Bayesians; they just have prior probabilities that the scientifically-minded see as perverse.  Inspired by conversations with Kurt and others, I hereby wish to propose a different theory of fundamentalist psychology.  My theory is this: fundamentalists use a system of logical inference wherein you only have to apply the inference rules two or three times before you stop.  (The exact number of inferences can vary, depending on how much you like the conclusion.)  Furthermore, this system of “bounded inference” is actually the natural one from an evolutionary standpoint.  It’s we — the scientists, mathematicians, and other nerdly folk — who insist on a bizzarre, unnatural system of inference, one where you have to keep turning the modus ponens crank whether you like where it’s taking you or not.
+
+Kurt, who looked only slightly older than I am, is already married with two kids, and presumably more on the way.  In strict Darwinian terms, he’s clearly been more successful than I’ve been.  Are those of us who can live with A→B or B→C or C→not(A) but not all of them at once simply evolutionary oddities, like people who have twelve fingers or can’t stand sunlight?
+
+================================================================================
+
+TITLE: Five reasons why I was in a good mood yesterday
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+[Note: To clear up any confusion, I’m now lucky enough to have several great offers, and have not yet decided where I’m going, even unofficially.]
+
+================================================================================
+
+TITLE: Two Sunday-morning breakfast links
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+On Thursday NEC put out a press release announcing the “world’s first controllably coupled qubits.”  See here for the abstract of the accompanying Science paper by Niskanen et al. (unfortunately the full text requires a subscription).  NEC’s announcement led to the usual fluffified popular articles; see here, here, and here for example.  But to satisfy Geordie Rose’s curiosity, my hype-o-meter has not yet reached D-Wave levels, for three reasons.
+
+Anyway, I thought I should at least mention this work, in the hope that commenters more knowledgeable than I am will weigh in on its significance.  Eternal vigilance is the price of quantum computing research.
+
+OK, on to the second breakfast link.  Bill Gasarch has reviewed my blog for SIGACT News (scroll down to page 15), together with Lance Fortnow’s and Luca Trevisan’s.  Favorite quotes:
+
+Lance is Walter Cronkite.  Scott is Stephen Colbert.
+
+The name of the blog, ‘Shtetl-Optimized’ does not really say what it is about.  With this in mind one can never say Scott has gone ‘off topic’ since its [sic] not clear what the topic should be.
+
+Incidentally, an uncharitable person might suspect a slight conflict of interest in Bill reviewing Lance’s blog, seeing as Bill now writes Lance’s blog.  But Bill assures us that he reviewed the blog before taking it over.
+
+================================================================================
+
+TITLE: The Hiring Scott Aaronson FAQ
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+Last weekend, I got back from interviewing at the University of Washington, Stanford, Caltech, Berkeley, and Cornell.   Then I fell asleep, and am only just now waking up.  On this trip — surely the most exhausting I’ve ever been on —  I seem to remember giving  a talk on The Limits of Quantum Computers.  (You’ll have to go to presentation mode to get the full effect of my PowerPoint animations, and especially the D-Wave montage on slide 2.)
+
+The bulk of the time, however, was taken up with interviews.  My interviewers — maybe 20 or 30 at each school, in CS, physics, applied math, even chemistry and electrical engineering — asked me good questions, questionable questions, hard questions, soft questions, loaded questions, lots of questions.   And that’s what enables me, without further ado, to present for your reading enjoyment The Official Hiring Scott Aaronson FAQ.
+
+[Note: The questions below are all things that I was actually asked by at least one interviewer — in some cases, by dozens of interviewers.]
+
+Q: What will you do if quantum computing doesn’t pan out in the next 20 years?
+
+A: This question presupposes that quantum computing should be judged as a high-risk engineering project.   But that’s never been my view.  My view is that it should be judged as basic science. What we’re trying to do is unify the theory of computing with our best theory of the physical world, and to perform the most stringent tests to which quantum mechanics itself has ever been subjected. For me, the payoff for better scientific understanding is not in some remote future — it’s as soon as the understanding is achieved.
+
+Q: But why should we care about basic science?
+
+A: Uhh, we are called the computer science department…
+
+Q: Does quantum computing really belong in CS departments, as opposed to physics departments?
+
+A: It belongs if we want it to belong!   In my experience, the physicists have a bigger hurdle than the computer scientists in getting started with quantum computing research.  All we need to do is ask ourselves: “what happens if we generalize probability theory to allow minus signs, and base it on the L2 norm instead of the L1 norm?”  From then on it’s just the concepts we know and love: states, transformations, recursion, reductions, universality, asymptotic efficiency, and so on.  Physicists, by contrast, have to learn most of this stuff for the first time. It’s been a great personal pleasure to watch physicists who once suspected that CS was devoid of intellectual content, struggle with that content while trying to learn quantum computing!
+
+Now, if we want to take a dramatic scientific development that wouldn’t have been possible without computer science, and hand it over to the physicists on a silver platter, that’s certainly our prerogative.  But is it in our interest as a field?
+
+Q: What if quantum computing is fundamentally impossible?
+
+A: That would be much more interesting than if it’s possible!  Merely building a quantum computer would be the more boring outcome — the one consistent with all the physics we already know.
+
+Q: But no one really questions quantum mechanics, do they?
+
+A: Well, you just did!
+
+Q: No, I only questioned whether quantum computing is possible.  Couldn’t quantum mechanics be valid, but quantum computing still be impossible because of noise and decoherence?
+
+A: If so, then there’s something enormous that we don’t yet understand about the relevant physics.  Look, in light of the Threshold Theorem (that if the rate of decoherence per qubit per time step is smaller than some constant threshold, then one can perform an arbitrarily long quantum computation), it’s hard to maintain that we’re talking about some niggling technical issue.  What we’re really talking about is this: to keep track of the state of N entangled particles, does Nature have to do an amount of computational work that increases exponentially with N?  And if it doesn’t, then (turning the question around) is there an efficient classical algorithm to simulate the behavior of N entangled particles?  These are not questions that will just go away for some trivial reason that everyone’s overlooked.
+
+Q: Suppose Ed Witten spent a week thinking about it, and came up with some profound reason why quantum computing is impossible.  What would you do next?
+
+A: I’d drop whatever else I was doing, and devote all of my time to understanding the implications of his discovery for computer science and physics!
+
+[Pause]
+
+Of course, since this is Witten, maybe he would’ve spent a second week and worked out all the implications himself. So I guess all I can say is that to my knowledge, he hasn’t in fact been thinking about these issues.
+
+Q: How long until we have practical quantum computers?
+
+A: In my opinion, quantum computing experiments are not yet at a stage where one can make “Moore’s Law” type predictions.  We might be in the same situation with quantum computing that Babbage was with classical computing in the 1840’s.  In other words, we think we know the fundamental principles, and we’re right — but the technology isn’t there yet, and might not be for a long time.
+
+Of course, as with any technology, progress could happen faster than almost any of us expect.   But I prefer to be pessimistic: that way either you’re right, or else you don’t mind being wrong!
+
+Q: How many qubits are the experimentalists at so far?
+
+A: It depends how you measure.  People got up to twelve qubits in liquid-state NMR, the platform that was used some years ago to factor 15 into 3×5 (at least with high probability!).  The trouble with liquid NMR is that no one knows how to scale it: currently the signal decreases exponentially with the number of qubits.  So people turned their attention to other platforms, such as ion traps, photonics, and solid-state NMR.  With these platforms the quantum computer’s state is much closer to being pure, so the prospects for scalability are much better.  But manipulating the qubits is correspondingly harder.  With ion traps, Rainer Blatt’s group in Innsbruck did tomography of an 8-qubit state, and other groups have done computations involving 2 or 3 qubits.  With photonics, it’s easy to get a huge number of qubits that are highly coherent; the problem is that photons don’t like to talk to each other (in fact they fly right past each other), and therefore you can only apply two-qubit gates by using matter particles as intermediaries.
+
+There are other more exotic proposals for scalable quantum computing, such as “nonabelian anyons.”  With these I think it’s fair to say we’re not even at one qubit yet.  But if these proposals did work, then the hope would be that they could leapfrog over the other proposals by building in error-correction for free.
+
+Q: Which universities in North America are the major centers for quantum computing theory?
+
+A: Right now there are four: Waterloo, Caltech, MIT, and Berkeley.
+
+Q: Supposing we had scalable quantum computers, are your lower-bound results telling us that they would have no applications?
+
+A: Absolutely not.  Aside from their intrinsic scientific interest, quantum computers would have real applications.  In my opinion, the most important would be the one so obvious that we computer scientists hardly ever talk about it: namely, simulating quantum physics and chemistry!  This, of course, is what a quantum computer does in its sleep.  At the same time, it’s also a fundamental problem in nanotechnology, high-temperature superconductivity, QCD, and other areas, important enough that Nobel prizes have been awarded even for ways to solve special cases efficiently on a classical computer.
+
+Admittedly, you could say that every physical system in the universe is a quantum computer computing its own evolution!   But the goal here would be to build a universal quantum simulator: a single machine that can be programmed to efficiently simulate any quantum system of interest.  It’s the difference between building a wind tunnel versus writing code in order to simulate an airplane.
+
+Now, by a sort of lucky accident, we can sometimes coax a quantum computer into solving classical problems asymptotically faster than we know how to solve them with a classical computer.  The famous examples are of course (1) breaking RSA and other cryptographic codes, and (2) solving ‘generic’ search problems quadratically faster than a classical computer.  These discoveries have enormous theoretical interest,  but (as far I can tell) only limited practical interest.  Maybe I’m wrong though.
+
+Q: Granted that quantum computing is already interesting as basic science, do you agree that it would be more interesting if we had practical quantum computers?
+
+A: Well, I certainly wouldn’t mind it.
+
+Q: You work on quantum computing, yet most of your research is about how quantum computers wouldn’t be very powerful.  Isn’t that a bit strange?
+
+A: In the long run, I don’t think quantum computing research is helped by falsehood.   If we’re going to be scientists and not PR flaks, then obviously we ought to welcome the truth, whichever way it goes.
+
+But personally, I’d go even further than that.  For me, a model of computation without any limitations would be like Superman without kryptonite.  There just wouldn’t be a whole lot to say about it!  To my way of thinking, a model that lets you factor integers efficiently but not solve NP-complete problems is actually more interesting than a model that gives you everything!
+
+Oh, and one further point: if you’re interested (as I am) in the ultimate limits of computation, then you’re almost professionally obligated to study quantum computing.   Why?  Because any time you prove a limit of classical computers, you now have to ask yourself: is this something fundamental, or is it just an artifact of my working in a high-decoherence regime?
+
+Q: Why are you so interested in the limits of computation?
+
+A: To show that something is possible, you just have to find a way to do it.  But to show that something’s not possible, you have to consider every way of doing it, and prove that none of them work.  This is why negative results are so much rarer than positive results, but also why they often give us deeper understanding.
+
+Q: That seems like an extremely male perspective! [said, jokingly, by a female interviewer]
+
+A: I respectfully disagree.   Look, as with pretty much every area of CS, we could certainly use more talented women in quantum computing theory: maybe a few dozen more Dorit Aharonovs, Julia Kempes, and Barbara Terhals.    I find the gender imbalance in CS depressing, and I’ve long been interested in what it would take to correct it.  But the relevant question is this: is the proportion of women working on quantum lower bounds smaller than the proportion working on quantum algorithms?  I don’t think that it is.
+
+Q: What’s your vision for where your research is headed in the next 5-10 years?
+
+A: I know I’m not supposed to say this in an interview, but I don’t have a vision.  I have this annoying open problem, that conjecture, this claim that seems wrong to me.   I know some people have a coherent vision for where their research is headed.  And in experimental areas, obviously you have to justify what you’re going to do with your $200 million of equipment.  But at least in theoretical computer science, having a “vision” always seemed incredibly difficult to me.
+
+For example, let’s say you have a vision that you’re going to solve problem X using techniques A, B, C.  Then what do you do when you find out that techniques A and C are total nonstarters — but that technique B, while it’s useless for X, does solve a completely unrelated problem Y?  What you do is make up a story about how Y was the problem you wanted to solve all along! We all do that: drawing targets around where the arrows hit is simply the business we’re in.
+
+What I can tell you is this: I’m interested in fundamental limits on what can be efficiently computed in the physical world. I look for problems that can be addressed with tools from theoretical computer science, but that also have some physical or philosophical point: something that makes me feel like the universe would be a different place if the conjecture were true than if it were false.
+
+In the past, quantum computing has been an incredibly rich source of that sort of problem for me.  But it’s never been my exclusive interest — I’ve also worked on circuit complexity, Bayesian agreement protocols, and even information retrieval and clustering.  And if quantum computing ever stops being a source of conceptually rich open problems, then I’ll look for those problems somewhere else.
+
+Q: I noticed that, on at least three occasions where you proved a new quantum lower bound, other people quickly improved it to an optimal bound.  Is there a reason why you didn’t prove the optimal bounds yourself?
+
+A: Yeah, I don’t seem to be very good at tightening my lower bounds!  I’ve had more success in proving the first nontrivial lower bound for a given problem — that is, in understanding why the complexity scales exponentially rather than polynomially. After that, I’m more than happy to let others pin down the order of the exponential.  Every time that’s happened, far from feeling disappointed over being “scooped,” I felt great that my work gave other people a foundation to build on.
+
+Q: You look tired.  Would you like some coffee?
+
+A: Yes.
+
+Q: How did you get interested in quantum computing?
+
+A: When I first learned about programming as an 11-year-old, it wasn’t only a revelation  to me because I now understood how video games worked (though that was definitely important).  The real revelation was: this is how the entire universe must work!  It’s all just bits getting updated by simple rules.  I don’t have to understand physics if I want to understand physics.
+
+Of course I’d heard of quantum effects, and I knew they were supposed to be important — but since I didn’t understand them, they made no difference to me.  Then later, as an undergrad at Cornell, I read the early quantum computing papers, and found out that this “quantum weirdness” the physicists kept babbling about was nothing more than linear algebra over the complex numbers.  “Hey, linear algebra … even I can do that!”
+
+But I didn’t really become engrossed in quantum computing until a summer internship at Bell Labs.  As a diversion from my “real” work that summer (which had to do with multivariate isotone regression), I went through the Bernstein-Vazirani paper, and managed to improve their containment BQP ⊆ P#P to BQP ⊆ PP.  Then I found out that Lov Grover worked in the same building as me, so I went and told him about my result.  Well, it turned out that BQP ⊆ PP was already known — it had been proved by Adleman, DeMarrais, and Huang the year before.  But one consequence of my talking to Lov was that I ended up doing an internship with him the next summer, working (mostly unsuccessfully) on quantum lower bounds.  Ashwin Nayak was also working with Lov that summer; from Ashwin I found out about Umesh Vazirani’s group at Berkeley and how all the cool people were there.
+
+After that, the main questions in my mind were whether I could get accepted to Berkeley, whether Umesh would take me on as a student, and whether I was good enough to do anything original in this field.  I emailed Umesh and he never responded, which I took as an extremely bad sign — how little I knew back then! Luckily I did get in to Berkeley, I did start working with Umesh, I did stumble on some new results, and I guess the rest is history.
+
+Q: How many people work on the computer science side of quantum computing?
+
+A: Probably the best way to measure that is by how many people attend the annual QIP conference (for if they don’t go to QIP, do they really exist?)  Last year’s QIP drew almost 200 attendees.
+
+Q: Would you be willing to supervise grad students in classical theoretical computer science?
+
+A: Willing is an understatement!  I would love to supervise talented grad students in derandomization, circuit lower bounds, learning theory, or any of the other classical areas that I try hard to keep up with and occassionally even work on.  Admittedly, when it comes to (say) list decoding, extractors, approximation algorithms, or PCP, the students would first have to teach me what’s going on, but after that I’d be happy to supervise them.
+
+Q: What would you say if I told you that I think quantum computing is like postmodern literary criticism, just a way for people to churn out one paper after another by switching words around, citing each other in a circular way, recycling the same few mathematically trivial ideas over and over — and indeed, that the whole field of theoretical computer science has no real ideas and no connections to anything outside itself?
+
+A: I’d say thank you very much for your opinion, and you’ve got me for — let’s see, 25 more minutes, so what can I do for you?
+
+================================================================================
+
+TITLE: The most trivial theorem I’ve ever written up
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+Theorem: Suppose NP-complete problems are efficiently solvable by quantum computers.  Then either the polynomial hierarchy collapses, or else BQP ⊄ AM (that is, quantum computations can’t be efficiently simulated by Arthur-Merlin protocols).
+
+Proof: Suppose NP ⊆ BQP and BQP ⊆ AM.  Then coNP ⊆ BQP ⊆ AM, and hence the polynomial hierarchy collapses to the second level by a result of Boppana, Håstad, and Zachos.
+
+Note: If only we could delete the weasel phrase “or else BQP ⊄ AM” from my Most Trivial Theorem, we would’ve achieved a long-sought breakthrough in quantum computing theory.  In particular, we would’ve shown that any fast quantum algorithm to solve NP-complete problems would imply an unlikely collapse of classical complexity classes.  But while the weasel phrase is weaselly enough to make the Most Trivial Theorem a triviality, I don’t think it’s infinitely weaselly.  The reason is my growing suspicion that BQP ⊆ AM in the unrelativized world.
+
+Second Note: When I call this my “Most Trivial Theorem,” obviously I’m excluding homework exercises.
+
+================================================================================
+
+TITLE: Refilling your RSS glass before the entrée arrives
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+A reader points me to this recent Topology paper by Nabutovsky and Weinberger, which probably contains the biggest numbers to have ever arisen naturally in mathematics.  Specifically, the authors show that, if we maximize the kth Betti number (for k≥3) over all groups whose presentation has size N (while keeping the number finite), then it grows like the “super-duper Busy Beaver function” (that is, Busy Beaver with an oracle for the halting problem with an oracle for the halting problem).
+
+The spiked magazine survey I blogged about earlier has finally been published.  (Warning: Spouters ahead.)
+
+================================================================================
+
+TITLE: Purely out of intellectual duty
+URL: https://scottaaronson.blog/?m=200705
+CONTENT:
+Alright, alright … two separate readers pointed me to this story (from today’s New York Times), about recent research into defense mechanisms in female duck genitalia (“not quite biting, but it sure looks unpleasant,” as one of them says).
+
+Even I have gotten bored of this topic.
+
+================================================================================
+

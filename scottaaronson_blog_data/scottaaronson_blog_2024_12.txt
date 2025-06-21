@@ -1,0 +1,30 @@
+TITLE: The Google Willow thing
+URL: https://scottaaronson.blog/?m=202412
+CONTENT:
+Yesterday I arrived in Santa Clara for the Q2B (Quantum 2 Business) conference, which starts this morning, and where I’ll be speaking Thursday on “Quantum Algorithms in 2024: How Should We Feel?” and also closing the conference via an Ask-Us-Anything session with John Preskill.  (If you’re at Q2B, reader, come and say hi!)
+
+And to coincide with Q2B, yesterday Google’s Quantum group officially announced “Willow,” its new 105-qubit superconducting chip with which it’s demonstrated an error-corrected surface code qubit as well as a new, bigger quantum supremacy experiment based on Random Circuit Sampling. I was lucky to be able to attend Google’s announcement ceremony yesterday afternoon at the Computer History Museum in Mountain View, where friend-of-the-blog-for-decades Dave Bacon and other Google quantum people explained exactly what was done and took questions (the technical level was surprisingly high for this sort of event). I was also lucky to get a personal briefing last week from Google’s Sergio Boixo on what happened.
+
+Meanwhile, yesterday Sundar Pichai tweeted about Willow, and Elon Musk replied “Wow.”  It cannot be denied that those are both things that happened.
+
+Anyway, all yesterday, I then read comments on Twitter, Hacker News, etc. complaining that, since there wasn’t yet a post on Shtetl-Optimized, how could anyone possibly know what to think of this?? For 20 years I’ve been trying to teach the world how to fish in Hilbert space, but (sigh) I suppose I’ll just hand out some more fish. So, here are my comments:
+
+Update: Here’s Sabine Hossenfelder’s take. I don’t think she and I disagree about any of the actual facts; she just decided to frame things much more negatively. Ironically, I guess 20 years of covering hyped, dishonestly-presented non-milestones in quantum computing has inclined me to be pretty positive when a group puts in this much work, demonstrates a real milestone, and talks about it without obvious falsehoods!
+
+================================================================================
+
+TITLE: Podcasts!
+URL: https://scottaaronson.blog/?m=202412
+CONTENT:
+Update (Dec. 9): For those who still haven’t gotten enough, check out a 1-hour Zoom panel discussion about quantum algorithms, featuring yours truly along with my distinguished colleagues Eddie Farhi, Aram Harrow, and Andrew Childs, moderated by Barry Sanders, as part of the QTML’2024 conference held in Melbourne (although, it being Thanksgiving week, none of the four panelists were actually there in person).  Part of the panel devolves into a long debate between me and Eddie about how interesting quantum algorithms are if they don’t achieve speedups over classical algorithms, and whether some quantum algorithms papers mislead people by not clearly addressing the speedup question (you get one guess as to which side I took).  I resolved going in to keep my comments as civil and polite as possible—you can judge for yourself how well I succeeded!  Thanks very much to Barry and the other QTML organizers for making this happen.
+
+Do you like watching me spout about AI alignment, watermarking, my time at OpenAI, the P versus NP problem, quantum computing, consciousness, Penrose’s views on physics and uncomputability, university culture, wokeness, free speech, my academic trajectory, and much more, despite my slightly spastic demeanor and my many verbal infelicities?  Then holy crap are you in luck today!  Here’s 2.5 hours of me talking to former professional poker players (and now wonderful Austin-based friends) Liv Boeree and her husband Igor Kurganov about all of those topics.  (Or 1.25 hours if you watch at 2x speed, as I strongly recommend.)
+
+But that’s not all!  Here I am talking to Harvard’s Hrvoje Kukina, in a much shorter (45-minute) podcast focused on quantum computing, cosmological bounds on information processing, and the idea of the universe as a computer:
+
+Last but not least, here I am in an hour-long podcast (this one audio-only) with longtime friend Kelly Weinersmith and her co-host Daniel Whiteson, talking about quantum computing.
+
+Enjoy!
+
+================================================================================
+

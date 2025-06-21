@@ -1,0 +1,230 @@
+TITLE: Ecoprocrastination
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+While the reasons I haven’t updated this blog for a week are complex and multifaceted, the fact that I’ve been flying to another university every 2-3 days, waking up at 7 (AM, not PM) each morning, defending quantum computing research all day including mealtimes, and collapsing in my hotel room during rare free intervals is undoubtedly one of the contributing factors.
+
+And so it is, alas, that I don’t have time to share anything nontrivial today.  Instead, in honor of Earth Day, I’ll just link to the text of the landmark US Supreme Court ruling three weeks ago, which forced Bush’s emasculated EPA to either regulate CO2 emissions or else give scientific reasons for refusing to do so.  If you the time (and who doesn’t?), I’d also recommend reading the oral arguments, wherein you can enjoy the acidic barbs of Justice Scalia, surely one of the most interesting and articulate assholes of our time.
+
+As with intelligent design cases, it’s not the science that’s on trial here but rather the legal system itself.  Is a system set up to decide which farmer was grazing his cows on which other farmer’s land capable of weighing the origin and future of eukaryotic life on Earth?  In this particular case, the legal system eked out a 5-4 victory; it could easily have gone the other way.
+
+And yes, I know that Massachusetts v. EPA wasn’t “really” about global warming: it was about whether Massachusetts had standing to sue, the definition of the word “pollutant” in the Clear Air Act, whether the EPA can decline to regulate based on foreign-policy considerations, and so on. Similarly, Plessy v. Ferguson wasn’t “really” about racism, Griswold v. Connecticut wasn’t “really” about contraception, etc.   In each case, it was just a happy coincidence, p≈1/512, that all nine justices found that the legal technicalities lined up perfectly with how they felt about the underlying issue.
+
+For those who don’t want to read the whole decision, here are a few key passages:
+
+When a State enters the Union, it surrenders certain sovereign prerogatives. Massachusetts cannot invade Rhode Island to force reductions in greenhouse gas emissions, it cannot negotiate an emissions treaty with China or India … These sovereign prerogatives are now lodged in the Federal Government, and Congress has ordered EPA to protect Massachusetts (among others) by prescribing standards applicable to the “emission of any air pollutant… which may reasonably be anticipated to endanger public health or welfare.”
+
+The harms associated with climate change are serious and well recognized … That these climate-change risks are “widely shared” does not minimize Massachusetts’ interest in the outcome of this litigation … According to petitioners’ unchallenged affidavits, global sea levels rose somewhere between 10 and 20 centimeters over the 20th century as a result of global warming … These rising seas have already begun to swallow Massachusetts’ coastal land … The severity of that injury will only increase over the course of the next century: If sea levels continue to rise as predicted, one Massachusetts official believes that a significant fraction of coastal property will be “either permanently lost through inundation or temporarily lost through periodic storm surge and flooding events.”
+
+EPA does not dispute the existence of a causal connection between man-made greenhouse gas emissions and global warming. At a minimum, therefore, EPA’s refusal to regulate such emissions “contributes” to Massachusetts’ injuries.   EPA nevertheless maintains that its decision not to regulate greenhouse gas emissions from new motor vehicles contributes so insignificantly to petitioners’ injuries that the agency cannot be haled into federal court to answer for them … But EPA overstates its case. Its argument rests on the erroneous assumption that a small incremental step, because it is incremental, can never be attacked in a federal judicial forum. Yet accepting that premise would doom most challenges to regulatory action.
+
+Unlike EPA, we have no difficulty reconciling Congress’ various efforts to promote interagency collaboration and research to better understand climate change with the agency’s pre-existing mandate to regulate “any air pollutant” that may endanger the public welfare … Collaboration and research do not conflict with any thoughtful regulatory effort; they complement it.
+
+EPA no doubt has significant latitude as to the manner, timing, content, and coordination of its regulations with those of other agencies. But once EPA has responded to a petition for rulemaking, its reasons for action or inaction must conform to the authorizing statute. Under the clear terms of the Clean Air Act, EPA can avoid taking further action only if it determines that greenhouse gases do not contribute to climate change or if it provides some reasonable explanation as to why it cannot or will not exercise its discretion to determine whether they do … To the extent that this constrains agency discretion to pursue other priorities of the Administrator or the President, this is the congressional design.
+
+EPA has refused to comply with this clear statutory command. Instead, it has offered a laundry list of reasons not to regulate. For example, EPA said that a number of voluntary executive branch programs already provide an effective response to the threat of global warming … that regulating greenhouse gases might impair the President’s ability to negotiate with “key developing nations” to reduce emissions … and that curtailing motor-vehicle emissions would reflect “an inefficient, piecemeal approach to address the climate change issue” …
+
+Although we have neither the expertise nor the authority to evaluate these policy judgments, it is evident they have nothing to do with whether greenhouse gas emissions contribute to climate change. Still less do they amount to a reasoned justification for declining to form a scientific judgment. In particular, while the President has broad authority in foreign affairs, that authority does not extend to the refusal to execute domestic laws.
+
+Nor can EPA avoid its statutory obligation by noting the uncertainty surrounding various features of climate change and concluding that it would therefore be better not to regulate at this time. … If the scientific uncertainty is so profound that it precludes EPA from making a reasoned judgment as to whether greenhouse gases contribute to global warming, EPA must say so.
+
+In short, EPA has offered no reasoned explanation for its refusal to decide whether greenhouse gases cause or contribute to climate change. Its action was therefore “arbitrary, capricious, … or otherwise not in accordance with law.”
+
+================================================================================
+
+TITLE: Physics for Doofuses: Understanding Electricity
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+Welcome to an occasional new Shtetl-Optimized series, where physicists get to amuse themselves by watching me struggle to understand the most basic concepts of their discipline.  I’ll consider my post  on black hole singularities to be retroactively part of this series.
+
+Official motto: “Because if I talked about complexity, you wouldn’t understand it.”
+
+Unofficial motto: “Because if I talked about climate change, I’d start another flamewar — and as much as I want to save civilization, I want even more for everyone to like me.”
+
+Today’s topic is Understanding Electricity. First of all, what makes electricity confusing?  Well, besides electricity’s evil twin magnetism (which we’ll get to another time), what makes it confusing is that there are six things to keep track of: charge, current, energy, power, voltage, and resistance, which are measured respectively in coulombs, amps, joules, watts, volts, and ohms.  And I mean, sure you can memorize formulas for these things, but what are they, in terms of actual electrons flowing through a wire?
+
+Alright, let’s take ’em one by one.
+
+Charge is the q in kqq/r2.  Twice as many electrons, twice as much charge.  ‘Nuff said.
+
+Current is charge per unit time.  It’s how many electrons are flowing through a cross-section of the wire every second.  If you’ve got 100 amps coming out, you can send 50 this way and 50 that way, or π this way and 100-π that way, etc.
+
+Energy … Alright, even I know this one.  Energy is what we fight wars to liberate. In our case, if you have a bunch of electrons going through a wire, then the energy scales like the number of electrons times the speed of the electrons squared.
+
+Power is energy per unit time: how much energy does your appliance consume every second?  Duh, that’s why a 60-watt light bulb is environmentally-friendlier than a 100-watt bulb.
+
+Voltage is the first one I had trouble with back in freshman physics.  It’s energy per charge, or power per current.   Intuitively, voltage measures how much energy gets imparted to each individual electron.  Thus, if you have a 110-volt hairdryer and you plug it into a 220-volt outlet, then the trouble is that the electrons have twice as much energy as the hairdryer expects.   This is what transformers are for: to ramp voltages up and down.
+
+Incidentally, the ability to transform voltages is related to why what comes out of your socket is alternating current (AC) instead of direct current (DC).  AC, of course, is the kind where the electrons switch direction 60 times or so per second, while DC is the kind where they always flow in the same direction.  For computers and other electronics, you clearly want DC, since logic gates are unidirectional.  And indeed, the earliest power plants did transmit DC.  In the 1890’s, Thomas Edison fought vigorously against the adoption of AC, going so far as to electrocute dogs, horses, and even an elephant using AC in order to “prove” that it was unsafe.  (These demonstrations proved about as much as D-Wave’s quantum computer — since needless to say, one can also electrocute elephants using DC.  To draw any conclusions a comparative study is needed.)
+
+So why did AC win?  Because it turns out that it’s not practical to transmit DC over distances of more than about a mile.  The reason is this: the longer the wire, the more power gets lost along the way.  On the other hand, the higher the voltage, the less power gets lost along the way.  This means that if you want to send power over a long wire and have a reasonable amount of it reach its destination, then you want to transmit at high voltages.  But high voltages are no good for household appliances, for safety and other reasons.  So once the power gets close to its destination, you want to convert back down to lower voltages.
+
+Now, the simplest way to convert high voltages to low ones was discovered by Michael Faraday, and relies on the principle of electromagnetic induction.  This is the principle according to which a changing electric current creates a changing magnetic field, which can in turn be used to drive another current.  (Damn, I knew we wouldn’t get far without bumping into electricity’s evil and confusing magnetwin.)  And that gives us a simple way to convert one voltage to another — analogous to using a small, quickly-rotating gear to drive a big, slowly-rotating gear.
+
+So to make a long story short: while in principle it’s possible to convert voltages with DC, it’s more practical to do it with AC.  And if you don’t convert voltages, then you can only transmit power for about a mile — meaning that you’d have to build millions of tiny power plants, unless you only cared about urban centers like New York.
+
+Resistance is the trickiest of the six concepts.  Basically, resistance is the thing you need to cut in half, if you want to send twice as much current through a wire at the same voltage.  If you have two appliances hooked up serially, the total resistance is the sum of the individual resistances: Rtot = R1 + R2.  On the other hand, if you have two appliances hooked up in parallel, the reciprocal of the total resistance is the sum of the reciprocals of the individual resistances: 1/Rtot = 1/R1 + 1/R2.   If you’re like me, you’ll immediately ask: why should resistance obey these identities?  Or to put it differently, why should the thing that obeys one or both of these identities be resistance, defined as voltage divided by current?
+
+Well, as it turns out, the identities don’t always hold.  That they do in most cases of interest is just an empirical fact, called Ohm’s Law.  I suspect that much confusion could be eliminated in freshman physics classes, were it made clear that there’s nothing obvious about this “Law”: a new physical assumption is being introduced.  (Challenge for commenters: can you give me a handwaving argument for why Ohm’s Law should hold?  The rule is that your argument has to be grounded in terms of what the actual electrons in a wire are doing.)
+
+Here are some useful formulas that follow from the above discussion:
+
+Power = Voltage2/Resistance = Current2 x Resistance = Voltage x Current
+Voltage = Power/Current = Current x Resistance = √(Power x Resistance)
+Resistance = Voltage/Current = Power/Current2 = Voltage2/Power
+Current =  Power/Voltage = Voltage/Resistance = √(Power/Resistance)
+
+Understand? Really?  Take the test!
+
+Update (4/16): Chad Orzel answers my question about Ohm’s Law.
+
+================================================================================
+
+TITLE: New comment policy
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+If you reject an overwhelming consensus on some issue in the hard sciences — whether it’s evolution, general relativity, climate change, or anything else — this blog is an excellent place to share your concerns with the world.  Indeed, you’re even welcome to derail discussion of completely unrelated topics by posting lengthy rants against the academic orthodoxy — the longer and angrier the better!  However, if you wish to do this, I respectfully ask that you obey the following procedure:
+
+If you attempt to skip to the “rant” part without going through this procedure, your comments may be deleted without warning.  Repeat offenders will be permanently banned from the blog.  Life is short.  I make no apologies.
+
+Scott Aaronson
+Rebel for the Scientific Consensus
+
+Update (4/11): I am, of course, under no illusions whatsoever that my requirement of having published a relevant peer-reviewed paper will eliminate all tinfoil-hat rants from the comments section.  My hope, rather, is that it will make those rants that I do receive more interesting and original.
+
+================================================================================
+
+TITLE: The wisdom of Gian-Carlo Rota (1932-1999)
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+From www.rota.org:
+
+Graph theory, like lattice theory, is the whipping boy of mathematicians in need of concealing their feelings of insecurity.
+
+Mathematicians also make terrible salesmen. Physicists can discover the same thing as a mathematician and say ‘We’ve discovered a great new law of nature. Give us a billion dollars.’ And if it doesn’t change the world, then they say, ‘There’s an even deeper thing. Give us another billion dollars.’
+
+When an undergraduate asks me whether he or she should major in mathematics rather than in another field that I will simply call X, my answer is the following: “If you major in mathematics, you can switch to X anytime you want to, but not the other way around.”
+
+Flakiness is nowadays creeping into the sciences like a virus through a computer system, and it may be the greatest present threat to our civilization. Mathematics can save the world from the invasion of the flakes by unmasking them, and by contributing some hard thinking. You and I know that mathematics, by definition, is not and never will be flaky.
+
+Note: Quotation here does not necessarily imply endorsement by Shtetl-Optimized LLC or any of its subsidary enterprises.
+
+================================================================================
+
+TITLE: D-Wave Easter Spectacular
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+Look, I promise this will be the last D-Wave post in a while.  But there have been two developments that, as Planet Earth’s primary D-Wave skepticism clearinghouse, I feel a duty to report.
+
+First, Jason Pontin’s article in the Sunday New York Times has appeared.  It’s not perfect, but to get in a description of quantum computing that was even somewhat accurate required a long, word-by-word and phrase-by-phrase battle with the editors of the business section.
+
+Second, Umesh Vazirani sent me a document summarizing the skeptical case against D-Wave, which anyone coming to this blog from the Tech Review or New York Times might find helpful.  (Hey, as long as you’re here, stick around for a bit!)  I’ve posted Umesh’s criticisms below.
+
+Finally, Happy Easter from all of us here in the shtetl!
+
+Reasons To Be Skeptical About D-Wave’s Claims
+
+by Guest Blogger Umesh Vazirani
+
+1. An Unconvincing Demo: D-wave’s demo consisted of a computer in a box that could solve simple problems. We have no way of knowing whether the computer in the box was an ordinary classical computer or a quantum computer. For the problem the computer solves — finding ground states for 16 bit Ising problems — a classical computer would work just as quickly.  This demo is the only public evidence D-wave has presented in support of its claims.
+
+2. A Physics Breakthrough?: Achieving 16 coherent superconducting quantum bits would be quite a breakthrough. Physicists working on superconducting qubits have not been able to achieve more than two coherent quantum bits in the lab. In the absence of evidence from D-Wave that their 16 qubits are coherent, scientists are understandably skeptical. If D-Wave’s qubits are not coherent, as many scientists suspect, their computer would be classical, not quantum. This would still be consistent with the results of the demo, since the decohering qubits would act like classical random bits, and the adiabatic computer would act like a classical computer implementing simulated annealing, which would be quite fast for a small 16 bit Ising problem. It is possible to test the quantum states of D-Wave’s computer for coherence, but Geordie Rose’s statements suggest that no such tests have been made.
+
+3. Claims of Big Algorithmic Breakthrough Without Evidence: 16-bit quantum computers are useless from a practical standpoint because they can only solve very small problems that could just as easily be solved using a classical computer. Thus, D-Wave’s demo, even if it really was a quantum computer, will only be practically useful if the technology will scale to the larger problems that cannot be solved with a classical computer. Unless D-Wave has made a major algorithmic breakthrough as well as a major practical one, however, D-Wave’s computer, even if implemented with thousands of qubits, will not provide a speedup over classical computers. D-Wave does not implement a general purpose quantum computer, only one that can implement adiabatic optimization. They wish to use it to solve the Ising model, which is thought to be beyond the reach of classical computers, but there is no known efficient algorithm for solving the Ising model using this adiabatic approach. It is possible to achieve a quadratic speedup for unstructured search problems using adiabatic optimization, but that result requires an ability to tune the rate of the adiabatic process — something which appears to researchers to be extremely hard if not impossible for the Ising problem. Geordie Rose’s public statements suggest that he doesn’t understand this issue, which makes computer scientists skeptical that any breakthrough has been made.
+
+To summarize: For D-Wave to achieve a practically useful quantum computer using their technology, they would have to have made a breakthrough in physics, as well as a breakthrough in the design of their algorithm. Scientists are skeptical both because D-Wave has failed to provide any supporting evidence, and also because their public statements suggest a lack of understanding of the issues involved.
+
+You might ask why researchers are putting so much energy into debunking the D-Wave hype. One reason is that QC researchers feel a responsibility to the public to not overhype quantum computers. Quantum computing is an exciting field that has caught the imagination of the public. This is a good thing. But if the quantum computing effort starts to mingle fact with fiction, then the entire effort loses its credibility.
+
+Another reason is that D-Wave’s unsupported claims are undermining the efforts of the researchers who are working very hard on these problems. It’s as if there was a new biotech company claiming to be at the brink of a revolutionary cure for cancer. If it is true, it is great, but if it’s not, then it undermines the efforts of the legitimate cancer researchers.
+
+================================================================================
+
+TITLE: D-Wave: Still propagating
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+Last night Jason Pontin, the Editor-in-Chief of MIT’s Technology Review, published a hard-hitting article about D-Wave, the Vancouver startup that claims to have built “the world’s first commercial quantum computer.”  A condensed (and, alas, considerably mangled and dumbed-down) version of his article will appear in Sunday’s New York Times.
+
+Jason wrote to me a couple weeks ago and said that, while he knew that most journalists had gotten the D-Wave story wrong, he was determined to get it right, and wanted my help in understanding the computer-science issues.  He didn’t have to ask me twice.
+
+Since I come across as pretty harsh on D-Wave in the article, I think it’s worth recalling how we got to this point.  When the D-Wave story broke, my first reaction was to give them some benefit of the doubt (as you can see from the mild tone of my “Orion Anti-Hype FAQ”).  So what changed?  Well, four things:
+
+Update (4/6): Geordie Rose has responded to me.  A few responses to his response:
+
+You say you’re seeing a speedup in your experiments — but (1) how big of a speedup, and (2) do you mean compared to the best-known classical algorithms (like simulated annealing), or compared to brute-force search?
+
+Then, in another discussion with Geordie following my Speaking truth to parallelism post, I asked him again:
+
+I’m certainly glad that you’re not claiming an exponential speedup.  But at least based on the evidence I know about, whether you’re seeing a quadratic speedup — or indeed any asymptotic speedup — is very much open to question. Hence the question I asked you earlier: have you compared the empirical scaling for your adiabatic algorithm to the empirical scaling for the best classical algorithms like simulated annealing? If so, what were the results?
+
+Q: Are D-Wave processors quantum computers?
+A: Yes.  We have determined that quantum effects are being harnessed to accelerate computation in our processors.
+
+And here’s from a comment on Dave Bacon’s blog (blog comments seem to be D-Wave’s preferred venue for announcing scientific results):
+
+While the jury is still not in, our studies of these systems seem to indicate that AQCs, in the presence of thermal and spin bath environments, can still provide O(sqrt(N)) scaling even though the central QC system is definitely NOT a “system that’s globally phase coherent over the entire calculation”.
+
+This is worth emphasizing, because I thought it was obvious, but it turns out alot of people don’t get this.  Most of the poorly thought out comments related to what we’re trying to do have come from theoretical computer scientists, who assume that the things they hold dear are likewise treasured by everyone else. Because they worship efficiency, they have assumed that’s the objective of our projects, when I have repeatedly said it’s not.
+
+When I read this to Umesh Vazirani over the phone, he sardonically replied, “it will be interesting to find out what’s left of this field after you’ve removed the notion of efficiency…”
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 11: Decoherence and Hidden Variables
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+After a week of brainbreaking labor, here it is at last: My Grand Statement on the Interpretation of Quantum Mechanics.
+
+Granted, I don’t completely solve the mysteries of quantum mechanics in this lecture.  I didn’t see any need to — since to judge from the quant-ph arXiv, those mysteries are solved at least twenty times a week.  Instead I merely elucidate the mysteries, by examining two very different kinds of stories that people tell themselves to feel better about quantum mechanics: decoherence and hidden variables.
+
+“But along the way,” you’re wondering, “will Scott also touch on the arrow of time, the Second Law of Thermodynamics, Bell’s Inequality, the Kochen-Specker Theorem, the preferred-basis problem, discrete vs. continuous Hilbert spaces, and even the Max-Flow/Min-Cut Theorem?”  Man oh man, is someone in for a treat.
+
+I assume that, like Lecture 9, this will be one of the most loved and hated lectures of the course.  So bring it on, commenters.  You think I can’t handle you?
+
+Update (4/5): Peter Shor just posted a delightful comment that I thought I’d share here, in the hope of provoking more discussion.
+
+Interpretations of quantum mechanics, unlike Gods, are not jealous, and thus it is safe to believe in more than one at the same time. So if the many-worlds interpretation makes it easier to think about the research you’re doing in April, and the Copenhagen interpretation makes it easier to think about the research you’re doing in June, the Copenhagen interpretation is not going to smite you for praying to the many-worlds interpretation. At least I hope it won’t, because otherwise I’m in big trouble.
+
+================================================================================
+
+TITLE: Not an April Fools joke
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+Lance’s blog HATH RISEN! (Though ith now some fast-talking bearded guy’s blog.)
+
+================================================================================
+
+TITLE: My job situation
+URL: https://scottaaronson.blog/?m=200704
+CONTENT:
+A lot has happened this past week concerning my job prospects for next year.  I didn’t want to comment on the situation while it was still in flux, but now that the options are all on the table, I might as well let people know, and solicit advice about what to do.
+
+First the bad news: against my and many other people’s expectations, I will not be starting a tenure-track position in CS this coming fall.  Several of my interviews were cancelled, while at the schools where I did interview, I’ve been told that other candidates were chosen.  Again and again I heard the same story: that while there was initially strong support for my application (particularly among theorists), concerns had arisen about some of my “extra-academic activities.”
+
+A phone conversation last night, with someone I’ll call Prof. X from University Y, was typical.  Prof. X started by explaining that, while the whole “blog” phenomenon had passed by him personally, some questions had come up during a hiring committee meeting with the more junior faculty — and, to get straight to the point, was it true that I wrote one of these “blogs” myself?
+
+Yes, I said.
+
+And was it true that this “blog” was known, in large part, for a debate about “battling vaginas”?
+
+Biting vaginas, I corrected him.
+
+And was it also true that I made frequent pronouncements about C*-algebras, modern art, and even string theory and loop quantum gravity, despite knowing next to nothing about any of these things?
+
+Yes, I said.
+
+And was it also true that, in the past few days, I’d spent much of my time defending the General Theory of Relativity against someone who calls himself “assman”?
+
+Yes, I said.
+
+Prof. X said he hoped I’d understand that, as far as he was concerned, I could write whatever I damn well pleased, but that, in an age of increasing sensitivities, and particularly in the wake of the well-known Luboš Motl debacle at Harvard, concerns had naturally arisen over whether a department could afford to gamble on someone with an “erratic personality.”
+
+As you can imagine, this was all pretty depressing and unexpected for me.  But I haven’t yet told you the second part of the story — which is that, over the last two days, some interesting new options have opened up.
+
+On Thursday I got a call from Geordie Rose, asking whether I wanted to come work for D-Wave Systems in Vancouver.  He said D-Wave had been stung by the criticism from experts following its announcement of the “world’s first commercial quantum computer,” and wanted to prevent a recurrence.  So their idea was to hire an “in-house skeptic,” similar to the “white hats” hired by computer security companies to try and break their systems.  I told Geordie I’d think about it, but that it mostly just depended on what sort of compensation package they could put together.
+
+Meanwhile a second option has come up.  Yesterday I got a call from the provost at Maharishi University of Management in Fairfield, Iowa, who wanted to know if I’d come to MUM to jump-start their quantum computing group.  Apparently the Maharishi  himself recently came across my paper on NP-complete Problems and Physical Reality, and, based on its contents, thought I’d make a perfect fit for MUM’s physics department. In particular, he wants me to lead a new project on whether NP-complete problems can be solved in polynomial time via “NDTM” (Nondeterministic Transcendental Meditation), thereby — as I wrote in the paper — making humanity one with God.  The provost also reminded me that all the food at MUM is organic and vegetarian, so I wouldn’t have to worry about pork.
+
+I have mixed feelings about all of this.  On the one hand, I’ve been on a “conventional academic track” my whole life, so leaving that behind will be a big adjustment for me.  On the other hand, perhaps this is a decision I already made a while ago — specifically, the moment I started this blog.
+
+================================================================================
+

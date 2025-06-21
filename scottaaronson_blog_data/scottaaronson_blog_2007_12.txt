@@ -1,0 +1,81 @@
+TITLE: I’m liveblogging from the Taj Mahal
+URL: https://scottaaronson.blog/?m=200712
+CONTENT:
+No particular news to report — it’s about the same as it was 400 years ago, I guess.  I just wanted to liveblog from the Taj Mahal, is all.  (Jonathan Walgate is the one who suggested it.). Now I’ll go back to looking at it.
+
+================================================================================
+
+TITLE: Australian educators are using my $5,000 plagiarism settlement to sell schoolkids (on science)
+URL: https://scottaaronson.blog/?m=200712
+CONTENT:
+Two months ago, you might remember, the gods of humor and blogging saw fit to bestow on me an unexpected gift:
+
+
+
+Model 1: But if quantum mechanics isn’t physics in the usual sense — if it’s not about matter, or energy, or waves — then what is it about?
+
+Model 2: Well, from my perspective, it’s about information, probabilities, and observables, and how they relate to each other.
+
+Model 1: That’s interesting!
+
+“For almost the first time in my life,” I wrote then, “I’m at a loss for words … Help me, readers. Should I be flattered? Should I be calling a lawyer?”
+
+Almost three hundred comments later, your answer was clear. Half of you thought I’d be a stereotypical American jerk, epitomizing everything wrong with modern society, if I sought any redress for the blatant plagiarism of my quantum mechanics lecture. The other half thought I’d be a naïve moron if I didn’t seek redress. However, there did seem to be a rough consensus on two topics: first, that as part of any settlement I should “date the models” (at least a hundred people made some joke to that effect, each one undoubtedly thinking it highly creative); and second, that it was probably okay to try to get something from either Ricoh (the printer company) or Love Communications (the ad agency), as long as the proceeds went to charity and I didn’t directly benefit. Since, like any public figure, I now make all decisions by polling my base, I finally had a warrant for action.
+
+After talking things over informally with Warren Smith — the guy who discovered the Ricoh ad in the first place, who just happens (in one of the many ironies of this case) to be studying Australian intellectual property law, and to whom I’m deeply indebted — I next contacted a lawyer from a well-known Australian law firm. Talking to her confirmed my suspicion that many of the armchair legal theories offered in my comments section were simply mistaken. In Australian copyright law, as in American law, you can’t just take someone’s words and use them for commercial purposes without permission or attribution, regardless of any subjective judgments about the “uniqueness” or “specialness” of those words. I was on strong legal ground. But there was also a key difference between the Australian and American legal systems: Australian lawyers are prohibited from taking cases on a contingency basis. If I wanted the law firm to pursue the case, then I would have to pay them up-front.
+
+Disregarding the pleas of my relatives — who at this point were begging me to sue — I instead wrote to Love Communications directly, proposing a settlement to be donated (for example) to a mutually-agreed-upon Australian science outreach organization. We eventually agreed to a settlement of AUS$5,000. Considering the value of Love Communications’ Ricoh account — which the Sydney Morning Herald reported as more than AUS$1,000,000 — I thought the ad agency was getting off incredibly easily, but at least I wouldn’t have to write any more letters or deal with lawyers.
+
+The one remaining problem was to find a suitable Australian science outreach organization to which to donate the $5,000, and that would also be amusing to blog about. As I chewed on this problem, my mind wandered back to my visit to Brisbane in December 2005, and to a conversation I’d had there with Jennifer Dodd — then of the University of Queensland and now of the Perimeter Institute in Waterloo. In that conversation, Jen had told me about a popular-science lecture series in Brisbane she’d founded, called BrisScience. I’d immediately asked her to repeat the name.
+
+“BrisScience,” she said.
+
+“Spell it?” I asked.
+
+“B-r-i-s-Science. Why, is there something funny about the name?”
+
+“No, no, it shouldn’t be a big deal in Australia.”
+
+Aha! I now emailed Jen to ask whether BrisScience had continued its “cutting-edge” outreach programs in her absence. Jen replied that yes, it had, and she put me in touch with Joel Gilmore, BrisScience’s current director. Joel told me that not only was BrisScience still going strong (with the next lecture, by Bill Phillips, being about quantum mechanics), but that he (Joel) also directed another science outreach program called the Physics Demo Troupe, which does hands-on science shows for schoolkids in Brisbane and rural areas. Joel proposed that we donate $2,000 of the settlement to BrisScience and $3,000 to the Physics Demo Troupe, the latter supporting a visit to the Torres Strait Islands in North Queensland. I agreed, and Love Communications agreed as well.
+
+I am, of course, gratified that this sordid southern-hemisphere tale of sex, plagiarism, quantum mechanics, and printers could be resolved to everyone’s satisfaction, without the need for a courtroom battle, and that schoolkids in Torres Strait Island might even learn some physics as a result. But is there one sentence with which to conclude this saga, one sublimely fatuous thought that sums up my feelings toward the entire affair? Wait for it… wait for it…
+
+That’s interesting.
+
+================================================================================
+
+TITLE: Review of Mermin’s book
+URL: https://scottaaronson.blog/?m=200712
+CONTENT:
+By now, maybe a half-dozen people have asked me what I thought of David Mermin’s new book Quantum Computer Science: An Introduction; many seemed surprised when I told them I hadn’t read it.  Since I aim to please, I finally cracked open my review copy on a train this weekend, and am pleased to report that … yes, it’s quite good.  Indeed, the biggest problem is just Mermin’s infamous insistence on spelling qubit “Qbit.”   (At this point, one might as well decide to spell quark “Qork.”  A language consists of shared, often highly-irrational conventions that cannot be changed unilaterally.)
+
+Mermin’s book is, one might say, radically limited in scope.  There’s nothing about physical implementation, not a mixed state or POVM in sight, not a word on the provable limitations of quantum computers, no mention of P, NP, or BQP, and pretty much nothing about any development after 1995.  The sole aim is to cover the “quantum canon” — Hadamards and Toffolis, Shor and Grover, quantum error-correction, the BB84 key distribution protocol, etc. — while dispelling various misconceptions along the way.  But at that limited task, Mermin — who’s an extremely gifted expositor — does a better job than almost anyone.
+
+He certainly does a better job than I would have.  I’ll admit that, when the Mike&Ike book came out seven years ago, I naïvely imagined that the “quantum textbook problem” (or more precisely, the good quantum textbook problem) had been solved.  From now on, there would be a single place where everyone could go to learn the quantum canon.  And because anyone could know all that twentieth-century material by reading a single book, I could readily assume that anyone who was interested did know it, and could take that as shared background knowledge (like, say, the existence of the Roman Empire) when discussing newer topics like quantum lower bounds, the adiabatic algorithm, or BQP/qpoly.
+
+Of course I couldn’t have been more wrong.  In the years since Mike&Ike came out, the total amount of confusion in the world about the |A〉|B〉|C〉’s of quantum computing (as well as the total number of books that try to address that confusion) has increased exponentially.  And so it’s good to have a distinguished physicist like Mermin patiently telling readers the following:
+
+“To understand how to build a quantum computer … you must indeed have many years of experience in quantum mechanics and its applications under your belt.  But if you only want to know what such a device is capable in principle of doing once you have it, then there is no reason to get involved in the really difficult physics of the subject.” (page xiii)
+
+“This means that all traces of the amplitudes αx characterizing the input state have vanished from the output state.  The only role they have played in the measurement is to determine the probability of a particular output.” (page 25)
+
+“Small alterations in the phases produce small alterations in the probabilities of getting that extremely precise digital information, but not the precision of the information itself, once it is acquired.” (page 85)
+
+Personally, I find it hard to remember that anyone needs to be told these things — and even when I do tell them, they don’t believe me (probably because I’m waving my arms too wildly).   They think I’m making it up.  But Mermin dispels the common misconceptions with a calm air of gravity.
+
+I’ll end with two quibbles.
+
+First, while Mermin talks a great deal about quantum black-box algorithms, he never once mentions the crucial distinction between the “black-box” world — the world where one can prove unconditionally both that quantum computers can solve certain problems exponentially faster than classical computers, and that they can’t solve certain other problems any faster than classical ones — and the “non-black-box” world, where all such statements are necessarily conjectural.  The one time he does touch on this distinction, he gets it wrong:
+
+“The best known classical algorithms for finding the period r of such a function take a time that grows faster than any power of the number n of bits of r (exponentially with n1/3).” (page 63)
+
+The best classical algorithm for period-finding provably takes time that grows exponentially with n/2.   The best known classical algorithms for factoring take time that grows exponentially with n1/3.  But the latter algorithms (necessarily) use deeper properties of the factoring problem than just its reducibility to period-finding.
+
+I found this an uncharacteristic omission for Mermin — whose tendency is to examine whatever he brings up from all possible angles — though perhaps it can be understood in terms of a decision to avoid any mention of complexity theory.
+
+The second quibble is that there are no exercises.
+
+
+
+================================================================================
+

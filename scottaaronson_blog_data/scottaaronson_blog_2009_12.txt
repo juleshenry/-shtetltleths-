@@ -1,0 +1,95 @@
+TITLE: Acknowledging the awesome
+URL: https://scottaaronson.blog/?m=200912
+CONTENT:
+This holiday season, you should see Avatar and read Logicomix (if you haven’t already).  I entered both expecting to wince over scientific inaccuracies and bad dialogue, and left both in a state of catharsis that few books or movies have ever brought me to.  Both break new ground, deal with big issues in a visually stunning way, have been predictably criticized as “simplistic,” and need a sequel.
+
+================================================================================
+
+TITLE: Second Women in Theory Workshop
+URL: https://scottaaronson.blog/?m=200912
+CONTENT:
+For the female readers of this blog: I thought all eight of you might be interested in the following announcement, which was sent to me by Tal Rabin.
+
+We will be holding the Second Women in Theory Workshop at Princeton on June 19-23, 2010.
+To apply please go to: http://intractability.princeton.edu/blog/2009/11/women-in-theory-2010-workshop/
+The format will be similar to the WIT 2008 workshop.  You can view information on that workshop at:
+http://www.cs.princeton.edu/theory/index.php/Main/WIT08
+and view a video of WIT08 at: http://www.youtube.com/watch?v=uUBzBF2awZU
+
+================================================================================
+
+TITLE: Hopefully my last D-Wave post ever
+URL: https://scottaaronson.blog/?m=200912
+CONTENT:
+Several people asked me to comment on an entry by Hartmut Neven in the Google Research Blog, about using D-Wave’s “quantum” computers for image recognition.
+
+I said nothing: what is there to say?  Didn’t I already spend enough time on this subject for 10400 lifetimes?  I want to create, explore, discover things that no one expected—not be some talking-head playing his assigned role in a script, a blogger-pundit who journalists know they can rely on to say “f(X)” whenever X happens.  Even if f(X) is true.  Why can’t I just tell the world what f is and be done with it?
+
+Then more people asked me to comment.
+
+I set the matter aside.  I worked on the complexity problem that’s currently obsessing me.  I met with students, sent recommendation letters, answered emails, went ice-skating with my girlfriend.
+
+Then more people asked me to comment.
+
+And I thought: yes, I believe it’s vital for scientists to communicate with the broader public, not just a few colleagues.  And yes, it’s important for scientists to offer a skeptical perspective on the news—since otherwise, they implicitly cede the field to those making dubious and unsubstantiated claims.  And yes, blogging is a wonderful tool for scientists to connect directly with anyone in the world who’s curious about their work.  But isn’t there some statute of limitations on a given story?  When does it end?  And why me?
+
+Then more people asked me to comment—so I wrote the following only-slightly-fictionalized exchange.
+
+Skeptic: Let me see if I understand correctly.  After three years, you still haven’t demonstrated two-qubit entanglement in a superconducting device (as the group at Yale appears to have done recently)?  You still haven’t explained how your “quantum computer” demos actually exploit any quantum effects?  While some of your employees are authoring or coauthoring perfectly-reasonable papers on various QC topics, those papers still bear essentially zero relation to your marketing hype?  The academic physicists working on superconducting QC—who have no interest in being scooped—still pay almost no attention to you?  So, what exactly has changed since the last ten iterations?  Why are we still talking?
+
+D-Wave: Then you must not have read our latest press release!  Your questions are all obsolete, because now we’re recruiting thousands of volunteers over the Internet to study the power of adiabatic quantum computing!
+
+Onlooker: Hmm, an interesting counterargument!  D-Wave might not be using quantum mechanics, but they are using the Internet!  And their new project even has a cool code-name: “AQUA@home”!  So, skeptic, how do you respond to that?
+
+Skeptic (distractedly): You know, when I was eight years old, and dreamed of building starships and artificial intelligences in my basement, my first order of business was always to invent code-names—not just for the projects themselves, but for every little subcomponent of them.  The second order of business was to think through the marketing aspects.  What should the robot look like?  What recreational facilities should be available on the starship, and what color should it be painted?  It really, genuinely felt like I was making concrete progress toward realizing my plans.  Sure, the engine and control system still needed to be built, but at least I had code-names and “design specs”!  How many others had even gotten that far?
+
+D-Wave: Who cares?  This isn’t some children’s game.  Keep in mind that we’re delivering a product—serving our customers, by solving the 4-by-4 Sudoku puzzles they rely on to keep their businesses running.
+
+Skeptic: We’ve been through this how many times?  A pigeon can probably be trained to solve 4-by-4 Sudokus.  So the only relevant questions concern the details of how you solve them.  For example, how do you encode a problem instance?  How much of the work is done in the encoding procedure itself?  What evidence do you have for quantum coherence at intermediate points of the computation?  Can you measure an entanglement witness, to give people confidence that you’re doing something other than classical simulated annealing?
+
+Onlooker: Hmm, those do seem like important questions…
+
+D-Wave: But they’re based on outdated premises!  Today, we’re pleased to announce that, using what might be a quantum computer, and might also be a noisy, probabilistic classical computer, we can solve 5-by-5 Sudoku puzzles!
+
+Onlooker: Whoa, awesome!  So we’re back to square one then.  As long as D-Wave’s demos only involved 4-by-4 Sudokus, the skeptic’s arguments almost had me persuaded.  But 5-by-5?  I don’t know what to think anymore.  Skeptic, where are you?  What’s your reaction to this latest development?
+
+Skeptic: …
+
+D-Wave: That silence you hear is the sound of the skeptic’s worldview crashing all around him!  But we haven’t even played our top card yet.  Today, we’re positively ecstatic to announce that we’ve entered into an official-sounding partnership with GOOGLE, Inc. (or anyway, with someone who works at Google Research).  Together, we’re harnessing the power of quantum adiabatic optimization to create the next generation of car-recognition systems!
+
+Onlooker: WOW!  This debate is over, then.  I confess: D-Wave on its own did seem a bit flaky to me.  But Google is the company born without sin.  Everything they do, have done, and will ever do is perfect by definition—from building the search engine that changed the world, to running mail servers that only fail for an insignificant 0.001% of users, to keeping the Chinese people safe from lies.  And, as Google is infallible, so too its 20,000 diverse employees—who are encouraged to spend 20% of their time on high-risk, exploratory projects—have nevertheless failed to come up with a single idea that didn’t pan out.  Skeptic, show your face!  Will you admit that, through grit, moxie, old-fashioned Canadian inventiveness, and the transformative power of the Internet, D-Wave has finally achieved what the naysayers said was impossible—namely, getting someone from Google Research to coauthor a paper with them?
+
+Skeptic: Yes.  I concede!  D-Wave wins, and I hereby retire as skeptic.  In particular, the next time D-Wave announces something, there’s no need to ask me for my reaction.  I’ll be busy tending to my own project, codenamed ARGHH@home, which consists of banging my head against a brick wall.
+
+
+
+================================================================================
+
+TITLE: Prove my lemma, get acknowledged in a paper!
+URL: https://scottaaronson.blog/?m=200912
+CONTENT:
+This will be a little experiment, in which the collaborative mathematics advocated by Timothy Gowers and others combines with my own frustration and laziness.  If it goes well, I might try it more in the future.
+
+Let p be a complex polynomial of degree d.  Suppose that |p(z)|≤1 for all z such that |z|=1 and |z-1|≥δ (for some small δ>0).  Then what’s the best upper bound you can prove on |p(1)|?
+
+Note: I can prove an upper bound of the form |p(1)|≤exp(δd)—indeed, that holds even if p can be a polynomial in both z and its complex conjugate (and is tight in that case).  What really interests me is whether a bound of the form |p(1)|≤exp(δ2d) is true.
+
+Update: After I accepted Scott Morrison’s suggestion to post my problem at mathoverflow.net, the problem was solved 11 minutes later by David Speyer, using a very nice reduction to the case I’d already solved.  Maybe I should feel sheepish, but I don’t—I feel grateful.  I am now officially a fan of mathoverflow.  Go there and participate!
+
+================================================================================
+
+TITLE: Simons postdoc: call for applications
+URL: https://scottaaronson.blog/?m=200912
+CONTENT:
+Anyone who feared that my taking a real job would lead to the slow demise of this blog: your fears were entirely justified.  I barely even read blogs anymore—or Twitters, or whatever the young people use nowadays.  Though come to think of it, maybe I should switch to a Twitter feed, since blogging has become too weighty and substantive for me?
+
+In the meantime, I’ve been asked to post the following.
+
+Simons Postdoctoral Fellowship at the Massachusetts Institute of Technology in Theoretical Computer Science
+
+The Theory of Computation (TOC) group at the Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT is seeking candidates for a post-doctoral position in the general area of the theory of computation. Applicants in all areas of theory are encouraged to apply, including (but not exclusive to) algorithms, complexity theory, combinatorial optimization, cryptography, distributed computing, game theory and computation, geometry, parallel computing, and quantum computing. This fellowship is made possible by a generous gift from the Simons Foundation.
+
+The fellowship is a two year position, starting the summer or fall of 2010. The fellowship stipend is gauged to attract the highest caliber of applicants. Generous funds for scientific travel will be available for use at the fellow’s discretion. Fellows will be assigned a faculty member close to their research interests from the TOC group. Fellows will be encouraged (although not required) to teach a graduate seminar in their area of research.
+
+================================================================================
+

@@ -1,0 +1,91 @@
+TITLE: “The Right Side of History”
+URL: https://scottaaronson.blog/?m=202408
+CONTENT:
+This morning I was pondering one of the anti-Israel protesters’ favorite phrases—I promise, out of broad philosophical curiosity rather than just parochial concern for my extended family’s survival.
+
+“We’re on the right side of history.  Don’t put yourself on the wrong side by opposing us.”
+
+Why do the protesters believe they shouldn’t face legal or academic sanction for having blockaded university campuses, barricaded themselves in buildings, shut down traffic, or vandalized Jewish institutions?  Because, just like the abolitionists and Civil Rights marchers and South African anti-apartheid heroes, they’re on the right side of history.  Surely the rules and regulations of the present are of little concern next to the vindication of future generations?
+
+The main purpose of this post is not to adjudicate whether their claim is true or false, but to grapple with something much more basic: what kind of claim are they even making, and who is its intended audience?
+
+One reading of “we’re on the right of history” is that it’s just a fancy way to say “we’re right and you’re wrong.” In which case, fair enough! Few people passionately believe themselves to be wrong.
+
+But there’s a difficulty: if you truly believe your side to be right, then you should believe it’s right win or lose.  For example, an anti-Zionist should say that, even if Israel continues existing, and even if everyone else on the planet comes to support it, still eliminating Israel would’ve been the right choice.  Conversely, a Zionist should say that if Israel is destroyed and the whole rest of the world celebrates its destruction forevermore—well then, the whole world is wrong.  (That, famously, is more-or-less what the Jews did say, each time Israel and Judah were crushed in antiquity.)
+
+OK, but if the added clause “of history” is doing anything in the phrase “the right side of history,” that extra thing would appear to be an empirical prediction.  The protesters are saying: “just like the entire world looks back with disgust at John Calhoun, Bull Connor, and other defenders of slavery and then segregation, so too will the world look back with disgust at anyone who defends Israel now.”
+
+Maybe this is paired with a theory about the arc of the moral universe bending toward justice: “we’ll win the future and then look back with disgust on you, and we’ll be correct to do so, because morality inherently progresses over time.”  Or maybe it has merely the character of a social threat: “we’ll win the future and then look back with disgust on you, so regardless of whether we’ll be right or wrong, you’d better switch to our side if you know what’s good for you.”
+
+Either way, the claim of winning the future is now the kind of thing that could be wagered about in a prediction market.  And, in essence, the Right-Side-of-History people are claiming to be able to improve on today’s consensus estimate: to have a hot morality tip that beats the odds.  But this means that they face the same problem as anyone who claims it’s knowable that, let’s say, a certain stock will increase a thousandfold.  Namely: if it’s so certain, then why hasn’t the price shot up already?
+
+The protesters and their supporters have several possible answers. Many boil down to saying that most people—because they need to hold down a job, earn a living, etc.—make all sorts of craven compromises, preventing them from saying what they know in their hearts to be true. But idealistic college students, who are free from such burdens, are virtually always right.
+
+Does that sound like a strawman?  Then recall the comedian Sarah Silverman’s famous question from eight years ago:
+
+PLEASE tell me which times throughout history protests from college campuses got it wrong. List them for me
+
+Crucially, lots of people happily took Silverman up on her challenge.  They pointed out that, in the Sixties and Seventies, thousands of college students, with the enthusiastic support of many of their professors, marched for Ho Chi Minh, Mao, Castro, Che Guevara, Pol Pot, and every other murderous left-wing tyrant to sport a green uniform and rifle.  Few today would claim that these students correctly identified the Right Side of History, despite the students’ certainty that they’d done so.
+
+(There were also, of course, moderate protesters, who merely opposed America’s war conduct—just like there are moderate protesters now who merely want Israel to end its Gaza campaign rather than its existence. But then as now, the revolutionaries sucked up much of the oxygen, and the moderates rarely disowned them.)
+
+What’s really going on, we might say, is reference class tennis.  Implicitly or explicitly, the anti-Israel protesters are aligning themselves with Gandhi and MLK and Nelson Mandela and every other celebrated resister of colonialism and apartheid throughout history.  They ask: what are the chances that all those heroes were right, and we’re the first ones to be wrong?
+
+The trouble is that someone else could just as well ask: what are the chances that Hamas is the first group in history to be morally justified in burning Jews alive in their homes … even though the Assyrians, Babylonians, Romans, Crusaders, Inquisitors, Cossacks, Nazis, and every other group that did similar things to the Jews over 3000 years is now acknowledged by nearly every educated person to have perpetrated an unimaginable evil?  What are the chances that, with Israel’s establishment in 1948, this millennia-old moral arc of Western civilization suddenly reversed its polarity?
+
+We should admit from the outset that such a reversal is possible.  No one, no matter how much cruelty they’ve endured, deserves a free pass, and there are certainly many cases where victims turned into victimizers.  Still, one could ask: shouldn’t the burden be on those who claim that today‘s campaign against Jewish self-determination is history’s first justified one?
+
+It’s like, if I were a different person, born to different parents in a different part of the world, maybe I’d chant for Israel’s destruction with the best of them.  Even then, though, I feel like the above considerations would keep me awake at night, would terrify me that maybe I’d picked the wrong side, or at least that the truth was more complicated.  The certainty implied by the “right side of history” claim is the one part I don’t understand, as far as I try to stretch my sympathetic imagination.
+
+For all that, I, too, have been moved by rhetorical appeals to “stand on the right side of history”—say, for the cause of Ukraine, or slowing down climate change, or saving endangered species, or defeating Trump.  Thinking it over, this has happened when I felt sure of which side was right (and would ultimately be seen to be right), but inertia or laziness or inattention or whatever else prevented me from taking action.
+
+When does this happen for me?  As far as I can tell, the principles of the Enlightenment, of reason and liberty and progress and the flourishing of sentient life, have been on the right side of every conflict in human history.  My abstract commitment to those principles doesn’t always tell me which side of the controversy du jour is correct, but whenever it does, that’s all I ever need cognitively; the rest is “just” motivation and emotion.
+
+(Amusingly, I expect some people to say that my “reason and Enlightenment” heuristic is vacuous, that it works only because I define those ideals to be the ones that pick the right side.  Meanwhile, I expect others to say that the heuristic is wrong and to offer counterexamples.)
+
+Anyway, maybe this generalizes.  Sure, a call to “stand on the right side of history” could do nontrivial work, but only in the same way that a call to buy Bitcoin in 2011 could—namely, for those who’ve already concluded that buying Bitcoin is a golden opportunity, but haven’t yet gotten around to buying it.  Such a call does nothing for anyone who’s already considered the question and come down on the opposite side of it.  The abuse of “arc of the moral universe” rhetoric—i.e., the calling down of history’s judgment in favor of X, even though you know full well that your listeners see themselves as having consulted history’s judgment just as earnestly as you did, and gotten back not(X) instead—yeah, that’s risen to be one of my biggest pet peeves.  If I ever slip up and indulge in it, please tell me and I’ll stop.
+
+================================================================================
+
+TITLE: My Reading Burden
+URL: https://scottaaronson.blog/?m=202408
+CONTENT:
+Want some honesty about how I (mis)spend my time?  These days, my daily routine includes reading all of the following:
+
+Many of these materials contain lists of links to other articles, or tweet threads, some of which then take me hours to read in themselves.  This is not counting podcasts or movies or TV shows.
+
+While I read unusually quickly, I’d estimate that my reading burden is now at eight hours per day, seven days per week.  I haven’t finished reading by the time my kids are back from school or day camp.  Now let’s add in my actual job (or two jobs, although the OpenAI one is ending this month, and I start teaching again in two weeks).  Add in answering emails (including from fans and advice-seekers), giving lectures, meeting grad students and undergrads, doing Zoom calls, filling out forms, consulting, going on podcasts, reviewing papers, taking care of my kids, eating, shopping, personal hygiene.
+
+As often as not, when the day is done, it’s not just that I’ve achieved nothing of lasting value—it’s that I’ve never even started with research, writing, or any long-term projects.  This contrasts with my twenties, when obsessively working on research problems and writing up the results could easily fill my day.
+
+The solution seems obvious: stop reading so much.  Cut back to a few hours per day, tops.  But it’s hard.  The rapid scale-up of AI is a once-in-the-history-of-civilization story that I feel astounded to be living through and compelled to follow, and just keeping up with the highlights is almost a full-time job in itself.  The threat to democracy from Trump, Putin, Xi, Maduro, and the world’s other authoritarians is another story that I feel unable to look away from.
+
+Since October 7, though, the once-again-precarious situation of Jews everywhere on earth has become, on top of everything else it is, the #1 drain on my time.  It would be one thing if I limited myself to thoughtful analyses, but I can easily lose hours per day doomscrolling through the infinite firehose of strident anti-Zionism (and often, simple unconcealed Jew-hatred) that one finds for example on Twitter, Facebook, and the comment sections of Washington Post articles.  Every time someone calls the “Zios” land-stealing baby-killers who deserve to die, my brain insists that they’re addressing me personally.  So I stop to ponder the psychology of each individual commenter before moving on to the next, struggle to see the world from their eyes.  Would explaining the complex realities of the conflict change this person’s mind?  What about introducing them to my friends and relatives in Israel who never knew any other home and want nothing but peace, coexistence, and a two-state solution?
+
+I naturally can’t say that all this compulsive reading makes me happy or fulfilled.  Worse yet, I can’t even say it makes me feel more informed.  What I suppose it does make me feel is … excused.  If so much is being written daily about the biggest controversies in the world, then how can I be blamed for reading it rather than doing anything new?
+
+At the risk of adding even more to the terrifying torrent of words, I’d like to hear from anyone who ever struggled with a similar reading addiction, and successfully overcame it.  What worked for you?
+
+Update (Aug. 15): Thanks so much for the advice, everyone! I figured this would be the perfect day to put some of your wisdom into practice, and finally go on a reading fast and embark on some serious work. So of course, this is the day that Tablet and The Free Press had to drop possibly the best pieces in their respective histories: namely, a gargantuan profile of the Oculus and Anduril founder Palmer Luckey, and an interview with an anonymous Palestinian who, against huge odds, landed a successful tech career and a group of friends in Israel, but who’s now being called “traitor” by other Palestinians for condemning the October 7 massacre and who fears for his life. Both of these articles could be made into big-budget feature films—I’m friggin serious. But the more immediate task is to get this anonymous Palestinian hero out of harm’s way while there’s still time.
+
+And as for my reading fast, there’s always tomorrow.
+
+================================================================================
+
+TITLE: My pontificatiest AI podcast ever!
+URL: https://scottaaronson.blog/?m=202408
+CONTENT:
+Back in May, I had the honor (nay, honour) to speak at HowTheLightGetsIn, an ideas festival held annually in Hay-on-Wye on the English/Welsh border.  It was my first time in that part of the UK, and I loved it.  There was an immense amount of mud due to rain on the festival ground, and many ideas presented at the talks and panels that I vociferously disagreed with (but isn’t that the point?).
+
+At some point, interviewer Alexis Papazoglou with the Institute for Art and Ideas ambushed me while I was trudging through the mud to sit me down for a half-hour interview about AI that I’d only vaguely understood was going to take place, and that interview is now up on YouTube.  I strongly recommend listening at 2x speed: you’ll save yourself fifteen minutes, I’ll sound smarter, my verbal infelicities will be less noticeable, what’s not to like?
+
+I was totally unprepared and wearing a wrinkled t-shirt, but I dutifully sat in the beautiful chair arranged for me and shot the breeze about AI.  The result is actually one of the recorded AI conversations I’m happiest with, the one that might convey the most of my worldview per minute.  Topics include:
+
+Last night I watched the video with my 7-year-old son.  His comment: “I understood it, and it kept my brain busy, but it wasn’t really fun.”  But hey, at least my son didn’t accuse me of being so dense I don’t even understand that “an AI is just a program,” like many commenters on YouTube did!  My YouTube critics, in general, were helpful in reassuring me that I wasn’t just arguing with strawmen in this interview (is there even such a thing as a strawman position in philosophy and AI?).  Of course the critics would’ve been more helpful still if they’d, y’know, counterargued, rather than just calling me “really shallow,” “superficial,” an “arrogant poser,” a “robot,” a “chattering technologist,” “lying through his teeth,” and “enmeshed in so many faulty assumptions.”  Watch and decide for yourself!
+
+Meanwhile, there’s already a second video on YouTube, entitled Philosopher reacts to ‘OpenAI expert Scott Aaronson on consciousness, quantum physics, and AI safety.’   So I opened the video, terrified that I was about to be torn a new asshole. But no, this philosopher just replays the whole interview, occasionally pausing it to interject comments like “yes, really interesting, I agree, Scott makes a great point here.”
+
+Update: You can also watch the same interviewer grill General David Petraeus, at the same event in the same overly large chairs.
+
+================================================================================
+

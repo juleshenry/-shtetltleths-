@@ -1,0 +1,203 @@
+TITLE: Geordie Rose at MIT
+URL: https://scottaaronson.blog/?m=200801
+CONTENT:
+While there are many, many things in this world that I’m bent on destroying, D-Wave Systems has never been one of them.  Ideally, I’d simply let the D-Wave folks do their thing (namely, try to build an adiabatic quantum computer) while I do my thing (namely, study the fundamental limits of quantum computers).  It was only when, in connection with D-Wave, cringe-worthy claims about quantum computing started appearing all over the press that I felt a professional obligation to say something.
+
+Now that I’m “involved,” though, I also need to keep you ablog of any notable further developments.  And presumably, D-Wave founder Geordie Rose coming to MIT to meet with our quantum information group counts as notable.
+
+Two months ago, you’ll recall, we were graced by a visit from D-Wave’s Mohammad Amin and Andrew Berkley, but I’d never before had the pleasure of meeting Geordie.  At least formally, the reason for his visit was not to defend D-Wave, but to present “four hard problems” for us to solve.  These problems were as follows:
+
+While none of these problems are new to the quantum computing community, they’re all extremely good ones, and all (indeed) extremely hard.
+
+Of course, we did also discuss some controversial, red-meat, “did-D-Wave-build-a-quantum-computer” sorts of questions, so I owe it to you to provide a few highlights from that discussion.
+
+Seth Lloyd, who’s been more sympathetic to D-Wave than most of us, correctly pointed out that D-Wave has a “credibility problem in the scientific community.”  He discussed in great detail the experiments D-Wave ought to be doing to convince scientists that they’re really seeing quantum effects.  I strongly agreed with Seth, adding that I’d rather see two coherent qubits than thousands of incoherent ones.  Of course, even if D-Wave could demonstrate two-qubit entanglement (and Geordie says it’s the “next thing on the list”), there would still remain the enormous issues of scalability and of the limitations of the adiabatic algorithm in solving hard optimization problems.  But at least we could be more comfortable in saying that what they currently have is a tiny quantum computer.
+
+Geordie conceded that, so far, D-Wave has no direct evidence for entanglement among two or more qubits.  He nevertheless argued that they have indirect evidence (basically, that their data are better fit by a simple quantum model than a simple classical one), and that the lack of direct evidence is solely due to the difficulty of performing the requisite measurements.  Seth replied that, despite the difficulty, D-Wave would “do itself a big favor” by performing the measurements.
+
+Seth also mentioned D-Wave’s claims to the popular press — for example, about the ability of quantum computers to solve NP-complete problems — as a major factor in its scientific credibility problem.  Geordie admitted that some of D-Wave’s publicity was (here he paused for a few seconds) “not inaccurate, but verging on inaccurate.”
+
+Note: Geordie now says that he was only talking about the reporting on D-Wave; in his words, “I stand by 100% anything I’ve ever said to anyone about these machines.”  At the time, I understood him quite clearly to be talking about D-Wave’s own publicity; it’s strange that he would have hesitated to admit that reporters have misunderstood things.  But I freely admit that I might have misheard or misinterpreted him.
+
+I asked Geordie about the result of Bansal, Bravyi, and Terhal that the planar Ising spin graph problem admits an efficient classical approximation algorithm — thus calling into question D-Wave’s whole strategy of solving other NP approximation problems by mapping them onto Ising spin graph instances.  Geordie replied, first, that their machine can handle many non-planar links, and second, that Bansal et al.’s algorithm merely trades an exponential dependence on n for an exponential dependence on 1/ε.  I agreed that their algorithm isn’t practical, but argued that its mere existence would have to be dealt with in any attempt to convert approximate solutions of the Ising spin graph problem into approximate solutions of the original optimization problems.
+
+So, where do we stand?  Here’s my attempt at a fair summary:
+
+
+
+================================================================================
+
+TITLE: Science: the toroidal pyramid
+URL: https://scottaaronson.blog/?m=200801
+CONTENT:
+Chad Orzel gripes about this month’s Scientific American special issue on “The Future of Physics” — which is actually extremely good, but which turns out to be exclusively about the future of high-energy particle physics.  Not surprisingly, the commenters on Chad’s blog reignite the ancient debate about which science is more fundamental than which other one, and whether all sciences besides particle physics are stamp collecting.
+
+I started writing a comment myself, but then I realized I hadn’t posted anything to my own blog in quite some time, so being nothing if not opportunistic, I decided to put it here instead.
+
+To me, one of the most delicious things about computer science is the way it turns the traditional “pyramid of sciences” on its head.  We all know, of course, that math and logic are more fundamental than particle physics (even particle physicists themselves will, if pressed, grudgingly admit as much), and that particle physics is in turn more fundamental than condensed-matter physics, which is more fundamental than chemistry, which is more fundamental than biology, which is more fundamental than psychology, anthropology, and so on, which still are more fundamental than grubby engineering fields like, say, computer science … but then you find out that computer science actually has as strong a claim as math to be the substrate beneath physics, that in a certain sense computer science is math, and that until you understand what kinds of machines the laws of physics do and don’t allow, you haven’t really understood the laws themselves … and the whole hierarchy of fundamental-ness gets twisted into a circle and revealed as the bad nerd joke that it always was.
+
+That was a longer sentence than I intended.
+
+Note (Jan. 25): From now on, all comments asking what I think of the movie “Teeth” will be instantly deleted.  I’m sick of the general topic, and regret having ever brought it up.  Thank you for your understanding.
+
+
+
+================================================================================
+
+TITLE: Volume 4 is already written (in our hearts)
+URL: https://scottaaronson.blog/?m=200801
+CONTENT:
+Today is the 70th birthday of Donald E. Knuth: Priest of Programming, Titan of Typesetting, Monarch of MMIX,  intellectual heir to Turing and von Neumann, greatest living computer scientist by almost-universal assent … alright, you get the idea.
+
+That being the case, Jeff Shallit proposed to various CS bloggers that we should all band together and present the master with a birthday surprise: one post each about how his work has inspired us.  The posts are now in!  Readers who don’t know about Knuth’s work (are there any?) should start with this post from Luca.  Then see this from David Eppstein, this from Doron Zeilberger, this from Jeff, this from Bill Gasarch, and this from Suresh.
+
+Knuth’s impact on my own work and thinking, while vast, has not been directly through research: his main influence on my BibTeX file is that if not for him, I wouldn’t have a BibTeX file.   (One reason is that I’m one of the people Doron Zeilberger attacks for ignoring constant factors, and supporting what he calls “the ruling paradigm in computational complexity theory, with its POL vs. EXP dichotomy.”)  So I decided to leave Knuth’s scientific oeuvre to others, and to concentrate in this post on his contributions to two other fields: mathematical exposition and computational theology.
+
+Knuth’s creation of the TeX typesetting system — his original motivation being to perfect the layout of his own Art of Computer Programming books — was remarkable in two ways.  First, because scientific typesetting is of so little interest to industry, it’s not clear if something like TeX would ever have been invented if not for one man and his borderline-neurotic perfectionism. Second, TeX is one of the only instances I can think of when a complicated software problem was solved so well that it never had to be solved again (nor will it for many decades, one hazards to guess).  At least in math, computer science, and physics, the adoption of TeX has been so universal that failure to use it is now a reliable crackpot indicator.
+
+From Wikipedia:
+
+Since version 3, TeX has used an idiosyncratic version numbering system, where updates have been indicated by adding an extra digit at the end of the decimal, so that the version number asymptotically approaches π. This is a reflection of the fact that TeX is now very stable, and only minor updates are anticipated. The current version of TeX is 3.141592; it was last updated in December 2002 … Even though Donald Knuth himself has suggested a few areas in which TeX could have been improved, he indicated that he firmly believes that having an unchanged system that will produce the same output now and in the future is more important than introducing new features. For this reason, he has stated that the “absolutely final change (to be made after my death)” will be to change the version number to π, at which point all remaining bugs will become features.
+
+But Knuth’s interest in scientific exposition goes far beyond typesetting.  His 1974 Surreal Numbers: How Two Ex-Students Turned on to Pure Mathematics and Found Total Happiness, which he wrote in one week, was weirdness at the highest possible level: the Beatles’ White Album of math.  It’s said to represent the only occasion in history when a new mathematical theory (Conway’s theory of surreal numbers) was introduced in the form of a novel.    (Though admittedly, with the exception of one sex scene, this is a “novel” whose plot development mostly takes the form of lemmas.)
+
+Those seeking to improve their own writing should consult Mathematical Writing (available for free on the web), the lecture notes from a course at Stanford taught by Knuth, Tracy Larrabee, and Paul Roberts. Like a lot of Knuth’s work, Mathematical Writing has the refreshing feel of an open-ended conversation: we get to see Knuth interact with students, other teachers, and visiting luminaries like Mary-Claire van Leunen, Paul Halmos, Jeff Ullman, and Leslie Lamport.
+
+Since I’ve blogged before about the battle over academic publishing, I also wanted  to mention Knuth’s remarkable and characteristically methodical 2003 letter to the editorial board of the Journal of Algorithms.   Knuth asks in a postscript that his letter not be distributed widely — but not surprisingly, it already has been.
+
+In the rest of this post, I’d like to talk about Things A Computer Scientist Rarely Talks About, the only book of Knuth’s for which I collected one of his coveted $2.56 prizes for spotting an error.   (Nothing important, just a typo.)
+
+Things is based on a series of lectures on computer science and religion that Knuth gave in 1997 at MIT.  (At the risk of oversimplifying: Knuth practices Christianity, but in a strange form less interested in guns and gays than in some business about “universal compassion.”)  Perhaps like most readers, when I bought Things I expected yet another essay on “non-overlapping magisteria,” a famous scientist’s apologia justifying his belief in the Virgin Birth and the Resurrection. But Knuth likes to surprise, and what he delivers instead is mostly a meditation on the typography of Bible verses [sic]. More precisely, Things is a “metabook”: a book about the lessons Knuth learned while writing and typesetting an earlier book, one I haven’t yet read, that analyzed verse 3:16 of every book of the Bible.
+
+But this being a lecture series, Knuth also fields questions from the audience about everything from sin and redemption to mathematical Platonism.  He has a habit of parrying all the really difficult questions with humor; indeed, he does this so often one comes to suspect humor is his answer.  As far as I could tell, there’s only one passage in the entire book where Knuth directly addresses what atheists are probably waiting for him to address.  From one of the question periods:
+
+Q: How did you become so interested in God and religion in the first place?
+
+A: It was because of the family I was born into.  If I had been born in other circumstances, my religious life would no doubt have been quite different. (p. 155)
+
+And then on to the next question.
+
+To me, what’s remarkable about this response is that Knuth without any hesitation concedes what skeptics from Xenophanes to Richard Dawkins have held up as the central embarrassment of religion.  This, of course, is the near-perfect correlation between the content of religious belief and the upbringing of the believer.    How, Dawkins is fond of asking, could there possibly be such a thing as a Christian or Hindu or Jewish child?  How could a four-year-old already know what he or she thinks about profound questions of cosmogony, history, and ethics — unless, of course, the child were brainwashed by parents or teachers?
+
+My Bayesian friends, like Robin Hanson, carry this argument a step further. For them, the very fact that Knuth knows his beliefs would be different were he born to different parents must, assuming he’s rational, force him to change his beliefs.  For how can he believe something with any conviction, if he knows his belief was largely determined by a logically-irrelevant coin toss?
+
+And yet, openly defying the armies of Bayes arrayed against him, here we have Knuth saying, in effect: yes, if I know that if I were some other person my beliefs would be different, but I’m not that other person; I’m Knuth.
+
+So, readers: is Knuth’s response a cop-out, the understandable yet ultimately-indefensible defense of an otherwise-great scientist who never managed to free himself from certain childhood myths?   Or is it a profound acknowledgment that none of us ever escape the circumstances of our birth, that we might as well own up to it, that tolerance ought not to require a shared prior, that the pursuit of science and other universal values can coexist with the personal and incommunicable?
+
+Taking a cue from Knuth himself, I’m going to dodge this question.  Instead, I decided to end this post by quoting some of my favorite passages from Chapter 6 of Things A Computer Scientist Rarely Talks About.
+
+On computer science and God: “When I talk about computer science as a possible basis for insights about God, of course I’m not thinking about God as a super-smart intellect surrounded by large clusters of ultrafast Linux workstations and great search engines.  That’s the user’s point of view.” (p. 168)
+
+“I think it’s fair to say that many of today’s large computer programs rank among the most complex intellectual achievements of all time.  They’re absolutely trivial by comparison with any of the works of God, but still they’re somehow closer to those works than anything else we know.” (p. 169)
+
+On infinity: “Infinity is a red herring.  I would be perfectly happy to give up immortality if I could only live Super K years before dying [‘Super K’ being defined similarly to an Ackermann number].  In fact, Super K nanoseconds would be enough.” (p. 172)
+
+On the other hand: “I once thought, if I ever had to preach a sermon in church, I would try to explain Cantor’s theorem to my non-mathematical friends so that they could understand something about the infinite.” (p. 172)
+
+On God and computational complexity: “I think it’s fair to say that God may well be bound by the laws of computational complexity … But I don’t recommend that theologians undertake a deep study of computational complexity (unless, of course, they really enjoy it). ” (p. 174)
+
+On quantum mechanics: “Several years ago, I chanced to open Paul Dirac’s famous book on the subject and I was surprised to find out that Dirac was not only an extremely good writer but also that his book was not totally impossible to understand.  The biggest surprise, however — actually a shock — was to learn that the things he talks about in that book were completely different from anything I had ever read in Scientific American or in any other popular account of the subject.  Apparently when physicists talk to physicists, they talk about linear transformations of generalized Hilbert spaces over the complex numbers; observable quantities are eigenvalues and eigenfunctions of Hermitian linear operators.  But when physicists talk to the general public they don’t dare mention such esoteric things, so they speak instead about particles and spins and such, which are much less than half the story.  No wonder I could never really understand the popular articles.” (p. 181)
+
+“The extra detail that gets suppressed when quantum mechanics gets popularized amounts to the fact that, according to quantum mechanics, the universe actually consists of much more data than could ever be observed.” (p. 182)
+
+On free will and the problem of evil: “I can design a program that never crashes if I don’t give the user any options.  And if I allow the user to choose from only a small number of options, limited to things that appear on a menu, I can be sure that nothing anomalous will happen, because each option can be foreseen in advance and its effects can be checked.  But if I give the user the ability to write programs that will combine with my own program, all hell might break loose.  (In this sense the users of Emacs have much more free will than the users of Microsoft Word.) … I suppose we could even regard Figure 5 [a binary tree representing someone’s choices] as the Tree of the Knowledge of Good and Evil.” (p. 189-190)
+
+
+
+================================================================================
+
+TITLE: Ten Signs a Claimed Mathematical Breakthrough is Wrong
+URL: https://scottaaronson.blog/?m=200801
+CONTENT:
+Yesterday several people asked my opinion of a preprint claiming to solve the Graph Isomorphism problem in deterministic polynomial time. I responded:
+
+If I read all such papers, then I wouldn’t have time for anything else. It’s an interesting question how you decide whether a given paper crosses the plausibility threshold or not. For me personally, the AKS “PRIMES in P” paper somehow crossed it whereas this one somehow doesn’t.
+
+Of course, I’d welcome an opinion from anyone who’s actually read the paper.
+
+Three commenters wrote in to say the paper looked good. Then the author found a bug and retracted it.
+
+Update (1/5): Laci Babai writes in to tell me that’s not quite what happened. See here for what did happen, and here for an argument that Friedland’s approach would if sound have implied P=NP.
+
+My purpose here is not to heap embarrassment on the author: he’s a serious mathematician who had a well-defined and interesting approach, and who (most importantly) retracted his claim as soon as a bug was discovered. (Would that everyone did the same!) Though the stakes are usually smaller, similar things have happened to most of us, including me.
+
+Instead I want to explore the following metaquestion: suppose someone sends you a complicated solution to a famous decades-old math problem, like P vs. NP. How can you decide, in ten minutes or less, whether the solution is worth reading?
+
+For a blogger like me — whose opinions are both expected immediately and googlable indefinitely — this question actually matters. Err in one direction, and I’ll forever be known as the hidebound reactionary who failed to recognize some 21st-century Ramanujan. Err in the other direction, and I’ll spend my whole life proofreading the work of crackpots.
+
+A few will chime in: “but if everyone wrote out their proofs in computer-checkable form, there’d be no need for this absurd dilemma!” Sure, and if everyone buckled up there’d be fewer serious accidents. Yet here’s the bloodied patient, and here we are in the emergency room.
+
+In deciding whether to spend time on a paper, obviously the identity of the authors plays some role. If Razborov says he proved a superlinear circuit lower bound for SAT, the claim on our attention is different than if Roofus McLoofus says the same thing. But the danger of elitism is obvious here — so in this post, I’ll only be interested in what can be inferred from the text itself.
+
+Inspired by Sean Carroll’s closely-related Alternative-Science Respectability Checklist, without further ado I now offer the Ten Signs a Claimed Mathematical Breakthrough is Wrong.
+
+1. The authors don’t use TeX. This simple test (suggested by Dave Bacon) already catches at least 60% of wrong mathematical breakthroughs. David Deutsch and Lov Grover are among the only known false positives.
+
+2. The authors don’t understand the question. Maybe they mistake NP≠coNP for some claim about psychology or metaphysics. Or maybe they solve the Grover problem in O(1) queries, under some notion of quantum computing lifted from a magazine article. I’ve seen both.
+
+3. The approach seems to yield something much stronger and maybe even false (but the authors never discuss that). They’ve proved 3SAT takes exponential time; their argument would go through just as well for 2SAT.
+
+4. The approach conflicts with a known impossibility result (which the authors never mention). The four months I spent proving the collision lower bound actually saved me some time once or twice, when I was able to reject papers violating the bound without reading them.
+
+5. The authors themselves switch to weasel words by the end. The abstract says “we show the problem is in P,” but the conclusion contains phrases like “seems to work” and “in all cases we have tried.” Personally, I happen to be a big fan of heuristic algorithms, honestly advertised and experimentally analyzed. But when a “proof” has turned into a “plausibility argument” by page 47 — release the hounds!
+
+6. The paper jumps into technicalities without presenting a new idea. If a famous problem could be solved only by manipulating formulas and applying standard reductions, then it’s overwhelmingly likely someone would’ve solved it already. The exceptions to this rule are interesting precisely because they’re rare (and even with the exceptions, a new idea is usually needed to find the right manipulations in the first place).
+
+7. The paper doesn’t build on (or in some cases even refer to) any previous work. Math is cumulative. Even Wiles and Perelman had to stand on the lemma-encrusted shoulders of giants.
+
+8. The paper wastes lots of space on standard material. If you’d really proved P≠NP, then you wouldn’t start your paper by laboriously defining 3SAT, in a manner suggesting your readers might not have heard of it.
+
+9. The paper waxes poetic about “practical consequences,” “deep philosophical implications,” etc. Note that most papers make exactly the opposite mistake: they never get around to explaining why anyone should read them. But when it comes to something like P≠NP, to “motivate” your result is to insult your readers’ intelligence.
+
+10. The techniques just seem too wimpy for the problem at hand. Of all ten tests, this is the slipperiest and hardest to apply — but also the decisive one in many cases. As an analogy, suppose your friend in Boston blindfolded you, drove you around for twenty minutes, then took the blindfold off and claimed you were now in Beijing. Yes, you do see Chinese signs and pagoda roofs, and no, you can’t immediately disprove him — but based on your knowledge of both cars and geography, isn’t it more likely you’re just in Chinatown? I know it’s trite, but this is exactly how I feel when I see (for example) a paper that uses category theory to prove NL≠NP. We start in Boston, we end up in Beijing, and at no point is anything resembling an ocean ever crossed.
+
+Obviously, these are just some heuristics I’ve found successful in the past. (The nice thing about math is that sooner or later the truth comes out, and then you know for sure whether your heuristics succeeded.) If a paper fails one or more tests (particularly tests 6-10), that doesn’t necessarily mean it’s wrong; conversely, if it passes all ten that still doesn’t mean it’s right. At some point, there might be nothing left to do except to roll up your sleeves, brew some coffee, and tell your graduate student to read the paper and report back to you.
+
+
+
+================================================================================
+
+TITLE: Special entry for you, my friend
+URL: https://scottaaronson.blog/?m=200801
+CONTENT:
+Happy New Year and all that. Recently I got back from a two-week journey to India (to attend the QIP conference in New Delhi and, of course, liveblog from the Taj) as well as England (to meet up with family in London and make a religious pilgrimage to Bletchley Park).
+
+Even though my travel entries typically get fewer comments than anything else, I nonetheless feel a historic responsibility to record my first visit to a subcontinent with one-sixth of the world’s population — the birthplace not only of my adviser and so many other great theoretical computer scientists, but also of Gandhi, Ramanujan, the Buddha, and commenter Nagesh Adluru. But where do I even start? Writing anything open-ended has always been a chore for me, and it’s only getting harder with time.
+
+So I’ll tell you what: I’ll just post some photos with commentary. Then ask me whatever you want in the comments section: “Were there any good talks at QIP?” “Were you brave enough to sample the strange, exotic North Indian dishes, like ‘naan’ and ‘samosas’ and ‘chicken curry’?” “Having spent a full week in India, to what extent, if any, do you think the Bhutto assassination will destabilize Indo-Pakistani relations?”
+
+India: where every imaginable entity with wheels, feet, or hooves can be found on the road, making deafening noises while swerving to kill you; the water’s not even safe for toothbrushing; the beggars have their own beggars; and the cellphone network is more reliable than anything in the US.
+
+These are students and religious pilgrims at the Dayalbagh colony near Agra, the headquarters of one branch of the Radha Soami sect of Hinduism. They’re laboring in the fields at dawn, before coming in to hear me and others give quantum computing talks. I’m not making this up.
+
+When I agreed to give a talk at the Dayalbagh Educational Institute, all I knew about my hosts is that they were computer scientists near Agra who would take me on a guided tour of the Taj Mahal and arrange the logistics. I had no idea that my hosts — and their self-supporting agricultural commune of about 20,000 people, led by religious scholars fascinated by quantum computing theory — would turn out to be considerably more interesting than the Taj itself.
+
+For my talk, I was going to present some recent results with Peter Shor, Salman Beigi, and Bill Fefferman on the complexity class QMA(k) (Quantum Merlin-Arthur with multiple unentangled Merlins). But then I learned that over 200 people would be attending. I panicked: “there aren’t 200 people on Earth who would care about this talk, let alone 200 people on a Hindu kibbutz near Agra!” So I quickly substituted my usual dog-and-polynomial show about the limits of quantum computers.
+
+I was surprised that the guru of the sect, Prof. P. S. Satsangi, actually came to my talk. Everyone stood at attention when he entered the room, and then he sat in a special chair surrounded by flowers at the front of the lecture hall. He did not ask questions.
+
+In the end, while I couldn’t assent to the Radha Soamis’ mystical beliefs (as they were explained to me), I found much in their way of life to recommend it. I had fun imagining, say, a Kansas farmtown where a quantum computing workshop would be a major public event, attended by the mayor and every local dignitary.
+
+This is where I stayed in New Delhi: at the Islamic Cultural Centre Guest House. I chose to stay here because (1) as someone who’s occasionally blogged about the Israeli/Palestinian conflict, I felt a historic responsibility to make a bold peace gesture, and (2) it was the only place in walking distance to the conference center.
+
+As you can see from the Christmas tree out in front, the Islamic Centre was happily not averse to ecumenicism. As explained to me by my “friend” at the guest house (the guy who knocked on my door every fifteen minutes to see if I needed anything, before asking me for a tip), “here in India there is no ‘you Hindu, you Muslim, you Buddhist, you Sikh.’ All are brothers, you understand? Tip?”
+
+Dorit Aharonov and Barbara Terhal passionately debating some adiabatic something-or-other near the Qutb Minar, a twelfth-century minaret.
+
+Need Grover’s algorithm tailored to solve the element distinctness problem in n2/3 queries? I know just the guy for such jobs…
+
+If you can’t read it, the sign says “MADHUSUDAN MOTORS.”
+
+Our guides: “c’mon, move along, nothing to see here … just a stray monkey …”
+
+The obligatory photo. Not Photoshopped, I promise.
+
+Here we shift the scene from India to its former colonialist ruler (now a quaint, scone-intensive island in the North Atlantic). I’m standing in front of the Bletchley Park mansion, an hour and a half by train from London. In the early nineties, this site was apparently going to be demolished to make way for housing developments. Then someone pointed out that, by current estimates, the cryptanalysis done at Bletchley Park probably shortened World War II by at least two years and saved about twenty million lives. So they made it into a museum. Next time you’re in London, I strongly recommend making the pilgrimage (just beware that the place closes at 4PM).
+
+This is a Bombe.
+
+Alan Turing’s office in Hut 8.
+
+================================================================================
+

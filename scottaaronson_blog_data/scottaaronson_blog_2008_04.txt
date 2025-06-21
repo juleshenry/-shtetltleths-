@@ -1,0 +1,49 @@
+TITLE: Open thread
+URL: https://scottaaronson.blog/?m=200804
+CONTENT:
+I’ve had a miserable week (only partly because of the headaches and coughing fits that have been keeping me up all night), and feel a need to be of use to some other human being without leaving my apartment. So this thread is for you to ask about whatever’s on your mind — complexity classes, philosophy, grad school advice, anteaters … anything asked in earnest will be responded to, in considerably less than the two years it took me for Lev R.
+
+Update (4/13): Having spent a good part of the weekend answering 57 questions about everything from quantum computing to painting elephants, I think it’s time to call it quits. Thanks to everyone who submitted; it really cheered me up! We’ll do this again sometime.
+
+================================================================================
+
+TITLE: Great Ideas in Theoretical Computer Science Lectures 8-11
+URL: https://scottaaronson.blog/?m=200804
+CONTENT:
+A few more lectures, hot off the Turing machine tape:
+
+Yeah, it’s all standard material, but if you don’t know it … well, this is one more place you can learn.
+
+Apropos of computer science education, some of you may have heard the sad news that the College Board is killing the AP Computer Science AB test [Slashdot] [Pontiff].  The reasons they gave were that (1) not enough students were taking it and (2) of those who were, not enough were underrepresented minorities.
+
+I took the AB test in ’96, despite not having taken the course (my high school didn’t offer it) and not knowing Pascal (the language they still used, before they switched to C++ and then Java).  I did read a book to prepare, and that’s where I got my first exposure to O-notation, linked lists, and other crumbs from the feast table of theory.  I devoured it all like a hungry dog licking the floor.
+
+It goes without saying that high school students (including underrepresented minorities) won’t take an AP course if it isn’t offered, or if their schools or the colleges they’re applying to don’t take it seriously.   Computer science education is a threat to many people’s pet ideas about the world: that CS is not a real subject and is devoid of intellectual content. That everything having to do with computers is mundane and technical, and should (for that reason) be outsourced to China and India. That if we must teach CS, we should at least focus on applications, and get rid of any math or logical thought. That CS is passé, a 20th-century relic that was long ago superseded by the life sciences (haven’t computer scientists gotten the message yet?).  Against this backdrop, it’s not surprising that the AB test is being killed: what’s surprising is that it lasted so long.
+
+Blogging will continue to be sporadic, as I have a cold.
+
+Update (4/10): Lenore Blum just gave a talk here at MIT about the future of CS education, in which she echoed several themes of this post, but also argued (among other things) that the cancellation of APCSAB is good news given the course’s obsessive focus on the details of the programming language du jour, and given high schools’ refusal to treat it as a real academic subject, instead grouping it with “electives” like woodshop and metalworking.  She held out hope that the US will someday develop a reasonable K-12 computer science curriculum, pointing to successful models from Israel and New Zealand.   Needless to say, I have mixed feelings about canceling the mediocre (AB), keeping the truly bad (A), and hoping for the distant good.
+
+================================================================================
+
+TITLE: Lev R.’s question answered at last; fate of humanity revealed
+URL: https://scottaaronson.blog/?m=200804
+CONTENT:
+Almost two years ago, a reader named Lev R. won my Best Anthropicism Contest with the following gem:
+
+why aren’t physicists too interested in computational complexity? because if they were, they’d be computer scientists.
+
+As the champion, Lev won the right to ask any question and have me answer it on this blog. Here was Lev’s question:
+
+I like your “Earth Day, Doomsday, and Chicken Little” post, but you dodged the big question. Will the world end (humans go extinct) anytime soon? Or do you think that despite our best efforts, we’ll somehow end up not destroying ourselves?
+
+In general, I despise being asked to make predictions, even about infinitely less weighty topics — especially when there’s a chance of my being wrong, and people looking back Nelson-Muntz-like and saying “ha ha, Scott was wrong!” That’s one of only several reasons why I could never be a physicist.
+
+An answerable question would be one that asked me to clear up a misconception, or render a moral judgment, or discuss the consequences of a given assumption. (Unanswerable: “When will we see useful quantum computers?” Answerable: “Didn’t that company in Vancouver already build one?”) Questions about relationships between complexity classes or other unsolved math problems are also fine. But as for the universe, how am I supposed to know what it’ll decide to do, among all the things it could do within reasonable bounds of physics and logic? How am I even supposed to have a prior? As a CS theorist, I’m trained to think not about what’s likely to happen, but about the very worst that could happen — within stated assumptions, of course. Among the practical consequences of this attitude, I never gamble and I never play the stock market (and not only because, while there are many things I want, almost none of them can be traded for money). I also don’t worry about being put out of a job by prediction markets. Where the Bayesian stops, and says “every question beyond these is trivial or meaningless,” that’s where I’m just getting started.
+
+But despite everything I’ve said, after years of diligent research into the future of the human race — reading hundreds of trillions of books and articles about climate change, overpopulation, Peak Oil, nuclear proliferation, transhumanism, AI, and every other conceivably relevant topic (what do you think I was doing, writing CS papers?) — I am finally prepared, this somber April 1st, to answer Lev’s question with the seriousness it deserves. Obviously my predictions can only be probabilistic, and obviously I can’t give you the deep reasons behind them — those would take years to explain. I shall therefore present the human future, circa 2100, in the form of a pie chart.
+
+
+
+================================================================================
+

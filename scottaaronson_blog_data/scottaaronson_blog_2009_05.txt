@@ -1,0 +1,109 @@
+TITLE: Sidesplitting proofs
+URL: https://scottaaronson.blog/?m=200905
+CONTENT:
+One thing I’ve always liked about theoretical computer science is the number of proofs that are patently ridiculous—whose concluding steps seem to call more for a gong or cymbal than a “QED” box.  This is a property that CS theory inherited from logic, and that it shares with several other mathematical fields (though by no means all of them).  The titans of the comedy-proof genre are of course Gödel and Turing’s undecidability results, the latter of which arguably found its best expression as a poem.  But there are other examples all over the place, and many aren’t as well known as they should be.
+
+I was reminded of this side of theory when my student Andy Drucker and I came up with yet another absurd proof: basically, a theorem that’s true for one reason if a certain algebraic problem is hard, and true for a completely different reason if the problem is easy.  We’re still writing it up, so at Andy’s request I won’t spill the joke yet.  For now, please content yourself with the following tried-and-true komedy klassics.
+
+Theorem 1 (folklore): E (that is, the class of problems solvable in 2O(n) time) does not equal PSPACE, the class of problems solvable in polynomial space.  (Though we have no idea how to prove which one is bigger than the other one—or that they’re incomparable, as seems most likely.)
+
+Proof: Suppose E=PSPACE.  Then E=EXP by padding, where EXP is the class of problems solvable in 2poly(n) time.  But that would contradict the Time Hierarchy Theorem.
+
+Theorem 2 (classic, attributed to Levin): One can give a fixed, explicit algorithm, which finds satisfying assignments to Boolean formulas in polynomial time whenever they exist, assuming P=NP.
+
+Proof: let M1, M2, … be a list of Turing machines that take a SAT instance φ as input.  The algorithm is as follows: dovetail (that is, run a step of M1, then another step of M1 and a step of M2, then another step of M1 and M2 and a step of M3, etc.), halting when one of the machines has output a valid satisfying assignment for φ.  If P=NP, then there’s some Turing machine Mi in the list that solves SAT, and that causes the whole algorithm to work in polynomial time assuming φ was satisfiable.  (The fact that you’re also simulating quadrillions of other machines merely slows things down by a “polynomial factor,” independent of the input size n.)
+
+Theorem 3 (Gutfreund, Shaltiel, Ta-Shma): Let A be an algorithm that’s supposed to solve SAT in polynomial time (that is, find a satisfying assignment whenever one exists), but that actually fails on some SAT instance of size n.  Then if someone gives you the source code of A, you can, in time polynomial in n, find a specific SAT instance that actually witnesses A’s failure.
+
+Proof: By the Cook-Levin Theorem, you can create a SAT instance φ(x) which encodes the statement, “x is a SAT instance of size n on which A fails (that is, either there’s a satisfying assignment A fails to find, or A outputs an assignment for x that isn’t satisfying).”  Then feed φ as input to A.  There are two cases: on the one hand, if A succeeds, then it’s helpfully provided you with a SAT instance on which it itself fails.  On the other hand, if A fails on φ, then φ itself is the SAT instance you were looking for.
+
+Theorem 4 (Barak et al.): There exist programs that can’t be obfuscated—that is, for which having the actual code of the program lets you do something that you couldn’t do if you could only run the program as a subroutine.
+
+Proof: Let P be a program that takes a string x as input, and does the following.  First, if x=a, where a is some n-bit “secret string” hardwired into P’s source code, then P(a) outputs another n-bit secret string b.  Second, if x is the source code of a program Q such that Q(a) outputs b (after some fixed number of steps, say t=O(n)), then P outputs a third secret string c.  Third, if x satisfies neither constraint, then P(x) outputs “FAIL.”  Now, given the source code of P, it’s easy to find c: just run P with its own code as input.  On the other hand, if you can only run P as a subroutine, then (unless you get extremely lucky) it will take exponential time to find any x for which P(x) outputs anything besides “FAIL.”  Hence it’s infeasible to find c by running P, and yet there’s no way to obfuscate P’s source code so as to hide c.
+
+Theorem 5 (attributed by Razborov and Rudich to Wigderson): No natural proof can prove better than a half-exponential lower bound on the circuit complexity of the discrete logarithm problem.  (Here half-exponential refers to a function f—which exists, but can’t be described analytically—such that f(f(n)) grows exponentially with n.)
+
+Proof Sketch: Suppose we can prove an f(n) lower bound on the circuit complexity of discrete log, using a natural proof.  Then by the definition of natural proof, there exists a 2O(n)-time algorithm to distinguish a truly random function g:{0,1}n→{0,1} from a function with circuit size f(n).  This means that any efficiently-computable pseudorandom function family (PRFF), with seed length m=f(n), can be distinguished from a random function in exp(f-1(m)) time.  By standard equivalence theorems in cryptography, this means that any purported one-way function—so for example, the modular exponentiation function—can be inverted in exp(f-1(n)) time.  In other words, to prove a natural f(n) lower bound for the discrete logarithm problem, you must also discover an exp(f-1(n))-time algorithm for the discrete logarithm problem.  As you show the discrete log problem to be harder, you simultaneously show it to be easier!  And when f is greater than half-exponential, the lower bound becomes greater than the upper bound.
+
+What is it that makes these theorems funny?  (Alright, maybe not ha-ha funny, but at least snort-snort funny?)  This is one case where a few readers might want me to break the rule about never explaining a joke.  Theorems 1 and 2 are sort of like “you’re lost,” as an answer to the balloonist’s plea of “where am I?”: they’re logically impeccable yet tell you nothing whatsoever about what you wanted to know.  Theorems 3 and 4 are like someone who’s so hungry he devours the menu at a restaurant, not even realizing that the menu itself was listed on the menu.  They seem to involve a category mistake: a reference gluttonously repurposed as a referent only to become a reference again.  (This, of course, is the joke behind Gödel’s theorem as well.)  Theorem 5 is like a literary critic proving there’s no ‘reality’ separate from race, class, and gender biases, using arguments that are so well-grounded, even a white male plutocrat would have to concede their truth.  The case is a self-immolating one: every argument that makes it stronger necessarily makes it weaker as well.
+
+So what’s your favorite sidesplitting proof?
+
+
+
+================================================================================
+
+TITLE: The QIS workshop
+URL: https://scottaaronson.blog/?m=200905
+CONTENT:
+As promised, here’s my report on the Quantum Information Science Workshop in Virginia, only a week or so behind schedule.
+
+I tried to be cynical—really I did.  But despite my best efforts, somehow I went home more excited about quantum than I’ve been in a long time.
+
+The highlight of the workshop was of course the closed, invitation-only, late-night meeting in the basement of NSF headquarters, at which a group of us hidebound quantum computing reactionaries plotted to keep the field focused on irrelevant mathematical abstractions, and to ostracize the paradigm-smashing entrepreneurial innovators who threaten our status.  I don’t think I’ve ever heard so much cackling in the space of a single evening, or so much clinking of bone goblets.  Stuff like that is why I entered the field in the first place.
+
+But there were some other highlights as well:
+
+[Full list of talks iz heer]
+
+1. In his talk on quantum algorithms with polynomial speedups, Andris Ambainis called attention to a spectacular recent paper by Ben Reichardt, which characterizes the quantum query complexity of any partial or total Boolean function f (up to a logarithmic factor) as the optimal witness size of a span program for f, and also as the negative-weight quantum adversary lower bound for f.  Assuming this result is correct, it seems possible that the remaining open problems in quantum query complexity will be pulverized, one after another, by solving the associated SDPs for the optimal span programs.  (Incidentally, using Reichardt’s result, it must be possible to prove, e.g., a Ω(n1/3/log(n)) lower bound for the quantum query complexity of the collision problem using the adversary method.  This was a longstanding open problem.  Can one say, explicitly, what the adversary matrices are in this case?)  Alas, it also seems possible that span programs will turn out to be almost as hard to analyze as quantum algorithms were…
+
+(1+√5)/2. Despite the obvious danger to the future funding of the entire field, by some clerical error I was released from my padded cell to speak about “Quantum Complexity and Fundamental Physics”.  My “talk,” if it can be called that, was in my opinion neither rational nor integral to the workshop.
+
+2. In her talk on blind quantum computation, Anne Broadbent (who’s also visiting MIT this week) described some beautiful new results that partly answer my Aaronson $25.00 Challenge from a year and a half ago.  The Challenge, if you recall, was whether a quantum computer can always “prove its work” to a classical skeptic who doesn’t believe quantum mechanics—or more formally, whether every problem in BQP admits an interactive protocol where the prover in BQP and the verifier is in BPP.  Anne, Joe Fitzsimons, and Elham Kashefi haven’t quite answered this question, but in a recent paper they’ve come close: they’ve shown that a quantum computer can prove its work to someone who’s almost completely classical, her only “quantum” power being to prepare individual polarized photons and send them over to the quantum computer.  Furthermore, their protocol has the amazing property that the quantum computer learns nothing whatsoever about which particular quantum computation it’s performing!  (Aharonov, Ben-Or, and Eban independently gave a protocol with the same amazing properties, except theirs requires the “classical” verifier to have a constant-sized quantum computer.)  Anne et al. also show that two quantum computers, who share entanglement but can’t communicate with each other, can prove their work to a completely classical verifier (while, again, remaining completely oblivious to what they computed).
+
+On top of everything else, these results appear to be the first complexity-theoretic application of the measurement-based quantum computing paradigm, as well as the first “inherently quantum” non-relativizing results.  (Admittedly, we don’t yet have an oracle relative to which the blind quantum computing protocols don’t work—but the protocols rely essentially on the gate structure of the quantum circuits, and I conjecture that such an oracle exists.)
+
+Rereading my Challenge, I noticed that “the [one-member] Committee may also choose to award smaller prizes for partial results.”  And thus, yesterday I had the pleasure of awarding Anne a crumpled $10 bill, with an additional $5 contributed by Seth Lloyd, for a grand total of $15.00 to be shared equally among Anne, Joe, and Elham.  (Update: Since I wrote that, Anne has elected to trade in for three signed and doodled-upon $5 bills.)  (Another Update: A $12, or $15-$O(1), prize shall be awarded to Dorit Aharonov, Michael Ben-Or, and Elad Eban the next time I see them.)  This is, I believe, the first time a monetary reward offered on Shtetl-Optimized has actually been paid out.
+
+3. In a talk that was so good, you almost forgot it involved chemistry, Alán Aspuru-Guzik discussed applications of quantum complexity theory to understanding photosynthesis and the design of efficient solar cells (!).  To give you a sense of how mindblowing that is, it briefly made me wonder whether I should reread some of John Sidles’ cheerful ramblings about the coming merger of quantum systems engineering with biology in the 21st century (of which, I predict, this very sentence will inspire dozens more).
+
+So what then is the connection between quantum complexity theory and photosynthesis?  Well, a few of you might remember my post “Low-Hanging Fruit from Two Conjoined Trees” from years ago, which discussed the lovely result of Childs et al. that a quantum walk on two conjoined binary trees can reach a designated end vertex exponentially faster than a classical walk on the same graph.  That result interested me, among other things, because it can be shown to lead to an oracle relative to which BQP ⊄ SZK, which at the time I didn’t know how to find otherwise.  But especially given the bizarre nature of the graph needed to produce the oracle separation, I thought of this result as pretty much the prototype of an irrelevant complexity-theoretic curiosity (which, naturally, made me like it all the more).
+
+You can probably guess where this is going.
+
+
+
+Shown above is a light-harvesting molecule (image snagged from Alán’s slides), which apparently is efficient at concentrating light at its center for essentially the same reason the Childs et al. quantum walk reaches the target vertex exponentially faster than a classical walk: namely, because of destructive interference between the paths that point backward, toward the leaves.  According to Alán, what plants do to harvest sunlight is not entirely unrelated either (it also involves quantum coherence), and fully understanding these mechanisms in quantum information terms might conceivably be useful in designing better solar cells.  To be fair, a part of me always did suspect that quantum oracle separations would turn out to be the key to solving the world energy crisis.  I’ll point you here or here if you want to know more.
+
+Incidentally, Alán’s talk had another, also extremely interesting part, which was about coming up with precise numerical estimates of the number of qubits you’d need to simulate the wavefunctions of (say) benzene, caffeine, and cholesterol.  (Many of us have long thought that simulating physics and chemistry will be the real application for scalable quantum computers if we ever build them, practical long before breaking RSA and ultimately more useful too.  But it’s not something we often talk about—ostensibly for lack of meaty things to say, really because we don’t know chemistry.)
+
+4. In her talk, Dorit Aharonov posed an open problem that I now have no choice but to inflict on others, if I don’t want to feel forced to think about it myself.  So here’s her problem: how hard is it to find the ground state of a local Hamiltonian H=H1+…+Hm (that is, a sum of k-qubit interactions, for some constant k), if we impose the constraint that the Hi‘s all commute with each other?  Clearly it’s somewhere between NP and QMA.  It might seem obvious that this problem should be in NP—to which I can only respond, prove it!
+
+There were also lots of great talks by the experimentalists.  Having attended them, I can report with confidence that (1) they’re still trying to build a quantum computer but (2) decoherence is still a big problem.  If you want to know even more detail than I’ve just provided—or you want to know about the theory talks I didn’t mention, or more about the ones I did mention—ask away in the comments.  I can’t promise that no one will know the answer.
+
+
+
+================================================================================
+
+TITLE: Wanted: Quantum GGM theorem
+URL: https://scottaaronson.blog/?m=200905
+CONTENT:
+A commenter on my last post writes:
+
+Dear Scott, Please keep the focus of your blog.  You have lately been losing science to your blog and started blogging about various loosely related things. One of the ways I subscribed to your blog was because your articles were very computation-oriented. Now you no longer keep the theme. And as you might have heard, shifting topics in your blog will lose your readers.
+
+So today I noticed something bizarre.  A celebrated result in cryptography, due to Goldreich, Goldwasser, and Micali, states that any pseudorandom generator gives rise to a pseudorandom function family.  See Luca’s notes or the original GGM paper for more.
+
+Now I’d always assumed, without thinking about it, that the GGM result “obviously” carries over to the quantum case—so that any pseudorandom generator secure against quantum attack would give rise to a pseudorandom function family secure against quantum attack.  But now that I’m writing a paper that actually relies on this “fact,” I realized I have no idea why it’s true.
+
+Look: in the GGM argument, you start with a pseudorandom generator G:{0,1}n→{0,1}2n, and you apply it recursively to produce a family of functions fs:{0,1}n→{0,1}n, where s is the seed.  You then consider a hypothetical polynomial-time algorithm A that distinguished fs from a truly random function.  You show how you could use A to create a polynomial-time algorithm that distinguished the output of G from a truly random 2n-bit string—thereby contradicting the starting assumption that G was pseudorandom.
+
+The trouble is, the argument relies crucially on the fact that A examines only a polynomial number of outputs of fs—intuitively so that you can run a hybrid argument, changing the outputs that A actually examines one by one into truly random strings.  But if A is a quantum algorithm, then (duh) it can examine all 2n outputs of fs in superposition!  So any argument that depends on “watching A to see which inputs it queries” is toast.
+
+But maybe we can recover the same conclusion in a fancier way?  For at least seven years, I’ve been going around conjecturing the following:
+
+Conjecture (): Let Q be a quantum algorithm that makes T queries to a Boolean input X∈{0,1}N.  Then for all ε,δ>0, there exists a deterministic classical algorithm that makes poly(T,1/ε,log(1/δ)) queries to X, and that approximates Q’s acceptance probability to within ε on a 1-δ fraction of inputs.
+
+My motivation for Conjecture () had nothing to do with cryptography.  I was interested in whether we could rule out the possibility that P=BQP relative to a random oracle with probability 1.  If Conjecture () holds—and if the classical algorithm is anything like I think it is—then we can’t rule it out, at least not without proving P≠PSPACE or an even stronger separation in the unrelativized world.
+
+It now occurs to me that, if we knew how to prove Conjecture (), then maybe we could push through a quantum GGM argument using similar ideas—that is, by identifying a tiny subset of inputs to fs that the quantum algorithm’s acceptance probability “really” depends on.  Alas, I have good reason to believe that Conjecture () is hard.
+
+So the task remains: prove a quantum GGM theorem.  Or maybe I’m missing something completely obvious?
+
+PS. The promised report on the QIS conference in Virginia is coming tomorrow.  Take that, future self!
+
+Update (5/3): An anonymous commenter points out that we can use a simpler hybrid argument of Razborov and Rudich—which doesn’t break down in the quantum case—to show that if there exists a PRG that’s secure against 2n^Ω(1)-time quantum adversaries, then there also exists a PRF with polynomial seed length that’s secure against exponential-time quantum adversaries.  That somehow hadn’t occurred to me, and it’s good enough for my purposes.  (Masked cryptographer: emerge ye from the shadows, and claim thy rightful honour in my Acknowledgments!)  On the other hand, the extremely interesting question still stands of whether one can prove a “strong,” GGM-style reduction: from PRGs secure against f(n)-time quantum adversaries to PRFs with linear seed length secure against f(n)Ω(1)-time quantum adversaries, for any superpolynomial f.
+
+================================================================================
+

@@ -1,0 +1,40 @@
+TITLE: Umesh Vazirani responds to Geordie Rose
+URL: https://scottaaronson.blog/?m=201402
+CONTENT:
+You might recall that Shin, Smith, Smolin, and Vazirani posted a widely-discussed preprint a week ago, questioning the evidence for large-scale quantum behavior in the D-Wave machine.  Geordie Rose responded here.   Tonight, in a Shtetl-Optimized exclusive scoop, I bring you Umesh Vazirani’s response to Geordie’s comments. Without further ado:
+
+Even a cursory reading of our paper will reveal that Geordie Rose is attacking a straw man. Let me quickly outline the main point of our paper and the irrelevance of Rose’s comments:
+
+To date the Boixo et al paper was the only serious evidence in favor of large scale quantum behavior by the D-Wave machine. We investigated their claims and showed that there are serious problems with their conclusions. Their conclusions were based on the close agreement between the input-output data from D-Wave and quantum simulated annealing, and their inability despite considerable effort to find any classical model that agreed with the input-output data. In our paper, we gave a very simple classical model of interacting magnets that closely agreed with the input-output data. We stated that our results implied that “it is premature to conclude that D-Wave machine exhibits large scale quantum behavior”.
+
+Rose attacks our paper for claiming that “D-Wave processors are inherently classical, and can be described by a classical model with no need to invoke quantum mechanics.”  A reading of our paper will make it perfectly clear that this is not a claim that we make.  We state explicitly “It is worth emphasizing that the goal of this paper is not to provide a classical model for the D-Wave machine, … The classical model introduced here is useful for the purposes of studying the large-scale algorithmic features of the D-Wave machine. The task of finding an accurate model for the D-Wave machine (classical, quantum or otherwise), would be better pursued with direct access, not only to programming the D-Wave machine, but also to its actual hardware.”
+
+Rose goes on to point to a large number of experiments conducted by D-Wave to prove small scale entanglement over 2-8 qubits and criticizes our paper for not trying to model those aspects of D-Wave. But such small scale entanglement properties are not directly relevant to prospects for a quantum speedup. Therefore we were specifically interested in claims about the large scale quantum behavior of D-Wave. There was exactly one such claim, which we duly investigated, and it did not stand up to scrutiny.
+
+================================================================================
+
+TITLE: TIME’s cover story on D-Wave: A case study in the conventions of modern journalism
+URL: https://scottaaronson.blog/?m=201402
+CONTENT:
+This morning, commenter rrtucci pointed me to TIME Magazine’s cover story about D-Wave (yes, in today’s digital media environment, I need Shtetl-Optimized readers to tell me what’s on the cover of TIME…).  rrtucci predicted that, soon after reading the article, I’d be hospitalized with a severe stress-induced bleeding ulcer.  Undeterred, I grit my teeth, paid the $5 to go behind the paywall, and read the article.
+
+The article, by Lev Grossman, could certainly be a lot worse.  If you get to the end, it discusses the experiments by Matthias Troyer’s group, and it makes clear the lack of any practically-relevant speedup today from the D-Wave devices.  It also includes a few skeptical quotes:
+
+“In quantum computing, we have to be careful what we mean by ‘utilizing quantum effects,'” says Monroe, the University of Maryland scientist, who’s among the doubters. “This generally means that we are able to store superpositions of information in such a way that the system retains its ‘fuzziness,’ or quantum coherence, so that it can perform tasks that are impossible otherwise. And by that token there is no evidence that the D-Wave machine is utilizing quantum effects.”
+
+One of the closest observers of the controversy has been Scott Aaronson, an associate professor at MIT and the author of a highly influential quantum-computing blog [aww, shucks –SA]. He remains, at best, cautious. “I’m convinced … that interesting quantum effects are probably present in D-Wave’s devices,” he wrote in an email. “But I’m not convinced that those effects, right now, are playing any causal role in solving any problems faster than we could solve them with a classical computer. Nor do I think there’s any good argument that D-Wave’s current approach, scaled up, will lead to such a speedup in the future. It might, but there’s currently no good reason to think so.”
+
+Happily, the quote from me is something that I actually agreed with at the time I said it!  Today, having read the Shin et al. paper—which hadn’t yet come out when Grossman emailed me—I might tone down the statement “I’m convinced … that interesting quantum effects are probably present” to something like: “there’s pretty good evidence for quantum effects like entanglement at a ‘local’ level, but at the ‘global’ level we really have no idea.”
+
+Alas, ultimately I regard this article as another victim (through no fault of the writer, possibly) of the strange conventions of modern journalism.  Maybe I can best explain those conventions with a quickie illustration:
+
+MAGIC 8-BALL: THE RENEGADE MATH WHIZ WHO COULD CHANGE NUMBERS FOREVER
+
+An eccentric billionaire, whose fascinating hobbies include nude skydiving and shark-taming, has been shaking up the scientific world lately with his controversial claim that 8+0 equals 17  [… six more pages about the billionaire redacted …]  It must be said that mathematicians, who we reached for comment because we’re diligent reporters, have tended to be miffed, skeptical, and sometimes even sarcastic about the billionaire’s claims.  Not surprisingly, though, the billionaire and his supporters have had some dismissive comments of their own about the mathematicians.  So, which side is right?  Or is the truth somewhere in the middle?  At this early stage, it’s hard for an outsider to say.  In the meantime, the raging controversy itself is reason enough for us to be covering this story using this story template.  Stay tuned for more!
+
+As shown (for example) by Will Bourne’s story in Inc. magazine, it’s possible for a popular magazine to break out of the above template when covering D-Wave, or at least bend it more toward reality.  But it’s not easy.
+
+More detailed comments:
+
+================================================================================
+

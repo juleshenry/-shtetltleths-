@@ -1,0 +1,118 @@
+TITLE: In which I answer more quantum computing questions
+URL: https://scottaaronson.blog/?m=202105
+CONTENT:
+Yesterday, I had fun doing an open-ended Q&A at the Astral Codex Ten weekly online meetup.  See here for the YouTube video.  The questions were mainly about quantum computing, but ranged over various other topics as well, including education policy, the Great Stagnation, and what my biggest disagreements with Scott Alexander are.
+
+In other news, last week I gave my talk about quantum supremacy at the (virtual, of course) Quantum Science Seminar, organized by Sebastian Blatt and others.  See here for the YouTube video.  Since I (alas) needed to leave after an hour sharp, the organizers asked if they could send me additional questions in writing and have me answer them.  I said sure, as long as I could also post the Q&A on this blog!  So without further ado…
+
+Q: As you said, in computer science it’s difficult to prove that things are hard. From a computer science perspective, to what extent is “quantum supremacy” something absolute, and to what extent is it a shifting bar that depends on how good our classical hardware and algorithms are?
+
+SCOTT: It’s kind of like the question “can computers beat the best humans at chess?” The latter question also involves a non-absolute shifting bar – maybe humans are getting better! Or maybe they simply haven’t figured out how to beat the computers yet! So how can we say “computer supremacy” has been decisively achieved? Nevertheless, one can clearly see a phase transition, with Deep Blue in 1996-1997, where the burden of proof shifted massively from one side to the other, and has stayed there ever since. Even if humans are getting better, the computers have also gotten better, and at such an insane rate that humans seem to have no chance of ever again catching up.
+
+From a theoretical standpoint, that’s exactly what we might expect to happen with quantum supremacy experiments – simply because they involve tasks that have polynomial scaling for quantum computers, but (as far as we know) exponential scaling for classical computers, where each additional qubit roughly doubles the classical resources required. In analyzing concrete quantum supremacy experiments, I’d say that the goal is not to pin down the exact factor by which they’re beating this or that classical simulation (the answers will change rapidly anyway, and depend on all sorts of low-level details), but simply to figure out whether or not we’ve entered that phase transition.
+
+Q: What do you generally think about improvements in tensor network methods as a challenge to quantum supremacy and the recent simulation of the supremacy result in Beijing?
+
+SCOTT: I blogged about this here. It was a clever paper, which showed that if you focus narrowly on spoofing the linear cross-entropy benchmark used by Google, then there’s a classical algorithm to do that much faster than had been previously pointed out, by generating many samples that all share most of their bits in common (e.g., that all agree on the first 30 of the 53 bits). But many people remain unaware that, if you just changed the benchmark – for example, if you insisted that the returned samples not only pass the linear cross-entropy benchmark, but also be sufficiently different – then this classical spoofing strategy wouldn’t work and we’d be back to the previous status quo.
+
+Q: Why do you need a random circuit to test the device, and also why is this more interesting/useful than doing something very specific many times to test the device?
+
+SCOTT: The reasons to use random quantum circuits are simply that(1) they generate complicated entangled states on all the qubits nearly as rapidly as it’s possible to do so – indeed, we now have theoretical results that give a detailed understanding of this process, and(2) random circuits seem to have about as little “usable structure” (which a classical simulation might exploit) as it’s possible to have.Eventually, of course, we’d like to run actually useful circuits (say, those that arise in Shor’s factoring algorithm), which will typically have regular patterns and be extremely far from random! But then more qubits will be needed to get an advantage over classical computers. It’s not terribly surprising for the first advantage over classical to be via random quantum circuits, which in some sense “maximally exploit” the hardware resources available.
+
+Q: Have you heard of/what do you think about the recent NP-verification experiment using a quantum optical setup from Paris?
+
+SCOTT: That experiment was actually based on a protocol that Beigi, Fefferman, Drucker, Shor, and I proposed back in 2008. It’s crucial for people to understand that there’s no claimed speedup here for solving any NP-complete problem. We’re talking about a more arcane task: namely, proving to someone that an NP-complete problem has a solution by sending them a small number of qubits. Even there, the protocol depends on the ability to send two quantum states that are guaranteed not to be entangled with each other; also, the communication savings is “only” polynomial rather than exponential (in our original protocol, roughly √n qubits where n classical bits would have been needed). Nevertheless, it’s always fun to see a real experiment implementing some version of something that you worked out on paper, even if you already knew it would work!
+
+Q: If the difficulty for classical simulation is related to the Hilbert space dimension, has it been formally proven that an ideal analog classical computer cannot outperform a quantum computer?
+
+SCOTT: This is not a question of “formal proof” but of physics. In my view, we already know deep reasons why, in our universe, analog classical computers are unlikely to be able to do anything that can’t be efficiently simulated using a standard digital computer. (In other words, why analog classical computers don’t violate the “Extended Church-Turing Thesis.”) Those reasons have to do with nonlinear dynamics chaotically amplifying even the tiniest errors in an analog device. Or, if you really want to push this discussion to the bitter end, they have to do with the breakdown in our picture of a smooth spacetime that’s expected to occur at the Planck scale, of ~10-33 centimeters and ~10-43 seconds, for reasons of black hole thermodynamics and quantum gravity. Crucially, neither of these issues apply to quantum computation. The former doesn’t apply because of quantum error correction  and fault-tolerance, which have the effect of “discretizing” continuous errors; while the latter doesn’t apply because as far as anyone knows today, quantum mechanics (unlike theories that assume a smooth spacetime) is exactly true.
+
+Q: [In the comparison between quantum and classical computation], what do we mean by “classical resources” here? Do we mean something parochial like “resources obeying non-quantum laws that are available to us humans on Earth?” Or is any classical resource fair game, no matter its size and classical equations of motion? In that case, doesn’t demonstrating quantum supremacy require demonstrating that the quantum computer exceeds the capabilities of, say, a classical computer the size of the solar system that exploits some CTC (closed timelike curve)?
+
+SCOTT: If CTCs were possible, that would be a revolution in physics even greater than quantum mechanics! Leaving CTCs aside, though, cosmology and quantum gravity seem to impose a limit of roughly 10122 on the number of bits (and the number of operations on the bits) that any computer that fit inside the observable universe could possibly have. And if you envision that cosmological computer as a classical one, then it shouldn’t take impossibly long for us to build quantum computers that can outperform it on some tasks: indeed, a device with ~400 qubits should already be enough! But of course we’re not there yet: with 50-60 qubits, QCs right now are “merely” challenging the largest classical computers currently available on earth (again, on contrived sampling tasks), rather than the largest that could fit in the observable universe.
+
+Q: Why is a quantum state (superposition or entangled state) inherently more fragile than a classical state?
+
+SCOTT: Because when information from the state (say, whether a qubit is 0 or 1, or which path a photon takes through a beamsplitter network) “leaks out” into the environment, the information effectively becomes entangled with the environment, which damages the state in a measurable way.  Indeed, it now appears to an observer as a mixed state rather than a pure state, so that interference between the different components can no longer happen. This is a fundamental, justly-famous feature of quantum information that’s not shared by classical information.
+
+Q: Given that we have noisy-intermediate scale quantum devices, what do you see as the fundamental role of noise in the discussion on quantum advantage or quantum supremacy. Is it simply a question of less noise is better, or are there things that cannot be done if there is noise?
+
+SCOTT: There will always be some noise. The big question, about any given platform, is whether the noise is low enough that you can start usefully error-correcting it away, or whether the noise is so high that there’s no point (i.e., whether you’re above or below the “fault-tolerance threshold”).  Until you start doing error-correction, most experts believe there’s a severe limit to how far you can scale: probably to quantum computations involving a few hundred qubits at most. Whereas once you have error-correction, at least in principle the sky’s the limit.
+
+Q: You used the Wright brothers as an example where an airplane that was not practically useful itself pioneered the path to useful flight. In what sense to the sampling experiments of Google and USTC also pioneer that path for what we need for the future of quantum computing, or to what extent do you see them as niche examples of quantum supremacy?
+
+SCOTT: I think the majority of what Google did, in integrating 53 superconducting qubits, making them programmable, etc. – and especially in characterizing the noise in a system at that scale – will be directly useful going forward. Indeed, that’s a large part of why they did it!  Likewise, a lot of what USTC did, in integrating hundreds of beamsplitters, photon sources, and photodetectors, could be directly relevant to building a universal optical quantum computer. On the other hand, it’s true that both groups took shortcuts with the immediate goal of quantum supremacy in mind. As an example, Google’s chip uses a particular 2-qubit gate that was chosen, not because it shows up naturally in any application, but simply because it’s extra-hard to simulate using tensor network contraction algorithms, so it let them get to quantum supremacy faster than if they’d used a more conventional 2-qubit gate like the CNOT.
+
+Q: To what extent does the measured circuit fidelity of 0.2% in the Google experiment limit the usability of this system for other computations?
+
+SCOTT: Oh, we don’t know of anything particularly useful to do with Google’s Sycamore chip – that is, anything that you couldn’t do much more easily without it – other than(1) quantum supremacy demonstrations,(2) possibly the generation of cryptographically certified random bits, and(3) of course, calibration experiments that tell you about the behavior of integrated superconducting qubits and thereby help you iterate to the next device.But things are developing rapidly – the best circuit fidelity that was achievable in 2019 is not necessarily the best now, or the best that will be achieved in another year or two.
+
+Update (May 25): Please, no new questions; just discussion of the existing questions and answers! I had hoped to get some work done today; I hadn’t planned on another ask-me-anything session. Thanks!
+
+================================================================================
+
+TITLE: On turning 40 today
+URL: https://scottaaronson.blog/?m=202105
+CONTENT:
+Holy crap.
+
+In case you’re wondering how I spent such a milestone of a day: well, I spent hours of it at an important virtual grant review meeting with the Department of Defense.  Alas, when it came time for my own big presentation at that meeting—about what my students and I had done over the past five years to lay the theoretical foundations for the recent achievement of quantum computational supremacy—I’d uploaded the completely wrong PowerPoint file (it was something.pptx rather than something.ppt, where they weren’t two versions of the same presentation).  Sorting this out took about 10 minutes, destroyed my momentum, and wasted everyone’s time.  I partly blame the Microsoft Teams platform, whose limitations as conferencing software compared to Zoom necessitated emailing my presentation in the first place.  But of course, part of the blame rests with me.
+
+I had to explain apologetically to the US Department of Defense that I’m no good with tech stuff—being a mere computer science PhD.  And unlike many of my colleagues (who I envy), back in my youth—for at age 40 I’m no longer young—I never had enough time to become both the kind of person who might earn a big grant to do quantum computing theory, and the kind of person who’d be minimally competent at the logistics of a review meeting for such a grant.
+
+
+
+Forty years.  Seven-eighths of those years, aware of the finiteness of the speed of light and of its value.  Four-fifths of them, aware of the grislier details of the Holocaust.  Three-quarters of them, aware of what it means to write code.  Two-thirds of them, aware of polynomial versus exponential time.  More than half of them trying to understand the capabilities and limitations of quantum computers as my day job.  And then, rounding the corner, more than a third of the years writing this blog, a third of them being a professor, a quarter of them married, a fifth of them raising kids, a thirtieth of them in the midst of a global pandemic.
+
+I didn’t even come close to achieving everything I hoped I would in my thirties.  At least a half-dozen major papers, ones I expected would’ve been finished years ago (on the mixing of coffee and cream, on complexity and firewalls and AdS/CFT, on certified random numbers from sampling-based quantum supremacy experiments, on the implications of the Raz-Tal oracle separation, …), still need to be revised or even written.  Other projects (e.g., the graphic novel about teaching math to Lily) were excitedly announced and then barely even started.  I never wrote most of my promised blog post about the continuum hypothesis, or the one about Stephen Wolfram’s recrudescent claims of a unified theory of physics.  And covid, which determined the world’s working conditions while we were running out the clock, turned out not to be a hyper-productive time for me.  That’s how you know I’m not Newton (well, it’s the not the only way you know).
+
+Anyway, during the runup to it, one’s 40th birthday feels like a temporal singularity, where you have to compress more and more of what you’d hoped to achieve before age 40 as you get closer and closer to it, because what the hell is there on the other side?  They‘re over-40 and hence “old”; you’re under-40 and hence still “young.”
+
+OK, but here I am on the other side right now, the “old” side, and I’m still here, still thinking and writing and feeling fairly continuous with my pre-singularity embodiment!  And so far, in 16 hours on this side, the most senile thing I’ve done has been to email the wrong file attachment and thereby ruin an important funding presenta… you know what, let’s not even go there.
+
+If you feel compelled to give me a 40th birthday present, then just make it a comment on this post, as short or long as you like, about what anything I said or did meant for you.  I’m a total softie for that stuff.
+
+================================================================================
+
+TITLE: What I told my kids
+URL: https://scottaaronson.blog/?m=202105
+CONTENT:
+You’ll hear that it’s not as simple as the Israelis are good guys and Palestinians are bad guys, or vice versa.  And that’s true.
+
+But it’s also not so complicated that there are no clearly identifiable good guys or bad guys.  It’s just that they cut across the sides.
+
+The good guys are anyone, on either side, whose ideal end state is two countries, Israel and Palestine, living side by side in peace.
+
+The bad guys are anyone, on either side, whose ideal end state is the other side being, if not outright exterminated, then expelled from its current main population centers (ones where it’s been for several generations or more) and forcibly resettled someplace far away.
+
+(And those whose ideal end state is everyone living together with no border — possibly as part of the general abolition of nation-states?   They’re not bad guys; they can plead insanity.  [Update: See here for clarifications!])
+
+Hamas are bad guys.  They fire rockets indiscriminately at population centers, hoping to kill as many civilians as they can.  (Unfortunately for them and fortunately for Israel, they’re not great at that, and also they’re aiming at a target that’s world-historically good at defending itself.)
+
+The IDF, whatever else you say about it, sends evacuation warnings to civilians before it strikes the missile centers that are embedded where they live.  Even if Hamas could aim its missiles, the idea of it extending the same courtesy to Israeli civilians is black comedy.
+
+Netanyahu is not as bad as Hamas, because he has the power to kill millions of Palestinians and yet kills only hundreds … whereas if Hamas had the power to kill all Jews, it told the world in its charter that it would immediately do so, and it’s acted consistently with its word.
+
+(An aside: I’m convinced that Hamas has the most top-heavy management structure of any organization in the world.  Every day, Israel takes out another dozen of its most senior, highest-level commanders, apparently leaving hundreds more.  How many senior commanders do they have?  Do they have even a single junior commander?)
+
+Anyway, not being as bad as Hamas is an extremely low bar, and Netanyahu is a thoroughly bad guy.  He’s corrupt and power-mad.  Like Trump, he winks at his side’s monstrous extremists without taking moral responsibility for them.  And if it were ever possible to believe that he wanted two countries as the ideal end state, it hasn’t been possible to believe that for at least a decade.
+
+Netanyahu and Hamas are allies, not enemies.  Both now blatantly, obviously rely on the other to stay in power, to demonstrate their worldview and thereby beat their internal adversaries.
+
+Whenever you see anyone opine about this conflict, on Facebook or Twitter or in an op-ed or anywhere else, keep your focus relentlessly on the question of what that person wants, of what they’d do if they had unlimited power.  If they’re a Zionist who talks about how “there’s no such place as Palestine,” how it’s a newly invented political construct: OK then, does that mean they’d relocate the 5 million self-described Palestinians to Jordan?  Or where?  If, on the other side, someone keeps talking about the “Zionist occupation,” always leaving it strategically unspecified whether they mean just the West Bank and parts of East Jerusalem or also Tel Aviv and Haifa, if they talk about the Nakba (catastrophe) of Israel’s creation in 1947 … OK then, what’s to be done with the 7 million Jews now living there?  Should they go back to the European countries that murdered their families, or the Arab countries that expelled them?  Should the US take them all?  Out with it!
+
+Don’t let them dodge the question.  Don’t let them change the subject to something they’d much rather talk about, like the details of the other side’s latest outrage.  Those details always seem so important, and yet everyone’s stance on every specific outrage is like 80% predictable if you know their desired end state.  So just keep asking directly about their desired end state.
+
+If, like me, you favor two countries living in peace, then you need never fear anyone asking you the same thing.  You can then shout your desired end state from the rooftops, leaving unsettled only the admittedly-difficult “engineering problem” of how to get there.  Crucially, whatever their disagreements or rivalries, everyone trying to solve the same engineering problem is in a certain sense part of the same team.  At least, there’s rarely any reason to kill someone trying to solve the same problem that you are.
+
+“What is this person’s ideal end state?”  Just keep asking that and there’s a limit to how wrong you can ever be about this.  You can still make factual mistakes, but it’s then almost impossible to make a moral mistake.
+
+================================================================================
+
+TITLE: Three updates
+URL: https://scottaaronson.blog/?m=202105
+CONTENT:
+
+
+================================================================================
+

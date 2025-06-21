@@ -1,0 +1,83 @@
+TITLE: Agent 3203.7: Guest post by Eliezer Yudkowsky
+URL: https://scottaaronson.blog/?m=202009
+CONTENT:
+In his day, Agent 3203.7 had stopped people from trying to kill Adolf Hitler, Richard Nixon, and even, in the case of one unusually thoughtful assassin, Henry David Thoreau. But this was a new one on him.
+
+“So…” drawled the seventh version of Agent 3203. His prosthetic hand crushed the simple 21st-century gun into fused metal and dropped it. “You traveled to the past in order to kill… of all people… Donald Trump. Care to explain why?”
+
+The time-traveller’s eyes looked wild. Crazed. Nothing unusual. “How can you ask me that? You’re a time-traveler too! You know what he does!”
+
+That was a surprising level of ignorance even for a 21st-century jumper. “Different timelines, kid. Some are pretty obscure. What the heck did Trump do in yours that’s worth taking your one shot at time travel to assassinate him of all people?”
+
+“He’s destroying my world!”
+
+Agent 3203.7 took a good look at where Donald Trump was pridefully addressing the unveiling of the Trump Taj Mahal in New Jersey, then took another good look at the errant time-traveler. “Destroying it how, exactly? Did Trump turn mad scientist in your timeline?”
+
+“He’s President of the United States!”
+
+Agent 3203.7 took another long stare at his new prisoner. He was apparently serious. “How did Trump become President in your timeline? Strangely advanced technology, subliminal messaging?”
+
+“He was elected in the usual way,” the prisoner said bitterly.
+
+Agent 3203.7 shook his head in amazement. Talk about shooting the messenger. “Kid, I doubt Trump was your timeline’s main problem.”
+
+(thanks to Eliezer for giving me permission to reprint here)
+
+================================================================================
+
+TITLE: In a world like this one, take every ally you can get
+URL: https://scottaaronson.blog/?m=202009
+CONTENT:
+Update (Sep. 17): Several people, here and elsewhere, wrote to tell me that while they completely agreed with my strategic and moral stance in this post, they think that it’s the ads of Republican Voters Against Trump, rather than the Lincoln Project, that have been most effective in changing Trump supporters’ minds.  So please consider donating to RVAT instead or in addition!  In fact, what the hell, I’ll match donations to RVAT up to $1000.
+
+
+
+For the past few months, I’ve alternated between periods of debilitating depression and (thankfully) longer stretches when I’m more-or-less able to work.  Triggers for my depressive episodes include reading social media, watching my 7-year daughter struggle with prolonged isolation, and (especially) contemplating the ongoing apocalypse in the American West, the hundreds of thousands of pointless covid deaths, and an election in 48 days that if I didn’t know such things were impossible in America would seem likely to produce a terrifying standoff as a despot and millions of his armed loyalists refuse to cede control.  Meanwhile, catalysts for my relatively functional periods have included teaching my undergrad quantum information class, Zoom calls with my students, life on Venus?!? (my guess is no, but almost entirely due to priors), learning new math (fulfilling a decades-old goal, I’m finally working my way through Paul Cohen’s celebrated proof of the independence of the Continuum Hypothesis—more about that later!).
+
+Of course, when you feel crushed by the weight of the world’s horribleness, it improves your mood to be able even just to prick the horribleness with a pin.  So I was gratified that, in response to a previous post, Shtetl-Optimized readers contributed at least $3,000, the first $2,000 of which I matched, mostly to the Biden-Harris campaign but a little to the Lincoln Project.
+
+Alas, a commenter was unhappy with the latter:
+
+Lincoln Project? Really? … Pushing the Overton window rightward during a worldwide fascist dawn isn’t good. I have trouble understanding why even extremely smart people have trouble with this sort of thing.
+
+Since this is actually important, I’d like to spend the rest of this post responding to it.
+
+For me it’s simple.
+
+What’s the goal right now?  To defeat Trump.  In the US right now, that’s the prerequisite to every other sane political goal.
+
+What will it take to achieve that goal? Turnout, energizing the base, defending the election process … but also, if possible, persuading a sliver of Trump supporters in swing states to switch sides, or at least vote third party or abstain.
+
+Who is actually effective at that goal?  Well, no one knows for sure.  But while I thought the Biden campaign had some semi-decent ads, the Lincoln Project’s best stuff seems better to me, just savagely good.
+
+Why are they effective?  The answer seems obvious: for the same reason why a jilted ex is a more dangerous foe than a stranger.  If anyone understood how to deprogram a Republican from the Trump cult, who would it be: Alexandria Ocasio-Cortez, or a fellow Republican who successfully broke from the cult?
+
+Do I agree with the Lincoln Republicans about most of the “normal” issues that Americans once argued about?  Not at all.  Do I hold them, in part, morally responsible for creating the preconditions to the current nightmare?  Certainly.
+
+And should any of that cause me to boycott them? Not in my moral universe.  If Churchill and FDR could team up with Stalin, then surely we in the Resistance can temporarily ally ourselves with the rare Republicans who chose their stated principles over power when tested—their very rarity attesting to the nontriviality of their choice.
+
+To my mind, turning one’s back on would-be allies, in a conflict whose stakes obviously overshadow what’s bad about those allies, is simultaneously one of the dumbest and the ugliest things that human beings can do.  It abandons reason for moral purity and ends up achieving neither.
+
+================================================================================
+
+TITLE: My Utility+ podcast with Matthew Putman
+URL: https://scottaaronson.blog/?m=202009
+CONTENT:
+Another Update (Sep. 15): Sorry for the long delay; new post coming soon!  To tide you over—or just to distract you from the darkness figuratively and literally engulfing our civilization—here’s a Fortune article about today’s announcement by IBM of its plans for the next few years in superconducting quantum computing, with some remarks from yours truly.
+
+Another Update (Sep. 8): A reader wrote to let me know about a fundraiser for Denys Smirnov, a 2015 IMO gold medalist from Ukraine who needs an expensive bone marrow transplant to survive Hodgkin’s lymphoma.  I just donated and I hope you’ll consider it too!
+
+Update (Sep. 5): Here’s another quantum computing podcast I did, “Dunc Tank” with Duncan Gammie.  Enjoy!
+
+Thanks so much to Shtetl-Optimized readers, so far we’ve raised $1,371 for the Biden-Harris campaign and $225 for the Lincoln Project, which I intend to match for $3,192 total.  If you’d like to donate by tonight (Thursday night), there’s still $404 to go!
+
+Thanks so much to Shtetl-Optimized readers, so far we’ve raised $1,371 for the Biden-Harris campaign and $225 for the Lincoln Project, which I intend to match for $3,192 total.  If you’d like to donate by tonight (Thursday night), there’s still $404 to go!
+
+Meanwhile, a mere three days after declaring my “new motto,” I’ve come up with a new new motto for this blog, hopefully a more cheerful one:
+
+When civilization seems on the brink of collapse, sometimes there’s nothing left to talk about but maximal separations between randomized and quantum query complexity.
+
+On that note, please enjoy my new one-hour podcast on Spotify (if that link doesn’t work, try this one) with Matthew Putman of Utility+.  Alas, my umming and ahhing were more frequent than I now aim for, but that’s partly compensated for by Matthew’s excellent decision to speed up the audio.  This was an unusually wide-ranging interview, covering everything from SlateStarCodex to quantum gravity to interdisciplinary conferences to the challenges of teaching quantum computing to 7-year-olds.  I hope you like it!
+
+================================================================================
+

@@ -1,0 +1,117 @@
+TITLE: Postdocs wanted!
+URL: https://scottaaronson.blog/?m=202312
+CONTENT:
+David Soloveichik, my friend and colleague in UT Austin’s Electrical and Computer Engineering department, and I are looking to hire a joint postdoc in “Unconventional Computing,” broadly defined.  Areas of interest include but are not limited to:
+
+(1) quantum computation,(2) thermodynamics of computation and reversible computation,(3) analog computation, and(4) chemical computation.
+
+The ideal candidate would have broad multi-disciplinary interests in addition to prior experience and publications in at least one of these areas. The researcher will work closely with David and myself but is expected to be highly self-motivated. To apply, please send an email to david.soloveichik@utexas.edu and aaronson@cs.utexas.edu with the subject line “quantum postdoc application.”  Please include a CV and links to three representative publications.  Let’s set a deadline of January 20th.  We’ll be back in touch if we need recommendation letters.
+
+My wife Dana Moshkovitz Aaronson and my friend and colleague David Zuckerman are also looking for a joint postdoc at UT Austin, to work on pseudorandomness and related topics.  They’re asking for applications by January 16th.  Click here for more information.
+
+================================================================================
+
+TITLE: Rowena He
+URL: https://scottaaronson.blog/?m=202312
+CONTENT:
+This fall, I’m honored to have made a new friend: the noted Chinese dissident scholar Rowena He, currently a Research Fellow at the Civitas Institute at UT Austin, and formerly of Harvard, the Institute for Advanced Study at Princeton, the National Humanities Center, and other fine places.  I was connected to Rowena by the Harvard computer scientist Harry Lewis.
+
+But let’s cut to the chase, as Rowena tends to do in every conversation.  As a teenage girl in Guangdong, Rowena eagerly participated in the pro-democracy protests of 1989, the ones that tragically culminated in the Tiananmen Square massacre.  Since then, she’s devoted her life to documenting and preserving the memory of what happened, fighting its deliberate erasure from the consciousness of future generations of Chinese.  You can read some of her efforts in her first book, Tiananmen Exiles: Voices of the Struggle for Democracy in China (one of the Asia Society’s top 5 China books of 2014).  She’s now spending her time at UT writing a second book.
+
+Unsurprisingly, Rowena’s life’s project has not (to put it mildly) sat well with the Chinese authorities.  From 2019, she had a history professorship at the Chinese University of Hong Kong, where she could be close to her research material and to those who needed to hear her message—and where she was involved in the pro-democracy protests that convulsed Hong Kong that year.  Alas, you might remember the grim outcome of those protests.  Following Hong Kong’s authoritarian takeover, in October of this year, Rowena was denied a visa to return to Hong Kong, and then fired from CUHK because she’d been denied a visa—events that were covered fairly widely in the press.  Learning about the downfall of academic freedom in Hong Kong was particularly poignant for me, given that I lived in Hong Kong when I was 13 years old, in some of the last years before the handover to China (1994-1995), and my family knew many people there who were trying to get out—to Canada, Australia, anywhere—correctly fearing what eventually came to pass.
+
+But this is all still relatively dry information that wouldn’t have prepared me for the experience of meeting Rowena in person.  Probably more than anyone else I’ve had occasion to meet, Rowena is basically the living embodiment of what it means to sacrifice everything for abstract ideals of freedom and justice.  Many academics posture that way; to spend a couple hours with Rowena is to understand the real deal.  You can talk to her about trivialities—food, work habits, how she’s settling in Austin—and she’ll answer, but before too long, the emotion will rise in her voice and she’ll be back to telling you how the protesting students didn’t want to overthrow the Chinese government, but only help to improve it.  As if you, too, were a CCP bureaucrat who might imprison her if the truth turned out otherwise.  Or she’ll talk about how, when she was depressed, only the faces of the students in Hong Kong who crowded her lecture gave her the will to keep living; or about what she learned by reading the letters that Lin Zhao, a dissident from Maoism, wrote in blood in Chinese jail before she was executed.
+
+This post has a practical purpose.  Since her exile from China, Rowena has spent basically her entire life moving from place to place, with no permanent position and no financial security.  In the US—a huge country full of people who share Rowena’s goal of exposing the lies of the CCP—there must be an excellent university, think tank, or institute that would offer a permanent position to possibly the world’s preeminent historian of Tiananmen and of the Chinese democracy movement.  Though the readership of this blog is heavily skewed toward STEM, maybe that institute is yours.  If it is, please get in touch with Rowena.  And then I could say this blog had served a useful purpose, even if everything else I wrote for two decades was for naught.
+
+================================================================================
+
+TITLE: On being wrong about AI
+URL: https://scottaaronson.blog/?m=202312
+CONTENT:
+Update (Dec. 17): Some of you might enjoy a 3-hour podcast I recently did with Lawrence Krauss, which was uploaded to YouTube just yesterday.  The first hour is about my life and especially childhood (!); the second hour’s about quantum computing; the third hour’s about computational complexity, computability, and AI safety.
+
+I’m being attacked on Twitter for … no, none of the things you think.  This time it’s some rationalist AI doomers, ridiculing me for a podcast I did with Eliezer Yudkowsky way back in 2009, one that I knew even then was a piss-poor performance on my part.  The rationalists are reminding the world that I said back then that, while I knew of no principle to rule out superhuman AI, I was radically uncertain of how long it would take—my “uncertainty was in the exponent,” as I put it—and that for all I knew, it was plausibly thousands of years.  When Eliezer expressed incredulity, I doubled down on the statement.
+
+I was wrong, of course, not to contemplate more seriously the prospect that AI might enter a civilization-altering trajectory, not merely eventually but within the next decade.  In this case, I don’t need to be reminded about my wrongness.  I go over it every day, asking myself what I should have done differently.
+
+If I were to mount a defense of my past self, it would look something like this:
+
+Having failed to foresee the generative AI revolution a decade ago, how should I fix myself?  Emotionally, I want to become even more radically uncertain.  If fate is a terrifying monster, which will leap at me with bared fangs the instant I venture any guess, perhaps I should curl into a ball and say nothing about the future, except that the laws of math and physics will probably continue to hold, there will still be war between Israel and Palestine, and people online will still be angry at each other and at me.
+
+But here’s the problem: in saying “for all I know, human-level AI might take thousands of years,” I thought I was being radically uncertain already.  I was explaining that there was no trend you could knowably, reliably project into the future such that you’d end up with human-level AI by roughly such-and-such time.  And in a sense, I was right.  The trouble, with hindsight, was that I placed the burden of proof only on those saying a dramatic change would happen, not on those saying it wouldn’t.  Note that this is the same mistake most of the world made with COVID in early 2020.
+
+I would sum up the lesson thus: one must never use radical ignorance as an excuse to default, in practice, to the guess that everything will stay basically the same.  Live long enough, and you see that year to year and decade to decade, everything doesn’t stay the same, even though most days and weeks it seems to.
+
+The hard part is that, as soon as you venture a particular way in which the world might radically change—for example, that a bat virus spreading in Wuhan might shut down civilization, or Hamas might attempt a second Holocaust while the vaunted IDF is missing in action and half the world cheers Hamas, or a gangster-like TV personality might threaten American democracy more severely than did the Civil War, or a neural network trained on all the text on the Internet might straightaway start conversing more intelligently than most humans—say that all the prerequisites for one of these events seem to be in place, and you’ll face, not merely disagreement, but ridicule.  You’ll face serenely self-confident people who call the entire existing order of the world as witness to your wrongness.  That’s the part that stings.
+
+Perhaps the wisest course for me would be to admit that I’m not and have never been a prognosticator, Bayesian or otherwise—and then stay consistent in my refusal, rather than constantly getting talked into making predictions that I’ll later regret.  I should say: I’m just someone who likes to draw conclusions validly from premises, and explore ideas, and clarify possible scenarios, and rage against obvious injustices, and not have people hate me (although I usually fail at the last).
+
+The rationalist AI doomers also dislike that, in their understanding, I recently expressed a “p(doom)” (i.e., a probability of superintelligent AI destroying all humans) of “merely” 2%.  The doomers’ probabilities, by contrast, tend to range between 10% and 95%—that’s why they’re called “doomers”!
+
+In case you’re wondering, I arrived at my 2% figure via a rigorous Bayesian methodology, of taking the geometric mean of what my rationalist friends might consider to be sane (~50%) and what all my other friends might consider to be sane (~0.1% if you got them to entertain the question at all?), thereby ensuring that both camps would sneer at me equally.
+
+If you read my post, though, the main thing that interested me was not to give a number, but just to unsettle people’s confidence that they even understand what should count as “AI doom.”  As I put it last week on the other Scott’s blog:
+
+To set the record straight: I once gave a ~2% probability for the classic AGI-doom paperclip-maximizer-like scenario. I have a much higher probability for an existential catastrophe in which AI is causally involved in one way or another — there are many possible existential catastrophes (nuclear war, pandemics, runaway climate change…), and many bad people who would cause or fail to prevent them, and I expect AI will soon be involved in just about everything people do! But making a firm prediction would require hashing out what it means for AI to play a “critical causal role” in the catastrophe — for example, did Facebook play a “critical causal role” in Trump’s victory in 2016? I’d say it’s still not obvious, but in any case, Facebook was far from the only factor.
+
+This is not a minor point.  That AI will be a central force shaping our lives now seems certain.  Our new, changed world will have many dangers, among them that all humans might die.  Then again, human extinction has already been on the table since at least 1945, and outside the “paperclip maximizer”—which strikes me as just one class of scenario among many—AI will presumably be far from the only force shaping the world, and chains of historical causation will still presumably be complicated even when they pass through AIs.
+
+I have a dark vision of humanity’s final day, with the Internet (or whatever succeeds it) full of thinkpieces like:
+
+Here’s what I want to know in the comments section.  Did you foresee the current generative AI boom, say back in 2010?  If you did, what was your secret?  If you didn’t, how (if at all) do you now feel you should’ve been thinking differently?  Feel free also to give your p(doom), under any definition of the concept, so long as you clarify which one.
+
+================================================================================
+
+TITLE: Weird but cavity-free
+URL: https://scottaaronson.blog/?m=202312
+CONTENT:
+Over at Astral Codex Ten, the other Scott A. blogs in detail about a genetically engineered mouth bacterium that metabolizes sugar into alcohol rather than acid, thereby (assuming it works as intended) ending dental cavities forever.  Despite good results in trials with hundreds of people, this bacterium has spent decades in FDA approval hell.  It’s in the news because Lantern Bioworks, a startup founded by rationalists, is now trying again to legalize it.
+
+Just another weird idea that will never see the light of day, I’d think … if I didn’t have these bacteria in my mouth right now.
+
+Here’s how it happened: I’d read earlier about these bacteria, and was venting to a rationalist of my acquaintance about the blankfaces who keep that and a thousand other medical advances from ever reaching the public, and who sleep soundly at night, congratulating themselves for their rigor in enforcing nonsensical rules.
+
+“Are you serious?” the rationalist asked me. “I know the people in Berkeley who can get you into the clinical trial for this.”
+
+This was my moment of decision.  If I agreed to put unapproved bacteria into my mouth on my next trip to Berkeley, I could live my beliefs and possibly never get cavities again … but on the other hand, friends and colleagues would think I was weird when I told them.
+
+Then again, I mused, four years ago most people would think you were weird if you said that a pneumonia spreading at a seafood market in Wuhan was about to ignite a global pandemic, and also that chatbots were about to go from ELIZA-like jokes to the technological powerhouses transforming civilization.
+
+And so it was that I found myself brushing a salty, milky-white substance onto my teeth. That was last month. I … haven’t had any cavities since, for what it’s worth? Nor have I felt drunk, despite the ever-so-slightly elaevated ethanol in my system. Then again, I’m not even 100% sure that the bacteria took, given that (I confess) the germy substance strongly triggered my gag reflex.
+
+Anyway, read other Scott’s post, and then ask yourself: will you try this, once you can? If not, is it just because it seems too weird?
+
+Update: See a Hacker News thread where the merits of this new treatment are debated.
+
+================================================================================
+
+TITLE: Staggering toward quantum fault-tolerance
+URL: https://scottaaronson.blog/?m=202312
+CONTENT:
+Happy Hanukkah!  I’m returning to Austin from a Bay Area trip that included the annual Q2B (Quantum 2 Business) conference.  This year, for the first time, I opened the conference, with a talk on “The Future of Quantum Supremacy Experiments,” rather than closing it with my usual ask-me-anything session.
+
+The biggest talk at Q2B this year was yesterday’s announcement, by a Harvard/MIT/QuEra team led by Misha Lukin and Vlad Vuletic, to have demonstrated “useful” quantum error-correction, for some definition of “useful,” in neutral atoms (see here for the Nature paper).  To drill down a bit into what they did:
+
+Here are what I currently understand to be the limitations of the work:
+
+As always, experts are strongly urged to correct anything I got wrong.
+
+I should mention that this might not be the first experiment to get a net gain from the use of a quantum error-correcting code: Google might or might not have gotten one in an experiment that they reported in a Nature paper from February of this year (for discussion, see a comment by Robin).  In any case, though, the Google experiment just encoded the qubits and measured them, rather than applying hundreds of logical gates to the encoded qubits.  Quantinuum also previously reported an experiment that at any rate got very close to net gain (again see the comments for discussion).
+
+Assuming the result stands, I think it’s plausibly the top experimental quantum computing advance of 2023 (coming in just under the deadline!).  We clearly still have a long way to go until “actually useful” fault-tolerant QC, which might require thousands of logical qubits and millions of logical gates.  But this is already beyond what I expected to be done this year, and (to use the AI doomers’ lingo) it “moves my timelines forward” for quantum fault-tolerance.  It should now be possible, among other milestones, to perform the first demonstrations of Shor’s factoring algorithm with logically encoded qubits (though still to factor tiny numbers, of course).  I’m slightly curious to see how Gil Kalai and the other quantum computing skeptics wiggle their way out now, though I’m absolutely certain they’ll find a way!  Anyway, huge congratulations to the Harvard/MIT/QuEra team for their achievement.
+
+In other QC news, IBM got a lot of press for announcing a 1000-qubit superconducting chip a few days ago, although I don’t yet know what two-qubit gate fidelities they’re able to achieve.  Anyone with more details is encouraged to chime in.
+
+Yes, I’m well-aware that 60 Minutes recently ran a segment on quantum computing, featuring the often-in-error-but-never-in-doubt Michio Kaku.  I wasn’t planning to watch it unless events force me to.
+
+Do any of you have strong opinions on whether, once my current contract with OpenAI is over, I should focus my research efforts more on quantum computing or on AI safety?
+
+On the one hand: I’m now completely convinced that AI will transform civilization and daily life in a much deeper way and on a shorter timescale than QC will — and that’s assuming full fault-tolerant QCs eventually get built, which I’m actually somewhat optimistic about (a bit more than I was last week!). I’d like to contribute if I can to helping the transition to an AI-centric world go well for humanity.
+
+On the other hand: in quantum computing, I feel like I’ve somehow been able to correct the factual misconceptions of 99.99999% of people, and this is a central source of self-confidence about the value I can contribute to the world. In AI, by contrast, I feel like at least a thousand times more people understand everything I do, and this causes serious self-doubt about the value and uniqueness of whatever I can contribute.
+
+Update (Dec. 8): A different talk on the Harvard/MIT/QuEra work—not the one I missed at Q2B—is now on YouTube.
+
+================================================================================
+

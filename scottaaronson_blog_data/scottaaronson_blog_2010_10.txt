@@ -1,0 +1,114 @@
+TITLE: Research projects in quantum complexity theory
+URL: https://scottaaronson.blog/?m=201010
+CONTENT:
+Today I’m in College Park, Maryland, for a fun quantum information workshop.  I just came from Las Vegas, where I was at FOCS 2010, appropriately held at the Monte Carlo.  (Don’t tell anyone, but I also skipped out on part of the conference for a helicopter tour of the Grand Canyon.)
+
+However, while I’ll be happy to answer questions about either of those conferences (or about the Grand Canyon, I guess), the rest of this post won’t be about them.  Instead, it will be about some relatively approachable-looking open problems in quantum complexity theory: basically, the problems that I’d be tackling today if I were a bright-eyed grad student instead of a senile, over-the-hill 29-year-old.
+
+The inspiration for this open problems list came from the graduate course I’m currently teaching on Quantum Complexity Theory.  Just like when I taught this class two years ago, I’m asking every student to complete a term project, either individually or in groups of two.  Here’s the thing: assigning student projects in theoretical computer science turns out to be damn hard.  Even if you make it clear that a literature survey is fine, many of the students admirably want to do something original.  But how do you come up with a theory problem that
+
+(a) hasn’t been solved, and
+
+(b) can be solved by someone who’s just learning the material, with a high probability of success, in 1-2 months?
+
+And thus it is that I present my sort-of updated version of my Ten Semi-Grand Challenges for Quantum Computing Theory.  Despite the original motivation, most of these problems are probably too hard for a student term project—but all of them, I think, have term-project-sized chunks that could be ripped off.  The new challenges list makes no claim whatsoever of comprehensiveness, and is heavily skewed toward problems that I, personally, have worked on.
+
+Without further ado, and organized into seven topics, starting with the one closest to my heart:
+
+Quantum Query Complexity
+
+Can we use Reichardt’s breakthrough characterization of quantum query complexity by span programs and the negative-weight adversary method to obtain new results on quantum query complexity for concrete problems?
+
+In the quantum black-box model, if we relax the assumption that the linear transformations are unitary, and merely require that, for every Boolean input x, the sum of the squares of the “amplitudes” of the accept states is a probability (i.e., belongs to [0,1]), do we ever get an asymptotically smaller query complexity?  What about an exponentially smaller query complexity?
+
+Given a quantum algorithm that makes T queries, can we approximate its acceptance probability on most Boolean inputs using a classical algorithm that makes poly(T) queries?  (See here for more.)
+
+Are randomized and quantum query complexities polynomially related for all functions f(x1,…,xn) that are invariant under permuting the indices 1,…,n (for example, the Collision and Element Distinctness functions)?  (In previous work with Ambainis, we showed randomized and quantum query complexities are polynomially related for all functions that are invariant under permuting both the indices and the values of x1,…,xn.)
+
+Can every quantum algorithm that makes k queries to an n-bit string, be simulated by a randomized algorithm that makes n1-1/2k queries?  Does the k-fold generalization of the Fourier Checking problem provide an example for which this conjectured bound is tight?
+
+Let f be a black-box function, which is promised to be either 1-to-1 or 2-to-1.  Is there a polylog(n)-qubit quantum proof that f is 1-to-1, which can be verified using polylog(n) quantum queries to f?  (If not, then we get an oracle relative to which SZK is not in QMA.)
+
+Let f be a black-box function, which is promised either to satisfy the Simon promise or to be one-to-one.  Can a prover with the power of BQP convince a BPP verifier that f is one-to-one?
+
+Cryptography
+
+Are there interesting functionalities, besides point functions, that can be quantumly copy-protected?
+
+Can we give classical oracles relative to which publicly-verifiable quantum money and copy-protected quantum software are possible?
+
+Is the GGM construction of pseudorandom functions from pseudorandom generators secure even against quantum adversaries?  If not, can we give an analogous construction that’s secure?
+
+Intermediate Possibilities Between BPP And BQP
+
+Is it true that every set of unitary quantum gates (acting on qubits) is either universal for quantum computation, or else simulable in classical polynomial time?
+
+If a quantum computer is in a tree state at every time step, does it follow that the computer can be simulated in classical polynomial time (i.e., in BPP)?
+
+If a quantum computer is in a separable mixed state at every time step, does it follow that the computer can be simulated in classical polynomial time?
+
+Postselection
+
+Can we take any quantum computational model that allows adaptive measurements, and simulate it by a model that allows postselected measurements instead?
+
+What are the “weakest” models of quantum computation that yield all of PostBQP when combined with postselection on measurement outcomes?
+
+Communication Complexity
+
+In the Group Membership Problem, there is a finite group G known to both Alice and Bob.  Alice is given a subgroup H of G,  Bob is given an element x of G, and the problem is for Bob to decide whether x is in H.  What is the randomized one-way communication complexity of GM?  Can we prove a lower-bound better than the trivial log|G|, thereby separating randomized and quantum one-way communication complexities for a total Boolean function?
+
+Are the randomized and quantum one-way communication complexities polynomially related for every total Boolean function f?  What about the randomized and quantum two-way communication complexities?
+
+QMA(2)
+
+Is QMA(2) contained in EXP?  To put it differently: let V be a two-outcome measurement, which acts on the tensor product of two n-dimensional Hilbert spaces. Is there a quasipolynomial-time classical algorithm that approximates max|ψ>[V accepts |ψ>2] to constant additive error?
+
+Is QMA(2) with real amplitudes the same thing as QMA(2) with complex amplitudes?
+
+Quantum Computing With Locality Constraints
+
+Let G be a graph with n vertices, and let U be an nxn unitary matrix with the property that uij≠0 only if (i,j) is an edge of G.  Then how efficiently can we represent (or approximate) U as a product of unitaries that are “local” with respect to G?  This is a vague question, but see my paper with Ambainis for ways of making it precise.
+
+Given n bits arranged in a √nx√n square grid, suppose we want to know whether every row contains at least one ‘1’ bit.  Can we do this using an ~O(√n) quantum algorithm that is “local” in the sense defined by myself and Ambainis?  Can we beat the trivial upper bound of n3/4?
+
+================================================================================
+
+TITLE: The Aaronson Postdoctoral Fellowship
+URL: https://scottaaronson.blog/?m=201010
+CONTENT:
+So, I’ve decided to simultaneously do something positive for theoretical computer science, stimulate BQPology research at MIT, and solve the “problem” of having too much grant money by hiring a postdoc.  The main area of interest for this postdoc is quantum complexity theory, but I’ll also consider outstanding applicants of a more classical bent—in fact, the ideal applicant is someone equally excited to tackle meaty open problems in quantum complexity, classical complexity, or any combination of the two.  As a postdoc here, you’ll collaborate (I hope) with me and my PhD students, but you’ll also have plenty of opportunities for interaction with the other quantum computing theory folks at MIT (Peter Shor, Ed Farhi, Seth Lloyd…), as well as the other computational complexity folks (too many to list).  This postdoc is for one year, with the expectation of a renewal for a second year.
+
+If you’re interested, email your CV, a link to your homepage, and what you consider your top 3 or 4 publications to aaronson@csail.mit.edu, and also arrange to have 3 rec letters emailed to me.  Feel free to apply even if you previously applied for other postdocs at MIT: this is a new opportunity that’s somewhat different from previous ones.  The application deadline is, shall we say, December 1st?  Let me know if you have any questions.
+
+Finally, while I was tempted to make “reading Shtetl-Optimized” an effective prerequisite for the postdoc, feel free to distribute this call for applications more widely.
+
+
+
+================================================================================
+
+TITLE: The converse of smoothed analysis
+URL: https://scottaaronson.blog/?m=201010
+CONTENT:
+A year ago, Timothy Gowers posted the following beautiful question to MathOverflow:
+
+Are there any interesting examples of random NP-complete problems?
+Here’s an example of the kind of thing I mean. Let’s  consider a random instance of 3-SAT, where you choose enough clauses for  the formula to be almost certainly unsatisfiable, but not too many more  than that. So now you have a smallish random formula that is  unsatisfiable.
+
+Given that formula, you can then ask, for any subset of its clauses,  whether that subset gives you a satisfiable formula. That is a random  (because it depends on the original random collection of clauses)  problem in NP. It also looks as though it ought to be pretty hard. But  proving that it is usually NP-complete also seems to be hard, because  you don’t have the usual freedom to simulate.
+
+So my question is whether there are any results known that say that  some randomized problem is NP-complete. (One can invent silly artificial  examples like having a randomized part that has no effect on the  problem — hence the word “interesting” in the question.)
+
+On skimming this question, my first thought was: “aha, he’s obviously groping toward the well-studied notion of average-case complexity!  Let me generously enlighten him.”  But no, it turns out he wasn’t asking about average-case complexity, but about something different and novel.  Namely, the random generation of computational problems consisting of exponentially many instances, for which we’re then interested in the worst-case instance.  When I explained to Gil Kalai what Gowers wanted, Gil amusingly described it as the “converse of smoothed analysis.”  In smoothed analysis—one of many contributions for which Dan Spielman recently won the Nevanlinna Prize—we start with a worst-case instance of a problem (such as linear programming), then perturb the instance by adding some random noise.  Gowers wants to do the opposite: start from a random instance and then perform a “worst-case perturbation” of it.  (The closest existing notions I could think of were trapdoor one-way functions and other primitives in cryptography, which involve the random generation of a computational problem that’s then supposed to be hard on average.)
+
+Anyway, I tossed the question onto my stack of “questions that could develop into whole new branches of theoretical computer science, if someone felt like developing them,” and pretty much forgot about it.  Then, at  dinner last night, I posed the question to Allan Sly, who’s visiting MIT to talk about his exciting new FOCS paper Computational transition at the uniqueness threshold.  Within an hour, Allan had emailed me a sketch of an NP-hardness proof for the “random 3SAT” problem that Gowers asked about.  I repost Allan’s solution here with his kind permission.
+
+Group the n variables into N=nε groups of size n1-ε,  M1,…MN arbitrarily.  For each group Mi take all the clauses with  all 3 variables in Mi such that it satisfies both the all 1 and the all  0 assignments i.e. clauses that have either 1 or 2 variables negated.   I think that just a first moment estimate should show that with high  probability the only assignments on Mi that satisfies all of these clauses should be the all 1 assignment or the all 0 assignment – other assignments are just too unlikely.  So in taking these clauses we reduce to the case where we have constant values on each of the groups.
+
+Once you have these clauses you can then treat each group as a new variable and can construct any SAT assignment on these new variables.   Because now you only need to find a clause with 1 variable in each Mi,  Mj, Mk for each (i,j,k) ∈ [N]3 that has the right negations.  With high probability all of them should exist so you should be able to make  whatever SAT assignment on the N variables you want.
+
+My back of the envelope calculation then suggests that as long as you have n1+ε random clauses to  begin with then this should be enough.
+
+It’s not hard to see that Allan’s solution generalizes to 3-COLORING and other constraint satisfaction problems (maybe even all NP-complete CSPs?).  In retrospect, of course, the solution is embarrassingly simple, but one could easily generate other problems in the same vein for which proving NP-hardness was as nontrivial as you wanted it to be.  Further development of this new branch of theoretical computer science, as well as coming up with a catchy name for it, are left as exercises for the reader.
+
+================================================================================
+

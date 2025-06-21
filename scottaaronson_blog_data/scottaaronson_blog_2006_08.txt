@@ -1,0 +1,145 @@
+TITLE: Bananas
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+In the wake of my very public relativity humiliation, I’ve decided to sentence myself to a one-month punishment term of only blogging about things that I actually understand.  That means, unfortunately, that from now until September 27 this blog is going to be quite boring and limited in scope.  It also means that Lev R.’s prizewinning question, about the survival prospects of the human race, will need to be deferred until after the punishment term.
+
+To be clear: No string theory.  No global warming.  No biting vaginas.  No Mahmoud.  Quantum complexity classes are probably kosher.
+
+The remainder of today’s entry will be about the topic of bananas.  Bananas are long, yellow fruits that grow in bunches on some sort of plant or other.  They consist of two components: the peel, and the “meat.”  Well, there are probably other components as well, but those two are the most readily identifiable.  The meat is delicious when fresh, even more so if covered with chocolate.  When not fresh, on the other hand, it tends to form brown spots.  The peel is not so good to eat, but is reputed to good for tripping dumb, careless, unwary people.  Like me.
+
+================================================================================
+
+TITLE: Why I’m not a physicist: reason #4329
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+I botched the calculation.  While I got the answer I wanted (a quadratic improvement in energy), and while I more-or-less correctly identified the reason for that answer (unintuitive properties of the relativistic velocity addition formula), I did the calculation in the rest frame of one of the particles instead of the zero-momentum rest frame, and thereby obtained a scaling of 1/sqrt(ε) versus 1/ε instead of 1/ε1/4 versus 1/sqrt(ε).   As a result, my answer flagrantly violates conservation of energy.
+
+Thanks to rrtucci and perseph0ne.  In my defense, I did call it a doofus discovery.
+
+================================================================================
+
+TITLE: Why I’m not a physicist: reason #4328
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+There’s a trivial question about particle accelerators that bugged me for a while.   Today I finally figured out the answer, and I’m so excited by my doofus “discovery” that I want to tell the world.
+
+In Ye Olde Times, accelerators used to smash particles against a fixed target.  But today’s accelerators smash one particle moving at almost the speed of light against another particle moving at almost the speed of light — that’s why they’re called particle colliders (duhhh).  Now, you’d think this trick would increase the collision energy by a constant factor, but according to the physicists, it does asymptotically better than that: it squares the energy!
+
+My question was, how could that be?  Even if both particles are moving, we can clearly imagine that one of them is stationary, since the particles’ motion with respect to the Earth is irrelevant.  So then what’s the physical difference between a particle hitting a fixed target and two moving particles hitting each other, that could possibly produce a quadratic improvement in energy?
+
+[Warning: Spoiler Ahead]
+
+The answer pops out if we consider the rule for adding velocities in special relativity.  If in our reference frame, particle 1 is headed left at a v fraction of the speed of light, while particle 2 is headed right at a w fraction of the speed of light, then in particle 1’s reference frame, particle 2 is headed right at a (v+w)/(1+vw) fraction of the speed of light.  Here 1+vw is the relativistic correction, “the thing you put in to keep the fraction less than 1.”   If v and w are both close to 0, then of course we get v+w, the Newtonian answer.
+
+Now set v=w=1-ε.  Then (v+w)/(1+vw) = 1 – ε2/(2-2ε+ε2), which scales like 1-ε2.  Aha!
+
+To finish the argument, remember that relativistic energy increases with speed like 1/sqrt(1-v2).  If we plug in v=1-ε, then we get 1/sqrt(2ε-ε2), while if we plug in v=1-ε2, then we get 1/sqrt(2ε2-ε4).  So in the case of a fixed target the energy scales like 1/sqrt(ε), while in the case of two colliding particles it scales like 1/ε.
+
+In summary, nothing’s going on here except relativistic addition of velocities.  As with Grover’s algorithm, as with the quantum Zeno effect, it’s our intuition about linear versus quadratic that once again leads us astray.
+
+================================================================================
+
+TITLE: Chasmgasm
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+The most important research question in astronomy, to judge from the news websites, is neither the nature of dark matter and energy, nor the origin of the Pioneer anomaly or gamma-ray bursts beyond the GZK cutoff, nor the possible existence of Earth-like extrasolar planets.  No, the big question is whether Pluto is “really” a planet, and if so, whether Charon and Ceres are “really” planets, and whether something has to be round to be a planet, and if so, how round.
+
+I was going to propose we bring in Wittgenstein to settle this.  But I guess the astronomers have already “ruled.”
+
+Richard Dawkins often rails against what he calls the “tyranny of the discontinuous mind.”  As far as I know, he’s not complaining about those of us who like our Hilbert spaces finite-dimensional and our quantum gravity theories discrete.  Rather, he’s complaining about those who insist on knowing, for every humanoid fossil, whether it’s “really” human or “really” an ape.  Ironically, it’s often the same people who then complain about the “embarrassing lack of transitional forms”!
+
+Can anyone suggest a word for a person obsessed with drawing firm but arbitrary lines through a real-valued parameter space?  (“Lawyer” is already taken.)  I’ve already figured out the word for a debate about such lines, like the one we saw in Prague: chasmgasm.
+
+================================================================================
+
+TITLE: A far-off dream: automating a problem in P
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+In a comment on my last post, Bram Cohen writes:
+
+This whole business of ‘formality’ and ‘review’ is really kind of dumb. A mathematical theorem is only really proven when a computer can verify the proof. Until then, it’s just hand-waving which has some degree of utility when generating a real proof.
+
+Were it standard to present proofs in computer-checkable form, there would be no review process at all. In fact it would be possible to send a proof to a theorem server which would automatically accept any proof which checked out. Had Perelman submitted to one of those, we wouldn’t have had any review process at all, and had complete confidence from day 1, and there wouldn’t be any of this stupid game of who really proved it by making the arguments sufficiently ‘formal’ or ‘detailed’.
+
+I view the switch to doing mathematics in the style just described as inevitable…
+
+Like Bram, I also hope and expect that mathematicians will eventually switch to machine-readable proofs supplemented by human-readable explanations.  That would certainly beat the current standard, proofs that are readable by neither machines nor humans.
+
+So then why hasn’t it happened already? Probably the best way to answer this question is to show you the proof, in a state-of-the-art formal verification system called HOL Light, that the square root of 2 is irrational.
+
+Cool — now let’s do Fermat and Poincaré!  Any volunteers?
+
+Seriously, the biggest accomplishments to date have included formal proofs of the Jordan Curve Theorem (75,000 lines) and the Prime Number Theorem (30,000 lines).  If you want to know which other famous theorems have been formalized, check out this excellent page.  Or look at these notes by Harvey Friedman, which cut through the crap and tell us exactly where things stand.
+
+A huge part of the problem in this field seems to be that there’s neither a standard proof format nor a standard proof repository — no TeX or HTML, no arXiv or Wikipedia.   Besides HOL Light, there’s also ProofPower, Isabelle, Coq, Mizar, and several other competitors.  I’d probably go with Mizar, simply because the proofs in it look the most to me like actual math.
+
+Friedman gives machine-readable proofs fifty years to catch on among “real” mathematicians.  That seems about right — though the time could be reduced if the Don Knuth, Tim Berners-Lee, Paul Ginsparg, or Jimmy Wales of proof-checking were to appear between now and then.  As usual, it mostly comes down to humans.
+
+Update: Freek Wiedijk put together a fantastic online book, which shows the proofs that the square root of 2 is irrational in 17 different formal systems.  The “QED Manifesto” is also worth a look.  This manifesto makes it clear that there are people in the formal verification world with a broad enough vision — if you like, the Ted Nelsons of proof-checking.  Nelson is the guy who dreamed in 1960 of creating a global hypertext network.  In his case, it took 35 years for the dream to turn into software and protocols that people actually wanted to use (not that Nelson himself is at all happy with the result).  How long will it take in the case of proof-checking?
+
+================================================================================
+
+TITLE: Fruitcake fields
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+So, this year’s Fields Medals go to Terence Tao and Grisha Perelman (duhhhh), as well as to Andrei Okounkov and Wendelin Werner.  The Nevanlinna Prize goes to an already-prize-bedecked Jon Kleinberg, my professor at Cornell way back in ’97.  Congratulations to all!
+
+Meanwhile, there’s a long article in yesterday’s New Yorker about Perelman and the Poincaré conjecture, by Sylvia Nasar (the media’s go-to person for reclusive mathematical geniuses) and David Gruber.  Unfortunately the article’s not on the web, but fearless detective that I am, I was able to track it down in a so-called “bookstore.”
+
+Nasar and Gruber find Perelman in a St. Petersburg apartment, where he lives with his mom, doesn’t check his mail, and just generally makes Andrew Wiles look like a hard-partying, elliptic-curve-modularizing regular dude.  Perelman is nevertheless happy to grant Nasar and Gruber an interview, to confirm that he intends to be the first person in history to turn down the Fields, and to complain about his fellow mathematicians’ lax ethical standards.
+
+What exactly is he talking about?  It wasn’t clear to me, but Nasar and Gruber devote much of their article to an indictment of 1982 Fields Medalist Shing-Tung Yau, who they portray as trying to usurp credit from Perelman for the benefit of his students Xi-Ping Zhu and Huai-Dong Cao.  (Zhu and Cao wrote a 328-page exposition of Perelman’s ideas, complementing other expositions by Bruce Kleiner and John Lott and by John Morgan and Gang Tian.)  I have no idea to what extent, if any, the criticism of Yau is justified.  But to my mind, failing to write up your result properly, and then getting upset when those who do write it up properly try to share credit, is a bit like leaving your wallet on the sidewalk and then shaking your head at human depravity when someone tries to steal it.
+
+Nasar and Gruber also don’t comment on the obvious irony of Perelman’s “unworldliness”: that, by being such a fruitcake, he’s guaranteeing he’ll draw vastly more attention to himself than he would by just accepting the goddamned medal.  (Feynman, though not exactly publicity-shy, employed similar reasoning to conclude that turning down the Nobel Prize would be a bad idea.)  Indeed, supposing Perelman did aspire to celebrity status, my public-relations advice to him would be to do exactly what he’s doing right now.
+
+Update: The New Yorker article is now online.
+
+================================================================================
+
+TITLE: Low-hanging fruit from two conjoined trees
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+Alright, I can give an oracle relative to which BQP is not in SZK, thereby knocking off one of the Ten Most Annoying Questions in Quantum Computing.
+
+It’s a forehead-slapper.  Just take the problem from the paper Exponential algorithmic speedup by quantum walk by Andrew Childs et al. Here the oracle encodes an exponentially large graph, consisting of two binary trees conjoined at the leaves by a random cycle:
+
+(I hope Childs et al. will forgive me for swiping their graphic.)
+
+Each vertex is labeled by a random string, and given the label of a vertex, the oracle tells us the labels of its neighbors.  Then, given the label of the Entrance vertex, the problem is to decide (let’s say) whether the label of the Exit vertex starts with a 1 or a 0.
+
+Childs et al. proved that this oracle problem is in BQP but not in BPP.  Intuitively, any classical random walk on the graph will get stuck for an exponentially long time in the enormous middle region, but because of interference effects, a quantum walk will tunnel right through to the Exit vertex with 1/polynomial probability.
+
+Now, it’s easy to generalize their proof that the problem is not in BPP, to show that it’s not in SZK.  One way to see this is that, for a prover to convince a verifier of the solution, the prover will (basically) have to reveal where the Exit vertex is, thereby violating the zero-knowledge property.  Another way to see it is that, if we consider the Sahai-Vadhan characterization of SZK in terms of the Statistical Difference problem, then neither of the two distributions we’re comparing will depend non-negligibly on the Exit vertex.
+
+Disappointingly, this solution is way too trivial to publish, and almost too trivial even to blog.  On the other hand, so far I’ve been unable to extend the solution to get an oracle relative to which BQP is not in AM.  Every variant of the problem I’ve come up with is in AM intersect coAM, sometimes for non-obvious reasons.  Anyone want to help me?
+
+================================================================================
+
+TITLE: Pipin’-hot learnin’ theorems
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+I’ve decided to “launch” my latest paper on the blogosphere even before posting it to quant-ph — so that you, my loyal readers, can be the very first to lay eyes on it.  (True fact: as I was writing, I didn’t look once at the screen.)  Comments more than welcome.
+
+The Learnability of Quantum States [PS] [PDF]
+Scott Aaronson
+
+Abstract: Let me warn you up-front, this is one big-ass mother of a paper.  It’s got learning.  It’s got quantum.  It’s got philosophy.  It’s got weird complexity classes (naturally).  It’s even got experimental physics applications (don’t worry, I showered afterward).  And dude.  When I say “experimental,” I’m not talking wormholes or anthropic postselection.  I’m talking stuff that you, the quantum state tomographer, can try in your lab today.  And no, this is not the real abstract.
+
+Update (8/20): I’ve posted a slightly revised version, mostly in response to the comments I received here.
+
+================================================================================
+
+TITLE: The ten most annoying questions in quantum computing
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+
+
+================================================================================
+
+TITLE: Is it possible to write a competent newspaper article about math?
+URL: https://scottaaronson.blog/?m=200608
+CONTENT:
+Yes.
+
+================================================================================
+

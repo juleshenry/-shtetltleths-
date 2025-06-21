@@ -1,0 +1,147 @@
+TITLE: The winner
+URL: https://scottaaronson.blog/?m=200512
+CONTENT:
+Alright, we had 35 submissions for the Best Umeshism Contest, of which 23 were eligible (i.e., had a name and were posted by the deadline).  After lengthy deliberation, the Shtetl-Optimized Executive Committee is pleased to announce a winner.  But first, the runners-up:
+
+If you’ve never broken the bed, you’re not experimenting enough. –Miss HT Psych
+
+If you’ve never hit the ground while skydiving, you’re opening your parachute too early. –Ari
+
+If you’ve never written a sentence fragment. –Andrew L.
+
+If you win Scott’s contest, then you’ve probably spent too much time thinking of a good Umeshism. –Mohammad Mahdian
+
+The following three anonymous entries also merited honorable mentions:
+
+If you’ve never been fined $250,000, you’re paying too much for your DVDs.
+
+If all your students graduate, then you’re spending too much time in your office.
+
+If you’ve never missed a flight, then you don’t know what it’s like to show up at the airport, stand in the wrong line for 20 minutes, be denied a checkin, and then be told that there is nothing available for the next 5 days (through Christmannukah), and then only with a 7-hour layover. So how about this one: If you’ve ever missed a flight, you’re spending too much time in airports.  Thank you for the advice, Umesh Vazirani.
+
+As you may have noticed, a large proportion of entries are actually ironic commentaries on the Umeshism concept.  But in the end, a simple focus on the high-order bits took the cake:
+
+If you’ve never had children, then you’re spending too much time using protection. –Peter Brooke
+
+Thanks to everyone who entered, and Happy New Year from your procrastinating, narcissistic friends here at Shtetl-Optimized!
+
+================================================================================
+
+TITLE: A setback for science
+URL: https://scottaaronson.blog/?m=200512
+CONTENT:
+On Tuesday Judge John Jones III released a landmark 139-page decision, which finds that the Dover school board violated the Establishment Clause by endorsing intelligent design. Why is that a setback for science? Because I spent hours reading the decision instead of doing actual work, and so should everyone else.
+
+In a case like this, of course, it’s not science that’s on trial but the legal system itself. Can it distinguish a real idea from a sham, in the same way that a FOCS program committee would reject a paper claiming Grover search in O(log N) queries, no matter how well-written it was? This time, the system came through. Judge Jones — despite being a Republican appointed by Bush — proved himself capable of the following insight:
+
+Because we are able to recognize design of artifacts and objects, according to Professor Behe, that same reasoning can be employed to determine biological design. Professor Behe testified that the strength of the analogy depends upon the degree of similarity entailed in the two propositions; however, if this is the test, ID completely fails.
+
+Unlike biological systems, human artifacts do not live and reproduce over time. They are non-replicable, they do not undergo genetic recombination, and they are not driven by natural selection. For human artifacts, we know the designer’s identity, human, and the mechanism of design, as we have experience based upon empirical evidence that humans can make such things, as well as many other attributes including the designer’s abilities, needs, and desires… (p. 80-81)
+
+(Is one allowed to make that sort of argument in an official capacity? Strange thing, the Establishment Clause.)
+
+But the section where Judge Jones rises from cogency to furious eloquence is the “Purpose Inquiry” (p. 90-132), where he shows that the Dover school board members were even bigger jokers than is directly inferrable from their decision. Here’s William Buckingham, Chair of the Curriculum Committee, at a June 14, 2004 school board meeting:
+
+“Nowhere in the Constitution does it call for a separation of church and state … I challenge you [the audience] to trace your roots to the monkey you came from … 2,000 years ago someone died on a cross. Can’t someone take a stand for him?” (p. 105)
+
+(For readers who don’t “grok” this allusion: while many people were crucified by the Romans around that time, Buckingham is most likely referring to Jesus of Nazareth, a Galilean Jewish preacher postulated by many ID proponents to be related to, or even identical with, the intelligent designer of their theory.)
+
+Here’s another gem:
+
+At the June 2004 meeting, Spahr asked Buckingham where he had received a picture of the evolution mural that had been torn down and incinerated. Jen Miller testified that Buckingham responded: “I gleefully watched it burn.” … Burning the evolutionary mural was apparently insufficient for Buckingham, however. Instead, he demanded that the teachers agree that there would never again be a mural depicting evolution in any of the classrooms and in exchange, Buckingham would agree to support the purchase of the biology textbook in need by the students. (Judge Jones’s emphasis; p. 108)
+
+The school board members took up a collection at a church to pay for the creationist book Of Pandas and People, then lied about it under oath (p. 114-115). They also testified at the trial that they didn’t understand the substance of the curriculum change that, over the science teachers’ objections, they voted for (p. 121). In short, the plaintiffs couldn’t have asked for better allies.
+
+Admittedly, to anyone who’s ever attended an American school board meeting, the Dover shenanigans won’t come as much surprise. Mark Twain, as often, said it best:
+
+“First God created idiots, this was for practice. Then He made School Boards.”
+
+Part II of this post will appear after I’ve returned to Pennsylvania (“The Genius School Board State”) later “today,” having completed my trip around the globe and gained a 2πi phase in the process. Hey — judging from the number of comments on my previous evolution post, you people seem to like this issue. In a blogosphere with finitely many readers, only the fittest topics will survive.
+
+================================================================================
+
+TITLE: Umeshisms
+URL: https://scottaaronson.blog/?m=200512
+CONTENT:
+If you’ve never missed a flight, you’re spending too much time in airports.
+
+When I was a grad student at Berkeley, my advisor, Umesh Vazirani, liked to repeat this nugget of wisdom to students, friends, and colleagues. In a single sentence, Umesh was communicating an entire philosophy of life: concentrate on the high-order bits. The squash player who runs back and forth to attempt every shot, the student who’s never late with an assignment, the researcher who stalks an unimportant problem like Captain Ahab: all have succumbed to the tyranny of the low-order bit. They need to realize that, as in a randomized algorithm, occasional failures are the inevitable byproduct of a successful strategy. If you always win, then you’re probably doing something wrong.
+
+On the other hand, having dropped Umesh off at 8PM for an 8:30 international flight, I can attest from personal experience that he was talking about actual air travel as well.
+
+I thought about Umesh’s “Airport Law” on my way to Australia, after I nearly missed my flight out of Heathrow, and then did miss the connection from Sydney to Brisbane, after waiting for an hour in customs so that my luggage could be searched for any contraband fruit or vegetables. I wondered: what other “Umeshisms” are waiting to be discovered? Here are the first four I came up with:
+
+If you never cut yourself while shaving, you’re not shaving close enough.
+
+If you’ve never been robbed, you’re spending too much time locking doors.
+
+If you’ve never been rejected, you’re not asking enough. (The easiest to state, the hardest to practice.)
+
+If you’ve never regretted a blog entry, your blog is boring.
+
+As a tribute to Umesh, I hereby open the comments section to a Best Umeshism Contest. The winner (as chosen by me) earns the right to ask any question, and then have me answer it on this blog, possibly after consulting with Umesh about the high-order bits. The deadline is December 28, 2005, 11:59PM EST. Limit three entries per person. Include your name and/or email.
+
+================================================================================
+
+TITLE: My interview with Lance
+URL: https://scottaaronson.blog/?m=200512
+CONTENT:
+Listen to the latest edition of Lance Fortnow’s ComplexityCast (“Complexity on Your iPod”) on Podcast or MP3.
+
+The topic: “What Physicists Should Know About Computational Complexity”
+Length: 22 minutes
+Geekiness: High
+
+I’m, uh, sorry about all the, you know, mumbling.  Clearly I haven’t yet been media-trained.
+
+================================================================================
+
+TITLE: That’s not a proof, mate — that’s a proof
+URL: https://scottaaronson.blog/?m=200512
+CONTENT:
+I arrived Friday morning in an exotic, faraway “Backwards-Land,” where mammals have pouches, vegemite is considered edible, toilets should in principle flush the wrong way, and Christmas trees adorn a tropical summer landscape.
+
+I’m here to visit the University of Queensland physics department, which is probably best known as the home of the world’s longest-running experiment: a glob of congealed black tar that’s been dripping through a funnel since 1927, at the rate of about one drop per decade. This important experiment recently won an Ig Nobel Prize in Physics, causing my colleague the Quantum Pontiff to regret not taking a photo of it while he had the chance. In perhaps the greatest advance in Catholic-Jewish relations since John Paul II prayed at the Western Wall, today Shtetl-Optimized proudly presents His Quantum Holiness with the following token of goodwill.
+
+
+
+But there’s more to Australia than funnels of congealed black tar. There are also strange and wonderful birds with that wander around the campus eating people’s garbage. Birdwatching is not a pastime I’ve ever wished on anyone, but I think this one is an Australian White Ibis:
+
+
+
+Finally, Australia is also home to terrible race riots, which erupted yesterday after a Lebanese gang apparently attacked two white lifeguards. I don’t have anything amusing to say about that.
+
+================================================================================
+
+TITLE: Get off that shoulder — it’s my giant!
+URL: https://scottaaronson.blog/?m=200512
+CONTENT:
+Yesterday I visited the Wren Library, which houses many of Newton’s old books.  Notably, they have a first edition of Principia Mathematica, with Newton’s handwritten corrections for the second edition. So what did Ike see fit to correct? Well, the title page of the first edition listed him as a Fellow of the Royal Society. Sir Isaac crossed that out: he was now the President of the Royal Society! As Jonathan Oppenheim pointed out to me, it’s weirdly reassuring to see a guy at the vertiginous top of the academic ladder, grasping in vain for the nonexistent rung above.
+
+================================================================================
+
+TITLE: The Bloggour hath returneth
+URL: https://scottaaronson.blog/?m=200512
+CONTENT:
+Picture this: it’s my first visit to Cambridge — Ground Zero of the scientific revolution, a place that’s probably contributed more to human knowledge than any other on Earth. Within walking distance are the original manuscripts of Newton’s Principia; the halls where Darwin, Maxwell, and Russell dined as undergraduates; the Cavendish Laboratory where Rutherford bombarded nuclei and Crick and Watson unravelled nucleic acids; and architecture dating back to the 1200’s, much of it among the finest in Europe. I ought to be taking in the splendor (sorry, “splendour”) by day, and blogging about it by night.
+
+So where have I been? Hunkered in an office, trying to finish a paper with Greg Kuperberg about QMA versus QCMA in time for the Complexity’06 submission deadline. Happily, by Saturday it had become obvious that, try though we might, we weren’t gonna make it. So I put it off till the next conference, and contented myself with submitting two papers to this year’s Complexity conference instead of three. As Douglas Adams, another Cambridge alum, put it: “I love deadlines. I like the whooshing sound they make as they fly by.”
+
+So what can I tell you about Cambridge? First of all, when people refer to the various “colleges” — King’s, Trinity, and so on — they’re not just being eccentric and British. These colleges actually exist. Each one is basically a walled-off compound, with a few grand-looking entrances that get locked at night, thereby making Cambridge even harder to navigate than the average campus. (It doesn’t help that the streets change names constantly: St. John’s becomes Trinity becomes King’s Parade becomes Trumpington Street within a couple of blocks.)
+
+I’m staying at King’s, pictured below:
+
+Last week my host at King’s, Artur Ekert, invited me to High Table. For you non-Oxbridge doofuses, “High Table” is a fancy dinner at which people still wear robes, non-ironically as far as I could tell. Or rather, Fellows must wear robes when dining at their own college, though not when dining at a different college. (Makes sense, huh?) Afterwards, the Fellows and their guests retire to another room for wine, cheese, and academic gossip.
+
+All these dining rooms are lined with portraits of illustrious King’s alumni from centuries past — but amazingly, there’s still no portrait of the greatest King’s man of all time. Who was it? Let me give you a few hints. He proved the unsolvability of the Entscheidungsproblem. He was “queer” in more than one way. He had a Machine and a Test named after him. He may have played a bigger role than Churchill in winning the Second World War.
+
+To his great credit, Artur told me that he almost threatened to resign his Fellowship if no portrait of Alan Mathison Turing F.R.S. was hung in the halls. The relevant authorities have promised to rectify the situation, though they haven’t done so yet. (Admittedly, the computer help center at King’s is called the “Turing Centre.” One imagines Turing’s ghost managing the DHCP servers, so that the real scholars can get on with their work.)
+
+To my mind, the central question is this: did Cambridge become the world’s scientific superpower for 300 years in spite of all this idiosyncratic formality, or because of it? I have mixed feelings. On the one hand, the amount of red tape here, and the importance attached to one’s status, is like something out of Victorian England (oh, wait…). Fellows and their guests are allowed to walk on the grass; all others are not. Even though there’s an ethernet jack right in my room, I wasn’t allowed to use it, being merely a visitor. (After I complained, Artur was kind enough to give me his IP address.)
+
+On the other hand, I like High Table and similar traditions. I like how they acknowledge and celebrate something that’s always been obvious to me: that being an academic isn’t a job like other jobs, but a way of life. This doesn’t necessarily mean that academics have no lives; what it means is that they don’t distinguish between work and life the way most people do.
+
+Have you ever been to one of those roadside diners where you can pick an entree plus two sides, but a few of the entrees are marked “complete,” meaning you don’t get any sides with them? Well, at Cambridge they’ve understood for centuries that academia is one of life’s complete entrees. Not that a Cambridge man would know anything about roadside diners.
+
+================================================================================
+

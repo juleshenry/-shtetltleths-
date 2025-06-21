@@ -1,0 +1,126 @@
+TITLE: Prague-ing
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+
+
+================================================================================
+
+TITLE: The anthropicism that had to win
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+So, my Best Anthropicism Contest elicited almost 50 submissions.  Thanks so much to everyone who entered — if not for you, this tautological tug-of-war would’ve been something other than what it was!
+
+To choose the winning entry, the first rule I adopted was that, when I did find the winning entry, conditions would have to be such as to make it the winning entry, since otherwise it wouldn’t be the winning entry in the first place, but rather a losing entry.  Since that didn’t get me very far, I quickly fell back on other criteria.
+
+First, the winning entry would have to be short — longwinded explanations were out right away.
+
+Second, it would have to make sense.
+
+Third, it would have to illustrate the anthropic principle specifically, not some sort of generic Zen wisdom.
+
+That already killed most of the entries.  Among the ones left, many dealt Hofstadterifically with the contest itself:
+
+wolfgang: Applying the principle of mediocrity I have to conclude that it is unlikely that I will win this contest.
+
+Matt Wedel: Oh, c’mon! Just give me the prize! If I wasn’t going to win, I’d be living in a different universe where I didn’t win. BUT — I’m not. So give me the prize.
+
+MX: Why am I entering this contest? Because if I weren’t, I wouldn’t be me, I would be a being very similar to me living in a universe in which I did not enter this contest.
+
+Other entries worked well as parody:
+
+sockatume: How much wood could a woodchuck chuck if a woodchuck could chuck would?  As much wood as a woodchuck could chuck if a woodchuck could chuck would, otherwise it wouldn’t be a woodchuck.
+
+Bram Cohen: Why have all dates thus far come before January 1, 3000? Because the universe will cease to exist on that day.
+
+In the end, though, I decided that what I was looking for wasn’t mere wit, but the real, genuine illusion of explanatory insight.  And that’s why Lev R. takes the prize, with the following perspicacious pearl:
+
+why aren’t physicists too interested in computational complexity? because if they were, they’d be computer scientists.
+
+================================================================================
+
+TITLE: When laziness and idealism coincide
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+Back in April, I blogged about why we should all support open-access journals.  But after receiving a long string of referee requests from closed-access journals, I’ve completely changed my mind about this issue.  I now believe we should keep Kluwer, Elsevier, and the other publishing conglomerates rolling in dough for as long as possible, and do whatever we can to sabotage the open-access movement.  Why?  Because as soon as the world switches to open-access, I’ll have no choice but to start accepting referee requests again.
+
+================================================================================
+
+TITLE: And they say complexity has no philosophical implications
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+From these lecture notes by Harvey Friedman comes one of the best metamathematical anecdotes I’ve ever heard (and yes, I’ve heard my share).  Apparently Friedman was attending a talk by the “ultra-finitist” Alexander Yessenin-Volpin, who challenged the “Platonic existence” not only of infinity, but even of large integers like 2100.  So Friedman raised the obvious “draw the line” objection: in the sequence 21,22,…,2100, which is the first integer that Yessenin-Volpin would say doesn’t exist?
+
+Yessenin-Volpin asked Friedman to be more specific.
+
+“Okay, then.  Does 21 exist?”
+
+Yessenin-Volpin quickly answered “yes.”
+
+“What about 22?”
+
+After a noticeable delay: “yes.”
+
+“23?”
+
+After a longer delay: “yes.”
+
+It soon became clear that Yessenin-Volpin would answer “yes” to every question, but would take twice as long for each one as for the one before it.
+
+================================================================================
+
+TITLE: Two John-related announcements
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+A year ago, I relinquished my dictatorial control of the Complexity Zoo, accepting an offer from John Stockton to convert the Zoo into wiki format.  Unfortunately, the wiki site has been down for days and shows no signs of coming back anytime soon.  So for now, I’ve put the old Zoo back up at www.complexityzoo.com.  I’ve learned my lesson: in times of crisis, it takes a leader with an iron fist to keep the trains running on time and the animals in their cages.
+
+John Baez is back on the scene, with an account of his recent visit to our quantum computing group at Waterloo.  Among other things, he gives a lucid explanation of how, while it’s generally impossible to keep information from leaking out of a computer, it is possible to arrange things so that the information that does leak is irrelevant to the computation.  Baez links to the papers that prove this is true for quantum computing as well as classical, but complains that “most of it speaks the language of ‘error correction’ rather than thermodynamics.”  Question for the audience: can the fault-tolerance theorems be reproved more physicsly?  (“We now define a PHYSICAL SYSTEM called the concatenated Steane code…”)
+
+Baez’s semi-conversion to the Church of Knill, Laflamme, and Zurek (or the Shul of Aharonov and Ben-Or) has inspired me to propose a far-reaching hypothesis:
+
+While it’s generally impossible to explain computer science concepts to physicists so that they understand them on your terms, it is sometimes possible to explain them so that they understand on their terms.
+
+Naturally, it helps if the physicist in question is Baez.
+
+================================================================================
+
+TITLE: Best anthropicism contest
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+I arrived this morning in Prague for the 2006 Complexity conference.  Soon I’ll have the photos to prove it.  For now, though, I wish to blog neither about the breathtakingly beautiful city in which I find myself, nor about the meaty, succulent topic alluded to in my previous post, but instead about anthropicisms.
+
+Inspired by Peter Woit’s almost-daily anti-anthropic broadsides, and in the spirit of my earlier Best Umeshism Contest, I hereby announce a new contest for Best Application of the Anthropic Principle.  Here are a few samples to get the self-selected tautological ball rolling, not that it could do otherwise than roll:
+
+Why do so many people seem to care about being remembered after they die?  Because we only remember the ones who cared about being remembered.
+
+Academics comprise only a tiny portion of humanity, so what are the chances of being an academic as opposed to someone else?  Conditioned on asking such a question in the first place, pretty high.
+
+Why is the moon round?  Because if it were square, you wouldn’t be you — you would instead be a being extremely similar to you, except that he or she lives in a universe with a square moon.
+
+Why am I a blogger?  Because if I weren’t, you wouldn’t be reading this.
+
+The rules are similar to the Best Umeshism Contest: up to three entries per person.  Please include a name — despite the nature of the contest, “He Who Posted This” doesn’t count.  Entries must be in by July 22nd.  The winner (as chosen by me) gets to ask any question and have me answer it here.
+
+================================================================================
+
+TITLE: Something to munch on while I take a long, succulent post out of the procrastination oven
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+I’m convinced that the following diagram means something precise:
+
+My question is, what does it mean?
+
+Intuitively, it means that if your software package can solve SDP’s, then you can easily use it to solve LP’s; if it can solve LP’s, you can easily use it to invert matrices, and so on, but not vice versa.  But it can’t mean (for example) that SDP’s are harder than LP’s in the usual complexity theory sense, since both problems are P-complete!
+
+Maybe it means that, if your axiom system is strong enough to prove SDP is in P, then it’s also strong enough to prove LP is in P, and so on — but not necessarily vice versa.  But how would we show such a separation?
+
+(Sorry, no money this time.  We’ll see if it makes any difference — I’m guessing that it doesn’t.)
+
+================================================================================
+
+TITLE: Is publishing as many STOC/FOCS papers as possible a worthy goal to fill the fleeting interlude between infinite expanses of nonexistence?
+URL: https://scottaaronson.blog/?m=200607
+CONTENT:
+This, I’m embarrassed to admit, is something I’ve asked myself at various points over the last ten years.  Fortunately, thanks to this thread on Lance Fortnow’s blog, I now have my answer: no.
+
+================================================================================
+

@@ -1,0 +1,390 @@
+TITLE: Quantum Computing Since Democritus Lecture 10: Quantum Computing
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+You’ve waited for weeks.  You’ve pestered me for it.  Now here it is.
+
+For those who liked my Shor’s algorithm post but are ready for the next level: brace yourself for BQP ⊆ PP, Recursive Fourier Sampling, and so much more.  And for dessert, a brief discussion of quantum computing and the many-worlds interpretation.
+
+Suggestions and bugfixes welcome; I’ll continue revising over the next few days as time permits.
+
+================================================================================
+
+TITLE: Shor, I’ll do it
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+
+
+I’ve been talking a lot recently about how quantum algorithms don’t work. But last week JR Minkel, an editor at Scientific American, asked me to write a brief essay about how quantum algorithms do work, which he could then link to from SciAm‘s website.”OK!” I replied, momentarily forgetting about the  quantum algorithm tutorials that are already on the web.  So, here’s the task I’ve set for myself: to explain Shor’s algorithm without using a single ket sign, or for that matter any math beyond arithmetic.
+
+Alright, so let’s say you want to break the RSA cryptosystem, in order to rob some banks, read your ex’s email, whatever.  We all know that breaking RSA reduces to finding the prime factors of a large integer N.  Unfortunately, we also know that “trying all possible divisors in parallel,” and then instantly picking the right one, isn’t going to work.  Hundreds of popular magazine articles notwithstanding, trying everything in parallel just isn’t the sort of thing that a quantum computer can do.  Sure, in some sense you can “try all possible divisors” — but if you then measure the outcome, you’ll get a random divisor, which almost certainly won’t be the one you want.
+
+What this means is that, if we want a fast quantum factoring algorithm, we’re going to have to exploit some structure in the factoring problem: in other words, some mathematical property of factoring that it doesn’t share with just a generic problem of finding a needle in a haystack.
+
+Fortunately, the factoring problem has oodles of special properties. Here’s one example: if I give you a positive integer, you might not know its prime factorization, but you do know that it has exactly one factorization!  By contrast, if I gave you (say) a Sudoku puzzle and asked you to solve it, a priori you’d have no way of knowing whether it had exactly one solution, 200 million solutions, or no solutions at all.  Of course, knowing that there’s exactly one needle in a haystack is still not much help in finding the needle!  But this uniqueness is a hint that the factoring problem might have other nice mathematical properties lying around for the picking.  As it turns out, it does.
+
+The property we’ll exploit is the reducibility of factoring to another problem, called period-finding. OK, time for a brief number theory digression.  Let’s look at my favorite sequence of integers since I was about five years old: the powers of two.
+
+2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, …
+
+Now let’s look at the powers of 2 “mod 15”: in other words, the remainder when 15 divides each power of 2.
+
+2, 4, 8, 1, 2, 4, 8, 1, 2, 4, …
+
+As you can see, taking the powers of 2 mod 15 gives us a periodic sequence, whose period (i.e., how far you have to go before it starts repeating) is 4.  For another example, let’s look at the powers of 2 mod 21:
+
+2, 4, 8, 16, 11, 1, 2, 4, 8, 16, …
+
+This time we get a periodic sequence whose period is 6.
+
+You might wonder: is there some general rule from which we could predict the period?  Gee, I wonder if mathematicians ever thought of that question…
+
+Well, duh, they did, and there’s a beautiful pattern discovered by Euler in the 1760’s. Let N be a product of two prime numbers, p and q, and consider the sequence
+
+x mod N, x2 mod N, x3 mod N, x4 mod N, …
+
+Then provided x is not divisible by p or q, the above sequence will repeat with some period that evenly divides (p-1)(q-1).
+
+So for example, if N=15, then the prime factors of N are p=3 and q=5, so (p-1)(q-1)=8.   And indeed, the period of the sequence was 4, which divides 8.  If N=21, then p=3 and q=7, so (p-1)(q-1)=12.  And indeed, the period was 6, which divides 12.
+
+Now, I want you to step back and think about what this means. It means that, if we can find the period of the sequence
+
+x mod N, x2 mod N, x3 mod N, x4 mod N, …
+
+then we can learn something about the prime factors of N!  In particular, we can learn a divisor of (p-1)(q-1).  Now, I’ll admit that’s not as good as learning p and q themselves, but grant me that it’s something.  Indeed, it’s more than something: it turns out that if we could learn several random divisors of (p-1)(q-1) (for example, by trying different  random values of x), then with high probability we could put those divisors together to learn (p-1)(q-1) itself.  And once we knew (p-1)(q-1), we could then use some more little tricks to recover p and q, the prime factors we wanted.
+
+So what’s the fly in the ointment?  Well, even though the sequence
+
+x mod N, x2 mod N, x3 mod N, x4 mod N, …
+
+will eventually start repeating itself, the number of steps before it repeats could be almost as large as N itself — and N might have hundreds or thousands of digits!  This is why finding the period doesn’t seem to lead to a fast classical factoring algorithm.
+
+Aha, but we have a quantum computer!  (Or at least, we’re imagining that we do.)  So maybe there’s still hope.  In particular, suppose we could create an enormous quantum superposition over all the numbers in our sequence: x mod N, x2 mod N, x3 mod N, etc.  Then maybe there’s some quantum operation we could perform on that superposition that would reveal the period.
+
+The key point is that we’re no longer trying to find a needle in an exponentially-large haystack, something we know is hard even for a quantum computer.  Instead, we’re now trying to find the period of a sequence, which is a global property of all the numbers in the sequence taken together.  And that makes a big difference.
+
+Look: if you think about quantum computing in terms of “parallel universes” (and whether you do or don’t is up to you), there’s no feasible way to detect a single universe that’s different from all the rest.  Such a lone voice in the wilderness would be drowned out by the vast number of suburb-dwelling, Dockers-wearing conformist universes.  What one can hope to detect, however, is a joint property of all the parallel universes together — a property that can only be revealed by a computation to which all the universes contribute.
+
+(Note: For safety reasons, please don’t explain the above to popular writers of the “quantum computing = exponential parallelism” school.  They might shrivel up like vampires exposed to sunlight.)
+
+So, the task before us is not hopeless!  But if we want to get this period-finding idea to work, we’ll have to answer two questions:
+
+Let’s tackle the first question first.  We can certainly create a superposition over all integers r, from 1 up to N or so.  The trouble is, given an r, how do we quickly compute xr mod N?  If r was (say) 300 quadrillion, would we have to multiply x by itself 300 quadrillion times?  That certainly wouldn’t be fast enough, and fortunately it isn’t necessary.  What we can do instead is what’s called repeated squaring.  It’s probably easiest just to show an example.
+
+Suppose N=17, x=3, and r=14.  Then the first step is to represent r as a sum of powers of 2:
+
+r = 23 + 22 + 21.
+
+Then
+
+
+
+Also, notice that we can do all the multiplications mod N, thereby preventing the numbers from growing out of hand at intermediate steps.  This yields the result
+
+314 mod 17 = 2.
+
+OK, so we can create a quantum superposition over all pairs of integers of the form (r, xr mod N), where r ranges from 1 up to N or so.  But then, given a superposition over all the elements of a periodic sequence, how do we extract the period of the sequence?
+
+Well, we’ve finally come to the heart of the matter — the one part of Shor’s quantum algorithm that actually depends on quantum mechanics.  To get the period out, Shor uses something called the quantum Fourier transform, or QFT.  My challenge is, how can I explain the QFT to you without using any actual math?  Hmmmm…
+
+OK, let me try this.  Like many computer scientists, I keep extremely odd hours.  You know that famous experiment where they stick people for weeks in a sealed room without clocks or sunlight, and the people gradually shift from a 24-hour day to a 25- or 26- or 28-hour day?  Well, that’s just ordinary life for me.  One day I’ll wake up at 9am, the next day at 11am, the day after that at 1pm, etc.  Indeed, I’ll happily ‘loop all the way around’ if no classes or appointments intervene.  (I used to do so all the time at Berkeley.)
+
+Now, here’s my question: let’s say I tell you that I woke up at 5pm this afternoon.  From that fact alone, what can you conclude about how long my “day” is: whether I’m on a 25-hour schedule, or a 26.3-hour schedule, or whatever?
+
+The answer, of course, is not much!  I mean, it’s a pretty safe bet that I’m not on a 24-hour schedule, since otherwise I’d be waking up in the morning, not 5pm.  But almost any other schedule — 25 hours, 26 hours, 28 hours, etc. — will necessarily cause me to “loop all around the clock,” so that it’d be no surprise to see me get up at 5pm on some particular afternoon.
+
+Now, though, I want you to imagine that my bedroom wall is covered with analog clocks.  These are very strange clocks: one of them makes a full revolution every 17 hours, one of them every 26 hours, one of them every 24.7 hours, and so on for just about every number of hours you can imagine.  (For simplicity, each clock has only an hour hand, no minute hand.)  I also want you to imagine that beneath each clock is a posterboard with a thumbtack in it.  When I first moved into my apartment, each thumbtack was in the middle of its respective board.  But now, whenever I wake up in the “morning,” the first thing I do is to go around my room, and move each thumbtack exactly one inch in the direction that the clock hand above it is pointing.
+
+Now, here’s my new question: by examining the thumbtacks in my room, is it possible to figure out what sort of schedule I’m keeping?
+
+I claim that it is possible.  As an example, suppose I was keeping a 26-hour day.  Then what would happen to the thumbtack below the 24-hour clock?  It’s not hard to see that it would undergo periodic motion: sure, it would drift around a bit, but after every 12 days it would return to the middle of the board where it had started.  One morning I’d move the thumbtack an inch in this direction, another morning an inch in that, but eventually all these movements in different directions would cancel each other out.
+
+On the other hand — again supposing I was keeping a 26-hour day — what would happen to the thumback below the 26-hour clock? Here the answer is different. For as far as the 26-hour clock is concerned, I’ve been waking up at exactly the same time each “morning”!  Every time I wake up, the 26-hour clock is pointing the same direction as it was the last time I woke up. So I’ll keep moving the thumbtack one more inch in the same direction, until it’s not even on the posterboard at all!
+
+
+
+It follows, then, that just by seeing which thumbtack travelled the farthest from its starting point, you could figure out what sort of schedule I was on.  In other words, you could infer the “period” of the periodic sequence that is my life.
+
+And that, basically, is the quantum Fourier transform.  Well, a little more precisely, the QFT is a linear transformation (indeed a unitary transformation) that maps one vector of complex numbers to another vector of complex numbers.  The input vector has a nonzero entry corresponding to every time when I wake up, and zero entries everywhere else.  The output vector records the positions of the thumbtacks on the posterboards (which one can think of as points on the complex plane).  So what we get, in the end, is a linear transformation that maps a quantum state encoding a periodic sequence, to a quantum state encoding the period of that sequence.
+
+Another way to think about this is in terms of interference.  I mean, the key point about quantum mechanics — the thing that makes it different from classical probability theory — is that, whereas probabilities are always nonnegative, amplitudes in quantum mechanics can be positive, negative, or even complex.  And because of this, the amplitudes corresponding to different ways of getting a particular answer can “interfere destructively” and cancel each other out.
+
+And that’s exactly what’s going on in Shor’s algorithm.  Every “parallel universe” corresponding to an element of the sequence contributes some amplitude to every “parallel universe” corresponding to a possible period of the sequence.  The catch is that, for all periods other than the “true” one, these contributions point in different directions and therefore cancel each other out.  Only for the “true” period do the contributions from different universes all point in the same direction.  And that’s why, when we measure at the end, we’ll find the true period with high probability.
+
+Obviously there’s a great deal I’ve skipped over; see here or here or here or here or here or here or here or here or here or here or here or here for details.
+
+================================================================================
+
+TITLE: NAND now for something completely different
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+There was a real breakthrough in quantum algorithms last week — though you wouldn’t have known about it from reading Slashdot, Yahoo News, The Economist, or (for that matter) this blog.
+
+Farhi, Goldstone, and Gutmann — the feared MIT trio — announced a quantum algorithm for evaluating NAND trees in O(√N) time. This solves a problem that I worked on as an undergrad nine years ago (!), and that many a tyro had unsuccessfully tackled since.
+
+Alright, so suppose we’ve got this ant at the root of a complete binary tree:
+
+
+
+You and your friend take turns moving the ant: first you can move it either down-and-left or down-and-right, then your friend can make the same choice, then you, etc. If the ant ends up at a sugar cube, you win the game; if it ends up at a boot, your friend wins. (Your friend is an exterminator.)
+
+In the above example, it’s not hard to see that you’re the one with a winning strategy. But more generally, we can imagine a tree d levels deep, with an arbitrary sequence of N=2d boots and sugar cubes at the leaf vertices. Then the question is: how many of the leaf vertices do you have to examine, in order to decide whether you or your friend has the win?
+
+The goal here is to model games of alternation like chess and go, abstracting away the details. The boots and sugar cubes correspond to losing and winning board positions. Then we want to know: how many board positions would a computer have to evaluate, in order to play the game perfectly?
+
+It’s clear that you generally don’t have to examine all the positions. For example, suppose that at some position where it’s your turn to move, you discover a move that always lets you win. Then you don’t care what happens if you make any other move from that position.
+
+Based on this idea (which AI types call alpha-beta pruning), in 1986 Saks and Wigderson gave a randomized algorithm to find an optimal move in the ant game, after examining (on average) only N0.753 of the N leaf vertices. (Here 0.753 ≈ log2(1+√33)-2.) On the other hand, they also showed that this running time was optimal for randomized algorithms with no error. Then, in 1995, Santha showed that it was optimal even for randomized algorithms with error.
+
+Alright, but what about the quantum case? It was observed early on (by a simple reduction from the PARITY problem) that any quantum algorithm for playing the ant game would have to examine at least √N of the N leaf vertices. But was a √N running time achievable? Until last week, we knew of no quantum algorithm that did even slightly better than the classical bound of N0.753.
+
+And now it’s time to eat some crow: I didn’t believe there was such a quantum algorithm. I thought N0.753 was optimal. In my defense, though, this was never really a very serious belief, in contrast to (say) my belief that quantum computers can’t solve NP-complete problems in polynomial time. Really I only claimed N0.753 was optimal to try and goad people into proving me wrong. And today, I’m pleased to report that my strategy was successful.
+
+Last Wednesday, Farhi, Goldstone, and Gutmann put out a preprint showing how to find an optimal move for the ant game in time O(√(N log N)). However, their algorithm only worked in the “Hamiltonian oracle model,” a fanciful idealization preferred by physicists in which time is (get this) continuous rather than discrete. Two days later, Childs, Cleve, Jordan, and Yeung showed how to port the algorithm to the ordinary discrete model, except that there the running time goes up to N1/2+ε for any ε>0. Then, just yesterday, Farhi, Goldstone, and Gutmann improved the running time in the Hamiltonian oracle model to the optimal O(√N). One hopes and expects that further improvements in the discrete model are forthcoming.
+
+Another obvious question is whether any game tree can be evaluated in O(√N) time, not just the complete binary tree used in the ant game. Since the complete binary tree was previously considered the “hardest” case, the natural conjecture would be yes.
+
+Years ago, David Deutsch gave an interview in which he illustrated Grover’s algorithm using chess. I emailed Deutsch to point out that this was a bad example: at the time, we we had no idea how to get a Grover speedup for games of alternation with small branching factor. Deutsch dutifully posted a correction. Now I guess I’ll have to email him again, to tell him one can get a “Grover” speedup for games like chess after all.
+
+I put “Grover” in quotes because, even though the Farhi-Goldstone-Gutmann algorithm achieves a square-root speedup, it doesn’t actually look anything like Grover’s algorithm. Instead it’s based on a quantum walk (reminiscent of this paper), which is analyzed using tools from scattering theory. Apparently, physics occasionally does come in handy for quantum computing.
+
+All in all, this business with NAND trees has only confirmed my core belief about theoretical computer science: that there are no miracles, except when there are.
+
+================================================================================
+
+TITLE: A complexity theorist’s (non)apology
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+Several respected physicists wrote to me privately to say how disappointed they were that Umesh and I would fight shoddy journalism by making a shoddy claim of our own: namely, that the inability of quantum computers to solve NP-complete problems efficiently is an established fact.  I took a lot of flak in the comments section over the same issue.
+
+Ladies and gentlemen of the jury, I will answer the unjust charges being leveled against me and my advisor.
+
+But first, let’s review the facts.  As I’ve said in pretty much every introductory talk I’ve ever given, obviously we can’t yet hope to prove that NP-complete problems are hard for quantum computers, since we haven’t even proved they’re hard for classical computers!  (Nor, for that matter, do we have any idea how to prove that if they’re hard for classical computers then they’re also hard for quantum computers.)  These are some of the most profound open problems in mathematics.  Solving them could easily take decades or centuries.
+
+I dare say that Umesh and I know this as well as anyone on Earth.  And that’s why, even while trying in the space of a few sentences to correct a breathtaking misconception about the nature of the physical world that was being endlessly repeated to millions of people, we still took care in what we said.
+
+Here’s Umesh:
+
+Most egregious is your assertion that quantum computers can solve NP-complete problems in “one shot” by exploring exponentially many solutions at once.  This mistaken view was put to rest in the infancy of quantum computation over a decade ago … For unstructured search problems like the NP-complete problems this means that there is no exponential speed up but rather at most a quadratic speed up.
+
+In the above passage, Umesh is talking about an epochal theorem that he and others did manage to prove: namely, that quantum computers could not solve NP-complete problems by any “one-shot” method based on exploring exponentially many solutions in parallel.   Throw away the structure of an NP-complete problem — consider it just as an abstract space of 2n solutions — and we know that quantum computers will give you at most a quadratic speedup over classical ones.
+
+In the thirteen years since this “BBBV theorem” was proved, two interesting things happened:
+
+It reminds me of how theologians chide Richard Dawkins for refuting only a crude, anthropomorphic, straw-man god instead of a sophisticated Einsteinian one, and then (with an air of self-satisfaction) go off and pray to the crude god.
+
+To be fair, we do have one quantum algorithm for NP-complete problems that falls outside the scope of the BBBV theorem: namely, the adiabatic algorithm of Farhi et al.  This algorithm can be seen as a quantum version of simulated annealing.  Intriguingly, Farhi, Goldstone, and Gutmann gave examples where simulated annealing gets stuck at local optima, whereas the adiabatic algorithm tunnels through to the global optimum. On the other hand, van Dam, Mosca, and Vazirani gave other examples where the adiabatic algorithm also gets stuck at local optima, taking exponential time to reach a global optimum.
+
+The upshot is that, if a fast quantum algorithm for NP-complete problems existed, then just like a fast classical algorithm, it would have to be radically different from anything that’s yet been imagined.  Because of this — not to mention the civilization-changing consequences that such an algorithm would have — Umesh and I feel strongly that claims to solve NP-complete problems should never be bandied about lightly.  As with perpetual-motion machines or antigravity shields, the burden of proof lies entirely with the would-be inventor.  “In case of fire, break glass.”  “In case of algorithm, break skepticism.”
+
+It might be objected that, while the experts know that this is what Umesh meant, laypeople could easily misinterpret his words — or in other words, that Umesh has pulled a D-Wave of his own.    But here’s the crucial difference.  Any motivated reader who wanted the real story behind Umesh’s three-sentence caricature could find that story in peer-reviewed articles only a Google search away. But with D-Wave, all they’d have to go on is the PR.  Simplifying mathematical subtleties is a right you have to earn, by having the cards in case anyone calls your bluff.
+
+So much for Umesh’s letter.  Now let’s look at mine:
+
+Today it is accepted that quantum computers could not solve NP-complete problems in a reasonable amount of time. Indeed, the view of quantum computers as able to “try all possible solutions in parallel,” and then instantly choose the correct one, is fundamentally mistaken.
+
+Notice I didn’t say it was proved that quantum computers can’t solve NP-complete problems in reasonable time: I said it was accepted.  This, I felt, was a difference few people would have trouble understanding. As an example, if biologists said it was accepted that the Loch Ness monster doesn’t exist, presumably no one would interpret that as meaning they’d actually proved its nonexistence.  Indeed, the interesting difference between the two cases is that someday, it might actually be possible to prove the nonexistence of the fast quantum algorithm.
+
+Or are we complexity theorists being too dogmatic?  Should we concede to a certain subset of our physicist friends that, until an actual proof has been discovered, we have no basis even to guess whether P versus NP or NP versus BQP will go one way or the other way?   Should we, in other words, hold ourselves to the same lofty standards of uncompromising mathematical rigor that the physicists themselves have always adhered to?
+
+Oh — pardon me.  I had momentarily forgotten that we were talking about the headmasters of handwaving, the sultans of sloppiness, the princes of proof-by-example. Indeed, I think it’s fair to say that if physicists had discovered the P versus NP question, they would have immediately declared that P≠NP — and they would have hailed this ‘discovery’ of theirs as another remarkable success for physics as a discipline. And everyone else — from other scientists to programmers to journalists to the general public — would have gone right along with it. The task of proving P≠NP would have been left as a technical detail, to be filled in by the mathematical hairsplitters — just like the task of proving quark confinement, or the ergodicity of particles in a box, or the existence of Yang-Mills theory, or the perturbative finiteness of string theory.
+
+Clearly, the issue here can’t be the intelligence of physicists, some of whom actually seem reasonably smart.  The issue, rather, is their different standard — much closer to the standard of everyday life — for saying that they know something is true.  My favorite example in this vein comes from Leonid Levin, who tells me he couldn’t convince Richard Feynman that P versus NP was an open problem at all.
+
+I believe Feynman was onto something, in that the only reason P versus NP is called an “open problem” is that we — the theoretical computer scientists and mathematicians — hold ourselves to a different standard of rigor than any other scientists.  Were we less cautious, we could easily talk about the hardness of NP-complete problems as one of our great discoveries, a discovery for which working out the mathematical underpinnings admittedly remains as a challenge for future generations.
+
+Ironically, our higher standard of rigor often gets turned against us, when outsiders use it to argue that we’re just guessing, or building castles in the sky, or making conjectures that could all turn out to be wrong. The same charges could obviously be leveled against the central hypotheses of physics or economics or pretty much any other field, but they rarely are — at least not by the same people.
+
+I’m tired of double standards, is all I’m saying.
+
+================================================================================
+
+TITLE: The Vazmeister enters the fray
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+Here’s a letter that Umesh Vazirani (my adviser at Berkeley) sent to The Economist, and which he kindly permitted me to share.  I’m guessing they’ll print this one instead of mine, which is fine by me.
+
+Sir,
+
+Your article “Orion’s belter” regarding D-Wave’s demonstration of a “practical quantum computer”, sets a new standard for sloppy science journalism.  Most egregious is your assertion that quantum computers can solve NP-complete problems in “one shot” by exploring exponentially many solutions at once.  This mistaken view was put to rest in the infancy of quantum computation over a decade ago when it was established that the axioms of quantum physics severely restrict the type of information accessible during a measurement. For unstructured search problems like the NP-complete problems this means that there is no exponential speed up but rather at most a quadratic speed up.
+
+Your assertions about D-Wave are equally specious.  A 16 qubit quantum computer has smaller processing power than a cell phone and hardly represents a practical breakthrough. Any claims about D-Wave’s accomplishments must therefore rest on their ability to increase the number of qubits by a couple of orders of magnitude while maintaining the fragile quantum states of the qubits.  Unfortunately D-Wave, by their own admission, have not tested whether the qubits in their current implementation are in a coherent quantum state. So it is quite a stretch to assert that they have a working quantum computer let alone one that potentially scales. An even bleaker picture emerges when one more closely examines their algorithmic approach. Their claimed speedup over classical algorithms appears to be based on a misunderstanding of a paper my colleagues van Dam, Mosca and I wrote on “The power of adiabatic quantum computing”.  That speed up unfortunately does not hold in the setting at hand, and therefore D-Wave’s “quantum computer” even if it turns out to be a true quantum computer, and even if it can be scaled to thousands of qubits, would likely not be more powerful than a cell phone.
+
+Yours sincerely,
+Umesh Vazirani
+Roger A. Strauch Professor of Computer Science
+Director, Berkeley Quantum Computing Center
+
+Update (2/18): There’s now a Nature news article about D-Wave (hat tip to the Pontiff).  Like pretty much every other article, this one makes no attempt to address the fundamental howlers about the ability of quantum computers to solve NP-complete problems — but at least it quotes me saying that “almost every popular article written on this has grotesquely over-hyped it.”
+
+================================================================================
+
+TITLE: Bending WordPress to my will
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+Comment previewing has been enabled.
+
+A new tagline has been added at the top (did you notice it?).
+
+To deal with the single most common question I get asked, I’ve added a list of introductory quantum computing links to the sidebar at the right.
+
+The ability to translate into German, Spanish, Dutch, Italian, Japanese, Chinese and several other languages has also been added (Yiddish not yet supported).  In my field tests, the words “meatspace,” “whippersnapper,” “doofosity,” and “booger” were left untranslated.
+
+Look out for further improvements in the days ahead — including a total-immersion virtual-reality tour of my Waterloo office, and actual writing of blog entries turned over to the RoboShtetl3000.
+
+================================================================================
+
+TITLE: Speaking truth to parallelism
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+Today The Economist put out this paragon of hard-hitting D-Wave journalism.  At first I merely got angry — but then I asked myself what Winston Churchill, Carl Sagan, or Chip ‘n Dale’s Rescue Rangers would do.  So let’s see if The Economist prints the following.
+
+SIR —
+
+In a remarkably uncritical article about D-Wave’s announcement of the “world’s first practical quantum computer” (Feb. 15), you gush that “[i]n principle, by putting a set of entangled qubits into a suitably tuned magnetic field, the optimal solution to a given NP-complete problem can be found in one shot.”  This is simply incorrect.  Today it is accepted that quantum computers could not solve NP-complete problems in a reasonable amount of time.  Indeed, the view of quantum computers as able to “try all possible solutions in parallel,” and then instantly choose the correct one, is fundamentally mistaken. Since measurement outcomes in quantum mechanics are random, one can only achieve a computational speedup by carefully exploiting the phenomenon known as quantum interference.  And while it is known how to use interference to achieve dramatic speedups for a few problems — such as factorising large integers, and thereby breaking certain cryptographic codes — those problems are much more specialised than the NP-complete problems.
+
+Over the past few days, many news outlets have shown a depressing willingness to reprint D-Wave’s marketing hype, without even attempting to learn why most quantum computing researchers are sceptical.  I expected better from The Economist.
+
+Scott Aaronson
+Institute for Quantum Computing
+University of Waterloo
+
+I thought ‘factorising,’ ‘specialised,’ and ‘sceptical’ were a nice touch.
+
+A Final Thought (2/16): As depressing as it is to see a lazy magazine writer, with a single harebrained sentence, cancel out your entire life’s work twenty times over, some good may yet come from this travesty.  Where before I was reticent in the war against ignorant misunderstandings of quantum computing, now I have been radicalized — much as 9/11 radicalized Richard Dawkins in his war against religion. We, the quantum complexity theorists, are far from helpless in this fight.  We, too, can launch a public relations campaign.   We can speak truth to parallelism.  So doofuses of the world: next time you excrete the words “NP-complete,” “solve,” and “instantaneous” anywhere near one another, brace yourselves for a Bennett-Bernstein-Brassard-Blitzirani the likes of which the multiverse has never seen.
+
+Update (2/16): If you read the comments, Geordie Rose responds to me, and I respond to his response.  Also see the comments on my earlier D-Wave post for more entertaining and ongoing debate.
+
+================================================================================
+
+TITLE: Mistake of the Week: Belief is King
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+A couple days ago the Times ran a much-debated story about Marcus S. Ross, a young-earth creationist who completed a PhD in geosciences at the University of Rhode Island.  Apparently his thesis was a perfectly-legitimate study of marine reptiles that (as he writes in the thesis) went extinct 65 million years ago.  Ross merely disavows the entire materialistic paradigm of which his thesis is a part.
+
+If you want some long, acrimonious flamewars about whether the guy’s PhD should be revoked, whether oral exams should now include declarations of (non)faith, whether Ross is a walking illustration of Searle’s Chinese Room experiment, etc., try here and here. Alas, most of the commentary strikes me as missing a key point: that to give a degree to a bozo like this, provided he indeed did the work, can only reflect credit on the scientific enterprise.  Will Ross now hit the creationist lecture circuit, trumpeting his infidel credentials to the skies?  You better believe it.  Will he use the legitimacy conferred by his degree to fight against everything the degree stands for?  It can’t be doubted.
+
+But here’s the wonderful thing about science: unlike the other side, we don’t need loyalty oaths in order to function. We don’t need to peer into people’s souls to see if they truly believe (A or not(A)), or just assume it for practical purposes.  We have enough trouble getting people to understand our ideas — if they also assent to them, that’s just an added bonus.
+
+In his Dialogue Concerning the Two Chief World Systems, Galileo had his Salviati character carefully demolish the arguments for Ptolemaic astronomy — only to concede, in the final pages, that Ptolemaic astronomy must obviously be true anyway, since the church said it was true.  Mr. G, of course, was just trying to cover his ass.  The point, though, is that his ploy didn’t work: the church understood as well as he did that the evidence mattered more than the conclusions, and therefore wisely arrested him.  (I say “wisely” because the church was, of course, entirely correct to worry that a scientific revolution would erode its temporal power.)
+
+To say that science is about backing up your claims with evidence doesn’t go far enough — it would be better to say that the evidence is the claim.  So for example, if you happen to prove the Riemann Hypothesis, you’re more than welcome to “believe” the Hypothesis is nevertheless false, just as you’re welcome to write up your proof in encrusted boogers or lecture about it wearing a live gerbil as a hat.  Indeed, you could do all these things and still not be the weirdest person to have solved a Clay Millennium Problem.  Believing your proof works can certainly encourage other people to read it, but strictly speaking is no more necessary than the little QED box at the end.
+
+The reason I’m harping on this is that, in my experience, laypeople consistently overestimate the role of belief in science.    Thus the questions I constantly get asked: do I believe the many-worlds interpretation?  Do I believe the anthropic principle?  Do I believe string theory?  Do I believe useful quantum computers will be built?  Never what are the arguments for and against: always what do I believe?
+
+To explain why “belief” questions often leave me cold, I can’t do better than to quote the great Rabbi Sagan.
+
+I’m frequently asked, “Do you believe there’s extraterrestrial intelligence?”  I give the standard arguments — there are a lot of places out there, the molecules of life are everywhere, I use the word billions, and so on.  Then I say it would be astonishing to me if there weren’t extraterrestrial intelligence, but of course there is as yet no compelling evidence for it.
+
+Often, I’m asked next, “What do you really think?”
+
+I say, “I just told you what I really think.”
+
+“Yes, but what’s your gut feeling?”
+
+But I try not to think with my gut.  If I’m serious about understanding the world, thinking with anything besides my brain, as tempting as that might be, is likely to get me into trouble.
+
+In my view, science is fundamentally not about beliefs: it’s about results.  Beliefs are relevant mostly as the heuristics that lead to results.  So for example, it matters that David Deutsch believes the many-worlds interpretation because that’s what led him to quantum computing.  It matters that Ed Witten believes string theory because that’s what led him to … well, all the mindblowing stuff it led him to.  My beef with quantum computing skeptics has never been that their beliefs are false; rather, it’s that their beliefs almost never seem to lead them to new results.
+
+I hope nobody reading this will mistake me for a woo-woo, wishy-washy, Kuhn-wielding epistemic terrorist.   (Some kind of intellectual terrorist, sure, but not that kind.) Regular readers of this blog will aver that I do have beliefs, and plenty of them. In particular, I don’t merely believe evolution is good science; I also believe it’s true. But as Richard Dawkins has pointed out, the reason evolution is good science is not that it’s true, but rather that it does nontrivial explanatory work.  Even supposing creationism were true, it would still be too boring to qualify as science — as even certain creationists hunting for a thesis topic seem to agree.
+
+Or anyway, that’s what I believe.
+
+================================================================================
+
+TITLE: Chicken soup for the frequent flyer’s soul
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+Some of you might have read about how flight attendants at AirTran kicked a 3-year-old screaming brat and her parents off a plane, after the brat had already delayed takeoff for 15 minutes by refusing to get in her seat, and the parents had demonstrated their total unwillingness to control her.  The parents went to the media expecting sympathy; instead, AirTran was immediately deluged with messages of support and people vowing to fly them from then on. Unfortunately, the airline then squandered a PR bonanza by apologizing profusely to the parents and refunding their tickets.  In my opinion, there was no need to kick anyone off the plane: the child and parents should’ve been promptly moved to the luggage compartment, then whipped and beaten upon arrival.
+
+================================================================================
+
+TITLE: The Orion Quantum Computer Anti-Hype FAQ
+URL: https://scottaaronson.blog/?m=200702
+CONTENT:
+Grudgingly offered for your reading pleasure, and in the vain hope of forestalling further questions.
+
+Q: Thanks to D-Wave Systems — a startup company that’s been in the news lately for its soon-to-be-unveiled “Orion” quantum computer — is humanity now on the verge of being able to solve NP-complete problems in polynomial time?
+
+A: No.  We’re also not on the verge of being able to build perpetual-motion machines or travel faster than light.
+
+Q: But couldn’t quantum computers try all possible solutions in parallel, and thereby solve NP-complete problems in a heartbeat?
+
+A: Yes, if the heart in question was beating exponentially slowly.
+
+Otherwise, no.  Contrary to widespread misconception, a quantum computer could not “try all possible solutions in parallel” in the sense most people mean by this.  In particular, while quantum computers would apparently provide dramatic speedups for a few “structured” problems (such as factoring integers and simulating physical systems), it’s conjectured that they couldn’t solve NP-complete problems in polynomial time.
+
+Q: But isn’t factoring an NP-complete problem?
+
+A: Good heavens, no!  While factoring is believed to be intractable for classical computers, it’s not NP-complete, unless some exceedingly unlikely things happen in complexity theory.  Where did you get the idea that factoring was NP-complete?  (Now I know how Richard Dawkins must feel when someone asks him to explain, again, how “life could have arisen by chance.”)
+
+Q: How could the people at D-Wave not understand that quantum computers couldn’t solve NP-complete problems in polynomial time?
+
+A: To his credit, Geordie Rose (the founder of D-Wave) does understand this; see here for example.  And yet, essentially every article I’ve read about D-Wave gives readers exactly the opposite impression.  The charitable explanation is that the D-Wave folks are being selectively quoted or misquoted by journalists seeking to out-doofus one another.  If so, one hopes that D-Wave will try harder in the future to avoid misunderstandings.
+
+Q: But even if it gave only polynomial speedups (as opposed to exponential ones), couldn’t the adiabatic quantum computer that D-Wave built still be useful for industrial optimization problems?
+
+A: D-Wave’s current machine is said to have sixteen qubits.  Even assuming it worked perfectly, with no decoherence or error, a sixteen-qubit quantum computer would be about as useful for industrial optimization problems as a roast-beef sandwich.
+
+Q: But even if it wasn’t practically useful, wouldn’t a 16-qubit superconducting quantum computer still be a major scientific advance?
+
+A: Yes, absolutely.
+
+Q: So, can D-Wave be said to have achieved that goal?
+
+A: As Dave Bacon pointed out earlier, it’s impossible to answer that question without knowing more about how their machine works.  With sixteen qubits, a “working demo” doesn’t prove anything.  The real questions are: how high are the fidelities, and what are the prospects for scalability?
+
+Q: But clearly D-Wave isn’t going to give away its precious trade secrets just to satisfy some niggling academics!  Short of providing technical specifics, what else could they do to make computer scientists take them seriously?
+
+A: Produce the prime factors of
+
+1847699703211741474306835620200164403018549
+3386634101714717857749106516967111612498593
+3768430543574458561606154457179405222971773
+2524660960646946071249623720442022269756756
+6873784275623895087646784409332851574965788
+4341508847552829818672645133986336493190808
+4671990431874381283363502795470282653297802
+9349161558118810498449083195450098483937752
+2725705257859194499387007369575568843693381
+2779613089230392569695253261620823676490316
+036551371447913932347169566988069.
+
+Q: Alright, what else could they do?
+
+A: Avoid talking like this:
+
+The system we are currently deploying, which we call Trinity, is a capability-class supercomputer specifically designed to provide extremely rapid and accurate approximate answers to arbitrarily large NP-complete problems … Trinity has a front-end software interface, implemented in a combination of Java and C, that allows a user to easily state any NP-complete problem of interest.  After such a problem has been stated the problem is compiled down to the machine language of the processors at the heart of the machine. These processors then provide an answer, which is shuttled back to the front end and provided to the user.  This capability can of course be called remotely and/or as a subroutine of some other piece of software.
+
+Or to translate: “Not only have we built a spaceship capable of reaching Pluto in a few hours, our spaceship also has tinted windows and deluxe leather seats!”  If I were them, I’d focus more on the evidence for their core technological claims, given that those claims are very much what’s at issue.
+
+Q: While Dave Bacon also expressed serious doubts about the Orion quantum computer, he seemed more enthusiastic than you are.  Why?
+
+A: Generous and optimistic by nature, Dave strives to give others the benefit of the doubt (as the Chinese restaurant placemat would put it).  Furthermore, as Quantum Pontiff, he’s professionally obligated to love the quantum sinner and forgive the wayward quantum sheep.  And these are all wonderful qualities to have.  On the other hand, when the hype surrounding some topic crosses a certain threshold, arguably a pricklier approach becomes called for.
+
+Q: If D-Wave fizzles out, will many journalists and policymakers then conclude that quantum computing is bunk?
+
+A: It doesn’t seem unlikely.
+
+Q: What would it take to get these people to recognize the most elementary distinctions?
+
+A: That’s the question, isn’t it?
+
+Update (2/13): Lawrence Ip, my friend from Berkeley who now works at Google, went to the D-Wave “launch” in person and kindly provided the following report.
+
+I just came back from the D-Wave announcement. Unfortunately I had to leave at the start of the Q&A session.
+
+Here’s what I took away from it (minus the marketing fluff):
+
+– They claim to solve integer programming problems on their system. Geordie Rose was careful to explicitly say that they are only hoping to see a quadratic speedup. Herb Martin (the CEO) wasn’t quite as careful in his opening remarks but then he’s the “suit”. Geordie said that their current chip is not a universal QC (presumably because their space of Hamiltonians is limited) but with some work they expect to be able to make it universal.
+
+– Geordie said compared their approach to the efforts in academia as similar to Celera and the Human Genome Project. He said they were trying to get something that would scale fast and worry about about the quality of the qubits later. He contrasted this to the academic community’s efforts to achieve fine control over qubits before scaling up. They say that they hope to reach 1024 qubits by the end of 2008.
+
+– They demoed 3 “real-world” problems where they used their system as essentially a blackbox IP solver.
+– Searching for protein matches. Given a protein try to find the closest match in a protein database. They serially fed all the items from the database to the chip and asked it to score the match against the given protein. They said it was solving a maximum independent set problem.
+– Finding the best seating arrangement at a wedding reception. Given constraints on which people can’t be seated together and who wants to sit together, find the optimal arrangement.
+– Solving a Sudoku puzzle.
+
+– At one point Geordie quoted you. He excerpted a paragraph from your SIGACT article (the one where you talk about generating Shakespeare’s 38th play) and mentioned your proposal of the inability to solve NP-hard problems as a physical law. As far as I can remember, the only other computer scientist he quoted was Gordon Moore so you’re in good company. 🙂
+
+================================================================================
+

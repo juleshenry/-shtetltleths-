@@ -1,0 +1,189 @@
+TITLE: Time to do Scott’s research again
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+Given vectors v1,…,vm in Rn, is it NP-hard to find a unit vector w that maximizes the (absolute value of the) product of inner products, |(v1·w)···(vm·w)|?  What about in Cn? Are these problems hard to approximate on a logarithmic scale?
+
+$20 for answers to all three.  I should get better at doing these things myself.
+
+================================================================================
+
+TITLE: Websbane
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+According to ancient complexity lore, at a saddle point high in the mountains of Oberwolfach lies buried a single flask of a mystical elixir known as Websbane, or the Hammer of Firefox.  Some say that the productivity-enhancing potion was brewed from the sweat of Erdös and the toenail clippings of Euler; others that it was mixed, condensed, and extracted for the Prophesied One centuries hence who will derandomize BPP.  Yet all agree on the tonic’s awesome efficacy: it is said that one drop would furnish lifelong protection against Slate and Salon; a teaspoonful would lift Wikipedia’s stranglehold on the soul.  He who once imbibed would neither reread Onion articles from dusk till dawn, nor follow hyperlinks till scarcely a blue word remained amidst the purple, nor while away a Thursday googling a Montreal-born singer-songwriter mentioned in an email of de Wolf.  Papers would get finished – books written – reimbursement forms turned in – blog entries posted without delay.
+
+Today’s topic is what we can do until the Websbane is unearthed from its resting-ground.   I offer four suggestions below; any additions are welcome.
+
+Follow these rules, and you might someday become as disciplined and productive as I am.
+
+================================================================================
+
+TITLE: Mistake of the Week: The Unknown Unknown
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+And how is not this the most reprehensible ignorance, to think that one knows what one does not know? But I, O Athenians! in this, perhaps, differ from most men; and if I should say that I am in any thing wiser than another, it would be in this, that not having a competent knowledge of the things in Hades, I also think that I have not such knowledge.
+
+Shtetl-Optimized’s Mistake of the Week series finally resumes today, with what’s arguably the #1 mistake of all time.  This one’s been noted by everyone from Defense Secretary Donald Rumsfeld, to some toga-wearing ancient dude, to the authors of the paper Unskilled and Unaware of It: How Difficulties In Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments.
+
+Rather than give examples of this mistake — where would I start? where would I stop? how often have I made it myself? — I figured it’d be easier to give an example where someone didn’t make it.  Today I received an email from a graduate student who had proved a quantum oracle separation, and wanted to know whether or not his result was too trivial to publish.  I get fan mail, I get hate mail, I get crank mail, I get referee requests, but this is something I almost never see.  After telling the student why his result was, indeed, too trivial to publish, I wrote:
+
+There’s no shame in proving things that are already known, or that follow easily from what is.  Everyone does it, the more so when they’re just starting out … The very fact that you cared enough to ask me if your result is trivial bodes well for your proving something nontrivial.
+
+================================================================================
+
+TITLE: The physicists and the wagon
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+[Here’s a little fable that I wrote today, while listening to a talk “showing” that a fault-tolerant quantum computer would need at least 100 physical qubits for every logical qubit.  Physicists are welcome to shoot back with counter-fables, as are closet computer scientists like His Holiness.]
+
+Update: The Pontiff has accepted my challenge and posted a counter-fable to his blog.  I’ve replied in his comments section with a counter-counter-fable.
+
+One day a group of physicists ran excitedly into the computer science building.  “Guess what?” they cried.  “You know how you’re always trying to prove lower bounds, but you almost never succeed?  Well, today we proved a lower bound!”
+
+“What did you prove?” asked the computer scientists.
+
+“We proved that to pull a wagon through a forest, you need at least five oxen.  It’s physically impossible to do it with four oxen or less, regardless of what other resources you have.”
+
+“How did you prove that?”
+
+“Well, we looked up the strength of a typical ox, the weight of a typical wagon, the size of every forest in a 30-mile radius…”
+
+“Yeah, but what if you had an ox the size of a Brontosaurus?  Or what if the forest was only two feet across?  Or what if the wagon weighed less than a fingernail?”
+
+The physicists snickered.  “These are clearly unphysical assumptions.  As long as you stay within a realistic region of parameter space, our impossibility proof is airtight.”
+
+“Ah, but how do you know there couldn’t be some completely different method of pulling wagons — maybe even a method that’s not ox-based at all?”
+
+“Look, we physicists are interested in the real world, not complexity-theory la-la land.  And at least in the real world, when people want to pull wagons, oxen are what they use.”
+
+The physicists weren’t heard from again until almost a decade later, when they once again barged into the CS building.  “Guess what?” they cried.  “We just discovered a loophole in the famous Five-Ox Theorem — the one we published years ago in Nature!”
+
+“What’s the loophole?”
+
+“Elephants!  If you had an elephant pulling the wagon, you wouldn’t need any oxen at all.  With hindsight it’s almost obvious, but what a paradigm shift it took!”
+
+The computer scientists stared blankly.
+
+“You see,” said the physicists.  “This is why we never trust so-called impossibility proofs.”
+
+================================================================================
+
+TITLE: Back to safe territory
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+When you see me getting chased across the blogosphere by livid, paintbrush-wielding artistes, it can only mean one thing: that I’ve once again abandoned my “promise” to stick to the Serious Complexity Theory That I’m Actually Qualified To Discuss.  So I’ll tell you what, whistling-pig-lovers: answer me the following; then come back for more.
+
+Given a set of n-by-n real matrices, is there a nonzero linear combination of those matrices with rank 1?  Equivalently, given a subspace S of a bipartite n-by-n Hilbert space, does S contain a separable state?
+
+I’d like (1) a proof of NP-hardness for the exact version, and (2) more importantly, whether or not there’s a decent approximation algorithm.  (For instance, an algorithm that finds a rank-1 matrix, with the sum of the squares of the entries equal to 1, whose L2-distance from the subspace of interest is at most a small additive constant more than optimal.)
+
+So get cracking!  If you do find a decent approximation algorithm, you’ll have shown, among other things, that QMA(2) (QMA with two unentangled yes-provers) is in EXP.  Incredibly, right now we don’t have any upper bound better than NEXP.
+
+Oh, yes: while my brain is closed, and while I can barely turn theorems into coffee, I will offer $20 for a solution to (2).
+
+American.
+
+================================================================================
+
+TITLE: Confessions of a Hebrew Philistine
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+I took a lot of flak for expressing wrong musical opinions last week.   Since I so enjoy the role of human flamebait, I’ve decided to have another go at clarifying my views about Art in general.  See, until a few years ago, I was intimidated by art and music snobs, by the sort of person who recently deposited the following on Lance Fortnow’s blog:
+
+man, the ignorance displayed here is taken to new levels. your ph.d. in computer science qualifies you as nothing musically, dumbass.  ever heard of dynamic range? go look it up.
+
+A bit uncivil, perhaps, but doesn’t this anonymous fount of musical wisdom have a point?  After all, spouting off about quantum computers, entanglement, or Gödel’s Theorem without studying them first would certainly qualify you as a dumbass.  So if I don’t think the same about music, then aren’t I a big fat hypocrite?
+
+Ah, but consider the following. If — as the snob would be first to affirm — the purpose of art is not to assert or argue anything as a research paper would, but simply to produce an emotional response in the viewer or listener, then what does it even mean to be unqualified to voice that response? Presumably one person’s emotional response is as valid as another’s.  Indeed, the difficulty with the snob is that he wants it both ways.  “What made Picasso the greatest artist of the twentieth century is ineffable, indescribable — and I’m the one who knows enough to describe it to you.”  “This opera is astounding because it induces a visceral, gut response in the audience — and if you don’t have that response, your gut must be mistaken.”  The point is that, once you’ve declared something to be nonscientific, emotional, subjective, you have to allow that someone else’s subjective reaction might differ from yours.
+
+So on this day, let us celebrate our freedom from the tyranny of pretending to like stuff we don’t.  I’ll start the honesty ball rolling by dividing the world’s artistic output into three categories, then giving examples of each (not representative, just the first things that popped into my head).
+
+Art that’s stirred my soul
+
+The Simpsons
+Futurama
+South Park
+Shakespeare (comedies especially)
+Tom Sawyer and Huck Finn
+The Mind-Body Problem by Rebecca Goldstein
+Everything by Pixar
+Arcadia by Tom Stoppard
+
+Art that maybe hasn’t moved me, but that I can nevertheless agree is quite impressive, based not on what other people say but on my own experience of it
+
+The Sistine Chapel (indeed, pretty much everything in Rome)
+Them big paintings in the Louvre
+Them big Buddhist temples in Kyoto
+Beethoven
+Mozart
+The Beatles
+Jazz improv
+Jimi Hendrix
+Early Woody Allen
+
+Art in neither of the two above categories
+
+Late Woody Allen
+Everything in the MoMA
+Picasso
+Van Gogh
+Weird indie films where nothing happens
+Anything by David Lynch or M. Night Shyamalan
+Rap (except MC Hawking)
+“Experimental” music
+
+PS. There’s really no need to flame me if you have different tastes, since I won’t take it as a moral failing on your part.  (Except with regard to M. Night Shyamalan.)
+
+================================================================================
+
+TITLE: Schrödinger’s cat is hunting masked chickens
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+A commenter on my last post — who, since he or she chose not to provide a name, I’ll take the liberty of calling Dr. Doofus McRoofus — offers the following prediction about quantum computing:
+
+[U]nless quantum computing can deliver something practical within the next five to ten years it will be as popular then as, say, PRAMs are today.
+
+Four reactions:
+
+================================================================================
+
+TITLE: Anonymous reviewing: the QWERTY of science
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+The journal Nature has started a three-month trial of a new peer review system.  Here’s how it works: while a paper is sent out for traditional review, the authors can also choose to make it open for comments on the web.  Any such comments are public and signed, and the authors can respond to them in public.  Then, when making their acceptance decision, the editors take into account both the anonymous reviews and the public online discussion.
+
+Personally, I think this is a phenomenal idea, and I hope it spreads to computer science sooner rather than later.  I’ve always been struck by the contradiction between scientists’ centuries-old mistrust of secrecy — their conviction that “only mushrooms grow in the dark” — and their horror at signing their names to their opinions of each other’s work.  Are we a bunch of intellectual wusses?
+
+Inspired by Nature’s experiment, I’m going to try an experiment of my own.  Rather than develop my views any further (which I don’t feel like doing), I’m just going to stop right here and open the field to comments.  Go!
+
+================================================================================
+
+TITLE: Called in for another cohenoscopy
+URL: https://scottaaronson.blog/?m=200606
+CONTENT:
+Ronald de Wolf asks:
+
+how does Leonard Cohen (the Montreal-born singer-songwriter, a.k.a. my latest hero) fit in “the Cohen balance of the universe”?
+
+I’d heard of him, but I knew nothing about him until Ronald’s question prompted several hours of websurfing.  (Thanks a million, Ronald!)  As a result of this diligent research — as well as almost three full minutes of listening to mp3’s — I can now offer the world the following
+
+COHEN SCORECARD
+
+Starting credit: 1 point.
+
+Seems like a nice guy: +3 points.
+
+Singing voice several notches below me with a sore throat: -2 points.
+
+Songs that I can’t imagine listening to for pleasure: -1 point.
+
+Then again, I don’t listen to music: 1 point back.
+
+In his seventies, continues to attract babes like flypaper: +4 points.
+
+Is nevertheless profoundly melancholic: -4 points.
+
+Verdict: Inconclusive.
+
+================================================================================
+

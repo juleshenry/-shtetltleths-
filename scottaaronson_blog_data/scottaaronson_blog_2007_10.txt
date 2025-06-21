@@ -1,0 +1,173 @@
+TITLE: The Aaronson $25.00 Prize
+URL: https://scottaaronson.blog/?m=200710
+CONTENT:
+[Update]
+
+For those of you who’ve been living in a non-wifi-enabled cave, four days ago Stephen Wolfram awarded a $25,000 prize to a 20-year-old undergraduate named Alex Smith, for proving that a particular two-state, three-symbol Turing machine is universal.    The prize was to celebrate the fifth anniversary of Wolfram’s paradigm-smashing, foundation-shaking masterpiece, A New Kind of Science.  (More from Bill Gasarch’s blog, Nature, and Scientific American.)
+
+Smith sounds like a swell guy who entered this contest for exactly the right reasons: he was at his parents’ place over summer break and had nothing better to do.  He deserves the money, and I sincerely hope the CS theory community hasn’t heard the last from him.
+
+Predictably, though, as soon as this story broke I started getting emails from journalists asking me about the far-reaching scientific implications of the new universality proof.  In trying to give them an honest answer — one that wouldn’t be misunderstood, or spun to support a pre-existing storyline with which I disagreed — I inevitably came off like an ornery old sourpuss.  From Scientific American:
+
+Of course, there may be a reason the problem languished. “Finding the smallest universal [Turing machines] is a neat recreational pursuit,” quantum computation researcher Scott Aaronson of the Massachusetts Institute of Technology says, but “it’s no longer seen as connected to the central questions of the field.” …
+
+“The impact of NKS on all the areas of computer science and physics I’m familiar with has been basically zero,” he says. “As far as I can tell, the main impact is that people now sometimes use the adjective ‘Wolframian’ to describe breathtaking claims for the trivial or well-known.”  [Martin] Davis offers a sunnier take: “The book has a lot of beautiful pictures.”
+
+And from Nature:
+
+The solution isn’t hugely relevant to modern computer science, says Scott Aaronson, a computer scientist at the Massachusetts Institute of Technology (MIT) in Cambridge, Massachusetts. “Most theoretical computer scientists don’t particularly care about finding the smallest universal Turing machines,” he wrote in an e-mail. “They see it as a recreational pursuit that interested people in the 60s and 70s but is now sort of ‘retro’.”
+
+Having partially degrumpified, in the remainder of this post I wish to offer something positive.
+
+But first some background: a month after NKS came out, I wrote a review of it for the journal Quantum Information and Computation, in which I examined Wolfram’s claims about quantum mechanics and computational complexity, and explained what I saw as the problems with them.  (Rather than rehash the review, I’ll just point you there if you’re interested.)
+
+Today I’d like to celebrate the fifth anniversary of my critical review of NKS, by offering a $25 prize for stodgy, conventional work in the field of quantum complexity theory.
+
+The Aaronson $25.00 Challenge
+
+In NKS, Wolfram places himself among those computer scientists and physicists who doubt the possibility of quantum computers, not for any practical reason but as a consequence of their disbelieving quantum mechanics itself.  As he writes on page 771:
+
+Indeed within the usual formalism [of quantum mechanics] one can construct quantum computers that may be able to solve at least a few specific problems exponentially faster than ordinary Turing machines.  But particularly after my discoveries in Chapter 9 [‘Fundamental Physics’], I strongly suspect that even if this is formally the case, it will still not turn out to be a true representation of ultimate physical reality, but will instead just be found to reflect various idealizations made in the models used so far.
+
+Here, then, is the challenge:
+
+If a quantum computer can efficiently solve a problem, can it also efficiently convince Wolfram that the solution is correct?  More formally, does every language in the class BQP admit an interactive protocol where the prover is in BQP and the verifier is in BPP?
+
+In other words: can quantum computers always “show their work”?  It’s obvious, for example, that if a quantum computer spit out the factors of a 5,000-digit number, you wouldn’t have to believe quantum mechanics (or even know what it was) to check whether the answer was right.  I’m asking whether every problem solvable by a quantum computer has the same property.  And to make things fair to the quantum computer, I’ll let it give not just a static proof but also an interactive protocol, by which a distrustful polynomial-time classical verifier could become convinced, to arbitrarily high confidence, that the quantum computer knows the right answer.
+
+(An example for the uninitiated: suppose you had two graphs G and H, and suppose you picked one of the graphs at random, randomly permuted its vertices, and gave the result to a quantum computer. And suppose the quantum computer could unfailingly tell you which graph you started with.  Clearly this should convince you that G and H are not isomorphic — since if they were isomorphic, then the quantum computer couldn’t have done better than guessing!  And this is true even though you never received a proof of non-isomorphism that you could hand to someone else.)
+
+I’ll award $25 either for a proof that every quantum computation can be “counter-Wolframized,” or for an oracle relative to which some quantum computation provably can’t be. If both problems are solved then I’ll award $25 for each.  Every serious submission will be reviewed by a Prize Committee consisting of me.   The Committee may also choose to award smaller prizes for partial results.
+
+Note: Much as I’d like to “pull a Wolfram,” the beautiful question above was (to my knowledge) first asked by Daniel Gottesman, at a conference in February 2004.  Also, the idea of a $25 prize was suggested to me by Mike Mosca.
+
+Update (10/30): A commenter pointed me to this thread  in the Foundations of Mathematics (FOM) mailing list, which contains an actual technical discussion of Smith’s universality proof.  Of particular interest:
+
+In judging the correctness of Smith’s proof, the key question is what counts as “universality.”  As I explained to the journalists who emailed me, the rules of Wolfram’s prize left a huge gray area by explicitly refusing to specify this.  In particular: what kinds of input and output encodings are allowed?  How do we make sure the real computational work is done by the Turing machine itself and not the encoding procedures?  Does the tape have to be filled with 0’s initially, or can it be filled with other patterns, and if so which ones? Since the two-state Turing machine in question has no “halt” state, what external conditions can we impose to determine when the machine has halted?
+
+Still, I decided not to make a fuss about such things in my original post, since it seemed clear from Smith’s writeup that (1) he was aware of these issues, and (2) there was some nontrivial sense in which he proved universality.  I wasn’t going to lose sleep over which sense, for the simple reason that I’d never lost sleep over the (2,3) universality question itself!
+
+
+
+================================================================================
+
+TITLE: University takes unfortunate stance on existence of quantum algorithm
+URL: https://scottaaronson.blog/?m=200710
+CONTENT:
+The homepage of Bristol University now prominently features a photograph with the words “NP ⊂ BQP, but the proof is too small to fit on this blackboard.”   Hat tip to Aram Harrow, who’s also the apparent culprit behind this embarrassment to his employer.
+
+================================================================================
+
+TITLE: Halloween Special: My Inbox
+URL: https://scottaaronson.blog/?m=200710
+CONTENT:
+Most Respected Profeser Sir Dr. Scot Andersen: I wish to join your esteemed research group.  I have taken two courses in Signal Processing at the Technical College of Freedonia; thus, it is clear that I would be a perfect fit for your laboratory at MIT. Please respond immediately with a specific date for the commencement of my studies.
+
+Scott, did you hear the news yet??  There's a link on Slashdot about how to solve NP-complete problems in linear time using Peanut M&M's!  There's also an interview with Dr. Doofus McRoofus in New Scientist, where he says quantum computing proves the reality of time travel! Plus, a mathematician at the University of Trivialshire has apparently announced a new number system where you can take not only square roots, but also the square roots of square roots!  What do you think about all these developments?  Please blog your reaction ASAP!
+
+Dr. Aaronson, while your writings are of some interest, you have nevertheless a great deal to learn from my more refined insight and sagacity.  In particular, your references to the so-called "theory of evolution" are surprisingly naïve and simplistic. You seem wholly unaware of the profound conundrum of how a system with a low degree of order can obtain progressively higher degrees of order, in direct contradistinction to the Second Law of Thermodynamics... [17 pages omitted]  Please let me know when you will be available to enter into a sustained dialogue about the flawed presuppositions underlying empirical positivism.
+
+Hello, I am interested in leaning about computer science !!  Please give me some links to get started.
+
+Brief responses here. Back in the day, I prided myself on answering emails individually, and vowed I’d never become the sort of academic who puts an FAQ on his home page and tells people to read it before emailing him.  And I kept that vow — three whole months into starting a faculty job.
+
+================================================================================
+
+TITLE: Dead-blogging FOCS’2007
+URL: https://scottaaronson.blog/?m=200710
+CONTENT:
+For the past few days I’ve been at FOCS’2007 in Providence, Rhode Island, where apparently I’m supposed to have been live-blogging the conference. This came as news to me. (One of the organizers wrote to ask if I’d be posting live updates. I replied that I might post something eventually.)
+
+The trouble is, I still have tons of “backblog” from my previous trip to Latvia and Germany. And so, in the hopes of someday catching up, without further ado I hereby post some photos from Europe.
+
+Sure, I support moderate-to-liberal Democrats … as a temporary measure until zee vorkers take over zee vorl’ [laughs maniacally]
+
+(The above photos were taken in an underground bunker a couple hours from Riga, which the Soviets secretly built in the 70’s, and to which top Communist party officials planned to retreat in case of a nuclear war. Of course, no provisions were made for the rest of the population. Apparently the Soviets built shelters like these all over Latvia. Most of them were converted to bowling alleys or library storage space, but one was preserved for tourists.)
+
+
+
+My gracious hosts in Latvia: longtime colleague (and sometime Shtetl-Optimized commenter) Andris Ambainis, Andris’s Ambai-niece Ilze, and Ilze’s husband Girts.
+
+
+
+When I think about Munich, Germany, so many mental associations spring immediately into my mind: the fine baroque architecture, the nearby Bavarian alps, the freshly-baked pretzels that are a Munich specialty, the open spaces perfect for rallies and demonstrations of all kinds — but most of all, of course, I think of Oktoberfest! Here you see me drinking genuine bier served by a genuine bier wench (not pictured) with my gracious hosts from the Max-Planck-Institut für Quantenoptik: Norbert Schuch, Ignacio Cirac, and Michael Wolf.
+
+================================================================================
+
+TITLE: What every math talk should be like
+URL: https://scottaaronson.blog/?m=200710
+CONTENT:
+Watch a sphere get turned inside out with no cuts or creases.  Hat tip: John Baez.
+
+================================================================================
+
+TITLE: Procrastinating on the sidelines of history
+URL: https://scottaaronson.blog/?m=200710
+CONTENT:
+I wasn’t born to be a blogger.   I can’t respond to events in real-time.    When history happens, I might or might not be there to react.  To give one example: I still don’t have any update to share about the Australian models.  (Hopefully soon.)
+
+To give another example: last week Al Gore — the most famous American politician to think in complete sentences since Abraham Lincoln — won the Nobel Peace Prize, and where was I?  At a workshop in Germany, wondering how it could be that if UNSAT many-one reduces to a set of subexponential density then NP is in coNP/poly.  (More on that another time.)
+
+So, Al Gore.  Look, I don’t think it reflects any credit on him to have joined such distinguished pacifists as Henry Kissinger and Yasser Arafat.  I think it reflects credit on the prize itself.  This is one of the most inspired choices a Nobel Peace Prize committee ever made, even though  ironically it has nothing directly to do with peace.
+
+With the release of An Inconvenient Truth and The Assault on Reason, it’s become increasingly apparent that Gore is the tragic hero of our age: a Lisa among Cletuses, a Jeffersonian rationalist in the age of Coulter and O’Reilly.  If I haven’t said so more often on this blog, it’s simply because the mention of Gore brings up such painful memories for me.
+
+In the weeks leading up to the 2000 US election, I could almost feel the multiverse splitting into two branches of roughly equal amplitude that would never again interact.   In both branches, our civilization would continue racing into an abyss, the difference being that in one branch we’d be tapping the brakes while in the other we’d be slamming the accelerator.  I knew that the election would come down to Florida and one or two other swing states, that the margin in those states would be razor-thin (of course no one could’ve predicted how thin), and that, in contrast to every other election I’d lived through, in this one every horseshoe and butterfly would make a difference.  I knew that if Bush got in, I’d carry a burden of guilt the rest of my life for not having done more to prevent it.
+
+The question was, what could a 19-year-old grad student at Berkeley do with that knowledge? How could I round up tens of thousands of extra Gore votes, and thereby seize what might be my only chance in life to change the course of history?   I quickly ruled out trying to convince Bush voters, assuming them beyond persuasion.   (I later found out I was wrong, when I met people who’d voted for Bush in 2000 but said they now regretted their decision.  To me, it was as if they’d just noticed the blueness of the sky.)
+
+And thus my attention shifted to the Right’s #1 friend and ally throughout history: the Far Left.  All over Berkeley I was seeing Ralph Nader placards.  At the lunch table, I even heard the strange argument that if Nader caused Bush to win, it would ultimately be for the best, since it would finally force everyone to see how bad things were: an update of the old Marxist doctrine of “heightening the contradictions.”  (I wondered: if Nader supporters truly believed that, then why didn’t they just forget about Nader and vote for Bush outright?)
+
+Yet it seemed to me that most Nader supporters were still sane enough that, conditioned on Nader losing (i.e. conditioned on 2+2=4), they would prefer Gore over Bush. The problem was this: how to convince Nader supporters in swing states of something that, were they convincable, they would’ve been convinced of already?  That’s when I read about an idea due to law professor Jamin Raskin, called “Nadertrading.”  The idea was simple: Nader supporters in swing states (like Florida and Pennsylvania) would vote for Gore, having arranged for a Gore supporter in a “safe” state (like New York or Texas) to vote for Nader on their behalf, thereby helping Nader get the 5% he’d need to qualify for federal funds in 2004.  Two separate irrationalities of the US election system — (1) the Electoral College, and (2) the lack of something like Approval Voting to handle three or more candidates — would be played against each other.
+
+Almost as soon as Raskin published his idea, websites arranging the swaps were set up and were being used.  Nadertrading clearly appealed to a nontrivial fraction of Nader supporters, possibly even enough to tip the scales of fate.  Yet in magazine articles and message boards, I repeatedly saw fallacious arguments against the idea: for example, that Bush supporters could game the system; that you shouldn’t agree to a vote swap if you think there’s any nonzero chance of the other person reneging; that trading a vote has the same moral status as selling it.
+
+So I set up a little web page called In Defense of Nadertrading, to make the moral and game-theoretic case for Raskin’s idea.  The next morning, I was surprised to find myself an “expert” on the topic: getting Slashdotted, deluged with email, woken up by a call from CNN, etc.  I also got a fair amount of hate mail, some of which I posted on the site and ridiculed: good experience for my blogging career.
+
+The Nadertrading movement took a hit when, in a few states, the sites arranging the vote swaps (which didn’t include mine) were shut down by state attorneys-general (all of whom happened to be Republicans), over the protests of civil libertarians.   But sites hosted in other states remained up and running.
+
+In the end, though, the Nadertrading movement simply failed to reach enough of its target audience. The websites put up by me and others apparently induced at least 1,400 Nader supporters in Florida to vote for Gore — but 97,000 Floridians still voted for Nader.  And as we know, Bush ended up “winning” the state by 537 votes.
+
+After the hanging-chad circus and Gore’s withdrawal, I tried to bury myself in quantum complexity classes and worry as little as possible about the future of civilization.  My main news sources became The Daily Show and The Onion.  Yet much as I’ve wanted to forget, for seven years I’ve carried certain questions on my conscience like a sack of stones:
+
+Why does the US have a failed oilman for president rather than the Churchill of climate change?  Why was the president vacationing in Texas when bin Laden’s plans to strike the US came up in a daily briefing?   Why are we stuck in Iraq?
+
+There are, of course, many correct answers to these questions, but there’s one correct answer I keep coming back to: because I didn’t make a good enough website.  Because my prose wasn’t tight enough and my jokes weren’t funny enough.   Because I spent too much time procrastinating when I should’ve been pounding away at my keyboard.
+
+================================================================================
+
+TITLE: Australian actresses are plagiarizing my quantum mechanics lecture to sell printers
+URL: https://scottaaronson.blog/?m=200710
+CONTENT:
+I tried to think of a witty, ironic title for this post, but in the end, I simply couldn’t.  The above title is a literal statement of fact.
+
+A reader named Warren Smith informs me of an Australian TV commercial (which you can watch on YouTube), in which two fashion models have the following conversation:
+
+Model 1: But if quantum mechanics isn’t physics in the usual sense — if it’s not about matter, or energy, or waves — then what is it about?
+
+Model 2: Well, from my perspective, it’s about information, probabilities, and observables, and how they relate to each other.
+
+Model 1: That’s interesting!
+
+The commercial then flashes the tagline “A more intelligent model,” followed by a picture of a Ricoh printer.
+
+More intelligent, or simply more shameless?   Ladies and gentlemen of the jury, allow me to quote from Lecture 9 of my Quantum Computing Since Democritus notes:
+
+But if quantum mechanics isn’t physics in the usual sense — if it’s not about matter, or energy, or waves, or particles — then what is it about?  From my perspective, it’s about information and probabilities and observables, and how they relate to each other.
+
+For almost the first time in my life, I’m at a loss for words.  I don’t know how to respond.  I don’t know which of 500,000 possible jokes to make.   Help me, readers.  Should I be flattered?  Should I be calling a lawyer?
+
+Update (10/3): [Sydney Morning Herald] [The Age] [Slashdot] [BoingBoing] [AdNews] [Scientific American blog] (Let me know if you find others) (I’m actually in Riga, Latvia, where it’s 8:30am, and just woke up to find all this.  I’m going to take a shower now.)
+
+Also: Please let me know if you get any more “CPU quota exceeded” errors.  I just enabled an option to speed up PHP scripts, which might or might not solve the problem.  Bluehost sucks — never use them for anything!
+
+Update (10/4): Thanks, everyone, for the free legal advice! From half of you I’ve learned that I’d be an arrogant, stereotypically-American jerk to pursue this case further; from the other half I’ve learned that I’d be a naïve idiot not to. The longer I blog, the more I despair of ever achieving my central goal in life, namely for everyone to like me.
+
+Also: Many commenters seem to assume the pilfered quote is just my expression of the conventional wisdom.   Well, it should be, and I wish it were!  But as Avi Wigderson pointed out to me, the idea that quantum mechanics is about information rather than waves or particles is still extremely non-standard, and would have been considered insane fifteen years ago.
+
+Update (10/5): This is not to say it’s my idea (as other commenters assumed I was saying)!  If any entity can claim “ownership” of the idea, I would think it’s the entire quantum computing and information community.  The longer I blog, the more I despair of ever achieving my secondary goal in life, namely for everyone to understand me.
+
+
+
+================================================================================
+

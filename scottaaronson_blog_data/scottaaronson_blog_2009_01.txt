@@ -1,0 +1,99 @@
+TITLE: Stayin’ alive
+URL: https://scottaaronson.blog/?m=200901
+CONTENT:
+Within the last week and a half, I saw two movies that rank among the best I’ve ever seen: Slumdog Millionaire and Defiance.  Slumdog, as you probably know by now, is about an orphan from Mumbai who, in the process of fleeing starvation, murder, and the gouging out of his eyes, picks up enough trivia to go on the Indian version of “Who Wants To Be A Millionaire” and answer almost every question correctly.  (It’s about 100 times better than the premise makes it sound.)  Defiance tells the true story of the Bielski brothers in Belorussia (where most of my family is from), who fled to the forest when the Jews were rounded up in December 1941, and eventually organized the largest Jewish resistance operation of the war.
+
+On thinking it over, I was surprised to realize I liked these two seemingly-unrelated movies for the same reasons.  Let me try to break down what made them good:
+
+================================================================================
+
+TITLE: The arc of complexity is long, but it bends toward lower bounds
+URL: https://scottaaronson.blog/?m=200901
+CONTENT:
+As MIT grad student Jelani Nelson rightly pointed out to me, an historic world event took place on Tuesday, January 20—an event that many of us have awaited for decades, one that we thought we’d never live to see—and I inexcusably failed my readers by neglecting to blog about it.  The event in question, as everyone knows, was Mark Braverman posting to his web page what looks to be a proof of the Linial-Nisan Conjecture.  The LN conjecture, posed in 1990, held that
+
+Polylog-wise independence fools AC0.
+
+Alright, let me try again in English.  The conjecture says that no logic circuit, composed of a polynomial number of AND, OR, and NOT gates (of unbounded fan-in) arranged in a constant number of layers, can distinguish n input bits x1,…,xn that are truly random, from n input bits that look random on every subset of (say) n0.001 bits, but that could be correlated in arbitrary ways across larger scales.  In other words, if such a circuit accepts truly random bits with probability close to 1, then it also accepts the pseudorandom bits with probability close to 1, and vice versa.  If you want to distinguish the random bits from the pseudorandom bits with noticeable bias, then you need a more powerful kind of circuit: either greater depth (say, log(n) layers instead of O(1)), or more gates (say, exponentially many), or more powerful gates (say, XOR or MAJORITY gates instead of just AND, OR, and NOT).  To a constant-depth, polynomial-size, AND/OR/NOT circuit (which we call an AC0 circuit for short—don’t ask why), local randomness looks just the same as global randomness.  Or so says the Linial-Nisan Conjecture.
+
+Now, we’ve known since the eighties that AC0 circuits have serious limitations.  In particular, we’ve known lots of specific pseudorandom distributions that fool them.  What Linial and Nisan conjectured, and Braverman appears to have proved, is that any distribution will do the job, just so long as it “looks random locally.”
+
+A year and a half ago, Bazzi proved the Linial-Nisan conjecture in the special case of depth-two circuits, in a 64-page tour de force.  Then Razborov gave an essentially 2-page proof of the same result.  (Need I explain how awesome that is?)  Braverman extends Bazzi’s result to circuits of any constant depth; his proof is almost as short as Razborov’s.
+
+In proving these lower bounds, the name of the game is the polynomial method (the subject of my FOCS tutorial).  Given an AC0 circuit C, you first construct a low-degree real polynomial that approximates C pretty well on most inputs.  (How do you construct such a thing?  And what does “pretty well” mean?  Save it for the comments section.)  Then you observe that no low-degree polynomial could possibly distinguish a random string from a string that only looks random locally.  Why?  Because a low-degree polynomial, by definition, is a sum of local terms, and if none of those individual terms can distinguish truly random bits from pseudorandom ones (as was assumed), then their sum can’t distinguish them either, by the deep principle of the universe we call linearity of expectation.  (By contrast, an AND or OR of terms could in principle detect “global” properties of the input that none of the individual terms detected—which is why we couldn’t just apply such an argument to the AC0 circuit directly.)  It follows, then, that the original circuit couldn’t have distinguished local randomness from global randomness very well either, which is what we wanted to show.
+
+So everything boils down to constructing these low-degree approximating polynomials and proving they have the right properties.  And in that context, what Braverman does is almost hilariously simple.  Given an AC0 circuit C, he first constructs a low-degree polynomial p that agrees with C on most inputs (from whatever fixed probability distribution you want), using the celebrated method of Valiant-Vazirani and Razborov-Smolensky.  He then observes that, when p fails to agree with C, there’s another AC0 circuit E, of depth slightly greater than C, that detects the failure.  Next he finds a low-degree polynomial q that approximates E in L2-norm, using the also-celebrated 1993 theorem of Linial-Mansour-Nisan. Then he looks at p(1-q), and shows that it’s a polynomial that usually agrees with C, but when it does disagree, usually isn’t too far off.  And then … well, at that point he’s really almost done.
+
+While I had no involvement whatsoever with this beautiful result, I’m pleased to have unwittingly set in motion a chain of events that led to it.  Since the summer, I’ve been trying to get as many lowerbounderati as possible interested in BQP versus PH, a central open problem of quantum complexity theory that’s resisted progress since the prehistoric days of 1993.  (There are certain problems that I mentally classify as “rabbits,” after the Killer Rabbit of Caerbannog from Monty Python and the Holy Grail.  BQP vs. PH is one of the fluffiest, most adorable rabbits ever to leap for my throat.)
+
+Concretely, the goal has been to construct an oracle relative to which BQP (Bounded-Error Quantum Polynomial-time, the class of problems that are feasible for a quantum computer) is not contained in PH (the Polynomial-time Hierarchy, a generalization of NP).  Such a separation would give us probably our best evidence to date that BQP is not contained in NP—or loosely speaking, that not only can quantum computers solve certain problems exponentially faster than classical ones, they can solve certain problems exponentially faster than classical computers can even verify the answers.
+
+(NerdNote: We do have oracles relative to which BQP⊄NP, and indeed BQP⊄MA.  But we still don’t have an oracle relative to which BQP⊄AM.  And that sticks in the craw, since we know that AM=NP under a derandomization hypothesis.)
+
+Now, it occurred to me that BQP versus PH is closely related to the Linial-Nisan Conjecture.  That’s not quite as surprising as it sounds, since you can think of PH as the “exponentially scaled-up version” of AC0 … so that fighting PH ultimately boils down to fighting AC0.
+
+Alright, so consider the following problem, which we’ll call Fourier Checking.  You’re given black-box access to two Boolean functions f,g:{-1,1}n→{-1,1}, and are promised that either
+
+The problem is to decide which, with small probability of error.
+
+It’s not hard to see that Fourier Checking is in BQP (i.e., is efficiently solvable by a quantum computer).  For to solve it, you just go into a uniform superposition over all x∈{-1,1}n, then query f, apply a Quantum Fourier Transform, query g, and see if you’re left with (1) random garbage or (2) something close to the uniform superposition that you started with.
+
+On the other hand, one can show that:
+
+After realizing the above, I tried for months to prove the requisite generalization of Bazzi’s Theorem—or better yet, get someone else to prove it for me.  But I failed.  All I managed to do was to goad Razborov into proving his amazing 2-page version of Bazzi’s original theorem, which in turn inspired Braverman to shoot for the full Linial-Nisan Conjecture.
+
+In what appears to be a cosmic prank, about the only conjectures in this area that still haven’t been proved are the ones I needed for the quantum computing problem.  And thus, I will offer $100 for a proof that Fourier Checking is not in AM, $200 for a proof that it’s not in PH.  In so doing, my hope is to make Tuesday, January 20, 2009 remembered by all as the day our economy finally got back on track.
+
+
+
+================================================================================
+
+TITLE: At least there’s fresh running water and a Start button
+URL: https://scottaaronson.blog/?m=200901
+CONTENT:
+In response to my (justified) kvetching about Vista in my last post, a commenter named Matt wrote in:
+
+I hear there’s some free operating system written by a guy from Finland. Sounds pretty crazy to me, but I hear you can just download it for free. Maybe you could have used that if you didn’t like Vista?
+
+Yes, I’ve heard of the OS by the guy from Finland, and even tried it. On introspection, though, my feelings about Windows are pretty much identical to my feelings about America: sure, it’s big and bloated and crass and flawed and overcommercialized and buggy and insecure, and at least 95% of the insults that the sophisticates hurl at it are true. And other countries and OSes have a great deal to be said for them, and indeed I do spend much of my time visiting them.  But this is home, dammit, it’s where I was brought up, and things would have to get a lot worse before I’d consider moving away for good.
+
+All I need, then, is the Windows analogue of Obama. Would that be the Windows 7 beta? (Vista, of course, being the Windows analogue of Bush?)
+
+================================================================================
+
+TITLE: Perspective
+URL: https://scottaaronson.blog/?m=200901
+CONTENT:
+I’ve been suffering from terrible bronchitis for two weeks.  I can barely talk.  I had to cancel a planned colloquium.  I’m not even gonna try to describe what I’ve been coughing up.  The doctor couldn’t figure out if it was viral or bacterial, but gave me antibiotics anyway.
+
+My laptop broke, the day before I had to give my time travel talk at QIP’2009 in Santa Fe (if you want to know what actually happened at the conference, see Dave’s blog or ask in the comments section).  First the fan started acting up—causing the machine to overheat and shut itself off whenever the computations got too complex; then the ‘G’ and ‘H’ keys became unreliable; and finally the hard disk went, taking much of my data along with it (though I recovered the most important stuff).  So I ran out and bought a new Toshiba laptop, which of course came preinstalled with Vista, which is not just said by everyone to suck but truly does suck.   (Though if you spend a day disabling all the new features, you can make it almost like XP.)
+
+On the flight back to Boston from Santa Fe, the pressure drop during the descent, combined with my bronchitis, sent my ears into pain for days.
+
+The shitty economy is no longer just an abstraction, as friends and close family members have lost their jobs.  I, the starving quantum complexity theorist, now feel like one of the last people I know with an income.  (Though MIT, like other universities, has lost much of its endowment and now faces serious hardships as well.)
+
+But it’s all OK, because the competent guy is president now—even if he flubbed his Oath of Office (update: it seems most of the fault lies with Roberts (another update: Steven Pinker theorizes that the problem was Roberts’s reluctance to split an infinitive)).  He’s gonna fix everything.  Just give him a day or two.
+
+Happy Barackday, everyone!
+
+================================================================================
+
+TITLE: The T vs. HT (Truth vs. Higher Truth) problem
+URL: https://scottaaronson.blog/?m=200901
+CONTENT:
+From a predictably-interesting article by Freeman Dyson in Notices of the AMS (hat tip to Peter Woit):
+
+The mathematicians discovered the central mystery of computability, the conjecture represented by the statement P is not equal to NP. The conjecture asserts that there exist mathematical problems which can be quickly solved in individual cases but cannot be solved by a quick algorithm applicable to all cases. The most famous example of such a problem is the traveling salesman problem, which is to find the shortest route for a salesman visiting a set of cities, knowing the distance between each pair. All the experts believe that the conjecture is true, and that the traveling salesman problem is an example of a problem that is P but not NP. But nobody has even a glimmer of an idea how to prove it. This is a mystery that could not even have been formulated within the nineteenth-century mathematical universe of Hermann Weyl.
+
+At a literal level, the above passage contains several howlers (I’ll leave it to commenters to point them out), but at a “deeper” “poetic” level, Dyson happens to be absolutely right: P versus NP is the example par excellence of a mathematical mystery that human beings lacked the language even to express until very recently in our history.
+
+Speaking of P versus NP, I’m currently visiting Sasha Razborov at his new home, the University of Chicago.  (Yesterday we had lunch at “Barack’s favorite pizza place”, and walked past “Barack’s favorite bookstore.”  Were they really his favorites?  At a deeper poetic level, sure.)
+
+One of the highlights of my trip was meeting Ketan Mulmuley for the first time, and talking with him about his geometric approach to the P vs. NP problem.  Ketan comes across in person as an almost mythological figure, like a man who flew too close to the sun and was driven nearly to ecstatic obsession by what he saw.  This is someone who’ll explain to anyone in earshot, for as long as he or she cares to listen, that he’s glimpsed the outlines of a solution of the P vs. NP problem in the far frontiers of mathematics, and it is beautiful, and it is elegant—someone who leaps from Ramanujan graphs to quantum groups to the Riemann Hypothesis over finite fields to circuit lower bounds in the space of a single sentence, as his hapless listener struggles to hold on by a fingernail—someone whose ideas seem to remain obstinately in limbo between incoherence and profundity, making just enough sense that you keep listening to them.
+
+Now, I get emails every few months from people claiming to have proved P≠NP (not even counting the P=NP claimants).  Without exception, they turn out to be hunting polar bears in the Sahara: they don’t even grapple with natural proofs, or relativization, or algebrization, or the lower bounds/derandomization connection, or any the other stuff we know already about why the problem is hard.  Ketan, by contrast, might be searching for polar bears with a kaleidoscope and trying to hunt them with a feather, but he’s in the Arctic all right.  I have no idea whether his program will succeed within my lifetime at uncovering any of the truth about the P vs. NP problem, but it at least clears the lower hurdle of reflecting some of the higher truth.
+
+
+
+================================================================================
+

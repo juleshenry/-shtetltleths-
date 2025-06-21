@@ -1,0 +1,149 @@
+TITLE: Firewalls
+URL: https://scottaaronson.blog/?m=201308
+CONTENT:
+Updates (Aug. 29): John Preskill now has a very nice post summarizing the different views on offer at the firewall workshop, thereby alleviating my guilt for giving you only the mess below.  Thanks, John!
+
+And if you check out John’s Twitter feed (which you should), you’ll find another, unrelated gem: a phenomenal TEDx talk on quantum computing by my friend, coauthor, and hero, the Lowerboundsman of Latvia, Andris Ambainis.  (Once again, when offered a feast of insight to dispel their misconceptions and ennoble their souls, the YouTube commenters are distinguishing themselves by focusing on the speaker’s voice.  Been there, man, been there.)
+
+So, last week I was at the Fuzzorfire workshop at the Kavli Institute for Theoretical Physics in Santa Barbara, devoted to the black hole firewall paradox.  (The workshop is still going on this week, but I needed to get back early.)  For some background:
+
+I had fantasies of writing a long, witty blog post that would set out my thoughts about firewalls, full of detailed responses to everything I’d heard at the conference, as well as ruminations about Harlow and Hayden’s striking argument that computational complexity might provide a key to resolving the paradox.  But the truth is, I’m recovering from a nasty stomach virus, am feeling “firewalled out,” and wish to use my few remaining non-childcare hours before the semester starts to finish writing papers.  So I decided that better than nothing would be a hastily-assembled pastiche of links.
+
+First and most important, you can watch all the talks online.  In no particular order:
+
+Here’s my own attempt to summarize what’s at stake, adapted from a comment on Peter Woit’s blog (see also a rapid response by Lubos):
+
+As I understand it, the issue is actually pretty simple. Do you agree that
+ (1) the Hawking evaporation process should be unitary, and
+ (2) the laws of physics should describe the experiences of an infalling observer, not just those of an observer who stays outside the horizon?
+ If so, then you seem forced to accept
+ (3) the interior degrees of freedom should just be some sort of scrambled re-encoding of the exterior degrees, rather than living in a separate subfactor of Hilbert space (since otherwise we’d violate unitarity).
+ But then we get
+ (4) by applying a suitable unitary transformation to the Hawking radiation of an old enough black hole before you jump into it, someone ought to be able, in principle, to completely modify what you experience when you do jump in.  Moreover, that person could be far away from you—an apparent gross violation of locality.
+
+So, there are a few options: you could reject either (1) or (2). You could bite the bullet and accept (4). You could say that the “experience of an infalling observer” should just be to die immediately at the horizon (firewalls). You could argue that for some reason (e.g., gravitational backreaction, or computational complexity), the unitary transformations required in (4) are impossible to implement even in principle. Or you could go the “Lubosian route,” and simply assert that the lack of any real difficulty is so obvious that, if you admit to being confused, then that just proves you’re an idiot.  AdS/CFT is clearly relevant, but as Polchinski pointed out, it does surprisingly little to solve the problem.
+
+Now, what Almheiri et al. (AMPS) added to the simple logical argument above was really to make the consequence (4) more “concrete” and “vivid”—by describing something that, in principle, someone could actually do to the Hawking radiation before jumping in, such that after you jumped in, if there wasn’t anything dramatic that happened—something violating local QFT and the equivalence principle—then you’d apparently observe a violation of the monogamy of entanglement, a basic principle of quantum mechanics.  I’m sure the bare logic (1)-(4) was known to many people before AMPS: I certainly knew it, but I didn’t call it a “paradox,” I just called it “I don’t understand black hole complementarity”!
+
+At any rate, thinking about the “Hawking radiation decoding problem” already led me to some very nice questions in quantum computing theory, which remain interesting even if you remove the black hole motivation entirely. And that helped convince me that something new and worthwhile might indeed come out of this business, despite how much fun it is. (Hopefully whatever does come out won’t be as garbled as Hawking radiation.)
+
+For continuing live updates from the workshop, check out John Preskill’s Twitter feed.
+
+Or you can ask me to expand on various things in the comments, and I’ll do my best.  (As I said in my talk, while I’m not sure that the correct quantum description of the black hole interior is within anyone‘s professional expertise, it’s certainly outside of mine!  But I do find this sort of thing fun to think about—how could I not?)
+
+Unrelated, but also of interest: check out an excellent article in Quanta by Erica Klarreich, about the recent breakthroughs by Reichardt-Unger-Vazirani, Vazirani-Vidick, and others on classical command of quantum systems.
+
+================================================================================
+
+TITLE: Twitl-Optimized
+URL: https://scottaaronson.blog/?m=201308
+CONTENT:
+Today I experiment with “tweeting”: writing <=140-character announcements, but posting them to my blog.  Like sending lolcat videos by mail
+
+Last week at QCrypt in Waterloo: http://2013.qcrypt.net This week at CQIQC in Toronto: http://tinyurl.com/kfexzv6 Back with Lily in between
+
+While we debate D-Wave, ID Quantique et al. quietly sold ~100 quantum crypto devices. Alas, market will remain small unless RSA compromised
+
+One speaker explained how a photon detector works by showing this YouTube video: http://tinyurl.com/k8x4btx Couldn’t have done better
+
+Luca Trevisan asks me to spread the word about a conference for LGBTs in technology: www.outforundergrad.org/technology
+
+Steven Pinker stands up for the Enlightenment in The New Republic: “Science Is Not Your Enemy” http://tinyurl.com/l26ppaf
+
+Think Pinker was exaggerating?  Read Leon Wieseltier’s defiantly doofusy Brandeis commencement speech: http://tinyurl.com/jwhj8ub
+
+Black-hole firewalls make the New York Times, a week before the firewall workshop at KITP (I’ll be there): http://tinyurl.com/kju9crj
+
+You probably already saw the Schrodinger cat Google doodle: http://tinyurl.com/k8et44p For me, the ket was much cooler than the cat
+
+While working on BosonSampling yesterday, (1/6)pi^2 and Euler-Mascheroni constant made unexpected unappearances.  What I live for
+
+================================================================================
+
+TITLE: The SuperScott and Morgan Freeman FAQ
+URL: https://scottaaronson.blog/?m=201308
+CONTENT:
+
+
+Update (Sept. 3): When I said that “about 5000 steps” are needed for the evolutionary approach to color an 8×8 chessboard, I was counting as a step any examination of two random adjacent squares—regardless of whether or not you end up having to change one of the colors.  If you count only the changes, then the expected number goes down to about 1000 (which, of course, only makes the point about the power of the evolutionary approach “stronger”).  Thanks very much to Raymond Cuenen for bringing this clarification to my attention.
+
+Last week I appeared on an episode of Through the Wormhole with Morgan Freeman, a show on the Science Channel.  (See also here for a post on Morgan Freeman’s Facebook page.)  The episode is called “Did God Create Evolution?”  The first person interviewed is the Intelligent Design advocate Michael Behe.  But not to worry!  After him, they have a parade of scientists who not only agree that Chuck Darwin basically had it right in 1859, but want to argue for that conclusion using ROBOTS!  and MATH!
+
+So, uh, that’s where I come in.  My segment features me (or rather my animated doppelgänger, “SuperScott”) trying to color a chessboard two colors, so that no two neighboring squares are colored the same, using three different approaches: (1) an “intelligent design” approach (which computer scientists would call nondeterminism), (2) a brute-force, exhaustive enumeration approach, and (3) an “evolutionary local search” approach.
+
+[Spoiler alert: SuperScott discovers that the local search approach, while not as efficient as intelligent design, is nevertheless much more efficient than brute-force search.  And thus, he concludes, the arguments of the ID folks to the effect of “I can’t see a cleverer way to do it, therefore it must be either brute-force search or else miraculous nondeterminism” are invalid.]
+
+Since my appearance together with Morgan Freeman on cable TV raises a large number of questions, I’ve decided to field a few of them in the following FAQ.
+
+Q: How can I watch?
+
+Amazon Instant Video has the episode here for $1.99.  (No doubt you can also find it on various filesharing sites, but let it be known that I’d never condone such nefarious activity.)  My segment is roughly from 10:40 until 17:40.
+
+Q: Given that you’re not a biologist, and that your research has basically nothing to do with evolution, why did they ask to interview you?
+
+Apparently they wanted a mathematician or computer scientist who also had some experience spouting about Big Ideas.  So they first asked Greg Chaitin, but Chaitin couldn’t do it and suggested me instead.
+
+Q: Given how little relevant expertise you have, why did you agree to be interviewed?
+
+To be honest, I was extremely conflicted.  I kept saying, “Why don’t you interview a biologist?  Or at least a computational biologist, or someone who studies genetic algorithms?”  They replied that they did have more bio-oriented people on the show, but they also wanted me to provide a “mathematical” perspective.  So, I consulted with friends like Sean Carroll, who’s appeared on Through the Wormhole numerous times.  And after reflection, I decided that I do have a way to explain a central conceptual point about algorithms, complexity, and the amount of time needed for natural selection—a point that, while hardly “novel,” is something that many laypeople might not have seen before and that might interest them.  Also, as an additional argument in favor of appearing, MORGAN FREEMAN!
+
+
+
+So I agreed to do it, but only under two conditions:
+
+(1) At least one person with a biology background would also appear on the show, to refute the arguments of intelligent design.
+(2) I would talk only about stuff that I actually understood, like the ability of local search algorithms to avoid the need for brute-force search.
+
+I’ll let you judge for yourself to what extent these conditions were fulfilled.
+
+Q: Did you get to meet Morgan Freeman?
+
+Alas, no.  But at least I got to hear him refer repeatedly to “SuperScott” on TV.
+
+Q: What was the shooting like?
+
+Extremely interesting.  I know more now about TV production than I did before!
+
+It was a continuing negotiation: they kept wanting to say that I was “on a quest to mathematically prove evolution” (or something like that), and I kept telling them they weren’t allowed to say that, or anything else that would give the misleading impression that what I was saying was either original or directly related to my research.  I also had a long discussion about the P vs. NP problem, which got cut for lack of time (now P and NP are only shown on the whiteboard).  On the other hand, the crew was extremely accommodating: they really wanted to do a good job and to get things right.
+
+The most amusing tidbit: I knew that local search would take O(n4) time to 2-color an nxn chessboard (2-coloring being a special case of 2SAT, to which Schöning’s algorithm applies), but I didn’t know the constant.  So I wrote a program to get the specific number of steps when n=8 (it’s about 5000).  I then repeatedly modified and reran the program during the taping, as we slightly changed what we were talking about.  It was the first coding I’d done in a while.
+
+Q: How much of the segment was your idea, and how much was theirs?
+
+The chessboard was my idea, but the “SuperScott” bit was theirs.  Luddite that I am, I was just going to get down on hands and knees and move apples and oranges around on the chessboard myself.
+
+Also, they wanted me to speak in front of a church in Boston, to make a point about how many people believe that God created the universe.  I nixed that idea and said, why not just do the whole shoot in the Stata Center?  I mean, MIT spent $300 million just to make the building where I work as “visually arresting” as possible—at the expense of navigability, leakage-resilience, and all sorts of other criteria—so why not take advantage of it?  Plus, that way I’ll be able to crack a joke about how Stata actually looks like it was created by that favorite creationist strawman, a tornado passing through a junkyard.
+
+Needless to say, all the stuff with me drawing complexity class inclusion diagrams on the whiteboard, reading my and Alex Arkhipov’s linear-optics paper, walking around outside with an umbrella, lifting the umbrella to face the camera dramatically—that was all just the crew telling me what to do.  (Well, OK, they didn’t tell me what to write on the whiteboard or view on my computer, just that it should be something sciencey.  And the umbrella thing wasn’t planned: it really just happened to be raining that day.)
+
+Q: Don’t you realize that not a word of what you said was new—indeed, that all you did was to translate the logic of natural selection, which Darwin understood in 1859, into algorithms and complexity language?
+
+Yes, of course, and I’m sorry if the show gave anyone the impression otherwise.  I repeatedly begged them not to claim newness or originality for anything I was saying.  On the other hand, one shouldn’t make the mistake of assuming that what’s obvious to nerds who read science blogs is obvious to everyone else: I know for a fact that it isn’t.
+
+Q: Don’t you understand that you can’t “prove” mathematically that evolution by natural selection is really what happened in Nature?
+
+Of course!  You can’t even prove mathematically that bears crap in the woods (unless crapping in the woods were taken as part of the definition of bears).  To the writers’ credit, they did have Morgan Freeman explain that I wasn’t claiming to have “proved” evolution.  Personally, I wish Freeman had gone even further—to say that, at present, we don’t even have mathematical theories that would explain from first principles why 4 billion years is a “reasonable” amount of time for natural selection to have gotten from the primordial soup to humans and other complex life, whereas (say) 40 million years is not a reasonable amount.  One could imagine such theories, but we don’t really have any.  What we do have is (a) the observed fact that evolution did happen in 4 billion years, and (b) the theory of natural selection, which explains in great detail why one’s initial intuition—that such evolution can’t possibly have happened by “blind, chance natural processes” alone—is devoid of force.
+
+Q: Watching yourself presented in such a goony way—scribbling Complicated Math Stuff on a whiteboard, turning dramatically toward the camera, etc. etc.—didn’t you feel silly?
+
+Some of it is silly, no two ways about it!  On the other hand, I feel satisfied that I got across at least one correct and important scientific point to hundreds of thousands of people.  And that, one might argue, is sufficiently worthwhile that it should outweigh any embarrassment about how goofy I look.
+
+================================================================================
+
+TITLE: Three announcements
+URL: https://scottaaronson.blog/?m=201308
+CONTENT:
+1. As many of you probably know, this week my EECS colleague Hal Abelson released his 180-page report on MIT’s involvement in the Aaron Swartz case.  I read the whole thing, and I recommend it if you have any interest in the case.  My take is that, far from being the “whitewash” that some people described it as, the report (if you delve into it) clearly and eloquently explains how MIT failed to live up to its own standards, even as it formally followed the rules.  The central insight here is that the world expects MIT to behave, not like some other organization would behave if someone hid a laptop in its supply closet to download the whole JSTOR database, insulted and then tried to flee from its security officers when questioned, etc. etc., but rather with perspective and imagination—worrying less about the security of its facilities than about the future of the world.  People expect MIT, of all places, to realize that the sorts of people who pull these sorts of shenanigans in their twenties sometimes become Steve Jobs or Richard Feynman (or for that matter, MIT professor Robert Morris) later in their lives, and therefore to speak up in their defense.  In retrospect, I wish Swartz’s arrest had sparked a debate about the wider issues among MIT’s students, faculty, and staff.  I think it’s likely that such a debate would have led to pressure on the administration to issue a statement in Swartz’s support.  As it was (and as I pointed out in this interview), most people at MIT, even if they’d read about the arrest, weren’t even aware of the issue’s continued existence, let alone of MIT’s continued role in it, until after Swartz had already committed suicide.  For the MIT community—which includes some prominent supporters of open access—to have played such a passive role is one of the many tragedies that’s obvious with hindsight.
+
+2. Shafi Goldwasser has asked me to announce that the fifth Innovations in Theoretical Computer Science (ITCS) conference will be held in Princeton, a town technically in New Jersey, on January 12-14, 2014.  Here’s the conference website; if you want to submit a paper, the deadline is coming up soon, on Thursday, August 22.
+
+3. As the summer winds to a close, I’m proud to announce my main goals for the upcoming academic year.  Those goals are the following:
+
+(a) Take care of Lily.
+
+(b) Finish writing up old papers.
+
+It feels liberating to have no higher aspirations for an entire year—and for the aspirations I have to seem so modest and so achievable.  On the other hand, it will be all the more embarrassing if I fail to achieve even these goals.
+
+================================================================================
+

@@ -1,0 +1,196 @@
+TITLE: One way Obama has supported scientists
+URL: https://scottaaronson.blog/?m=200904
+CONTENT:
+By giving me a free blog post.  From his address to the National Academy of Science (full text here):
+
+A few months after a devastating defeat at Fredericksburg, before Gettysburg would be won and Richmond would fall, before the fate of the Union would be at all certain, President Lincoln signed into law an act creating the National Academy of Sciences.  Lincoln refused to accept that our nation’s sole purpose was merely to survive. He created this academy, founded the land grant colleges, and began the work of the transcontinental railroad, believing that we must add “the fuel of interest to the fire of genius in the discovery … of new and useful things” …
+
+At such a difficult moment, there are those who say we cannot afford to invest in science. That support for research is somehow a luxury at a moment defined by necessities. I fundamentally disagree…
+
+I am here today to set this goal: we will devote more than three percent of our GDP to research and development … This represents the largest commitment to scientific research and innovation in American history…
+
+The fact is, an investigation into a particular physical, chemical, or biological process might not pay off for a year, or a decade, or at all. And when it does, the rewards are often broadly shared, enjoyed by those who bore its costs but also by those who did not.  That’s why the private sector under-invests in basic science – and why the public sector must invest in this kind of research. Because while the risks may be large, so are the rewards for our economy and our society…
+
+We double the budget of key agencies, including the National Science Foundation, a primary source of funding for academic research, and the National Institute of Standards and Technology, which supports a wide range of pursuits – from improving health information technology to measuring carbon pollution, from testing “smart grid” designs to developing advanced manufacturing processes. And my budget doubles funding for the Department of Energy’s Office of Science which builds and operates accelerators, colliders, supercomputers, high-energy light sources, and facilities for making nano-materials…
+
+Our future on this planet depends upon our willingness to address the challenge posed by carbon pollution. And our future as a nation depends upon our willingness to embrace this challenge as an opportunity to lead the world in pursuit of new discovery…
+
+On March 9th, I signed an executive memorandum with a clear message: Under my administration, the days of science taking a back seat to ideology are over.  Our progress as a nation – and our values as a nation – are rooted in free and open inquiry. To undermine scientific integrity is to undermine our democracy…
+
+We know that the quality of math and science teachers is the most influential single factor in determining whether or a student will succeed or fail in these subjects. Yet, in high school, more than twenty percent of students in math and more than sixty percent of students in chemistry and physics are taught by teachers without expertise in these fields…
+
+My budget also triples the number of National Science Foundation graduate research fellowships. This program was created as part of the Space Race five decades ago. In the decades since, it’s remained largely the same size – even as the numbers of students who seek these fellowships has skyrocketed. We ought to be supporting these young people who are pursuing scientific careers, not putting obstacles in their path…
+
+I had only one quibble with the speech.  The President says: “The calculations of today’s GPS satellites are based on the equations that Einstein put to paper more than a century ago.”  True enough—but they depend not only on SR but even on GR, which was “put to paper” around 1916.
+
+Predictably, coverage of this speech has concentrated on (1) some remarks about swine flu, and (2) a trivial incident where Obama got ahead of his TelePrompter.  Clearly, he has a ways to go before matching the flawless delivery of our previous leader.
+
+I’m back in Boston, having returned from my trip to Berkeley and to the Quantum Information Science Workshop in Virginia.  I understand that the slides from the QIS workshop will be available any day now, and I’ll blog about the workshop once they are.  (Sneak preview: it turns out that more quantum algorithms should be discovered, battling decoherence is important, and interdisciplinary insights are needed—but there were actually some pretty spectacular results and open problems that I hadn’t heard before.)
+
+I’d also like to blog about two books I’m reading: Outliers by Malcolm Gladwell, and First Principles by Howard Burton (about the founding of the Perimeter Institute, and the first scientific history I’ve ever read for which I was there when a lot of it happened).  Then again, if enough people discuss these books in the comments section, I won’t have to.
+
+================================================================================
+
+TITLE: Let no one call me an enemy of the arts
+URL: https://scottaaronson.blog/?m=200904
+CONTENT:
+From San Francisco, CA, en route to UC Berkeley, Shtetl-Optimized is proud to bring you…
+
+I JUST DO THEORY
+
+Winner of the 2007 Aaronson/Gasarch Complexity Theme Song Contest (beating out “You Down with SPP” and other audience favorites)
+
+Da MP3, as recently recorded by “Homage the Halfrican Cracker.”
+(Stage name of Dustin Lee, a singer and dance instructor based in Calgary, Canada.  Homage is currently a finalist for Best Song at the Calgary Folk Festival.  Here is his YouTube channel, and here are previews of his music.  Hey, you sing the greatest CS theory rap of all time, you get a free plug on Shtetl-Optimized.)
+
+Lyrics by Aaron Sterling, 23 June 2007.
+Inspired by Weird Al Yankovic’s “White & Nerdy.”
+Original music and words by Chamillionaire, “Riding.”
+
+They see me proving my theorem.
+I know they’re all thinking I just do theory.
+Think I just do theory.
+Think I just do theory.
+Can’t you see I just do theory?
+Look at me, I just do theory!
+I wanna code with the hackers
+But so far they all think I just do theory.
+Think I just do theory.
+I just do theory.
+I just do theory.
+Really, truly, just do theory.
+
+I wrote a program that solved TSP
+Superquasipolynomially.
+Ain’t no such thing as lunch for free
+When you’re digesting P-NP.
+Unnatural proofs are my favorite vice
+When I dream of solver’s paradise.
+But my poor construction won’t suffice,
+Even when I add Karp-Lipton advice.
+Yo! There’s more to life than just systems!
+Just too mathy? Quit your grumping.
+I may not get the joint jumping
+But my lemmas can do some pumping.
+I declare to all my detractors
+To exchange keys you need extractors.
+You can’t improve with blind refactors.
+You need me, not ten contractors.
+Don’t know how to start an IDE
+But I always win at compIP.
+I’m a wizard bounding MA-E,
+Playing games in PPAD.
+My languages are always acceptable.
+My LaTeX skills? They are impeccable.
+My proofs are probabilistically checkable.
+But what I compile just isn’t respectable.
+You see, I just do theory.
+
+They’re on RA, while I’m teaching.
+That’s how they know that I just do theory.
+Know I just do theory
+Know I just do theory
+I admit it, I just do theory.
+Look at me, I just do theory.
+I’d like to code with the hackers
+Although it’s apparent I just do theory
+Yes, I just do theory
+Right, I just do theory
+I just do theory.
+Why is it I can just do theory?
+
+I aced math classes in school.
+One-Ten is my favorite rule.
+Intractability’s really cool.
+I’ve been unplugging while you were debugging.
+Your Windows crashed, your hard disk’s whirring,
+But my platforms all are Turing.
+Not a lot of exceptions get thrown
+Approximating Diophantines with twelve unknowns.
+I’m the department’s main instructor.
+When they need a course taught, who do they ask?
+I’m always up to the task.
+It beats sitting on my ass.
+I’m trying to cold-start my social network
+Saying “Busy Beaver” with a smirk.
+In galleries I troll, in weblogs I lurk.
+But it’s hard to reach Big O if you won’t tell the world hello.
+My grandest conceit is that my brain is PSPACE-complete.
+My calculus is lambda and my math is discrete.
+The only problem that ever made me halt
+Was whether Samson or Delilah won by default.
+My theorem statements are ungrounded.
+All my measures are resource-bounded.
+
+They see me struggling at runtime.
+They feel sorry because I just do theory.
+Yes, it’s true, I just do theory.
+Yes, it’s true, I just do theory.
+All because I just do theory.
+BQP, I just do theory.
+I wanna code with the hackers
+But oh well, they can tell I just do theory.
+I just do theory.
+I just do theory.
+Yes, I just do theory.
+QED, I just do theory.
+
+(everybody shout) Box!
+
+[Here’s the PDF.  Thanks so much to Aaron and Homage for the permission.  After this song goes viral, and gets ten times more hits than Susan Boyle, just remember: you heard it here first.  Peace out, BQP-dawg]
+
+================================================================================
+
+TITLE: Corn, rice, and wheat
+URL: https://scottaaronson.blog/?m=200904
+CONTENT:
+Now, I’m not much of a farming type.  But for some reason, about a year ago I became intensely curious about three cereal grains—corn, rice, and wheat—and the central role they played in getting civilization off the ground.  And so, on this Passover holiday, when Ashkenazi Jews are supposed to avoid not only leavened bread, but corn and rice as well (the reason? apparently some 13th-century rabbi feared that a grain of wheat might fall in undetected), I thought I’d “go against the grain,” and ask “Four Questions” about all three of these strange plants.
+
+Question I.  How did hunter-gatherers ever get the idea to breed these grains?  Of course, we know today that whether or not they’re labeled “organic” at Whole Foods, cereal grains aren’t much like anything found in nature, but are the result of thousands of years of selective breeding: massive genetic-engineering projects of the ancient world.  The trouble is that, if you ran into one their wild ancestors, there probably wouldn’t be anything appetizing about it.  Corn’s ancestor, for example, seems to have been a barely-edible grass called teosinte.  Does the only explanation we can ever hope for rely on anthropic postselection: eventually some cave-dwellers stumbled on the idea of breeding grain, and we’re all living in the aftermath of the resulting population explosion?  But the fact that it happened not once, not twice, but three times independently—with wheat in the Middle East, rice in Asia, and corn in the Americas—suggests that it couldn’t have been all that unlikely.  Which brings us to…
+
+Question II.  What other plants could similarly be used as the basis for a large civilization?  The one other plant I can think of that’s played a similar role is the yam, in parts of Africa.  Has there ever been a culture that used the potato as its main food source—maybe in Russia or Eastern Europe?  (Update, 4/12: Duhhhhhhh, the Irish, of course, hence the Irish Potato Famine.  Thanks to several commenters for pointing this out.)  OK, what about oats, barley, rye, or sorghum?
+
+Question III.  Corn, rice, wheat: which one is best?  Is there one such that, if we all switched to it, we’d be ten times healthier and also save the planet?  Or, on the tiny chance that we can’t settle that question via blog comments, can we at least elucidate the salient differences?  (Corn does seem like the outlier among the three, much as I enjoy grilled rice and wheat on the cob…)
+
+Question IV.  Should we still be eating these grains today?  It seems clear that corn, rice, and wheat were directly responsible for a human population explosion, and that even today, the planet couldn’t support most of its inhabitants without them.  But for those who can afford to, the promoters of “hunter-gatherer diets” advocate returning to foods that were available in the ancestral environment, such as nuts, berries, and roasted mammoth leg.  The underlying question here is actually an interesting one: did the switch to agriculture cause some sort of massive change in human health?  The most surprising answer would seem to be that it didn’t.
+
+Despite the staggering amount of research I did for this post, it remains conceivable that there are readers who know more about these topics than I do.  And so, having thrown out a few seeds, I look forward to reaping a bounteous harvest of grain-related comments.
+
+================================================================================
+
+TITLE: Teleport, tunnel, adiabat—but one way or another, get there
+URL: https://scottaaronson.blog/?m=200904
+CONTENT:
+As a general rule, I don’t post workshop announcements on this blog: if I did it for one, I’d have to do it for all, etc. etc.  But I’ve decided that an exception can be made, if the requesting party has won a bet against Stephen Hawking.  And so it is that I, on behalf of John Preskill, hereby encourage you to attend the Quantum Information Science Workshop in Vienna, VA, from April 23-25, which has been hastily called in response to the report A Federal Vision for Quantum Information Science.  The whole quantum information community is invited, but the deadline for the workshop hotel rate is today!  The future of our entire field will be decided at this workshop:
+
+If you’re as hungry for the answers as I am, you won’t want to miss this.
+
+================================================================================
+
+TITLE: A not-quite-exponential dilemma
+URL: https://scottaaronson.blog/?m=200904
+CONTENT:
+A commenter on my last post writes:
+
+Scott, it’s your blog – but can’t we switch back to some QC or TCS topics?
+
+I confess: after three years of staid, dignified posts about quantum computing and theoretical computer science, I somehow did the unthinkable, and let this once-respected blog become less about elucidating research than procrastinating from it.  Many readers, or so they tell me, rely on Shtetl-Optimized to keep abreast of the latest theoretical insights.  And rather than ask those readers whether they also rely on deep-fried Snickers bars for the Vitamin E in the peanuts, I have a moral obligation to serve them.
+
+Fortunately for the theory-starved among you, a certain je ne sais quoi in the air last week has caused me to refocus my attention on research.  The mysterious force affected not only me, but seemingly my entire floor of the Stata Center—giving rise to a carnival-like crescendo of increasingly-frantic theorizing that ended just as inexplicably as it began, around 6:59PM Thursday night.
+
+So today, I’m proud to post something vaguely related to science once again.  On the suggestion of Wim van Dam, I hereby announce another contest, with no prize or even possibly winner.  Your task is simple:
+
+Come up with a catchy name for growth rates of the form 2n^α, 0<α<1.
+
+(For example, the running time of the fastest known classical factoring algorithm has this form, as does that of the fastest known algorithm for graph isomorphism.)
+
+The word “subexponential” is often used, but should not be, since we already use it for growth rates smaller than 2n^α for all α>0.
+
+This just in: Friend-of-the-blog Greg Kuperberg, who’s always more fun than a cinder block combined with a reprimand, informs me that 2n^α growth rates already have a name: stretched exponentials.  But
+
+So my and Wim’s challenge to the readerariat stands.
+
+
+
+================================================================================
+

@@ -1,0 +1,207 @@
+TITLE: Grad students and postdocs and faculty sought
+URL: https://scottaaronson.blog/?m=201710
+CONTENT:
+I’m eagerly seeking PhD students and postdocs to join our Quantum Information Center at UT Austin, starting in Fall 2018.  We’re open to any theoretical aspects of quantum information, although if you wanted to work with me personally, then areas close to computer science would be the closest fit.  I’m also able to supervise PhD students in physics, but am not directly involved with admissions to the physics department: this is a discussion we would have after you were already admitted to UT.
+
+I, along with my theoretical computer science colleagues at UT Austin, am also open to outstanding students and postdocs in classical complexity theory. My wife, Dana Moshkovitz, tells me that she and David Zuckerman in particular are looking for a postdoc in the areas of pseudorandomness and derandomization (and for PhD students as well).
+
+If you want to apply to the UTCS PhD program, please visit here.  The deadline is December 15.  If you specify that you want to work on quantum computing and information, and/or with me, then I’ll be sure to see your application.  Emailing faculty at this stage doesn’t help; we won’t “estimate your chances” or even look at your qualifications until we can see all the applications together.
+
+If you want to apply for a postdoc with me, here’s what to do:
+
+Let’s set a deadline for postdoc applications of, I dunno, December 15?
+
+In addition to the above, I’m happy to announce that the UT CS department is looking to hire a new faculty member in quantum computing and information—most likely a junior person.  The UT physics department is also looking to hire quantum information faculty members, with a focus on a senior-level experimentalist right now.  If you’re interested in these opportunities, just email me; I can put you in touch with the relevant people.
+
+All in all, this is shaping up to be the most exciting era for quantum computing and information in Austin since a group of UT students, postdocs, and faculty including David Deutsch, John Wheeler, Wojciech Zurek, Bill Wootters, and Ben Schumacher laid much of the intellectual foundation of the field in the late 1970s and early 1980s.  We hope you’ll join us.  Hook ’em Hadamards!
+
+Unrelated Announcements: Avi Wigderson has released a remarkable 368-page book, Mathematics and Computation, for free on the web.  This document surveys pretty much the entire current scope of theoretical computer science, in a way only Avi, our field’s consummate generalist, could do.  It also sets out Avi’s vision for the future and his sociological thoughts about TCS and its interactions with neighboring fields.  I was a reviewer on the manuscript, and I recommend it to anyone looking for a panoramic view of TCS.
+
+In other news, my UT friend and colleague Adam Klivans, and his student Surbhi Goel, have put out a preprint entitled Learning Depth-Three Neural Networks in Polynomial Time.  (Beware: what the machine learning community calls “depth three,” is what the TCS community would call “depth two.”)  This paper learns real-valued neural networks in the so-called p-concept model of Kearns and Schapire, and thereby evades a 2006 impossibility theorem of Klivans and Sherstov, which showed that efficiently learning depth-2 threshold circuits would require breaking cryptographic assumptions.  More broadly, there’s been a surge of work in the past couple years on explaining the success of deep learning methods (methods whose most recent high-profile victory was, of course, AlphaGo Zero).  I’m really hoping to learn more about this direction during my sabbatical this year—though I’ll try and take care not to become another deep learning zombie, chanting “artificial BRAINSSSS…” with outstretched arms.
+
+================================================================================
+
+TITLE: 2^n is exponential, but 2^50 is finite
+URL: https://scottaaronson.blog/?m=201710
+CONTENT:
+Unrelated Update (Oct. 23) I still feel bad that there was no time for public questions at my “Theoretically Speaking” talk in Berkeley, and also that the lecture hall was too small to accomodate a large fraction of the people who showed up.  So, if you’re someone who came there wanting to ask me something, go ahead and ask in the comments of this post.
+
+During my whirlwind tour of the Bay Area, questions started pouring in about a preprint from a group mostly at IBM Yorktown Heights, entitled Breaking the 49-Qubit Barrier in the Simulation of Quantum Circuits.  In particular, does this paper make a mockery of everything the upcoming quantum supremacy experiments will try to achieve, and all the theorems about them that we’ve proved?
+
+Following my usual practice, let me paste the abstract here, so that we have the authors’ words in front of us, rather than what a friend of a friend said a popular article reported might have been in the paper.
+
+With the current rate of progress in quantum computing technologies, 50-qubit systems will soon become a reality.  To assess, refine and advance the design and control of these devices, one needs a means to test and evaluate their fidelity. This in turn requires the capability of computing ideal quantum state amplitudes for devices of such sizes and larger.  In this study, we present a new approach for this task that significantly extends the boundaries of what can be classically computed.  We demonstrate our method by presenting results obtained from a calculation of the complete set of output amplitudes of a universal random circuit with depth 27 in a 2D lattice of 7 × 7 qubits.  We further present results obtained by calculating an arbitrarily selected slice of 237 amplitudes of a universal random circuit with depth 23 in a 2D lattice of 8×7 qubits.  Such calculations were previously thought to be impossible due to impracticable memory requirements. Using the methods presented in this paper, the above simulations required 4.5 and 3.0 TB of memory, respectively, to store calculations, which is well within the limits of existing classical computers.
+
+This is an excellent paper, which sets a new record for the classical simulation of generic quantum circuits; I congratulate the authors for it.  Now, though, I want you to take a deep breath and repeat after me:
+
+This paper does not undercut the rationale for quantum supremacy experiments.  The truth, ironically, is almost the opposite: it being possible to simulate 49-qubit circuits using a classical computer is a precondition for Google’s planned quantum supremacy experiment, because it’s the only way we know to check such an experiment’s results!  The goal, with sampling-based quantum supremacy, was always to target the “sweet spot,” which we estimated at around 50 qubits, where classical simulation is still possible, but it’s clearly orders of magnitude more expensive than doing the experiment itself.  If you like, the goal is to get as far as you can up the mountain of exponentiality, conditioned on people still being able to see you from the base.  Why?  Because you can.  Because it’s there.  Because it challenges those who think quantum computing will never scale: explain this, punks!  But there’s no point unless you can verify the result.
+
+Related to that, the paper does not refute any prediction I made, by doing anything I claimed was impossible.  On the contrary (if you must know), the paper confirms something that I predicted would be possible.  People said: “40 qubits is the practical limit of what you can simulate, so there’s no point in Google or anyone else doing a supremacy experiment with 49 qubits, since they can never verify the results.”  I would shrug and say something like: “eh, if you can do 40 qubits, then I’m sure you can do 50.  It’s only a thousand times harder!”
+
+So, how does the paper get up to 50 qubits?  A lot of computing power and a lot of clever tricks, one of which (the irony thickens…) came from a paper that I recently coauthored with Lijie Chen: Complexity-Theoretic Foundations of Quantum Supremacy Experiments.  Lijie and I were interested in the question: what’s the best way to simulate a quantum circuit with n qubits and m gates?  We noticed that there’s a time/space tradeoff here: you could just store the entire amplitude vector in memory and update, which would take exp(n) memory but also “only” about exp(n) time.  Or you could compute the amplitudes you cared about via Feynman sums (as in the proof of BQP⊆PSPACE), which takes only linear memory, but exp(m) time.  If you imagine, let’s say, n=50 and m=1000, then exp(n) might be practical if you’re IBM or Google, but exp(m) is certainly not.
+
+So then we raised the question: could one get the best of both worlds?  That is, could one simulate such a quantum circuit using both linear memory and exp(n) time?  And we showed that this is almost possible: we gave an algorithm that uses linear memory and dO(n) time, where d is the circuit depth.  Furthermore, the more memory it has available, the faster our algorithm will run—until, in the limit of exponential memory, it just becomes the “store the whole amplitude vector” algorithm mentioned above.  I’m not sure why this algorithm wasn’t discovered earlier, especially since it basically just amounts to Savitch’s Theorem from complexity theory.  In any case, though, the IBM group used this idea among others to take full advantage of the RAM it had available.
+
+Let me make one final remark: this little episode perfectly illustrates why theoretical computer scientists like to talk about polynomial vs. exponential rather than specific numbers.  If you keep your eyes on the asymptotic fundamentals, rather than every factor of 10 or 1000, then you’re not constantly shocked by events, like a dog turning its head for every passing squirrel.  Before you could simulate 40 qubits, now you can simulate 50.  Maybe with more cleverness you could get to 60 or even 70.  But … dude.  The problem is still exponential time.
+
+We saw the same “SQUIRREL!  SQUIRREL!” reaction with the people who claimed that the wonderful paper by Clifford and Clifford had undercut the rationale for BosonSampling experiments, by showing how to solve the problem in “merely” ~2n time rather than ~mn, where n is the number of photons and m is the number of modes.  Of course, Arkhipov and I had never claimed more than ~2n hardness for the problem, and Clifford and Clifford’s important result had justified our conservatism on that point, but, y’know … SQUIRREL!
+
+More broadly, it seems to me that this dynamic constantly occurs in the applied cryptography world.  OMIGOD a 128-bit hash function has been broken!  Big news!  OMIGOD a new, harder hash function has been designed!  Bigger news!  OMIGOD OMIGOD OMIGOD the new one was broken too!!  All of it fully predictable once you realize that we’re on the shores of an exponentially hard problem, and for some reason, refusing to go far enough out into the sea (i.e., pick large enough security parameters) that none of this back-and-forth would happen.
+
+I apologize, sincerely, if I come off as too testy in this post.  No doubt it’s entirely the fault of a cognitive defect on my end, wherein ten separate people asking me about something get treated by my brain like a single person who still doesn’t get it even after I’ve explained it ten times.
+
+================================================================================
+
+TITLE: The problem with Uber
+URL: https://scottaaronson.blog/?m=201710
+CONTENT:
+I just spent a wonderful and exhausting five days in the Bay Area: meeting friends, holding the first-ever combined SlateStarCodex/Shtetl-Optimized meetup, touring quantum computing startups, meeting with Silicon Valley folks about quantum computing, and giving a public lecture for the Simons Institute in Berkeley.  I’ll probably say more about some of these events in future posts, but for now: thanks so much to everyone who helped them happen!
+
+Alas, my experiences getting around the Bay this week convinced me that there’s a real problem with Uber.  And no, I’m not talking about their corporate culture, or the personality of ousted CEO Travis Kalanick, or the hardball lobbying of municipalities to allow ride-sharing, or the taxi companies needing to adapt to survive, or even Uber having an unsustainable business model (they could charge more and I’d still use it…).
+
+The problem is: when you order an Uber, like 2/3 of the time you and the driver can’t find each other without a lot of back and forth.
+
+Firstly, because you can’t specify where you are with enough accuracy.  When you try, the app does this thing where it literally moves the “you are here” pointer to a place where you’re not. And then, even if the little dot correctly indicates your location, for some reason the driver will think you’re somewhere totally different.
+
+Secondly, because Uber cars are typically unmarked.  Yes, the app tells you that it’s a white Ford or whatever—but there’s a lot of white cars, and it’s hard (at least for me) to distinguish models at a distance, so you can then face a stressful “Where’s Waldo?” problem involving hundreds of cars.
+
+Thirdly, because the drivers understandably have their phones mounted on their dashboards—the result being that, when you call to try to figure out where they are, nothing they say can be distinguished from “mmph hrmph mmph.”  And of course they can’t text while driving.
+
+To be clear, these gripes arise only because ride-sharing apps generally work so damn well, and are such an advance over what preceded them, that they’ve changed our expectations about the convenience of getting from place to place.  Because of Uber and Lyft and so on, it’s tempting to plan your life around the assumption that you can be anywhere in a greater metro area, and within 3 minutes a car will magically arrive to take you to wherever else in that area you need to be—while your brain remains uncluttered with transportation logistics, among the most excruciating of all topics.  This is a problem borne of success.
+
+But—good news, everyone!—I have an idea to solve the problem, which I hereby offer free of charge to any ride-sharing service that wants to adopt it.  Namely, when you order a ride, why doesn’t the app—with your explicit permission, of course—use your phone’s camera to send a selfie of you, together with the location where you’re waiting, to the driver?  Is there some obvious reason I’m missing why this wouldn’t work?  Have any ride-sharing companies tried it?  (I only learned today that I can update my Uber profile to include my photo.  Hopefully that will help drivers find me—but a photo of the intersection, or the side of the building where I am, etc. could help even more.)
+
+================================================================================
+
+TITLE: Not the critic who counts
+URL: https://scottaaronson.blog/?m=201710
+CONTENT:
+There’s a website called Stop Timothy Gowers! !!! —yes, that’s the precise name, including the exclamation points.  The site is run by a mathematician who for years went under the pseudonym “owl / sowa,” but who’s since outed himself as Nikolai Ivanov.
+
+For those who don’t know, Sir Timothy Gowers is a Fields Medalist, known for seminal contributions including the construction of Banach spaces with strange properties, the introduction of the Gowers norm, explicit bounds for the regularity lemma, and more—but who’s known at least as well for explaining math, in his blog, books, essays, MathOverflow, and elsewhere, in a remarkably clear, friendly, and accessible way.  He’s also been a leader in the fight to free academia from predatory publishers.
+
+So why on earth would a person like that need to be stopped?  According to sowa, because Gowers, along with other disreputable characters like Terry Tao and Endre Szemerédi and the late Paul Erdös, represents a dangerous style of doing mathematics: a style that’s just as enamored of concrete problems as it is of abstract theory-building, and that doesn’t even mind connections to other fields like theoretical computer science.  If that style becomes popular with young people, it will prevent faculty positions and prestigious prizes from going to the only deserving kind of mathematics: the kind exemplified by Bourbaki and by Alexander Grothendieck, which builds up theoretical frameworks with principled disdain for the solving of simple-to-state problems.  Mathematical prizes going to the wrong people—or even going to the right people but presented by the wrong people—are constant preoccupations of sowa’s.  Read his blog and let me know if I’ve unfairly characterized it.
+
+Now for something totally unrelated.  I recently discovered a forum on Reddit called SneerClub, which, as its name suggests, is devoted to sneering.  At whom?  Basically, at anyone who writes anything nice about nerds or Silicon Valley, or who’s associated with the “rationalist community,” or the Effective Altruist movement, or futurism or AI risk.  Typical targets include Scott Alexander, Eliezer Yudkowsky, Robin Hanson, Michael Vassar, Julia Galef, Paul Graham, Ray Kurzweil, Elon Musk … and with a list like that, I guess I should be honored to be a regular target too.
+
+The basic SneerClub M.O. is to seize on a sentence that, when ripped from context and reflected through enough hermeneutic funhouse mirrors, can make nerds out to look like right-wing villains, oppressing the downtrodden with rays of disgusting white maleness (even, it seems, ones who aren’t actually white or male).  So even if the nerd under discussion turns out to be, say, a leftist or a major donor to anti-Trump causes or malaria prevention or whatever, readers can feel reassured that their preexisting contempt was morally justified after all.
+
+Thus: Eliezer Yudkowsky once wrote a piece of fiction in which a character, breaking the fourth wall, comments that another character seems to have no reason to be in the story.  This shows that Eliezer is a fascist who sees people unlike himself as having no reason to exist, and who’d probably exterminate them if he could.  Or: many rationalist nerds spend a lot of effort arguing against Trumpists, alt-righters, and neoreactionaries.  The fact that they interact with those people, in order to rebut them, shows that they’re probably closet neoreactionaries themselves.
+
+When I browse sites like “Stop Timothy Gowers! !!!” or SneerClub, I tend to get depressed about the world—and yet I keep browsing, out of a fascination that I don’t fully understand.  I ask myself: how can a person read Gowers’s blog, or Slate Star Codex, without seeing what I see, which is basically luminous beacons of intellectual honesty and curiosity and clear thought and sparkling prose and charity to dissenting views, shining out far across the darkness of online discourse?
+
+(Incidentally, Gowers lists “Stop Timothy Gowers! !!!” in his blogroll, and I likewise learned of SneerClub only because Scott Alexander linked to it.)
+
+I’m well aware that this very question will only prompt more sneers.  From the sneerers’ perspective, they and their friends are the beacons, while Gowers or Scott Alexander are the darkness.  How could a neutral observer possibly decide who was right?
+
+But then I reflect that there’s at least one glaring asymmetry between the sides.
+
+If you read Timothy Gowers’s blog, one thing you’ll constantly notice is mathematics.  When he’s not weighing in on current events—for example, writing against Brexit, Elsevier, or the destruction of a math department by cost-cutting bureaucrats—Gowers is usually found delighting in exploring a new problem, or finding a new way to explain a known result.  Often, as with his dialogue with John Baez and others about the recent “p=t” breakthrough, Gowers is struggling to understand an unfamiliar piece of mathematics—and, completely unafraid of looking like an undergrad rather than a Fields Medalist, he simply shares each step of his journey, mistakes and all, inviting you to follow for as long as you can keep up.  Personally, I find it electrifying: why can’t all mathematicians write like that?
+
+By contrast, when you read sowa’s blog, for all the anger about the sullying of mathematics by unworthy practitioners, there’s a striking absence of mathematical exposition.  Not once does sowa ever say: “OK, forget about the controversy.  Since you’re here, instead of just telling you about the epochal greatness of Grothendieck, let me walk you through an example.  Let me share a beautiful little insight that came out of his approach, in so self-contained a way that even a physicist or computer scientist will understand it.”  In other words, sowa never uses his blog to do what Gowers does every day.  Sowa might respond that that’s what papers are for—but the thing about a blog is that it gives you the chance to reach a much wider readership than your papers do.  If someone is already blogging anyway, why wouldn’t they seize that chance to share something they love?
+
+Similar comments apply to Slate Star Codex versus r/SneerClub.  When I read an SSC post, even if I vehemently disagree with the central thesis (which, yes, happens sometimes), I always leave the diner intellectually sated.  For the rest of the day, my brain is bloated with new historical tidbits, or a deep-dive into the effects of a psychiatric drug I’d never heard of, or a jaw-dropping firsthand account of life as a medical resident, or a different way to think about a philosophical problem—or, if nothing else, some wicked puns and turns of phrase.
+
+But when I visit r/SneerClub—well, I get exactly what’s advertised on the tin.  Once you’ve read a few, the sneers become pretty predictable.  I thought that for sure, I’d occasionally find something like: “look, we all agree that Eliezer Yudkowsky and Elon Musk and Nick Bostrom are talking out their asses about AI, and are coddled white male emotional toddlers to boot.  But even granting that, what do we think about AI?  Are intelligences vastly smarter than humans possible?  If not, then what principle rules them out?  What, if anything, can be said about what a superintelligent being would do, or want?  Just for fun, let’s explore this a little: I mean the actual questions themselves, not the psychological reasons why others explore them.”
+
+That never happens.  Why not?
+
+There’s another fascinating Reddit forum called “RoastMe”, where people submit a photo of themselves holding a sign expressing their desire to be “roasted”—and then hundreds of Redditors duly oblige, savagely mocking the person’s appearance and anything else they can learn about the person from their profile.  Many of the roasts are so merciless that one winces vicariously for the poor schmucks who signed up for this, hopes that they won’t be driven to self-harm or suicide.  But browse enough roasts, and a realization starts to sink in: there’s no person, however beautiful or interesting they might’ve seemed a priori, for whom this roasting can’t be accomplished.  And that very generality makes the roasting lose much of its power—which maybe, optimistically, was the point of the whole exercise?
+
+In the same way, spend a few days browsing SneerClub, and the truth hits you: once you’ve made their enemies list, there’s nothing you could possibly say or do that they wouldn’t sneer at.  Like, say it’s a nice day outside, and someone will reply:
+
+“holy crap how much of an entitled nerdbro do you have to be, to erase all the marginalized people for whom the day is anything but ‘nice’—or who might be unable to go outside at all, because of limited mobility or other factors never even considered in these little rich white boys’ geek utopia?”
+
+For me, this realization is liberating.  If appeasement of those who hate you is doomed to fail, why bother even embarking on it?
+
+I’ve spent a lot of time on this blog criticizing D-Wave, and cringeworthy popular articles about quantum computing, and touted arXiv preprints that say wrong things.  But I hope regular readers feel like I’ve also tried to offer something positive: y’know, actual progress in quantum computing that actually excites me, or a talk about big numbers, or an explanation of the Bekenstein bound, whatever.  My experience with sites like “Stop Timothy Gowers! !!!” and SneerClub makes me feel like I ought to be doing less criticizing and more positive stuff.
+
+Why, because I fear turning into a sneerer myself?  No, it’s subtler than that: because reading the sneerers drives home for me that it’s a fool’s quest to try to become what Scott Alexander once called an “apex predator of the signalling world.”
+
+At the risk of stating the obvious: if you write, for example, that Richard Feynman was a self-aggrandizing chauvinist showboater, then even if your remarks have a nonzero inner product with the truth, you don’t thereby “transcend” Feynman and stand above him, in the same way that set theory transcends and stands above arithmetic by constructing a model for it.  Feynman’s achievements don’t thereby become your achievements.
+
+When I was in college, I devoured Ray Monk’s two-volume biography of Bertrand Russell.  This is a superb work of scholarship, which I warmly recommend to everyone.  But there’s one problem with it: Monk is constantly harping on his subject’s failures, and he has no sense of humor, and Russell does.  The result is that, whenever Monk quotes Russell’s personal letters at length to prove what a jerk Russell was, the quoted passages just leap off the page—as if old Bertie has come back from the dead to share a laugh with you, the reader, while his biographer looks on sternly and says, “you two think this is funny?”
+
+For a writer, I can think of no higher aspiration than that: to write like Bertrand Russell or like Scott Alexander—in such a way that, even when people quote you to stand above you, your words break free of the imprisoning quotation marks, wiggle past the critics, and enter the minds of readers of your generation and of generations not yet born.
+
+Update (Nov. 13): Since apparently some people didn’t know (?!), the title of this post comes from the famous Teddy Roosevelt quote:
+
+It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.
+
+================================================================================
+
+TITLE: Coming to Nerd Central
+URL: https://scottaaronson.blog/?m=201710
+CONTENT:
+While I’m generally on sabbatical in Tel Aviv this year, I’ll be in the Bay Area from Saturday Oct. 14 through Wednesday Oct. 18, where I look forward to seeing many friends new and old.  On Wednesday evening, I’ll be giving a public talk in Berkeley, through the Simons Institute’s “Theoretically Speaking” series, entitled Black Holes, Firewalls, and the Limits of Quantum Computers.  I hope to see at least a few of you there!  (I do have readers in the Bay Area, don’t I?)
+
+But there’s more: on Saturday Oct. 14, I’m thinking of having a first-ever Shtetl-Optimized meetup, somewhere near the Berkeley campus.  Which will also be a Slate Star Codex meetup, because Scott Alexander will be there too.  We haven’t figured out many details yet, except that it will definitively involve getting fruit smoothies from one of the places I remember as a grad student.  Possible discussion topics include what the math, CS, and physics research communities could be doing better; how to advance Enlightenment values in an age of recrudescent totalitarianism; and (if we’re feeling really ambitious) the interpretation of quantum mechanics.  If you’re interested, shoot me an email, let me know if there are times that don’t work; then other Scott and I will figure out a plan and make an announcement.
+
+On an unrelated note, some people might enjoy my answer to a MathOverflow question about why one should’ve expected number theory to be so rife with ridiculously easy-to-state yet hard-to-prove conjectures, like Fermat’s Last Theorem and the Goldbach Conjecture.  As I’ve discussed on this blog before, I’ve been deeply impressed with MathOverflow since the beginning, but never more so than today, when a decision to close the question as “off-topic” was rightfully overruled.  If there’s any idea that unites all theoretical computer scientists, I’d say it’s the idea that what makes a given kind of mathematics “easy” or “hard” is, itself, a proper subject for mathematical inquiry.
+
+================================================================================
+
+TITLE: Because you asked: the Simulation Hypothesis has not been falsified; remains unfalsifiable
+URL: https://scottaaronson.blog/?m=201710
+CONTENT:
+By email, by Twitter, even as the world was convulsed by tragedy, the inquiries poured in yesterday about a different topic entirely: Scott, did physicists really just prove that the universe is not a computer simulation—that we can’t be living in the Matrix?
+
+What prompted this was a rash of popular articles like this one (“Researchers claim to have found proof we are NOT living in a simulation”).  The articles were all spurred by a recent paper in Science Advances: Quantized gravitational responses, the sign problem, and quantum complexity, by Zohar Ringel of Hebrew University and Dmitry L. Kovrizhin of Oxford.
+
+I’ll tell you what: before I comment, why don’t I just paste the paper’s abstract here.  I invite you to read it—not the whole paper, just the abstract, but paying special attention to the sentences—and then make up your own mind about whether it supports the interpretation that all the popular articles put on it.
+
+Ready?  Set?
+
+Abstract: It is believed that not all quantum systems can be simulated efficiently using classical computational resources.  This notion is supported by the fact that it is not known how to express the partition function in a sign-free manner in quantum Monte Carlo (QMC) simulations for a large number of important problems.  The answer to the question—whether there is a fundamental obstruction to such a sign-free representation in generic quantum systems—remains unclear.  Focusing on systems with bosonic degrees of freedom, we show that quantized gravitational responses appear as obstructions to local sign-free QMC.  In condensed matter physics settings, these responses, such as thermal Hall conductance, are associated with fractional quantum Hall effects.  We show that similar arguments also hold in the case of spontaneously broken time-reversal (TR) symmetry such as in the chiral phase of a perturbed quantum Kagome antiferromagnet.  The connection between quantized gravitational responses and the sign problem is also manifested in certain vertex models, where TR symmetry is preserved.
+
+For those tuning in from home, the “sign problem” is an issue that arises when, for example, you’re trying to use the clever trick known as Quantum Monte Carlo (QMC) to learn about the ground state of a quantum system using a classical computer—but where you needed probabilities, which are real numbers from 0 to 1, your procedure instead spits out numbers some of which are negative, and which you can therefore no longer use to define a sensible sampling process.  (In some sense, it’s no surprise that this would happen when you’re trying to simulate quantum mechanics, which of course is all about generalizing the rules of probability in a way that involves negative and even complex numbers!  The surprise, rather, is that QMC lets you avoid the sign problem as often as it does.)
+
+Anyway, this is all somewhat far from my expertise, but insofar as I understand the paper, it looks like a serious contribution to our understanding of the sign problem, and why local changes of basis can fail to get rid of it when QMC is used to simulate certain bosonic systems.  It will surely interest QMC experts.
+
+OK, but does any of this prove that the universe isn’t a computer simulation, as the popular articles claim (and as the original paper does not)?
+
+It seems to me that, to get from here to there, you’d need to overcome four huge difficulties, any one of which would be fatal by itself, and which are logically independent of each other.
+
+Anyway, if it weren’t for all four separate points above, then sure, physicists would have now proved that we don’t live in the Matrix.
+
+I do have a few questions of my own, for anyone who came here looking for my reaction to the ‘news’: did you really need me to tell you all this?  How much of it would you have figured out on your own, just by comparing the headlines of the popular articles to the descriptions (however garbled) of what was actually done?  How obvious does something need to be, before it no longer requires an ‘expert’ to certify it as such?  If I write 500 posts like this one, will the 501st post basically just write itself?
+
+Asking for a friend.
+
+Comment Policy: I welcome discussion about the Ringel-Dovrizhin paper; what might’ve gone wrong with its popularization; QMC; the sign problem; the computational complexity of condensed-matter problems more generally; and the relevance or irrelevance of work on these topics to broader questions about the simulability of the universe.  But as a little experiment in blog moderation, I won’t allow comments that just philosophize in general about whether or not the universe is a simulation, without making further contact with the actual content of this post.  We’ve already had the latter conversation here—probably, like, every week for the last decade—and I’m ready for something new.
+
+================================================================================
+
+TITLE: Also against individual IQ worries
+URL: https://scottaaronson.blog/?m=201710
+CONTENT:
+Scott Alexander recently blogged “Against Individual IQ Worries.”  Apparently, he gets many readers writing to him terrified that they scored too low on an IQ test, and therefore they’ll never be able to pursue their chosen career, or be a full-fledged intellectual or member of the rationalist community or whatever.  Amusingly, other Scott says, some of these readers have even performed their own detailed Bayesian analysis of what it might mean that their IQ score is only 90, cogently weighing the arguments and counterarguments while deploying the full vocabulary of statistical research.  It somehow reminds me of the joke about the talking dog, who frets to his owner that he doesn’t think he’s articulate enough to justify all the media attention he’s getting.
+
+I’ve long had mixed feelings about the entire concept of IQ.
+
+On the one hand, I know all the studies that show that IQ is highly heritable, that it’s predictive of all sorts of life outcomes, etc. etc.  I’m also aware of the practical benefits of IQ research, many of which put anti-IQ leftists into an uncomfortable position: for example, the world might never have understood the risks of lead poisoning without studies showing how they depressed IQ.  And as for the thousands of writers who dismiss the concept of IQ in favor of grit, multiple intelligences, emotional intelligence, or whatever else is the flavor of the week … well, I can fully agree about the importance of the latter qualities, but can’t go along with many of those writers’ barely-concealed impulse to lower the social status of STEM nerds even further, or to enforce a world where the things nerds are good at don’t matter.
+
+On the other hand … well, have you actually looked at an IQ test?  To anyone with a scientific or mathematical bent, the tests are vaguely horrifying.  “Which of these pictures is unlike the others?”  “What number comes next in the sequence?”  Question after question that could have multiple defensible valid answers, but only one that “counts”—and that, therefore, mostly tests the social skill of reverse-engineering what the test-writer had in mind.  As a teacher, I’d be embarrassed to put such questions on an exam.
+
+I sometimes get asked what my IQ is.  The truth is that, as far as I know, I was given one official IQ test, when I was four years old, and my score was about 106.  The tester earnestly explained to my parents that, while I scored off the chart on some subtests, I completely bombed others, and averaging yielded 106.  As a representative example of what I got wrong, the tester offered my parents the following:
+
+Tester: “Suppose you came home, and you saw smoke coming out of your neighbor’s roof.  What would you do?”
+
+Me: “Probably nothing, because it’s just the chimney, and they have a fire in their fireplace.”
+
+Tester: “OK, but suppose it wasn’t the chimney.”
+
+Me: “Well then, I’d either call for help or not, depending on how much I liked my neighbor…”
+
+Apparently, my parents later consulted other psychologists who were of the opinion that my IQ was higher.  But the point remains: if IQ is defined as your score on a professionally administered IQ test, then mine is about 106.
+
+Richard Feynman famously scored only 124 on a childhood IQ test—above average, but below the cutoff for most schools’ “gifted and talented” programs.  After he won the Nobel Prize in Physics, he reportedly said that the prize itself was no big deal; what he was really proud of was to have received one despite a merely 124 IQ.  If so, then it seems to me that I can feel equally proud, to have completed a computer science PhD at age 22, become a tenured MIT professor, etc. etc. despite a much lower IQ even than Feynman’s.
+
+But seriously: how do we explain Feynman’s score?  Well, when you read IQ enthusiasts, you find what they really love is not IQ itself, but rather “g“, a statistical construct derived via factor analysis: something that positively correlates with just about every measurable intellectual ability, but that isn’t itself directly measurable (at least, not by any test yet devised).  An IQ test is merely one particular instrument that happens to correlate well with g—not necessarily the best one for all purposes.  The SAT also correlates with g—indeed, almost as well as IQ tests themselves do, despite the idea (or pretense?) that the SAT measures “acquired knowledge.”  These correlations are important, but they allow for numerous and massive outliers.
+
+So, not for the first time, I find myself in complete agreement with Scott Alexander, when he advises people to stop worrying.  We can uphold every statistical study that’s ever been done correlating IQ with other variables, while still affirming that fretting about your own low IQ score is almost as silly as fretting that you must be dumb because your bookshelf is too empty (a measurable variable that also presumably correlates with g).
+
+More to the point: if you want to know, let’s say, whether you can succeed as a physicist, then surely the best way to find out is to start studying physics and see how well you do.  That will give you a much more accurate signal than a gross consumer index like IQ will—and conditioned on that signal, I’m guessing that your IQ score will provide almost zero additional information.  (Though then again, what would a guy with a 106 IQ know about such things?)
+
+================================================================================
+

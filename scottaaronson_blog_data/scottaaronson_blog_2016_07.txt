@@ -1,0 +1,317 @@
+TITLE: More Wrong Things I Said in Papers
+URL: https://scottaaronson.blog/?m=201607
+CONTENT:
+Two years ago, I wrote a blog post entitled PostBQP Postscripts, owning up to not one but four substantive mathematical errors that I’d made over the years in my published papers, and which my students and colleagues later brought to my sheepish attention.  Fortunately, none of these errors affected the papers’ main messages; they just added interesting new twists to the story.  Even so, I remember feeling at the time like undergoing this public repentance was soul-cleansing intellectual hygiene.  I also felt like writing one big “post of shame” was easier than writing a bunch of separate errata and submitting them to journals, while also reaching a wider audience (and, therefore, doing an even better soul-cleansing job).
+
+So I resolved that, anytime I’d saved up enough errata, I’d do another sackcloth-and-ashes post.  Which brings us to today.  Without further ado:
+
+I. Quantum Money Falling Down
+
+My and Paul Christiano’s explicit public-key quantum money scheme—the one based on low-degree polynomials—has now been fully broken.  To clarify, our abstract hidden-subspace scheme—the one that uses a classical black-box to test membership in the subspaces—remains totally fine.  Indeed, we unconditionally proved the security of the black-box scheme, and our security proof stands.  In the paper, though, we also stuck our necks out further, and conjectured that you could instantiate the black box, by publishing random low-degree polynomials that vanish on the subspaces you want to hide.  While I considered this superfluous, at Paul’s insistence, we also recommended adding completely-random “noise polynomials” for extra security.
+
+Our scheme was broken in two stages.  First, in 2014, Pena et al. broke the noiseless version of our scheme, using Gröbner-basis methods, over fields of characteristic greater than 2.  Over F2—the field we happened to use in our scheme—Pena et al. couldn’t quite prove that their attack worked, but they gave numerical evidence that at least it finds the subspaces in nO(log n) time.  Note that nothing in Pena et al.’s attack is specific to quantum money: indeed, their attack consists of a purely classical algorithm, which efficiently solves the general classical problem of recovering large subspaces from polynomials that hide them.
+
+At that point, at least the noisy version of our scheme—the one Paul had insisted we include—was still standing!  Indeed, the Gröbner-basis attack seemed to break down entirely when some of the polynomials were random garbage.
+
+Later, though, Paul and Or Sattath realized that a quantum trick—basically, the single-copy tomography of Farhi et al.—can identify which polynomials are the noisy ones, provided we’re given a legitimate quantum money state to start with.  As a consequence, the problem of breaking the noisy scheme can be reduced to the problem of breaking the noiseless scheme—i.e., the problem that Pena et al. already essentially solved.
+
+As bad as this sounds, it has an interesting positive consequence.  In our paper, Paul and I had actually given a security reduction for our money scheme based on low-degree polynomials.  In particular, we showed that there’s no polynomial-time quantum algorithm to counterfeit our money states, unless there’s a polynomial-time quantum algorithm that finds a basis for a subspace S≤F2n of dimension n/2 with Ω(2-n/2) success probability, given a collection of low-degree polynomials p1,…,pm and q1,…,qm (m=O(n)) most of which vanish on S and its dual subspace respectively, but that are otherwise random.  So, running our reduction backwards, the only possible conclusion from the break is that there is such a quantum algorithm!  Yet we would’ve had no idea how to find that quantum algorithm without going through quantum money—nor do we know a classical algorithm for the problem, or even a quantum algorithm with Ω(1) success probability.
+
+In the meantime, the problem of designing a public-key quantum money scheme, with good cryptographic evidence for its security, remains open.  It’s plausible that there’s some other, more secure way to instantiate my and Paul’s hidden subspace scheme, for example using lattices.  And even before we’ve found such a way, we can use indistinguishability obfuscation as a stopgap.  We could also seek cryptographic evidence for the security of other kinds of public-key quantum money, like Farhi et al.’s based on knot invariants.
+
+A paper about all this is on our to-do stack. In the meantime, for further details, see Lecture 9 in my Barbados lecture notes.
+
+II. A De-Merlinization Mistake
+
+In my 2006 paper QMA/qpoly ⊆ PSPACE/poly: De-Merlinizing Quantum Protocols, the technical core of the complexity result was a new quantum information lemma that I called the “Quantum OR Bound” (Lemma 14 in the paper).
+
+Basically, the Quantum OR Bound says that, if we have an unknown quantum state ρ, as well as a collection of measurements M1,…,Mn that we might want to make on ρ, then we can distinguish the case that (a) every Mi rejects ρ with overwhelming probability, from the case that (b) at least one Mi accepts ρ with high probability.  And we can do this despite having only one copy of ρ, and despite the fact that earlier measurements might corrupt ρ, thereby compromising the later measurements.  The intuition is simply that, if the earlier measurements corrupted ρ substantially, that could only be because some of them had a decent probability of accepting ρ, meaning that at any rate, we’re not in case (a).
+
+I’ve since reused the Quantum OR Bound for other problems—most notably, a proof that private-key quantum money requires either a computational assumption or a huge database maintained by the bank (see Theorem 8.3.1 in my Barbados lecture notes).
+
+Alas, Aram Harrow and Ashley Montanaro recently discovered that my proof of the Quantum OR Bound is wrong.  It’s wrong because I neglected the possibility of “Zeno-like behavior,” in which repeated measurements on a quantum state would gradually shift the state far away from its starting point, without ever having a significant probability of rejecting the state.  For some reason, I assumed without any adequate argument that choosing the measurements at random, rather than in a predetermined order, would solve that problem.
+
+Now, I might actually be right that randomizing the measurements is enough to solve the Zeno problem!  That remains a plausible conjecture, which Harrow and Montanaro could neither confirm nor refute.  In the meantime, though, Harrow and Montanaro were able to recover my QMA/qpoly⊆PSPACE/poly theorem, and all the other conclusions known to follow from the Quantum OR Bound (including some new ones that they discover), by designing a new measurement procedure whose soundness they can prove.
+
+Their new procedure is based on an elegant, obvious-in-retrospect idea that somehow never occurred to me.  Namely, instead of just applying Mi‘s to ρ, one can first put a control qubit into an equal superposition of the |0〉 and |1〉 states, and then apply Mi‘s conditioned on the control qubit being in the |1〉 state.  While doing this, one can periodically measure the control qubit in the {|+〉,|-〉} basis, in order to check directly whether applying the Mi‘s has substantially corrupted ρ.  (If it hasn’t, one will always get the outcome |+〉; if it has, one might get |-〉.)  Substantial corruption, if detected, then tells us that some Mi‘s must have had non-negligible probabilities of accepting ρ.
+
+III. Almost As Good As True
+
+One lemma that I’ve used even more than the Quantum OR Bound is what I’ve called the “Almost As Good As New Lemma,” and what others in the field have called the “Gentle Measurement Lemma.”
+
+I claimed a proof of the AAGANL in my 2004 paper Limitations of Quantum Advice and One-Way Communication (Lemma 2.2 there), and have used the lemma in like half a dozen later papers.  Alas, when I lectured at Barbados, Sasha Razborov and others discovered that my proof of the AAGANL was missing a crucial step!  More concretely, the proof I gave there works for pure states but not for mixed states.  For mixed states, the trouble is that I take a purification of the mixed state—something that always exists mathematically—but then illegally assume that the measurement I’m analyzing acts on the particular purification I’ve conjured up.
+
+Fortunately, one can easily fix this problem by decomposing the state ρ into a mixture of pure states, then applying my earlier argument to each pure state separately, and finally using Cauchy-Schwarz (or just the convexity of the square-root function) to recombine the results.  Moreover, this is exactly what other people’s proofs of the Gentle Measurement Lemma did do, though I’d never noticed it before Barbados—I just idly wondered why those other proofs took twice as long as mine to do the same work!  For a correct proof, see Lemma 1.3.1 in the Barbados lecture notes.
+
+IV. Oracle Woes
+
+In my 2010 paper BQP and the Polynomial Hierarchy, I claimed to construct oracles A relative to which BQP⊄BPPpath and BQP⊄SZK, even while making only partial progress toward the big prize, which would’ve been an oracle relative to which BQP⊄PH.  Not only that: I claimed to show that any problem with a property called “almost k-wise independence”—one example being the Forrelation (or Fourier Checking) problem that I introduced in that paper—was neither in BPPpath nor in SZK.  But I showed that Forrelation is in BQP, thus yielding the separations.
+
+Alas, this past spring Lijie Chen, who was my superb visiting student from Tsinghua University, realized that my proofs of these particular separations were wrong.  Not only that, they were wrong because I implicitly substituted a ratio of expectations for an expectation of ratios (!).  Again, it might still be true that almost k-wise independent problems can be neither in BPPpath nor in SZK: that remains an interesting conjecture, which Lijie was unable to resolve one way or the other.  (On the other hand, I showed here that almost k-wise independent problems can be in PH.)
+
+But never fear!  In a recent arXiv preprint, Lijie has supplied correct proofs for the BQP⊄BPPpath and BQP⊄SZK oracle separations—using the same Forrelation problem that I studied, but additional properties of Forrelation besides its almost k-wise independence.  Lijie notes that my proofs, had they worked, would also have yielded an oracle relative to which BQP⊄AM, which would’ve been a spectacular result, nontrivial progress toward BQP⊄PH.  His proofs, by contrast, apply only to worst-case decision problems rather than problems of distinguishing two probability distributions, and therefore don’t imply anything about BQP vs. AM.  Anyway, there’s other cool stuff in his paper too.
+
+V. We Needed More Coffee
+
+This is one I’ve already written about on this blog, but just in case anyone missed it … in my, Sean Carroll, and Lauren Ouellette’s original draft paper on the coffee automaton, the specific rule we discuss doesn’t generate any significant amount of complexity (in the sense of coarse-grained entropy).  We wrongly thought it did, because of a misinterpretation of our simulation data.  But as Brent Werness brought to our attention, not only does a corrected simulation not show any complexity bump, one can rigorously prove there’s no complexity bump.  And we could’ve realized all this from the beginning, by reflecting that pure random diffusion (e.g., what cream does in coffee when you don’t stir it with a spoon) doesn’t actually produce interesting tendril patterns.
+
+On the other hand, Brent proposed a different rule—one that involves “shearing” whole regions of cream and coffee across each other—that does generate significant complexity, basically because of all the long-range correlations it induces.  And not only do we clearly see this in simulations, but the growth of complexity can be rigorously proven!  Anyway, we have a long-delayed revision of the paper that will explain all this in more detail, with Brent as well as MIT student Varun Mohan now added as coauthors.
+
+If any of my colleagues feel inspired to write up their own “litanies of mathematical error,” they’re welcome to do so in the comments!  Just remember: you don’t earn any epistemic virtue points unless the errors you reveal actually embarrass you.  No humblebragging about how you once left out a minus sign in your paper that won the Fields Medal.
+
+================================================================================
+
+TITLE: My biology paper in Science (really)
+URL: https://scottaaronson.blog/?m=201607
+CONTENT:
+Think I’m pranking you, right?
+
+You can see the paper right here (“Synthetic recombinase-based state machines in living cells,” by Nathaniel Roquet, Ava P. Soleimany, Alyssa C. Ferris, Scott Aaronson, and Timothy K. Lu).  [Update (Aug. 3): The previous link takes you to a paywall, but you can now access the full text of our paper here.  See also the Supplementary Material here.]  You can also read the MIT News article (“Scientists program cells to remember and respond to series of stimuli”).  In any case, my little part of the paper will be fully explained in this post.
+
+A little over a year ago, two MIT synthetic biologists—Timothy Lu and his PhD student Nate Roquet—came to my office saying they had a problem they wanted help with.  Why me? I wondered.  Didn’t they realize I was a quantum complexity theorist, who so hated picking apart owl pellets and memorizing the names of cell parts in junior-high Life Science, that he avoided taking a single biology course since that time?  (Not counting computational biology, taught in a CS department by Richard Karp.)
+
+Nevertheless, I listened to my biologist guests—which turned out to be an excellent decision.
+
+Tim and Nate told me about a DNA system with surprisingly clear rules, which led them to a strange but elegant combinatorial problem.  In this post, first I need to spend some time to tell you the rules; then I can tell you the problem, and lastly its solution.  There are no mathematical prerequisites for this post, and certainly no biology prerequisites: everything will be completely elementary, like learning a card game.  Pen and paper might be helpful, though.
+
+As we all learn in kindergarten, DNA is a finite string over the 4-symbol alphabet {A,C,G,T}.  We’ll find it more useful, though, to think in terms of entire chunks of DNA bases, which we’ll label arbitrarily with letters like X, Y, and Z.  For example, we might have X=ACT, Y=TAG, and Z=GATTACA.
+
+We can also invert one of these chunks, which means writing it backwards while also swapping the A’s with T’s and the G’s with C’s.  We’ll denote this operation by * (the technical name in biology is “reverse-complement”).  For example:
+
+X*=AGT, Y*=CTA, Z*=TGTAATC.
+
+Note that (X*)*=X.
+
+We can then combine our chunks and their inverses into a longer DNA string, like so:
+
+ZYX*Y* = GATTACA TAG AGT CTA.
+
+From now on, we’ll work exclusively with the chunks, and forget completely about the underlying A’s, C’s, G’s, and T’s.
+
+Now, there are also certain special chunks of DNA bases, called recognition sites, which tell the little machines that read the DNA when they should start doing something and when they should stop.  Recognition sites come in pairs, so we’ll label them using various parenthesis symbols like ( ), [ ], { }.  To convert a parenthesis into its partner, you invert it: thus ( = )*, [ = ]*, { = }*, etc.  Crucially, the parentheses in a DNA string don’t need to “face the right ways” relative to each other, and they also don’t need to nest properly.  Thus, both of the following are valid DNA strings:
+
+X ( Y [ Z [ U ) V
+
+X { Y ] Z { U [ V
+
+Let’s refer to X, Y, Z, etc.—the chunks that aren’t recognition sites—as letter-chunks.  Then it will be convenient to make the following simplifying assumptions:
+
+The little machines that read the DNA string are called recombinases.  There’s one kind of recombinase for each kind of recognition site: a (-recombinase, a [-recombinase, and so on.  When, let’s say, we let a (-recombinase loose on our DNA string, it searches for (‘s and )’s and ignores everything else.  Here’s what it does:
+
+Let’s see some examples.  When we apply [-recombinase to the string
+
+A ( B [ C [ D ) E,
+
+we get
+
+A ( B D ) E.
+
+When we apply (-recombinase to the same string, we get
+
+A D* ] C* ] B* E.
+
+When we apply both recombinases (in either order), we get
+
+A D* B* E.
+
+Another example: when we apply {-recombinase to
+
+A { B ] C { D [ E,
+
+we get
+
+A D [ E.
+
+When we apply [-recombinase to the same string, we get
+
+A { B D* } C* E.
+
+When we apply both recombinases—ah, but here the order matters!  If we apply { first and then [, we get
+
+A D [ E,
+
+since the [-recombinase now encounters only a single [, and has nothing to do.  On the other hand, if we apply [ first and then {, we get
+
+A D B* C* E.
+
+Notice that inverting a substring can change the relative orientation of two recognition sites—e.g., it can change { { into { } or vice versa.  It can thereby change what happens (inversion or deletion) when some future recombinase is applied.
+
+One final rule: after we’re done applying recombinases, we remove the remaining recognition sites like so much scaffolding, leaving only the letter-chunks.  Thus, the final output
+
+A D [ E
+
+becomes simply A D E, and so on.  Notice also that, if we happen to delete one recognition site of a given type while leaving its partner, the remaining site will necessarily just bounce around inertly before getting deleted at the end—so we might as well “put it out of its misery,” and delete it right away.
+
+My coauthors have actually implemented all of this in a wet lab, which is what most of the Science paper is about (my part is mostly in a technical appendix).  They think of what they’re doing as building a “biological state machine,” which could have applications (for example) to programming cells for medical purposes.
+
+But without further ado, let me tell you the math question they gave me.  For reasons that they can explain better than I can, my coauthors were interested in the information storage capacity of their biological state machine.  That is, they wanted to know the answer to the following:
+
+Suppose we have a fixed initial DNA string, with n pairs of recognition sites and 2n+1 letter-chunks; and we also have a recombinase for each type of recognition site.  Then by choosing which recombinases to apply, as well as which order to apply them in, how many different DNA strings can we generate as output?
+
+It’s easy to construct an example where the answer is as large as 2n.  Thus, if we consider a starting string like
+
+A ( B ) C [ D ] E { F } G < H > I,
+
+we can clearly make 24=16 different output strings by choosing which subset of recombinases to apply and which not.  For example, applying [, {, and < (in any order) yields
+
+A B C D* E F* G H* I.
+
+There are also cases where the number of distinct outputs is less than 2n.  For example,
+
+A ( B [ C [ D ( E
+
+can produce only 3 outputs—A B C D E, A B D E, and A E—rather than 4.
+
+What Tim and Nate wanted to know was: can the number of distinct outputs ever be greater than 2n?
+
+Intuitively, it seems like the answer “has to be” yes.  After all, we already saw that the order in which recombinases are applied can matter enormously.  And given n recombinases, the number of possible permutations of them is n!, not 2n.  (Furthermore, if we remember that any subset of the recombinases can be applied in any order, the number of possibilities is even a bit greater—about e·n!.)
+
+Despite this, when my coauthors played around with examples, they found that the number of distinct output strings never exceeded 2n. In other words, the number of output strings behaved as if the order didn’t matter, even though it does.  The problem they gave me was either to explain this pattern or to find a counterexample.
+
+I found that the pattern holds:
+
+Theorem: Given an initial DNA string with n pairs of recognition sites, we can generate at most 2n distinct output strings by choosing which recombinases to apply and in which order.
+
+Let a recombinase sequence be an ordered list of recombinases, each occurring at most once: for example, ([{ means to apply (-recombinase, then [-recombinase, then {-recombinase.
+
+The proof of the theorem hinges on one main definition.  Given a recombinase sequence that acts on a given DNA string, let’s call the sequence irreducible if every recombinase in the sequence actually finds two recognition sites (and hence, inverts or deletes a nonempty substring) when it’s applied.  Let’s call the sequence reducible otherwise.  For example, given
+
+A { B ] C { D [ E,
+
+the sequence [{ is irreducible, but {[ is reducible, since the [-recombinase does nothing.
+
+Clearly, for every reducible sequence, there’s a shorter sequence that produces the same output string: just omit the recombinases that don’t do anything!  (On the other hand, I leave it as an exercise to show that the converse is false.  That is, even if a sequence is irreducible, there might be a shorter sequence that produces the same output string.)
+
+Key Lemma: Given an initial DNA string, and given a subset of k recombinases, every irreducible sequence composed of all k of those recombinases produces the same output string.
+
+Assuming the Key Lemma, let’s see why the theorem follows.  Given an initial DNA string, suppose you want to specify one of its possible output strings.  I claim you can do this using only n bits of information.  For you just need to specify which subset of the n recombinases you want to apply, in some irreducible order.  Since every irreducible sequence of those recombinases leads to the same output, you don’t need to specify an order on the subset.  Furthermore, for each possible output string S, there must be some irreducible sequence that leads to S—given a reducible sequence for S, just keep deleting irrelevant recombinases until no more are left—and therefore some subset of recombinases you could pick that uniquely determines S.  OK, but if you can specify each S uniquely using n bits, then there are at most 2n possible S’s.
+
+Proof of Key Lemma.  Given an initial DNA string, let’s assume for simplicity that we’re going to apply all n of the recombinases, in some irreducible order.  We claim that the final output string doesn’t depend at all on which irreducible order we pick.
+
+If we can prove this claim, then the lemma follows, since given a proper subset of the recombinases, say of size k<n, we can simply glom together everything between one relevant recognition site and the next one, treating them as 2k+1 giant letter-chunks, and then repeat the argument.
+
+Now to prove the claim.  Given two letter-chunks—say A and B—let’s call them soulmates if either A and B or A* and B* will necessarily end up next to each other, whenever all n recombinases are applied in some irreducible order, and whenever A or B appears at all in the output string.  Also, let’s call them anti-soulmates if either A and B* or A* and B will necessarily end up next to each other if either appears at all.
+
+To illustrate, given the initial DNA sequence,
+
+A [ B ( C ] D ( E,
+
+you can check that A and C are anti-soulmates.  Why?  Because if we apply all the recombinases in an irreducible sequence, then at some point, the [-recombinase needs to get applied, and it needs to find both [ recognition sites.  And one of these recognition sites will still be next to A, and the other will still be next to C (for what could have pried them apart?  nothing).  And when that happens, no matter where C has traveled in the interim, C* must get brought next to A.  If the [-recombinase does an inversion, the transformation will look like
+
+A [ … C ] → A C* …,
+
+while if it does a deletion, the transformation will look like
+
+A [ … [ C* → A C*
+
+Note that C’s [ recognition site will be to its left, if and only if C has been flipped to C*.  In this particular example, A never moves, but if it did, we could repeat the analysis for A and its [ recognition site.  The conclusion would be the same: no matter what inversions or deletions we do first, we’ll maintain the invariant that A and C* (or A* and C) will immediately jump next to each other, as soon as the [ recombinase is applied.  And once they’re next to each other, nothing will ever separate them.
+
+Similarly, you can check that C and D are soulmates, connected by the ( recognition sites; D and B are anti-soulmates, connected by the [ sites; and B and E are soulmates, connected by the ( sites.
+
+More generally, let’s consider an arbitrary DNA sequence, with n pairs of recognition sites.  Then we can define a graph, called the soulmate graph, where the 2n+1 letter-chunks are the vertices, and where X and Y are connected by (say) a blue edge if they’re soulmates, and by a red edge if they’re anti-soulmates.
+
+When we construct this graph, we find that every vertex has exactly 2 neighbors, one for each recognition site that borders it—save the first and last vertices, which border only one recognition site each and so have only one neighbor each.  But these facts immediately determine the structure of the graph.  Namely, it must consist of a simple path, starting at the first letter-chunk and ending at the last one, together with possibly a disjoint union of cycles.
+
+But we know that the first and last letter-chunks can never move anywhere.  For that reason, a path of soulmates and anti-soulmates, starting at the first letter-chunk and ending at the last one, uniquely determines the final output string, when the n recombinases are applied in any irreducible order.  We just follow it along, switching between inverted and non-inverted letter-chunks whenever we encounter a red edge.  The cycles contain the letter-chunks that necessarily get deleted along the way to that unique output string.  This completes the proof of the lemma, and hence the theorem.
+
+
+
+There are other results in the paper, like a generalization to the case where there can be k pairs of recognition sites of each type, rather than only one. In that case, we can prove that the number of distinct output strings is at most 2kn, and that it can be as large as ~(2k/3e)n. We don’t know the truth between those two bounds.
+
+Why is this interesting?  As I said, my coauthors had their own reasons to care, involving the number of bits one can store using a certain kind of DNA state machine.  I got interested for a different reason: because this is a case where biology threw up a bunch of rules that look like a random mess—the parentheses don’t even need to nest correctly?  inversion can also change the semantics of the recognition sites?  evolution never thought about what happens if you delete one recognition site while leaving the other one?—and yet, on analysis, all the rules work in perfect harmony to produce a certain outcome.  Change a single one of them, and the “at most 2n distinct DNA sequences” theorem would be false.  Mind you, I’m still not sure what biological purpose it serves for the rules to work in harmony this way, but they do.
+
+But the point goes further.  While working on this problem, I’d repeatedly encounter an aspect of the mathematical model that seemed weird and inexplicable—only to have Tim and Nate explain that the aspect made sense once you brought in additional facts from biology, facts not in the model they gave me.  As an example, we saw that in the soulmate graph, the deleted substrings appear as cycles.  But surely excised DNA fragments don’t literally form loops?  Why yes, apparently, they do.  As a second example, consider the DNA string
+
+A ( B [ C ( D [ E.
+
+When we construct the soulmate graph for this string, we get the path
+
+A–D–C–B–E.
+
+Yet there’s no actual recombinase sequence that leads to A D C B E as an output string!  Thus, we see that it’s possible to have a “phantom output,” which the soulmate graph suggests should be reachable but that isn’t actually reachable.  According to my coauthors, that’s because the “phantom outputs” are reachable, once you know that in real biology (as opposed to the mathematical model), excised DNA fragments can also reintegrate back into the long DNA string.
+
+Many of my favorite open problems about this model concern algorithms and complexity. For example: given as input an initial DNA string, does there exist an irreducible order in which the recombinases can be applied? Is the “utopian string”—the string suggested by the soulmate graph—actually reachable? If it is reachable, then what’s the shortest sequence of recombinases that reaches it? Are these problems solvable in polynomial time? Are they NP-hard? More broadly, if we consider all the subsets of recombinases that can be applied in an irreducible order, or all the irreducible orders themselves, what combinatorial conditions do they satisfy?  I don’t know—if you’d like to take a stab, feel free to share what you find in the comments!
+
+What I do know is this: I’m fortunate that, before they publish your first biology paper, the editors at Science don’t call up your 7th-grade Life Science teacher to ask how you did in the owl pellet unit.
+
+More in the comments:
+
+Unrelated Announcement from My Friend Julia Wise (July 24): Do you like science and care about humanity’s positive trajectory? July 25 is the final day to apply for Effective Altruism Global 2016. From August 5-7 at UC Berkeley, a network of founders, academics, policy-makers, and more will gather to apply economic and scientific thinking to the world’s most important problems. Last year featured Elon Musk and the head of Google.org. This year will be headlined by Cass Sunstein, the co-author of Nudge. If you apply with this link, the organizers will give you a free copy of Doing Good Better by Will MacAskill. Scholarships are available for those who can’t afford the cost.  Read more here.  Apply here.
+
+================================================================================
+
+TITLE: The Complexity of Quantum States and Transformations: From Quantum Money to Black Holes
+URL: https://scottaaronson.blog/?m=201607
+CONTENT:
+On February 21-25, I taught a weeklong mini-course at the Bellairs Research Institute in Barbados, where I tried to tell an integrated story about everything from quantum proof and advice complexity classes to quantum money to AdS/CFT and the firewall problem—all through the unifying lens of quantum circuit complexity.  After a long effort—on the part of me, the scribes, the guest lecturers, and the organizers—the 111-page lecture notes are finally available, right here.
+
+Here’s the summary:
+
+If you still haven’t decided whether to tackle this thing: it’s basically a quantum complexity theory textbook (well, a textbook for certain themes within quantum complexity theory) that I’ve written and put on the Internet for free.  It has explanations of lots of published results both old and new, but also some results of mine (e.g., about private-key quantum money, firewalls, and AdS/CFT) that I shamefully haven’t yet written up as papers, and that therefore aren’t currently available anywhere else.  If you’re interested in certain specific topics—for example, only quantum money, or only firewalls—you should be able to skip around in the notes without too much difficulty.
+
+Thanks so much to Denis Therien for organizing the mini-course, Anil Ada for managing the scribe notes effort, my PhD students Adam Bouland and Luke Schaeffer for their special guest lecture (the last one), and finally, the course attendees for their constant questions and interruptions, and (of course) for scribing.
+
+And in case you were wondering: yes, I’ll do absolutely anything for science, even if it means teaching a weeklong course in Barbados!  Lest you consider this a pure island boondoggle, please know that I spent probably 12-14 hours per day either lecturing (in two 3-hour installments) or preparing for the lectures, with little sleep and just occasional dips in the ocean.
+
+And now I’m headed to the Perimeter Institute for their It from Qubit summer school, not at all unrelated to my Barbados lectures.  This time, though, it’s thankfully other people’s turns to lecture…
+
+================================================================================
+
+TITLE: ITCS’2017: Special Guest Post by Christos Papadimitriou
+URL: https://scottaaronson.blog/?m=201607
+CONTENT:
+The wait is over.
+
+Yes, that’s correct: the Call for Papers for the 2017 Innovations in Theoretical Computer Science (ITCS) conference, to be held in Berkeley this coming January 9-11, is finally up.  I attended ITCS’2015 in Rehovot, Israel and had a blast, and will attend ITCS’2017 if logistics permit.
+
+But that’s not all: in a Shtetl-Optimized exclusive, the legendary Christos Papadimitriou, coauthor of the acclaimed Logicomix and ITCS’2017 program chair, has written us a guest post about what makes ITCS special and why you should come.  Enjoy!  –SA
+
+ITCS:  A hidden treasure of TCS
+
+by Christos Papadimitriou
+
+Conferences, for me, are a bit like demonstrations: they were fun in the 1970s.  There was the Hershey STOC, of course, and that great FOCS in Providence, plus a memorable database theory gathering in Calabria.  Ah, children, you should have been there…
+
+So, even though I was a loyal supporter of the ITCS idea from the beginning – the “I”, you recall, stands for innovation –, I managed to miss essentially all of them – except for those that left me no excuse.  For example, this year the program committee was unreasonably kind to my submissions, and so this January I was in Boston to attend.
+
+I want to tell you about ITCS 2016, because it was a gas.
+
+First, I saw all the talks.  I cannot recall this ever happening to me before.  I reconnected with fields of old, learned a ton, and got a few cool new ideas.
+
+In fact, I believe that there was no talk with fewer than 60 people in the audience – and that’s about 70% of the attendees.  In most talks it was closer to 90%.  When was the last conference where you saw that?
+
+And what is the secret of this enhanced audience attention?  One explanation is that smaller conference means small auditorium.  Listening to the talk no longer feels like watching a concert in a stadium, or an event on TV, it’s more like a story related by a friend.  Another gimmick that works well is that, at ITCS, session chairs start the session with a 10-minute “rant,” providing context and their own view of the papers in the session.
+
+Our field got a fresh breath of cohesion at ITCS 2016: cryptographers listened to game theorists in the presence of folks who do data structures for a living, or circuit complexity – for a moment there, the seventies were back.
+
+Ah, those papers, their cleverness and diversity and freshness!  Here is a sample of a few with a brief comment for each (take a look at the conference website for the papers and the presentations).
+
+(A parenthesis:  The last two papers make the following important point clear: Innovation in ITCS is not meant to be the antithesis of mathematical sophistication.  Deep math and methodological innovation are key ingredients of the ITCS culture.)
+
+Even though there were no lively discussions at the lobby during the sessions – too many folks attending, see? – the interaction was intense and enjoyable during the extra long breaks and the social events.
+
+Plus we had the Graduating Bits night, when the youngest among us get 5 minutes to tell.  I would have traveled to Cambridge just for that!
+
+All said, ITCS 2016 was a gem of a meeting.  If you skipped it, you really missed a good one.
+
+But there is no reason to miss ITCS 2017, let me tell you a few things about it:
+
+You should come!
+
+================================================================================
+
+TITLE: “Did Einstein Kill Schrödinger’s Cat?  A Quantum State of Mind”
+URL: https://scottaaronson.blog/?m=201607
+CONTENT:
+No, I didn’t invent that title.  And no, I don’t know of any interesting sense in which “Einstein killed Schrödinger’s cat,” though arguably there are senses in which Schrödinger’s cat killed Einstein.
+
+The above was, however, the title given to a fun panel discussion that Daniel Harlow, Brian Swingle, and I participated in on Wednesday evening, at the spectacular facility of the New York Academy of Sciences on the 40th floor of 7 World Trade Center in lower Manhattan.  The moderator was George Musser of Scientific American.  About 200 people showed up, some of whom we got to meet at the reception afterward.
+
+(The link will take you to streaming video of the event, though you’ll need to scroll to 6:30 or so for the thing to start.)
+
+The subject of the panel was the surprising recent connections between quantum information and quantum gravity, something that Daniel, Brian, and I all talked about different aspects of.  I admitted at the outset that, not only was I not a real expert on the topic (as Daniel and Brian are), I wasn’t even a physicist, just a computer science humor mercenary or whatever the hell I am.  I then proceeded, ironically, to explain the Harlow-Hayden argument for the computational hardness of creating a firewall, despite Harlow sitting right next to me (he chose to focus on something else).  I was planning also to discuss Lenny Susskind’s conjecture relating the circuit complexity of quantum states to the AdS/CFT correspondence, but I ran out of time.
+
+Thanks so much to my fellow participants, to George for moderating, and especially to Jennifer Costley, Crystal Ocampo, and everyone else at NYAS for organizing the event.
+
+================================================================================
+

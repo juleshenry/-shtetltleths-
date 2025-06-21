@@ -1,0 +1,163 @@
+TITLE: Quantum Computing Since Democritus now out in the US!  20% discount for Shtetl-Optimized readers
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+OK, this will be my last blog post hawking Quantum Computing Since Democritus, at least for a while.  But I do have four pieces of exciting news about the book that I want to share.
+
+================================================================================
+
+TITLE: Superiority of the Latke: The Unexpected Convergence of Quantum Mechanics and Common Sense
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+
+
+Back in February, I gave a talk with the above title at the Annual MIT Latke-Hamentaschen Debate.  I’m pleased to announce that streaming video of my talk is now available!  (My segment starts about 10 minutes into the video, and lasts for 10 minutes.)  You can also download my PowerPoint slides here.
+
+Out of hundreds of talks I’ve given in my life, on five continents, this is the single talk of which I’m the proudest.
+
+Of course, before you form an opinion about the issue at hand, you should also check out the contributions of my fellow debaters.  On the sadly-mistaken hamentasch side, my favorite presentation was that of mathematician Arthur Mattuck, which starts in at 56 minutes and lasts for a full half hour (!! – the allotted time was only 8 minutes).  Mattuck relates the shapes of latkes and hamentaschen to the famous Kakeya problem in measure theory—though strangely, his final conclusions seem to provide no support whatsoever for the hamentaschen, even on Mattuck’s own terms.
+
+Finally, what if you’re a reader for whom the very words “latke” and “hamentaschen” are just as incomprehensible as the title of this blog?  OK, here are some Cliff Notes:
+
+Thanks very much to Dean of Admissions Stu Schmill for moderating, and to MIT Hillel for organizing the debate.
+
+Update: Luboš has a new blog post announcing that he finally found a chapter in Quantum Computing Since Democritus that he likes!  Woohoo!  Whether coincidentally or not, the chapter he likes makes exactly the same points about quantum mechanics that I also make in my pro-latke presentation.
+
+================================================================================
+
+TITLE: I was right: Congress’s attack on the NSF widens
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+Last month, I blogged about Sen. Tom Coburn (R-Oklahoma) passing an amendment blocking the National Science Foundation from funding most political science research.  I wrote:
+
+This sort of political interference with the peer-review process, of course, sets a chilling precedent for all academic research, regardless of discipline.  (What’s next, an amendment banning computer science research, unless it has applications to scheduling baseball games or slicing apple pies?)
+
+In the comments section of that post, I was pilloried by critics, who ridiculed my delusional fears about an anti-science witch hunt.  Obviously, they said, Congressional Republicans only wanted to slash dubious social science research: not computer science or the other hard sciences that people reading this blog really care about, and that everyone agrees are worthy.  Well, today I write to inform you that I was right, and my critics were wrong.  For the benefit of readers who might have missed it the first time, let me repeat that:
+
+I was right, and my critics were wrong.
+
+In this case, like in countless others, my “paranoid fears” about what could happen turned out to be preternaturally well-attuned to what would happen.
+
+According to an article in Science, Lamar Smith (R-Texas), the new chair of the ironically-named House Science Committee, held two hearings in which he “floated the idea of having every NSF grant application [in every field] include a statement of how the research, if funded, ‘would directly benefit the American people.’ ”  Connoisseurs of NSF proposals will know that every proposal already includes a “Broader Impacts” section, and that that section often borders on comic farce.  (“We expect further progress on the μ-approximate shortest vector problem to enthrall middle-school students and other members of the local community, especially if they happen to belong to underrepresented groups.”)  Now progress on the μ-approximate shortest vector problem also has to directly—directly—“benefit the American people.”  It’s not enough for such research to benefit science—arguably the least bad, least wasteful enterprise our sorry species has ever managed—and for science, in turn, to be a principal engine of the country’s economic and military strength, something that generally can’t be privatized because of a tragedy-of-the-commons problem, and something that economists say has repaid public investments many, many times over.  No, the benefit now needs to be “direct.”
+
+The truth is, I find myself strangely indifferent to whether Smith gets his way or not.  On the negative side, sure, a pessimist might worry that this could spell the beginning of the end for American science.  But on the positive side, I would have been proven so massively right that, even as I held up my “Will Prove Quantum Complexity Theorems For Food” sign on a street corner or whatever, I’d have something to crow about until the end of my life.
+
+================================================================================
+
+TITLE: My fortune-cookie wisdom for the day
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+On Sunday afternoon, Dana, Lily, and I were in Copley Square in Boston for a brunch with friends, at the Mandarin Oriental hotel on Boylston Street.  As I now recall, I was complaining bitterly about a number of things.  First, I’d lost my passport (it’s since been found).  Second, we hadn’t correctly timed Lily’s feedings, making us extremely late for the brunch, and causing Lily to scream hysterically the entire car ride.  Third, parking (and later, locating) our car at the Prudential Center was a logistical nightmare.  Fourth, I’d recently received by email a profoundly silly paper, claiming that one of my results was wrong based on a trivial misunderstanding.  Fifth … well, there were other things that were bothering me, but I don’t remember what they were.
+
+Then the next day, maybe 50 feet from where we’d been, the bombs went off, three innocent human beings lost their lives and many more were rendered permanently disabled.
+
+Drawing appropriate morals is left as an exercise for the reader.
+
+Update (Friday, 7AM): Maybe the moral is that you shouldn’t philosophize while the suspects are still on the loose. Last night (as you can read anywhere else on the web) an MIT police officer was tragically shot and killed in the line of duty, right outside the Stata Center, by one of the marathon bombers (who turn out to be brothers from Chechnya). After a busy night—which also included robbing a 7-Eleven (visiting a 7-Eleven that was coincidentally also robbed—no novelist could make this stuff up), carjacking a Mercedes two blocks from my apartment, and randomly throwing some more pressure-cooker bombs—one of the brothers was killed; the other one escaped to Watertown. A massive hunt for him is now underway. MIT is completely closed today, as is Harvard and pretty much every other university in the area—and now, it seems, all stores and businesses in the entire Boston area. The streets are mostly deserted except for police vehicles. As for us, we heard the sirens through much of the night, but didn’t know what they were about until this morning. Here’s hoping they catch the second asshole soon.
+
+Another Update (Friday, 9AM): As the sorry details emerge about these Tsarnaev brothers, it occurs to me that there’s another moral we can draw: namely, we can remind ourselves that the Hollywood image of the evil criminal genius is almost entirely a myth. Yes, evil and genius have occasionally been found in the same person (as with a few of the Nazi scientists), but it’s evil and stupidity that are the far more natural allies. Which is the most optimistic statement I can think to make right now about the future of the human race.
+
+Yet More Updates (Friday, 3PM): The whole Boston area is basically a ghost town now, with the streets empty on a beautiful spring day and the sound of helicopters filling the air.  I was just up on my roofdeck to watch, and never saw anything like it.  I can’t help thinking that it sets a terrible precedent to give a couple doofus amateur terrorists the power to shut down an entire metropolitan area.  Meanwhile, Andrew Sullivan points to a spectacularly stupid tweet by one Nate Bell:
+
+I wonder how many Boston liberals spent the night cowering in their homes wishing they had an AR-15 with a hi-capacity magazine?
+
+This sounds like a gun nut projecting his own disturbed psychology onto other people.  I’m not actually scared, but if I was, owning a gun would do nothing whatsoever to make me less scared (quite the contrary).  What would make me think I could win a gunfight against a frothing lunatic—or that I’d want to find out?  When it comes to violence, the only thing that calms my nerves is a democratic state having a near-monopoly on it.
+
+What else?  It was chilling to watch the Tsarnaev brothers’ aunt, the one in Toronto, babble incoherently on TV about how wonderful her nephews were (a striking contrast to the remorseful uncle in Maryland).  If it emerges that anyone else in this family (including the parents, or the older brother’s wife) had any foreknowledge about the killing spree, then I very much hope they’ll face justice as well.
+
+In other news, Lily had an eventful day too: she finally figured out how to squeeze her toy ball with her hands.
+
+================================================================================
+
+TITLE: QStart conference in Jerusalem, June 24-27
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+
+
+Friend-of-the-blog Dorit Aharonov asked me to advertise the QStart Conference, which will be held at Hebrew University of Jerusalem June 24-27 of this year, to celebrate the opening of Hebrew University’s new Quantum Information Science Center.  Speakers include Yakir Aharonov, Jacob Bekenstein, Hans Briegel, Ed Farhi, Patrick Hayden, Ray Laflamme, Elon Lindenstrauss, Alex Lubotzky, John Martinis, Barbara Terhal, Umesh Vazirani, Stephanie Wehner, Andrew Yao … and me, your humble blogger (who will actually be there with Lily, on her first trip abroad—or for that matter, beyond the Boston metropolitan area).  Dorit tells me that the conference should be of interest to mathematicians, physicists, chemists, philosophers, and computer scientists; that registration is open now; and that student travel support is available.  Oh, and if you’re one of the people who think quantum computing is bunk?  As displayed on the poster above, leading QC skeptic Gil Kalai is a co-organizer of the conference.
+
+================================================================================
+
+TITLE: “So You Think Quantum Computing Is Bunk?”
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+On Wednesday, I gave a fun talk with that title down the street at Microsoft Research New England.  Disappointingly, no one in the audience did seem to think quantum computing was bunk (or if they did, they didn’t speak up): I was basically preaching to the choir.  My PowerPoint slides are here.  There’s also a streaming video here, but watch it at your own risk—my stuttering and other nerdy mannerisms seemed particularly bad, at least in the short initial segment that I listened to.  I really need media training.  Anyway, thanks very much to Boaz Barak for inviting me.
+
+================================================================================
+
+TITLE: Pigs sprouted wings, Hell froze over, and I guest-posted on Luboš Motl’s blog
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+Furthermore, the last of those things actually happened.  What won’t I do to promote Quantum Computing Since Democritus?  Enjoy!
+
+Update: I submitted the following response to the comments over on Lubos’s blog.  Since it has some bits of general interest, I thought I’d crosspost it here while it awaits Lubos’s moderation.
+
+Since Lubos “officially invited” me to respond to the comments here, let me now do so.
+
+1. On “loopholes” in quantum mechanics: I completely agree with Lubos’s observation that the actual contents of my book are “conservative” about the truth of QM. Indeed, I predict that, when Lubos reads his free copy, he’ll agree with (or at least, have no objections to) the vast majority of what’s in the book. On the other hand, because I was guest-blogging about “the story of me and Lubos,” I found it interesting to highlight one area of disagreement regarding QM, rather than the larger areas of agreement.
+
+2. On Gene Day’s patronizing accusation that I don’t “get the basics of QM or even comprehend the role of mathematics in physics”: his misreading of what I wrote is so off-base that I don’t know whether a response is even necessary.  Briefly, though: of course two formulations of QM are mathematically equivalent if they’re mathematically equivalent!  I wasn’t asking why we don’t use different mathematical structures (quaternions, the 3-norm, etc.) to describe the same physical world.  I was asking why the physical world itself shouldn’t have been different, in such a way that those other mathematical structures would have described it.  In other words: if you were God, and you tried to invent a theory that was like QM but based on those other structures, would the result necessarily be less “nice” than QM?  Would you have to give up various desirable properties of QM?  Yes?  Can you prove it?  The ball’s in your court, Mr. Day — or else you can just read my book! 🙂
+
+3. On Lord Nelson’s accusation that I’m a “poseur”: on reflection, someone who only knew me from blog stunts like this one could easily be forgiven for getting that impression! 🙂 So it might be worth pointing out for the record that I also have a “day job” outside the blogosphere, whose results you can see here if you care.
+
+4. On my political views: I wish to clarify for Tom Vonk that I despise not only “Communists,” but the ideology of Communism itself. One of the formative experiences of my life occurred when I was an 8-year-old at Wingate Kirkland summer camp, and all the campers had to relinquish whatever candy they’d brought into a communal “bunk trunk.” The theory was that all the campers, rich and poor alike, would then share the candy equally during occasional “bunk parties.” What actually happened was that the counselors stole the candy. So, during a meeting of the entire camp, I got up and gave a speech denouncing the bunk trunk as Communism. The next day, the camp director (who had apparently been a fellow-traveler in the 1950s) sat with me at lunchtime, and told me about a very evil man named Joe McCarthy who I was in danger of becoming like. But the truth was that I’d never even heard of McCarthy at that point — I just wanted to eat candy.  And I’d give exactly the same speech today.
+
+Like (I suppose) several billion of the world’s people, I believe in a dynamic market-based capitalist society, and also in strong environmental and other regulations to safeguard that society’s continued existence. And I don’t merely believe in that as a cynical compromise, since I can’t get the “dictatorship of the proletariat” that I want in my heart of hearts. Were I emperor of the world, progressive capitalism is precisely what I would institute. In return, perhaps, for paying a “candy tax” to keep the bunk functioning smoothly, campers could keep their remaining candy and eat or trade it to their heart’s delight.
+
+5. On climate change: I’m not a professional climatologist, but neither is Lubos, and nor (correct me if I’m wrong) is anyone else commenting here. Accordingly, I refuse to get drawn into a debate about ice cores and tree rings and hockey sticks, since my experience is that such debates tend to be profoundly unilluminating when not conducted by experts. My position is an incredibly simple one: just like with the link between smoking and cancer, or the lack of a link between vaccines and autism, or any other issue where I lack the expertise to evaluate the evidence myself, I’ll go with what certainly looks like an overwhelming consensus among the scientists who’ve studied the matter carefully. Period. If the climate skeptics want to win me over, then the way for them to do so is straightforward: they should ignore me, and try instead to win over the academic climatology community, majorities of chemists and physicists, Nobel laureates, the IPCC, National Academies of Science, etc. with superior research and arguments.
+
+To this, the skeptics might respond: but of course we can’t win over the mainstream scientific community, since they’re all in the grip of an evil left-wing conspiracy or delusion!  Now, that response is precisely where “the buck stops” for me, and further discussion becomes useless.  If I’m asked which of the following two groups is more likely to be in the grip of a delusion — (a) Senate Republicans, Freeman Dyson, and a certain excitable string-theory blogger, or (b) virtually every single expert in the relevant fields, and virtually every other chemist and physicist who I’ve ever respected or heard of — well then, it comes down to a judgment call, but I’m 100% comfortable with my judgment.
+
+================================================================================
+
+TITLE: Two P vs. NP updates (neither of them technical)
+URL: https://scottaaronson.blog/?m=201304
+CONTENT:
+“Meme” courtesy of my brother David
+
+First news item: it’s come to my attention that yesterday, an MIT professor abused his power over students for a cruel April Fools’ Day prank involving the P vs. NP problem.  His email to the students is below.
+
+I assume most of you already heard the news that a Caltech grad student, April Felsen, announced a 400-page proof of P≠NP last week.  While I haven’t yet completely digested the argument, it’s already clear that Felsen (who I actually knew back when she was an MIT undergrad) has changed theoretical computer science forever, bringing in new tools from K-theory to higher topos theory to solve the biggest problem there was.
+
+Alas, Felsen’s proof has the “short-term” effect of making the existing 6.045 seem badly outdated.  So, after long reflection, I’ve made a decision that not all of you are going to like, but that I believe is the right one intellectually.  I’ve decided to reorient the entire course to focus on Felsen’s result, starting with tomorrow’s lecture.
+
+And further, I decided to rewrite Thursday’s midterm to focus almost entirely on this new material.  That means that, yes, you’re going to have THREE DAYS to learn at least the basics of algebraic topology and operator algebras, as used in Felsen’s proof.  To do that, you might need to drop everything else (including sleep, unfortunately), and this might prove to be the most strenuous and intense thing you’ve ever done.  But it will also be an experience that will enrich your minds and ennoble your souls, and that you’ll be proud to tell your grandchildren about.  And of course we’ll be there to help out.  So let’s get started!
+
+All the best,
+Scott
+
+Second news item: many of you have probably heard that Lance Fortnow’s The Golden Ticket—the first popular book about the P vs. NP problem—is now out.  (The title refers to Roald Dahl’s Charlie and the Chocolate Factory, which involved a few chocolate bars that had coveted golden tickets inside the wrappers, along with millions of chocolate bars that didn’t.)  I read it last week, and I think it’s excellent: a book I’ll happily recommend to family and friends who want the gentlest introduction to complexity theory that exists.
+
+Some context: for more than a decade, people have been telling me that I should write a popular book about P vs. NP, and I never did, and now Lance has.  So I’m delighted to say that reading Lance’s book quickly cured me of any regrets I might have felt.  For not only is The Golden Ticket a great book, but better yet, it’s not a book that I ever could’ve written.
+
+Here’s why: every time I would have succumbed to the temptation to explain something too complicated for the world’s journalists, literary humanists, and pointy-haired bosses—something like relativization, or natural proofs, or arithmetization, or Shannon’s counting argument, or Ladner’s Theorem, or coNP, or the reasons to focus on polynomial time—every time, Lance somehow manages to resist the temptation, and to stick to cute stories, anecdotes, and practical applications.  This is really, truly a popular book: as Lance points out himself, in 162 pages of discussing the P vs. NP question, he never even formally defines P and NP!
+
+But it goes beyond that: in the world of The Golden Ticket, P vs. NP is important because, if P=NP, then people could design more effective cancer therapies, solve more crimes, and better predict which baseball games would be closely-matched and exciting (yes, really).  P vs. NP is also important because it provides a unifying framework for understanding current technological trends, like massively-parallel computing, cloud computing, big data, and the Internet of things.  Meanwhile, quantum computing might or might not be possible in principle, but either way, it’s probably not that relevant because it won’t be practical for a long time.
+
+In short, Lance has written precisely the book about P vs. NP that the interested layperson or IT professional wants and needs, and precisely the book that I couldn’t have written.  I would’ve lost patience by around page 20, and exclaimed:
+
+“You want me to justify the P vs. NP problem by its relevance to baseball??  Why shouldn’t baseball have to justify itself by its relevance to P vs. NP?  Pshaw!  Begone from the house of study, you cretinous fools, and never return!”
+
+My favorite aspect of The Golden Ticket was its carefully-researched treatment of the history of the P vs. NP problem in the 50s, 60s, and 70s, both in the West and in the Soviet Union (where it was called the “perebor” problem).  Even complexity theorists will learn countless tidbits—like how Leonid Levin was “discovered” at age 15, and how the powerful Sergey Yablonsky stalled Soviet perebor research by claiming to have solved the problem when he’d done nothing of the kind.  The historical chapter (Chapter 5) is alone worth the price of the book.
+
+I have two quibbles.  First, throughout the book, Lance refers to a hypothetical world where P=NP as the “Beautiful World.”  I would’ve called that world the “Hideous World”!  For it’s a world where technical creativity is mostly worthless, and where the mathematical universe is boring, flat, and incomprehensibly comprehensible.  Here’s an analogy: suppose a video game turned out to have a bug that let you accumulate unlimited points just by holding down a certain button.  Would anyone call that game the “Beautiful Game”?
+
+My second disagreement concerns quantum computing.  Overall, Lance gives an admirably-accurate summary, and I was happy to see him throw cold water on breathless predictions about QC and other quantum-information technologies finding practical applications in the near future.  However, I think he goes beyond the truth when he writes:
+
+[W]e do not know how to create a significant amount of entanglement in more than a handful of quantum bits.  It might be some fundamental rule of nature that prevents significant entanglement for any reasonable length of time.  Or it could just be a tricky engineering problem.  We’ll have to let the physicists sort that out.
+
+The thing is, physicists do know how to create entanglement among many thousands or even millions of qubits—for example, in condensed-matter systems like spin lattices, and in superconducting Josephson junctions.  The problem is “merely” that they don’t know how to control the entanglement in the precise ways needed for quantum computing.  But as with much quantum computing skepticism, the passage above doesn’t seem to grapple with just how hard it is to kill off scalable QC.  How do you cook up a theory that can account for the massively-entangled states that have already been demonstrated, but that doesn’t give you all of BQP?
+
+But let me not harp on these minor points, since The Golden Ticket has so many pleasant features.  One of them is its corny humor: even in Lance’s fantasy world where a proof of P=NP has led to a cure for cancer, it still hasn’t led to a cure for the common cold.  Another nice feature is the book’s refreshing matter-of-factness: Lance makes it clear that he believes that
+
+(a) P≠NP,
+(b) the conjecture is provable but won’t be proven in the near future, and
+(c) if we ever meet an advanced extraterrestrial civilization, they’ll also have asked the P vs. NP question or something similar to it.
+
+Of course we can’t currently prove any of the above statements, just like we can’t prove the nonexistence of Bigfoot.  But Lance refuses to patronize his readers by pretending to harbor doubts that he quite reasonably doesn’t.
+
+In summary, if you’re the sort of person who stops me in elevators to say that you like my blog even though you never actually understand anything in it, then stop reading Shtetl-Optimized right now and go read Lance’s book.  You’ll understand it and you’ll enjoy it.
+
+And now it’s off to class, to apologize for my April Fools prank and to teach the Cook-Levin Theorem.
+
+================================================================================
+

@@ -1,0 +1,160 @@
+TITLE: Hark!  From the Fortress of STOC
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+The list of accepted papers for STOC’06 is now available. The process of forming this list confirmed my fundamental respect for the scientific peer review process — a process that, in its speed, objectivity, and reliance on reasoned argument, might someday rival such renowned deliberative bodies as the US House of Representatives.
+
+For this experience I’m deeply grateful to my 19 fellow program committee members, except of course when they mistakenly disagreed with me. I’m especially grateful to Jon Kleinberg, the PC chair, for inviting me to join the committee, even though he only gave me an A- in his COMS681 Analysis of Algorithms class my freshman year at Cornell. Finally I feel like I’ve made it.
+
+I’d love to tell you all about the heated debates, shifting alliances, and last-minute turnarounds that characterized our committee meeting in the moonlit Fortress of STOC — until we, clad in hooded robes, brandishing our laptops as torches, and calling on NEXP and PSPACE for benediction, sealed the minutes of our deliberations in the sacred Vault of Turing, which no one without a PhD in a technical subject can gaze upon and live, and which can only be opened if all twenty of us come together with twenty golden keys. (We thought of using encryption, but it seemed too complicated and theoretical.)
+
+Yes, I’d love to tell you about it, but I’d have to kill you afterwards, and then who would be left to read my blog?
+
+================================================================================
+
+TITLE: Hooray for democracy!
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+
+
+================================================================================
+
+TITLE: Oops, we did it again
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+Genocide.  Global warming.  Nuclear proliferation.  Sex trafficking in Cambodia.  Famine in sub-Saharan Africa.
+
+If history has taught us anything, it’s that problems like these tend to sort themselves out if we just ignore them for long enough.  So I get annoyed when guys like Nicholas Kristof keep reminding people about them, thereby diverting attention from real issues like steroid abuse in the NFL.
+
+In his latest piece of “offbeat” journalism, Kristof pulls out the stops, explicitly comparing humankind’s current failure to prevent the Darfur genocide with its failure to prevent earlier genocides:
+
+During the Holocaust, the world looked the other way. Allied leaders turned down repeated pleas to bomb the Nazi extermination camps or the rail lines leading to them, and the slaughter attracted little attention. My newspaper, The New York Times, provided meticulous coverage of World War II, but of 24,000 front-page stories published in that period only six referred on page one directly to the Nazi assault on the Jewish population of Europe. Only afterward did many people mourn the death of Anne Frank, construct Holocaust museums, and vow: Never Again.
+
+The same paralysis occurred as Rwandans were being slaughtered in 1994. Officials from Europe to the US to the UN headquarters all responded by temporizing and then, at most, by holding meetings. The only thing President Clinton did for Rwandan genocide victims was issue a magnificent apology after they were dead.
+
+Much the same has been true of the Western response to the Armenian genocide of 1915, the Cambodian genocide of the 1970s, and the Bosnian massacres of the 1990s. In each case, we have wrung our hands afterward and offered the lame excuse that it all happened too fast, or that we didn’t fully comprehend the carnage when it was still under way.
+
+And now — let me guess — the same is happening in Darfur.  Arab Janjaweed militias, supported by the Sudanese government, are systemically massacring, raping, and mutilating non-Arab civilians, while the world watches on in horror but does nothing.  Dude, what a shocker.  I never could have predicted that one.
+
+Think about it.  Sixty years after Auschwitz, obviously the world must have solved this genocide thing.  The US, or EU, or UN, or someone must have set up some sort of special army that, you know, goes in and stops it before it happens.  I mean, anything else would be criminally insane!  It would be like 911 putting people on hold for an hour, or a hospital telling a guy spewing arterial blood to sit in the waiting room and read a magazine.  Right?
+
+Even if not, I’ve just spent over 20 minutes of valuable procrastination time writing this post and sending some money.  So regardless of what happens in Darfur, you can’t accuse me of having sat in my chair and done nothing.  No, I sat in my chair and did something.
+
+================================================================================
+
+TITLE: By popular demand
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+
+
+“How To Be A Serious Researcher,” my infamous after-dinner speech at QIP’2006, is now available as an mp3 (5MB, 21 minutes). If you want to tar-and-feather me for this, don’t forget Ben Toner (who made the recording) or Julia Kempe (who sent the photo).
+
+================================================================================
+
+TITLE: The quantum jester
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+I’ve been told that “the world is awaiting” my report about the QIP’2006 conference.  So here it is.  I’m in Paris, near the Pantheon.  The buildings are beautiful, but the weather is crummy.  The food is tasty, expensive, and fattening.  Everyone here has been friendly,  which is surprising — considering that I’m conspicuously American, and that my French consists almost entirely of the following phrases:
+
+Bonjour!
+Merci!
+Oui!
+Je ne comprends pas!
+Monsieur
+Madame
+École Polytechnique
+Croissant
+Baguette
+Ravioli (no, wait — that’s Italian)
+
+(I’m in a talk right now, using the wireless Internet, and Harry Buhrman is reading this over my shoulder and laughing.  Stop that, Harry!)
+
+Oh, right: there have also been talks here.  Maybe I’ll blog about them in a later post, but then again, maybe not.  I’m not giving a talk, but I am giving the after-dinner speech on Thursday, the quantum computing community having relegated me to the role of jester.  Which reminds me that I should write the speech.
+
+I should also apply for jobs for next year.  Actually, would anyone like to offer me a tenure-track faculty position right now?  Most of the deadlines have passed, and I haven’t even written my research statement — so if that sort of thing doesn’t bother you, your chances of getting me are excellent.
+
+================================================================================
+
+TITLE: Portugal: “Non-Catholics Once Again Welcome”
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+I arrived yesterday morning in Lisbon.  I’m here to give a talk at the Instituto Superior Técnico, which is working to build up a quantum information group.  On Saturday I leave for QIP’2006 in Paris, then for New York City, before returning to Waterloo.  Academia is not an easy life, but I try to bear it like a soldier.
+
+Lisbon is beautiful: sort of like San Francisco, except more so.  Yesterday I hiked up to the Castelo de São Jorge, a 100% genuine castle (with turrets, a moat, etc.) that overlooks the city from a hilltop.  I took lots of photos, but then lost the cable with which to upload them to my computer.  Sorry!
+
+As my host, Yasser Omar, explained to me, Portugal “missed half of the 20th century”: specifically the years 1932-1974, when it was run by a backwards dictatorship.  Even today, a tradition of bureaucratic incompetence lingers on.  Yasser said that when he was looking for a tenure-track physics job, he could find only one opening in the whole country — and that one was only for “geophysics or the history of physics”!   (He now works in a math department.)  He and like-minded academics are now doing their best to help Portugal make up for the lost time.
+
+PS. For those Shtetl-Optimized readers who don’t know a shtetl from schmaltz (and it’s come to my attention that such exist): King Manuel I of Portugal expelled the Jews in 1497, five years after Ferdinand and Isabella expelled them from Spain.  Apparently, King Manuel realized that this would devastate Portugal’s economy, so he only signed the order reluctantly, after Princess Isabel of Spain demanded he do it as a precondition of marriage (!).  Portugal started readmitting Jews in the 1800’s, and eventually became a transit point for over 100,000 refugees from the Nazis.  You can read more here.
+
+================================================================================
+
+TITLE: I’m asking ’cause I want to know
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+Is there an algorithm to decide whether the nth Busy Beaver number is even or odd?  Or is this problem r.e.-complete?  Or might it have intermediate Turing degree?
+
+(For readers with social lives: “Busy Beaver” is not what you think.  As discussed in this Wikipedia article and this old essay of mine, it’s the maximum number of 1’s that an n-state, 2-symbol Turing machine could write on an initially blank tape before halting.)
+
+================================================================================
+
+TITLE: Stroke of God
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+From CNN:
+
+Television evangelist Pat Robertson suggested Thursday that Israeli Prime Minister Ariel Sharon’s stroke was divine retribution for the Israeli withdrawal from Gaza, which Robertson opposed.
+
+Though many have condemned Robertson’s latest insight, I myself feel only admiration and gratitude.  Admiration for one of the creative giants of American comedy, and gratitude to be alive in the 21st century, when the God of Christianity smites the Jews for not being greedy enough.
+
+================================================================================
+
+TITLE: But what if?
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+I still owe you Part II of my Darwinism post.  But in the meantime, I’d like to pontificate about a fallacy that I’ve seen so often it deserves a name.  I’ll call it the But-What-If? Fallacy, after the following joke:
+
+“Let n be an integer…”
+“But what if n isn’t an integer?”
+
+The fallacy consists of bringing something up that was specifically defined to be irrelevant.   Of course, no one would be silly enough to do that in real life!  Except…
+
+Well then, people wouldn’t always be happy, would they?
+
+This one makes steam emanate from my ears.  Let’s repeat three times: P and NP are purely mathematical concepts.    As such, the laws of physics can have no bearing on whether or not they are equal.
+
+(Of course, it could be that PA=NPA where A is a “real world oracle.”  But if you understood that point, then you’re already way beyond the “P=NP in the physical world” crowd.)
+
+Continuing:
+
+GODDAMMIT!  WHAT PART OF “BY ASSUMPTION” DON’T YOU UNDERSTAND?
+
+Sorry, I sometimes get carried away.  In the past, my favored solution to the BWI? Fallacy was forcible re-education camps for everyone who commits it.  But lately, I’ve come to think that a softer approach might work.
+
+See, the problem is that most people (even theoretical physicists) have very little experience thinking like mathematicians.  By nature, people want to keep coming back to the issues they care about, even when you ask them a hypothetical question that defines those issues away.  The key is, first, to identify the real question on the other person’s mind:
+
+Are NP-complete problems hard in the physical world?
+Is this guy as kind and generous as he seems?
+Will this drug really help reduce my anxiety?
+Could a computer that writes decent poetry, laughs at jokes, etc. be built?
+
+You can then point out the difference between this question and the one that was asked.  Often, the more abstract question won’t even have occurred to the other person.  But once the person understands the abstract question — and why it remains, even after the concrete one has been answered — it’s time to extend your hand.  “Welcome to the business.”
+
+================================================================================
+
+TITLE: We the nerds
+URL: https://scottaaronson.blog/?m=200601
+CONTENT:
+“are you referring to yourself in the plural now?  It’s getting a little spooky…”
+(from a comment on a previous post)
+
+Mark Twain wrote that “only presidents, editors and people with tapeworms have the right to use the editorial ‘we’.”  Here at Shtetl-Optimized, we couldn’t agree more.  The trouble is that we — sorry, I — have spent too much time in the grammatical dungeon of academic science, where the first-person singular is vaguely taboo.
+
+“But why is it taboo?” you ask.  Simple: because if people referred to themselves as “I” in single-author scientific papers, then they’d deprive readers of the fun of reading a sentence like
+
+Hence we see that H is Hermitian
+
+and wondering exactly how to parse it.  Personally, I can think of at least seven possibilities:
+
+And finally:
+
+================================================================================
+

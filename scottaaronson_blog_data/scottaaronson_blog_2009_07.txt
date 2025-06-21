@@ -1,0 +1,54 @@
+TITLE: Ask me (almost) anything
+URL: https://scottaaronson.blog/?m=200907
+CONTENT:
+Update (8/19): I’ve answered most of the remaining questions and closed this thread.  If your question wasn’t answered earlier, please check now—sorry for the delay!  And thanks to everyone who asked.
+
+This blog was born, in part, out of existential anguish.  My starting axioms, reflected in the blog’s title, were that
+
+And therein lies the problem: this summer, I’ve simply been enjoying life too much to want to take time out to blog about it.  Happiness, it seems, is terrible for my literary productivity.
+
+Still, enough people now rely on this blog for their procrastination needs that I feel a moral obligation to continue serving them.  So to overcome my own procrastination barrier, from now on I’m going to try writing entries that are basically just “requests for comment”: stones in a stone soup, with the intellectual barley, discursive salt, argumentative carrots, and dialectical beef chunks to be supplied by you, my readers.
+
+(To a few commenters: thanks so much for the plywood, rotting raccoon carcasses, and used syringes, but the soup should be fine without them…)
+
+To start things off, today we’re going to have another open thread.  You can ask pretty much anything; my one request is that you don’t ask for grad school or job application advice, since we already covered those things ad nauseum in two previous open threads.
+
+Here are a few examples of things to ask me about:
+
+1. My recent trip to the Azores for the FQXi Conference on Foundational Questions in Physics and Cosmology
+
+2. My recent trip to Paris for the Complexity’2009 conference
+
+3. My recent trip to Lexington, Kentucky for the Quantum Theory and Symmetries conference
+
+4. The recent breakthrough paper by Jain, Ji, Upadhyay, and Watrous, finally proving what many in the quantum complexity world long suspected: that QIP=IP=PSPACE.  That is, quantum interactive proof systems provide no more computational power than classical ones.  (For more see this post from Lance and Steve Fenner, or this one from the Pontiff.)
+
+5. The exciting new Polymath Project, to find (under some number-theoretic assumption) a deterministic polynomial-time algorithm for generating n-bit primes.  (Hat tip to Ryan O’Donnell.)
+
+Oh, one other thing: while you’re welcome to ask personal questions, they’ll most likely be answered not by me but by Pablo the PSPACE Pirate.
+
+Update (7/31): One question per person, please!
+
+
+
+================================================================================
+
+TITLE: Essentials of complexity-theoretic stand-up comedy
+URL: https://scottaaronson.blog/?m=200907
+CONTENT:
+Recently someone asked me how to give funnier talks.  My first response was to recoil at such an insolent question: doesn’t everyone know that at the core of my shtick lies a unique and ineffable je ne sais quoi that can’t be packaged, bottled, or resold?  But the truth was not that I couldn’t give advice; it’s that I didn’t want to.  For if everyone knew how easy it was to keep an audience at least half-awake, how would people like me maintain their edge?  By proving better theorems?  Having something new and relevant and say?  These questions answer themselves.
+
+But because I love you, my readers, so deeply, and because I feel guilty about abandoning you for so long, I shall now publicly deconstruct the main ingredients of seminar humor, insofar as I’ve been able to find them.  (A few ingredients are specific to theoretical computer science, but most are more general.)
+
+Three final remarks.
+
+First, reading over the list, I can’t help but feel sheepish about how much one can do with such a crude and obvious bag of tricks.
+
+Second, I only wish I applied this crude bag more consistently!  Particularly when I have a new result and I’m excited about the proof, I all too often ignore my own advice and lapse into boringness.  But at least I notice I’m doing it, get annoyed at myself, and resolve to be crasser, less mature, and less professional the next time around.
+
+Third, you might feel that adding shtick to your talks makes you “shallow,” that all that should matter is the content of your results.  In the relatively rare case where you’re addressing experts in your own sub-sub-subfield, that’s probably true: you can drop the funny business and get straight to the point.  In all other cases, I’m almost certain the audience will understand your results better if you incorporate some shtick than if you don’t.  But hey—it’s up to you whether you want to address an ideal Platonic audience (“more lemmas! no irrelevant distractions! yes! harder! faster!”) or the actual flesh-and-blood hairless apes who are dozing off in the seminar room while you speak.
+
+
+
+================================================================================
+

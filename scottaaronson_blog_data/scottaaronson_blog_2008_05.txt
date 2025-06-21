@@ -1,0 +1,157 @@
+TITLE: How George W. Bush is changing my life for the better
+URL: https://scottaaronson.blog/?m=200805
+CONTENT:
+I’ll give you a hint: it’s not from the rebate checks.
+
+Let me put it this way: from now on, I am going to exercise at least twice a week.  I’m going to post the remaining Quantum Computing Since Democritus lectures.  I’m going to finish writing up several papers that I’ve been procrastinating on for years.  I’m going to get involved in more non-work-or-blog-related social activities.  And I’m going to do all of these things (and have friends and family members vouch for it) because if I don’t, then money I’ve already placed in escrow will be donated to the George W. Bush Presidential Library, as well as to the National Rifle Association.
+
+Yeah, I signed up for the “commitment contract” service stickK.com, which was started in January by Yale economics professors Dean Karlan and Ian Ayres and student Jordan Goldberg.  You get to choose the “anti-charities” to which your money gets donated if you don’t achieve your stated goals; surprisingly, stickK itself doesn’t take a cut (it seems to get all its money from ad revenue).  The idea is obvious in retrospect; what’s amazing is that it took this long for anyone to build a company around it.  So far it seems to be working.  For example, I jogged on Tuesday and went swimming this morning, despite not having exercised for the previous six months.  What remains to be seen is whether W. can inspire me to new heights of research productivity.
+
+An enormous hat tip to Michael Nielsen.
+
+================================================================================
+
+TITLE: Great Ideas in Theoretical Computer Science Lectures 16-19
+URL: https://scottaaronson.blog/?m=200805
+CONTENT:
+In the next-to-last GITCS installment, we cover some of the greatest hits of the 70’s and 80’s.
+
+(Something tells me Lecture 18 is going to get more hits than the other three combined…)
+
+The course itself ended two weeks ago; last week was the final exam. Thanks so much to all of my students for signing up for a brand-new course, asking probing questions, enduring my excruciating jokes, and doing a fantastic job with the notes.   (Of course, thanks also to my eagle-eyed readers for spotting errors.)  Thanks above all to my TA, Yinmeng Zhang, who went way beyond her job description to work with students individually, tell me when I was being a doofus, etc.  Because of the input of everyone who participated, this course will be better when I teach it the second time around.
+
+Also, for anyone who might want to teach a similar course, the recipe is simple (much simpler than I expected, actually):
+
+Serves 10-100.
+
+================================================================================
+
+TITLE: The array size of the universe
+URL: https://scottaaronson.blog/?m=200805
+CONTENT:
+I’ve been increasingly tempted to make this blog into a forum solely for responding to the posts at Overcoming Bias.  (Possible new name: “Wallowing in Bias.”)
+
+Two days ago, Robin Hanson pointed to a fascinating paper by Bousso, Harnik, Kribs, and Perez, on predicting the cosmological constant from an “entropic” version of the anthropic principle.   Say what you like about whether anthropicology is science or not, for me there’s something delightfully non-intimidating about any physics paper with “anthropic” in the abstract.  Sure, you know it’s going to have metric tensors, etc. (after all, it’s a physics paper) — but you also know that in the end, it’s going to turn on some core set of assumptions about the number of sentient observers, the prior probability of the universe being one way rather than another, etc., which will be comprehensible (if not necessarily plausible) to anyone familiar with Bayes’ Theorem and how to think formally.
+
+So in this post, I’m going to try to extract an “anthropic core” of Bousso et al.’s argument — one that doesn’t depend on detailed calculations of entropy production (or anything else) — trusting my expert readers to correct me where I’m mistaken.  In defense of this task, I can hardly do better than to quote the authors themselves.  In explaining why they make what will seem to many like a decidedly dubious assumption — namely, that the “number of observations” in a given universe should be proportional to the increase in non-gravitational entropy, which is dominated (or so the authors calculate) by starlight hitting dust — they write:
+
+We could have … continued to estimate the number of observers by more explicit anthropic criteria.  This would not have changed our final result significantly.  But why make a strong assumption if a more conservative one suffices? [p. 14]
+
+In this post I’ll freely make strong assumptions, since my goal is to understand and explain the argument rather than to defend it.
+
+The basic question the authors want to answer is this: why does our causally-connected patch of the universe have the size it does?  Or more accurately: taking everything else we know about physics and cosmology as given, why shouldn’t we be surprised that it has the size it does?
+
+From the standpoint of post-1998 cosmology, this is more-or-less equivalent to asking why the cosmological constant Λ ~ 10-122 should have the value it has.  For the radius of our causal patch scales like
+
+1/√Λ ~ 1061 Planck lengths ~ 1010 light-years,
+
+while (if you believe the holographic principle) its maximum information content scales like 1/Λ ~ 10122 qubits. To put it differently, there might be stars and galaxies and computers that are more than ~1010 light-years away from us, and they might require more than ~10122 qubits to describe.  But if so, they’re receding from us so quickly that we’ll never be able to observe or interact with them.
+
+Of course, to ask why Λ has the value it does is really to ask two questions:
+
+1. Why isn’t Λ smaller than it is, or even zero?  (In this post, I’ll ignore the possibility of its being negative.)
+2. Why isn’t Λ bigger than it is?
+
+Presumably, any story that answers both questions simultaneously will have to bring in some actual facts about the universe. Let’s face it: 10-122 is just not the sort of answer you expect to get from armchair philosophizing (not that it wouldn’t be great if you did).  It’s a number.
+
+As a first remark, it’s easy to understand why Λ isn’t much bigger than it is.  If it were really big, then matter in the early universe would’ve flown apart so quickly that stars and galaxies wouldn’t have formed, and hence we wouldn’t be here to blog about it.  But this upper bound is far from tight.  Bousso et al. write that, based on current estimates, Λ could be about 2000 times bigger than it is without preventing galaxy formation.
+
+As for why Λ isn’t smaller, there’s a “naturalness” argument due originally (I think) to Weinberg, before the astronomers even discovered that Λ>0.  One can think of Λ as the energy of empty space; as such, it’s a sum of positive and negative contributions from all possible “scalar fields” (or whatever else) that contribute to that energy. That all of these admittedly-unknown contributions would happen to cancel out exactly, yielding Λ=0, seems fantastically “unnatural”  if you choose to think of the contributions as more-or-less random.  (Attempts to calculate the likely values of Λ, with no “anthropic correction,” notoriously give values that are off by 120 orders of magnitude!)  From this perspective, the smaller you want Λ to be, the higher the price you have to pay in the unlikelihood of your hypothesis.
+
+Based on the above reasoning, Weinberg predicted that Λ would have close to the largest possible value it could have, consistent with the formation of galaxies.  As mentioned before, this gives a prediction that’s too big by a factor of 2000 — a vast improvement over the other approaches, which gave predictions that were off by factors of 10120 or infinity!
+
+Still, can’t we do better?   One obvious approach to pushing Λ down would be to extend the relatively-uncontroversial argument explaining why Λ can’t be enormous.  After all, the tinier we make Λ, the bigger the universe (or at least our causal patch of it) will be.  And hence, one might argue, the more observers there will be, hence the more likely we’ll be to exist in the first place!  This form of anthropicizing — that we’re twice as likely to exist in a universe with twice as many observers — is what philosopher Nick Bostrom calls the Self-Indication Assumption.
+
+However, two problems with this idea are evident.  First, why should it be our causal patch of the universe that matters, rather than the universe as a whole? For anthropic purposes, who cares if the various civilizations that arise in some universe are in causal contact with each other or not, provided they exist?  Bousso et al.’s response is basically just to stress that, from what we know about quantum gravity (in particular, black-hole complementarity), it probably doesn’t even make sense to assign a Hilbert space to the entire universe, as opposed to some causal patch of it.  Their “Causal-Patch Self-Indication Assumption” still strikes me as profoundly questionable — but let’s be good sports, assume it, and see what the consequences are.
+
+If we do this, we immediately encounter a second problem with the anthropic argument for a low value of Λ: namely, it seems to work too well!  On its face, the Self-Indication Assumption wants the number of observers in our causal patch to be infinite, hence the patch itself to be infinite in size, hence Λ=0, in direct conflict with observation.
+
+But wait: what exactly is our prior over the possible values of Λ?  Well, it appears Landscapeologists typically just assume a uniform prior over Λ within some range.  (Can someone enlighten me on the reasons for this, if there are any?  E.g., is it just that the middle part of a Gaussian is roughly uniform?)  In that case, the probability that Λ is between ε and 2ε will be of order ε — and such an event, we might guess, would lead to a universe of “size” 1/ε, with order 1/ε observers.  In other words, it seems like the tiny prior probability of a small cosmological constant should precisely cancel out the huge number of observers that such a constant leads to — Λ(1/Λ)=1 — leaving us with no prediction whatsoever about the value of Λ.  (When I tried to think about this issue years ago, that’s about as far as I got.)
+
+So to summarize: Bousso et al. need to explain to us on the one hand why Λ isn’t 2000 times bigger than it is, and on the other hand why it’s not arbitrarily smaller or 0.  Alright, so are you ready for the argument?
+
+The key, which maybe isn’t so surprising in retrospect, turns out to be other stuff that’s known about physics and astronomy (independent of Λ), together with the assumption that that other stuff stays the same (i.e., that all we’re varying is Λ).  Sure, say Bousso et al.: in principle a universe with positive cosmological constant Λ could contain up to ~1/Λ bits of information, which corresponds — or so a computer scientist might estimate! — to ~1/Λ observers, like maybe ~1/√Λ observers in each of ~1/√Λ time periods.  (The 1/√Λ comes from the Schwarzschild bound on the amount of matter and energy within a given radius, which is linear in the radius and therefore scales like 1/√Λ.)
+
+But in reality, that 1/Λ upper bound on the number of observers won’t be anywhere close to saturated.   In reality, what will happen is that after a billion or so years stars will begin to form, radiating light and quickly increasing the universe’s entropy, and then after a couple tens of billions more years, those stars will fizzle out and the universe will return to darkness.  And this means that, even though you pay a Λ price in prior probability for a universe with 1/Λ information content, as Λ goes to zero what you get for your money is not ~1/√Λ observers in each of ~1/√Λ time periods (hence ~1/Λ observers in total), but rather just ~1/√Λ observers over a length of time independent of Λ (hence ~1/√Λ observers in total).  In other words, you get diminishing returns for postulating a bigger and bigger causal patch, once your causal patch exceeds a few tens of billions of light-years in radius.
+
+So that’s one direction.  In the other direction, why shouldn’t we expect Λ to be 2000 times bigger than it is (i.e. the radius of our causal patch to be ~45 times smaller)?  Well, Λ could be that big, say the authors, but in that case the galaxies would fly apart from each other before starlight really started to heat things up.  So once again you lose out: during the very period when the stars are shining the brightest, entropy production is at its peak, civilizations are presumably arising and killing each other off, etc., the number of galaxies per causal patch is minuscule, and that more than cancels out the larger prior probability that comes with a larger value of Λ.
+
+Putting it all together, then, what you get is a posterior distribution for Λ that’s peaked right around 10-122 or so, corresponding to a causal patch a couple tens of light-years across.  This, of course, is exactly what’s observed.  You also get the prediction that we should be living in the era when Λ is “just taking over” from gravity, which again is borne out by observation.  According to another paper, which I haven’t yet read, several other predictions of cosmological parameters come out right as well.
+
+On the other hand, it seems to me that there are still few enough data points that physicists’ ability to cook up some anthropic explanation to fit them all isn’t sufficiently surprising to compel belief.  (In learning theory terms, the measurable cosmological parameters still seem shattered by the concept class of possible anthropic stories.)  For those of us who, unlike Eliezer Yudkowsky, still hew to the plodding, non-Bayesian, laughably human norms of traditional science, it seems like what’s needed is a successful prediction of a not-yet-observed cosmological parameter.
+
+Until then, I’m happy to adopt a bullet-dodging attitude toward this and all other proposed anthropic explanations.  I assent to none, but wish to understand them all — the more so if they have a novel conceptual twist that I personally failed to think of.
+
+
+
+================================================================================
+
+TITLE: Floating in Platonic heaven
+URL: https://scottaaronson.blog/?m=200805
+CONTENT:
+In the comments section of my last post, Jack in Danville writes:
+
+I may have misunderstood [an offhand comment about the “irrelevance” of the Continuum Hypothesis] … Intuitively I’ve thought the Continuum Hypothesis describes an aspect of the real world.
+
+I know we’ve touched on similar topics before, but something tells me many of you are hungerin’ for a metamathematical foodfight, and Jack’s perplexity seemed as good a pretext as any for starting a new thread.
+
+So, Jack: this is a Deep Question, but let me try to summarize my view in a few paragraphs.
+
+It’s easy to imagine a “physical process” whose outcome could depend on whether Goldbach’s Conjecture is true or false.  (For example, a computer program that tests even numbers successively and halts if it finds one that’s not a sum of two primes.)  Likewise for P versus NP, the Riemann Hypothesis, and even considerably more abstract questions.
+
+But can you imagine a “physical process” whose outcome could depend on whether there’s a set larger than the set of integers but smaller than the set of real numbers?  If so, what would it look like?
+
+I submit that the key distinction is between
+
+We need to assume that we have a “direct intuition” about integers and finite processes, which precedes formal reasoning — since without such an intuition, we couldn’t even do formal reasoning in the first place.  By contrast, for me the great lesson of Gödel and Cohen’s independence results is that we don’t have a similar intuition about transfinite sets, even if we sometimes fool ourselves into thinking we do.  Sure, we might say we’re talking about arbitrary subsets of real numbers, but on closer inspection, it turns out we’re just talking about consequences of the ZFC axioms, and those axioms will happily admit models with intermediate cardinalities and other models without them, the same way the axioms of group theory admit both abelian and non-abelian groups.  (Incidentally, Gödel’s models of ZFC+CH and Cohen’s models of ZFC+not(CH) both involve only countably many elements, which makes the notion that they’re telling us about some external reality even harder to understand.)
+
+Of course, everything I’ve said is consistent with the possibility that there’s a “truth” about CH floating in Platonic heaven, or even that a plausible axiom system other than ZFC could prove or disprove CH (which was Gödel’s hope).  But the “truth” of CH is not going to have consequences for human beings or the physical universe independent of its provability, in the same way that the truth of P=NP could conceivably have consequences for us even if we weren’t able to prove or disprove it.
+
+For mathematicians, this distinction between “CH-like questions” and “Goldbach/Riemann/Pvs.NP-like questions” is a cringingly obvious one, probably even too obvious to point out.   But I’ve seen so many people argue about Platonism versus formalism as if this distinction didn’t exist — as if one can’t be a Platonist about integers but a formalist about transfinite sets — that I think it’s worth hammering home.
+
+To summarize, Kronecker had it backwards. Man and Woman deal with the integers; all else is the province of God.
+
+
+
+================================================================================
+
+TITLE: The bullet-swallowers
+URL: https://scottaaronson.blog/?m=200805
+CONTENT:
+Question for the day: what do libertarianism and the Many-Worlds Interpretation of quantum mechanics have in common?  Interest in the two worldviews seems to be positively correlated: think of quantum computing pioneer David Deutsch, or several prominent posters over at Overcoming Bias, or … oh, alright, my sample size is admittedly pretty small.
+
+Some connections are obvious: libertarianism and MWI are both grand philosophical theories that start from premises that almost all educated people accept (quantum mechanics in the one case, Econ 101 in the other), and claim to reach conclusions that most educated people reject, or are at least puzzled by (the existence of parallel universes / the desirability of eliminating fire departments).  Both theories seem to have a strong following with nerds who read science fiction and post to Internet discussion groups, but a relatively poorer following with both John Q. Public and Alistair K. Intellectual.    (Needless to say, these stereotypes tell us almost nothing about the theories’ validity.)
+
+My own hypothesis has to do with bullet-dodgers versus bullet-swallowers.  A bullet-dodger is a person who says things like:
+
+Sure, obviously if you pursued that particular line of reasoning to an extreme, then you’d get such-and-such an absurd-seeming conclusion.  But that very fact suggests that other forces might come into play that we don’t understand yet or haven’t accounted for.  So let’s just make a mental note of it and move on.
+
+Faced with exactly the same situation, a bullet-swallower will exclaim:
+
+The entire world should follow the line of reasoning to precisely this extreme, and this is the conclusion, and if a ‘consensus of educated opinion’ finds it disagreeable or absurd, then so much the worse for educated opinion!  Those who accept this are intellectual heroes; those who don’t are cowards.
+
+In a lifetime of websurfing, I don’t think I’ve ever read an argument by a libertarian or a Many-Worlds proponent that didn’t sound like the latter.
+
+We know plenty of historical examples where the bullet-swallowers were gloriously right: Moore’s Law, Darwinism, the abolition of slavery, women’s rights.  On the other hand, at various points within the last 150 years, extremely smart people also reasoned themselves to the inescapable conclusions that aether had to exist for light to be a wave in, that capitalism was reaching its final crisis, that only a world government could prevent imminent nuclear war, and that space colonies would surely exist by 2000.  In those cases, even if you couldn’t spot any flaws in the arguments, you still would’ve been wise to doubt their conclusions.  (Or are you sure you would have spotted the flaws where Maxwell and Kelvin, Russell and Einstein did not?)
+
+Here’s a favorite analogy.  The world is a real-valued function that’s almost completely unknown to us, and that we only observe in the vicinity of a single point x0.  To our surprise, we find that, within that tiny vicinity, we can approximate the function extremely well by a Taylor series.
+
+“Aha!” exclaim the bullet-swallowers.  “So then the function must be the infinite series, neither more nor less.”
+
+“Not so fast,” reply the bullet-dodgers.  “All we know is that we can approximate the function in a small open interval around x0.  Who knows what unsuspected phenomena might be lurking beyond it?”
+
+“Intellectual cowardice!” the first group snorts.  “You’re just like the Jesuit schoolmen, who dismissed the Copernican system as a mere calculational device!  Why can’t you accept what our best theory is clearly telling us?”
+
+So who’s right: the bullet-swallowing libertarian Many-Worlders, or the bullet-dodging intellectual kibitzers?  Well, that depends on whether the function is sin(x) or log(x).
+
+================================================================================
+
+TITLE: Great Ideas in Theoretical Computer Science Lectures 12-15
+URL: https://scottaaronson.blog/?m=200805
+CONTENT:
+Yeah, yeah, I know.  Combination of the end of the semester and family matters.  But I’m back with four more GITCS lectures:
+
+Comments welcome as always.
+
+================================================================================
+

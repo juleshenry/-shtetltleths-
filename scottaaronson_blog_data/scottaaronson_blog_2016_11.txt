@@ -1,0 +1,197 @@
+TITLE: Quantum computing news (98% Trump-free)
+URL: https://scottaaronson.blog/?m=201611
+CONTENT:
+(1) Apparently Microsoft has decided to make a major investment in building topological quantum computers, which will include hiring Charles Marcus and Matthias Troyer among others.  See here for their blog post, and here for the New York Times piece.  In the race to implement QC among the established corporate labs, Microsoft thus joins the Martinis group at Google, as well as the IBM group at T. J. Watson—though both Google and IBM are focused on superconducting qubits, rather than the more exotic nonabelian anyon approach that Microsoft has long favored and is now doubling down on.  I don’t really know more about this new initiative beyond what’s in the articles, but I know many of the people involved, they’re some of the most serious in the business, and Microsoft intensifying its commitment to QC can only be good for the field.  I wish the new effort every success, despite being personally agnostic between superconducting qubits, trapped ions, photonics, nonabelian anyons, and other QC hardware proposals—whichever one gets there first is fine with me!
+
+(2) For me, though, perhaps the most exciting QC development of the last month was a new preprint by my longtime friend Dorit Aharonov and her colleague Yosi Atia, entitled Fast-Forwarding of Hamiltonians and Exponentially Precise Measurements.  In this work, Dorit and Yosi wield the clarifying sword of computational complexity at one of the most historically confusing issues in quantum mechanics: namely, the so-called “time-energy uncertainty principle” (TEUP).
+
+The TEUP says that, just as position and momentum are conjugate in quantum mechanics, so too are energy and time—with greater precision in energy corresponding to lesser precision in time and vice versa.  The trouble is, it was never 100% clear what the TEUP even meant—after all, time isn’t even an observable in quantum mechanics, just an external parameter—and, to whatever extent the TEUP did have a definite meaning, it wasn’t clear that it was true.  Indeed, as Dorit and Yosi’s paper discusses in detail, in 1961 Dorit’s uncle Yakir Aharonov, together with David Bohm, gave a counterexample to a natural interpretation of the TEUP.  But, despite this and other counterexamples, the general feeling among physicists—who, after all, are physicists!—seems to have been that some corrected version of the TEUP should hold “in all reasonable circumstances.”
+
+But, OK, what do we mean by a “reasonable circumstance”?  This is where Dorit and Yosi come in.   In the new work, they present a compelling case that the TEUP should really be formulated as a tradeoff between the precision of energy measurements and circuit complexity (that is, the minimum number of gates needed to implement the energy measurement)—and in that amended form, the TEUP holds for exactly those Hamiltonians H that can’t be “computationally fast-forwarded.”  In other words, it holds whenever applying the unitary transformation e-iHt requires close to t computation steps, when there’s no magical shortcut that lets you simulate t steps of time evolution with only (say) log(t) steps.  And, just as the physicists handwavingly thought, that should indeed hold for “generic” Hamiltonians H (assuming BQP≠PSPACE), although it’s possible to use Shor’s algorithm, for finding the order of an element in a multiplicative group, to devise a counterexample to it.
+
+Anyway, there’s lots of other stuff in the paper, including a connection to the stuff Lenny Susskind and I have been doing about the “generic” growth of circuit complexity, in the CFT dual of an expanding wormhole (where we also needed to assume BQP≠PSPACE and closely related complexity separations, for much the same reasons).  Congratulations to Dorit and Yosi for once again illustrating the long reach of computational complexity in physics, and for giving me a reason to be happy this month!
+
+(3) As many of you will have seen, my former MIT colleagues, Lior Eldar and Peter Shor, recently posted an arXiv preprint claiming a bombshell result: namely, a polynomial-time quantum algorithm to solve a variant of the Closest Vector Problem in lattices.  Their claimed algorithm wouldn’t yet break lattice-based cryptography, but if the approximation factors could be improved, it would be well on the way to doing so.  This has been one of the most tempting targets for quantum algorithms research for more than twenty years—ever since Shor’s “original” algorithm laid waste to RSA, Diffie-Hellman, elliptic-curve cryptography, and more in a world with scalable quantum computers, leaving lattice-based cryptography as one of the few public-key crypto proposals still standing.
+
+Unfortunately, Lior tells me that Oded Regev has discovered a flaw in the algorithm, which he and Peter don’t currently know how to fix.  So for now, they’re withdrawing the paper (because of the Thanksgiving holiday, the withdrawal won’t take effect on the arXiv until Monday).  It’s still a worthy attempt on a great problem—here’s hoping that they or someone else manage to, as Lior put it to me, “make the algorithm great again.”
+
+================================================================================
+
+TITLE: A paper trail that’s never checked might as well not exist
+URL: https://scottaaronson.blog/?m=201611
+CONTENT:
+Update and Action Item: Just since late this afternoon, the Jill Stein campaign has already raised more than $1 million toward requesting hand recounts in Pennsylvania, Michigan, and Wisconsin.  Their target is $6-7 million.  I just donated what I could; if you agree with this post, then please do the same.  It doesn’t matter at this point if you disagree with Stein, or even (like me) think she shouldn’t have run: the goal is just to get a recount to happen before the deadline expires.
+
+Another Update (11/24): In an amazing demonstration of the power of online fundraising, the Stein campaign has already, in less than 24 hours, raised the $2.5 million needed to fund a recount in Wisconsin.  Now they’re working on Pennsylvania and Michigan.  Amusing that Stein seems finally to have found a winning cause: Hillary!  (“Fighting for Hillary even when Hillary won’t fight for herself.”)  Again: please donate here.
+
+Third Update (11/25):  The recount is on is Wisconsin!  The Stein campaign hasn’t yet filed in Pennsylvania or Michigan, but will do so next.  So, all the commenters who came here to explain to me that this was a scam, no judge would it allow it to go forward, etc.: please update your priors.  And next time, if you won’t listen to me, at least listen to Alex Halderman…
+
+This will probably be my last election-related post.  After this (assuming, of course, that the effort I’m writing about fails…), I plan to encase myself in a bubble, stop reading news, and go back to thinking about quantum lower bounds, as if we still lived in a world where it made sense to do so.  But this is important.
+
+As many of you have probably seen, several of the US’s top computer security experts, including my former MIT colleague Ron Rivest and my childhood friend Alex Halderman, have publicly urged that an audit of the US election take place.  But time is quickly running out.  If, for example, the Clinton campaign were to request a hand recount, the deadlines would be this Friday in Wisconsin, Monday in Pennsylvania, and next Wednesday in Michigan.  So far, alas, the Clinton campaign seems to have shown little interest, which would leave it to one of the third-party candidates to request a recount (they have the legal right too, if they can come up with the money for it).  In the meantime, I urge everyone to sign a petition demanding an audit.
+
+For me, the key point is this: given the proven insecurity of electronic voting machines, an audit of paper ballots ought to be completely routine, even if there weren’t the slightest grounds for suspicion.  In this particular case, of course, we know for a fact (!!) that Russian intelligence was engaging in cyber-warfare to influence the US election.  We also know that Russia has both the will and the technological ability to tamper with foreign elections using vote-stealing malware—indeed, it nearly succeeded in doing so in Ukraine’s 2014 election.  Finally, we know that Trump, despite losing the popular vote, surprised just about everyone by outperforming his polls in three crucial swing states—and that within those states, Trump did systematically better in counties that relied on electronic voting machines than in counties that used scanners and paper ballots.
+
+Nate Silver has tweeted that he sees no evidence of foul play, since the discrepancy disappears once you control for the education level of the counties (for more, see this FiveThirtyEight article).
+
+But that’s the thing.  In a sane world, skeptics wouldn’t need to present statistical proof of foul play in order to trigger a hand count.  For if enemy actors know that, in practice, hand counts are never going to happen, then they’re free to be completely brazen in tampering with the childishly-insecure electronic voting machines themselves.  If no one ever looks at them, then the paper records might as well not exist.
+
+Would anyone in the 1950s or 60s have believed that, a half-century hence, Russia actually would acquire the terrifying power over the US that the right-wing Cold Warriors once hyperventilated about—sometimes choosing to exercise that power, sometimes not—and that 2016’s conservatives would either shrug or welcome the development, while the only people who wanted to take reasonable precautions were a few rabble-rousing professors and activists?
+
+Fate has decided that we should live in a branch of the wavefunction where the worst triumph by flaunting their terribleness and where nothing makes sense.  But however infinitesimal the chances anyone will listen, we should still insist that the sensible things be done—if nothing else, then simply as a way to maintain our own mental connection to the world of sense.
+
+Happy Thanksgiving.
+
+================================================================================
+
+TITLE: Never, never, never normalize this
+URL: https://scottaaronson.blog/?m=201611
+CONTENT:
+It’s become depressingly clear the last few days that even many American liberals don’t understand the magnitude of what’s happened.  Maybe those well-meaning liberals simply have more faith than I do in our nation’s institutions, despite the recent overwhelming evidence to the contrary (if the institutions couldn’t stop a Trump presidency, then what can they stop?).  Maybe they think all Republicans are as bad as Trump, or even that Trump is preferable to a generic Republican.  Or maybe my liberal friends are so obsessed by the comparatively petty rivalries between the far left and the center left—between Sanders and Clinton, or between social-justice types and Silicon Valley nerds—that they’ve lost sight of the only part of this story that anyone will care about a hundred years from now: namely, the delivering of the United States into the hands of a vengeful lunatic and his sycophants.
+
+I was sickened to read Hillary’s concession speech—a speech that can only possibly mean she never meant what she said before, about how “a man you can bait with a tweet must never be trusted with nuclear weapons”—and then to watch President Obama holding a lovey-dovey press conference with Trump in the White House.  President Obama is a wiser man than I am, and I’m sure he had excellent utilitarian reasons to do what he did (like trying to salvage parts of the Affordable Care Act).  But still, I couldn’t help but imagine the speech I would’ve given, had I been in Obama’s shoes:
+
+Trump, and the movement he represents, never accepted me as a legitimate president, even though I won two elections by a much greater margin than he did.  Now, like the petulant child he is, he demands that we accept him as a legitimate president.  To which I say: very well.  I urge my supporters to obey the law, and to eschew violence.  But for God’s sake: protest this puny autocrat in the streets, refuse any cooperation with his administration, block his judicial appointments, and try every legal avenue to get him impeached.  Demonstrate to the rest of the world and to history that there’s a large part of the United States that remained loyal to the nation’s founding principles, and that never accepted this vindictive charlatan.  You can have the White House, Mr. Trump, but you will never have the sanction or support of the Union—only of the Confederacy.
+
+Given the refusal of so many people I respect to say anything like the above, it came as a relief to read a brilliant New York Review of Books piece by Masha Gessen, a Russian journalist who I’d previously known for her fine biography of Grisha Perelman (the recluse who proved the Poincaré Conjecture), and who’s repeatedly risked her life to criticize Vladimir Putin.  Gessen takes Clinton and Obama to task for their (no doubt well-intentioned) appeasement of a monstrous thug.  She then clearly explains why the United States is now headed for the kind of society Russians are intimately familiar with, and she shares the following rules for surviving an autocracy:
+
+Her important essay is well worth reading in full.
+
+In the comments of my last post, an international student posted a heartbreaking question:
+
+Should I think about Canada now before [it’s] too late?
+
+As I said before, I have no doubt that many talented students will respond to America’s self-inflicted catastrophe by choosing to study in Canada, the EU, or elsewhere.  I wish they wouldn’t, but I don’t blame them.  At the same time, even in the darkest hour, human affairs are never completely exempt from the laws of supply and demand.  So for example, if Trump caused enough other foreign researchers to leave the US, then it’s possible that a spot at Harvard, Princeton, or MIT could become yours for the taking.
+
+I can’t tell you what to do, but as you ponder your decision, please remember that slightly more than half of Americans—including the overwhelming majority of residents of the major cities and college towns—despise Trump, will always despise Trump, and will try to continue to build a society that upholds the values of the Enlightenment, one that welcomes people of every background.  Granted, the Union side of America has problems of its own, and I know some of those problems as well as anyone.  But at least it’s not the Confederacy, and it’s what you’d mostly be dealing with if you came here.
+
+Finally, I wanted to share some Facebook postings about the election by my friend (and recent interviewer) Julia Galef.  In these posts, Julia sets out some of the same thoughts that I’ve had, but with an eloquence that I haven’t been able to muster.  It’s important to understand that these posts by Julia—whose day job is to run rationality seminars—are far and away the most emotional things I’ve ever seen her write, but they’re also less emotional than anything I could write at this time!
+
+Naturally, my sharing of Julia’s posts shouldn’t be taken to imply that she agrees with everything I’ve said on this blog about the election, or conversely, that I agree with everything she says.  I simply wanted to give her an additional platform to speak for herself.
+
+The rest of this post is Julia:
+
+I’m seeing some well-intentioned posts insisting “See, this is proof we need to be listening to and empathizing with Trump supporters, not just calling them stupid.”
+
+Generally I’m a fan of that kind of thing, but now… Jesus fucking Christ, we TRIED that. Did you not see how many journalists went to small towns and respectfully listened to people say stupid shit like “I can’t vote for Hillary because she’s the antichrist,” and then tried to figure out how that stupid shit was actually, maybe a reasonable argument about trade policy?
+
+Sometimes the answer is not “People are astutely seeing things that I, inside my bubble, have missed.” Sometimes the answer is just “People are fucking morons whose brains are not built to see through bullshit.”
+
+(To be clear, I think this applies to people in general, including Hillary voters. We just happen to have been a bit less moronic in this particular context.)
+
+And fine, if you want to argue that it’s strategically *wise* for us to understand what makes Trump fans tick, so that we can prevent this from happening again — assuming we get the chance — then fine.
+
+But if you keep insisting that we “just don’t understand” that Trump voters aren’t stupid, then I’m going to take a break from the blank look of horror I’ll be wearing all day, and flash you a look of withering incredulity. Maybe Trump voters aren’t stupid in other contexts, but this sure was a fucking stupid, destructive thing they did.
+
+~~~~
+EDIT: Predictably, some people are interpreting my point as: Trump supporters are stupid and/or evil, Clinton supporters are not.
+
+That’s not my point. My point is that humans IN GENERAL are bad at reasoning and seeing through bullshit, which caused particularly bad consequences this time via Trump fans, who made a choice that (if the human brain were better at reasoning) they would have realized was net bad for their overall goals, which presumably include avoiding nuclear war.
+
+~~~~~~~~~~~~~~~~~~~~~
+
+I realized it’s not clear to many people exactly why I’m so upset about Trump winning, so let me elaborate.
+
+What upsets me the most about Trump’s victory is not his policies (to the extent that he has coherent policy positions). It’s not even his racism or sexism, though those do upset me. It’s what his victory reveals about the fragility of our democracy.
+
+Trump incites violence at rallies. He spreads lies and conspiracy theories (birtherism, rigged elections) that damage the long-term credibility of the political process, just for his own short-sighted gain. He’s ruined [EDIT: tried to ruin] journalists’ careers for criticizing him, and bragged about it. He’s talked explicitly about his intent to pursue “revenge” on people who crossed him, once he becomes president. He said he would try to jail Hillary. He clearly has little knowledge of, or respect for, the Constitution or international treaties.
+
+And half of our country looked at all that, and either said “Awesome!” or simply shrugged.
+
+Maybe you assume Congress or the courts won’t let Trump get away with anything undemocratic. But did you see the way the Republican leadership swallowed their objections to Trump once he became the nominee, in the name of party unity? Why should we expect them to stand up to him once he’s actually the most powerful man in the world, if they didn’t before (and see earlier points about his love of revenge)?
+
+I really do hope the Trump presidency turns out, somehow, to be not as bad as it seems. But even if that’s the case… we’ve already learned that America cares so little about democratic norms and institutions that it’s happy to elect someone like Trump.
+
+How can you NOT be worried and depressed by that?
+
+~~~~~~~~~~~~~~~~~~~~
+
+OK, first off, this is a pretty sneering article for someone who’s condemning sneering.
+
+Secondly… this is the kind of article I was responding to, in my angry post a couple of days ago.
+
+(The point of that post got misinterpreted by a lot of people — which is understandable, because I was simultaneously trying to convey #1: a nuanced point AND #2: a lot of strong emotion at the same time. I still endorse both the point and the emotion, it’s just tricky to do both well at once. This post is an attempt to just focus on #1.)
+
+What I was trying to say is that I think electing Trump was a very destructive and stupid thing to do. And that I reject the implication, from people like this columnist, that we have to pretend that Trump voters had sensible, well-thought out reasons for their choice, because I do not think that is the case.
+
+I ALSO think that most voters in general, not just Trump voters, do not have sensible, well-thought out reasons for their voting choices, and there is plenty of evidence to back that up. I think humans simply aren’t the kinds of creatures who are good at making sensible choices about complicated, ideologically-charged topics.
+
+None of this means that we should give up on democracy, just that there are some serious risks that come with democracy. And I disagree with this columnist’s scorn for Andrew Sullivan’s suggestion that we should think about ways to mitigate those risks. Plenty of people over the centuries, including the Founders of the USA, have worried about the tyranny of the majority. That worry isn’t just an invention of the modern-day snotty liberal elites, as this columnist seems to think.
+
+Finally, I just want to ask this guy: is there ANY candidate about whom he would allow us to say “Shit, the American voters really screwed this one up”, or is that not possible by definition?
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+Yesterday I argued that the worst thing about Trump was the harm he does to democratic norms and institutions.
+
+From some of the responses, I don’t think I successfully conveyed why that kind of harm is *uniquely* bad — some people seem to think “harms democratic institutions” is just one item in the overall pro-con list, and it just gets tallied up with the other pros and cons, on equal footing.
+
+Let me try to explain why I think that’s the wrong way to look at it.
+
+There’s this scene in the movie 300, where the Spartan king, Leonidas, feels insulted by the demands relayed by the Persian messenger, so he draws a sword on the man.
+
+MESSENGER (shocked): “This is blasphemy, this is madness! No man threatens a messenger!”
+LEONIDAS: “Madness? This is Sparta!!!”
+… and he shoves the messenger off a cliff.
+
+I think Leonidas is meant to come off as some kind of heroic, rule-breaking badass. But I watched that and thought, “Jesus, what a shitty thing to do.”
+
+Not just because murder is shitty in general, or because murder is a disproportionate punishment for a perceived slight.
+
+No, it’s because the “don’t harm a messenger” norm is what makes it possible for armies to send messengers to negotiate with each other, to avert or end wars. Defecting on that norm is so much worse than harming a particular person, or army, or country. It’s harming our *ability to limit harm to each other* — a meta-harm.
+
+Our species has worked SO. DAMN. HARD. to build up enough collective trust to be able to have working institutions like constitutions, and treaties, and elections, and a free press, and peaceful transitions. And basically everything good in our lives depends on us collectively agreeing to treat those institutions seriously. I don’t care what party you’re in, or what policies you support — that should all come second to warding off meta-harms that undermine our ability to cooperate with each other enough to have a working society.
+
+I’m not going to claim that politicians were perfect at respecting norms before Trump came along. But Trump is unprecedented. Partly in how blatant he is about his lack of respect for norms in general.
+
+But also in how *discrete* his defections are — he’s not just incrementally bending norms that lots of other people before him have already bent.
+
+We used to be able to say “In America, presidents don’t threaten to jail their political rivals.” Now we can’t.
+
+We used to be able to say, “In America, presidents don’t sow doubts about the legitimacy of elections.” Now we can’t.
+
+We used to be able to say, “In America, presidents don’t encourage violence against protesters.” Now we can’t.
+
+Even joking about those norms, from someone in a position of power, undermines them. If Trump was actually joking about jailing Hillary, I suppose that’s better than if he was serious, but it still deals a blow to the norm. The health of the norm depends on us showing each other that we understand it’s important.
+
+And I just feel despairing that so many Americans don’t seem to feel the same. Like, I don’t expect everyone to have thought through the game theory, but I just assumed people at least had an intuitive sense of these norms being sacred.
+
+… And most of all, I’m worried that those of us who *do* feel shock at those norms being violated will gradually lose our sense of shock, as the post-Trump era wears on.
+
+Update (Nov. 12) Since I apparently wasn’t, let me be perfectly clear. The fact that Trump’s voters unleashed a monster on the world does not make them evil or idiots. It “merely” makes them catastrophically mistaken.  Just as I did (and took a lot flak for doing!) before the election, I will continue to oppose any efforts to harass individual Trump supporters, get them fired from their jobs, punish other people for associating with them, etc.  To do that, while also militantly refusing to normalize Trump’s autocratic rule over the US, is admittedly to walk an incredibly narrow tightrope—and yet I don’t see anything on either side of the tightrope that’s consistent with my beliefs.
+
+Some readers might also be interested in my reflections on being on the “same side” as Amanda Marcotte.
+
+================================================================================
+
+TITLE: What is there to say?
+URL: https://scottaaronson.blog/?m=201611
+CONTENT:
+Update (Nov. 10): In the wake of the US’s authoritarian takeover, I will sadly understand if foreign students and postdocs no longer wish to study in the US, or if foreign researchers no longer wish to enter the US even for conferences and visits.  After all, I wouldn’t feel safe in Erdogan’s Turkey or the Mullahs’ Iran.  In any case, I predict that the US’s scientific influence will now start to wane, as top researchers from elsewhere find ways to route around us.
+
+I make just one request: if you do come to the US (as I selfishly hope you will), please don’t avoid places like Austin just because they look on the map like they’re in a sea of red.  To understand what’s going on, you need to look at the detailed county-by-county results, which show that even in “red” states, most cities went overwhelmingly for Clinton, while even in “blue” states like New York, most rural areas went for Trump.  Here’s Texas, for example (Austin was 66% Clinton, 27% Trump).
+
+I’m ashamed of my country and terrified about the future.  When Bush took power in 2000, I was depressed for weeks, but I didn’t feel like I do now, like a fourth-generation refugee in the United States—like someone who happens to have been born here and will presumably continue to live here, unless and until it starts to become unsafe for academics, or Jews, or people who publicly criticize Trump, at which time I guess we’ll pack up and go somewhere else (assuming there still is a somewhere else).
+
+If I ever missed the danger and excitement that so many European scientists and mathematicians felt in the 1930s, that sense of trying to pursue the truth even in the shadow of an aggressive and unironic evil—OK, I can cross that off the list.  Since I was seven years old or so, I’ve been obsessed by the realization that there are no guardrails that prevent human beings from choosing the worst, that all the adults who soothingly reassure you that “everything always works out okay in the end” are full of it.  Now I get to live through it instead of just reading about it in history books and having nightmares.
+
+If James Comey hadn’t cast what turned out to be utterly unfounded suspicion over Hillary during the height of early voting, maybe the outcome would’ve been different.  If young and poor and minority voters in Wisconsin and North Carolina and elsewhere hadn’t been effectively disenfranchised through huge lines and strategic voter ID laws and closures of polling places, maybe the outcome would’ve been different.  If Russia and WikiLeaks hadn’t interfered by hacking one side and not the other, maybe the outcome would’ve been different.  For that matter, if Russia or some other power hacked the trivially-hackable electronic voting machines that lack paper trails—machines that something like a third of American voters still used this election—there’s an excellent chance we’d never find out.
+
+But in some sense, all of that is beside the point.  For take all of it away, and Trump still would’ve at least come within a few terrifying points of winning—and as Scott Alexander rightly stresses, whatever horrible things are true about the American electorate today, would still have been true had Hillary eked out a narrow win.  It’s just that now we all get to enjoy the consequences of ½±ε of the country’s horrible values.
+
+There is no silver lining.  There’s nothing good about this.
+
+My immediate problem is that, this afternoon, I’m supposed to give a major physics colloquium at UT.  The title?  “Quantum Supremacy.”  That term, which had given me so much comedic mileage through the long campaign season (“will I disavow support from quantum supremacists?  I’ll keep you in suspense about it…” ), now just seems dark and horrible, a weight around my neck.  Yet, distracted and sleep-deprived and humor-deprived though I am, I’ve decided to power through and give the talk.  Why?  Because Steven Weinberg says he still wants to hear it.
+
+I see no particular reason to revise anything I’ve said on this blog about the election, except perhaps for my uncritical quoting of all the analyses and prediction markets that gave Trump a small (but still, I stressed, much too high) probability of winning.
+
+I stand by my contempt for the Electoral College, and my advocacy for vote-swapping.  The fact that vote-swapping once again failed doesn’t mean it was a bad idea; on the contrary, it means that we didn’t do enough.
+
+I stand by my criticism of some of the excesses of the social justice movement, which seem to me to have played some role in spawning the predictable backlash whose horrific results the world now sees.
+
+Lastly, I stand by what I said about the centrality of Enlightenment norms and values, and of civil discourse even with those with whom we disagree, to my own rejection of Trumpism.
+
+On the other hand, the Trump supporters who are leaving me anonymous taunting comments can go elsewhere.  On this day, I think a wholly appropriate Enlightenment response to them is “fuck you.”
+
+================================================================================
+

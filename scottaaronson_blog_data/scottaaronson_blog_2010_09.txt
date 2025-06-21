@@ -1,0 +1,71 @@
+TITLE: NRC: Nonsensical Ranking Clowns
+URL: https://scottaaronson.blog/?m=201009
+CONTENT:
+As those of you in American academia have probably heard by now, this week the National Research Council finally released its 2005 rankings of American PhD programs, only five years behind schedule.  This time, the rankings have been made 80% more scientific by the addition of error bars.  Among the startling findings:
+
+However, before you base any major decisions on these findings, you should know that a few … irregularities have emerged in the data used to generate them.
+
+Ever since the NRC data were released from the parallel universe in which they were gathered, bloggers have been having a field day with them—see for example Dave Bacon and Peter Woit, and especially Sariel Har-Peled’s Computer Science Deranker (which ranks CS departments by a combined formula, consisting of 0% the NRC scores and 100% a random permutation of departments).
+
+Yet despite the fact that many MIT departments (for some reason not CS) took a drubbing, I actually heard some of my colleagues defend the rankings, on the following grounds:
+
+But while the Forces of Doofosity usually win, my guess is that they’re going to lose this round.  Deans and department heads—and even the Computing Research Association—have been livid enough about the NRC rankings that they’ve denounced them with unusual candor, and the rankings have already been thoroughly eviscerated elsewhere on the web.
+
+Look: if I really needed to know what (say) the best-regarded PhD programs in computer science were, I could post my question to a site like MathOverflow—and in the half hour before the question was closed for being off-topic, I’d get vastly more reliable answers than the ones the NRC took fifteen years and more than four million dollars to generate.
+
+So the interesting questions here have nothing to do with the “rankings” themselves, and everything to do with the process and organization that produced them.  How does Charlotte Kuh, study director of the NRC’s Assessment of Research Doctorate Programs, defend the study against what now looks like overwhelming evidence of Three-Stooges-level incompetence?  How will the NRC recover from this massive embarrassment, and in what form should it continue to exist?
+
+The NRC, as I had to look up, is an outfit jointly overseen by the National Academy of Sciences (NAS), the National Academy of Engineering (NAE), and the Institute of Medicine (IOM).  Which reminded me of the celebrated story about Richard Feynman resigning his membership in the NAS.  When asked why, Feynman explained that, when he was in high school, there was an “honor club” whose only significant activity was debating who was worthy of joining the honor club. After years in the NAS, he decided it was no different.
+
+Now that I write that, though, an alternative explanation for the hilarious problems with the NRC study occurs to me.  The alternative theory was inspired by this striking sentence from an Inside Higher Ed article:
+
+When one of the reporters on a telephone briefing about the rankings  asked Ostriker [the chairman of the NRC project committee] and his fellow panelists if any of them would “defend the  rankings,” none did so.
+
+So, were these joke rankings an elaborate ruse by the NRC, meant to discredit the whole idea of a strict linear order on departments and universities?  If so, then I applaud the NRC for its deviousness and ingenuity in performing a much-needed public service.
+
+
+
+================================================================================
+
+TITLE: Possibly the best thing ever to happen to my inbox
+URL: https://scottaaronson.blog/?m=201009
+CONTENT:
+Just a quick (but important) announcement: theorist-extraordinaire and friend-since-back-in-undergrad Ryan Williams reports that the Theoretical Computer Science Stack Exchange website is now up in beta!  What is this TCS Stack Exchange?  It’s a place where you can post your questions about theoretical computer science and get informed answers to them—intended as the homegrown CS theory analogue of the wildly-successful Math Overflow site.  From an initial perusal, the TCSSE looks awesome.  Indeed, the only small suggestion I can make is to propose a motto:
+
+The TCS Stack Exchange.  Exponentially better than emailing Scott Aaronson.
+
+Update (Sep. 10): While I’m on the topic of announcements, the early registration deadline for FOCS’2010 in Las Vegas is September 30.  Hope to see many of you there!
+
+Another Update (Sep. 14): There’s now a beautiful talk by Ken Clarkson, Ron Fagin, and Ryan Williams looking back on the Deolalikar affair and explaining the problems with the proof, which I recommend in the strongest terms to anyone who followed this story.  (And yes, I think “looking back” is the right term here.)
+
+
+
+================================================================================
+
+TITLE: Physics for Doofuses: Why Beds Exist
+URL: https://scottaaronson.blog/?m=201009
+CONTENT:
+I promised to blog more about research, and I will.  Unfortunately, in the one week between my world tour and the start of the fall semester, I’ve been spending less time on quantum complexity research than on sleeping on a new mattress that I bought.  This has provided ample time to ponder the following question, which I’ve decided to add to the Shtetl-Optimized Physics for Doofuses series:
+
+Why is a soft bed more comfortable than a hard one?
+
+At first glance, this question seems too doofusy even for a series such as this, which makes its target audience clear.  The trouble is that, while perfectly reasonable-sounding answers immediately suggest themselves, several of those answers can be shown to be wrong.
+
+Let’s start with the most common answer: a soft bed is more comfortable than a hard bed because it molds to your shape.   The inadequacy of this answer can be seen by the following thought experiment: lie on a soft bed, and let it mold to your body.  Then imagine that the bed retains exactly the same molded shape, but is replaced by ceramic.  No longer so comfortable!
+
+Ah, you reply, but that’s because a ceramic bed doesn’t change its shape as you shift positions throughout the night.  But this reply is still inadequate—since even if you’re lying as still as possible, it still seems clear that a soft bed is more comfortable than a hard one.
+
+So it seems any answer needs to start from the observation that, even when you’re lying still, you’re not really lying still: you’re breathing in and out, there are tiny vibrations, etc.  The real point of a soft bed is to create a gentler potential well, which absorbs the shocks that would otherwise be caused by those sorts of small movements.
+
+(I was tempted to say the point is to damp the movements, but that can’t be right: trampolines are designed for minimal damping, yet sleeping on a trampoline could actually be pretty comfortable.  So the essential thing a bed needs to do is simply to make way in response to small movements and vibrations.  How hard the bed tries to spring back to its original shape is a secondary question—the answer to which presumably influences, for example, whether you prefer an innerspring or a memory-foam mattress.)
+
+So then why aren’t beds even softer than they are?  Well, the limit of infinite softness would be a bed that immediately collapsed to nothing when you lay on it, dropping you to the floor.  But even before that limit, a bed that was too soft would give you too much freedom to shift into awkward positions and thereby cause yourself back problems.  This suggests an answer to a question raised by a colleague: is the purpose of a bed to approximate, as well as possible on the earth’s surface, the experience of sleeping in zero gravity?  Unless I’m mistaken, the answer is no.  Sleeping in space would be like sleeping on a bed that was too soft, with the same potential for back problems and so forth.
+
+Given that lying in bed is normally the least active thing we do, I find it ironic that the only reasons we lie in bed in the first place (as opposed to, say, on steel beams) are dynamical: they involve the way the bed responds to continual vibrations and movements.
+
+I’ll be grateful if knowledgeable physicists, physiologists, or sleepers can correct any errors in the above account.  Meantime, the next time your spouse, partner, roommate, parent, etc. accuses you of lounging in bed all afternoon like a comatose dog, you can reply that nothing could be further from the truth: rather, inspired by a post on Shtetl-Optimized, you’re struggling to reconcile your modern understanding of the physics and biology of lying in bed with the prescientific, phenomenal experience of lying in bed, and thereby make yourself into a more enlightened human being.
+
+
+
+================================================================================
+

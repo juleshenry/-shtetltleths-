@@ -1,0 +1,111 @@
+TITLE: Arithmetic natural proofs theory is sought
+URL: https://scottaaronson.blog/?m=200806
+CONTENT:
+This post will be longer and more technical than most — but what can I say?  Sometimes you need to get something technical off your chest.  The topic is something my student, Andy Drucker, and I (along with several interested others) have been thinking about on and off for months, and if we’re not going to get a paper out of it, at least we’ll have this blog post.
+
+Complexity theory could be defined as the field concerned with deep, nontrivial, mathematically-sophisticated justifications for failure.  For example, we can’t solve NP-complete problems in polynomial time, but maybe that’s not so bad, since we conjecture there is no solution (P≠NP).  Of course, we also can’t prove P≠NP — but maybe that’s not so bad either, since we have good explanations for why the problem is so hard, like relativization, natural proofs, and algebrization.
+
+On the other hand, consider the problem of showing that the Permanent of an nxn matrix requires arithmetic circuits of more than polynomial size.  (Given a field F—which we’ll assume for this post is finite—an arithmetic circuit over F is a circuit whose only allowed operations are addition, subtraction, and multiplication over F, and that doesn’t have direct access to the bit representations of the field elements.)
+
+The problem of circuit lower bounds for the Permanent is currently at the frontier of complexity theory.  As we now know, it’s intimately related both to derandomizing polynomial identity testing and to the τ problem of Blum, Cucker, Shub, and Smale.  Alas, not only can we not prove that Perm∉AlgP/poly (which is the street name for this conjecture), we don’t have any good excuse for why we can’t prove it!  Relativization and algebrization don’t seem to apply here, since no one would think of using diagonalization-based techniques on such a problem in the first place.  So that leaves us with natural proofs.
+
+The theory of natural proofs, which was developed by Razborov and Rudich in 1993 and for which they recently shared the Gödel Prize, started out as an attempt to explain why it’s so hard to prove NP⊄P/poly (i.e., that SAT doesn’t have polynomial-size circuits, which is a slight strengthening of P≠NP).  They said: suppose the proof were like most of the circuit lower bound proofs that we actually know (as a canonical example, the proof that Parity is not in AC0).  Then as a direct byproduct, the proof would yield an efficient algorithm A that took as input the truth table of a Boolean function f, and determined that either:
+
+(The requirement that A run in time polynomial in the size of the truth table, N=2n, is called constructivity.  The requirement that C be a large class of functions — say, at least a 2-poly(n) fraction of functions — is called largeness.)
+
+Razborov and Rudich then pointed out that such a polynomial-time algorithm A could be used to distinguish truly random functions from pseudorandom functions with non-negligible bias.  As follows from the work of Håstad-Impagliazzo-Levin-Luby and Goldreich-Goldwasser-Micali, one could thereby break one-way functions in subexponential time, and undermine almost all of modern cryptography!  In other words, if cryptography is possible, then proofs with the property above are not possible.  The irony — we can’t prove lower bounds because lower bounds very much like the ones we want to prove are true — is thick enough to spread on toast.
+
+Now suppose we tried to use the same argument to explain why we can’t prove superpolynomial arithmetic circuit lower bounds for the Permanent, over some finite field F.  In that case, a little thought reveals that what we’d need is an arithmetic pseudorandom function family over F.  More concretely, we’d need a family of functions gs:Fn→F, where s is a short random “seed”, such that:
+
+It’s important not to get so hung up on definitional details that you miss the substantive issue here.   However, three comments on the definition seem in order.
+
+Firstly, we restrict gs to be computable by constant or log-depth circuits, since that’s the regime we’re ultimately interested in (more about this later).  The Permanent is a low-degree polynomial, and well-known depth reduction theorems say (roughly speaking) that any low-degree polynomial that’s computable by a small circuit, is also computable by a small circuit with very small depth.
+
+Secondly, we say that no polynomial-time algorithm should be able to distinguish gs from a random low-degree polynomial, rather than a random function.  The reason is clear: if gs is itself a low-degree polynomial, then it can always be distinguished easily from a random function, just by picking a random line and doing polynomial interpolation!  On the other hand, it’s reasonable to hope that within the space of low-degree polynomials, gs looks random—and that’s all we need to draw a natural proofs conclusion.  Note that the specific distribution over low-degree polynomials that we simulate doesn’t really matter: it could be (say) the uniform distribution over all degree-d polynomials for some fixed d, or the uniform distribution over polynomials in which no individual variable is raised to a higher power than d.
+
+Thirdly, to get a close analogy with the original Razborov-Rudich theory, we stipulated that no ordinary (Boolean) polynomial-time algorithm should be able to distinguish gs from a random low-degree polynomial.  However, this is not essential.  If we merely knew (for example) that no polynomial-size arithmetic circuit could distinguish gs from a random low-degree polynomial, then we’d get the weaker but still interesting conclusion that any superpolynomial arithmetic circuit lower bound for the Permanent would have to be “arithmetically non-naturalizing”: that is, it would have to exploit some property of the Permanent that violates either largeness or else “arithmetic constructivity.”  There’s a smooth tradeoff here, between the complexity of the distinguishing algorithm and the strength of the natural proofs conclusion that you get.
+
+There’s no question that, if we had an arithmetic pseudorandom function family as above, it would tell us something useful about arithmetic circuit lower bounds.  For we do have deep and nontrivial arithmetic circuit lower bounds — for example, those of Nisan and Wigderson (see also here), Razborov and Grigoriev, Grigoriev and Karpinski, Shpilka and Wigderson, Raz (see also here), Raz, Shpilka, and Yehudayoff, Raz and Yehudayoff, and Mignon and Ressayre.  And as far as I can tell, all of these lower bounds do in fact naturalize in the sense above.  (Indeed, they should even naturalize in the strong sense that there are quasipolynomial-size arithmetic circuits for the relevant properties.)  Concretely, most of these techniques involve looking at the truth table (or rather, the “value table”) of the function g:Fn→F to be lower-bounded, constructing so-called partial-derivatives matrices from that truth table, and then lower-bounding the ranks of those matrices.  But these operations—in particular, computing the rank—are all polynomial-time (or quasipolynomial-time for arithmetic circuits).  Thus, if we could construct arithmetic pseudorandom functions, we could use them to argue that no techniques similar to the ones we know will work to prove superpolynomial arithmetic circuit lower bounds for the Permanent.
+
+So the problem is “merely” one of constructing these goddamned arithmetic pseudorandom functions.  Not surprisingly, it’s easy to construct arithmetic function families that seem pseudorandom (concrete example coming later), but the game we’re playing is that you need to be able to base the pseudorandomness of your PRF on some ‘accepted’ or ‘established’ computational intractability assumption.  And here, alas, the current toolbox of complexity theory simply doesn’t seem up for the job.
+
+To be sure, we have pseudorandom function families that are computable by constant-depth Boolean threshold circuits — most famously, those of Naor and Reingold, which are pseudorandom assuming that factoring Blum integers or the decisional Diffie-Hellman problem are hard.  (Both assumptions, incidentally, are false in the quantum world, but that’s irrelevant for natural proofs purposes, since the proof techniques that we know how to think about yield polynomial-time classical algorithms.)  However, the Naor-Reingold construction is based on modular exponentiation, and doing modular exponentiation in constant depth crucially requires using the bit representation of the input numbers.  So this is not something that’s going to work in the arithmetic circuit world.
+
+At the moment, it seems the closest available result to what’s needed is that of Klivans and Sherstov in computational learning theory.  These authors show (among other things) that if the n1.5-approximate shortest vector problem is hard for quantum computers, then learning depth-3 arithmetic circuits from random examples is intractable for classical computers.  (Here quantum computing actually is relevant—since by using techniques of Regev, it’s possible to use a quantum hardness assumption to get a classical hardness consequence!)
+
+This result seems like exactly what we need—so then what’s the problem?  Why aren’t we done?  Well, it’s that business about the random examples.  If the learner is allowed to make correlated or adaptive queries to the arithmetic circuit’s truth table — as we need to assume it can, in the arithmetic natural proofs setting — then we don’t currently have any hardness result.  Furthermore, there seems to me to be a basic difficulty in extending Klivans-Sherstov to the case of adaptive queries (though Klivans himself seemed more optimistic).  In particular, there’s a nice idea due to Angluin and Kharitonov, which yields a generic way (using digital signatures) for converting hardness-of-learning results against nonadaptive queries to hardness-of-learning results against adaptive queries.  But interestingly, the Angluin-Kharitonov reduction depends essentially on our being in the Boolean world, and seems to break down completely in the arithmetic circuit world.
+
+So, is this all Andy and I can say—that we tried to create an arithmetic natural proofs theory, but that ultimately, our attempt to find a justification of failure to find a justification of failure was itself a failure?  Well, not quite.  I’d like to end this post with one theorem, and one concrete conjecture.
+
+The theorem is that, if we don’t care about the depth of the arithmetic circuits (or, more-or-less equivalently, the degree of the polynomials that they compute), then we can create arithmetic pseudorandom functions over finite fields, and hence the arithmetic natural proofs theory that we wanted.  Furthermore, the only assumption we need for this is that pseudorandom functions exist in the ordinary Boolean world — about the weakest assumption one could possibly hope for!
+
+This theorem might seem surprising, since after all, we don’t believe that there’s any general way to take a polynomial-size Boolean circuit C that operates on finite field elements x1,…,xn represented in binary, and simulate C by a polynomial-size arithmetic circuit that uses only addition, subtraction, and multiplication, and not any bit operations.  (The best such simulation, due to Boneh and Lipton, is based on elliptic curves and takes moderately exponential time.)  Nevertheless, Andy and I are able to show that for pseudorandomness purposes, unbounded-depth Boolean circuits and unbounded-depth arithmetic circuits are essentially equivalent.
+
+To prove the theorem: let the input to our arithmetic circuit C be elements x1,…,xn of some finite field Fp (I’ll assume for simplicity that p is prime; you should think of p as roughly exponential in n).  Then what C will do will be to first compute various affine functions of the input:
+
+y1=a0+a1x1+…+anxn, y2=b0+b1x1+…+bnxn, etc.,
+
+as many such functions as are needed, for coefficients ai, bi, etc. that are chosen at random and then “hardwired” into the circuit.  C will then raise each yi to the (p-1)/2 power, using repeated squaring.  Note that in a finite field Fp, raising y≠0 to the (p-1)/2 power yields either +1 or -1, depending on whether or not y is a quadratic residue.  Let zi=(yi+1)/2.  Then we now have a collection of 0/1 “bits.”  Using these bits as our input, we can now compute whatever Boolean pseudorandom function we like, as follows: NOT(x) corresponds to the polynomial 1-x, AND(x,y) corresponds to xy, and OR(x,y) corresponds to 1-(1-x)(1-y).  The result of this will be a collection of pseudorandom output bits, call them w1,…,wm.  The final step is to convert back into a pseudorandom finite field element, which we can do as follows:
+
+Output = w1 + 2w2 + 4w3 + 8w4 + … + 2m-1wm.
+
+This will be pseudorandom assuming (as we can) that 2m is much larger than p.
+
+But why does this construction work?  That is, assuming the Boolean circuit was pseudorandom, why is the arithmetic circuit simulating it also pseudorandom?  Well, this is a consequence of two basic facts:
+
+Now for the conjecture.  I promised earlier that I’d give you an explicit candidate for a (low-degree) arithmetic pseudorandom function, so here it is.  Given inputs x1,…,xn∈Fp, let m be polynomially related to n, and let L1(x1,…,xn),…,Lm^2(x1,…,xn) be affine functions of x1,…,xn, with the coefficients chosen at random and then “hardwired” into our circuit, as before.  Arrange L1(x1,…,xn),…,Lm^2(x1,…,xn) into an mxm matrix, and take the determinant of that matrix as your output.  That’s it.
+
+(The motivation for this construction is Valiant’s result from the 1970s, that determinant is universal under projections.  That might suggest, though of course it doesn’t prove, that breaking this function should be as hard as breaking any other arithmetic pseudorandom function.)
+
+Certainly the output of the above generator will be computable by an arithmetic circuit of size mO(log m)n.  On the other hand, I conjecture that if you don’t know L1,…,Lm^2, and are polynomial-time bounded, then the output of the generator will be indistinguishable to you from that of a random polynomial of degree m.  I’m willing to offer $50 to anyone who can prove or disprove this conjecture—or for that matter, who can prove or disprove the more basic conjecture that there exists a low-degree arithmetic pseudorandom function family!  (Here, of course, “prove” means “prove modulo some accepted hardness assumption,” while “disprove” means “disprove.”)
+
+But please be quick about it!  If we don’t hurry up and find a formal barrier to proving superpolynomial lower bounds for the Permanent, someone might actually roll up their sleeves and prove one—and we certainly don’t want that!
+
+
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 15: Learning
+URL: https://scottaaronson.blog/?m=200806
+CONTENT:
+Lektur iz heer.
+
+This week I explain Valiant’s PAC-learning model (previously covered in GITCS Lectures 19, 20, 21), and also — in response to a question from the floor — take a swipe at Bayesian fundamentalism.  When you only know one formalism to describe some phenomenon (in this case, that of choosing hypotheses to fit data), it’s easy to talk yourself into believing that formalism is the Truth: to paraphrase Caliph Omar, “if it agrees with Bayesianism, it is superfluous; if it disagrees, it is heresy.”  The antidote is to learn other formalisms.  Enter computational learning theory: an account of learning that’s clear, mathematically rigorous, useful, nontrivial, and completely different from the Bayesian account (though of course they have points of contact).  The key idea is to jettison the notoriously-troublesome notion of a prior, replacing it by a concept class (about which one makes no probabilistic assumptions), as well as a probability distribution over sample data rather than hypotheses.
+
+Incidentally, I’d say the same thing about complexity theory.  If you think (for example) that Turing machines are the only way to reason about computational efficiency, then you’re overdue for a heaping helping of communication complexity, circuit complexity, query complexity, algebraic complexity…
+
+Ah yes, complexity.  This week I was at the Conference on Computational Complexity at the beautiful University of Maryland in College Park: home of the Terrapins, as one is reminded by signs placed roughly every three inches.  I heard some great talks (ask in the comments section if you want details), gave two talks myself, and during the business meeting, was elected to the CCC Steering Committee.  This being a complexity conference, my declared campaign motto was “No We Can’t!”  It was inspiring to see how this simple yet hopeful motto united our community: from derandomization to circuit lower bounds, from quantum computing to proof complexity, we might have different backgrounds but we all worry about shrinking grant sizes and the rising costs of conference registration; we all face common challenges to which we want to prove that no solutions exist.  Rest assured, I will treat my duties as a steering committee member (mostly helping to select PC chairs, who in turn select the program committees who select the conference papers) with the awesome gravity they deserve.
+
+================================================================================
+
+TITLE: Better safe than sorry
+URL: https://scottaaronson.blog/?m=200806
+CONTENT:
+After reading these blog posts dealing with the possibility of the Large Hadron Collider creating a black hole of strangelet that would destroy the earth — as well as this report from the LHC Safety Assessment Group, and these websites advocating legal action against the LHC — I realized that I can remain silent about this important issue no longer.
+
+As a concerned citizen of Planet Earth, I demand that the LHC begin operations as soon as possible, at as high energies as possible, and continue operating until such time as it is proven completely safe to turn it off.
+
+Given our present state of knowledge, we simply cannot exclude the possibility that aliens will visit the Earth next year, and, on finding that we have not yet produced a Higgs boson, find us laughably primitive and enslave us.  Or that a wormhole mouth or a chunk of antimatter will be discovered on a collision course with Earth, which can only be neutralized or deflected using new knowledge gleaned from the LHC.  Yes, admittedly, the probabilities of these events might be vanishingly small, but the fact remains that they have not been conclusively ruled out.  And that being the case, the Precautionary Principle dictates taking the only safe course of action: namely, turning the LHC on as soon as possible.
+
+After all, the fate of the planet might conceivably depend on it.
+
+
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 14: Skepticism of Quantum Computing
+URL: https://scottaaronson.blog/?m=200806
+CONTENT:
+I just came from Brookhaven National Lab, where I gave my standard colloquium talk on the limits of quantum computers, and got driven around the RHIC accelerator ring by physicist Rob Pisarski.  I knew the lab was big; what I hadn’t quite appreciated before getting there is that it’s an entire town, with its own police department, restaurants, etc.  In many ways it looks like lots of small towns across America, except that this one’s primary business is smashing gold ions into each other at relativistic speeds and measuring properties of the resulting quark-gluon plasmas.
+
+When I talk to physicists like the ones at BNL, they often find it faintly ridiculous that anyone would doubt quantum mechanics.  But people certainly do — even when they don’t admit that that’s what they’re doing — when the alternative is accepting that integers are efficiently factorizable in the physical world.  Which brings us to QCSD Lecture 14, on eleven skeptical objections to quantum computing and what can be said in response to them.  And yeah, if you’ve been reading this blog for years, a lot of the material won’t be new to you.  It’s just one more hunk of meat to throw into the tigers’ den.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 13: How Big Are Quantum States?
+URL: https://scottaaronson.blog/?m=200806
+CONTENT:
+A year and a half after the actual course, the remaining Democritus lecture notes are finally being transcribed and posted — thanks to my new summer student, Chris Granade.  In Lecture 13, you can read about why QMA, QCMA, and BQP/qpoly are not merely complexity classes but battlefields, where competing visions of what quantum states really are face each other off in conflicts that we as theorists intentionally provoked.  (Work with me here.)
+
+================================================================================
+

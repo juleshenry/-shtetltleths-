@@ -1,0 +1,109 @@
+TITLE: You can’t prove you won’t want to be there
+URL: https://scottaaronson.blog/?m=200906
+CONTENT:
+Avi Wigderson has asked me to announce that Princeton’s recently-founded and delightfully-named Center for Computational Intractability will be holding a week-long workshop on Barriers in Computational Complexity, this August 25th to 29th.  Apparently I’m even co-organizing one of the sessions.  So register now!  Lowerbounderati, provers of meta-impossibility theorems, and other congenital pessimists are particularly discouraged from not attending.
+
+================================================================================
+
+TITLE: What is it like to be a nerd?
+URL: https://scottaaronson.blog/?m=200906
+CONTENT:
+No doubt many of you already know … but for the rest, today’s xkcd comes impressively close (at least, I think it does) to solving the ancient philosophical riddle of how to convey what “being a nerd” feels like to someone cool since birth.
+
+
+
+================================================================================
+
+TITLE: The Two-Conference Solution
+URL: https://scottaaronson.blog/?m=200906
+CONTENT:
+Anyone who follows the theoretical computer science blogs knows that two peoples—the Technicians and the Conceptualists—have been warring over the same tiny piece of land (the STOC/FOCS accepted papers list) for well over a generation.  The most fundamentalist of the Conceptualists believe that STOC and FOCS were promised to them in a divine covenant with Merlin, while moderates simply point out that the Conceptualists have maintained a continuous presence in these conferences since the time of Cook and Karp, always turning STOCward in prayer on the day of the submission deadline; and that, if not for STOC and FOCS, conceptual papers might get wiped entirely off the face of the earth (or worse, shunted to CCC).  For their part, the Technicians see the Conceptualists as unwelcome usurpers, infiltrating an ancient land of log factors with bizarre new models and definitions; and suggest that, if the Conceptualists feel so wronged by physicists, biologists, and economists who refuse to see the natural and social worlds in computational terms, then let the physicists, biologists, and economists give the Conceptualists sessions in their conferences.
+
+To many of us, it’s become increasingly clear that the only long-term solution to this bitter conflict is partition: two sets of conferences for two peoples with irreconcilable intellectual aspirations.  (A few old-timers, such as Noam Chomsky, still advocate technical and conceptual papers side-by-side in the same conference, but others consider Chomsky’s proposal as quaint and outdated as his hierarchy.)
+
+And thus I’m pleased to point my readers to two new conferences, one for each people, the first of which has the further merit of actually existing:
+
+Mihai Pătraşcu—arguably the most irăşcible of the Technicians—has announced his support for the new ICS conference, stating that ICS “seems like one of the best ideas in decades for improving the quality of STOC/FOCS.”  As one of the handwaviest of the Conceptualists, I wish to announce my wholehearted support of SLOGN, for precisely the same reason.
+
+And if Mihai and I are in complete agreement about how the field should evolve, what could there possibly be to argue about?  Shalom, Salaam, and QED.
+
+
+
+================================================================================
+
+TITLE: The secant had it coming
+URL: https://scottaaronson.blog/?m=200906
+CONTENT:
+Yesterday DJ Strouse, a student in MIT’s quantum computing summer school, pointed me to A Mathematician’s Lament by Paul Lockhart, the most blistering indictment of K-12 “math” education I’ve ever encountered.
+
+Lockhart says pretty much everything I’ve wanted to say about this subject since the age of twelve, and does so with the thunderous rage of an Old Testament prophet.  If you like math, and more so if you think you don’t like math, I implore you to read his essay with every atom of my being.
+
+Which is not to say I don’t have a few quibbles:
+
+1. I think Lockhart gives too much credit to the school system when he portrays the bureaucratization, hollowing-out, and general doofusication of knowledge as unique to math.  In my experience, science, literature, and other fields are often butchered with quite as much gusto.  Not until grad school, for example, had I sufficiently recovered from eleventh-grade English to give Shakespeare another try (or from Phys Ed do push-ups).
+
+2. Lockhart doesn’t discuss the many ways motivated students can and do end up learning what math is, despite the best efforts of the school system to prevent it.  These side-channels include the web, the books of Martin Gardner, recreational programming, and math competitions and camps.  Obviously it’s no defense of an execrable system to point out how some people learn in spite of it—but these omissions make the overall picture too depressing even for me (which is really saying something).
+
+3. In describing math purely as a soul-uplifting pursuit of beautiful patterns, Lockhart leaves open the question of why, in that case, it’s been in bed with science and technology throughout its history—not merely for the education bureaucrats but for Archimedes, Newton, and Gauss.  (Of course, like most relationships, this one is not without its sniping feuds.)  Personally I have no problem with teachers who want to recognize and celebrate that aspect of math, provided the students respond to it.  “So you say you want theorems that are not only beautiful, but also inspired by physics or economics or cryptography?  Line up then, because here comes a heaping helping of them…”
+
+4. Lockhart doesn’t address an interesting problem that’s arisen in my own teaching over the last few years.  Namely, what happens when you try to teach as he advocates—with history and philosophy and challenging puzzles and arguments about the definitions and improvisation and digressions—but the students want more structure and drill and routine?  Should you deny it to them?  (For myself, I concluded that brains come in different types, and that it would be presumptuous to assume a teaching style that wouldn’t work for me can’t possibly work for anyone else.  Still, before beginning a traditional rote drill session, it’s probably a good idea for all parties involved to agree on a safe-word.)
+
+In the end, Lockhart’s lament is subversive, angry, and radical … but if you know anything about math and anything about K-12 “education” (at least in the United States), I defy you to read it and find a single sentence that isn’t permeated, suffused, soaked, and encrusted with truth.
+
+
+
+================================================================================
+
+TITLE: The Limits of Irany
+URL: https://scottaaronson.blog/?m=200906
+CONTENT:
+Update (6/20/2009): If you agree about Mahmoud deserving his vacation, please read and sign this petition (courtesy of Elham Kashefi).  I have no doubt that if enough Shtetl-Optimized readers sign, it will force the ayatollahs to reconsider.
+
+I haven’t heard from my pal Mahmoud in years, but some mutual friends told me that he’s been pretty stressed about his job lately.  They said you’re supposed to turn your blog’s background green if you agree with some concerned folks who’ve been marching around Tehran encouraging him to take a much-needed breather.
+
+This was a tough call for me.  On the one hand, the voters clearly want Mahmoud at his desk by spectacular margins:
+
+
+
+On the other hand, it seemed hypocritical for me to deny a close friend his vacation, given how much procrastinating I’ve been doing myself lately.  For example, I’ve barely been blogging—and when I have, it’s often just bargain-basement fare you could get anywhere else on the Internet!  Ultimately, then, I decided I had to go green out of a sort of Kantian blogegorical imperative—regardless of all the complex ways my editing a WordPress stylesheet might reverberate through history.
+
+================================================================================
+
+TITLE: My long, complexity-theoretic journey
+URL: https://scottaaronson.blog/?m=200906
+CONTENT:
+So, what was I doing these past few weeks that could possibly take precedence over writing ill-considered blog entries that I’d probably regret for the rest of my life?
+
+1. On the gracious invitation of Renato Renner, I visited one of Al Einstein’s old stomping-grounds: ETH Zürich.  There I gave a physics colloquium called How Much Information Is In A Quantum State?, as well as a talk on my paper Quantum Copy-Protection and Quantum Money, which has been more than three years in the procrastinating.  Though I was only in Switzerland for three days, I found enough time to go hiking in the Swiss Alps, if by “Swiss Alps” you mean a 200-foot hill outside the theoretical physics building.  I’m quite proud of having made it through this entire trip—my first to Switzerland—without once yodeling or erupting into cries of “Riiiiiiicola!”  On the other hand, what with the beautiful architecture, excellent public transportation, and wonderful hosts, it was a struggle to maintain my neutrality.
+
+2. On the plane to and from Switzerland, I had the pleasure of perusing Computational Complexity: A Modern Approach, by Sanjeev Arora and Boaz Barak, which has just been published after floating around the interweb for many years.  If you’re a hardcore complexity lover, I can recommend buying a copy in the strongest terms.  The book lives up to its subtitle, concentrating almost entirely on developments within the last twenty years.  Classical complexity theorists should pay particular attention to the excellent quantum computing chapter, neither of whose authors has the slightest background in the subject.  You see, people, getting quantum right isn’t that hard, is it?  The book’s only flaw, an abundance of typos, is one that can and should be easily fixed in the next edition.
+
+3. I then visited the National Institute of Standards and Technology—proud keepers of the meter and the kilogram—at their headquarters in Gaithersburg, MD.  There I gave my talk on Quantum Complexity and Fundamental Physics, a version of the shtick I did at the QIS workshop in Virginia.  Afterwards, I got to tour some of the most badass experimental facilities I’ve seen in a while.  (Setting standards and making precision measurements: is there anything else that sounds so boring but turns out to so not be?)  A highlight was the Center for Neutron Research, which houses what’s apparently the largest research reactor still operating in the US.  This thing has been operating since 1967, and it shoots large numbers of slow-moving neutrons in all directions so that archaeologists, chemists, physicists, etc. can feed off the trough and do their experiments.  The basic physics that’s been done there recently has included setting bounds on possible nonlinearities in the Schrödinger equation (even though any nonlinearity, no matter how small, could be used to send superluminal signals and solve NP-complete problems in polynomial time), as well as observing the photons that the Standard Model apparently predicts are emitted 2% of the time when a neutron decays.  I also got to see one of the world’s least jittery floors: using dynamical feedback, they apparently managed to make this floor ~107 times less jittery than a normal floor, good enough that they can run a double-slit experiment with slow neutrons on top of it and see the interference pattern.  (Before you ask: yes, I wanted to jump on the floor, but I didn’t.  Apparently I would’ve messed it up for a day.)
+
+I have to add: the few times I’ve toured a nuclear facility, I felt profoundly depressed by the “retro” feel of everything around me: analog dials, safety signs from the 60s…   Why are no new reactors being built in the US, even while their value as stabilization wedges becomes increasingly hard to ignore?  Why are we unwilling to reprocess spent fuel rods like France does?  Why do people pin their hopes on the remote prospect of controlled fusion, ignoring the controlled fission we’ve had for half a century?  Why, like some horror-movie character unwilling to confront an evil from the past, have we decided that a major technology possibly crucial to the planet’s survival must remain a museum piece, part of civilization’s past and not its future?  Of course, these are rhetorical questions.  While you can be exposed to more radiation flying cross-country than working at a nuclear reactor for months, while preventing a Chernobyl is as easy as using shielding and leaving on the emergency cooling system, human nature is often a more powerful force than physics.
+
+4. Next I went to STOC’2009 in Bethesda, MD.  Let me say something about a few talks that are impossible not to say something about.  First, in what might or might not turn out to be the biggest cryptographic breakthrough in decades, Craig Gentry has proposed a fully homomorphic encryption scheme based on ideal lattices: that is, a scheme that lets you perform arbitrary computations on encrypted data without decrypting it.  Currently, Gentry’s scheme is not known to be breakable even by quantum computers—despite a 2002 result of van Dam, Hallgren, and Ip, which said that if a fully homomorphic encryption scheme existed, then it could be broken by a quantum computer.  (The catch?  Van Dam et al.’s result applied to deterministic encryption schemes; Gentry’s is probabilistic.)
+
+Second, Chris Peikert (co-winner of the Best Paper Award) announced a public-key cryptosystem based on the classical worst-case hardness of the Shortest Vector Problem.  Previously, Regev had given such a cryptosystem based on the assumption that there’s no efficient quantum algorithm for SVP (see also here for a survey).  The latter was a striking result: even though Regev’s cryptosystem is purely classical, his reduction from SVP to breaking the cryptosystem was a quantum reduction.  What Peikert has now done is to “dequantize” Regev’s security argument by thinking very hard about it.  Of course, one interpretation of Peikert’s result is that classical crypto people no longer have to learn quantum mechanics—but a better interpretation is that they do have to learn QM, if only to get rid of it!  I eagerly await Oded Goldreich‘s first paper on quantum computing (using it purely as an intellectual tool, of course).
+
+Third, Robin Moser (co-winner of the Best Paper Award and winner of the Best Student Paper Award) gave a mindblowing algorithmic version of the Lovász Local Lemma.  Or to put it differently, Moser gave a polynomial-time algorithm that finds a satisfying assignment for a k-SAT formula, assuming that each clause intersects at most 2k-2 other clauses.  (It follows from the Local Lemma that such an assignment exists.)  Moser’s algorithm is absurdly simple: basically, you repeatedly pick an unsatisfied clause, and randomly set its variables so that it’s satisfied.  Then, if doing that has made any of the neighboring clauses unsatisfied, you randomly set their variables so that they’re satisfied, and so on, recursing until all the damage you’ve caused has also been fixed.  The proof that this algorithm actually halts in polynomial time uses a communication argument that, while simple, seemed so completely out of left field that when it was finished, the audience of theorists sort of let out a collective gasp, as if a giant black “QED” box were hovering in the air.
+
+Fourth, Babai, Beals, and Seress showed that if G is a matrix group over a finite field of odd order, then the membership problem for G can be solved in polynomial time, assuming an oracle for the discrete logarithm problem.  This represents the culmination of about 25 years of work in computational group theory.  I was all pumped to announce an important consequence of this result not noted in the abstract—that the problem is therefore solvable in quantum polynomial time, because of Shor’s discrete log algorithm—but Laci, alas, scooped me on this highly nontrivial corollary in his talk.
+
+5. Finally, I took the train up to Princeton, for a workshop on “Cryptography and Complexity: Status of Impagliazzo’s Worlds”.  (For the insufficiently nerdy: the worlds are Algorithmica, where P=NP; Heuristica, where P≠NP but the hard instances of NP-complete problems are hard to find; Pessiland, where the hard instances are easy to find but none of them can be used for cryptographic one-way functions; Minicrypt, where one-way functions do exist, enabling private-key cryptography, but not the trapdoor one-way functions needed for public-key cryptography; and Cryptomania, where trapdoor one-way functions exist, and cryptography can do pretty anything you could ask.)  I gave a talk on Impagliazzo’s worlds in arithmetic complexity, based on ongoing join work with Andy Drucker (where “ongoing” means we’re pretty sure more of our results are correct than would be expected by random guessing).
+
+Tell you what: since it’s been a long time, feel free to ask whatever you feel like in the comments section, whether related to my journeys or not.  I’ll try to answer at least a constant fraction of questions.
+
+
+
+================================================================================
+
+TITLE: An unexpected application of the P vs. NP problem
+URL: https://scottaaronson.blog/?m=200906
+CONTENT:
+Read to the end — hat tip to Michael Nielsen.  And this post is just to get into blogging stride again.  More coming “soon.”
+
+
+
+================================================================================
+

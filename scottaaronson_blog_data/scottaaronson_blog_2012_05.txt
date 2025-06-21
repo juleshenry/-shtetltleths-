@@ -1,0 +1,166 @@
+TITLE: Enough with Bell’s Theorem.  New topic: Psychopathic killer robots!
+URL: https://scottaaronson.blog/?m=201205
+CONTENT:
+See, now this is precisely why I became a CS professor: so that if anyone asked, I could give not merely my opinion, but my professional, expert opinion, on the question of whether psychopathic Terminators will kill us all.
+
+My response (slightly edited) is below.
+
+Dear John,
+
+I fear that your question presupposes way too much anthropomorphizing of an AI machine—that is, imagining that it would even be understandable in terms of human categories like “empathetic” versus “psychopathic.”  Sure, an AI might be understandable in those sorts of terms, but only if it had been programmed to act like a human.  In that case, though, I personally find it no easier or harder to imagine an “empathetic” humanoid robot than a “psychopathic” robot!  (If you want a rich imagining of “empathetic robots” in science fiction, of course you need look no further than Isaac Asimov.)
+
+On the other hand, I personally also think it’s possible –even likely—that an AI would pursue its goals (whatever they happened to be) in a way so different from what humans are used to that the AI couldn’t be usefully compared to any particular type of human, even a human psychopath.  To drive home this point, the AI visionary Eliezer Yudkowsky likes to use the example of the “paperclip maximizer.”  This is an AI whose programming would cause it to use its unimaginably-vast intelligence in the service of one goal only: namely, converting as much matter as it possibly can into paperclips!
+
+Now, if such an AI were created, it would indeed likely spell doom for humanity, since the AI would think nothing of destroying the entire Earth to get more iron for paperclips.  But terrible though it was, would you really want to describe such an entity as a “psychopath,” any more than you’d describe (say) a nuclear weapon as a “psychopath”?  The word “psychopath” connotes some sort of deviation from the human norm, but human norms were never applicable to the paperclip maximizer in the first place … all that was ever relevant was the paperclip norm!
+
+Motivated by these sorts of observations, Yudkowsky has thought and written a great deal about how the question of how to create a “friendly AI,” by which he means one that would use its vast intelligence to improve human welfare, instead of maximizing some arbitrary other objective like the total number of paperclips in existence that might be at odds with our welfare.  While I don’t always agree with him—for example, I don’t think AI has a single “key,” and I certainly don’t think such a key will be discovered anytime soon—I’m sure you’d find his writings at yudkowsky.net, lesswrong.com, and overcomingbias.com to be of interest to you.
+
+I should mention, in passing, that “parallel programming” has nothing at all to do with your other (fun) questions.  You could perfectly well have a murderous robot with parallel programming, or a kind, loving robot with serial programming only.
+
+Hope that helps,
+Scott
+
+================================================================================
+
+TITLE: I was wrong about Joy Christian
+URL: https://scottaaronson.blog/?m=201205
+CONTENT:
+Update: I decided to close comments on this post and the previous Joy Christian post, because they simply became too depressing for me.
+
+I’ve further decided to impose a moratorium, on this blog, on all discussions about the validity of quantum mechanics in the microscopic realm, the reality of quantum entanglement, or the correctness of theorems such as Bell’s Theorem.  I might lift the moratorium at some future time.  For now, though, life simply feels too short to me, and the actually-interesting questions too numerous.  Imagine, for example, that there existed a devoted band of crackpots who believed, for complicated, impossible-to-pin-down reasons of topology and geometric algebra, that triangles actually have five corners.  These crackpots couldn’t be persuaded by rational argument—indeed, they didn’t even use words and sentences the same way you do, to convey definite meaning.  And crucially, they had infinite energy: you could argue with them for weeks, and they would happily argue back, until you finally threw up your hands in despair for all humanity, at which point the crackpots would gleefully declare, “haha, we won!  the silly ‘triangles have 3 corners’ establishment cabal has admitted defeat!”  And, in a sense, they would have won: with one or two exceptions, the vast majority who know full well how many corners a triangle has simply never showed up to the debate, thereby conceding to the 5-cornerists by default.
+
+What would you in such a situation?  What would you do?  If you figure it out, please let me know (but by email, not by blog comment).
+
+In response to my post criticizing his “disproof” of Bell’s Theorem, Joy Christian taunted me that “all I knew was words.”  By this, he meant that my criticisms were entirely based on circumstantial evidence, for example that (1) Joy clearly didn’t understand what the word “theorem” even meant, (2) every other sentence he uttered contained howling misconceptions, (3) his papers were written in an obscure, “crackpot” way, and (4) several people had written very clear papers pointing out mathematical errors in his work, to which Joy had responded only with bluster.  But I hadn’t actually studied Joy’s “work” at a technical level.  Well, yesterday I finally did, and I confess that I was astonished by what I found.  Before, I’d actually given Joy some tiny benefit of the doubt—possibly misled by the length and semi-respectful tone of the papers refuting his claims.  I had assumed that Joy’s errors, though ultimately trivial (how could they not be, when he’s claiming to contradict such a well-understood fact provable with a few lines of arithmetic?), would nevertheless be artfully concealed, and would require some expertise in geometric algebra to spot.  I’d also assumed that of course Joy would have some well-defined hidden-variable model that reproduced the quantum-mechanical predictions for the Bell/CHSH experiment (how could he not?), and that the “only” problem would be that, due to cleverly-hidden mistakes, his model would be subtly nonlocal.
+
+What I actually found was a thousand times worse: closer to the stuff freshmen scrawl on an exam when they have no clue what they’re talking about but are hoping for a few pity points.  It’s so bad that I don’t understand how even Joy’s fellow crackpots haven’t laughed this off the stage.  Look, Joy has a hidden variable λ, which is either 1 or -1 uniformly at random.  He also has a measurement choice a of Alice, and a measurement choice b of Bob.  He then defines Alice and Bob’s measurement outcomes A and B via the following functions:
+
+A(a,λ) = something complicated = (as Joy correctly observes) λ
+
+B(b,λ) = something complicated = (as Joy correctly observes) -λ
+
+I shit you not.  A(a,λ) = λ, and B(b,λ) = -λ.  Neither A nor B has any dependence on the choices of measurement a and b, and the complicated definitions that he gives for them turn out to be completely superfluous.  No matter what measurements are made, A and B are always perfectly anticorrelated with each other.
+
+You might wonder: what could lead anyone—no matter how deluded—even to think such a thing could violate the Bell/CHSH inequalities?  Aha, Joy says you only ask such a naïve question because, lacking his deep topological insight, you make the rookie mistake of looking at the actual outcomes that his model actually predicts for the actual measurements that are actually made.  What you should do, instead, is compute a “correlation function” E(a,b) that’s defined by dividing A(a,λ)B(b,λ) by a “normalizing factor” that’s a product of the quaternions a and b, with a divided on the left and b divided on the right.  Joy seems to have obtained this “normalizing factor” via the technique of pulling it out of his rear end.  Now, as Gill shows, Joy actually makes an algebra mistake while computing his nonsensical “correlation function.”  The answer should be -a.b-a×b, not -a.b.  But that’s truthfully beside the point.  It’s as if someone announced his revolutionary discovery that P=NP implies N=1, and then critics soberly replied that, no, the equation P=NP can also be solved by P=0.
+
+So, after 400+ comments on my previous thread—including heady speculations about M-theory, the topology of spacetime, the Copenhagen interpretation, continuity versus discreteness, etc., as well numerous comparisons to Einstein—this is what it boils down to.  A(a,λ) = λ and B(b,λ) = -λ.
+
+I call on FQXi, in the strongest possible terms, to stop lending its legitimacy to this now completely-unmasked charlatan.  If it fails to do so, then I will resign from FQXi, and will encourage fellow FQXi members to do the same.
+
+While I don’t know the exact nature of Joy’s relationship to Oxford University or to the Perimeter Institute, I also call on those institutions to sever any connections they still have with him.
+
+Finally, with this post I’m going to try a new experiment.  I will allow comments through the moderation filter if, and only if, they exceed a minimum threshold of sanity and comprehensibility, and do not randomly throw around terms like “M-theory” with no apparent understanding of what they mean.  Comments below the sanity threshold can continue to appear freely in the previous Joy Christian thread (which already has a record-setting number of comments…).
+
+Update (May 11): A commenter pointed me to a beautiful preprint by James Owen Weatherall, which tries sympathetically to make as much sense as possible out of Joy Christian’s ideas, and then carefully explains why the attempt fails (long story short: because of Bell’s theorem!).  Notice the contrast between the precision and clarity of Weatherall’s prose—the way he defines and justifies each concept before using it—and the obscurity of Christian’s prose.
+
+Another Update: Over on the previous Joy Christian thread, some commenters are now using an extremely amusing term for people who believe that theories in physics ought to say something comprehensible about the predicted outcomes of physics experiments.  The term: “computer nerd.”
+
+Third Update: Quite a few commenters seem to assume that I inappropriately used my blog to “pick a fight” with poor defenseless Joy Christian, who was minding his own business disproving and re-disproving Bell’s Theorem.  So let me reiterate that I wasn’t looking for this confrontation, and in fact took great pains to avoid it for six years, even as Joy became more and more vocal.  It was Joy, not me, who finally forced matters to a head through his absurd demand that I pay him $100,000 “with interest,” and then his subsequent attacks.
+
+================================================================================
+
+TITLE: Waterman behind the scenes!  Partying hard with the National Science Board
+URL: https://scottaaronson.blog/?m=201205
+CONTENT:
+A few months ago, I got a surprise call from Subra Suresh, director of the National Science Foundation, who told me I was going to share this year’s Alan T. Waterman Award with Robert Wood of Harvard.  (At first I assumed it was a telemarketing call, since pretty much no one calls my office phone; I use my iPhone exclusively and have trouble even operating my desk phone.)  Dr. Suresh explained that this was the first time the Waterman would ever be awarded to two people the same year, but that the committee was unanimous in supporting both me and Rob.  Looking up my co-winner, I quickly learned that Rob was a leader in the field of robot bees (see here for video)—and that his work, despite having obvious military applications, had been singled out by Sean Hannity as the latter’s #1 example of government waste (!).  That fact, alone, made me deeply honored to share the award with Rob, and eager to meet him in person.
+
+Happily, I finally got to do that this past Thursday, at the Waterman award ceremony in Washington DC.  The festivities started in the morning, with talks by me and Rob to the National Science Board.  (I just performed my usual shtick.  I was hoping Rob would bring some actual RoboBees, but he said he no longer does that due to an unfortunate run-in with airport security.)  Then, after lunch and meetings at the NSF, it was back to the hotel to change into a tux, an item I’d never worn before in my life (not even at my wedding).  Fortunately, my dad was there to help me insert the cufflinks and buttons, a task much more complicated than anything I was allegedly getting the award for.  Then Dana and I were picked up by a limo, to begin the arduous mile-long journey from Dupont Circle to the State Department for the awards dinner.
+
+Besides me and Rob, there were three other awardees that night:
+
+Speaking of diplomacy, the awards dinner was held in the “diplomatic reception rooms” on the top floor of the State Department’s Harry S. Truman Building.   These were pretty awesome rooms: full of original portraits of George Washington, Ben Franklin, etc., as well as antique furniture pieces like a desk that Thomas Jefferson allegedly used while writing the Declaration of Independence.  I could easily eat dinner there on a regular basis.
+
+Carl Wieman, the Nobel physicist and Associate Director for Science at the White House Office of Science and Technology Policy, read out a congratulatory message from President Obama.  I feel certain the President remembered I was the same dude he shook hands with a while back.
+
+Anyway, cutting past dinner and dessert, here was my short acceptance speech:
+
+Thanks for this honor, and huge congratulations to my co-winners, wherever in the alphabet they might lie [a reference to my getting called up before Rob Wood, simply because Aaronson<Wood lexicographically].  I like to describe my research, on the limits of quantum computers, as the study of what we can’t do with computers we don’t have.  Why would I or anyone else study such a bizarre thing?  Mostly because we’re inspired by history.  In the 1930s, before electronic computers even existed, a few people like Alan Turing were already trying to understand mathematically what such devices would or wouldn’t be able to do.  Their work ultimately made possible the information age.  Today, we don’t know exactly where curiosity about (say) quantum computers or the P versus NP question is going to lead, but I’m grateful to live in a country that’s able to support this kind of thing.  I thank the NSF and the Obama administration for supporting basic science even in difficult times.  I thank Subra Suresh (my former dean at MIT), and my phenomenal program officer Dmitry Maslov.  I thank the teachers and mentors to whom I owe almost everything, including Chris Lynch, Bart Selman, Avi Wigderson, and Umesh Vazirani.  I thank my wonderful colleagues at MIT—including my department head Anantha Chandrakasan, who’s here now—and my students and postdocs.  I thank my collaborators, and the entire theory of computing and quantum information communities, which I’m so proud to be part of.  I thank my students in 6.045 for understanding why I had to miss class today.  Most of all, I thank four people who are here with me now—my mom, dad, and my brother David, who’ve always believed in me, whether justified or not, and my wife, Dana Moshkovitz Aaronson, who’s enriched my life ever since she came into it three years ago.  Thank you.
+
+The next day, I had the privilege of giving a quantum computing talk to more than 100 students at the Thomas Jefferson High School for Science and Technology in nearby Alexandria, VA.  Visiting TJ had special meaning for me, since while I was suffering through high school, TJ was my “dream school”: I wished my parents lived in the DC area so that I could go there.  I told the TJ students never to forget just how good they had it.  (To this day, when I meet fellow American-raised scientists, and they tell me they’re surprised I had such an unhappy time in high school, since they themselves had a great time, I always ask them which high school they went to.  In a large fraction of cases, the answer turns out to be TJ—and when it isn’t, it’s often the Bronx High School of Science or another similar place.)  As should surprise no one, the students had vastly more detailed questions about my talk than did the National Science Board (for example, they wanted to know whether I thought progress in group theory would lead to new quantum algorithms).
+
+Without doubt, the most surreal aspect of this trip was the contrast between what was going on in my “real” and “virtual” lives.  Again and again, I’d be shaking hands with the Undersecretary of Defense, Director of the National Institute of Prestigiousness, etc. etc., and warmly accepting these fine people’s congratulations.  Then I’d sneak away for a minute to moderate my blog comments on my iPhone, where I’d invariably find a fresh round of insults about my “deeply ignorant lesser brain” from entanglement denier Joy Christian.
+
+Perhaps the funniest contrast had to do with a MathOverflow question that I posted just before I left for DC, and which was quickly answered, just as I had hoped.  During the limo ride back from the dinner, I got the following polite inquiry from a blog commenter calling himself “Mike”:
+
+Hey Scott, I’m wondering how you got the courage to post that question on [MathOverflow]. In truth it wasn’t that hard of a question and if you have trouble solving it then…well, no offense, but you see what I mean. Reputation matters.
+
+As I contemplated Mike’s question, a profound sense of peace came over me.  Probably for the first time in my life, I realized just how lucky I really am.  I’m lucky that I feel free to ask naïve, simpleminded questions, toss out speculations, and most importantly, admit when I don’t know something or made a mistake, without worrying too much about whether those actions will make me look foolish before the “Mikes” of the world.  If I want to work on a problem myself, I can do that; if I prefer giving the problem out to others, I can do that as well.  Let Mike, with his greater wisdom, sit in judgment of me for my failure to see all the answers that no doubt are obvious to him.  I don’t mind.  In science, like in everything else, I’ll continue being an unabashed doofus—partly because it seems to work OK, but mostly just because it’s the only way I know.
+
+Thanks so much to all of you for your support.
+
+================================================================================
+
+TITLE: Bell’s-inequality-denialist Joy Christian offers me $200K if scalable quantum computers are built
+URL: https://scottaaronson.blog/?m=201205
+CONTENT:
+Joy Christian is the author of numerous papers claiming to disprove Bell’s theorem.  Yes, that Bell’s theorem: the famous result from the 1960s showing that no local hidden variable theory can reproduce all predictions of quantum mechanics for entangled states of two particles.  Here a “local hidden variable theory” means—and has always meant—a theory where Alice gets some classical information x, Bob gets some other classical information y (generally correlated with x), then Alice and Bob choose which respective experiments to perform, and finally Alice sees a measurement outcome that’s a function only of her choice and of x (not of Bob’s choice or his measurement outcome), and Bob sees a measurement outcome that’s a function only of his choice and of y.  In modern terms, Bell, with simplifications by Clauser et al., gave an example of a game that Alice and Bob can win at most 75% of the time under any local hidden variable theory (that’s the Bell inequality), but can win 85% of the time by measuring their respective halves of an entangled state (that’s the Bell inequality violation).  The proofs are quite easy, both for the inequality and for its violation by quantum mechanics.  Check out this problem set for the undergrad course I’m currently teaching if you’d like to be led through the proof yourself (it’s problem 7).
+
+In case you’re wondering: no, Bell’s Theorem has no more been “disproved” than the Cauchy-Schwarz Inequality, and it will never be, even if papers claiming otherwise are stacked to the moon.  Like Gödel’s and Cantor’s Theorems, Bell’s Theorem has long been a lightning rod for incomprehension and even anger; I saw another “disproof” at a conference in 2003, and will doubtless see more in the future.  The disproofs invariably rely on personal reinterpretations of the perfectly-clear concept of “local hidden variables,” to smuggle in what would normally be called non-local variables.  That smuggling is accompanied by mathematical sleight-of-hand (the more, the better) to disguise the ultimately trivial error.
+
+While I’d say the above—loudly, even—to anyone who asked, I also declined several requests to write a blog post about Joy Christian and his mistakes.  His papers had already been refuted ad nauseam by others (incidentally, I find myself in complete agreement with Luboš Motl on this one!), and I saw no need to pile on the poor dude.  Having met him, at the Perimeter Institute and at several conferences, I found something poignant and even touching about Joy’s joyless quest.  I mean, picture a guy who made up his mind at some point that, let’s say, √2 is actually a rational number, all the mathematicians having been grievously wrong for millennia—and then unironically held to that belief his entire life, heroically withstanding the batterings of reason.  Show him why 2=A2/B2 has no solution in positive integers A,B, and he’ll answer that you haven’t understood the very concept of rational number as deeply as him.  Ask him what he means by “rational number,” and you’ll quickly enter the territory of the Monty Python dead parrot sketch.  So why not just leave this dead parrot where it lies?
+
+Anyway, that’s what I was perfectly content to do, until Monday, when Joy left the following comment on my “Whether or not God plays dice, I do” post:
+
+Scott,
+You owe me 100,000 US Dollars plus five years of interest. In 2007, right under your nose (when you and I were both visiting Perimeter Institute), I demonstrated, convincing to me, that scalable quantum computing is impossible in the physical world.
+
+He included a link to his book, in case I wanted to review his arguments against the reality of entanglement.  I have to confess I had no idea that, besides disproving Bell’s theorem, Joy had also proved the impossibility of scalable quantum computing.  Based on his previous work, I would have expected him to say that, sure, quantum computers could quickly factor 10,000-digit numbers, but nothing about that would go beyond ordinary, classical, polynomial-time Turing machines—because Turing himself got the very definition of Turing machines wrong, by neglecting topological octonion bivectors or something.
+
+Be that as it may, Joy then explained that the purpose of his comment was to show that
+
+there is absolutely nothing that would convince you to part with your 100,000. You know that, and everyone else knows that … The whole thing is just a smug scam to look smarter than the rest of us without having to do the hard work. Good luck with that.
+
+In response, I clarified what it would take to win my bet:
+
+As I’ve said over and over, what would be necessary and sufficient would be to convince the majority of the physics community. Do you hope and expect to do that? If so, then you can expect my $100,000; if not, then not. If a scientific revolution has taken place only inside the revolutionary’s head, then let the monetary rewards be likewise confined to his head.
+
+Joy replied:
+
+[L]et us forget about my work. It is not for you. Instead, let me make a counter offer to you. I will give you 200,000 US dollars the day someone produces an actual, working, quantum computer in a laboratory recognizable by me. If I am still alive, I will send you 200,000 US Dollars, multiplied by an appropriate inflation factor. Go build a quantum computer.
+
+I’m grateful to Joy for his exceedingly generous offer.  But let’s forget about money for now.  Over the past few months, I’ve had a real insight: the most exciting potential application of scalable quantum computers is neither breaking RSA, nor simulating quantum physics, nor Grover’s algorithm, nor adiabatic optimization.  Instead, it’s watching the people who said it was impossible try to explain themselves.  That prospect, alone, would more than justify a Manhattan-project-scale investment in this field.
+
+Postscript. If you want something about quantum foundations and hidden-variable theories of a bit more scientific interest, check out this MathOverflow question I asked on Monday, which was answered within one day by George Lowther (I then carefully wrote up the solution he sketched).
+
+Updates (May 6). Depending on what sort of entertainment you enjoy, you might want to check out the comments section, where you can witness Joy Christian becoming increasingly unhinged in his personal attacks on me and others (“our very own FQXi genius” – “biased and closed-minded” – “incompetent” – “Scott’s reaction is a textbook case for the sociologists” – “As for Richard Gill, he is evidently an incompetent mathematician” – “I question your own intellectual abilities” – “your entire world view is based on an experimentally unsupported (albeit lucrative) belief and nothing else” – “You have been caught with your pants down and still refusing to see what is below your belly” – “let me point out that you are the lesser brain among the two of us. The pitiful flatness of your brain would be all too painful for everyone to see when my proposed experiment is finally done” – etc., etc).  To which I respond: the flatness of my brain?  Also notable is Joy’s Tourette’s-like repetition of the sentence, “I will accept judgement from no man but Nature.”  Nature is a man?
+
+I just posted a comment explaining the Bell/CHSH inequality in the simplest terms I know, which I’ll repost here for convenience:
+
+Look everyone, consider the following game. Two players, Alice and Bob, can agree on a strategy in advance, but from that point forward, are out of communication with each other (and don’t share quantum entanglement or anything like that). After they’re separated, Alice receives a uniformly-random bit A, and Bob receives another uniformly-random bit B (uncorrelated with A). Their joint goal is for Alice to output a bit X, and Bob to output a bit Y, such that
+
+X + Y = AB (mod 2)
+
+or equivalently,
+
+X XOR Y = A AND B.
+
+They want to succeed with the largest possible probability. It’s clear that one strategy they can follow is always to output X=Y=0, in which case they’ll win 75% of the time (namely, in all four of the cases except A=B=1).
+
+Furthermore, by enumerating all of Alice and Bob’s possible pure strategies and then appealing to convexity, one can check that there’s no strategy that lets them win more than 75% of the time.  In other words, no matter what they do, they lose for one of the four possible (A,B) pairs.
+
+Do you agree with the previous paragraph? If so, then you accept the Bell/CHSH inequality, end of story.
+
+Of all the papers pointing out the errors in Joy Christian’s attempted refutations of the simple arithmetic above, my favorite is Richard Gill’s.  Let me quote from Gill’s eloquent conclusion:
+
+There remains a psychological question, why so strong a need is felt by so many researchers to “disprove Bell” in one way or another? At a rough guess, at least one new proposal comes up per year. Many pass by unnoticed, but from time to time one of them attracts some interest and even media attention. Having studied a number of these proposals in depth, I see two main strategies of would-be Bell-deniers.
+
+The first strategy (the strategy, I would guess, in the case in question) is to build elaborate mathematical models of such complexity and exotic nature that the author him or herself is the probably the only person who ever worked through all the details. Somewhere in the midst of the complexity a simple mistake is made, usually resulting from suppression of an important index or variable. There is a hidden and non-local hidden variable.
+
+The second strategy is to simply build elaborate versions of detection loophole models. Sometimes the same proposal can be interpreted in both ways at the same time, since of course either the mistake or the interpretation as a detection loophole model are both interpretations of the reader, not of the writer.
+
+According to the Anna Karenina principle of evolutionary biology, in order for things to succeed, everything has to go exactly right, while for failure, it suffices if any one of a myriad factors is wrong. Since errors are typically accidental and not recognized, an apparently logical deduction which leads to a manifestly incorrect conclusion does not need to allow a unique diagnosis. If every apparently logical step had been taken with explicit citation of the mathematical rule which was being used, and in a specified context, one could say where the first misstep was taken. But mathematics is almost never written like that, and for good reasons. The writer and the reader, coming from the same scientic community, share a host of “hidden assumptions” which can safely be taken for granted, as long as no self-contradiction occurs. Saying that the error actually occurred in such-and-such an equation at such-and-such a substitution depends on various assumptions.
+
+The author who still believes in his result will therefore claim that the diagnosis is wrong because the wrong context has been assumed.
+
+We can be grateful for Christian that he has had the generosity to write his one page paper with a more or less complete derivation of his key result in a more or less completely explicit context, without distraction from the author’s intended physical interpretation of the mathematics. The mathematics should stand on its own, the interpretation is “free”.  My finding is that in this case, the mathematics does not stand on its own.
+
+Update (5/7): I can’t think of any better illustration than the comment thread below for my maxim that computation is clarity.  In other words, if you can’t explain how to simulate your theory on a computer, chances are excellent that the reason is that your theory makes no sense!  The following comment of mine expands on this point:
+
+The central concept that I find missing from the comments of David Brown, James Putnam, and Thomas Ray is that of the sanity check.
+
+Math and computation are simply the tools of clear thought. For example, if someone tells me that a 4-by-4 array of zorks contains 25 zorks in total, and I respond that 4 times 4 is 16, not 25, I’m not going to be impressed if the person then starts waxing poetic about how much more profound the physics of zorks is than my narrow and restricted notions of “arithmetic”. There must be a way to explain the discrepancy even at a purely arithmetical level. If there isn’t, then the zork theory has failed a basic sanity check, and there’s absolutely no reason to study its details further.
+
+Likewise, the fact that Joy can’t explain how to code a computer simulation of (say) his exploding toy ball experiment that would reproduce his predicted Bell/CHSH violation is extremely revealing. This is also a sanity check, and it’s one that Joy flunks. Granted, if he were able to explain his model clearly enough for well-intentioned people to understand how to program it on a computer, then almost certainly there would be no need to actually run the program! We could probably just calculate what the program did using pencil and paper. Nevertheless, Bram, John Sidles, and others were entirely right to harp on this simulation question, because its real role is as a sanity check. If Joy’s ideas are not meaningless nonsense, then there’s no reason at all why we shouldn’t be able to simulate his experiment on a computer and get exactly the outcome that he predicts. Until Joy passes this minimal sanity check—which he hasn’t—there’s simply no need to engage in deep ruminations like the ones above about physics or philosophy or Joy’s “Theorema Egregious.”
+
+================================================================================
+

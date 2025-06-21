@@ -1,0 +1,106 @@
+TITLE: My Passover press release
+URL: https://scottaaronson.blog/?m=202404
+CONTENT:
+FOR IMMEDIATE RELEASE – From the university campuses of Assyria to the thoroughfares of Ur to the palaces of the Hittite Empire, students across the Fertile Crescent have formed human chains, camel caravans, and even makeshift tent cities to protest the oppression of innocent Egyptians by the rogue proto-nation of “Israel” and its vengeful, warlike deity Yahweh.  According to leading human rights organizations, the Hebrews, under the leadership of a bearded extremist known as Moses or “Genocide Moe,” have unleashed frogs, wild beasts, hail, locusts, cattle disease, and other prohibited collective punishments on Egypt’s civilian population, regardless of the humanitarian cost.
+
+Human-rights expert Asenath Albanese says that “under international law, it is the Hebrews’ sole responsibility to supply food, water, and energy to the Egyptian populace, just as it was their responsibility to build mud-brick store-cities for Pharoah.  Turning the entire Nile into blood, and plunging Egypt into neverending darkness, are manifestly inconsistent with the Israelites’ humanitarian obligations.”
+
+Israelite propaganda materials have held these supernatural assaults to be justified by Pharoah’s alleged enslavement of the Hebrews, as well as unverified reports of his casting all newborn Hebrew boys into the Nile.  Chanting “Let My People Go,” some Hebrew counterprotesters claim that Pharoah could end the plagues at any time by simply releasing those held in bondage.
+
+Yet Ptahmose O’Connor, Chair of Middle East Studies at the University of Avaris, retorts that this simplistic formulation ignores the broader context.  “Ever since Joseph became Pharoah’s economic adviser, the Israelites have enjoyed a position of unearned power and privilege in Egypt.  Through underhanded dealings, they even recruited the world’s sole superpower—namely Adonai, Creator of the Universe—as their ally, removing any possibility that Adonai could serve as a neutral mediator in the conflict.  As such, Egypt’s oppressed have a right to resist their oppression by any means necessary.  This includes commonsense measures like setting taskmasters over the Hebrews to afflict them with heavy burdens, and dealing shrewdly with them lest they multiply.”
+
+Professor O’Connor, however, dismissed the claims of drowned Hebrew babies as unverified rumors.  “Infanticide accusations,” he explained, “have an ugly history of racism, Orientalism, and Egyptophobia.  Therefore, unless you’re a racist or an Orientalist, the only possible conclusion is that no Hebrew babies have been drowned in the Nile, except possibly by accident, or of course by Hebrews themselves looking for a pretext to start this conflict.”
+
+Meanwhile, at elite academic institutions across the region, the calls for justice have been deafening.  “From the Nile to the Sea of Reeds, free Egypt from Jacob’s seeds!” students chanted.  Some protesters even taunted passing Hebrew slaves with “go back to Canaan!”, though others were quick to disavow that message.  According to Professor O’Connor, it’s important to clarify that the Hebrews don’t belong in Canaan either, and that finding a place where they do belong is not the protesters’ job.
+
+In the face of such stridency, a few professors and temple priests have called the protests anti-Semitic. The protesters, however, dismiss that charge, pointing as proof to the many Hebrews and other Semitic peoples in their own ranks. For example, Sa-Hathor Goldstein, who currently serves as Pithom College’s Chapter President of Jews for Pharoah, told us that “we stand in solidarity with our Egyptian brethren, with the shepherds, goat-workers, and queer and mummified voices around the world. And every time Genocide Moe strikes down his staff to summon another of Yahweh’s barbaric plagues, we’ll be right there to tell him: Not In Our Name!”
+
+“Look,” Goldstein added softly, “my own grandparents were murdered by Egyptian taskmasters.  But the lesson I draw from my family’s tragic history is to speak up for oppressed people everywhere—even the ones who are standing over me with whips.”
+
+“If Yahweh is so all-powerful,” Goldstein went on to ask, “why could He not devise a way to free the Israelites without a single Egyptian needing to suffer?  Why did He allow us to become slaves in the first place?  And why, after each plague, does He harden Pharoah’s heart against our release?  Not only does that tactic needlessly prolong the suffering of Israelites and Egyptians alike, it also infringes on Pharoah’s bodily autonomy.”
+
+But the strongest argument, Goldstein concluded, arching his eyebrow, is that “ever since I started speaking out on this issue, it’s been so easy to get with all the Midianite chicks at my school. That’s because they, like me, see past the endless intellectual arguments over ‘who started’ or ‘how’ or ‘why’ to the emotional truth that the suffering just has to stop, man.”
+
+Last night, college towns across the Tigris, Euphrates, and Nile were aglow with candelight vigils for Baka Ahhotep, an Egyptian taskmaster and beloved father of three cruelly slain by “Genocide Moe,” in an altercation over alleged mistreatment of a Hebrew slave whose details remain disputed.
+
+According to Caitlyn Mentuhotep, a sophomore majoring in hieroglyphic theory at the University of Pi-Ramesses who attended her school’s vigil for Ahhotep, staying true to her convictions hasn’t been easy in the face of Yahweh’s unending plagues—particularly the head lice. “But what keeps me going,” she said, “is the absolute certainty that, when people centuries from now write the story of our time, they’ll say that those of us who stood with Pharoah were on the right side of history.”
+
+Have a wonderful holiday!
+
+================================================================================
+
+TITLE: That IACR preprint
+URL: https://scottaaronson.blog/?m=202404
+CONTENT:
+Update (April 19): Apparently a bug has been found, and the author has withdrawn the claim (see the comments).
+
+For those who don’t yet know from their other social media: a week ago the cryptographer Yilei Chen posted a preprint, eprint.iacr.org/2024/555, claiming to give a polynomial-time quantum algorithm to solve lattice problems. For example, it claims to solve the GapSVP problem, which asks to approximate the length of the shortest nonzero vector in a given n-dimensional lattice, to within an approximation ratio of ~n4.5. The best approximation ratio previously known to be achievable in classical or quantum polynomial time was exponential in n.
+
+If it’s correct, this is an extremely big deal. It doesn’t quite break the main lattice-based cryptosystems, but it would put those cryptosystems into a precarious position, vulnerable to a mere further polynomial improvement in the approximation factor. And, as we learned from the recent NIST competition, if the lattice-based and LWE-based systems were to fall, then we really don’t have many great candidates left for post-quantum public-key cryptography! On top of that, a full quantum break of LWE (which, again, Chen is not claiming) would lay waste (in a world with scalable QCs, of course) to a large fraction of the beautiful sandcastles that classical and quantum cryptographers have built up over the last couple decades—everything from Fully Homomorphic Encryption schemes, to Mahadev’s protocol for proving the output of any quantum computation to a classical skeptic.
+
+So on the one hand, this would substantially enlarge the scope of exponential quantum speedups beyond what we knew a week ago: yet more reason to try to build scalable QCs!  But on the other hand, it could also fuel an argument for coordinating to slow down the race to scalable fault-tolerant QCs, until the world can get its cryptographic house into better order.  (Of course, as we’ve seen with the many proposals to slow down AI scaling, this might or might not be possible.)
+
+So then, is the paper correct?  I don’t know.  It’s very obviously a serious effort by a serious researcher, a world away from the P=NP proofs that fill my inbox every day.  But it might fail anyway.  I’ve asked the world experts in quantum algorithms for lattice problems, and they’ve been looking at it, and none of them is ready yet to render a verdict.  The central difficulty is that the algorithm is convoluted, and involves new tools that seem to come from left field, including complex Gaussian functions, the windowed quantum Fourier transform, and Karst waves (whatever those are).  The algorithm has 9 phases by the author’s count.  In my own perusal, I haven’t yet extracted even a high-level intuition—I can’t tell any little story like for Shor’s algorithm, e.g. “first you reduce factoring to period-finding, then you solve period-finding by applying a Fourier transform to a vector of amplitudes.”
+
+So, the main purpose of this post is simply to throw things open to commenters! I’m happy to provide a public clearinghouse for questions and comments about the preprint, if those studying it would like that. You can even embed LaTeX in your comments, as will probably be needed to get anywhere.
+
+Unrelated Update: Connor Tabarrok and his friends just put a podcast with me up on YouTube, in which they interview me in my office at UT Austin about watermarking of large language models and other AI safety measures.
+
+================================================================================
+
+TITLE: Avi Wigderson wins Turing Award!
+URL: https://scottaaronson.blog/?m=202404
+CONTENT:
+Back in 2006, in the midst of an unusually stupid debate in the comment section of Lance Fortnow and Bill Gasarch’s blog, someone chimed in:
+
+Since the point of theoretical computer science is solely to recognize who is the most badass theoretical computer scientist, I can only say:
+
+GO HOME PUNKS!
+
+WIGDERSON OWNS YOU!
+
+Avi Wigderson: central unifying figure of theoretical computer science for decades; consummate generalist who’s contributed to pretty much every corner of the field; advocate and cheerleader for the field; postdoc adviser to a large fraction of all theoretical computer scientists, including both me and my wife Dana; derandomizer of BPP (provided E requires exponential-size circuits). Now, Avi not only “owns you,” he also owns a well-deserved Turing Award (on top of his well-deserved Nevanlinna, Abel, Gödel, and Knuth prizes). As Avi’s health has been a matter of concern to those close to him ever since his cancer treatment, which he blogged about a few years ago, I’m sure today’s news will do much to lift his spirits.
+
+I first met Avi a quarter-century ago, when I was 19, at a PCMI summer school on computational complexity at the Institute for Advanced Study in Princeton.  Then I was lucky enough to visit Avi in Israel when he was still a professor at the Hebrew University (and I was a grad student at Berkeley)—first briefly, but then Avi invited me back to spend a whole semester in Jerusalem, which ended up being one of my most productive semesters ever.  Then Avi, having by then moved to the IAS in Princeton, hosted me for a one-year postdoc there, and later he and I collaborated closely on the algebrization paper.  He’s had a greater influence on my career than all but a tiny number of people, and I’m far from the only one who can say that.
+
+Summarizing Avi’s scientific contributions could easily fill a book, but Quanta and New Scientist and Lance’s blog can all get you started if you’re interested.  Eight years ago, I took a stab at explaining one tiny little slice of Avi’s impact—namely, his decades-long obsession with “why the permanent is so much harder than the determinant”—in my IAS lecture Avi Wigderson’s “Permanent” Impact On Me, to which I refer you now (I can’t produce a new such lecture on one day’s notice!).
+
+Huge congratulations to Avi.
+
+================================================================================
+
+TITLE: And yet quantum computing continues to progress
+URL: https://scottaaronson.blog/?m=202404
+CONTENT:
+Pissing away my life in a haze of doomscrolling, sporadic attempts to “parent” two rebellious kids, and now endless conversations about AI safety, I’m liable to forget for days that I’m still mostly known (such as I am) as a quantum computing theorist, and this blog is still mostly known as a quantum computing blog. Maybe it’s just that I spent a quarter-century on quantum computing theory. As an ADHD sufferer, anything could bore me after that much time, even one of the a-priori most exciting things in the world.
+
+It’s like, some young whippersnappers proved another monster 80-page theorem that I’ll barely understand tying together the quantum PCP conjecture, area laws, and Gibbs states? Another company has a quantum software platform, or hardware platform, and they’ve issued a press release about it? Another hypester claimed that QC will revolutionize optimization and machine learning, based on the usual rogues’ gallery of quantum heuristic algorithms that don’t seem to outperform classical heuristics? Another skeptic claimed that scalable quantum computing is a pipe dream—mashing together the real reasons why it’s difficult with basic misunderstandings of the fault-tolerance theorem? In each case, I’ll agree with you that I probably should get up, sit at my laptop, and blog about it (it’s hard to blog with two thumbs), but as likely as not I won’t.
+
+And yet quantum computing continues to progress. In December we saw Harvard and QuEra announce a small net gain from error-detection in neutral atoms, and accuracy that increased with the use of larger error-correcting codes. Today, a collaboration between Microsoft and Quantinuum has announced what might be the first demonstration of error-corrected two-qubit entangling gates with substantially lower error than the same gates applied to the bare physical qubits. (This is still at the stage where you need to be super-careful in how you phrase every such sentence—experts should chime in if I’ve already fallen short; I take responsibility for any failures to error-correct this post.)
+
+You can read the research paper here, or I’ll tell you the details to the best of my understanding (I’m grateful to Microsoft’s Krysta Svore and others from the collaboration for briefing me by Zoom).  The collaboration used a trapped-ion system with 32 fully-connected physical qubits (meaning, the qubits can be shuttled around a track so that any qubit can directly interact with any other). One can apply an entangling gate to any pair of qubits with ~99.8% fidelity.
+
+What did they do with this system? They created up to 4 logical encoded qubits, using the Steane code and other CSS codes. Using logical CNOT gates, they then created logical Bell pairs — i.e., (|00⟩+|11⟩)/√2 — and verified that they did this.
+
+That’s in the version of their experiment that uses “preselection but not postselection.” In other words, they have to try many times until they prepare the logical initial states correctly—as with magic state factories. But once they do successfully prepare the initial states, there’s no further cheating involving postselection (i.e., throwing away bad results): they just apply the logical CNOT gates, measure, and see what they got.
+
+For me personally, that’s the headline result. But then they do various further experiments to “spike the football.” For one thing, they show that when they do allow postselected measurement outcomes, the decrease in the effective error rate can be much much larger, as large as 800x. That allows them (again, under postselection!) to demonstrate up to two rounds of error syndrome extraction and correction while still seeing a net gain, or three rounds albeit with unclear gain. The other thing they demonstrate is teleportation of fault-tolerant qubits—so, a little fancier than just preparing an encoded Bell pair and then measuring it.
+
+They don’t try to do (e.g.) a quantum supremacy demonstration with their encoded qubits, like Harvard/QuEra did—they don’t have nearly enough qubits for that. But this is already extremely cool, and it sets a new bar in quantum error-correction experiments for others to meet or exceed (superconducting, neutral atom, and photonics people, that means you!). And I wasn’t expecting it! Indeed, I’m so far behind the times that I still imagined Microsoft as committed to a strategy of “topological qubits or bust.” While Microsoft is still pursuing the topological approach, their strategy has clearly pivoted over the last few years towards “whatever works.”
+
+Anyway, huge congratulations to the teams at Microsoft and Quantinuum for their accomplishment!
+
+Stepping back, what is the state of experimental quantum computing, 42 years after Feynman’s lecture, 30 years after Shor’s algorithm, 25 years after I entered the field, 5 years after Google’s supremacy experiment? There’s one narrative that quantum computing is already being used to solve practical problems that couldn’t be solved otherwise (look at all the hundreds of startups! they couldn’t possibly exist without providing real value, could they?). Then there’s another narrative that quantum computing has been exposed as a fraud, an impossibility, a pipe dream. Both narratives seem utterly disconnected from the reality on the ground.
+
+If you want to track the experimental reality, my one-sentence piece of advice would be to focus relentlessly on the fidelity with which experimenters can apply a single physical 2-qubit gate. When I entered the field in the late 1990s, ~50% woud’ve been an impressive fidelity. At some point it became ~90%. With Google’s supremacy experiment in 2019, we saw 1000 gates applied to 53 qubits, each gate with ~99.5% fidelity. Now, in superconducting, trapped ions, and neutral atoms alike, we’re routinely seeing ~99.8% fidelities, which is what made possible (for example) the new Microsoft/Quantinuum result. The best fidelities I’ve heard reported this year are more like ~99.9%.
+
+Meanwhile, on paper, it looks like known methods for quantum fault-tolerance, for example using the surface code, should start to become practical once you have 2-qubit fidelities around ~99.99%—i.e., one more “9” from where we are now. And then there should “merely” be the practical difficulty of maintaining that 99.99% fidelity while you scale up to millions or hundreds of millions of physical qubits!
+
+What I’m trying to say is: this looks a pretty good trajectory! It looks like, if we plot the infidelity on a log scale, the experimentalists have already gone three-quarters of the distance.  It now looks like it would be a surprise if we couldn’t have hundreds of fault-tolerant qubits and millions of gates on them within the next decade, if we really wanted that—like something unexpected would have to go wrong to prevent it.
+
+Wouldn’t be ironic if all that was true, but it will simply matter much less than we hoped in the 1990s?  Either just because the set of problems for which a quantum computing is useful has remained stubbornly more specialized than the world wants it to be (for more on that, see the entire past 20 years of this blog) … or because advances in classical AI render what was always quantum computing’s most important killer app, to the simulation of quantum chemistry and materials, increasingly superfluous (as AlphaFold may have already done for protein folding) … or simply because civilization descends further into barbarism, or the unaligned AGIs start taking over, and we all have bigger things to worry about than fault-tolerant quantum computing.
+
+But, you know, maybe fault-tolerant quantum computing will not only work, but matter—and its use to design better batteries and drugs and photovoltaic cells and so on will pass from science-fiction fantasy to quotidian reality so quickly that much of the world (weary from the hypesters crying wolf too many times?) will barely even notice it when it finally happens, just like what we saw with Large Language Models a few years ago.  That would be worth getting out of bed for.
+
+================================================================================
+

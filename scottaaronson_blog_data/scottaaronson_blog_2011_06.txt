@@ -1,0 +1,146 @@
+TITLE: What Alan T. did for his PhD
+URL: https://scottaaronson.blog/?m=201106
+CONTENT:
+We’ve all been there before: by the time you start graduate school in Princeton, you’ve already invented the Turing machine, pioneered the concept of computational universality, and proved the unsolvability of Hilbert’s Entscheidungsproblem.  A few years from now, you’re going to return to England to make decisive contributions to the breaking of the Enigma and the winning of World War II.  Your problem is, what do you do for the couple years in between?  (Keep in mind that you have a PhD thesis to submit, and the Turing machine is already old hat by now!)
+
+The answer, apparently, is to tackle a neat problem in logic, one version of which was asked three weeks ago by a Shtetl-Optimized commenter named Schulz.  Not knowing the answer, I posted Schulz’s problem to MathOverflow.  There, François Dorais and Philip Welch quickly informed me that Turing had already studied the problem in 1939, and Timothy Chow pointed me to Torkel Franzen’s book Inexhaustability: A Non-Exhaustive Treatment, which explains Turing’s basic observation and the background leading up to it in a crystal-clear way.
+
+The problem is this: given any formal system F that we might want to take as a foundation for mathematics (for example, Peano Arithmetic or Zermelo-Fraenkel set theory), Gödel tells us that there are Turing machines that run forever, but that can’t be proved to run forever in F.  An example is a Turing machine M that enumerates all the proofs in F one by one, and that halts if it ever encounters a proof of 0=1.  The claim that M doesn’t halt is equivalent to the claim that F is consistent—but if F is indeed consistent, then the Second Incompleteness Theorem says that it can’t prove its own consistency.
+
+On the other hand, if we just add the reasonable axiom Con(F) (which asserts that F is consistent), then our new theory, F+Con(F), can prove that M runs forever.  Of course, we can then construct a new Turing machine M’, which runs forever if and only if F+Con(F) is consistent.  Then by the same argument, F+Con(F) won’t be able to prove that M’ runs forever: to prove that, we’ll need a yet stronger theory, F+Con(F)+Con(F+Con(F)).  This leads inevitably to considering an infinite tower of theories F0, F1, F2, …, where each theory asserts the consistency of the ones before it:
+
+F0 = F
+
+Fi = Fi-1 + Con(Fi-1) for all i≥1
+
+But there’s no reason not to go further, and define another theory that asserts the consistency of every theory in the above list, and then another theory that asserts the consistency of that theory, and so on.  We can formalize this using ordinals:
+
+Fω = F + Con(F0) + Con(F1) + Con(F2) + …
+
+Fω+i = Fω+i-1 + Con(Fω+i-1) for all i≥1
+
+F2ω = Fω + Con(Fω) + Con(Fω+1) + Con(Fω+2) + …
+
+and so on, for every ordinal α that we can define in the language of F.  For every such ordinal α, we can easily construct a Turing machine Mα that runs forever, but that can’t be proved to run forever in Fα (only in the later theories).  The interesting question is, what happens if we reverse the quantifiers? In other words:
+
+Given a Turing machine M that runs forever, is there always an ordinal α such that Fα proves that M runs forever?
+
+This is the question Turing studied, but I should warn you that his answer is disappointing.  It turns out that the theories Fα are not as well-defined as they look.  The trouble is that, even to define a theory with infinitely many axioms (like Fω or F2ω), you need to encode the axioms in some systematic way: for example, by giving a Turing machine that spits out the axioms one by one.  But Turing observes that the power of Fα can depend strongly on which Turing machine you use to spit out its axioms!  Indeed, he proves the following theorem:
+
+Given any Turing machine M that runs forever, there is some “version” of Fω+1 (i.e., some way of encoding its axioms) such that Fω+1 proves that M runs forever.
+
+The proof is simple.  Assume for simplicity that F itself has only finitely many axioms (removing that assumption is straightforward).  Then consider the following Turing machine P for outputting the axioms of Fω, which gives rise to a “version” of Fω that we’ll call FP:
+
+Output the axioms of F
+
+For t=0,1,2,…
+
+If M halts in t steps or fewer, then output “Con(FP)”; otherwise output “Con(Ft)”
+
+Next t
+
+You might notice that our description of P involves the very theory FP that we’re defining!  What lets us get away with this circularity is the Recursion Theorem, which says (informally) that when writing a program, we can always assume that the program has access to its own code.
+
+Notice that, if P ever output the axiom “Con(FP)”, then FP would assert its own consistency, and would therefore be inconsistent, by the Second Incompleteness Theorem.  But by construction, P outputs “Con(FP)” if and only if M halts.  Therefore, if we assume FP‘s consistency as an axiom, then we can easily deduce that M doesn’t halt.  It follows that the theory Fω+1 := FP + Con(FP) proves that M runs forever.
+
+One question that the above argument leaves open is whether there’s a Turing machine M that runs forever, as well as a system S of ordinal notations “extending as far as possible”, such that if we use S to define the theories Fα, then none of the Fα‘s prove that M runs forever.  If so, then there would be a clear sense in which iterated consistency axioms, by themselves, do not suffice to solve the halting problem.  Alas, I fear the answer might depend on exactly how we interpret the phrase “extending as far as possible” … elucidation welcome!
+
+Update (June 29, 2011): In a comment, François Dorais comes to the rescue once again:
+
+In connection with your last paragraph, Feferman has shown that there  are paths through O such that the resulting theory proves all true ∏01 statements. [JSL 27 (1962), 259-316] Immediately after Feferman and  Spector showed that not all paths through O do this. [JSL 27 (1962),  383-390] In particular, they show that any good path must be more  complicated than O itself: the path cannot be ∏11. In other words,  there is no simple way to form a wellordered iterated consistency extension that captures all true ∏01 statements.
+
+================================================================================
+
+TITLE: My responses to GASARCH’s P vs. NP poll
+URL: https://scottaaronson.blog/?m=201106
+CONTENT:
+The poll is here; my (slightly-edited) responses are below.  It took heroic self-restraint, but I tried to answer with straightforward statements of what I actually think, rather than ironic humor.
+
+1. Do you think P=NP or not? You may give other answers as well.
+
+I think P≠NP (on more-or-less the same grounds that I think I won’t be devoured tomorrow by a 500-foot-tall salsa-dancing marmoset from Venus, despite my lack of proof in both cases).
+
+2. When do you think it will be resolved?
+
+In his recent book The Beginning of Infinity, David Deutsch argues that we can’t even make decent probabilistic predictions about a future event, to whatever extent that event depends on new knowledge being created.  I agree with him on this: a proof of P≠NP, like other major mathematical advances, would depend almost entirely on new knowledge, and because of that, my uncertainty applies not only to the approximate number of years but to the approximate log of that number: decades, centuries, millennia, who knows?  Maybe the question should be rephrased: “will humans manage to prove P≠NP before they either kill themselves out or are transcended by superintelligent cyborgs?  And if the latter, will the cyborgs be able to prove P≠NP?”
+
+3. What kinds of techniques do you think will be used?
+
+Obviously I don’t know—but if we look at the techniques used in (say) Ryan Williams’ recent result, and then remember that that proof only separates NEXP from ACC0, we can get a weak hint about the scale of the techniques that would be needed for problems like P vs. NP.  Right now, Mulmuley’s GCT is the only approach out there that even tries to grapple with the biggest barrier we know, beyond even relativization, natural proofs, and algebrization: the barrier that many nontrivial problems (including matching and linear programming) are in P!  That’s not to say Mulmuley’s specific program will succeed: indeed, I suspect that the right chain of reasoning might diverge from Mulmuley’s at an earlier rather than later point.  But even for the seemingly-easier permanent versus determinant problem, I fear Mulmuley is basically right that the key insights lie in yellow books yet to be written.
+
+4. Will the problem still be relevant given advances in algorithms and in SAT Solvers?
+
+Yes, in the same way the Second Law of Thermodynamics is still relevant given advances in hybrid cars.
+
+5. Feel free to comment on anything else: Graph Isomorphism, Factoring, Derandomization, Quantum computers, and/or your own favorite problem.
+
+Graph Isomorphism: Probably in P.
+
+Factoring: Probably hard for classical computers, but unlike with NP-complete problems, if it isn’t then we’re still living on Earth.
+
+Derandomization: I think P=BPP (with essentially the same strength of conviction as P≠NP), and likewise L=RL, etc.
+
+Quantum computing: I think BPP≠BQP (though not with the same strength of conviction as P≠NP), and also predict that no bizarre changes to quantum mechanics will be discovered of the sort needed to make scalable quantum computing impossible.
+
+For those who are still reading, as a special bonus I present my answers to the large and interesting questions asked by a commenter on my last post named Mike S.
+
+One thing I’ve heard before about NP(-hard) problems is that often  certain instances are much harder than others.  What are your feelings  on the physical practicality of a computer that solves only most cases  of NP(-hard) problems quickly?  Also, is determining the ‘difficulty’ of  particular instances of NP-complete problems NP(-hard)?
+
+It depends what you mean by “most”!  I think it’s almost certainly  possible to generate a probability distribution over 3SAT instances  almost all of which are hard (indeed, that assumption is central to  modern cryptography).  As one example, the approximate shortest vector problem is known to be just as hard on average as it is in the worst case, and  it can easily be reduced to 3SAT.  Another candidate is random k-SAT  instances at the “critical ratio” of clauses to variables, for k≥4.
+
+But maybe what you meant was those instances of NP-hard problems that  “typically arise in real life.”  Here all sorts of issues come into  play: for example, often the instances that arise in practice have  symmetries or other structure that makes them easy.  And often your goal  is not to find the best solution, but just a better solution  than your competitors.  And often we terminate trains of thought long  before they lead to hard instances of NP-complete problems—we’re usually  not even conscious that that’s what we’re doing; we just have an  intuition that “such-and-such would require a hopeless search.”
+
+But at the same time, when we do ask explicitly for optimal solutions, that request for optimality often has a way of finding the hard instances for us.
+
+Less seriously, you said something along the lines of ‘P!=NP keeps  mathematicians in business’.  If math is so hard computationally, how do  WE do it?  Or on the other hand, if the computational complexity of  certain problems is a fundamental property of the universe, and we are  part of the universe, doesn’t it follow that we could make computers  that are as good or better at doing math than we are?
+
+The short answer is that math (as practiced by humans) is an  extremely hit-or-miss business!   A billion years of evolution have  equipped us with a lot of useful heuristics, as has the much faster  evolution of mathematical ideas over the last few thousand years.
+
+Probably even more important, we normally don’t care about arbitrary mathematical questions (does this random Turing machine halt?), but  only questions that arise in some explanatory framework.  And that  criterion tends to select extremely strongly for questions that we can  answer!  Why it does so is a profound question itself, but  whatever the answer, the history of math provides overwhelming evidence  that it does.  Goldbach’s Conjecture and the Collatz 3x+1 Conjecture are  more-or-less “arbitrary” questions (at least in our present state of  knowledge), and indeed they haven’t been answered yet.  Fermat’s Last  Theorem might have seemed pretty arbitrary at first (Gauss regarded it as such), but  it wasn’t.  Indeed, in the 1980s it was embedded into the deep explanatory framework of elliptic curves and modularity, and a decade later it was solved.
+
+Of course, despite these factors in mathematicians’ favor, they’re  very far from having a general-purpose method to solve all the problems  they want solved.
+
+Incidentally, “P≠NP means computers can never replace human  mathematicians” is a forehead-bangingly common misunderstanding.   Personally, I see no reason why the brain couldn’t be simulated  by computer (neuron-by-neuron if necessary), and P≠NP does nothing to  challenge that belief.   All P≠NP suggests is that, once the robots do overtake us, they won’t have a general-purpose way to automate mathematical discovery any more than we do today.
+
+================================================================================
+
+TITLE: Spouting Buhl
+URL: https://scottaaronson.blog/?m=201106
+CONTENT:
+For those who are interested, video of my Buhl Lecture in Physics at Carnegie Mellon is now available on YouTube.  (The lecture was on April 29; the topic was “Quantum Computing and the Limits of the Efficiently Computable.”)  Thanks to everyone at CMU for their amazing hospitality.
+
+================================================================================
+
+TITLE: ICS gets a new name and a new location
+URL: https://scottaaronson.blog/?m=201106
+CONTENT:
+Shafi Goldwasser has asked me to announce that the next Innovations in Theoretical Computer Science (ITCS) conference—previously called Innovations in Computer Science (ICS)—will be held January 8-10, 2012 in Cambridge, MA, the first I(T)CS to be held outside of China.   The submission deadline is August 7.  The call for papers is here, and the conference website is here.
+
+================================================================================
+
+TITLE: Tools for the modern complexity theorist
+URL: https://scottaaronson.blog/?m=201106
+CONTENT:
+You’re deep in the Congo.  You’ve got an iPhone with some charge left, but there’s no cell tower for hundreds of miles.  With life-or-death urgency, you need to know the definition of the complexity class SBP and its relationship to BPPpath.  What do you do?
+
+Not to worry: Satoshi Hada has created a free Complexity Zoo app for the iPad and iPhone.  I tried it out and it works great!
+
+You get a cold call from yet another solitary genius who’s discovered a simple linear-time 3SAT algorithm.  You tell him to implement the algorithm and test it out, and then you’ll talk.  Half an hour later, he tells you he’s done so and it works perfectly.  So you tell him to go factor the 617-digit RSA challenge number.  But being an iconoclastic genius, he never learned how to reduce factoring to 3SAT.  What do you do?
+
+Relax: answering challenge #2 from this blog post even before the post went up, USC students Henry Yuen and Joe Bebel have created a great web application called ToughSAT, which generates hard SAT instances on demand, based on factoring, subset sum, or even a “hard problem cocktail.”  As a commenter helpfully alerted us, a few years ago Paul Purdom and Amr Sabry of Indiana University already created a similar site that generates hard SAT instances based on factoring.
+
+================================================================================
+
+TITLE: A personal post
+URL: https://scottaaronson.blog/?m=201106
+CONTENT:
+Here’s an interview with me by math grad student Samuel Hansen, as part of a podcast he runs called Strongly Connected Components.  (Also check out the interviews with Steven Rudich, Steven Rudich a second time, Lance Fortnow, Doron Zeilberger, and your other favorite stars of the nerdosphere!)  In the interview, I talk about my passion for baseball stats, what you don’t know about llama-breeding, the use of color in Matisse’s later works … oh all right, it’s mostly about quantum computing and P vs. NP.
+
+Here’s a story I told for an event called Story Collider, which was back-to-back with a superb production of Breaking the Code (Hugh Whitemore’s acclaimed play about the life of Alan Turing) in Cambridge’s Central Square Theater.  I was honored to serve as a “scientific consultant” to the Breaking the Code production, and to do audience Q&A before and after a couple performances.  In the Story Collider, I talk about the “Turing phase” I went through as a teenager and Alan T.’s impact on my life.
+
+(Note: For the past couple years, I’ve avoided talking much about my personal   life on this blog, since I pride myself on being someone who learns from experience and  adjusts his behavior accordingly.  But two months ago, something truly  happy occurred in my life, and if you listen to the end of the Story Collider, you’ll find out what it was…)
+
+One last personal note: I’m at the Federated Computing Research Conference in San Jose all week.  If you read Shtetl-Optimized, are here at FCRC, see me, and wouldn’t do so otherwise, come and say hi!
+
+================================================================================
+

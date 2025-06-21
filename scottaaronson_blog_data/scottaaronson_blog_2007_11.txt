@@ -1,0 +1,191 @@
+TITLE: Entanglement for peace and freedom
+URL: https://scottaaronson.blog/?m=200711
+CONTENT:
+A reader named Prempeh writes in the comments section of my last post:
+
+I’m really no happier because of knowing that a phenomenon called quantum entanglement exist [sic]. Now, you say, this phenomenon has the potential to enable super-powerful computing, teleportation, … I say, until science helps me with a comprehensive, provable, repeatable methodology for using it’s [sic] results to make me (and everyone who wants to be) happy, I really do not see it as significantly more helpful than faith.
+
+NB: Any chance that a unification theory could help the poor stave off devastating climate change caused in part by the profligacy of the west? End the brutality of war? Stop child sexual exploitation? Remove corruption, greed, racism, …
+
+This is not a rhetorical question
+
+A few quick non-rhetorical answers:
+
+
+
+================================================================================
+
+TITLE: Mistake of the Week: Explain Everything (Or Don’t Bother Explaining Anything)
+URL: https://scottaaronson.blog/?m=200711
+CONTENT:
+In today’s post I was going to announce the winners of my Unparadox Contest.  But then I noticed the Lake Wobegon unparadox: if the total winnings are zero, then no one’s winnings are below average and in that sense, everyone’s a winner!
+
+So instead of that, I thought I’d contribute to the general shnoodification of humankind, by discussing the same thing every other science blogger’s discussing: Paul Davies’s New York Times op-ed.
+
+Over the years I have often asked my physicist colleagues why the laws of physics are what they are. The answers vary from “that’s not a scientific question” to “nobody knows.” The favorite reply is, “There is no reason they are what they are — they just are.”  The idea that the laws exist reasonlessly is deeply anti-rational.  After all, the very essence of a scientific explanation of some phenomenon is that the world is ordered logically and that there are reasons things are as they are.  If one traces these reasons all the way down to the bedrock of reality — the laws of physics — only to find that reason then deserts us, it makes a mockery of science.
+
+Now, I know Paul Davies: he took me out to a nice dinner in Iceland, and even quoted me next to Ludwig Wittgenstein in the epigraph of one of his papers.  And I know for a fact that his views are much more nuanced than you’d think, if the above passage was all you were going on.  I can assure you that, if his claim that physics without metaphysics is “a mockery of science” reminds you of those hooded monks from Monty Python and the Holy Grail, pounding their heads with wooden boards in between mystic incantations, then you’ve read his piece too superficially and have failed to grasp its subtler message.
+
+But even so, reading his op-ed made me wonder: when did we, as a civilization, have a similar conversation before?  Then I remembered: the early 1600’s!
+
+Galileo: Hey, I’ve discovered that Jupiter has moons!  And that objects in free fall follow parabolic trajectories!  And that…
+
+Jesuit schoolmen: Ah, foolish one, but you have told us nothing about the underlying causes of motion, or what it is that imbues the lunar bodies with their lunarity.   Of what use are your so-called “explanations” if they rest on a foundation that is itself unexplained?  One can hardly build a pyramid on sand!
+
+One imagines the schoolmen feeling sorry for the naïve Galileo, with his rampant scientism and countless unexamined presuppositions.   In their minds, if Galileo hadn’t explained everything then he hadn’t really explained anything — and hence they themselves (who had explained nothing) were the wiser by far.
+
+Four hundred years after the scientific revolution, most people still think like the Jesuit schoolmen did:
+
+How does a toaster work?
+
+By converting electrical energy into heat.
+
+But what is electricity?
+
+The movement of electrons through a wire.
+
+But what are electrons?
+
+Fundamental particles with spin 1/2, negative charge, mass of 10-27 grams…
+
+But why do particles exist?  Why does anything exist?
+
+Well, those are excellent and profound questions, and you see…
+
+Aha!  Aha!  So science doesn’t have all the answers!  Ultimately, then, science is just another form of faith!
+
+The schoolman glances at the intermediate steps — how a toaster works, what electricity is, what electrons are — and is not only profoundly unimpressed, but baffled and annoyed that anyone thinks he should be impressed.  What are these so-called “answers” but irrelevant distractions from the Answer?  What are they but the build-up to the punchline, stepping-stones on the road to the metaphysical abyss?
+
+Science, in the schoolman’s mind, is just a massive con game: an attempt to distract people from the ultimate questions of essence by petty conjuring tricks like curing diseases or discovering the constituents of matter.   Even pure math is part of the con: all Wiles did was reduce Fermat’s Last Theorem to some supposedly “self-evident” axioms.   But why bother with such a reduction, if you can’t justify the axioms or the laws of logic themselves?
+
+I frequently encounter the schoolmen even in my little corner of the world.   People will ask: isn’t computational complexity theory a colossal failure, since all you ever do is prove “this problem is as hard as that other one,” or “this problem is hard relative to an oracle,” and never really prove anything is hard?
+
+Let’s leave aside the factual misunderstandings — we can prove certain problems are hard, etc. etc. — and concentrate on the subtext, which is:
+
+Don’t waste my time with the accumulated insights of the last half-century.  If you haven’t solved the P versus NP problem — and you haven’t, right? — then aren’t you, ultimately, just as ignorant about computation as I am?
+
+Of course, “does P=NP?” differs from “where do the laws of physics come from?” in that we know, at least philosophically, what an answer to the former question would look like.   And yet, if complexity theorists ever do prove P≠NP, I’m guessing the schoolmen will switch immediately to saying that that was merely a technical result, and that it doesn’t even touch the real question, which is something else entirely.
+
+The schoolmen’s philosophy leads directly to a fatalist methodology.  What causes polio? If you say a virus, then you also have to explain what viruses are, and why they exist, and why the universe is such that viruses exist, and even why the universe itself exists.  And if you can’t answer all of these questions, then your so-called “knowledge” rests on a foundation of arbitrariness and caprice, and you’re no better off than when you started.   So you might as well say that polio is caused by demons.
+
+Yet so long as the schoolmen are careful — and define the “ultimate explanation for X” in such a way that no actual discovery about X will ever count — their position is at least logically consistent.   I’ll even confess to a certain sympathy with it.   I’ll even speculate that most scientists have a smidgen of schoolman inside.
+
+All I really object to, then, is the notion that tracing every question down to what Davies calls “the bedrock of reality” represents a new, exciting approach to gathering knowledge — one at the cutting edge of physics and cosmology.  Say whatever else you want about the schoolman’s way, it’s neither new nor untried.  For most of human history, it’s the only approach that was tried.
+
+================================================================================
+
+TITLE: Thanksgiving Special: D-Wave at MIT
+URL: https://scottaaronson.blog/?m=200711
+CONTENT:
+Some people think I have a vendetta against D-Wave Systems and its questionable quantum computer claims (see here, here, here, here, here, here, here, here, here for context). But actually, nothing could be further from the truth. I keep trying and trying to change the subject! Wouldn’t you all rather hear about Wolfram, I say? Or unparadoxes? Or my #1 topic du jour, nothing whatsoever?
+
+Apparently you wouldn’t. From my inbox to my comments section to the hallway, the masses have spoken, and what they want to know is: did I attend D-Wave’s presentation at MIT on Monday, and if so what did I think?
+
+Yes, I attended, in body though not in mind. You see, Monday was also the day of the STOC deadline, so if our guests from D-Wave (Mohammad Amin and Andrew Berkley) were expecting a ferocious skeptic, they instead got a bleary-eyed zombie with visions of MAEXP, P/poly, and 7:59PM EST cavorting in his head.
+
+This meant that Ed Farhi, Isaac Chuang, Peter Shor, and Lorenza Viola had to do most of the questioning. As it turned out, they did a vastly better job than I could have.
+
+As others have pointed out in stronger terms, I’m not a physicist. (On the other hand, the gentleman linked to in the previous sentence is not correct about my being paid by the NSA to discredit Canadian quantum computing efforts: it’s actually the GCHQ and the Mossad.) As such, I can’t directly evaluate D-Wave’s central claim to have built an adiabatic quantum computer, nor have I ever tried to do so. All I can do is point out the many things D-Wave has said to the press (about NP-complete problems, for example) that I know are false, its history of making dramatic announcements without evidence, and its contemptuous attitude toward scientists who have asked for such evidence. For me, that’s more than enough to destroy D-Wave’s credibility on the claims I can’t directly evaluate. After all, the burden of proof is not on me; it’s on them.
+
+However, other people have not been satisfied with this line of argument. “We don’t care who the burden the proof is on,” they say. “We just care whether D-Wave built an adiabatic quantum computer.”
+
+But my physicist colleagues don’t suffer from the same argumentative limitations that I do. At the group meeting preceding the talk, Farhi announced that he didn’t care what the press releases said, nor did he want to discuss what problems quantum computers can solve (since we academics can figure that out ourselves). Instead he wanted to focus on a single question: is D-Wave’s device a quantum computer or not?
+
+What followed was probably the most intense grilling of an invited speaker I’ve ever seen.
+
+It quickly emerged that D-Wave wants to run a coherent quantum computation for microseconds, even though each of their superconducting qubits will have completely decohered within nanoseconds. Farhi had to ask Amin to repeat this several times, to make sure he’d gotten it right.
+
+Amin’s claim was that what looks like total decoherence in the computational basis is irrelevant — since for adiabatic quantum computation, all that matters is what happens in the basis of energy eigenstates. In particular, Amin claimed to have numerical simulations showing that, if the temperature is smaller than the spectral gap, then one can do adiabatic quantum computation even if the conventional coherence times (the t1 and t2) would manifestly seem to prohibit it.
+
+The physicists questioned Amin relentlessly on this one claim. I think it’s fair to say that they emerged curious but severely skeptical, not at all convinced by the calculations Amin provided, and determined to study the issue for themselves.
+
+In other words, this was science as it should be. In contrast to their bosses, Amin and Berkley made a genuine effort to answer questions. They basically admitted that D-Wave’s press releases were litanies of hype and exaggeration, but nevertheless thought they had a promising path to a quantum computer. On several occasions, they seemed to be struggling to give an honest answer that would still uphold the company line.
+
+Two other highlights:
+
+For a theorist like me — accustomed to talks ending with “if there are no questions, then let’s thank the speaker again” — this was exciting, heady stuff. And when it was over, I still had almost three hours until the STOC deadline.
+
+
+
+
+
+================================================================================
+
+TITLE: ‘Tis the week before deadline
+URL: https://scottaaronson.blog/?m=200711
+CONTENT:
+and at least over here
+
+Not a blogger is stirring
+
+The reason is clear
+
+================================================================================
+
+TITLE: MIT sues Frank Gehry over Stata Center
+URL: https://scottaaronson.blog/?m=200711
+CONTENT:
+
+
+When I first saw the headline, I assumed it was from The Onion or (more likely) some local MIT humor publication. But no, it’s from the Associated Press.
+
+================================================================================
+
+TITLE: Deoxyribononapproximability
+URL: https://scottaaronson.blog/?m=200711
+CONTENT:
+[Updates]
+
+Alright, here’s a problem for all you bioinformatistas and inapproximabistas out there, which was inspired by this post of Eliezer Yudkowsky at Overcoming Bias (see also the comments there).
+
+Let a DNA sequence be an element of {A,C,G,T}*, and suppose we’re allowed the following primitive operations: (1) insert a base pair anywhere we want, (2) delete any substring, (3) reverse any substring, and (4) copy any substring into any other part of the string.  Then given a DNA sequence S, how hard is it to estimate the minimum number of operations needed to produce S starting from the empty string?
+
+Closely related is the following problem: by starting from the empty string and applying o(n) operations, can we produce a “pseudorandom DNA sequence” of length n — that is, a sequence that can’t be distinguished in polynomial time from a uniform random one?
+
+(Note 1: For both problems, we might also want to stipulate that every intermediate sequence should have size at most polynomial in n.  Or better yet, maybe one can prove that such an assumption is without loss of generality.)
+
+(Note 2: I’m also very interested in what happens if we disallow the powerful operation of reversal.)
+
+For all I know, these problems might have trivial (or at any rate, known) answers; I just came up with them and haven’t thought them through.
+
+What the problems are really getting at is this: is the “effective number of bits” in your genome (that is, the number of bits from a polynomial-time algorithm’s perspective) limited by how many ancestors you’ve had since life on Earth began?  Or can it be vastly greater?
+
+Update (11/4):  Rereading the last few paragraphs of Eliezer’s post, I see that he actually argues for his central claim — that the human genome can’t contain more than 25MB of “meaningful DNA” — on different (and much stronger) grounds than I thought!  My apologies for not reading more carefully.
+
+In particular, the argument has nothing to do with the number of generations since the dawn of time, and instead deals with the maximum number of DNA bases that can be simultaneously protected, in steady state, against copying errors.  According to Eliezer, copying a DNA sequence involves a ~10-8 probability of error per base pair, which — because only O(1) errors per generation can be corrected by natural selection — yields an upper bound of ~108 on the number of “meaningful” base pairs in any given genome.
+
+However, while this argument is much better than my straw-man based on the number of generations, there’s still an interesting loophole.  Even with a 10-8 chance of copying errors, one could imagine a genome reliably encoding far more than 108 bits (in fact, arbitrarily many bits) by using an error-correcting code.  I’m not talking about the “local” error-correction mechanisms that we know DNA has, but about something more global — by which, say, copying errors in any small set of genes could be completely compensated by other genes.   The interesting question is whether natural selection could read the syndrome of such a code, and then correct it, using O(1) randomly-chosen insertions, deletions, transpositions, and reversals.  I admit that this seems unlikely, and that even if it’s possible in principle, it’s probably irrelevant to real biology.  For apparently there are examples where changing even a single base pair leads to horrible mutations.  And on top of that, we can’t have the error-correcting code be too good, since otherwise we’ll suppress beneficial mutations!
+
+Incidentally, Eliezer’s argument makes the falsifiable prediction that we shouldn’t find any organism, anywhere in nature, with more than 25MB of functional DNA.  Does anyone know of a candidate counterexample?  (I know there are organisms with far more than humans’ 3 billion base pairs, but I have no idea how many of the base pairs are functional.)
+
+Lastly, in spite of everything above, I’d still like a solution to my “pseudorandom DNA sequence” problem.  For if the answer were negative — if given any DNA sequence, one could efficiently reconstruct a nearly-optimal sequence of insertions, transpositions, etc. producing it — then even my original straw-man misconstrual of Eliezer’s argument could put up a decent fight!
+
+Update (11/5): Piotr Indyk pointed me to a paper by Ergün, Muthukrishnan, and Sahinalp from FSTTCS’2003, which basically solves my problem in the special case of no reversals.   It turns out that you can estimate the number of insert, delete, and copy operations needed to produce a given DNA sequence to within a factor of 4, by just applying Lempel-Ziv compression to the sequence.  Thanks, Piotr!
+
+Another Update (11/5): Andy Drucker has pointed out that, in the case where reversals are allowed, we can approximate the number of insert, delete, copy, and reverse operations needed to produce a given DNA sequence to within a factor of 16, by combining the Lempel-Ziv approach of Ergün et al. with a clever trick: maintain both the sequence and its reversal at all times!  Interestingly, though, this trick doesn’t seem to work for transforming one sequence into another (a more general problem than I asked about, and the one considered by Ergün et al).
+
+
+
+================================================================================
+
+TITLE: Unparadox Contest
+URL: https://scottaaronson.blog/?m=200711
+CONTENT:
+In a recent talk at MIT, Umesh Vazirani appealed to the famous Birthday Paradox to say that two random subsets of {1,…,N}, each of size o(√N), probably wouldn’t intersect each other.  Of course we all understood what he meant, but it occurred to me that Umesh was actually appealing to the Birthday Unparadox: “If you put three people in a room, chances are no two of them will have the same birthday.”
+
+Once I realized that, I started seeing unparadoxes everywhere I looked:
+
+The Banach-Tarski Unparadox: If you cut an orange into five pieces using a standard knife, then put them back together, the result will have exactly the same volume as the original orange.
+
+Braess’ Unparadox: If you add an extra lane to a highway, one possible result will be to decrease congestion.
+
+Hempel’s Unparadox: If you observe a bunch of ravens and find that all of them are black, this might increase your likelihood for the statement “All ravens are black.”
+
+Russell’s Unparadox: The set of all sets that contain themselves as a member, might or might not contain itself as a member (either way is fine).
+
+In the spirit of my highly-successful Best Umeshism and Best Anthropicism contests (remember those?), I now open the floor to you: come up with the best unparadox!  The winner will receive absolutely nothing.  (If you have to ask what the point is, this contest isn’t for you.)
+
+
+
+================================================================================
+

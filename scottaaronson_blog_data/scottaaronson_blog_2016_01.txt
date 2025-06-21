@@ -1,0 +1,113 @@
+TITLE: Marvin Minsky
+URL: https://scottaaronson.blog/?m=201601
+CONTENT:
+Yesterday brought the sad news that Marvin Minsky passed away at age 88.  I never met Minsky (I wish I had); I just had one email exchange with him back in 2002, about Stephen Wolfram’s book.  But Minsky was my academic great-grandfather (through Manuel Blum and Umesh Vazirani), and he influenced me in many other ways.  For example, in his and Papert’s 1968 book Perceptrons—notorious for “killing neural net research for a decade,” because of its mis- or over-interpreted theorems about the representational limitations of single-layer neural nets—the way Minsky and Papert proved those theorems was by translating questions about computation into questions about the existence or nonexistence of low-degree polynomials with various properties, and then answering the latter questions using MATH.  Their “polynomial method” is now a mainstay of quantum algorithms research (having been brought to the subject by Beals et al.), and in particular, has been a mainstay of my own career.  Hardly Minsky’s best-known contribution to human knowledge, but that even such a relatively minor part of his oeuvre could have legs half a century later is a testament to his impact.
+
+I’m sure readers will have other thoughts to share about Minsky, so please do so in the comments section.  Personal reminiscences are especially welcome.
+
+================================================================================
+
+TITLE: Happy Third Birthday Lily!
+URL: https://scottaaronson.blog/?m=201601
+CONTENT:
+Non-Lily-Related Updates (Jan. 22)
+
+Uri Bram posted a cute little article about whether he was justified, as a child, to tell his parents that he wouldn’t clean up his room because doing so would only increase the universe’s entropy and thereby hasten its demise.  The article quotes me, Sean Carroll, and others about that important question.
+
+On Wednesday I gave a TCS+ online seminar about “The Largest Possible Quantum Speedups.”  If you’re interested, you can watch the YouTube video here.
+
+
+
+
+
+
+
+
+
+(I promised a while ago that I’d upload some examples of Lily’s MOMA-worthy modern artworks.  So, here are two!)
+
+A few quotable quotes:
+
+Daddy, when you were little, you were a girl like me!
+
+I’m feeling a bit juicy [thirsty for juice].
+
+Saba and Safta live in Israel. They’re mommy’s friends! [Actually they’re mommy’s parents.]
+
+Me: You’re getting bigger every day!
+Lily: But I’m also getting smaller every day!
+
+Me: Then Goldilocks tasted the third bowl, which was Baby Bear’s, and it was just right!  So she ate it all up.  Then Goldilocks went…
+Lily: No, then Goldilocks ate some cherries in the kitchen before she went to the bedroom.  And blueberries.
+Me: Fine, so she ate cherries and blueberries.  Then she went to the bedroom, and she saw that there were three beds…
+Lily: No, four beds!
+Me: Fine, four beds.  So she laid in the first bed, but she said, “this bed is too hard.”
+Lily: No, it was too comfortable!
+Me: Too comfortable?  Is she some kind of monk?
+
+Me [pointing to a taxidermed black bear in a museum]: What’s that?
+Lily: A bear!
+Me: Is it Winnie the Pooh?
+Lily: No, it’s a different kind of bear.
+Me [pointing to a tan bear in the next case]: So what about that one? Is that Winnie?
+Lily: Yes! That’s Winnie the Pooh!
+[Looking at it more closely] No, it’s a different kind of Winnie.
+
+Lily: Why is it dark outside?
+Me: Because it’s night time.
+Lily: Why is it night time?
+Me: Because the sun went to the other side of the world.
+Lily: It went to China!
+Me: Yes! It did in fact go to China.
+Lily: Why did the sun go to China?
+Me: Well, more accurately, it only seemed to go there, because the world that we’re on is spinning.
+Lily: Why is the world spinning?
+Me: Because of the conservation of angular momentum.
+Lily: Why is the … consibation of amomomo?
+Me: I suppose because of Noether’s Theorem, and the fact that our laws of physics are symmetric under spatial rotations.
+Lily: Why is…
+Me: That’s enough for today Lily!
+
+================================================================================
+
+TITLE: Edging in: the biggest science news of 2015
+URL: https://scottaaronson.blog/?m=201601
+CONTENT:
+For years, I was forced to endure life with my nose up against the glass of the Annual Edge Question.  What are you optimistic about?  Ooh! ooh! Call on me!  I’m optimistic about someday being able to prove my pessimistic beliefs (like P≠NP).  How is the Internet changing the way you think?  Ooh, ooh! I know! Google and MathOverflow are saving me from having to think at all!  So then why are they only asking Steven Pinker, Freeman Dyson, Richard Dawkins, David Deutsch, some random other people like that?
+
+But all that has changed.  This year, I was invited to participate in Edge for the first time.  So, OK, here’s the question:
+
+What do you consider the most interesting recent [scientific] news?  What makes it important?
+
+My response is here.  I wasn’t in love with the question, because of what I saw as an inherent ambiguity in it: the news that’s most interesting to me, that I have a comparative advantage in talking about, and that people probably want to hear me talk about (e.g., progress in quantum computing), is not necessarily what I’d regard as the most important in any objective sense (e.g., climate change).  So, I decided to write my answer precisely about my internal tension in what I should consider most interesting: should it be the recent progress by John Martinis and others toward building a quantum computer?  Or should it be the melting glaciers, or something else that I’m confident will affect the future of the world?  Or possibly the mainstream attention now being paid to the AI-risk movement?  But if I really want to nerd out, then why not Babai’s graph isomorphism algorithm?  Or if I actually want to be honest about what excited me, then why not the superquadratic separations between classical and quantum query complexities for a total Boolean function, by Ambainis et al. and my student Shalev Ben-David?  On the other hand, how can I justify even caring about such things while the glaciers are melting?
+
+So, yeah, my response tries to meditate on all those things.  My original title was “How nerdy do you want it?,” but John Brockman of Edge had me change it to something blander (“How widely should we draw the circle?”), and made a bunch of other changes from my usual style.  Initially I chafed at having an editor for what basically amounted to a blog post; on the other hand, I’m sure I would’ve gotten in trouble much less often on this blog had I had someone to filter my words for me.
+
+Anyway, of course I wasn’t the only person to write about the climate crisis.  Robert Trivers, Laurence Smith, and Milford Wolpoff all wrote about it as well (Trivers most chillingly and concisely), while Max Tegmark wrote about the mainstreaming of AI risk.  John Naughton even wrote about Babai’s graph isomorphism breakthrough (though he seems unaware that the existing GI algorithms were already extremely fast in practice, and therefore makes misleading claims about the new algorithm’s practical applications).  Unsurprisingly, no one else wrote about breakthroughs in quantum query complexity: you’ll need to go to my essay for that!  A bit more surprisingly, no one besides me wrote about progress in quantum computing at all (if we don’t count the loophole-free Bell test).
+
+Anyway, on reflection, 2015 actually was a pretty awesome year for science, no matter how nerdy you want it or how widely you draw the circle.  Here are other advances that I easily could’ve written about but didn’t:
+
+I’ve now read all (more or less) of this year’s Edge responses.  Even though some of the respondents pushed personal hobbyhorses like I’d feared, I was impressed by how easy it was to discern themes: advances that kept cropping up in one answer after another and that one might therefore guess are actually important (or at least, are currently perceived to be important).
+
+Probably at the top of the list was a new gene-editing technique called CRISPR: Randolph Neese, Paul Dolan, Eric Topol, Mark Pagel, and Stuart Firestein among others all wrote about this, and about its implications for creating designer humans.
+
+Also widely-discussed was the discovery that most psychology studies fail to replicate (I’d long assumed as much, but apparently this was big news in psychology!): Nicholas Humphrey, Stephen Kosslyn, Jonathan Schooler, Ellen Winner, Judith Rich Harris, and Philip Tetlock all wrote about that.
+
+Then there was the Pluto flyby, which Juan Enriquez, Roger Highfield, and Nicholas Christakis all wrote about.  (As Christakis, Master of Silliman College at Yale, was so recently a victim of a social-justice mob, I found it moving how he simply ignored those baying for his head and turned his attention heavenward in his Edge answer.)
+
+Then there was progress in deep learning, including Google’s Deep Dream (those images of dogs in nebulae that filled your Facebook wall) and DeepMind (the program that taught itself how to play dozens of classic video games).  Steve Omohundro, Andy Clark, Jamshed Bharucha, Kevin Kelly, David Dalrymple, and Alexander Wissner-Gross all wrote about different aspects of this story.
+
+And recent progress in SETI, which Yuri Milner (who’s given $100 million for it) and Mario Livio wrote about.
+
+Unsurprisingly, a bunch of high-energy physicists wrote about high-energy physics at the LHC: how the Higgs boson was found (still news?), how nothing other than the Higgs boson was found (the biggest news?), but how there’s now the slightest hint of a new particle at 750 GeV.  See Lee Smolin, Garrett Lisi, Sean Carroll, and Sarah Demers.
+
+Finally, way out on the Pareto frontier of importance and disgustingness was the recently-discovered therapeutic value of transplanting one person’s poop into another person’s intestines, which Joichi Ito, Pamela Rosenkranz, and Alan Alda all wrote about (it also, predictably, featured in a recent South Park episode).
+
+Without further ado, here are 27 other answers that struck me in one way or another:
+
+Then there were three answers for which the “progress” being celebrated, seemed to me to be progress racing faster into WrongVille:
+
+Finally, two responses by old friends that amused me.  The science-fiction writer Rudy Rucker just became aware of the discovery of the dark energy back in 1998, and considers that to be exciting scientific news (yes, Rudy, so it was!).  And Michael Vassar —the Kevin Bacon or Paul Erdös of the rationalist world, the guy who everyone‘s connected to somehow—writes something about a global breakdown of economic rationality, $20 bills on the sidewalk getting ignored, that I had trouble understanding (though the fault is probably mine).
+
+================================================================================
+

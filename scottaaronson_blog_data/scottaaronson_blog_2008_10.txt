@@ -1,0 +1,129 @@
+TITLE: Keeping cool
+URL: https://scottaaronson.blog/?m=200810
+CONTENT:
+Update (10/27): Peter Norvig at Google points me to his Election FAQ, for those who feel they haven’t yet spent enough time reading about the election.  I’ve just been perusing it, and it’s an unbelievably good source of information—reaching the same conclusions as I did on just about every particular, yet also calm, reasoned, and professional.
+
+
+
+1. That’s my mom at an Obama office in Sarasota, FL.  For once, I find myself kvelling to strangers about her.
+
+2. I’m at FOCS’2008 in Philadelphia right now.  Yesterday morning I gave a tutorial on The Polynomial Method in Quantum and Classical Computing, and was delighted by how many people showed up — I wouldn’t have woken up for my talk.  (And before you ask: yes, the PowerPoint slides for this talk include photographs of both Bill Ayers and Joe the Plumber.)
+
+3. Here’s the FOCS conference program — tons of good stuff, as you can see for yourself.  If there’s a talk you want to know more about, say so in the comments section and I’ll try to find someone who attended it.
+
+Note: I was a program committee member, and therefore know much more than usual about the talks—but my objectivity and license as a “journalist” are also severely compromised.  If unvarnished opinion is what you seek, ask my friend and roommate Rahul Santhanam, who’s also reporting live from the conference over at Lance’s blog.  (As you can see, we CS theorists manage our conflicts of interest roughly as well as the Alaska governor’s office…)
+
+4. I apologize that I haven’t had much to say recently.  Against my better judgment, I find myself transfixed by the same topic everyone else is transfixed by, and it’s hard to find anything to say about it that hasn’t been said better by others.  If you want to enter my world, don’t read Shtetl-Optimized; read Andrew Sullivan or FiveThirtyEight.com.  Following the election is, of course, not all that different from following a football game, except for the added dash of excitement that the future of civilization might hinge on the outcome.
+
+(Years congruent to 0 mod 4 are pretty much the only times when I understand what it’s like to be a sports fan.  Speaking of which, I heard there was some sort of “World’s Series” in Philadelphia last night—probably in basketball—and something called the “Phillies” won?  I might be wrong, though.  Maybe it was the “Flyers” … or is that a volleyball team?  Keep in mind, I only lived in this area for the first 15 years of my life.)
+
+5. For a congenital pessimist like me, I confess it’s been difficult to deal with the fact that my team (I mean the Democrats, not the Eagles or whatever they’re called) is winning.  I simply don’t know how to react; it’s so far outside my emotional range.  Since when has the universe worked this way?  When did reason and levelheadedness start reaping earthly rewards, or incompetence start carrying a cost?  I’m sure Nov. 4 will bring something to console me, though: maybe Al Franken will lose the Senate race in Minnesota, or the homophobe proposition will pass in California…
+
+6. Writing blog posts in numbered lists is easier; I should do it more often.  I don’t have to pretend all the little things I want to say are part of an overarching narrative, rather than standing in the relation “and that reminds me of … which in turn reminds me of…”
+
+7. There’s another psychological question inspired by the election that’s fascinated me lately: how does one become more obamalike in temperament?
+
+I’ve written before about Obama’s penchant for introspection and respect for expertise, which of course are qualities with which I strongly identify.  But Obama also has a crucial quality I lack: as the whole world has marveled, nothing rattles him.  Placed for two years under the brightest glare on earth, besieged by unexpected events, he simply sticks to a script, Buddha-like in his emotional control (although not in his quest for power in the temporal world).  His nerves are of carbon nanotube fiber.
+
+When he briefly slipped behind after the Republican convention, I panicked: I felt sure he’d lose if he didn’t completely change his approach.  Sean Carroll recommended chilling out.  I now face the indignity of admitting that I was wrong while a physicist was right.
+
+What struck me most, during the debates, was how again and again Obama would pass up the chance to score points—choosing instead to let his opponent impale himself with his own words, and use his time to hammer home his message for the benefit of any voters just emerging from their caves.  (As an example, consider his pointed refusal in the third debate to say anything bad about Palin—the subtext being, “isn’t it obvious?”)  It’s almost as if he thought his goal was winning the election, not proving the other guy wrong.
+
+I have (to put it mildly) not always exhibited the same prudent restraint, least of all on this blog.  So for example, whenever there’s been bait dangling in front of me in the comments section, I’ve tended to bite, often ending up with a hook through my cheek.
+
+But no more.  As the first exercise in my newfound quest for the Zen-like equanimity and balance of our soon-to-be-president, I now present to you two excerpts from the comments on my previous post, with no reaction whatsoever from me.
+
+Have you considered the possibility that, in the same way a logical deduction is being equated with truth, understanding a thing is just an illusion? If a thing is logical, that only means that it appeals to the reasoning facility of the brain, not that it’s the truth.
+
+Mathematics is just a place where it becomes clear how a human may think. Computers only go for the calculable. And the mathematical truths a computer can produce are at most countable infinite. But there are uncountable infinite truths.
+
+================================================================================
+
+TITLE: Opening for a summer student
+URL: https://scottaaronson.blog/?m=200810
+CONTENT:
+I’m seeking a talented student for summer of 2009, to work with me in developing and experimenting with a new open-source web application.  I’m open to students from anywhere, though MIT students will receive special consideration for funding reasons.
+
+The web app — tentatively called “Worldview Manager” — is intended to help people ferret out hidden contradictions in their worldviews.  Think of a kindly, patient teacher in a philosophy seminar who never directly accuses students of irrationality, but instead uses Socratic questioning to help them clarify their own beliefs.
+
+The idea is extremely simple (as of course it has to be, if this app is to attract any significant number of users).  The user selects a topic from a list, which might include the following at the beginning:
+
+Climate Change
+The Singularity
+Libertarianism
+Computational Complexity
+Interpretation of Quantum Mechanics
+Quantum Computing
+Gay Rights
+Israel
+Gifted Education
+Foundations of Mathematics
+Strong AI and Philosophy of Mind
+Utilitarian Ethics
+Animal Rights
+Art and Aesthetics
+
+Users will also be able to contribute their own topic files.  (The above list is biased toward those topics about which I feel like I could write a topic file myself.)
+
+After choosing a topic, the user will be presented with a sequence of statements, one at a time and in a random order.  For example, if the topic is Foundations of Mathematics, the statements might include the following:
+
+Math is a cultural construct.
+Math privileges male, linear thinking over female, intuitive thinking.
+The Continuum Hypothesis is either true or false, even if humans will never know which.
+There’s a sense in which integers, real numbers, and other mathematical objects “existed” before humans were around to name them, and will continue to exist after humans are gone.
+
+The user can indicate her level of agreement with each statement by dragging the cursor.
+
+Now the topic file, in addition to the statements themselves, will also contain lists of pairs or sometimes triples of statements that appear (at least to the writer of the topic file) to be in “tension” with one another.  From time to time, the program will search the user’s previous responses for beliefs that appear to be in tension, point out the tension, and give the user the opportunity to adjust one or more beliefs accordingly.  For example, the user might get a message like the following:
+
+You indicated substantial agreement with the statement
+
+If a scientific consensus on climate change existed, then society would have to act accordingly.
+
+and also substantial agreement with the statement
+
+The so-called “consensus” on climate change simply reflects scientists’ liberal beliefs, and therefore does not necessitate action.
+
+These views would seem to be in tension with each other.  Would you like to adjust your belief in one or both statements accordingly?
+
+That’s about all there is to it.  No Bayesianism, no advanced math of any kind (or at least none that the user sees).
+
+As you may have gathered, the writing of topic files is not a “value-neutral” activity: the choice of statements, and of which statements are in tension with which other ones, will necessarily reflect the writer’s interests and biases.  This seems completely unavoidable to me.  The goal, however, will be to adhere as closely as is practical to Wikipedia’s NPOV standard.  And thus, for example, any well-written topic file ought to admit “multiple equilibria”; that is, multiple points of view that are genuinely different from one another but all more-or-less internally consistent.
+
+The student’s responsibilities for this project will be as follows:
+
+If there’s time, we could also add more advanced functionality to Worldview Manager.  Your own ideas are more than welcome, but here are a few possibilities:
+
+I’m looking for someone smart, curious, enthusiastic, and hard-working, who has experience with the development of web applications (a work sample is requested).  Grad students, undergrads, high school students, nursery school students … it’s what you can do that interests me.
+
+I expect the internship to last about three months, but am flexible with dates.  Note that in the year or so since I started at MIT, I’ve already worked with six undergraduate students, and three of these interactions have led or will lead to published papers.
+
+If you’re interested, send a cover letter, cv, and link to a work sample to aaronson at csail mit edu.  If you want to tell me why the Worldview Manager idea is idiotic and misguided, use the comments section as usual.
+
+Update (10/15): In a somewhat related spirit, Eric Schwitzgebel at UC Riverside points me to a study that he and a colleague are conducting, on whether professional philosophers respond differently than laypeople to ethical dilemmas.  Shtetl-Optimized readers are encouraged to participate.
+
+================================================================================
+
+TITLE: Nerds and theorists, our honor is at stake
+URL: https://scottaaronson.blog/?m=200810
+CONTENT:
+Today Sean Carroll emailed various bloggers, defying us to participate in the DonorsChoose Blogger Challenge 2008.  Here’s how it works: we (the bloggers) pick projects that we like in underfunded public schools.  Then we beg our readers to donate small amounts of money to make those projects happen.  Any blogger whose readers can’t or won’t contribute is revealed as weak, pathetic, and inadequate—as are the readers themselves.
+
+Now, do I seem like the sort of pusillanimous coward who would back down from such a direct challenge to his bloghood?  Who would cede the moral high ground to a physicist?
+
+I do?
+
+Then let the word echo from the mountaintops and RSS feeds.  I, Scott Aaronson, am now seeking to raise up to $7000 for public school teachers trying to:
+
+Twain, incidentally, was the one who wrote that “in the first place, God made idiots. That was for practice. Then He made school boards.”  The genius of DonorsChoose is that it bypasses those pinnacles of God’s handiwork, letting you route money directly to deserving teachers.
+
+So: if, in your time reading Shtetl-Optimized, you’ve enjoyed one entry, I ask you to go here and donate $10 to a featured project of your choice.  If you’ve enjoyed ten entries, I ask you to donate $25 (you get the bulk discount).  If you’ve enjoyed every entry (!), I ask you to donate $50 (that’s the Platinum Elite Package).
+
+If you’re currently a student or Wall Street broker, you can of course scale down your donation appropriately.
+
+And no, this won’t save the world or even swing the election.  But … sniff … maybe Sean Carroll will finally respect me.
+
+Update (Oct. 6): Thanks so much, everyone!  So far we’ve raised $2,049 (counting my own small contribution).
+
+================================================================================
+

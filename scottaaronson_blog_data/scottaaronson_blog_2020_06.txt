@@ -1,0 +1,296 @@
+TITLE: David Poulin
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+2020 sucks.
+
+Yesterday I learned that David Poulin, a creative and widely-beloved quantum computing and information theorist, has died at age 43, of an aggressive brain cancer.  After studying under many of the field’s legends—Gilles Brassard, Wojciech Zurek, Ray Laflamme, Gerard Milburn, John Preskill—David became a professor at the University of Sherbrooke in Quebec.  There he played a leading role in CIFAR (the Canadian Institute For Advanced Research), eventually co-directing its quantum information science program with Aephraim Steinberg.  Just this fall (!), David moved to Microsoft Research to start a new phase of his career.  He’s survived by a large family.
+
+While I can’t claim any deep knowledge of David’s work—he and I pursued very different problems—it seems appropriate to mention some of his best-known contributions.  With David Kribs, Ray Laflamme, and Maia Lesosky, he introduced the formalism of operator quantum error correction, and made many other contributions to the theory of quantum error-correction and fault-tolerance (including the estimation of thresholds).  He and coauthors showed in a Nature paper how to do quantum state tomography on 1D matrix product states efficiently.  With Pavithran Iyer, he proved that optimal decoding of stabilizer codes is #P-hard.
+
+And if none of that makes a sufficient impression on Shtetl-Optimized readers: well, back in 2013, when D-Wave was claiming to have achieved huge quantum speedups, David Poulin was one of the few experts willing to take a clear skeptical stance in public (including right in my comment section—see here for example).
+
+I vividly remember being officemates with David back in 2003, at the Perimeter Institute in Waterloo—before Perimeter had its sleek black building, when it still operated out of a converted tavern.  (My and David’s office was in the basement, reached via a narrow staircase.)  David liked to tease me: for example, if I found him in conversation with someone else and asked what it was about, he’d say, “oh, nothing to do with computational efficiency, no reason for you to care.”  (And yet, much of David’s work ultimately would have to do with computational efficiency.)
+
+David was taken way too soon and will be missed by everyone who knew him.  Feel free to share David stories in the comments.
+
+================================================================================
+
+TITLE: Pseudonymity as a trivial concession to genius
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+Update (6/24): For further thoughts and context about this unfolding saga, see this excellent piece by Tom Chivers (author of The AI Does Not Hate You, so far the only book about the rationalist community, one that I reviewed here).
+
+
+
+This morning, like many others, I woke up to the terrible news that Scott Alexander—the man I call “the greatest Scott A. of the Internet”—has deleted SlateStarCodex in its entirety.  The reason, Scott explains, is that the New York Times was planning to run an article about SSC.  Even though the article was going to be positive, NYT decided that by policy, it would need to include Scott’s real surname (Alexander is his middle name).  Scott felt that revealing his name to the world would endanger himself and his psychiatry patients.  Taking down his entire blog was the only recourse that he saw.
+
+The NYT writer, Cade Metz, was someone who I’d previously known and trusted from his reporting on Google’s quantum supremacy experiment.  So in recent weeks, I’d spent a couple hours on the phone with Cade, answering his questions about the rationality community, the history of my interactions with it, and why I thought SlateStarCodex spoke to so many readers.  Alas, when word got around the rationality community that Cade was writing a story, a huge panic arose that he was planning on some sort of Gawker-style hit piece or takedown.  Trying to tamp down the fire, I told Scott Alexander and others that I knew Cade, his intentions were good, he was only trying to understand the community, and everyone should help him by talking to him openly.
+
+In a year of historic ironies, here’s another one: that it was the decent, reasonable, and well-meaning Cade Metz, rather than any of the SneerClubbers or Twitter-gangsters who despised Scott Alexander for sharing his honest thoughts on hot-button issues, who finally achieved the latter’s dark dream of exiling Scott from the public sphere.
+
+The recent news had already been bad enough: Trump’s “temporary suspension” of J1 and H1B visas (which will deal a body blow to American universities this year, and to all the foreign scientists who planned to work at them), on top of the civil unrest, on top of the economic collapse, on top of the now-resurgent coronavirus.  But with no more SlateStarCodex, now I really feel like my world is coming to an end.
+
+I’ve considered SSC to be the best blog on the Internet since not long after discovering it five years ago.  Of course my judgment is colored by one of the most notorious posts in SSC’s history (“Untitled”) being a ferocious defense of me, when thousands were attacking me and it felt like my life was finished.  But that’s merely what brought me there in the first place.  I stayed because of Scott’s insights about everything else, and because of the humor and humanity and craftsmanship of his prose.  Since then I had the privilege to become friends with Scott, not only virtually but in real life, and to meet dozens of others in the SSC community, in its Bay Area epicenter and elsewhere.
+
+In my view, for SSC to be permanently deleted would be an intellectual loss on the scale of, let’s say, John Stuart Mill or Mark Twain burning their collected works.  That might sound like hyperbole, but not (I don’t think) to the tens of thousands who read Scott’s essays and fiction, particularly during their 2013-2016 heyday, and who went from casual enjoyment to growing admiration to the gradual recognition that they were experiencing, “live,” the works that future generations of teachers will assign their students when they cover the early twenty-first century.  The one thing that mitigates this tragedy is the hope that it will yet be reversed (and, of course, the fact that backups still exist in the bowels of the Internet).
+
+When I discovered Scott Alexander in early 2015, the one issue that gave me pause was his strange insistence on maintaining pseudonymity, even as he was already then becoming more and more of a public figure.  In effect, Scott was trying to erect a firewall between his Internet persona and his personal and professional identities, and was relying on the entire world’s goodwill not to breach that firewall.  I thought to myself, “this can’t possibly last!  Scott simply writes too well to evade mainstream notice forever—and once he’s on the world’s radar, he’ll need to make a choice, about who he is and whether he’s ready to own his gifts to posterity under his real name.”  In retrospect, what astonishes me is that Scott has been able to maintain the “double life” for as long as he has!
+
+In his takedown notice, Scott writes that it’s considered vitally important in psychiatry for patients to know almost nothing about their doctors, beyond their names and their areas of expertise.  That caused me to wonder: OK, but doesn’t the world already have enough psychiatrists who are ciphers to their patients?  Would it be so terrible to have one psychiatrist with a clear public persona—possibly even one who patients sought out because of his public persona, because his writings gave evidence that he’d have sympathy or insight about their conditions?  To become a psychiatrist, does one really need to take a lifelong vow of boringness—a vow never to do or say anything notable enough that one would be “outed” to one’s patients?  What would Freud, or Jung, or any of the other famous therapist-intellectuals of times past have thought about such a vow?
+
+Scott also mentions that he’s gotten death threats, and harassing calls to his workplace, from people who hate him because of his blog (and who found his real name by sleuthing).  I wish I knew a solution to that.  For what it’s worth, my blogging has also earned me a death threat, and threats to sue me, and accusatory letters to the president of my university—although in my case, the worst threats came neither from Jew-hating neo-Nazis nor from nerd-bashing SJWs, but from crackpots enraged that I wouldn’t use my blog to credit their proof of P≠NP or their refutation of quantum mechanics.
+
+When I started Shtetl-Optimized back in 2005, I remember thinking: this is it.  From now on, the only secrets I’ll have in life will be ephemeral and inconsequential ones.  From this day on, every student in my class, every prospective employer, every woman who I ask on a date (I wasn’t married yet), can know whatever they want to know about my political sympathies, my deepest fears and insecurities, any of it, with a five-second Google search.  Am I ready for that?  I decided that I was—partly just because I‘ve never had the mental space to maintain multiple partitioned identities anyway, to remember what each one is or isn’t allowed to know and say!  I won’t pretend that this is the right decision for everyone, but it was my decision, and I stuck with it, and it wasn’t always easy but I’m still here and so evidently are you.
+
+I’d be overjoyed if Scott Alexander were someday to reach a place in his life where he felt comfortable deciding similarly.  That way, not only could he enjoy the full acclaim that he’s earned for what he’s given to the world, but (much more importantly) his tens of thousands of fans would be able to continue benefitting from his insights.
+
+For now, though, the brute fact is that Scott is obviously not comfortable making that choice.  That being so, it seems to me that, if the NYT was able to respect the pseudonymity of Banksy and many others who it’s reported on in the past, when revealing their real names would serve no public interest, then it should also be able to respect Scott Alexander’s pseudonymity.  Especially now that Scott has sent the most credible signal imaginable of how much he values that pseudonymity, a signal that astonished even me.  The world does not exist only to serve its rare geniuses, but surely it can make such trivial concessions to them.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus: New Foreword!
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+Time for a non-depressing post.  Quantum Computing Since Democritus, which is already available in English and Russian, is about to be published in both Chinese and Japanese.  (So if you read this blog, but have avoided tackling QCSD because your Chinese or Japanese is better than your English, today’s your day!)  To go along with the new editions, Cambridge University Press asked me to write a new foreword, reflecting on what happened in the seven years since the book was published.  The editor, Paul Dobson, kindly gave me permission to share the new foreword on my blog.  So without further ado…
+
+
+
+Quantum Computing Since Democritus began its life as a course that I taught at the University of Waterloo in 2006.  Seven years later, it became the book that you now hold.  Its preface ended with the following words:
+
+Here’s hoping that, in 2020, this book will be as badly in need of revision as the 2006 lecture notes were in 2013.
+
+As I write this, in June 2020, a lot has happened that I would never have predicted in 2013.  Donald Trump is the President of the United States, and is up for reelection shortly.  This is not a political book, so let me resist the urge to comment further.  Meanwhile, the coronavirus pandemic is ravaging the world, killing hundreds of thousands of people, crashing economies, and shutting down schools and universities (including mine).  And in the past few weeks, protests against racism and police brutality started in America and then spread to the world, despite the danger of protesting during a pandemic.
+
+Leaving aside the state of the world, my own life is also very different than it was seven years ago.  Along with my family, I’ve moved from MIT to the University of Texas in Austin.  My daughter, who was born at almost exactly the same time as Quantum Computing Since Democritus, is now a first-grader, and is joined by a 3-year-old son.  When my daughter’s school shut down due to the coronavirus, I began home-schooling her in math, computer science, and physics—in some of the exact same topics covered in this book.  I’m now engaged in an experiment to see what portion of this material can be made accessible to a 7-year-old.
+
+But what about the material itself?  How has it held up over seven years?  Both the bad news and the (for you) good news, I suppose, is that it’s not particularly out of date.  The intellectual underpinnings of quantum computing and its surrounding disciplines remain largely as they were.  Still, let me discuss what has changed.
+
+Between 2013 and 2020, the field of quantum computing made a striking transition, from a mostly academic pursuit to a major technological arms race.  The Chinese government, the US government, and the European Union have all pledged billions of dollars for quantum computing research.  Google, Microsoft, IBM, Amazon, Alibaba, Intel, and Honeywell also now all have well-funded groups tasked with building quantum computers, or providing quantum-computing-related software and services, or even just doing classical computing that’s “quantum-inspired.”  These giants are joined by dozens of startups focused entirely on quantum computing.
+
+The new efforts vary greatly in caliber; some efforts seem rooted in visions of what quantum computers will be able to help with, and how soon, that I find to be wildly overoptimistic or even irresponsible.  But perhaps it’s always this way when a new technology moves from an intellectual aspiration to a commercial prospect.  Having joined the field around 1999, before there were any commercial efforts in quantum computing, I’ve found the change disorienting.
+
+But while some of the new excitement is based on pure hype—on marketers now mixing some “quantum” into their word-salad of “blockchain,” “deep learning,” etc., with no particular understanding of any of the ingredients—there really have been some scientific advances in quantum computing since 2013, a fire underneath the smoke.
+
+Surely the crowning achievement of quantum computing during this period was the achievement of “quantum supremacy,” which a team at Google announced in the fall of 2019.  For the first time, a programmable quantum computer was used to outperform any classical computer on earth, running any currently known algorithm.  Google’s device, called “Sycamore,” with 53 superconducting qubits cooled to a hundredth of a degree above absolute zero, solved a well-defined albeit probably useless sampling problem in about 3 minutes.  To compare, current state-of-the-art simulations on classical computers need a few days, even with hundreds of thousands of parallel processors.  Ah, but will a better classical simulation be possible?  That’s an open question in quantum complexity!  The discussion of that question draws on theoretical work that various colleagues and I did over the past decade.  That work in turn draws on my so-called PostBQP=PP theorem from 2004, explained in this book.
+
+In the past seven years, there were also several breakthroughs in quantum computing theory—some of which resolved open problems mentioned in this book.
+
+In 2018, Ran Raz and Avishay Tal gave an oracle relative to which BQP (Bounded-Error Quantum Polynomial-Time) is not contained in PH (the Polynomial Hierarchy).  This solved one of the main open questions, since 1993, about where BQP fits in with classical complexity classes, at least in the black-box setting.  (What does that mean?  Read the book!)  Raz and Tal’s proof used a candidate problem that I had defined in 2009 and called “Forrelation.”
+
+Also in 2018, Urmila Mahadev gave a protocol, based on cryptography, by which a polynomial-time quantum computer (i.e., a BQP machine) could always prove the results of its computation to a classical polynomial-time skeptic, purely by exchanging classical messages with the skeptic.  Following Urmila’s achievement, I was delighted to give her a $25 prize for solving the problem that I’d announced on my blog back in 2007.
+
+Perhaps most spectacularly of all, in 2020, Zhengfeng Ji, Anand Natarajan, Thomas Vidick, John Wright, and Henry Yuen proved that MIP*=RE.  Here MIP* means the class of problems solvable using multi-prover interactive proof systems with quantumly entangled provers (and classical polynomial-time verifiers), while RE means Recursively Enumerable: a class that includes not only all the computable problems, but even the infamous halting problem (!).  To say it more simply, entangled provers can convince a polynomial-time verifier that an arbitrary Turing machine halts.  Besides its intrinsic interest, a byproduct of this breakthrough was to answer a decades-old question in pure math, the so-called Connes Embedding Conjecture (by refuting the conjecture).  To my knowledge, the new result represents the first time that quantum computing has reached “all the way up the ladder of hardness” to touch uncomputable problems.  It’s also the first time that non-relativizing techniques, like the ones central to the study of interactive proofs, were ever used in computability theory.
+
+In a different direction, the last seven years have witnessed an astonishing convergence between quantum information and quantum gravity—something that was just starting when Quantum Computing Since Democritus appeared in 2013, and that I mentioned as an exciting new direction.  Since then, the so-called “It from Qubit” collaboration has brought together quantum computing theorists with string theorists and former string theorists—experts in things like the black hole information problem—to develop a shared language.  One striking proposal that’s emerged from this is a fundamental role for quantum circuit complexity—that is, the smallest number of 1- and 2-qubit gates needed to prepare a given n-qubit state from the all-0 state—in the so-called AdS/CFT (Anti de Sitter / Conformal Field Theory) correspondence.  AdS/CFT is a duality between physical theories involving different numbers of spatial dimensions; for more than twenty years, it’s been a central testbed for ideas about quantum gravity.  But the duality is extremely nonlocal: a “simple” quantity in the AdS theory, like the volume of a wormhole, can correspond to an incredibly “complicated” quantity in the dual CFT.  The new proposal is that the CFT quantity might be not just complicated, but literally circuit complexity itself.  Fanciful as that sounds, the truth is that no one has come up with any other proposal that passes the same sanity checks.  A related new insight is that the nonlocal mapping between the AdS and CFT theories is not merely analogous to, but literally an example of, a quantum error-correcting code: the same mathematical objects that will be needed to build scalable quantum computers.
+
+When Quantum Computing Since Democritus was first published, some people thought it went too far in elevating computer science, and computational complexity in particular, to fundamental roles in understanding the physical world.  But even I wasn’t audacious enough to posit connections like the ones above, which are now more-or-less mainstream in quantum gravity research.
+
+I’m proud that I wrote Quantum Computing Since Democritus, but as the years go by, I find that I have no particular desire to revise it, or even reread it.  It seems far better for the book to stand as a record of what I knew and believed and cared about at a certain moment in time.
+
+The intellectual quest that’s defined my life—the quest to wrap together computation, physics, math, and philosophy into some sort of coherent picture of the world—might never end.  But it does need to start somewhere.  I’m honored that you chose Quantum Computing Since Democritus as a place to start or continue your own quest.  I hope you enjoy it.
+
+Scott AaronsonAustin, TexasJune 2020
+
+================================================================================
+
+TITLE: Justice has no faction
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+(1) To start with some rare good news: I was delighted that the US Supreme Court, in a 5-4 holding led by Chief Justice Roberts (!), struck down the Trump administration’s plan to end DACA (Deferred Action for Childhood Arrivals). Dismantling DACA would’ve been a first step toward deporting 700,000 overwhelmingly blameless and peaceful people from, in many cases, the only homes they remember, for no particular reason other than to slake the resentment of Trump’s base. Better still was the majority’s argument: that when, by law, a federal agency has to supply a reason for a policy change (in this case, ending DACA), its reason can’t just be blatantly invented post facto.
+
+To connect to my last post: I hope this gives some evidence that, if Trump refuses to accept an electoral loss in November, and if it ends up in the Supreme Court as Bush v. Gore did, then Roberts might once again break from the Court’s other four rightists, in favor of the continued survival of the Republic.
+
+(2) Along with Steven Pinker, Scott Alexander, Sam Altman, Jonathan Haidt, Robert Solovay, and others who might be known to this blog’s readership, I decided after reflection to sign a petition in support of Steve Hsu, a theoretical physicist turned genomics researcher, and the Senior Vice President for Research and Innovation at Michigan State University.
+
+Hsu now faces possible firing, because of a social media campaign apparently started by an MSU grad student and SneerClub poster named Kevin Bird.  What are the charges?  Hsu appeared in 2017 on an alt-right podcast (albeit, one that Noam Chomsky has also appeared on).  On Hsu’s own podcast, he interviewed Ron Unz, who despite Jewish birth has become a nutcase Holocaust denier—yet somehow that topic never came up on the podcast.  Hsu said that, as a scientist, he doesn’t know whether group differences in average IQ have a genetic component, but our commitment to anti-racism should never hinge on questions of biology (a view also espoused by Peter Singer, perhaps the leading liberal moral philosopher of our time).  Hsu has championed genomics research that, in addition to medical uses, might someday help enable embryo screening for traits like IQ.  Finally, Hsu supports the continued use of standardized tests in university admissions (yes, that’s one of the listed charges).
+
+Crucially, it doesn’t matter for present purposes if you disagree with many of Hsu’s views. The question is more like: is agreement with Steven Pinker, Jonathan Haidt, and other mild-mannered, Obama-supporting thinkers featured in your local airport bookstore now a firing offense in academia?  And will those who affirm that it is, claim in the next breath to be oppressed, marginalized, the Rebel Alliance?
+
+To be fair to the cancelers, I think they have two reasonable arguments in their favor.
+
+The first that they’re “merely” asking for Hsu to step down as vice president, not for him to lose his tenured professorship in physics.  Only professors, say the activists, enjoy academic freedom; administrators need to uphold the values and public image of their university, as Larry Summers learned fifteen years ago.  (And besides, we might add, what intellectual iconoclast in their right mind would ever become a university VP, or want to stay one??)  I’d actually be fine with this if I had any confidence that it was going to end here.  But I don’t.  Given the now-enshrined standards—e.g., that professors hold positions of power, and that the powerful can oppress the powerless, or even do violence to them, just by expressing or entertaining thoughts outside an ever-shrinking range—why should Hsu trust any assurances that he’ll be left alone, if he does go back to being a physics professor?  If the SneerClubbers can cancel him, then how long until they cancel Pinker, or Haidt, or me?  (I hope the SneerClubbers enthusiastically embrace those ideas!  If they do, then no one ever again gets to call me paranoid about Red Guards behind every bush.)
+
+The second reasonable argument is that, as far as I can tell, Hsu really did grant undeserved legitimacy to a Holocaust denier, via a friendly interview about other topics on his podcast.  I think it would help if, without ceding a word that he doesn’t believe, Hsu were now to denounce racism, Holocaust denial, and specifically Ron Unz’s flirtation with Holocaust denial in the strongest possible terms, and explain why he didn’t bring the topic up with his guest (e.g., did he not know Unz’s views?).
+
+================================================================================
+
+TITLE: Book Review: “Will He Go?”
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+Will He Go?, by legal scholar Lawrence Douglas, is, at 120 pages, a slim volume focused on a single question: what happens if the 2020 US election delivers a narrow or disputed result favoring Biden, and Trump refuses to concede?  This question will, of course, either be answered or rendered irrelevant in half a year.  And yet, in my estimation, there’s at least a 15% probability that Will He Go? will enter the ranks of the most important and prescient books ever written.  You should read it right now (or at least read this Vox interview), if you want to think through the contours of a civilizational Singularity that seems at least as plausible to me as the AI Singularity, but whose fixed date of November 3, 2020 we’re now hurtling toward.
+
+In one of the defining memes of the past few years, a sign in a bookstore reads “Dear customers: post-apocalyptic fiction has been moved to the Current Affairs section.”  I was reminded of that as Douglas dryly lays out his horror scenario: imagine, hypothetically, that a President of the United States gets elected on a platform of racism and lies, with welcomed assistance from a foreign adversary.  Suppose that his every outrage only endears him further to his millions of followers.  Suppose that, as this president’s deepest (and perhaps only) principle, he never backs down, never apologizes, never acknowledges any inconvenient fact, and never accepts the legitimacy of any contest that he loses—and this is perfectly rational for him, as he’s been richly rewarded for this strategy his entire life.  Suppose that, during the final presidential debate, he pointedly refuses to promise to respect the election outcome if he loses—a first in American history.  And suppose that, after eking out a narrow win in the Electoral College, he then turns around and disputes the election anyway (!)—claiming, ludicrously, that he would’ve won the popular vote too, if not for millions of fraudulent voters.  Suppose that, for their own sordid reasons, Republican majorities in the Senate and Supreme Court enable this president’s chaotic rule, block his impeachment, and acquiesce to his daily cruelties and lies.
+
+Then what happens in the next election?
+
+Taking the existing catastrophe as given, Douglas asks: is America’s Constitutional machinery up to a challenge that it’s never yet faced, of a president who accepts democracy itself as legitimate only when he wins?  Douglas concludes that it isn’t—and this is the book’s terrifying and non-obvious part.  There are no checks or balances in the Constitution that will magically ensure a smooth transition of power.  On the contrary, the design flaws of our antiquated system make a meltdown more likely.
+
+OK, but then why hasn’t America’s Reactor of Democracy exploded yet (or at least, not since the Civil War)?  Douglas spends a lot of time on historical parallels, including the Tilden-Hayes election of 1876 and the Bush-Gore election of 2000.  In each case, he finds, collapse was averted not because of mythical safeguards in our rickety, Rube-Goldberg system, but only because the relevant people (e.g., Samuel Tilden, Al Gore) stood down, having internalized the norm that the national good required them to.  But that’s precisely what Trump has telegraphed that he’ll never do.
+
+The class of scenario that most worries Douglas runs as follows: just like last time, the election comes down to a few swing states, such as Pennsylvania, Wisconsin, and Michigan.  Crucially, right now all three of those states have Democratic governors and Republican-controlled legislatures … and there’s no clear law about which of the two (the governor or the legislature) gets to certify election results and send them to Congress!  So suppose Trump has a slight edge on election night, Fox News calls the race for him, but then an avalanche of absentee or provisional ballots shift things in Biden’s favor over the following week.  Can you imagine Trump or his supporters accepting the latter?
+
+Or suppose that, on election day, Russian hackers cut off electricity or voter registration databases in Philadelphia or Detroit, via computer systems that we know they already broke into and that remain exposed (!).  Hundreds of thousands are unable to vote; the Democratic governor orders a revote; the Republican legislature tries to preempt that by sending the original tally to Congress.
+
+The final authority over election results rests with Congress.  The trouble is, the Senate is currently under Republican control and the House under Democratic control—and once again, the Constitution and federal law provide no clear guidance on how to resolve a deadlock between the two on presidential succession (!!).  So what if Michigan or Pennsylvania or Wisconsin sends two separate sets of election results, and (predictably) the House accepts one and the Senate accepts the other?  And what if there’s no resolution by noon EST on January 20, 2021?  Then by law, the Speaker of the House, currently Nancy Pelosi, becomes acting president.  Can you imagine Trump willingly vacating the Oval Office if that comes to pass?
+
+Douglas seems to have finished writing Will He Go? just as the coronavirus shut down the planet; he includes some comments about how that will massively exacerbate the above problems.  Election officials expect a historic number of absentee ballots, from people—disproportionately urban—who will (reasonably) consider it unsafe to wait in line for hours in a room packed with hundreds of strangers.  Alas, Trump has already told his followers that voting by mail is a scam to be fiercely opposed, never mind that he uses it himself.  Worse yet, the laws governing mail-in ballots—the signature, the postmark, the deadline for receipt—are byzantine, open to interpretation, and wildly different from county to county.  So again: imagine if mail-in ballots overturn what looked like a Trump win on election night.  The 2000 Florida recount battle was tea and cookies by comparison.
+
+Douglas doesn’t mention, because it happened too recently, the nationwide Black Lives Matter protests (and in rarer cases, vandalism and looting) set off by the horrific murder of George Floyd, and the often shockingly militarized response.  But assuming the protests continue through the fall, they’ll of course give the Trumpists even more pretexts to meddle with the election, in the name of imposing “order.”
+
+This is not a sound statistical methodology, but if I imagine a gong every time the US inches perceptibly closer to collapse—gong when Trump got elected, gong when covid made landfall and the states were abandoned to fight each other over medical supplies, gong when George Floyd was murdered and staid, conformist liberals suddenly became anarchists demanding the complete abolition of all police—well, the gongs seem to be getting more frequent!  Almost as if they were building toward a gongularity that was, I dunno, sometime around November!
+
+Douglas never mentions the prospect of a second Civil War until literally the book’s last sentence, but it’s the undercurrent of everything he writes—particularly given Trump’s frequent glorifications of violence, and his heavily armed base.  Having spent his career studying American jurisprudence, Douglas is willing to guide our imaginations all the way to the precipice but not over it.  Part of me still finds the possibility of going over unthinkable—although wasn’t the first Civil War similarly unthinkable until shortly before it happened?
+
+If there is to be a Chernobyl-like meltdown of the Founding Fathers’ machine, at least it would retrospectively make sense of a lot that’s confused me in the past few years.  As I’m far from the only one to notice, “my” side, the left, has seemed less and less interested in debate and discussion, and more and more eager to denounce, ban, shame, and no-platform.  As just one example, out of hundreds that would serve, last week a 28-year-old analyst named David Shor was fired from his job for politely tweeting about an academic paper offering evidence that peaceful protests are effective at winning public support for progressive, antiracist causes, while violence is ineffective.  Hopefully I won’t now be fired for mentioning this!
+
+Of course every cause has its extremists, but the puzzle is that I know plenty of people who will eagerly join whatever is the shaming or firing campaign du jour.  And many of those people strike me as friendly, insightful, honest, balanced, wise—at least when the topic is apolitical, as (alas) less and less seems to be these days.
+
+Thought experiment: two protesters meet on a street, carrying huge signs that say “BLACK LIVES MATTER” and “ALL LIVES MATTER” respectively.  Can you imagine the following conversation ensuing: “Ah, my good fellow, it looks like you and I are allies, sharing deeply compatible moral messages with the world … one of us merely focused more on a special case, and the other on its generalization!  Shall we sit in the park to discuss our joint strategy?”
+
+I guess it takes an Aspbergery STEM nerd even to ask why that never happens.  To spell it out: both sides are deploying English words, not for what they explicitly assert, but as markers of tribal affiliation, of which side they’re on.
+
+It’s much the same with “Believe Women.”  “Believe all women, always?” asks our hapless STEM nerd.  “Women are goddesses who never lie?  Feminism is no longer the radical notion that women are people?”  “No, you sexist asshat,” replies the normie.  “It means listen to women, empathize with women, believe women, be on their side, be on our side.  What about that is so f-ing hard to understand?”
+
+Or consider the slogans now conquering the world: “abolish the police” and “defund the police.”  “You mean fundamentally reform the police, right?” asks the STEM nerd.  “Eliminate qualified immunity, bust the unions that protect abusive cops, get rid of military gear, provide de-escalation training, stop treating homelessness and drug abuse as law enforcement problems, and all those other no-brainers?  But not, like, literally end all law enforcement, leave the 911 calls unanswered as machete-wielding rapists run free, and let gangsters and warlords fill the vacuum?”
+
+“No, abolish the police means abolish the police,” reply the activists sternly.  “You refuse to listen.  You’re not our ally.”
+
+Imagine a ragtag guerilla army encamped in the jungle, surrounded by a brutal occupying force and facing impossible odds, constantly on the alert for turncoats and spies and fair-weather friends in its midst.  Would it surprise you if these guerillas had a macabre initiation ritual for new recruits: say, slicing off the tips of recruits’ fingers?
+
+Now suppose you reckoned that truth and justice were at least 3/4 on the guerillas’ side, and so decided to join them.  At your initiation, would you ask the guerillas if they’d analyzed whether finger-slicing actually leads to greater effectiveness in battle?  Or, as you swore the oath of eternal allegiance to the cause, with one hand on your heart and the other on your Kalashnikov, would you add: “… assuming that we continue to represent Enlightenment values like science, free speech, and intellectual charity”?
+
+When the Nazis invaded the Soviet Union in 1941, it suddenly became reasonable to take the side of the bloodthirsty Stalin.  And it would’ve been praiseworthy for a Russian to say: “I now pledge my life to fighting for the Soviet government—even if, likely as not, that government will thank me afterward by sending me to the gulag for an invented crime.”
+
+Five years ago, thousands of woke activists shamed me for writing about my teenage experiences on this blog, a few even calling for an end to my career.  Especially if those activists emerge victorious from a turbulent 2020—as I hope they will—I expect that they’ll come for me again.  (Well, if they get around to it.  I’m nowhere near the top of their list.)
+
+And yet, if Lawrence Douglas’s scenario comes to pass—if, for example, the 2020 election leaves Trump barricaded in the White House with his loyalists, while a duly elected government waits in limbo—then I pledge to render whatever assistance I can, and even risk my life if needed, for the same side that the woke activists will be on.
+
+I’d rather not, though.  As Douglas points out, the more overwhelming we can make Trump’s electoral defeat, the less chance that it ever comes to this.
+
+================================================================================
+
+TITLE: Jonathan Dowling (1955-2020)
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+Today I woke up to the sad and shocking news that Jon Dowling (homepage / Twitter / Wikipedia)—physics professor at Louisiana State, guy who got the US government to invest in quantum computing back in the 90s, author of the popular book Schrödinger’s Killer App: Race to Build the World’s First Quantum Computer, investigator of BosonSampling among many other topics, owner of a “QUBIT” license plate, and one of my main competitors in the field of quantum computing humor—has passed away at age 65, apparently due to an aortic aneurysm.
+
+Three months ago, right before covid shut down the world, the last travel I did was a seven-hour road trip from Austin to Baton Rouge, together with my postdoc Andrea Rocchetto, to deliver something called the Hearne Lecture at the Louisiana State physics department.  My topic (unsurprisingly) was Google’s quantum supremacy experiment.
+
+I’d debated whether to cancel the trip, as flying already seemed too dangerous.  Dowling was the one who said “why not just drive here with one of your postdocs?”—which turned into a memorable experience for me and Andrea, complete with a personal tour of LIGO and a visit to an alligator hatchery.  I had no inkling that it was the last time I’d ever see Jon Dowling, but am now super-glad that we made the visit.
+
+At the dinner after my talk, Dowling was exactly the same as every other time I’d seen him: loud, piss-drunk, obnoxious, and hilarious.  He dominated the conversation with stories and jokes, referring in every other sentence either to his Irishness or my Jewishness.  His efforts to banter with the waitress, to elicit her deepest opinions about each appetizer and bottle of wine, were so over-the-top that I, sitting next to him, blushed, as if to say, “hey, I’m just the visitor here!  I don’t necessarily endorse this routine!”
+
+But Dowling got away with it because, no matter how many taboos he violated per sentence, there was never any hint of malice in it.  He was an equal-opportunity offender, with his favorite target being himself.  He loved to talk, for example, about my pathological obsession with airy-fairy abstractions, like some kind of “polynomial hierarchy” that hopefully wouldn’t “collapse”—with the punchline being that he, the hardheaded laser physicist, then needed to learn what that meant for his own research.
+
+The quantum computing community of the southern US, not to mention of Twitter and Facebook, and indeed of the entire world, will be poorer without this inimitable, louder-than-life presence.
+
+Feel free to share your own Dowling stories in the comments.
+
+================================================================================
+
+TITLE: Pooled testing for covid: Guest post by Zeph Landau
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+Scott’s foreword: Zeph Landau, a noted quantum computing theorist at UC Berkeley who’s worked closely with my adviser Umesh Vazirani, recently asked me if he could write a guest post about pooled testing for covid—an old idea that, Zeph argues, could play a crucial role in letting universities safely reopen this fall.  Seeing a small chance to do a great good, I readily agreed.
+
+I should confess that I’m more … fatalistic than Zeph.  Not that I’m proud of it: I think that Zeph’s attitude is superior to mine.  But, like, I’m a theoretical computer scientist with zero expertise in medical testing or statistics, and I knew about pooled testing and its WWII origins—so imagine how thoroughly the actual experts must know the idea.  Just like they know all about variolation, and challenge trials, and copper fixtures, and UV light, and vitamin D supplements, and a dozen other possible tools against covid that future historians might ask why we didn’t try more.
+
+As I’ve written before, I think our fundamental problem is not a lack of good ideas.  It’s that, outside of some isolated pockets of progress, our entire civilization no longer has the will (or ability? is there a difference?) to implement good ideas, or even really to try them.  For anything new that requires coordination, today there are just too many stakeholders who need to be brought on board, too many risks that need further study.  So I see Zeph, and anyone like him, as occupying a tragic position, a bit like that of an Aztec advocating the use of the wheel.  “Sure,” the Aztec elders might calmly reply, “wheeled transport is obvious enough that we’ve all considered it, but a moment’s thought reveals why, in our actually existing empire, it would be reckless, costly, and of at most marginal benefit…”
+
+But I hope I’m wrong!  Better, I hope this post is the one that proves me wrong!  So without further ado, here’s…
+
+Zeph Landau’s Guest Post
+
+This post describes how every university could efficiently use modest testing resources to sensibly and extensively reduce the number of COVID-19 cases on their campus this fall.  It is meant as a call to action to the reader—because without a concerted effort to get the right people the necessary information and take immediate consequential action, a far worse alternative will be implemented almost everywhere. It is my sincere hope, that immediately after reading this post, you will take the following steps:
+
+1) Figure out who is part of the reopening committee at your institution.
+
+2) Find the right people and engage with them either as a fellow faculty member or, better yet, through a connection to get them good information about the information posted here.
+
+3) Then stay engaged and keep pushing.  (See below for links to sample documents.)
+
+OK, here we go.
+
+The Problem
+
+How can we safely open a university or college campus such that we ensure that the number of cases does not drastically increase through the newfound interactions between the population?
+
+One obvious, albeit impractical, solution to opening universities is to test everyone, everyday and isolate those that test positive quickly.  Unfortunately, we can’t do that due to costs ($100 per student per day) and availability of tests (on the order of 1000 tests per day at university testing labs).
+
+Turns out there is a solution that uses drastically fewer tests and is commensurate in detecting an outbreak. It is called pooled screening which is a variant of pooled testing.
+
+The missing piece: early detection surveillance
+
+So how do we detect most contagious people quickly if we don’t have the resources to test everyone regularly?  The answer is by pooled testing—or to be more accurate (I’ll be clear about why this distinction is important later) pooled screening. The idea of pooling is old (attributed to Dorfman in the 40’s), simple, and has been used over and over in all kinds of scenarios. Pooled testing works by mixing samples together from a group and then administering a single test to the mixture. The test is designed to be sensitive enough to come up positive whenever at least one underlying sample is positive. Instead of testing each sample individually, you test the mixture, and then only those groups that test positive undergo a second round of testing of each individual sample. The individuals do not need to deliver a second sample; there is more than enough biological material for multiple tests per sample. When prevalence of a disease is low, most pools come up negative and you save a large amount of testing resources and time.  (For those more visually inclined, here is a one minute video on pooled testing.)
+
+So what would a good early detection surveillance system look like?  Here is a reasonable and doable framework:
+
+What kinds of resources would this use?
+
+What would it accomplish?  It would quickly find outbreaks and new cases.  Under a few different assumptions of the time-course of the viral load in a person, the expected time for detecting an infectious person in this scheme is under 3 days. Those cases would then need to be fed into an existing contact tracing and quarantine protocol.  The result: an outbreak suppressed before it had a chance to get going.
+
+So why aren’t we already doing this?  Read on…
+
+The fear of false negatives in pooling
+
+The general concern to implementing pooling  for Covid-19 in the US is two-fold.
+
+Let’s take each of these concerns in turn.  The first is definitely a concern if the goal is 1:1 medical testing.  If a sample can be barely seen as positive in an individual test, then the risk is that the dilution effect when pooled with others will cause the group test to come out negative—giving a wrong result to the positive individual.  The word for this is “sensitivity”, i.e. if a test has 95% sensitivity it means that it’ll be accurate 95% of the time and produce a false negative 5% of the time.  So how sensitive would a pooled test be where you combined 16 individual samples into 1 and just ran it through an existing 1:1 test?  Lab data suggests it would have at least 70% sensitivity.  For 1:1 testing this is a non-starter, however, the goal is early detection of an outbreak, which is different and as we shall see, a 70% sensitivity does fine for this purpose.
+
+Suppose you are doing early detection surveillance and imagine that an outbreak starts.  Imagine 3 people are infected.  Because you are sampling every 3 days, you’ll be getting at least 6 positive samples, and the chances that your 70% screen misses all 6 is tiny.  As soon as it catches one, a contact tracing protocol is initiated and the others will be found.
+
+Another way to formulate what is going on is that you are trading sensitivity for speed (in the form of capacity and cost)—and that is a huge win.  The pooling and more frequent testing gives you that speed versus sensitivity tradeoff.  Sure, Lebron James (a 70% free-throw shooter) won’t make every free throw, but the chance that he misses 6 in a row is tiny.
+
+For some, the above thinking is straightforward.  However, for the medical testing paradigm—where the goal is the most accurate test for an individual using the one sample you have—this point of view is foreign and in many ways almost out of reach.
+
+OK.  So with the concern of sensitivity laid to rest, what about the second concern?  That the regulations will get in the way.  It turns out that this isn’t an issue though again, it is slightly counterintuitive for those who work in medical testing.  The task is surveillance, and therefore the pooling test is being used as a screen (not a medical test): negative group tests are not reported to the individual as a negative test result.   Positive groups are deconvoluted for individual testing and results returned to the person who is positive individually.  HHS/CLIA has indicated there aren’t regulatory restrictions as long as you don’t return test results due to the pooled test.
+
+It is important to re-emphasize that the above is for pooled screening (where negative results are not returned), which is in contrast to pooled testing (where negative pools are reported as negative test results for each individual).  For pooled testing, which has received a jump of coverage due to its use recently in Wuhan, there are large regulatory hurdles—the CDC is just formulating criteria for clearing those hurdles and the science looks like, for now, that most labs wouldn’t be able to get above pools of size 5 or so.
+
+How do you safely collect so many samples?
+
+A different direction of concern for early detection surveillance is the logistics and feasibility around collecting samples.  To date, the gold standard for sampling is a deep nasal swab that requires a professional to do it, requires PPE equipment, and is not a pleasant experience.  Using this method wouldn’t work logistically on campus.
+
+However, there are other sampling techniques that allow people to self-sample, both in the form of a shallow nasal swab and saliva based techniques.  The stated concern is obvious: there is a worry that these sampling techniques are less sensitive.  There is some evidence that this is not the case (and even the opposite) but regardless, as has been discussed— in early detection surveillance it is OK to take a hit on sensitivity.  The system remains robust because of the frequent testing and the goal of detecting an outbreak, not every individual.
+
+Being able to self-sample removes a huge bottleneck.  The picture is very much simplified.  Students/faculty/staff self-sample on their prescribed days (either in the presence of a medical professional or not depending on the approved protocol) and then drop off their sample at any of various drop-off stations on campus.  Those stations deliver the samples to the testing facility for pooling and testing.
+
+You can help to get this done
+
+Is what I’m describing a new idea?  As far as I can tell, the answer is both no and yes.  Pooled testing is in the news both as a theoretical idea and now as being implemented at some scale—in Israel, in a lab in Nebraska, and most recently in Wuhan.   But using pooling as a screen (not a medical test) within an early detection surveillance system that repeatedly screens everyone is, as far as I know, not in the discussion.
+
+What seems clear is that right now—reopening committees and labs are perhaps aware of the idea of pooling but only as a theoretical idea of a technology that might be coming at some vague time in the future.  They are unaware that in the form of early detection surveillance, it is right in front of them ready to go.  They’d need a matter of weeks to convert a 1:1 lab into a lab that could handle both pooled screening and 1:1 testing (this lab did it, here is a brief outline of the steps).  In the same timeline, they could develop a system for handling the logistics of sampling large numbers of people.
+
+And that is where each of you come in…   you can help get these ideas to the right people.  It needs to be done quickly because decisions are being made now as to what to do.  The right people are your colleagues—you just have to find out who they are and reach out to them personally.  You can find out who is on the reopening committee, you can track down faculty members in public health and microbiology.  They are often busy and might be skeptical of what an outsider can offer, but keep trying because my experience has been that if you keep at it and follow up, they will listen and be grateful for the information.
+
+Here is a sample letter you could use.
+
+Here is a crowdsourced spreadsheet for potential contact people at various universities.  If your university isn’t yet there, we ask that you enter the info that you find for your university in this form which is linked to the above spreadsheet (or enter it directly into the spreadsheet).
+
+If you want to know more or would like to craft your own letter, here are some relevant links:
+
+Covid-19 early detection surveillance on a 240 person facility using 5 tests a day
+
+Covid-19 early detection surveillance for a campus of 24,000 using 500 tests a day
+
+And here is a simple analysis of the mean time between contagion and detection that an early detection scheme could accomplish.
+
+If anyone wants to follow up with me, I’m happy to do so.  You can reach me at:  zeph dot landau at gmail dot com
+
+Thanks.
+
+Zeph LandauDept. of Computer ScienceUniversity of California, Berkeley
+
+================================================================================
+
+TITLE: The US might die, but P and PSPACE are forever
+URL: https://scottaaronson.blog/?m=202006
+CONTENT:
+Today, I interrupt the news of the rapid disintegration of the United States of America, on every possible front at once (medical, economic, social…), to bring you something far more important: a long-planned two-hour podcast, where theoretical physicist and longtime friend-of-the-blog Sean Carroll interviews yours truly about complexity theory!  Here’s Sean’s description of this historic event:
+
+There are some problems for which it’s very hard to find the answer, but very easy to check the answer if someone gives it to you. At least, we think there are such problems; whether or not they really exist is the famous P vs NP problem, and actually proving it will win you a million dollars. This kind of question falls under the rubric of “computational complexity theory,” which formalizes how hard it is to computationally attack a well-posed problem. Scott Aaronson is one of the world’s leading thinkers in computational complexity, especially the wrinkles that enter once we consider quantum computers as well as classical ones. We talk about how we quantify complexity, and how that relates to ideas as disparate as creativity, knowledge vs. proof, and what all this has to do with black holes and quantum gravity.
+
+So, OK, I guess I should also comment on the national disintegration thing.  As someone who was once himself the victim of a crazy police overreaction (albeit, trivial compared to what African-Americans regularly deal with), I was moved by the scenes of police chiefs in several American towns taking off their helmets and joining protesters to cheers.  Not only is that a deeply moral thing to do, but it serves a practical purpose of quickly defusing the protests.  Right now, of course, is an even worse time than usual for chaos in the streets, with a lethal virus still spreading that doesn’t care whether people are congregating for good or for ill.  If rational discussion of policy still matters, I support the current push to end the “qualified immunity” doctrine, end the provision of military training and equipment to police, and generally spur the nation’s police to rein in their psychopath minority.
+
+================================================================================
+

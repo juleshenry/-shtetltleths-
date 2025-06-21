@@ -1,0 +1,145 @@
+TITLE: Can’t… blog… too much… pain…
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+I’m bedridden with a sore throat, and on enough painkillers to knock out an elephant (well, a very small elephant). I assume the String Theory God is punishing me. I’ve been repenting to all five of His manifestations — Type I, Type IIA, Type IIB, Heterotic SO(32), and Heterotic E8xE8 — and hopefully I’ll be back in a couple days.  Happy Halloween.
+
+================================================================================
+
+TITLE: Buck, buck, buck
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+Like a masked chicken of the darkness, the anonymous commenter deposits his ad hominem attack and then flees the scene, as though repelled by the malodorous stench of his own words.  Alright, I’m not Stephen King.  But the point is that, if you leave an anonymous comment that doesn’t contribute anything, from now on I’m going to feel free to delete it.  I will never delete signed comments, unless they’re completely off-topic, or reveal the coordinates of nuclear missiles being transported across South Dakota, or something like that.  Oh yeah: and tomorrow night, if you’re going to egg any houses or toilet-paper any trees, sign your work.
+
+================================================================================
+
+TITLE: Mahmoud and me (continued)
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+I woke up this afternoon to find, in the comments section of my previous post, an ongoing debate about whether or not I was being serious when I praised the President of Iran for his resoluteness and conviction. For those who couldn’t figure it out, the answer is: of course I was being serious. In fact, right after I finished blogging, I telephoned Mahmoud to ask whether the Iranian army could use the services of a 24-year-old male who speaks fluent English, can do up to two push-ups per day, once fired an actual rifle, loves Persian food, and believes himself able to prove quantum lower bounds under combat conditions.
+
+Mahmoud mulled it over for a while, and then replied that, while my qualifications were certainly impressive, unfortunately I did not meet his needs at the present time. I was devastated — and, I confess, I even started to wonder whether anti-Semitism might be at play. Except … how could he know? Throw in an extra “s,” and “Scott Aaronsson” could almost pass for Scandanavian. Then it hit me: like everyone else I’ve talked to over the past couple weeks, Mahmoud must be reading my weblog!
+
+OK, look: is it “immature” to joke about these things, as several posters argued?  Yes, it is immature. The mature response is to deplore evil, to be shocked by it — not to make a movie with Nazis dancing to the tune of “Springtime for Hitler in Germany,” or Woody Allen standing behind Hitler on a podium as part of his ongoing struggle to fit in. It’s just that all that deploring gets monotonous eventually. After a millennium or two, there’s nothing else to do except joke.  As the story goes:
+
+In 1936 in Berlin, a Jew is sitting in a cafe, reading Der Stürmer.  His friend runs over to him: “Herschel, what are you doing?  Don’t you realize that’s a Nazi paper?”
+
+“Yeah, but in the Jewish papers, the news is always so depressing. Here it’s phenomenal: we control the banks, we control the media…”
+
+================================================================================
+
+TITLE: Mahmoud and me
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+From the Wikipedia entry on Mahmoud Ahmadinejad, the current President of Iran:
+
+During a “World Without Zionism” student conference in October 2005, Mahmoud Ahmadinejad … called Israel a “disgraceful blot” that ought to be “wiped off the map.” He went on to decry attempts to normalize relations with Israel and condemned all Islamic leaders who recognize Israel’s existence as “acknowledging the surrender and defeat of the Islamic world” …
+
+Kofi Annan said he was dismayed by the comments, and reiterated Iran’s obligations and Israel’s right of existence under the UN Charter.  The White House responded by saying Ahmadinejad’s rhetoric showed that it was correct in trying to halt Iran’s nuclear program.  EU leaders issued a strong condemnation of the Iranian President’s remarks, stating that “[c]alls for violence, and for the destruction of any state, are manifestly inconsistent with any claim to be a mature and responsible member of the international community.”
+
+Ahmadinejad reaffirmed his position on 28 October 2005, as supporters chanting “death to Israel” and “death to America”, some burning and trampling on Israeli and U.S. flags, marched to a rally in Tehran attended by most of Iran’s top officials. “My words are the Iranian nation’s words,” he said. “Westerners are free to comment, but their reactions are invalid.”
+
+In an age when soft-pedaling, pussyfooting, and political correctness are the norm, it’s refreshing to find a leader with genuine convictions — one who says what he means, and refuses to back down at the first whiff of criticism. Say what you like about Mahmoud; the man is not a flip-flopping wuss.
+
+================================================================================
+
+TITLE: Insert “string” pun here
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+Over at Peter Woit’s blog there’s a lively discussion about the differences between string theory and intelligent design. There are a few obvious ones: one is based Fields Medal caliber math and the other on elementary mistakes in probability; one is studied at an Institute and the other at an “Institute”. But arguably, neither theory has yet made a clear prediction or explained what it sets out to in a non-circular way. String theorists explain the muon mass by invoking an infinite set of Calabi-Yau manifolds, some of which presumably yield the right value; ID’ers explain the complicated dance of bees by invoking a yet more complicated designer.
+
+Of course, an important difference is that most string theorists admit the situation sucks. Many are searching for some deeper principle that would pick out a preferred vacuum (or set of vacua, or probability distribution over vacua) non-anthropically. Based on what little I know, it doesn’t sound like an enviable task. Today I had lunch with Frederik Denef, a string theorist who’s interested in the computational complexity of finding a minimum-energy vacuum, given a collection of scalar fields. He’s formulated some toy problems, all of which are provably NP-hard (or as hard as unique-SVP under a uniqueness assumption). I was impressed by Denef’s knowledge of complexity, and by his willingness to state precise problems that I could understand. But his work suggests an obvious conundrum: if finding an “optimal” Calabi-Yau is so hard, then how did Nature do it in the first place? (If the string theorists ever succeed, will a voice in the sky boom “Thanks, dudes!” just before space as we know it disappears?)
+
+In short, if the ID’ers are armed squatters in the apartment building of science, openly scorning the materialistic concept of rent, then the string theorists are model tenants who often drop by the landlord’s office to say good afternoon, and by the way, that check from 20 years ago should clear any day. (In their defense, the other quantum gravity theorists’ checks haven’t cleared either.) To me, this raises an interesting question: does science need a notion of “resource-bounded falsifiability,” which is to Popper’s original notion as complexity is to computability?
+
+================================================================================
+
+TITLE: Missing the boat
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+This morning I got an email from Eric Klien of the Lifeboat Foundation, an organization that advocates building a “space ark” as an insurance policy in case out-of-control nanorobots destroy all life on Earth. Klien was inviting me to join the foundation’s scientific advisory board, which includes such notables as Ray Kurzweil.  I thought readers of this blog might be interested in my response.
+
+Dear Eric,
+
+I’m honored (and surprised) that you would consider me for your board. But I’m afraid I’m going to decline, for the following reasons:
+
+(1) I’m generally skeptical of predictions about specific future technologies, especially when those predictions are exactly the sort of thing that a science fiction writer would imagine. In particular, I consider the risk of self-replicating nanobots converting our entire planet into gray goo to be a small one.
+
+(2) Once we’re dealing with such unlikely events, I don’t think we can say with confidence what protective measures would be effective. For all we know, any measures we undertake will actually increase the risk of catastrophe. For example, maybe if humanity launches a space ark, that will tip off a hostile alien civilization to our existence. And maybe the Earth will then be besieged by alien warships, which can only be destroyed using gray goo — the development of which was outlawed as a protective measure. I’m not claiming that this scenario is likely, only that I have no idea whether it’s more or less likely than the scenarios you’re considering.
+
+(3) There are several risks to humanity that I consider more pressing than that of nanotechnology run amok. These include climate change, the loss of forests and freshwater supplies, and nuclear proliferation.
+
+Best regards,
+Scott Aaronson
+
+================================================================================
+
+TITLE: Oh, Canada
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+A headline in yesterday’s Toronto Sun:
+
+TWO MORE SHOT DEAD
+Grim Rexdale total at three as bloody weekend ends city’s month of gun-death peace
+
+It occurred to me that in the US, the headline would be a bit different:
+
+“A MIRACLE”
+In a city of 2.5 million inhabitants, an entire month with no gun homicides
+
+================================================================================
+
+TITLE: Alright, alright, alright
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+I’ve caved in to popular demand.  From now on, every embryonic insight, discursive jumble of neural firings, and missive from the depths of my soul will be filed under a pithy title, so that readers on the go can quickly decide which ones are worth their time to read.  To maintain consistency, I also went back and titled the 17 previous posts.
+
+================================================================================
+
+TITLE: A prophet will arise
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+At last night’s FOCS business meeting, there was a panel discussion on how to get the public excited about theoretical computer science. Unfortunately I missed it — I’m skipping FOCS for the first time in years — so I’m grateful to Rocco Servedio for this post about the discussion and to Dave Bacon for this one.
+
+The obvious question is, why has there been so little success at popularizing theoretical computer science? Here I’d like to propose an answer to this question: because no one in  human history has ever successfully popularized any field of science.
+
+“But that’s absurd!” you interject. “What about Stephen Hawking, or Richard Dawkins, or Carl Sagan, or Richard Feynman, or Isaac Asimov, or Bertrand Russell?”
+
+My response is simple.  These people are not popularizers.  They are prophets.
+
+Like Moses descending from Sinai, the scientific prophet emerges from the clouds of Platonic heaven with a vision for the huddled throng below: that yea, though our lives may be fleeting and our bodies frail, through reason we shall know the mind of God. We are apes with telescopes, star-stuff pondering the stars.
+
+Often, as in the cases of Hawking and Feynman, the prophet’s own life is central to the vision. The prophet teaches by example, showing us that no physical impediment is too great to overcome, that the world is full of solvable mysteries, that Nature cannot be fooled.
+
+The prophet does not confine himself to his “area of expertise,” any more than Moses limited himself to shepherding regulations or Jesus to carpentry tips. He draws on his field for illustration, to be sure, but his real interest is life itself. He never hesitates to philosophize or moralize, even if only to tell his listeners that philosophers and moralists are idiots.
+
+The scientific prophet presents humanity with a choice: will we persist in our petty squabbles and infantile delusions, Neanderthals with computers and ICBM’s? Or will we create a better world, one worthy of reasoning beings?
+
+Even when the prophet exhorts us to reason, skepticism, and empiricism, he does so by hijacking a delivery system that is thousands of years old. And that is why he succeeds.
+
+Theoretical computer science will capture the public’s imagination when, and only when, it produces a prophet.
+
+================================================================================
+
+TITLE: Doctor of Hacking
+URL: https://scottaaronson.blog/?m=200510
+CONTENT:
+Amir Michail has asked me to comment on his proposal to create a new field: one that’s “like computer science, but more creative.” My first reaction was to wonder, how much more creative does he want? He might as well ask for a field that’s like dentistry, but with more teeth. (I was reminded of Hilbert’s famous remark, when told that a student had abandoned math to become a poet: “Good. He didn’t have enough imagination to be a mathematician.”)
+
+But on second thought, it’s true that computer science encourages a particular kind of creativity: one that’s directed toward answering questions, rather than building things that are useful or cool. I learned about this distinction as an undergraduate, when the professor in my natural language processing class refused to let me write a parody-generating program (like this one) for my term project, on the grounds that such a program would not elucidate any scientific question. Of course, she was right.
+
+Paul Graham explained the issue memorably in his essay Hackers and Painters:
+
+I’ve never liked the term “computer science.” The main reason I don’t like it is that there’s no such thing. Computer science is a grab bag of tenuously related areas thrown together by an accident of history, like Yugoslavia. At one end you have people who are really mathematicians, but call what they’re doing computer science so they can get DARPA grants. In the middle you have people working on something like the natural history of computers — studying the behavior of algorithms for routing data through networks, for example. And then at the other extreme you have the hackers, who are trying to write interesting software, and for whom computers are just a medium of expression, as concrete is for architects or paint for painters …
+
+The mathematicians don’t seem bothered by this. They happily set to work proving theorems like the other mathematicians over in the math department, and probably soon stop noticing that the building they work in says “computer science” on the outside. But for the hackers this label is a problem. If what they’re doing is called science, it makes them feel they ought to be acting scientific. So instead of doing what they really want to do, which is to design beautiful software, hackers in universities and research labs feel they ought to be writing research papers.
+
+(Incidentally, Graham is mistaken about one point: most theoretical computer scientists could not blend in among mathematicians. Avi Wigderson, one of the few who can and does, once explained the difference to me as follows. Mathematicians start from dizzyingly general theorems, then generalize them even further. Theoretical computer scientists start from incredibly concrete problems that no one can solve, then find special cases that still no one can solve.)
+
+One puzzle that Graham’s analysis helps to resolve is why computer systems papers are so excruciatingly boring, almost without exception. It can’t be because the field itself is boring: after all, it’s transformed civilization in 30 years. Rather, computer systems papers are boring because asking hackers to write papers about what they hacked is like asking Bach to write papers about his sonatas:
+
+Abstract. We describe several challenges encountered during the composition of SONATA2 (“Sonata No. 2 in A minor”). These results might provide general insights applicable to the composition of other such sonatas…
+
+So what should be done? Should universities create “Departments of Hacking” to complement their CS departments? I actually think they should (especially if the split led to more tenure-tracks for everyone). All I ask is that, if you do find yourself in a future Hacking Department, you come over to CS for a course on algorithms and complexity. It’ll be good for your soul.
+
+================================================================================
+

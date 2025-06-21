@@ -1,0 +1,98 @@
+TITLE: Stop emailing my utexas address
+URL: https://scottaaronson.blog/?m=202102
+CONTENT:
+A month ago, UT Austin changed its email policies—banning auto-forwarding from university accounts to Gmail accounts, apparently as a way to force the faculty and other employees to separate their work email from their personal email, and thereby comply with various government regulations.  Ever since that change, the email part of my life has been a total, unmitigated disaster.  I’ve missed (or been late to see) dozens of important work emails, with the only silver lining being that that’s arguably UT’s problem more than it is mine!
+
+And yes, I’ve already gone to technical support; the only answer I’ve gotten is that (in so many words) there is no answer.  Other UT faculty are somehow able to deal with this because they are them; I am unable to deal with it because I am me.  As a mere PhD in computer science, I’m utterly unqualified to set up a technical fix for this sort of problem.
+
+So the bottom line is: from now on, if you want me to see an email, send it to scott@scottaaronson.com.  Really.  If you try sending it to aaronson@cs.utexas.edu, it will land in a separate inbox that I can access only with great inconvenience.  And if, God forbid, you try sending it to aaronson@utexas.edu, the email will bounce and I’ll never see it at all.  Indeed, a central purpose of this post is just to have a place to point the people who contact me every day, shocked that their emails to me bounced.
+
+This whole episode has given me immense sympathy for Hillary Clinton, and for the factors that led her to set up clintonemail.com from her house.  It’s not merely that her private email server was a laughably trivial reason to end the United States’ 240-year run of democratic government.  Rather it’s that, even on the narrow question of emails, I now feel certain that Hillary was 100% right.  Bureaucracy that impedes communication is a cancer on human civilization.
+
+Update: Thanks so much to commenter Avraham and to my colleague Etienne Vouga, who quickly gave me the crucial information that tech support would not, and thereby let me solve this problem.  I can once again easily read emails sent to aaronson@cs.utexas.edu … well, at least for now!  I’m now checking about aaronson@utexas.edu.  Again, though, scott@scottaaronson.com to be safe.
+
+================================================================================
+
+TITLE: Brief thoughts on the Texas catastrophe
+URL: https://scottaaronson.blog/?m=202102
+CONTENT:
+This past week, I spent so much mental energy worrying about the fate of Scott Alexander that I almost forgot that right here in Texas, I’m surrounded by historic scenes of Third-World-style devastation: snowstorms and sub-freezing temperatures for which our infrastructure was completely unprepared; impassable roads; burst gas and water pipes; millions without electricity or heat or clean water; the UT campus a short walk from me converted into a giant refugee camp.
+
+For all those who asked: my family and I are fine.  While many we know were without power for days (or are still without power), we lucked out by living close to a hospital, which means that they can’t shut off the electricity to our block.  We are now on a boil-water notice, like all of Austin, and we can’t take deliveries or easily go anywhere, and the university and schools and daycares are all closed (even for remote learning).  Which means: we’re simply holed up in our house, eating through our stockpiled food, the kids running around being crazy, Dana and I watching them with one eye and our laptops with the other.  Could be worse.
+
+In some sense, it’s not surprising that the Texas infrastructure would buckle under weather stresses outside the envelope of anything it was designed for or saw for decades.  The central problem is that our elected leaders have shown zero indication of understanding the urgent need, for Texas’ economic viability, to do whatever it takes to make sure nothing like this ever happens again.  Ted Cruz, as everyone now knows, left for Cancun; the mayor of Colorado City angrily told everyone to fend for themselves (and then resigned); and Governor Abbott has been blaming frozen wind turbines, a tiny percentage of the problem (frozen gas pipes are a much bigger issue) but one that plays with the base.  The bare minimum of a sane response might be, I dunno,
+
+If I were a Texas Democrat, I’d consider making Republican incompetence on infrastructure, utilities, and public health my only campaign issues.
+
+Alright, now back to watching the Mars lander, which is apparently easier to build and deploy than a reliable electric grid.
+
+================================================================================
+
+TITLE: On standing up sans backbone
+URL: https://scottaaronson.blog/?m=202102
+CONTENT:
+Note: To get myself into the spirit of writing this post, tonight I watched the 2019 movie Mr. Jones, about the true story of the coverup of Stalin’s 1932-3 mass famine by New York Times journalist Walter Duranty.  Recommended!
+
+In my last post, I wrote that despite all my problems with Cade Metz’s New York Times hit piece on Scott Alexander, I’d continue talking to journalists—even Metz himself, I added, assuming he’d still talk to me after my public disparagement of his work.  Over the past few days, though, the many counterarguments in my comments section and elsewhere gradually caused me to change my mind.  I now feel like to work with Metz again, even just on some quantum computing piece, would be to reward—and to be seen as rewarding—journalistic practices that are making the world worse, and that this consideration overrides even my extreme commitment to openness.
+
+At the least, before I could talk to Metz again, I’d need a better understanding of how the hit piece happened.  What was the role of the editors?  How did the original hook—namely, the rationalist community’s early rightness about covid-19—disappear entirely from the article?  How did the piece manage to evince so little curiosity about such an unusual subculture and such a widely-admired writer?  How did it fail so completely to engage with the rationalists’ ideas, instead jumping immediately to “six degrees of Peter Thiel” and other reductive games?  How did an angry SneerClubber, David Gerard, end up (according to his own boast) basically dictating the NYT piece’s content?
+
+It’s always ripping-off-a-bandage painful to admit when trust in another person was wildly misplaced—for then who else can we not trust?  But sometimes that’s the truth of it.
+
+I continue to believe passionately in the centrality of good journalism to a free society.  I’ll continue to talk to journalists often, about quantum computing or whatever else.  I also recognize that the NYT is a large, heterogeneous institution (I myself published in it twice); it’s not hard to imagine that many of its own staff take issue with the SSC piece.
+
+But let’s be clear about the stakes here.  In the discussion of my last post, I described the NYT as “still the main vessel of consensus reality in human civilization” [alright, alright, American civilization!].  What’s really at issue, beyond the treatment of a single blogger, is whether the NYT can continue serving that central role in a world reshaped by social media, resurgent fascism, and entitled wokery.
+
+Sure, we all know that the NYT has been disastrously wrong before: it ridiculed Goddard’s dream of spaceflight, denied the Holodomor, relegated the Holocaust to the back pages while it was happening, published the fabricated justifications for the Iraq War.  But the NYT and a few other publications were still the blockchain of reality, the engine of the consensus of all that is, the last bulwark against the conspiracists and the anti-vaxxers and the empowered fabulists and the horned insurrectionists storming the Capitol, because there was no ability to coordinate around any serious alternative.  I’m still skeptical that there’s a serious alternative, but I now look more positively than I did just a few days ago on attempts to create one.
+
+To all those who called me naïve or a coward for having cooperated with the NYT: believe me, I’m well aware that I wasn’t born with much backbone.  (I am, after all, that guy on the Internet who famously once planned on a life of celibate asceticism, or more likely suicide, rather than asking women out and thereby risking eternal condemnation as a misogynistic sexual harasser by the normal, the popular, the socially adept, the … humanities grads and the journalists.)  But whenever I need a pick-me-up, I tell myself that rather than being ashamed about my lack of a backbone, I can take pride in having occasionally managed to stand even without one.
+
+================================================================================
+
+TITLE: A grand anticlimax: the New York Times on Scott Alexander
+URL: https://scottaaronson.blog/?m=202102
+CONTENT:
+Updates (Feb. 14, 2021): Scott Alexander Siskind responds here.
+
+Last night, it occurred to me that despite how disjointed it feels, the New York Times piece does have a central thesis: namely, that rationalism is a “gateway drug” to dangerous beliefs.  And that thesis is 100% correct—insofar as once you teach people that they can think for themselves about issues of consequence, some of them might think bad things.  It’s just that many of us judge the benefit worth the risk!
+
+Happy Valentine’s Day everyone!
+
+
+
+Back in June, New York Times technology reporter Cade Metz, who I’d previously known from his reporting on quantum computing, told me that he was writing a story about Scott Alexander, Slate Star Codex, and the rationalist community.  Given my position as someone who knew the rationalist community without ever really being part of it, Cade wondered whether I’d talk with him.  I said I’d be delighted to.
+
+I spent many hours with Cade, taking his calls and emails morning or night, at the playground with my kids or wherever else I was, answering his questions, giving context for his other interviews, suggesting people in the rationalist community for him to talk to, in exactly the same way I might suggest colleagues for a quantum computing story.  And then I spent just as much time urging those people to talk to Cade.  (“How could you possibly not want to talk?  It’s the New York Times!”)  Some of the people I suggested agreed to talk; others refused; a few were livid at me for giving a New York Times reporter their email addresses without asking them.  (I apologized; lesson learned.)
+
+What happened next is already the stuff of Internet history: the NYT’s threat to publish Scott’s real surname; Scott deleting his blog as a way to preempt that ‘doxing’; 8,000 people, including me, signing a petition urging the NYT to respect Scott’s wish to keep his professional and blog identities separate; Scott resigning from his psychiatry clinic and starting his own low-cost practice, Lorien Psychiatry; his moving his blog, like so many other writers this year, to Substack; then, a few weeks ago, his triumphant return to blogging under his real name of Scott Siskind.  All this against the backdrop of an 8-month period that was world-changingly historic in so many other ways: the failed violent insurrection against the United States and the ouster, by democratic means, of the president who incited it; the tragedy of covid and the long-delayed start of the vaccination campaign; the BLM protests; the well-publicized upheavals at the NYT itself, including firings for ideological lapses that would’ve made little sense to our remote ancestors of ~2010.
+
+And now, as an awkward coda, the New York Times article itself is finally out (non-paywalled version here).
+
+It could’ve been worse.  I doubt it will do lasting harm.  Of the many choices I disagreed with, I don’t know which were Cade’s and which his editors’.  But no, I was not happy with it.  If you want a feature-length, pop condensation of the rationalist community and its ideas, I preferred this summer’s New Yorker article (but much better still is the book by Tom Chivers).
+
+The trouble with the NYT piece is not that it makes any false statements, but just that it constantly insinuates nefarious beliefs and motives, via strategic word choices and omission of relevant facts that change the emotional coloration of the facts that it does present.  I repeatedly muttered to myself, as I read: “dude, you could make anything sound shady with this exact same rhetorical toolkit!”
+
+Without further ado, here’s a partial list of my issues:
+
+Reading this article, some will say that they told me so, or even that I was played for a fool.  And yet I confess that, even with hindsight, I have no idea what I should have done differently, how it would’ve improved the outcome, or what I will do differently the next time.  Was there some better, savvier way for me to help out?  For each of the 14 points listed above, were I ever tempted to bang my head and say, “dammit, I wish I’d told Cade X, so his story could’ve reflected that perspective”—well, the truth of the matter is that I did tell him X!  It’s just that I don’t get to decide which X’s make the final cut, or which ideological filter they’re passed through first.
+
+On reflection, then, I’ll continue to talk to journalists, whenever I have time, whenever I think I might know something that might improve their story.  I’ll continue to rank bend-over-backwards openness and honesty among my most fundamental values.  Hell, I’d even talk to Cade for a future story, assuming he’ll talk to me after all the disagreements I’ve aired here!  [Update: commenters’ counterarguments caused me to change my stance on this; see here.]
+
+For one thing that became apparent from this saga is that I do have a deep difference with the rationalists, one that will likely prevent me from ever truly joining them.  Yes, there might be true and important things that one can’t say without risking one’s livelihood.  At least, there were in every other time and culture, so it would be shocking if Western culture circa 2021 were the lone exception.  But unlike the rationalists, I don’t feel the urge to form walled gardens in which to say those things anyway.  I simply accept that, in the age of instantaneous communication, there are no walled gardens: anything you say to a dozen or more people, you might as well broadcast to the planet.  Sure, we all have things we say only in the privacy of our homes or to a few friends—a privilege that I expect even the most orthodox would like to preserve, at any rate for themselves.  Beyond that, though, my impulse has always been to look for non-obvious truths that can be shared openly, and that might light little candles of understanding in one or two minds—and then to shout those truths from the rooftops under my own name, and learn what I can from whatever sounds come in reply.
+
+So I’m thrilled that Scott Alexander Siskind has now rearranged his life to have the same privilege.  Whatever its intentions, I hope today’s New York Times article draws tens of thousands of curious new readers to Scott’s new-yet-old blog, Astral Codex Ten, so they can see for themselves what I and so many others saw in it.  I hope Scott continues blogging for decades.  And whatever obscene amount of money Substack is now paying Scott, I hope they’ll soon be paying him even more.
+
+
+
+Alright, now for the promised quote, from I Can Tolerate Anything Except the Outgroup.
+
+The Red Tribe is most classically typified by conservative political beliefs, strong evangelical religious beliefs, creationism, opposing gay marriage, owning guns, eating steak, drinking Coca-Cola, driving SUVs, watching lots of TV, enjoying American football, getting conspicuously upset about terrorists and commies, marrying early, divorcing early, shouting “USA IS NUMBER ONE!!!”, and listening to country music.
+
+The Blue Tribe is most classically typified by liberal political beliefs, vague agnosticism, supporting gay rights, thinking guns are barbaric, eating arugula, drinking fancy bottled water, driving Priuses, reading lots of books, being highly educated, mocking American football, feeling vaguely like they should like soccer but never really being able to get into it, getting conspicuously upset about sexists and bigots, marrying later, constantly pointing out how much more civilized European countries are than America, and listening to “everything except country”.
+
+(There is a partly-formed attempt to spin off a Grey Tribe typified by libertarian political beliefs, Dawkins-style atheism, vague annoyance that the question of gay rights even comes up, eating paleo, drinking Soylent, calling in rides on Uber, reading lots of blogs, calling American football “sportsball”, getting conspicuously upset about the War on Drugs and the NSA, and listening to filk – but for our current purposes this is a distraction and they can safely be considered part of the Blue Tribe most of the time)
+
+… Even in something as seemingly politically uncharged as going to California Pizza Kitchen or Sushi House for dinner, I’m restricting myself to the set of people who like cute artisanal pizzas or sophsticated foreign foods, which are classically Blue Tribe characteristics.
+
+================================================================================
+

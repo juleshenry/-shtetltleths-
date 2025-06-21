@@ -1,0 +1,162 @@
+TITLE: Striking new Beeping Busy Beaver champion
+URL: https://scottaaronson.blog/?m=202107
+CONTENT:
+For the past few days, I was bummed about the sooner-than-expected loss of Steven Weinberg.  Even after putting up my post, I spent hours just watching old interviews with Steve on YouTube and reading his old essays for gems of insight that I’d missed.  (Someday, I’ll tackle Steve’s celebrated quantum field theory and general relativity textbooks … but that day is not today.)
+
+Looking for something to cheer me up, I was delighted when Shtetl-Optimized reader Nick Drozd reported a significant new discovery in BusyBeaverology—one that, I’m proud to say, was directly inspired by my Busy Beaver survey article from last summer (see here for blog post).
+
+Recall that BB(n), the nth Busy Beaver number (technically, “Busy Beaver shift number”), is defined as the maximum number of steps that an n-state Turing machine, with 1 tape and 2 symbols, can make on an initially all-0 tape before it invokes a Halt transition.  Famously, BB(n) is not only uncomputable, it grows faster than any computable function of n—indeed, computing anything that grows as quickly as Busy Beaver is equivalent to solving the halting problem.
+
+As of 2021, here is the extent of human knowledge about concrete values of this function:
+
+As you can see, the function is reasonably under control for n≤4, then “achieves liftoff” at n=5.
+
+In my survey, inspired by a suggestion of Harvey Friedman, I defined a variant called Beeping Busy Beaver, or BBB.  Define a beeping Turing machine to be a TM that has a single designated state where it emits a “beep.”  The beeping number of such a machine M, denoted b(M), is the largest t such that M beeps on step t, or ∞ if there’s no finite maximum.  Then BBB(n) is the largest finite value of b(M), among all n-state machines M.
+
+I noted that the BBB function grows uncomputably even given an oracle for the ordinary BB function.  In fact, computing anything that grows as quickly as BBB is equivalent to solving any problem in the second level of the arithmetical hierarchy (where the computable functions are in the zeroth level, and the halting problem is in the first level).  Which means that pinning down the first few values of BBB should be even more breathtakingly fun than doing the same for BB!
+
+In my survey, I noted the following four concrete results:
+
+The first three of these, I managed to get on my own, with the help of a little program I wrote.  The fourth one was communicated to me by Nick Drozd even before I finished my survey.
+
+So as of last summer, we knew that BBB coincides with the ordinary Busy Beaver function for n=1 and n=2, then breaks away starting at n=3.  We didn’t know how quickly BBB “achieves liftoff.”
+
+But Nick continued plugging away at the problem all year, and he now claims to have resolved the question.  More concretely, he claims the following two results:
+
+For more, see Nick’s announcement on the Foundations of Mathematics email list, or his own blog post.
+
+Nick actually writes in terms of yet another Busy Beaver variant, which he calls BLB, or “Blanking Beaver.”  He defines BLB(n) to be the maximum finite number of steps that an n-state Turing machine can take before it first “wipes its tape clean”—that is, sets all the tape squares to 0, as they were at the very beginning of the computation, but as they were not at intermediate times.  Nick has discovered a 4-state machine that takes 32,779,477 steps to blank out its tape, thereby proving that
+
+Nick’s construction, when investigated, turns out to be based on a “Collatz-like” iterative process—exactly like the BB(5) champion and most of the other strong Busy Beaver contenders currently known.  A simple modification of his construction yields the lower bound on BBB.
+
+Note that the Blanking Beaver function does not have the same sort of super-uncomputable growth that Beeping Busy Beaver has: it merely grows “normally” uncomputably fast, like the original BB function did.  Yet we see that BLB, just like BBB, already “achieves liftoff” by n=4, rather than n=5.  So the real lesson here is that 4-state Turing machines can already do fantastically complicated things on blank tapes.  It’s just that the usual definitions of the BB function artificially prevent us from seeing that; they hide the uncomputable insanity until we get to 5 states.
+
+================================================================================
+
+TITLE: Steven Weinberg (1933-2021): a personal view
+URL: https://scottaaronson.blog/?m=202107
+CONTENT:
+
+
+
+
+Steven Weinberg was, perhaps, the last truly towering figure of 20th-century physics.  In 1967, he wrote a 3-page paper saying in effect that as far as he could see, two of the four fundamental forces of the universe—namely, electromagnetism and the weak nuclear force—had actually been the same force until a tiny fraction of a second after the Big Bang, when a broken symmetry caused them to decouple.  Strangely, he had developed the math underlying this idea for the strong nuclear force, and it didn’t work there, but it did seem to work for the weak force and electromagnetism.  Steve noted that, if true, this would require the existence of two force-carrying particles that hadn’t yet been seen — the W and Z bosons — and would also require the existence of the famous Higgs boson.
+
+By 1979, enough of this picture had been confirmed by experiment that Steve shared the Nobel Prize in Physics with Sheldon Glashow—Steve’s former high-school classmate—as well as with Abdus Salam, both of whom had separately developed pieces of the same puzzle.  As arguably the central architect of what we now call the Standard Model of elementary particles, Steve was in the ultra-rarefied class where, had he not won the Nobel Prize, it would’ve been a stain on the prize rather than on him.
+
+Steve once recounted in my hearing that Richard Feynman initially heaped scorn on the electroweak proposal.  Late one night, however, Steve was woken up by a phone call.  It was Feynman.  “I believe your theory now,” Feynman announced.  “Why?” Steve asked.  Feynman, being Feynman, gave some idiosyncratic reason that he’d worked out for himself.
+
+It used to happen more often that someone would put forward a bold new proposal about the most fundamental laws of nature … and then the experimentalists would actually go out and confirm it.  Besides with the Standard Model, though, there’s approximately one other time that that’s happened in the living memory of most of today’s physicists.  Namely, when astronomers discovered in 1998 that the expansion of the universe was accelerating, apparently due to a dark energy that behaved like Einstein’s long-ago-rejected cosmological constant.  Very few had expected such a result.  There was one prominent exception, though: Steve Weinberg had written in 1987 that he saw no reason why the cosmological constant shouldn’t take a nonzero value that was still tiny enough to be consistent with galaxy formation and so forth.
+
+In his long and illustrious career, one of the least important things Steve did, six years ago, was to play a major role in recruiting me and my wife Dana to UT Austin.  The first time I met Steve, his first question to me was “have we met before?  you look familiar.”  It turns out that he’d met my dad, Steve Aaronson, way back in the 1970s, when my dad (then a young science writer) had interviewed Weinberg for a magazine article.  I was astonished that Weinberg would remember such a thing across decades.
+
+Steve was then gracious enough to take me, Dana, and both of my parents out to dinner in Austin as part of my and Dana’s recruiting trip.
+
+We talked, among other things, about Telluride House at Cornell, where Steve had lived as an undergrad in the early 1950s and where I’d lived as an undergrad almost half a century later.  Steve said that, while he loved the intellectual atmosphere at Telluride, he tried to have as little to do as possible with the “self-government” aspect, since he found the political squabbles that convulsed many of the humanities majors there to be a waste of time.  I burst out laughing, because … well, imagine you got to have dinner with James Clerk Maxwell, and he opened up about some ridiculously specific pet peeve from his college years, and it was your ridiculously specific pet peeve from your college years.
+
+(Steve claimed to us, not entirely convincingly, that he was a mediocre student at Cornell, more interesting in “necking” with his fellow student and future wife Louise than in studying physics.)
+
+After Dana and I came to Austin, Steve was kind enough to invite me to the high-energy theoretical physics lunches, where I chatted with him and the other members of his group every week (or better yet, simply listened).  I’d usually walk to the faculty club ten minutes early.  Steve, having arrived by car, would be sitting alone in an armchair, reading a newspaper, while he waited for the other physicists to arrive by foot.  No matter how scorching the Texas sun, Steve would always be wearing a suit (usually a tan one) and a necktie, his walking-cane by his side.  I, typically in ratty shorts and t-shirt, would sit in the armchair next to him, and we’d talk—about the latest developments in quantum computing and information (Steve, a perpetual student, would pepper me with questions), or his recent work on nonlinear modifications of quantum mechanics, or his memories of Cambridge, MA, or climate change or the anti-Israel protests in Austin or whatever else.  These conversations, brief and inconsequential as they probably were to him, were highlights of my week.
+
+There was, of course, something a little melancholy about getting to know such a great man only in the twilight of his life.  To be clear, Steve Weinberg in his mid-to-late 80s was far more cogent, articulate, and quick to understand what was said to him than just about anyone you’d ever met in their prime.  But then, after a short conversation, he’d have to leave for a nap.  Steve was as clear-eyed and direct about his age and impending mortality as he was about everything else.  “Scott!” he once greeted me.  “I just saw the announcement for your physics colloquium about quantum supremacy.  I hope I’m still alive next month to attend it.”
+
+(As it happens, the colloquium in question was on November 9, 2016, the day we learned that Trump would become president.  I offered to postpone the talk, since no one could concentrate on physics on such a day.  While several of the physicists agreed that that was the right call, Steve convinced me to go ahead with the following message: “I sympathize, but I do want to hear you … There is some virtue in just plowing on.”)
+
+I sometimes felt, as well, like I was speaking with Steve across a cultural chasm even greater than the half-century that separated us in age.  Steve enjoyed nothing more than to discourse at length, in his booming New-York-accented baritone, about opera, or ballet, or obscure corners of 18th-century history.  It would be easy to feel like a total philistine by comparison … and I did.  Steve also told me that he never reads blogs or other social media, since he’s unable believe any written work is “real” unless it’s published, ideally on paper.  I could only envy such an attitude.
+
+If you did try to judge by the social media that he never read, you might conclude that Steve would be remembered by the wider world less for any of his epochal contributions to physics than for a single viral quote of his:
+
+With or without religion, good people can behave well and bad people can do evil; but for good people to do evil — that takes religion.
+
+I can testify that Steve fully lived his atheism.  Four years ago, I invited him (along with many other UT colleagues) to the brit milah of my newborn son Daniel.  Steve said he’d be happy to come over our house another time (and I’m happy to say that he did a year later), but not to witness any body parts being cut.
+
+Despite his hostility to Judaism—along with every other religion—Steve was a vociferous supporter of the state of Israel, almost to the point of making me look like Edward Said or Noam Chomsky.  For Steve, Zionism was not in spite of his liberal, universalist Enlightenment ideals but because of them.
+
+Anyway, there’s no need even to wonder whether Steve had any sort of deathbed conversion.  He’d laugh at the thought.
+
+In 2016, Steve published To Explain the World, a history of human progress in physics and astronomy from the ancient Greeks to Newton (when, Steve says, the scientific ethos reached the form that it still basically has today).  It’s unlike any other history-of-science book that I’ve read.  Of course I’d read other books about Aristarchus and Ptolemy and so forth, but I’d never read a modern writer treating them not as historical subjects, but as professional colleagues merely separated in time.  Again and again, Steve would redo ancient calculations, finding errors that had escaped historical notice; he’d remark on how Eratosthenes or Kepler could’ve done better with the data available to them; he’d grade the ancients by how much of modern physics and cosmology they’d correctly anticipated.
+
+To Explain the World was savaged in reviews by professional science historians.  Apparently, Steve had committed the unforgivable sin of “Whig history”: that is, judging past natural philosophers by the standards of today.  Steve clung to the naïve, debunked, scientistic notions that there’s such a thing as “actual right answers” about how the universe works; that we today are, at any rate, much closer to those right answers than the ancients were; and that we can judge the ancients by how close they got to the right answers that we now know.
+
+As I read the sneering reviews, I kept thinking: so suppose Archimedes, Copernicus, and all the rest were brought back from the dead.  Who would they rather talk to: historians seeking to explore every facet of their misconceptions, like anthropologists with a paleolithic tribe; or Steve Weinberg, who’d want to bring them up to speed as quickly as possible so they could continue the joint quest?
+
+When it comes to the foundations of quantum mechanics, Steve took the view that no existing interpretation is satisfactory, although the Many-Worlds Interpretation is perhaps the least bad of the bunch.  Steve felt that our reaction to this state of affairs should be to test quantum mechanics more precisely—for example, by looking for tiny nonlinearities in the Schrödinger equation, or other signs that QM itself is only a limit of some more all-encompassing theory.  This is, to put it mildly, not a widely-held view among high-energy physicists—but it provided a fascinating glimpse into how Steve’s mind works.
+
+Here was, empirically, the most successful theoretical physicist alive, and again and again, his response to conceptual confusion was not to ruminate more about basic principles but to ask for more data or do a more detailed calculation.  He never, ever let go of a short tether to the actual testable consequences of whatever was being talked about, or future experiments that might change the situation.
+
+(Steve worked on string theory in the early 1980s, and he remained engaged with it for the rest of his life, for example by recruiting the string theorists Jacques Distler and Willy Fischler to UT Austin.  But he later soured on the prospects for getting testable consequences out of string theory within a reasonable timeframe.  And he once complained to me that the papers he’d read about “It from Qubit,” AdS/CFT, and the black hole information problem had had “too many words and not enough equations.”)
+
+Steve was, famously, about as hardcore a reductionist as has ever existed on earth.  He was a reductionist not just in the usual sense that he believed there are fundamental laws of physics, from which, together with the initial conditions, everything that happens in our universe can be calculated in principle (if not in practice), at least probabilistically.  He was a reductionist in the stronger sense that he thought the quest to discover the fundamental laws of the universe had a special pride of place among all human endeavors—a place not shared by the many sciences devoted to the study of complex emergent behavior, interesting and important though they might be.
+
+This came through clearly in Steve’s critical review of Stephen Wolfram’s A New Kind of Science, where Steve (Weinberg, that is) articulated his views of why “free-floating” theories of complex behavior can’t take the place of a reductionistic description of our actual universe.  (Of course, I was also highly critical of A New Kind of Science in my review, but for somewhat different reasons than Steve was.)  Steve’s reductionism was also clearly expressed in his testimony to Congress in support of continued funding for the Superconducting Supercollider.  (Famously, Phil Anderson testified against the SSC, arguing that the money would better be spent on condensed-matter physics and other sciences of emergent behavior.  The result: Congress did cancel the SSC, and it redirected precisely zero of the money to other sciences.  But at least Steve lived to see the LHC dramatically confirm the existence of the Higgs boson, as the SSC would have.)
+
+I, of course, have devoted my career to theoretical computer science, which you might broadly call a “science of emergent behavior”: it tries to figure out the ultimate possibilities and limits of computation, taking the underlying laws of physics as given.  Quantum computing, in particular, takes as its input a physical theory that was already known by 1926, and studies what can be done with it.  So you might expect me to disagree passionately with Weinberg on reductionism versus holism.
+
+In reality, I have a hard time pinpointing any substantive difference.  Mostly I see a difference in opportunities: Steve saw a golden chance to contribute something to the millennia-old quest to discover the fundamental laws of nature, at the tail end of the heroic era of particle physics that culminated in what we now call the Standard Model.  He was brilliant enough to seize that chance.  I didn’t see a similar chance: possibly because it no longer existed; almost certainly because, even if it did, I wouldn’t have had the right mind for it.  I found a different chance, to work at the intersection of physics and computer science that was finally kicking into high gear at the end of the 20th century.  Interestingly, while I came to that intersection from the CS side, quite a few who were originally trained as high-energy physicists ended up there as well—including a star PhD student of Steve Weinberg’s named John Preskill.
+
+Despite his reductionism, Steve was as curious and enthusiastic about quantum computation as he was about a hundred other topics beyond particle physics—he even ended his quantum mechanics textbook with a chapter about Shor’s factoring algorithm.  Having said that, a central reason for his enthusiasm about QC was that he clearly saw how demanding a test it would be of quantum mechanics itself—and as I mentioned earlier, Steve was open to the possibility that quantum mechanics might not be exactly true.
+
+It would be an understatement to call Steve “left-of-center.”  He believed in higher taxes on rich people like himself to service a robust social safety net.  When Trump won, Steve remarked to me that most of the disgusting and outrageous things Trump would do could be reversed in a generation or so—but not the aggressive climate change denial; that actually could matter on the scale of centuries.  Steve made the news in Austin for openly defying the Texas law forcing public universities to allow concealed carry on campus: he said that, regardless of what the law said, firearms would not be welcome in his classroom.  (Louise, Steve’s wife for 67 years and a professor at UT Austin’s law school, also wrote perhaps the definitive scholarly takedown of the shameful Bush vs. Gore Supreme Court decision, which installed George W. Bush as president.)
+
+All the same, during the “science wars” of the 1990s, Steve was scathing about the academic left’s postmodernist streak and deeply sympathetic to what Alan Sokal had done with his Social Text hoax.  Steve also once told me that, when he (like other UT faculty) was required to write a statement about what he would do to advance Diversity, Equity, and Inclusion, he submitted just a single sentence: “I will seek the best candidates, without regard to race or sex.”  I remarked that he might be one of the only academics who could get away with that.
+
+I confess that, for the past five years, knowing Steve was a greater source of psychological strength for me than, from a rational standpoint, it probably should have been.  Regular readers will know that I’ve spent months of my life agonizing over various nasty things people have said me about on Twitter and Reddit—that I’m a sexist white male douchebag, a clueless techbro STEMlord, a neoliberal Zionist shill, and I forget what else.
+
+But I lately have had a secret emotional weapon that helped somewhat: namely, the certainty that Steven Weinberg had more intellectual power in a single toenail clipping than these Twitter-attackers had collectively experienced over the course of their lives.  It’s like, have you heard the joke where two rabbis are arguing some point of Talmud, and then God speaks from a booming thundercloud to declare that the first rabbi is right, and then the second rabbi says “OK fine, now it’s 2 against 1?”  For the W and Z bosons and Higgs boson that you predicted to turn up at the particle accelerator is not exactly God declaring from a thundercloud that the way your mind works is aligned with the way the world actually is—Steve, of course, would wince at the suggestion—but it’s about the closest thing available in this universe.  My secret emotional weapon was that I knew the man who’d experienced this, arguably more than any of the 7.6 billion other living humans, and not only did that man not sneer at me, but by some freakish coincidence, he seemed to have reached roughly the same views as I had on >95% of controversial questions where we both had strong opinions.
+
+My final conversations with Steve Weinberg were about a laptop.  When covid started in March 2020, Steve and Louise, being in their late 80s, naturally didn’t want to take chances, and rigorously sheltered at home.  But an issue emerged: Steve couldn’t install Zoom on his Bronze Age computer, and so couldn’t participate in the virtual meetings of his own group, nor could he do Zoom calls with his daughter and granddaughter.  While as a theoretical computer scientist, I don’t normally volunteer myself as tech support staff, I decided that an exception was warranted in this case.  The quickest solution was to configure one of my own old laptops with everything Steve needed and bring it over to his house.
+
+Later, Steve emailed me to say that, while the laptop had worked great and been a lifesaver, he’d finally bought his own laptop, so I should come by to pick mine up.  I delayed and delayed with that, but finally decided I should do it before leaving Austin at the beginning of this summer.  So I emailed Steve to tell him I’d be coming.  He replied to me asking Louise to leave the laptop on the porch — but the email was addressed only to me, not her.
+
+At that moment, I knew something had changed: only a year before, incredibly, I’d been more senile and out-of-it as a 39-year-old than Steve had been as an 87-year-old.  What I didn’t know at the time was that Steve had sent that email from the hospital when he was close to death.  It was the last I heard from him.
+
+(Once I learned what was going on, I did send a get-well note, which I hope Steve saw, saying that I hoped he appreciated that I wasn’t praying for him.)
+
+Besides the quote about good people, bad people, and religion, the other quote of Steve’s that he never managed to live down came from the last pages of The First Three Minutes, his classic 1970s popularization of big-bang cosmology:
+
+The more the universe seems comprehensible, the more it also seems pointless.
+
+In the 1993 epilogue, Steve tempered this with some more hopeful words, nearly as famous:
+
+The effort to understand the universe is one of the very few things which lifts human life a little above the level of farce and gives it some of the grace of tragedy.
+
+It’s not my purpose here to resolve the question of whether life or the universe have a point.  What I can say is that, even in his last years, Steve never for a nanosecond acted as if life was pointless.  He already had all the material comforts and academic renown anyone could possibly want.  He could have spent all day in his swimming pool, or listening to operas.  Instead, he continued publishing textbooks—a quantum mechanics textbook in 2012, an astrophysics textbook in 2019, and a “Foundations of Modern Physics” textbook in 2021 (!).  As recently as this year, he continued writing papers—and not just “great man reminiscing” papers, but hardcore technical papers.  He continued writing with nearly unmatched lucidity for a general audience, in the New York Review of Books and elsewhere.  And I can attest that he continued peppering visiting speakers with questions about stellar evolution or whatever else they were experts on—because, more likely than not, he had redone some calculation himself and gotten a subtly different result from what was in the textbooks.
+
+If God exists, I can’t believe He or She would find nothing more interesting to do with Steve than to torture him for his unbelief.  More likely, I think, God is right now talking to Steve the same way Steve talked to Aristarchus in To Explain the World: “yes, you were close about the origin of neutrino masses, but here’s the part you were missing…”  While, of course, Steve is redoing God’s calculation to be sure.
+
+Feel free to use the comments as a place to share your own memories.
+
+More Steven Weinberg memorial links (I’ll continue adding to this over the next few days):
+
+Miscellaneous Steven Weinberg links
+
+
+
+================================================================================
+
+TITLE: Slowly emerging from blog-hibervacation
+URL: https://scottaaronson.blog/?m=202107
+CONTENT:
+Alright everyone:
+
+
+
+================================================================================
+
+TITLE: Open thread on new quantum supremacy claims
+URL: https://scottaaronson.blog/?m=202107
+CONTENT:
+Happy 4th to those in the US!
+
+The group of Chaoyang Lu and Jianwei Pan, based at USTC in China, has been on a serious quantum supremacy tear lately.  Recall that last December, USTC announced the achievement of quantum supremacy via Gaussian BosonSampling, with 50-70 detected photons—the second claim of sampling-based quantum supremacy, after Google’s in Fall 2019.  However, skeptics then poked holes in the USTC claim, showing how they could spoof the results with a classical computer, basically by reproducing the k-photon correlations for relatively small values of k.  Debate over the details continues, but the Chinese group seeks to render the debate largely moot with a new and better Gaussian BosonSampling experiment, with 144 modes and up to 113 detected photons.  They say they were able to measure k-photon correlations for k up to about 19, which if true would constitute a serious obstacle to the classical simulation strategies that people discussed for the previous experiment.
+
+In the meantime, though, an overlapping group of authors had put out another paper the day before (!) reporting a sampling-based quantum supremacy experiment using superconducting qubits—extremely similar to what Google did (the same circuit depth and everything), except now with 56 qubits rather than 53.
+
+I confess that I haven’t yet studied either paper in detail—among other reasons, because I’m on vacation with my family at the beach, and because I’m trying to spend what work-time I have on my own projects.  But anyone who has read them, please use the comments of this post to discuss!  Hopefully I’ll learn something.
+
+To confine myself to some general comments: since Google’s announcement in Fall 2019, I’ve consistently said that sampling-based quantum supremacy is not yet a done deal.  I’ve said that quantum supremacy seems important enough to want independent replications, and demonstrations in other hardware platforms like ion traps and photonics, and better gate fidelity, and better classical hardness, and better verification protocols.  Most of all, I’ve said that we needed a genuine dialogue between the “quantum supremacists” and the classical skeptics: the former doing experiments and releasing all their data, the latter trying to design efficient classical simulations for those experiments, and so on in an iterative process.  Just like in applied cryptography, we’d only have real confidence in a quantum supremacy claim once it had survived at least a few years of attacks by skeptics.  So I’m delighted that this is precisely what’s now happening.  USTC’s papers are two new volleys in this back-and-forth; we all eagerly await the next volley, whichever side it comes from.
+
+While I’ve been trying for years to move away from the expectation that I blog about each and every QC announcement that someone messages me about, maybe I’ll also say a word about the recent announcement by IBM of a quantum advantage in space complexity (see here for popular article and here for arXiv preprint).  There appears to be a nice theoretical result here, about the ability to evaluate any symmetric Boolean function with a single qubit in a branching-program-like model.  I’d love to understand that result better.  But to answer the question I received, this is another case where, once you know the protocol, you know both that the experiment can be done and exactly what its result will be (namely, the thing predicted by QM).  So I think the interest is almost entirely in the protocol itself.
+
+================================================================================
+

@@ -1,0 +1,78 @@
+TITLE: Sen. Tom Coburn, the National Science Foundation, and Antarctican Jello Wrestling
+URL: https://scottaaronson.blog/?m=201303
+CONTENT:
+As some of you probably heard, last week Sen. Tom Coburn (R-Oklahoma) managed to get an amendment passed prohibiting the US National Science Foundation from funding any research in political science, unless the research can be “certified” as “promoting national security or the economic interests of the United States.”  This sort of political interference with the peer-review process, of course, sets a chilling precedent for all academic research, regardless of discipline.  (What’s next, an amendment banning computer science research, unless it has applications to scheduling baseball games or slicing apple pies?)  But on researching further, I discovered that Sen. Coburn has long had it in for the NSF, and even has a whole webpage listing his grievances against the agency.  Most of it is the usual “can you believe they wasted money to study something so silly or obvious?,” but by far my favorite tidbit is the following:
+
+Inappropriate staff behavior including porn surfing and Jello wrestling and skinny-dipping at NSF-operated facilities in Antarctica.
+
+It occurred to me that the NSF really has no need to explain this one, since a complete explanation is contained in a single word of the charge itself: Antarctica.  Personally, I’d support launching an investigation of NSF’s Antarctica facilities, were it discovered that the people stuck in them weren’t porn surfing and Jello wrestling and skinny-dipping.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus: The Buzz Intensifies
+URL: https://scottaaronson.blog/?m=201303
+CONTENT:
+Update (March 22): The Kindle edition of Quantum Computing Since Democritus is now available, for the low price of $15.40!  (Not factorial.)  Click here to get it from amazon.com, or here to get it from amazon.co.uk.  And let me know how it looks (I haven’t seen it yet).  Another Update: Just saw the Kindle edition, and the figures and formulas came out great!  It’s a product I stand behind with pride.
+
+In the meantime, I regret to say that the marketing for this book is getting crasser and more exploitative by the day.
+
+
+
+
+
+It seems like wherever I go these days, all anyone wants to talk about is Quantum Computing Since Democritus—the sprawling new book by Scott Aaronson, published by Cambridge University Press and available for order now.  Among leading figures in quantum information science—many of them well-known to Shtetl-Optimized readers—the book is garnering the sort of hyperbolic praise that would make Shakespeare or Tolstoy blush:
+
+“I laughed, I cried, I fell off my chair – and that was just reading the chapter on Computational Complexity.  Aaronson is a tornado of intellectual activity: he rips our brains from their intellectual foundations; twists them through a tour of physics, mathematics, computer science, and philosophy; stuffs them full of facts and theorems; tickles them until they cry ‘Uncle’; and then drops them, quivering, back into our skulls.  Aaronson raises deep questions of how the physical universe is put together and why it is put together the way it is.  While we read his lucid explanations we can believe – at least while we hold the book in our hands – that we understand the answers, too.” —Seth Lloyd
+
+“Scott Aaronson has written a beautiful and highly original synthesis of what we know about some of the most fundamental questions in science: What is information? What does it mean to compute? What is the nature of mind and of free will?” —Michael Nielsen
+
+“Not since Richard Feynman’s Lectures on Physics has there been a set of lecture notes as brilliant and as entertaining.  Aaronson leads the reader on a wild romp through the most important intellectual achievements in computing and physics, weaving these seemingly disparate fields into a captivating narrative for our modern age of information.  Aaronson wildly runs through the fields of physics and computers, showing us how they are connected, how to understand our computational universe, and what questions exist on the borders of these fields that we still don’t understand.   This book is a poem disguised as a set of lecture notes.  The lectures are on computing and physics, complexity theory and mathematical logic and quantum physics.  The poem is made up of proofs, jokes, stories, and revelations, synthesizing the two towering fields of computer science and physics into a coherent tapestry of sheer intellectual awesomeness.” —Dave Bacon
+
+After months of overhearing people saying things like the above—in the halls of MIT, the checkout line at Trader Joe’s, the bathroom, anywhere—I finally had to ask in annoyance: “is all this buzz justified?  I mean, I’m sure the book is as deep, hilarious, and worldview-changing as everyone says it is.  But, after all, it’s based off lecture notes that have long been available for free on the web.  And Aaronson, being the magnanimous, open-access-loving saint that he is, has no plans to remove the online notes, even though he could really use the royalties from book sales to feed his growing family.  Nor does Cambridge University Press object to his principled decision.”
+
+“No, you don’t understand,” they told me.  “Word on the street has it that the book is extensively updated for 2013—that it’s packed with new discussions of things like algebrization, lattice-based cryptography, the QIP=PSPACE theorem, the ‘quantum time travel controversy,’ BosonSampling, black-hole firewalls, and even the Australian models episode.  They say it took years of painstaking work, by Aaronson and his student Alex Arkhipov, to get the notes into book form: fixing mistakes, clarifying difficult points, smoothing out rough edges, all while leaving intact the original’s inimitable humor.  I even heard Aaronson reveals he’s changed his mind about certain things since 2006.  How could you not want such a labor of love on your bookshelf?”
+
+Exasperated, I finally exclaimed: “But the book isn’t even out yet in North America!  Amazon.com says it won’t ship until April 30.”
+
+“Sure,” one gas-station attendant replied to me, “but the secret is, it’s available now from Amazon.co.uk.  Personally, I couldn’t wait a month, so I ordered it shipped to me from across the pond.  But if you’re a less hardcore quantum complexity theory fan, and you live in North America, you can also preorder the book from Amazon.com, and they’ll send it to you when it arrives.”
+
+Much as the hype still grated, I had to admit that I’d run out of counterarguments, so I looked into ordering a copy for myself.
+
+================================================================================
+
+TITLE: John Preskill: My Lodestar of Awesomeness
+URL: https://scottaaronson.blog/?m=201303
+CONTENT:
+I got back a couple days ago from John Preskill‘s 60th birthday symposium at Caltech.  To the general public, Preskill is probably best known for winning two bets against Stephen Hawking.  To readers of Shtetl-Optimized, he might be known for his leadership in quantum information science, his pioneering work in quantum error-correction, his beautiful lecture notes, or even his occasional comments here (though these days he has his own group blog and Twitter feed to keep him busy).  I know John as a friend, colleague, and mentor who’s done more for me than I can say.
+
+The symposium was a blast—a chance to hear phenomenal talks, enjoy the California sun, and catch up with old friends like Dave Bacon (who stepped down as Pontiff before stepping down as Pontiff was cool).  The only bad part was that I inadvertently insulted John in my talk, by calling him my “lodestar of sanity.”  What I meant was that, for 13 years, I’ve known plenty of physicists who can be arbitrarily off-base when they talk about computer science and vice versa, but I’ve only ever known John to be on-base about either.  If you asked him a question involving, say, both Barrington’s Theorem and Majorana fermions, he’s one of the few people on earth who would know both, seem totally unfazed by your juxtaposing them, and probably have an answer that he’d carefully tailor to your level of knowledge and interest.  In a polyglot field like quantum information, that alone makes him invaluable.  But along with his penetrating insight comes enviable judgment and felicity of expression: unlike some of us (me), John always manages to tell the truth without offending his listeners.  If I were somehow entrusted with choosing a President of the United States, he’d be one of my first choices, certainly ahead of myself.
+
+Anyway, it turned out that John didn’t like my use of the word “sane” to summarize the above: for him (understandably, in retrospect), it had connotations of being humorless and boring, two qualities I’ve never seen in him.  (Also, as I pointed out later, the amount of time John has spent helping me and patiently explaining stuff to me does weigh heavily against his sanity.)  So I hereby rename John my Lodestar of Awesomeness.
+
+In case anyone cares, my talk was entitled “Hidden Variables as Fruitful Dead Ends”; the PowerPoint slides are here.  I spoke about a new preprint by Adam Bouland, Lynn Chua, George Lowther, and myself, on possibility and impossibility results for “ψ-epistemic theories” (a class of hidden-variable theories that was also the subject of the recent PBR Theorem, discussed previously on this blog).  My talk also included material from my old paper Quantum Computing and Hidden Variables.
+
+The complete program is here.  A few highlights (feel free to mention others in the comments):
+
+Speaking of which, the great Alexei Kitaev himself—the $3 million man—spoke about Berry curvature for many-body systems, but unfortunately I had to fly back early (y’know, 2-month-old baby) and missed his talk.  Maybe someone else can provide a summary.
+
+Happy 60th birthday, John!
+
+Two unrelated announcements.
+
+1. Everyone who reads this blog should buy Sean Carroll’s two recent books: From Eternity to Here (about the arrow of time) and The Particle at the End of the Universe (about the Higgs boson and quantum field theory more generally).  They’re two of the best popular physics books I’ve ever read—in their honesty, humor, clarity, and total lack of pretense, they exemplify what every book in this genre should be but very few are.  If you need even more inducement, go watch Sean hit it out of the park on the Colbert Report (and then do it again).  I can’t watch those videos without seething with jealousy: given how many “OK”s and “y’know”s lard my every spoken utterance, I’ll probably never get invited to hawk a book on Colbert.  Which is a shame, because as it happens, my Quantum Computing Since Democritus book will finally be released in the US by Cambridge University Press on April 30th!  (It’s already available in the UK, but apparently needs to be shipped to the US by boat.)  And it’s loaded with new material, not contained in the online lecture notes.  And you can preorder it now.  And my hawking of Sean’s books is in no way whatsoever related to any hope that Sean might return the favor with my book.
+
+2. Recent Turing Award winner Silvio Micali asks me to advertise the Second Cambridge Area Economics and Computation Day (CAEC’13), which will be held on Friday April 26 at MIT.  Anything for you, Silvio!  (At least for the next week or two.)
+
+================================================================================
+
+TITLE: Silvio and Shafi win Turing Award
+URL: https://scottaaronson.blog/?m=201303
+CONTENT:
+Today I break long radio silence to deliver some phenomenal news.  Two of the people who I eat lunch with every week—my MIT CSAIL colleagues Silvio Micali and Shafi Goldwasser—have won a well-deserved Turing Award, for their fundamental contributions to cryptography from the 1980s till today.  (I see that Lance just now beat me to a blog post about this.  Dammit, Lance!)
+
+I won’t have to tell many readers of this blog that the names Goldwasser and Micali—or more often, the initials “G” and “M”—are as ubiquitous as Alice and Bob in modern cryptography, from the GGM construction of pseudorandom functions (discussed before on this blog), to the classic GMR paper that introduced the world to interactive proofs.  Besides that, Shafi and Silvio are known as two of the more opinionated and colorful characters of theoretical computer science—and as I learned last week, Silvio is also an awesome party host, who has perfect taste in sushi (as well as furniture and many other things).
+
+I wish I could go on right now talking about Shafi and Silvio—and even more, that I could join the celebration that will happen at MIT this afternoon.  But I’m about to board a flight to LAX, to attend the 60th birthday symposium of longtime friend, extraordinary physicist, and sometime Shtetl-Optimized commenter John Preskill.  (I’ll also be bringing you coverage of that symposium, including slides from my talk there on hidden variables.)  So, leave your congratulations, etc. in the comments section, and I’ll see them when I land!
+
+================================================================================
+

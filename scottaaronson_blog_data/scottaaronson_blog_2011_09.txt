@@ -1,0 +1,135 @@
+TITLE: In Defense of Kolmogorov Complexity
+URL: https://scottaaronson.blog/?m=201109
+CONTENT:
+I got lots of useful and interesting feedback on my last post, though I also learned a valuable sociological lesson about the “two kinds of complexity theory”:
+
+If you write about the kind of complexity theory that involves acronyms like NP, BQP/qpoly, and r.s.r., people will think the issues must be difficult and arcane, even if they’re not and can be understood with very little effort.  By contrast, if you write about the kind of complexity theory that can be illustrated using pictures of coffee cups, people will think the issues can be sorted out with 15 seconds of thought, and will happily propose ‘solutions’ that presuppose what needs to be explained, answer a different question, or fail in simple examples.
+
+Seriously, a large number of commenters raised two important questions, which I’d like to address forthwith in this followup post.
+
+The first question is why I omitted the notion of coarse-graining, which plays a central role in many accounts of entropy and complexity. The short answer is that I shouldn’t have omitted it.  In fact, as both Sean Carroll and Luca Trevisan (among others) quickly pointed out, one can tell a perfectly-reasonable story about the coffee cup by defining the “complextropy,” not in terms of sophistication, but in terms of the ordinary Kolmogorov complexity of a coarse-grained or “smeared-out” state.  If you define the complextropy that way, it should increase and then decrease as desired, and furthermore, it’s probably easier to prove that statement than using the sophistication-based definition (though both versions seem highly nontrivial to analyze).
+
+So, the reason I turned to sophistication was basically just the mathematician’s instinct to situate every concept in the most general structure where that concept makes sense.  For example, why define “connectedness” for polygons in the Euclidean plane, if the concept makes sense for arbitrary topological spaces?  Or in our case, why define “complextropy” for dynamical systems that happen to have a spatial structure over which one can coarse-grain, if the concept also makes sense for arbitrary dynamical systems whose evolution is computable by an efficient algorithm?  Of course, [OPEN PROBLEM ALERT] it would be wonderful to know whether the two types of complextropy can be shown to be related for those dynamical systems for which they both make sense, or whether we can construct a convincing example that separates the two.
+
+The second question is why I invoked Kolmogorov complexity in a discussion about thermodynamics: many people seemed to think that, by doing so, I was making some novel or controversial claim.  I wasn’t.  People like Charles Bennett, Seth Lloyd, and Wojciech Zurek have employed Kolmogorov complexity as a useful language for thermodynamics since the 1980s; I was simply following in their footsteps.  Basically, what Kolmogorov complexity lets you do is talk in a well-defined way about the “entropy” or “randomness” of an individual object, without reference to any ensemble from which the object was drawn.  And this is often extremely convenient: notice that Kolmogorov complexity snuck its way in even when we defined complextropy in terms of coarse-graining!
+
+Of course, if our dynamical system is probabilistic, then we always can talk instead about the “actual” entropy; in that case Kolmogorov complexity basically just amounts to a shorthand.  On the other hand, if our system is deterministic, then talking about the (resource-bounded) Kolmogorov complexity seems essential—since in that case there’s no “true” randomness at all, only pseudorandomness.
+
+But a few commenters went further, disparaging Kolmogorov complexity itself rather than just its application to a particular problem.  Here’s Shtetl-Optimized regular Raoul Ohio:
+
+As usual, my DAH (Devil’s Advocate Hat) is on. This is convenient, because it allows you to comment on anything without doing the work to really understanding it. Thus I will proceed to disparage the notion of using Kolmogorov Complexity (KC) for anything but entertainment.
+
+Math is a subject where a couple of interesting definitions and a few theorems can launch a subfield such as KC. I have never studied KC … but a brief reading of the subject suggests that it started as a joke, and today a lot of people are not in on it.
+
+… the KC of things would change as knowledge in other fields progresses. For example, what is the KC of
+
+δ = 4.66920160910299067185320382…, and
+
+α = 2.502907875095892822283902873218… ?
+
+These are Feigenbaum’s constants (http://en.wikipedia.org/wiki/Feigenbaum_constants). A couple of decades ago, no one knew anything about these numbers. With the concept of analyzing discrete dynamical systems by bifurcation diagrams in hand, these can be calculated with a short program. So, did KC(δ) and KC(α) drop dramatically 20 odd years ago?
+
+…using KC reminds me of physics arguments that use the wave function for the universe. Sure, there must be such a thing, but it is hard to say much about it.
+
+On the other side of the coin, the theorems and proofs in basic KC are rather similar to those in many fields of TCS, and many SO [Shtetl-Optimized] readers might not think of these as a joke…
+
+My intuition is that the entire concept of KC is “ill-posed”, to borrow a term from PDE.
+
+In the interest of “full disclosure”, I must mention that often in the past I have thought some topic was a bunch of hooey until I understood it, after which I thought is was profound, just like listening to Lenard [sic] Cohen.
+
+I wrote a reply to Raoul, and then decided that it should go into a top-level post, for the edification of Kolmogorov-skeptics everywhere.  So without further ado:
+
+Hi Raoul!
+
+I think this is indeed one of those cases where if you understood more, you’d see why your dismissal was wrong. And unlike with (say) art, music, or religion, the reasons why your dismissal is wrong can be articulated in words!
+
+Contrary to what you say, K(x) is not undefinable: I’ll define it right now, as the length of the shortest prefix-free program (in some fixed universal programming language) that prints x and then halts! K(x) is uncomputable, but that’s a very different issue, and something that’s been known since the 1960s.
+
+Basically, what K(x) lets you do is give a clear, observer-independent meaning to the loose notion of there “not existing any patterns” in a string. Already from that statement, it’s obvious that K(x) is going to be hard to compute—for as you correctly point out, detecting the existence or nonexistence of patterns is hard!
+
+(Though contrary to what you say, K(Feigenbaum’s constant) didn’t suddenly become small when Feigenbaum defined the constant, any more than 42038542390523059230 suddenly became composite when I wrote it down, probably for the first time in human history. Please don’t tell me that you make no distinction between mathematical truths and our knowledge of them!)
+
+The key point is that, even without being able to compute K(x) for most x’s, you can still use the definition of K(x) to give meaning to hundreds of intuitions that otherwise would’ve remained forever at a handwaving level. For example:
+
+“The overwhelming majority of strings are patternless.”
+
+“If a short computer program outputs a patternless string, then it can only be doing so by generating the string randomly.”
+
+And many, many less obvious statements—every one of which can be upgraded to a theorem once you have a mathematical definition of “patternlessness”!
+
+Furthermore, the idea of Kolmogorov complexity has actually inspired some important experimental work! For example, if you could compute K, then you could compute the “similarity” between two DNA sequences D1 and D2 by comparing K(D1)+K(D2) to K(D1,D2).
+
+Of course you can’t compute K, but you can compute useful upper bounds on it. For example, let G(x) be the number of bits in the gzip compression of the string x. Then comparing G(D1)+G(D2) to G(D1,D2) has turned out to be a very useful way to measure similarity between DNA sequences.
+
+It’s really no different from how, even though we can never say whether a curve in the physical world is continuous or not (since that would require infinitely precise measurements), the mathematical theories dealing with continuity (e.g., calculus, topology) can still be applied in physics in all sorts of ways.
+
+================================================================================
+
+TITLE: The First Law of Complexodynamics
+URL: https://scottaaronson.blog/?m=201109
+CONTENT:
+A few weeks ago, I had the pleasure of attending FQXi’s Setting Time Aright conference, part of which took place on a cruise from Bergen, Norway to Copenhagen, Denmark.  (Why aren’t theoretical computer science conferences ever held on cruises?  If nothing else, it certainly cuts down on attendees sneaking away from the conference venue.)  This conference brought together physicists, cosmologists, philosophers, biologists, psychologists, and (for some strange reason) one quantum complexity blogger to pontificate about the existence, directionality, and nature of time.  If you want to know more about the conference, check out Sean Carroll’s Cosmic Variance posts here and here.
+
+Sean also delivered the opening talk of the conference, during which (among other things) he asked a beautiful question: why does “complexity” or “interestingness” of physical systems seem to increase with time and then hit a maximum and decrease, in contrast to the entropy, which of course increases monotonically?
+
+My purpose, in this post, is to sketch a possible answer to Sean’s question, drawing on concepts from Kolmogorov complexity.  If this answer has been suggested before, I’m sure someone will let me know in the comments section.
+
+First, some background: we all know the Second Law, which says that the entropy of any closed system tends to increase with time until it reaches a maximum value.  Here “entropy” is slippery to define—we’ll come back to that later—but somehow measures how “random” or “generic” or “disordered” a system is.  As Sean points out in his wonderful book From Eternity to Here, the Second Law is almost a tautology: how could a system not tend to evolve to more “generic” configurations?  if it didn’t, those configurations wouldn’t be generic!  So the real question is not why the entropy is increasing, but why it was ever low to begin with.  In other words, why did the universe’s initial state at the big bang contain so much order for the universe’s subsequent evolution to destroy?  I won’t address that celebrated mystery in this post, but will simply take the low entropy of the initial state as given.
+
+The point that interests us is this: even though isolated physical systems get monotonically more entropic, they don’t get monotonically more “complicated” or “interesting.”  Sean didn’t define what he meant by “complicated” or “interesting” here—indeed, defining those concepts was part of his challenge—but he illustrated what he had in mind with the example of a coffee cup.  Shamelessly ripping off his slides:
+
+
+
+Entropy increases monotonically from left to right, but intuitively, the “complexity” seems highest in the middle picture: the one with all the tendrils of milk.  And same is true for the whole universe: shortly after the big bang, the universe was basically just a low-entropy soup of high-energy particles.  A googol years from now, after the last black holes have sputtered away in bursts of Hawking radiation, the universe will basically be just a high-entropy soup of low-energy particles.  But today, in between, the universe contains interesting structures such as galaxies and brains and hot-dog-shaped novelty vehicles.  We see the pattern:
+
+
+
+In answering Sean’s provocative question (whether there’s some “law of complexodynamics” that would explain his graph), it seems to me that the challenge is twofold:
+
+To clarify: it’s not hard to explain, at least at a handwaving level, why the complexity should be close to zero at the initial time.  It’s because we assumed the entropy is close to zero, and entropy plausibly gives an upper bound on complexity.  Nor is it hard to explain why the complexity should be close to zero at late times: it’s because the system reaches equilibrium (i.e., something resembling the uniform distribution over all possible states), which we’re essentially defining to be simple.  At intermediate times, neither of those constraints is operative, and therefore the complexity could become large.  But does it become large?  How large?  How could we predict?  And what kind of “complexity” are we talking about, anyway?
+
+After thinking on and off about these questions, I now conjecture that they can be answered using a notion called sophistication from the theory of Kolmogorov complexity.  Recall that the Kolmogorov complexity of a string x is the length of the shortest computer program that outputs x (in some Turing-universal programming language—the exact choice can be shown not to matter much).  Sophistication is a more … well, sophisticated concept, but we’ll get to that later.
+
+As a first step, let’s use Kolmogorov complexity to define entropy.  Already it’s not quite obvious how to do that.  If you start, say, a cellular automaton, or a system of billiard balls, in some simple initial configuration, and then let it evolve for a while according to dynamical laws, visually it will look like the entropy is going up.  But if the system happens to be deterministic, then mathematically, its state can always be specified by giving (1) the initial state, and (2) the number of steps t it’s been run for.  The former takes a constant number of bits to specify (independent of t), while the latter takes log(t) bits.  It follows that, if we use Kolmogorov complexity as our stand-in for entropy, then the entropy can increase at most logarithmically with t—much slower than the linear or polynomial increase that we’d intuitively expect.
+
+There are at least two ways to solve this problem.  The first is to consider probabilistic systems, rather than deterministic ones.  In the probabilistic case, the Kolmogorov complexity really does increase at a polynomial rate, as you’d expect.  The second solution is to replace the Kolmogorov complexity by the resource-bounded Kolmogorov complexity: the length of the shortest computer program that outputs the state in a short amount of time (or the size of the smallest, say, depth-3 circuit that outputs the state—for present purposes, it doesn’t even matter much what kind of resource bound we impose, as long as the bound is severe enough).  Even though there’s a computer program only log(t) bits long to compute the state of the system after t time steps, that program will typically use an amount of time that grows with t (or even faster), so if we rule out sufficiently complex programs, we can again get our program size to increase with t at a polynomial rate.
+
+OK, that was entropy.  What about the thing Sean was calling “complexity”—which, to avoid confusion with other kinds of complexity, from now on I’m going to call “complextropy”?  For this, we’re going to need a cluster of related ideas that go under names like sophistication, Kolmogorov structure functions, and algorithmic statistics.  The backstory is that, in the 1970s (after introducing Kolmogorov complexity), Kolmogorov made an observation that was closely related to Sean’s observation above.  A uniformly random string, he said, has close-to-maximal Kolmogorov complexity, but it’s also one of the least “complex” or “interesting” strings imaginable.  After all, we can describe essentially everything you’d ever want to know about the string by saying “it’s random”!  But is there a way to formalize that intuition?  Indeed there is.
+
+First, given a set S of n-bit strings, let K(S) be the number of bits in the shortest computer program that outputs the elements of S and then halts.  Also, given such a set S and an element x of S, let K(x|S) be the length of the shortest program that outputs x, given an oracle for testing membership in S.  Then we can let the sophistication of x, or Soph(x), be the smallest possible value of K(S), over all sets S such that
+
+Intuitively, Soph(x) is the length of the shortest computer program that describes, not necessarily x itself, but a set S of which x is a “random” or “generic” member.  To illustrate, any string x with small Kolmogorov complexity has small sophistication, since we can let S be the singleton set {x}.  However, a uniformly-random string also has small sophistication, since we can let S be the set {0,1}n of all n-bit strings.  In fact, the question arises of whether there are any sophisticated strings!  Apparently, after Kolmogorov raised this question in the early 1980s, it was answered in the affirmative by Alexander Shen (for more, see this paper by Gács, Tromp, and Vitányi).  The construction is via a diagonalization argument that’s a bit too complicated to fit in this blog post.
+
+But what does any of this have to do with coffee cups?  Well, at first glance, sophistication seems to have exactly the properties that we were looking for in a “complextropy” measure: it’s small for both simple strings and uniformly random strings, but large for strings in a weird third category of “neither simple nor random.”  Unfortunately, as we defined it above, sophistication still doesn’t do the job.  For deterministic systems, the problem is the same as the one pointed out earlier for Kolmogorov complexity: we can always describe the system’s state after t time steps by specifying the initial state, the transition rule, and t.  Therefore the sophistication can never exceed log(t)+c.  Even for probabilistic systems, though, we can specify the set S(t) of all possible states after t time steps by specifying the initial state, the probabilistic transition rule, and t.  And, at least assuming that the probability distribution over S(t) is uniform, by a simple counting argument the state after t steps will almost always be a “generic” element of S(t).  So again, the sophistication will almost never exceed log(t)+c.  (If the distribution over S(t) is nonuniform, then some technical further arguments are needed, which I omit.)
+
+How can we fix this problem?  I think the key is to bring computational resource bounds into the picture.  (We already saw a hint of this in the discussion of entropy.)  In particular, suppose we define the complextropy of an n-bit string x to be something like the following:
+
+the number of bits in the shortest computer program that runs in n log(n) time, and that outputs a nearly-uniform sample from a set S such that (i) x∈S, and (ii) any computer program that outputs x in n log(n) time, given an oracle that provides independent, uniform samples from S, has at least log2(|S|)-c bits, for some constant c.
+
+Here n log(n) is just intended as a concrete example of a complexity bound: one could replace it with some other time bound, or a restriction to (say) constant-depth circuits or some other weak model of computation.  The motivation for the definition is that we want some “complextropy” measure that will assign a value close to 0 to the first and third coffee cups in the picture, but a large value to the second coffee cup.  And thus we consider the length of the shortest efficient computer program that outputs, not necessarily the target string x itself, but a sample from a probability distribution D such that x is not efficiently compressible with respect to D.  (In other words, x looks to any efficient algorithm like a “random” or “generic” sample from D.)
+
+Note that it’s essential for this definition that we imposed a computational efficiency requirement in two places: on the sampling algorithm, and also on the algorithm that reconstructs x given the sampling oracle.  Without the first efficiency constraint, the complextropy could never exceed log(t)+c by the previous argument.  Meanwhile, without the second efficiency constraint, the complextropy would increase, but then it would probably keep right on increasing, for the following reason: a time-bounded sampling algorithm wouldn’t be able to sample from exactly the right set S, only a reasonable facsimile thereof, and a reconstruction algorithm with unlimited time could probably then use special properties of the target string x to reconstruct x with fewer than log2(|S|)-c bits.
+
+But as long as we remember to put computational efficiency requirements on both algorithms, I conjecture that the complextropy will satisfy the “First Law of Complexodynamics,” exhibiting exactly the behavior that Sean wants: small for the initial state, large for intermediate states, then small again once the mixing has finished.  I don’t yet know how to prove this conjecture.  But crucially, it’s not a hopelessly open-ended question that one tosses out just to show how wide-ranging one’s thoughts are, but a relatively-bounded question about which actual theorems could be proved and actual papers published.
+
+If you want to do so, the first step will be to “instantiate” everything I said above with a particular model system and particular resource constraints.  One good choice could be a discretized “coffee cup,” consisting of a 2D array of black and white pixels (the “coffee” and “milk”), which are initially in separated components and then subject to random nearest-neighbor mixing dynamics.  (E.g., at each time step, we pick an adjacent coffee pixel and milk pixel uniformly at random, and swap the two.)  Can we show that for such a system, the complextropy becomes large at intermediate times (intuitively, because of the need to specify the irregular boundaries between the regions of all-black pixels, all-white pixels, and mixed black-and-white pixels)?
+
+One could try to show such a statement either theoretically or empirically.  Theoretically, I have no idea where to begin in proving it, despite a clear intuition that such a statement should hold: let me toss it out as a wonderful (I think) open problem!  At an empirical level, one could simply try to plot the complextropy in some simulated system, like the discrete coffee cup, and show that it has the predicted small-large-small behavior.   One obvious difficulty here is that the complextropy, under any definition like the one I gave, is almost certainly going to be intractable to compute or even approximate.  However, one could try to get around that problem the same way many others have, in empirical research inspired by Kolmogorov complexity: namely, by using something you can compute (e.g., the size of a gzip compressed file) as a rough-and-ready substitute for something you can’t compute (e.g., the Kolmogorov complexity K(x)).  In the interest of a full disclosure, a wonderful MIT undergrad, Lauren Oullette, recently started a research project with me where she’s trying to do exactly that.  So hopefully, by the end of the semester, we’ll be able to answer Sean’s question at least at a physics level of rigor!  Answering the question at a math/CS level of rigor could take a while longer.
+
+PS (unrelated). Are neutrinos traveling faster than light?  See this xkcd strip (which does what I was trying to do in the Deolalikar affair, but better).
+
+================================================================================
+
+TITLE: 6.893 Philosophy and Theoretical Computer Science
+URL: https://scottaaronson.blog/?m=201109
+CONTENT:
+I thought I’d let Shtetl-Optimized readers know about an experimental new course I’m teaching this fall (starting tomorrow): 6.893 Philosophy and Theoretical Computer Science.  The course was directly inspired by my Why Philosophers Should Care About Computational Complexity essay, and will cover many of the same topics.  Here’s the description:
+
+This new offering will examine the relevance of modern theoretical computer science to traditional questions in philosophy, and conversely, what philosophy can contribute to theoretical computer science.  Topics include: the status of the Church-Turing Thesis and its modern polynomial-time variants; quantum computing and the interpretation of quantum mechanics; complexity aspects of the strong-AI and free-will debates; complexity aspects of Darwinian evolution; the claim that “computation is physical”; the analog/digital distinction in computer science and physics; Kolmogorov complexity and the foundations of probability; computational learning theory and the problem of induction; bounded rationality and common knowledge; new notions of proof (probabilistic, interactive, zero-knowledge, quantum) and the nature of mathematical knowledge.  Intended for graduate students and advanced undergraduates in computer science, philosophy, mathematics, and physics.  Participation and discussion are an essential part of the course.
+
+If you’d like to follow remotely, the course homepage has links to lots of interesting readings, and students will also be posting their personal reactions to the class discussions as the semester progresses.
+
+Update (Sept. 7): By overwhelming request not only from readers but from students in the class, and with several of those students’ extremely kind assistance, we will be making audio recordings—although the audio quality probably won’t be great.
+
+================================================================================
+

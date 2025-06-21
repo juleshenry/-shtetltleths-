@@ -1,0 +1,139 @@
+TITLE: My googol rank
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+According to my usage statistics, of the people who come to scottaaronson.com via a search engine, about 5% do so by typing in one of the following queries:
+
+biggest number in the world
+the biggest number in the world
+what is the largest number
+largest number in the world
+what is the biggest number
+
+These people are then led to my big numbers essay, which presumably befuddles them even more.
+
+So, let me satisfy the public’s curiosity once and for all: the biggest number in the world is a million billion gazillion.  But stay tuned: even as I write, Space Shuttle astronauts are combing the galaxy for an even bigger number!
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 6: P, NP, and Friends
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+P, NP, and Friends.  A whole undergraduate complexity course in one HTML file.
+
+For those of you who already know this stuff: forgive me for boring you.  For those who don’t: read, learn, and join the Enlightened.
+
+Note: The comment section was down all day, but it’s back now.  Google ought to be ashamed to be running something as rickety and unreliable as Blogger.  Well, I guess you get what you pay for.
+
+================================================================================
+
+TITLE: Mistake of the Week: “X works on paper, but not in the real world”
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+Time again for Shtetl-Optimized’s Mistake of the Week series!  This week my inspiration comes from a paper that’s been heating up the quantum blogosphere (the Blochosphere?): Is Fault-Tolerant Quantum Computation Really Possible? by M. I. Dyakonov.  I’ll start by quoting my favorite passages:
+
+The enormous literature devoted to this subject (Google gives 29300 hits for “fault-tolerant quantum computation”) is purely mathematical.  It is mostly produced by computer scientists with a limited understanding of physics and a somewhat restricted perception of quantum mechanics as nothing more than unitary transformations in Hilbert space plus “entanglement.”
+
+Whenever there is a complicated issue, whether in many-particle physics, climatology, or economics, one can be almost certain that no theorem will be applicable and/or relevant, because the explicit or implicit assumptions, on which it is based, will never hold in reality.
+
+I’ll leave the detailed critique of Dyakonov’s paper to John Preskill, the Pontiff, and other “computer scientists” who understand the fault-tolerance theorem much better than a mere physicist like me.  Here I instead want to take issue with an idea that surfaces again and again in Dyakonov’s paper, is almost universally accepted, but is nevertheless false.  The idea is this: that it’s possible for a theory to “work on paper but not in the real world.”
+
+The proponents of this idea go wrong, not in thinking that a theory can fail in the real world, but in thinking that if it fails, then the theory can still “work on paper.” If a theory claims to describe a phenomenon but doesn’t, then the theory doesn’t work, period — neither in the real world nor on paper.  In my view, the refrain that something “works on paper but not in the real world” serves mainly as an intellectual crutch: a way for the lazy to voice their opinion that something feels wrong to them, without having to explain how or  where it’s wrong.
+
+“Ah,” you say, “but theorists often make assumptions that don’t hold in the real world!”  Yes, but you’re sidestepping the key question: did the theorists state their assumptions clearly or not?  If they didn’t, then the fault lies with them; if they did, then the fault lies with those practitioners who would milk a nonspherical cow like a spherical one.
+
+To kill a theory (in the absence of direct evidence), you need to pinpoint which of its assumptions are unfounded and why.  You don’t become more convincing by merely finding more assumptions to criticize; on the contrary, the “hope something sticks” approach usually smacks of desperation:
+
+There’s no proof that the Earth’s temperature is rising, but even if there was, there’s no proof that humans are causing it, but even if there was, there’s no proof that it’s anything to worry about, but even there was, there’s no proof that we can do anything about it, but even if there was, it’s all just a theory anyway!
+
+As should be clear, “just a theory” is not a criticism: it’s a kvetch.
+
+Marge: I really think this is a bad idea.
+Homer: Marge, I agree with you — in theory.  In theory, communism works.  In theory.
+
+Actually, let’s look at Homer’s example of communism, since nothing could better illustrate my point.  When people say that communism works “in theory,” they presumably mean that it works if everyone is altruistic.  But regulating selfishness is the whole problem political systems are supposed to solve in the first place!  Any political system that defines the problem away doesn’t work on paper, any more than “Call a SAT oracle” works on paper as a way to solve NP-complete problems.  Once again, we find the “real world / paper” distinction used as a cover for intellectual laziness.
+
+Let me end this rant by preempting the inevitable cliché that “in theory, there’s no difference between theory and practice; in practice, there is.”  Behold my unanswerable retort:
+
+In theory, there’s no difference between theory and practice even in practice.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 5: Paleocomplexity
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+From my inbox:
+
+We simple folk out in the cold wastes of the internet are dying the slow and horrible death of intellectual starvation.  Only you can save us, by posting the next installment of your lecture notes before we shuffle off this mortal coil.  Will you help us, or will you say “Let them read slashdot”?  Ok, seriously, I know you’re busy.  Just wanted to make sure you knew people are enjoying the lecture notes.
+
+And from my comments section:
+
+You know you’ve made it, and then lost it, when you no longer publish notes on your course 🙂
+
+Alright, alright, alright, alright, alright.  Now that I’ve returned from my two-week world concert tour (which took me to Innsbruck, London, Yale, and U. of Toronto), and now that my girlfriend and I have settled into a lovely new apartment (complete with silverware, shower curtains, and a giant poster of complexity class inclusions above the fireplace), I finally have some time to resume your regularly-scheduled programming.
+
+So won’t you join me, as I attempt to excavate the strange forgotten world of paleocomplexity, and relive an age when STOC and FOCS were held in caves and Diagonalosaurs ruled the earth?
+
+================================================================================
+
+TITLE: You know you’ve made it when…
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+… Lance Fortnow and Bill Gasarch perform a Talmudic exegesis of one of your blog posts, taking more time to do so than you took to write the post.  Listen to Bill and Lance dissect my Ten Reasons to Believe P!=NP, and then offer their own reasons that are every bit as flaky as mine are.  (Indeed, Lance’s reason turns out to be almost identical to my reason #9, which he had previously rejected.)
+
+I’m honored, of course, but I’m also offended by Bill and Lance’s speculation that not all of my Reasons to Believe were meant completely seriously.  Needless to say, everything I write on this blog carries the Official Scott Aaronson Seal of Really Meaning It.  Including the last sentence.  And the last one.  And the last one.  And the last one.
+
+================================================================================
+
+TITLE: Newton vs. Leibniz: the wigs are off
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+Of course, the greatest scientific flame war of all time was the calculus priority dispute between Isaac Newton and Gottfried Wilhelm Leibniz.  This one had everything: intrigue, pettiness, hypocrisy, nationalism, and even hints of the physicist vs. computer scientist split that continues to this day.
+
+In our opening talk at QIPC’2006 in London, Dave Bacon and I decided to relive the hatred — with Dave in a frilly white wig playing the part of Newton, and your humble blogger in a frilly black wig playing the part of Leibniz.  We forgot to take photos, but here’s the script, and here are the slides for the … err, “serious” talk that Dave and I gave after dewigging.
+
+Update (thanks to Dave and Viv Kendon):
+
+
+
+================================================================================
+
+TITLE: Reigniting flame wars is my solemn responsibility
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+The New York Times on Yau.  Thanks to Hoeteck Wee.
+
+================================================================================
+
+TITLE: Setting The Record straight
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+So, it seems I’ve been written up in the Kitchener-Waterloo Record, a newspaper whose prestige and journalistic excellence make the Wall Street Journal look like the Shop-Rite coupon book.  The article, by Meghan Waters, is about “nerd culture” in Waterloo, and I am the prototypical nerd who Waters found to interview.
+
+A few corrections:
+
+Despite these and other minor errors, I’m glad that my plan to increase the number of women in science by “nerdifying the world” has now received the wide public airing it deserves.
+
+================================================================================
+
+TITLE: Why complexity is better than cannabis
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+Whether there exist subexponential-size locally decodable codes, and sub-nε-communication private information retrieval (PIR) protocols, have been major open problems for a decade.  A new preprint by Sergey Yekhanin reveals that both of these questions hinge on — wait for this — whether or not there are infinitely many Mersenne primes.  By using the fact (discovered a month ago) that 232,582,657-1 is prime, Yekhanin can already give a 3-server PIR protocol with communication complexity O(n1/32,582,658), improving the previous bound of O(n1/5.25).   Duuuuuude.  If you’ve ever wondered what it is that motivates complexity theorists, roll this one up and smoke it.
+
+================================================================================
+
+TITLE: Ja!  Ein klein Wienerschnitzel Entscheidungsproblem
+URL: https://scottaaronson.blog/?m=200610
+CONTENT:
+I arrived yesterday in Innsbruck, Austria — a lovely medieval town set in a valley in the Tyrolean Alps. Here the Pontiff and I are sharing an office at the Institut für Quantenoptik und Quanteninformation, and will have to work out a comedy routine to be performed Friday morning, when we’re supposed to open the QIPC meeting at Ike Newton’s old stomping grounds, the Royal Society in London.
+
+Since I’m too jetlagged to write a coherent entry, I hope you’ll be satisfied with some lists:
+
+The three secrets of air travel (distilled from a decade of experience flying to four continents, and offered free of charge to you, my readers):
+
+The only three German words you’ll ever need to know:
+
+The two things I saw yesterday that I wish I’d taken a photo of but didn’t:
+
+================================================================================
+

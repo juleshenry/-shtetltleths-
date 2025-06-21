@@ -1,0 +1,190 @@
+TITLE: The Complete Idiot’s Guide to the Independence of the Continuum Hypothesis: Part 1 of <=Aleph_0
+URL: https://scottaaronson.blog/?m=202010
+CONTENT:
+A global pandemic, apocalyptic fires, and the possible descent of the US into violent anarchy three days from now can do strange things to the soul.
+
+Bertrand Russell—and if he’d done nothing else in his long life, I’d love him forever for it—once wrote that “in adolescence, I hated life and was continually on the verge of suicide, from which, however, I was restrained by the desire to know more mathematics.”  This summer, unable to bear the bleakness of 2020, I obsessively read up on the celebrated proof of the unsolvability of the Continuum Hypothesis (CH) from the standard foundation of mathematics, the Zermelo-Fraenkel axioms of set theory.  (In this post, I’ll typically refer to “ZFC,” which means Zermelo-Fraenkel plus the famous Axiom of Choice.)
+
+For those tuning in from home, the Continuum Hypothesis was formulated by Georg Cantor, shortly after his epochal discovery that there are different orders of infinity: so for example, the infinity of real numbers (denoted C for continuum, or \( 2^{\aleph_0} \)) is strictly greater than the infinity of integers (denoted ℵ0, or “Aleph-zero”).  CH is simply the statement that there’s no infinity intermediate between ℵ0 and C: that anything greater than the first is at least the second.  Cantor tried in vain for decades to prove or disprove CH; the quest is believed to have contributed to his mental breakdown.  When David Hilbert presented his famous list of 23 unsolved math problems in 1900, CH was at the very top.
+
+Halfway between Hilbert’s speech and today, the question of CH was finally “answered,” with the solution earning the only Fields Medal that’s ever been awarded for work in set theory and logic.  But unlike with any previous yes-or-no question in the history of mathematics, the answer was that there provably is no answer from the accepted axioms of set theory!  You can either have intermediate infinities or not; neither possibility can create a contradiction.  And if you do have intermediate infinities, it’s up to you how many: 1, 5, 17, ∞, etc.
+
+The easier half, the consistency of CH with set theory, was proved by incompleteness dude Kurt Gödel in 1940; the harder half, the consistency of not(CH), by Paul Cohen in 1963.  Cohen’s work introduced the method of forcing, which was so fruitful in proving set-theoretic questions unsolvable that it quickly took over the whole subject of set theory.  Learning Gödel and Cohen’s proofs had been a dream of mine since teenagerhood, but one I constantly put off.
+
+This time around I started with Cohen’s retrospective essay, as well as Timothy Chow’s Forcing for Dummies and A Beginner’s Guide to Forcing.  I worked through Cohen’s own Set Theory and the Continuum Hypothesis, and Ken Kunen’s Set Theory: An Introduction to Independence Proofs, and Dana Scott’s 1967 paper reformulating Cohen’s proof.  I emailed questions to Timothy Chow, who was ridiculously generous with his time.  When Tim and I couldn’t answer something, we tried Bob Solovay (one of the world’s great set theorists, who later worked in computational complexity and quantum computing), or Andreas Blass or Asaf Karagila.  At some point mathematician and friend-of-the-blog Greg Kuperberg joined my quest for understanding.  I thank all of them, but needless to say take sole responsibility for all the errors that surely remain in these posts.
+
+On the one hand, the proof of the independence of CH would seem to stand with general relativity, the wheel, and the chocolate bar as a triumph of the human intellect.  It represents a culmination of Cantor’s quest to know the basic rules of infinity—all the more amazing if the answer turns out to be that, in some sense, we can’t know them.
+
+On the other hand, perhaps no other scientific discovery of equally broad interest remains so sparsely popularized, not even (say) quantum field theory or the proof of Fermat’s Last Theorem.  I found barely any attempts to explain how forcing works to non-set-theorists, let alone to non-mathematicians.  One notable exception was Timothy Chow’s Beginner’s Guide to Forcing, mentioned earlier—but Chow himself, near the beginning of his essay, calls forcing an “open exposition problem,” and admits that he hasn’t solved it.  My modest goal, in this post and the following ones, is to make a further advance on the exposition problem.
+
+OK, but why a doofus computer scientist like me?  Why not, y’know, an actual expert?  I won’t put forward my ignorance as a qualification, although I have often found that the better I learn a topic, the more completely I forget what initially confused me, and so the less able I become to explain things to beginners.
+
+Still, there is one thing I know well that turns out to be intimately related to Cohen’s forcing method, and that made me feel like I had a small “in” for this subject.  This is the construction of oracles in computational complexity theory.  In CS, we like to construct hypothetical universes where P=NP or P≠NP, or P≠BQP, or the polynomial hierarchy is infinite, etc.  To do so, we, by fiat, insert a new function—an oracle—into the universe of computational problems, carefully chosen to make the desired statement hold.  Often the oracle needs to satisfy an infinite list of conditions, so we handle them one by one, taking care that when we satisfy a new condition we don’t invalidate the previous conditions.
+
+All this, I kept reading, is profoundly analogous to what the set theorists do when they create a mathematical universe where the Axiom of Choice is true but CH is false, or vice versa, or any of a thousand more exotic possibilities.  They insert new sets into their models of set theory, sets that are carefully constructed to “force” infinite lists of conditions to hold.  In fact, some of the exact same people—such as Solovay—who helped pioneer forcing in the 1960s, later went on to pioneer oracles in computational complexity.  We’ll say more about this connection in a future post.
+
+How Could It Be?
+
+How do you study a well-defined math problem, and return the answer that, as far as the accepted axioms of math can say, there is no answer?  I mean: even supposing it’s true that there’s no answer, how do you prove such a thing?
+
+Arguably, not even Gödel’s Incompleteness Theorem achieved such a feat.  Recall, the Incompleteness Theorem says loosely that, for every formal system F that could possibly serve as a useful foundation for mathematics, there exist statements even of elementary arithmetic that are true but unprovable in F—and Con(F), a statement that encodes F’s own consistency, is an example of one.  But the very statement that Con(F) is unprovable is equivalent to Con(F)’s being true (since an inconsistent system could prove anything, including Con(F)).  In other words, if the Incompleteness Theorem as applied to F holds any interest, then that’s only because F is, in fact, consistent; it’s just that resources beyond F are needed to prove this.
+
+Yes, there’s a “self-hating theory,” F+Not(Con(F)), which believes in its own inconsistency.  And yes, by Gödel, this self-hating theory is consistent if F itself is.  This means that it has a model—involving “nonstandard integers,” formal artifacts that effectively promise a proof of F’s inconsistency without ever actually delivering it.  We’ll have much, much more to say about models later on, but for now, they’re just collections of objects, along with relationships between the objects, that satisfy all the axioms of a theory (thus, a model of the axioms of group theory is simply … any group!).
+
+In any case, though, the self-hating theory F+Not(Con(F)) can’t be arithmetically sound: I mean, just look at it!  It’s either unsound because F is consistent, or else it’s unsound because F is inconsistent.  In general, this is one of the most fundamental points in logic: consistency does not imply soundness.  If I believe that the moon is made of cheese, that might be consistent with all my other beliefs about the moon (for example, that Neil Armstrong ate delicious chunks of it), but that doesn’t mean my belief is true.  Like the classic conspiracy theorist, who thinks that any apparent evidence against their hypothesis was planted by George Soros or the CIA, I might simply believe a self-consistent collection of absurdities.  Consistency is purely a syntactic condition—it just means that I can never prove both a statement and its opposite—but soundness goes further, asserting that whatever I can prove is actually the case, a relationship between what’s inside my head and what’s outside it.
+
+So again, assuming we had any business using F in the first place, the Incompleteness Theorem gives us two consistent ways to extend F (by adding Con(F) or by adding Not(Con(F))), but only one sound way (by adding Con(F)).  But the independence of CH from the ZFC axioms of set theory is of a fundamentally different kind.  It will give us models of ZFC+CH, and models of ZFC+Not(CH), that are both at least somewhat plausible as “sketches of mathematical reality”—and that both even have defenders.  The question of which is right, or whether it’s possible to decide at all, will be punted to the future: to the discovery (or not) of some intuitively compelling foundation for mathematics that, as Gödel hoped, answers the question by going beyond ZFC.
+
+Four Levels to Unpack
+
+While experts might consider this too obvious to spell out, Gödel’s and Cohen’s analyses of CH aren’t so much about infinity, as they are about our ability to reason about infinity using finite sequences of symbols.  The game is about building self-contained mathematical universes to order—universes where all the accepted axioms about infinite sets hold true, and yet that, in some cases, seem to mock what those axioms were supposed to mean, by containing vastly fewer objects than the mathematical universe was “meant” to have.
+
+In understanding these proofs, the central hurdle, I think, is that there are at least four different “levels of description” that need to be kept in mind simultaneously.
+
+At the first level, Gödel’s and Cohen’s proofs, like all mathematical proofs, are finite sequences of symbols.  Not only that, they’re proofs that can be formalized in elementary arithmetic (!).  In other words, even though they’re about the axioms of set theory, they don’t themselves require those axioms.  Again, this is possible because, at the end of the day, Gödel’s and Cohen’s proofs won’t be talking about infinite sets, but “only” about finite sequences of symbols that make statements about infinite sets.
+
+At the second level, the proofs are making an “unbounded” but perfectly clear claim.  They’re claiming that, if someone showed you a proof of either CH or Not(CH), from the ZFC axioms of set theory, then no matter how long the proof or what its details, you could convert it into a proof that ZFC itself was inconsistent.  In symbols, they’re proving the “relative consistency statements”
+
+Con(ZFC) ⇒ Con(ZFC+CH),Con(ZFC) ⇒ Con(ZFC+Not(CH)),
+
+and they’re proving these as theorems of elementary arithmetic.  (Note that there’s no hope of proving Con(ZF+CH) or Con(ZFC+Not(CH)) outright within ZFC, since by Gödel, ZFC can’t even prove its own consistency.)
+
+This translation is completely explicit; the independence proofs even yield algorithms to convert proofs of inconsistencies in ZFC+CH or ZFC+Not(CH), supposing that they existed, into proofs of inconsistencies in ZFC itself.
+
+Having said that, as Cohen himself often pointed out, thinking about the independence proofs in terms of algorithms to manipulate sequences of symbols is hopeless: to have any chance of understanding these proofs, let alone coming up with them, at some point you need to think about what the symbols refer to.
+
+This brings us to the third level: the symbols refer to models of set theory, which could also be called “mathematical universes.”  Crucially, we always can and often will take these models to be only countably infinite: that is, to contain an infinity of sets, but “merely” ℵ0 of them, the infinity of integers or of finite strings, and no more.
+
+The fourth level of description is from within the models themselves: each model imagines itself to have an uncountable infinity of sets.  As far as the model’s concerned, it comprises the entire mathematical universe, even though “looking in from outside,” we can see that that’s not true.  In particular, each model of ZFC thinks it has uncountably many sets, many themselves of uncountable cardinality, even if “from the outside” the model is countable.
+
+Say what?  The models are mistaken about something as basic as their own size, about how many sets they have?  Yes.  The models will be like The Matrix (the movie, not the mathematical object), or The Truman Show.  They’re self-contained little universes whose inhabitants can never discover that they’re living a lie—that they’re missing sets that we, from the outside, know to exist.  The poor denizens of the Matrix will never even be able to learn that their universe—what they mistakenly think of as the universe—is secretly countable!  And no Morpheus will ever arrive to enlighten them, although—and this is crucial to Cohen’s proof in particular—the inhabitants will be able to reason more-or-less intelligibly about what would happen if a Morpheus did arrive.
+
+The Löwenheim-Skolem Theorem, from the early 1920s, says that any countable list of first-order axioms that has any model at all (i.e., that’s consistent), must have a model with at most countably many elements.  And ZFC is a countable list of first-order axioms, so Löwenheim-Skolem applies to it—even though ZFC implies the existence of an uncountable infinity of sets!  Before taking the plunge, we’ll need to not merely grudgingly accept but love and internalize this “paradox,” because pretty much the entire proof of the independence of CH is built on top of it.
+
+Incidentally, once we realize that it’s possible to build self-consistent yet “fake” mathematical universes, we can ask the question that, incredibly, the Matrix movies never ask.  Namely, how do we know that our own, larger universe isn’t similarly a lie?  The answer is that we don’t!  As an example—I hope you’re sitting down for this—even though Cantor proved that there are uncountably many real numbers, that only means there are uncountably many reals for us.  We can’t rule out the possibly that God, looking down on our universe, would see countably many reals.
+
+Cantor’s Proof Revisited
+
+To back up: the whole story of CH starts, of course, with Cantor’s epochal discovery of the different orders of infinity, that for example, there are more subsets of positive integers (or equivalently real numbers, or equivalently infinite binary sequences) than there are positive integers.  The devout Cantor thought his discovery illuminated the nature of God; it’s never been entirely obvious to me that he was wrong.
+
+Recall how Cantor’s proof works: we suppose by contradiction that we have an enumeration of all infinite binary sequences: for example,
+
+s(0) = 00000000…s(1) = 01010101…s(2) = 11001010….s(3) = 10000000….
+
+We then produce a new infinite binary sequence that’s not on the list, by going down the diagonal and flipping each bit, which in the example above would produce 1011…
+
+But look more carefully.  What Cantor really shows is only that, within our mathematical universe, there can’t be an enumeration of all the reals of our universe.  For if there were, we could use it to define a new real that was in the universe but not in the enumeration.  The proof doesn’t rule out the possibility that God could enumerate the reals of our universe!  It only shows that, if so, there would need to be additional, heavenly reals that were missing from even God’s enumeration (for example, the one produced by diagonalizing against that enumeration).
+
+Which reals could possibly be “missing” from our universe?  Every real you can name—42, π, √e, even uncomputable reals like Chaitin’s Ω—has to be there, right?  Yes, and there’s the rub: every real you can name.  Each name is a finite string of symbols, so whatever your naming system, you can only ever name countably many reals, leaving 100% of the reals nameless.
+
+Or did you think of only the rationals or algebraic numbers as forming a countable dust of discrete points, with numbers like π and e filling in the solid “continuum” between them?  If so, then I hope you’re sitting down for this: every real number you’ve ever heard of belongs to the countable dust!  The entire concept of “the continuum” is only needed for reals that don’t have names and never will.
+
+From ℵ0 Feet
+
+Gödel and Cohen’s achievement was to show that, without creating any contradictions in set theory, we can adjust size of this elusive “continuum,” put more reals into it or fewer.  How does one even start to begin to prove such a statement?
+
+From a distance of ℵ0 feet, Gödel proves the consistency of CH by building minimalist mathematical universes: one where “the only sets that exist, are the ones required to exist by the ZFC axioms.”  (These universes can, however, differ from each other in how “tall” they are: that is, in how many ordinals they have, and hence how many sets overall.  More about that in a future post!)  Gödel proves that, if the axioms of set theory are consistent—that is, if they describe any universes at all—then they also describe these minimalist universes.  He then proves that, in any of these minimalist universes, from the standpoint of someone within that universe, there are exactly ℵ1 real numbers, and hence CH holds.
+
+At an equally stratospheric level, Cohen proves the consistency of not(CH) by building … well, non-minimalist mathematical universes!  A simple way is to start with Gödel’s minimalist universe—or rather, an even more minimalist universe than his, one that’s been cut down to have only countably many sets—and then to stick in a bunch of new real numbers that weren’t in that universe before.  We choose the new real numbers to ensure two things: first, we still have a model of ZFC, and second, that we make CH false.  The details of how to do that will, of course, concern us later.
+
+My Biggest Confusion
+
+In subsequent posts, I’ll say more about the character of the ZFC axioms and how one builds models of them to order.  Just as a teaser, though, to conclude this post I’d like to clear up a fundamental misconception I had about this subject, from roughly the age of 16 until a couple months ago.
+
+I thought: the way Gödel proves the consistency of CH, must be by examining all the sets in his minimalist universe, and checking that each one has either at most ℵ0 elements or else at least C of them.  Likewise, the way Cohen proves the consistency of not(CH), must be by “forcing in” some extra sets, which have more than ℵ0 elements but fewer than C elements.
+
+Except, it turns out that’s not how it works.  Firstly, to prove CH in his universe, Gödel is not going to check each set to make sure it doesn’t have intermediate cardinality; instead, he’s simply going to count all the reals to make sure that there are only ℵ1 of them—where ℵ1 is the next infinite cardinality after ℵ0.  This will imply that C=ℵ1, which is another way to state CH.
+
+More importantly, to build a universe where CH is false, Cohen is going to start with a universe where C=ℵ1, like Gödel’s universe, and then add in more reals: say, ℵ2 of them.  The ℵ1 “original” reals will then supply our set of intermediate cardinality between the ℵ0 integers and the ℵ2 “new” reals.
+
+Looking back, the core of my confusion was this.  I had thought: I can visualize what ℵ0 means; that’s just the infinity of integers.  I can also visualize what \( C=2^{\aleph_0} \) means; that’s the infinity of points on a line.  Those, therefore, are the two bedrocks of clarity in this discussion.  By contrast, I can’t visualize a set of intermediate cardinality between ℵ0 and C.  The intermediate infinity, being weird and ghostlike, is the one that shouldn’t exist unless we deliberately “force” it to.
+
+Turns out I had things backwards.  For starters, I can’t visualize the uncountable infinity of real numbers.  I might think I’m visualizing the real line—it’s solid, it’s black, it’s got little points everywhere—but how can I be sure that I’m not merely visualizing the ℵ0 rationals, or (say) the computable or definable reals, which include all the ones that arise in ordinary math?
+
+The continuum C is not at all the bedrock of clarity that I’d thought it was.  Unlike its junior partner ℵ0, the continuum is adjustable, changeable—and we will change it when we build different models of ZFC.  What’s (relatively) more “fixed” in this game is something that I, like many non-experts, had always given short shrift to: Cantor’s sequence of Alephs ℵ0, ℵ1, ℵ2, etc.
+
+Cantor, who was a very great man, didn’t merely discover that C>ℵ0; he also discovered that the infinite cardinalities form a well-ordered sequence, with no infinite descending chains.  Thus, after ℵ0,  there’s a next greater infinity that we call ℵ1; after ℵ1 comes  ℵ2; after the entire infinite sequence ℵ0,ℵ1,ℵ2,ℵ3,… comes ℵω; after ℵω comes ℵω+1; and so on.  These infinities will always be there in any universe of set theory, and always in the same order.
+
+Our job, as engineers of the mathematical universe, will include pegging the continuum C to one of the Alephs.  If we stick in a bare minimum of reals, we’ll get C=ℵ1, if we stick in more we can get C=ℵ2 or C=ℵ3, etc.  We can’t make C equal to ℵ0—that’s Cantor’s Theorem—and we also can’t make C equal to ℵω, by an important theorem of König that we’ll discuss later (yes, this is an umlaut-heavy field).  But it will turn out that we can make C equal to just about any other Aleph: in particular, to any infinity other than ℵ0 that’s not the supremum of a countable list of smaller infinities.
+
+In some sense, this is the whole journey that we need to undertake in this subject: from seeing the cardinality of the continuum as a metaphysical mystery, which we might contemplate by staring really hard at a black line on white paper, to seeing the cardinality of the continuum as an engineering problem.
+
+Stay tuned!  Next installment coming after the civilizational Singularity in three days, assuming there’s still power and Internet and food and so forth.
+
+Oh, and happy Halloween.  Ghostly sets of intermediate cardinality … spoooooky!
+
+================================================================================
+
+TITLE: Vote in person if you can
+URL: https://scottaaronson.blog/?m=202010
+CONTENT:
+[If you’re not American, or you’re American but a masochist who enjoys the current nightmare, this post won’t be relevant to you—sorry!]
+
+Until recently, this blog had a tagline that included “HOLD THE NOVEMBER US ELECTION BY MAIL.”  So I thought I should warn readers that circumstances have changed in ways that have important practical implications over the next few weeks.  It’s no longer that we don’t know whether Trump and Pence will acknowledge a likely loss—rather, it’s that we know they won’t.  They were repeatedly asked; we all heard their answers.
+
+That means that the best case, the ideal scenario, is already without precedent in the country’s 240-year history.  It’s a president who never congratulates the winner, who refuses to meet him or coordinate a transfer of power, who skips the inauguration, and who’s basically dragged from the White House on January 20, screaming to his supporters (and continuing to scream until his dying breath) that the election was faked.
+
+As I said, that banana-republic outcome is now the best case.  But it’s also plausible that Trump simply declares himself the winner on election night, because the mail-in votes, urban votes, yet-to-be-counted votes, or any other votes that trend the wrong way are fake; social media and the Murdoch press amplify this fantasy; Trump calls on Republican-controlled state legislatures to set aside the “rigged” results and appoint their own slates of electors; the legislatures dutifully comply; and the Supreme Court A-OKs it all.  If you think none of that could happen, read this Atlantic article from a few weeks ago, carefully to the end, and be more terrified than you’ve ever been in your life.  And don’t pretend that you know what would happen next.
+
+I know, I know, I’m mentally ill, it’s Trump Derangement Syndrome, I see Nazis behind every corner just because they killed most of my relatives, a little global pandemic here and economic collapse there and riots and apocalyptic fires and resurgent fascism and I act as though it’s the whole world coming to an end.  A few months from now, after everything has gone swimmingly, this post will still be here and you can come back and tell me how crazy I was.  I accept that risk.
+
+For now, though, the best chance to avert a catastrophe is for Trump not merely to lose, but lose in a landslide that’s already clear by election night.  Which means: as Michelle Obama advised already in August, put on your mask, brave the virus, and vote in person if you can—especially if you live in a state that’s in play, and that won’t start tallying mail-in ballots till after election day.  If your state allows it, and if early votes will be counted by election night (check this!), vote early, when the lines are shorter.  That’s what Dana and I did this morning; Texas going blue on election night would be one dramatic way to foreclose shenanigans.  If you can’t vote in person, or if your state counts mail-in ballots earlier, then vote by mail or drop-box, but do it now, so you have a chance to fix any problems well before Election Day.  (Note that, even in normal circumstances—which these aren’t—a substantial fraction of all mail-in ballots get rejected because of trivial errors.)  I welcome other tips in the comments, from the many readers more immersed in this stuff than I am.
+
+And if this post helped spur you in any way, please say so in the comments.  It will improve my mood, thereby helping me finish my next post, which will be on the Continuum Hypothesis.
+
+Update: It’s always fascinating to check my comments and see the missives from parallel universes, where Trump is a normal candidate who one might decide to vote for based on normal criteria, rather than what he himself has announced he is: a knife to the entire system that underlies such decisions.  For a view from this universe, see (e.g.) today’s Nature editorial.
+
+Another Update: If it allays anyone’s fears, I was pleasantly surprised by the level of pandemic preparedness when Dana and I went to vote.  It was in a huge, cavernous gym on the UT campus, the lines were very short, masks and 6ft distancing were strictly enforced, and finger-coverings and hand sanitizer were offered to everyone.
+
+Unrelated Update (10/16): For those who are interested, here’s a new podcast with me and Matt Asher, where we talk about the use of quantum mechanics (especially Bell inequality violations) to generate certified random numbers.
+
+================================================================================
+
+TITLE: My second podcast with Lex Fridman
+URL: https://scottaaronson.blog/?m=202010
+CONTENT:
+Here it is—enjoy!  (I strongly recommend listening at 2x speed.)
+
+We recorded it a month ago—outdoors (for obvious covid reasons), on a covered balcony in Austin, as it drizzled all around us.  Topics included:
+
+Thanks so much to Lex for his characteristically probing questions, apologies as always for my verbal tics, and here’s our first podcast for those who missed that one.
+
+================================================================================
+
+TITLE: On the destruction of America’s best high school
+URL: https://scottaaronson.blog/?m=202010
+CONTENT:
+[C]hildren with special abilities and skills need to be nourished and encouraged.  They are a national treasure.  Challenging programs for the “gifted” are sometimes decried as “elitism.”  Why aren’t intensive practice sessions for varsity football, baseball, and basketball players and interschool competition deemed elitism?  After all, only the most gifted athletes participate.  There is a self-defeating double standard at work here, nationwide.—Carl Sagan, The Demon-Haunted World (1996)
+
+I’d like you to feel about the impending destruction of Virginia’s Thomas Jefferson High School for Science and Technology, the same way you might’ve felt when the Taliban threatened to blow up the Bamyan Buddhas, and then days later actually did blow them up.  Or the way you felt when human negligence caused wildfires that incinerated half the koalas in Australia, or turned the San Francisco skyline into an orange hellscape.  For that matter, the same way most of us felt the day Trump was elected.  I’d like you to feel in the bottom of your stomach the avoidability, and yet the finality, of the loss.
+
+For thousands of kids in the DC area, especially first- or second-generation immigrants, TJHS represented a lifeline.  Score high enough on an entrance exam—something hard but totally within your control—and you could attend a school where, instead of the other kids either tormenting or ignoring you, they might teach you Lisp or the surreal number system.  Where you could learn humility instead of humiliation.
+
+When I visited TJHS back in 2012 to give a quantum computing talk, I toured the campus, chatted with students, fielded their questions, and thought: so this is the teenagerhood—the ironically normal teenagerhood—that I was denied by living someplace else.  I found myself wishing that a hundred more TJHS’s, large and small, would sprout up across the country.  I felt like if I could further that goal then, though the universe return to rubble, my life would’ve had a purpose.
+
+Instead, of course, our sorry country is destroying the few such schools that exist.  Stuyvesant and Bronx Science in New York, and the Liberal Arts and Science Academy here in Austin, are also under mortal threat right now.  The numerous parents who moved, who arranged their lives, specifically so that these schools might later be available for “high-risk” kids were suckered.
+
+Assuming you haven’t just emerged from 30 years in a Tibetan cave, you presumably know why this is happening.  As the Washington Post‘s Jay Matthews explains, the Fairfax County School Board is “embarrassed” to have a school that, despite all its outreach attempts, remains only 5% Black and Latino—even though, crucially, the school also happens to be only 19% White (it’s now ~75% Asian).
+
+You might ask: so then why doesn’t TJHS just institute affirmative action, like almost every university does?  It seems there’s an extremely interesting answer: they did in the 1990s, and Black and Hispanic enrollment surged.  But then the verdicts of court cases, brought by right-wing groups, made the school district fear that they’d be open to lawsuits if they continued with affirmative action, so they dropped it.  Now the boomerang has returned, and the School Board has decided on a more drastic remedy: namely, to eliminate the TJHS entrance exam entirely, and replace it by a lottery for anyone whose GPA exceeds 3.5.
+
+The trouble is, TJHS without an entrance exam is no longer TJHS.  More likely than not, such a place would simply converge to become another of the thousands of schools across the US where success is based on sports, networking, and popularity.  And if by some miracle it avoided that fate, still it would no longer be available to most of the kids who‘d most need it.
+
+So yes, the district is embarrassed—note that the Washington Post writer explains it as if that’s the most obvious, natural reaction in the world—to host a school that’s regularly ranked #1 in the US, with the highest average SATs and a distinguished list of alumni.  To avoid this embarrassment, the solution is (in effect) to burn the school to the ground.
+
+In a world-historic irony, the main effect of this “solution” will be to drastically limit the number of Asian students, while drastically increasing (!!!) the number of White students.  The proportion of Black and Hispanic students is projected to increase a bit but remain small.  Let me say that one more time: in practice, TJHS’s move from a standardized test to a lottery will be overwhelmingly pro-White, anti-Asian, and anti-immigrant; only as a much smaller effect will it be pro-underrepresented-minority.
+
+In spite of covid and everything else going on, hundreds of students and parents have been protesting in front of TJHS to try to prevent the school’s tragic and pointless destruction.  But it sounds like TJHS’s fate might be sealed.  The school board tolerated excellence for 35 more years than it wanted to; now its patience is at an end.
+
+Some will say: sure, the end of TJHS is unfortunate, Scott, but why do you let this stuff weigh on you so heavily?  This is merely another instance of friendly fire, of good people fighting the just war against racism, and in one case hitting a target that, yeah, OK, probably should’ve been spared.  On reflection, though, I can accept that only insofar as I accept that it was “friendly fire” when Bolsheviks targeted the kulaks, or (much more comically, less importantly, and less successfully) when Arthur Chu, Amanda Marcotte, and a thousand other woke-ists targeted me.  With friendly fire like that, who needs enemy fire?
+
+If you care about the gifted Black and Hispanic kids of Fairfax County, then like me, you should demand a change in the law to allow the reinstatement of affirmative action for them.  You should acknowledge that the issue lies there and not with TJHS itself.
+
+I don’t see how you reach the point of understanding all the facts and still wanting to dismantle TJHS, over the desperate pleas of the students and parents, without a decent helping of resentment toward the kind of student who flourishes there—without a wish to see those uppity,  “fresh off the boat” Chinese and Indian grinds get dragged down to where they belong.  And if you tell me that such magnet programs need to end even though you yourself once benefitted from them—well, isn’t that more contemptible still?  Aren’t you knowingly burning a bridge you crossed so that a younger generation can’t follow you, basically reassuring the popular crowd that if they’ll only accept you, then there won’t be a hundred more greasy nerds in your tow?  And if, on some level, you already know these things about yourself, then the only purpose of this post has been to remind you of them.
+
+As for the news that dominates the wires and inevitably preempts what I’ve written: I wish for his successful recovery, followed by his losing the election and spending the rest of his life in New York State prison.  (And I look forward to seeing how woke Twitter summarizes the preceding statement—e.g., “Aaronson, his mask finally off, conveys well-wishes to Donald Trump”…)
+
+See further discussion of this post on Hacker News.
+
+================================================================================
+

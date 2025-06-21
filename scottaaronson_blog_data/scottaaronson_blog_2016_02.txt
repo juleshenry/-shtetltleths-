@@ -1,0 +1,92 @@
+TITLE: From Boston to Austin
+URL: https://scottaaronson.blog/?m=201602
+CONTENT:
+I have some big news—well, not for the world, but for me personally.  Starting this summer, I’ll be leaving MIT, and starting a new phase of my life, as David J. Bruton Jr. Centennial Professor of Computer Science at the University of Texas at Austin.  I’ll also be the founding director of UT Austin’s new quantum computing center, whose motto will be “Hook ’em Hadamards“, and whose logo will depict a fierce longhorn bull, whose horns are bra and ket signs enclosing an inner product between two quantum states.  My brilliant and talented wife, Dana Moshkovitz Aaronson, will also be joining UT Austin, as a tenured Associate Professor of Computer Science.  Our current PhD students will remain enrolled at MIT, while also spending as much time as they like in Austin.
+
+I’ll deeply miss MIT and Boston.  More than anything else, I’ll miss the phenomenal students at MIT, who I’ve had the immense privilege to teach and learn from for nine years.  Go Beavers!  I’m grateful as well to my many friends and colleagues who made my years at MIT so rewarding: a time of personal growth, in which I developed from a skinny, insecure 26-year-old nerd, blogging and trying to prove oracle separations, into a pot-bellied, tenured, 34-year-old married-father nerd, still blogging and trying to prove the same oracle separations (but no longer as diligently).
+
+To nip an otherwise-inevitable rumor: I wasn’t forced to leave MIT over anything here on Shtetl-Optimized.  I feel the need to say this because, within the last year, I’ve spent hundreds of miserable hours scrolling through social media threads wherein stranger after stranger proclaimed me basically the world’s worst scum (tied, perhaps, with the other Scott A.), and even called on MIT to fire me.  Given that experience, it was repeatedly jarring for me to reenter reality and discover how irrelevant this all was, either to MIT or to any of the universities that recruited me and Dana.  Bizarre as it sounds, CS departments mostly cared about what actual research we were doing and could bring to them!  So students and faculty afraid to debate anything controversial online under their real names, however politely, should know that even in 2016, the banner of academic freedom yet waves.
+
+Without further ado, let me list ten things that are awesome about Austin and that helped attract me and Dana there.
+
+Even given the above, some people will ask about things they’d consider obvious dealbreakers for moving to Texas.  In particular, what about the infamous new law that essentially forces UT Austin to let students carry concealed firearms to class?  Well, I oppose that law.  Indeed, when I haven’t been angering the social-justice left, I’ve been angering the right by (for example) blogging about my strong support for gun control.  To me, it seems like a terrible idea for the Texas state legislature, which provides only 14% of the UT system’s budget, to force on UT a gun policy that its faculty and students overwhelmingly hate.  And I admired Steven Weinberg’s announcement that he intends to defy the law in his classroom, and fight it out in court if necessary.  (Weinberg also gave, as one reason to oppose the law, how much harder it will make it for UT to recruit faculty.)
+
+But at the same time … Dana is Israeli.  For her, it’s perfectly normal to go outside and see 18-year-old girls chatting and laughing with huge-ass machine guns slung over their shoulders.  Having spent a month of each year in Tel Aviv, seeing passersby with guns has become, if not exactly normal to me, then not something I fear 2% as much as I fear crashing my car.  And indeed, if one takes a statistical approach to risk, Austin has a much lower per-capita violent crime rate than Boston does.
+
+And yes, I know, the US and Israel have completely different gun cultures: in Israel, for example, the only people carrying around semiautomatics are trained and monitored conscripts; there’s no concept of a private “right” to such a weapon.  And yes, the principle matters.  But if one is unwilling to move to any place that has any laws one disagrees with, one should probably look into faculty positions on offshore barges or Jupiter.
+
+Austin itself, of course, is only slightly less liberal than Portland, the blueberry in the tomato soup as Rick Perry so memorably put it.  Even so, the maps insist that Austin is in Texas, which means that while there one will probably encounter Texans.  (A friend, on hearing that Dana took a quick liking to Austin when she visited, quipped that it was probably because Austin reminded her of Israel: “hot and surrounded by hostile territory.”)
+
+Now, the actual Texans who I’ve met so far have been frighteningly warm and hospitable.  But the question stands: what will I do if, while living there, I meet (let’s suppose) some sun-calloused cattle ranchers who consider me an arrogant, effete coastal liberal who patronizes them in blog posts like this one?  What if they tell me to scram, head back east, and never mess with Texas again?
+
+Well, I’ve already decided what I’d like to do in this hypothetical situation.  I’d like to invite the ranchers over to my place for some barbecued beers and ice-cold steaks, or whatever it is you eat in Texas, and tell them all about quantum query algorithms, and ask them about cattle feed, and try to find common ground, just like I tried to find common ground with the other end of the political spectrum—with the folks who called me a clueless, patriarchal, entitled white male douchebro who silenced their already-marginalized voices by not agreeing with everything they said.  For I’ve increasingly come to the conviction that, while you might fail to find common ground with someone, you’ve got to try, you’ve got to steelman their argument and learn whatever you can from it.  I once, for example, thought about the Religious Right as purely contemptible, deserving only unthinking snark, and I was completely wrong.  Even when I was right on the underlying issues, I was wrong on the epistemology.  In Texas, hopefully I’ll have a chance to do better.
+
+In summary:
+
+Totally Unrelated Update (Feb. 29): Michael Mitzenmacher has asked me to announce that nominations are open for the SIGACT Distinguished Service Prize. More information is available here.
+
+================================================================================
+
+TITLE: The universe has a high (but not infinite) Sleep Number
+URL: https://scottaaronson.blog/?m=201602
+CONTENT:
+As everyone knows, this was a momentous week in the history of science.  And I don’t need to tell you why: the STOC and CCC accepted paper lists finally came out.
+
+Haha, kidding!  I meant, we learned this week that gravitational waves were directly detected for the first time, a hundred years after Einstein first predicted them (he then reneged on the prediction, then reinstated it, then reneged again, then reinstated it a second time—see Daniel Kennefick’s article for some of the fascinating story).
+
+By now, we all know some of the basic parameters here: a merger of two black holes, ~1.3 billion light-years away, weighing ~36 and ~29 solar masses respectively, which (when they merged) gave off 3 solar masses’ worth of energy in the form of gravitational waves—in those brief 0.2 seconds, radiating more watts of power than all the stars in the observable universe combined.  By the time the waves reached earth, they were only stretching and compressing space by 1 part in 4×1021—thus, changing the lengths of the 4-kilometer arms of LIGO by 10-18 meters (1/1000 the diameter of a proton).  But this was detected, in possibly the highest-precision measurement ever made.
+
+As I read the historic news, there’s one question that kept gnawing at me: how close would you need to have been to the merging black holes before you could, you know, feel the distortion of space?  I made a guess, assuming the strength of gravitational waves fell off with distance as 1/r2.  Then I checked Wikipedia and learned that the strength falls off only as 1/r, which completely changes the situation, and implies that the answer to my question is: you’d need to be very close.  Even if you were only as far from the black-hole cataclysm as the earth is from the sun, I get that you’d be stretched and squished by a mere ~50 nanometers (this interview with Jennifer Ouellette and Amber Stuver says 165 nanometers, but as a theoretical computer scientist, I try not to sweat factors of 3).  Even if you were 3000 miles from the black holes—New-York/LA distance—I get that the gravitational waves would only stretch and squish you by around a millimeter.  Would you feel that?  Not sure.  At 300 miles, it would be maybe a centimeter—though presumably the linearized approximation is breaking down by that point.  (See also this Physics StackExchange answer, which reaches similar conclusions, though again off from mine by factors of 3 or 4.)  Now, the black holes themselves were orbiting about 200 miles from each other before they merged.  So, the distance at which you could safely feel their gravitational waves, isn’t too far from the distance at which they’d rip you to shreds and swallow you!
+
+In summary, to stretch and squeeze spacetime by just a few hundred nanometers per meter, along the surface of a sphere whose radius equals our orbit around the sun, requires more watts of power than all the stars in the observable universe give off as starlight.  People often say that the message of general relativity is that matter bends spacetime “as if it were a mattress.”  But they should add that the reason it took so long for humans to notice this, is that it’s a really friggin’ firm mattress, one that you need to bounce up and down on unbelievably hard before it quivers, and would probably never want to sleep on.
+
+As if I needed to say it, this post is an invitation for experts to correct whatever I got wrong.  Public humiliation, I’ve found, is a very fast and effective way to learn an unfamiliar field.
+
+================================================================================
+
+TITLE: “Why does the universe exist?” … finally answered (or dissolved) in this blog post!
+URL: https://scottaaronson.blog/?m=201602
+CONTENT:
+In my previous post, I linked to seven Closer to Truth videos of me spouting about free will, Gödel’s Theorem, black holes, etc. etc.  I also mentioned that there was a segment of me talking about why the universe exists that for some reason they didn’t put up.  Commenter mjgeddes wrote, “Would have liked to hear your views on the existence of the universe question,” so I answered in another comment.
+
+But then I thought about it some more, and it seemed inappropriate to me that my considered statement about why the universe exists should only be available as part of a comment thread on my blog.  At the very least, I thought, such a thing ought to be a top-level post.
+
+So, without further ado:
+
+My view is that, if we want to make mental peace with the “Why does the universe exist?” question, the key thing we need to do is forget about the universe for a while, and just focus on the meaning of the word “why.”  I.e., when we ask a why-question, what kind of answer are we looking for, what kind of answer would make us happy?
+
+Notice, in particular, that there are hundreds of other why-questions, not nearly as prestigious as the universe one, yet that seem just as vertiginously unanswerable.  E.g., why is 5 a prime number?  Why does “cat” have 3 letters?
+
+Now, the best account of “why”—and of explanation and causality—that I know about is the interventionist account, as developed for example in Judea Pearl’s work.  In that account, to ask “Why is X true?” is simply to ask: “What could we have changed in order to make X false?”  I.e., in the causal network of reality, what are the levers that turn X on or off?
+
+This question can sometimes make sense even in pure math.  For example: “Why is this theorem true?” “It’s true only because we’re working over the complex numbers.  The analogous statement about real numbers is false.”  A perfectly good interventionist answer.
+
+On the other hand, in the case of “Why is 5 prime?,” all the levers you could pull to make 5 composite involve significantly more advanced machinery than is needed to pose the question in the first place.  E.g., “5 is prime because we’re working over the ring of integers.  Over other rings, like Z[√5], it admits nontrivial factorizations.”  Not really an explanation that would satisfy a four-year-old (or me, for that matter).
+
+And then we come to the question of why anything exists.  For an interventionist, this translates into: what causal lever could have been pulled in order to make nothing exist?  Well, whatever lever it was, presumably the lever itself was something—and so you see the problem right there.
+
+Admittedly, suppose there were a giant red button, somewhere within the universe, that when pushed would cause the entire universe (including the button itself) to blink out of existence. In that case, we could say: the reason why the universe continues to exist is that no one has pushed the button yet. But even then, that still wouldn’t explain why the universe had existed.
+
+================================================================================
+
+TITLE: Here’s some video of me spouting about Deep Questions
+URL: https://scottaaronson.blog/?m=201602
+CONTENT:
+In January 2014, I attended an FQXi conference on Vieques island in Puerto Rico.  While there, Robert Lawrence Kuhn interviewed me for his TV program Closer to Truth, which deals with science and religion and philosophy and you get the idea.  Alas, my interview was at the very end of the conference, and we lost track of the time—so unbeknownst to me, a plane full of theorists was literally sitting on the runway waiting for me to finish philosophizing!  This was the second time Kuhn interviewed me for his show; the first time was on a cruise ship near Norway in 2011.  (Thankless hero that I am, there’s nowhere I won’t travel for the sake of truth.)
+
+Anyway, after a two-year wait, the videos from Puerto Rico are finally available online.  While my vignettes cover what, for most readers of this blog, will be very basic stuff, I’m sort of happy with how they turned out: I still stutter and rock back and forth, but not as much as usual.  For your viewing convenience, here are the new videos:
+
+I had one other vignette, about why the universe exists, but they seem to have cut that one.  Alas, if I knew why the universe existed in January 2014, I can’t remember any more.
+
+One embarrassing goof: I referred to the inventor of Newcomb’s Paradox as “Simon Newcomb.”  Actually it was William Newcomb: a distant relative of Simon Newcomb, the 19th-century astronomer who measured the speed of light.
+
+At their website, you can also see my older 2011 videos, and videos from others who might be known to readers of this blog, like Marvin Minsky, Roger Penrose, Rebecca Newberger Goldstein, David Chalmers, Sean Carroll, Max Tegmark, David Deutsch, Raphael Bousso, Freeman Dyson, Nick Bostrom, Ray Kurzweil, Rodney Brooks, Stephen Wolfram, Greg Chaitin, Garrett Lisi, Seth Lloyd, Lenny Susskind, Lee Smolin, Steven Weinberg, Wojciech Zurek, Fotini Markopoulou, Juan Maldacena, Don Page, and David Albert.  (No, I haven’t yet watched most of these, but now that I linked to them, maybe I will!)
+
+Thanks very much to Robert Lawrence Kuhn and Closer to Truth (and my previous self, I guess?) for providing Shtetl-Optimized content so I don’t have to.
+
+Update: Andrew Critch of CFAR asked me to post the following announcement.
+
+We’re seeking a full time salesperson for the Center for Applied Rationality in Berkeley, California. We’ve streamlined operations to handle large volume in workshop admissions, and now we need that volume to pour in. Your role would be to fill our workshops, events, and alumni community with people. Last year we had 167 total new alumni. This year we want 120 per month. Click here to find out more.
+
+================================================================================
+

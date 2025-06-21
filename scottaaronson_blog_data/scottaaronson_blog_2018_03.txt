@@ -1,0 +1,218 @@
+TITLE: 30 of my favorite books
+URL: https://scottaaronson.blog/?m=201803
+CONTENT:
+A reader named Shozab writes:
+
+Scott, if you had to make a list of your favourite books, which ones would you include?
+And yes, you can put in quantum computing since Democritus!
+
+Since I’ve gotten the same request before, I guess this is as good a time as any.  My ground rules:
+
+Without further ado:
+
+Quantum Computing Since Democritus by Scott Aaronson
+
+Dialogue Concerning the Two Chief World Systems by Galileo Galilei
+
+Dialogues Concerning Natural Religion by David Hume
+
+Narrative of the Life of Frederick Douglass by himself
+
+The Adventures of Huckleberry Finn by Mark Twain
+
+The Subjection of Women by John Stuart Mill
+
+The Autobiography of Charles Darwin by himself
+
+Altneuland by Theodor Herzl
+
+The Practice and Theory of Bolshevism by Bertrand Russell
+
+What Is Life?: With Mind and Matter and Autobiographical Sketches by Erwin Schrödinger
+
+Fads and Fallacies in the Name of Science by Martin Gardner
+
+How Children Fail by John Holt
+
+Set Theory and the Continuum Hypothesis by Paul Cohen
+
+The Gods Themselves by Isaac Asimov (specifically, the middle third)
+
+A History of Pi by Petr Beckmann
+
+The Selfish Gene by Richard Dawkins
+
+The Mind-Body Problem by Rebecca Goldstein
+
+Alan Turing: The Enigma by Andrew Hodges
+
+Surely You’re Joking Mr. Feynman by Richard Feynman
+
+The Book of Numbers by John Conway and Richard Guy
+
+The Demon-Haunted World by Carl Sagan
+
+Gems of Theoretical Computer Science by Uwe Schöning and Randall Pruim
+
+Fashionable Nonsense by Alan Sokal and Jean Bricmont
+
+Our Dumb Century by The Onion
+
+Quantum Computation and Quantum Information by Michael Nielsen and Isaac Chuang
+
+The Blank Slate by Steven Pinker
+
+Field Notes from a Catastrophe by Elizabeth Kolbert
+
+Infidel by Ayaan Hirsi Ali
+
+Logicomix by Apostolos Doxiadis and Christos Papadimitriou
+
+The Beginning of Infinity by David Deutsch
+
+You’re welcome to argue with me in the comments, e.g., by presenting evidence that I didn’t actually like these books. 🙂  More seriously: list your own favorites, discuss your reactions to these books, be a “human recommendation engine” by listing books that “those who liked the above would also enjoy,” whatever.
+
+Addendum: Here’s another bonus twenty books, as I remember more and as commenters remind me of more that I liked quite as much as the thirty above.
+
+The Man Who Knew Infinity by Robert Kanigel
+
+A Mathematician’s Apology by G. H. Hardy
+
+A Confederacy of Dunces by John Kennedy Toole
+
+The First Three Minutes by Steven Weinberg
+
+Breaking the Code by Hugh Whitemore
+
+Arcadia by Tom Stoppard
+
+Adventures of a Mathematician by Stanislaw Ulam
+
+The Man Who Loved Only Numbers by Paul Hoffman
+
+Mathematical Writing by Donald Knuth, Tracy Larabee, and Paul Roberts
+
+A Beautiful Mind by Sylvia Nasar
+
+An Introduction to Computational Learning Theory by Michael Kearns and Umesh Vazirani
+
+The Road to Reality by Roger Penrose
+
+The Nili Spies by Anita Engle (about the real-life heroic exploits of the Aaronsohn family)
+
+Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig
+
+The Princeton Companion to Mathematics edited by Timothy Gowers
+
+The Making of the Atomic Bomb by Richard Rhodes
+
+Fear No Evil by Natan Sharansky
+
+The Mind’s I by Douglas Hofstadter and Daniel Dennett
+
+Disturbing the Universe by Freeman Dyson
+
+Unsong by Scott Alexander
+
+================================================================================
+
+TITLE: Review of Steven Pinker’s Enlightenment Now
+URL: https://scottaaronson.blog/?m=201803
+CONTENT:
+It’s not every day that I check my office mailbox and, amid the junk brochures, find 500 pages on the biggest questions facing civilization—all of them, basically—by possibly the single person on earth most qualified to tackle those questions.  That’s what happened when, on a trip back to Austin from my sabbatical, I found a review copy of Steven Pinker’s Enlightenment Now: The Case for Reason, Science, Humanism, and Progress.
+
+I met with Steve while he was writing this book, and fielded his probing questions about the relationships among the concepts of information, entropy, randomness, Kolmogorov complexity, and coarse graining, in a way that might have affected a few paragraphs in Chapter 2.  I’m proud to be thanked in the preface—well, as “Scott Aronson.”  I have a lot of praise for the book, but let’s start with this: the omission of the second “a” from my surname was the worst factual error that I found.
+
+If you’ve read anything else by Pinker, then you more-or-less know what to expect: an intellectual buffet that’s pure joy to devour, even if many of the dishes are ones you’ve tasted before.  For me, the writing alone is worth the admission price: Pinker is, among many other distinctions, the English language’s master of the comma-separated list.  I can see why Bill Gates recently called Enlightenment Now his “new favorite book of all time“—displacing his previous favorite, Pinker’s earlier book The Better Angels of Our Nature.  If you’ve read Better Angels, to which Enlightenment Now functions as a sort of sequel, then you know even more specifically what to expect: a saturation bombing of line graphs showing you how, despite the headlines, the world has been getting better in almost every imaginable way—graphs so thorough that they’ll eventually drag the most dedicated pessimist, kicking and screaming, into sharing Pinker’s sunny disposition, at least temporarily (but more about that later).
+
+The other book to which Enlightenment Now bears comparison is David Deutsch’s The Beginning of Infinity.  The book opens with one of Deutsch’s maxims—“Everything that is not forbidden by laws of nature is achievable, given the right knowledge”—and Deutsch’s influence can be seen throughout Pinker’s new work, as when Pinker repeats the Deutschian mantra that “problems are solvable.”  Certainly Deutsch and Pinker have a huge amount in common: classical liberalism, admiration for the Enlightenment as perhaps the best thing that ever happened to the human species, and barely-perturbable optimism.
+
+Pinker’s stated aim is to make an updated case for the Enlightenment—and specifically, for the historically unprecedented “ratchet of progress” that humankind has been on for the last few hundred years—using the language and concepts of the 21st century.  Some of his chapter titles give a sense of the scope of the undertaking:
+
+When I read these chapter titles aloud to my wife, she laughed, as if to say: how could anyone have the audacity to write a book on just one of these enormities, let alone all of them?  But you can almost hear the gears turning in Pinker’s head as he decided to do it: well, someone ought to take stock in a single volume of where the human race is and where it’s going.  And if, with the rise of thuggish autocrats all over the world, the principles of modernity laid down by Locke, Spinoza, Kant, Jefferson, Hamilton, and Mill are under attack, then someone ought to rise to those principles’ unironic defense.  And if no one else will do it, it might as well be me!  If that’s how Pinker thought, then I agree: it might as well have been him.
+
+I also think Pinker is correct that Enlightenment values are not so anodyne that they don’t need a defense.  Indeed, nothing demonstrates the case for Pinker’s book, the non-obviousness of his thesis, more clearly than the vitriolic reviews the book has been getting in literary venues.  Take this, for example, from John Gray in The New Statesman: “Steven Pinker’s embarrassing new book is a feeble sermon for rattled liberals.”
+
+Pinker is an ardent enthusiast for free-market capitalism, which he believes produced most of the advance in living standards over the past few centuries. Unlike [Herbert Spencer, the founder of Social Darwinism], he seems ready to accept that some provision should be made for those who have been left behind. Why he makes this concession is unclear. Nothing is said about human kindness, or fairness, in his formula. Indeed, the logic of his dictum points the other way.
+
+Many early-20th-century Enlightenment thinkers supported eugenic policies because they believed “improving the quality of the population” – weeding out human beings they deemed unproductive or undesirable – would accelerate the course of human evolution…
+
+Exponents of scientism in the past have used it to promote Fabian socialism, Marxism-Leninism, Nazism and more interventionist varieties of liberalism. In doing so, they were invoking the authority of science to legitimise the values of their time and place. Deploying his cod-scientific formula to bolster market liberalism, Pinker does the same.
+
+You see, when Pinker says he supports Enlightenment norms of reason and humanism, he really means to say that he supports unbridled capitalism and possibly even eugenics.  As I read this sort of critique, the hair stands on my neck, because the basic technique of hostile mistranslation is so familiar to me.  It’s the technique that once took a comment in which I pled for shy nerdy males and feminist women to try to understand each other’s suffering, as both navigate a mating market unlike anything in previous human experience—and somehow managed to come away with the take-home message, “so this entitled techbro wants to return to a past when society would just grant him a female sex slave.”
+
+I’ve noticed that everything Pinker writes bears the scars of the hostile mistranslation tactic.  Scarcely does he say anything before he turns around and says, “and here’s what I’m not saying”—and then proceeds to ward off five different misreadings so wild they wouldn’t have occurred to me, but then if you read Leon Wieseltier or John Gray or his other critics, there the misreadings are, trotted out triumphantly; it doesn’t even matter how much time Pinker spent trying to prevent them.
+
+OK, but what of the truth or falsehood of Pinker’s central claims?
+
+I share Pinker’s sense that the Enlightenment may be the best thing that ever happened in our species’ sorry history.  I agree with his facts, and with his interpretations of the facts.  We rarely pause to consider just how astounding it is—how astounding it would be to anyone who lived before modernity—that child mortality, hunger, and disease have plunged as far as they have, and we show colossal ingratitude toward the scientists and inventors and reformers who made it possible.  (Pinker lists the following medical researchers and public health crusaders as having saved more than 100 million lives each: Karl Landsteiner, Abel Wolman, Linn Enslow, William Foege, Maurice Hilleman, John Enders.  How many of them had you heard of?  I’d heard of none.)  This is, just as Pinker says, “the greatest story seldom told.”
+
+Beyond the facts, I almost always share Pinker’s moral intuitions and policy preferences.  He’s right that, whether we’re discussing nuclear power, terrorism, or GMOs, going on gut feelings like disgust and anger, or on vivid and memorable incidents, is a terrible way to run a civilization.  Instead we constantly need to count: how many would be helped by this course of action, how many would be harmed?  As Pinker points out, that doesn’t mean we need to become thoroughgoing utilitarians, and start fretting about whether the microscopic proto-suffering of a bacterium, multiplied by the 1031 bacteria that there are, outweighs every human concern.  It just means that we should heed the utilitarian impulse to quantify way more than is normally done—at the least, in every case where we’ve already implicitly accepted the underlying values, but might be off by orders of magnitude in guessing what they imply about our choices.
+
+The one aspect of Pinker’s worldview that I don’t share—and it’s a central one—is his optimism.  My philosophical temperament, you might say, is closer to that of Rebecca Newberger Goldstein, the brilliant novelist and philosopher (and Pinker’s wife), who titled a lecture given shortly after Trump’s election “Plato’s Despair.”
+
+Somehow, I look at the world from more-or-less the same vantage point as Pinker, yet am terrified rather than hopeful.  I’m depressed that Enlightenment values have made it so far, and yet there’s an excellent chance (it seems to me) that it will be for naught, as civilization slides back into authoritarianism, and climate change and deforestation and ocean acidification make the one known planet fit for human habitation increasingly unlivable.
+
+I’m even depressed that Pinker’s book has gotten such hostile reviews.  I’m depressed, more broadly, that for centuries, the Enlightenment has been met by its beneficiaries with such colossal incomprehension and ingratitude.  Save 300 million people from smallpox, and you can expect in return a lecture about your naïve and arrogant scientistic reductionism.  Or, electronically connect billions of people to each other and to the world’s knowledge, in a way beyond the imaginings of science fiction half a century ago, and people will use the new medium to rail against the gross, basement-dwelling nerdbros who made it possible, then upvote and Like each other for their moral courage in doing so.
+
+I’m depressed by the questions: how can a human race that reacts in that way to the gifts of modernity possibly be trusted to use those gifts responsibly?  Does it even “deserve” the gifts?
+
+As I read Pinker, I sometimes imagined a book published in 1923 about the astonishing improvements in the condition of Europe’s Jews following their emancipation.  Such a book might argue: look, obviously past results don’t guarantee future returns; all this progress could be wiped out by some freak future event.  But for that to happen, an insane number of things would need to go wrong simultaneously: not just one European country but pretty much all of them would need to be taken over by antisemitic lunatics who were somehow also hyper-competent, and who wouldn’t just harass a few Jews here and there until the lunatics lost power, but would systematically hunt down and exterminate all of them with an efficiency the world had never before seen.  Also, for some reason the Jews would need to be unable to escape to Palestine or the US or anywhere else.  So the sane, sober prediction is that things will just continue to improve, of course with occasional hiccups (but problems are solvable).
+
+Or I thought back to just a few years ago, to the wise people who explained that, sure, for the United States to fall under the control of a racist megalomaniac like Trump would be a catastrophe beyond imagining.  Were such a comic-book absurdity realized, there’d be no point even discussing “how to get democracy back on track”; it would already have suffered its extinction-level event.  But the good news is that it will never happen, because the voters won’t allow it: a white nationalist authoritarian could never even get nominated, and if he did, he’d lose in a landslide.  What did Pat Buchanan get, less than 1% of the vote?
+
+I don’t believe in a traditional God, but if I did, the God who I’d believe in is one who’s constantly tipping the scales of fate toward horribleness—a God who regularly causes catastrophes to happen, even when all the rational signs point toward their not happening—basically, the God who I blogged about here.  The one positive thing to be said about my God is that, unlike the just and merciful kind, I find that mine rarely lets me down.
+
+Pinker is not blind.  Again and again, he acknowledges the depths of human evil and idiocy, the forces that even now look to many of us like they’re leaping up at Pinker’s exponential improvement curves with bared fangs.  It’s just that each time, he recommends putting an optimistic spin on the situation, because what’s the alternative?  Just to get all, like, depressed?  That would be unproductive!  As Deutsch says, problems will always arise, but problems are solvable, so let’s focus on what it would take to solve them, and on the hopeful signs that they’re already being solved.
+
+With climate change, Pinker gives an eloquent account of the enormity of the crisis, echoing the mainstream scientific consensus in almost every particular.  But he cautions that, if we tell people this is plausibly the end of civilization, they’ll just get fatalistic and paralyzed, so it’s better to talk about solutions.  He recommends an aggressive program of carbon pricing, carbon capture and storage, nuclear power, research into new technologies, and possibly geoengineering, guided by strong international cooperation—all things I’d recommend as well.  OK, but what are the indications that anything even close to what’s needed will get done?  The right time to get started, it seems to me, was over 40 years ago.  Since then, the political forces that now control the world’s largest economy have spiralled into ever more vitriolic denial, the more urgent the crisis has gotten and the more irrefutable the evidence.  Pinker writes:
+
+“We cannot be complacently optimistic about climate change, but we can be conditionally optimistic.  We have some practicable ways to prevent the harms and we have the means to learn more.  Problems are solvable.  That does not mean that they will solve themselves, but it does mean that we can solve them if we sustain the benevolent forces of modernity that have allowed us to solve problems so far…” (p. 154-155)
+
+I have no doubt that conditional optimism is a useful stance to adopt, in this case as in many others.  The trouble, for me, is the gap between the usefulness of a view and its probable truth—a gap that Pinker would be quick to remind me about in other contexts.  Even if a placebo works for those who believe in it, how do you make yourself believe in what you understand to be a placebo?  Even if all it would take, for the inmates to escape a prison, is simultaneous optimism that they’ll succeed if they work together—still, how can an individual inmate be optimistic, if he sees that the others aren’t, and rationally concludes that dying in prison is his probable fate?  For me, the very thought of the earth gone desolate—its remaining land barely habitable, its oceans a sewer, its radio beacons to other worlds fallen silent—all for want of ability to coordinate a game-theoretic equilibrium, just depresses me even more.
+
+Likewise with thermonuclear war: Pinker knows, of course, that even if there were “only” an 0.5% chance of one per year, multiplied across the decades of the nuclear era that’s enormously, catastrophically too high, and there have already been too many close calls.  But look on the bright side: the US and Russia have already reduced their arsenals dramatically from their Cold War highs.  There’d be every reason for optimism about continued progress, if we weren’t in this freak branch of the wavefunction where the US and Russia (not to mention North Korea and other nuclear states) were now controlled by authoritarian strongmen.
+
+With Trump—for how could anyone avoid him in a book like this?—Pinker spends several pages reviewing the damage he’s inflicted on democratic norms, the international order, the environment, and the ideal of truth itself:
+
+“Trump’s barefaced assertion of canards that can instantly be debunked … shows that he sees public discourse not as a means of finding common ground based on objective reality but as a weapon with which to project dominance and humiliate rivals” (p. 336).
+
+Pinker then writes a sentence that made me smile ruefully: “Not even a congenital optimist can see a pony in this Christmas stocking” (p. 337).  Again, though, Pinker looks at poll data suggesting that Trump and the world’s other resurgent quasi-fascists are not the wave of the future, but the desperate rearguard actions of a dwindling and aging minority that feels itself increasingly marginalized by the modern world (and accurately so).  The trouble is, Nazism could also be seen as “just” a desperate, failed attempt to turn back the ratchet of cosmopolitanism and moral progress, by people who viscerally understood that time and history were against them.  Yet even though Nazism ultimately lost (which was far from inevitable, I think), the damage it inflicted on its way out was enough, you might say, to vindicate the shrillest pessimist of the 1930s.
+
+Then there’s the matter of takeover by superintelligent AI.  I’ve now spent years hanging around communities where it’s widely accepted that “AI value alignment” is the most pressing problem facing humanity.  I strongly disagree with this view—but on reflection, not because I don’t think AI could be a threat; only because I think other, more prosaic things are much more imminent threats!  I feel the urge to invent a new, 21st-century Yiddish-style proverb: “oy, that we should only survive so long to see the AI-bots become our worst problem!”
+
+Pinker’s view is different: he’s dismissive of the fear (even putting it in the context of the Y2K bug, and people marching around sidewalks with sandwich boards that say “REPENT”), and thinks the AI-risk folks are simply making elementary mistakes about the nature of intelligence.  Pinker’s arguments are as follows: first, intelligence is not some magic, all-purpose pixie dust, which humans have more of than animals, and which a hypothetical future AI would have more of than humans.  Instead, the brain is a bundle of special-purpose modules that evolved for particular reasons, so “the concept [of artificial general intelligence] is barely coherent” (p. 298).  Second, it’s only humans’ specific history that causes them to think immediately about conquering and taking over, as goals to which superintelligence would be applied.  An AI could have different motivations entirely—and it will, if its programmers have any sense.  Third, any AI would be constrained by the resource limits of the physical world.  For example, just because an AI hatched a brilliant plan to recursively improve itself, doesn’t mean it could execute that plan without (say) building a new microchip fab, acquiring the necessary raw materials, and procuring the cooperation of humans.  Fourth, it’s absurd to imagine a superintelligence converting the universe into paperclips because of some simple programming flaw or overliteral interpretation of human commands, since understanding nuances is what intelligence is all about:
+
+“The ability to choose an action that best satisfies conflicting goals is not an add-on to intelligence that engineers might slap themselves in the forehead for forgetting to install; it is intelligence.  So is the ability to interpret the intentions of a language user in context” (p. 300).
+
+I’ll leave it to those who’ve spent more time thinking about these issues to examine these arguments in detail (in the comments of this post, if they like).  But let me indicate briefly why I don’t think they fare too well under scrutiny.
+
+For one thing, notice that the fourth argument is in fundamental tension with the first and second.  If intelligence is not an all-purpose elixir but a bundle of special-purpose tools, and if those tools can be wholly uncoupled from motivation, then why couldn’t we easily get vast intelligence expended toward goals that looked insane from our perspective?  Have humans never been known to put great intelligence in the service of ends that strike many of us as base, evil, simpleminded, or bizarre?  Consider the phrase often applied to men: “thinking with their dicks.”  Is there any sub-Einsteinian upper bound on the intelligence of the men who’ve been guilty of that?
+
+Second, while it seems clear that there are many special-purpose mental modules—the hunting instincts of a cat, the mating calls of a bird, the pincer-grasping or language-acquisition skills of a human—it seems equally clear that there is some such thing as “general problem-solving ability,” which Newton had more of than Roofus McDoofus, and which even Roofus has more of than a chicken.  But whatever we take that ability to consist of, and whether we measure it by a scalar or a vector, it’s hard to imagine that Newton was anywhere near whatever limits on it are imposed by physics.  His brain was subject to all sorts of archaic evolutionary constraints, from the width of the birth canal to the amount of food available in the ancestral environment, and possibly also to diminishing returns on intelligence in humans’ social environment (Newton did, after all, die a virgin).  But if so, then given the impact that Newton, and others near the ceiling of known human problem-solving ability, managed to achieve even with their biology-constrained brains, how could we possibly see the prospect of removing those constraints as just a narrow technological matter, like building a faster calculator or a more precise clock?
+
+Third, the argument about intelligence being constrained by physical limits would seem to work equally well for a mammoth or cheetah scoping out the early hominids.  The mammoth might say: yes, these funny new hairless apes are smarter than me, but intelligence is just one factor among many, and often not the decisive one.  I’m much bigger and stronger, and the cheetah is faster.  (If the mammoth did say that, it would be an unusually smart mammoth as well, but never mind.)  Of course we know what happened: from wild animals’ perspective, the arrival of humans really was a catastrophic singularity, comparable to the Chicxulub asteroid (and far from over), albeit one that took between 104 and 106 years depending on when we start the clock.  Over the short term, the optimistic mammoths would be right: pure, disembodied intelligence can’t just magically transform itself into spears and poisoned arrows that render you extinct.  Over the long term, the most paranoid mammoth on the tundra couldn’t imagine the half of what the new “superintelligence” would do.
+
+Finally, any argument that relies on human programmers choosing not to build an AI with destructive potential, has to contend with the fact that humans did invent, among other things, nuclear weapons—and moreover, for what seemed like morally impeccable reasons at the time.  And a dangerous AI would be a lot harder to keep from proliferating, since it would consist of copyable code.  And it would only take one.  You could, of course, imagine building a good AI to neutralize the bad AIs, but by that point there’s not much daylight left between you and the AI-risk people.
+
+As you’ve probably gathered, I’m a worrywart by temperament (and, I like to think, experience), and I’ve now spent a good deal of space on my disagreements with Pinker that flow from that.  But the funny part is, even though I consistently see clouds where he sees sunshine, we’re otherwise looking at much the same scene, and our shared view also makes us want the same things for the world.  I find myself in overwhelming, nontrivial agreement with Pinker about the value of science, reason, humanism, and Enlightenment; about who and what deserves credit for the stunning progress humans have made; about which tendencies of civilization to nurture and which to recoil in horror from; about how to think and write about any of those questions; and about a huge number of more specific issues.
+
+So my advice is this: buy Pinker’s book and read it.  Then work for a future where the book’s optimism is justified.
+
+================================================================================
+
+TITLE: Hawking
+URL: https://scottaaronson.blog/?m=201803
+CONTENT:
+
+
+A long post is brewing (breaking my month-long silence), but as I was working on it, the sad news arrived that Stephen Hawking passed away. There’s little I can add to the tributes that poured in from around the world: like chocolate or pizza, Hawking was beloved everywhere and actually deserved to be. Like, probably, millions of other nerds of my generation, I read A Brief History of Time as a kid and was inspired by it (though I remember being confused back then about the operational meaning of imaginary time, and am still confused about it almost 30 years later).  In terms of a scientist capturing the public imagination, through a combination of genuine conceptual breakthroughs, an enthralling personal story, an instantly recognizable countenance, and oracular pronouncements on issues of the day, the only one in the same league was Einstein. I didn’t agree with all of Hawking’s pronouncements, but the quibbles paled beside the enormous areas of agreement.  Hawking was a force for good in the world, and for the values of science, reason, and Enlightenment (to anticipate the subject of my next post).
+
+I’m sorry that I never really met Hawking, though I did participate in two conferences that he also attended, and got to watch him slowly form sentences on his computer. At one conference in 2011, he attended my talk—this one—and I was told by mutual acquaintances that he liked it.  That meant more to me than it probably should have: who cares if some random commenters on YouTube dissed your talk, if the Hawk-Man himself approved?
+
+As for Hawking’s talks—well, there’s a reason why they filled giant auditoriums all over the world.  Any of us in the business of science popularization would do well to study them and take lessons.
+
+If you want a real obituary of Hawking, by someone who knew him well—one that, moreover, actually explains his main scientific contributions (including the singularity theorems, Hawking radiation, and the no-boundary proposal)—you won’t do any better than this by Roger Penrose. Also don’t miss this remembrance in Time by Hawking’s friend and betting partner, and friend-of-the-blog, John Preskill. (Added: and this by Sean Carroll.)
+
+================================================================================
+

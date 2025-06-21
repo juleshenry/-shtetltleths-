@@ -1,0 +1,47 @@
+TITLE: Al?xes in the news
+URL: https://scottaaronson.blog/?m=201108
+CONTENT:
+Alex Halderman, University of Michigan computer security professor and my best friend from childhood (see previous Shtetl-Optimized coverage here and here), has been in the news again, with a new Internet anti-censorship system called Telex that he co-developed with Ian Goldberg, Eric Wustrow, and Scott Wolchok (see, e.g., here, here, here for more info).  Basically, Telex would let interested governments or ISPs help the citizens of (say) China or Iran access content that their governments are trying to block.  Having gotten hold of the Telex software (say, from a friend), the Chinese or Iranian websurfer would access an innocuous-looking website, but insert cryptographic tags into its HTTPS requests to alert an ISP along the way (not an ISP inside China or Iran) that it wanted to activate the anti-censorship service.
+
+If you happen to be a high-level official at the State Department or a three-letter agency, or a wealthy philanthropist, I can think of few smarter things you could do than to support this kind of effort.  The system that Alex and his collaborators envision wouldn’t be trivial to deploy, but it’s certainly cheaper than aircraft carriers.
+
+Meanwhile, in other Al?x news, my cousin Alix Genter was splashed across the cover of Philadelphia Daily News this morning (you can read the accompanying article here).  What happened is that the owner of a bridal store in New Jersey called “Here Comes the Bride” refused to sell Alix a wedding dress, after finding out that Alix plans to marry another woman in New York State.  So now supporters of gay rights are having a field day with Here Comes the Bride’s Yelp page.
+
+I wish both of these Al?xes the best, as they work toward a better world in their different ways.
+
+================================================================================
+
+TITLE: Ask Me Anything
+URL: https://scottaaronson.blog/?m=201108
+CONTENT:
+Update (8/16): Phew! By my count, I’ve answered 139 questions over the past few days. Thanks so much to everyone for submitting them, and please don’t submit any more!
+
+Incidentally, to those of you who complain (correctly) that I no longer update this blog enough, there’s a simple solution that should carry you through at least the next year.  Namely, just read a few “Ask Me Anything” answers every week!  To help you with that, I’ve compiled the following abridged table of contents to my uninformed spoutings:
+
+
+
+Update: Thanks for the many, many, many great questions!  To keep things slightly under control, I’ll be fielding questions that are asked before 9PM EST tonight.
+
+Also, sorry my blog went down for an hour!  I always count on Bluehost to not be there when I need it.
+
+Alright, I put it off for most of the summer, but I guess it’s as good a time as any, now that (a) I’m finally done philosophizing for a while and (b) my wife Dana is away at a workshop, her civilizing and nerdiness-moderating influences temporarily absent.
+
+So, by popular demand, and as promised a couple months ago, for the next 24 hours (with intermittent sleep breaks), I’ll once again be fielding any and all questions in the comments section.  Four simple ground rules:
+
+================================================================================
+
+TITLE: Why Philosophers Should Care About Computational Complexity
+URL: https://scottaaronson.blog/?m=201108
+CONTENT:
+Update (August 11, 2011): Thanks to everyone who offered useful feedback!  I uploaded a slightly-revised version, adding a “note of humility” to the introduction, correcting the footnote about Cramer’s Conjecture, incorporating Gil Kalai’s point that an efficient program to pass the Turing Test could exist but be computationally intractable to find, adding some more references, and starting the statement of Valiant’s sample-size theorem with the word “Consider…” instead of “Fix…”
+
+I just posted a 53-page essay of that name to ECCC; it’s what I was writing pretty much nonstop for the last two months.  The essay will appear in a volume entitled “Computability: Gödel, Turing, Church, and beyond,” which MIT Press will be publishing next year (to coincide with Alan T.’s hundredth birthday).
+
+Note that, to explain why philosophers should care about computational complexity, I also had to touch on the related questions of why anyone should care about computational complexity, and why computational complexity theorists should care about philosophy.  Anyway, here’s the abstract:
+
+One might think that, once we know something is computable, how efficiently it can be computed is a practical question with little further philosophical importance.  In this essay, I offer a detailed case that one would be wrong.  In particular, I argue that computational complexity theory—the field that studies the resources (such as time, space, and randomness) needed to solve computational problems—leads to new perspectives on the nature of mathematical knowledge, the strong AI debate, computationalism, the problem of logical omniscience, Hume’s problem of induction and Goodman’s grue riddle, the foundations of quantum mechanics, economic rationality, closed timelike curves, and several other topics of philosophical interest.  I end by discussing aspects of complexity theory itself that could benefit from philosophical analysis.
+
+Weighing in with 70 footnotes and 126 references, the essay is basically a huge, sprawling mess; I hope that at least some of you will enjoy getting lost in it.  I’d like to thank my editor, Oron Shagrir, for kicking me for more than a year until I finally wrote this thing.
+
+================================================================================
+

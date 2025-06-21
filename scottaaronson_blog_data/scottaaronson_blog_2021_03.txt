@@ -1,0 +1,148 @@
+TITLE: QC ethics and hype: the call is coming from inside the house
+URL: https://scottaaronson.blog/?m=202103
+CONTENT:
+For years, I’d sometimes hear discussions about the ethics of quantum computing research.  Quantum ethics!
+
+When the debates weren’t purely semantic, over the propriety of terms like “quantum supremacy” or “ancilla qubit,” they were always about chin-strokers like “but what if cracking RSA encryption gives governments more power to surveil their citizens?  or what if only a few big countries or companies get quantum computers, thereby widening the divide between haves and have-nots?”  Which, OK, conceivably these will someday be issues.  But, besides barely depending on any specific facts about quantum computing, these debates always struck me as oddly safe, because the moral dilemmas were so hypothetical and far removed from us in time.
+
+I confess I may have even occasionally poked fun when asked to expound on quantum ethics.  I may have commented that quantum computers probably won’t kill anyone unless a dilution refrigerator tips over onto their head.  I may have asked forgiveness for feeding custom-designed oracles to BQP and QMA, without first consulting an ethics committee about the long-term effects on those complexity classes.
+
+Now fate has punished me for my flippancy.  These days, I really do feel like quantum computing research has become an ethical minefield—but not for any of the reasons mentioned previously.  What’s new is that millions of dollars are now potentially available to quantum computing researchers, along with equity, stock options, and whatever else causes “ka-ching” sound effects and bulging eyes with dollar signs.  And in many cases, to have a shot at such riches, all an expert needs to do is profess optimism that quantum computing will have revolutionary, world-changing applications and have them soon.  Or at least, not object too strongly when others say that.
+
+Some of today’s rhetoric will of course remind people of the D-Wave saga, which first brought this blog to prominence when it began in earnest in 2007.  Quantum computers, we hear now as then, will soon leave the Earth’s fastest supercomputers in the dust.  They’re going to harness superposition to try all the exponentially many possible solutions at once.  They’ll crack the Traveling Salesman Problem, and will transform machine learning and AI beyond recognition.  Meanwhile, simulations of quantum systems will be key to solving global warming and cancer.
+
+Despite the parallels, though, this new gold rush doesn’t feel to me like the D-Wave one, which seems in retrospect like just a little dry run.  If I had to articulate what’s new in one sentence, it’s that this time “the call is coming from inside the house.”  Many of the companies making wildly overhyped claims are recognized leaders of the field.  They have brilliant quantum computing theorists and experimentalists on their staff with impeccable research records.  Some of those researchers are among my best friends.  And even when I wince at the claims of near-term applications, in many cases (especially with quantum simulation) the claims aren’t obviously false—we won’t know for certain until we try it and see!  It’s genuinely gotten harder to draw the line between defensible optimism and exaggerations verging on fraud.
+
+Indeed, this time around virtually everyone in QC is “complicit” to a greater or lesser degree.  I, too, have accepted compensation to consult on quantum computing topics, to give talks at hedge funds, and in a few cases to serve as a scientific adviser to quantum computing startups.  I tell myself that, by 2021 standards, this stuff is all trivial chump change—a few thousands of dollars here or there, to expound on the same themes that I already discuss free of charge on this blog.  I actually get paid to dispel hype, rather than propagate it!  I tell myself that I’ve turned my back on the orders of magnitude more money available to those willing to hitch their scientific reputations to the aspirations of this or that specific QC company.  (Yes, this blog, and my desire to preserve its intellectual independence and credibility, might well be costing me millions!)
+
+But, OK, some would argue that accepting any money from QC companies or QC investors just puts you at the top of a slope with unabashed snake-oil salesmen at the bottom.  With the commercialization of our field that started around 2015, there’s no bright line anymore marking the boundary between pure scientific curiosity and the pursuit of filthy lucre; it’s all just points along a continuum.  I’m not sure that these people are wrong.
+
+As some of you might’ve seen already, IonQ, the trapped-ion QC startup that originated from the University of Maryland, is poised to have the first-ever quantum computing IPO—a so-called “SPAC IPO,” which while I’m a financial ignoramus, apparently involves merging with a shell company and thereby bypassing the SEC’s normal IPO rules.  Supposedly they’re seeking $650 million in new funding and a $2 billion market cap.  If you want to see what IonQ is saying about QC to prospective investors, click here.  Lacking any choice in the matter, I’ll probably say more about these developments in a future post.
+
+Meanwhile, PsiQuantum, the Palo-Alto-based optical QC startup, has said that it’s soon going to leave “stealth mode.”  And Amazon, Microsoft, Google, IBM, Honeywell, and other big players continue making large investments in QC—treating it, at least rhetorically, not at all like blue-sky basic research, but like a central part of their future business plans.
+
+All of these companies have produced or funded excellent QC research.  And of course, they’re all heterogeneous, composed of individuals who might vehemently disagree with each other about the near- or long-term prospects of QC.  And yet all of them have, at various times, inspired reflections in me like the ones in this post.
+
+I regret that this post has no clear conclusion.  I’m still hashing things out, solicing thoughts from my readers and friends.  Speaking of which: this coming Monday, March 22, at 8-10pm US Eastern time, I’ve decided to hold a discussion around these issues on Clubhouse—my “grand debut” on that app, and an opportunity to see whether I like it or not!  My friend Adam Brown will moderate the discussion; other likely participants will be John Horgan, George Musser, Michael Nielsen, and Matjaž Leonardis.  If you’re on Clubhouse, I hope to see you there!
+
+Update (March 22): Read this comment by “FB” if you’d like to understand how we got to this point.
+
+================================================================================
+
+TITLE: Abel to win
+URL: https://scottaaronson.blog/?m=202103
+CONTENT:
+Many of you will have seen the happy news today that Avi Wigderson and László Lovász share this year’s Abel Prize (which now contends with the Fields Medal for the highest award in pure math).  This is only the second time that the Abel Prize has been given wholly or partly for work in theoretical computer science, after Szemerédi in 2012.  See also the articles in Quanta or the NYT, which actually say most of what I would’ve said for a lay audience about Wigderson’s and Lovász’s most famous research results and their importance (except, no, Avi hasn’t yet proved P=BPP, just taken some major steps toward it…).
+
+On a personal note, Avi was both my and my wife Dana’s postdoctoral advisor at the Institute for Advanced Study in Princeton.  He’s been an unbelievably important mentor to both of us, as he’s been for dozens of others in the CS theory community.  Back in 2007, I also had the privilege of working closely with Avi for months on our Algebrization paper.  Now would be a fine time to revisit Avi’s Permanent Impact on Me (or watch the YouTube video), which is the talk I gave at IAS in 2016 on the occasion of Avi’s 60th birthday.
+
+Huge congratulations to both Avi and László!
+
+================================================================================
+
+TITLE: Long-delayed UT Austin Quantum Complexity Theory Student Project Showcase!
+URL: https://scottaaronson.blog/?m=202103
+CONTENT:
+Back at MIT, whenever I taught my graduate course on Quantum Complexity Theory (see here for lecture notes), I had a tradition of showcasing the student projects on this blog: see here (Fall 2010), here (Fall 2012), here (Fall 2014).  I was incredibly proud that, each time I taught, at least some of the projects led to publishable original research—sometimes highly significant research, like Paul Christiano’s work on quantum money (which led to my later paper with him), Shelby Kimmel’s work on quantum query complexity, Jenny Barry’s work on quantum partially observable Markov decision processes (“QOMDPs”), or Matt Coudron and Henry Yuen’s work on randomness expansion (which led to their later breakthrough in the subject).
+
+Alas, after I moved to UT Austin, for some reason I discontinued the tradition of these blog-showcases—and inexcusably, I did this even though the wonderful new research results continued!  Now that I’m teaching Quantum Complexity Theory at UT for the third time (via Zoom, of course), I decided that it was finally time to remedy this.  To keep things manageable, this time I’m going to limit myself to research projects that began their lives in my course and that are already public on the arXiv (or in one case, that will soon be).
+
+So please enjoy the following smorgasbord, from 2016 and 2019 iterations of my course!  And if you have any questions about any of the projects—well, I’ll try to get the students to answer in the comments section!  Thanks so much and congratulations to the students for their work.
+
+William Hoza (project turned into a joint paper with Cole Graham), Universal Bell Correlations Do Not Exist.
+
+We prove that there is no finite-alphabet nonlocal box that generates exactly those correlations that can be generated using a maximally entangled pair of qubits. More generally, we prove that if some finite-alphabet nonlocal box is strong enough to simulate arbitrary local projective measurements of a maximally entangled pair of qubits, then that nonlocal box cannot itself be simulated using any finite amount of entanglement. We also give a quantitative version of this theorem for approximate simulations, along with a corresponding upper bound.
+
+Patrick Rall, Signed quantum weight enumerators characterize qubit magic state distillation.
+
+Many proposals for fault-tolerant quantum computation require injection of ‘magic states’ to achieve a universal set of operations. Some qubit states are above a threshold fidelity, allowing them to be converted into magic states via ‘magic state distillation’, a process based on stabilizer codes from quantum error correction.We define quantum weight enumerators that take into account the sign of the stabilizer operators. These enumerators completely describe the magic state distillation behavior when distilling T-type magic states. While it is straightforward to calculate them directly by counting exponentially many operator weights, it is also an NP-hard problem to compute them in general. This suggests that finding a family of distillation schemes with desired threshold properties is at least as hard as finding the weight distributions of a family of classical codes.Additionally, we develop search algorithms fast enough to analyze all useful 5 qubit codes and some 7 qubit codes, finding no codes that surpass the best known threshold.
+
+Ying-Hao Chen, 2-Local Hamiltonian with Low Complexity is QCMA-complete.
+
+We prove that 2-Local Hamiltonian (2-LH) with Low Complexity problem is QCMA-complete by combining the results from the QMA-completeness of 2-LH and QCMA-completeness of 3-LH with Low Complexity. The idea is straightforward. It has been known that 2-LH is QMA-complete. By putting a low complexity constraint on the input state, we make the problem QCMA. Finally, we use similar arguments as in [Kempe, Kitaev, Regev] to show that all QCMA problems can be reduced to our proposed problem.
+
+Jeremy Cook, On the relationships between Z-, C-, and H-local unitaries.
+
+Quantum walk algorithms can speed up search of physical regions of space in both the discrete-time [arXiv:quant-ph/0402107] and continuous-time setting [arXiv:quant-ph/0306054], where the physical region of space being searched is modeled as a connected graph. In such a model, Aaronson and Ambainis [arXiv:quant-ph/0303041] provide three different criteria for a unitary matrix to act locally with respect to a graph, called Z-local, C-local, and H-local unitaries, and left the open question of relating these three locality criteria. Using a correspondence between continuous- and discrete-time quantum walks by Childs [arXiv:0810.0312], we provide a way to approximate N×N H-local unitaries with error δ using O(1/√δ,√N) C-local unitaries, where the comma denotes the maximum of the two terms.
+
+Joshua A. Cook, Approximating Unitary Preparations of Orthogonal Black Box States.
+
+In this paper, I take a step toward answering the following question: for m different small circuits that compute m orthogonal n qubit states, is there a small circuit that will map m computational basis states to these m states without any input leaving any auxiliary bits changed. While this may seem simple, the constraint that auxiliary bits always be returned to 0 on any input (even ones besides the m we care about) led me to use sophisticated techniques. I give an approximation of such a unitary in the m = 2 case that has size polynomial in the approximation error, and the number of qubits n.
+
+Sabee Grewal (project turned into a joint paper with me), Efficient Learning of Non-Interacting Fermion Distributions.
+
+We give an efficient classical algorithm that recovers the distribution of a non-interacting fermion state over the computational basis. For a system of n non-interacting fermions and m modes, we show that O(m2n4log(m/δ)/ε4) samples and O(m4n4log(m/δ)/ε4) time are sufficient to learn the original distribution to total variation distance ε with probability 1−δ. Our algorithm empirically estimates the one- and two-mode correlations and uses them to reconstruct a succinct description of the entire distribution efficiently.
+
+Sam Gunn and Niels Kornerup, Review of a Quantum Algorithm for Betti Numbers.
+
+We looked into the algorithm for calculating Betti numbers presented by Lloyd, Garnerone, and Zanardi (LGZ). We present a new algorithm in the same spirit as LGZ with the intent of clarifying quantum algorithms for computing Betti numbers. Our algorithm is simpler and slightly more efficient than that presented by LGZ. We present a thorough analysis of our algorithm, pointing out reasons that both our algorithm and that presented by LGZ do not run in polynomial time for most inputs. However, the algorithms do run in polynomial time for calculating an approximation of the Betti number to polynomial multiplicative error, when applied to some class of graphs for which the Betti number is exponentially large.
+
+William Kretschmer, Lower Bounding the AND-OR Tree via Symmetrization.
+
+We prove a simple, nearly tight lower bound on the approximate degree of the two-level AND-OR tree using symmetrization arguments. Specifically, we show that ~deg(ANDm∘ORn)=Ω(~√(mn)). To our knowledge, this is the first proof of this fact that relies on symmetrization exclusively; most other proofs involve the more complicated formulation of approximate degree as a linear program [BT13, She13, BDBGK18]. Our proof also demonstrates the power of a symmetrization technique involving Laurent polynomials (polynomials with negative exponents) that was previously introduced by Aaronson, Kothari, Kretschmer, and Thaler [AKKT19].
+
+Jiahui Liu and Ruizhe Zhang (project turned into a joint paper with me, Mark Zhandry, and Qipeng Liu), New Approaches for Quantum Copy-Protection.
+
+Quantum copy protection uses the unclonability of quantum states to construct quantum software that provably cannot be pirated. Copy protection would be immensely useful, but unfortunately little is known about how to achieve it in general. In this work, we make progress on this goal, by giving the following results:– We show how to copy protect any program that cannot be learned from its input/output behavior, relative to a classical oracle. This improves on Aaronson [CCC’09], which achieves the same relative to a quantum oracle. By instantiating the oracle with post-quantum candidate obfuscation schemes, we obtain a heuristic construction of copy protection.– We show, roughly, that any program which can be watermarked can be copy detected, a weaker version of copy protection that does not prevent copying, but guarantees that any copying can be detected. Our scheme relies on the security of the assumed watermarking, plus the assumed existence of public key quantum money. Our construction is general, applicable to many recent watermarking schemes.
+
+John Kallaugher, Triangle Counting in the Quantum Streaming Model.  Not yet available but coming soon to an arXiv near you!
+
+We give a quantum algorithm for counting triangles in graph streams that uses less space than the best possible classical algorithm.
+
+================================================================================
+
+TITLE: Sayonara Majorana?
+URL: https://scottaaronson.blog/?m=202103
+CONTENT:
+Many of you have surely already seen the news that the Kouwenhoven group in Delft—which in 2018 published a paper in Nature claiming to have detected Majorana particles, a type of nonabelian anyon—have retracted the paper and apologized for “insufficient scientific rigour.”  This work was considered one of the linchpins of Microsoft’s experimental effort toward building topological quantum computers.
+
+Like most quantum computing theorists, I guess, I’m thrilled if Majorana particles can be created using existing technology, I’m sad if they can’t be, but I don’t have any special investment in or knowledge of the topic, beyond what I read in the news or hear from colleagues.  Certainly Majorana particles seem neither necessary nor sufficient for building a scalable quantum computer, although they’d be a step forward for the topological approach to QC.
+
+The purpose of this post is to invite informed scientific discussion of the relevant issues—first and foremost so that I can learn something, and second so that my readers can!  I’d be especially interested to understand:
+
+
+
+================================================================================
+
+TITLE: Another axe swung at the Sycamore
+URL: https://scottaaronson.blog/?m=202103
+CONTENT:
+So there’s an interesting new paper on the arXiv by Feng Pan and Pan Zhang, entitled “Simulating the Sycamore supremacy circuits.”  It’s about a new tensor contraction strategy for classically simulating Google’s 53-qubit quantum supremacy experiment from Fall 2019.  Using their approach, and using just 60 GPUs running for a few days, the authors say they managed to generate a million correlated 53-bit strings—meaning, strings that all agree on a specific subset of 20 or so bits—that achieve a high linear cross-entropy score.
+
+Alas, I haven’t had time this weekend to write a “proper” blog post about this, but several people have by now emailed to ask my opinion, so I thought I’d share the brief response I sent to a journalist.
+
+This does look like a significant advance on simulating Sycamore-like random quantum circuits!  Since it’s based on tensor networks, you don’t need the literally largest supercomputer on the planet filling up tens of petabytes of hard disk space with amplitudes, as in the brute-force strategy proposed by IBM.  Pan and Zhang’s strategy seems most similar to the strategy previously proposed by Alibaba, with the key difference being that the new approach generates millions of correlated samples rather than just one.
+
+I guess my main thoughts for now are:
+
+Anyway, very happy for thoughts from anyone who knows more.
+
+================================================================================
+
+TITLE: The Zen Anti-Interpretation of Quantum Mechanics
+URL: https://scottaaronson.blog/?m=202103
+CONTENT:
+As I lay bedridden this week, knocked out by my second dose of the Moderna vaccine, I decided I should blog some more half-baked ideas because what the hell?  It feels therapeutic, I have tenure, and anyone who doesn’t like it can close their broswer tab.
+
+So: although I’ve written tens of thousands of words, on this blog and elsewhere, about interpretations of quantum mechanics, again and again I’ve dodged the question of which interpretation (if any) I really believe myself.  Today, at last, I’ll emerge from the shadows and tell you precisely where I stand.
+
+I hold that all interpretations of QM are just crutches that are better or worse at helping you along to the Zen realization that QM is what it is and doesn’t need an interpretation.  As Sidney Coleman famously argued, what needs reinterpretation is not QM itself, but all our pre-quantum philosophical baggage—the baggage that leads us to demand, for example, that a wavefunction |ψ⟩ either be “real” like a stubbed toe or else “unreal” like a dream.  Crucially, because this philosophical baggage differs somewhat from person to person, the “best” interpretation—meaning, the one that leads most quickly to the desired Zen state—can also differ from person to person.  Meanwhile, though, thousands of physicists (and chemists, mathematicians, quantum computer scientists, etc.) have approached the Zen state merely by spending decades working with QM, never worrying much about interpretations at all.  This is probably the truest path; it’s just that most people lack the inclination, ability, or time.
+
+Greg Kuperberg, one of the smartest people I know, once told me that the problem with the Many-Worlds Interpretation is not that it says anything wrong, but only that it’s “melodramatic” and “overwritten.”  Greg is far along the Zen path, probably further than me.
+
+You shouldn’t confuse the Zen Anti-Interpretation with “Shut Up And Calculate.”  The latter phrase, mistakenly attributed to Feynman but really due to David Mermin, is something one might say at the beginning of the path, when one is as a baby.  I’m talking here only about the endpoint of the path, which one can approach but never reach—the endpoint where you intuitively understand exactly what a Many-Worlder, Copenhagenist, or Bohmian would say about any given issue, and also how they’d respond to each other, and how they’d respond to the responses, etc. but after years of study and effort you’ve returned to the situation of the baby, who just sees the thing for what it is.
+
+I don’t mean to say that the interpretations are all interchangeable, or equally good or bad.  If you had to, you could call even me a “Many-Worlder,” but only in the following limited sense: that in fifteen years of teaching quantum information, my experience has consistently been that for most students, Everett’s crutch is the best one currently on the market.  At any rate, it’s the one that’s the most like a straightforward picture of the equations, and the least like a wobbly tower of words that might collapse if you utter any wrong ones.  Unlike Bohr, Everett will never make you feel stupid for asking the questions an inquisitive child would ask; he’ll simply give you answers that are as clear, logical, and internally consistent as they are metaphysically extravagant.  That’s a start.
+
+The Copenhagen Interpretation retains a place of honor as the first crutch, for decades the only crutch, and the one closest to the spirit of positivism.  Unfortunately, wielding the Copenhagen crutch requires mad philosophical skillz—which parts of the universe should you temporarily regard as “classical”?  which questions should be answered, and which deflected?—to the point where, if you’re capable of all that verbal footwork, then why do you even need a crutch in the first place?  In the hands of amateurs—meaning, alas, nearly everyone—Copenhagen often leads away from rather than toward the Zen state, as one sees with the generations of New-Age bastardizations about “observations creating reality.”
+
+As for deBroglie-Bohm—well, that’s a weird, interesting, baroque crutch, one whose actual details (the preferred basis and the guiding equation) are historically contingent and tied to specific physical systems.  It’s probably the right crutch for someone—it gets eternal credit for having led Bell to discover the Bell inequality—but its quirks definitely need to be discarded along the way.
+
+Note that, among those who approach the Zen state, many might still call themselves Many-Worlders or Copenhagenists or Bohmians or whatever—just as those far along in spiritual enlightenment might still call themselves Buddhists or Catholics or Muslims or Jews (or atheists or agnostics)—even though, by that point, they might have more in common with each other than they do with their supposed coreligionists or co-irreligionists.
+
+Alright, but isn’t all this Zen stuff just a way to dodge the actual, substantive questions about QM, by cheaply claiming to have transcended them?  If that’s your charge, then please help yourself to the following FAQ about the details of the Zen Anti-Interpretation.
+
+To those who asked me about Claus Peter Schnorr’s claim to have discovered a fast classical factoring algorithm, thereby “destroying” (in his words) the RSA cryptosystem, see (e.g.) this Twitter thread by Keegan Ryan, which explains what certainly looks like a fatal error in Schnorr’s paper.
+
+================================================================================
+

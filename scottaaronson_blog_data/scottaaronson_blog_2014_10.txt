@@ -1,0 +1,44 @@
+TITLE: A few quick announcements
+URL: https://scottaaronson.blog/?m=201410
+CONTENT:
+I gave a new survey talk at Yale, entitled “When Exactly Do Quantum Computers Provide a Speedup?”  Here are the PowerPoint slides.  Thanks so much to Rob Schoelkopf for inviting me, and to everyone else at Yale for an awesome visit.
+
+Aephraim Steinberg asks me to announce that the call for nominations for the 2015 John Stewart Bell Prize is now available.
+
+Ronitt Rubinfeld asks me to remind people that the STOC’2015 submission deadline is November 4.  Here’s the call for papers.
+
+Likewise, Jeff Kinne asks me to remind people that the Complexity’2015 submission deadline is November 26.  Here’s the call for papers.
+
+================================================================================
+
+TITLE: Speaking Truth to Parallelism at Cornell
+URL: https://scottaaronson.blog/?m=201410
+CONTENT:
+This week I was at my alma mater, Cornell, to give a talk at the 50th anniversary celebration of its computer science department.  You can watch the streaming video here; my talk runs from roughly 1:17:30 to 1:56 (though if you’ve seen other complexity/physics/humor shows by me, this one is pretty similar, except for the riff about Cornell at the beginning).
+
+The other two things in that video—a talk by Tom Henzinger about IST Austria, a bold new basic research institute that he leads, closely modeled after the Weizmann Institute in Israel; and a discussion panel about the future of programming languages—are also really interesting and worth watching.  There was lots of other good stuff at this workshop, including a talk about Google Glass and its applications to photography (by, not surprisingly, a guy wearing a Google Glass—Marc Levoy); a panel discussion with three Turing Award winners, Juris Hartmanis, John Hopcroft, and Ed Clarke, about the early days of Cornell’s CS department; a talk by Amit Singhal, Google’s director of search; a talk about differential privacy by Cynthia Dwork, one of the leading researchers at the recently-closed Microsoft SVC lab (with a poignant and emotional ending); and a talk by my own lab director at MIT, Daniela Rus, about her research in robotics.
+
+Along with the 50th anniversary celebration, Bill Gates was also on campus to dedicate Bill and Melinda Gates Hall, the new home of Cornell’s CS department.  Click here for streaming video of a Q&A that Gates did with Cornell students, where I thought he acquitted himself quite well, saying many sensible things about education, the developing world, etc. that other smart people could also say, but that have extra gravitas coming from him.  Gates has also become extremely effective at wrapping barbs of fact inside a soft mesh of politically-unthreatening platitudes—but listen carefully and you’ll hear the barbs.  The amount of pomp and preparation around Gates’s visit reminded me of when President Obama visited MIT, befitting the two men’s approximately equal power.  (Obama has nuclear weapons, but then again, he also has Congress.)
+
+And no, I didn’t get to meet Gates or shake his hand, though I did get to stand about ten feet from him at the Gates Hall dedication.  (He apparently spent most of his time at Cornell meeting with plant breeders, and other people doing things relevant to the Gates Foundation’s interests.)
+
+Thanks so much to Bobby and Jon Kleinberg, and everyone else who invited me to this fantastic event and helped make it happen.  May Cornell’s CS department have a great next 50 years.
+
+One last remark before I close this post.  Several readers have expressed disapproval and befuddlement over the proposed title of my next book, “Speaking Truth to Parallelism.”  In the words of commenter TonyK:
+
+That has got to be the worst title in the history of publishing! “Speaking Truth to Parallelism”? It doesn’t even make sense! I count myself as one of your fans, Scott, but you’re going to have to do better than that if you want anybody else to buy your book. I know you can do better — witness “Quantum Computing Since Democritus”.
+
+However, my experiences at Cornell this week helped to convince me that, not only does “Speaking Truth to Parallelism” make perfect sense, it’s an activity that’s needed now more than ever.  What it means, of course, is fighting a certain naïve, long-ago-debunked view of quantum computers—namely, that they would achieve exponential speedups by simply “trying every possible answer in parallel”—that’s become so entrenched in the minds of many journalists, laypeople, and even scientists from other fields that it feels like nothing you say can possibly dislodge it.  The words out of your mouth will literally be ignored, misheard, or even contorted to the opposite of what they mean, if that’s what it takes to preserve the listener’s misconception about quantum computers being able to solve NP-hard optimization problems by sheer magic.  (Much like in the Simpsons-visit-Australia episode, where Marge’s request for “coffee” is misheard over and over as “beer.”)  You probably think I’m exaggerating, and I’d agree with you—if I hadn’t experienced this phenomenon hundreds of times over the last decade.
+
+So, to take one example: after my talk at Cornell, an audience member came up to me to say that it was a wonderful talk, but that what he really wanted to know was whether I thought quantum computers could solve problems in the “NP space” in linear time, by trying all the possible solutions at once.  He didn’t seem to realize that I’d spent the entire previous half hour answering that exact question, explaining why the answer was “no.”  Coincidentally, this week I also got an email from a longtime reader of this blog, saying that he read and loved Quantum Computing Since Democritus, and wanted my feedback on a popular article he’d written about quantum computing.  What was the gist of the article?  You guessed it: “quantum computing = generic exponential speedups for optimization, machine learning, and Big Data problems, by trying all the possible answers at once.”
+
+These people’s enthusiasm for quantum computing tends to be so genuine, so sincere, that I find myself unable to blame them—even when they’ve done the equivalent of going up to Richard Dawkins and thanking him for having taught them that evolution works for the good of the entire species, just as its wise Designer intended.  I do blame the media and other careless or unscrupulous parties for misleading people about quantum computing, but most of all I blame myself, for not making my explanations clear enough.  In the end, then, meeting the “NP space” folks only makes me want to redouble my efforts to Speak Truth to Parallelism: eventually, I feel, the nerd world will get this point.
+
+Update (Oct. 4): I had regarded this (perhaps wrongly) as too obvious to state, but particularly for non-native English speakers, I’d better clarify: “speaking truth to parallelism” is a deliberate pun on the left-wing protester phrase “speaking truth to power.”  So whatever linguistic oddness there is in my phrase, I’d say it simply inherits from the original.
+
+Another Update (Oct. 7): See this comment for my short summary of what’s known about the actual technical question (can quantum computers solve NP-complete problems in polynomial time, or not?).
+
+Another Update (Oct. 8): Many commenters wrote to point out that the video of my talk at Cornell is now password-protected, and no longer publicly available.  I wrote to my contacts at Cornell to ask about this, and they said they’re planning to release lightly-edited versions of the videos soon, but will look into the matter in the meantime.
+
+================================================================================
+

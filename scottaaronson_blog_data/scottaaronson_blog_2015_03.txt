@@ -1,0 +1,63 @@
+TITLE: The ultimate physical limits of privacy
+URL: https://scottaaronson.blog/?m=201503
+CONTENT:
+Somewhat along the lines of my last post, the other day a reader sent me an amusing list of questions about privacy and fundamental physics.  The questions, and my answers, are below.
+
+1. Does the universe provide us with a minimum level of information security?
+
+I’m not sure what the question means. Yes, there are various types of information security that are rooted in the known laws of physics—some of them (like quantum key distribution) even relying on specific aspects of quantum physics—whose security one can argue for by appealing to the known properties of the physical world. Crucially, however, any information security protocol is only as good as the assumptions it rests on: for example, that the attacker can’t violate the attack model by, say, breaking into your house with an ax!
+
+2. For example, is my information safe from entities outside the light-cone I project?
+
+Yes, I think it’s safe to assume that your information is safe from any entities outside your future light-cone. Indeed, if information is not in your future light-cone, then almost by definition, you had no role in creating it, so in what sense should it be called “yours”?
+
+3. Assume that there are distant alien cultures with infinite life spans – would they always be able to wait long enough for my light cone to spread to them, and then have a chance of detecting my “private” information?
+
+First of all, the aliens would need to be in your future light-cone (see my answer to 2). In 1998, it was discovered that there’s a ‘dark energy’ pushing the galaxies apart at an exponentially-increasing rate. Assuming the dark energy remains there at its current density, galaxies that are far enough away from us (more than a few tens of billions of light-years) will always recede from us faster than the speed of light, meaning that they’ll remain outside our future light-cone, and signals from us can never reach them. So, at least you’re safe from those aliens!
+
+For the aliens in your future light-cone, the question is subtler. Suppose you took the only piece of paper on which your secrets were written, and burned it to ash—nothing high-tech, just burned it. Then there’s no technology that we know today, or could even seriously envision, that would piece the secrets together. It would be like unscrambling an egg, or bringing back the dead from decomposing corpses, or undoing a quantum measurement. It would mean, effectively, reversing the Arrow of Time in the relevant part of the universe. This is formally allowed by the Second Law of Thermodynamics, since the decrease in entropy within that region could be balanced by an increase in entropy elsewhere, but it would require a staggering level of control over the region’s degrees of freedom.
+
+On the other hand, it’s also true that the microscopic laws of physics are reversible: they never destroy information. And for that reason, as a matter of principle, we can’t rule out the possibility that some civilization of the very far future, whether human or alien, could piece together what was written on your paper even after you’d burned it to a crisp. Indeed, with such godlike knowledge and control, maybe they could even reconstruct the past states of your brain, and thereby piece together private thoughts that you’d never written anywhere!
+
+4. Does living in a black hole provide privacy? Couldn’t they follow you into the hole?
+
+No, I would not recommend jumping into a black hole as a way to ensure your privacy. For one thing, you won’t get to enjoy the privacy for long (a couple hours, maybe, for a supermassive black hole at the center of a galaxy?) before getting spaghettified on your way to the singularity. For another, as you correctly pointed out, other people could still snoop on you by jumping into the black hole themselves—although they’d have to want badly enough to learn your secrets that they wouldn’t mind dying themselves along with you, and also not being able to share whatever they learned with anyone outside the hole.
+
+But a third problem is that even inside a black hole, your secrets might not be safe forever! Since the 1970s, it’s been thought that all information dropped into a black hole eventually comes out, in extremely-scrambled form, in the Hawking radiation that black holes produce as they slowly shrink and evaporate. What do I mean by “slowly”? Well, the evaporation would take about 1070 years for a black hole the mass of the sun, or about 10100 years for the black holes at the centers of galaxies. Furthermore, even after the black hole had evaporated, piecing together the infalling secrets from the Hawking radiation would probably make reconstructing what was on the burned paper from the smoke and ash seem trivial by comparison! But just like in the case of the burned paper, the information is still formally present (if current ideas about quantum gravity are correct), so one can’t rule out that it could be reconstructed by some civilization of the extremely remote future.
+
+================================================================================
+
+TITLE: The flow of emails within the block inbox
+URL: https://scottaaronson.blog/?m=201503
+CONTENT:
+As a diversion from the important topics of shaming, anti-shaming, and anti-anti-shaming, I thought I’d share a little email exchange (with my interlocutor’s kind permission), which gives a good example of what I find myself doing all day when I’m not blogging, changing diapers, or thinking about possibly doing some real work (but where did all the time go?).
+
+Dear Professor Aaronson,
+
+I would be very pleased to know your opinion about time.  In a letter of condolence to the Besso family, Albert Einstein wrote: “Now he has departed from this strange world a little ahead of me. That means nothing. People like us, who believe in physics, know that the distinction between past, present and future is only a stubbornly persistent illusion.” I’m a medical doctor and everyday I see time’s effect over human bodies. Is Einstein saying time is an illusion?  For who ‘believe in physics’ is death an illusion?  Don’t we lose our dears and will they continue to live in an ‘eternal world’?
+
+Is time only human perceptive illusion (as some scientists say physics has proved)?
+
+Dear [redacted],
+
+I don’t read Einstein in that famous quote as saying that time itself is an illusion, but rather, that the sense of time flowing from past to present to future is an illusion. He meant, for example, that the differential equations of physics can just as easily be run backward (from future to past) as forward (from past to future), and that studying physics can strongly encourage a perspective—which philosophers call the “block universe” perspective—where you treat the entire history of spacetime as just a fixed, 4-dimensional manifold, with time simply another dimension in addition to the three spatial ones (admittedly, a dimension that the laws of physics treat somewhat differently than the other three). And yes, relativity encourages this perspective, by showing that different observers, moving at different speeds relative to each other, will divide up the 4-dimensional manifold into time slices in different ways, with two events judged to be simultaneous by one observer judged to be happening at different times by another.
+
+But even after Einstein is read this way, I’d personally respond: well, that’s just one perspective you can take. A perfectly understandable one, if you’re Einstein, and especially if you’re Einstein trying to comfort the bereaved. But still: would you want to say, for example, that because physics treats the table in front of you as just a collection of elementary particles held together by forces, therefore the table, as such, doesn’t “exist”? That seems overwrought. Physics deepens your understanding of the table, of course—showing you what its microscopic constituents are and why they hold themselves together—but the table still “exists.”  In much the same way, physics enormously deepened our understanding of what we mean by the “flow of time”—showing how the “flow” emerges from the time-symmetric equations of physics, combined with the time-asymmetric phenomena of thermodynamics, which increase the universe’s entropy as we move away from the Big Bang, and thereby allow for the creation of memories, records, and other irreversible effects (a part of the story that I didn’t even get into here). But it feels overwrought to say that, because physics gives us a perspective from which we can see the “flow of time” as emerging from something deeper, therefore the “flow” doesn’t exist, or is just an illusion.
+
+Hope that helps!
+
+Best,
+Scott
+
+(followup question)
+
+Dear Professor,
+
+I’ve been thinking about the “block universe” and it seems to me that in it past, present and future all coexist.  So on the basis of Einstein’s theory, do all exist eternally, and why do we perceive only the present?
+
+(reply)
+
+But you don’t perceive only the present!  In the past, you perceived what’s now the past (and which you now remember), and in the future, you’ll perceive what’s now the future (and which you now look forward to), right?  And as for why the present is the present, and not some other point in time?  Well, that strikes me as one of those questions like why you’re you, out of all the possible people who you could have been instead, or why, assuming there are billions of habitable planets, you find yourself on earth and not on any of the other planets.  Maybe the best answer is that you had to be someone, living somewhere, at some particular point in time when you asked this question—and you could’ve wondered the same thing regardless of what the answer had turned out to be.
+
+================================================================================
+

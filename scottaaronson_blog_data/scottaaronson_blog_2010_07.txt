@@ -1,0 +1,101 @@
+TITLE: Going into deep freeze
+URL: https://scottaaronson.blog/?m=201007
+CONTENT:
+I’m leaving tomorrow for a grand tour of Banff, then Israel, then Greece, then Princeton.  Blogging may be even lighter than usual.
+
+In the meantime, my friend Michael Vassar has asked me to advertise the 2010 Singularity Summit, to be held August 14-15 in San Francisco.  Register now, because the summit is approaching so rapidly that meaningful extrapolation is all but impossible.
+
+While I’m traveling, here’s a fun Singularity-related topic to discuss in the comments section: have you signed up to have your head (and possibly body) frozen in liquid nitrogen after you die, for possible Futurama-style resuscitation in the not-a-priori-impossible event that technology advances to the point where such things become possible?  Whatever your answer, how do you defend yourself against the charge of irrationality?
+
+================================================================================
+
+TITLE: My diavlog with Anthony Aguirre
+URL: https://scottaaronson.blog/?m=201007
+CONTENT:
+Bloggingheads has just posted an hour-long diavlog between the cosmologist Anthony Aguirre and your humble blogger.  Topics discussed include: the anthropic principle; how to do quantum mechanics if the universe is so large that there could be multiple copies of you; Nick Bostrom’s “God’s Coin Toss” thought experiment; the cosmological constant; the total amount of computation in the observable universe; whether it’s reasonable to restrict cosmology to our observable region and ignore everything beyond that; whether the universe “is” a computer; whether, when we ask the preceding question, we’re no better than those Renaissance folks who asked whether the universe “is” a clockwork mechanism; and other questions that neither Anthony, myself, nor anyone else is really qualified to address.
+
+There was one point that sort of implicit in the discussion, but I noticed afterward that I never said explicitly, so let me do it now.  The question of whether the universe “is” a computer, I see as almost too meaningless to deserve discussion.  The reason is that the notion of “computation” is so broad that pretty much any system, following any sort of rules whatsoever (yes, even non-Turing-computable rules) could be regarded as some sort of computation.  So the right question to ask is not whether the universe is a computer, but rather what kind of computer it is.  How many bits can it store?  How many operations can it perform?  What’s the class of problems that it can solve in polynomial time?
+
+================================================================================
+
+TITLE: My philomath project: Sensitivity versus block-sensitivity
+URL: https://scottaaronson.blog/?m=201007
+CONTENT:
+If you like math, and you don’t yet have a Math Overflow account, stop reading this post now (not right now, but by the end of the sentence) and set one up, before returning here to finish reading the post.  Math Overflow is the real deal: something that I’ve missed, dreamed about, and told my friends someone ought to set up for the last fifteen years, and that now finally actually exists.  (It was founded by Berkeley grad students and postdocs Anton Geraschenko, David Brown, and Scott Morrison.)  If you have a research-related math problem you can’t solve, you can post it there and there’s a nontrivial chance someone will solve it (or at least tell you something new), possibly within eleven minutes.  If you’re an ambitious student looking for a problem to solve, you can go there and find one (or a hundred).
+
+To take one example, here’s a terrific complexity question asked by Timothy Gowers, about a notion of “average-case NP-completeness” different from the usual notions (if you think he’s asking about a well-studied topic, read the question more carefully).  I didn’t have a good answer, so I wrote a long, irrelevant non-answer summarizing what’s known about whether there are average-case NP-complete problems in the conventional sense.
+
+But my real topic today is the sensitivity versus block-sensitivity problem, which I recently posted to MO in a disguised (and, dare I say, improved) form.
+
+For non-Boolean-function-nerds, sensitivity vs. block-sensitivity is a frustrating and elusive combinatorial problem, first asked (as far as I know) by Noam Nisan and by Nisan-Szegedy around 1991.  Here’s a lovely paper by Claire Kenyon and Samuel Kutin that gives background and motivation as well as partial results.
+
+Briefly, let f:{0,1}n→{0,1} be a Boolean function, with n input bits and 1 output bit.  Then given an input x=x1…xn to f, the sensitivity of x, or sx(f), is the number of bits of x that you can flip to change the value of f.  The sensitivity of f is s(f) = maxx sx(f).  Also, the block-sensitivity of an input x, or bsx(f), is the maximum number of disjoint sets of bits of x (called “blocks”) that you can flip to change the value of f, and the block sensitivity of f is bs(f) = maxx bsx(f).  Clearly 1 ≤ s(f) ≤ bs(f) ≤ n for every non-constant Boolean function f.  (bs(f) is at least s(f) since you could always just take each block to have size 1.)
+
+To give some examples, the n-bit OR function satisfies s(OR)=bs(OR)=n, since the all-zeroes input is sensitive to flipping any of the n input bits.  Likewise s(AND)=bs(AND)=n, since the all-ones input is sensitive to flipping any of the bits.  Indeed, it’s not hard to see that s(f)=bs(f) for every monotone Boolean function f.  For non-monotone Boolean functions, on the other hand, the block-sensitivity can be bigger.  For example, consider the “sortedness function”, a 4-input Boolean function f that outputs 1 if the input is 0000, 0001, 0011, 0111, 1111, 1110, 1100, or 1000, and 0 otherwise.  Then you can check that bs(f) is 3, whereas s(f) is only 2.
+
+Here’s the question: What’s the largest possible gap between s(f) and bs(f)?  Are they always polynomially related?
+
+What makes this interesting is that block-sensitivity is known to be polynomially related to a huge number of other interesting complexity measures: the decision-tree complexity of f, the certificate complexity of f, the randomized query complexity of f, the quantum query complexity of f, the degree of f as a real polynomial, you name it.  So if, as is conjectured, sensitivity and block-sensitivity are polynomially related, then sensitivity—arguably the most basic of all Boolean function complexity measures—ceases to be an outlier and joins a large and happy flock.
+
+The largest known gap between sensitivity and block-sensitivity is quadratic, and is achieved by “Rubinstein’s function.”  To define this function, assume for simplicity that n is an even perfect square, and arrange the input bits into a √n-by-√n square grid.  Then we’ll set f(x)=1, if and only if there exists a row that has two consecutive 1’s and all other entries equal to 0.  You can check that bs(f)=n/2 (for consider the all-zeroes input), whereas s(f)=2√n (the worst case is when every row contains exactly one 1).
+
+It’s a reasonable guess that Rubinstein’s function gives pretty much the largest gap possible, and how hard could that possibly be to prove?  Well, how hard could a white rabbit in front of a cave possibly be to kill?
+
+I’ll confess to going on sensitivity versus block-sensitivity binges every couple of years since I first learned about this problem as an undergraduate at Cornell.  The last binge occurred this weekend, triggered by the strange block-sensitivity properties of my counterexample to the GLN Conjecture.  And that’s when it occurred to me to use the hyper-inter-network tools of Web 2.0, together with my power and influence here at Shtetl-Optimized, to unleash a new flood of activity on the problem.  There are at least four factors that make this problem well-suited to a collaborative math project:
+
+If you feel like you want a new angle on the problem—something that hasn’t already been explored to death, or even to serious injury—you can try my “geometric variant” of sensitivity vs. block sensitivity described on Math Overflow.
+
+I’m calling this a “philomath project,” a term that pays tribute to the successful polymath projects popularized by (and carried out on) Timothy Gowers’ wonderful blog, but that avoids infringing on a registered trademark of GowersCorp.
+
+So, here are the philomath project rules: do you have an idea about sensitivity vs. block sensitivity?  Or a vague pseudo-idea?  Or a proposal for an easier variant?   Then post it here!  Or go over to Math Overflow and post it there.  Let’s see if a block of us acting in unison can flip this problem.
+
+================================================================================
+
+TITLE: The Generalized Linial-Nisan Conjecture is false
+URL: https://scottaaronson.blog/?m=201007
+CONTENT:
+In a post a year and a half ago, I offered a prize of $200 for proving something called the Generalized Linial-Nisan Conjecture, which basically said that almost k-wise independent distributions fool AC0 circuits.  (Go over to that post if you want to know what that means and why I cared about it.)
+
+Well, I’m pleased to report that that’s a particular $200 I’ll never have to pay.  I just uploaded a new preprint to ECCC, entitled A Counterexample to the Generalized Linial-Nisan Conjecture.  (That’s the great thing about research: no matter what happens, you get a paper out of it.)
+
+A couple friends commented that it was wise to name the ill-fated conjecture after other people rather than myself.   (Then again, who the hell names a conjecture after themselves?)
+
+If you don’t feel like downloading the ECCC preprint, but do feel like scrolling down, here’s the abstract (with a few links inserted):
+
+In earlier work, we gave an oracle separating the  relational versions of BQP and the polynomial hierarchy, and showed that  an oracle separating the decision versions would follow from what we  called the Generalized Linial-Nisan (GLN) Conjecture: that  “almost k-wise independent” distributions are indistinguishable from the  uniform distribution by constant-depth circuits.  The original  Linial-Nisan Conjecture was recently proved by Braverman; we offered a  $200 prize for the generalized version.  In this paper, we save  ourselves $200 by showing that the GLN Conjecture is false, at least for  circuits of depth 3 and higher.
+As a byproduct, our counterexample also implies that Π2p⊄PNP  relative to a random oracle with probability 1.  It has been  conjectured since the 1980s that PH is infinite relative to a random  oracle, but the best previous result was NP≠coNP relative to a random  oracle.
+Finally, our counterexample implies that the famous results of  Linial, Mansour, and Nisan, on the structure of AC0  functions, cannot be improved in several interesting respects.
+
+To dispel any confusion, the $200 prize still stands for the original problem that the GLN Conjecture was meant to solve: namely, giving an oracle relative to which BQP is not in PH.   As I say in the paper, I remain optimistic about the prospects for solving that problem by a different approach, such as an elegant one recently proposed by Bill Fefferman and Chris Umans.   Also, it’s still possible that the GLN Conjecture is true for depth-two AC0 circuits (i.e., DNF formulas).  If so, that would imply the existence of an oracle relative to which BQP is not in AM—already a 17-year-old open problem—and net a respectable $100.
+
+================================================================================
+
+TITLE: Doing my oracle duty
+URL: https://scottaaronson.blog/?m=201007
+CONTENT:
+I promised myself I’d stop blogging about controversial issues whose mere mention could instigate a flamewar and permanently get me in trouble.  Well, today I’m going to violate that rule, by blogging about the difference relativized and unrelativized complexity classes.
+
+Recently a colleague of mine, who works in the foundations of quantum mechanics, sent me a long list of questions about the seminal 1993 paper of Bernstein and Vazirani that introduced the complexity class BQP (Bounded-Error Quantum Polynomial-Time).  It was clear to me that all of his questions boiled down to a single point: the distinction between the relativized and unrelativized worlds.  This is an absolutely crucial distinction that trips up just about everyone when they’re first learning quantum computing.
+
+So I fired off a response, which my colleague said he found extremely helpful.  It then occurred to me that what one person found helpful, another might as well—and that which makes 30% of my readers’ eyes glaze over with its thoroughgoing duh-obviousness, might be very thing that another 30% of my readers most want to see.  So without further ado, the two worlds of quantum complexity theory…
+
+In the relativized world, we let our algorithms access potentially-powerful oracles, whose internal structure we don’t examine (think of Simon’s algorithm for concreteness).  In that world, we can indeed prove unconditionally that BPP≠BQP—that is, quantum computers can solve certain problems exponentially faster than classical computers, when both computers are given access to the same oracle.
+
+In general, almost every “natural” complexity class has a relativized version associated with it, and the relativized versions tend to be much easier to separate than the unrelativized versions (it’s basically the difference between a masters or PhD thesis and a Fields Medal!)  So for example, within the relativized world, we can separate not only BPP from BQP, but also P from NP, NP from PSPACE, NP from BQP, etc.
+
+By contrast, in the unrelativized world (where there are no oracles), we can’t separate any complexity classes between P and PSPACE.  Doing so is universally recognized as one of the biggest open problems in mathematics (in my opinion, it’s far-and-away the biggest problem).
+
+Now, Bernstein and Vazirani proved that BQP is “sandwiched” between P and PSPACE.  For that reason, as they write in their paper, one can’t hope to prove P≠BQP in the unrelativized world without also proving P≠PSPACE.
+
+Let’s move on to another major result from Bernstein and Vazirani’s paper, namely their oracle separation between BPP and BQP.  You might wonder: what’s the point of proving such a thing?  Well, the Bernstein-Vazirani oracle separation gave the first formal evidence that BQP “might” be larger than BPP.  For if BPP equaled BQP relative to every oracle, then in particular, they’d have to be equal relative to the empty oracle—that is, in the unrelativized world!
+
+(The converse need not hold: it could be the case that BPP=BQP, despite the existence of an oracle that separates them.  So, again, separating complexity classes relative to an oracle can be thought of as a “baby step” toward separating them in the real world.)
+
+But an even more important motivation for Bernstein and Vazirani’s oracle separation is that it led shortly afterward to a better oracle separation by Simon, and that, in turn, led to Shor’s factoring algorithm.
+
+In a sense, what Shor did was to “remove the oracle” from Simon’s problem.  In other words, Shor found a concrete problem in the unrelativized world (namely factoring integers), which has a natural function associated with it (namely the modular exponentiation function, f(r) = xr mod N) that one can usefully treat as an oracle.  Treating f as an oracle, one can then use a quantum algorithm related to Simon’s algorithm to find the period of f, and that in turn lets you factor integers in polynomial time.
+
+Of course, Shor’s algorithm became much more famous than Simon’s algorithm, since the implications for computer science, cryptography, etc. were so much more concrete and dramatic than with an abstract oracle separation.  However, the downside is that the speedup of Shor’s algorithm is no longer unconditional: for all anyone knows today, there might also a fast classical algorithm to factor integers.  By contrast, the speedup of Simon’s algorithm (and of Bernstein-Vazirani before it) is an unconditional one.
+
+================================================================================
+

@@ -1,0 +1,148 @@
+TITLE: First they came for the Iranians
+URL: https://scottaaronson.blog/?m=201701
+CONTENT:
+Action Item: If you’re an American academic, please sign the petition against the Immigration Executive Order. (There are already more than eighteen thousand signatories, including Nobel Laureates, Fields Medalists, you name it, but it could use more!)
+
+I don’t expect this petition to have the slightest effect on the regime, but at least we should demonstrate to the world and to history that American academia didn’t take this silently.
+
+I’m sure there were weeks, in February or March 1933, when the educated, liberal Germans commiserated with each other over the latest outrages of their new Chancellor, but consoled themselves that at least none of it was going to affect them personally.
+
+This time, it’s taken just five days, since the hostile takeover of the US by its worst elements, for edicts from above to have actually hurt my life and (much more directly) the lives of my students, friends, and colleagues.
+
+Today, we learned that Trump is suspending the issuance of US visas to people from seven majority-Islamic countries, including Iran (but strangely not Saudi Arabia, the cradle of Wahhabist terrorism—not that that would be morally justified either).  This suspension might last just 30 days, but might also continue indefinitely—particularly if, as seems likely, the Iranian government thumbs its nose at whatever Trump demands that it do to get the suspension rescinded.
+
+So the upshot is that, until further notice, science departments at American universities can no longer recruit PhD students from Iran—a country that, along with China, India, and a few others, has long been the source of some of our best talent.  This will directly affect this year’s recruiting season, which is just now getting underway.  (If Canada and Australia have any brains, they’ll snatch these students, and make the loss America’s.)
+
+But what about the thousands of Iranian students who are already here?  So far, no one’s rounding them up and deporting them.  But their futures have suddenly been thrown into jeopardy.
+
+Right now, I have an Iranian PhD student who came to MIT on a student visa in 2013.  He started working with me two years ago, on the power of a rudimentary quantum computing model inspired by (1+1)-dimensional integrable quantum field theory.  You can read our paper about it, with Adam Bouland and Greg Kuperberg, here.  It so happens that this week, my student is visiting us in Austin and staying at our home.  He’s spent the whole day pacing around, terrified about his future.  His original plan, to do a postdoc in the US after he finishes his PhD, now seems impossible (since it would require a visa renewal).
+
+Look: in the 11-year history of this blog, there have been only a few occasions when I felt so strongly about something that I stood my ground, even in the face of widespread attacks from people who I otherwise respected.  One, of course, was when I spoke out for shy nerdy males, and for a vision of feminism broad enough to recognize their suffering as a problem.  A second was when I was more blunt about D-Wave, and about its and its supporters’ quantum speedup claims, than some of my colleagues were comfortable with.  But the remaining occasions almost all involved my defending the values of the United States, Israel, Zionism, or “the West,” or condemning Islamic fundamentalism, radical leftism, or the worldviews of such individuals as Noam Chomsky or my “good friend” Mahmoud Ahmadinejad.
+
+Which is simply to say: I don’t think anyone on earth can accuse me of secret sympathies for the Iranian government.
+
+But when it comes to student visas, I can’t see that my feelings about the mullahs have anything to do with the matter.  We’re talking about people who happen to have been born in Iran, who came to the US to do math and science.  Would we rather have these young scientists here, filled with gratitude for the opportunities we’ve given them, or back in Iran filled with justified anger over our having expelled them?
+
+To the Trump regime, I make one request: if you ever decide that it’s the policy of the US government to deport my PhD students, then deport me first.  I’m practically begging you: come to my house, arrest me, revoke my citizenship, and tear up the awards I’ve accepted at the White House and the State Department.  I’d consider that to be the greatest honor of my career.
+
+And to those who cheered Trump’s campaign in the comments of this blog: go ahead, let me hear you defend this.
+
+Update (Jan. 27, 2017): To everyone who’s praised the “courage” that it took me to say this, thank you so much—but to be perfectly honest, it takes orders of magnitude less courage to say this, than to say something that any of your friends or colleagues might actually disagree with! The support has been totally overwhelming, and has reaffirmed my sense that the United States is now effectively two countries, an open and a closed one, locked in a cold Civil War.
+
+Some people have expressed surprise that I’d come out so strongly for Iranian students and researchers, “given that they don’t always agree with my politics,” or given my unapologetic support for the founding principles (if not always the actions) of the United States and of Israel. For my part, I’m surprised that they’re surprised! So let me say something that might be clarifying.
+
+I care about the happiness, freedom, and welfare of all the men and women who are actually working to understand the universe and build the technologies of the future, and of all the bright young people who want to join these quests, whatever their backgrounds and wherever they might be found—whether it’s in Iran or Israel, in India or China or right here in the US.  The system of science is far from perfect, and we often discuss ways to improve it on this blog.  But I have not the slightest interest in tearing down what we have now, or destroying the world’s current pool of scientific talent in some cleansing fire, in order to pursue someone’s mental model of what the scientific community used to look like in Periclean Athens—or for that matter, their fantasy of what it would look like in a post-gender post-racial communist utopia.  I’m interested in the actual human beings doing actual science who I actually meet, or hope to meet.
+
+Understand that, and a large fraction of all the political views that I’ve ever expressed on this blog, even ones that might seem to be in tension with each other, fall out as immediate corollaries.
+
+(Related to that, some readers might be interested in a further explanation of my views about Zionism. See also my thoughts about liberal democracy, in response to numerous comments here by Curtis Yarvin a.k.a. Mencius Moldbug a.k.a. “Boldmug.”)
+
+Update (Jan. 29) Here’s a moving statement from my student Saeed himself, which he asked me to share here.
+
+This is not of my best interest to talk about politics. Not because I am scared but because I know little politics. I am emotionally affected like many other fellow human beings on this planet. But I am still in the US and hopefully I can pursue my degree at MIT. But many other talented friends of mine can’t. Simply because they came back to their hometowns to visit their parents. On this matter, I must say that like many of my friends in Iran I did not have a chance to see my parents in four years, my basic human right, just because I am from a particular nationality; something that I didn’t have any decision on, and that I decided to study in my favorite school, something that I decided when I was 15. When, like many other talented friends of mine, I was teaching myself mathematics and physics hoping to make big impacts in positive ways in the future. And I must say I am proud of my nationality – home is home wherever it is. I came to America to do science in the first place. I still don’t have any other intention, I am a free man, I can do science even in desert, if I have to. If you read history you’ll see scientists even from old ages have always been traveling.
+
+As I said I know little about many things, so I just phrase my own standpoint. You should also talk to the ones who are really affected. A good friend of mine, Ahmad, who studies Mechanical engineering in UC Berkeley, came back to visit his parents in August. He is one of the most talented students I have ever seen in my life. He has been waiting for his student visa since then and now he is ultimately depressed because he cannot finish his degree. The very least the academic society can do is to help students like Ahmad finish their degrees even if it is from abroad.  Having said all of this I must say I love the people of America, I have had many great friends here, great advisors specially Scott Aaronson and Aram Harrow, with whom I have been talking about life, religion, freedom and my favorite topic the foundations of the universe. I am grateful for the education I received at MIT and I think I have something I didn’t have before. I don’t even hate Mr Trump. I think he would feel different if we have a cup of coffee sometime.
+
+Update (Jan. 31): See also this post by Terry Tao.
+
+Update (Feb. 2): If you haven’t been checking the comments on this post, come have a look if you’d like to watch me and others doing our best to defend the foundations of Enlightenment and liberal democracy against a regiment of monarchists and neoreactionaries, including the notorious Mencius Moldbug, as well as a guy named Jim who explicitly advocates abolishing democracy and appointing Trump as “God-Emperor” with his sons to succeed him. (Incidentally, which son? Is Ivanka out of contention?)
+
+I find these people to be simply articulating, more clearly and logically than most, the worldview that put Trump into office and where it inevitably leads. And any of us who are horrified by it had better get over our incredulity, fast, and pick up the case for modernity and Enlightenment where Spinoza and Paine and Mill and all the others left it off—because that’s what’s actually at stake here, and if we don’t understand that then we’ll continue to be blindsided.
+
+================================================================================
+
+TITLE: A day to celebrate
+URL: https://scottaaronson.blog/?m=201701
+CONTENT:
+Today—January 20, 2017—I have something cheerful, something that I’m celebrating.  It’s Lily’s fourth birthday. Happy birthday Lily!
+
+
+
+As part of her birthday festivities, and despite her packed schedule, Lily has graciously agreed to field a few questions from readers of this blog.  You can ask about her parents, favorite toys, recent trip to Disney World, etc.  Just FYI: to the best of my knowledge, Lily doesn’t have any special insight about computational complexity, although she can write the letters ‘N’ and ‘P’ and find them on the keyboard.  Nor has she demonstrated much interest in politics, though she’s aware that many people are upset because a very bad man just became the president.  Anyway, if you ask questions that are appropriate for a real 4-year-old girl, rather than a blog humor construct, there’s a good chance I’ll let them through moderation and pass them on to her!
+
+Meanwhile, here’s a photo I took of UT Austin students protesting Trump’s inauguration beneath the iconic UT tower.
+
+
+
+================================================================================
+
+TITLE: My 116-page survey article on P vs. NP: better late than never
+URL: https://scottaaronson.blog/?m=201701
+CONTENT:
+For those who just want the survey itself, not the backstory, it’s here. (Note: Partly because of the feedback I’ve gotten on this blog, it’s now expanded to 121 pages!)
+
+Update (Jan. 23) By request, I’ve prepared a Kindle-friendly edition of this P vs. NP survey—a mere 260 pages!
+
+Two years ago, I learned that John Nash—that John Nash—was, together with Michail Rassias, editing a volume about the great open problems in mathematics.  And they wanted me to write the chapter about the P versus NP question—a question that Nash himself had come close to raising, in a prescient handwritten letter that he sent to the National Security Agency in 1955.
+
+On the one hand, I knew I didn’t have time for such an undertaking, and am such a terrible procrastinator that, in both previous cases where I wrote a book chapter, I singlehandedly delayed the entire volume by months.  But on the other hand, John Nash.
+
+So of course I said yes.
+
+What followed was a year in which Michail sent me increasing panicked emails (and then phone calls) informing me that the whole volume was ready for the printer, except for my P vs. NP thing, and is there any chance I’ll have it by the end of the week?  Meanwhile, I’m reading yet more papers about Karchmer-Wigderson games, proof complexity, time/space tradeoffs, elusive functions, and small-depth arithmetic circuits.  P vs. NP, as it turns out, is now a big subject.
+
+And in the middle of it, on May 23, 2015, John Nash and his wife Alicia were tragically killed on the New Jersey Turnpike, on their way back from the airport (Nash had just accepted the Abel Prize in Norway), when their taxi driver slammed into a guardrail.
+
+But while Nash himself sadly wouldn’t be alive to see it, the volume was still going forward.  And now we were effectively honoring Nash’s memory, so I definitely couldn’t pull out.
+
+So finally, last February, after more months of struggle and delay, I sent Michail what I had, and it duly appeared in the volume Open Problems in Mathematics.
+
+But I knew I wasn’t done: there was still sending my chapter out to experts to solicit their comments.  This I did, and massively-helpful feedback started pouring in, creating yet more work for me.  The thorniest section, by far, was the one about Geometric Complexity Theory (GCT): the program, initiated by Ketan Mulmuley and carried forward by a dozen or more mathematicians, that seeks to attack P vs. NP and related problems using a fearsome arsenal from algebraic geometry and representation theory.  The experts told me, in no uncertain terms, that my section on GCT got things badly wrong—but they didn’t agree with each other about how I was wrong.  So I set to work trying to make them happy.
+
+And then I got sidetracked with the move to Austin and with other projects, so I set the whole survey aside: a year of sweat and tears down the toilet.  Soon after that, Bürgisser, Ikenmeyer, and Panova proved a breakthrough “no-go” theorem, substantially changing the outlook for the GCT program, meaning yet more work for me if and when I ever returned to the survey.
+
+Anyway, today, confined to the house with my sprained ankle, I decided that the perfect was the enemy of the good, and that I should just finish the damn survey and put it up on the web, so readers can benefit from it before the march of progress (we can hope!) renders it totally obsolete.
+
+So here it is!  All 116 pages, 268 bibliography entries, and 52,000 words.
+
+For your convenience, here’s the abstract:
+
+In 1955, John Nash sent a remarkable letter to the National Security Agency, in which—seeking to build theoretical foundations for cryptography—he all but formulated what today we call the P=?NP problem, considered one of the great open problems of science.  Here I survey the status of this problem in 2017, for a broad audience of mathematicians, scientists, and engineers.  I offer a personal perspective on what it’s about, why it’s important, why it’s reasonable to conjecture that P≠NP is both true and provable, why proving it is so hard, the landscape of related problems, and crucially, what progress has been made in the last half-century toward solving those problems.  The discussion of progress includes diagonalization and circuit lower bounds; the relativization, algebrization, and natural proofs barriers; and the recent works of Ryan Williams and Ketan Mulmuley, which (in different ways) hint at a duality between impossibility proofs and algorithms.
+
+Thanks so much to everyone whose feedback helped improve the survey.  If you have additional feedback, feel free to share in the comments section!  My plan is to incorporate the next round of feedback by the year 2100, if not earlier.
+
+Update (Jan. 4) Bill Gasarch writes to tell me that Lazslo Babai has posted an announcement scaling back his famous “Graph Isomorphism in Quasipolynomial Time” claim. Specifically, Babai says that, due to an error discovered by Harald Helfgott, his graph isomorphism algorithm actually runs in about 22^O(√log(n)) time, rather than the originally claimed npolylog(n). This still beats the best previously-known running time for graph isomorphism (namely, 2O(√(n log n))), and by a large margin, but not quite as large as before.
+
+Babai pointedly writes:
+
+I apologize to those who were drawn to my lectures on this subject solely because of the quasipolynomial claim, prematurely magnified on the internet in spite of my disclaimers.
+
+Alas, my own experience has taught me the hard way that, on the Internet, it is do or do not. There is no disclaim.
+
+In any case, I’ve already updated my P vs. NP survey to reflect this new development.
+
+Another Update (Jan. 10) For those who missed it, Babai has another update saying that he’s fixed the problem, and the running time of his graph isomorphism algorithm is back to being quasipolynomial.
+
+Update (Jan. 19): This moment—the twilight of the Enlightenment, the eve of the return of the human species back to the rule of thugs—seems like as good a time as any to declare my P vs. NP survey officially done. I.e., thanks so much to everyone who sent me suggestions for additions and improvements, I’ve implemented pretty much all of them, and I’m not seeking additional suggestions!
+
+================================================================================
+
+TITLE: State
+URL: https://scottaaronson.blog/?m=201701
+CONTENT:
+Happy New Year, everyone!  I tripped over a well-concealed hole and sprained my ankle while carrying my daughter across the grass at Austin’s New Years festival, so am now ringing in 2017 lying in bed immobilized, which somehow seems appropriate.  At least Lily is fine, and at least being bedridden gives me ample opportunity to blog.
+
+Another year, another annual Edge question, with its opportunity for hundreds of scientists and intellectuals (including yours truly) to pontificate, often about why their own field of study is the source of the most important insights and challenges facing humanity.  This year’s question was:
+
+What scientific term or concept ought to be more widely known?
+
+With the example given of Richard Dawkins’s “meme,” which jumped into the general vernacular, becoming a meme itself.
+
+My entry, about the notion of “state” (yeah, I tried to focus on the basics), is here.
+
+This year’s question presented a particular challenge, which scientists writing for a broad audience might not have faced for generations.  Namely: to what extent, if any, should your writing acknowledge the dark shadow of recent events?  Does the Putinization of the United States render your little pet debates and hobbyhorses irrelevant?  Or is the most defiant thing you can do to ignore the unfolding catastrophe, to continue building your intellectual sandcastle even as the tidal wave of populist hatred nears?
+
+In any case, the instructions from Edge were clear: ignore politics.  Focus on the eternal.  But people interpreted that injunction differently.
+
+One of my first ideas was to write about the Second Law of Thermodynamics, and to muse about how one of humanity’s tragic flaws is to take for granted the gargantuan effort needed to create and maintain even little temporary pockets of order.  Again and again, people imagine that, if their local pocket of order isn’t working how they want, then they should smash it to pieces, since while admittedly that might make things even worse, there’s also at least 50/50 odds that they’ll magically improve.  In reasoning thus, people fail to appreciate just how exponentially more numerous are the paths downhill, into barbarism and chaos, than are the few paths further up.  So thrashing about randomly, with no knowledge or understanding, is statistically certain to make things worse: on this point thermodynamics, common sense, and human history are all in total agreement.  The implications of these musings for the present would be left as exercises for the reader.
+
+Anyway, I was then pleased when, in a case of convergent evolution, my friend and hero Steven Pinker wrote exactly that essay, so I didn’t need to.
+
+There are many other essays that are worth a read, some of which allude to recent events but the majority of which don’t.  Let me mention a few.
+
+Let me now discuss some disagreements I had with a few of the essays.
+
+
+
+================================================================================
+

@@ -1,0 +1,134 @@
+TITLE: Ryan Williams strikes again
+URL: https://scottaaronson.blog/?m=202502
+CONTENT:
+Update (Feb. 27): While we’re on the subject of theoretical computer science, friends-of-the-blog Adam Klivans and Raghu Meka have asked me to publicize that STOC’2025 TheoryFest, to be held June 23-27 in Prague, is eagerly seeking proposals for workshops.  The deadline is March 9th.
+
+Update (Feb. 25): It occurs to me that the new result is yet another vindication for Ryan’s style of doing complexity theory—a style that I’ve variously described with the phrases “ironic complexity theory” and “caffeinated alien reductions,” and that’s all about using surprising upper bounds for one thing to derive unsurprising lower bounds for a different thing, sometimes with a vertigo-inducing chain of implications in between. This style has a decidedly retro feel to it: it’s been clear since the 1960s both that there are surprising algorithms (for example for matrix multiplication), and that the time and space hierarchy theorems let us prove at least some separations. The dream for decades was to go fundamentally beyond that, separating complexity classes by “cracking their codes” and understanding the space of all possible things they can express. Alas, except for low-level circuit classes, that program has largely failed, for reasons partly explained by the Natural Proofs barrier. So Ryan achieves his successes by simply doubling down on two things that have worked since the beginning: (1) finding even more surprising algorithms (or borrowing surprising algorithms from other people), and then (2) combining those algorithms with time and space hierarchy theorems in clever ways to achieve new separations.
+
+================================================================================
+
+TITLE: FAQ on Microsoft’s topological qubit thing
+URL: https://scottaaronson.blog/?m=202502
+CONTENT:
+Q1. Did you see Microsoft’s announcement?A. Yes, thanks, you can stop emailing to ask!  Microsoft’s Chetan Nayak was even kind enough to give me a personal briefing a few weeks ago.  Yesterday I did a brief interview on this for the BBC’s World Business Report, and I also commented for MIT Technology Review.
+
+Q2. What is a topological qubit?A. It’s a special kind of qubit built using nonabelian anyons, which are excitations that can exist in a two-dimensional medium, behaving neither as fermions nor as bosons.  The idea grew out of seminal work by Alexei Kitaev, Michael Freedman, and others starting in the late 1990s.  Topological qubits have proved harder to create and control than ordinary qubits.
+
+Q3. Then why do people care about topological qubits?A. The dream is that they could eventually be more resilient to decoherence than regular qubits, since an error, in order to matter, needs to change the topology of how the nonabelian anyons are braided around each other.  So you’d have some robustness built in to the physics of your system, rather than having to engineer it laboriously at the software level (via quantum fault-tolerance).
+
+Q4. Did Microsoft create the first topological qubit?A. Well, they say they did! [Update: Commenters point out to me that buried in Nature‘s review materials is the following striking passage: “The editorial team wishes to point out that the results in this manuscript do not represent evidence for the presence of Majorana zero modes in the reported devices. The work is published for introducing a device architecture that might enable fusion experiments using future Majorana zero modes.” So, the situation is that Microsoft is unambiguously claiming to have created a topological qubit, and they just published a relevant paper in Nature, but their claim to have created a topological qubit has not yet been accepted by peer review.]
+
+Q5. Didn’t Microsoft claim the experimental creation of Majorana zero modes—a building block of topological qubits—back in 2018, and didn’t they then need to retract their claim?A. Yep. Certainly that history is making some experts cautious about the new claim. When I asked Chetan Nayak how confident I should be, his response was basically “look, we now have a topological qubit that’s behaving fully as a qubit; how much more do people want?”
+
+Q6. Is this a big deal?A. If the claim stands, I’d say it would be a scientific milestone for the field of topological quantum computing and physics beyond.  The number of topological qubits manipulated in a single experiment would then have finally increased from 0 to 1, and depending on how you define things, arguably a “new state of matter” would even have been created, one that doesn’t appear in nature (but only in Nature).
+
+Q7. Is this useful?A. Not yet!  If anyone claims that a single qubit, or even 30 qubits, are already useful for speeding up computation, you can ignore anything else that person says.  (Certainly Microsoft makes no such claim.)  On the question of what we believe quantum computers will or won’t eventually be useful for, see like half the archives of this blog over the past twenty years.
+
+Q8. Does this announcement vindicate topological qubits as the way forward for quantum computing?A. Think of it this way.  If Microsoft’s claim stands, then topological qubits have finally reached some sort of parity with where more traditional qubits were 20-30 years ago.  I.e., the non-topological approaches like superconducting, trapped-ion, and neutral-atom have an absolutely massive head start: there, Google, IBM, Quantinuum, QuEra, and other companies now routinely do experiments with dozens or even hundreds of entangled qubits, and thousands of two-qubit gates.  Topological qubits can win if, and only if, they turn out to be so much more reliable that they leapfrog the earlier approaches—sort of like the transistor did to the vacuum tube and electromechanical relay.  Whether that will happen is still an open question, to put it extremely mildly.
+
+Q9. Are there other major commercial efforts to build topological qubits?A. No, it’s pretty much just Microsoft [update: apparently Nokia Bell Labs also has a smaller, quieter effort, and Delft University in the Netherlands also continues work in the area, having ended an earlier collaboration with Microsoft]. Purely as a scientist who likes to see things tried, I’m grateful that at least one player stuck with the topological approach even when it ended up being a long, painful slog.
+
+Q10. Is Microsoft now on track to scale to a million topological qubits in the next few years?A. In the world of corporate PR and pop-science headlines, sure, why not?  As Bender from Futurama says, “I can guarantee anything you want!” In the world of reality, a “few years” certainly feels overly aggressive to me, but good luck to Microsoft and good luck to its competitors!  I foresee exciting times ahead, provided we still have a functioning civilization in which to enjoy them.
+
+Update (Feb 20): Chetan Nayak himself comments here, to respond to criticisms about Microsoft’s Nature paper lacking direct evidence for majorana zero modes or topological qubits.  He says that the paper, though published this week, was submitted a year ago, before the evidence existed.  Of course we all look forward to the followup paper.
+
+================================================================================
+
+TITLE: Toward a non-constant cancellation function
+URL: https://scottaaronson.blog/?m=202502
+CONTENT:
+It now seems the switch of Cancel Culture has only two settings:
+
+How could we possibly draw any line between these two extremes?  Wouldn’t that require … judgment?  Common sense?  Consideration of the facts of individual cases?
+
+I, of course, survived attempted cancellation by a large online mob a decade ago, led by well-known figures such as Amanda Marcotte and Arthur Chu.  Though it was terrifying at the time—it felt like my career and even my life were over—I daresay that, here in 2025, not many people would still condemn me for trying to have the heartfelt conversation I did about nerds, feminism, and dating, deep in the comments section of this blog.  My side has now conclusively “won” that battle.  The once-terrifying commissars of the People’s Republic of Woke, who delighted in trying to ruin me, are now bound and chained, as whooping soldiers of the MAGA Empire drag them by their hair to the torture dungeons.
+
+And this is … not at all the outcome I wanted?  It’s a possible outcome that I foresaw in 2014, and was desperately trying to help prevent, through fostering open dialogue between shy male nerds and feminists?  I’m now, if anything, more terrified for my little tribe of pro-Enlightenment, science-loving nerds than I was under the woke regime?  Speaking of switches with only two settings.
+
+Anyway, with whatever moral authority this experience vests in me, I’d like to suggest that, in future cancellation controversies, the central questions ought to include the following:
+
+People can debate how to weigh these considerations, though I personally put enormous weight on 8 and 9, what you could call the “clarification vs. glee axis.”  I have nearly unlimited charity for people willing to have a good-faith moral conversation with the world, and nearly unlimited contempt for people who mock the request for such a conversation.
+
+The sad part is that, in practice, the criteria for cancellation have tended instead to be things like:
+
+The trouble with these questions is that, not only are their answers not positively correlated with which people deserve to be cancelled, they’re negatively correlated.  This is precisely how you get the phenomenon of the left-wing circular firing squad, which destroys the poor schmucks capable of shame even while the shameless, the proud racists and pussy-grabbers, go completely unpunished.  Surely we can do better than that.
+
+================================================================================
+
+TITLE: “If you’re not a woke communist, you have nothing to fear,” they claimed
+URL: https://scottaaronson.blog/?m=202502
+CONTENT:
+Part of me feels bad not to have written for weeks about quantum error-correction or BQP or QMA or even the new Austin-based startup that launched a “quantum computing dating app” (which, before anyone asks, is 100% as gimmicky and pointless as it sounds).
+
+But the truth is that, even if you cared narrowly about quantum computing, there would be no bigger story right now than the fate of American science as a whole, which for the past couple weeks has had a knife to its throat.
+
+Last week, after I blogged about the freeze in all American federal science funding (which has since been lifted by a judge’s order), a Trump-supporting commenter named Kyle had this to say:
+
+No, these funding cuts are not permanent. He is only cutting funds until his staff can identify which money is going to the communists and the wokes. If you aren’t a woke or a communist, you have nothing to fear.
+
+Read that one more time: “If you aren’t woke or a communist, you have nothing to fear.”
+
+Can you predict what happened barely a week later?  Science magazine now reports that the Trump/Musk/DOGE administration is planning to cut the National Science Foundation’s annual budget from $9 billion to only $3 billion (Biden, by contrast, had proposed an increase to $10 billion).  Other brilliant ideas under discussion, according to the article, are to use AI to evaluate the grant proposals (!), and to shift the little NSF funding that remains from universities to private companies.
+
+To be clear: in the United States, NSF is the only government agency whose central mission is curiosity-driven basic research—not that other agencies like DOE or NIH or NOAA, which also fund basic research, are safe from the chopping block either.
+
+Maybe Congress, where support for basic science has long been bipartisan, will at some point grow some balls and push back on this. If not, though: does anyone seriously believe that you can cut the NSF’s budget by two-thirds while targeting only “woke communism”? That this won’t decimate the global preeminence of American universities in math, physics, computer science, astronomy, genetics, neuroscience, and more—preeminence that took a century to build?
+
+Or does anyone think that I, for example, am a “woke communist”? I, the old-fashioned Enlightenment liberal who repeatedly risked his reputation to criticize “woke communism,” who the “woke communists” denounced when they noticed him at all, and who narrowly survived a major woke cancellation attempt a decade ago? Alas, I doubt any of that will save me: I presumably won’t be able to get NSF grants either under this new regime. Nor will my hundreds of brilliant academic colleagues, who’ve done what they can to make sure the center of quantum computing research remains in America rather than China or anywhere else.
+
+I of course have no hope that the “Kyles” of the world will ever apologize to me for their prediction, their promise, being so dramatically wrong.  But here’s my plea to Elon Musk, J. D. Vance, Joe Lonsdale, Curtis Yarvin, the DOGE boys, and all the readers of this blog who are connected to their circle: please prove me wrong, and prove Kyle right.
+
+Please preserve and increase the NSF’s budget, after you’ve cleansed it of “woke communism” as you see fit.  For all I care, add a line item to the budget for studying how to build rockets that are even bigger, louder, and more phallic.
+
+But if you won’t save the NSF and the other basic research agencies—well hey, you’re the ones who now control the world’s nuclear-armed superpower, not me. But don’t you dare bullshit me about how you did all this so that merit-based science could once again flourish, like in the days of Newton and Gauss, finally free from meddling bureaucrats and woke diversity hires. You’d then just be another in history’s endless litany of conquering bullies, destroying what they can’t understand, no more interesting than all the previous bullies.
+
+================================================================================
+
+TITLE: The duty of stating the obvious
+URL: https://scottaaronson.blog/?m=202502
+CONTENT:
+1. Trump’s proposal for the US to “take over” Gaza and expel its inhabitants is, like nearly everything else Trump has said and done over the past two weeks and indeed the past decade, completely batshit insane.
+
+2. As with countless other Trump proposals, I don’t see that it will actually happen — both because most Gazans will refuse to leave, and because Arab countries will refuse to take them.
+
+3. I wonder whether all the anti-Israel activists in the US who withheld their vote (or even switched to Trump) to punish Biden and Harris for their support of Israel, are now happy with what they’ve gotten.
+
+4. The solution has always been for some government to develop Gaza for the benefit of its inhabitants, rather than as a terror-base for attacking Israel. Hamas and UNRWA have shown that they’ll never do that. But the postwar administration of Germany and Japan demonstrates what’s possible in one generation if the will exists.
+
+5. I wish the anti-Israel people would join me in demanding that. They ought to reflect that, if their only counteroffer is “Israel gets eradicated and its Jews return to the countries that murdered or expelled their families,” then they’re demanding something even more fantastical than Trump’s proposal.
+
+================================================================================
+
+TITLE: Hymn to be recited for the next thousand mornings
+URL: https://scottaaronson.blog/?m=202502
+CONTENT:
+A few years ago, scientists feared they’d lose their jobs if they said anything against diversity programs.
+
+I was against that.
+
+Now scientists fear they’ll lose their jobs if they say anything for diversity programs.
+
+I’m against that too.
+
+A few years ago, if you didn’t list your pronouns, you were on the wrong side of history.
+
+I was on the wrong side of history.
+
+Now, if you want equal rights for your trans friends, you’re an enemy of the people.
+
+I’m an enemy of the people.
+
+Then, they said the woke triumph over universities, the media, and Silicon Valley had bent the moral arc of the universe and overrode individual conscience.
+
+I chose conscience anyway.
+
+Now they say the MAGA triumph over the White House, Congress, the Supreme Court, and (again) Silicon Valley has bent the moral arc back.
+
+I choose conscience again.
+
+Then and now the ideologues say: don’t you realize you need to pick a side?
+
+What they don’t understand is that I have picked a side.
+
+================================================================================
+

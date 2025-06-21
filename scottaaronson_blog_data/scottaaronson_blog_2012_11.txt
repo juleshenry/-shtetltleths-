@@ -1,0 +1,51 @@
+TITLE: Proving Without Explaining, and Verifying Without Understanding
+URL: https://scottaaronson.blog/?m=201211
+CONTENT:
+Last Friday, I was at a “Symposium on the Nature of Proof” at UPenn, to give a popular talk about theoretical computer scientists’ expansions of the notion of mathematical proof (to encompass things like probabilistic, interactive, zero-knowledge, and quantum proofs).  This really is some of the easiest, best, and most fun material in all of CS theory to popularize.  Here are iTunes videos of my talk and the three others in the symposium: I’m video #2, logician Solomon Feferman is #3, attorney David Rudovsky is #4, and mathematician Dennis DeTurck is #5.  Also, here are my PowerPoint slides.  Thanks very much to Scott Weinstein at Penn for organizing the symposium.
+
+In other news, the Complexity Zoo went down yet again this week, in a disaster that left vulnerable communities without access to vital resources like nondeterminism and multi-prover interaction.  Luckily, computational power has since been restored: with help from some volunteers, I managed to get the Zoo up and running again on my BlueHost account.  But while the content is there, it looks horrendously ugly; all the formatting seems to be gone.  And the day I agreed to let the Zoo be ported to MediaWiki was the day I lost the ability to fix such problems.  What I really need, going forward, is for someone else simply to take charge of maintaining the Zoo: it’s become painfully apparent both that it needs to be done and that I lack the requisite IT skills.  If you want to take a crack at it, here’s an XML dump of the Zoo from a few months ago (I don’t think it’s really changed since then).  You don’t even need to ask my permission: just get something running, and if it looks good, I’ll anoint you the next Zookeeper and redirect complexityzoo.com to point to your URL.
+
+Update (Nov. 18): The Zoo is back up with the old formatting and graphics!!  Thanks so much to Charles Fu for setting up the new complexity-zoo.net (as well as Ethan, who set up a slower site that tided us over).  I’ve redirected complexityzoo.com to point to complexity-zoo.net, though it might take some time for your browser cache to clear.
+
+================================================================================
+
+TITLE: The $10 billion voter
+URL: https://scottaaronson.blog/?m=201211
+CONTENT:
+Update (Nov. 8): Slate’s pundit scoreboard.
+
+Update (Nov. 6): In crucial election news, a Florida woman wearing an MIT T-shirt was barred from voting, because the election supervisor thought her shirt was advertising Mitt Romney.
+
+At the time of writing, Nate Silver is giving Obama an 86.3% chance.  I accept his estimate, while vividly remembering various admittedly-cruder forecasts the night of November 5, 2000, which gave Gore an 80% chance.  (Of course, those forecasts need not have been “wrong”; an event with 20% probability really does happen 20% of the time.)  For me, the main uncertainties concern turnout and the effects of various voter-suppression tactics.
+
+In the meantime, I wanted to call the attention of any American citizens reading this blog to the wonderful Election FAQ of Peter Norvig, director of research at Google and a person well-known for being right about pretty much everything.  The following passage in particular is worth quoting.
+
+Yes. Voting for president is one of the most cost-effective actions any patriotic American can take.
+
+Let me explain what the question means. For your vote to have an effect on the outcome of the election, you would have to live in a decisive state, meaning a state that would give one candidate or the other the required 270th electoral vote. More importantly, your vote would have to break an exact tie in your state (or, more likely, shift the way that the lawyers and judges will sort out how to count and recount the votes). With 100 million voters nationwide, what are the chances of that? If the chance is so small, why bother voting at all?
+
+Historically, most voters either didn’t worry about this problem, or figured they would vote despite the fact that they weren’t likely to change the outcome, or vote because they want to register the degree of support for their candidate (even a vote that is not decisive is a vote that helps establish whether or not the winner has a “mandate”). But then the 2000 Florida election changed all that, with its slim 537 vote (0.009%) margin.
+
+What is the probability that there will be a decisive state with a very close vote total, where a single vote could make a difference? Statistician Andrew Gelman of Columbia University says about one in 10 million.
+
+That’s a small chance, but what is the value of getting to break the tie? We can estimate the total monetary value by noting that President George W. Bush presided over a $3 trillion war and at least a $1 trillion economic melt-down. Senator Sheldon Whitehouse (D-RI) estimated the cost of the Bush presidency at $7.7 trillion. Let’s compromise and call it $6 trillion, and assume that the other candidate would have been revenue neutral, so the net difference of the presidential choice is $6 trillion.
+
+The value of not voting is that you save, say, an hour of your time. If you’re an average American wage-earner, that’s about $20. In contrast, the value of voting is the probability that your vote will decide the election (1 in 10 million if you live in a swing state) times the cost difference (potentially $6 trillion). That means the expected value of your vote (in that election) was $600,000. What else have you ever done in your life with an expected value of $600,000 per hour? Not even Warren Buffett makes that much. (One caveat: you need to be certain that your contribution is positive, not negative. If you vote for a candidate who makes things worse, then you have a negative expected value. So do your homework before voting. If you haven’t already done that, then you’ll need to add maybe 100 hours to the cost of voting, and the expected value goes down to $6,000 per hour.)
+
+I’d like to embellish Norvig’s analysis with one further thought experiment.  While I favor a higher figure, for argument’s sake let’s accept Norvig’s estimate that the cost George W. Bush inflicted on the country was something like $6 trillion.  Now, imagine that a delegation of concerned citizens from 2012 were able to go back in time to November 5, 2000, round up 538 lazy Gore supporters in Florida who otherwise would have stayed home, and bribe them to go to the polls.  Set aside the illegality of the time-travelers’ action: they’re already violating the laws of space, time, and causality, which are well-known to be considerably more reliable than Florida state election law!  Set aside all the other interventions that also would’ve swayed the 2000 election outcome, and the 20/20 nature of hindsight, and the insanity of Florida’s recount process.  Instead, let’s simply ask: how much should each of those 538 lazy Floridian Gore supporters have been paid, in order for the delegation from the future to have gotten its money’s worth?
+
+The answer is a mind-boggling ~$10 billion per voter.  Think about that: just for peeling their backsides off the couch, heading to the local library or school gymnasium, and punching a few chads (all the way through, hopefully), each of those 538 voters would have instantly received the sort of wealth normally associated with Saudi princes or founders of Google or Facebook.  And the country and the world would have benefited from that bargain.
+
+No, this isn’t really a decisive argument for anything (I’ll leave it to the commenters to point out the many possible objections).  All it is, is an image worth keeping in mind the next time someone knowingly explains to you why voting is a waste of time.
+
+================================================================================
+
+TITLE: A causality post, for no particular reason
+URL: https://scottaaronson.blog/?m=201211
+CONTENT:
+The following question emerged from a conversation with the machine learning theorist Pedro Domingos a month ago.
+
+Consider a hypothetical race of intelligent beings, the Armchairians, who never take any actions: never intervene in the world, never do controlled experiments, never try to build anything and see if it works.  The sole goal of the Armchairians is to observe the world around them and, crucially, to make accurate predictions about what’s going to happen next.  Would the Armchairians ever develop the notion of cause and effect?  Or would they be satisfied with the notion of statistical correlation?  Or is the question kind of silly, the answer depending entirely on what we mean by “developing the notion of cause and effect”?  Feel free to opine away in the comments section.
+
+================================================================================
+

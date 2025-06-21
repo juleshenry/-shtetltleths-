@@ -1,0 +1,26 @@
+TITLE: Can we?
+URL: https://scottaaronson.blog/?m=200808
+CONTENT:
+I was in a miserable mood for weeks—regular readers will know that, for whatever reason, I go through these moods from time to time—and, strangely enough, a key to getting out of it seems to have been watching the Democratic convention and reading Obama’s two books.  I’m not saying this ought to have helped, only that it did.  Why?  Well, I can think of three possible reasons:
+
+Firstly, it’s a truism that the cure for misery is to find something greater than yourself to worry about.  (Quantum complexity research used to fill that role for me, and will hopefully do so again in the near future.)  For someone who’s spent so much of his life inside his own head, it’s fascinating to watch people actually going out and doing something that while often corny and cringe-inducing also bears some recognizable relation to the public good.  What a strange, novel idea!  What’s even stranger, they might even succeed this year.  Of course, there’s a paradox at the heart of this philosophy: if you only worry about something greater than yourself because it distracts you from the tragedy of your own existence, then are you really worried about it in the first place?  But this is no more paradoxical than so much else about the human condition.  The hope is that caring about something greater than yourself will become a self-fulfilling prophecy.
+
+Secondly, there’s the fact that a man whose writing demonstrates a finely-developed capacity for introspection, self-criticism, and doubt might become the Leader of the Free World in two months.  Reading Obama’s books, this introspectiveness—which is difficult to fake, and which probably doesn’t help him with most voters anyway—struck me as his most endearing quality.  (Of course, Obama also possesses a finely-developed capacity to suppress his capacity for introspection.  If he didn’t, then he’d still be an obscure instructor at the University of Chicago rather than a rock-star messiah.)  I’ll freely confess to bias in this matter.  I’m sure part of the reason why I’ve never been able to identify with the Republican Right, the Chomskyan Far Left, or the Libertarian Outwards—besides my actual disagreement with those philosophies—has been the serene confidence of those philosophies’ major proponents.  Any worldview that isn’t wracked by self-doubt and confusion over its own identity is not a worldview for me.
+
+Thirdly, seeing President Clinton in his stride always cheers me up a little.
+
+Given the above, I’d like propose the following question: what non-obvious things can nerds who are so inclined do to help the Democrats win in November?  I’m not talking about voting, donating money, licking envelopes, or standing on street corners “Baracking the vote”: the first two are easy and obvious while the second two are unsuitable for nerds.  The sorts of ideas I’m looking for are ones that (1) exploit nerds’ nerdiness, (2) go outside the normal channels of influence, (3) increase nerds’ effective voting power by several orders of magnitude, (4) are legal, (5) target critical swing states, and (6) can be done as a hobby.
+
+Do such ideas exist?  Well, the prototype for such an idea is Nadertrading, which I was involved with in the 2000 election cycle (see here).  Before the main Nadertrading sites were shut down by Republican state attorneys-general (on doubtful legal grounds), we Nadertraders had convinced several hundred Nader supporters in Florida to commit to voting for Gore, in exchange for Gore supporters in safe states voting for Nader on their behalf.  Had Nadertrading been allowed to continue just a couple weeks longer, it might have prevented Bush from taking power and thereby changed the history of the world.  I’m looking for the Nadertrading of 2008, and I haven’t found it yet.
+
+A few possibilities:
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 20: Cosmology and Complexity
+URL: https://scottaaronson.blog/?m=200808
+CONTENT:
+Come watch me attempt to explain the implications of a positive cosmological constant for computational complexity theory.  If this blog is about anything, it’s about me talking about subjects I don’t understand sufficiently well and thereby making a fool of myself.  But it’s also about experts taking the time to correct me.  The latter is the primary saving grace.
+
+================================================================================
+

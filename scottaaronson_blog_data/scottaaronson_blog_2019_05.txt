@@ -1,0 +1,35 @@
+TITLE: The SSL Certificate of Damocles
+URL: https://scottaaronson.blog/?m=201905
+CONTENT:
+Ever since I “upgraded” this website to use SSL, it’s become completely inaccessible once every three months, because the SSL certificate expires.  Several years in, I’ve been unable to find any way to prevent this from happening, and Bluehost technical support was unable to suggest any solution.  The fundamental problem is that, as long as the site remains up, the Bluehost control panel tells me that there’s nothing to do, since there is a current certificate.  Meanwhile, though, I start getting menacing emails saying that my SSL certificate is about to expire and “you must take action to secure the site”—never, of course, specifying what action to take.  The only thing to do seems to be to wait for the whole site to go down, then frantically take random certificate-related actions until somehow the site goes back up.  Those actions vary each time and are not repeatable.
+
+Does anyone know a simple solution to this ridiculous problem?
+
+(The deeper problem, of course, is that a PhD in theoretical computer science left me utterly unqualified for the job of webmaster.  And webmasters, as it turns out, need to do a lot just to prevent anything from changing.  And since childhood, I’ve been accustomed to countless tasks that are trivial for most people being difficult for me—-if that ever stopped being the case, I’d no longer feel like myself.)
+
+================================================================================
+
+TITLE: On the scientific accuracy of “Avengers: Endgame”
+URL: https://scottaaronson.blog/?m=201905
+CONTENT:
+[BY REQUEST: SPOILERS FOLLOW]
+
+Today Ben Lindbergh, a writer for The Ringer, put out an article about the scientific plausibility (!) of the time-travel sequences in the new “Avengers” movie.  The article relied on two interviewees:
+
+(1) David Deutsch, who confirmed that he has no idea what the “Deutsch proposition” mentioned by Tony Stark refers to but declined to comment further, and
+
+(2) some quantum computing dude from UT Austin who had no similar scruples about spouting off on the movie.
+
+To be clear, the UT Austin dude hadn’t even seen the movie, or any of the previous “Avengers” movies for that matter!  He just watched the clips dealing with time travel.  Yet Lindbergh still saw fit to introduce him as “a real-life [Tony] Stark without the vast fortune and fancy suit.”  Hey, I’ll take it.
+
+Anyway, if you’ve seen the movie, and/or you know Deutsch’s causal consistency proposal for quantum closed timelike curves, and you can do better than I did at trying to reconcile the two, feel free to take a stab in the comments.
+
+================================================================================
+
+TITLE: A small post
+URL: https://scottaaronson.blog/?m=201905
+CONTENT:
+
+
+================================================================================
+

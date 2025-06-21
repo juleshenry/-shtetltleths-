@@ -1,0 +1,7 @@
+TITLE: Announcement
+URL: https://scottaaronson.blog/?m=201002
+CONTENT:
+I thought the eight people who still read this blog might be interested to know that the FOCS’2010 Call for Papers is now out.
+
+================================================================================
+

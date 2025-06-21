@@ -1,0 +1,143 @@
+TITLE: Experimental complexity theory
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+I just came back from the MIT CSAIL (Computer Science and Artificial Intelligence Lab) annual meeting, which was held at a beach resort in Cape Cod. No, it isn’t California, but for at least a few months a year “my” coast can put up a respectable showing too:
+
+
+
+Out of all the ideas I heard at the CSAIL meeting, the one that made me proudest to have become a professor was this: computer scientists should make a serious effort to address world hunger, deforestation, climate change, and other global crises, because of the significant opportunities to tap funding resources that are becoming available in these areas. I’m telling you, if a giant asteroid were going to hit the earth in a week, the first question academics would ask would be how to beat out competing proposals for the $50-million “Deflection of Space-Based Objects” initiative at NSF.
+
+The meeting ended with a “Wild & Crazy Ideas Session,” at which I (naturally) spoke. I briefly considered talking about quantum gravity computing, closed timelike curves, or quantum anthropic postselection, but ultimately decided on something a little less mainstream. My topic was “Experimental Computational Complexity Theory,” or “why do theoretical physicists get $8-billion machines for the sole purpose of confirming or refuting their speculative ideas, whereas theoretical computer scientists get diddlysquat?” More concretely, my proposal is to devote some of the world’s computing power to an all-out attempt to answer questions like the following: does computing the permanent of a 4-by-4 matrix require more arithmetic operations than computing its determinant? You can read my slides here.
+
+
+
+================================================================================
+
+TITLE: America’s nerdiest cities
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+From Money Magazine, a list of American cities with the highest percentage of residents with graduate degrees.  Cambridge, MA (26.3%) narrowly edges out Palo Alto, CA (25.4%) and Berkeley, CA (24.5%) — but beating them both by a long shot is Arlington, VA, the winner at 35.7%.  It takes a much more educated crowd to unify Iraq and 9/11 than to unify relativity and quantum mechanics.
+
+================================================================================
+
+TITLE: You down with SPP?
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+I’ve been in San Diego all week for the FCRC (Federated Computing Research Conference), which just wrapped up yesterday.  I was here for Complexity’2007, but, lawless rebel that I am, I also crashed some of the talks at STOC’2007.  Highlights:
+
+You down with SPP (Yeah you know me)
+You down with SPP (Yeah you know me)
+You down with SPP (Yeah you know me)
+Who’s down with SPP (Every last attendee)
+
+(Note: BPP and ZPP also would’ve fit the meter, but those are really more appropriate for STOC than Complexity.)
+
+Update (6/20): We may have a winner, Aaron Sterling’s I Just Do Theory.  (Thanks to Bill Gasarch for the pointer.)
+
+================================================================================
+
+TITLE: aaronson@mit
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+They rejected me for undergrad. They rejected me for grad school. And for reasons best known to them, in July they’re going to let me loose on their campus as an Assistant Professor of Electrical Engineering and Computer Science.
+
+This decision was one of the hardest I’ve ever made. I was lucky to have a half-dozen fantastic offers (apparently, larding your job talk with jokes actually works). I asked myself: can I really see myself as an “MIT person”? Can I deal with the pressure, the competitiveness, the non-rectangular Stata Center offices, the winters said to be even worse than Waterloo’s? Wouldn’t I prefer (for example) to return to my alma mater, and bask in the familiar sunshine of the People’s Republic of Berkeley — a place whose politics make Cambridge, Massachusetts look like Oklahoma City?
+
+In the end, though, MIT simply refused to cooperate in giving me a good reason to turn it down. Among the considerations that tilted me toward Cambridge, the most important by far was the high caliber of ice cream available there. Other factors included the chance to get in some quality arguing time with Ed Farhi; students who solve your open problems before you’ve even finished stating them; the urge to spread the Gospel of Vazirani I imbibed at Berkeley in relatively virgin territory; and MIT’s role as a publicly-visible platform from which to pursue my central ambition in life, fighting doofosity wherever and whenever I find it. And, of course, a strong desire to be closer to Luboš Motl.
+
+But just as I was getting ready to sign the contract, a sticking point emerged that threatened to derail the entire decision. My brother, David, had already taken the address aaronson@mit.edu. Luckily for me, though, David graduated just last week with a bachelor’s in math, and Srini Devadas, MIT’s Associate Head for Computer Science, has assured me in writing that I can have David’s address as soon as it lapses. As a new faculty member, I was even formally able to present David’s degree to him:
+
+
+
+Let me end this post with a plea to any superstar undergrads who (when you’re not procrastinating by reading this blog) are considering applying to grad school in theoretical computer science. Sure, your decision might seem like an obvious one, but please give the “unBerkeley” a chance. If you do decide come to Cambridge, MA, there will now be someone around who you can work with — I mean, y’know, besides Demaine, Goemans, Goldwasser, Indyk, Karger, Kelner, Kleitman, Leighton, Lynch, Micali, Mitzenmacher, Rivest, Rubinfeld, Shor, Sipser, Sudan, Vadhan, Valiant, …
+
+================================================================================
+
+TITLE: In support of an academic boycott
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+Today’s topic is one I was hoping I could avoid, since I know that my stance will alienate many of my own supporters.  But after I read the comments on this post by Bill Gasarch, and reflected on all the men, women, and children who were dispossessed of their land while the world did nothing, I realized I could no longer remain silent.
+
+Most of you will know what I’m talking about, but for those who don’t: I urge the readers of this blog to join me in severing all academic ties with the settler state of New Zealand, until that state makes complete restitution for its historic crimes against the Maori people.  That means no more giving seminars at the University of Auckland.  No more reading papers with “ac.nz” in the author’s email address.  Indeed, no more involvement with any physics or climate research in Antarctica, the flights to which leave from Christchurch.
+
+Some will say my proposed boycott smacks of anti-Kiwi prejudice. But in reality, some of my best friends are Kiwis.  Furthermore, I hope and expect that those Kiwis who care about justice will embrace my proposal, for the chance it affords their rogue state to confront the lies and denial upon which it was founded.
+
+Others will ask: if we’re going to boycott Kiwi scientists over the dispossession of the Maori, then why not boycott Australian scientists over the aboriginals, Chinese scientists over the Tibetans, or American scientists over the Native Americans, Iraqis, Vietnamese, or Guatemalans?  I trust, however, that sensible people will recognize this question for the Kiwi diversionary tactic that it is. For what could Australia, China, or the US possibly have to do with New Zealand?  Until the Kiwis acknowledge that the issue is them and only them, there is no hope for progress.
+
+Even in a world rife with violence and despair, I can think of no single issue with a greater claim upon our conscience.  And that is why I ask again: who will join me in severing all academic ties with New Zealand?
+
+================================================================================
+
+TITLE: Bluehost sucks
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+I apologize for my website being down all morning.  Back in the heyday of Bell Labs, they used to engineer telecommunications systems for “five-nines availability” (that is, 99.999% uptime).  In our vastly more sophisticated Internet age, I’d gladly settle for two and a half nines.
+
+So, can anyone recommend a webhosting service that doesn’t suck?  If such a service exists, I’ll dump Bluehost and encourage others to do the same.
+
+================================================================================
+
+TITLE: The groupies of science
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+A friend sent me this Stanford Daily article about the strange tale of Elizabeth Okazaki, who
+
+[f]or the last four years … has attended graduate physics seminars, used the offices reserved for doctoral and post-doctoral physics students and for all intents and purposes made the Varian Physics Lab her home.  The only problem is that Okazaki appears to have no affiliation with Stanford and, according to physics professors and students, no real reason to be there.
+
+The article quotes two people I know: Lenny Susskind (“as far as I can tell, she has a very limited knowledge of physics itself”) and Alessandro Tomasiello (“I feel really bad for her … I don’t want to have a conversation with her that will actually hurt her”).  From both the article and the many impassioned comments, it’s clear that opinions in the physics department were mixed.  Of course, by now Stanford has predictably reacted by banning Okazaki from campus.
+
+Here’s the thing: while Okazaki is admittedly an extreme case, she reminds me of people I’ve known throughout my academic career.   These are the groupies of science: those non-scientists who, for one reason or another, choose to build their whole social lives around science and scientists.  When asked about their “research,” such people usually mention some vague interdisciplinary project that never seems to come to fruition.
+
+After long deliberation, I’ve reached the following conclusion: generally speaking, SCIENCE NEEDS MORE GROUPIES, NOT LESS.
+
+And no, not just for the obvious reason. At their best, groupies perform a vital role in the socially-impoverished scientific ecosystem, by serving as the conveyors of gossip, the organizers of parties, the dispensers of advice, and the matchmakers of lonely nerds with eligible humanists.
+
+Furthermore, science needs a freewheeling culture to function, a point that seems lost on many of the Stanford Daily commenters.  There we find enraged alumni wondering how anyone could possibly get away with this, and declaring that they certainly won’t be sending their kids to any school that tolerates such inanity.  We find bigots comparing Okazaki to the Virginia Tech shooter Cho Seung-Hui (the common thread being, apparently, that both of them are Asian). And we find people asking rhetorically whether any corporation or government agency would tolerate a freeloader hanging around its offices for years.   (My answer: probably not, and that’s one reason why I’m happy not to work at such places!)
+
+On the other hand, we also find commenters denouncing the spoiled bourgeoisie capitalists at Stanford, who would deny a poor homeless woman the right to sleep in their physics building. Unless the critics are Mother Teresas themselves, that doesn’t seem fair to me either.
+
+I have no desire to pass judgment on someone I’ve never met; any decision on Okazaki ought to rest with the people who actually work in Varian and know the specifics of her case.  But I’d like to offer a general suggestion to any department that finds itself in a similar situation in the future: unless the groupie is insane or incompetent, find her some low-paying job as a lab assistant or “social programming director” or something like that.  When we discover a stowaway on the great Ship of Science, why throw her overboard when we could make her swab the decks?
+
+Update (6/6): Peter Woit now has his own post on this affair, with several entertaining comments.  I’m skeptical of the idea that Okazaki had no real interest in science or scientists and only wanted free digs.  Even in the insane housing market of Palo Alto, surely there must be ways to get a roof over your head that don’t require sitting in on theoretical physics seminars?
+
+I also found the following comment priceless:
+
+I think Scott Aaronson’s opinion is quite shallow … Scott wants groupies, and he wants to hire them to “swab the decks”. Only someone who thinks he is so special he should have serfs to serve him would think that way. College Professors already have a bunch of poorly paid workers(graduate students) who write papers for them. Do these aristocrats need an additional class of poorly paid servants
+
+It always amuses me when those looking for an “elite” to rail against pick people who strive for a decade against staggering odds to have ideas that no one in the history of the world ever had before, in order that they might possibly qualify for a stressful, ~90-hour-a-week job offering the same money, power, and prestige that would accrue automatically to a mid-level insurance salesman.
+
+================================================================================
+
+TITLE: Wanna bet?
+URL: https://scottaaronson.blog/?m=200706
+CONTENT:
+A commenter on my previous post writes:
+
+What all these scientists who are crying about the teaching of evolution should do is propose bets to creationists based on the outcomes of experiments … You think that these D-wave guys won’t be able to do something they’re claiming to be able to do? It might be a good exercise to make that statement precise … If someone has a conjecture of the form “There should exist a theory that explains X”, people roll their eyes, essentially because there’s no way of deciding the implicit bet.
+
+Alright, imagine the following conversation:
+
+Layperson: I just heard on the radio about this new Yood d’Shnood Theory of the Universe.  What do you think the odds are that it’ll turn out to be true?
+
+Scientist: Well, so far I haven’t seen any good evidence that…
+
+Layperson: Sure, but what’s your prediction?
+
+Scientist: As I said, the evidence seems to be explained a lot more easily by…
+
+Layperson: But what if you had to bet?
+
+Scientist: Well, there are two ways to think about this.  What the Yood d’Shnood proponents argue is that…
+
+Layperson: No, don’t give me a dissertation, just give me a number!
+
+Here’s the thing: when my PhD diploma arrived in the mail, it didn’t imbue me with some sort of supernatural power to predict the outcomes of future quantum computing experiments, unmediated by the evidence and arguments of the temporal world.  (This despite the fact that my diploma was signed by a time-travelling cyborg, in his official capacity as Governor of California and Regent of the UC system.)
+
+Of course, the reason scientists worry about evidence is that ultimately, we want our theories to cohere with reality and our predictions to come out right.  The experience of the last four centuries suggests this hope is far from futile.  The trouble is that, once you’ve decided to adopt the evidence-centric strategy that’s worked so well in the past, you have to forget temporarily about betting odds.  For the mindset of the scientist toying with rival explanations, and that of the Bayesian handicapping horses in a race, are (at least in my experience) simply too incompatible to inhabit the same brain at the same time.
+
+If you’ll forgive the metaphor, asking for gambling odds on every scientific question is like asking a woman to sleep with you on the first date.  Of course it’s in the back of your mind (and possibly not only yours), but it tends to be counterproductive even to bring it up.  If you’re ever going to reach the summit, then you have to act like all that really matters to you is the climb, and the only reliable way to act like it is to remake yourself into the sort of person for whom it’s true.  Such is the paradox of science and of life.
+
+So, did D-Wave succeed in using the quantum adiabatic algorithm to solve Sudoku puzzles in fewer steps than those same puzzles would be solved with classical simulated annealing?  I don’t know.  To repeat, I don’t know.  What I know is that I haven’t seen the evidence, and that the burden of providing such evidence rests with the people making the claim.
+
+================================================================================
+

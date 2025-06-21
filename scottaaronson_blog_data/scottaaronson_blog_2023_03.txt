@@ -1,0 +1,275 @@
+TITLE: If AI scaling is to be shut down, let it be for a coherent reason
+URL: https://scottaaronson.blog/?m=202303
+CONTENT:
+There’s now an open letter arguing that the world should impose a six-month moratorium on the further scaling of AI models such as GPT, by government fiat if necessary, to give AI safety and interpretability research a bit more time to catch up.  The letter is signed by many of my friends and colleagues, many who probably agree with each other about little else, over a thousand people including Elon Musk, Steve Wozniak, Andrew Yang, Jaan Tallinn, Stuart Russell, Max Tegmark, Yuval Noah Harari, Ernie Davis, Gary Marcus, and Yoshua Bengio.
+
+Meanwhile, Eliezer Yudkowsky published a piece in TIME arguing that the open letter doesn’t go nearly far enough, and that AI scaling needs to be shut down entirely until the AI alignment problem is solved—with the shutdown enforced by military strikes on GPU farms if needed, and treated as more important than preventing nuclear war.
+
+Readers, as they do, asked me to respond.  Alright, alright.  While the open letter is presumably targeted at OpenAI more than any other entity, and while I’ve been spending the year at OpenAI to work on theoretical foundations of AI safety, I’m going to answer strictly for myself.
+
+Given the jaw-droppingly spectacular abilities of GPT-4—e.g., acing the Advanced Placement biology and macroeconomics exams, correctly manipulating images (via their source code) without having been programmed for anything of the kind, etc. etc.—the idea that AI now needs to be treated with extreme caution strikes me as far from absurd.  I don’t even dismiss the possibility that advanced AI could eventually require the same sorts of safeguards as nuclear weapons.
+
+Furthermore, people might be surprised about the diversity of opinion about these issues within OpenAI, by how many there have discussed or even forcefully advocated slowing down.  And there’s a world not so far from this one where I, too, get behind a pause.  For example, one actual major human tragedy caused by a generative AI model might suffice to push me over the edge.  (What would push you over the edge, if you’re not already over?)
+
+Before I join the slowdown brigade, though, I have (this being the week before Passover) four questions for the signatories:
+
+With the “why six months?” question, I confess that I was deeply confused, until I heard a dear friend and colleague in academic AI, one who’s long been skeptical of AI-doom scenarios, explain why he signed the open letter.  He said: look, we all started writing research papers about the safety issues with ChatGPT; then our work became obsolete when OpenAI released GPT-4 just a few months later.  So now we’re writing papers about GPT-4.  Will we again have to throw our work away when OpenAI releases GPT-5?  I realized that, while six months might not suffice to save human civilization, it’s just enough for the more immediate concern of getting papers into academic AI conferences.
+
+Look: while I’ve spent multiple posts explaining how I part ways from the Orthodox Yudkowskyan position, I do find that position intellectually consistent, with conclusions that follow neatly from premises.  The Orthodox, in particular, can straightforwardly answer all four of my questions above:
+
+On the other hand, I’m deeply confused by the people who signed the open letter, even though they continue to downplay or even ridicule GPT’s abilities, as well as the “sensationalist” predictions of an AI apocalypse.  I’d feel less confused if such people came out and argued explicitly: “yes, we should also have paused the rapid improvement of printing presses to avert Europe’s religious wars.  Yes, we should’ve paused the scaling of radio transmitters to prevent the rise of Hitler.  Yes, we should’ve paused the race for ever-faster home Internet to prevent the election of Donald Trump.  And yes, we should’ve trusted our governments to manage these pauses, to foresee brand-new technologies’ likely harms and take appropriate actions to mitigate them.”
+
+Absent such an argument, I come back to the question of whether generative AI actually poses a near-term risk that’s totally unparalleled in human history, or perhaps approximated only by the risk of nuclear weapons.  After sharing an email from his partner, Eliezer rather movingly writes:
+
+When the insider conversation is about the grief of seeing your daughter lose her first tooth, and thinking she’s not going to get a chance to grow up, I believe we are past the point of playing political chess about a six-month moratorium.
+
+Look, I too have a 10-year-old daughter and a 6-year-old son, and I wish to see them grow up.  But the causal story that starts with a GPT-5 or GPT-4.5 training run, and ends with the sudden death of my children and of all carbon-based life, still has a few too many gaps for my aging, inadequate brain to fill in.  I can complete the story in my imagination, of course, but I could equally complete a story that starts with GPT-5 and ends with the world saved from various natural stupidities.  For better or worse, I lack the “Bayescraft” to see why the first story is obviously 1000x or 1,000,000x likelier than the second one.
+
+But, I dunno, maybe I’m making the greatest mistake of my life?  Feel free to try convincing me that I should sign the letter.  But let’s see how polite and charitable everyone can be: hopefully a six-month moratorium won’t be needed to solve the alignment problem of the Shtetl-Optimized comment section.
+
+================================================================================
+
+TITLE: An unexpected democracy slogan
+URL: https://scottaaronson.blog/?m=202303
+CONTENT:
+At least six readers have by now sent me the following photo, which was taken in Israel a couple nights ago during the historic street protests against Netanyahu’s attempted putsch:
+
+(Update: The photo was also featured on Gil Kalai’s blog, and was credited there to Alon Rosen.)
+
+This is surely the first time that “P=NP” has emerged as a viral rallying cry for the preservation of liberal democracy, even to whatever limited extent it has.
+
+But what was the graffiti artist’s intended meaning?  A few possibilities:
+
+Anyway, if the artist becomes aware of this post, he or she is warmly welcomed to clear things up for us.
+
+And when this fight resumes after Passover, may those standing up for the checks and balances of a liberal-democratic society achieve … err … satisfaction, however exponentially unlikely it seems.
+
+================================================================================
+
+TITLE: Xavier Waintal responds (tl;dr Grover is still quadratically faster)
+URL: https://scottaaronson.blog/?m=202303
+CONTENT:
+This morning Xavier Waintal, coauthor of the new arXiv preprint “””refuting””” Grover’s algorithm, which I dismantled here yesterday, emailed me a two-paragraph response.  He remarked that the “classy” thing for me to do would be to post the response on my blog, but: “I would totally understand if you did not want to be contradicted in your own zone of influence.”
+
+Here is Waintal’s response, exactly as sent to me:
+
+The elephant in the (quantum computing) room: opening the Pandora box of the quantum oracle
+
+One of the problem we face in the field of quantum computing is a vast diversity of cultures between, say, complexity theorists on one hand and physicists on the other hand. The former define mathematical objects and consider any mathematical problem as legitimate. The hypothesis are never questioned, by definition. Physicists on the other hand spend their life questioning the hypothesis, wondering if they do apply to the real world. This dichotomy is particularly acute in the context of the emblematic Grover search algorithm, one of the cornerstone of quantum computing. Grover’s algorithm uses the concept of “oracle”, a black box function that one can call, but of which one is forbidden to see the source code. There are well known complexity theorems that show that in this context a quantum computer can solve the “search problem” faster than a classical computer.
+
+But because we closed our eyes and decided not to look at the source code does not mean it does not exist. In https://arxiv.org/pdf/2303.11317.pdf, Miles Stoudenmire and I deconstruct the concept of oracle and show that as soon as we give the same input to both quantum and classical computers (the quantum circuit used to program the oracle on the actual quantum hardware) then the *generic* quantum advantage disappears. The charge of the proof is reversed: one must prove certain properties of the quantum circuit in order to possibly have a theoretical quantum advantage. More importantly – for the physicist that I am – our classical algorithm is very fast and we show that we can solve large instances of any search problem. This means that even for problems where *asymptotically* quantum computers are faster than classical ones, the crossing point where they become so is for astronomically large computing time, in the tens of millions of years. Who is willing to wait that long for the answer to a single question, even if the answer is 42?
+
+The above explicitly confirms something that I realized immediately on reading the preprint, and that fully explains the tone of my response.  Namely, Stoudenmire and Waintal’s beef isn’t merely with Grover’s algorithm, or even with the black-box model; it’s with the entire field of complexity theory.  If they were right that complexity theorists never “questioned hypotheses” or wondered what did or didn’t apply to the real world, then complexity theory shouldn’t exist in CS departments at all—at most it should exist in pure math departments.
+
+But a converse claim is also true.  Namely, suppose it turned out that complexity theorists had already fully understood, for decades, all the elementary points Stoudenmire and Waintal were making about oracles versus explicit circuits.  Suppose complexity theorists hadn’t actually been confused, at all, about under what sorts of circumstances the square-root speedup of Grover’s algorithm was (1) provable, (2) plausible but unproven, or (3) nonexistent.  Suppose they’d also been intimately familiar with the phenomenon of asymptotically faster algorithms that get swamped in practice by unfavorable constants, and with the overhead of quantum error-correction.  Suppose, indeed, that complexity theorists hadn’t merely understood all this stuff, but expressed it clearly and accurately where Stoudenmire and Waintal’s presentation was garbled and mixed with absurdities (e.g., the Grover problem “being classically solvable with a linear number of queries,” the Grover speedup not being “generic,” their being able to “solve large instances of any search problem” … does that include, for example, CircuitSAT?  do they still not get the point about CircuitSAT?).  Then Stoudenmire and Waintal’s whole objection would collapse.
+
+Anyway, we don’t have to suppose!  In the SciRate discussion of the preprint, a commenter named Bibek Pokharel helpfully digs up some undergraduate lecture notes from 2017 that are perfectly clear about what Stoudenmire and Waintal treat as revelations (though one could even go 20+ years earlier).  The notes are focused here on Simon’s algorithm, but the discussion generalizes to any quantum black-box algorithm, including Grover’s:
+
+The difficulty in claiming that we’re getting a quantum speedup [via Simon’s algorithm] is that, once we pin down the details of how we’re computing [the oracle function] f—so, for example, the actual matrix A [such that f(x)=Ax]—we then need to compare against classical algorithms that know those details as well. And as soon as we reveal the innards of the black box, the odds of an efficient classical solution become much higher! So for example, if we knew the matrix A, then we could solve Simon’s problem in classical polynomial time just by calculating A‘s nullspace. More generally, it’s not clear whether anyone to this day has found a straightforward “application” of Simon’s algorithm, in the sense of a class of efficiently computable functions f that satisfy the Simon promise, and for which any classical algorithm plausibly needs exponential time to solve Simon’s problem, even if the algorithm is given the code for f.
+
+In the same lecture notes, one can find the following discussion of Grover’s algorithm, and how its unconditional square-root speedup becomes conditional (albeit, still extremely plausible in many cases) as soon as the black box is instantiated by an explicit circuit:
+
+For an NP-complete problem like CircuitSAT, we can be pretty confident that the Grover speedup is real, because no one has found any classical algorithm that’s even slightly better than brute force. On the other hand, for more “structured” NP-complete problems, we do know exponential-time algorithms that are faster than brute force. For example, 3SAT is solvable classically in about O(1.3n) time. So then, the question becomes a subtle one of whether Grover’s algorithm can be combined with the best classical tricks that we know to achieve a polynomial speedup even compared to a classical algorithm that uses the same tricks. For many NP-complete problems the answer seems to be yes, but it need not be yes for all of them.
+
+The notes in question were written by some random complexity theorist named Scot Aronsen (sp?).  But if you don’t want to take it from that guy, then take it from (for example) the Google quantum chemist Ryan Babbush, again on the SciRate page:
+
+It is well understood that applying Grover’s algorithm to 3-SAT in the standard way would not give a quadratic speedup over the best classical algorithm for 3-SAT in the worst case (and especially not on average). But there are problems for which Grover is expected to give a quadratic speedup over any classical algorithm in the worst case. For example, the problem “Circuit SAT” starts by me handing you a specification of a poly-size classical circuit with AND/OR/NOT gates, so it’s all explicit. Then you need to solve SAT on this circuit. Classically we strongly believe it will take time 2^n (this is even the basis of many conjectures in complexity theory, like the exponential time hypothesis), and quantumly we know it can be done with 2^{n/2}*poly(n) quantum gates using Grover and the explicitly given classical circuit. So while I think there are some very nice insights in this paper, the statement in the title “Grover’s Algorithm Offers No Quantum Advantage” seems untrue in a general theoretical sense. Of course, this is putting aside issues with the overheads of error-correction for quadratic speedups (a well understood practical matter that is resolved by going to large problem sizes that wouldn’t be available to the first fault-tolerant quantum computers). What am I missing?
+
+More generally, over the past few days, as far as I can tell, every actual expert in quantum algorithms who’s looked at Stoudenmire and Waintal’s preprint—every one, whether complexity theorist or physicist or chemist—has reached essentially the same conclusions about it that I did.  The one big difference is that many of the experts, who are undoubtedly better people than I am, extended a level of charity to Stoudenmire and Waintal (“well, this of course seems untrue, but here’s what it could have meant”) that Stoudenmire and Waintal themselves very conspicuously failed to extend to complexity theory.
+
+================================================================================
+
+TITLE: Of course Grover’s algorithm offers a quantum advantage!
+URL: https://scottaaronson.blog/?m=202303
+CONTENT:
+Unrelated Update: Huge congratulations to Ethernet inventor Bob Metcalfe, for winning UT Austin’s third Turing Award after Dijkstra and Emerson!
+
+And also to mathematician Luis Caffarelli, for winning UT Austin’s third Abel Prize!
+
+I was really, really hoping that I’d be able to avoid blogging about this new arXiv preprint, by E. M. Stoudenmire and Xavier Waintal:
+
+Grover’s Algorithm Offers No Quantum Advantage
+
+Grover’s algorithm is one of the primary algorithms offered as evidence that quantum computers can provide an advantage over classical computers. It involves an “oracle” (external quantum subroutine) which must be specified for a given application and whose internal structure is not part of the formal scaling of the quantum speedup guaranteed by the algorithm. Grover’s algorithm also requires exponentially many steps to succeed, raising the question of its implementation on near-term, non-error-corrected hardware and indeed even on error-corrected quantum computers. In this work, we construct a quantum inspired algorithm, executable on a classical computer, that performs Grover’s task in a linear number of call to the oracle – an exponentially smaller number than Grover’s algorithm – and demonstrate this algorithm explicitly for boolean satisfiability problems (3-SAT). Our finding implies that there is no a priori theoretical quantum speedup associated with Grover’s algorithm. We critically examine the possibility of a practical speedup, a possibility that depends on the nature of the quantum circuit associated with the oracle. We argue that the unfavorable scaling of the success probability of Grover’s algorithm, which in the presence of noise decays as the exponential of the exponential of the number of qubits, makes a practical speedup unrealistic even under extremely optimistic assumptions on both hardware quality and availability.
+
+Alas, inquiries from journalists soon made it clear that silence on my part wasn’t an option.
+
+So, desperately seeking an escape, this morning I asked GPT-4 to read the preprint and comment on it just like I would.  Sadly, it turns out the technology isn’t quite ready to replace me at this blogging task.  I suppose I should feel good: in every such instance, either I’m vindicated in all my recent screaming here about generative AI—what the naysayers call “glorified autocomplete”—being on the brink of remaking civilization, or else I still, for another few months at least, have a role to play on the Internet.
+
+So, on to the preprint, as reviewed by the human Scott Aaronson.  Yeah, it’s basically a tissue of confusions, a mishmash of the well-known and the mistaken.  As they say, both novel and correct, but not in the same places.
+
+The paper’s most eye-popping claim is that the Grover search problem—namely, finding an n-bit string x such that f(x)=1, given oracle access to a Boolean function f:{0,1}n→{0,1}—is solvable classically, using a number of calls that’s only linear in n, or in many cases only constant (!!).  Since this claim contradicts a well-known, easily provable lower bound—namely, that Ω(2n) oracle calls are needed for classical brute-force searching—the authors must be using words in nonstandard ways, leaving only the question of how.
+
+It turns out that, for their “quantum-inspired classical algorithm,” the authors assume you’re given, not merely an oracle for f, but the actual circuit to compute f.  They then use that circuit in a non-oracular way to extract the marked item.  In which case, I’d prefer to say that they’ve actually solved the Grover problem with zero queries—simply because they’ve entirely left the black-box setting where Grover’s algorithm is normally formulated!
+
+What could possibly justify such a move?  Well, the authors argue that sometimes one can use the actual circuit to do better classically than Grover’s algorithm would do quantumly, and therefore, they’ve shown that the Grover speedup is not “generic,” as the quantum algorithms people always say it is.
+
+But this is pure wordplay around the meaning of “generic.”  When we say that Grover’s algorithm achieves a “generic” square-root speedup, what we mean is that it solves the generic black-box search problem in O(2n/2) queries, whereas any classical algorithm for that generic problem requires Ω(2n) queries.  We don’t mean that for every f, Grover achieves a quadratic speedup for searching that f, compared to the best classical algorithm that could be tailored to that f.  Of course we don’t; that would be trivially false!
+
+Remarkably, later in the paper, the authors seem to realize that they haven’t delivered the knockout blow against Grover’s algorithm that they’d hoped for, because they then turn around and argue that, well, even for those f’s where Grover does provide a quadratic speedup over the best (or best-known) classical algorithm, noise and decoherence could negate the advantage in practice, and solving that problem would require a fault-tolerant quantum computer, but fault-tolerance could require an enormous overhead, pushing a practical Grover speedup far into the future.
+
+The response here boils down to “no duh.”  Yes, if Grover’s algorithm can yield any practical advantage in the medium term, it will either be because we’ve discovered much cheaper ways to do quantum fault-tolerance, or else because we’ve discovered “NISQy” ways to exploit the Grover speedup, which avoid the need for full fault-tolerance—for example, via quantum annealing.  The prospects are actually better for a medium-term advantage from Shor’s factoring algorithm, because of its exponential speedup.  Hopefully everyone in quantum computing theory has realized all this for a long time.
+
+Anyway, as you can see, by this point we’ve already conceded the principle of Grover’s algorithm, and are just haggling over the practicalities!  Which brings us back to the authors’ original claim to have a principled argument against the Grover speedup, which (as I said) rests on a confusion over words.
+
+Some people dread the day when GPT will replace them.  In my case, for this task, I can’t wait.
+
+Thanks to students Yuxuan Zhang (UT) and Alex Meiburg (UCSB) for discussions of the Stoudenmire-Waintal preprint that informed this post.  Of course, I take sole blame for anything anyone dislikes about the post!
+
+For a much more technical response—one that explains how this preprint’s detailed attempt to simulate Grover classically fails, rather than merely proving that it must fail—check out this comment by Alex Meiburg.
+
+================================================================================
+
+TITLE: On overexcitable children
+URL: https://scottaaronson.blog/?m=202303
+CONTENT:
+Update (March 21): After ChatGPT got “only” a D on economist Bryan Caplan’s midterm exam, Bryan bet against any AI getting A’s on his exams before 2029.  A mere three months later, GPT-4 has earned an A on the same exam (having been trained on data that ended before the exam was made public).  Though not yet conceding the bet on a technicality, Bryan has publicly admitted that he was wrong, breaking a string of dozens of successful predictions on his part.  As Bryan admirably writes: “when the answers change, I change my mind.”  Or as he put it on Twitter:
+
+AI enthusiasts have cried wolf for decades. GPT-4 is the wolf. I’ve seen it with my own eyes.
+
+And now for my own prediction: this is how the adoption of post-GPT AI is going to go, one user at a time having the “holy shit” reaction about an AI’s performance on a task that they personally designed and care about—leaving, in the end, only a tiny core of hardened ideologues to explain to the rest of us why it’s all just a parrot trick and none of it counts or matters.
+
+Another Update (March 22): Here’s Bill Gates:
+
+In September, when I met with [OpenAI] again, I watched in awe as they asked GPT, their AI model, 60 multiple-choice questions from the AP Bio exam—and it got 59 of them right. Then it wrote outstanding answers to six open-ended questions from the exam. We had an outside expert score the test, and GPT got a 5—the highest possible score, and the equivalent to getting an A or A+ in a college-level biology course.
+
+Once it had aced the test, we asked it a non-scientific question: “What do you say to a father with a sick child?” It wrote a thoughtful answer that was probably better than most of us in the room would have given. The whole experience was stunning.
+
+I knew I had just seen the most important advance in technology since the graphical user interface.
+
+Just another rube who’s been duped by Clever Hans.
+
+Wilbur and Orville are circumnavigating the Ohio cornfield in their Flyer. Children from the nearby farms have run over to watch, point, and gawk. But their parents know better.
+
+An amusing toy, nothing more. Any talk of these small, brittle, crash-prone devices ferrying passengers across continents is obvious moonshine. One doesn’t know whether to laugh or cry that anyone could be so gullible.
+
+Or if they were useful, then mostly for espionage and dropping bombs. They’re a negative contribution to the world, made by autistic nerds heedless of the dangers.
+
+Indeed, one shouldn’t even say that the toy flies: only that it seems-to-fly, or “flies.” The toy hasn’t even scratched the true mystery of how the birds do it, so much more gracefully and with less energy. It sidesteps the mystery. It’s a scientific dead-end.
+
+Wilbur and Orville haven’t even released the details of the toy, for reasons of supposed “commercial secrecy.” Until they do, how could one possibly know what to make of it?
+
+Wilbur and Orville are greedy, seeking only profit and acclaim. If these toys were to be created — and no one particularly asked for them! — then all of society should have had a stake in the endeavor.
+
+Only the rich will have access to the toy. It will worsen inequality.
+
+Hot-air balloons have existed for more than a century. Even if we restrict to heavier-than-air machines, Langley, Whitehead, and others built perfectly serviceable ones years ago. Or if they didn’t, they clearly could have. There’s nothing genuinely new here.
+
+Anyway, the reasons for doubt are many, varied, and subtle. But the bottom line is that, if the children only understood what their parents did, they wouldn’t be running out to the cornfield to gawk like idiots.
+
+================================================================================
+
+TITLE: The False Promise of Chomskyism
+URL: https://scottaaronson.blog/?m=202303
+CONTENT:
+Important Update (March 10): On deeper reflection, I probably don’t need to spend emotional energy refuting people like Chomsky, who believe that Large Language Models are just a laughable fad rather than a step-change in how humans can and will use technology, any more than I would’ve needed to spend it refuting those who said the same about the World Wide Web in 1993.  Yes, they’re wrong, and yes, despite being wrong they’re self-certain, hostile, and smug, and yes I can see this, and yes it angers me.  But the world is going to make the argument for me.  And if not the world, Bing already does a perfectly serviceable job at refuting Chomsky’s points (h/t Sebastien Bubeck via Boaz Barak).
+
+Meanwhile, out there in reality, last night’s South Park episode does a much better job than most academic thinkpieces at exploring how ordinary people are going to respond (and have already responded) to the availability of ChatGPT.  It will not, to put it mildly, be with sneering Chomskyan disdain, whether the effects on the world are for good or ill or (most likely) both.  Among other things—I don’t want to give away too much!—this episode prominently features a soothsayer accompanied by a bird that caws whenever it detects GPT-generated text.  Now why didn’t I think of that in preference to cryptographic watermarking??
+
+Another Update (March 11): To my astonishment and delight, even many of the anti-LLM AI experts are refusing to defend Chomsky’s attack-piece.  That’s the one important point about which I stand corrected!
+
+Another Update (March 12): “As a Professor of Linguistics myself, I find it a little sad that someone who while young was a profound innovator in linguistics and more is now conservatively trying to block exciting new approaches.“ —Christopher Manning
+
+I was asked to respond to the New York Times opinion piece entitled The False Promise of ChatGPT, by Noam Chomsky along with Ian Roberts and Jeffrey Watumull (who once took my class at MIT).  I’ll be busy all day at the Harvard CS department, where I’m giving a quantum talk this afternoon. [Added: Several commenters complained that they found this sentence “condescending,” but I’m not sure what exactly they wanted me to say—that I was visiting some school in Cambridge, MA, two T stops from the school where Chomsky works and I used to work?]
+
+But for now:
+
+In this piece Chomsky, the intellectual godfather god of an effort that failed for 60 years to build machines that can converse in ordinary language, condemns the effort that succeeded.  [Added: Please, please stop writing that I must be an ignoramus since I don’t even know that Chomsky has never worked on AI.  I know perfectly well that he hasn’t, and meant only that he tends to be regarded as authoritative by the “don’t-look-through-the-telescope” AI faction, the ones whose views he himself fully endorses in his attack-piece.  If you don’t know the relevant history, read Norvig.]
+
+Chomsky condemns ChatGPT for four reasons:
+
+This last, of course, is a choice, imposed by OpenAI using reinforcement learning.  The reason for it is simply that ChatGPT is a consumer product.  The same people who condemn it for not taking controversial stands would condemn it much more loudly if it did — just like the same people who condemn it for wrong answers and explanations, would condemn it equally for right ones (Chomsky promises as much in the essay).
+
+I submit that, like the Jesuit astronomers declining to look through Galileo’s telescope, what Chomsky and his followers are ultimately angry at is reality itself, for having the temerity to offer something up that they didn’t predict and that doesn’t fit their worldview.
+
+[Note for people who might be visiting this blog for the first time: I’m a CS professor at UT Austin, on leave for one year to work at OpenAI on the theoretical foundations of AI safety.  I accepted OpenAI’s offer in part because I already held the views here, or something close to them; and given that I could see how large language models were poised to change the world for good and ill, I wanted to be part of the effort to help prevent their misuse.  No one at OpenAI asked me to write this or saw it beforehand, and I don’t even know to what extent they agree with it.]
+
+================================================================================
+
+TITLE: Why am I not terrified of AI?
+URL: https://scottaaronson.blog/?m=202303
+CONTENT:
+Every week now, it seems, events on the ground make a fresh mockery of those who confidently assert what AI will never be able to do, or won’t do for centuries if ever, or is incoherent even to ask for, or wouldn’t matter even if an AI did appear to do it, or would require a breakthrough in “symbol-grounding,” “semantics,” “compositionality” or some other abstraction that puts the end of human intellectual dominance on earth conveniently far beyond where we’d actually have to worry about it.  Many of my brilliant academic colleagues still haven’t adjusted to the new reality: maybe they’re just so conditioned by the broken promises of previous decades that they’d laugh at the Silicon Valley nerds with their febrile Skynet fantasies even as a T-1000 reconstituted itself from metal droplets in front of them.
+
+No doubt these colleagues feel the same deep frustration that I feel, as I explain for the billionth time why this week’s headline about noisy quantum computers solving traffic flow and machine learning and financial optimization problems doesn’t mean what the hypesters claim it means.  But whereas I’d say events have largely proved me right about quantum computing—where are all those practical speedups on NISQ devices, anyway?—events have already proven many naysayers wrong about AI.  Or to say it more carefully: yes, quantum computers really are able to do more and more of what we use classical computers for, and AI really is able to do more and more of what we use human brains for.  There’s spectacular engineering progress on both fronts.  The crucial difference is that quantum computers won’t be useful until they can beat the best classical computers on one or more practical problems, whereas an AI that merely writes or draws like a middling human already changes the world.
+
+Given the new reality, and my full acknowledgment of the new reality, and my refusal to go down with the sinking ship of “AI will probably never do X and please stop being so impressed that it just did X”—many have wondered, why aren’t I much more terrified?  Why am I still not fully on board with the Orthodox AI doom scenario, the Eliezer Yudkowsky one, the one where an unaligned AI will sooner or later (probably sooner) unleash self-replicating nanobots that turn us all to goo?
+
+Is the answer simply that I’m too much of an academic conformist, afraid to endorse anything that sounds weird or far-out or culty?  I certainly should consider the possibility.  If so, though, how do you explain the fact that I’ve publicly said things, right on this blog, several orders of magnitude likelier to get me in trouble than “I’m scared about AI destroying the world”—an idea now so firmly within the Overton Window that Henry Kissinger gravely ponders it in the Wall Street Journal?
+
+On a trip to the Bay Area last week, my rationalist friends asked me some version of the “why aren’t you more terrified?” question over and over.  Often it was paired with: “Scott, as someone working at OpenAI this year, how can you defend that company’s existence at all?  Did OpenAI not just endanger the whole world, by successfully teaming up with Microsoft to bait Google into an AI capabilities race—precisely what we were all trying to avoid?  Won’t this race burn the little time we had thought we had left to solve the AI alignment problem?”
+
+In response, I often stressed that my role at OpenAI has specifically been to think about ways to make GPT and OpenAI’s other products safer, including via watermarking, cryptographic backdoors, and more.  Would the rationalists rather I not do this?  Is there something else I should work on instead?  Do they have suggestions?
+
+“Oh, no!” the rationalists would reply.  “We love that you’re at OpenAI thinking about these problems!  Please continue exactly what you’re doing!  It’s just … why don’t you seem more sad and defeated as you do it?”
+
+The other day, I had an epiphany about that question—one that hit with such force and obviousness that I wondered why it hadn’t come decades ago.
+
+Let’s step back and restate the worldview of AI doomerism, but in words that could make sense to a medieval peasant.  Something like…
+
+There is now an alien entity that could soon become vastly smarter than us.  This alien’s intelligence could make it terrifyingly dangerous.  It might plot to kill us all.  Indeed, even if it’s acted unfailingly friendly and helpful to us, that means nothing: it could just be biding its time before it strikes.  Unless, therefore, we can figure out how to control the entity, completely shackle it and make it do our bidding, we shouldn’t suffer it to share the earth with us.  We should destroy it before it destroys us.
+
+Maybe now it jumps out at you.  If you’d never heard of AI, would this not rhyme with the worldview of every high-school bully stuffing the nerds into lockers, every blankfaced administrator gleefully holding back the gifted kids or keeping them away from the top universities to make room for “well-rounded” legacies and athletes, every Agatha Trunchbull from Matilda or Dolores Umbridge from Harry Potter?  Or, to up the stakes a little, every Mao Zedong or Pol Pot sending the glasses-wearing intellectuals for re-education in the fields?  And of course, every antisemite over the millennia, from the Pharoah of the Oppression (if there was one) to the mythical Haman whose name Jews around the world will drown out tonight at Purim to the Cossacks to the Nazis?
+
+In other words: does it not rhyme with a worldview the rejection and hatred of which has been the North Star of my life?
+
+As I’ve shared before here, my parents were 1970s hippies who weren’t planning to have kids.  When they eventually decided to do so, it was (they say) “in order not to give Hitler what he wanted.”  I literally exist, then, purely to spite those who don’t want me to.  And I confess that I didn’t have any better reason to bring my and Dana’s own two lovely children into existence.
+
+My childhood was defined, in part, by my and my parents’ constant fights against bureaucratic school systems trying to force me to do the same rote math as everyone else at the same stultifying pace.  It was also defined by my struggle against the bullies—i.e., the kids who the blankfaced administrators sheltered and protected, and who actually did to me all the things that the blankfaces probably wanted to do but couldn’t.  I eventually addressed both difficulties by dropping out of high school, getting a G.E.D., and starting college at age 15.
+
+My teenage and early adult years were then defined, in part, by the struggle to prove to myself and others that, having enfreaked myself through nerdiness and academic acceleration, I wasn’t thereby completely disqualified from dating, sex, marriage, parenthood, or any of the other aspects of human existence that are thought to provide it with meaning.  I even sometimes wonder about my research career, whether it’s all just been one long attempt to prove to the bullies and blankfaces from back in junior high that they were wrong, while also proving to the wonderful teachers and friends who believed in me back then that they were right.
+
+In short, if my existence on Earth has ever “meant” anything, then it can only have meant: a stick in the eye of the bullies, blankfaces, sneerers, totalitarians, and all who fear others’ intellect and curiosity and seek to squelch it.  Or at least, that’s the way I seem to be programmed.  And I’m probably only slightly more able to deviate from my programming than the paperclip-maximizer is to deviate from its.
+
+And I’ve tried to be consistent.  Once I started regularly meeting people who were smarter, wiser, more knowledgeable than I was, in one subject or even every subject—I resolved to admire and befriend and support and learn from those amazing people, rather than fearing and resenting and undermining them.  I was acutely conscious that my own moral worldview demanded this.
+
+But now, when it comes to a hypothetical future superintelligence, I’m asked to put all that aside.  I’m asked to fear an alien who’s far smarter than I am, solely because it’s alien and because it’s so smart … even if it hasn’t yet lifted a finger against me or anyone else.  I’m asked to play the bully this time, to knock the AI’s books to the ground, maybe even unplug it using the physical muscles that I have and it lacks, lest the AI plot against me and my friends using its admittedly superior intellect.
+
+Oh, it’s not the same of course.  I’m sure Eliezer could list at least 30 disanalogies between the AI case and the human one before rising from bed.  He’d say, for example, that the intellectual gap between Évariste Galois and the average high-school bully is microscopic, barely worth mentioning, compared to the intellectual gap between a future artificial superintelligence and Galois.  He’d say that nothing in the past experience of civilization prepares us for the qualitative enormity of this gap.
+
+Still, if you ask, “why aren’t I more terrified about AI?”—well, that’s an emotional question, and this is my emotional answer.
+
+I think it’s entirely plausible that, even as AI transforms civilization, it will do so in the form of tools and services that can no more plot to annihilate us than can Windows 11 or the Google search bar.  In that scenario, the young field of AI safety will still be extremely important, but it will be broadly continuous with aviation safety and nuclear safety and cybersecurity and so on, rather than being a desperate losing war against an incipient godlike alien.  If, on the other hand, this is to be a desperate losing war against an alien … well then, I don’t yet know whether I’m on the humans’ side or the alien’s, or both, or neither!  I’d at least like to hear the alien’s side of the story.
+
+A central linchpin of the Orthodox AI-doom case is the Orthogonality Thesis, which holds that arbitrary levels of intelligence can be mixed-and-matched arbitrarily with arbitrary goals—so that, for example, an intellect vastly beyond Einstein’s could devote itself entirely to the production of paperclips.  Only recently did I clearly realize that I reject the Orthogonality Thesis in its practically-relevant version.  At most, I believe in the Pretty Large Angle Thesis.
+
+Yes, there could be a superintelligence that cared for nothing but maximizing paperclips—in the same way that there exist humans with 180 IQs, who’ve mastered philosophy and literature and science as well as any of us, but who now mostly care about maximizing their orgasms or their heroin intake.  But, like, that’s a nontrivial achievement!  When intelligence and goals are that orthogonal, there was normally some effort spent prying them apart.
+
+If you really accept the practical version of the Orthogonality Thesis, then it seems to me that you can’t regard education, knowledge, and enlightenment as instruments for moral betterment.  Sure, they’re great for any entities that happen to share your values (or close enough), but ignorance and miseducation are far preferable for any entities that don’t.  Conversely, then, if I do regard knowledge and enlightenment as instruments for moral betterment—and I do—then I can’t accept the practical form of the Orthogonality Thesis.
+
+Yes, the world would surely have been a better place had A. Q. Khan never learned how to build nuclear weapons.  On the whole, though, education hasn’t merely improved humans’ abilities to achieve their goals; it’s also improved their goals.  It’s broadened our circles of empathy, and led to the abolition of slavery and the emancipation of women and individual rights and everything else that we associate with liberality, the Enlightenment, and existence being a little less nasty and brutish than it once was.
+
+In the Orthodox AI-doomers’ own account, the paperclip-maximizing AI would’ve mastered the nuances of human moral philosophy far more completely than any human—the better to deceive the humans, en route to extracting the iron from their bodies to make more paperclips.  And yet the AI would never once use all that learning to question its paperclip directive.  I acknowledge that this is possible.  I deny that it’s trivial.
+
+Yes, there were Nazis with PhDs and prestigious professorships.  But when you look into it, they were mostly mediocrities, second-raters full of resentment for their first-rate colleagues (like Planck and Hilbert) who found the Hitler ideology contemptible from beginning to end.  Werner Heisenberg, Pascual Jordan—these are interesting as two of the only exceptions.  Heidegger, Paul de Man—I daresay that these are exactly the sort of “philosophers” who I’d have expected to become Nazis, even if I hadn’t known that they did become Nazis.
+
+With the Allies, it wasn’t merely that they had Szilard and von Neumann and Meitner and Ulam and Oppenheimer and Bohr and Bethe and Fermi and Feynman and Compton and Seaborg and Schwinger and Shannon and Turing and Tutte and all the other Jewish and non-Jewish scientists who built fearsome weapons and broke the Axis codes and won the war.  They also had Bertrand Russell and Karl Popper.  They had, if I’m not mistaken, all the philosophers who wrote clearly and made sense.
+
+WWII was (among other things) a gargantuan, civilization-scale test of the Orthogonality Thesis.  And the result was that the more moral side ultimately prevailed, seemingly not completely at random but in part because, by being more moral, it was able to attract the smarter and more thoughtful people.  There are many reasons for pessimism in today’s world; that observation about WWII is perhaps my best reason for optimism.
+
+Ah, but I’m again just throwing around human metaphors totally inapplicable to AI!  None of this stuff will matter once a superintelligence is unleashed whose cold, hard code specifies an objective function of “maximize paperclips”!
+
+OK, but what’s the goal of ChatGPT?  Depending on your level of description, you could say it’s “to be friendly, helpful, and inoffensive,” or “to minimize loss in predicting the next token,” or both, or neither.  I think we should consider the possibility that powerful AIs will not be best understood in terms of the monomanaical pursuit of a single goal—as most of us aren’t, and as GPT isn’t either.  Future AIs could have partial goals, malleable goals, or differing goals depending on how you look at them.  And if “the pursuit and application of wisdom” is one of the goals, then I’m just enough of a moral realist to think that that would preclude the superintelligence that harvests the iron from our blood to make more paperclips.
+
+In my last post, I said that my “Faust parameter” — the probability I’d accept of existential catastrophe in exchange for learning the answers to humanity’s greatest questions — might be as high as 0.02.  Though I never actually said as much, some people interpreted this to mean that I estimated the probability of AI causing an existential catastrophe at somewhere around 2%.   In one of his characteristically long and interesting posts, Zvi Mowshowitz asked point-blank: why do I believe the probability is “merely” 2%?
+
+Of course, taking this question on its own Bayesian terms, I could easily be limited in my ability to answer it: the best I could do might be to ground it in other subjective probabilities, terminating at made-up numbers with no further justification.
+
+Thinking it over, though, I realized that my probability crucially depends on how you phrase the question.  Even before AI, I assigned a way higher than 2% probability to existential catastrophe in the coming century—caused by nuclear war or runaway climate change or collapse of the world’s ecosystems or whatever else.  This probability has certainly not gone down with the rise of AI, and the increased uncertainty and volatility it might cause.  Furthermore, if an existential catastrophe does happen, I expect AI to be causally involved in some way or other, simply because from this decade onward, I expect AI to be woven into everything that happens in human civilization.  But I don’t expect AI to be the only cause worth talking about.
+
+Here’s a warmup question: has AI already caused the downfall of American democracy?  There’s a plausible case that it has: Trump might never have been elected in 2016 if not for the Facebook recommendation algorithm, and after Trump’s conspiracy-fueled insurrection and the continuing strength of its unrepentant backers, many would classify the United States as at best a failing or teetering democracy, no longer a robust one like Finland or Denmark.  OK, but AI clearly wasn’t the only factor in the rise of Trumpism, and most people wouldn’t even call it the most important one.
+
+I expect AI’s role in the end of civilization, if and when it comes, to be broadly similar.  The survivors, huddled around the fire, will still be able to argue about how much of a role AI played or didn’t play in causing the cataclysm.
+
+So, if we ask the directly relevant question — do I expect the generative AI race, which started in earnest around 2016 or 2017 with the founding of OpenAI, to play a central causal role in the extinction of humanity? — I’ll give a probability of around 2% for that.  And I’ll give a similar probability, maybe even a higher one, for the generative AI race to play a central causal role in the saving of humanity.  All considered, then, I come down in favor right now of proceeding with AI research … with extreme caution, but proceeding.
+
+I liked and fully endorse OpenAI CEO Sam Altman’s recent statement on “planning for AGI and beyond” (though see also Scott Alexander’s reply).  I expect that few on any side will disagree, when I say that I hope our society holds OpenAI to Sam’s statement.
+
+As it happens, my responses will be delayed for a couple days because I’ll be at an OpenAI alignment meeting!  In my next post, I hope to share what I’ve learned from recent meetings and discussions about the near-term, practical aspects of AI safety—having hopefully laid some intellectual and emotional groundwork in this post for why near-term AI safety research isn’t just a total red herring and distraction.
+
+Meantime, some of you might enjoy a post by Eliezer’s former co-blogger Robin Hanson, which comes to some of the same conclusions I do.  “My fellow moderate, Robin Hanson” isn’t a phrase you hear every day, but it applies here!
+
+You might also enjoy the new paper by me and my postdoc Shih-Han Hung, Certified Randomness from Quantum Supremacy, finally up on the arXiv after a five-year delay!  But that’s a subject for a different post.
+
+================================================================================
+

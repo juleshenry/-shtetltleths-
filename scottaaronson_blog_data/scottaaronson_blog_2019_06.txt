@@ -1,0 +1,44 @@
+TITLE: Quanta of Solace
+URL: https://scottaaronson.blog/?m=201906
+CONTENT:
+In Quanta magazine, Kevin Hartnett has a recent article entitled A New Law to Describe Quantum Computing’s Rise?  The article discusses “Neven’s Law”—a conjecture, by Hartmut Neven (head of Google’s quantum computing effort), that the number of integrated qubits is now increasing exponentially with time, so that the difficulty of simulating a state-of-the-art QC on a fixed classical computer is increasing doubly exponentially with time.  (Jonathan Dowling tells me that he expressed the same thought years ago.)
+
+Near the end, the Quanta piece quotes some UT Austin professor whose surname starts with a bunch of A’s as follows:
+
+“I think the undeniable reality of this progress puts the ball firmly in the court of those who believe scalable quantum computing can’t work.   They’re the ones who need to articulate where and why the progress will stop.”
+
+The quote is perfectly accurate, but in context, it might give the impression that I’m endorsing Neven’s Law.  In reality, I’m reluctant to fit a polynomial or an exponential or any other curve through a set of numbers that so far hasn’t exceeded about 50.  I say only that, regardless of what anyone believes is the ultimate rate of progress in QC, what’s already happened today puts the ball firmly in the skeptics’ court.
+
+Also in Quanta, Anil Ananthaswamy has a new article out on How to Turn a Quantum Computer Into the Ultimate Randomness Generator.  This piece covers two schemes for using a quantum computer to generate “certified random bits”—that is, bits you can prove are random to a faraway skeptic.  one due to me, the other due to Brakerski et al.  The article cites my paper with Lijie Chen, which shows that under suitable computational assumptions, the outputs in my protocol are hard to spoof using a classical computer.  The randomness aspect will be addressed in a paper that I’m currently writing; for now, see these slides.
+
+As long as I’m linking to interesting recent Quanta articles, Erica Klarreich has A 53-Year-Old Network Coloring Conjecture is Disproved.  Briefly, Hedetniemi’s Conjecture stated that, given any two finite, undirected graphs G and H, the chromatic number of the tensor product G⊗H is just the minimum of the chromatic numbers of G and H themselves.  This reasonable-sounding conjecture has now been falsified by Yaroslav Shitov.  For more, see also this post by Gil Kalai—who appears here not in his capacity as a quantum computing skeptic.
+
+In interesting math news beyond Quanta magazine, the Berkeley alumni magazine has a piece about the crucial, neglected topic of mathematicians’ love for Hagoromo-brand chalk (hat tip: Peter Woit).  I can personally vouch for this.  When I moved to UT Austin three years ago, most offices in CS had whiteboards, but I deliberately chose one with a blackboard.  I figured that chalk has its problems—it breaks, the dust gets all over—but I could live with them, much more than I could live with the Fundamental Whiteboard Difficulty, of all the available markers always being dry whenever you want to explain anything.  With the Hagoromo brand, though, you pretty much get all the benefits of chalk with none of the downsides, so it just strictly dominates whiteboards.
+
+Jan Kulveit asked me to advertise the European Summer Program on Rationality (ESPR), which will take place this August 13-23, and which is aimed at students ages 16-19.  I’ve lectured both at ESPR and at a similar summer program that ESPR was modeled after (called SPARC)—and while I was never there as a student, it looked to me like a phenomenal experience.   So if you’re a 16-to-19-year-old who reads this blog, please consider applying!
+
+I’m now at the end of my annual family trip to Tel Aviv, returning to the Eastern US tonight, and then on to STOC’2019 at the ACM Federated Computing Research Conference in Phoenix (which I can blog about if anyone wants me to).  It was a good trip, although marred by my two-year-old son Daniel falling onto sun-heated metal and suffering a second-degree burn on his leg, and then by the doctor botching the treatment.  Fortunately Daniel’s now healing nicely.  For future reference, whenever bandaging a burn wound, be sure to apply lots of Vaseline to prevent the bandage from drying out, and also to change the bandage daily.  Accept no fancy-sounding substitute.
+
+================================================================================
+
+TITLE: NP-complete Problems and Physics: A 2019 View
+URL: https://scottaaronson.blog/?m=201906
+CONTENT:
+If I want to get back to blogging on a regular basis, given the negative amount of time that I now have for such things, I’ll need to get better at dispensing with pun-filled titles, jokey opening statements, etc. etc., and resigning myself to a less witty, more workmanlike blog.
+
+So in that spirit: a few weeks ago I gave a talk at the Fields Institute in Toronto, at a symposium to celebrate Stephen Cook and the 50th anniversary (or actually more like 48th anniversary) of the discovery of NP-completeness.  Thanks so much to the organizers for making this symposium happen.
+
+You can watch the video of my talk here (or read the PowerPoint slides here).  The talk, on whether NP-complete problems can be efficiently solved in the physical universe, covers much the same ground as my 2005 survey article on the same theme (not to mention dozens of earlier talks), but this is an updated version and I’m happier with it than I was with most past iterations.
+
+As I explain at the beginning of the talk, I wasn’t going to fly to Toronto at all, due to severe teaching and family constraints—but my wife Dana uncharacteristically urged me to go (“don’t worry, I’ll watch the kids!”).  Why?  Because in her view, it was the risks that Steve Cook took 50 years ago, as an untenured assistant professor at Berkeley, that gave birth to the field of computational complexity that Dana and I both now work in.
+
+Anyway, be sure to check out the other talks as well—they’re by an assortment of random nobodies like Richard Karp, Avi Wigderson, Leslie Valiant, Michael Sipser, Alexander Razborov, Cynthia Dwork, and Jack Edmonds.  I found the talk by Edmonds particularly eye-opening: he explains how he thought about (the objects that we now call) P and NP∩coNP when he first defined them in the early 60s, and how it was similar to and different from the way we think about them today.
+
+Another memorable moment came when Edmonds interrupted Sipser’s talk—about the history of P vs. NP—to deliver a booming diatribe about how what really matters is not mathematical proof, but just how quickly you can solve problems in the real world.  Edmonds added that, from a practical standpoint, P≠NP is “true today but might become false in the future.”  In response, Sipser asked “what does a mathematician like me care about the real world?,” to roars of approval from the audience.  I might’ve picked a different tack—about how for every practical person I meet for whom it’s blindingly obvious that “in real life, P≠NP,” I meet another for whom it’s equally obvious that “in real life, P=NP” (for all the usual reasons: because SAT solvers work so well in practice, because physical systems so easily relax as their ground states, etc).  No wonder it took 25+ years of smart people thinking about operations research and combinatorial optimization before the P vs. NP question was even explicitly posed.
+
+Unrelated Announcement: The Texas Advanced Computing Center (TACC), a leading supercomputing facility in North Austin that’s part of the University of Texas, is seeking to hire a Research Scientist focused on quantum computing.  Such a person would be a full participant in our Quantum Information Center at UT Austin, with plenty of opportunities for collaboration.  Check out their posting!
+
+
+
+================================================================================
+

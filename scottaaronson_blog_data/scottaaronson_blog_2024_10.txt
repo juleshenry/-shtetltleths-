@@ -1,0 +1,141 @@
+TITLE: My podcast with Brian Greene
+URL: https://scottaaronson.blog/?m=202410
+CONTENT:
+Yes, he’s the guy from The Elegant Universe book and TV series.  Our conversation is 1 hour 40 minutes; as usual I strongly recommend listening at 2x speed.  The topics, chosen by Brian, include quantum computing (algorithms, hardware, error-correction … the works), my childhood, the interpretation of quantum mechanics, the current state of AI, the future of sentient life in the cosmos, and mathematical Platonism.  I’m happy with how it turned out; in particular, my verbal infelicities seem to have been at a minimum this time.  I recommend skipping the YouTube comments if you want to stay sane, but do share your questions and reactions in the comments here.  Thanks to Brian and his team for doing this.  Enjoy!
+
+Update (Oct. 28): If that’s not enough Scott Aaronson video content for you, please enjoy another quantum computing podcast interview, this one with Ayush Prakash and shorter (clocking in at 45 minutes).  Ayush pitched this podcast to me as an opportunity to explain quantum computing to Gen Z.  Thus, I considered peppering my explanations of interference and entanglement with such phrases as ‘fo-shizzle’ and ‘da bomb,’ but I desisted after reflecting that whatever youth slang I knew was probably already outdated whenever I’d picked it up, back in the twentieth century.
+
+================================================================================
+
+TITLE: My Nutty, Extremist Beliefs
+URL: https://scottaaronson.blog/?m=202410
+CONTENT:
+In nearly twenty years of blogging, I’ve unfortunately felt more and more isolated and embattled.  It now feels like anything I post earns severe blowback, from ridicule on Twitter, to pseudonymous comment trolls, to scary and aggressive email bullying campaigns.  Reflecting on this, though, I came to see that such strong reactions are an understandable response to my extremist stances.  When your beliefs smash the Overton Window into tiny shards like mine do, what do you expect?  Just consider some of the intransigent, hard-line stances I’ve taken here on Shtetl-Optimized:
+
+(1) US politics.  I’m terrified of right-wing authoritarian populists and their threat to the Enlightenment.  For that and many other reasons, I vote straight-ticket Democrat, donate to Democratic campaigns, and encourage everyone else to do likewise.  But I also wish my fellow Democrats would rein in the woke stuff, stand up more courageously to the world’s autocrats, and study more economics, so they understand why rent control, price caps, and other harebrained interventions will always fail.
+
+(2) Quantum computing.  I’m excited about the prospects of QC, so much that I’ve devoted most of my career to that field.  But I also think many of QC’s commercial applications have been wildly oversold to investors, funding agencies, and the press, and I haven’t been afraid to say so.
+
+(3) AI.  I think the spectacular progress of AI over the past few years raises scary questions about where we’re headed as a species.  I’m neither in the camp that says “we’ll almost certainly die unless we shut down AI research,” nor the camp that says “the good guys need to race full-speed ahead to get AGI before the bad guys get it.”  I’d like us to proceed in AI research with caution and guardrails and the best interests of humanity in mind, rather than the commercial interests of particular companies.
+
+(4) Climate change.  I think anthropogenic climate change is 100% real and one of the most urgent problems facing humanity, and those who deny this are being dishonest or willfully obtuse.  But because I think that, I also think it’s way past time to explore technological solutions like modular nuclear reactors, carbon capture, and geoengineering.  I think we can’t virtue-signal or kumbaya our way out of the climate crisis.
+
+(5) Feminism and dating.  I think the emancipation of women is one of the modern world’s greatest triumphs.  I reserve a special hatred for misogynistic, bullying men.  But I also believe, from experience, that many sensitive, nerdy guys severely overcorrected on feminist messaging, to the point that they became terrified of the tiniest bit of assertiveness or initiative in heterosexual courtship.  I think this terror has led millions of them to become bitter “incels.”  I want to figure out ways to disrupt the incel pipeline, by teaching shy nerdy guys to have healthy, confident dating lives, without thereby giving asshole guys license to be even bigger assholes.
+
+(6) Israel/Palestine.  I’m passionately in favor of Israel’s continued existence as a Jewish state, without which my wife’s family and many of my friends’ and colleagues’ families would have been exterminated.  However, I also despise Bibi and the messianic settler movement to which he’s beholden.  I pray for a two-state solution where Israelis and Palestinians will coexist in peace, free from their respective extremists.
+
+(7) Platonism.  I think that certain mathematical questions, like the Axiom of Choice or the Continuum Hypothesis, might not have any Platonic truth-value, there being no fact of the matter beyond what can be proven from various systems of axioms. But I also think, with Gödel, that statements of elementary arithmetic, like the Goldbach Conjecture or P≠NP, are just Platonically true or false independent of any axiom system.
+
+(8) Science and religion.  As a secular rationalist, I’m acutely aware that no ancient religion can be “true,” in the sense believed by either the ancients or modern fundamentalists.  Still, the older I’ve gotten, the more I’ve come to see religions as vast storehouses containing (among much else) millennia of accumulated wisdom about how humans can or should live.  As in the parable of Chesterton’s Fence, I think this wisdom is often far from obvious and nearly impossible to derive from first principles.  So I think that, at the least, secularists will need to figure out their own long-term methods to encourage many of the same things that religion once did—such as stable families, childbirth, self-sacrifice and courage in defending one’s community, and credible game-theoretic commitments to keeping promises and various other behaviors.
+
+(9) Foreign policy and immigration.  I’d like the US to stand more courageously against evil regimes, such as those of China, Russia, and Iran.  At the same time, I’d like the US to open our gates much wider to students, scientists, and dissidents from those nations who seek freedom in the West.  I think our refusal to do enough of this is a world-historic self-own.
+
+(10) Academia vs. industry.  I think both have advantages and disadvantages for people in CS and other technical fields.  At their best, they complement each other.  When advising a student which path to pursue, I try to find out all I can about the student’s goals and personality.
+
+(11) Population ethics.  I’m worried about how the earth will support 9 or 10 billion people with first-world living standards, which is part of why I’d like career opportunities for women, girls’ education, contraception, and (early-term) abortion to become widely available everywhere on earth.  All the same, I’m not an antinatalist.  I think raising one or more children in a loving home should generally be celebrated as a positive contribution to the world.
+
+(12) The mind-body problem.  I think it’s possible that there’s something profound we don’t yet understand about consciousness and its relation to the physical world.  At the same time, I think the burden is clearly on the mind-body dualists to articulate what that something might be, and how to reconcile it with the known laws of physics.  I admire the audacity of Roger Penrose in tackling this question head-on, but I don’t think his solution works.
+
+(13) COVID response.  I think the countries that did best tended to be those that had some coherent stategy—whether that was “let the virus rip, keep schools open, quarantine only the old and sick,” or “aggressively quarantine everyone and wait for a vaccine.”  I think countries torn between these strategies, like the US, tended to get the worst of all worlds.  On the other hand, I think the US did one huge thing right, which was greatly to accelerate (by historical standards) the testing and distribution of the mRNA vaccines.  For the sake of the millions who died and the billions who had their lives interrupted, I only wish we’d rushed the vaccines much more.  We ought now to be spending trillions on a vaccine pipeline that’s ready to roll within weeks as soon as the next pandemic hits.
+
+(14) P versus NP.  From decades of intuition in math and theoretical computer science, I think we can be fairly confident of P≠NP—but I’d “only” give it, say, 97% odds. Here as elsewhere, we should be open to the possibility of world-changing surprises.
+
+(15) Interpretation of QM. I get really annoyed by bad arguments against the Everett interpretation, which (contrary to a popular misconception) I understand to result from scientifically conservative choices. But I’m also not an Everettian diehard. I think that, if you push questions like “but is anyone home in the other branches?” hard enough, you arrive at questions about personal identity and consciousness that were profoundly confusing even before quantum mechanics. I hope we someday learn something new that clarifies the situation.
+
+Anyway, with extremist, uncompromising views like those, is it any surprise that I get pilloried and denounced so often?
+
+All the same, I sometimes ask myself: what was the point of becoming a professor, seeking and earning the hallowed protections of tenure, if I can’t then freely express radical, unbalanced, batshit-crazy convictions like the ones in this post?
+
+================================================================================
+
+TITLE: My October 7 post
+URL: https://scottaaronson.blog/?m=202410
+CONTENT:
+For weeks I agonized over what, if anything, this post should say. How does one commemorate a tragedy that isn’t over for millions of innocents on either side?  How do I add to what friend-of-the-blog Boaz Barak and countless others have already written?
+
+Do I review the grisly details of Black Shabbat, tell the stories of those murdered or still held hostage? Do I rage about the shocking intelligence and operational failures that allowed it to happen? Talk about the orders-of-magnitude spikes in antisemitic incidents all over the world in the past year, which finally answered the question of whether I was going to deal with “the burden of having been born Jewish” as a central concern of my life, rather than only a matter for holidays and history books and museums? Mourn the friends I’ve lost—not, interestingly, my Iranian friends (who were the first to ask after the safety of my Israeli family after October 7) or my other Gentile friends, but mostly my far-left Jewish former friends, the ones who now ludicrously argue that worldwide violence against Jews is justified, and will stop if only we give in and dismantle Israel? I wrote many drafts only to delete them.
+
+The core problem was that there seemed to be nothing I could say that would move the needle, that wouldn’t just be a waste of electrons. From the many times I’d already waded into this minefield of minefields since October 7, 2023, I already knew exactly how it would play out:
+
+What could I do to break through? What could I say to all the people who call themselves “anti-Israel but not antisemitic” that would actually move the conversation forward?
+
+Finally I came up with something. Look: you say you despise Zionism, and consider October 7 to have been perfectly understandable (if somewhat distasteful) resistance by the oppressed? Fine, then.
+
+I urge you to lobby your country to pass a law granting automatic refugee status and citizenship to any current citizen of Israel—as an ultimate insurance policy to incentivize Israel to take greater risks for peace, even with neighbors who openly proclaim the Jews’ extermination as their goal.
+
+When the Jews of Europe faced annihilation in my grandparents’ time, not one country offered to rescue them in more than token numbers. That’s a central reason why, in 1947, the newly-formed UN voted to partition the former British Mandate for Palestine and give the Jews a piece of it: not only because of Jews’ historic connection to the land, predating the Islamic conquest of the Middle East by thousands of years, but also, crucially, because the survivors literally had nowhere else on earth to go.
+
+So, you say you want the hated “settler-colonialists” to leave Palestine.  Very well then: give them a place to go. All of them, not just the minority who are dual citizens or otherwise have options.
+
+If the US or UK or Australia or France or Germany or any other country actually passed such an immigration law—well, I can’t determine how the Israelis would respond.  I expect that tens of thousands of Israelis would quickly take your country up on its offer, while the majority wouldn’t. I expect that some Jewish and Israeli institutions would criticize you, seeing a desire for Israel’s end in your offer even if you were careful never to say as much.
+
+But I can tell you how I’d respond, and I don’t think I’d be alone in this. I would move to the left on Israel/Palestine. For the first time, the Israeli Jews would plausibly no longer be in an existential struggle, a struggle not to be exterminated by neighbors who tried to exterminate them at every opportunity from 1929 to 1948 to 1967 to 1973 to 2002 to 2023. For the first time there’d be a viable backup plan.
+
+As a direct consequence, I’d advocate that the Israelis take bigger gambles for peace: for example, that they unilaterally withdraw from the West Bank to allow a Palestinian state there, even at the risk that the West Bank turns into a much bigger Gaza, another Hamas staging-ground from which to invade Israel and destroy it.  At least there’d be an insurance policy if that happened.
+
+Many will ask: shouldn’t the Palestinians also be offered refuge in other lands? I say, by all means! But crucially, that’s not for me to advocate: if I did, I’d be accused of secretly plotting ethnic cleansing and Israeli expansionism. This is between the Palestinian people and all the other nations, in the Middle East and elsewhere, that for generations could’ve offered refuge to displaced Palestinians (as Israel offered refuge to the displaced Jews from Arab lands) but that chose not to.
+
+And what of all the world’s other oppressed peoples? I promise to praise and honor any nation that saves anyone from oppression or genocide by offering them refuge. But, particularly since last October, the left is obsessed with Israel, which it considers uniquely evil among all nations to have ever existed—so that’s the conflict about which I’m proposing a positive step.
+
+And if the anti-Israel people throw the proposal back in my face, tell me it’s not their job to resettle the hated settlers: then at least we know where we stand. They’ve then told me, not merely that they want half the world’s Jews evicted from their homes, but that they’re totally unconcerned with what happens to them afterward—fully aware that last time, the answer was pits full of corpses, piles of ash, plumes of black smoke.
+
+And that’s the exact point where we reach the end of discussion and argument, such as can happen on blogs. The remaining disagreement can (alas) only be settled on the battlefield. For whatever it’s worth, the Jews famously outlasted the Egyptians, Assyrians, Babylonians, Seleucids, Romans, Soviets, Nazis, and other continent-spanning empires that tried to destroy us. Whether we need missiles, planes, ground invasions, or (yes) exploding pagers, I predict that we’ll survive this latest existential war too, against the Ayatollah regime and its proxies and its millions of Western dupes. Or at least, I predict that we’ll win in the physical world, even while our enemies continue to dominate Facebook and Twitter and the comments section of the Washington Post, where they’ll continue ordering Israelis to “GO BACK TO POLAND,” totally uninterested in the question of whether Poland will take them. I can probably teach myself to live with that. At any rate, better offline victory and online defeat than the other way around.
+
+================================================================================
+
+TITLE: Quantum advantage for NP approximation? For REAL this time?
+URL: https://scottaaronson.blog/?m=202410
+CONTENT:
+The other night I spoke at a quantum computing event and was asked—for the hundredth time? the thousandth?—whether I agreed that the quantum algorithm called QAOA was poised revolutionize industries by finding better solutions to NP-hard optimization problems. I replied that while serious, worthwhile research on that algorithm continues, alas, so far I have yet to see a single piece of evidence that QAOA outperforms the best classical heuristics on any problem that anyone cares about. (Note added: in the comments, Ashley Montanaro shares a paper with empirical evidence that QAOA provides a modest polynomial speedup over known classical heuristics for random k-SAT.  This is the best/only such evidence I’ve seen, and which still stands as far as I know!)
+
+I added I was sad to see the arXiv flooded with thousands of relentlessly upbeat QAOA papers that dodge the speedup question by simply never raising it at all. I said that, in my experience, these papers reliably led outsiders to conclude that surely there must be lots of excellent known speedups from QAOA—since otherwise, why would so many people be writing papers about it?
+
+Anyway, the person right after me talked about a “quantum dating app” (!) they were developing.
+
+I figured that, as usual, my words had thudded to the ground with zero impact, truth never having had a chance against what sounds good and what everyone wants to hear.
+
+But then, the morning afterward, someone from the audience emailed me that, incredulous at my words, he went through a bunch of QAOA papers, looking for the evidence of its beating classical algorithms that he knew must be in them, and was shocked to find the evidence missing, just as I had claimed! So he changed his view.
+
+That one message filled me with renewed hope about my ability to inject icy blasts of reality into the quantum algorithms discourse.
+
+So, with that prologue, surely I’m about to give you yet another icy blast of quantum algorithms not helping for optimization problems?
+
+Aha!  Inspired by Scott Alexander, this is the part of the post where, having led you one way, I suddenly jerk you the other way.  My highest loyalty, you see, is not to any narrative, but only to THE TRUTH.
+
+And the truth is this: this summer, my old friend Stephen Jordan and seven coauthors, from Google and elsewhere, put out a striking preprint about a brand-new quantum algorithm for optimization problems that they call Decoded Quantum Interferometry (DQI). This week Stephen was gracious enough to explain the new algorithm in detail when he visited our group at UT Austin.
+
+DQI can be used for a variety of NP-hard optimization problems, at least in the regime of approximation where they aren’t NP-hard.  But a canonical example is what the authors call “Optimal Polynomial Intersection” or OPI, which involves finding a low-degree polynomial that intersects as many subsets as possible from a given list. Here’s the formal definition:
+
+OPI. Given integers n<p with p prime, we’re given as input subsets S1,…,Sp-1 of the finite field Fp. The goal is to find a degree-(n-1) polynomial Q that maximizes the number of y∈{1,…,p-1} such that Q(y)∈Sy, i.e. that intersects as many of the subsets as possible.
+
+For this problem, taking as an example the case p-1=10n and |Sy|=⌊p/2⌋ for all y, Stephen et al. prove that DQI satisfies a 1/2 + (√19)/20 ≈ 0.7179 fraction of the p-1 constraints in polynomial time. By contrast, they say the best classical polynomial-time algorithm they were able to find satisfies an 0.55+o(1) fraction of the constraints.
+
+To my knowledge, this is the first serious claim to get a better approximation ratio quantumly for an NP-hard problem, since Farhi et al. made the claim for QAOA solving something called MAX-E3LIN2 back in 2014, and then my blogging about it led to a group of ten computer scientists finding a classical algorithm that got an even better approximation.
+
+So, how did Stephen et al. pull this off?  How did they get around the fact that, again and again, exponential quantum speedups only seem to exist for algebraically structured problems like factoring or discrete log, and not for problems like 3SAT or Max-Cut that lack algebraic structure?
+
+Here’s the key: they didn’t. Instead they leaned into the fact, by targeting an optimization problem that (despite being NP-hard) has loads of algebraic structure! The key insight, in their new DQI algorithm, is that the Quantum Fourier Transform can be used to reduce other NP-hard problems to problems of optimal decoding of a suitable error-correcting code. (This insight built on the breakthrough two years ago by Yamakawa and Zhandry, giving a quantum algorithm that gets an exponential speedup for an NP search problem relative to a random oracle.)
+
+Now, sometimes the reduction to a coding theory problem is “out of the frying pan and into the fire,” as the new optimization problem is no easier than the original one. In the special case of searching for a low-degree polynomial, however, the optimal decoding problem ends up being for the Reed-Solomon code, where we’ve known efficient classical algorithms for generations, famously including the Berlekamp-Welch algorithm.
+
+One open problem that I find extremely interesting is whether OPI, in the regime where DQI works, is in coNP or coAM, or has some other identifiable structural feature that presumably precludes its being NP-hard.
+
+Regardless, though, as of this week, the hope of using quantum computers to get better approximation ratios for NP-hard optimization problems is back in business!  Will that remain so?  Or will my blogging about such an attempt yet again lead to its dequantization?  Either way I’m happy.
+
+================================================================================
+
+TITLE: Sad times for AI safety
+URL: https://scottaaronson.blog/?m=202410
+CONTENT:
+Many of you will have seen the news that Governor Gavin Newsom has vetoed SB 1047, the groundbreaking AI safety bill that overwhelmingly passed the California legislature. Newsom gave a disingenuous explanation (which no one on either side of the debate took seriously), that he vetoed the bill only because it didn’t go far enough (!!) in regulating the misuses of small models. While sad, this doesn’t come as a huge shock, as Newsom had given clear prior indications that he was likely to veto the bill, and many observers had warned to expect him to do whatever he thought would most further his political ambitions and/or satisfy his strongest lobbyists. In any case, I’m reluctantly forced to the conclusion that either Governor Newsom doesn’t read Shtetl-Optimized, or else he somehow wasn’t persuaded by my post last month in support of SB 1047.
+
+Many of you will also have seen the news that OpenAI will change its structure to be a fully for-profit company, abandoning any pretense of being controlled by a nonprofit, and that (possibly relatedly) almost no one now remains from OpenAI’s founding team other than Sam Altman himself.  It now looks to many people like the previous board has been 100% vindicated in its fear that Sam did, indeed, plan to move OpenAI far away from the nonprofit mission with which it was founded.  It’s a shame the board didn’t manage to explain its concerns clearly at the time, to OpenAI’s employees or to the wider world.  Of course, whether you see the new developments as good or bad is up to you.  Me, I kinda liked the previous mission, as well as the expressed beliefs of the previous Sam Altman!
+
+Anyway, certainly you would’ve known all this if you read Zvi Mowshowitz.  Broadly speaking, there’s nothing I can possibly say about AI safety policy that Zvi hasn’t already said in 100x more detail, anticipating and responding to every conceivable counterargument.  I have no clue how he does it, but if you have any interest in these matters and you aren’t already reading Zvi, start.
+
+Regardless of any setbacks, the work of AI safety continues.  I am not and have never been a Yudkowskyan … but still, given the empirical shock of the past four years, I’m now firmly, 100% in the camp that we need to approach AI with humility for the magnitude of civilizational transition that’s about to occur, and for our massive error bars about what exactly that transition will entail.  We can’t just “leave it to the free market” any more than we could’ve left the development of thermonuclear weapons to the free market.
+
+And yes, whether in academia or working with AI companies, I’ll continue to think about what theoretical computer science can do for technical AI safety.  Speaking of which, I’d love to hire a postdoc to work on AI alignment and safety, and I already have interested candidates.  Would any person of means who reads this blog like to fund such a postdoc for me?  If so, shoot me an email!
+
+================================================================================
+

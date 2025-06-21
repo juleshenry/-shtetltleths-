@@ -1,0 +1,110 @@
+TITLE: “Holy sh#t — maybe biology doesn’t suck!”
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+So said my brother David (MIT math major), on forwarding me this animation of the inner life of a cell.
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 3: Gödel, Turing, and Friends
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+Gödel, Turing, and Friends.  Another whole course compressed into one handwaving lecture.  (This will be a recurring theme.)
+
+================================================================================
+
+TITLE: Is there no other?
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+O Achilles of Arkansas, O bane of Foxes and Roves, O solitary warrior among Democrats: dasher of hopes, prince of platitudes, felatee of Jewesses, belated friend of Tutsis, toothless tiger of climate change, greatest of all living Americans: how shall we summon thee back?
+
+================================================================================
+
+TITLE: Admissions unhooked
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+An anonymous indie-cinema-loving hermit friend from Amsterdam sends me an article in this week’s Economist entitled “Poison Ivy: Not so much palaces of learning as bastions of privilege and hypocrisy” (unfortunately, only available to subscribers).  The article is a summary of an excellent Wall Street Journal series by Daniel Golden (again, unfortunately, only available to subscribers), which I’ve been following with great interest.  Golden has also put out a book about this topic, called The Price of Admission (“How America’s Ruling Class Buys Its Way into Elite Colleges — and Who Gets Left Outside the Gates”), which I just ordered from Amazon.  In the meantime, I’ll simply quote a few passages from the Economist piece:
+
+Mr Golden shows that elite universities do everything in their power to admit the children of privilege. If they cannot get them in through the front door by relaxing their standards, then they smuggle them in through the back. No less than 60% of the places in elite universities are given to candidates who have some sort of extra “hook”, from rich or alumni parents to “sporting prowess”. The number of whites who benefit from this affirmative action is far greater than the number of blacks…
+
+Most people think of black football and basketball stars when they hear about “sports scholarships”. But there are also sports scholarships for rich white students who play preppie sports such as fencing, squash, sailing, riding, golf and, of course, lacrosse. The University of Virginia even has scholarships for polo-players, relatively few of whom come from the inner cities…
+
+What is one to make of [Senate Majority Leader Bill] Frist, who opposes affirmative action for minorities while practising it for his own son?
+
+Two groups of people overwhelmingly bear the burden of these policies — Asian-Americans and poor whites. Asian-Americans are the “new Jews”, held to higher standards (they need to score at least 50 points higher than non-Asians even to be in the game) and frequently stigmatised for their “characters” (Harvard evaluators persistently rated Asian-Americans below whites on “personal qualities”). When the University of California, Berkeley briefly considered introducing means-based affirmative action, it rejected the idea on the ground that “using poverty yields a lot of poor white kids and poor Asian kids”.
+
+The article ends with the hope that “America’s money-addicted and legacy-loving universities can be shamed into returning to what ought to have been their guiding principle all along: admitting people to university on the basis of their intellectual ability.”
+
+I harped about this issue in one of my very first posts, almost a year ago.  I don’t know what else to say.  If idealism won’t goad us Americans (yes, I’m still an American) into overhauling our crooked, anti-intellectual admissions system, then maybe it will help to see just how absurd that system looks to the rest of the world.
+
+================================================================================
+
+TITLE: Mistake of the Week: “The Future Is In X”
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+One of the surest signs of the shnood is the portentous repetition of the following two slogans:
+
+Biology will be the physics of the 21st century.
+
+The future of the world is in China and India.
+
+Let me translate for you:
+
+You know the field of Darwin, Pasteur, and Mendel, the field that fills almost every page of Science and Nature, the field that gave rise to modern medicine and transformed the human condition over the last few centuries?  Well, don’t count it out entirely!  This plucky newcomer among the sciences is due to make its mark.  Another thing you shouldn’t count out is the continent of Asia, which is situated next to Europe.  Did you know that China, far more than a source of General Tso’s Chicken, has been one of the centers of human civilization for 4,000 years?  And did you know that Gandhi and Ramanujan both hailed from a spunky little country called India?  It’s true!
+
+Let me offer my own counterslogans:
+
+Biology will be the biology of the 21st century.
+
+The future of China and India is in China and India, respectively.
+
+================================================================================
+
+TITLE: Only eight annoying questions to go
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+A month ago, I posed the following as the 10th most annoying question in quantum computing:
+
+Given an n-qubit pure state, is there always a way to apply Hadamard gates to some subset of the qubits, so as to make all 2n computational basis states have nonzero amplitudes?
+
+Today Ashley Montanaro and Dan Shepherd of the University of Bristol sent me the answer, in a beautiful 4-page writeup that they were kind enough to let me post here.  (The answer, as I expected, is yes.)
+
+This is a clear advance in humankind’s scientific knowledge, which is directly traceable to this blog.  I am in a good mood today.
+
+The obvious next question is to find an α>0 such that, for any n-qubit pure state, there’s some way to apply Hadamards to a subset of the qubits so as to make all 2n basis states have |amplitude| at least α. Clearly we can’t do better than α=sinn(π/8).  Montanaro and Shepherd conjecture that this is tight.
+
+What’s the motivation?  If you have to ask…
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 2: Sets
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+Cardinals, ordinals, and more.  A whole math course compressed into one handwaving lecture, and a piping-hot story that’s only a century old.
+
+================================================================================
+
+TITLE: Yau strikes back
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+Along with his law firm.  You can read his side of the Poincaré story at doctoryau.com.
+
+(Hey, passing along press releases sent to me by law firms sure is easy!  I wonder why more media outlets don’t do exactly the same thing.)
+
+================================================================================
+
+TITLE: How to rig an election
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+My friend Alex Halderman is now after bigger fish than copy-“protected” music CD’s.  Watch this video, in which he, Ed Felten, and Ariel Feldman demonstrate how to rig a Diebold voting machine (and also watch Alex show off his lock-picking skills).  Reading the group’s paper, one becomes painfully aware of a yawning cultural divide between nerds and the rest of the world.  Within the nerd universe, that voting machines need to have a verifiable paper trail, that they need to be open to inspection by researchers, etc., are points so obvious as to be scarcely worth stating.  If a company (Diebold) refuses to take these most trivial of precautions, then even without a demonstration of the sort Alex et al. provide, the presumption must be that their machines are insecure.  Now Alex et al. are trying to take what’s obvious to nerds into a universe — local election boards, the courts, etc. — that operates by entirely different rules.  Within this other universe, the burden is not on Diebold to prove its voting machines are secure; it’s on Alex et al. to prove they’re insecure.  And even if they do prove they’re insecure — well, if it weren’t for those pesky researchers telling the bad guys how to cheat, what would we have to worry about?
+
+So, how does one bridge this divide?  How does one explain the obvious to those who, were they capable of understanding it, would presumably have understood it already?  I wish I had an easy answer, but I fear there’s nothing to do but what Alex, Ed, and Ariel are doing already — namely, fight with everything you’ve got.
+
+================================================================================
+
+TITLE: PHYS771 Quantum Computing Since Democritus
+URL: https://scottaaronson.blog/?m=200609
+CONTENT:
+That, for better or worse, is the name of a course I’m teaching this semester at the University of Waterloo.  I’m going to post all of the lecture notes online, so that you too can enjoy an e-learning cyber-experience in my virtual classroom, even if you live as far away as Toronto.  I’ve already posted Lecture 1, “Atoms and the Void.”  Coming up next: Lecture 2.
+
+================================================================================
+

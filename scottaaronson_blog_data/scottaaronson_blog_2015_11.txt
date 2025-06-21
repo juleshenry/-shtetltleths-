@@ -1,0 +1,56 @@
+TITLE: Talk, be merry, and be rational
+URL: https://scottaaronson.blog/?m=201511
+CONTENT:
+Yesterday I wrote a statement on behalf of a Scott Alexander SlateStarCodex/rationalist meetup, which happened last night at MIT (in the same room where I teach my graduate class), and which I’d really wanted to attend but couldn’t.  I figured I’d share the statement here:
+
+I had been looking forward to attending tonight’s MIT SlateStarCodex meetup as I hardly ever look forward to anything. Alas, I’m now stuck in Chicago, with my flight cancelled due to snow, and with all flights for the next day booked up. But instead of continuing to be depressed about it, I’ve decided to be happy that this meetup is even happening at all—that there’s a community of people who can read, let’s say, a hypothetical debate moderator questioning Ben Carson about what it’s like to be a severed half-brain, and simply be amused, instead of silently trying to figure out who benefits from the post and which tribe the writer belongs to. (And yes, I know: the answer is the gray tribe.) And you can find this community anywhere—even in Cambridge, Massachusetts! Look, I spend a lot of time online, just getting more and more upset reading social justice debates that are full of people calling each other douchebags without even being able to state anything in the same galactic supercluster as the other side’s case. And then what gives me hope for humanity is to click over to the slatestarcodex tab, and to see all the hundreds of comments (way more than my blog gets) by people who disagree with each other but who all basically get it, who all have minds that don’t make me despair. And to realize that, when Scott Alexander calls an SSC meetup, he can fill a room just about anywhere … well, at least anywhere I would visit. So talk, be merry, and be rational.
+
+I’m now back in town, and told by people who attended the meetup that it was crowded, disorganized, and great.  And now I’m off to Harvard, to attend the other Scott A.’s talk “How To Ruin A Perfectly Good Randomized Controlled Trial.”
+
+Update (Nov. 24) Scott Alexander’s talk at Harvard last night was one of the finest talks I’ve ever attended.  He was introduced to rapturous applause as simply “the best blogger on the Internet,” and as finally an important speaker, in a talk series that had previously wasted everyone’s time with the likes of Steven Pinker and Peter Singer.  (Scott demurred that his most notable accomplishment in life was giving the talk at Harvard that he was just now giving.)  The actual content, as Scott warned from the outset, was “just” a small subset of a basic statistics course, but Scott brought each point alive with numerous recent examples, from psychiatry, pharmacology, and social sciences, where bad statistics or misinterpretations of statistics were accepted by nearly everyone and used to set policy.  (E.g., Alcoholics Anonymous groups that claimed an “over 95%” success rate, because the people who relapsed were kicked out partway through and not counted toward the total.)  Most impressively, Scott leapt immediately into the meat, ended after 20 minutes, and then spent the next two hours just taking questions.  Scott is publicity-shy, but I hope for others’ sake that video of the talk will eventually make its way online.
+
+Then, after the talk, I had the honor of meeting two fellow Boston-area rationalist bloggers, Kate Donovan and Jesse Galef.  Yes, I said “fellow”: for almost a decade, I’ve considered myself on the fringes of the “rationalist movement.”  I’d hang out a lot with skeptic/effective-altruist/transhumanist/LessWrong/OvercomingBias people (who are increasingly now SlateStarCodex people), read their blogs, listen and respond to their arguments, answer their CS theory questions.  But I was always vaguely uncomfortable identifying myself with any group that even seemed to define itself by how rational it was compared to everyone else (even if the rationalists constantly qualified their self-designation with “aspiring”!).  Also, my rationalist friends seemed overly interested in questions like how to prevent malevolent AIs from taking over the world, which I tend to think we lack the tools to make much progress on right now (though, like with many other remote possibilities, I’m happy for some people to work on them and see if they find anything interesting).
+
+So, what changed?  Well, in the debates about social justice, public shaming, etc. that have swept across the Internet these past few years, it seems to me that my rationalist friends have proven themselves able to weigh opposing arguments, examine their own shortcomings, resist groupthink and hysteria from both sides, and attack ideas rather than people, in a way that the wider society—and most depressingly to me, the “enlightened, liberal” part of society—has often failed.  In a real-world test (“real-world,” in this context, meaning social media…), the rationalists have walked the walk and rationaled the rational, and thus they’ve given me no choice but to stand up and be counted as one of them.
+
+Have a great Thanksgiving, those of you in the US!
+
+Another Update: Dana, Lily, and I had the honor of having Scott Alexander over for dinner tonight.  I found this genius of human nature, who took so much flak last year for defending me, to be completely uninterested in discussing anything related to social justice or online shaming.  Instead, his gaze was fixed on the eternal: he just wanted to grill me all evening about physics and math and epistemology.  Having recently read this Nature News article by Ron Cowen, he kept asking me things like: “you say that in quantum gravity, spacetime itself is supposed to dissolve into some sort of network of qubits.  Well then, how does each qubit know which other qubits it’s supposed to be connected to?  Are there additional qubits to specify the connectivity pattern?  If so, then doesn’t that cause an infinite regress?”  I handwaved something about AdS/CFT, where a dynamic spacetime is supposed to emerge from an ordinary quantum theory on a fixed background specified in advance.  But I added that, in some sense, he had rediscovered the whole problem of quantum gravity that’s confused everyone for almost a century: if quantum mechanics presupposes a causal structure on the qubits or whatever other objects it talks about, then how do you write down a quantum theory of the causal structures themselves?
+
+I’m sure there’s a lesson in here somewhere about what I should spend my time on.
+
+================================================================================
+
+TITLE: G.  Phi.  Fo.  Fum.
+URL: https://scottaaronson.blog/?m=201511
+CONTENT:
+Update (Dec. 14): The long wait is over!  Here’s Laci’s paper on the arXiv.  So far, I’ve read it only deeply enough to note that it contains the following sentence:
+
+A group G ≤ S(Ω) defines the category of G-isomorphisms of strings on the domain Ω; the natural notation for this category, the central object of study in this paper, would seem to be “G-Strings.”
+
+With that, I believe Laci himself has outshone even reddit’s attempt to mine his breakthrough result for juvenile humor.
+
+See also a nice Quanta article about Laci’s algorithm by Erica Klarreich.  There’s only one statement in the article that I disagree with: namely that, if graph isomorphism were inherently quasipolynomial time, then it would be the first natural example of such a problem.  We know other natural problems, like approximating free games and socially-optimal Nash equilibria, that are solvable in nO(log n) time but that can’t be in P unless 3SAT is solvable in ~exp(√n) time.
+
+Update (Nov. 17): Video of Laci’s first talk is now available.
+
+Breaking News (Nov. 12): Jeremy Kun has written up a phenomenal summary of Babai’s first lecture.  I haven’t carefully studied all of it, and in any case, there are many missing details to be filled in later (Babai told Kun that the preprint will be available “soon, soon!”).  But from the summary, four points stood out to me:
+
+Earlier today, I was tipped off to what might be the theoretical computer science result of the decade.  My source asked me not to break the news on this blog—but since other theory bloggers (and twitterers) are now covering the story, I guess the graph is out of the Babai.
+
+According to the University of Chicago’s theory seminar calendar, on Tuesday of next week (November 10), the legendary Laszlo Babai will be giving a talk about a new algorithm that solves the graph isomorphism problem in quasipolynomial time.  The previous fastest algorithm to decide whether two n-vertex graphs G and H are isomorphic—by Babai and Luks, back in 1983—ran in exp(√(n log n)) time.  If we credit the announcement, Babai has now gotten that down to exp(polylog(n)), putting one of the central problems of computer science “just barely above P.”  (For years, I’ve answered questions on this blog about the status of graph isomorphism—would I bet that it’s in BQP? in coNP? etc.—by saying that, as far as I and many others are concerned, it might as well just be in P.  Of course I’m happy to reaffirm that conjecture tonight.)
+
+Next week, I assume, Laci will lecture to a packed house; then the experts will race to unpack the details.  Until then, we probably need to sit tight; I don’t know any more than what’s in the abstract.  For now, I’m delighted if commenters want to share general thoughts or questions about graph isomorphism (and I’ll try to answer what I can), but I won’t allow uninformed speculations or rumors about the details of the new result—not until Laci has had a chance to speak.
+
+Update (Nov. 5): While we all wait with bated breath for more details, you can amuse yourself with the talk I gave at Laci’s 60th birthday conference five years ago.
+
+Also, a comment of mine that I should probably promote to the main post:
+
+Dana points out to me that non-native English speakers might not get the staggeringly clever pun in this post’s title (hey, it was the best I could do on a deadline).
+
+So, alright, fee fi fo fum is what the approaching giant bellows in Jack and the Beanstalk. It means something big is on the horizon. Also, G is a graph, and Phi is an isomorphism.
+
+Update (Nov. 12): So, Laci gave his talk. Video was made but does not appear to be available yet. However, Gabriel Gaster, who was in attendance, graciously live-tweeted everything. Here’s a Storify of the live-tweets. (What’s a “Storify”?)
+
+================================================================================
+

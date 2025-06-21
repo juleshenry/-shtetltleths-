@@ -1,0 +1,24 @@
+TITLE: The Prince of Nerds has left us
+URL: https://scottaaronson.blog/?m=201005
+CONTENT:
+
+
+================================================================================
+
+TITLE: What’s taking so long, Mr. Babbage?
+URL: https://scottaaronson.blog/?m=201005
+CONTENT:
+Recently a journalist asked me why we don’t yet have quantum computers.  Since I get that question, in some form, at least 300 times per day, I thought it might be worthwhile to collect my thoughts about it in one place.  The essay below doesn’t say anything that I and others in the field haven’t said many times before, so hardcore Shtetl-Optimized fans should probably skip it.  (Don’t worry, I’ll let y’all know when I have something new to say and am reckless enough to say it.)
+
+When people ask me why we don’t yet have quantum computers, my first response is to imagine someone asking Charles Babbage in the 1820s: “so, when are we going to get these scalable classical computers?  by 1830? or maybe 1840?”  In that case, we know that it took more than a century for the technology to catch up with the theory (and in particular, for the transistor to be invented).  More generally, we have lots of precedents for a technology being imaginable decades or even centuries before it became technologically feasible—heavier-than-air flight is another example.  So there’s nothing weird or anomalous about our current situation.The central technological obstacle to building a scalable quantum computer is well-known, and is decoherence, or unwanted interaction between the computer and its external environment.  When information about a quantum state leaks into the outside world—by any means whatsoever, intended or not—the state loses its “quantumness” and reverts to being classical.  So to do a quantum computation, it’s necessary to keep the qubits (atomic nuclei, photons, or whatever else they are) almost fanatically isolated from their environment.  But at the same time, you also need to manipulate the qubits, move them around, etc., in such a way as to carry out the computation.  Those twin requirements are the reasons why the most famous ‘success’ of practical quantum computing to date was factoring 15 into 3×5.
+
+Indeed, the problem of decoherence is so severe that you might even conjecture that building a quantum computer is impossible in principle.  However, by now people have thought pretty hard about that possibility, and have failed to find any fundamental obstacle to quantum computing.  Indeed, the starting assumption that quantum computing “must be impossible” hasn’t led to a research program with any real successes.
+
+On the positive side, by contrast, in the 1990s computer scientists and physicists developed the beautiful theory of quantum fault-tolerance, which shows that, as long as you can get the decoherence rate below a certain finite threshold (which current estimates put at somewhere around a 10-3 probability of failure per qubit per gate time), you can fix the errors caused by decoherence faster than you introduce new ones, and thereby perform an arbitrarily long quantum computation.  (I like to think of this fault-tolerance threshold as analogous to the critical mass for an atomic bomb!)  So, today there are large research efforts in two directions: on the experimental side, to push down the decoherence rate, and on the theoretical side, to find error-correction schemes that can cope with higher decoherence rates.  Hopefully those efforts will “meet in the middle” someday, and then we’ll have quantum computers!
+
+However, long before we see general-purpose quantum computers, I predict that we’ll see a proliferation of special-purpose quantum simulators—basically, quantum computers that are tailored to some specific physics, chemistry, or optimization problem.  Indeed, arguably we already have that today, in that we have plenty of many-particle entangled quantum systems (such as high temperature superconductors and quark-gluon plasmas) that we don’t know how to simulate efficiently on a classical computer.  You could think of all these systems as “quantum computers” that compute their own time evolution!  From this perspective, the challenge is “merely” to get a programmable quantum computer, one that can solve a problem of our choosing (like factoring a huge composite number).  But I can easily imagine gradual steps in that direction from what we already have over the next couple of decades.
+
+Finally, maybe it’s worth mentioning that there have already been some significant spinoffs of quantum computing in classical computer science (see here for a beautiful survey of them).  Also, as “ordinary” transistors get closer and closer to the atomic scale, I predict that ideas from quantum information science will be increasingly relevant, if only to suppress the quantum effects that the chip designers don’t want!
+
+================================================================================
+

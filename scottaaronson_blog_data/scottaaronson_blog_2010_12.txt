@@ -1,0 +1,94 @@
+TITLE: BQPOTUS (or, the Big-O)
+URL: https://scottaaronson.blog/?m=201012
+CONTENT:
+Disclaimer: The White House Office of Science and Technology Policy has asked me to clarify that, although this post will contain a photograph of me standing near the President of the United States, nothing in the post, or in Shtetl-Optimized more generally, is endorsed in any way by the White House or the President.  You know, just in case you were wondering.
+
+It’s a good thing that I chose a career in science rather than in public relations.
+
+Within one century, government-sponsored scientific research radically changed the ways that human beings exist on this planet.  Electronics are possible because of the quantum revolution of the 1920s, a revolution that many of us are still trying to understand the full implications of.  While it benefited from a government monopoly, Bell Labs was able to invent and/or commercialize the transistor, the laser, the fiber-optic cable, and the communications satellite.  (As soon as Congress opened the telecom market to competitors, Bell Labs’ capacity to innovate was permanently crippled.)  Computers, the Internet, cell phones, nuclear energy, DNA testing, and widespread vaccination are a reality today largely because of a partnership between academic scientists and their governments, in the US and elsewhere, that started in earnest during World War II and has continued to the present.
+
+I sort of imagined that, if you were reading this blog, then you knew all of that, and also knew that I knew it.  But I was mistaken.  In writing about what seemed to me like a slam-dunk issue for any thinking person—namely, protecting the 0.18% of the United States federal budget that goes to the National Science Foundation—I somehow managed to make enemies not only of the NSF’s opponents, who skewered me as an ivory-tower elitist, but also of many of its supporters, who either didn’t understand or didn’t appreciate my attempts at gallows humor.
+
+Fortunately, today I have a happy story involving the NSF.  As Lance Fortnow kindly mentioned a month ago, I had the honor of being included in this year’s PECASE (Presidential Early Career Award for Scientists and Engineers) class.  Here I followed in the footsteps of Adam Smith and Sean Hallgren, two theoretical computer scientists from Penn State (and very nice people) who won last year.  The PECASE is given for a combination of research and outreach, so there’s little doubt this blog played a role, in addition (I hope!) to the research and teaching that I sometimes do in my spare time.  There’s no money in the PECASE, just a fun trip to DC for ceremonies and a photo-op with the President.
+
+The day (last Monday) started with a ceremony in the Department of Agriculture building. There was a Color Guard, then a beautiful live performance of the national anthem, then short speeches, then a presentation of awards that resembled a high-school graduation, then a reception where they served these really nice smoked-salmon wraps, as well as chocolate truffles that were on sticks like lollipops.  The awardees’ families were all there with us, but unfortunately, only the awardees themselves were cleared to enter the White House complex for the presidential photo-op.  There was no Air Force One pickup to get to the White House: we took the Metro.  We arrived at the Eisenhower Executive Office Building, which is to the left of the White House, adjacent to the West Wing.  There were Christmas decorations all around.
+
+After going through a security check, we were ushered into a room that seemed specially designed for presidential photo-ops.  It had staggered platforms for standing on, with curtains in the background.
+
+I was allowed to bring my cellphone, but it didn’t work inside the White House.  There was a strict no-photography rule.
+
+We were called to pose for the photo in order of height: people over 6ft in the back row, then people over 5ft 10in in the next two rows, etc.  I was lucky to be short enough to land a spot in the second-to-front row.  We stood there for about fifteen minutes while waiting for the President to arrive.
+
+The organizer from the Office of Science and Technology Policy warned the women in the front row that last year, the President put his arm around them for the photo—so they should be prepared!
+
+At 1:55pm, we received word that the President would arrive at 2:05pm, and at 2pm, we received word that he was on his way over.  Finally, at 2:05 on the dot, he bounded into the room and the PECASE awardees erupted into applause.  My MIT colleague Manolis Kellis bellowed “Mr. President!”, which made the President laugh.
+
+The President looked and sounded pretty much the same as on TV.  I was happy to see that his lip looked fine.  He shook hands with everyone in the front row, assuring everyone else that they’d get a chance to shake his hand later as well.
+
+
+
+(I’m the one wearing a tie with a little drawing of the MIT Stata Center on the bottom.)
+
+The President spoke for about five minutes, while Secret Service agents stood unobtrusively in the corners of the room.  Here were his main points, as I remember them:
+
+As the rows cleared out, the President shook hands with everyone in turn.  A few people said Merry Christmas.  I just said “thank you,” and he said “thank you” back.  Then I quickly moved away, since I had a cold and was worried about giving it to him.  (Also, my hand was sweating for some reason—maybe because I was wearing a suit, which was definitely one of the more unusual aspects of the day for me!)
+
+Immediately after the photo, we were escorted out of the Eisenhower Building.  (Apparently the PECASE awardees in some previous years got a tour of the White House, but we didn’t.)
+
+Later in the afternoon, there was a reception at NSF headquarters for the 19 PECASE winners whose research was sponsored by NSF (the remaining 66 were sponsored by the National Institutes of Health, the Department of Energy, the Defense Department, NASA, or other agencies). After opening remarks by Subra Suresh, the new NSF director and previously Dean of Engineering at MIT, each of the awardees gave a 3-minute speech about his or her work. I really enjoyed listening to the other 18 talks (as for my own, I spoke too fast and probably lost people).
+
+At the risk of annoying earnestness, I’d like to thank:
+
+================================================================================
+
+TITLE: My painful lesson for the week
+URL: https://scottaaronson.blog/?m=201012
+CONTENT:
+Years ago, Sasha Razborov taught me one of my all-time favorite jokes.
+
+In the 1960s, a man starts handing out leaflets in Moscow’s Red Square.  Needless to say, he’s immediately apprehended by the KGB.  On examining the leaflets, however, the KGB agents discover that they’re just blank pieces of paper.  “What is the meaning of this?” the agents demand.
+
+“What could I write?” exclaims the man.  “It’s so obvious!”
+
+The lesson I’ve learned this week is that the man was wrong.  In politics, nothing is ever too obvious.
+
+================================================================================
+
+TITLE: Alex Halderman, and India’s assault on academic freedom
+URL: https://scottaaronson.blog/?m=201012
+CONTENT:
+Five years ago, not long after the founding of Shtetl-Optimized, I blogged about Alex Halderman: my best friend since seventh grade at Newtown Junior High School, now a famous security researcher and a computer science professor at the University of Michigan, and someone whose exploits seem to be worrying at least one government as much as Julian Assange’s.
+
+In the past, Alex has demonstrated the futility of copy-protection schemes for music CDs, helped force the state of California to change its standards for electronic voting machines, and led a spectacular attack against an Internet voting pilot in Washington DC.  But Alex’s latest project is probably his most important and politically-riskiest yet.  Alex, Hari Prasad of India, and Rop Gonggrijp of the Netherlands demonstrated massive security problems with electronic voting machines in India (which are used by about 400 million people in each election, making them the most widely-used voting system on earth).  As a result of this work, Hari was arrested in his home and jailed by the Indian authorities, who threatened not to release him until he revealed the source of the voting machine that he, Alex, and Rop had analyzed.  After finally being released by a sympathetic judge, Hari flew to the United States, where he received the Electronic Frontier Foundation’s 2010 Pioneer Award.  I had the honor of meeting Hari at MIT during his and Alex’s subsequent US lecture tour.
+
+But the story continues.  Earlier this week, after flying into India to give a talk at the International Conference on Information Systems Security (ICISS’2010) in Gandhinagar, Alex and Rop were detained at the New Delhi airport and threatened with deportation from India.  No explanation was given, even though the story became front-page news in India.  Finally, after refusing to board planes out of New Delhi without being given a reason in writing for their deportation, Alex and Rop were allowed to enter India, but only on the condition that they did so as “tourists.”  In particular, they were banned from presenting their research on electronic voting machines, and the relevant conference session was cancelled.
+
+To those in the Indian government responsible for the harassment of Alex Halderman and Rop Gonggrijp and (more seriously) the imprisonment of Hari Prasad: shame on you!  And to Alex, Hari, and Rop: let the well-wishes of this blog be like a small, nerdy wind beneath your wings.
+
+================================================================================
+
+TITLE: QCut
+URL: https://scottaaronson.blog/?m=201012
+CONTENT:
+WARNING: This post makes (what turned out in retrospect to be) advanced use of sarcasm, irony, and absurdism.  Indeed, even after I added a disclaimer explaining the sarcasm, many commenters still responded as if I actually favored gutting the National Science Foundation.  (Unless, of course, those commenters were also being sarcastic—in which case, touche!)
+
+The confusion is completely my fault.  When I write a post, I have in my mind a reader who’s read this blog for a while, and knows that obviously I don’t favor gutting the fraction of a percentage of the Federal budget devoted to the progress of human understanding and American leadership thereof; obviously the NSF wastes plenty of money, but if it didn’t, then it would be doing a terrible job, because research is all about trying stuff that has a good chance of failure; obviously if you were seriously looking for waste, you could find orders of magnitude more of it in the military and elsewhere.  So then the only remaining question is: how can we best have fun with a disgusting and contemptible situation?  I forgot how many people come to this blog not having any idea who I am or why I’m writing—and for that, I sincerely apologize.
+
+Now, if you’d like a sarcasm-detection challenge, I did leave lots of hints in the following post that I didn’t actually agree with Congressman Smith.  See how many of them you can find!
+
+As some of you may have heard, the incoming Republican majority in Congress has a new initiative called YouCut, which lets ordinary Americans like me propose government programs for termination.  So imagine how excited I was to learn that YouCut’s first target—yes, its first target—was that notoriously bloated white elephant, the National Science Foundation.  Admittedly, I’ve already tried to save NSF from some wasteful expenditures, in my occasional role as an NSF panel member.  But this is my first chance to join in as a plain US citizen.
+
+In a video explaining the new initiative, Congressman Adrian Smith concedes that the NSF supports “worthy research in the hard sciences,” but then gives two examples of NSF grants that strike him as wasteful: one involving collaboration among soccer players, the other involving modeling the sound of breaking objects.  This article gives some more detail about the projects in question.
+
+While I can’t wait to participate, I have a few questions before I start:
+
+Let me end this post with a request: I want all of my readers to visit the YouCut page, and propose that quantum computing and theoretical computer science research be completely eliminated.  Here’s my own CAREER Award; go ahead and cite it by number as a particularly egregious example of government waste.
+
+See, I’m hungry for the honor (not to mention the free publicity) of seeing my own favorite research topics attacked on the floor of the House.  As we all know, it’s child’s play to make fun of theoretical computer science: its abstruseness, its obvious irrelevance to national goals—however infinitesimal the cost is compared to (say) corn subsidies or defense contracts for stuff the military doesn’t want, however gargantuan the payoffs of such research have been in the past.  So what are Reps. Eric Cantor and Adrian Smith waiting for?  I dare them to do it!
+
+Obviously, though, before the House Republicans end American participation in theoretical computer science, they’ll want to familiarize themselves with what our tiny little field actually is.  To that end, let me humbly offer the links on the sidebar to the right as one place to get started.
+
+Update (12/18):  When a friend read this post, his first reaction was that the sarcasm would be lost on most readers.  I didn’t believe him.  See, I exist in a frame of reference wherein, when the mob shows up at your house with torches, you don’t argue with them.  Instead you say: “Oh, so you’re the ones here to burn me?  Then please, let’s get started!  There’s plenty of flammable fat around my torso area.  Do you prefer rare, medium, or well done?”  That way, at least history will record you as having gone down with your middle finger proudly aloft, rather than cowering in a corner.  However, it’s now obvious that my friend was right.  So, for the literal-minded: I think reacting to our country’s debt crisis by looking for NSF grants to ridicule is a really terrible idea, for reasons that are so self-evident I’ll simply provide some blank space for you to fill them in yourself: _______________________________.   And, having devoted my whole career to quantum computing and theoretical computer science research, I don’t wish to see them eliminated.  On the other hand, if science in United States were going to be dismantled (which, despite the efforts of some politicians, I don’t think it will be), then I’d consider it an honor for theoretical computer science to be the first in the crosshairs.
+
+================================================================================
+

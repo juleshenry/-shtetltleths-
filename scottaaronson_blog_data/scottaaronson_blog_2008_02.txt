@@ -1,0 +1,81 @@
+TITLE: Sourkatz
+URL: https://scottaaronson.blog/?m=200802
+CONTENT:
+A reader named Hernan asked me for my opinion of a well-known rant by Jonathan Katz of Washington University, about why young people shouldn’t go into academic science since there are so few jobs and the jobs that there are stink anyway.  I posted my response in the comments section, but since it seems to be of general interest I thought I’d make a proper entry of it.
+
+Katz is correct that opportunities in academic science (at least in the US) are much scarcer than they were during the Cold War; I think government shortsightedness deserves a huge part of the blame for that. On the other hand, countless would-be grad students have already followed the invisible hand and taken Katz’s advice, and are doing quite well in Wall Street, Silicon Valley, etc. So the ones going to grad school are mostly the ones willing to assume the (by now well-known) risks: if they weren’t, they wouldn’t be there.
+
+My fundamental disagreement with Katz is that I think PhD work is increasingly excellent preparation for industry careers. Of course, in some cases (e.g. a quantum computing PhD going to work for an Internet startup), it’s hard to argue that the PhD provides much beyond general skills like analytical thinking, teamwork, project completion, etc., and that those skills couldn’t just as well be obtained elsewhere. But even in those cases, I think a PhD at least won’t hurt your chances in industry these days (notwithstanding Phil Greenspun’s PhD expunging service).  So what the PhD does is to give many people an opportunity to spend six years advancing human knowledge and doing something they enjoy, before switching to something that’s actually rewarded by the economy. (One corollary is that, if you’re not enjoying grad school, then you shouldn’t be there. But this is just an instance of a general rule: don’t choose a career option that causes you years of suffering in the hope that the suffering will end later; it probably won’t.)
+
+Furthermore, if there used to be a stigma attached to leaving grad school for industry, I think that’s basically vanished, and that now many PhD programs even see training students for industry as a fundamental part of their mission.
+
+I can’t comment on the rest of Katz’s complaints (the need for conformity, the burden of writing grant proposals, etc.), except to say that so far, my own experience has been more positive.  Maybe the worst is ahead!
+
+Incidentally, my comments apply most clearly to computer science PhD programs, which are what I’m most familiar with, but I believe they also apply to physics and other sciences. As for humanities PhD’s … dude, you’re on your own.
+
+
+
+================================================================================
+
+TITLE: The Nerderer
+URL: https://scottaaronson.blog/?m=200802
+CONTENT:
+Alas, this weekend I became engrossed by the “OJ Simpson trial for nerds”: the ongoing trial of Hans Reiser (the famous Linux file system developer and supposedly-brilliant high-school accelerant) for the murder of his ex-wife Nina.  What makes the case interesting is that Reiser’s defense largely consists of the claim that he was too nerdy and Aspbergerish, too lacking in basic social skills, to realize that doing innocuous things in the weeks following Nina’s disappearance like
+
+might lead non-nerds to suspect he was guilty.
+
+Like the “Twinkie defense,” Reiser’s “nerd defense” is an invitation to parody.  But my feeling is that in this case, even the “nerd” characterization of Reiser itself is open to question.  For one thing, Reiser has a blackbelt in judo and appears to have been obsessed with cultivating physical aggressiveness, both in himself and in his eight-year-old son.  For another, it seems the reason he was able to attract Nina in the first place was his swaggering confidence.  So while portraying Reiser as a nerdy nebbish might be convenient both for journalists and for Reiser’s defense team, he seems to me to be much closer to an aggressive narcissist.
+
+(Of course that doesn’t imply he’s guilty.  But I have to say that, thus far in the trial, Reiser and his defense lawyer have done an excellent job of convincing me that he is.  Certainly the defense theory — that in an elaborate frame-up of Hans, Nina suddenly abandoned her two children, friends, and new job, left her car by the side of the road with the groceries to rot in the back, and went into hiding in an unspecified former Soviet state with a fake identity and passport — is difficult for a sane person to accept.  And unfortunately for Hans, the fact that Nina was far from a perfect specimen of humanity — sleeping with Hans’s best friend, embezzling his company’s money, and divorcing him as soon as she got her US citizenship — only adds to the prima facie likelihood that her body is currently rotting somewhere in the Sierra Nevadas.)
+
+On the other hand, Reiser was certainly wise to hide his hard disks rather than relying on disk encryption.  For this week a team of nine researchers at Princeton and elsewhere — including my friends Alex Halderman and Nadia Heninger — released a paper showing how to take a DRAM chip out of one computer, put it into another computer, and read its contents even though the chip had no power in the interim.  (One hint: use canned-air spray dusters as a cheap alternative to liquid nitrogen for “cryopreserving” the chip.)  The story made it to the Science Times, although they failed to mention most of the authors by name.
+
+But, you ask, how else have I been procrastinating this weekend?  Ah.  Peter Woit links to a remarkable set of oral histories from people who were involved with the Princeton math department in the 1930’s.  Read Alonzo Church (he of the Church-Turing Thesis) list his graduate students and forget to mention Alan Turing, and Nathan Jacobson talk about the disgusting food that Mrs. Einstein would bring to department receptions.  In the midst of possibly the greatest concentration of intellect the world has ever seen or will see, and on the eve of perhaps the greatest calamity the world has ever seen, what is it that people worried about?  The oak paneling in Fine Hall, and other trivialities completely different from the sorts of things we academics would worry about today.
+
+Oh right: at the behest of you, my loyal readers, I’m now more than halfway through Vernor Vinge’s A Fire Upon The Deep, an entertaining novel that depicts a far future with malevolent AI beings, faster-than-light travel, and (possibly the nerdiest science-fiction premise of all time) Usenet newsgroups spanning the galaxy, whose flamewars play a major role in the rise and fall of civilizations.  Vinge’s estimate of how much longer Usenet would stay relevant was off by a factor of only about 10,000.
+
+================================================================================
+
+TITLE: Scientific American article is out!
+URL: https://scottaaronson.blog/?m=200802
+CONTENT:
+After three years of procrastination and delays, my 8-page feature article on “The Limits of Quantum Computers” has finally appeared in the March issue of Scientific American. Once I get permission, I’ll post a plain-text version on my website. In the meantime, you can buy the online issue for US$5.00 from SciAm‘s website, in which case you get colorful sidebars and graphics (including a bearded, white-lab-coated cartoon scientist holding quantum computers and complexity class inclusion diagrams), as well as an interview with Jeff Kimble about the unfortunate movie “Jumper”, and other articles about “the end of cosmology”, prediction markets (Robin Hanson and his “futarchy” get a mention), and the disastrous overfishing of the bluefin tuna (the kind used for toro sushi).
+
+Update (2/18): By popular demand, I’m posting a rough early draft (PDF) of my article online.  Read at your own risk!
+
+So, what was it like to write for Scientific American?  Exhausting, excruciating, and ultimately worth it.  As a general rule, SciAm (probably like all large-circulation magazines) rewrites articles so extensively that the person listed in the byline is less the “writer” than the “content consultant.”  Almost every sentence in my article bears the scars of battle (some that I won, more that I didn’t).  Yet I have to concede that, when something was really cringe-inducingly wrong, SciAm was willing to listen and make changes — and besides, they did a great job with the cartoons.  I’m happy with the end result.  Thanks to George Musser, the editor who solicited the article and gave me lots of feedback in the early stages, and to Graham Collins, who finally saw it into print.
+
+A few specific comments for your amusement:
+
+During the hairiest parts of editing process, I was reminded of a passage in Anita and Solomon Feferman’s biography of the great logician Alfred Tarski, which described Tarski’s writing of an article for Scientific American (the only popular article he ever wrote).
+
+Usually the Scientific American articles are heavily edited; many are rewriteen and some even ghostwritten, but Wisnovsky [Tarski’s editor] knew better than to tamper with Tarski’s work and did not — except for his usage of ‘which’ and ‘that’.  It seemed to him that Tarski did a 180-degree reversal of these words, so he changed every ‘which’ to ‘that’ and every ‘that’ to ‘which’ and sent the proofs to Tarski, who changed everything back to the way it had been.  Wisnovsky got out Fowler’s Dictionary of Modern English Usage, the house bible, and called Tarski on the telephone.  “I asked if I could read him the relevant passage on ‘that’ and ‘which’ and he said, ‘yes’.  It goes on for pages, but he listened very patiently until I finished.  Then he said, ‘Well, you see, that is Fowler.  I am Tarski.’  The minute he said that I caved in.  I felt cut off at the knees and I gave up trying to make any changes at all.”
+
+Yet, while the “Tarski approach” to magazine writing is a tempting one, here’s the final irony.  I looked up Tarski’s actual article from 1969, and it badly needed an editor.
+
+
+
+================================================================================
+
+TITLE: Great Ideas In Theoretical Computer Science Lecture 1
+URL: https://scottaaronson.blog/?m=200802
+CONTENT:
+For those who’ve stopped following the Democritus series, there’s another train leaving the station today: the first lecture of my new undergraduate course (“Great Ideas In Theoretical Computer Science”) is now available.
+
+After whetting the appetite by describing how theoretical computer science has finally let humankind achieve one of its noblest aspirations (playing roulette over the Internet), the lecture then goes back to antiquity, and covers the hottest results in the computing world circa 300BC: Euclid’s GCD algorithm and the “straightedge-and-compass” model of computation.
+
+(One word of warning: the lecture notes were written by my teaching assistant, Yinmeng Zhang, and do not faithfully reflect what I said in class. They’re much better than what I said in class.   She even had the gall to improve my jokes.)
+
+To preempt the inevitable questions, two remarks about the course’s title:
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 12: Proof
+URL: https://scottaaronson.blog/?m=200802
+CONTENT:
+After a ten-month hiatus, the Quantum Computing Since Democritus series sheepishly returns with Lecture 12, which explores how, over the past couple of decades, theoretical computer scientists have bent, twisted, and kneaded the concept of mathematical proof into strange and barely-recognizable forms.  Read about proofs that don’t impart any knowledge beyond their own validity, proofs you can check by examining a few random symbols, and (for those who already know that stuff) proofs that certain interpretations of quantum mechanics would predict you can see over the course of your life, yet can’t hold in your mind at any individual time.
+
+I apologize if this lecture isn’t as polished as some earlier ones — but while I’m working on this, I’m now also teaching a new course at MIT, 6.080/6.089 Great Ideas in Theoretical Computer Science.  Barring unforeseen delays, the lecture notes for that course should be available by 2043.
+
+================================================================================
+

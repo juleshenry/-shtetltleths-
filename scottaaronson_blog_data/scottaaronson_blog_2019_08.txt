@@ -1,0 +1,29 @@
+TITLE: A nerdocratic oath
+URL: https://scottaaronson.blog/?m=201908
+CONTENT:
+Recently, my Facebook wall was full of discussion about instituting an oath for STEM workers, analogous to the Hippocratic oath for doctors.  Perhaps some of the motivation for this comes from a worldview I can’t get behind—one that holds STEM nerds almost uniquely responsible for the world’s evils.  Nevertheless, on reflection, I find myself in broad support of the idea.
+
+But I prefer writing the oath myself.  Here’s my attempt:
+
+1. I will never allow anyone else to make me a cog.  I will never do what is stupid or horrible because “that’s what the regulations say” or “that’s what my supervisor said,” and then sleep soundly at night.  I’ll never do my part for a project unless I’m satisfied that the project’s broader goals are, at worst, morally neutral.  There’s no one on earth who gets to say: “I just solve technical problems.  Moral implications are outside my scope.”
+
+2. If I build or supply tools that are used to do evil or cause suffering, I’ll be horrified as soon as I learn about it.  Yes, I might judge that the good of the tools outweighs the bad, that the bad can’t be prevented, etc.  But I’ll be hyper-alert to the possibility of self-serving bias in such reflections, and will choose a different course of action whenever the reflections are no longer persuasive to my highest self.
+
+3. I will pursue the truth, and hold the sharing of truth and exposing of falsehoods among my highest moral values.
+
+4. I will make a stink, resign, leak to the press, sabotage, rather than go along quietly with decisions inimical to my values.
+
+5. I will put everything on the line for my students, advisees, employees—my time, funds, reputation, and credibility.  And not only because it can somewhat make up for failings in the other areas.
+
+6. Black, white, male, female, trans, gay, straight, Israeli, Palestinian, young, old.  Whatever ideologies I might subscribe to about which groups are advantaged and which disadvantaged in which aspects of life—when it comes time to interact with a person, I will throw ideology into the ocean and treat them solely as an individual, not as a representative of a group.
+
+7. I will not be Jeffrey Epstein—and not just in the narrow sense of not collecting underage girls on a private sex island.  I’ll see myself always as accountable to the moral judgment of history.  Whenever I’m publicly accused of wrongdoing, I’ll consider only two options: (a) if guilty, then confess, offer restitution, beg for forgiveness, or (b) if innocent, then mount a full public defense.  Finding some escape that avoids the need for either of these—from legal maneuvering to suicide—will never be on the table for me.
+
+8. I’m under no obligation to blog or tweet every detail of my private life.  Yet even in my most private moments, I’ll act in such a way that, if my actions were made public, I’d have a defense of which I was unashamed.
+
+9. To whatever extent I was gifted at birth with a greater-than-average ability to prove theorems or write code or whatever, I’ll treat it as just that—a gift, which I didn’t earn or deserve.  It doesn’t make me inherently worthier than anyone else, but it does give me a moral obligation to use the gift for good.  And whenever I’m tempted to be jealous of various non-nerds—of their ease in social or romantic situations, wealth, looks, power, athletic ability, or anything else about them—I’ll remember the gift, and that all in all, I made out better than I had a right to expect.
+
+10. I’ll be conscious always of living in a universe where catastrophes—genocides, destructions of civilizations, extinctions of magnificent species—have happened and will happen again.  The burning of the Amazon, the deaths of children, the bleaching of coral reefs, will weigh on me daily, to the maximum extent consistent with being able to get out of bed in the morning, live, and work.  While it’s not obvious that any of these problems are open to a STEM-nerd solution, of the sort I could plausibly think of or implement—nevertheless, I’ll keep asking myself whether any of them are.  And if I ever do find myself before one of the levers of history, I’ll pull with all my strength to try to prevent these catastrophes.
+
+================================================================================
+

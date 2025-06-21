@@ -1,0 +1,151 @@
+TITLE: Happy 40th Birthday Dana!
+URL: https://scottaaronson.blog/?m=202212
+CONTENT:
+The following is what I read at Dana’s 40th birthday party last night.  Don’t worry, it’s being posted with her approval. –SA
+
+I’d like to propose a toast to Dana, my wife and mother of my two kids.  My dad, a former speechwriter, would advise me to just crack a few jokes and then sit down … but my dad’s not here.
+
+So instead I’ll tell you a bit about Dana.  She grew up in Tel Aviv, finishing her undergraduate CS degree at age 17—before she joined the army.  I met her when I was a new professor at MIT and she was a postdoc in Princeton, and we’d go to many of the same conferences.  At one of those conferences, in Princeton, she finally figured out that my weird, creepy, awkward attempts to make conversation with her were, in actuality, me asking her out … at least in my mind!  So, after I’d returned to Boston, she then emailed me for days, just one email after the next, explaining everything that was wrong with me and all the reasons why we could never date.  Despite my general obliviousness in such matters, at some point I wrote back, “Dana, the absolute value of your feelings for me seems perfect.  Now all I need to do is flip the sign!”
+
+Anyway, the very next weekend, I took the Amtrak back to Princeton at her invitation.  That weekend is when we started dating, and it’s also when I introduced her to my family, and when she and I planned out the logistics of getting married.
+
+Dana and her family had been sure that she’d return to Israel after her postdoc.  She made a huge sacrifice in staying here in the US for me.  And that’s not even mentioning the sacrifice to her career that came with two very difficult pregnancies that produced our two very diffic … I mean, our two perfect and beautiful children.
+
+Truth be told, I haven’t always been the best husband, or the most patient or the most grateful.  I’ve constantly gotten frustrated and upset, extremely so, about all the things in our life that aren’t going well.  But preparing the slideshow tonight, I had a little epiphany.  I had a few photos from the first two-thirds of Dana’s life, but of course, I mostly had the last third.  But what’s even happened in that last third?  She today feels like she might be close to a breakthrough on the Unique Games Conjecture.  But 13 years ago, she felt exactly the same way.  She even looks the same!
+
+So, what even happened?
+
+Well OK, fine, there was my and Dana’s first trip to California, a month after we started dating.  Our first conference together.  Our trip to Vegas and the Grand Canyon.  Our first trip to Israel to meet her parents, who I think are finally now close to accepting me.  Her parents’ trip to New Hope, Pennsylvania to meet my parents.  Our wedding in Tel Aviv—the rabbi rushing through the entire ceremony in 7 minutes because he needed to get home to his kids.  Our honeymoon safari in Kenya.  Lily’s birth.  Our trip to Israel with baby Lily, where we introduced Lily to Dana’s grandmother Rivka, an Auschwitz survivor, just a few months before Rivka passed away. Taking Lily to run around Harvard Yard with our Boston friends, Lily losing her beloved doll Tuza there, then finding Tuza the next day after multiple Harvard staff had been engaged in the quest.  There’s me and Dana eating acai bowls in Rio de Janeiro, getting a personal tour of the LHC in Switzerland, with kangaroos and koalas in Australia. There’s our house here in Austin.  Oh, and here are all our Austin friends!  Our trip to Disney World with Lily, while Dana was pregnant with Daniel (she did ride one rollercoaster).  Daniel’s birth, which to my relief, went well despite the rollercoaster.  Our sabbatical year in Israel.  The birth of our nephews.
+
+I confess I teared up a little going through all this.  Because it’s like: if you showed all these photos to some third party, they’d probably be like, wow, that looks like a pretty good life.  Even if you showed the photos to my 17-year-old self, I’d be like, OK, no need to roll the dice again, I’ll take that life.  I’m not talking about what’s happened with the world—climate change or COVID or the insurrection or anything like that.  But the part with the beautiful Israeli complexity theorist wife, who’s also caring and unbreakable in her moral convictions?  Yes.
+
+So, thank you and a very happy birthday to the one who’s given me all this!
+
+And lastly, because it seems almost obligatory: I did feed everything I said just now into GPT (I won’t specify which version), and asked it to write Dana a special GPT birthday poem.  Here’s what it came up with:
+
+From Tel Aviv to Princeton,You’ve traveled near and far,A brilliant computer scientist,A shining, guiding star.
+
+You’ve made so many sacrifices,For family and for love,But your light shines through the darkness,And fits me like a glove.
+
+We’ve shared so many moments,Too many to recount,But each one is a treasure,Each memory paramount.
+
+So happy birthday, Dana,You deserve the very best,I’m grateful for your presence,And feel so truly blessed.
+
+Addendum: Speaking of GPT, should it and other Large Language Models be connected to the Internet and your computer’s filesystem and empowered to take actions directly, with reinforcement learning pushing it to achieve the user’s goals?
+
+On the negative side, some of my friends worry that this sort of thing might help an unaligned superintelligence to destroy the world.
+
+But on the positive side, at Dana’s birthday party, I could’ve just told the computer, “please display these photos in a slideshow rotation while also rotating among these songs,” and not wasted part of the night messing around with media apps that befuddle and defeat me as a mere CS PhD.
+
+I find it extremely hard to balance these considerations.
+
+Anyway, happy birthday Dana!
+
+================================================================================
+
+TITLE: Short letter to my 11-year-old self
+URL: https://scottaaronson.blog/?m=202212
+CONTENT:
+Dear Scott,
+
+This is you, from 30 years in the future, Christmas Eve 2022.  Your Ghost of Christmas Future.
+
+To get this out of the way: you eventually become a professor who works on quantum computing.  Quantum computing is … OK, you know the stuff in popular physics books that never makes any sense, about how a particle takes all the possible paths at once to get from point A to point B, but you never actually see it do that, because as soon as you look, it only takes one path?  Turns out, there’s something huge there, even though the popular books totally botch the explanation of it.  It involves complex numbers.  A quantum computer is a new kind of computer people are trying to build, based on the true story.
+
+Anyway, amazing stuff, but you’ll learn about it in a few years anyway.  That’s not what I’m writing about.
+
+I’m writing from a future that … where to start?  I could describe it in ways that sound depressing and even boring, or I could also say things you won’t believe.  Tiny devices in everyone’s pockets with the instant ability to videolink with anyone anywhere, or call up any of the world’s information, have become so familiar as to be taken for granted.  This sort of connectivity would come in especially handy if, say, a supervirus from China were to ravage the world, and people had to hide in their houses for a year, wouldn’t it?
+
+Or what if Donald Trump — you know, the guy who puts his name in giant gold letters in Atlantic City? — became the President of the US, then tried to execute a fascist coup and to abolish the Constitution, and came within a hair of succeeding?
+
+Alright, I was pulling your leg with that last one … obviously!  But what about this next one?
+
+There’s a company building an AI that fills giant rooms, eats a town’s worth of electricity, and has recently gained an astounding ability to converse like people.  It can write essays or poetry on any topic.  It can ace college-level exams.  It’s daily gaining new capabilities that the engineers who tend to the AI can’t even talk about in public yet.  Those engineers do, however, sit in the company cafeteria and debate the meaning of what they’re creating.  What will it learn to do next week?  Which jobs might it render obsolete?  Should they slow down or stop, so as not to tickle the tail of the dragon?  But wouldn’t that mean someone else, probably someone with less scruples, would wake the dragon first?  Is there an ethical obligation to tell the world more about this?  Is there an obligation to tell it less?
+
+I am—you are—spending a year working at that company.  My job—your job—is to develop a mathematical theory of how to prevent the AI and its successors from wreaking havoc.  Where “wreaking havoc” could mean anything from turbocharging propaganda and academic cheating, to dispensing bioterrorism advice, to, yes, destroying the world.
+
+You know how you, 11-year-old Scott, set out to write a QBasic program to converse with the user while following Asimov’s Three Laws of Robotics?  You know how you quickly got stuck?  Thirty years later, imagine everything’s come full circle.  You’re back to the same problem.  You’re still stuck.
+
+Oh all right.  Maybe I’m just pulling your leg again … like with the Trump thing.  Maybe you can tell because of all the recycled science fiction tropes in this story.  Reality would have more imagination than this, wouldn’t it?
+
+But supposing not, what would you want me to do in such a situation?  Don’t worry, I’m not going to take an 11-year-old’s advice without thinking it over first, without bringing to bear whatever I know that you don’t.  But you can look at the situation with fresh eyes, without the 30 intervening years that render it familiar.  Help me.  Throw me a frickin’ bone here (don’t worry, in five more years you’ll understand the reference).
+
+Thanks!!—Scott
+
+PS. When something called “bitcoin” comes along, invest your life savings in it, hold for a decade, and then sell.
+
+PPS. About the bullies, and girls, and dating … I could tell you things that would help you figure it out a full decade earlier.  If I did, though, you’d almost certainly marry someone else and have a different family.  And, see, I’m sort of committed to the family that I have now.  And yeah, I know, the mere act of my sending this letter will presumably cause a butterfly effect and change everything anyway, yada yada.  Even so, I feel like I owe it to my current kids to maximize their probability of being born.  Sorry, bud!
+
+================================================================================
+
+TITLE: Google’s Sycamore chip: no wormholes, no superfast classical simulation either
+URL: https://scottaaronson.blog/?m=202212
+CONTENT:
+Update (Dec. 6): I’m having a blast at the Workshop on Spacetime and Quantum Information at the Institute for Advanced Study in Princeton.  I’m learning a huge amount from the talks and discussions here—and also simply enjoying being back in Princeton, to see old friends and visit old haunts like the Bent Spoon.  Tomorrow I’ll speak about my recent work with Jason Pollack on polynomial-time AdS bulk reconstruction. [New: click here for video of my talk!]
+
+But there’s one thing, relevant to this post, that I can’t let pass without comment.  Tonight, David Nirenberg, Director of the IAS and a medieval historian, gave an after-dinner speech to our workshop, centered around how auspicious it was that the workshop was being held a mere week after the momentous announcement of a holographic wormhole on a microchip (!!)—a feat that experts were calling the first-ever laboratory investigation of quantum gravity, and a new frontier for experimental physics itself.  Nirenberg asked whether, a century from now, people might look back on the wormhole achievement as today we look back on Eddington’s 1919 eclipse observations providing the evidence for general relativity.
+
+I confess: this was the first time I felt visceral anger, rather than mere bemusement, over this wormhole affair.  Before, I had implicitly assumed: no one was actually hoodwinked by this.  No one really, literally believed that this little 9-qubit simulation opened up a wormhole, or helped prove the holographic nature of the real universe, or anything like that.  I was wrong.
+
+To be clear, I don’t blame Professor Nirenberg at all.  If I were a medieval historian, everything he said about the experiment’s historic significance might strike me as perfectly valid inferences from what I’d read in the press.  I don’t blame the It from Qubit community—most of which, I can report, was grinding its teeth and turning red in the face right alongside me.  I don’t even blame most of the authors of the wormhole paper, such as Daniel Jafferis, who gave a perfectly sober, reasonable, technical talk at the workshop about how he and others managed to compress a simulation of a variant of the SYK model into a mere 9 qubits—a talk that eschewed all claims of historic significance and of literal wormhole creation.
+
+But it’s now clear to me that, between
+
+(1) the It from Qubit community that likes to explore speculative ideas like holographic wormholes, and
+
+(2) the lay news readers who are now under the impression that Google just did one of the greatest physics experiments of all time,
+
+something went terribly wrong—something that risks damaging trust in the scientific process itself.  And I think it’s worth reflecting on what we can do to prevent it from happening again.
+
+This is going to be one of the many Shtetl-Optimized posts that I didn’t feel like writing, but was given no choice but to write.
+
+News, social media, and my inbox have been abuzz with two claims about Google’s Sycamore quantum processor, the one that now has 72 superconducting qubits.
+
+The first claim is that Sycamore created a wormhole (!)—a historic feat possible only with a quantum computer.  See for example the New York Times and Quanta and Ars Technica and Nature (and of course, the actual paper), as well as Peter Woit’s blog and Chad Orzel’s blog.
+
+The second claim is that Sycamore’s pretensions to quantum supremacy have been refuted.  The latter claim is based on this recent preprint by Dorit Aharonov, Xun Gao, Zeph Landau, Yunchao Liu, and Umesh Vazirani.  No one—least of all me!—doubts that these authors have proved a strong new technical result, solving a significant open problem in the theory of noisy random circuit sampling.  On the other hand, it might be less obvious how to interpret their result and put it in context.  See also a YouTube video of Yunchao speaking about the new result at this week’s Simons Institute Quantum Colloquium, and of a panel discussion afterwards, where Yunchao, Umesh Vazirani, Adam Bouland, Sergio Boixo, and your humble blogger discuss what it means.
+
+On their face, the two claims about Sycamore might seem to be in tension.  After all, if Sycamore can’t do anything beyond what a classical computer can do, then how exactly did it bend the topology of spacetime?
+
+I submit that neither claim is true.  On the one hand, Sycamore did not “create a wormhole.”  On the other hand, it remains pretty hard to simulate with a classical computer, as far as anyone knows.  To summarize, then, our knowledge of what Sycamore can and can’t do remains much the same as last week or last month!
+
+Let’s start with the wormhole thing.  I can’t really improve over how I put it in Dennis Overbye’s NYT piece:
+
+“The most important thing I’d want New York Times readers to understand is this,” Scott Aaronson, a quantum computing expert at the University of Texas in Austin, wrote in an email. “If this experiment has brought a wormhole into actual physical existence, then a strong case could be made that you, too, bring a wormhole into actual physical existence every time you sketch one with pen and paper.”
+
+More broadly, Overbye’s NYT piece explains with admirable clarity what this experiment did and didn’t do—leaving only the question “wait … if that’s all that’s going on here, then why is it being written up in the NYT??”  This is a rare case where, in my opinion, the NYT did a much better job than Quanta, which unequivocally accepted and amplified the “QC creates a wormhole” framing.
+
+Alright, but what’s the actual basis for the “QC creates a wormhole” claim, for those who don’t want to leave this blog to read about it?  Well, the authors used 9 of Sycamore’s 72 qubits to do a crude simulation of something called the SYK (Sachdev-Ye-Kitaev) model.  SYK has become popular as a toy model for quantum gravity.  In particular, it has a holographic dual description, which can indeed involve a spacetime with one or more wormholes.  So, they ran a quantum circuit that crudely modelled the SYK dual of a scenario with information sent through a wormhole.  They then confirmed that the circuit did what it was supposed to do—i.e., what they’d already classically calculated that it would do.
+
+So, the objection is obvious: if someone simulates a black hole on their classical computer, they don’t say they thereby “created a black hole.”  Or if they do, journalists don’t uncritically repeat the claim.  Why should the standards be different just because we’re talking about a quantum computer rather than a classical one?
+
+Did we at least learn anything new about SYK wormholes from the simulation?  Alas, not really, because 9 qubits take a mere 29=512 complex numbers to specify their wavefunction, and are therefore trivial to simulate on a laptop.  There’s some argument in the paper that, if the simulation were scaled up to (say) 100 qubits, then maybe we would learn something new about SYK.  Even then, however, we’d mostly learn about certain corrections that arise because the simulation was being done with “only” n=100 qubits, rather than in the n→∞ limit where SYK is rigorously understood.  But while those corrections, arising when n is “neither too large nor too small,” would surely be interesting to specialists, they’d have no obvious bearing on the prospects for creating real physical wormholes in our universe.
+
+And yet, this is not a sensationalistic misunderstanding invented by journalists.  Some prominent quantum gravity theorists themselves—including some of my close friends and collaborators—persist in talking about the simulated SYK wormhole as “actually being” a wormhole.  What are they thinking?
+
+Daniel Harlow explained the thinking to me as follows (he stresses that he’s explaining it, not necessarily endorsing it).  If you had two entangled quantum computers, one on Earth and the other in the Andromeda galaxy, and if they were both simulating SYK, and if Alice on Earth and Bob in Andromeda both uploaded their own brains into their respective quantum simulations, then it seems possible that the simulated Alice and Bob could have the experience of jumping into a wormhole and meeting each other in the middle.  Granted, they couldn’t get a message back out from the wormhole, at least not without “going the long way,” which could happen only at the speed of light—so only simulated-Alice and simulated-Bob themselves could ever test this prediction.  Nevertheless, if true, I suppose some would treat it as grounds for regarding a quantum simulation of SYK as “more real” or “more wormholey” than a classical simulation.
+
+Of course, this scenario depends on strong assumptions not merely about quantum gravity, but also about the metaphysics of consciousness!  And I’d still prefer to call it a simulated wormhole for simulated people.
+
+For completeness, here’s Harlow’s passage from the NYT article:
+
+Daniel Harlow, a physicist at M.I.T. who was not involved in the experiment, noted that the experiment was based on a model of quantum gravity that was so simple, and unrealistic, that it could just as well have been studied using a pencil and paper.
+
+“So I’d say that this doesn’t teach us anything about quantum gravity that we didn’t already know,” Dr. Harlow wrote in an email. “On the other hand, I think it is exciting as a technical achievement, because if we can’t even do this (and until now we couldn’t), then simulating more interesting quantum gravity theories would CERTAINLY be off the table.” Developing computers big enough to do so might take 10 or 15 years, he added.
+
+Alright, let’s move on to the claim that quantum supremacy has been refuted.  What Aharonov et al. actually show in their new work, building on earlier work by Gao and Duan, is that Random Circuit Sampling, with a constant rate of noise per gate and no error-correction, can’t provide a scalable approach to quantum supremacy.  Or more precisely: as the number of qubits n goes to infinity, and assuming you’re in the “anti-concentration regime” (which in practice probably means: the depth of your quantum circuit is at least ~log(n)), there’s a classical algorithm to approximately sample the quantum circuit’s output distribution in poly(n) time (albeit, not yet a practical algorithm).
+
+Here’s what’s crucial to understand: this is 100% consistent with what those of us working on quantum supremacy had assumed since at least 2016!  We knew that if you tried to scale Random Circuit Sampling to 200 or 500 or 1000 qubits, while you also increased the circuit depth proportionately, the signal-to-noise ratio would become exponentially small, meaning that your quantum speedup would disappear.  That’s why, from the very beginning, we targeted the “practical” regime of 50-100 qubits: a regime where
+
+To their credit, Aharonov et al. explain all this perfectly clearly in their abstract and introduction.  I’m just worried that others aren’t reading their paper as carefully as they should be!
+
+So then, what’s the new advance in the Aharonov et al. paper?  Well, there had been some hope that circuit depth ~log(n) might be a sweet spot, where an exponential quantum speedup might both exist and survive constant noise, even in the asymptotic limit of n→∞ qubits.  Nothing in Google’s or USTC’s actual Random Circuit Sampling experiments depended on that hope, but it would’ve been nice if it were true.  What Aharonov et al. have now done is to kill that hope, using powerful techniques involving summing over Feynman paths in the Pauli basis.
+
+Stepping back, what is the current status of quantum supremacy based on Random Circuit Sampling?  I would say it’s still standing, but more precariously than I’d like—underscoring the need for new and better quantum supremacy experiments.  In more detail, Pan, Chen, and Zhang have shown how to simulate Google’s 53-qubit Sycamore chip classically, using what I estimated to be 100-1000X the electricity cost of running the quantum computer itself (including the dilution refrigerator!).  Approaching from the problem from a different angle, Gao et al. have given a polynomial-time classical algorithm for spoofing Google’s Linear Cross-Entropy Benchmark (LXEB)—but their algorithm can currently achieve only about 10% of the excess in LXEB that Google’s experiment found.
+
+So, though it’s been under sustained attack from multiple directions these past few years, I’d say that the flag of quantum supremacy yet waves.  The Extended Church-Turing Thesis is still on thin ice.  The wormhole is still open.  Wait … no … that’s not what I meant to write…
+
+Note: With this post, as with future science posts, all off-topic comments will be ruthlessly left in moderation.  Yes, even if the comments “create their own reality” full of anger and disappointment that I talked about what I talked about, instead of what the commenter wanted me to talk about.  Even if merely refuting the comments would require me to give in and talk about their preferred topics after all.  Please stop.  This is a wormholes-‘n-supremacy post.
+
+================================================================================
+

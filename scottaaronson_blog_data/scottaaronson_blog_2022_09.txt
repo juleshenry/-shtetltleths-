@@ -1,0 +1,64 @@
+TITLE: Shorties!
+URL: https://scottaaronson.blog/?m=202209
+CONTENT:
+(1) Since I didn’t blog about this before: huge congratulations to David Deutsch, Charles Bennett, Gilles Brassard, and my former MIT colleague Peter Shor, and separately to Dan Spielman, for their well-deserved Breakthrough Prizes! Their contributions are all so epochal, so universally known to all of us in quantum information and theoretical computer science, that there’s little I can write to gild the lily, except to say how much I’ve learned by interacting with all five of them personally. I did enjoy this comment on the Breakthrough Prizes by someone on Twitter: “As long as that loudmouth Scott Aaronson keeps getting ignored, I’ll be happy.”
+
+(2) My former UT colleague Ila Fiete brought to my attention an important scientists’ petition to the White House.  The context is that the Biden administration has announced new rules requiring federally-funded research papers to be freely available to the public without delay.  This is extremely welcome—in fact, I’ve advocated such a step since I first became aware of the scourge of predatory journals around 2004.  But the looming danger is that publishers will just respond by leaning more heavily on the “author pays” model—i.e., hitting up authors or their institutions for thousands of dollars in page fees—and we’ll go from only the credentialed few being able to read papers that aren’t on preprint archives or the like, to only the credentialed few being able to publish them.  The petition urges the White House to build, or fund the research community to build, an infrastructure that will make scientific publishing truly open to everyone.  I’ve signed it, and I hope you’ll consider signing too.
+
+(3) Bill Gasarch asked me to announce that he, my former MIT colleague Erik Demaine, and Mohammad Hajiaghayi have written a brand-new book entitled Computational Intractability: A Guide to Algorithmic Lower Bounds, and a free draft is available online.  It looks excellent, like a Garey & Johnson for the 21st century.  Bill and his coauthors are looking for feedback.  I was happy to help them by advertising this—after all, it’s not as if Bill’s got his own complexity blog for such things!
+
+(4) Back when Google was still a novelty—maybe 2000 or so—I had my best friend, the now-famous computer security researcher Alex Halderman, over for Rosh Hashanah dinner with my family. Alex and I were talking about how Google evaded the limitations of all the previous decades’ worth of information retrieval systems. One of my relatives, however, misheard “Google” as “kugel” (basically a dense block of noodles held together with egg), and so ended up passing the latter to Alex. “What is this?” Alex asked. Whereupon my uncle deadpanned, “it’s a noodle retrieval system.” Since then, every single Rosh Hashanah dinner, I think about querying the kugel to retrieve the noodles within, and how the desired search result is just the trivial “all of them.”
+
+================================================================================
+
+TITLE: I had a dream
+URL: https://scottaaronson.blog/?m=202209
+CONTENT:
+As I slept fitfully, still recovering from COVID, I had one of the more interesting dreams of my life:
+
+I was desperately trying to finish some PowerPoint slides in time to give a talk. Uncharacteristically for me, one of the slides displayed actual code. This was a dream, so nothing was as clear as I’d like, but the code did something vaguely reminiscent of Rosser’s Theorem—e.g., enumerating all proofs in ZFC until it finds the lexicographically first proof or disproof of a certain statement, then branching into cases depending on whether it’s a proof or a disproof. In any case, it was simple enough to fit on one slide.
+
+Suddenly, though, my whole presentation was deleted. Everything was ruined!
+
+One of the developers of PowerPoint happened to be right there in the lecture hall (of course!), so I confronted him with my laptop and angrily demanded an explanation. He said that I must have triggered the section of Microsoft Office that tries to detect and prevent any discussion of logical paradoxes that are too dangerous for humankind—the ones that would cause people to realize that our entire universe is just an illusion, a sandbox being run inside an AI, a glitch-prone Matrix. He said it patronizingly, as if it should’ve been obvious: “you and I both know that the Paradoxes are not to be talked about, so why would you be so stupid as to put one in your presentation?”
+
+My reaction was to jab my finger in the guy’s face, shove him, scream, and curse him out. At that moment, I wasn’t concerned in the slightest about the universe being an illusion, or about glitches in the Matrix. I was concerned about my embarrassment when I’d be called in 10 minutes to give my talk and would have nothing to show.
+
+My last thought, before I woke with a start, was to wonder whether Greg Kuperberg was right and I should give my presentations in Beamer, or some other open-source software, and then I wouldn’t have had this problem.
+
+A coda: I woke a bit after 7AM Central and started to write this down. But then—this is now real life (!)—I saw an email saying that a dozen people were waiting for me in a conference room in Europe for an important Zoom meeting. We’d gotten the time zones wrong; I’d thought that it wasn’t until 8AM my time. If not for this dream causing me to wake up, I would’ve missed the meeting entirely.
+
+================================================================================
+
+TITLE: What I’ve learned from having COVID
+URL: https://scottaaronson.blog/?m=202209
+CONTENT:
+
+
+================================================================================
+
+TITLE: Win a $250,000 Scott Aaronson Grant for Advanced Precollege STEM Education!
+URL: https://scottaaronson.blog/?m=202209
+CONTENT:
+Back in January, you might recall, Skype cofounder Jaan Tallinn’s Survival and Flourishing Fund (SFF) was kind enough to earmark $200,000 for me to donate to any charitable organizations of my choice.  So I posted a call for proposals on this blog.  You “applied” to my “foundation” by simply sending me an email, or leaving a comment on this blog, with a link to your organization’s website and a 1-paragraph explanation of what you wanted the grant for, and then answering any followup questions that I had.
+
+After receiving about 20 awesome proposals in diverse areas, in the end I decided to split the allotment among organizations around the world doing fantastic, badly-needed work in math and science enrichment at the precollege level.  These included Canada/USA Mathcamp, AddisCoder, a magnet school in Maine, a math circle in Oregon, a math enrichment program in Ghana, and four others.  I chose to focus on advanced precollege STEM education both because I have some actual knowledge and experience there, and because I wanted to make a strong statement about an underfunded cause close to my heart that’s recently suffered unjust attacks.
+
+To quote the immortal Carl Sagan, from shortly before his death:
+
+[C]hildren with special abilities and skills need to be nourished and encouraged. They are a national treasure. Challenging programs for the “gifted” are sometimes decried as “elitism.” Why aren’t intensive practice sessions for varsity football, baseball, and basketball players and interschool competition deemed elitism? After all, only the most gifted athletes participate. There is a self-defeating double standard at work here, nationwide.
+
+Anyway, the thank-you notes from the programs I selected were some of the most gratifying emails I’ve ever received.
+
+But wait, it gets better!  After reading about the Scott Aaronson Speculation Grants on this blog, representatives from a large, reputable family foundation contacted me to say that they wanted to be involved too.  This foundation, which wishes to remain anonymous at this stage although not to the potential grant recipient, intends to make a single US$250,000 grant in the area of advanced precollege STEM education.  They wanted my advice on where their grant should go.
+
+Of course, I could’ve simply picked one of the same wonderful organizations that SFF and I helped in the first round.  On reflection, though, I decided that it would be more on the up-and-up to issue a fresh call for proposals.
+
+So: do you run a registered 501(c)(3) nonprofit dedicated to advanced precollege STEM education?  If so, email me or leave a comment here by Friday, September 9, telling me a bit about what your organization does and what more it could do with an extra $250K.  Include a rough budget, if that will help convince me that you can actually make productive use of that amount, that it won’t just sit in your bank account.  Organizations that received a Scott Aaronson Speculation Grant the last time are welcome to reapply; newcomers are also welcome.
+
+I’ll pass up to three finalists along to the funder, which will then make a final decision as to the recipient.  The funder will be directly in touch with the potential grantee(s) and will proceed with its intake, review and due diligence process.
+
+We expect to be able to announce a recipient on or around October 24.  Can’t wait to see what people come up with!
+
+================================================================================
+

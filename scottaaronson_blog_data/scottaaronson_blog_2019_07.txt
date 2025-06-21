@@ -1,0 +1,172 @@
+TITLE: Links, proofs, talks, jokes
+URL: https://scottaaronson.blog/?m=201907
+CONTENT:
+For those who haven’t yet seen it, Erica Klarreich has a wonderful article in Quanta on Hao Huang’s proof of the Sensitivity Conjecture.  This is how good popular writing about math can be.
+
+Klarreich quotes my line from this blog, “I find it hard to imagine that even God knows how to prove the Sensitivity Conjecture in any simpler way than this.”  However, even if God doesn’t know a simpler proof, that of course doesn’t rule out the possibility that Don Knuth does!  And indeed, a couple days ago Knuth posted his own variant of Huang’s proof on his homepage—in Knuth’s words, fleshing out the argument that Shalev Ben-David previously posted on this blog—and then left a comment about it here, the first comment by Knuth that I know about on this blog or any other blog.  I’m honored—although as for whether the variants that avoid the Cauchy Interlacing Theorem are actually “simpler,” I guess I’ll leave that between Huang, Ben-David, Knuth, and God.
+
+In Communications of the ACM, Samuel Greengard has a good, detailed article on Ewin Tang and her dequantization of the quantum recommendation systems algorithm.  One warning (with thanks to commenter Ted): the sentence “The only known provable separation theorem between quantum and classical is sqrt(n) vs. n” is mistaken, though it gestures in the direction of a truth.  In the black-box setting, we can rigorously prove all sorts of separations: sqrt(n) vs. n (for Grover search), exponential (for period-finding), and more.  In the non-black-box setting, we can’t prove any such separations at all.
+
+Last week I returned to the US from the FQXi meeting in the Tuscan countryside.  This year’s theme was “Mind Matters: Intelligence and Agency in the Physical World.”  I gave a talk entitled “The Search for Physical Correlates of Consciousness: Lessons from the Failure of Integrated Information Theory” (PowerPoint slides here), which reprised my blog posts critical of IIT from five years ago.  There were thought-provoking talks by many others who might be known to readers of this blog, including Sean Carroll, David Chalmers, Max Tegmark, Seth Lloyd, Carlo Rovelli, Karl Friston … you can see the full schedule here.  Apparently video of the talks is not available yet but will be soon.
+
+Let me close this post by sharing two important new insights about quantum mechanics that emerged from my conversations at the FQXi meeting:
+
+(1) In Hilbert space, no one can hear you scream. Unless, that is, you scream the exact same way everywhere, or unless you split into separate copies, one for each different way of screaming.
+
+(2) It’s true that, as a matter of logic, the Schrödinger equation does not imply the Born Rule.  Having said that, if the Schrödinger equation were leading a rally, and the crowd started a chant of “BORN RULE! BORN RULE! BORN RULE!”—the Schrödinger equation would just smile and wait 13 seconds for the chant to die down before continuing.
+
+================================================================================
+
+TITLE: Fake it till you make it (to the moon)
+URL: https://scottaaronson.blog/?m=201907
+CONTENT:
+While I wait to board a flight at my favorite location on earth—Philadelphia International Airport—I figured I might as well blog something to mark the 50th anniversary of Apollo 11.  (Thanks also to Joshua Zelinsky for a Facebook post that inspired this.)
+
+I wasn’t alive for Apollo, but I’ve been alive for 3/4 of the time after it, even though it now seems like ancient history—specifically, like a Roman cathedral being gawked at by a medieval peasant, like an achievement by some vanished, more cohesive civilization that we can’t even replicate today, let alone surpass.
+
+Which brings me to a depressing mystery: why do so many people now deny that humans walked on the moon at all?  Like, why that specifically?  While they’re at it, why don’t they also deny that WWII happened, or that the Beatles existed?
+
+Surprisingly, skepticism of the reality of Apollo seems to have gone all the way back to the landings themselves.  One of my favorite stories growing up was of my mom, as a teenager, working as a waitress at an Israeli restaurant in Philadelphia, on the night of Apollo 11 landing.  My mom asked for a few minutes off to listen to news of the landing on the radio.  The owners wouldn’t grant it—explaining that it was all Hollywood anyway, just some actors in spacesuits on a sound stage, and obviously my mom wasn’t so naïve as to think anyone was actually walking to the moon?
+
+Alas, as we get further and further from the event, with no serious prospect of ever replicating it past the stage of announcing an optimistic timetable (nor, to be honest, any scientific reason to replicate it), as the people involved die off, and as our civilization becomes ever more awash in social-media-fueled paranoid conspiracies, I fear that moon-landing denalism will become more common.
+
+Because here’s the thing: Apollo could happen, but only because of a wildly improbable, once-in-history confluence of social and geopolitical factors.  It was economically insane, taking 100,000 people and 4% of the US federal budget for some photo-ops, a flag-planting, some data and returned moon rocks that had genuine scientific value but could’ve been provided much more cheaply by robots.  It was dismantled immediately afterwards like a used movie set, rather than leading to any greater successes. Indeed, manned spaceflight severely regressed afterwards, surely mocking the expectations of every last science fiction fan and techno-utopian who was alive at that time.
+
+One could summarize the situation by saying that, in certain respects, the Apollo program really was “faked.”  It’s just that the way they “faked” it, involved actually landing people on the moon!
+
+================================================================================
+
+TITLE: On two blog posts of Jerry Coyne
+URL: https://scottaaronson.blog/?m=201907
+CONTENT:
+A few months ago, I got to know Jerry Coyne, the recently-retired biologist at the University of Chicago who writes the blog “Why Evolution Is True.”  The interaction started when Jerry put up a bemused post about my thoughts on predictability and free will, and I pointed out that if he wanted to engage me on those topics, there was more to go on than an 8-minute YouTube video.  I told Coyne that it would be a shame to get off on the wrong foot with him, since perusal of his blog made it obvious that whatever he and I disputed, it was dwarfed by our areas of agreement.  He and I exchanged more emails and had lunch in Chicago.
+
+By way of explaining how he hadn’t read “The Ghost in the Quantum Turing Machine,” Coyne emphasized the difference in my and his turnaround times: while these days I update my blog only a couple times per month, Coyne often updates multiple times per day.  Indeed the sheer volume of material he posts, on subjects from biology to culture wars to Chicago hot dogs, would take months to absorb.
+
+Today, though, I want to comment on just two posts of Jerry’s.
+
+The first post, from back in May, concerns David Gelernter, the computer science professor at Yale who was infamously injured in a 1993 attack by the Unabomber, and who’s now mainly known as a right-wing commentator.  I don’t know Gelernter, though I did once attend a small interdisciplinary workshop in the south of France that Gelernter also attended, wherein I gave a talk about quantum computing and computational complexity in which Gelernter showed no interest.  Anyway, Gelernter, in an essay in May for the Claremont Review of Books, argued that recent work has definitively disproved Darwinism as a mechanism for generating new species, and until something better comes along, Intelligent Design is the best available alternative.
+
+Curiously, I think that Gelernter’s argument falls flat not for detailed reasons of biology, but mostly just because it indulges in bad math and computer science—in fact, in precisely the sorts of arguments that I was trying to answer in my segment on Morgan Freeman’s Through the Wormhole (see also Section 3.2 of Why Philosophers Should Care About Computational Complexity).  Gelernter says that
+
+Since 1077 >> 1040, Darwinism is thereby refuted—not in principle, but as an explanation for life on earth.  QED.
+
+The most glaring hole in the above argument, it seems to me, is that it simply ignores intermediate possible numbers of mutations.  How hard would it be to change, not 1 or 100, but 5 amino acids in a given protein to get a usefully different one—as might happen, for example, with local optimization methods like simulated annealing run at nonzero temperature?  And how many chances were there for that kind of mutation in the earth’s history?
+
+Gelernter can’t personally see how a path could cut through the exponentially large solution space in a polynomial amount of time, so he asserts that it’s impossible.  Many of the would-be P≠NP provers who email me every week do the same.  But this particular kind of “argument from incredulity” has an abysmal track record: it would’ve applied equally well, for example, to problems like maximum matching that turned out to have efficient algorithms.  This is why, in CS, we demand better evidence of hardness—like completeness results or black-box lower bounds—neither of which seem however to apply to the case at hand.  Surely Gelernter understands all this, but had he not, he could’ve learned it from my lecture at the workshop in France!
+
+Alas, online debate, as it’s wont to do, focused less on Gelernter’s actual arguments and the problems with them, than on the tiresome questions of “standing” and “status.”  In particular: does Gelernter’s authority, as a noted computer science professor, somehow lend new weight to Intelligent Design?  Or conversely: does the very fact that a computer scientist endorsed ID prove that computer science itself isn’t a real science at all, and that its practitioners should never be taken seriously in any statements about the real world?
+
+It’s hard to say which of these two questions makes me want to bury my face deeper into my hands.  Serge Lang, the famous mathematician and textbook author, spent much of his later life fervently denying the connection between HIV and AIDS.  Lynn Margulis, the discoverer of the origin of mitochondria (and Carl Sagan’s first wife), died a 9/11 truther.  What broader lesson should we draw from any of this?  And anyway, what percentage of computer scientists actually do doubt evolution, and how does it compare to the percentage in other academic fields and other professions?  Isn’t the question of how divorced we computer scientists are from the real world an … ahem … empirical matter, one hard to answer on the basis of armchair certainties and anecdotes?
+
+Speaking of empiricism, if you check Gelernter’s publication list on DBLP and his Google Scholar page, you’ll find that he did influential work in programming languages, parallel computing, and other areas from 1981 through 1997, and then in the past 22 years published a grand total of … two papers in computer science.  One with four coauthors, the other a review/perspective piece about his earlier work.  So it seems fair to say that, some time after receiving tenure in a CS department, Gelernter pivoted (to put it mildly) away from CS and toward conservative punditry.  His recent offerings, in case you’re curious, include the book America-Lite: How Imperial Academia Dismantled Our Culture (and Ushered In the Obamacrats).
+
+Some will claim that this case underscores what’s wrong with the tenure system itself, while others will reply that it’s precisely what tenure was designed for, even if in this instance you happen to disagree with what Gelernter uses his tenured freedom to say.  The point I wanted to make is different, though.  It’s that the question “what kind of a field is computer science, anyway, that a guy can do high-level CS research on Monday, and then on Tuesday reject Darwinism and unironically use the word ‘Obamacrat’?”—well, even if I accepted the immense weight this question places on one atypical example (which I don’t), and even if I dismissed the power of compartmentalization (which I again don’t), the question still wouldn’t arise in Gelernter’s case, since getting from “Monday” to “Tuesday” seems to have taken him 15+ years.
+
+Anyway, the second post of Coyne’s that I wanted to talk about is from just yesterday, and is about Jeffrey Epstein—the financier, science philanthropist, and confessed sex offender, whose appalling crimes you’ll have read all about this week if you weren’t on a long sea voyage without Internet or something.
+
+For the benefit of my many fair-minded friends on Twitter, I should clarify that I’ve never met Jeffrey Epstein, let alone accepted any private flights to his sex island or whatever.  I doubt he has any clue who I am either—even if he did once claim to be “intrigued” by quantum information.
+
+I do know a few of the scientists who Epstein once hung out with, including Seth Lloyd and Steven Pinker.  Pinker, in particular, is now facing vociferous attacks on Twitter, similar in magnitude perhaps to what I faced in the comment-171 affair, for having been photographed next to Epstein at a 2014 luncheon that was hosted by Lawrence Krauss (a physicist who later faced sexual harassment allegations of his own).  By the evidentiary standards of social media, this photo suffices to convict Pinker as basically a child molester himself, and is also a devastating refutation of any data that Pinker might have adduced in his books about the Enlightenment’s contributions to human flourishing.
+
+From my standpoint, what’s surprising is not that Pinker is up against this, but that it took this long to happen, given that Pinker’s pro-Enlightenment, anti-blank-slate views have had the effect of painting a giant red target on his back.  Despite the near-inevitability, though, you can’t blame Pinker for wanting to defend himself, as I did when it was my turn for the struggle session.
+
+Thus, in response to an emailed inquiry by Jerry Coyne, Pinker shared some detailed reflections about Epstein; Pinker then gave Coyne permission to post those reflections on his blog (though they were originally meant for Coyne only).  Like everything Pinker writes, they’re worth reading in full.  Here’s the opening paragraph:
+
+The annoying irony is that I could never stand the guy [Epstein], never took research funding from him, and always tried to keep my distance. Friends and colleagues described him to me as a quantitative genius and a scientific sophisticate, and they invited me to salons and coffee klatches at which he held court. But I found him to be a kibitzer and a dilettante — he would abruptly change the subject ADD style, dismiss an observation with an adolescent wisecrack, and privilege his own intuitions over systematic data.
+
+Pinker goes on to discuss his record of celebrating, and extensively documenting, the forces of modernity that led to dramatic reductions in violence against women and that have the power to continue doing so.  On Twitter, Pinker had already written: “Needless to say I condemn Epstein’s crimes in the strongest terms.”
+
+I probably should’ve predicted that Pinker would then be attacked again—this time, for having prefaced his condemnation with the phrase “needless to say.”  The argument, as best I can follow, runs like this: given all the isms of which woke Twitter has already convicted Pinker—scientism, neoliberalism, biological determinism, etc.—how could Pinker’s being against Epstein’s crimes (which we recently learned probably include the rape, and not only statutorily, of a 15-year-old) possibly be assumed as a given?
+
+For the record, just as Epstein’s friends and enablers weren’t confined to one party or ideology, so the public condemnation of Epstein strikes me as a matter that is (or should be) beyond ideology, with all reasonable dispute now confined to the space between “very bad” and “extremely bad,” between “lock away for years” and “lock away for life.”
+
+While I didn’t need Pinker to tell me that, one reason I personally appreciated his comments is that they helped to answer a question that had bugged me, and that none of the mountains of other condemnations of Epstein had given me a clear sense about.  Namely: supposing, hypothetically, that I’d met Epstein around 2002 or so—without, of course, knowing about his crimes—would I have been as taken with him as many other academics seem to have been?  (Would you have been?  How sure are you?)
+
+Over the last decade, I’ve had the opportunity to meet some titans and semi-titans of finance and business, to discuss quantum computing and other nerdy topics.  For a few (by no means all) of these titans, my overriding impression was precisely their unwillingness to concentrate on any one point for more than about 20 seconds—as though they wanted the crust of a deep intellectual exchange without the meat filling.  My experience with them fit Pinker’s description of Epstein to a T (though I hasten to add that, as far as I know, none of these others ran teenage sex rings).
+
+Anyway, given all the anger at Pinker for having intersected with Epstein, it’s ironic that I could easily imagine Pinker’s comments rattling Epstein the most of anyone’s, if Epstein hears of them from his prison cell.  It’s like: Epstein must have developed a skin like a rhinoceros’s by this point about being called a child abuser, a creep, and a thousand similar (and similarly deserved) epithets.  But “a kibitzer and a dilettante” who merely lured famous intellectuals into his living room, with wads of cash not entirely unlike the ones used to lure teenage girls to his massage table?  Ouch!
+
+OK, but what about Alan Dershowitz—the man who apparently used to be Epstein’s close friend, who still is Pinker’s friend, and who played a crucial role in securing Epstein’s 2008 plea bargain, the one now condemned as a travesty of justice?  I’m not sure how I feel about Dershowitz.  It’s like: I understand that our system requires attorneys willing to mount a vociferous defense even for clients who they privately know or believe to be guilty—and even to get those clients off on technicalities or bargaining whenever they can.  I’m also incredibly grateful that I chose CS rather than law school, because I don’t think I could last an hour advocating causes that I knew to be unjust.  Just like my fellow CS professor, the intelligent design advocate David Gelernter, I have the privilege and the burden of speaking only for myself.
+
+================================================================================
+
+TITLE: John Wright joins UT Austin
+URL: https://scottaaronson.blog/?m=201907
+CONTENT:
+I’m delighted to announce that quantum computing theorist John Wright will be joining the computer science faculty at UT Austin in Fall 2020, after he finishes a one-year postdoc at Caltech.
+
+John made an appearance on this blog a few months ago, when I wrote about the new breakthrough by him and Anand Natarajan: namely, that MIP* (multi-prover interactive proofs with entangled provers) contains NEEXP (nondeterministic double-exponential time).  Previously, MIP* had only been known to contain NEXP (nondeterministic single exponential time).  So, this is an exponential expansion in the power of entangled provers over what was previously known and believed, and the first proof that entanglement actually increases the power of multi-prover protocols, rather than decreasing it (as it could’ve done a priori).  Even more strikingly, there seems to be no natural stopping point: MIP* might soon swallow up arbitrary towers of exponentials or even the halting problem (!).  For more, see for example this Quanta article, or this post by Thomas Vidick, or this short story [sic] by Henry Yuen.
+
+John grew up in Texas, so he’s no stranger to BBQ brisket or scorching weather.  He did his undergrad in computer science at UT Austin—my colleagues remember him as a star—and then completed his PhD with Ryan O’Donnell at Carnegie Mellon, followed by a postdoc at MIT.  Besides the work on MIP*, John is also well-known for his 2015 work with O’Donnell pinning down the sample complexity of quantum state tomography.  Their important result, a version of which was independently obtained by Haah et al., says that if you want to learn an unknown d-dimensional quantum mixed state ρ to a reasonable precision, then ~d2 copies of ρ are both necessary and sufficient.  This solved a problem that had personally interested me, and already plays a role in, e.g., my work on shadow tomography and gentle measurements.
+
+Our little quantum information center at UT Austin is growing rapidly.  Shyam Shankar, a superconducting qubits guy who previously worked in Michel Devoret’s group at Yale, will also be joining UT’s Electrical and Computer Engineering department this fall.  I’ll have two new postdocs—Andrea Rocchetto and Yosi Atia—as well as new PhD students.  We’ll continue recruiting this coming year, with potential opportunities for students, postdocs, faculty, and research scientists across the CS, physics, and ECE departments as well as the Texas Advanced Computing Center (TACC).  I hope you’ll consider applying to join us.
+
+With no evaluative judgment attached, I can honestly say that this is an unprecedented time for quantum computing as a field.  Where once faculty applicants struggled to make a case for quantum computing (physics departments: “but isn’t this really CS?” / CS departments: “isn’t it really physics?” / everyone: “couldn’t this whole QC thing, like, all blow over in a year?”), today departments are vying with each other and with industry players and startups to recruit talented people.  In such an environment, we’re fortunate to be doing as well as we are.  We hope to continue to expand.
+
+Meanwhile, this was an unprecedented year for CS hiring at UT Austin more generally.  John Wright is one of at least four new faculty (probably more) who will be joining us.  It’s a good time to be in CS.
+
+A huge welcome to John, and hook ’em Hadamards!
+
+(And for US readers: have a great 4th!  Though how could any fireworks match the proof of the Sensitivity Conjecture?)
+
+================================================================================
+
+TITLE: Sensitivity Conjecture resolved
+URL: https://scottaaronson.blog/?m=201907
+CONTENT:
+The Sensitivity Conjecture, which I blogged about here, says that, for every Boolean function f:{0,1}n→{0,1}, the sensitivity of f—that is, the maximum, over all 2n input strings x∈{0,1}n, of the number of input bits such that flipping them changes the value of f—is at most polynomially smaller than a bunch of other complexity measures of f, including f’s block sensitivity, degree as a real polynomial, and classical and quantum query complexities.  (For more, see for example this survey by Buhrman and de Wolf.  Or for quick definitions of the relevant concepts, see here.)
+
+Ever since it was posed by Nisan and Szegedy in 1989, this conjecture has stood as one of the most frustrating and embarrassing open problems in all of combinatorics and theoretical computer science.  It seemed so easy, and so similar to other statements that had 5-line proofs.  But a lot of the best people in the field sank months into trying to prove it.  For whatever it’s worth, I also sank … well, at least weeks into it.
+
+Now Hao Huang, a mathematician at Emory University, has posted a 6-page preprint on his homepage that finally proves the Sensitivity Conjecture, in the form s(f)≥√deg(f).  (I thank Ryan O’Donnell for tipping me off to this.)  Within the preprint, the proof itself is about a page and a half.
+
+Whenever there’s an announcement like this, ~99% of the time either the proof is wrong, or at any rate it’s way too complicated for outsiders to evaluate it quickly.  This is one of the remaining 1% of cases.  I’m rather confident that the proof is right.  Why?  Because I read and understood it.  It took me about half an hour.  If you’re comfortable with concepts like induced subgraph and eigenvalue, you can do the same.
+
+From pioneering work by Gotsman and Linial in 1992, it was known that to prove the Sensitivity Conjecture, it suffices to prove the following even simpler combinatorial conjecture:
+
+Let S be any subset of the n-dimensional Boolean hypercube, {0,1}n, which has size 2n-1+1.  Then there must be a point in S with at least ~nc neighbors in S.
+
+Here c>0 is some constant (say 1/2), and two points in S are “neighbors” if and only they differ in a single coordinate.  Note that if S had size 2n-1, then the above statement would be false—as witnessed, for example, by the set of all n-bit strings with an even number of 1’s.
+
+Huang proceeds by proving the Gotsman-Linial Conjecture.  And the way he proves Gotsman-Linial is … well, at this point maybe I should just let you read the damn preprint yourself.  I can’t say it more simply than he does.
+
+If I had to try anyway, I’d say: Huang constructs a 2n×2n matrix, called An, that has 0’s where there are no edges between the corresponding vertices of the Boolean hypercube, and either 1’s or -1’s where there are edges—with a simple, weird pattern of 1’s and -1’s that magically makes everything work.  He then lets H be an induced subgraph of the Boolean hypercube of size 2n-1+1.  He lower-bounds the maximum degree of H by the largest eigenvalue of the corresponding (2n-1+1)×(2n-1+1) submatrix of An.  Finally, he lower-bounds that largest eigenvalue by … no, I don’t want to spoil it!  Read it yourself!
+
+Paul Erdös famously spoke of a book, maintained by God, in which was written the simplest, most beautiful proof of each theorem.  The highest compliment Erdös could give a proof was that it “came straight from the book.”  In this case, I find it hard to imagine that even God knows how to prove the Sensitivity Conjecture in any simpler way than this.
+
+Indeed, the question is: how could such an elementary 1.5-page argument have been overlooked for 30 years?  I don’t have a compelling answer to that, besides noting that “short” and “elementary” often have little to do with “obvious.”  Once you start looking at the spectral properties of this matrix An, the pieces snap together in precisely the right way—but how would you know to look at that?
+
+By coincidence, earlier today I finished reading my first PG Wodehouse novel (Right Ho, Jeeves!), on the gushing recommendation of a friend.  I don’t know how I’d missed Wodehouse for 38 years.  His defining talent is his ability to tie together five or six plot threads in a way that feels perfect and inevitable even though you didn’t see it coming.  This produces a form of pleasure that’s nearly indistinguishable from the pleasure one feels in reading a “proof from the book.”  So my pleasure centers are pretty overloaded today—but in such depressing times for the world, I’ll take pleasure wherever I can get it.
+
+Huge congratulations to Hao!
+
+Added thought: What this really is, is one of the purest illustrations I’ve seen in my career of the power and glory of the P≠NP phenomenon.  We talk all the time about how proofs are easier to verify than to find.  In practice, though, it can be far from obvious that that’s true.  Consider your typical STOC/FOCS paper: writing it probably took the authors several months, while fully understanding the thing from scratch would probably take … also several months!  If there’s a gap, it’s only by a factor of 4 or 5 or something.  Whereas in this case, I don’t know how long Huang spent searching for the proof, but the combined search efforts of the community add up to years or decades.  The ratio of the difficulty of finding to the difficulty of completely grasping is in the hundreds of thousands or millions.
+
+Another added thought: Because Hao actually proves a stronger statement than the original Sensitivity Conjecture, it has additional implications, a few of which Hao mentions in his preprint.  Here’s one he didn’t mention: any randomized algorithm to guess the parity of an n-bit string, which succeeds with probability at least 2/3 on the majority of strings, must make at least ~√n queries to the string, while any such quantum algorithm must make at least ~n1/4 queries.  For more, see the paper Weak Parity by me, Ambainis, Balodis, and Bavarian (Section 6).
+
+Important Update: Hao Huang himself has graciously visited the comment section to satisfy readers’ curiosity by providing a detailed timeline of his work on the Sensitivity Conjecture.  (tl;dr: he was introduced to the problem by Mike Saks in 2012, and had been attacking it on and off since then, until he finally had the key insight this past month while writing a grant proposal.  Who knew that grant proposals could ever be useful for anything?!?)
+
+Another Update: In the comments section, my former student Shalev Ben-David points out a simplification of Huang’s argument, which no longer uses Cauchy’s interlacing theorem.  I thought there was no way this proof could possibly be made any simpler, and I was wrong!
+
+================================================================================
+
+TITLE: Quantum Sabinacy
+URL: https://scottaaronson.blog/?m=201907
+CONTENT:
+Sabine Hossenfelder—well-known to readers of Shtetl-Optimized for opposing the building of a higher-energy collider, and various other things—has weighed in on “quantum supremacy” in this blog post and this video.  Sabine consulted with me by phone before doing the video and post, and despite what some might see as her negative stance, I agree with what she has to say substantially more than I disagree.
+
+I do, however, have a few quibbles:
+
+1. We don’t know that millions of physical qubits will be needed for useful simulations of quantum chemistry.  It all depends on how much error correction is needed and how good the error-correcting codes and simulation algorithms become.  Like, sure, you can generate pessimistic forecasts by plugging numbers in to the best known codes and algorithms.  But “the best known” is a rapidly moving target—one where there have already been orders-of-magnitude improvements in the last decade.
+
+2. To my mind, there’s a big conceptual difference between a single molecule that you can’t efficiently simulate classically, and a programmable computer that you can’t efficiently simulate classically.  The difference, in short, is that only for the computer, and not for the molecule, would it ever make sense to say it had given you a wrong answer!  In other words, a physical system becomes a “computer” when, and only when, you have sufficient understanding of, and control over, its state space and time evolution that you can ask the system to simulate something other than itself, and then judge whether it succeeded or failed at that goal.
+
+3. The entire point of my recent work, on certified randomness generation (see for example here or here), is that sampling random bits with a NISQ-era device could have a practical application.  That application is … I hope you’re sitting down for this … sampling random bits!  And then, more importantly and nontrivially, proving to a faraway skeptic that the bits really were randomly generated.
+
+4. While I was involved in some of the first proposals for NISQ quantum supremacy experiments (such as BosonSampling), I certainly can’t take sole credit for the idea of quantum supremacy!  The term, incidentally, was coined by John Preskill.
+
+5. The term “NISQ” (Noisy Intermediate Scale Quantum) was also coined by John Preskill.  He had no intention of misleading investors—he just needed a term to discuss the quantum computers that will plausibly be available in the near future.  As readers of this blog know, there certainly has been some misleading of investors (and journalists, and the public…) about the applications of near-term QCs.  But I don’t think you can lay it at the feet of the term “NISQ.”
+
+================================================================================
+

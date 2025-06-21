@@ -1,0 +1,254 @@
+TITLE: Where even the sun pulls all-nighters
+URL: https://scottaaronson.blog/?m=200605
+CONTENT:
+Who: From left, Ashwin Nayak, Debbie Leung, Mike Mosca, your humble squinting blogger, Andris Ambainis with coffee, Patrick Hayden.
+
+Where: Haines Junction (population 789), Yukon Territory, 100 miles east of Alaska.  One of the furthest outposts of civilization, surrounded by one of the last pristine wilderness areas on Earth.
+
+When: We arrived here last night, after flying to Whitehorse and then battling heavy traffic (i.e., at least two other cars) for several hours on the Alaska Highway.
+
+What: A quantum computing workshop sponsored by the CIAR (Canadian Institute for Advanced Research).
+
+Why: I dunno, I guess the CIAR has more money than it knows what to do with.
+
+How: You thought they wouldn’t have WiFi here?
+
+================================================================================
+
+TITLE: The neologistas
+URL: https://scottaaronson.blog/?m=200605
+CONTENT:
+Ever since I arrived at fellow blogger Dave Bacon‘s house on Tuesday, the Pontiff and I have been tossing around ideas for a joint blog initiative.  Finally we hit on something: since we’re both neologistas — people who enjoy spending their free time coining new words — we decided to compile a list of the neologisms we’d most like to see adopted by the general population.  Without further ado:
+
+shnood: (roughly) an imposter; a person oblivious to just how trivial or wrong his ideas are.
+
+“Were there any interesting speakers at the conference?”
+“No, just a bunch of shnoods.”
+
+“The magazine New Scientist loves to feature shnoods on the cover.”
+
+Note: someone who’s utterly contemptible would not be a shnood, but rather a schmuck.
+
+iriterie: a list or compilation of people named Irit.
+
+See the comments on the last post for an example of an iriterie.
+
+extralusionary intelligence: intelligence in one domain that is misapplied in another.
+
+“Bob’s a brilliant physicist — I bet he’s onto something with his condensed-matter approach to P versus NP.”
+“No, he’s just suffering from extralusionary intelligence.”
+
+circumpolitical: So far to one end of the political spectrum that one is actually on the other end.
+
+“Professor Zimmerman mounted a circumpolitical defense of hereditary dictatorship, female genital mutilation, and the dragging of murdered homosexuals through the streets, arguing that we have no right to condemn these indigenous practices of non-Western peoples.”
+
+philosonomicon: A philosophical prolegomenon.
+
+Dave’s PhD thesis begins with a philosonomicon, as does mine.
+
+high-hanging fruit: the opposite of low-hanging fruit.
+
+“Do you ever think about the Nonabelian Hidden Subgroup Problem?”
+“No, that’s high-hanging fruit.  I like to watch other people jump for it.”
+
+napotonin: any substance that makes you want to nap.
+
+“Ohhhh … must’ve been a lot of napotonin in that calzone … can’t work … unnngghhhh”
+
+nontrivia: the opposite of trivia.
+
+“If you’re so smart, how come you’re no good at Trivial Pursuit?”
+“Because I prefer to fill my brain with nontrivia.”
+
+In an effort to speed up the adoption of these words by the Oxford English Dictionary, Dave and I hereby ask that every comment on this post correctly use at least one of them.  Also, while you’re welcome to crack the obvious jokes (“Scott is a shnood,” “Dave suffers from extralusionary intelligence,” etc.), be aware that we’ve just preempted them.
+
+================================================================================
+
+TITLE: Nerdify the world, and the women will follow
+URL: https://scottaaronson.blog/?m=200605
+CONTENT:
+As delighted as I’ve been with the popular response to this blog, it’s come to my attention that there are still a few readers who haven’t yet been angered or offended by anything I’ve written. That’s why today’s entry will be about women, science, and Larry Summers.
+
+Granted, it feels strange to be blogging about why there aren’t more women in computer science and the other nerdly disciplines, having just come from a conference where Irit Dinur took the Best Paper Award for her combinatorial proof of the PCP Theorem. But the question remains: why aren’t there more Irits?
+
+A hilarious analysis by Philip Greenspun seems like as good a starting point as any for discussing this question. Here are my favorite passages:
+
+A lot more men than women choose to do seemingly irrational things such as become petty criminals, fly homebuilt helicopters, play video games, and keep tropical fish as pets (98 percent of the attendees at the American Cichlid Association convention that I last attended were male). Should we be surprised that it is mostly men who spend 10 years banging their heads against an equation-filled blackboard in hopes of landing a $35,000/year post-doc job?
+
+Having been both a student and teacher at MIT, my personal explanation for men going into science is the following:
+
+1. young men strive to achieve high status among their peer group
+2. men tend to lack perspective and are unable to step back and ask the question “is this peer group worth impressing?”
+
+Consider Albert Q. Mathnerd, a math undergrad at MIT (“Course 18” we call it). He works hard and beats his chest to demonstrate that he is the best math nerd at MIT. This is important to Albert because most of his friends are math majors and the rest of his friends are in wimpier departments, impressed that Albert has even taken on such demanding classes. Albert never reflects on the fact that the guy who was the best math undergrad at MIT 20 years ago is now an entry-level public school teacher in Nebraska, having failed to get tenure at a 2nd tier university. When Albert goes to graduate school to get his PhD, his choice will have the same logical foundation as John Hinckley’s attempt to impress Jodie Foster by shooting Ronald Reagan…
+
+What about women? Don’t they want to impress their peers? Yes, but they are more discriminating about choosing those peers. I’ve taught a fair number of women students in electrical engineering and computer science classes over the years. I can give you a list of the ones who had the best heads on their shoulders and were the most thoughtful about planning out the rest of their lives. Their names are on files in my “medical school recommendations” directory…
+
+With Occam’s Razor, we should not need to bring in the FBI to solve the mystery of why there are more men than women who have chosen to stick with the choice that they made at age 18 to be a professor of science or mathematics.
+
+If you don’t recognize any truth in the above, then (almost by definition) you are not a nerd. Yet Greenspun’s argument immediately raises four questions:
+
+Let me address these questions in turn.
+
+1. Is science really as depressing as Greenspun makes it out to be?
+
+I can only speak for myself. Unlike most people, I don’t “work” at all, in the sense of doing anything with the conscious goal of making money. All I do is think about what interests me, and discuss the results of that thinking with other people. As long as governments (and philanthropists like Mike Lazaridis) are willing to pay me for my non-work, I’m happy to take their money. If they ever stop paying me, I guess I’ll have to find some other source of income.
+
+Of course my perspective might change once I start a tenure-track, which is part of the reason why I haven’t been in any hurry to do so. But for now, I can’t complain about my life as a postdoc. Or rather, I can complain, but then I remember the alternatives. Can I even imagine what it would be like to grapple not with the eternal verities of QMA and PSPACE, but with the fickle whims of the stock market? My only reward being a gigantic pile of cash, most of which wouldn’t even fit in my wallet when I went out for Indian buffet?
+
+2. The trouble with ‘because’
+
+So Greenspun’s “Albert Q. Mathnerd” theory strikes me as at best a partial answer to why more women don’t go into the nerdly sciences. But there’s a stronger argument: if Greenspun were right, then we would expect even fewer women in the humanities and social sciences (which are even more cash-strapped than the sciences), and more women trading derivatives and starting software companies.
+
+And that brings us, of course, to the crater-pocked battlefield where hardened university presidents fear to tread. Are there Darwinian reasons to expect males to be more “spatial” and less “verbal” on average, or to have a higher variance in ability (with both more Alan Turings and more George W. Bushes), etc., etc.? If you want to read an interesting discussion of these questions — one that involves, you know, actual facts and evidence — I heartily recommend this debate (both sides of it) between Steven Pinker and Elizabeth Spelke.
+
+But what do I think about the “root cause” of the gender imbalance in science? I’ll tell you exactly what I think: I think the question is ill-posed. When we say that A causes B, we normally mean something like “if A didn’t happen, then B wouldn’t happen either.” Thus: “if John had had the same upbringing but the biological makeup of a woman, he would have become a lawyer instead of a string theorist.” The trouble is, what does that even mean? With a few arguable and presumably unrepresentative exceptions (like hermaphrodites), no one on Earth has the biology of a man but the life experiences of a woman or vice versa.
+
+To put the point differently: suppose (hypothetically) that what repelled women from computer science were all the vending-machine-fueled all-nighters, empty pizza boxes stacked to the ceiling, napping coders drooling on the office futon, etc.; and indeed that men would be repelled by such things as well, were it not for a particular gene on the Y chromosome called PGSTY-8. In that case, would the “cause” of the gender imbalance be genetic or cultural? This is a fascinating question, right up there with whether rocks fall because of gravity or being dropped, and whether 3+5=5+3 because addition is commutative or because they both equal 8.
+
+3. The nerd case for feminism
+
+Greenspun’s central contention is that we’re not doing an ambitious high-school girl any favors by steering her into the impoverished dungeon of academic science. In his words:
+
+If smart American women choose to go to medical, business, and law school instead of doing science, and have fabulous careers, I certainly am not going to discourage them. Imagine if one of those kind souls that Summers was speaking to had taken Condoleezza Rice aside and told her not to waste time with political science because physics was so much more challenging.
+
+Such a soul would deserve our undying gratitude.
+
+But seriously — I draw a different moral than Greenspun does. I think it’s imperative to increase the number of women in science, not for women’s sake, but for science’s sake! Now would be a good place to insert your favorite joke about the computer labs full of horny, Perl-coding “feminists,” eager to cast off the yoke of sexism and open wide the gates of science to every young woman — whether blonde or brunette, single or possibly single, hot or extremely hot.
+
+But there’s no need to be cynical. I’m not ashamed to assert that
+
+Naturally, kidnapping women in the dead of night and forcing them to take Randomized Algorithms is off the table. But the question remains: how can we make the nerdly sciences more attractive to women?
+
+4. How to seduce women (into scientific careers)
+
+I have two thoughts in this direction.
+
+The first thought is actually a question: assuming our social support systems made it easier to do so, would many women prefer to have kids first, and then go to grad school? That’s not a rhetorical question; it’s a genuine request for enlightenment. I ask it for three reasons:
+
+So that was my first thought. The second thought is that, when people talk about cultural changes that would entice more women into science, they always mean changes to nerd culture. You know the sort of thing I’m talking about:
+
+Emphasize teamwork and community over intellectual combat.
+
+Eliminate all-nighters.
+
+Discourage questions in seminars that might hurt someone’s feelings.
+
+Festoon the STOC proceedings with hearts, rainbows, and ponies.
+
+The problem with such proposals is not just that they’re patronizing (and indeed deeply sexist in their own way), and not just that successful female scientists tend to be as competitive as anyone else. The real problem is the implicit assumption that, whenever there’s a disparity between nerd culture and popular culture, the fault must lie with nerd culture.
+
+Sure, there are nerds could stand to shower more often, read more Shakespeare and less Slashdot, etc. But there are also plenty of “normals” who could stand to follow a chain of logic to an inconvenient conclusion, unsheath their sarcasm swords when confronted with idiocy, and judge people more by the originality of their ideas than by whether their clothes match.
+
+In short, if the reason more women don’t study science is that they’re repelled by nerd culture, then de-nerdifying science is only one solution. The other solution is nerdifying the rest of the world! Admittedly, nerdifying the world might seem like a rather drastic way to increase the number of women in university science departments. But as you might have guessed, I want to nerdify the world for independent reasons as well.
+
+================================================================================
+
+TITLE: The pee versus in-pee question
+URL: https://scottaaronson.blog/?m=200605
+CONTENT:
+Greetings from America’s fourth-best city, Seattle, where I’m attending the STOC’2006 conference.  I arrived here yesterday from America’s third-best city, Boston, where I visited MIT for a week and gave a talk about The Learnability of Quantum States.  (I’ll leave the best and second-best cities as exercises for the reader.)
+
+Since tomorrow’s my birthday, I’ll consider myself free to blog about whatever I feel like today (as opposed to most days, when I blog about whatever the invisible space antelopes tell me to).  So without further ado, here’s a question that bugged me for years: why do we need to urinate on a regular basis?
+
+I mean, I understand solid waste perfectly well, and I also understand the need to get rid of urea and the other waste products in urine.  But why constantly excrete water, something that humans and other animals regularly die from not having enough of?  Why not store the water in the body until the next time it’s needed?  From a Darwinian perspective, a regularly-vacating bladder would seem to make as little sense as a toothless vagina.
+
+And yet, after minutes of diligent Wikipedia research, I’ve pieced together what I believe is a complete solution to this pee versus in-pee puzzle.
+
+The short answer is that conserving water, rather than just pissing it away (so to speak), is exactly what our bodies try to do.  But one needs to remember that, while feces comes directly from the digestive tract, urine is collected from waste products in the bloodstream.  In particular, the kidneys contain permeable membranes whose job is to let wastes like urea through, while keeping the useful stuff (like red blood cells) out.  However, as with any other filtration process, it’s difficult or impossible to keep all the water on one side of the barrier.
+
+So what the body does instead is to let the water through, then slowly absorb it back into the bloodstream as needed.  That’s why your urine is darker (more concentrated) if you’re dehydrated than if you aren’t.  At some point, though, it presumably becomes infeasible to extract more water from the bladder without also letting the toxic wastes back into the bloodstream.
+
+Now, I know what you’re thinking.  You’re thinking, “why isn’t my urine always dark?  In other words, why don’t I always absorb as much water as possible back into my bloodstream, whether I’m dehydrated or not?  Why not save the water for a (non) rainy day?”
+
+Aha, I’ve got an answer to that one too.  Besides excreting wastes, another function of urine is to maintain a homeostatic balance between water and sodium in the blood.  If there’s too much water (say, because you just drank six beers), your blood will be too thin, which can cause brain damage (completely apart from the other effects of the beer).  Ideally, your body would store the excess water separately from the blood — and again, that’s exactly what it tries to do, but your bladder is only so big.
+
+In summary, if you think through what my “in-pee” solution would actually entail, it turns out to be almost identical to the “pee” solution that Nature actually adopted.  One might even say that pee = in-pee.
+
+[Note for harping relatives: now do you understand why I didn’t go to medical school?]
+
+================================================================================
+
+TITLE: The relativity of originality
+URL: https://scottaaronson.blog/?m=200605
+CONTENT:
+An anonymous commenter asked for my opinion of The Free Will Theorem, a much-discussed recent paper by John Conway and Simon Kochen.   I’ve been putting it off, but I’ll finally will myself to say something.
+
+I read The Free Will Theorem mostly as an amusing romp through the well-travelled philosophical terrain of quantum mechanics, relativity, and entanglement.   I’ve always enjoyed Conway’s writing style, so it was a treat to see his usual jokes and puns out in full force.
+
+Of course, the reason the paper has attracted attention is the Free Will Theorem itself, which I’ll paraphrase as follows:
+
+Suppose that (1) the laws of physics allow something like a Bell or GHZ experiment, (2) the people doing the experiment can set their detectors any way they want (i.e., in a way not determined by the previous history of the universe), and (3) something like Lorentz invariance holds (i.e. there’s one reference frame where experimenter A measures first, and another where experimenter B measures first).  Then the results of the experiment are also not determined by the previous history of the universe.
+
+Or as the authors colorfully put it: “if indeed there exist any experimenters with a modicum of free will, then elementary particles must have their own share of this valuable commodity.”
+
+(Note that by “free will,” all Conway and Kochen mean is the property of not being determined by the previous history of the universe.  So even events with known probability distributions, like coin flips and quantum measurements, can have “free will” according to their definition.)
+
+My reaction to the Free Will Theorem is threefold:
+
+I’ll be grateful for any references in support of the last point.  Right now, all I can offer is that I gave almost the same argument four years ago, in my review of Stephen Wolfram’s A New Kind of Science (see pages 9-11).  My goal there was to show that no deterministic cellular-automaton model of physics, of the sort Wolfram was advocating, could possibly explain the Bell inequality violations while respecting relativistic invariance.  I didn’t think I was saying anything terribly new.
+
+Conway and Kochen try to preempt such criticism as follows:
+
+Physicists who feel that they already knew our main result are cautioned that it cannot be proved by arguments involving symbols such as , Ψ, ⊗, since these presuppose a large and indefinite amount of physical theory.
+
+I find this unpersuasive.  For me, the whole point of the Bell, GHZ, and Kochen-Specker type theorems has always been that they don’t presuppose quantum mechanics.  Instead they show that any physical theory compatible with certain experimental results has to have certain properties (such as nonlocality or contextuality).
+
+I should admit that the Free Will Theorem improves on the argument in my book review in at least three ways:
+
+I should also admit that I like Conway and Kochen’s paper.  Indeed, the main question it raises for me is not “how could they possibly pass this off as original?” but rather “do we, as scientists, sometimes put too high a premium on originality?”
+
+In all the reading I’ve done in philosophy, I don’t know that I’ve ever once encountered an original idea — in the sense that, say, general relativity and NP-completeness were original ideas.  Indeed, whenever I read about a priority dispute between philosophers (like the infamous one between Saul Kripke and Ruth Barcan Marcus), it strikes me as absurd: all the ideas under dispute seem obvious!
+
+But does it follow that philosophy is a waste of time?  No, I don’t think it does. The same “obvious” idea can be expressed clumsily or eloquently, sketched in a sentence or developed into a book, brought out explicitly or left beneath the surface.  Now, I’m well aware that that’s not an original sentiment — nor, for that matter, is anything in this post, or probably this entire blog.  Yet here I am writing it, and here you are reading it.
+
+You might respond that Wolfram can (and does) mount a similar defense of A New Kind of Science: that sure, lesser mortals might have realized decades ago that simple programs can produce complex behavior, but they didn’t grasp the true, Earth-shattering significance of that fact.  Compared to Wolfram, though, I think Conway and Kochen have at least two things going for them: (1) they don’t spend 1,200 pages denigrating the work of other people, and (2) they accept quantum mechanics.
+
+From Ecclesiastes:
+
+All streams run to the sea,
+but the sea is not full;
+to the place where the streams flow,
+there they continue to flow.
+
+All things are wearisome;
+more than one can express;
+the eye is not satisfied with seeing,
+or the ear filled with hearing.
+
+What has been is what will be,
+and what has been done is what will be done;
+there is nothing new under the sun.
+
+================================================================================
+
+TITLE: It’s not radiation-poisoned, it’s just sleeping!
+URL: https://scottaaronson.blog/?m=200605
+CONTENT:
+Since I hadn’t heard from my friend Mahmoud Ahmadinejad for a while, I figured he must be busy with his new uranium-enrichment hobby.  My suspicions weren’t alleviated by this excellent piece in the New York Review of Books.  What I hadn’t realized is that Mahmoud is quite the joker!  And no, I’m not talking about the obvious gag of funding a peaceful nuclear energy program by oil exports — I’m talking about the following Pythonesque routine, which I’m not making up:
+
+IAEA: Iran, if your nuclear program is for peaceful purposes only, then why did we find traces of 36%-enriched uranium at the Natanz facility, whereas you’d only need 3% enrichment for a reactor?
+
+Iran: Oh, that’s just because the equipment we bought from A. Q. Khan on the black market was contaminated.
+
+================================================================================
+
+TITLE: Grab bag
+URL: https://scottaaronson.blog/?m=200605
+CONTENT:
+Sorry for the long delay; I’m recovering from a cold. Thankfully, nothing like my Canadian-muskox-strength cold in October, but still enough to keep my brain out of service for most of the week. On the positive side, I now have a week’s worth of websurfing to share with you.
+
+What’s as fast-paced as Tetris or Pac-Man, playable for free on the web, and willing to tell you whether you harbor hidden biases against blacks, gays, women, or Jews? Why, the Implicit Association Test, developed by psychologists Mahzarin Banaji, Tony Greenwald, and Brian Nosek. If you haven’t played it yet, do so now — it’s fun! Do you take longer to match African-American faces with words like “peace,” “love,” and “wonderful” and Caucasian faces with words like “bad,” “awful,” and “horrible” than vice versa? Yes, if you’re like 88% of white Americans and — interestingly — 48% of black Americans. (Philip Tetlock, quoted in this Washington Post article, comments that “we’ve come a long way from Selma, Alabama, if we have to calibrate prejudice in milliseconds.”) While I’m ashamed to be part of that 88% statistic, I’m also relieved that, even at an involuntary, subconsious level, I apparently harbor no bias at all against Asian-Americans or gays.
+
+While browsing Wikipedia (Earth’s largest procrastination resource), I came across the following “Freedom House” world map, which labels each country as “free,” “partly free,” or “not free” depending on how it scores on various indices of voting rights, free speech, etc.
+
+I have one beef with this map: I think there should be a little red dot over Berkeley, California.
+
+On an equally important note, while reading the Wikipedia entry for bear (don’t ask), I came across my favorite paragraph in the whole encyclopedia:
+
+In a chance encounter with a bear, the best course of action is usually to back away slowly in the direction that you came. The bear will rarely become aggressive and approach you. In order to protect yourself, some suggest passively lying on the ground and waiting for the bear to lose interest. Another approach is to constantly maintain an obstacle between you and the bear, such as a thick tree or boulder. A person is much more agile and quick than a bear allowing him or her to respond to a bear’s clockwise or counter-clockwise movement around the obstacle and move accordingly. The bear’s frustration will eventually cause disinterest. One can then move away from the bear to a new obstacle and continue this until he or she has created a safe distance from the bear.
+
+Lastly, Reuters reports on an interview in which Bill Gates discusses why he hates being so rich. My mom tells me that, when I visit Microsoft Research a few weeks from now, I should help ease Gates’s burden by demanding immediate reimbursement for my travel expenses.
+
+================================================================================
+

@@ -1,0 +1,98 @@
+TITLE: The floorboard test
+URL: https://scottaaronson.blog/?m=202310
+CONTENT:
+Last night a colleague sent me a gracious message, wishing for the safe return of the hostages and expressing disgust over the antisemites in my comment section. I wanted to share my reply.
+
+You have no idea how much this means to me.
+
+I’ve just been shaking with anger after an exchange with the latest antisemite to email me.  After I asked her whether she really wished for my family and friends in Israel to be murdered, she said that if I “read a fucking book that’s not about computers,” I would understand that “violence is the language of the oppressed.”
+
+The experience of the last few weeks has radicalized me like nothing else in life.  I’m not the same person as I was in September. My priorities are not the same.  48% of Americans aged 18-24 now say that they sympathize with Hamas more than Israel.  Not with the Palestinian people, with Hamas.  That’s nearly half of the next generation of my own country that might want me and my loved ones to be slaughtered.
+
+I feel like the last thread connecting me to my previous life are the people like you, who write to me with kindness and understanding, and who make me think: there are Gentiles who would’ve hidden me under the floorboards when the SS showed up.
+
+Be well.—Scott
+
+================================================================================
+
+TITLE: Bring the Brodutch family home
+URL: https://scottaaronson.blog/?m=202310
+CONTENT:
+Another Update (Oct. 27): At Boaz Barak’s Windows on Theory blog, you can now find a petition signed by 63 prize-winning mathematicians and computer scientists—one guess which one is alphabetically first—asking that the kidnapped Israeli children be returned home.  I feel confident that the pleas of Fields Medalists and Turing Award laureates will be what finally makes Hamas see the light.
+
+Update: Every time another antisemite writes to me to excuse, justify, or celebrate Hamas’s orgy of murder and kidnapping, I make another donation to the Jewish Federations of North America to help Israeli terror victims, listing the antisemite’s name or alias in the “in honor of” field.  By request, I’m sharing the link in case anyone else is also interested to donate.
+
+Aharon Brodutch is a quantum computing researcher who I’ve known for nearly a decade.  He’s worked at the Institute for Quantum Computing in Waterloo, the University of Toronto, his own startup company, and most recently IonQ.  He’s thought about quantum discord, the one-clean-qubit model, weak measurements, and other topics that have long been of interest on this blog.  He’s also on the paper giving an adaptive attack against Wiesner’s quantum money scheme—an application of the Elitzur-Vaidman bomb tester so simple and beautiful that I teach it in my undergrad Intro to Quantum Information Science class.
+
+Yesterday I learned that Aharon’s sister-in-law Hagar, his niece Ofri, and his two nephews Yuval and Uriah were kidnapped by Hamas.  Like Jews around the world, I’ve spent the last two weeks endlessly learning the names, faces, and life stories of hundreds of Israeli civilians who were murdered or kidnapped—and yet this news, directly affecting a colleague of mine, still managed to hit me in the gut.
+
+My sister in law Hagar, my niece Ofri and my two nephews Yuval and Uriah were kidnapped into Gaza. We want them home where they belong. #BringThemHowNow pic.twitter.com/pMDZquu0ml
+
+I’m gratified that much of the world shares my revulsion at Hamas’s pogrom—the worst violence against Jews since the Holocaust—and joins me in wishing for the safe return of the 200 hostages as well as the destruction of Hamas, and its replacement by a governing authority that actually cares about the welfare of the Palestinian people.  I’m glad that even many who call themselves “anti-Israel” or “anti-Zionist” have the basic human decency to be disgusted by Hamas.  Some of the most touching messages of love and support that I got came from my Iranian friends.
+
+All the same, for a whole week, my inbox and my blog moderation queue have been filling up with missives from people who profess to be thrilled, delighted, exhilirated by what Hamas did.  They tell me that the young people at the Nova music festival had it coming, and that they hope Hamas burns the settler-colonialist Zionist entity to the ground.  While some of these people praise Adolf Hitler, others parrot social-justice slogans.  One of these lovely correspondents claimed that virtually all of his academic colleagues in history and social science share his attitudes, and said I had no right to lecture him as a mere computer scientist.
+
+Meanwhile, as quantum computing founder David Deutsch has documented on his Twitter, in cities and university campuses around the world, posters with the names and faces of the children kidnapped by Hamas—just the names and faces of the kidnapped children (!)—are being torn down by anti-Israel activists.  The cognitive dissonance involved in such an act is astounding, but also deeply informative about the millennia-old forces at work here.
+
+One way I’ve been coping with this is, every time a Jew-hater emails me, I make another donation to help the victims in Israel, specifying that my donation is being made in the Jew-hater’s name.  But another way to cope is simply to use this blog to make what’s at stake visceral and explicit to my readers.  I got in touch with Aharon, and he asked me to share the guest post below, written by his brother Avihai.  I said it was the least I could do.  –Scott Aaronson
+
+Guest Post by Avihai Brodutch
+
+My name is Avihai Brodutch. My wife Hagar, along with our three children Ofri, Yuval, and Uriah, are being held hostage by Hamas. I want to share this message with people around the world: Children should never be involved in war. My wife and family should not be held hostage and they need to be released immediately.
+
+Here’s my story:
+
+I am an Israeli from Kfar Aza. My wife and I chose to build our home close to the border with Gaza, hoping for peace and relying on the Israeli government to protect our children. It was a beautiful home. Hagar, the love of my life, spent her entire life in Kibbutz Gvulot near the border. Our daughter Ofri, who is 10 years old, is an amazing, fun-loving girl who brings joy to everyone around her. Our son Yuval, 8, is smart, kind, and loving. And our youngest, Uriah, is the cutest little rascal. He is four and a half years old.  All four of them are in the hands of Hamas, and I hope they are at least together.
+
+On October 7th, our family’s life was shattered by a brutal attack. Hamas terrorists infiltrated Kfar Aza early in the morning while I was away from home. Security alerts are common in the kibbutz, and we all thought this one was no different until Hagar heard a knock on the door and saw the neighbor’s 4-year-old girl, Avigail, covered in blood. Both her parents had been murdered, and Hagar took Avigail in. She locked the door, and they all hid in the house. Soon, the entire kibbutz was filled with the sounds of bullets and bombs.
+
+I maintained contact with Hagar, who informed me that she had secured the door and was hiding with the children. We communicated quietly through text messages until she messaged, “they are coming in.” At that point, we lost communication, and I was convinced that I had lost my wife and three children. I do not want to describe the images that raced through my mind. A day later, I received word that a neighbor had witnessed them being captured and taken to Gaza. My family was alive, and this was the happiest news I’ve ever received. However, I knew they were far from being safe.
+
+I am asking all the governments in the world, do the right thing and help bring my family back to safety. This is not controversial, it is obvious to every human, the first priority should be bringing the families back home.
+
+================================================================================
+
+TITLE: Shtetl-Optimized’s First-Ever “Profile in Courage”
+URL: https://scottaaronson.blog/?m=202310
+CONTENT:
+Update (Oct. 11): While this post celebrated Harvard’s Boaz Barak, and his successful effort to shame his into disapproving of the murder of innocents, I missed Boaz’s best tweet about this.  There, Boaz points out that there might be a way to get Western leftists on board with basic humanity on this issue.  Namely: we simply need to unearth video proof that, at some point before beheading their Jewish victims in front of their families, burning them alive, and/or parading their mutilated bodies through the streets, at some point Hamas also misgendered them.
+
+The purpose of this post is to salute a longtime friend-of-the-blog for a recent display of moral courage.
+
+Boaz Barak is one of the most creative complexity theorists and cryptographers in the world, Gordon McKay Professor of Computer Science at Harvard, and—I’m happy to report—soon (like me) to go on leave to work in OpenAI’s safety group.  He’s a longtime friend-of-the-blog (having, for example, collaborated with me on the Five Worlds of AI post and Alarming trend in K-12 math education post), not to mention a longtime friend of me personally.
+
+Boaz has always been well to my left politically.  Secular, Israeli-born, and a protege of the … err, post-Zionist radical (?) Oded Goldreich, I can assure you that Boaz has never been quiet in his criticisms of Bibi’s emerging settler-theocracy.
+
+This weekend, though, a thousand Israelis were murdered, kidnapped, and raped—children, babies, parents using their bodies to shield their kids, Holocaust survivors, young people at a music festival.  It’s already entered history as the worst butchery of Jews since the Holocaust.
+
+In response, 35 Harvard student organizations quickly issued a letter blaming Israel “entirely” for the pogrom, and expressing zero regrets of any kind about it—except for the likelihood of “colonial retaliation,” against which the letter urged a “firm stand.”  Harvard President Claudine Gay, outspoken on countless other issues, was silent in response to the students’ effective endorsement of the Final Solution.  So Boaz wrote an open letter to President Gay, a variant of which has now been signed by a hundred Harvard faculty.  The letter reads, in part:
+
+Every innocent death is a tragedy. Yet, this should not mislead us to create false equivalencies between the actions leading to this loss. Hamas planned and executed the murder and kidnapping of civilians, particularly women, children, and the elderly, with no military or other specific objective. This meets the definition of a war crime.  The Israeli security forces were engaging in self-defense against this attack while dealing with numerous hostage situations and a barrage of thousands of rockets hidden deliberately in dense urban settings.The leaders of the major democratic countries united in saying that “the terrorist actions of Hamas have no justification, no legitimacy, and must be universally condemned” and that Israel should be supported “in its efforts to defend itself and its people against such atrocities.“ In contrast, while terrorists were still killing Israelis in their homes,  35 Harvard student organizations wrote that they hold “the Israeli regime entirely responsible for all unfolding violence,” with not a single word denouncing the horrific acts by Hamas. In the context of the unfolding events, this statement can be seen as nothing less than condoning the mass murder of civilians based only on their nationality. We’ve heard reports of even worse instances, with Harvard students celebrating the “victory” or “resistance” on social media.
+
+As a University aimed at educating future leaders, this could have been a teaching moment and an opportunity to remind our students that beyond our political debates, some acts such as war crimes are simply wrong. However, the statement by Harvard’s administration fell short of this goal. While justly denouncing Hamas, it still contributed to the false equivalency between attacks on noncombatants and self-defense against those atrocities. Furthermore, the statement failed to condemn the justifications for violence that come from our own campus, nor to make it clear to the world that the statement endorsed by these organizations does not represent the values of the Harvard community.  How can Jewish and Israeli students feel safe on a campus in which it is considered acceptable to justify and even celebrate the deaths of Jewish children and families?
+
+Boaz’s letter, and related comments by former Harvard President Larry Summers, seem to have finally spurred President Gay into dissociating the Harvard administration from the students’ letter.
+
+When I get depressed about the state of the world—as I have a lot the past few days—it helps to remember the existence of such friends, not only in the world but in my little corner of it.
+
+================================================================================
+
+TITLE: To all those who’ve emailed me…
+URL: https://scottaaronson.blog/?m=202310
+CONTENT:
+My wife’s family is OK; thanks very much for asking. But yes, missiles are landing and sirens are going off in Tel Aviv, and people there regularly have to use their buildings’ bomb shelters.
+
+Of course, the main developments are further south, where at least seven hundred Israelis were murdered or kidnapped and thousands were wounded, in what’s being called “Israel’s 9/11” (ironically, I remember 9/11 itself being called America’s Israel experience).  Some back-of-the-envelopes: this weekend, the number of Jews murdered for being Jews was about 12% of the number murdered per day in Auschwitz when it operated at max capacity, and nearly as many as were killed in the entire Six-Day War (most of whom were soldiers).  It was also about ten 9/11’s, if scaled by the Israeli vs. US population.
+
+As for why this war started, Hamas itself cited, not any desire to improve the miserable conditions of the people under its charge, but a few ultra-Orthodox Jews praying on the Temple Mount — a theological rationale.
+
+This is either the worst intelligence and operational failure in Israeli history or the second-worst, after the Yom Kippur War. It’s impossible not to ask whether the total political dysfunction gripping Israel played a central role, whether Netanyahu’s ministers were much more interested in protecting West Bank settlers than in protecting communities near Gaza, and whether Hamas and Iran knowingly capitalized on all this. But there will be investigations afterward.
+
+For now, both sides of Israel’s internal conflict — the secular modernists and the religious nationalist Bibi-ists — are completely united behind the goal of winning this unasked-for war, with the support of the world’s Jewish diaspora and reasonable people and nations, because what alternative is there?
+
+Added: This Quillette article is good for the historical context that many Western intellectuals refuse to understand.  Namely: for everything the Israeli government has done wrong, in Hamas it faces an enemy that descends directly from the Grand Mufti’s fusion of Nazism and Islamism in the 1930s and 1940s, and whose goal since its founding has been explicitly genocidal toward all Jews everywhere on earth—as we saw in the worst massacre of Jews since the Holocaust that it carried out this weekend.
+
+Update: This is really, really not thematically appropriate to this post, but … an interview with me, entitled Scott Aaronson Disentangles Quantum Hype, is now available on Craig Smith’s “Eye on AI” podcast.  Give it a listen if you’re interested.
+
+================================================================================
+

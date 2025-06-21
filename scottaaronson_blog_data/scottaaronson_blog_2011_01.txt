@@ -1,0 +1,54 @@
+TITLE: Quantum Complexity Theory student project showcase!
+URL: https://scottaaronson.blog/?m=201101
+CONTENT:
+This fall, for the second time, I taught my 6.845 Quantum Complexity Theory graduate course (see here for the lecture notes from the first iteration).  Thanks so much to the students for making the course a success—I hope they enjoyed it at least half as much as I did!
+
+A central part of 6.845 is the course project, which can be either a literature survey or original research in quantum complexity, and which can be done either individually or in pairs.  The majority of the students chose to do original research—which surprised me, given how little time was available and how inherently unpredictable theorizing is.  Yet all the projects ended up being good, and some ended up being spectacular—initiating new topics, making progress on open problems that I’d worked on without success, etc.  So with the students’ kind permission, I decided to pick six outstanding projects for a “blog showcase.”  (Obviously, inclusion in this showcase doesn’t preclude the projects being published “for real,” as I hope and expect they will be!)
+
+Without further ado:
+
+Alessandro Chiesa and Michael Forbes, A Note on QMA With Multiple Provers.  Here Ale and Michael improve previous QMA(k) protocols for NP-complete problems due to Aaronson-Beigi-Drucker-Fefferman-Shor and Beigi—boosting the success probability by polynomial factors and showing how to verify a much wider range of problems than just 3SAT and 3-Coloring.
+
+Paul Christiano, Toward Quantum Money Relative to a Classical Oracle.  In a Complexity’09 paper (whose full version, alas, isn’t yet finished), I showed that there exists a “quantum oracle” relative to which quantum money, which anyone can verify but no one can efficiently counterfeit, is possible.  Here Paul takes the next step, giving a candidate quantum money scheme that only requires a classical oracle.  Unfortunately, there’s still a gap in the security proof for this scheme, but I’m optimistic that with new ideas the gap can be filled.
+
+Alan Deckelbaum, Quantum Correlated Equilibria in Classical Complete Information Games.  In this innovative paper, Alan defines a new concept of quantum correlated equilibria in quantum game theory (see here for the definition of classical correlated equilibria, due to Aumann), and studies its basic properties.  In particular, he proves the nontrivial result that there exist equilibria that can be realized using classical correlation, but that can’t be realized using pure-state entanglement without one or more players having incentive to deviate.  See here for some independent related work by Shengyu Zhang.
+
+Shelby Kimmel, Quantum Adversary (Upper) Bound.  (Also on the arXiv; two closely-related arXiv preprints are Speed from Repetition by Shelby, and Super-Polynomial Quantum Speed-ups for Boolean Evaluation Trees with Hidden Structure by Shelby along with Bohua Zhan and Avinatan Hassidim.)  This work has to be read and understood to be believed—I too was skeptical at first!  Basically, Shelby gives an example of a promise problem with a constant-query quantum algorithm—except she has no idea what the algorithm is!  She can only prove its existence nonconstructively, by first giving a quantum algorithm for a composed version of the problem, and then appealing to Ben Reichardt’s breakthrough characterization of quantum query complexity in terms of span programs.  For a special case of the problem, she’s able to give an explicit O(1)-query quantum algorithm by using the Haar wavelet transform.
+
+Andy Lutomirski, On the Query Complexity of Counterfeiting Quantum Money.  Independently of Paul Christiano, here Andy proposes a different quantum money scheme using a classical oracle, which again ought to work but is missing only a security proof.  Along the way, Andy also proposes a beautiful new query complexity problem—the “Separate Components Problem”—which cries out for a quantum lower bound, and might also lead to a classical oracle separation between QMA and QCMA.
+
+Raluca Ada Popa, Witness-Indistinguishability Against Quantum Adversaries.  Building on John Watrous’s work on quantum zero-knowledge, here Raluca defines the new notion of quantum witness-indistinguishability, and proves many of its basic properties.  For example, she shows that if quantum computationally-concealing commitment schemes exist, then all of NP has witness-indistinguishable proofs that are computationally secure against quantum adversaries.  As with so much else in cryptography, even just getting the definitions right is a nontrivial affair!
+
+
+
+
+
+================================================================================
+
+TITLE: Burnt Carmel
+URL: https://scottaaronson.blog/?m=201101
+CONTENT:
+Three (pseudo-)random updates:
+
+First, sadly, I’ll be going to neither ICS’2011 in Beijing nor QIP’2011 in Singapore this coming week—too much travel!   If you’re going to either conference and would like to contribute a guest post, please let me know.
+
+Second, I posted a note to the arXiv this week called Impossibility of Succinct Quantum Proofs for Collision-Freeness.  Here’s the abstract:
+
+We show that any quantum algorithm to decide whether a function f:[n]→[n] is a permutation or far from a permutation must make Ω(n1/3/w) queries to f, even if the algorithm is given a w-qubit quantum witness in support of f being a permutation.  This implies that there exists an oracle A such that SZKA⊄QMAA, answering an eight-year-old open question of the author.  Indeed, we show that relative to some oracle, SZK is not in the counting class A0PP defined by Vyalyi.  The proof is a fairly simple extension of the quantum lower bound for the collision problem.
+
+This result is neither hard nor surprising, but it does more-or-less solve a problem that’s bothered me since grad school (and which I mentioned a couple months ago on this blog) in a ridiculously simple-in-retrospect way, which is either nice or disappointing depending on how you look at it.
+
+Third, some of you might have heard that the Carmel region in Israel recently suffered a terrible forest fire, which destroyed about 30 million trees and killed 44 people, and which required the assistance of many countries to put out.  Yesterday, after giving a talk at the Technion in Haifa, I had a chance to tour some of the fire damage.  While we were on the hike, a torrential downpour started (which caught me without coat or umbrella)—if only the rain had come a few weeks earlier!  Anyway, here are some photos:
+
+
+
+
+
+
+
+
+
+
+
+================================================================================
+

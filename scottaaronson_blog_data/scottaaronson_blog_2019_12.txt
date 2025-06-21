@@ -1,0 +1,224 @@
+TITLE: Quantum computing motte-and-baileys
+URL: https://scottaaronson.blog/?m=201912
+CONTENT:
+In the wake of two culture-war posts—the first on the term “quantum supremacy,” the second on the acronym “NIPS”—it’s clear that we all need to cool off with something anodyne and uncontroversial.  Fortunately, this holiday season, I know just the thing to bring everyone together: groaning about quantum computing hype!
+
+When I was at the Q2B conference in San Jose, I learned about lots of cool stuff that’s happening in the wake of Google’s quantum supremacy announcement.  I heard about the 57-qubit superconducting chip that the Google group is now building, following up on its 53-qubit one; and also about their first small-scale experimental demonstration of my certified randomness protocol.  I learned about recent progress on costing out the numbers of qubits and gates needed to do fault-tolerant quantum simulations of useful chemical reactions (IIRC, maybe a hundred thousand qubits and a few hours’ worth of gates—scary, but not Shor’s algorithm scary).
+
+I also learned about two claims about quantum algorithms that startups have made, and which are being wrongly interpreted.  The basic pattern is one that I’ve come to know well over the years, and which you could call a science version of the motte-and-bailey.  (For those not up on nerd blogosphere terminology: in medieval times, the motte was a dank castle to which you’d retreat while under attack; the bailey was the desirable land that you’d farm once the attackers left.)
+
+To wit:
+
+Our first instance of this pattern is the recent claim, by Zapata Computing, to have set a world record for integer factoring (1,099,551,473,989 =  1,048,589 × 1,048,601) with a quantum computer, by running a QAOA/variational algorithm on IBM’s superconducting device.  Gosh!  That sure sounds a lot better than the 21 that’s been factored with Shor’s algorithm, doesn’t it?
+
+I read the Zapata paper that this is based on, entitled “Variational Quantum Factoring,” and I don’t believe that a single word in it is false.  My issue is something the paper omits: namely, that once you’ve reduced factoring to a generic optimization problem, you’ve thrown away all the mathematical structure that Shor’s algorithm cleverly exploits, and that makes factoring asymptotically easy for a quantum computer.  And hence there’s no reason to expect your quantum algorithm to scale any better than brute-force trial division (or in the most optimistic scenario, trial division enhanced with Grover search).  On large numbers, your algorithm will be roundly outperformed even by classical algorithms that do exploit structure, like the Number Field Sieve.  Indeed, the quantum computer’s success at factoring the number will have had little or nothing to do with its being quantum at all—a classical optimization algorithm would’ve served as well.  And thus, the only reasons to factor a number on a quantum device in this way, would seem to be stuff like calibrating the device.
+
+Admittedly, to people who work in quantum algorithms, everything above is so obvious that it doesn’t need to be said.  But I learned at Q2B that there are interested people for whom this is not obvious, and even comes as a revelation.  So that’s why I’m saying it.
+
+Again and again over the past twenty years, I’ve seen people reinvent the notion of a “simpler alternative” to Shor’s algorithm: one that cuts out all the difficulty of building a fault-tolerant quantum computer.  In every case, the trouble, typically left unstated, has been that these alternatives also cut out the exponential speedup that’s Shor’s algorithm’s raison d’être.
+
+Our second example today of a quantum computing motte-and-bailey is the claim, by Toronto-based quantum computing startup Xanadu, that Gaussian BosonSampling can be used to solve all sorts of graph problems, like graph isomorphism, graph similarity, and densest subgraph.  As the co-inventor of BosonSampling, few things would warm my heart more than finding an actual application for that model (besides quantum supremacy experiments and, perhaps, certified random number generation).  But I still regard this as an open problem—if by “application,” we mean outperforming what you could’ve done classically.
+
+In papers (see for example here, here, here), members of the Xanadu team have given all sorts of ways to take a graph, and encode it into an instance of Gaussian BosonSampling, in such a way that the output distribution will then reveal features of the graph, like its isomorphism type or its dense subgraphs.  The trouble is that so far, I’ve seen no indications that this will actually lead to quantum algorithms that outperform the best classical algorithms, for any graph problems of practical interest.
+
+In the case of Densest Subgraph, the Xanadu folks use the output of a Gaussian BosonSampler to seed (that is, provide an initial guess for) a classical local search algorithm.  They say they observe better results this way than if they seed that classical local search algorithm with completely random initial conditions.  But of course, the real question is: could we get equally good results by seeding with the output of some classical heuristic?  Or by solving Densest Subgraph with a different approach entirely?  Given how hard it’s turned out to be just to verify that the outputs of a BosonSampling device come from such a device at all, it would seem astonishing if the answer to these questions wasn’t “yes.”
+
+In the case of Graph Isomorphism, the situation is even clearer.  There, the central claim made by the Xanadu folks is that given a graph G, they can use a Gaussian BosonSampling device to sample a probability distribution that encodes G’s isomorphism type.  So, isn’t this “promising” for solving GI with a quantum computer?  All you’d need to do now is invent some fast classical algorithm that could look at the samples coming from two graphs G and H, and tell you whether the probability distributions were the same.
+
+Except, not really.  While the Xanadu paper never says so, if all you want is to sample a distribution that encodes a graph’s isomorphism type, that’s easy to do classically!  (I even put this on the final exam for my undergraduate Quantum Information Science course a couple weeks ago.)  Here’s how: given as input a graph G, just output G but with its vertices randomly permuted.  Indeed, this will even provide a further property, better than anything the BosonSampling approach has been shown to provide (or than it probably does provide): namely, if G and H are not isomorphic, then the two probability distributions will not only be different but will have disjoint supports.  Alas, this still leaves us with the problem of distinguishing which distribution a given sample came from, which is as hard as Graph Isomorphism itself.  None of these approaches, classical or quantum, seem to lead to any algorithm that’s subexponential time, let alone competitive with the “Babai approach” of thinking really hard about graphs.
+
+All of this stuff falls victim to what I regard as the Fundamental Error of Quantum Algorithms Research: namely, to treat it as “promising” that a quantum algorithm works at all, or works better than some brute-force classical algorithm, without asking yourself whether there are any indications that your approach will ever be able to exploit interference of amplitudes to outperform the best classical algorithm.
+
+Incidentally, I’m not sure exactly why, but in practice, a major red flag that the Fundamental Error is about to be committed is when someone starts talking about “hybrid quantum/classical algorithms.”  By this they seem to mean: “outside the domain of traditional quantum algorithms, so don’t judge us by the standards of that domain.”  But I liked the way someone at Q2B put it to me: every quantum algorithm is a “hybrid quantum/classical algorithm,” with classical processors used wherever they can be, and qubits used only where they must be.
+
+The other thing people do, when challenged, is to say “well, admittedly we have no rigorous proof of an asymptotic quantum speedup”—thereby brilliantly reframing the whole conversation, to make people like me look like churlish theoreticians insisting on an impossible and perhaps irrelevant standard of rigor, blind to some huge practical quantum speedup that’s about to change the world.  The real issue, of course, is not that they haven’t given a proof of a quantum speedup (in either the real world or the black-box world); rather, it’s that they’ve typically given no reasons whatsoever to think that there might be a quantum speedup, compared to the best classical algorithms available.
+
+In the holiday spirit, let me end on a positive note.  When I did the Q&A at Q2B—the same one where Sarah Kaiser asked me to comment on the term “quantum supremacy”—one of my answers touched on the most important theoretical open problems about sampling-based quantum supremacy experiments.  At the top of the list, I said, was whether there’s some interactive protocol by which a near-term quantum computer can not only exhibit quantum supremacy, but prove it to a polynomial-time-bounded classical skeptic.  I mentioned that there was one proposal for how to do this, in the IQP model, due to Bremner and Shepherd, from way back in 2008.  I said that their proposal deserved much more attention than it had received, and that trying to break it would be one obvious thing to work on.  Little did I know that, literally while I was speaking, a paper was being posted to the arXiv, by Gregory Kahanamoku-Meyer, that claims to break Bremner and Shepherd’s protocol.  I haven’t yet studied the paper, but assuming it’s correct, it represents the first clear progress on this problem in years (even though of a negative kind).  Cool!!
+
+================================================================================
+
+TITLE: NIPS vs. NeurIPS: guest post by Steven Pinker
+URL: https://scottaaronson.blog/?m=201912
+CONTENT:
+Scott’s Update (Dec. 26): Comments on this post are now closed, since I felt that whatever progress could be made, had been, and I wanted to move on to more interesting topics.  Thanks so much to everyone who came here to hash things out in good faith—which, as far as I’m concerned, included the majority of the participants on both sides.
+
+If you want to see the position paper that led to the name change movement, see What’s In A Name? The Need to Nip NIPS, by Daniela Witten, Elana Fertig, Anima Anandkumar, and Jeff Dean.  I apologize for not linking to this paper in the original post.
+
+To recap what I said many times in this post and the comments: I myself am totally fine with the name NeurIPS.  I think several of the arguments for changing the name were good arguments—and I thank some of the commenters on this post for elucidating those arguments without shaming anybody or calling them names.  In any case the decision is done, and it belongs to the ML community, not to me and not to Steven Pinker.
+
+The one part that I’m against is the bullying of anyone who disagrees by smearing them as a misogynist.  And then, recursively, the smearing as a misogynist of anyone who objected to that bullying, and so on and so on.  Most supporters of the name change did not engage in such bullying, but one leader of the movement very conspicuously did, and continues to do it even now (to, I’m told, the consternation even of many of her allies).
+
+Since this post went up, something extremely interesting happened: Steven Pinker and I started getting emails from researchers in the NeurIPS community that said, in various words: “thank you for openly airing perspectives that we could not air, without jeopardizing our careers.”  We were told that even women in ML, and even those who agreed with the activists on most points, could no longer voice opposition without risking their hiring or tenure.  This put into a slightly different light, I thought, the constant claims of some movement leaders about their own marginalization and powerlessness.
+
+Since I was 7 or 8 years old, the moral lodestar of my life has been my yearning (too often left unfulfilled) to stand up to the world’s bullies.  Bullies come in all shapes and sizes: some are gangsters or men who sexually exploit vulnerable women; one, alas, is even the President of the United States.  But bullying knows no bounds of ideology or gender.  Some bullies resort to whisper networks, or Twitter shaming campaigns, or their power in academic hierarchies, to shut down dissenting voices.  With the latter kinds of bully—well, to whatever extent this blog is now in a position to make some difference, I’d feel morally complicit if it didn’t.
+
+As I wrote in the comments: may the 2020s be an era of intellectual freedom, compassion, and understanding for all people regardless of background. –SA
+
+Scott’s prologue:
+
+Happy Christmas and Merry Chanukah!
+
+As a followup to last Thursday’s post about the term “quantum supremacy,” today all of us here at Shtetl-Optimized are humbled to host a guest post by Steven Pinker: the Johnstone Professor of Psychology at Harvard University, and author of The Language Instinct, How the Mind Works, The Blank Slate, Enlightenment Now (which I reviewed here), and other books.
+
+The former NIPS—Neural Information Processing Systems—has been the premier conference for machine learning for 30 years.  As many readers might know, last year NIPS changed its name to NeurIPS: ironically, giving greater emphasis to an aspect that I’m told has been de-emphasized at that conference over time.  The reason, apparently, was that some male attendees had made puns involving the acronym “NIPS” and nipples.
+
+I confess that the name change took me by surprise, simply because it had never occurred to me to make the NIPS/nipples connection—not when I gave a plenary at NIPS in 2012, and not when my collaborators and I coauthored a NIPS paper.  It’s not that I’m averse to puerile humor.  It’s just that neither I, nor anyone else I knew, had apparently ever felt the need for a shorthand for “nipples.”  Of course, once I did learn about this controversy, it became hard to hear “NIPS” without thinking about it.
+
+Back when this happened, Steven Pinker tweeted about NIPS being “forced to change its acronym … because some thought it was sexist. ?????,” apparently as part of a longer thread about “the new Victorians.”  In response, a computer science professor sent Pinker an extremely stern email, saying that Pinker’s tweeting about this had “caused harm to our community” and “just [made] the world a bleaker place for everyone.”   After linking to a National Academies report on bias in STEM, the email ended: “I hope you will choose to inform yourself on the discussion to which you have just contributed and that you will offer a well-considered follow up.”   I won’t risk betraying confidences by quoting further.  Of course, the author is warmly welcomed to share anything they wish in the comments here (or I can add it to the main post).
+
+Steve’s guest post today consists of his response to this email.  (He told me that, after sending it, he received no further responses.)
+
+I don’t have any dog in the NIPS/NeurIPS debate, being at most on the “margin” (har!) of machine learning.  And in any case the debate ended a year ago: the name is now NeurIPS and it’s not changing back.  Reopening the issue would seem to invite a strong risk of social-media denunciation for no possible gain.
+
+So why am I doing this?  Mostly because I thought it was in the interest of humanity to know that, even when Steven Pinker is answering someone’s email, with no expectation that his reply will be made public, he writes the same way he does in his books: with clarity, humor, and an amusing quote from his mom.
+
+But also because—again, without taking a position on the NIPS vs. NeurIPS issue itself—there’s a tactic displayed by Pinker’s detractors that fundamentally grates on me.  This is where you pretend to an open mind, but it turns out that you’re open only to the possibility that your opponent might not have read enough reports and studies to “do better”—i.e., that they sinned out of ignorance rather than out of malice.  You don’t open your mind even a crack to the possibility that the opponent might have a point.
+
+Without further ado, here’s Steven Pinker’s email:
+
+I appreciate your frank comments. At the same time, I do not agree with them. Please allow me to explain.
+
+If this were a matter of sexual harassment or other hostile behavior toward women, I would of course support strong measures to combat it. Any member of the Symposium who uttered demeaning comments toward or about women certainly deserves censure.
+
+But that is not what is at issue here. It’s an utterly irrelevant matter: the three-decades-old acronym for the Neural Information Processing Symposium, the pleasingly pronounceable NIPS. To state what should be obvious: nip is not a sexual word. As Chair of the Usage Panel of the American Heritage Dictionary, I can support this claim.
+
+(And as my mother wrote to me: “I don’t get it. I thought Nips was a brand of caramel candy.”)  [Indeed, I enjoyed those candies as a kid. –SA]  Even if people with an adolescent mindset think of nipples when hearing the sound “nips,” the society should not endorse the idea that the concept of nipples is sexist. Men have nipples too, and women’s nipples evolved as organs of nursing, not sexual gratification. Indeed, many feminists have argued that it’s sexist to conceptualize women’s bodies from the point of view of male sexuality.
+
+If some people make insulting puns that demean women, the society should condemn them for the insults, not concede to their puerility by endorsing their appropriation of an innocent sound. (The Linguistics Society of America and Boston Debate League do not change their names to disavow jejune clichés about cunning linguists and master debaters.) To act as if anything with the remotest connection to sexuality must be censored to protect delicate female sensibilities is insulting to women and reminiscent of prissy Victorian taboos against uncovered piano legs or the phrase “with the naked eye.”
+
+Any harm to the community of computer scientists has been done not by me but by the pressure group and the Symposium’s surrender. As a public figure who hears from a broad range of people outside the academic bubble, I can tell you that this episode has not played well. It’s seen as the latest sign that academia has lost its mind—that it has traded reasoned argument, conceptual rigor, proportionality, and common sense for prudish censoriousness, snowflake sensibility, and virtue signaling. I often hear from intelligent non-leftists, “Why should I be impressed by the scientific consensus on climate change? Everyone knows that academics just fall into line with the politically correct position.” To secure the credibility of the academy, we have to make reasoned distinctions, and stop turning our enterprise into a laughingstock.
+
+To repeat: none of this deprecates the important effort to stamp out harassment and misogyny in science, which I’m well aware of and thoroughly support, but which has nothing to do with the acronym NIPS.
+
+You are welcome to share this note with interested parties.
+
+Best,Steve
+
+================================================================================
+
+TITLE: Quantum Dominance, Hegemony, and Superiority
+URL: https://scottaaronson.blog/?m=201912
+CONTENT:
+Yay!  I’m now a Fellow of the ACM.  Along with my fellow new inductee Peter Shor, who I hear is a real up-and-comer in the quantum computing field.  I will seek to use this awesome responsibility to steer the ACM along the path of good rather than evil.
+
+Also, last week, I attended the Q2B conference in San Jose, where a central theme was the outlook for practical quantum computing in the wake of the first clear demonstration of quantum computational supremacy.  Thanks to the folks at QC Ware for organizing a fun conference (full disclosure: I’m QC Ware’s Chief Scientific Advisor).  I’ll have more to say about the actual scientific things discussed at Q2B in future posts.
+
+None of that is why you’re here, though.  You’re here because of the battle over “quantum supremacy.”
+
+A week ago, my good friend and collaborator Zach Weinersmith, of SMBC Comics, put out a cartoon with a dark-curly-haired scientist named “Dr. Aaronson,” who’s revealed on a hot mic to be an evil “quantum supremacist.”  Apparently a rush job, this cartoon is far from Zach’s finest work.  For one thing, if the character is supposed to be me, why not draw him as me, and if he isn’t, why call him “Dr. Aaronson”?  In any case, I learned from talking to Zach that the cartoon’s timing was purely coincidental: Zach didn’t even realize what a hornet’s-nest he was poking with this.
+
+Ever since John Preskill coined it in 2012, “quantum supremacy” has been an awkward term.  Much as I admire John Preskill’s wisdom, brilliance, generosity, and good sense, in physics as in everything else—yeah, “quantum supremacy” is not a term I would’ve coined, and it’s certainly not a hill I’d choose to die on.  Once it had gained common currency, though, I sort of took a liking to it, mostly because I realized that I could mine it for dark one-liners in my talks.
+
+The thinking was: even as white supremacy was making its horrific resurgence in the US and around the world, here we were, physicists and computer scientists and mathematicians of varied skin tones and accents and genders, coming together to pursue a different and better kind of supremacy—a small reflection of the better world that we still believed was possible.  You might say that we were reclaiming the word “supremacy”—which, after all, just means a state of being supreme—for something non-sexist and non-racist and inclusive and good.
+
+In the world of 2019, alas, perhaps it was inevitable that people wouldn’t leave things there.
+
+My first intimation came a month ago, when Leonie Mueck—someone who I’d gotten to know and like when she was an editor at Nature handling quantum information papers—emailed me about her view that our community should abandon the term “quantum supremacy,” because of its potential to make women and minorities uncomfortable in our field.  She advocated using “quantum advantage” instead.
+
+So I sent Leonie back a friendly reply, explaining that, as the father of a math-loving 6-year-old girl, I understood and shared her concerns—but also, that I didn’t know an alternative term that really worked.
+
+See, it’s like this.  Preskill meant “quantum supremacy” to refer to a momentous event that seemed likely to arrive in a matter of years: namely, the moment when programmable quantum computers would first outpace the ability of the fastest classical supercomputers on earth, running the fastest algorithms known by humans, to simulate what the quantum computers were doing (at least on special, contrived problems).  And … “the historic milestone of quantum advantage”?  It just doesn’t sound right.  Plus, as many others pointed out, the term “quantum advantage” is already used to refer to … well, quantum advantages, which might fall well short of supremacy.
+
+But one could go further.  Suppose we did switch to “quantum advantage.”  Couldn’t that term, too, remind vulnerable people about the unfair advantages that some groups have over others?  Indeed, while “advantage” is certainly subtler than “supremacy,” couldn’t that make it all the more insidious, and therefore dangerous?
+
+Oblivious though I sometimes am, I realized Leonie would be unhappy if I offered that, because of my wholehearted agreement, I would henceforth never again call it “quantum supremacy,” but only “quantum superiority,” “quantum dominance,” or “quantum hegemony.”
+
+But maybe you now see the problem.  What word does the English language provide to describe one thing decisively beating or being better than a different thing for some purpose, and which doesn’t have unsavory connotations?
+
+I’ve heard “quantum ascendancy,” but that makes it sound like we’re a UFO cult—waiting to ascend, like ytterbium ions caught in a laser beam, to a vast quantum computer in the sky.
+
+I’ve heard “quantum inimitability” (that is, inability to imitate using a classical computer), but who can pronounce that?
+
+Yesterday, my brilliant former student Ewin Tang (yes, that one) relayed to me a suggestion by Kevin Tian: “quantum eclipse” (that is, the moment when quantum computers first eclipse classical ones for some task).  But would one want to speak of a “quantum eclipse experiment”?  And shouldn’t we expect that, the cuter and cleverer the term, the harder it will be to use unironically?
+
+In summary, while someone might think of a term so inspired that it immediately supplants “quantum supremacy” (and while I welcome suggestions), I currently regard it as an open problem.
+
+Anyway, evidently dissatisfied with my response, last week Leonie teamed up with 13 others to publish a letter in Nature, which was originally entitled “Supremacy is for racists—use ‘quantum advantage,'” but whose title I see has now been changed to the less inflammatory “Instead of ‘supremacy’ use ‘quantum advantage.'”  Leonie’s co-signatories included four of my good friends and colleagues: Alan Aspuru-Guzik, Helmut Katzgraber, Anne Broadbent, and Chris Granade (the last of whom got started in the field by helping me edit Quantum Computing Since Democritus).
+
+(Update: Leonie pointed me to a longer list of signatories here, at their website called “quantumresponsibility.org.”  A few names that might be known to Shtetl-Optimized readers are Andrew White, David Yonge-Mallo, Debbie Leung, Matt Leifer, Matthias Troyer.)
+
+Their letter says:
+
+The community claims that quantum supremacy is a technical term with a specified meaning.  However, any technical justification for this descriptor could get swamped as it enters the public arena after the intense media coverage of the past few months.
+
+In our view, ‘supremacy’ has overtones of violence, neocolonialism and racism through its association with ‘white supremacy’.  Inherently violent language has crept into other branches of science as well — in human and robotic spaceflight, for example, terms such as ‘conquest’, ‘colonization’ and ‘settlement’ evoke the terra nullius arguments of settler colonialism and must be contextualized against ongoing issues of neocolonialism.
+
+Instead, quantum computing should be an open arena and an inspiration for a new generation of scientists.
+
+When I did an “Ask Me Anything” session, as the closing event at Q2B, Sarah Kaiser asked me to comment on the Nature petition.  So I repeated what I’d said in my emailed response to Leonie—running through the problems with each proposed alternative term, talking about the value of reclaiming the word “supremacy,” and mostly just trying to diffuse the tension by getting everyone laughing together.  Sarah later tweeted that she was “really disappointed” in my response.
+
+Then the Wall Street Journal got in on the action, with a brief editorial (warning: paywalled) mocking the Nature petition:
+
+There it is, folks: Mankind has hit quantum wokeness.  Our species, akin to Schrödinger’s cat, is simultaneously brilliant and brain-dead.  We built a quantum computer and then argued about whether the write-up was linguistically racist.
+
+Taken seriously, the renaming game will never end.  First put a Sharpie to the Supremacy Clause of the U.S. Constitution, which says federal laws trump state laws.  Cancel Matt Damon for his 2004 role in “The Bourne Supremacy.”  Make the Air Force give up the term “air supremacy.”  Tell lovers of supreme pizza to quit being so chauvinistic about their toppings.  Please inform Motown legend Diana Ross that the Supremes are problematic.
+
+The quirks of quantum mechanics, some people argue, are explained by the existence of many universes.  How did we get stuck in this one?
+
+Steven Pinker also weighed in, with a linguistically-informed tweetstorm:
+
+This sounds like something from The Onion but actually appeared in Nature … It follows the wokified stigmatization of other innocent words, like “House Master” (now, at Harvard, Residential Dean) and “NIPS” (Neural Information Processing Society, now NeurIPS).  It’s a familiar linguistic phenomenon, a lexical version of Gresham’s Law: bad meanings drive good ones out of circulation.  Examples: the doomed “niggardly” (no relation to the n-word) and the original senses of “cock,” “ass,” “prick,” “pussy,” and “booty.”  Still, the prissy banning of words by academics should be resisted.  It dumbs down understanding of language: word meanings are conventions, not spells with magical powers, and all words have multiple senses, which are distinguished in context.  Also, it makes academia a laughingstock, tars the innocent,  and does nothing to combat actual racism & sexism.
+
+Others had a stronger reaction.  Curtis Yarvin, better known as Mencius Moldbug, is one of the founders of “neoreaction” (and a significant influence on Steve Bannon, Michael Anton, and other Trumpists).  Regulars might remember that Yarvin argued with me in Shtetl-Optimized‘s comment section, under a post in which I denounced Trump’s travel ban and its effects on my Iranian PhD student.  Since then, Yarvin has sent me many emails, which have ranged from long to extremely long, and whose message could be summarized as: “[labored breathing] Abandon your liberal Enlightenment pretensions, young Nerdwalker.  Come over the Dark Side.”
+
+After the “supremacy is for racists” letter came out in Nature, though, Yarvin sent me his shortest email ever.  It was simply a link to the letter, along with the comment “I knew it would come to this.”
+
+He meant: “What more proof do you need, young Nerdawan, that this performative wokeness is a cancer that will eventually infect everything you value—even totally apolitical research in quantum information?  And by extension, that my whole worldview, which warned of this, is fundamentally correct, while your faith in liberal academia is naïve, and will be repaid only with backstabbing?”
+
+In a subsequent email, Yarvin predicted that in two years, the whole community will be saying “quantum advantage” instead of “quantum supremacy,” and in five years I’ll be saying “quantum advantage” too.  As Yarvin famously wrote: “Cthulhu may swim slowly.  But he only swims left.”
+
+So what do I really think about this epic battle for (and against) supremacy?
+
+Truthfully, half of me just wants to switch to “quantum advantage” right now and be done with it.  As I said, I know some of the signatories of the Nature letter to be smart and reasonable and kind.  They don’t wish to rid the planet of everyone like me.  They’re not Amanda Marcottes or Arthur Chus.  Furthermore, there’s little I despise more than a meaty scientific debate devolving into a pointless semantic one, with brilliant friend after brilliant friend getting sucked into the vortex (“you too?”).  I’m strongly in the Pinkerian camp, which holds that words are just arbitrary designators, devoid of the totemic power to dictate thoughts.  So if friends and colleagues—even just a few of them—tell me that they find some word I use to be offensive, why not just be a mensch, apologize for any unintended hurt, switch words midsentence, and continue discussing the matter at hand?
+
+But then the other half of me wonders: once we’ve ceded an open-ended veto over technical terms that remind anyone of anything bad, where does it stop?  How do we ever certify a word as kosher?  At what point do we all get to stop arguing and laugh together?
+
+To make this worry concrete, look back at Sarah Kaiser’s Twitter thread—the one where she expresses disappointment in me.  Below her tweet, someone remarks that, besides “quantum supremacy,” the word “ancilla” (as in ancilla qubit, a qubit used for intermediate computation or other auxiliary purposes) is problematic as well.  Here’s Sarah’s response:
+
+I agree, but I wanted to start by focusing on the obvious one, Its harder for them to object to just one to start with, then once they admit the logic, we can expand the list
+
+(What would Curtis Yarvin say about that?)
+
+You’re probably now wondering: what’s wrong with “ancilla”?  Apparently, in ancient Rome, an “ancilla” was a female slave, and indeed that’s the Latin root of the English adjective “ancillary” (as in “providing support to”).  I confess that I hadn’t known that—had you?  Admittedly, once you do know, you might never again look at a Controlled-NOT gate—pitilessly flipping an ancilla qubit, subject only to the whims of a nearby control qubit—in quite the same way.
+
+(Ah, but the ancilla can fight back against her controller!  And she does—in the Hadamard basis.)
+
+The thing is, if we’re gonna play this game: what about annihilation operators?  Won’t those need to be … annihilated from physics?
+
+And what about unitary matrices?  Doesn’t their very name negate the multiplicity of perspectives and cultures?
+
+What about Dirac’s oddly-named bra/ket notation, with its limitless potential for puerile jokes, about the “bra” vectors displaying their contents horizontally and so forth?  (Did you smile at that, you hateful pig?)
+
+What about daggers?  Don’t we need a less violent conjugate tranpose?
+
+Not to beat a dead horse, but once you hunt for examples, you realize that the whole dictionary is shot through with domination and brutality—that you’d have to massacre the English language to take it out.  There’s nothing special about math or physics in this respect.
+
+The same half of me also thinks about my friends and colleagues who oppose claims of quantum supremacy, or even the quest for quantum supremacy, on various scientific grounds.  I.e., either they don’t think that the Google team achieved what it said, or they think that the task wasn’t hard enough for classical computers, or they think that the entire goal is misguided or irrelevant or uninteresting.
+
+Which is fine—these are precisely the arguments we should be having—except that I’ve personally seen some of my respected colleagues, while arguing for these positions, opportunistically tack on ideological objections to the term “quantum supremacy.”  Just to goose up their case, I guess.  And I confess that every time they did this, it made me want to keep saying “quantum supremacy” from now till the end of time—solely to deny these colleagues a cheap and unearned “victory,” one they apparently felt they couldn’t obtain on the merits alone.  I realize that this is childish and irrational.
+
+Most of all, though, the half of me that I’m talking about thinks about Curtis Yarvin and the Wall Street Journal editorial board, cackling with glee to see their worldview so dramatically confirmed—as theatrical wokeness, that self-parodying modern monstrosity, turns its gaze on (of all things) quantum computing research.  More red meat to fire up the base—or at least that sliver of the base nerdy enough to care.  And the left, as usual, walks right into the trap, sacrificing its credibility with the outside world to pursue a runaway virtue-signaling spiral.
+
+The same half of me thinks: do we really want to fight racism and sexism?  Then let’s work together to assemble a broad coalition that can defeat Trump.  And Jair Bolsonaro, and Viktor Orbán, and all the other ghastly manifestations of humanity’s collective lizard-brain.  Then, if we’re really fantasizing, we could liberalize the drug laws, and get contraception and loans and education to women in the Third World, and stop the systematic disenfranchisement of black voters, and open up the world’s richer, whiter, and higher-elevation countries to climate refugees, and protect the world’s remaining indigenous lands (those that didn’t burn to the ground this year).
+
+In this context, the trouble with obsessing over terms like “quantum supremacy” is not merely that it diverts attention, while contributing nothing to fighting the world’s actual racism and sexism.  The trouble is that the obsessions are actually harmful.  For they make academics—along with progressive activists—look silly.  They make people think that we must not have meant it when we talked about the existential urgency of climate change and the world’s other crises.  They pump oxygen into right-wing echo chambers.
+
+But it’s worse than ridiculous, because of the message that I fear is received by many outside the activists’ bubble.  When you say stuff like “[quantum] supremacy is for racists,” what’s heard might be something more like:
+
+“Watch your back, you disgusting supremacist.  Yes, you.  You claim that you mentor women and minorities, donate to good causes, try hard to confront the demons in your own character?  Ha!  None of that counts for anything with us.  You’ll never be with-it enough to be our ally, so don’t bother trying.  We’ll see to it that you’re never safe, not even in the most abstruse and apolitical fields.  We’ll comb through your words—even words like ‘ancilla qubit’—looking for any that we can cast as offensive by our opaque and ever-shifting standards.  And once we find some, we’ll have it within our power to end your career, and you’ll be reduced to groveling that we don’t.  Remember those popular kids who bullied you in second grade, giving you nightmares of social ostracism that persist to this day?  We plan to achieve what even those bullies couldn’t: to shame you with the full backing of the modern world’s moral code.  See, we’re the good guys of this story.  It’s goodness itself that’s branding you as racist scum.”
+
+In short, I claim that the message—not the message intended, of course, by anyone other than a Chu or a Marcotte or a SneerClubber, but the message received—is basically a Trump campaign ad.  I claim further that our civilization’s current self-inflicted catastrophe will end—i.e., the believers in science and reason and progress and rule of law will claw their way back to power—when, and only when, a generation of activists emerges that understands these dynamics as well as Barack Obama did.
+
+Wouldn’t it be awesome if, five years from now, I could say to Curtis Yarvin: you were wrong?  If I could say to him: my colleagues and I still use the term ‘quantum supremacy’ whenever we care to, and none of us have been cancelled or ostracized for it—so maybe you should revisit your paranoid theories about Cthulhu and the Cathedral and so forth?  If I could say: quantum computing researchers now have bigger fish to fry than arguments over words—like moving beyond quantum supremacy to the first useful quantum simulations, as well as the race for scalability and fault-tolerance?  And even: progressive activists now have bigger fish to fry too—like retaking actual power all over the world?
+
+Anyway, as I said, that’s how half of me feels.  The other half is ready to switch to “quantum advantage” or any other serviceable term and get back to doing science.
+
+================================================================================
+
+TITLE: Two updates
+URL: https://scottaaronson.blog/?m=201912
+CONTENT:
+
+
+================================================================================
+

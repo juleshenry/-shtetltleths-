@@ -1,0 +1,47 @@
+TITLE: The Acrobatics of BQP
+URL: https://scottaaronson.blog/?m=202111
+CONTENT:
+Just in case anyone is depressed this afternoon and needs something to cheer them up, students William Kretschmer, DeVon Ingram, and I have finally put out a new paper:
+
+The Acrobatics of BQP
+
+Abstract: We show that, in the black-box setting, the behavior of quantum polynomial-time (BQP) can be remarkably decoupled from that of classical complexity classes like NP.  Specifically:
+
+– There exists an oracle relative to which NPBQP⊄BQPPH, resolving a 2005 problem of Fortnow. Interpreted another way, we show that AC0 circuits cannot perform useful homomorphic encryption on instances of the Forrelation problem. As a corollary, there exists an oracle relative to which P=NP but BQP≠QCMA.
+
+– Conversely, there exists an oracle relative to which BQPNP⊄PHBQP.
+
+– Relative to a random oracle, PP=PostBQP is not contained in the “QMA hierarchy” QMAQMA^QMA^…, and more generally PP⊄(MIP*)(MIP*)^(MIP*)^… (!), despite the fact that MIP*=RE in the unrelativized world. This result shows that there is no black-box quantum analogue of Stockmeyer’s approximate counting algorithm.
+
+– Relative to a random oracle, Σk+1⊄BQPΣ_k for every k.
+
+– There exists an oracle relative to which BQP=P#P and yet PH is infinite. (By contrast, if NP⊆BPP, then PH collapses relative to all oracles.)
+
+– There exists an oracle relative to which P=NP≠BQP=P#P.
+
+To achieve these results, we build on the 2018 achievement by Raz and Tal of an oracle relative to which BQP⊄PH, and associated results about the Forrelation problem. We also introduce new tools that might be of independent interest. These include a “quantum-aware” version of the random restriction method, a concentration theorem for the block sensitivity of AC0 circuits, and a (provable) analogue of the Aaronson-Ambainis Conjecture for sparse oracles.
+
+Incidentally, particularly when I’ve worked on a project with students, I’m often tremendously excited and want to shout about it from the rooftops for the students’ sake … but then I also don’t want to use this blog to privilege my own papers “unfairly.”  Can anyone suggest a principle that I should follow going forward?
+
+================================================================================
+
+TITLE: Scott Aaronson, when reached for comment, said…
+URL: https://scottaaronson.blog/?m=202111
+CONTENT:
+About IBM’s new 127-qubit superconducting chip: As I told New Scientist, I look forward to seeing the actual details!  As far as I could see, the marketing materials that IBM released yesterday take a lot of words to say absolutely nothing about what, to experts, is the single most important piece of information: namely, what are the gate fidelities?  How deep of a quantum circuit can they apply?  How have they benchmarked the chip?  Right now, all I have to go on is a stats page for the new chip, which reports its average CNOT error as 0.9388—in other words, close to 1, or terrible! (But see also a tweet by James Wootton, which explains that such numbers are often highly misleading when a new chip is first rolled out.)  Does anyone here have more information? Update (11/17): As of this morning, the average CNOT error has been updated to 2%.  Thanks to multiple commenters for letting me know!
+
+About the new simulation of Google’s 53-qubit Sycamore chip in 5 minutes on a Sunway supercomputer (see also here): This is an exciting step forward on the classical validation of quantum supremacy experiments, and—ironically, what currently amounts to almost the same thing—on the classical spoofing of those experiments.  Congratulations to the team in China that achieved this!  But there are two crucial things to understand.  First, “5 minutes” refers to the time needed to calculate a single amplitude (or perhaps, several correlated amplitudes) using tensor network contraction.  It doesn’t refer to the time needed to generate millions of independent noisy samples, which is what Google’s Sycamore chip does in 3 minutes.  For the latter task, more like a week still seems to be needed on the supercomputer.  (I’m grateful to Chu Guo, a coauthor of the new work who spoke in UT Austin’s weekly quantum Zoom meeting, for clarifying this point.)  Second, the Sunway supercomputer has parallel processing power equivalent to approximately ten million of your laptop.  Thus, even if we agreed that Google no longer had quantum supremacy as measured by time, it would still have quantum supremacy as measured by carbon footprint!  (And this despite the fact that the quantum computer itself requires a noisy, closet-sized dilution fridge.)  Even so, for me the new work underscores the point that quantum supremacy is not yet a done deal.  Over the next few years, I hope that Google and USTC, as well as any new entrants to this race (IBM? IonQ? Harvard? Rigetti?), will push forward with more qubits and, even more importantly, better gate fidelities leading to higher Linear Cross-Entropy scores.  Meanwhile, we theorists should try to do our part by inventing new and better protocols with which to demonstrate near-term quantum supremacy—especially protocols for which the classical verification is easier.
+
+About the new anti-woke University of Austin (UATX): In general, I’m extremely happy for people to experiment with new and different institutions, and of course I’m happy for more intellectual activity in my adopted city of Austin.  And, as Shtetl-Optimized readers will know, I’m probably more sympathetic than most to the reality of the problem that UATX is trying to solve—living, as we do, in an era when one academic after another has been cancelled for ideas that a mere decade ago would’ve been considered unexceptional, moderate, center-left.  Having said all that, I wish I could feel more optimistic about UATX’s prospects.  I found its website heavy on free-speech rhetoric but frustratingly light on what the new university is actually going to do: what courses it will offer, who will teach them, where the campus will be, etc. etc.  Arguably this is all excusable for a university still in ramp-up mode, but had I been in their shoes, I might have held off on the public launch until I had at least some sample content to offer.  Certainly, the fact that Steven Pinker has quit UATX’s advisory board is a discouraging sign.  If UATX asks me to get involved—to lecture there, to give them advice about their CS program, etc.—I’ll consider it as I would any other request.  So far, though, they haven’t.
+
+About the Association for Mathematical Research: Last month, some colleagues invited me to join a brand-new society called the Association for Mathematical Research.  Many of the other founders (Joel Hass, Abigail Thompson, Colin Adams, Richard Borcherds, Jeff Cheeger, Pavel Etingof, Tom Hales, Jeff Lagarias, Mark Lackenby, Cliff Taubes, …) were brilliant mathematicians who I admired, they seemed like they could use a bit of theoretical computer science representation, there was no time commitment, maybe they’d eventually do something good, so I figured why not?  Alas, to say that AMR has proved unpopular on Twitter would be an understatement: it’s received the same contemptuous reception that UATX has.  The argument seems to be: starting a new mathematical society, even an avowedly diverse and apolitical one, is really just an implicit claim that the existing societies, like the Mathematical Association of America (MAA)  and the American Mathematical Society (AMS), have been co-opted by woke true-believers.  But that’s paranoid and insane!  I mean, it’s not as if an AMS blog has called for the mass resignation of white male mathematicians to make room for the marginalized, or the boycott of Israeli universities, or the abolition of the criminal justice system (what to do about Kyle Rittenhouse though?).  Still, even though claims of that sort of co-option are obviously far-out, rabid fantasies, yeah, I did decide to give a new organization the benefit of the doubt.  AMR might well fail or languish in obscurity, just like UATX might.  On the other hand, the barriers to making a positive difference for the intellectual world, the world I love, the world under constant threat from the self-certain ideologues of every side, do strike me as orders of magnitude smaller for a new professional society than they do for a new university.
+
+================================================================================
+
+TITLE: Q2B 2021
+URL: https://scottaaronson.blog/?m=202111
+CONTENT:
+This is a quick post to let people know that the 2021 Q2B (Quantum 2 Business) conference will be this December 7-9 at the Santa Clara Convention Center.  (Full disclosure: Q2B is hosted by QC Ware, Inc., to which I’m the scientific adviser.)  Barring a dramatic rise in cases or the like, I’m planning to attend to do my Ask-Me-Anything session, in what’s become an annual tradition.  Notably, this will be my first in-person conference, and in fact my first professional travel of any kind, since before covid shut down the US in late March 2020.  I hope to see many of you there!  And if you won’t be at Q2B, but you’ll be in the Bay Area and would like to meet otherwise, let me know and we’ll try to work something out.
+
+================================================================================
+

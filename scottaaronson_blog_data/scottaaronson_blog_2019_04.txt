@@ -1,0 +1,101 @@
+TITLE: Not yet retired from research
+URL: https://scottaaronson.blog/?m=201904
+CONTENT:
+Last night, two papers appeared on the quantum physics arXiv that my coauthors and I have been working on for more than a year, and that I’m pretty happy about.
+
+The first paper, with Guy Rothblum, is Gentle Measurement of Quantum States and Differential Privacy (85 pages, to appear in STOC’2019).  This is Guy’s first paper that has anything to do with quantum, and also my first paper that has anything to do with privacy.  (What do I care about privacy?  I just share everything on this blog…)  The paper has its origin when I gave a talk at the Weizmann Institute about “shadow tomography” (a task where you have to measure quantum states very carefully to avoid destroying them), and Guy was in the audience, and he got all excited that the techniques sounded just like what they use to ensure privacy in data-mining, and I figured it was just some wacky coincidence and brushed him off, but he persisted, and it turned out that he was 100% right, and our two fields were often studying the same problems from different angles and we could prove it.  Anyway, here’s the abstract:
+
+Illustrating the power of this connection, we apply it to the recently studied problem of shadow tomography.  Given an unknown d-dimensional quantum state ρ, as well as known two-outcome measurements E1,…,Em, shadow tomography asks us to estimate Pr[Ei accepts ρ], for every i∈[m], by measuring few copies of ρ.  Using our connection theorem, together with a quantum analog of the so-called private multiplicative weights algorithm of Hardt and Rothblum, we give a protocol to solve this problem using O((log m)2(log d)2) copies of ρ, compared to Aaronson’s previous bound of ~O((log m)4(log d)).  Our protocol has the advantages of being online (that is, the Ei‘s are processed one at a time), gentle, and conceptually simple.
+Other applications of our connection include new lower bounds for shadow tomography from lower bounds on DP, and a result on the safe use of estimation algorithms as subroutines inside larger quantum algorithms.
+
+Other applications of our connection include new lower bounds for shadow tomography from lower bounds on DP, and a result on the safe use of estimation algorithms as subroutines inside larger quantum algorithms.
+
+The second paper, with Robin Kothari, UT Austin PhD student William Kretschmer, and Justin Thaler, is Quantum Lower Bounds for Approximate Counting via Laurent Polynomials.  Here’s the abstract:
+
+We prove the lower bound using a novel generalization of the polynomial method of Beals et al. to Laurent polynomials, which can have negative exponents.  We lower-bound Laurent polynomial degree using two methods: a new “explosion argument” that pits the positive- and negative-degree parts of the polynomial against each other, and a new formulation of the dual polynomials method.
+
+Our second main result rules out the possibility of a black-box Quantum Merlin-Arthur (or QMA) protocol for proving that a set is large. More precisely, we show that, even if Arthur can make T quantum queries to the set S⊆[N], and also receives an m-qubit quantum
+witness from Merlin in support of S being large, we have Tm=Ω(min{|S|,√(N/|S|)}).  This resolves the open problem of giving an oracle separation between SBP, the complexity class that captures
+approximate counting, and QMA.
+
+Note that QMA is “stronger” than the queries+QSamples model in that Merlin’s witness can be anything, rather than just the specific state |S⟩, but also “weaker” in that Merlin’s witness cannot be trusted.  Intriguingly, Laurent polynomials also play a crucial role in our QMA lower bound, but in a completely different
+manner than in the queries+QSamples lower bound.  This suggests that the “Laurent polynomial method” might be broadly useful in complexity theory.
+
+Our second main result rules out the possibility of a black-box Quantum Merlin-Arthur (or QMA) protocol for proving that a set is large. More precisely, we show that, even if Arthur can make T quantum queries to the set S⊆[N], and also receives an m-qubit quantum
+witness from Merlin in support of S being large, we have Tm=Ω(min{|S|,√(N/|S|)}).  This resolves the open problem of giving an oracle separation between SBP, the complexity class that captures
+approximate counting, and QMA.
+
+Note that QMA is “stronger” than the queries+QSamples model in that Merlin’s witness can be anything, rather than just the specific state |S⟩, but also “weaker” in that Merlin’s witness cannot be trusted.  Intriguingly, Laurent polynomials also play a crucial role in our QMA lower bound, but in a completely different
+manner than in the queries+QSamples lower bound.  This suggests that the “Laurent polynomial method” might be broadly useful in complexity theory.
+
+Note that QMA is “stronger” than the queries+QSamples model in that Merlin’s witness can be anything, rather than just the specific state |S⟩, but also “weaker” in that Merlin’s witness cannot be trusted.  Intriguingly, Laurent polynomials also play a crucial role in our QMA lower bound, but in a completely different
+manner than in the queries+QSamples lower bound.  This suggests that the “Laurent polynomial method” might be broadly useful in complexity theory.
+
+I need to get ready for our family’s Seder now, but after that, I’m happy to answer any questions about either of these papers in the comments.
+
+Meantime, the biggest breakthrough in quantum complexity theory of the past month isn’t either of the above: it’s the paper by Anand Natarajan and John Wright showing that MIP*, or multi-prover interactive proof systems with entangled provers, contains NEEXP, or nondeterministic doubly-exponential time (!!).  I’ll try to blog about this later, but if you can’t wait, check out this excellent post by Thomas Vidick.
+
+================================================================================
+
+TITLE: Just says in P
+URL: https://scottaaronson.blog/?m=201904
+CONTENT:
+Recently a Twitter account started called justsaysinmice.  The only thing this account does, is to repost breathless news articles about medical research breakthroughs that fail to mention that the effect in question was only observed in mice, and then add the words “IN MICE” to them.  Simple concept, but it already seems to be changing the conversation about science reporting.
+
+It occurred to me that we could do something analogous for quantum computing.  While my own deep-seated aversion to Twitter prevents me from doing it myself, which of my readers is up for starting an account that just reposts one overhyped QC article after another, while appending the words “A CLASSICAL COMPUTER COULD ALSO DO THIS” to each one?
+
+================================================================================
+
+TITLE: Wonderful world
+URL: https://scottaaronson.blog/?m=201904
+CONTENT:
+I was saddened about the results of the Israeli election.  The Beresheet lander, which lost its engine and crashed onto the moon as I was writing this, seems like a fitting symbol for where the country is now headed.  Whatever he was at the start of his career, Netanyahu has become the Israeli Trump—a breathtakingly corrupt strongman who appeals to voters’ basest impulses, sacrifices his country’s future and standing in the world for short-term electoral gain, considers himself unbound by laws, recklessly incites hatred of minorities, and (despite zero personal piety) cynically panders to religious fundamentalists who help keep him in power.  Just like with Trump, it’s probably futile to hope that lawyers will swoop in and free the nation from the demagogue’s grip: legal systems simply aren’t designed for assaults of this magnitude.
+
+(If, for example, you were designing the US Constitution, how would you guard against a presidential candidate who openly supported and was supported by a hostile foreign power, and won anyway?  Would it even occur to you to include such possibilities in your definitions of concepts like “treason” or “collusion”?)
+
+The original Zionist project—the secular, democratic vision of Herzl and Ben-Gurion and Weizmann and Einstein, which the Nazis turned from a dream to a necessity—matters more to me than most things in this world, and that was true even before I’d spent time in Israel and before I had a wife and kids who are Israeli citizens.  It would be depressing if, after a century of wildly improbable victories against external threats, Herzl’s project were finally to eat itself from the inside.  Of course I have analogous worries (scaled up by two orders of magnitude) for the US—not to mention the UK, India, Brazil, Poland, Hungary, the Philippines … the world is now engaged in a massive test of whether Enlightenment liberalism can long endure, or whether it’s just a metastable state between one Dark Age and the next.  (And to think that people have accused me of uncritical agreement with Steven Pinker, the world’s foremost optimist!)
+
+In times like this, one takes one’s happiness where one can find it.
+
+So, yeah: I’m happy that there’s now an “image of a black hole” (or rather, of radio waves being bent around a black hole’s silhouette).  If you really want to understand what the now-ubiquitous image is showing, I strongly recommend this guide by Matt Strassler.
+
+I’m happy that integer multiplication can apparently now be done in O(n log n), capping a decades-long quest (see also here).
+
+I’m happy that there’s now apparently a spectacular fossil record of the first minutes after the asteroid impact that ended the Cretaceous period.  Even better will be if this finally proves that, yes, some non-avian dinosaurs were still alive on impact day, and had not gone extinct due to unrelated climate changes slightly earlier.  (Last week, my 6-year-old daughter sang a song in a school play about how “no one knows what killed the dinosaurs”—the verses ran through the asteroid and several other possibilities.  I wonder if they’ll retire that song next year.)  If you haven’t yet read it, the New Yorker piece on this is a must.
+
+I’m happy that my good friend Zach Weinersmith (legendary author of SMBC Comics), as well as the GMU economist Bryan Caplan (rabblerousing author of The Case Against Education, which I reviewed here), have a new book out: a graphic novel that makes a moral and practical case for open borders (!).  Their book is now available for pre-order, and at least at some point cracked Amazon’s top 10.  Just last week I met Bryan for the first time, when he visited UT Austin to give a talk based on the book.  He said that meeting me (having known me only from the blog) was like meeting a fictional character; I said the feeling was mutual.  And as for Bryan’s talk?  It felt great to spend an hour visiting a fantasyland where the world’s economies are run by humane rationalist technocrats, and where walls are going down rather than up.
+
+I’m happy that, according to this Vanity Fair article, Facebook will still ban you for writing that “men are scum” or that “women are scum”—having ultimately rejected the demands of social-justice activists that it ban only the latter sentence, not the former.  According to the article, everyone on Facebook’s Community Standards committee agreed with the activists that this was the right result: dehumanizing comments about women have no place on the platform, while (superficially) dehumanizing comments about men are an important part of feminist consciousness-raising that require protection.  The problem was simply that the committee couldn’t come up with any general principle that would yield that desired result, without also yielding bad results in other cases.
+
+I’m happy that the 737 Max jets are grounded and will hopefully be fixed, with no thanks to the FAA.  Strangely, while this was still the top news story, I gave a short talk about quantum computing to a group of Boeing executives who were visiting UT Austin on a previously scheduled trip.  The title of the session they put me in?  “Disruptive Computation.”
+
+I’m happy that Greta Thunberg, the 15-year-old Swedish climate activist, has attracted a worldwide following and might win the Nobel Peace Prize.  I hope she does—and more importantly, I hope her personal story will help galvanize the world into accepting things that it already knows are true, as with the example of Anne Frank (or for that matter, Gandhi or MLK).  Confession: back when I was an adolescent, I often daydreamed about doing exactly what Thunberg is doing right now, leading a worldwide children’s climate movement.  I didn’t, of course.  In my defense, I wouldn’t have had the charisma for it anyway—and also, I got sidetracked by even more pressing problems, like working out the quantum query complexity of recursive Fourier sampling.  But fate seems to have made an excellent choice in Thunberg.  She’s not the prop of any adult—just a nerdy girl with Asperger’s who formed the idea to sit in front of Parliament every day to protest the destruction of the world, because she couldn’t understand why everyone else wasn’t.
+
+I’m happy that the college admissions scandal has finally forced Americans to confront the farcical injustice of our current system—a system where elite colleges pretend to peer into applicants’ souls (or the souls of the essay consultants hired by the applicants’ parents?), and where they preen about the moral virtue of their “holistic, multidimensional” admissions criteria, which amount in practice to shutting out brilliant working-class Asian kids in favor of legacies and rich badminton players.  Not to horn-toot, but Steven Pinker and I tried to raise the alarm about this travesty five years ago (see for example this post), and were both severely criticized for it.  I do worry, though, that people will draw precisely the wrong lessons from the scandal.  If, for example, a few rich parents resorted to outright cheating on the SAT—all their other forms of gaming and fraud apparently being insufficient—then the SAT itself must be to blame so we should get rid of it.  In reality, the SAT (whatever its flaws) is almost the only bulwark we have against the complete collapse of college admissions offices into nightclub bouncers.  This Quillette article says it much better than I can.
+
+I’m happy that there will a symposium from May 6-9 at the University of Toronto, to honor Stephen Cook and the (approximate) 50th anniversary of the discovery of NP-completeness.  I’m happy that I’ll be attending and speaking there.  If you’re interested, there’s still time to register!
+
+Finally, I’m happy about the following “Sierpinskitaschen” baked by CS grad student and friend-of-the-blog Jess Sorrell, and included with her permission (Jess says she got the idea from Debs Gardner).
+
+================================================================================
+
+TITLE: Congratulations!
+URL: https://scottaaronson.blog/?m=201904
+CONTENT:
+Congrats to Geoffrey Hinton, Yann LeCun, and Yoshua Bengio, who won the 2018 Turing Award for their work on deep learning (i.e., what used to be called neural nets).  This might be the first Turing Award ever given for something where no one really understands why it works … and it’s years overdue.
+
+Congrats to Avi Wigderson for winning the Knuth Prize.  When I was asked to write a supporting nomination letter, my first suggestion was to submit a blank sheet of paper—since for anyone in theoretical computer science, there’s nothing that needs to be said about why Avi should win any awards we have.  I hope Avi remains a guiding light of our community for many years to come.
+
+And congrats to Mark Braverman for winning the Alan T. Waterman Award, one that I have some personal fondness for, along with materials scientist Jennifer Dionne.  As Sasha Razborov once put it, after he (Sasha), I, and others recoiled from the task of proving the Linial-Nisan Conjecture, that polylog-wise independent distributions are indistinguishable from uniform by AC0 circuits, a “braver man” stepped in to do the job.
+
+================================================================================
+
+TITLE: Beware of fake FOCS site!
+URL: https://scottaaronson.blog/?m=201904
+CONTENT:
+As most of you in theoretical computer science will know, the submission deadline for the 2019 FOCS conference is this Friday, April 5.  The FOCS’2019 program committee chair, my UT Austin colleague David Zuckerman, has asked me to warn everyone that a fake submission site was set up at aconf.org—apparently as a phishing scam—and is one of the first results to come up when you google “FOCS 2019.”  Do not submit there!  The true URL is focs2019.cs.jhu.edu; accept no substitutes!
+
+Anyway, I’ve been thrashing for several weeks—just barely escaping spaghettification at the Email Event Horizon—but I hope to be back shortly with your regularly scheduled programming.
+
+================================================================================
+

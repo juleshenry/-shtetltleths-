@@ -1,0 +1,116 @@
+TITLE: Open Shtetl Day at QIP’07
+URL: https://scottaaronson.blog/?m=200701
+CONTENT:
+So, like, I’m at QIP’2007 in Brisbane, Australia?  And, like, everyone’s expecting me to blog about all the wild talks and poster presentations going down in Q-Town?  But, like, I don’t actually want to blog about that stuff, since it seems suspiciously close to useful content, the very thing this blog was created to avoid?
+
+I’m therefore declaring an Open Shtetl Day, for all of my readers who happen to be in Brisbane.  Here’s how it works: using the comments section, tell the world about your QIP experience.  What were the best talks/results/open problems?  What happened at the business meeting?  (I actually want to know — I skipped it.)  What are the most salacious rumors about who’s coauthoring with whom?  C’mon, you know you want to post, and you know you’ve got nothing better to do.  I can see I’m not the only one in this lecture hall who’s typing away on a laptop.
+
+And get this: after a day or two, I’ll pick the best comments and QIPiest quips, and post them right here in the blog entry proper!  QIPers, don’t miss what could be your big break in the competitive quantum blogosphere.
+
+(To preempt the inevitable question: No, there’s not going to be an after-dinner speech this year.  But I have it on good authority that there’ll be something in its place.)
+
+================================================================================
+
+TITLE: Haere mai, kia ora tatou … eh, whatever
+URL: https://scottaaronson.blog/?m=200701
+CONTENT:
+I’ve just come from a thin strip of volcanic ash near Antarctica, on which no mammal except bats set foot until a thousand years ago, and which today is mostly inhabited by sheep and by people who say “nigh-oh” when they mean “no.” I’m referring, of course, to New Zealand — or as the locals call it, “Middle Earth.” My colleague Andris Ambainis and I were in Auckland for four days, en route to QIP’2007 in Brisbane. While there, we were fed and sheltered by our friend Miriam and her boyfriend David. Miriam was both my housemate and officemate my first year at Berkeley; she now does user-interface research for a web-design company called Shift. You can see some of her handiwork, and learn more about her sheep-intensive homeland, by visiting this website. Hey, if Miriam took you around a place like this
+
+you’d shill for her too.So, now that I was surrounded by one of the last relatively-intact wildernesses on Earth, what did I do there? If it were up to me, mostly blog, eat, and check email. Fortunately Miriam didn’t let me get away with my default ways, and repeatedly dragged me by my ears on Cultural Learning Experiences. And that’s what allows me to present the following Shtetl-Optimized New Zealand Educational Supplement.
+
+Alright, enough book-learnin’ — let’s see some more pictures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+NerdNote: When I first published this post, it mysteriously refused to show up. Finally I figured out the problem: I’d listed the date as January 29 (which it is here in Australia), but the WordPress software thought it was still January 28, and that it should therefore wait a day before updating!
+
+================================================================================
+
+TITLE: Favorite foods
+URL: https://scottaaronson.blog/?m=200701
+CONTENT:
+Or, why I will weigh at least 3000 pounds by the time I get tenure.
+
+Go ahead and list your own favorites in the comments section, together with your research area (or line of work if you have a real job).  Then we’ll see if there’s any correlation between the two.  See, this isn’t procrastination: it’s serious research.
+
+Update (1/23): I finally fixed the time stamps in the comments section.  Unfortunately, this will cause comments to appear out-of-order during an 8-hour window.
+
+================================================================================
+
+TITLE: The P-and-NP Show comes to Caltech
+URL: https://scottaaronson.blog/?m=200701
+CONTENT:
+Here are the PowerPoint slides for a physics colloquium I gave at Caltech yesterday, on “Computational Intractability as a Law of Physics.”  The talk was delivered, so I was told, in the very same auditorium where Feynman gave his Lectures on Physics.  At the teatime beforehand, I was going to put both milk and lemon in my tea to honor the old man, but then I decided I actually didn’t want to.
+
+I’m at Caltech till Tuesday, at which point I leave for New Zealand, to visit my friend Miriam from Berkeley and see a country I always wanted to see, and thence to Australia for QIP.  This Caltech visit, my sixth or seventh, has been every bit as enjoyable as I’ve come to expect: it’s included using Andrew Childs as a straight man for jokes, shootin’ the qubits with Shengyu Zhang, Aram Harrow, and Robin Blume-Kohout, and arguing with Sean Carroll over which one of us is the second-funniest physics blogger (we both agree that Luboš is the funniest by far).  Indeed, John Preskill (my host) and everyone else at the Institute for Quantum Information have been so darn hospitable that from now on, I might just have to shill for quantum computing theory.
+
+================================================================================
+
+TITLE: Long-awaited God post
+URL: https://scottaaronson.blog/?m=200701
+CONTENT:
+This morning, a reader named Bill emailed me the following:
+
+I stumbled upon [Quantum Computing Since Democritus Lecture 9] by accident and it seemed quite interesting but I was ultimately put off (I stopped reading it) by all the references to god. As a scientist (and athiest) I think personal religious beliefs should be left out of scientific papers/lectures, you shouldn’t assume your readers/listeners have the same beliefs as yourself…..it just alienates them.
+
+Dear Bill,
+
+I’m impressed — you seem to know more about my personal religious beliefs than I do!  If you’d asked, I would’ve told you that I, like yourself, am what most people would call a disbelieving atheist infidel heretic.  I became one around age fourteen, shortly after my bar mitzvah, and have remained one ever since.
+
+Admittedly, though, “atheist” isn’t exactly the right word for me, nor even is “agnostic.”  I don’t have any stance toward the question of God’s existence or nonexistence that involves the concept of belief.  For me, beliefs are for things that might eventually have some sort of observable consequence for someone.  So for example, I believe P is different from NP.  I believe I’d like some delicious Peanut Chews today.  I believe the weather this January isn’t normal for planet Earth over the last 10,000 years, and that we and our Ford Escorts are not entirely unimplicated.  I believe eating babies and voting for Republicans is wrong.  I believe neo-Darwinism and the SU(3)xSU(2)xU(1) Standard Model (though not its supersymmetric extensions, at least until I see the evidence).  I believe that if the God of prayer couldn’t get off His lazy ass during the Holocaust, or the Rwandan or Cambodian genocides, then He must not be planning to do so anytime soon — and hence, “trusting in faith” is utter futility.
+
+But when it comes to the more ethereal questions — the nature of consciousness and free will, the resolution of the quantum measurement problem, the validity of the cosmological anthropic principle or the Continuum Hypothesis, the existence of some sort of intentionality behind the laws of physics, etc. — I don’t have any beliefs whatsoever.  I’m not even unsure about these questions, in the same Bayesian sense that I’m unsure about next week’s Dow Jones average (or for that matter, this week’s Dow Jones average).  All I have regarding the metaphysical questions is a long list of arguments and counterarguments — together with a vague hope that someone, someday, will manage to clarify what the questions even mean.
+
+To me, the most remarkable thing you said was that, despite being otherwise interested in my lecture, you literally stopped reading it because of some tongue-in-cheek references to an Einsteinian God.  That reminds me of a funny story.  When I was a student at Berkeley, my mom kept pestering me to go to the campus Hillel for Friday night dinners.  And to be honest, despite all the pestering, I was tempted to go.  My temptation was largely driven by two factors that, for want of more refined terminology, I will call “free food” and “females.”  For some reason, both factors, but particularly the second, were in short supply in the computer science department.
+
+And yet, I couldn’t bring myself to go.   Every time I passed the Hillel, I had this vision of a translucent Richard Dawkins (sometimes joined by Bertrand Russell) floating before me on the front steps, demanding that I justify the absurd Bronze Age myths that, by entering the Hillel building, I would implicitly be endorsing.  “Come now, Scott,” Richard and Bertrand would say, with their elegant Oxbridge accents.  “You don’t really believe that tosh, do you?”
+
+“No, most assuredly not, good Sirs,” I would reply, and shuffle back to the dorm to work on my problem set.  (The thought of spending Friday night at, say, a beer party never even occurred to me.)
+
+Then, one Friday, I had a revelation: if God doesn’t exist, then in particular, He doesn’t give a shit where I go tonight.  There’s no vengeful sky-Dawkins, measuring my every word and deed against some cosmic code of atheism.  There’s no Secular-Humanist Yahweh who commanded His infidel flock at Sci-nai not to believe in Him.  So if I want to go to the Hillel, then as long as I’m not hurting anyone or lying about my beliefs, I should go.   If I don’t want to go, I shouldn’t go.  To do otherwise wouldn’t merely be silly; it would actually be irrational.
+
+(Incidentally, once I went, I found that the other secularists there greatly outnumbered the believers.  I did stop going after a year or two, but only because I’d gotten bored with it.)
+
+What I’m trying to say, Bill, is this: you can go ahead and indulge yourself.  If some of the most brilliant unbelievers in history — Einstein, Erdös, Twain — could refer to a being of dubious ontological status as they would to a smelly old uncle, then why not the rest of us?  For me, the whole point of scientific rationalism is that you’re free to ask any question, debate any argument, read anything that interests you, use whatever phrase most colorfully conveys your meaning, all without having to worry about violating some taboo.  You won’t endanger your immortal soul, since you don’t have one.
+
+If the trouble is just that the G-word leaves a bad taste in your mouth, then I invite you to try the following experiment.  Every time you encounter the word “God” in my lecture, mentally substitute “Flying Spaghetti Monster.”   So for example: “why would the Flying Spaghetti Monster, praise be to His infinite noodly appendages, have made the quantum-mechanical amplitudes complex numbers instead of reals or quaternions?”
+
+Well, why would He?  Any ideas?
+
+RAmen, and may angel-hair watch over you,
+Scott
+
+================================================================================
+
+TITLE: Quantum Computing Since Democritus Lecture 9: Quantum
+URL: https://scottaaronson.blog/?m=200701
+CONTENT:
+Many students indicated that this was their favorite lecture in the whole course — the one that finally made them feel at home in QuantumLand.  Come read about why quantum mechanics, far from being a mysterious, arbitrary structure foisted on us by experiment, is something that mathematicians could easily have discovered without leaving their armchairs.   (They didn’t?  Minor detail…)
+
+Marvel, too, at the beautiful … well anyway, at the displayed equations courtesy of mimeTeX, an eminently-useful CGI script that I downloaded and got working all by myself.  (Who says complexity theorists can’t set up a CGI script?  Boo-yah!)
+
+If you’ve been thinking about following the course but haven’t, this lecture would be a perfect place to start — it doesn’t use any of the earlier lectures as prerequisites.
+
+================================================================================
+
+TITLE: My New Years’ resolution: to get a real job
+URL: https://scottaaronson.blog/?m=200701
+CONTENT:
+Get a leg up on the competition, and offer me a tenure-track position in computer science right now!  Here’s everything you’ll need to decide:
+
+In your offer letter, make sure to specify starting salary, teaching load, and the number of dimensions you’d like spacetime to have.
+
+(Note to Luboš: Unfortunately, I wasn’t planning to apply to the Harvard physics department this year.  But if you make a really convincing pitch, I might just be persuaded…)
+
+================================================================================
+

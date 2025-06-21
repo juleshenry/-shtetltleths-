@@ -1,0 +1,107 @@
+TITLE: Openness on OpenAI
+URL: https://scottaaronson.blog/?m=202405
+CONTENT:
+I am, of course, sad that Jan Leike and Ilya Sutskever, the two central people who recruited me to OpenAI and then served as my “bosses” there—two people for whom I developed tremendous admiration—have both now resigned from the company.  Ilya’s resignation followed the board drama six months ago, but Jan’s resignation last week came as a shock to me and others.  The Superalignment team, which Jan and Ilya led and which I was part of, is being split up and merged into other teams at OpenAI.
+
+See here for Ilya’s parting statement, and here for Jan’s.  See here for Zvi Mowshowitz’s perspective and summary of reporting on these events.  For additional takes, see pretty much the entire rest of the nerd Internet.
+
+As for me? My two-year leave at OpenAI was scheduled to end this summer anyway.  It seems pretty clear that I ought to spend my remaining months at OpenAI simply doing my best for AI safety—for example, by shepherding watermarking toward deployment.  After a long delay, I’m gratified that interest in watermarking has spiked recently, not only within OpenAI and other companies but among legislative bodies in the US and Europe.
+
+And afterwards? I’ll certainly continue thinking about how AI is changing the world and how (if at all) we can steer its development to avoid catastrophes, because how could I not think about that?  I spent 15 years mostly avoiding the subject, and that now seems like a huge mistake, and probably like enough of that mistake for one lifetime.
+
+So I’ll continue looking for juicy open problems in complexity theory that are motivated by interpretability, or scalable oversight, or dangerous capability evaluations, or other aspects of AI safety—I’ve already identified a few such problems!  And without giving up on quantum computing (because how could I?), I expect to reorient at least some of my academic work toward problems at the interface of theoretical computer science and AI safety, and to recruit students who want to work on those problems, and to apply for grants about them.  And I’ll presumably continue giving talks about this stuff, and doing podcasts and panels and so on—anyway, as long as people keep asking me to!
+
+And I’ll be open to future sabbaticals or consulting arrangements with AI organizations, like the one I’ve done at OpenAI.  But I expect that my main identity will always be as an academic.  Certainly I never want to be in a position where I have to speak for an organization rather than myself, or censor what I can say in public about the central problems I’m working on, or sign a nondisparagement agreement or anything of the kind.
+
+I can tell you this: in two years at OpenAI, hanging out at the office and meeting the leadership and rank-and-file engineers, I never once found a smoke-filled room where they laugh at all the rubes who take the talk about “safety” and “alignment” seriously.  While my interactions were admittedly skewed toward safetyists, the OpenAI folks I met were invariably smart and earnest and dead serious about the mission of getting AI right for humankind.
+
+It’s more than fair for outsiders to ask whether that’s enough, whether even good intentions can survive bad incentives.  It’s likewise fair of them to ask: what fraction of compute and other resources ought to be set aside for alignment research?  What exactly should OpenAI do on alignment going forward?  What should governments force them and other AI companies to do?  What should employees and ex-employees be allowed, or encouraged, to share publicly?
+
+I don’t know the answers to these questions, but if you do, feel free to tell me in the comments!
+
+================================================================================
+
+TITLE: Jim Simons (1938-2024)
+URL: https://scottaaronson.blog/?m=202405
+CONTENT:
+When I learned of Jim Simons’s passing, I was actually at the Simons Foundation headquarters in lower Manhattan, for the annual board meeting of the unparalleled Quanta Magazine, which Simons founded and named.  The meeting was interrupted to share the sad news, before it became public … and then it was continued, because that’s obviously what Simons would’ve wanted.  An oil portrait of Simons in the conference room took on new meaning.
+
+See here for the Simons Foundation’s announcement, or here for the NYT’s obituary.
+
+Although the Simons Foundation has had multiple significant influences on my life—funding my research, founding the Simons Institute for Theory of Computing in Berkeley that I often visit (including two weeks ago), and much more—I’ve exchanged all of a few sentences with Jim Simons himself.  At a previous Simons Foundation meeting, I think he said he’d heard I’d moved from MIT to UT Austin, and asked whether I’d bought a cowboy hat yet.  I said I did but I hadn’t yet worn it non-ironically, and he laughed at that.  (My wife Dana knew him better, having spent a day at a brainstorming meeting for what became the Simons Institute, his trademark cigar smoke filling the room.)
+
+I am, of course, in awe of what Jim Simons achieved in all three phases of his career — firstly, in mathematical research, where he introduced the Chern-Simons form and other pioneering contributions and led the math department at Stony Brook; secondly, in founding Renaissance and making insane amounts of money (“disproving the Efficient Market Hypothesis,” as some have claimed); and thirdly, in giving his money away to support basic research and the public understanding of it.
+
+I’m glad that Simons, as a lifelong chain smoker, made it all the way to age 86. And I’m glad that the Simons Foundation, which I’m told will continue in perpetuity with no operational changes, will stand as a testament to his vision for the world.
+
+================================================================================
+
+TITLE: UmeshFest
+URL: https://scottaaronson.blog/?m=202405
+CONTENT:
+Unrelated Announcements: See here for a long interview with me in The Texas Orator, covering the usual stuff (quantum computing, complexity theory, AI safety).  And see here for a podcast with me and Spencer Greenberg about a similar mix of topics.
+
+A couple weeks ago, I helped organize UmeshFest: Don’t Miss This Flight, a workshop at UC Berkeley’s Simons Institute to celebrate the 26th birthday of my former PhD adviser Umesh Vazirani. Peter Shor, John Preskill, Manuel Blum, Madhu Sudan, Sanjeev Arora, and dozens of other luminaries of quantum and classical computation were on hand to help tell the story of quantum computing theory and Umesh’s central role in it. There was also constant roasting of Umesh—of his life lessons from the squash court, his last-minute organizational changes and phone calls at random hours. I was delighted to find that my old coinage of “Umeshisms” was simply standard usage among the attendees.
+
+At Berkeley, many things were as I remembered them—my favorite Thai eatery, the bubble tea, the Campanile—but not everything was the same. Here I am in front of Berkeley’s Gaza encampment, a.k.a. its “Anti Zionism Zone” or what was formerly Sproul Plaza (zoom into the chalk):
+
+I felt a need to walk through the Anti Zionism Zone day after day (albeit unassumingly, neither draped in an Israeli flag nor looking to start an argument with anyone), for more-or-less the same reasons why the US regularly sends aircraft carriers through the Strait of Taiwan.
+
+Back in the more sheltered environment of the Simons Institute, it was great to be among friends, some of whom I hadn’t seen since before Covid.  Andris Ambainis and I worked together for a bit on an open problem in quantum query complexity, for old times’ sake (we haven’t solved it yet).
+
+And then there were talks!  I thought I’d share my own talk, which was entitled The Story of BQP (Bounded-Error Quantum Polynomial-Time).  Here are the PowerPoint slides, but I’ll also share screen-grabs for those of you who constantly complain that you can’t open PPTX files.
+
+I was particularly proud of the design of my title slide:
+
+Moving on:
+
+The class BQP/qpoly, I should explain, is all about an advisor who’s all-wise and perfectly benevolent, but who doesn’t have a lot of time to meet with his students, so he simply doles out the same generic advice to all of them, regardless of their thesis problem x.
+
+I then displayed my infamous “Umeshisms” blog post from 2005—one of the first posts in the history of this blog:
+
+As I explained, now that I hang out with the rationalist and AI safety communities, which are also headquartered in Berkeley, I’ve learned that my “Umeshisms” post somehow took on a life of its own.  Once, when dining at one of the rationalists’ polyamorous Berkeley group houses, I said this has been lovely but I’ll now need to leave, to visit my PhD former adviser Umesh Vazirani.  “You mean the Umesh?!” the rationalists excitedly exclaimed.  “Of Umeshisms?  If you’ve never missed a flight?”
+
+But moving on:
+
+(Note that by “QBPP,” Bethiaume and Brassard meant what we now call BQP.)
+
+Feynman and Deutsch asked exactly the right question—does simulating quantum mechanics on a classical computer inherently produce an exponential slowdown, or not?—but they lacked most of the tools to start formally investigating the question. A factor-of-two quantum speedup for the XOR function could be dismissed as unimpressive, while a much greater quantum speedup for the “constant vs. balanced” problem could be dismissed as a win against only deterministic classical algorithms, rather than randomized algorithms. Deutsch-Jozsa may have been the first time that an apparent quantum speedup faltered in an honest comparison against classical algorithms.  It certainly wasn’t the last!
+
+Ah, but this is where Bernstein and Vazirani enter the scene.
+
+Bernstein and Vazirani didn’t merely define BQP, which remains the central object of study in quantum complexity theory. They also established its most basic properties:
+
+And, at least in the black-box model, Bernstein and Vazirani gave the first impressive quantum speedup for a classical problem that survived in a fair comparison against the best classical algorithm:
+
+The Recursive Bernstein-Vazirani problem, also called Recursive Fourier Sampling, is constructed as a “tree” of instances of the Bernstein-Vazirani problem, where to query the Boolean function at any given level, you need to solve a Bernstein-Vazirani problem for a Boolean function at the level below it, and then run the secret string s through a fixed Boolean function g.  For more, see my old paper Quantum Lower Bound for Recursive Fourier Sampling.
+
+Each Bernstein-Vazirani instance has classical query complexity n and quantum query complexity 1.  So, if the tree of instances has depth d, then overall the classical query complexity is nd, while the quantum query complexity is only 2d.  Where did the 2 come from?  From the need to uncompute the secret strings s at each level, to enable quantum interference at the next level up—thereby forcing us to run the algorithm twice.  A key insight.
+
+The Recursive Fourier Sampling separation set the stage for Simon’s algorithm, which gave a more impressive speedup in the black-box model, and thence for the famous Shor’s algorithm for factoring and discrete log:
+
+But Umesh wasn’t done establishing the most fundamental properties of BQP!  There’s also the seminal 1994 paper by Bennett, Bernstein, Brassard, and Vazirani:
+
+In light of the BV and BBBV papers, let’s see how BQP seems to fit with classical complexity classes—an understanding that’s remained largely stable for the past 30 years:
+
+We can state a large fraction of the research agenda of the whole field, to this day, as questions about BQP:
+
+I won’t have time to discuss all of these questions, but let me at least drill down on the first few.
+
+Many people hoped the list of known problems in BQP would now be longer than it is.  So it goes: we don’t decide the truth, we only discover it.
+
+As a 17-year-old just learning about quantum computing in 1998 by reading the Bernstein-Vazirani paper, I was thrilled when I managed to improve their containment BQP ⊆ P#P to BQP ⊆ PP.  I thought that would be my big debut in quantum complexity theory.  I was then crushed when I learned that Adleman, DeMarrais, and Huang had proved the same thing a year prior.  OK, but at least it wasn’t, like, 50 years prior!  Maybe if I kept at it, I’d reach the frontier soon enough.
+
+Umesh, from the very beginning, raised the profound question of BQP’s relation to the polynomial hierarchy. Could we at least construct an oracle relative to which BQP⊄PH—or, closely related, relative to which P=NP≠BQP?  Recursive Fourier Sampling was a already candidate for such a separation.  I spent months trying to prove that candidate wasn’t in PH, but failed.  That led me eventually to propose a very different problem, Forrelation, which seemed like a stronger candidate, although I couldn’t prove that either.  Finally, in 2018, after four years of effort, Ran Raz and Avishay Tal proved that my Forrelation problem was not in PH, thereby resolving Umesh’s question after a quarter century.
+
+We now know three different ways by which a quantum computer can not merely solve any BQP problem efficiently, but prove its answer to a classical skeptic via an interactive protocol!  Using quantum communication, using two entangled (but non-communicating) quantum computers, or using cryptography (this last a breakthrough of Umesh’s PhD student Urmila Mahadev).  It remains a great open problem, first posed to my knowledge by Daniel Gottesman, whether one can do it with none of these things.
+
+To see many of the advantages of quantum computation over classical, we’ve learned that we need to broaden our vision beyond BQP (which is a class of languages), to promise problems (like estimating the expectation values of observables), sampling problems (like BosonSampling and Random Circuit Sampling), and relational problems (like the Yamakawa-Zhandry problem, subject of a recent breakthrough).  It’s conceivable that quantum advantage could remain for such problems even if it turned out that P=BQP.
+
+A much broader question is whether BQP captures all languages that can be efficiently decided using “reasonable physical resources.”  What about chiral quantum field theories, like the Standard Model of elementary particles?  What about quantum theories of gravity?  Good questions!
+
+Since it was Passover during the talk, I literally said “Dayenu” to Umesh: “if you had only given us BQP, that would’ve been enough!  but you didn’t, you gave us so much more!”
+
+Happy birthday Umesh!!  We look forward to celebrating again on all your subsequent power-of-2 birthdays.
+
+================================================================================
+

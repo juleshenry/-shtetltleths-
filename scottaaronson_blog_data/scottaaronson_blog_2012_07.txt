@@ -1,0 +1,28 @@
+TITLE: Complexity Zoo is down — anyone willing to help?
+URL: https://scottaaronson.blog/?m=201207
+CONTENT:
+Update (August 5): Sorry for the delay! Now that the Zoo is back up, my sense of urgency has decreased, but we still do need a long-term solution. Thanks so much to everyone who offered hosting. Alas, I was persuaded by the argument that it’s too complicated to have a wiki mirrored at multiple locations, so I should really choose one—and ideally it should be someplace where I retain control of the files, in case anything goes wrong again. Following the helpful directions of Eric Price, I set up a MediaWiki installation at http://scottaar.scripts.mit.edu/zoo. Is anyone interested in helping me transfer over the content from the qwiki Zoo?
+
+Update (August 1): Thanks to the efforts of Gopal Sarma at Stanford, the Zoo is back up and running!!  However, I believe the only long-term solution is to get the Zoo mirrored at other locations.  I can then direct the domain complexityzoo.com to point to any of them that are currently up.  So, to all of those who volunteered to mirror the Zoo: thanks so much, and please go ahead and do so!  Let me know what you need for that (I can ask Gopal to get the source files).
+
+As some of you have noticed, the Complexity Zoo (well, don’t bother clicking the link!) has been down for the past couple weeks.  Some Stanford students volunteered to host the Zoo years ago but then graduated, and these sorts of outages have been a frustrating reality since then.  So my co-zookeeper Greg Kuperberg and I are looking for a volunteer to help us get the Zoo back online.  The reward?  Eternal gratitude and a co-zookeeper title for yourself.  In principle, I could host the Zoo on my Bluehost account, but I don’t know how to set up the wiki software, and I’m not even sure how to retrieve the Zoo pages prior to its going down (Google Cache?).  If you’re interested or have ideas, leave a comment or send me an email.
+
+Thanks!!
+
+================================================================================
+
+TITLE: Scott in Scotland
+URL: https://scottaaronson.blog/?m=201207
+CONTENT:
+
+
+
+
+I’m in Edinburgh this week to visit my wonderful old friends Elham Kashefi and Rahul Santhanam, and to give a series of talks.  It’s my first visit to my “ancestral homeland,” and as you can see above, I’ve enjoyed visiting my namesake monument and eating some freshly-ground haggis.
+
+Earlier today, I was delighted to meet the matrix-multiplication-exponent-lowerer and unwilling Shtetl-Optimized celebrity Andrew Stothers, and to treat him to lunch.  (I’d promised to buy Andrew a beer if I was ever in Edinburgh, to apologize for the blog-circus I somehow dragged him into, but he only wanted a diet Coke.)  I’m now convinced that Andrew’s not publicizing his lowering of ω was mostly a very simple matter of his not being in contact with the theoretical computer science community.  One factor might be that, here at U. of Edinburgh, the math and CS buildings are on different campuses two miles away from each other!
+
+I apologize for the light-to-nonexistent blogging.  To tide you over until I have time to post something real, here are some extremely-interesting quantum information papers that appeared on the arXiv just recently: A multi-prover interactive proof for NEXP sound against entangled provers by Tsuyoshi Ito and my postdoc Thomas Vidick, and Bell’s Theorem Without Free Will by Tobias Fritz.
+
+================================================================================
+

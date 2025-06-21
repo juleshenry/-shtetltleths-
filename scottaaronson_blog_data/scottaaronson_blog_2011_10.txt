@@ -1,0 +1,28 @@
+TITLE: A hacker’s hacker
+URL: https://scottaaronson.blog/?m=201110
+CONTENT:
+Before someone else is “absolutely stunned” by my silence, let me hereby note with great sadness that Dennis Ritchie, principal designer of C, co-designer of Unix, Turing Award winner, and one of the world’s legendary computer scientists, has passed away at 70.  (See here for the NYT obituary, here for a more detailed ZDNet obituary, and here for Lance Fortnow’s encomium.)  I didn’t know Ritchie, but my father did, as a science and technology writer in the 70s and 80s.  And I often saw Ritchie in the halls when I spent several summers working at Bell Labs in college.  Mostly, though, I know Ritchie through the beautiful language he created.  It’s a testament to C’s elegance and simplicity that I, though extremely far from a hacker, find it almost as easy to express my thoughts in C as I do in my mother tongue, MS-DOS QBASIC.
+
+Update (Oct. 26): AI pioneer and LISP inventor John McCarthy has passed away as well.  It’s been a tough month for computing revolutionaries.
+
+================================================================================
+
+TITLE: What happened in the world this week
+URL: https://scottaaronson.blog/?m=201110
+CONTENT:
+A commenter named “Daniel Quilp” writes:
+
+I am absolutely stunned that you have not posted an encomium to Steve Jobs.  You are a computer science professor.  Jobs was the most important innovator in the field.  You claim you want to reach out to the public but fail to take advantage of this opportunity.  Very sad, very disappointing.
+
+Steve Jobs was indeed one of the great American innovators, and I was extremely sorry to hear about his passing.  I was riveted by the NYT obituary, from which I learned many facts about Jobs that I hadn’t known before.  Personally, I plan honor his memory by buying an iPhone 4S at the Apple Store near my apartment when it comes out on the 14th.  (I was debating between upgrading my 3GS to a 4S and switching to an Android, leaning toward 4S because of battery life.  The desire to honor the great man’s memory is what pushed me over the edge.)
+
+As for why I didn’t write an encomium before: well, frankly, I don’t feel like being a theoretical computer scientist gives me any more of a “connection” to Steve Jobs than any of the hundreds of millions of people who use his products.  And when I do blog about world events, people often accuse me of jumping on a bandwagon and having nothing original to say, and tell me to stick to complexity theory.  That’s life as a blogger: not only is there nothing you can post, there’s nothing you can refrain from posting, that someone, somewhere, won’t be “absolutely stunned” by.
+
+Even so, to anyone who was hurt or offended by my lack of a Steve Jobs post, I’m sorry.
+
+And as long as I’m apologizing for silence about major news of the last week, I’m also sorry that I failed to congratulate the Royal Swedish Academy of Sciences for two truly magnificent decisions: first, awarding the Nobel Prize in Physics to Adam Riess, Saul Perlmutter, and Brian Schmidt for the discovery of the cosmic acceleration (see these two Cosmic Variance posts for more); second, awarding the Nobel Prize in Chemistry to Dan Shechtman for the discovery of quasicrystals.  If these two textbook-changing results don’t deserve Nobel Prizes, nothing does.
+
+Since it’s Erev Yom Kippur, let me hereby repent for all of my countless mistakes, omissions, and lapses of judgment here at Shtetl-Optimized over the past year.  In the spirit of the “Kol Nidre” prayer, I also beg to be released from all survey articles that I promised to write, submissions that I promised to review, deadlines that I promised to meet, and emails that I promised to answer.  (Of course, if I were conventionally religious, I’d also have to repent for the very act of blogging on Yom Kippur.)
+
+================================================================================
+

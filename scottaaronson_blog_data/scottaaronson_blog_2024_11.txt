@@ -1,0 +1,149 @@
+TITLE: Thanksgiving
+URL: https://scottaaronson.blog/?m=202411
+CONTENT:
+I’m thankful to the thousands of readers of this blog.  Well, not the few who submit troll comments from multiple pseudonymous handles, but the 99.9% who don’t. I’m thankful that they’ve stayed here even when events (as they do more and more often) send me into a spiral of doomscrolling and just subsisting hour-to-hour—when I’m left literally without words for weeks.
+
+I’m thankful for Thanksgiving itself.  As I often try to explain to non-Americans (and to my Israeli-born wife), it’s not primarily about the turkey but rather about the sides: the stuffing, the mashed sweet potatoes with melted marshmallows, the cranberry jello mold.  The pumpkin pie is good too.
+
+I’m thankful that we seem to be on the threshold of getting to see the birth of fault-tolerant quantum computing, nearly thirty years after it was first theorized.
+
+I’m thankful that there’s now an explicit construction of pseudorandom unitaries — and that, with further improvement, this would lead to a Razborov-Rudich natural proofs barrier for the quantum circuit complexity of unitaries, explaining for the first time why we don’t have superpolynomial lower bounds for that quantity.
+
+I’m thankful that there’s been recent progress on QMA versus QCMA (that is, quantum versus classical proofs), with a full classical oracle separation now possibly in sight.
+
+I’m thankful that, of the problems I cared about 25 years ago — the maximum gap between classical and quantum query complexities of total Boolean functions, relativized BQP versus the polynomial hierarchy, the collision problem, making quantum computations classically verifiable — there’s now been progress if not a full solution for almost all of them.  And yet I’m thankful as well that lots of great problems remain open.
+
+I’m thankful that the presidential election wasn’t all that close (by contemporary US standards, it was a ““landslide,”” 50%-48.4%).  Had it been a nail-biter, not only would I fear violence and the total breakdown of our constitutional order, I’d kick myself that I hadn’t done more to change the outcome.  As it is, there’s no denying that a plurality of Americans actually chose this, and now they’re going to get it good and hard.
+
+I’m thankful that, while I absolutely do see Trump’s return as a disaster for the country and for civilization, it’s not a 100% unmitigated disaster.  The lying chaos monster will occasionally rage for things I support rather than things I oppose.  And if he actually plunges the country into another Great Depression through tariffs, mass deportations, and the like, hopefully that will make it easier to repudiate his legacy in 2028.
+
+I’m thankful that, whatever Jews around the world have had to endure over the past year — both the physical attacks and the moral gaslighting that it’s all our fault — we’ve already endured much worse on both fronts, not once but countless times over 3000 years, and this is excellent Bayesian evidence that we’ll survive the latest onslaught as well.
+
+I’m thankful that my family remains together, and healthy. I’m thankful to have an 11-year-old who’s a striking wavy-haired blonde who dances and does gymnastics (how did that happen?) and wants to be an astrophysicist, as well as a 7-year-old who now often beats me in chess and loves to solve systems of two linear equations in two unknowns.
+
+I’m thankful that, compared to what I imagined my life would be as an 11-year-old, my life is probably in the 50th percentile or higher.  I haven’t saved the world, but I haven’t flamed out either.  Even if I do nothing else from this point, I have a stack of writings and results that I’m proud of.  And I fully intend to do something else from this point.
+
+I’m thankful that the still-most-powerful nation on earth, the one where I live, is … well, more aligned with good than any other global superpower in the miserable pageant of human history has been.  I’m thankful to live in the first superpower in history that has some error-correction machinery built in, some ability to repudiate its past sins (and hopefully its present sins, in the future).  I’m thankful to live in the first superpower that has toleration of Jews and other religious minorities built in as a basic principle, with the possible exception of the Persian Empire under Cyrus.
+
+I’m thankful that all eight of my great-grandparents came to the US in 1905, back when Jewish mass immigration was still allowed.  Of course there’s a selection effect here: if they hadn’t made it, I wouldn’t be here to ponder it.  Still, it seems appropriate to express gratitude for the fact of existing, whatever metaphysical difficulties might inhere in that act.
+
+I’m thankful that there’s now a ceasefire between Israel and Lebanon that Israel’s government saw fit to agree to.  While I fear that this will go the way of all previous ceasefires — Hezbollah “obeys” until it feels ready to strike again, so then Israel invades Lebanon again, then more civilians die, then there’s another ceasefire, rinse and repeat, etc. — the possibility always remains that this time will be the charm, for all people on both sides who want peace.
+
+I’m thankful that our laws of physics are so constructed that G, c, and ℏ, three constants that are relatively easy to measure, can be combined to tell us the fundamental units of length and time, even though those units — the Planck time, 10-43 seconds, and the Planck length, 10-33 centimeters — are themselves below the reach of any foreseeable technology, and to atoms as atoms are to the solar system.
+
+I’m thankful that, almost thirty years after I could have and should have, I’ve now finally learned the proof of the irrationality of π.
+
+I’m thankful that, if I could go back in time to my 14-year-old self, I could tell him firstly, that female heterosexual attraction to men is a real phenomenon in the world, and secondly, that it would sometimes fixate on him (the future him, that is) in particular.
+
+I’m thankful for red grapefruit, golden mangos, seedless watermelons, young coconuts (meat and water), mangosteen, figs, dates, and even prunes.  Basically, fruit is awesome, the more so after whatever selective breeding and genetic engineering humans have done to it.
+
+I’m thankful for Futurama, and for the ability to stream every episode of it in order, as Dana, the kids, and I have been doing together all fall.  I’m thankful that both of my kids love it as much as I do—in which case, how far from my values and worldview could they possibly be?  Even if civilization is destroyed, it will have created 100 episodes of something this far out on the Pareto frontier of lowbrow humor, serious intellectual content, and emotional depth for a future civilization to discover.  In short: “good news, everyone!”
+
+================================================================================
+
+TITLE: Letter to a Jewish voter in Pennsylvania
+URL: https://scottaaronson.blog/?m=202411
+CONTENT:
+Election Day Update: For anyone who’s still undecided (?!?), I can’t beat this from Sam Harris.
+
+When I think of Harris winning the presidency this week, it’s like watching a film of a car crash run in reverse: the windshield unshatters; stray objects and bits of metal converge; and defenseless human bodies are hurled into states of perfect repose. Normalcy descends out of chaos.
+
+Important Announcement: I don’t in any way endorse voting for Jill Stein, or any other third-party candidate.  But if you are a Green Party supporter who lives in a swing state, then please at least vote for Harris, and use SwapYourVote.org to arrange for two (!) people in safe states to vote for Jill Stein on your behalf.  Thanks so much to friend-of-the-blog Linchuan Zhang for pointing me to this resource.
+
+Added on Election Day: And, if you swing that way, click here to arrange to have your vote for Kamala in a swing state traded for two votes for libertarian candidate Chase Oliver in safe states. In any case, if you’re in a swing state and you haven’t yet voted (for Kamala Harris and for the norms of civilization), do!
+
+For weeks I’d been wondering what I could say right before the election, at this momentous branch-point in the wavefunction, that could possibly do any good.  Then, the other day, a Jewish voter in Pennsylvania and Shtetl-Optimized fan emailed me to ask my advice.  He said that he’d read my Never-Trump From Here to Eternity FAQ and saw the problems with Trump’s autocratic tendencies, but that his Israeli friends and family wanted him to vote Trump anyway, believing him better on the narrow question of “Israel’s continued existence.”  I started responding, and then realized that my response was the election-eve post I’d been looking for.  So without further ado…
+
+Thanks for writing.  Of course this is ultimately between you and your conscience (and your empirical beliefs), but I can tell you what my Israeli-American wife and I did.  We voted for Kamala, without the slightest doubt or hesitation.  We’d do it again a thousand quadrillion times.  We would’ve done the same in the swing state of Pennsylvania, where I grew up (actually in Bucks, one of the crucial swing counties).
+
+And later this week, along with tens of millions of others, I’ll refresh the news with heart palpitations, looking for movement toward blue in Pennsylvania and Wisconsin.  I’ll be joyous and relieved if Kamala wins.  I’ll be ashen-faced if she doesn’t.  (Or if there’s a power struggle that makes the 2021 insurrection look like a dress rehearsal.)  And I’ll bet anyone, at 100:1 odds, that at the end of my life I’ll continue to believe that voting Kamala was the right decision.
+
+I, too, have pro-Israel friends who urged me to switch to Trump, on the ground that if Kamala wins, then (they say) the Jews of Israel are all but doomed to a second Holocaust.  For, they claim, the American Hamasniks will then successfully prevail on Kamala to prevent Israel from attacking Iran’s nuclear sites, or will leave Israel to fend for itself if it does.  And therefore, Iran will finish and test nuclear weapons in the next couple years, and then it will rebuild the battered Hamas and Hezbollah under its nuclear umbrella, and then it will fulfill its stated goal since 1979, of annihilating the State of Israel, by slaughtering all the Jews who aren’t able to flee.  And, just to twist the knife, the UN diplomats and NGO officials and journalists and college students and Wikipedia editors who claimed such a slaughter was a paranoid fantasy, they’ll all cheer it when it happens, calling it “justice” and “resistance” and “intifada.”
+
+And that, my friends say, will finally show me the liberal moral evolution of humanity since 1945, in which I’ve placed so much stock.  “See, even while they did virtually nothing to stop the first Holocaust, the American and British cultural elites didn’t literally cheer the Holocaust as it happened.  This time around, they’ll cheer.”
+
+My friends’ argument is that, if I’m serious about “Never Again” as a moral lodestar of my life, then the one issue of Israel and Iran needs to override everything else I’ve always believed, all my moral and intellectual repugnance at Trump and everything he represents, all my knowledge of his lies, his evil, his venality, all the former generals and Republican officials who say that he’s unfit to serve and an imminent danger to the Republic.  I need to vote for this madman, this pathological liar, this bullying autocrat, because at least he’ll stand between the Jewish people and the darkness that would devour them, as it devoured them in my grandparents’ time.
+
+My friends add that it doesn’t matter that Kamala’s husband is Jewish, that she’s mouthed all the words a thousand times about Israel’s right to defend itself, that Biden and Harris have indeed continued to ship weapons to Israel with barely a wag of their fingers (even as they’ve endured vituperation over it from their left, even as Kamala might lose the whole election over it).  Nor does it matter that a commanding majority of American Jews will vote for Kamala, or that … not most Israelis, but most of the Israelis in academia and tech who I know, would vote for Kamala if they could.  They could all be mistaken about their own interests.  But you and I, say my right-wing friends, realize that what actually matters is Iran, and what the next president will do about Iran.  Trump would unshackle Israel to do whatever it takes to prevent nuclear-armed Ayatollahs.  Kamala wouldn’t.
+
+Anyway, I’ve considered this line of thinking.  I reject it with extreme prejudice.
+
+To start with the obvious, I’m not a one-issue voter.  Presumably you aren’t either.  Being Jewish is a fundamental part of my humanity—if I didn’t know that before I’d witnessed the world’s reaction to October 7, then I certainly know now.  But only in the fantasies of antisemites would I vote entirely on the basis of “is this good for the Jews?”  The parts of me that care about the peaceful transfer of power, about truth, about standing up to Putin, about the basic sanity of the Commander-in-Chief in an emergency, about climate change and green energy and manufacturing, about not destroying the US economy through idiotic tariffs, about talented foreign scientists getting green cards, about the right to abortion, about RFK and his brainworm not being placed in charge of American healthcare, even about AI safety … all those parts of me are obviously for Kamala.
+
+More interestingly, though, the Jewish part of me is also for Kamala—if possible, even more adamantly than other parts.  It’s for Kamala because…
+
+Well, after these nine surreal years, how does one even spell out the Enlightenment case against Trump?  How does one say what hasn’t already been said a trillion times?  Now that the frog is thoroughly boiled, how does one remind people of the norms that used to prevail in America—even after Newt Gingrich and Sarah Palin and the rest had degraded them—and how those norms were what stood between us and savagery … and how laughably unthinkable is the whole concept of Trump as president, the instant you judge him according to those norms?
+
+Kamala, whatever her faults, is basically a normal politician.  She lies, but only as normal politicians lie.  She dodges questions, changes her stances, says different things to different audiences, but only as normal politicians do.  Trump is something else entirely.  He’s one of the great flimflam artists of human history.  He believes (though “belief” isn’t quite the right word) that truth is not something external to himself, but something he creates by speaking it.  He is the ultimate postmodernist.  He’s effectively created a new religion, one of grievance and lies and vengeance against outsiders, and converted a quarter of Americans to his religion, while another quarter might vote it into power because of what they think is in it for them.
+
+And this cult of lies … this is what you ask if Jewish people should enter into a strategic alliance with?  Do you imagine this cult is a trustworthy partner, one likely to keep its promises?
+
+For centuries, Jews have done consistently well under cosmopolitan liberal democracies, and consistently poorly—when they remained alive at all—under nativist tyrants.  Do you expect whatever autocratic regime follows Trump, a regime of JD Vance and Tucker Carlson and the like, to be the first exception to this pattern in history?
+
+For I take it as obvious that a second Trump term, and whatever follows it, will make the first Trump term look like a mere practice run, a Beer Hall Putsch.  Trump I was restrained by John Kelly, by thousands of civil service bureaucrats and judges, by the generals, and in the last instance, by Mike Pence.  But Trump II will be out for the blood of his enemies—he says so himself at his rallies—and will have nothing to restrain him, not even any threat of criminal prosecution.  Do you imagine this goes well for the Jews, or for pretty much anyone?
+
+It doesn’t matter if Trump has no personal animus against Jews—excepting, of course, the majority who vote against him.  Did the idealistic Marxist intellectuals of Russia in 1917 want Stalin?  Did the idealistic Iranian students of Iran in 1979 want Khomeini?  It doesn’t matter: what matters is what they enabled.  Turn over the rock of civilization, and everything that was wriggling underneath is suddenly loosed on the world.
+
+How much time have you spent looking at pro-Israel people on Twitter (Hen Mazzig, Haviv Rettig Gur, etc.), and then—crucially—reading their replies?  I spend at least an hour or two per day on that, angry and depressed though it makes me, perhaps because of an instinct to stare into the heart of darkness, not to look away from a genocidal evil arrayed against my family.
+
+Many replies are the usual: “Shut the fuck up, Zio, and stop murdering babies.”  “Two-state solution?  I have a different solution: that all you land-thieves pack your bags and go back to Poland.” But then, every time, you reach tweets like “you Jews have been hated and expelled from all the world’s countries for thousands of years, yet you never consider that the common factor is you.”  “Your Talmud commands you to kill goyim children, so that’s why you’re doing it.”  “Even while you maintain apartheid in Palestine, you cynically import millions of third-world savages to White countries, in order to destroy them.”  None of this is the way leftists talk, not even the most crazed leftists.  We’ve now gone all the way around the horseshoe.  Or, we might say, we’re no longer selecting on the left or right of politics at all, but simply on the bottom.
+
+And then you see that these bottom-feeders often have millions of followers each.  They command armies.  The bottom-feeders—left, right, Islamic fundamentalist, and unclassifiably paranoid—are emboldened as never before.  They’re united by a common enemy, which turns out to be the same enemy they’ve always had.
+
+Which brings us to Elon Musk.  I personally believe that Musk, like Trump, has nothing against the Jews, and is if anything a philosemite.  But it’s no longer a question of feelings.  Through his changes to Twitter, Musk has helped his new ally Trump flip over the boulder, and now all the demons that were wriggling beneath are loosed on civilization.
+
+Should we, as Jews, tolerate the demons in exchange for Trump’s tough-guy act on Iran?  Just like the evangelicals previously turned a blind eye to Trump’s philandering, his sexual assaults, his gleeful cruelty, his spitting on everything Christianity was ever supposed to stand for, simply because he promised them the Supreme Court justices to overturn Roe v. Wade?  Faced with a man who’s never had a human relationship in his life that wasn’t entirely transactional, should we be transactional ourselves?
+
+I’m not convinced that even if we did, we’d be getting a good bargain.  Iran is no longer alone, but part of an axis that includes China, Russia, and North Korea.  These countries prop up each other’s economies and militaries; they survive only because of each other.  As others have pointed out, the new Axis is actually more tightly integrated than the Axis powers ever were in WWII.  The new Axis has already invaded Ukraine and perhaps soon Taiwan and South Korea.  It credibly threatens to end the Pax Americana.  And to face Hamas or Hezbollah is to face Iran is to face the entire new Axis.
+
+Now Kamala is not Winston Churchill.  But at least she doesn’t consider the tyrants of Russia, China, and North Korea to be her personal friends, trustworthy because they flatter her.  At least she, unlike Trump, realizes that the current governments of China, Russia, North Korea, and Iran do indeed form a new axis of evil, and she has the glimmers of consciousness that the founders of the United States stood for something different from what those tyrannies stand for, and that this other thing that our founders stood for was good.  If war does come, at least she’ll listen to the advice of generals, rather than clowns and lackeys.  And if Israel or America do end up in wars of survival, from the bottom of my heart she’s the one I’d rather have in charge.  For if she’s in charge, then through her, the government of the United States is still in charge.  Our ripped and tattered flag yet waves.  If Trump is in charge, who or what is at the wheel besides his own unhinged will, or that of whichever sordid fellow-gangster currently has his ear?
+
+So, yes, as a human being and also as a Jew, this is why I voted early for Kamala, and why I hope you’ll vote for her too.  If you disagree with her policies, start fighting those policies once she’s inaugurated on January 20, 2025.  At least there will still be a republic, with damaged but functioning error-correcting machinery, in which you can fight.
+
+All the best,Scott
+
+More Resources: Be sure to check out Scott Alexander’s election-eve post, which (just like in 2016) endorses any listed candidate other than Trump, but specifically makes the case to voters put off (as Scott is) by Democrats’ wokeness.  Also check out Garry Kasparov’s epic tweet-thread on why he supports Kamala, and his essay The United States Cannot Descend Into Authoritarianism.
+
+
+
+================================================================================
+
+TITLE: Steven Rudich (1961-2024)
+URL: https://scottaaronson.blog/?m=202411
+CONTENT:
+I was sure my next post would be about the election—the sword of Damocles hanging over the United States and civilization as a whole.  Instead, I have sad news, but also news that brings memories of warmth, humor, and complexity-theoretic insight.
+
+Steven Rudich—professor at Carnegie Mellon, central figure of theoretical computer science since the 1990s, and a kindred spirit and friend—has died at the too-early age of 63.  While I interacted with him much more seldom than I wish I had, it would be no exaggeration to call him one of the biggest influences on my life and career.
+
+I first became aware of Steve at age 17, when I read the Natural Proofs paper that he coauthored with Razborov.  I was sitting in the basement computer room at Telluride House at Cornell, and still recall the feeling of awe that came over me with every page.  This one paper changed my scientific worldview.  It expanded my conception of what the P versus NP problem was about and what theoretical computer science could even do—showing how it could turn in on itself, explain its own difficulties in proving problems hard in terms of the truth of those same problems’ hardness, and thereby transmute defeat into victory.  I may have been bowled over by the paper’s rhetoric as much as by its results: it was like, you’re allowed to write that way?
+
+I was nearly as impressed by Steve’s PhD thesis, which was full of proofs that gave off the appearance of being handwavy, “just phoning it in,” but were in reality completely rigorous. The result that excited me the most said that, if a certain strange combinatorial conjecture was true, then there was essentially no hope of proving that P≠NP∩coNP relative to a random oracle with probability 1.  I played around with the combinatorial conjecture but couldn’t make headway on it; a year or two later, I was excited when I met Clifford Smyth and he told me that he, Kahn, and Saks had just proved it.  Rudich’s conjecture directly inspired me to work on what later became the Aaronson-Ambainis Conjecture, which is still unproved, but which if true, similarly implies that there’s no hope of proving P≠BQP relative to a random oracle with probability 1.
+
+When I applied to CS PhD programs in 1999, I wrote about how I wanted to sing the ideas of theoretical computer science from the rooftops—just like Steven Rudich had done, with the celebrated Andrew’s Leap summer program that he’d started at Carnegie Mellon.  (How many other models were there?  Indeed, how many other models are there today?)  I was then honored beyond words when Steve called me on the phone, before anyone else had, and made an hourlong pitch for me to become his student.  “You’re what I call a ‘prefab’,” he said.  “You already have the mindset that I try to instill in students by the end of their PhDs.”  I didn’t have much self-confidence then, which is why I can still quote Steve’s words a quarter-century later.  In the ensuing years, when (as often) I doubted myself, I’d think back to that phone call with Steve, and my burning desire to be what he apparently thought I was.
+
+Alas, when I arrived in Pittsburgh for CMU’s visit weekend, I saw Steve holding court in front of a small crowd of students, dispensing wisdom and doing magic tricks.  I was miffed that he never noticed or acknowledged me: had he already changed his mind about me, lost interest?  It was only later that I learned that Steve was going blind at the time, and literally hadn’t seen me.
+
+In any case, while I came within a hair of accepting CMU’s offer, in the end I chose Berkeley.  I wasn’t yet 100% sure that I wanted to do quantum computing (as opposed to AI or classical complexity theory), but the lure of the Bay Area, of the storied CS theory group where Steve himself had studied, and of Steve’s academic sibling Umesh Vazirani proved too great.
+
+Full of regrets about the road not taken, I was glad that, in the summer between undergrad and PhD, I got to attend the PCMI summer school on computational complexity at the Institute for Advanced Study in Princeton, where Steve gave a spectacular series of lectures.  By that point, Steve was almost fully blind.  He put transparencies up, sometimes upside-down until the audience corrected him, and then lectured about them entirely from memory.  He said that doing CS theory sightless was a new, more conceptual experience for him.
+
+Even in his new condition, Steve’s showmanship hadn’t left him; he held the audience spellbound as few academics do.  And in a special lecture on “how to give talks,” he spilled his secrets.
+
+“What the speaker imagines the audience is thinking,” read one slide.  And then, inside the thought bubbles: “MORE! HARDER! FASTER! … Ahhhhh yes, QED!  Truth is beauty.”
+
+“What the audience is actually thinking,” read the next slide, below which: “When is this over?  I need to pee.  Can I get a date with the person next to me?”  (And this was before smartphones.)  And yet, Steve explained, rather than resenting the many demands on the audience’s attention, a good speaker would break through, meet people where they were, just as he was doing right then.
+
+I listened, took mental notes, resolved to practice this stuff.  I reflected that, even if my shtick only ever became 10% as funny or fluid as Steve’s, I’d still come out way ahead.
+
+It’s possible that the last time I saw Steve was in 2007, when I visited Carnegie Mellon to give a talk about algebrization, a new barrier to solving P vs. NP (and other central problems of complexity theory) that Avi Wigderson and I had recently discovered.  When I started writing the algebrization paper, I very consciously modeled it after the Natural Proofs paper; the one wouldn’t have been thinkable without the other.  So you can imagine how much it meant to me when Steve liked algebrization—when, even though he couldn’t see my slides, he got enough from the spoken part of the talk to burst with “conceptual” questions and comments.
+
+Steve not only peeled back the mystery of P vs NP insofar as anyone has.  He did it with exuberance and showmanship and humor and joy and kindness. I won’t forget him.
+
+I’ve written here only about the tiniest sliver of Steve’s life: namely, the sliver where it intersected mine.  I wish that sliver were a hundred times bigger, so that there’d be a hundred times more to write.  But CS theory, and CS more broadly, are communities.  When I posted about Steve’s passing on Facebook, I got inundated by comments from friends of mine who (as it turned out) had taken Steve’s courses, or TA’d for him, or attended Andrew’s Leap, or otherwise knew him, and on whom he’d left a permanent impression—and I hadn’t even known any of this.
+
+So I’ll end this post with a request: please share your Rudich stories in the comments! I’d especially love specific recollections of his jokes, advice, insights, or witticisms. We now live in a world where, even in the teeth of the likelihood that P≠NP, powerful algorithms running in massive datacenters nevertheless try to replicate the magic of human intelligence, by compressing and predicting all the text on the public Internet.  I don’t know where this is going, but I can’t imagine that it would hurt for the emerging global hive-mind to know more about Steven Rudich.
+
+
+
+================================================================================
+

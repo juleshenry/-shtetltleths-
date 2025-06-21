@@ -1,0 +1,97 @@
+TITLE: “Never A Better Time to Visit”: Our Post-October-7 Trip to Israel
+URL: https://scottaaronson.blog/?m=202406
+CONTENT:
+Dana, the kids, and I got back to the US last week after a month spent in England and then Israel.  We decided to visit Israel because … uhh, we heard there’s never been a better time.
+
+We normally go every year to visit Dana’s family and our many friends there, and to give talks.  Various well-meaning friends suggested that maybe we should cancel or postpone this year—given, you know, the situation.  To me, though, the situation felt like all the more reason to go.  To make Israel seem more and more embattled, dangerous, isolated, abnormal, like not an acceptable place to visit (much less live), in order to crater its economy, demoralize its population, and ultimately wipe it from the face of earth … that is explicitly much of the world’s game plan right now, laid out with shocking honesty since October 7 (a day that also showed us what the “decolonization” will, concretely, look like).  So, if I oppose this plan, then how could I look myself in the mirror while playing my tiny part in it?  Shouldn’t I instead raise a middle finger to those who’d murder my family, and go?
+
+Besides supporting our friends and relatives, though, I wanted to see the post-October-7 reality for myself, rather than just spending hours per day reading about it on social media.  I wanted to form my own impression of the mood in Israel: fiercely determined? angry? hopeless? just carrying on like normal?
+
+Anyway, in two meeting-packed weeks, mostly in Tel Aviv but also in Jerusalem, Haifa, and Be’er Sheva, I saw stuff that could support any of those narratives.  A lot was as I’d expected, but not everything.  In the rest of this post, I’ll share eleven observations:
+
+(1) This presumably won’t shock anyone, but in post-October-7 Israel, you indeed can’t escape October 7. Everywhere you look, on every building, in every lobby, hanging from every highway overpass, there are hostage posters and “Bring Them Home Now” signs and yellow ribbons—starting at the airport, where every single passenger is routed through a long corridor of hostage posters, each one signed and decorated by the hostage’s friends and family. It sometimes felt as though Yad Vashem had expanded to encompass the entire country. Virtually everyone we talked to wanted to share their stories and opinions about the war, most of all their depression and anger. While there was also plenty of discussion about quantum error mitigation and watermarking of large language models and local family events, no one even pretended to ignore the war.
+
+(2) Having said that, the morning after we landed, truthfully, the first thing that leapt out at me wasn’t anything to do with October 7, hostages, or Gaza. It was the sheer number of children playing outside, in any direction you looked. Full, noisy playgrounds on block after block. It’s one thing to know intellectually that Israel has by far the highest birthrate of any Western country, another to see it for yourself. The typical secular family probably has three kids; the typical Orthodox family has more. (The Arab population is of course also growing rapidly, both in Israel and in the West Bank and Gaza.) New apartment construction is everywhere you look in Tel Aviv, despite building delays caused by the war. And it all seems perfectly normal … unless you’ve lived your whole life in environments where 0.8 or 1.2 children per couple is the norm.
+
+This, of course, has giant implications for anyone interested in Israel’s future.  It’s like, a million Israeli leftists could get fed up and flee to the US or Canada or Switzerland, and Israel would still have a large and growing Jewish population—because having a big family is “just what people do” in a state that was founded to defy the Holocaust.  In particular: anyone who dreams of dismantling the illegal, settler-colonial, fascist Zionist ethnostate, and freeing Palestine from river to sea, had better have some plan for what they’re going to do with all these millions of young Jews, who don’t appear to be going anywhere.
+
+(3) The second thing I noticed was the heat—comparable to the Texas summer heat that we try to escape when possible.  Because of the roasting sun, our own two pampered offspring mostly refused to go outside during daytime, and we mostly met friends indoors.  I more than once had the dark thought that maybe Israel will survive Hamas, Hezbollah, Iran, and its own Jewish extremists … only to be finished off in the end (along with much of the rest of the planet) by global warming.  I wonder whether Israel will manage to engineer its way out of the crisis, as it dramatically engineered its way out of its water crisis via desalination.  The Arab petrostates have been trying to engineer their way out of the Middle East’s increasingly Mercury-like climate, albeit with decidedly mixed results.
+
+(4) But nu, what did our Israeli friends say about the war? Of course it’s a biased sample, because our friends are mostly left-wing academics and tech workers. But, at risk of overgeneralizing: they’re unhappy. Very, very unhappy. As for Bibi and his far-right yes-men? Our friends’ rage at them was truly a sight to behold. American progressives are, like, mildly irked by Trump in comparison. Yes, our friends blame Bibi for the massive security and intelligence failures that allowed October 7 to happen. They blame him for dragging out the war to stave off elections. They blame him for empowering the contemptible Ben-Gvir and Smotrich. They blame him for his failure to bring back the remaining hostages. Most of all, they blame him for refusing even to meet with the hostage families, and more broadly, for evading responsibility for all that he did wrong, while arrogating credit for any victories (like the rescue of Noa Argamani).
+
+(5) One Israeli friend offered to take me along to the giant anti-Bibi rally that now happens every Saturday night in Azrieli Center in Tel Aviv.  (She added that, if I left before 9pm, it would reduce the chances of the police arresting me.)  As the intrepid blogger-investigator I am, of course I agreed.
+
+While many of the protesters simply called for new elections to replace Netanyahu (a cause that I 3000% support), others went further, demanding a deal to free the hostages and an immediate end to the war (even if, as they understood, that would leave Hamas in power).
+
+Watching the protesters, smelling their pot smoke that filled the air, I was seized by a thought: these Israeli leftists actually see eye-to-eye with the anti-Israel American leftists on a huge number of issues.  In a different world, they could be marching together as allies.  Except, of course, for one giant difference: namely, the Tel Aviv protesters are proudly waving Israeli flags (sometimes modified to add anti-Bibi images, or to depict the Star of David “crying”), rather than burning or stomping on those flags.  They’re marching to save the Israel that they know and remember, rather than to destroy it.
+
+(6) We did meet one ultra-right-wing (and Orthodox) academic colleague.  He was virtually the only person we met on this trip who seemed cheerful and optimistic about Israel’s future.  He brought me to his synagogue to celebrate the holiday of Shavuot, while he himself stood guarding the door of the synagogue with a gargantuan rifle (his volunteer duty since October 7).  He has six kids.
+
+(7) Again and again, our secular liberal friends told us they’re thinking about moving from Israel, because if the Bibi-ists entrench their power (and of course the demographics are trending in that direction), then they don’t see that the country has any worthwhile future for them or their children.  Should this be taken more seriously than the many Americans who promise that this time, for real, they’ll move to Canada if Trump wins?  I’m not sure.  I can only report what I heard.
+
+(8) At the same time, again and again I got the following question from Israelis (including the leftist ones): how bad is the situation for Jews in the US? Have the universities been taken over by militant anti-Zionists, like it shows in the news? I had to answer: it’s complicated. Because I live my life enbubbled in the STEM field of computer science, surrounded by friends and colleagues of many backgrounds, ethnicities, religions, and political opinions who are thoughtful and decent (otherwise, why would they be my friends and colleagues?), I’m able to live a very nice life even in the midst of loud protesters calling to globalize the intifada against my family.
+
+If, on the other hand, I were in a typical humanities department?  Yeah, then I’d be pretty terrified.  My basic options would be to (a) shut up about my (ironically) moderate, middle-of-the-road opinions on Israel/Palestine, such as support for the two-state solution; (b) live a miserable and embattled existence; or (c) pack up and move, for example to Israel.
+
+An astounding irony right now is that, just as Israeli leftists are talking about moving from Israel, some of my American Jewish friends have talked to me about moving to Israel, to escape a prejudice that they thought died with their grandparents.  I don’t know where the grass is actually greener (or is it brown everywhere?).  Nor do I know how many worriers will actually follow through.  What’s clear is that, both in Israel and in the diaspora, Jews are feeling an existential fear that they haven’t felt for generations.
+
+(9) Did I fear for my own family’s safety during the trip?  Not really.  Maybe I should have.  When we visited Haifa, we found that GPS was scrambled all across northern Israel, to make targeting harder for Hezbollah missiles.  As a result, we couldn’t use Google Maps, got completely lost driving, and had to change plans with our friends.  For the first time, now I really feel angry at Hezbollah: they made my life worse and it’s personal!
+
+The funniest part, though, was how the scrambling was implemented: when you opened Google Maps anywhere in the north, it told you that you were in Beirut.  It then dutifully gave you walking or driving directions to wherever you were going in Israel, passing through Syria close to Damascus (“warning: this route passes through multiple countries”).
+
+(10) The most darkly comical thing that I heard on the entire trip: “oh, no, I don’t object in the slightest if the anti-Zionists want to kill us all. I only object if they want to kill us because of an incorrect understanding of the relevant history.” Needless to say, this was a professor.
+
+(11) After my two-week investigation, what grand insight can I offer about Israel’s future?  Not much, but maybe this: I think we can definitively rule out the scenario where Israel, having been battered by October 7, and bracing itself to be battered worse by Hezbollah, just sort of … withers away and disappears.  Yes, Israel might get hotter, more crowded, more dangerous, more right-wing, and more Orthodox.  But it will stay right where it is, unless and until its enemies destroy it in a cataclysmic war.  You can’t scare people away, break their will, if they believe they have nowhere else on the planet to go.  You can only kill them or else live next to them in peace, as the UN proposed in 1947 and as Oslo proposed in the 1990s.  May we live to see peace.
+
+Anyway, on that pleasant note, time soon to tune in to the Trump/Biden debate!  I wonder who these two gentlemen are, and what they might stand for?
+
+================================================================================
+
+TITLE: Luca Trevisan (1971-2024)
+URL: https://scottaaronson.blog/?m=202406
+CONTENT:
+(See here for Boaz Barak’s obituary, and here for Lance Fortnow’s—they cover different aspects of Luca’s legacy from each other and from this post. Also, click here to register for a free online TCS4All talk that Luca was scheduled to give, and that will now be given in his memory, this Monday at 3:30pm Eastern time.)
+
+Luca Trevisan, one of the world’s leading theoretical computer scientists, has succumbed to cancer in Italy, at only 52 years old.  I was privileged to know Luca for a quarter-century, first as my complexity theory and cryptography professor at UC Berkeley and as a member of my dissertation committee, and then as a friend and colleague and fellow CS theory blogger.
+
+I regret that I learned of the seriousness of Luca’s condition only a few days ago.  So yesterday morning I wrote him a farewell email, under the impression that, while he was now in hospice care, he had at least a few more weeks.  Alas, he probably never saw it.  So I’m hereby making the email into a memorial post, with small changes mostly to protect people’s privacy.
+
+Dear Luca,
+
+Dana, the kids, and I were traveling in Israel for the past two weeks, when I received the shocking and sad news that this might be my last chance to write to you.
+
+At risk of stating the obvious — you had a very large and positive effect on my life and career.  Starting with the complexity theory summer school at the Institute for Advanced Study in 2000, which was the first time we met and also the first time I really experienced the glories of complexity at full blast.  And then continuing at Berkeley, TA’ing your algorithms class, which you had to cancel on 9/11 (although students still somehow showed up for office hours lugging their CLRS books…), and dealing with that student who obviously cheated on the midterm although I had stupidly given back to her the evidence that would prove it.
+
+And then your graduate complexity course, where I was very proud to get 100% on your exam, having handwritten it on a train while everyone else used LaTeX (which, embarrassingly, I was still learning).  I was a bit less proud to present the Razborov-Rudich paper to the class, and to get questions from you that proved that I understood it less thoroughly than I thought.  I emerged from your course far better prepared to do complexity theory than when I entered it.
+
+Later I took your cryptography course, where I came to you afterwards one day to point out that with a quantum computer, you could pull out big Fourier coefficients without all the bother of the Goldreich-Levin theorem.  And you said sure, but then you would need a quantum computer.  Over 20 years later, Goldreich and Levin (and you?) can say with satisfaction that we still don’t have that scalable quantum computer … but we’re much much closer, I swear!
+
+I still feel bad about the theory lunch talk I gave in 2003, on my complexity-theoretic version of Aumann’s agreement theorem, where I used you and Umesh as characters instead of Alice and Bob, and which then led to unintended references to “Luca’s posterior” (probability distribution, I meant).
+
+I also feel bad about delaying so long the completion of my PhD thesis, until well after I’d started my postdoc in Princeton, so that my former officemate needed to meet you on a street corner in San Francisco to sign the signature page the night before the deadline.
+
+But then a few years later, when Avi and I did the algebrization paper, the fact that you seemed to like it mattered more to me than just about anything else.
+
+Thank you for the excellent dinner when I met you some years ago in Rome.  Thank you for the Trevisan-Tulsiani-Vadhan paper, which answered a question we had about BosonSampling (and you probably didn’t even know you were doing quantum computing when you wrote that paper!).  Thank you for your blog.  Thank you for everything you did for me.
+
+I always enjoyed your dry humor, much of which might sadly be lost to time, unless others wrote it down or it’s on YouTube or something.  Two examples spring to my mind across the decades:
+
+Speaking of which, my current trip to Israel has given me many opportunities to reflect on mortality — for all the obvious war-related reasons of course, but also because while we were here, we unexpectedly had to attend two shivas of people in our social circle who died during our trip, one of them from cancer.  And we learned about a close friend whose stepson has a brain tumor and might or might not make it.  Cancer is a bitch.
+
+Anyway, there’s much more I could write, but I imagine you’re getting flooded with emails right now from all the people whose lives you’ve touched, so I won’t take up more of your time.  You’ve made a real difference to the world, to theoretical computer science, and to your friends and colleagues, one that many people would envy.
+
+Best,Scott
+
+================================================================================
+
+TITLE: Situational Awareness
+URL: https://scottaaronson.blog/?m=202406
+CONTENT:
+My friend Leopold Aschenbrenner, who I got to know and respect on OpenAI’s now-disbanded Superalignment team before he left the company under disputed circumstances, just released “Situational Awareness,” one of the most extraordinary documents I’ve ever read. With unusual clarity, concreteness, and seriousness, and with a noticeably different style than the LessWrongers with whom he shares some key beliefs, Leopold sets out his vision of how AI is going to transform civilization over the next 5-10 years. He makes a case that, even after ChatGPT and all that followed it, the world still hasn’t come close to “pricing in” what’s about to hit it. We’re still treating this as a business and technology story like personal computing or the Internet, rather than (also) a national security story like the birth of nuclear weapons, except more so.  And we’re still indexing on LLMs’ current capabilities (“fine, so they can pass physics exams, but they still can’t do original physics research“), rather than looking at the difference between now and five years ago, and then trying our best to project forward an additional five years.
+
+Leopold makes an impassioned plea for the US to beat China and its other autocratic adversaries in the race to superintelligence, and to start by preventing frontier model weights from being stolen. He argues that the development of frontier AI models will inevitably be nationalized, once governments wake up to the implications, so we might as well start planning for that now.  Parting ways from the Yudkowskyans despite their obvious points of agreement, Leopold is much less worried about superintelligence turning us all into paperclips than he is about it doing the bidding of authoritarian regimes, although he does worry about both.
+
+Leopold foresaw the Covid lockdowns, as well as the current AI boom, before most of us did, and apparently made a lot of money as a result.  I don’t know how his latest predictions will look from the standpoint of 2030. In any case, though, it’s very hard for me to imagine anyone in the US national security establishment reading Leopold’s document without crapping their pants. Is that enough to convince you to read it?
+
+================================================================================
+

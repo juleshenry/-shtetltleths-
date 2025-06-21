@@ -1,0 +1,71 @@
+TITLE: Lincoln Blogs
+URL: https://scottaaronson.blog/?m=201212
+CONTENT:
+Sorry for the terrible pun.  Today’s post started out as a comment on a review of the movie Lincoln on Sean Carroll’s blog, but it quickly become too long, so I made it into a post on my own blog.  Apparently I lack Abe’s gift for concision.
+
+I just saw Lincoln — largely inspired by Sean’s review — and loved it.  It struck me as the movie that Lincoln might have wanted to be made about himself: it doesn’t show any of his evolution, but at least it shows the final result of that evolution, and conveys the stories, parables, and insight into human nature that he had accumulated by the end of his life in a highly efficient manner.
+
+Interestingly, the Wikipedia page says that Spielberg commissioned, but then ultimately rejected, two earlier scripts that would have covered the whole Civil War period, and (one can assume) Lincoln’s process of evolution.  I think that also could have been a great movie, but I can sort-of understand why Spielberg and Tony Kushner made the unusual choice they did: at the level of detail they wanted, it seems like it would be impossible to do justice to Lincoln’s whole life, or even the last five years of it, in anything less than a miniseries.
+
+I agree with the many people who pointed out that the movie could have given more credit to those who were committed antislavery crusaders from the beginning—rather than those like Lincoln, who eventually came around to the positions we now associate with him after a lot of toying with ideas like blacks self-deporting to Liberia.  But in a way, the movie didn’t need to dole out such credit: today, we know (for example) that Thaddeus Stevens had history and justice 3000% on his side, so the movie is free to show him as the nutty radical that he seemed to most others at the time.  And there’s even a larger point: never the most diligent student of history, I (to take one embarrassing example) had only the vaguest idea who Thaddeus Stevens even was before seeing the movie.  Now I’ve spent hours reading about him, as well as about Charles Sumner, and being moved by their stories.
+
+(At least I knew about the great Frederick Douglass, having studied his Narrative in freshman English class.  Douglass and I have something in common: just as a single sentence he wrote, “I would unite with anybody to do right and with nobody to do wrong,” will reverberate through the ages, so too, I predict, will a single sentence I wrote: “Australian actresses are plagiarizing my quantum mechanics lecture to sell printers.”)
+
+More broadly, I think it’s easy for history buffs to overestimate how much people already know about this stuff.  Indeed, I can easily imagine that millions of Americans who know Lincoln mostly as “the dude on the $5 bill (who freed some slaves, wore a top hat, used the word ‘fourscore,’ and got shot)” will walk out of the cineplex with a new and ~85% accurate appreciation for what Lincoln did to merit all that fuss, and why his choices weren’t obvious to everyone else at the time.
+
+Truthfully, though, nothing made me appreciate the movie more than coming home and reading countless comments on movie review sites denouncing Abraham Lincoln as a bloodthirsty war criminal, and the movie as yet more propaganda by the victors rewriting history.  Even on Sean’s blog we find this, by a commenter named Tony:
+
+I’m not one who believes we have to go to war to solve every problem we come across, I can’t believe that Lincoln couldn’t have found a solution to states rights and slavery in a more peaceful course of action. It seems from the American Revolutionary war to the present it has been one war after another … The loss of life of all wars is simply staggering, what a waste of humanity.
+
+Well look, successive presidential administrations did spend decades trying to find a peaceful solution to the “states rights and slavery” issue; the massive failure of their efforts might make one suspect that a peaceful solution didn’t exist.  Indeed, even if Lincoln had simply let the South secede, my reading of history is that issues like the return of fugitive slaves, or competition over Western territories, would have eventually led to a war anyway.  I’m skeptical that, in the limit t→∞, free and slave civilizations could coexist on the same continent, no matter how you juggled their political organization.
+
+I’ll go further: it even seems possible to me that the Civil War ended too early, with the South not decimated enough.  After World War II, Japan and Germany were successfully dissuaded even from “lite” versions of their previous plans, and rebuilt themselves on very different principles.  By contrast, as we all know, the American South basically refused for the next century to admit it had lost: it didn’t try to secede again, but it did use every means available to it to reinstate de facto slavery or something as close to that as possible.  All the civil-rights ideals of the 1960s had already been clearly articulated in the 1860s, but it took another hundred years for them to get implemented.  Even today, with a black President, the intellectual heirs of the Confederacy remain a force to be reckoned with in the US, trying (for example) to depress minority voter turnout through ID laws, gerrymandering, and anything else they think they can possibly get away with.  The irony, of course, is that the neo-Confederates now constitute a nontrivial fraction of what they proudly call “the party of Lincoln.”  (Look at the map of blue vs. red states, and compare it to the Mason-Dixon line.  Even the purple states correspond reasonably well to the vacillating border states of 1861.)
+
+So that’s why it seems important to have a movie every once in a while that shows the moral courage of people like Lincoln and Thaddeus Stevens, and that names and shames the enthusiastic defenders of slavery—because while the abolitionists won the battle, on some fronts we’re still fighting the war.
+
+================================================================================
+
+TITLE: Quantum Complexity Theory Student Project Showcase 2!
+URL: https://scottaaronson.blog/?m=201212
+CONTENT:
+(Note: The “2!” in the title of this post really does mean “2 factorial,” if you want it to.)
+
+With the end of the semester upon us, it’s time for a once-every-two-year tradition: showcasing student projects from my 6.845 Quantum Complexity Theory graduate course at MIT.  For my previous showcase, in 2010, I chose six projects that I thought were especially outstanding.  This year, however, there were so many great projects—and so many, in particular, that could actually be useful to people in quantum computing—that I decided simply to open up the showcase to the whole class.  I had 17 takers; their project reports and 10-minute presentation slides are below.
+
+Let me mention a few projects that tried to do something new and audacious.  Jenny Barry generalizes the notion of Partially Observable Markov Decision Processes (POMDPs) to the quantum case, and uses a recent result of Eisert et al., showing that certain problems in quantum measurement theory are undecidable (like, literally Turing-undecidable), to show that goal state reachability for “QOMDPs” is also Turing-undecidable (despite being decidable for classical POMDPs).  Matt Falk suggests a novel quantum algorithm for spatial search on the 2D grid, and gives some numerical evidence that the algorithm finds a marked item in O(√n) time (which, if true, would be the optimal bound, beating the previous runtime of O(√(n log n))).  Matt Coudron and Henry Yuen set out to prove that the Vazirani-Vidick protocol for quantum randomness expansion is optimal, and achieve some interesting partial results.  Mohammad Bavarian (well, jointly with me) asks whether there’s a fast quantum algorithm for PARITY that gets the right answer on just slightly more than 50% of the inputs—and shows, rather surprisingly, that this question is closely related to some of the hardest open problems about Boolean functions, like sensitivity versus block sensitivity.
+
+This year, though, I also want to call special attention to the survey projects, since some of them resulted in review articles that could be of real use to students and researchers in quantum computing theory.  Notably, Adam Bookatz compiled the first list of essentially all known QMA-complete problems, analogous to (but shorter than!) Garey and Johnson’s listing of known NP-complete problems in 1979.  Chris Graves surveyed the known quantum fault-tolerance bounds.  Finally, three projects took on the task of understanding and explaining some of the most important recent results in quantum complexity theory: Travis Hance on Thomas Vidick and Tsuyoshi Ito’s NEXP in MIP* breakthrough; Emily Stark on Mark Zhandry’s phenomenal results on the security of classical cryptographic constructions against quantum attack; and Max Zimet on Jordan-Lee-Preskill’s major work on simulation of quantum field theories.
+
+(Oops, sorry … did I use words like “important,” “breakthrough,” and “phenomenal” too often in that last sentence, thereby triggering the wrath of the theoretical computer science excitement police?  Well then, come over to my apartment and friggin’ arrest me.)
+
+Anyway, thanks so much to all the students for making 6.845 such an awesome class (at least on my end)!  Without further ado, here’s the complete project showcase:
+
+================================================================================
+
+TITLE: The Boson Apocalypse
+URL: https://scottaaronson.blog/?m=201212
+CONTENT:
+If the world ends today, at least it won’t do so without three identical photons having been used to sample from a probability distribution defined in terms of the permanents of 3×3 matrices, thereby demonstrating the Aaronson-Arkhipov BosonSampling protocol.  And the results were obtained by no fewer than four independent experimental groups, some of whom have now published in Science.  One of the groups is based in Brisbane, Australia, one in Oxford, one in Vienna, and one in Rome; they coordinated to release their results the same day.  That’s right, the number of papers (4) that these groups managed to choreograph to appear simultaneously actually exceeds the number of photons that they so managed (3).  The Brisbane group was even generous enough to ask me to coauthor: I haven’t been within 10,000 miles of their lab, but I did try to make myself useful to them as a “complexity theory consultant.”
+
+Here are links to the four experimental BosonSampling papers released in the past week:
+
+For those who want to know the theoretical background to this work:
+
+For those just tuning in, here are some popular-level articles about BosonSampling:
+
+I’ll be happy to answer further questions in the comments; for now, here’s a brief FAQ:
+
+Q: Why do you need photons in particular for these experiments?
+
+A: What we need is identical bosons, whose transition amplitudes are given by the permanents of matrices.  If it were practical to do this experiment with Higgs bosons, they would work too!  But photons are more readily available.
+
+Q: But a BosonSampling device isn’t really a “computer,” is it?
+
+A: It depends what you mean by “computer”!  If you mean a physical system that you load input into, let evolve according to the laws of physics, then measure to get an answer to a well-defined mathematical problem, then sure, it’s a computer!   The only question is whether it’s a useful computer.  We don’t believe it can be used as a universal quantum computer—or even, for that matter, as a universal classical computer.  More than that, Alex and I weren’t able to show that solving the BosonSampling problem has any practical use for anything.  However, we did manage to amass evidence that, despite being useless, the BosonSampling problem is also hard (at least for a classical computer).  And for us, the hardness of classical simulation was the entire point.
+
+Q: So, these experiments reported in Science this week  have done something that no classical computer could feasibly simulate?
+
+A: No, a classical computer can handle the simulation of 3 photons without much—or really, any—difficulty.  This is only a first step: before this, the analogous experiment (called the Hong-Ou-Mandel dip) had only ever been performed with 2 photons, for which there’s not even any difference in complexity between the permanent and the determinant (i.e., between bosons and fermions).  However, if you could scale this experiment up to about 30 photons, then it’s likely that the experiment would be solving the BosonSampling problem faster than any existing classical computer (though the latter could eventually solve the problem as well).  And if you could scale it up to 100 photons, then you might never even know if your experiment was working correctly, because a classical computer would need such an astronomical amount of time to check the results.
+
+================================================================================
+

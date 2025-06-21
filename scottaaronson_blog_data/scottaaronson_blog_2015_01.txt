@@ -1,0 +1,87 @@
+TITLE: Happy Second Birthday Lily
+URL: https://scottaaronson.blog/?m=201501
+CONTENT:
+
+
+Two years ago, I blogged when Lily was born.  Today I can blog that she runs, climbs, swims (sort of), constructs 3-word sentences, demands chocolate cake, counts to 10 in both English and Hebrew, and knows colors, letters, shapes, animals, friends, relatives, the sun, and the moon.  To all external appearances she’s now conscious as you and I are (and considerably more so than the cat in the photo).
+
+But the most impressive thing Lily does—the thing that puts her far beyond where her parents were at the same age, in a few areas—is her use of the iPad.  There she does phonics exercises, plays puzzle games that aren’t always trivial for me to win, and watches educational videos on YouTube (skipping past the ads, and complaining if the Internet connection goes down).  She chooses the apps and videos herself, easily switching between them when she gets bored.  It’s a sight to behold, and definitely something to try with your own toddler if you have one.  (There’s a movement these days that encourages parents to ban kids from using touch-screen devices, fearful that too much screen time will distract them from the real world.  To which I reply: for better or worse, this is the real world that our kids will grow up into.)
+
+People often ask whether Dana and I will steer Lily into becoming a theoretical computer scientist like us.  My answer is “hell no”: I’ll support Lily in whatever she wants to do, whether that means logic, combinatorics, algebraic geometry, or even something further afield like theoretical neuroscience or physics.
+
+As recent events illustrated, the world is not always the kindest place for nerds (male or female), with our normal ways of thinking, talking, and interacting sometimes misunderstood by others in the cruelest ways imaginable.  Yet despite everything, nerds do sometimes manage to meet, get married, and even produce offspring with nerd potential of their own.  We’re here, we’re sometimes inappropriately clear, and we’re not going anywhere.
+
+So to life!  And happy birthday Lily!
+
+================================================================================
+
+TITLE: BQP/LHC collision
+URL: https://scottaaronson.blog/?m=201501
+CONTENT:
+
+
+This afternoon, I gave my usual spiel about Quantum Computing and the Limits of the Efficiently Computable at the CERN Colloquium.  (If you watched the webcast of the Higgs boson discovery announcement a couple years ago, it was in the same auditorium they used for that, except this time it was less packed.)  Beforehand, Dana and I got to join a tour of the CMS detector at the Large Hadron Collider—one of the very last tours, before CMS shuts down (as ATLAS already has) to get ready for collisions at the LHC’s new, higher energy.
+
+Considered as eye candy, I’d say that the CMS detector holds its own against the Taj Mahal, Machu Picchu, the Great Wall of China, or any of the other engineering marvels of the world.  So, OK, let me describe what it’s like to visit it.  The first step is to take a tram from downtown Geneva to CERN, which is headquartered in the town of Meyrin.  This is easier than you’d imagine: a tram actually arrives in Geneva every few minutes with “CERN” (its final stop) written right on it!  Next you take a 20-minute bus ride from the CERN reception hall to the CMS building, which is across the French border.  You don’t really think about it until you’re here, but:
+
+(a) The Large Hadron Collider is large—it’s, like, a whole drive through the countryside to get from the main CERN buildings to CMS.
+
+(b) All inside the LHC ring is just a normal rural/suburban area, with restaurants, roads, gas stations, cows, etc.
+
+Anyway, then you arrive at CMS, which looks from the outside like just a big warehouse-type building.
+
+
+
+And you go inside, wondering if now you’re going to see the detector.  But no, there’s just a giant tarp hanging from the ceiling with a picture of the detector on it.  Maybe this tour won’t include the detector?
+
+
+
+But then you go outside, back in through some back entrance, then into a staging area where you get hard hats to wear.  Then you get into an elevator that goes about 150 feet down.  Meanwhile, your tour guide is carrying a geiger counter to make sure you’re not exposed to too much radiation.  Now will you see the detector?  No, just a bunch of dark corridors.  You pass through a room full of computers on racks—cool, this must be where they analyze the collision data!  (Actually, according to Panflutist in the comments section, these computers are only for control and for the trigger system, which decides which events to store for later analysis.)
+
+
+
+Then, after that room, there’s a door with a sign indicating that beyond it is the LHC ring.  Cool!
+
+
+
+Of course, you’re not actually going into the ring.  But then you turn a different way, and emerge onto a platform where you to get to the “big reveal”: the detector, two giant circular pieces that obviously screw together but are now separated, and engineers making final tweaks to them before they’re reunited for the next collider run.  (I forgot to mention: the whole tour is being conducted in French.  That’s why you sort of need to guess what’s happening.)
+
+Anyway, thanks so much to Wolfgang Lerche and everyone else at CERN for an awesome visit.
+
+================================================================================
+
+TITLE: Quantum computing news items (by reader request)
+URL: https://scottaaronson.blog/?m=201501
+CONTENT:
+Within the last couple months, there was a major milestone in the quest to build a scalable quantum computer, and also a major milestone in the quest to figure out what you would do with a quantum computer if you had one.  As I’ve admitted many times, neither of those two quests is really the reason why I got into quantum computing—I’m one of the people who would still want to study this field, even if there were no serious prospect either of building a quantum computer or of doing anything useful with it for a thousand years—but for some reason that I don’t fully understand, both of those goals do seem to excite other people.
+
+So, OK, the experimental breakthrough was the Martinis group’s use of quantum error-correction with superconducting qubits, to preserve a logical bit for several times longer than the underlying physical qubits survived for.  Shortly before this came out, I heard Krysta Svore give a talk at Yale in which she argued that preserving a logical qubit for longer than the physical qubits was the next experimental milestone (the fourth, out of seven she listed) along the way to a scalable, fault-tolerant quantum computer.  Well, it looks like that milestone may have been crossed.  (update: I’ve since learned from Graeme Smith, in the comments section, that the milestone crossed should really be considered the “3.5th,” since even though quantum error-correction was used, the information that was being protected was classical.  I also learned from commenter Jacob that the seven milestones Krysta listed came from a Science paper by Schoelkopf and Devorret.  She cited the paper; the forgetfulness was entirely mine.)
+
+In more detail, the Martinis group used a linear array of 9 qubits: 5 data qubits interleaved with 4 measurement qubits. The authors describe this setup as a “precursor” to Kitaev’s surface code (which would involve a 2-dimensional array).  They report that, after 8 cycles of error detection and correction, they were able to suppress the effective error rate compared to the physical qubits by a factor of 8.5.  They also use quantum state tomography to verify that their qubits were indeed in entangled states as they did this.
+
+Of course, this is not yet a demonstration of any nontrivial fault-tolerant computation, let alone of scaling such a computation up to where it’s hard to simulate with a classical computer.  But it pretty clearly lies along the “critical path” to that.
+
+As I blogged back in September, Google recently hired Martinis’s group away from UC Santa Barbara, where they’ll work on superconducting quantum annealing, as a step along the way to full universal QC.  As I mentioned then, the Martinis group’s “Xmon” qubits have maybe 10,000 times the coherence times of D-Wave’s qubits, at least when you measure coherence in the usual ways.  The fact that Martinis et al. are carefully doing quantum state tomography and demonstrating beneficial error-correction before scaling up are further indications of the differences between their approach and D-Wave’s.  Of course, even if you do everything right, there’s still no guarantee that you’ll outperform a classical computer anytime soon: it might simply be that the things you can do in the near future (e.g., quantum annealing for NP-complete problems) are not things where you’re going to outperform the best classical algorithms.  But it’s certainly worth watching closely.
+
+Meanwhile, the quantum algorithms breakthrough came in a paper last month by an extremely well-known trio down the Infinite Corridor from me: Farhi, Goldstone, and Gutmann.  In slightly earlier work, Farhi et al. proposed a new quantum algorithm for NP-hard optimization problems.  Their algorithm badly needs a name; right now they’re just calling it the “QAOA,” or Quantum Approximate Optimization Algorithm.  But here’s what you need to know: their new algorithm is different from their famous adiabatic algorithm, although it does become equivalent to the adiabatic algorithm in a certain infinite limit.  Rather than staying in the ground state of some Hamiltonian, the QAOA simply
+
+The unitary transformations have adjustable real parameters, and a big part of the game is figuring out how to set the parameters to get a good solution.
+
+The original, hyper-ambitious goal of the QAOA was to solve the Unique Games problem in quantum polynomial time—thereby disproving the Unique Games Conjecture (which I previously blogged about here), unless NP⊆BQP.  It hasn’t yet succeeded at that goal.  In their earlier work, Farhi et al. managed to show that the QAOA solves the MAX-CUT problem on 3-regular graphs with approximation ratio 0.6924, which is better than random guessing, but not as good as the best-known classical algorithms (Goemans-Williamson, or for the degree-3 case, Halperin-Livnat-Zwick), let alone better than those algorithms (which is what would be needed to refute the UGC).
+
+In their new work, Farhi et al. apply the QAOA to a different problem: the poetically-named MAX E3LIN2.  Here you’re given a collection of linear equations mod 2 in n Boolean variables, where each equation involves exactly 3 variables, and each variable appears in at most D equations.  The goal is to satisfy as many of the equations as possible, assuming that they’re not all satisfiable (if they were then the problem would be trivial).  If you just guess a solution randomly, you’ll satisfy a 1/2 fraction of the equations.  Håstad gave a polynomial-time classical algorithm that satisfies a 1/2+c/D fraction of the maximum number of satisfiable equations, for some constant c.  This remains the best approximation ratio that we know how to achieve classically.  Meanwhile, Trevisan showed that if there’s a polynomial-time classical algorithm that satisfies a 1/2+c/√D fraction of the max number of satisfiable equations, for a sufficiently large constant c, then P=NP.
+
+OK, so what do Farhi et al. do?  They show that the QAOA, with suitably tuned parameters, is able to satisfy a 1/2+c/D3/4 fraction of the total number of equations in polynomial time, for some constant c.  (In particular, this implies that a 1/2+c/D3/4 fraction of the equations are satisfiable—assuming, as Farhi et al. do, that two equations directly contradicting each other, like x+y+z=0 and x+y+z=1, never appear in the same instance.)
+
+Now, the above is a bigger fraction than the best-known classical algorithm satisfies!  (And not only that, but here the fraction is of the total number of equations, rather than the number of satisfiable equations.)  Farhi et al. also show that, if the constraint hypergraph doesn’t contain any small cycles, then QAOA can satisfy a 1/2+c/√D fraction of the equations in polynomial time, which is essentially the best possible unless NP⊆BQP.
+
+The importance of this result is not that anyone cares about the MAX E3LIN2 problem for its own sake.  Rather it’s that, as far as I know, this is the first time that a quantum algorithm has been proved to achieve a better approximation ratio for a natural NP-hard optimization problem than the best known classical algorithm achieves.  People have discussed that as a hypothetical possibility for 20 years, but (again, unless I’m missing something) we never had a good example until now.  The big question now is whether the 1/2+c/D3/4 performance can be matched classically, or whether there truly is an NP-intermediate region of this optimization problem where quantum outperforms classical.  (The third possibility, that doing as well as the quantum algorithm is already NP-hard, is one that I won’t even speculate about.  For, as Boaz Barak rightly points out in the comments section, the quantum algorithm is still being analyzed only in the regime where solutions are combinatorially guaranteed to exist—and that regime can’t possibly be NP-hard, unless NP=coNP.)
+
+[Above, I corrected some errors that appeared in the original version of this post—thanks to Ed Farhi and to the commenters for bringing them to my attention.]
+
+Update (Feb. 3, 2015): Boaz Barak has left the following comment:
+
+in a work with Ankur Moitra, Oded Regev, David Stuerer and Aravindan Vijayaraghavan we were able to match (in fact exceed) the guarantees of the Farhi et al paper via a classical efficient algorithm. (Namely satisfy 1/2 + C/√D fraction of the equations). p.s. we hope to post this on the arxiv soon
+
+================================================================================
+

@@ -1,0 +1,109 @@
+TITLE: “Is China Ahead in the Quantum Computing Race?”
+URL: https://scottaaronson.blog/?m=202109
+CONTENT:
+Please enjoy an hourlong panel discussion of that question on YouTube, featuring yours truly, my former MIT colleague Will Oliver, and political scientist and China scholar Elsa Kania.  If you’re worried that the title sounds too sensationalistic, I hope my fellow panelists and I will pleasantly surprise you with our relative sobriety!  Thanks so much to QC Ware for arranging the panel (full disclosure: I’m QC Ware’s scientific adviser).
+
+================================================================================
+
+TITLE: Was Scientific American Sokal’d?
+URL: https://scottaaronson.blog/?m=202109
+CONTENT:
+Here’s yesterday’s clickbait offering from Scientific American, the once-legendary home of Martin Gardner’s Mathematical Games column:
+
+Why the Term ‘JEDI’ Is Problematic for Describing Programs That Promote Justice, Equity, Diversity and Inclusion
+
+The sad thing is, I see few signs that this essay was meant as a Sokal-style parody, although in many ways it’s written as one.  The essay actually develops a 100% cogent, reasoned argument: namely, that the ideology of the Star Wars films doesn’t easily fit with the new ideology of militant egalitarianism at the expense of all other human values, including irony, humor, joy, and the nurturing of unusual talents. The authors are merely oblivious to the conclusion that most people would draw from their argument: namely, so much the worse for the militant egalitarianism then!
+
+I predict that this proposal—to send the acronym “JEDI” the way of “mankind,” “blacklist,” and, err, “quantum supremacy”—will meet with opposition even from the wokeists themselves, a huge fraction of whom (in my experience) have soft spots for the Star Wars franchise.  Recall for example that in 2014, Laurie Penny used Star Wars metaphors in her interesting response to my comment-171, telling male nerds like me that we need to learn to accept that “[we’re] not the Rebel Alliance, [we’re] actually part of the Empire and have been all along.”  Admittedly, I’ve never felt like part of an Empire, although I’ll confess to some labored breathing lately when ascending flights of stairs.
+
+As for me, I spent much of my life opposed in principle to Star Wars—I hated how the most successful “science fiction” franchise of all time became that way precisely by ditching any pretense of science and fully embracing mystical woo—but sure, when the chips are down, I’m crazy and radical enough to take the side of Luke Skywalker, even if a team of woke theorists is earnestly, unironically explaining to me that lightsabers are phallocentric and that Vader ranks higher on the intersectional oppression axis because of his breathing problem.
+
+Meantime, of course, the US continues to careen toward its worst Constitutional crisis since the Civil War, as Trump prepares to run again in 2024, and as this time around, the Republicans are systematically purging state governments of their last Brad Raffenspergers, of anyone who might stand in the way of them simply setting aside the vote totals and declaring Trump the winner regardless of the actual outcome.  It’s good to know that my fellow progressives have their eyes on the ball—so that when that happens, at least universities will no longer be using offensive acronyms like “JEDI”!
+
+================================================================================
+
+TITLE: My ACM TechTalk on quantum supremadvantage
+URL: https://scottaaronson.blog/?m=202109
+CONTENT:
+This Erev Yom Kippur, I wish to repent for not putting enough quantum computing content on this blog.  Of course, repentance is meaningless unless accompanied by genuine reform.  That being the case, please enjoy the YouTube video of my ACM TechTalk from last week about quantum supremacy—although, as you’ll see if you watch the thing, I oscillate between quantum supremacy and other terms like “quantum advantage” and even “quantum supremadvantage.”  This represents the first time ever that I got pushback about a talk before I’d delivered it for political reasons—the social-justice people, it turns out, are actually serious about wanting to ban the term “quantum supremacy”—but my desire to point out all the difficulties with their proposal competed with my desire not to let that issue overshadow my talk.
+
+And there’s plenty to talk about!  While regular Shtetl-Optimized readers will have already heard (or read) most of what I say, I make some new comments, including about the new paper from last week, the night before my talk (!), by the USTC group in China, where they report a quantum supremacy experiment based on random circuit sampling with a superconducting chip, this time with a record-setting 60 qubits and 24 layers of gates.  On the other hand, I also stress how increasing the circuit fidelity has become a much more urgent issue than further increasing the number of qubits (or in the case of BosonSampling, the number of photons), if our goal is for these experiments to remain a couple steps ahead of classical spoofing algorithms.
+
+Anyway, I hope you enjoy my lovingly handcrafted visuals.  Over the course of this pandemic, I’ve become a full convert to writing out my talks with a stylus pen rather than PowerPointing them—not only is it faster for me, not only does it allow for continuous scrolling rather than arbitrary divisions into slides, but it enforces simplicity and concision in ways they should be enforced.
+
+While there was only time for me to field a few questions at the end of the talk, I later supplied written answers to 52 questions (!!) that I hadn’t gotten to.  If you have a question, please check to see if it’s already there, and otherwise ask away in the comments!
+
+Thanks so much to Yan Timanovsky for inviting and organizing this talk, and to whurley for hosting it.
+
+================================================================================
+
+TITLE: Open Problems Related to Quantum Query Complexity
+URL: https://scottaaronson.blog/?m=202109
+CONTENT:
+Way back in 2005, I posed Ten Semi-Grand Challenges for Quantum Computing Theory, on at least half of which I’d say there’s been dramatic progress in the 16 years since (most of the challenges were open-ended, so that it’s unclear when to count them as “solved”).  I posed more open quantum complexity problems in 2010, and some classical complexity problems in 2011.  In the latter cases, I’d say there’s been dramatic progress on about a third of the problems.  I won’t go through the problems one by one, but feel free to ask in the comments about any that interest you.
+
+Shall I push my luck as a problem-poser?  Shall or shall not, I have.
+
+My impetus, this time around, was a kind invitation by Travis Humble, the editor-in-chief of the new ACM Transactions on Quantum Computing, to contribute a perspective piece to that journal on the occasion of my ACM Prize.  I agreed—but only on the condition that, rather than ponderously pontificate about the direction of the field, I could simply discuss a bunch of open problems that I wanted to see solved.  The result is below.  It’s coming soon to an arXiv near you, but Shtetl-Optimized readers get it first.
+
+Open Problems Related to Quantum Query Complexity  (11 pages, PDF)
+
+by Scott Aaronson
+
+Abstract: I offer a case that quantum query complexity still has loads of enticing and fundamental open problems—from relativized QMA versus QCMA and BQP versus IP, to time/space tradeoffs for collision and element distinctness, to polynomial degree versus quantum query complexity for partial functions, to the Unitary Synthesis Problem and more.
+
+Some of the problems on my new hit-list are ones that I and others have flogged for years or even decades, but others, as far as I know, appear here for the first time.  If your favorite quantum query complexity open problem, or a problem I’ve discussed in the past, is missing, that doesn’t mean that it’s been solved or is no longer interesting—it might mean I simply ran out of time or energy before I got to it.
+
+Enjoy!  And tell me what I missed or got wrong or has a trivial solution that I overlooked.
+
+================================================================================
+
+TITLE: Exciting opportunities at Kabul University!
+URL: https://scottaaronson.blog/?m=202109
+CONTENT:
+Update (Sept. 6): Alright, as promised in this post, I’ve now matched a reader’s generosity by donating $2,000 to NARAL’s Avow fund, which is fighting for abortion rights for women in Texas.  Woke people on Twitter, I invite you/youse/y’all to figure out some creative ways to condemn me for that.
+
+Normally, early fall is the time when I’d use this blog to advertise positions in quantum information and theoretical computer science at the University of Texas at Austin, for prospective PhD students, postdocs, and faculty.  This year, you might say, anyone trying to recruit academics to Texas has a … teensy bit of a PR problem.  We already had PR problems, first over the “failure by design” of our electrical grid in the winter, second over Governor Abbott’s battle against local mask mandates, which has made Texas the second-most notoriously covid-friendly state after Florida.
+
+Now, of course, Texas has effectively outlawed abortion—well, after the 6th week, which is before many women even realize they’re pregnant, and when the fetus is still the size of a grain of rice and looks like this.
+
+There are no exceptions for rape or incest, and—this is the “novel” part—there’s a bounty system, with $10,000+ fines for anyone who helps in any way with an abortion, payable to anyone who snitches on them.  Texas has openly defied Roe v. Wade and, for the first time in half a century, has gotten five Supreme Court justices (three appointed by Donald Trump) to go along with it.  Roe v. Wade is de facto no longer the law of the United States.
+
+And as for our recruiting at UT Austin … I fear we might as well now be trying to recruit colleagues to Kabul University.  It’s like, imagine some department chair at Kabul U., this week, trying to woo a star female physicist from abroad: “Oh, don’t worry … you’ll get used to wearing a burqa in no time!  And the ban on being alone with unrelated males is actually a plus for you; it just means you’ll be freed from onerous teaching and committee assignments.  Best yet, I’ve received personal assurances from our local Taliban commander that you almost certainly won’t be stoned for your licentiousness and whoredom.  Err … no offense, those were his words, not mine.”
+
+For five years, my recruiting pitches for UT Austin have often involved stressing how Austin is a famously hip, tolerant, high-tech, educated city—a “blueberry in the tomato soup,” as Rick Perry put it—and how Texas itself might indeed turn blue any election cycle, given the explosive growth of its metropolitan population, and how the crazy state politics is unlikely to affect an Austinite’s personal life—at least, by noticeably more than the crazy national politics would affect their personal life.  I can no longer make this pitch with a straight face, or certainly not to women.
+
+Like, I’m lucky that none of the women in my close family have ever needed an abortion, and that if they did, it would be easy for them to travel out of Texas to get one.  But having carried to term two healthy but difficult pregnancies, my wife Dana has often stressed to me how insane she finds the very idea of being forced by the government to go through with such an ordeal.  If women considering moving to Texas feel likewise, I can’t argue with them.  More than that: if Texas continues on what half the country sees as a journey back to the Middle Ages, with no opt-outs allowed for the residents of its left-leaning urban centers, Dana and I will not be able to remain here, and many of our friends won’t either.
+
+So why aren’t we packing our bags already?  Partly because the current situation is inherently, obviously unstable.  SB8 can’t long remain the law of Texas while Roe v. Wade remains the law of the United States: one of them has to give.  I confess to being confused about why some abortion provider in Texas, with funding from national pro-choice groups, hasn’t already broken the law, welcomed a lawsuit, and forced the courts to rule explicitly on whether Roe v. Wade still stands and why or why not, rather than gutting a core part of American jurisprudence literally under cover of night.  I’m also confused about why some solid blue state, like Massachusetts or Hawaii, isn’t right now passing a law that would let any citizen sue any other for carrying a firearm—thereby forcing the five Supreme Hypocrites, in striking down that law, to admit that they don’t believe after all that state laws get to trample what the Supreme Court has held to be constitutional rights, merely by outsourcing the enforcement to random vigilantes.
+
+My best guess is that Thomas, Alito, Gorsuch, Kavanaugh, and Barrett are already plotting to replace Roe by something much more restrictive, albeit probably not quite as shockingly draconian as Texas’s current ban on all abortions after six weeks, nor quite as breathtakingly insane as its bounty system for anyone who snitches about abortions.  My best guess is that they saw last week’s ruling as a way to test the waters and soften the country up: if you’re going to rescind what multiple generations of Americans have grown up seeing as a fundamental right, best not to do it too suddenly.  My best guess is that Democrats will respond by making abortion a central campaign issue in 2022 and 2024, and that given the public’s 58%-32% support for Roe, the Democrats will do pretty well with that—to the point where, like the proverbial dog that finally catches the car, Republicans might come to regret actually sinking their jaws into Roe, rather than just conspicuously chasing it down the street for half a century.
+
+I have friends who are sincere, thoughtful pro-lifers.  I admire, if nothing else, their principled dedication to a moral stance that regularly gets condemned in academia.  But I’d also say to them: even if you think of abortion as murder, a solid majority of Americans don’t, and it’s hard to see a stable way of getting what you want that skips the step where you change those Americans’ minds.  Indeed, there’s long been a pro-choice critique of Roe, which says that, by short-circuiting the political loosening of abortion restrictions that was already underway in the 70s, Roe fueled the growth of the radical right that’s now all but destroyed America.  For Roe falsely convinced pro-lifers that all they needed to do was seize control of the Supreme Court, by any means fair or foul, when what they really needed to do was convince the public.
+
+And, let’s be honest, convincing the public means convincing them to adopt a religious as opposed to secular framework for morality.  (And not just any religious framework: Orthodox Jews, for example, while not exactly fans of abortion, are fine with it under many circumstances.  In the Jewish view, so the old classic goes, the fetus attains full personhood only after graduating medical school.)  Of the Americans who want abortion to be illegal in all or most cases, 94% are at least “fairly certain” that God exists, and 79% are “absolutely certain”—consistent with my experience of having met highly intelligent and articulate pro-lifers, but never secular ones.  Modulo Lizardman’s Constant, virtually all pro-lifers have metaphysical commitments about God and the soul that presumably do some of the heavy lifting for them.  If the case for a blanket abortion ban can be made in terms that are compelling to a secular, rationalist, tradeoffs-based morality, no one seems to have done it yet.
+
+From the standpoint of secular moral philosophy, my own opinion is that no one has ever improved on the searching analysis of the abortion question that Carl Sagan and Ann Druyan published in 1990.  After painstakingly laying out scientific facts, moral hypotheticals, and commonsense principles, Sagan and Druyan ultimately conclude that the right question to ask is when the fetus develops something that’s recognizably a human brain, processing thoughts and emotions.  In practice, that probably means drawing a hard line at the end of the second trimester.  Coincidentally, that’s almost exactly where Roe v. Wade drew the line, but Sagan and Druyan’s reasoning is completely different: they reject Roe‘s criterion of viability outside the womb, as both morally irrelevant and contingent on medical technology.
+
+Reasonable people could disagree with the details of Sagan and Druyan’s analysis.  But if we agree that
+
+(1) a sperm and unfertizilied egg have a “personhood” of 0,
+
+(2) a newborn baby has a “personhood” of 1, and
+
+(3) whatever “personhood” is, it’s somehow tied to the gradual growth of neurons and dendrites in the physical universe, rather than to a mystical and discontinuous moment of ensoulment,
+
+… then by the intermediate value theorem, for all p∈(0,1), there’s going to be some stage of fetal development where the fetus has a personhood of p.  Which means that we’re going to be drawing a debatable line, making a compromise, just like the majority did in Roe.  To me, one of the strangest aspects of the abortion debate is how both sides came to view Roe v. Wade as the “pro-choice maximalist position,” forgetting how it itself was an attempted compromise between conflicting moral intuitions.
+
+Another strange aspect of the debate is how the most visible representatives of both sides seem to have given up, decades ago, on actually arguing for their positions.  Maybe it’s because people simply threw up their hands in futility; or because all the ground had been covered with nothing left to say; or because the debate was so obviously entangled with religion, and we have a polite norm of not arguing about religion; or because both positions hardened into tribal identity markers, to be displayed rather than defended.  Whatever the reason, though, by the mid-90s everything became about border skirmishes one or two steps removed from the actual question: e.g., if the woman is under 18, should her parents be notified?  should she be shown pictures of her fetus and given a 24-hour waiting period in hopes she’ll reconsider?  is this judicial nominee hiding his or her anti-abortion views?
+
+Now that Texas and five Supreme Court justices have launched a frontal assault on Roe—it’s impossible to see it any other way—it seems to me that the long armistice is over.  The pro-life side will have to make the case for its moral framework to a populace that will suddenly be paying more attention—and that includes tens of millions of Americans who hadn’t even been born the last time mainstream figures debated abortion head-on.  The pro-choice side can then counterargue for its moral framework.  If any pro-lifers are raring for this fight, I’ll point out that one of the most dramatic demographic changes, since the last time abortion was a “hot war,” has been a doubling in the percentage of Americans who are atheist, agnostic, or religiously unaffiliated.
+
+Let me close this post with two things.
+
+Firstly, if anyone is still unclear where I stand: over the next week, I will match Shtetl-Optimized readers’ donations to NARAL up to $2,000.  If you’d like to participate, just leave a comment with the amount you donated.  If I’ve argued with certain strains of feminism on this blog, that gives me all the more obligation to support the strains that I regard as fundamentally correct.
+
+Secondly, come join us at the University of Kab … I mean Texas at Austin!  For grad students, see here; for faculty, see here; for postdocs, email me a CV and recent publications and have two reference letters sent to me by December 31st.  In the US, the east coast is now being ravaged beyond recognition by hurricanes and the west coast by wildfires.  Here in Texas, all we have to deal with is extreme heat, a failing electrical grid, runaway covid, and now the ban on abortion.  Hook ’em Hadamards!
+
+================================================================================
+

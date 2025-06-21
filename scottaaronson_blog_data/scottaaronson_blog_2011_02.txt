@@ -1,0 +1,354 @@
+TITLE: Discussion questions about Watson
+URL: https://scottaaronson.blog/?m=201102
+CONTENT:
+
+
+================================================================================
+
+TITLE: My TEDxCaltech talk
+URL: https://scottaaronson.blog/?m=201102
+CONTENT:
+A month ago, Caltech hosted a daylong event called “TEDxCaltech / Feynman’s Vision: the Next 50 Years”, which was attended by about a thousand people.  Celebrity participants included Stephen Hawking, Carl and Michelle Feynman (Carl told me he’s a fan of the blog—hi Carl!), and Ondar, a Tuvan throat-singer who pretty much stole the show.
+
+Videos are finally being posted on YouTube; my talk is here.  My goal was to cover the P versus NP question, quantum computing, conceptual issues in quantum mechanics, and Feynman’s relation to all three, while also cracking crude masturbation jokes (in a talk like this, one has to bring out the heavy humor cannons), and to finish in 15 minutes.  I don’t know how well I succeeded—but if I die tomorrow, then at least Stephen Hawking was in the audience when I made my case for P and NP being as big a deal as anything in physics.
+
+Two explanatory comments:
+
+If you think my talk stinks, my only defense is that showing up to give it was already an accomplishment: my flight (from Tel Aviv to LA through Newark) was canceled because of a snowstorm, so I arrived at Caltech exhausted and barely conscious, via a 36-hour alternate route through Frankfurt and London.
+
+I have to confess that I was skeptical of this event’s entire premise.  Richard Feynman was famous for his contempt of pomp and authority; would he really have enjoyed a heavily-scripted day extolling him as a secular saint?  In the end, though, the quality of many of the talks made the event more than worthwhile for me, even without counting Ondar’s throat-singing as a “talk.”  I particularly enjoyed the cosmology talk of fellow-blogger Sean Carroll (yo, Sean), the Feynman stories of Lenny Susskind, a demonstration of the mind-blowing WorldWide Telescope by Curtis Wong of Microsoft, and a “Who Wants to be a Millionaire?” parody skit put on by the three “black hole bettors” (John Preskill, Kip Thorne, and Hawking, the last of whom wheeled into the auditorium to thunderous applause and the opening fanfare of Thus Spake Zarathustra).  I understand that all the talks will eventually be on YouTube here.
+
+Thanks to Michael Roukes, Mary Sikora, John Preskill, Ann Harvey, and the other organizers for putting this thing together and for inviting me.
+
+
+
+================================================================================
+
+TITLE: The students and the TAs are one hand
+URL: https://scottaaronson.blog/?m=201102
+CONTENT:
+Last night, the MIT Egyptian Club hosted a “What’s Going On In Egypt?” event, which included a lecture, a Q&A session with Egyptian students, Egyptian music, and free falafel and baklava.  I went, not least because of the falafel.
+
+The announcement that Mubarak was leaving came just a few hours before the event, which was planned as a somber discussion but hastily reconfigured as a celebration.  As you’d imagine, the mood was ecstatic: some people came draped in Egyptian flags, and there was shouting, embracing, and even blowing of vuvuzelas.  Building E51 wasn’t quite Tahrir Square, but it was as close as I was going to get.
+
+About 300 people showed up.  I’d expected an even bigger turnout—but then again, this was MIT, where the democratic awakening of the Arab world might have to wait if there’s a pset due next week.  Many of the people who came were speaking Arabic, greeting each other with “salaam aleykum.”  But only a minority were Egyptians: I met jubilant Syrians and Saudi Arabians, and pan-Arab pride was a major theme of the evening.
+
+At one point, I overheard two guys speaking something that sounded like Arabic but wasn’t: “yesh khasa?  eyn?”  It was Hebrew, which I’m proud to say I now speak at almost the level of a 3-year-old.  The Israelis were debating whether there was lettuce in the falafel (there wasn’t).  Joining their conversation, I confirmed that we had come for basically the same reasons: first, to “witness” (insofar as one could without leaving campus) one of the great revolutions of our time; secondly, the falafel.
+
+Two socialist organizations were selling newspapers, with headlines trumpeting the events in Egypt as the dawn of a long-awaited global workers’ revolt against capitalism.  Buying a $1 newspaper (and politely turning down a subscription), I thought to myself that one has to admire these folks’ persistence, if not their powers of analysis.
+
+Finally the main event started.  An Egyptian student from Harvard presented a slideshow, which summarized both the events of the last three weeks and the outrages of the last 30 years that led to them (poverty, torture, suppression of opposition parties, indefinite detention without charges, arrests for things like having long hair).  He said that this uprising wasn’t anything like Iran’s 30 years ago, that it was non-Islamic and led by the pro-democracy Facebook generation.  Then there was half an hour for Q&A.
+
+Someone asked about the protesters’ economic goals.  One student panelist started to answer, but then another interjected: “Look, the people in Tahrir Square just overthrew the government.  I don’t think they’ve had much time yet to think through their economic plan.”
+
+Someone else asked about the role of the US.  A student answered that it was “complicated, to say the least,” and that the Obama administration seemed internally divided.
+
+Perhaps the most interesting question was whether the students themselves planned to return to Egypt, to help build the new democratic society.  After a long silence, two students said yes.
+
+No one asked about the future of Egypt/Israel relations, and the subject never came up.  But it seemed obvious that, if the students I saw were running Egypt, they’d be too busy modernizing their country’s economy to spend much time denouncing Zionist iniquities.
+
+In general, I agree with Natan Sharansky that, for the US and Israel, it would be incredibly shortsighted to see only danger and “instability” in the Great Egyptian Twitter Revolt of 2011.  The variance is enormous, which makes it almost impossible to estimate the expectation, but there’s certainly large support on the positive half of the spectrum.
+
+So, to my Egyptian readers: congratulations, best wishes, mazel tov, and mabrouk from the entire executive staff of Shtetl-Optimized.  May your revolution be remembered with those of 1776 and 1989 and not with those of 1917 and 1979.
+
+================================================================================
+
+TITLE: Timeline of computer science
+URL: https://scottaaronson.blog/?m=201102
+CONTENT:
+Update (Feb. 14): Thanks so much to the many commenters who offered suggestions—I’ve implemented a large fraction of them!  In addition to many clarifications and corrections of existing entries, I’ve added entries for:
+
+Al-Khwarizmi
+The slide rule
+William Stanley Jevons’s “logic piano”
+The Atanasoff-Berry computer
+Claude Shannon’s cryptographic work
+Reed-Solomon codes (replacing the Hamming code)
+Solomonoff-Kolmogorov-Chaitin complexity
+The 1ESS switching system
+Semaphores
+Viterbi’s algorithm
+Simula 67
+Back-propagation (now sharing an entry with the book “Perceptrons”)
+The Solovay-Strassen primality test
+Lempel-Ziv compression
+PAC-learning
+Microsoft Office
+Global Positioning System
+Slashdot (replacing the entry for the word “blog”)
+CAPTCHAs
+BitTorrent
+Egypt’s “Twitter revolution”
+
+The trouble is that I now have 165 entries, whereas I was told to deliver 150.  So, after realizing the infeasibility of simply “choosing” items for deletion, the MIT150 folks and I reached a decision to set up a voting site for the top 150 entries, which should be available within a couple weeks.  In the meantime, if you want to suggest even more entries, you can go ahead and do so … thanks!
+
+This year, MIT is celebrating its 150th anniversary—and as part of the birthday festivities, I somehow got roped into creating a timeline of “150 major events in computer science history” (i.e., in the world, not MIT).   I understand that the timeline will go up on a wall somewhere.
+
+My first thought was that singling out the “most important events in CS history” was an exercise in futility, and not a particularly original one either.  But then, as I spent weekends reading about Konrad Zuse, the UNIVAC, and the IBM 360, I started really getting into my assigned exercise in futility.  Sure, there were great CS timelines already on the web—some of which I stole from shamelessly—but none of them had exactly the focus I was looking for.  For example, the founding of a company didn’t strike me as a milestone in itself: the question was, what qualitatively new things did the company do?  So I decided to take as a starting point the words and concepts that populate the mental landscape of CS: floating-point, compiler, graphics, network, bug.  Which events were decisive in loosing these concepts upon the Earth?  To clarify, I was just as interested in the demonstration, popularization, and commercialization of existing concepts as in the discovery of new ones: the release of Windows in 1985 brought few new ideas into the world, but it seems hard to argue that Windows hasn’t carved out its place on the mental map.  But so, in my opinion, has the Time Hierarchy Theorem, even if only 0.01% as many people have heard of it.
+
+I’m including my current draft list of 152 events below, so that Shtetl-Optimized readers can critique it, nitpick it, and tell me all about the important events I’ve left out and the events I’ve included that shouldn’t be there.  I’ll carefully consider all of your suggestions, and will implement the ones that I like.
+
+While you’re sharpening your nitpick-knives, though, let me explain the ground rules I decided to follow:
+
+Before we get to the list itself, let me give you a breakdown of number of milestones per time period:
+
+Pre-1600s: 2
+1600s: 3
+1700s: 2
+1800s: 7
+1900s (i.e., 1900-1909): 1
+1910s: 0
+1920s: 2
+1930s: 4
+1940s: 16
+1950s: 20
+1960s: 29
+1970s: 23
+1980s: 15
+1990s: 19
+2000s: 9
+
+From the data, it would appear that the level of intellectual excitement in computer science peaked in the 1960s, and has steadily declined ever since, except for a bump in the 1990s coinciding with the Internet boom.  The past decade has been a particularly arid one, producing little of note besides Facebook, Wikipedia, YouTube, and the iPhone.  If you don’t like that message—and I’m guessing that many of the MIT150 organizers won’t—then hey, don’t shoot the messenger!  The biased, misleading, and unscientific data is what it is.
+
+Without further ado:
+
+300BC Euclid’s Elements describes nontrivial algorithms (for problems such as Greatest Common Divisor) that are still used today
+150-100BC The Antikythera mechanism, an astronomical computer, is built in ancient Greece
+825  Abu Abdallah Muhammad ibn Musa al-Khwarizmi writes “On the Calculation with Hindu Numerals,” the work primarily responsible for spreading decimal notation in the West.  The word “algorithm” will be named for al-Khwarizmi
+1622 William Oughtred invents the slide rule, which will remain in use until the 1970s
+1642 Blaise Pascal builds an addition and subtraction machine
+1669 Isaac Newton describes Newton’s method, an early numerical algorithm for finding roots of equations
+1679 Gottfried Wilhelm Leibniz develops binary notation; Leibniz’s writings about a “Calculus Ratiocinator” are among the first to envision a general-purpose computer
+1737 Jacques de Vaucanson builds a mechanical duck able to flap its wings, eat grain, and “defecate”
+1770 Wolfgang von Kempelen unveils the Mechanical Turk, a “chess-playing automaton” secretly operated by a human. The hoax is only revealed 50 years later
+1801 In his “Disquisitiones Arithmeticae,” Carl Friedrich Gauss discusses the computational complexity of factoring and primality testing
+1837 Charles Babbage first describes plans for the Analytical Engine
+1842 In her notes on the Analytical Engine, Ada Lovelace writes what’s generally considered the first computer program, to calculate Bernoulli numbers
+1847 George Boole proposes Boolean logic
+1869 William Stanley Jevons recasts Boole’s ideas in algebraic terms, and builds a wooden “logic piano” to construct the truth tables of small Boolean formulas
+1879 Gottlob Frege publishes his “Begriffsschrift,” introducing first-order logic as a mathematically-precise language of thought
+1890 Herman Hollerith builds the first electromechanical counting machine; the US government buys it to complete the census
+1900 In a lecture to the International Congress of Mathematicians, David Hilbert asks for way to mechanize all of mathematical reasoning
+1921 Czech author Karel Capek popularizes the term ‘robot’ in his play “R.U.R. (Rossum’s Universal Robots)”
+1925 Vannevar Bush and colleagues create the first large-scale analog calculator at MIT
+1931 Kurt Gödel publishes his Incompleteness Theorem; the system of “Gödel numbering” used in the proof foreshadows computer programming
+1936 Alan Turing publishes “On computable numbers,” often considered the founding document of computer science; the paper gives an explicit construction of a universal Turing machine. Alonzo Church and Emil Post arrive at similar ideas independently
+1936 Working alone in Germany, Konrad Zuse builds the Z1, the first working stored-program computer
+1937 In his MIT master’s thesis—considered possibly the most influential master’s thesis in history—Claude Shannon proposes the application of Boolean algebra to electrical circuit design
+1940 Building on earlier breakthroughs by Polish mathematician Marian Rejewski, Alan Turing builds an improved “Bombe” at Bletchley Park, to break the German Enigma code and help the Allies win WWII
+1942 Isaac Asimov introduces his Three Laws of Robotics
+1942 At Iowa State College, John Atanasoff and Clifford  Berry successfully test a special-purpose vaccum-tube computer able to  solve up to 29 simultaneous linear equations; Atanasoff will later spend  decades in legal disputes to establish his computer’s priority over Eckert and Mauchly’s ENIAC
+1943 Colossus, the world’s first programmable electronic computer, begins operation at Bletchley Park
+1943 During the Manhattan Project, Richard Feynman and others pioneer large-scale scientific computing, using humans and later mechanical calculators
+1943 In their paper “A Logical Calculus Immanent in Nervous Activity,” Warren McCulloch and Walter Pitts propose neural networks and finite automata
+1944 The Mark I, designed by Howard Aiken, begins operations at Harvard
+1945 In a 100-page “draft report on the EDVAC”, John von Neumann describes the architecture of a stored-program computer (henceforth called “von Neumann architecture”)
+1945 Vannevar Bush publishes “As We May Think” in the Atlantic Monthly, a now-famous article that foresees a global information network based on hypertext
+1946 At the University of Pennsylvania, J. Presper Eckert and John Mauchly complete the ENIAC
+1946 In Los Alamos, Stanislaw Ulam develops the Monte Carlo method to speed up calculations of neutron diffusion in nuclear weapons
+1947 At Bell Labs, John Bardeen, Walter Brattain, and William Shockley invent the transistor
+1947 Operators of the Mark II computer trace an error to a moth trapped in a relay. The incident, popularized by Grace Murray Hopper, stimulates wider adoption of the terms “bug” and “debugging”
+1947 George Dantzig proposes the simplex algorithm for linear programming
+1948 In his landmark paper “A Mathematical Theory of Communication,” Claude Shannon first uses the word “bit,” attributing it to John Tukey
+1948 Norbert Wiener publishes “Cybernetics: Or Control and Communication in the Animal and the Machine”
+1949 The EDSAC, built by Maurice Wilkes, begins operations at Cambridge University
+1949 Claude Shannon initiates the rigorous mathematical study of cryptography, publishing his proof that the one-time pad is unbreakable and that any unbreakable encryption system has the same basic properties
+1950 Alan Turing proposes the Turing Test for artificial intelligence; four years later, Turing will commit suicide after being prosecuted for homosexuality
+1950 CSIRAC, in Australia, becomes the first computer to play music
+1951 J. Presper Eckert and John Mauchly release UNIVAC I, the first commercial electronic computer
+1951 Grace Murray Hopper creates A-O, considered the first compiler
+1951 MIT’s Whirlwind I computer goes online. Designed by Jay Forrester, Whirlwind features magnetic core memory and vacuum tubes that last 1000 times longer than those previously available
+1952 Based on analysis of early returns, a UNIVAC computer borrowed by CBS News predicts that Dwight Eisenhower will defeat Adlai Stevenson in the presidential election
+1954 Researchers at Birkbeck College perform the first demonstration of machine translation, with a rudimentary translation of English into French
+1955 MIT’s Whirlwind I becomes the first computer to display graphics on a video console
+1956 Dartmouth hosts the first conference on artificial intelligence, bringing the term AI into use
+1956 In a letter to John von Neumann, Kurt Gödel first poses what will later become known as the P versus NP problem
+1956 Edsger Dijkstra conceives his shortest-path algorithm, the basis for modern trip-planning software (Dijkstra also may have been the first person to list his profession as “programmer”)
+1956 Noam Chomsky proposes the Chomsky Hierarchy, linking the theory of computing to formal languages
+1956 MIT Lincoln Laboratories builds the TX-0, the first general-purpose computer to be built with transistors
+1956 Reynold Johnson at IBM introduces the hard drive
+1957 A team led by John Backus at IBM delivers a compiler for FORTRAN, the first high-level programming language
+1958 John McCarthy proposes the LISP family of functional programming languages
+1958 As part of the air-defense project SAGE, MIT Lincoln Labs links hundreds of radar stations in the first large-scale computer network
+1958 Jack St. Kilby at Texas Instruments and Robert Noyce at Fairchild Semiconductor propose the integrated circuit
+1959 In the seminal paper “Finite Automata and Their Decision Problems,” Dana Scott and Michael Rabin introduce the concept of nondeterminism into computer science
+1960 Tony Hoare invents the Quicksort algorithm, while a visiting student at Moscow State University
+1960 Irving Reed and Gustave Solomon give a systematic construction of error-correcting codes; later, Elwyn Berlekamp and James Massey will discover an efficient decoding procedure
+1960 Ray Solomonoff proposes measuring the complexity of a string by the length of the shortest program that generates it; Andrey Kolmogorov and Gregory Chaitin will later arrive at similar ideas independently
+1961 UNIMATE, the first industrial robot, begins work at General Motors
+1961 A team led by MIT professor Fernando Corbato demonstrates the first computer time-sharing system
+1961 A team led by MIT student Steve Russell creates Spacewar!, the first computer game
+1962 While studying computer models of the weather, MIT professor Edward Lorentz discovers the phenomena that would later be popularized as “chaos theory”
+1963 At MIT, Joseph Weizenbaum develops ELIZA, the now-famous program that simulates conversation between a Rogerian psychotherapist and a patient
+1963 MIT graduate student Ivan Sutherland develops Sketchpad, the first Computer-Aided Design (CAD) software
+1963 The first edition of ASCII (American Standard Code for Information Interchange) is published
+1964 IBM releases the System/360, one of the first computers based on integrated circuits. Fred Brooks, the lead developer, later describes the lessons learned in his book “The Mythical Man-Month”
+1964 At Dartmouth, John Kemeny and Thomas Kurtz create the BASIC programming language
+1964 Seymour Cray releases the CDC 6600, the first of many record-breaking supercomputers
+1964 American Airlines and IBM debut SABRE, the first computer-based travel reservation system
+1965 AT&T debuts 1ESS, the first electronic telephone switching system, in Succasunna, New Jersey
+1965 Intel cofounder Gordon Moore enunciates Moore’s Law, that the number of transistors per integrated circuit doubles roughly every two years
+1965 At IBM, James Cooley and John Tukey rediscover and popularize the Fast Fourier Transform (versions of which were known to Gauss and others)
+1965 Juris Hartmanis and Richard Stearns prove the existence of an infinite hierarchy of harder and harder computational problems
+1965 MIT student Richard Greenblatt begins developing Mac Hack, the first computer chess program to succeed in tournament play. Mac Hack also defeats the AI skeptic Hubert Dreyfus, who had famously claimed that computers would never play high-quality chess
+1965 Edsger Dijkstra introduces semaphores, which allow multiple concurrently-running programs to share the same resource
+1966 Texas Instruments unveils the first electronic handheld calculator
+1966 The first cash-dispensing ATM is installed in Tokyo
+1967 At SRI, Douglas Engelbart and Bill English apply for a patent for the first computer mouse
+1967 Andrew Viterbi invents the Viterbi algorithm for maximum-likelihood estimation in Hidden Markov Models; the algorithm will find major applications in speech recognition, bioinformatics, and both the CDMA and GSM cellular-phone standards
+1967 In Norway, Ole-Johan Dahl and Kristen Nygaard develop Simula 67, considered the first object-oriented programming language and a major influence on Smalltalk and later C++
+1968 Donald Knuth publishes Volume 1 of “The Art of Computer Programming”
+1968 Edsger Dijkstra publishes his now-famous article “Go To Statement Considered Harmful,” igniting an acrimonious debate about programming practices
+1968 The movie “2001: A Space Odyssey” introduces the world to HAL
+1968 Work begins at MIT on Macsyma, the first computer algebra system
+1969 Victor Scheinman builds the Stanford Arm, the first electronic computer-controlled robotic arm
+1969 ARPAnet, the precursor of the Internet, links UCLA, SRI, Santa Barbara, and Utah (MIT joins in 1970)
+1969 At Bell Labs, Ken Thompson and Dennis Ritchie create UNIX, and begin developing the C programming language
+1969 Arthur Bryson and Yu-Chi Ho introduce back-propagation, a learning technique for neural networks that is largely ignored until the 1980s.  Meanwhile, Marvin Minsky and Seymour Papert publish “Perceptrons,” a book that introduces important mathematical techniques into computer science, but has also been accused of “killing” neural-net research for more than a decade
+1969 The Apollo Guidance Computer plays a crucial role in steering Neil Armstrong and Buzz Aldrin to the lunar surface
+1970 John Horton Conway invents the Game of Life cellular automaton; it is estimated that millions of dollars of computer time are wasted watching Lifeforms evolve
+1970 E. F. Codd proposes the relational database management system (RDBMS)
+1970 Yuri Matiyasevich, building on work of Julia Robinson, Martin Davis, and Hilary Putnam, shows the nonexistence of an algorithm to solve Diophantine equations, negatively resolving Hilbert’s Tenth Problem and demonstrating Turing-universality in one of the oldest parts of mathematics
+1971 Stephen Cook and Leonid Levin independently prove that the Satisfiability problem is NP-complete; a paper by Richard Karp a year later demonstrates the pervasiveness of the NP-completeness phenomenon
+1971 IBM commercially releases the floppy disk
+1971 Ray Tomlinson sends the first email message on ARPANET
+1971 Bob Thomas at BBN Technologies creates the first experimental computer virus
+1972 Atari releases Pong
+1973 At Xerox PARC, Alan Kay and collaborators create the Alto, featuring the first graphical user interface (GUI) with windows, icons, and menus
+1973 Robert Metcalfe at Xerox PARC creates Ethernet
+1974 MIT professor Barbara Liskov and students begin work on CLU, a predecessor of modern object-oriented programming languages
+1976 Kenneth Appel and Wolfgang Haken prove the Four-Color Map Theorem, the first major theorem to be proved using a computer
+1975 Bill Gates and Paul Allen adapt BASIC to the MITS Altair microcomputer
+1975 Inspired by work of Ralph Merkle, Stanford researchers Whitfield Diffie and Martin Hellman announce the first protocol for public key exchange (which had been discovered previously at the British GCHQ, but kept classified)
+1975 Robert Kahn and Vint Cerf test the new TCP/IP protocol between Stanford and University College London
+1975 At IBM, John Cocke advocates RISC processor architecture, and begins work on the 801 to implement it
+1977 Ronald Rivest, Adi Shamir, and Leonard Adleman develop the public-key encryption system that they call RSA, and announce it via Martin Gardner’s Mathematical Games column in Scientific American
+1977 Robert Solovay and Volker Strassen publish an efficient randomized algorithm for primality testing, demonstrating both the feasibility of RSA and the power of randomized algorithm; shortly afterward, Gary Miller and Michael Rabin find a more efficient such algorithm
+1977 Steve Jobs and Steve Wozniak release the Apple II
+1977 William Kahan puts forward a draft proposal for the IEEE floating-point standard
+1977 In Israel, Abraham Lempel and Jacob Ziv propose the data compression algorithm that (after improvements by Terry Welch and others) becomes the basis for PKZIP and most other general-purpose compression software
+1978 Intel releases the 8086, the first in the line of x86 processors
+1978 Donald Knuth begins developing the TeX computer typesetting system, which will eventually become the lingua franca of science
+1979 Dan Bricklin and Bob Frankston release VisiCalc, the first personal spreadsheet program and “killer app” for the Apple II
+1980 Duke University graduate students Tom Truscott and Jim Ellis create Usenet
+1981 Nintendo achieves its first video game success with Donkey Kong, designed by Shigeru Miyamoto
+1981 The IBM PC is released, running Microsoft’s MS-DOS
+1981 Richard Feynman points out the exponential difficulty of simulating quantum physics with a conventional computer, and speculates that a quantum-mechanical computer would do better; a few years later; David Deutsch will publish his construction of a universal quantum Turing machine
+1982 Work on pseudorandom generators by Manuel Blum, Silvio Micali, Shafi Goldwasser, and Andy Yao begins the modern era of complexity-based cryptography, which will lead over the next decade to notions such as zero-knowledge, interactive proofs, and probabilistically checkable proofs
+1982 Sony and Philips commercially release the compact disc
+1982 Michael Fischer, Nancy Lynch, and Michael Paterson prove that it’s impossible to reach consensus in an asynchronous distributed system if there’s even a single faulty processor
+1983 Bjarne Stroustrup at Bell Labs develops C++, which is to become the dominant object-oriented programming language
+1984 With its iconic Super Bowl commercial, Apple announces the Macintosh, the first consumer machine with a mouse/windows interface
+1984 Robert Axelrod publishes “The Evolution of Cooperation,” a classic book that uses computer experiments with the Iterated Prisoners’ Dilemma to shed light on human nature
+1984 Leslie Valiant at Harvard proposes PAC (Probably Approximately Correct) learning, which becomes the central mathematical framework for machine learning, and helps to explain why Occam’s Razor “works”
+1985 Microsoft releases Windows
+1985 Richard Stallman publishes his GNU Manifesto, setting out the principles of the free-software movement
+1986 Thinking Machines begins shipping the CM-1 Connection Machine, considered the first massively-parallel supercomputer
+1988 While a graduate student at Cornell, Robert Morris creates a computer worm that cripples the Internet (though that wasn’t Morris’s intention)
+1989 Mike Godwin formulates Godwin’s Law: “As an online discussion grows longer, the probability of a comparison involving Nazis or Hitler approaches 1”
+1990 At CERN in Geneva, Switzerland, Tim Berners-Lee creates the World Wide Web
+1990 The IP=PSPACE Theorem, proved by Carsten Lund, Lance Fortnow, Howard Karloff, Noam Nisan, and Adi Shamir, shows the unexpected power of interactive protocols and opens a new era in the theory of computing
+1990 The discovery of boosting—a technique for combining the predictions of different learning algorithms—by Michael Kearns, Rob Schapire, and Yoav Freund, starts a revolution in the theory and practice of machine learning
+1990 Microsoft releases its first Office application suite, consisting of Word, Excel, and PowerPoint
+1991 At Los Alamos National Laboratory, Paul Ginsparg founds the arXiv, ushering in the era of rapid online dissemination of scientific research
+1991 The Linux kernel is designed by Finnish student Linus Torvalds
+1991 Phil Zimmermann releases Pretty Good Privacy (PGP), which makes “military-grade” public-key encryption easily available. After the Customs Service opens a criminal investigation, Zimmermann becomes an Internet folk hero
+1993 A team headed by Marc Andreessen at the University of Illinois Urbana-Champaign releases NCSA Mosaic, the browser credited with popularizing the Web
+1993 Joel Furr first uses the word “spam” to mean “excessive multiple postings” (in that case, to Usenet newsgroups)
+1993 With 24 satellites in orbit, the Global Positioning System achieves “initial operational capability.”  Originally designed by the US Department of Defense for military applications, GPS quickly finds numerous civilian uses including computerized car navigation
+1994 Peter Shor proves that a quantum computer, if built, would be able to factor numbers efficiently, launching quantum computing as an active research field
+1994 Thomas Nicely discovers the Pentium FDIV bug; the ensuing controversy and costly recall by Intel underscore the need for hardware verification
+1995 Pixar releases Toy Story, the first feature film made entirely with computer-generated imagery
+1995 Lee Zehrer launches Match.com, the first major online dating service
+1995 Amazon.com is launched by Jeff Bezos and sells its first book
+1995 The Institute for Genomic Research uses whole-genome shotgun sequencing—a technique dependent on massive computer power—to sequence the genome of the first free-living organism, the bacterium Haemophilus influenzae
+1996 Stanford graduate students Larry Page and Sergey Brin begin developing Google
+1997 IBM’s Deep Blue computer defeats human world champion Garry Kasparov
+1997 Rob “Commander Taco” Malda founds Slashdot, which hosts freewheeling web-based conversations of the sort that would later be commonplace on blogs
+1997 NASA’s Sojourner robotic rover moves semi-autonomously across the surface of Mars for 83 days, sending spectacular images back to Earth
+1999 Widespread fear of the “Y2K millennium bug” underscores society’s dependence on legacy computer systems. Later, many will argue the fears were overblown
+2000 The first major denial-of-service (DoS) attack is launched against CNN, Yahoo, and eBay
+2000 Putting an unexpected practical twist on Alan Turing’s ideas from 1950, Manuel Blum, Luis von Ahn, and John Langford at Carnegie Mellon articulate the notion of CAPTCHAs (Completely Automated Public Turing tests to tell Computers and Humans Apart), the challenges—usually involving reading distorted text—that are used by numerous websites to discourage spam-bots
+2001 Larry Sanger and Jimmy Wales launch Wikipedia
+2001 Bram Cohen develops BitTorrent, the controversial peer-to-peer file sharing protocol now estimated to account for 27-55% of all Internet traffic
+2001 In the wake of the 9/11 attacks, news websites continue running smoothly in part because of routing algorithms designed by Akamai Technologies. Meanwhile, former MIT student Danny Lewin, who cofounded Akamai with Professor Tom Leighton, is on American Airlines flight 11 when it crashes into the World Trade Center
+2002 At IIT Kanpur, Manindra Agrawal and his students Neeraj Kayal and Nitin Saxena announce a deterministic polynomial-time algorithm for primality testing
+2004 Harvard sophomore Mark Zuckerberg launches Thefacebook.com
+2005 YouTube is launched, beginning an era of online video-sharing
+2007 Apple releases the iPhone
+2010 Some of Iran’s centrifuges for uranium enrichment are destroyed by the Stuxnet worm, in the first known large-scale cyberattack to target physical infrastructure
+2011 Making essential use of Facebook and Twitter as organizing tools, protesters in Egypt force the resignation of President Hosni Mubarak after 30 years of rule
+2011 IBM’s Watson computer defeats all-time human champions Ken Jennings and Brad Rutter on Jeopardy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================================
+

@@ -1,0 +1,135 @@
+TITLE: The American science funding catastrophe
+URL: https://scottaaronson.blog/?m=202501
+CONTENT:
+It’s been almost impossible to get reliable information this week, but here’s what my sources are telling me:
+
+There is still a complete freeze on money being disbursed from the US National Science Foundation.  Well, there’s total chaos in the federal government much more broadly, a lot of it more immediately consequential than the science freeze, but I’ll stick for now to my little corner of the universe.
+
+The funding freeze has continued today, despite the fact that Trump supposedly rescinded it yesterday after a mass backlash.  Basically, program directors remain in a state of confusion, paralysis, and fear.  Where laws passed by Congress order them to do one thing, but the new Executive Orders seem to order the opposite, they’re simply doing nothing, waiting for clarification, and hoping to preserve their jobs.
+
+Hopefully the funding will restart in a matter of days, after NSF and other agencies go through and cancel any expense that can be construed as DEI-related.  Hopefully this will be like the short-lived Muslim travel ban of 2017: a “shock-and-awe” authoritarian diktat that thrills the base but quickly melts on contact with the reality of how our civilization works.
+
+The alternative is painful to contemplate.  If the current freeze drags on for months, tens of thousands of grad students and postdocs will no longer get stipends, and will be forced to quit.  Basic science in the US will essentially grind to a halt—and even if it eventually restarts, an entire cohort of young physicists, mathematicians, and biologists will have been lost, while China and other countries race ahead in those fields.
+
+Also, even if the funding does restart, the NSF and other federal agencies are now under an indefinite hiring freeze.  If not quickly lifted, this will shrink these agencies and cripple their ability to carry out their missions.
+
+If you voted for Trump, because you wanted to take a hammer to the woke deep state or whatever, then please understand: you may or may not have realized you were voting for this, exactly, but this is what you’ve gotten.  In place of professionals who you dislike and who are sometimes systematically wrong, the American spaceship is now being piloted by drunken baboons, mashing the controls to see what happens.  I hope you like the result.
+
+Meanwhile, to anyone inside or outside the NSF who has more information about this rapidly-evolving crisis: I strongly encourage you to share whatever you know in the comments section.  Or get in touch with me by email.  I’ll of course respect all wishes for anonymity, and I won’t share anything without permission.  But you now have a chance—some might even say an enviable chance—to put your loyalty to science and your country above your fear of a bully.
+
+Update: By request, you can also contact me at ScottAaronson.49 on the encrypted messaging app Signal.
+
+Another update: Maybe I should’ve expected this, but people are now sending me Signal messages to ask quantum mechanics questions or share their views on random topics!  Should’ve added: I’m specifically interested in on-the-ground intel, from anyone who has it, about the current freeze in American science funding.
+
+Yet another update: Terry Tao discusses the NSF funding crisis in terms of mean field theory.
+
+================================================================================
+
+TITLE: Good news for once!  A faster Quantum Fourier Transform
+URL: https://scottaaronson.blog/?m=202501
+CONTENT:
+Update: In the comments, Craig Gidney points out that Ronit’s O(n log2 n) quantum circuits for the exact QFT were already published by Cleve and Watrous in 2000 (in a paper whose main point was something else, parallelization).  Ronit’s O(n (log log n)2) circuits for the approximate QFT still appear to be new (Gidney says he and others knew related techniques but had never explicitly combined them).  Of course, while the exact result was Platonically “known,” it wasn’t sufficiently well known that any of the four quantum algorithms experts I’d consulted had heard of it!  Hopefully this very post will go some way toward fixing the situation.
+
+Another Update: Richard Cleve writes in to say that the approximate QFT circuits were known also—albeit, in an unpublished 2-page abstract by Ahokas, Hales, and himself from the 2003 ERATO conference, as well as a followup Master’s thesis by Ahokas.  Unlike with the exact case, I’m not kicking myself trying to understand how I missed these.
+
+Ironically, I hope this post helps get this prior work a well-deserved mention when the QFT is covered in introductory quantum information classes.
+
+Meanwhile, my hope that Ronit returns to do more theory is undiminished! When I was a kid, I too started by rediscovering things (like the integral for the length of a curve) that were centuries old, then rediscovering things (like an efficient algorithm for isotonic regression) that were decades old, then rediscovering things (like BQP⊆PP) that were about a year old … until I finally started discovering things (like the collision lower bound) that were zero years old. This is the way.
+
+In my last post, I tried to nudge the arc of history back onto the narrow path of reasoned dialogue, walking the mile-high tightrope between shrill, unsupported accusation and naïve moral blindness. For my trouble, I was condemned about equally by leftists for my right-wing sympathies and by rightists for my left-wing ones. So today, I’ll ignore the fate of civilization and return to quantum computing theory: a subject that’s reliably brought joy to my life for a quarter-century, and still does, even as my abilities fade.  It turns out there is a consolation for advancing age and senility, and it’s called “students.”
+
+This fall, I returned from my two-year leave at OpenAI to teach my undergrad Introduction to Quantum Information Science course at UT Austin.  This course doesn’t pretend to bring students all the way to the research frontier, and yet sometimes it’s done so anyway.  It was in my first offering of Intro to QIS, eight years ago, that I encountered the then 17-year-old Ewin Tang, who broke the curve and then wanted an independent study project.  So I gave her the problem of proving that the Kerenidis-Prakash quantum algorithm achieves an exponential speedup over any classical algorithm for the same task, not expecting anything to come of it.  But after a year of work, Ewin refuted my conjecture by dequantizing the K-P algorithm—a breakthrough that led to the demolition of many other hopes for quantum machine learning.  (Demolishing people’s hopes?  In complexity theory, we call that a proud day’s work.)
+
+Today I’m delighted to announce that my undergrad quantum course has led to another quantum advance.  One day, after my lecture, a junior named Ronit Shah came to me with an idea for how best to distinguish three possible states of a qubit, rather than only two.  For some reason I didn’t think much of it at the time, even though it would later turn out that Ronit had essentially rediscovered the concept of POVMs, the Pretty Good Measurement (PGM), and the 2002 theorem that the PGM is optimal for distinguishing sets of states subject to a transitive group action.
+
+Later, after I’d lectured about Shor’s algorithm, and one of its centerpieces, the O(n2)-gate recursive circuit for the Quantum Fourier Transform, Ronit struck a second time. He told me it should be possible to give a smaller circuit by recursively reducing the n-qubit QFT to two (n/2)-qubit QFTs, rather than to a single (n-1)-qubit QFT.
+
+This was surely just a trivial confusion, perfectly excusable in an undergrad. Did Ronit perhaps not realize that an n-qubit unitary is actually a 2n×2n matrix, so he was proposing to pass directly from 2n×2n to 2n/2×2n/2, rather than to 2n-1×2n-1?
+
+No, he said, he understood that perfectly well. He still thought the plan would work. Then he emailed me a writeup—claiming to implement the exact n-qubit QFT in O(n log2n) gates, the first-ever improvement over O(n2), and also the approximate n-qubit QFT in O(n (log log n)2) gates, the first-ever improvement over O(n log n).  He used fast integer multiplication algorithms to make the new recursions work.
+
+At that point, I did something I’m still ashamed of: I sat on Ronit’s writeup for three weeks.  When I at last dug it out of my inbox and read it, I could discover no reason why it was wrong, or unoriginal, or unimportant.  But I didn’t trust myself, so with Ronit’s permission I sent the work to some of my oldest quantum friends: Ronald de Wolf, Cris Moore, Andrew Childs, and Wim van Dam.  They agreed, after some back-and-forth, that the new circuits looked legit.  A keystone of Shor’s algorithm, of quantum computing itself, and of my undergrad class had seen its first real improvement since 1994.
+
+Last night Ronit’s paper appeared on the arXiv where you can read it.
+
+In case anyone asks: no, this probably has no practical implication for speeding up factoring on a quantum computer, since the QFT wasn’t the expensive part of Shor’s algorithm anyway—that’s the modular exponentiation—and also, the O(n log n) approximate QFT would already have been used in practice.  But it’s conceivable that Ronit’s circuits could speed up other practical quantum computing tasks!  And no, we have no idea what’s the ultimate limit here, as usual in circuit complexity.  Could the exact n-qubit QFT even be doable in O(n) gates?
+
+I’d love for Ronit to continue in quantum computing theory.  But in what’s surely a sign of the times, he’s just gone on leave from UT to intern at an AI hardware startup.  I hope he returns and does some more theory, but if he doesn’t, I’m grateful that he shared this little gem with us on his way to more world-changing endeavors.
+
+================================================================================
+
+TITLE: Open letter to any Shtetl-Optimized readers who know Elon
+URL: https://scottaaronson.blog/?m=202501
+CONTENT:
+Did Elon Musk make a Nazi salute?  Well, not exactly.  As far as I can tell, the truth is that he recklessly and repeatedly made a hand gesture that the world’s millions of Nazi sympathizers eagerly misinterpreted as a Nazi salute.  He then (the worse part) declined to clarify or apologize in any way, opting instead for laugh emojis.
+
+I hasten to add: just like with Trump’s Charlottesville dogwhistles, I find it ludicrous to imagine that Elon has any secret desire to reopen the gas chambers or whatever—and not only because of Elon’s many pro-Zionist and philosemitic actions, statements, and connections.  That isn’t the issue, so don’t pretend I think it is.
+
+Crucially, though, “not being a literal Nazi” isn’t fully exculpatory. I don’t want the overlords of the planet treating these matters as jokes. I want them to feel the crushing weight of history, exactly like I would feel it in their shoes.
+
+Regardless of my distaste for everything that happened to reach this point, Elon is now in a unique position to nudge Trump in the direction of liberality and enlightenment on various issues.   And while I doubt Elon finds time to read Shtetl-Optimized between his CEOing, DOGEing, tweeting, and video game speedruns, I know for certain that there are multiple readers of this blog to whom Elon has listened in the past—and those people are now in a unique position too!
+
+A public “clarification” from Elon—not an apology,  not an admission of guilt, but just an acknowledgment that he knows why sleeping dragons like Nazism shouldn’t be poked for shits and giggles, that he’ll try to be careful in the future—would be a non-negligible positive update for me about the future of the world.
+
+I understand exactly why he doesn’t want to do it: because he doesn’t want to grant any legitimacy to what he sees as the biased narrative of a legacy media that despises him.  But granting some legitimacy to that narrative is precisely what I, a classically liberal Jewish scientist who bears the battle scars of attempted woke cancellation, am asking him to do.  I’m asking him to acknowledge that he’s now by any measure one of the most powerful people on the planet, that with great power comes great responsibility, and that fascism is a well-known failure mode for powerful rightists, just like Communism is a well-known failure mode for leftists.  I’m asking for reassurance that he takes that failure mode seriously, just like he correctly takes human extinction and catastrophic AI risk seriously.
+
+Anyway, I figured it was worth a try, given how much I really believe might hinge on how Elon chooses to handle this.  I don’t want to be kicking myself, for the rest of my life, that I had a chance to intervene in the critical moment and didn’t.
+
+================================================================================
+
+TITLE: The mini-singularity
+URL: https://scottaaronson.blog/?m=202501
+CONTENT:
+Err, happy MLK Day!
+
+This week represents the convergence of so many plotlines that, if it were the season finale of some streaming show, I’d feel like the writers had too many balls in the air.  For the benefit of the tiny part of the world that cares what I think, I offer the following comments.
+
+My view of Trump is the same as it’s been for a decade—that he’s a con man, a criminal, and the most dangerous internal threat the US has ever faced in its history.  I think Congress and Merrick Garland deserve eternal shame for not moving aggressively to bar Trump from office and then prosecute him for insurrection—that this was a catastrophic failure of our system, one for which we’ll now suffer the consequences.  If this time Trump got 52% of some swing state rather than 48%, if the “zeitgeist” or the “vibes” have shifted, if the “Resistance” is so weary that it’s barely bothering to show up, if Bezos and Zuckerberg and Musk and even Sam Altman now find it expedient to placate the tyrant rather than standing up for what previously appeared to be their principles—well, I don’t see how any of that affects how I ought to feel.
+
+All the same, I have no plans to flee the United States or anything, just like I didn’t the last time.  I’ll even permit myself pleasure when the crazed strongman takes actions that I happen to agree with (like pushing the tottering Ayatollah regime toward its well-deserved end).  And then I’ll vote for Enlightenment values (or the nearest available approximation) in 2026 and 2028, assuming the country survives until then.
+
+The second plotline is the ceasefire in Gaza, and the beginning of the release of the Israeli hostages, in exchange for thousands of Palestinian prisoners.  I have all the mixed emotions you might expect.  I’m terrified about the precedent this reinforces and about the many mass-murderers it will free—as I was terrified in 2011 by the Gilad Shalit deal, the one that released Sinwar and thereby set the stage for October 7.  Certainly World War II didn’t end with the Nazis marching triumphantly around Berlin, guns in the air, and vowing to repeat their conquest of Europe at the earliest opportunity.  All the same, it’s not my place to be more Zionist than Netanyahu, or than the vast majority of the Israeli public that supported the deal.  I’m obviously thrilled to see the hostages return, and even slightly touched by the ethic that would move heaven and earth to save these specific people, almost every consideration of game theory and utilitarianism be damned.  I take solace that we’re not quite returning to the situation of October 6, since Hamas, Hezbollah, and Iran itself have all been severely degraded (and the Assad regime no longer exists).  This is no longer 1944, when you can slaughter 1200 Jews without paying any price for it: that was the original promise of the State of Israel.  All the same, I fear that bloodshed will continue from here until the Singularity, unless majorities on both sides choose coexistence—partition, the two-state solution, call it whatever you will.  And that’s primarily a question of culture, and the education of children.
+
+The third plotline was the end of TikTok, quickly followed by its (temporary?) return on Trump’s order.  As far as I can tell, Instagram, Twitter/X, and TikTok have all been net negatives for the world; it would’ve been far better if none of them had been invented.  But, OK, our society allows many things that are plausibly net-negative, like sports betting and Cheetos.  In this case, however, the US Supreme Court ruled 9-0 (!!) that Congress has a legitimate interest in keeping Chinese Communist Party spyware off 170 million Americans’ phones—and that there’s no First Amendment concern that overrides this security interest, since the TikTok ban isn’t targeting speech on the basis of its content.  I found the court’s argument convincing.  I hope TikTok goes dark 90 days from now—or, second-best, that it gets sold to some entity that’s merely bad in the normal ways and not a hostile foreign power.
+
+The fourth plotline is the still-ongoing devastation of much of Los Angeles.  I heard from friends at Caltech and elsewhere who had to evacuate their homes—but at least they had homes to return to, as those in Altadena and the Palisades didn’t.  It’s a sign of the times that even a disaster of this magnitude now brings only partisan bickering: was the cause climate change, reshaping the entire planet in terrifying ways, just like all those experts have been warning for decades?  Or was it staggering lack of preparation from the California and LA governments?  My own answers to these questions are “yes” and “yes.”
+
+Maybe I’ll briefly highlight the role of the utilitarianism versus deontology debate.  According to this article from back in October, widely shared once the fires started, the US Forest Service halted controlled burns in California because it lacked the manpower, but also this:
+
+“I think the Forest Service is worried about the risk of something bad happening [with a prescribed burn]. And they’re willing to trade that risk — which they will be blamed for — for increased risks on wildfires,” Wara said. In the event of a wildfire, “if something bad happens, they’re much less likely to be blamed because they can point the finger at Mother Nature.”
+
+We saw something similar with the refusal to allow challenge trials for the COVID vaccines, which could’ve moved the approval date up by months and saved millions of lives.  Humans are really bad at trolley problems, at weighing a concrete, immediate risk against a diffuse future risk that might be orders of magnitude worse.  (Come to think of it, Israel’s repeated hostage deals are another example—though that one has the defense that it demonstrates the lengths to which the state will go to protect its people.)
+
+Oh, and on top of all the other plotlines, today—January 20th—is my daughter’s 12th birthday.  Happy birthday Lily!!
+
+================================================================================
+
+TITLE: Above my pay grade: Jensen Huang and the quantum computing stock market crash
+URL: https://scottaaronson.blog/?m=202501
+CONTENT:
+Update (Jan. 13): Readers might enjoy the Bankless Podcast, in which I and Justin Drake of the Ethereum engineering team discuss quantum computing and its impact on cryptocurrency. I learned something interesting from Justin—namely that Satoshi has about $90 billion worth of bitcoin that’s never been touched since the cryptocurrency’s earliest days, much of which (added: the early stuff, the stuff not additionally protected by a hash function) would be stealable by anyone who could break elliptic curve cryptography—for example, by using a scalable quantum computer. At what point in time, if any, would this stash acquire the moral or even legal status of (say) gold doubloons just lying on the bottom of the ocean? Arrr, ’tis avast Hilbert space!
+
+Apparently Jensen Huang, the CEO of NVIDIA, opined on an analyst call this week that quantum computing was plausibly still twenty years away from being practical. As a direct result, a bunch of publicly-traded quantum computing companies (including IonQ, Rigetti, and D-Wave) fell 40% or more in value, and even Google/Alphabet stock fell on the news.
+
+So then friends and family attuned to the financial markets started sending me messages asking for my reaction, as the world’s semi-unwilling Quantum Computing Opiner-in-Chief.
+
+My reaction?  Mostly just that it felt really weird for all those billions of dollars to change hands, or evaporate, based on what a microchip CEO offhandedly opined about my tiny little field, while I (like much of that field) could’ve remained entirely oblivious to it, were it not for all of their messages!
+
+But was Jensen Huang right in his time estimate?  And, relatedly, what is the “correct” valuation of quantum computing companies?  Alas, however much more I know about quantum computing than Jensen Huang does, the knowledge does not enable me to answer to either question.
+
+I can, of course, pontificate about the questions, as I can pontificate about anything.
+
+To start with the question of timelines: yes, there’s a lot still to be done, and twenty years might well be correct.  But as I’ve pointed out before, within the past year we’ve seen 2-qubit gates with ~99.9% fidelity, which is very near the threshold for practical fault-tolerance.  And of course, Google has now demonstrated fault-tolerance that becomes more and more of a win with increasing code size.  So no, I can’t confidently rule out commercially useful quantum simulations within the next decade.  Like, it sounds fanciful, but then I remember how fanciful it would’ve seemed in 2012 that we’d have conversational AI by 2022.  I was alive in 2012!  And speaking of which, if you really believe (as many people now do) AI will match or exceed human capabilities in most fields in the next decade, then that will scramble all the other timelines too.  And presumably Jensen Huang understands these points as well as anyone.
+
+Now for the valuation question.  On the one hand, Shtetl-Optimized readers will know that there’s been plenty of obfuscation and even outright lying, to journalists, the public, and investors, about what quantum computing will be good for and how soon. To whatever extent the previous valuations were based on that lying, a brutal correction was of course in order, regardless of what triggered it.
+
+On the other hand, I can’t say with certainty that high valuations are wrong! After all, even if there’s only a 10% chance that something will produce $100B in value, that would still justify a $10B valuation. It’s a completely different way of thinking than what we’re used to in academia.
+
+For whatever it’s worth, my own family’s money is just sitting in index funds and CDs.  I have no quantum computing investments of any kind.  I do sometimes accept consulting fees to talk to quantum computing startups and report back my thoughts.  When I do, my highest recommendation is: “these people are smart and honest, everything they say about quantum algorithms is correct insofar as I can judge, and I hope they succeed.  I wouldn’t invest my own money, but I’m very happy if you or anyone else does.”  Meanwhile, my lowest recommendation is: “these people are hypesters and charlatans, and I hope they fail.  But even then, I can’t say with confidence that their valuation won’t temporarily skyrocket, in which case investing in them would presumably have been the right call.”
+
+So basically: it’s good that I became an academic rather than an investor.
+
+Having returned from family vacation, I hope to get back to a more regular blogging schedule … let’s see how it goes!
+
+================================================================================
+

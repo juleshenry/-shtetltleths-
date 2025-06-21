@@ -1,0 +1,169 @@
+TITLE: The easiest exercise in the moral philosophy book
+URL: https://scottaaronson.blog/?m=202104
+CONTENT:
+Peter Singer, in the parable that came to represent his whole worldview and that of the effective altruism movement more generally, asked us to imagine that we could save a drowning child at the cost of jumping into a lake and ruining an expensive new suit.  Assuming we’d do that, he argued that we do in fact face an ethically equivalent choice; if we don’t donate most of our income to save children in the Third World, then we need to answer for why, as surely as the person who walked past the kid thrashing in the water.
+
+In this post, I don’t want to take a position on Singer’s difficult but important hypothetical.  I merely want to say: suppose that to save the child, you didn’t even have to jump in the water.  Suppose you just had to toss a life preserver, one you weren’t using.  Or suppose you just had to assure the child that it was OK to grab your life raft that was already in the water.
+
+That, it seems, is the situation that the US and other rich countries will increasingly face with covid vaccines.  What’s happening in India right now looks on track to become a humanitarian tragedy, if it isn’t already.  Even if, as Indian friends tell me, this was a staggering failure of the Modi government, people shouldn’t pay for it with their lives.  And we in the US now have tens of millions of vaccine doses sitting in warehouses unused, for regulatory and vaccine hesitancy reasons—stupidly, but we do.  We’re past the time, in my opinion, when it’s morally obligatory either to use the doses or to give them away.  Anyone in a position to manufacture more vaccines for distribution to poor countries, should also immediately get the intellectual property rights to do so.
+
+I was glad to read, just this weekend, that the US is finally starting to move in the right direction.  I hope it moves faster.
+
+And I’m sorry that this brief post doesn’t contain any information or insight that you can’t find elsewhere.  It just made me feel better to write it, is all.
+
+================================================================================
+
+TITLE: Doubts about teapot supremacy: my reply to Richard Borcherds
+URL: https://scottaaronson.blog/?m=202104
+CONTENT:
+Richard Borcherds is a British mathematician at Berkeley, who won the 1998 Fields Medal for the proof of the monstrous moonshine conjecture among many other contributions.  A couple months ago, Borcherds posted on YouTube a self-described “rant” about quantum computing, which was recently making the rounds on Facebook and which I found highly entertaining.
+
+Borcherds points out that the term “quantum supremacy” means only that quantum computers can outperform existing classical computers on some benchmark, which can be chosen to show maximum advantage for the quantum computer.  He allows that BosonSampling could have some value, for example in calibrating quantum computers or in comparing one quantum computer to another, but he decries the popular conflation of quantum supremacy with the actual construction of a scalable quantum computer able (for example) to run Shor’s algorithm to break RSA.
+
+Borcherds also proposes a “teapot test,” according to which any claim about quantum computers can be dismissed if an analogous claim would hold for a teapot (which he brandishes for the camera).  For example, there are many claims to solve practical optimization and machine learning problems by “quantum/classical hybrid algorithms,” wherein a classical computer does most of the work but a quantum computer is somehow involved.  Borcherds points out that, at least as things stand in early 2021, in most or all such cases, the classical computer could’ve probably done as well entirely on its own.  So then if you put a teapot on top of your classical computer while it ran, you could equally say you used a “classical/teapot hybrid approach.”
+
+Needless to say, Borcherds is correct about all of this.  I’ve made similar points on this blog for 15 years, although less Britishly.  I’m delighted to have such serious new firepower on the scoffing-at-QC-hype team.
+
+I do, however, have one substantive disagreement.  At one point, Borcherds argues that sampling-based quantum supremacy itself fails his teapot test.  For consider the computational problem of predicting how many pieces a teapot will break into if it’s dropped on the ground.  Clearly, he says, the teapot itself will outperform any simulation running on any existing classical computer at that task, and will therefore achieve “teapot supremacy.”  But who cares??
+
+I’m glad that Borcherds has set out, rather crisply, an objection that’s been put to me many times over the past decade.  The response is simple: I don’t believe the teapot really does achieve teapot supremacy on the stated task!  At the least, I’d need to be shown why.  You can’t just assert it without serious argument.
+
+If we want to mirror the existing quantum supremacy experiments, then the teapot computational problem, properly formulated, should be: given as input a description of a teapot’s construction, the height from which it’s dropped, etc., output a sample from the probability distribution over the number of shards that the teapot will break into when it hits the floor.
+
+If so, though, then clearly a classical computer can easily sample from the same distribution!  Why?  Because presumably we agree that there’s a negligible probability of more than (say) 1000 shards.  So the distribution is characterized by a list of at most 1000 probabilities, which can be estimated empirically (at the cost of a small warehouse of smashed teapots) and thereafter used to generate samples.  In the plausible event that the distribution is (say) a Gaussian, it’s even easier: just estimate the mean and variance.
+
+A couple days ago, I was curious what the distribution looked like, so I decided to order some teapots from Amazon and check.  Unfortunately, real porcelain teapots are expensive, and it seemed vaguely horrific to order dozens (as would be needed to get reasonable data) for the sole purpose of smashing them on my driveway.  So I hit on what seemed like a perfect solution: I ordered toy teapots, which were much smaller and cheaper.  Alas, when my toy “porcelain” teapots arrived yesterday, they turned out (unsurprisingly in retrospect for a children’s toy) to be some sort of plastic or composite material, meaning that they didn’t break unless one propelled them downward forcefully.  So, while I can report that they tended to break into one or two large pieces along with two or three smaller shards, I found it impossible to get better data.  (There’s a reason why I became a theoretical computer scientist…)
+
+The good news is that my 4-year-old son had an absolute blast smashing toy teapots with me on our driveway, while my 8-year-old daughter was thrilled to take the remaining, unbroken teapots for her dollhouse.  I apologize if this fails to defy gender stereotypes.
+
+Anyway, it might be retorted that it’s not good enough to sample from a probability distribution: what’s wanted, rather, is to calculate how many pieces this specific teapot will break into, given all the microscopic details of it and its environment.  Aha, this brings us to a crucial conceptual point: in order for something to count as an “input” to a computer, you need to be able to set it freely.  Certainly, at the least, you need to be able to measure and record the input in its entirety, so that someone trying to reproduce your computation on a standard silicon computer would know exactly which computation to do.  You don’t get to claim computational supremacy based on a problem with secret inputs: that’s like failing someone on a math test without having fully told them the problems.
+
+Ability to set and know the inputs is the key property that’s satisfied by Google’s quantum supremacy experiment, and to a lesser extent by the USTC BosonSampling experiment, but that’s not satisfied at all by the “smash a teapot on the floor” experiment.  Or perhaps it’s better to say: influences on a computation that vary uncontrollably and chaotically, like gusts of air hitting the teapot as it falls to the floor, shouldn’t be called “inputs” at all; they’re simply noise sources.  And what one does with noise sources is to try to estimate their distribution and average over them—but in that case, as I said, there’s no teapot supremacy.
+
+A Facebook friend said to me: that’s well and good, but surely we could change Borcherds’s teapot experiment to address this worry?  For example: add a computer-controlled lathe (or even a 3D printer), with which you can build a teapot in an arbitrary shape of your choice.  Then consider the problem of sampling from the probability distribution over how many pieces that teapot will smash into, when it’s dropped from some standard height onto some standard surface.  I replied that this is indeed more interesting—in fact, it already seems more like what engineers do in practice (still, sometimes!) when building wind tunnels, than like a silly reductio ad absurdum of quantum supremacy experiments.  On the other hand, if you believe the Extended Church-Turing Thesis, then as long as your analog computer is governed by classical physics, it’s presumably inherently limited to an Avogadro’s number type speedup over a standard digital computer, whereas with a quantum computer, you’re limited only by the exponential dimensionality of Hilbert space, which seems more interesting.
+
+Or maybe I’m wrong—in which case, I look forward to the first practical demonstration of teapot supremacy!  Just like with quantum supremacy, though, it’s not enough to assert it; you need to … put the tea where your mouth is.
+
+Update: On the suggestion of Ernest Davis, who I can now reveal as the Facebook friend mentioned above, I just ordered some terra cotta flower pots, which look cheap, easily smashable, and environmentally friendly, and which will hopefully be acceptable substitutes for porcelain teapots in a new experiment.  (Not that my main arguments in this post hinge on the results of such an experiment!  That’s the power of theory.)
+
+Another Update: Some of you might enjoy John Horgan’s Scientific American column on reality vs. hype in quantum computing, based on conversations with me and with Terry Rudolph of PsiQuantum.
+
+================================================================================
+
+TITLE: The ACM Prize thing
+URL: https://scottaaronson.blog/?m=202104
+CONTENT:
+Last week I got an email from Dina Katabi, my former MIT colleague, asking me to call her urgently.  Am I in trouble?  For what, though??  I haven’t even worked at MIT for five years!
+
+Luckily, Dina only wanted to tell me that I’d been selected to receive the 2020 ACM Prize in Computing, a mid-career award founded in 2007 that comes with $250,000 from Infosys.  Not the Turing Award but I’d happily take it!  And I could even look back on 2020 fondly for something.
+
+I was utterly humbled to see the list of past ACM Prize recipients, which includes amazing computer scientists I’ve been privileged to know and learn from (like Jon Kleinberg, Sanjeev Arora, and Dan Boneh) and others who I’ve admired from afar (like Daphne Koller, Jeff Dean and Sanjay Ghemawat of Google MapReduce, and David Silver of AlphaGo and AlphaZero).
+
+I was even more humbled, later, to read my prize citation, which focuses on four things:
+
+I don’t know if I’m worthy of such a prize—but I know that if I am, then it’s mainly for work I did between roughly 2001 and 2012.  This honor inspires me to want to be more like I was back then, when I was driven, non-jaded, and obsessed with figuring out the contours of BQP and efficient computation in the physical universe.  It makes me want to justify the ACM’s faith in me.
+
+I’m grateful to the committee and nominators, and more broadly, to the whole quantum computing and theoretical computer science communities—which I “joined” in some sense around age 16, and which were the first communities where I ever felt like I belonged.  I’m grateful to the mentors who made me what I am, especially Chris Lynch, Bart Selman, Lov Grover, Umesh Vazirani, Avi Wigderson, and (if he’ll allow me to include him) John Preskill.  I’m grateful to the slightly older quantum computer scientists who I looked up to and tried to emulate, like Dorit Aharonov, Andris Ambainis, Ronald de Wolf, and John Watrous.  I’m grateful to my wonderful colleagues at UT Austin, in the CS department and beyond.  I’m grateful to my students and postdocs, the pride of my professional life.  I’m grateful, of course, to my wife, parents, and kids.
+
+By coincidence, my last post was also about prizes to theoretical computer scientists—in that case, two prizes that attracted controversy because of the recipient’s (or would-be recipient’s) political actions or views.  It would understate matters to point out that not everyone has always agreed with everything I’ve said on this blog.  I’m ridiculously lucky, and I know it, that even living through this polarized and tumultuous era, I never felt forced to choose between academic success and the freedom to speak my conscience in public under my real name.  If there’s been one constant in my public stands, I’d like to think that—inspired by memories of my own years as an unknown, awkward, self-conscious teenager—it’s been my determination to nurture and protect talented young scientists, whatever they look like and wherever they come from.  And I’ve tried to live up to that ideal in real life, and I welcome anyone’s scrutiny as to how well I’ve done.
+
+What should I do with the prize money? I confess that my first instinct was to donate it, in its entirety, to some suitable charity—specifically, something that would make all the strangers who’ve attacked me on Twitter, Reddit, and so forth over the years realize that I’m fundamentally a good person.  But I was talked out of this plan by my family, who pointed out that(1) in all likelihood, nothing will make online strangers stop hating me,(2) in any case this seems like a poor basis for making decisions, and(3) if I really want to give others a say in what to do with the winnings, then why not everyone who’s stood by me and supported me?
+
+So, beloved commenters!  Please mention your favorite charitable causes below, especially weird ones that I wouldn’t have heard of otherwise.  If I support their values, I’ll make a small donation from my prize winnings.  Or a larger donation, especially if you donate yourself and challenge me to match.  Whatever’s left after I get tired of donating will probably go to my kids’ college fund.
+
+Update: And by an amusing coincidence, today is apparently “World Quantum Day”!  I hope your Quantum Day is as pleasant as mine (and stable and coherent).
+
+================================================================================
+
+TITLE: Just some prizes
+URL: https://scottaaronson.blog/?m=202104
+CONTENT:
+Oded Goldreich is a theoretical computer scientist at the Weizmann Institute in Rehovot, Israel.  He’s best known for helping to lay the rigorous foundations of cryptography in the 1980s, through seminal results like the Goldreich-Levin Theorem (every one-way function can be modified to have a hard-core predicate), the Goldreich-Goldwasser-Micali Theorem (every pseudorandom generator can be made into a pseudorandom function), and the Goldreich-Micali-Wigderson protocol for secure multi-party computation.  I first met Oded more than 20 years ago, when he lectured at a summer school at the Institute for Advanced Study in Princeton, barefoot and wearing a tank top and what looked like pajama pants.  It was a bracing introduction to complexity-theoretic cryptography.  Since then, I’ve interacted with Oded from time to time, partly around his firm belief that quantum computing is impossible.
+
+Last month a committee in Israel voted to award Goldreich the Israel Prize (roughly analogous to the US National Medal of Science), for which I’d say Goldreich had been a plausible candidate for decades.  But alas, Yoav Gallant, Netanyahu’s Education Minister, then rather non-gallantly blocked the award, solely because he objected to Goldreich’s far-left political views (and apparently because of various statements Goldreich signed, including in support of a boycott of Ariel University, which is in the West Bank).  The case went all the way to the Israeli Supreme Court (!), which ruled two days ago in Gallant’s favor: he gets to “delay” the award to investigate the matter further, and in the meantime has apparently sent out invitations for an award ceremony next week that doesn’t include Goldreich.  Some are now calling for the other winners to boycott the prize in solidarity until this is righted.
+
+I doubt readers of this blog need convincing that this is a travesty and an embarrassment, a shanda, for the Netanyahu government itself.  That I disagree with Goldreich’s far-left views (or might disagree, if I knew in any detail what they were) is totally immaterial to that judgment.  In my opinion, not even Goldreich’s belief in the impossibility of quantum computers should affect his eligibility for the prize. 🙂
+
+Maybe it would be better to say that, as far as his academic colleagues in Israel and beyond are concerned, Goldreich has won the Israel Prize; it’s only some irrelevant external agent who’s blocking his receipt of it.  Ironically, though, among Goldreich’s many heterodox beliefs is a total rejection of the value of scientific prizes (although Goldreich has also said he wouldn’t refuse the Israel Prize if offered it!).
+
+
+
+In unrelated news, the 2020 Turing Award has been given to Al Aho and Jeff Ullman.  Aho and Ullman have both been celebrated leaders in CS for half a century, having laid many of the foundations of formal languages and compilers, and having coauthored one of CS’s defining textbooks with John Hopcroft (who already received a different Turing Award).
+
+But again there’s a controversy.  Apparently, in 2011, Ullman wrote to an Iranian student who wanted to work with him, saying that as “a matter of principle,” he would not accept Iranian students until the Iranian government recognized Israel.  Maybe I should say that I, like Ullman, am both a Jew and a Zionist, but I find it hard to imagine the state of mind that would cause me to hold some hapless student responsible for the misdeeds of their birth-country’s government.  Ironically, this is a mirror-image of the tactics that the BDS movement has wielded against Israeli academics.  Unlike Goldreich, though, Ullman seems to have gone beyond merely expressing his beliefs, actually turning them into a one-man foreign policy.
+
+I’m proud of the Iranian students I’ve mentored and hope to mentor more.  While I don’t think this issue should affect Ullman’s Turing Award (and I haven’t seen anyone claim that it should), I do think it’s appropriate to use the occasion to express our opposition to all forms of discrimination.  I fully endorse Shafi Goldwasser’s response in her capacity as Director of the Simons Institute for Theory of Computing in Berkeley:
+
+As a senior member of the computer science community and an American-Israeli, I stand with our Iranian students and scholars and outright reject any notion by which admission, support, or promotion of individuals in academic settings should be impeded by national origin or politics. Individuals should not be conflated with the countries or institutions they come from. Statements and actions to the contrary have no place in our computer science community. Anyone experiencing such behavior will find a committed ally in me.
+
+As for Al Aho?  I knew him fifteen years ago, when he became interested in quantum computing, in part due to his then-student Krysta Svore (who’s now the head of Microsoft’s quantum computing efforts).  Al struck me as not only a famous scientist but a gentleman who radiated kindness everywhere.  I’m not aware of any controversies he’s been involved in and never heard anyone say a bad word about him.
+
+Anyway, this seems like a good occasion to recognize some foundational achievements in computer science, as well as the complex human beings who produce them!
+
+================================================================================
+
+TITLE: The Computational Expressiveness of a Model Train Set: A Paperlet
+URL: https://scottaaronson.blog/?m=202104
+CONTENT:
+Update (April 5, 2021): So it turns out that Adam Chalcraft and Michael Greene already proved the essential result of this post back in 1994 (hat tip to commenter Dylan).  Not terribly surprising in retrospect!
+
+
+
+My son Daniel had his fourth birthday a couple weeks ago.  For a present, he got an electric train set.  (For completeness—and since the details of the train set will be rather important to the post—it’s called “WESPREX Create a Dinosaur Track”, but this is not an ad and I’m not getting a kickback for it.)
+
+As you can see, the main feature of this set is a Y-shaped junction, which has a flap that can control which direction the train goes.  The logic is as follows:
+
+The train set also comes with bridges and tunnels; thus, there’s no restriction of planarity.  Finally, the train set comes with little gadgets that can reverse the train’s direction, sending it back in the direction that it came from:
+
+These gadgets don’t seem particularly important, though, since we could always replace them if we wanted by a Y-junction together with a loop.
+
+Notice that, at each Y-junction, the position of the flap stores one bit of internal state, and that the train can both “read” and “write” these bits as it moves around.  Thus, a question naturally arises: can this train set do any nontrivial computations?  If there are n Y-junctions, then can it cycle through exp(n) different states?  Could it even solve PSPACE-complete problems, if we let it run for exponential time?  (For a very different example of a model-train-like system that, as it turns out, is able to express PSPACE-complete problems, see this recent paper by Erik Demaine et al.)
+
+Whatever the answers regarding Daniel’s train set, I knew immediately on watching the thing go that I’d have to write a “paperlet” on the problem and publish it on my blog (no, I don’t inflict such things on journals!).  Today’s post constitutes my third “paperlet,” on the general theme of a discrete dynamical system that someone showed me in real life (e.g. in a children’s toy or in biology) having more structure and regularity than one might naïvely expect.  My first such paperlet, from 2014, was on a 1960s toy called the Digi-Comp II; my second, from 2016, was on DNA strings acted on by recombinase (OK, that one was associated with a paper in Science, but my combinatorial analysis wasn’t the main point of the paper).
+
+Anyway, after spending an enjoyable evening on the problem of Daniel’s train set, I was able to prove that, alas, the possible behaviors are quite limited (I classified them all), falling far short of computational universality.
+
+If you feel like I’m wasting your time with trivialities (or if you simply enjoy puzzles), then before you read any further, I encourage you to stop and try to prove this for yourself!
+
+Back yet?  OK then…
+
+
+
+Theorem: Assume a finite amount of train track.  Then after a linear amount of time, the train will necessarily enter a “boring infinite loop”—i.e., an attractor state in which at most two of the flaps keep getting toggled, and the rest of the flaps are fixed in place.  In more detail, the attractor must take one of four forms:
+
+I. a line (with reversing gadgets on both ends),II. a simple cycle,III. a “lollipop” (with one reversing gadget and one flap that keeps getting toggled), orIV. a “dumbbell” (with two flaps that keep getting toggled).
+
+In more detail still, there are seven possible topologically distinct trajectories for the train, as shown in the figure below.
+
+Here the red paths represent the attractors, where the train loops around and around for an unlimited amount of time, while the blue paths represent “runways” where the train spends a limited amount of time on its way into the attractor.  Every degree-3 vertex is assumed to have a Y-junction, while every degree-1 vertex is assumed to have a reversing gadget, unless (in IIb) the train starts at that vertex and never returns to it.
+
+The proof of the theorem rests on two simple observations.
+
+Observation 1: While the Y-junctions correspond to vertices of degree 3, there are no vertices of degree 4 or higher.  This means that, if the train ever revisits a vertex v (other than the start vertex) for a second time, then there must be some edge e incident to v that it also traverses for a second time immediately afterward.
+
+Observation 2: Suppose the train traverses some edge e, then goes around a simple cycle (meaning, one where no edges or vertices are reused), and then traverses e again, going in the same direction as the first time.  Then from that point forward, the train will just continue around the same simple cycle forever.
+
+The proof of Observation 2 is simply that, if there were any flap that might be in the train’s way as it continued around the simple cycle, then the train would already have pushed it out of the way its first time around the cycle, and nothing that happened thereafter could possibly change the flap’s position.
+
+Using the two observations above, let’s now prove the theorem.  Let the train start where it will, and follow it as it traces out a path.  Since the graph is finite, at some point some already-traversed edge must be traversed a second time.  Let e be the first such edge.  By Observation 1, this will also be the first time the train’s path intersects itself at all.  There are then three cases:
+
+Case 1: The train traverses e in the same direction as it did the first time.  By Observation 2, the train is now stuck in a simple cycle forever after.  So the only question is what the train could’ve done before entering the simple cycle.  We claim that at most, it could’ve traversed a simple path.  For otherwise, we’d contradict the assumption that e was the first edge that the train visited twice on its journey.  So the trajectory must have type IIa, IIb, or IIc in the figure.
+
+Case 2: Immediately after traversing e, the train hits a reversing gadget and traverses e again the other way.  In this case, the train will clearly retrace its entire path and then continue past its starting point; the question is what happens next.  If it hits another reversing gadget, then the trajectory will have type I in the figure.  If it enters a simple cycle and stays in it, then the trajectory will have type IIb in the figure.  If, finally, it makes a simple cycle and then exits the cycle, then the trajectory will have type III in the figure.  In this last case, the train’s trajectory will form a “lollipop” shape.  Note that there must be a Y-junction where the “stick” of the lollipop meets the “candy” (i.e., the simple cycle), with the base of the Y aligned with the stick (since otherwise the train would’ve continued around and around the candy).  From this, we deduce that every time the train goes around the candy, it does so in a different orientation (clockwise or counterclockwise) than the time before; and that the train toggles the Y-junction’s flap every time it exits the candy (although not when it enters the candy).
+
+Case 3: At some point after traversing e in the forward direction (but not immediately after), the train traverses e in the reverse direction.  In this case, the broad picture is analogous to Case 2.  So far, the train has made a lollipop with a Y-junction connecting the stick to the candy (i.e. cycle), the base of the Y aligned with the stick, and e at the very top of the stick.  The question is what happens next.  If the train next hits a reversing gadget, the trajectory will have type III in the figure.  If it enters a new simple cycle, disjoint from the first cycle, and never leaves it, the trajectory will have type IId in the figure.  If it enters a new simple cycle, disjoint from the first cycle, and does leave it, then the trajectory now has a “dumbbell” pattern, type IV in the figure (also shown in the first video).  There’s only one other situation to worry about: namely, that the train makes a new cycle that intersects the first cycle, forming a “theta” (θ) shaped trajectory.  In this case, there must be a Y-junction at the point where the new cycle bumps into the old cycle.  Now, if the base of the Y isn’t part of the old cycle, then the train never could’ve made it all the way around the old cycle in the first place (it would’ve exited the old cycle at this Y-junction), contradiction.  If the base of the Y is part of the old cycle, then the flap must have been initially set to let the train make it all the way around the old cycle; when the train then reenters the old cycle, the flap must be moved so that the train will never make it all the way around the old cycle again.  So now the train is stuck in a new simple cycle (sharing some edges with the old cycle), and the trajectory has type IIc in the figure.
+
+This completes the proof of the theorem.
+
+
+
+We might wonder: why isn’t this model train set capable of universal computation, of AND, OR, and NOT gates—or at any rate, of some computation more interesting than repeatedly toggling one or two flaps?  My answer might sound tautological: it’s simply that the logic of the Y-junctions is too limited.  Yes, the flaps can get pushed out of the way—that’s a “bit flip”—but every time such a flip happens, it helps to set up a “groove” in which the train just wants to continue around and around forever, not flipping any additional bits, with only the minor complications of the lollipop and dumbbell structures to deal with.  Even though my proof of the theorem might’ve seemed like a tedious case analysis, it had this as its unifying message.
+
+It’s interesting to think about what gadgets would need to be added to the train set to make it computationally universal, or at least expressively richer—able, as turned out to be the case for the Digi-Comp II, to express some nontrivial complexity class falling short of P.  So for example, what if we had degree-4 vertices, with little turnstile gadgets?  Or multiple trains, which could be synchronized to the millisecond to control how they interacted with each other via the flaps, or which could even crash into each other?  I look forward to reading your ideas in the comment section!
+
+For the truth is this: quantum complexity classes, BosonSampling, closed timelike curves, circuit complexity in black holes and AdS/CFT, etc. etc.—all these topics are great, but the same models and problems do get stale after a while.  I aspire for my research agenda to chug forward, full steam ahead, into new computational domains.
+
+PS. Happy Easter to those who celebrate!
+
+================================================================================
+

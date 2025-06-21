@@ -1,0 +1,191 @@
+TITLE: Sorry, Prof. Guth…
+URL: https://scottaaronson.blog/?m=200707
+CONTENT:
+…but it’s been discovered by empirical observation that the universe is not, as you famously claimed, the “ultimate free lunch.” Rather, the FQxi Conference on Foundational Questions in Physics and Cosmology in Reykjavik, Iceland is the ultimate free lunch.
+
+Speaking of which, above you can see the discoverer of cosmic inflation himself, together with theoretical physicist Lawrence Krauss on his left, chatting on a glacier only minutes after engaging in a snowball fight.
+
+And your humble blogger, who still can’t parallel park, hoping he’ll be able to steer a snowmobile without falling into any 1000-foot crevices.
+
+Here I am with Cosmic Variance‘s Mark Trodden (who blogged earlier about this conference, saving me a good deal of work).
+
+The dirt above is all area where the glacier previously was, but retreated over the last few decades.
+
+To all those who say global warming is a myth: lo, I have watched a glacier melting with mine own eyes.
+
+The geothermally-heated lagoon where part of the conference was held.
+
+And just in case debating unfalsifiable cosmic hypotheses in a lagoon isn’t tacky enough, a PBS crew (from a show called “Closer to Truth”) was there to film it.
+
+This is said to be the official divide between the North American and European tectonic plates.
+
+In North America this would be a major tourist attraction with hotels, casinos, cotton candy shops, etc. Here it’s just another waterfall.
+
+Curse me lucky charms, there’s no pot o’ gold!
+
+================================================================================
+
+TITLE: Deep thoughts in shallow lagoons
+URL: https://scottaaronson.blog/?m=200707
+CONTENT:
+I just got back from a conference in Reykjavik, Iceland (!), on “Foundational Questions in Physics and Cosmology.”  Photos and trip report coming soon.  For now, please content yourself with the following remarks, which I delivered to the assembled pontificators after a day of small-group conversation in a geothermally-heated lagoon.
+
+I’ve been entrusted to speak for our group, consisting of myself, Greg Chaitin, Max Tegmark, Paul Benioff, Caslav Brukner, and Graham Collins.
+
+Our group reached no firm conclusions about anything whatsoever.
+
+Part of the problem was that one of our members — Max Tegmark — was absent most of the time.  He was preoccupied with more important matters, like posing for the TV cameras.
+
+So, we tried to do the best we could in Max’s absence.  One question we talked about a lot was whether the laws of physics are continuous or discrete at a fundamental level.  Or to put it another way: since, as we learned from Max, we’re literally living in a mathematical object, does that object contain a copy of the reals?
+
+One of us — me — argued that this is actually an ill-posed question.  For it’s entirely consistent with current knowledge that our universe is discrete at the level of observables — including energy, length, volume, and so on — but continuous at the level of quantum amplitudes.  As an analogy, consider a classical coin that’s heads with probability p and tails with probability 1-p.  To describe p, you need a continuous parameter — and yet when you observe the coin, you get just a single bit of information.  Is this mysterious?  I have trouble seeing why it should be.
+
+We also talked a lot about the related question of how much information is “really” in a quantum state.  If we consider a single qubit — α|0〉 + β|1〉 — does it contain one bit of classical information, since that’s how many you get from measuring the qubit; two bits, because of the phenomenon of superdense coding; or infinitely many bits, since that’s how many it takes to specify the qubit?
+
+You can probably guess my answer to this question.  You may have heard of the “Shut Up and Calculate Interpretation of Quantum Mechanics,” which was popularized by Feynman.  I don’t actually adhere to that interpretation: I like to discuss things that neither I nor anyone else has any idea about, which is precisely why I came to this wonderful conference in Iceland.  I do, however, adhere to the closely-related “What Kind of Answer Were You Looking For?” Interpretation.
+
+So for example: if you ask me how much information is in a quantum state, I can show you that if you meant A then the answer is B, whereas if you meant C the answer is D, etc.  But suppose you then say “yes, but how much information is really there?”  Well, imagine a plumber who fixes your toilet, and explains to you that if the toilet gets clogged you do this; if you want to decrease its water usage you do that, etc.   And suppose you then ask: “Yes, but what is the true nature of toilet-ness?”  Wouldn’t the plumber be justified in responding: “Look, buddy, you’re paying me by the hour.  What is it you want me to do?”
+
+A more subtle question is the following: if we consider an entangled quantum state |ψ〉 of n qubits, does the amount of information in |ψ〉 grow exponentially with n, or does it grow linearly or quadratically with n?  We know that to specify the state even approximately you need an exponential amount of information — that was the point Paul Davies made earlier, when he argued (fallaciously, in my opinion) that an entangled state of 400 qubits already violates the holographic bound on the maximum number of bits in the observable universe.  But what if we only want to predict the outcomes of those measurements that could be performed within the lifetime of the universe?  Or what if we only want to predict the outcomes of most measurements drawn from some probability distribution?  In these cases, recent results due to myself and others show that the amount of information is much less than one would naïvely expect.  In particular, the number of bits grows linearly rather than exponentially with the number of qubits n.
+
+We also talked about hidden-variable theories like Bohmian mechanics.  The problem is, given that these theories are specifically constructed to be empirically indistinguishable from standard quantum mechanics, how could we ever tell if they’re true or false?  I pointed out that this question is not quite as hopeless as it seems — and in particular, that the issue we discussed earlier of discreteness versus continuity actually has a direct bearing on it.
+
+What is Bohmian mechanics?  It’s a theory of the positions of particles in three-dimensional space.  Furthermore, the key selling point of the theory is that the positions evolve deterministically: once you’ve fixed the positions at any instant of time, in a way consistent with Born’s probability rule, the particles will then move deterministically in such a way that they continue to obey Born’s rule at all later times.  But if — as we’re told by quantum theories of gravity — the right Hilbert space to describe our universe is finite-dimensional, one can prove that no theory of this sort can possibly work.  The reason is that, if you have a system in the state |A〉 and it’s mapped to  (where |A〉, |B〉, and |C〉 are all elements of the hidden-variable basis), then the hidden variable (which starts in state |A〉) is forced to make a random jump to either |B〉 or |C〉: you’ve created entropy where there wasn’t any before.  The way Bohm gets around this problem is by assuming the wavefunctions are continuous.  But in a finite-dimensional Hilbert space, every wavefunction is discontinuous!
+
+We also talked a good deal about the many-worlds interpretation of quantum mechanics — in particular, what exactly it means for the parallel worlds to “exist” — but since there’s some other branch of the wavefunction where I told you all about that, there’s no need to do so in this one.
+
+Oh, yeah: we also talked about eternal inflation, and more specifically the following question: should the “many worlds” of inflationary cosmology be seen as just a special case of the “many worlds” of the Everett interpretation?  More concretely, should the quantum state you ascribe to your surroundings be a probabilistic mixture of all the inflationary “bubbles” that you could possibly find yourself in?
+
+Other topics included Bell inequalities, the definition of randomness, and probably others I’ve forgotten about.
+
+Finally, I wanted to take the liberty of mentioning a truly radical idea, which arose in a dinner conversation with Avi Loeb and Fotini Markopoulou.  This idea is so far-out and heretical that I hesitate to bring it up even at this conference.  Should I go ahead?
+
+Moderator: Sure!
+
+Well, OK then.  The idea was that, when we’re theorizing about the nature of the universe, we might hypothetically want some way of, you know, “testing” whether our theories are right or not.  Indeed, maybe we could even go so far as to “reject” the theories that don’t succeed in explaining stuff.  As I said,  though, this is really just a speculative idea; much further work would be needed to flesh it out.
+
+
+
+================================================================================
+
+TITLE: Checkers solved
+URL: https://scottaaronson.blog/?m=200707
+CONTENT:
+From Science and NYT.
+
+================================================================================
+
+TITLE: Physics for Doofuses: Mass vs. charge deathmatch
+URL: https://scottaaronson.blog/?m=200707
+CONTENT:
+Back in high school, I was struck by the apparent symmetry between mass and charge. For the one you’ve got Newton’s F=Gm1m2/r2, for the other you’ve got Coulomb’s F=Kq1q2/r2. So then why, in our current understanding of the universe, are mass and charge treated so differently? Why should one be inextricably linked to the geometry of spacetime, whereas the other seems more like an add-on? Why should it be so much harder to give a quantum-mechanical treatment of one than the other? Notwithstanding that such questions occupied Einstein for the last decades of his life, let’s plunge ahead.
+
+When we look for differences between mass and charge, we immediately notice several.
+
+(1) Charge can be negative whereas mass can’t.
+
+That’s why gravity is always attractive, whereas the Coulomb force is both attractive and repulsive. Since positive and negative charges tend to neutralize each other, this already explains why gravity is relevant to the large-scale structure of the universe while electromagnetism isn’t. It also explains why there can’t be any “charge black holes” analogous to gravitational black holes. (I don’t mean charged black holes; I mean “black holes” that are black because of electric charge.) Unfortunately, it still doesn’t explain why mass should be related to the geometry of spacetime.
+
+(2) Charge appears to be quantized (coming in units of 1/3 of an electron charge), whereas mass appears not to be quantized, at least not in units we know.
+
+(3) The apparent mass of a moving object increases Lorentzianly, whereas the charge is invariant.
+
+These are interesting differences, but they also don’t seem to get us anywhere.
+
+(4) Gravity is “many orders of magnitude weaker” than electromagnetism.
+
+One hears this statement often; the trouble is, what does it mean? How does one compare the “intrinsic” strength of gravity and electromagnetism, without plugging in the masses and charges of typical particles that we happen to find in the universe? (Help me.)
+
+(5) Gravity is transmitted by a spin-2 particle, whereas electromagnetism is transmitted by a spin-1 particle.
+
+This difference is surely crucial; the trouble with it (to use a pomo word) is that it’s too “theory-laden.”  Since no one has ever seen a graviton, the reason we know gravitons are spin-2 particles in the first place must have to do with more “basic” properties of gravity.  So if we want a non-circular explanation for why gravity is different from the Coulomb force, it’d be better to phrase the explanation directly in terms of the more basic properties.
+
+(6) Charge shows up in only one fundamental equation of physics — F=Kq1q2/r2 — whereas mass shows up in two equations: F=Gm1m2/r2 and F=ma.
+
+Now we finally seem to be getting somewhere. Difference (6) was the basis for Einstein’s equivalence principle, which was one of the main steps on the road to general relativity.
+
+But while the equivalence principle suggests the possibility of relating mass to spacetime geometry, I could never understand why it implies the necessity of doing so. If we wanted, why couldn’t we simply regard the equivalence of gravitational and inertial mass as a weird coincidence? Why are we forced to take the drastic step of making spacetime itself into a pseudo-Riemannian manifold?
+
+The answer seems to be that we’re not!  It’s possible to treat general relativity as just a complicated field theory on flat spacetime, involving a tensor at every point — and indeed, this is a perspective that both Feynman and Weinberg famously adopted at various times.  It’s just that most people see it as simpler, more parsimonious, to interpret the tensors geometrically.
+
+So the real question is: why should the field theory of Gmm/r2 involve these complicated tensors (which also turn out to be hard to quantize), whereas the field theory of Kqq/r2 is much simpler and easier to quantize?
+
+After studying this question assiduously for years (alright, alright — I Googled it), I came across the following point, which struck me as the crucial one:
+
+(7) Whereas the electric force is mediated by photons, which don’t themselves carry charge, the gravitational force is mediated by gravitons, which do themselves carry energy.
+
+Photons sail past each other, ships passing in the night. They’re too busy tugging on the charges in the universe even to notice each other’s presence. (Indeed, this is why it’s so hard to build a quantum computer with photons as qubits, despite photons’ excellent coherence times.) Gravitons, by contrast, are constantly tugging at the matter in the universe and at each other. This is why Maxwell’s equations are linear whereas Einstein’s are nonlinear — and that, in turn, is related to why Einstein’s are so much harder than Maxwell’s to quantize.
+
+When I ran this explanation by non-doofus friends like Daniel Gottesman, they immediately pointed out that I’ve ignored the strong nuclear force — which, while it’s also nonlinear, turns out to be possible to quantize in certain energy regimes, using the hack called “renormalization.”  Incidentally, John Preskill told me that this hack only works in 3+1 dimensions: if spacetime were 5-dimensional, then the strong force wouldn’t be renormalizable either.  And in the other direction, if spacetime were 3-dimensional, then gravity would become a topological theory that we do sort of know how to quantize.
+
+However, I see no reason to let these actual facts mar our tidy explanation.  Think of it this way: if electromagnetism (being linear) is in P and gravity (being nonlinear) is NP-complete, then the strong force is Graph Isomorphism.
+
+My physicist friends were at least willing to concede to me that, while the explanation I’ve settled on is not completely right, it’s not completely wrong either. And that, my friends, means that it more than meets the standards of the Physics for Doofuses series.
+
+
+
+================================================================================
+
+TITLE: This one’s for the physicists
+URL: https://scottaaronson.blog/?m=200707
+CONTENT:
+Yesterday I loaded up my Prius with books, computers, bedsheets, a garbage bag full of underwear, and a summer student named Eyal Dechter, and we drove for twelve hours from Waterloo to MIT.  This drive, while historic, was largely uneventful; the main obstacle we encountered along the way was the state of New York.  Still, it was good to have someone around to share the driving, argue about the survival prospects of the human race, and point out when I left my parking brake on.
+
+In return for helping deliver me to my new job alive, Eyal asked for just one thing: a list of papers in quantum computing and information that make explicit connections to foundational issues in physics, connections that even a physicist could recognize as such.  (If we allowed implicit connections, we’d have to include pretty much every quantum computing paper ever written.)
+
+There are many requests I can’t satisfy, but this isn’t one of them.
+
+[AbramsLloyd] [AharonovJonesLandau] [Bacon] [BlumeKohoutHayden] [BriegelRaussendorf] [CavesFuchsSchack] [vanDam] [FarhiEtAl] [FreedmanKitaevWang] [Fuchs] [GottesmanPreskill] [Hardy] [Hardy] [KitaevMayersPreskill] [LiuChristandlVerstraete] [Lloyd] [Nielsen] [Smolin] [Spekkens] [TerhalDiVincenzo] [TonerBacon] [Vidal]
+
+Notes:
+
+================================================================================
+
+TITLE: FOCS’36 notification
+URL: https://scottaaronson.blog/?m=200707
+CONTENT:
+Dear Mr. Turing,
+
+We regret to inform you that your submission
+
+"On Computable Numbers, With an Application to the Entscheidungsproblem"
+
+was not accepted to appear in FOCS 1936.  The Program Committee received a record 4 submissions this year, many of them of high quality, and scheduling constraints unfortunately made it impossible to accept all of them.
+
+Below please find some reviews on your submission.  The reviews are *not* intended as an explanation for why your paper was rejected.  This decision depended on many factors, including discussions at the PC meeting and competition from other papers.
+
+Best wishes,
+FOCS 1936 Program Committee
+
+---------------------------------------- review 1 ----------------------------------------
+
+seems like a trivial modification of godel's result from STOC'31
+
+---------------------------------------- review 2 ----------------------------------------
+
+The author shows that Hilbert's Entscheidungsproblem (given a mathematical statement, decide whether it admits a formal proof) is unsolvable by any finite means.  While this seems like an important result, I have several concerns/criticisms:
+
+1. The author defines a new "Turing machine" model for the specific purpose of proving his result.  This model was not defined in any previous papers; thus, the motivation is unclear.
+
+2. I doubt Hilbert's goal of "automating mathematical thought" was ever really taken seriously by anyone (including Hilbert himself).  Given this, the negative result comes as no surprise -- a positive result would have been much more interesting.
+
+3. It's hard to find any technical "meat" in this paper.  Once the author sets up the problem, the main result follows immediately by a standard diagonalization argument.
+
+4. The whole philosophical discussion in Section 9, about what it means to compute something, is out of place (even slightly embarrassing) and should be deleted entirely.
+
+Summary: While this paper deserves to be published somewhere -- SODA? ICALP? FSTTCS? -- it certainly isn't FOCS caliber.
+
+---------------------------------------- review 3 ----------------------------------------
+
+merge with alonzo church's submission?
+
+---------------------------------------- review 4 ----------------------------------------
+
+while i agree with the other reviewers' concerns about triviality, i confess to liking this paper anyway. one reason is that, along the way to the main result, the author proves a lemma stating that there exists a "universal machine" (a machine able to simulate any other machine given a suitable choice of input).  the claim that this lemma could have "practical" applications is clearly exaggerated -- but even so, it seems like it could be a useful ingredient for other results.
+
+Recommendation: Borderline Accept.
+
+
+
+================================================================================
+

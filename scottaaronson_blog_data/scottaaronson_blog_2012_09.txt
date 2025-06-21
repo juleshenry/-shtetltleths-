@@ -1,0 +1,9 @@
+TITLE: Two quick announcements
+URL: https://scottaaronson.blog/?m=201209
+CONTENT:
+The Pennsylvania Governor’s School for the Sciences (PGSS) was an incredibly-successful summer program for gifted high school students in my birth-state of Pennsylvania.  PGSS ran from 1982 to 2009 and then was shuttered due to state budget cuts.  A group of alumni is now trying to raise enough private funds to restart the program (they need $100,000).  Please visit their site, watch their video, and make a small (or large) donation if you feel moved to.
+
+In other news, I’ll be speaking at a workshop on Quantum Information Science in Computer and Natural Sciences, organized by Umesh Vazirani and Carl Williams, to be held September 28-29 at the University of Maryland College Park.  This workshop is specifically designed for computer scientists, mathematicians, physicists, and others who haven’t worked in quantum information, but who’d like to know more about current research in the area, and to look for connections between quantum information and their own fields.  Umesh writes:
+
+================================================================================
+

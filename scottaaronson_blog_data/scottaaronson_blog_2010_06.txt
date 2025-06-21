@@ -1,0 +1,35 @@
+TITLE: Fighting Hype with Hype
+URL: https://scottaaronson.blog/?m=201006
+CONTENT:
+
+
+I’ve been depressed all month about the oil spill.  So what better to cheer me up than a flurry of comments and emails asking me to comment on an Ars Technica story by Chris Lee, reporting that it’s now been proven once and for all that quantum computers don’t help with NP-complete problems?
+
+Now, just to really put the screws on any optimists out there, a new paper has shown that adiabatic computers are actually quite bad at hard math problems …
+
+What [the researchers] have shown is that, when adiabatic quantum computers are used to solve NP-complete problems, the energy gap between the lowest energy state and the next state up is not well behaved. Instead, it narrows faster than exponentially, meaning the adiabatic quantum computing cannot, even in principle, solve NP-complete problems faster than a classical computer …
+
+In the end, they conclude that NP-complete problems are just as hard on an adiabatic quantum computer as on a classical computer. And, since earlier work showed the equivalence between different variants of quantum computers, that pretty much shuts down the possibility of any quantum computer helping with NP-complete problems.
+
+I don’t think anyone in the field will be particularly surprised by this. The failure of earlier work to show that quantum computers offered a speed-up on any NP-complete problem indicated that it was likely that it simply was not possible.
+
+I’m heartened by the progress we’ve made these last ten years: from overhyped and misleading claims that quantum computers can solve NP-complete problems in polynomial time, to overhyped and misleading claims that they can’t.
+
+The link to the paper from the article is broken, and the article doesn’t give the names of the researchers involved, but from the context, I’m pretty sure the article’s attempting to talk about this paper by Boris Altshuler, Hari Krovi, and Jeremie Roland, amusingly entitled “Anderson localization casts clouds over adiabatic quantum optimization.”  This paper really is an interesting and important one—but alas, the Ars Technica story grossly misstates and exaggerates what it does.
+
+For what I hope will be the last time, but I’m sure won’t: yes, almost everyone in the field believes it’s true that quantum computers can’t solve NP-complete problems in polynomial time.  But we have no idea at present how to prove anything of the kind.  In fact, we don’t even know how to prove classical computers can’t solve NP-complete problems in polynomial time (that’s called the P vs. NP question; maybe you’ve heard of it!).  Nor do we even know how to prove a conditional statement, like “quantum computers can’t solve NP-complete problems in polynomial time unless classical computers can also.”  Any such result would be the biggest advance in theoretical computer science at least since I was born.
+
+So then what do Altshuler, Krovi, and Roland do?  They consider a specific quantum algorithm—namely, the quantum adiabatic algorithm with linear interpolation—applied to random instances of an NP-complete problem, namely Exact Cover.  They then argue, based on a combination of numerical simulations and perturbation theory approximation, that the spectral gap decreases exponentially (actually, like 1/n!), which would imply that the adiabatic algorithm generally requires exponential time to reach the ground state.
+
+If that sounds pretty interesting, you’re right!  But what’s the fine print?  Well, let’s accept, for the sake of argument, Altshuler et al.’s claim that their conclusions about Exact Cover would likely generalize to 3SAT and other standard NP-complete problems.  Even then, there are three crucial caveats, all of which the Ars Technica story ignores:
+
+In summary, while it feels like swimming through a burning oil slick to say so, I have to side with D-Wave about the Ars Technica piece (though my reasons are mostly different).
+
+So congratulations, Ars Technica!  Like The Economist before you, you’ve successfully cast clouds over yourself when reporting about stuff I don’t understand.
+
+PS. I’m at STOC’2010 right now, in exotic Cambridge, MA.  If you’re interested, here’s the talk I gave this morning, on “BQP and the Polynomial Hierarchy,” and here’s the talk my PhD student Andy Drucker gave, on “A Full Characterization of Quantum Advice.”  And Lance, please stop looking over my shoulder!
+
+
+
+================================================================================
+

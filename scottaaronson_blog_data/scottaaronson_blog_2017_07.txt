@@ -1,0 +1,158 @@
+TITLE: Is “information is physical” contentful?
+URL: https://scottaaronson.blog/?m=201707
+CONTENT:
+“Information is physical.”
+
+This slogan seems to have originated around 1991 with Rolf Landauer.  It’s ricocheted around quantum information for the entire time I’ve been in the field, incanted in funding agency reports and popular articles and at the beginnings and ends of talks.
+
+But what the hell does it mean?
+
+There are many things it’s taken to mean, in my experience, that don’t make a lot of sense when you think about them—or else they’re vacuously true, or purely a matter of perspective, or not faithful readings of the slogan’s words.
+
+For example, some people seem to use the slogan to mean something more like its converse: “physics is informational.”  That is, the laws of physics are ultimately not about mass or energy or pressure, but about bits and computations on them.  As I’ve often said, my problem with that view is less its audacity than its timidity!  It’s like, what would the universe have to do in order not to be informational in this sense?  “Information” is just a name we give to whatever picks out one element from a set of possibilities, with the “amount” of information given by the log of the set’s cardinality (and with suitable generalizations to infinite sets, nonuniform probability distributions, yadda yadda).  So, as long as the laws of physics take the form of telling us that some observations or configurations of the world are possible and others are not, or of giving us probabilities for each configuration, no duh they’re about information!
+
+Other people use “information is physical” to pour scorn on the idea that “information” could mean anything without some actual physical instantiation of the abstract 0’s and 1’s, such as voltage differences in a loop of wire.  Here I certainly agree with the tautology that in order to exist physically—that is, be embodied in the physical world—a piece of information (like a song, video, or computer program) does need to be embodied in the physical world.  But my inner Platonist slumps in his armchair when people go on to assert that, for example, it’s meaningless to discuss the first prime number larger than 1010^125, because according to post-1998 cosmology, one couldn’t fit its digits inside the observable universe.
+
+If the cosmologists revise their models next week, will this prime suddenly burst into existence, with all the mathematical properties that one could’ve predicted for it on general grounds—only to fade back into the netherworld if the cosmologists revise their models again?  Why would anyone want to use language in such a tortured way?
+
+Yes, brains, computers, yellow books, and so on that encode mathematical knowledge comprise only a tiny sliver of the physical world.  But it’s equally true that the physical world we observe comprises only a tiny sliver of mathematical possibility-space.
+
+Still other people use “information is physical” simply to express their enthusiasm for the modern merger of physical and information sciences, as exemplified by quantum computing.  Far be it from me to temper that enthusiasm: rock on, dudes!
+
+Yet others use “information is physical” to mean that the rules governing information processing and transmission in the physical world aren’t knowable a priori, but can only be learned from physics.  This is clearest in the case of quantum information, which has its own internal logic that generalizes the logic of classical information.  But in some sense, we didn’t need quantum mechanics to tell us this!  Of course the laws of physics have ultimate jurisdiction over whatever occurs in the physical world, information processing included.
+
+My biggest beef, with all these unpackings of the “information is physical” slogan, is that none of them really engage with any of the deep truths that we’ve learned about physics.  That is, we could’ve had more-or-less the same debates about any of them, even in a hypothetical world where the laws of physics were completely different.
+
+So then what should we mean by “information is physical”?  In the rest of this post, I’d like to propose an answer to that question.
+
+We get closer to the meat of the slogan if we consider some actual physical phenomena, say in quantum mechanics.  The double-slit experiment will do fine.
+
+Recall: you shoot photons, one by one, at a screen with two slits, then examine the probability distribution over where the photons end up on a second screen.  You ask: does that distribution contain alternating “light” and “dark” regions, the signature of interference between positive and negative amplitudes?  And the answer, predicted by the math and confirmed by experiment, is: yes, but only if the information about which slit the photon went through failed to get recorded anywhere else in the universe, other than the photon location itself.
+
+Here a skeptic interjects: but that has to be wrong!  The criterion for where a physical particle lands on a physical screen can’t possibly depend on anything as airy as whether “information” got “recorded” or not.  For what counts as “information,” anyway?  As an extreme example: what if God, unbeknownst to us mortals, took divine note of which slit the photon went through?  Would that destroy the interference pattern?  If so, then every time we do the experiment, are we collecting data about the existence or nonexistence of an all-knowing God?
+
+It seems to me that the answer is: insofar as the mind of God can be modeled as a tensor factor in Hilbert space, yes, we are.  And crucially, if quantum mechanics is universally true, then the mind of God would have to be such a tensor factor, in order for its state to play any role in the prediction of observed phenomena.
+
+To say this another way: it’s obvious and unexceptionable that, by observing a physical system, you can often learn something about what information must be in it.  For example, you need never have heard of DNA to deduce that chickens must somehow contain information about making more chickens.  What’s much more surprising is that, in quantum mechanics, you can often deduce things about what information can’t be present, anywhere in the physical world—because if such information existed, even a billion light-years away, it would necessarily have a physical effect that you don’t see.
+
+Another famous example here concerns identical particles.  You may have heard the slogan that “if you’ve seen one electron, you’ve seen them all”: that is, apart from position, momentum, and spin, every two electrons have exactly the same mass, same charge, same every other property, including even any properties yet to be discovered.  Again the skeptic interjects: but that has to be wrong.  Logically, you could only ever confirm that two electrons were different, by observing a difference in their behavior.  Even if the electrons had behaved identically for a billion years, you couldn’t rule out the possibility that they were actually different, for example because of tiny nametags (“Hi, I’m Emily the Electron!” “Hi, I’m Ernie!”) that had no effect on any experiment you’d thought to perform, but were visible to God.
+
+You can probably guess where this is going.  Quantum mechanics says that, no, you can verify that two particles are perfectly identical by doing an experiment where you swap them and see what happens.  If the particles are identical in all respects, then you’ll see quantum interference between the swapped and un-swapped states.  If they aren’t, you won’t.  The kind of interference you’ll see is different for fermions (like electrons) than for bosons (like photons), but the basic principle is the same in both cases.  Once again, quantum mechanics lets you verify that a specific type of information—in this case, information that distinguishes one particle from another—was not present anywhere in the physical world, because if it were, it would’ve destroyed an interference effect that you in fact saw.
+
+This, I think, already provides a meatier sense in which “information is physical” than any of the senses discussed previously.
+
+But we haven’t gotten to the filet mignon yet.  The late, great Jacob Bekenstein will forever be associated with the discovery that information, wherever and whenever it occurs in the physical world, takes up a minimum amount of space.  The most precise form of this statement, called the covariant entropy bound, was worked out in detail by Raphael Bousso.  Here I’ll be discussing a looser version of the bound, which holds in “non-pathological” cases, and which states that a bounded physical system can store at most A/(4 ln 2) bits of information, where A is the area in Planck units of any surface that encloses the system—so, about 1069 bits per square meter.  (Actually it’s 1069 qubits per square meter, but because of Holevo’s theorem, an upper bound on the number of qubits is also an upper bound on the number of classical bits that can be reliably stored in a system and then retrieved later.)
+
+You might have heard of the famous way Nature enforces this bound.  Namely, if you tried to create a hard drive that stored more than 1069 bits per square meter of surface area, the hard drive would necessarily collapse to a black hole.  And from that point on, the information storage capacity would scale “only” with the area of the black hole’s event horizon—a black hole itself being the densest possible hard drive allowed by physics.
+
+Let’s hear once more from our skeptic.  “Nonsense!  Matter can take up space.  Energy can take up space.  But information?  Bah!  That’s just a category mistake.  For a proof, suppose God took one of your black holes, with a 1-square-meter event horizon, which already had its supposed maximum of ~1069 bits of information.  And suppose She then created a bunch of new fundamental fields, which didn’t interact with gravity, electromagnetism, or any of the other fields that we know from observation, but which had the effect of encoding 10300 new bits in the region of the black hole.  Presto!  An unlimited amount of additional information, exactly where Bekenstein said it couldn’t exist.”
+
+We’d like to pinpoint what’s wrong with the skeptic’s argument—and do so in a self-contained, non-question-begging way, a way that doesn’t pull any rabbits out of hats, other than the general principles of relativity and quantum mechanics.  I was confused myself about how to do this, until a month ago, when Daniel Harlow helped set me straight (any remaining howlers in my exposition are 100% mine, not his).
+
+I believe the logic goes like this:
+
+Summarizing where we’ve gotten, we could say: any information that’s spatially localized at all, can only be localized so precisely.  In our world, the more densely you try to pack 1’s and 0’s, the more energy you need, therefore the more you warp spacetime, until all you’ve gotten for your trouble is a black hole.  Furthermore, if we rewrote the above conceptual argument in math—keeping track of all the G’s, c’s, h’s, and so on—we could derive a quantitative bound on how much information there can be in a bounded region of space.  And if we were careful enough, that bound would be precisely the holographic entropy bound, which says that the number of (qu)bits is at most A/(4 ln 2), where A is the area of a bounding surface in Planck units.
+
+Let’s pause to point out some interesting features of this argument.
+
+Firstly, we pretty much needed the whole kitchen sink of basic physical principles: special relativity (both the equivalence of inertial frames and the finiteness of the speed of light), quantum mechanics (in the form of the universal relation between energy and frequency), and finally general relativity and gravity.  All three of the fundamental constants G, c, and h made appearances, which is why all three show up in the detailed statement of the holographic bound.
+
+But secondly, gravity only appeared from step 8 onwards.  Up till then, everything could be said solely in the language of quantum field theory: that is, quantum mechanics plus special relativity.  The result would be the so-called Bekenstein bound, which upper-bounds the number of bits in any spatial region by the product of the region’s radius and its energy content.  I learned that there’s an interesting history here: Bekenstein originally deduced this bound using ingenious thought experiments involving black holes.  Only later did people realize that the Bekenstein bound can be derived purely within QFT (see here and here for example)—in contrast to the holographic bound, which really is a statement about quantum gravity.  (An early hint of this was that, while the holographic bound involves Newton’s gravitational constant G, the Bekenstein bound doesn’t.)
+
+Thirdly, speaking of QFT, some readers might be struck by the fact that at no point in our 12-step program did we ever seem to need QFT machinery.  Which is fortunate, because if we had needed it, I wouldn’t have been able to explain any of this!  But here I have to confess that I cheated slightly.  Recall step 4, which said that “if you know the rate at which a field varies across space, you can calculate the rate at which it varies across time.”  It turns out that, in order to give that sentence a definite meaning, one uses the fact that in QFT, space and time derivatives in the Hamiltonian need to be related by a factor of c, since otherwise the Hamiltonian wouldn’t be Lorentz-invariant.
+
+Fourthly, eagle-eyed readers might notice a loophole in the argument.  Namely, we never upper-bounded how much information God could add to the world, via fields that are constant across all of spacetime.  For example, there’s nothing to stop Her from creating a new scalar field that takes the same value everywhere in the universe—with that value, in suitable units, encoding 1050000 separate divine thoughts in its binary expansion.  But OK, being constant, such a field would interact with nothing and affect no observations—so Occam’s Razor itches to slice it off, by rewriting the laws of physics in a simpler form where that field is absent.  If you like, such a field would at most be a comment in the source code of the universe: it could be as long as the Great Programmer wanted it to be, but would have no observable effect on those of us living inside the program’s execution.
+
+Of course, even before relativity and quantum mechanics, information had already been playing a surprisingly fleshy role in physics, through its appearance as entropy in 19th-century thermodynamics.  Which leads to another puzzle.  To a computer scientist, the concept of entropy, as the log of the number of microstates compatible with a given macrostate, seems clear enough, as does the intuition for why it should increase monotonically with time.  Or at least, to whatever extent we’re confused about these matters, we’re no more confused than the physicists are!
+
+But then why should this information-theoretic concept be so closely connected to tangible quantities like temperature, and pressure, and energy?  From the mere assumption that a black hole has a nonzero entropy—that is, that it takes many bits to describe—how could Bekenstein and Hawking have possibly deduced that it also has a nonzero temperature?  Or: if you put your finger into a tub of hot water, does the heat that you feel somehow reflect how many bits are needed to describe the water’s microstate?
+
+Once again our skeptic pipes up: “but surely God could stuff as many additional bits as She wanted into the microstate of the hot water—for example, in degrees of freedom that are still unknown to physics—without the new bits having any effect on the water’s temperature.”
+
+But we should’ve learned by now to doubt this sort of argument.  There’s no general principle, in our universe, saying that you can hide as many bits as you want in a physical object, without those bits influencing the object’s observable properties.  On the contrary, in case after case, our laws of physics seem to be intolerant of “wallflower bits,” which hide in a corner without talking to anyone.  If a bit is there, the laws of physics want it to affect other nearby bits and be affected by them in turn.
+
+In the case of thermodynamics, the assumption that does all the real work here is that of equidistribution.  That is, whatever degrees of freedom might be available to your thermal system, your gas in a box or whatever, we assume that they’re all already “as randomized as they could possibly be,” subject to a few observed properties like temperature and volume and pressure.  (At least, we assume that in classical thermodynamics.  Non-equilibrium thermodynamics is a whole different can of worms, worms that don’t stay in equilibrium.)  Crucially, we assume this despite the fact that we might not even know all the relevant degrees of freedom.
+
+Why is this assumption justified?  “Because experiment bears it out,” the physics teacher explains—but we can do better.  The assumption is justified because, as long as the degrees of freedom that we’re talking about all interact with each other, they’ve already had plenty of time to equilibrate.  And conversely, if a degree of freedom doesn’t interact with the stuff we’re observing—or with anything that interacts with the stuff we’re observing, etc.—well then, who cares about it anyway?
+
+But now, because the microscopic laws of physics have the fundamental property of reversibility—that is, they never destroy information—a new bit has to go somewhere, and it can’t overwrite degrees of freedom that are already fully randomized.  This is why, if you pump more bits of information into a tub of hot water, while keeping it at the same volume, the new bits have nowhere to go except into pushing up the energy.  Now, there are often ways to push up the energy other than by raising the temperature—the concept of specific heat, in chemistry, is precisely about this—but if you need to stuff more bits into a substance, at the cost of raising its energy, certainly one of the obvious ways to do it is to describe a greater range of possible speeds for the water molecules.  So since that can happen, by equidistribution it typically does happen, which means that the molecules move faster on average, and your finger feels the water get hotter.
+
+In summary, our laws of physics are structured in such a way that even pure information often has “nowhere to hide”: if the bits are there at all in the abstract machinery of the world, then they’re forced to pipe up and have a measurable effect.  And this is not a tautology, but comes about only because of nontrivial facts about special and general relativity, quantum mechanics, quantum field theory, and thermodynamics.  And this is what I think people should mean when they say “information is physical.”
+
+Anyway, if this was all obvious to you, I apologize for having wasted your time!  But in my defense, it was never explained to me quite this way, nor was it sorted out in my head until recently—even though it seems like one of the most basic and general things one can possibly say about physics.
+
+Endnotes. Thanks again to Daniel Harlow, not only for explaining the logic of the holographic bound to me but for several suggestions that improved this post.
+
+Some readers might suspect circularity in the arguments we’ve made: are we merely saying that “any information that has observable physical consequences, has observable physical consequences”?  No, it’s more than that.  In all the examples I discussed, the magic was that we inserted certain information into our abstract mathematical description of the world, taking no care to ensure that the information’s presence would have any observable consequences whatsoever.  But then the principles of quantum mechanics, quantum gravity, or thermodynamics forced the information to be detectable in very specific ways (namely, via the destruction of quantum interference, the warping of spacetime, or the generation of heat respectively).
+
+================================================================================
+
+TITLE: Three things
+URL: https://scottaaronson.blog/?m=201707
+CONTENT:
+I was shocked and horrified to learn of the loss of Maryam Mirzakhani at age 40, after a battle with cancer (see here or here).  Mirzakhani was a renowned mathematician at Stanford and the world’s first and so far only female Fields Medalist.  I never had the privilege of meeting her, but everything I’ve read about her fills me with admiration.  I wish to offer condolences to her friends and family, including her husband Jan Vondrák, also a professor at Stanford and a member of the CS theory community.
+
+In other depressing news, discussion continues to rage on social media about “The Uninhabitable Earth,” the New York magazine article by David Wallace-Wells arguing that the dangers of climate change have been systematically understated even by climate scientists; that sea level rise is the least of the problems; and that if we stay the current course, much of the earth’s landmass has a good chance of being uninhabitable by the year 2100.  In an unusual turn of events, the Wallace-Wells piece has been getting slammed by climate scientists, including Michael Mann (see here and also this interview)—people who are usually in the news to refute the claims of deniers.
+
+Some of the critics’ arguments seem cogent to me: for example, that Wallace-Wells misunderstood some satellite data, and more broadly, that the piece misleadingly presents its scenario as overwhelmingly probable by 2100 if we do nothing, rather than as “only” 10% likely or whatever—i.e., a mere Trump-becoming-president level of risk.  Other objections to the article impressed me less: for example, that doom-and-gloom is a bad way to motivate people about climate change; that the masses need a more optimistic takeaway.  That obviously has no bearing on the truth of what’s going to happen—but even if we did agree to entertain such arguments, well, it’s not as if mainstream messaging on climate change has been an unmitigated success.  What if everyone should be sweating-in-the-night terrified?
+
+As far as I understand it, the question of the plausibility of Wallace-Wells’s catastrophe scenario mostly just comes down to a single scientific unknown: namely, will the melting permafrost belch huge amounts of methane into the atmosphere?  If it does, then “Armageddon” is probably a fair description of what awaits us in the next century, and if not, not.  Alas, our understanding of permafrost doesn’t seem especially reliable, and it strikes me that models of such feedbacks have a long history of erring on the side of conservatism (for example, researchers were astonished by how quickly glaciers and ice shelves fell apart).
+
+So, while I wish the article was written with more caveats, I submit that runaway warming scenarios deserve more attention rather than less.  And we should be putting discussion of those scenarios in exactly the broader context that Wallace-Wells does: namely, that of the Permian-Triassic extinction event, the Fermi paradox, and the conditions for a technological civilization to survive past its infancy.
+
+Certainly we spend much more time on risks to civilization (e.g., nuclear terrorism, bioengineered pandemics) that strike me as less probable than this one.  And certainly this tail, in the distribution of possible outcomes, deserves at least as much attention as its more popular opposite, the tail where climate change turns out not to be much of a problem at all.  For the grim truth about climate change is that history won’t end in 2100: only the projections do.  And the mere addition of 50 more years could easily suffice to turn a tail risk into a body risk.
+
+Of course, that the worst will happen is a clear prediction of reverse Hollywoodism theory—besides being the “natural, default” prediction for a computer scientist used to worst-case analysis.  This is one prediction that I hope turns out to be as wrong as possible.
+
+OK, now for something to cheer us all up.  Yesterday the group of Misha Lukin, at Harvard, put a paper on the arXiv reporting the creation of a 51-qubit quantum simulator using cold atoms.  The paper doesn’t directly address the question of quantum supremacy, or indeed of performance comparisons between the new device and classical simulations at all.  But this is clearly a big step forward, while the world waits for the fully-programmable 50-qubit superconducting QCs that have been promised by the groups at Google and IBM.
+
+Indeed, this strikes me as the most exciting news in experimental quantum information since last month, when Jian-Wei Pan’s group in Shanghai reported the first transmission of entangled photons from a satellite to earth—thereby allowing violations of the Bell inequality over 1200 kilometers, teleportation of a qubit from earth to space, and other major firsts.  These are breakthroughs that we knew were in the works ever since the Chinese government launched the QUESS satellite devoted to quantum communications.  I should’ve blogged about them in June.  Then again, regular readers of Shtetl-Optimized, familiar as they already are with the universal reach of quantum mechanics and with the general state of quantum information technology, shouldn’t find anything here that fundamentally surprises them, should they?
+
+================================================================================
+
+TITLE: Amsterdam art museums plagiarizing my blog?
+URL: https://scottaaronson.blog/?m=201707
+CONTENT:
+This past week I had the pleasure of attending COLT (Conference on Learning Theory) 2017 in Amsterdam, and of giving an invited talk on “PAC-Learning and Reconstruction of Quantum States.”  You can see the PowerPoint slides here; videos were also made, but don’t seem to be available yet.
+
+This was my first COLT, but almost certainly not the last.  I learned lots of cool new tidbits, from the expressive power of small-depth neural networks, to a modern theoretical computer science definition of “non-discriminatory” (namely, your learning algorithm’s output should be independent of protected categories like race, sex, etc. after conditioning on the truth you’re trying to predict), to the inapproximability of VC dimension (assuming the Exponential Time Hypothesis).  You can see the full schedule here.  Thanks so much to the PC chairs, Ohad Shamir and Satyen Kale, for inviting me and for putting on a great conference.
+
+And one more thing: I’m not normally big on art museums, but Amsterdam turns out to have two in close proximity to each other—the Rijksmuseum and the Stedelijk—each containing something that Shtetl-Optimized readers might recognize.
+
+
+
+
+
+Photo credits: Ronald de Wolf and Marijn Heule.
+
+================================================================================
+
+TITLE: ITCS’2018
+URL: https://scottaaronson.blog/?m=201707
+CONTENT:
+My friend Anna Karlin, who chairs the ITCS program committee this year, asked me to post the following announcement, and I’m happy to oblige her.  I’ve enjoyed ITCS every time I’ve attended, and was even involved in the statement that led to ITCS’s creation, although I don’t take direct responsibility for the content of this ad. –SA
+
+The ITCS 2018 Call For Papers is now available!
+
+ITCS is a conference that stands apart from all others. For a decade now, it has been celebrating the vibrancy and unity of our field of Theoretical Computer Science. See this blog post for a detailed discussion of what makes ITCS so cool and the brief description of ITCS’17 at the end of this post.
+
+ITCS seeks to promote research that carries a strong conceptual message  (e.g., introducing a new concept, model or understanding, opening a new line of inquiry within traditional or interdisciplinary areas, introducing new mathematical techniques and methodologies, or new applications of known techniques). ITCS welcomes both conceptual and technical contributions whose contents will advance and inspire the greater theory community.
+
+This year, ITCS will be held at MIT in Cambridge, MA from January 11-14, 2018.
+
+The submission deadline is September 8, 2017, with notification of decisions by October 30, 2017.
+
+Authors should strive to make their papers accessible not only to experts in their subarea, but also to the theory community at large. The committee will place a premium on writing that conveys clearly and in the simplest possible way what the paper is accomplishing.
+
+Ten-page versions of accepted papers will be published in an electronic proceedings of the conference. However, the alternative of publishing a one page abstract with a link to a full PDF will also be available (to accommodate subsequent publication in journals that would not consider results that have been published in preliminary form in a conference proceedings).
+
+You can find all the details in the official Call For Papers.
+
+On last year’s ITCS (by the PC Chair Christos Papadimitriou)
+
+This past ITCS (2017) was by all accounts the most successful ever.  We had 170+ submissions and 61 papers, including 5 “invited papers”, and 90+ registrants, all new records.  There was a voluntary poster session for authors to get a chance to go through more detail, and the famous Graduating Bits event, where the younger ones get their 5 minutes to show off their accomplishment and personality.
+
+The spirit of the conference was invigorating, heartwarming, and great fun.  I believe none of the twelve sessions had fewer than 70 attendees — no parallelism, of course — while the now famous last session was among the best attended and went one hour overtime due to the excitement of discussion (compare with the last large conference that you attended).
+
+================================================================================
+
