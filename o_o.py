@@ -33,8 +33,9 @@ def __capsuel__():
         gabagool = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
         print(psycique(m, text=gabagool))
 
-def shttl(mmm):
-    gabagool = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
+def shttl(mmm, gabagool=None):
+    if not gabagool:
+        gabagool = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
     def psycique(typeee, text=None):
         """Return readability metrics for the given text."""
         r = Readability(text)

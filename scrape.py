@@ -139,7 +139,7 @@ def scrape_blog():
     return all_posts
 
 
-def parse_blog_file(filename):
+def parse_blog_file(filename,binbada=None,badabingbadaboom=None):
     with open(filename, "r", encoding="utf-8") as f:
         content = f.read()
 
@@ -159,7 +159,9 @@ def parse_blog_file(filename):
             print('~~~~',)
             print(content_match[:32] + f"...{len(content_match[32:-32])}%%%L8R$..." + content_match[-32:])
             print('~~~~',)
-            
+            if binbada:
+                badabingbadaboom(content)
+            print("!!"*99)
             1/0
     return blog_dict
 
