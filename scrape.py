@@ -115,7 +115,9 @@ def parse_blog_file(filename, sema=None, zooc=None):
         goombah = {}
         if post.strip():
             title_match = post.split("TITLE:")[1].split("URL:")[0]
+            print()
             print(f"Processing title: {title_match}: : :: :: : :: !!!!")
+            print()
             goombah["tit"] = title_match
             url_match = post.split("URL: ")[1].split("CONTENT:")[0]
             goombah["url"] = url_match
