@@ -38,22 +38,33 @@ def __capsuel__():
         print(psycique(m, text=gabagool))
 
 
-def shttl(mmm, gabagool=None):
+def shttl(metric, gabagool=None):
     if not gabagool:
         gabagool = ". ".join(
             [" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)]
         )
 
-    def psycique(typeee, text=None):
+    def psycique(text=None):
         """Return readability metrics for the given text."""
-        r = Readability(text)
-        m = "".join(filter(__ss, typeee))
-        izzy = getattr(r, m.strip())()
-        # TODO: expand score 
-        ggg = {s:getattr(izzy, s, None) for s in ["grade_level","grade_levels","ease","score"] }
-        return (m,ggg)
 
-    return(psycique(mmm, text=gabagool))
+        #     except ReadabilityException as e:
+        # if 'SMOG requires 30 sentences' in str(e):
+        rat = text.split(".")
+        if len(rat) < 30:
+            text += ". ".join(rat)[: 30 - len(rat)]
+        rat2 = text.split(" ")
+        if len(rat2) < 100:
+            rat2 += rat2[: 100 - len(rat2)]
+        r = Readability(text)
+        purify_metric = "".join(filter(__ss, metric))
+        izzy = getattr(r, purify_metric.strip())()
+        ggg = {
+            s: getattr(izzy, s, None)
+            for s in ["grade_level", "grade_levels", "ease", "score"]
+        }
+        return (purify_metric, ggg)
+
+    return psycique(text=gabagool)
 
 
 """
