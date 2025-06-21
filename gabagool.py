@@ -18,16 +18,16 @@ def zoo_calc(txt):
 
 if __name__ == "__main__":
     # s_s_s = scrape_blog()
-    p = print
+    # p = print
     output_dir = "scottaaronson_blog_data"
     for filename in os.listdir(output_dir):
         if filename.endswith(".txt"):
             filepath = os.path.join(output_dir, filename)
-            p(f"Parsing THE WHOLE MONTH AS ~~!!!@@@@@@{filepath}")
-            p("~!!!!!!")
+            print(f"Parsing THE WHOLE MONTH AS ~~!!!@@@@@@{filepath}")
+            print("*"*100)
             for k,v in parse_blog_file(filepath, True, zoo_calc).items():
-                p(f"\n$$$$$$$Title: {k}")
-                p(f"Content length: {len(v)} characters")
+                print(f"\n$$$$$$$Title: {k}")
+                print(f"Content length: {len(v)} characters")
             # Uncomment the following lines to print the extracted posts
             # p(f"Extracted {len(posts_dict)} posts from {filename}")
             # for title, content in posts_dict.items():
