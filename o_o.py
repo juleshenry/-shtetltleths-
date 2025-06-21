@@ -49,9 +49,11 @@ def shttl(mmm, gabagool=None):
         r = Readability(text)
         m = "".join(filter(__ss, typeee))
         izzy = getattr(r, m.strip())()
-        return f"{m[:8]}: {izzy.score:.4f}"
+        # TODO: expand score 
+        ggg = {s:getattr(izzy, s, None) for s in ["grade_level","grade_levels","ease","score"] }
+        return (m,ggg)
 
-    print(psycique(mmm, text=gabagool))
+    return(psycique(mmm, text=gabagool))
 
 
 """

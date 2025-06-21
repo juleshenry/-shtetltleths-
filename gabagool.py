@@ -7,27 +7,28 @@ from o_o import shttl as __ot
 __ss=lambda s: (k:=s.strip()).isalpha() or k=='_'
 __mz__="""'flesch_kincaid','flesch','gunning_fog','coleman_liau','dale_chall','ari','linsear_write','smog','spache' """
 # fmt: on
-def if__name__ee0l__main__l0(txt):
+def zoo_calc(txt):
+    # for every metric, calculate the readability score
     for uuy in filter(lambda s: s.replace("'", ""), __mz__.split(",")):
-        print(uuy)
-        __ot(uuy, txt)
+        print(uuy, __ot(uuy, txt))
 
 
 # _txt = '. '.join([("AIDS banana balls at once commit action and "*12 + " and many, many more")for _ in range(30)])
 # if__name__ee0l__main__l0(_txt)
 
 if __name__ == "__main__":
-    # s = scrape_blog()
-    # Test with a sample file
-    p= print
-    print = lambda *a: a
+    # s_s_s = scrape_blog()
+    p = print
     output_dir = "scottaaronson_blog_data"
     for filename in os.listdir(output_dir):
         if filename.endswith(".txt"):
             filepath = os.path.join(output_dir, filename)
             p(f"Parsing THE WHOLE MONTH AS ~~!!!@@@@@@{filepath}")
-            posts_dict = parse_blog_file(filepath, True, if__name__ee0l__main__l0)
-            
+            p("~!!!!!!")
+            for k,v in parse_blog_file(filepath, True, zoo_calc).items():
+                p(f"\n$$$$$$$Title: {k}")
+                p(f"Content length: {len(v)} characters")
+            # Uncomment the following lines to print the extracted posts
             # p(f"Extracted {len(posts_dict)} posts from {filename}")
             # for title, content in posts_dict.items():
             #     print(f"\nTitle: {title}")
