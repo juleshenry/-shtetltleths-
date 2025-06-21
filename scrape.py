@@ -150,11 +150,17 @@ def parse_blog_file(filename):
     for post in posts:
         if post.strip():
             # Extract title and content
-            title_match = post.split("TITLE: ")[-1].split("\n")[0].strip()
-            url_match = post.split("URL: ")[-1].split("\n")[0].strip()
-            content_match = post.split("CONTENT: ")[-1]
-            print(title_match, url_match, content_match[:50], sep="\n")
-        1 / 0
+            title_match = post.split('TITLE: ')[1].split('URL: ')[0]
+            print('tit',title_match)
+            url_match = post.split("URL: ")[1].split("CONTENT:")[0]
+            print('url',url_match)
+            # print(url_match)
+            content_match = post.split("CONTENT:")[1]
+            print('~~~~',)
+            print(content_match[:32] + f"...{len(content_match[32:-32])}%%%L8R$..." + content_match[-32:])
+            print('~~~~',)
+            
+            1/0
     return blog_dict
 
 
