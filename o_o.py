@@ -48,7 +48,8 @@ def shttl(mmm, gabagool=None):
         """Return readability metrics for the given text."""
         r = Readability(text)
         m = "".join(filter(__ss, typeee))
-        return f"{m}: {getattr(r, m.strip())()}"
+        izzy = getattr(r, m.strip())()
+        return f"{m[:8]}: {izzy.score:.4f}"
 
     print(psycique(mmm, text=gabagool))
 

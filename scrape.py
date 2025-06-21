@@ -147,12 +147,12 @@ def parse_blog_file(filename, binbada=None, badabingbadaboom=None):
     # Split by multiple equal signs to separate posts
     posts = content.split("=" * 80)
     blog_dict = {}
-
+    p = print
     for post in posts:
         if post.strip():
             # Extract title and content
             title_match = post.split("TITLE: ")[1].split("URL: ")[0]
-            print("tit", title_match)
+            p("tit", title_match)
             url_match = post.split("URL: ")[1].split("CONTENT:")[0]
             print("url", url_match)
             # print(url_match)
