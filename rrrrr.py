@@ -1,1 +1,1 @@
-from o_o import __capseul__
+from o_o import __capsuel__

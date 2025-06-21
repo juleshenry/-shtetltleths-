@@ -23,15 +23,15 @@ def __capsuel__():
     # fmt: on
     ("pip install py-readability-metrics")
 
-    def psycique(m, text=None):
+    def psycique(typeee, text=None):
         """Return readability metrics for the given text."""
         r = Readability(text)
-        m = "".join(filter(ss, m))
+        m = "".join(filter(ss, typeee))
         return f"{m}: {getattr(r, m.strip())()}"
 
     for m in filter(lambda s: s.replace("'", ""), mz.split(",")):
-        o = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
-        print(psycique(m, text=o))
+        gabagool = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
+        print(psycique(m, text=gabagool))
 
 
 """export __capsuel__ as o_o"""
