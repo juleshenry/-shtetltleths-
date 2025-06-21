@@ -23,9 +23,14 @@ if __name__ == "__main__":
     # s_s_s = scrape_blog()
     # p = print
     output_dir = "scottaaronson_blog_data"
+    go = False 
     for filename in sorted(os.listdir(output_dir)):
         if filename.endswith(".txt"):
             filepath = os.path.join(output_dir, filename)
+            if 'scottaaronson_blog_2008_05.txt' in filename:
+                go = True
+            if not go:
+                return
             print(f"Parsing THE WHOLE MONTH AS ~~!!!@@@@@@{filepath}")
             print("*" * 100)
             for k, v in parse_blog_file(filepath, True, zoo_calc).items():
