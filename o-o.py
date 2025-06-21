@@ -1,8 +1,7 @@
-"""u = "pip install py-readability-metrics"
+"""
+u = "pip install py-readability-metrics"
 from readability import Readability
-
 r = Readability(u)
-
 r.flesch_kincaid()
 r.flesch()
 r.gunning_fog()
@@ -16,22 +15,23 @@ r.spache()
 
 from readability import Readability
 
-# fmt: off
-ss=lambda s: (k:=s.strip()).isalpha() or k=='_'
-mz="""'flesch_kincaid','flesch','gunning_fog','coleman_liau','dale_chall','ari','linsear_write','smog','spache' """
-# fmt: on
-("pip install py-readability-metrics")
+
+def __capsuel__():
+    # fmt: off
+    ss=lambda s: (k:=s.strip()).isalpha() or k=='_'
+    mz="""'flesch_kincaid','flesch','gunning_fog','coleman_liau','dale_chall','ari','linsear_write','smog','spache' """
+    # fmt: on
+    ("pip install py-readability-metrics")
+
+    def psycique(m, text=None):
+        """Return readability metrics for the given text."""
+        r = Readability(text)
+        m = "".join(filter(ss, m))
+        return f"{m}: {getattr(r, m.strip())()}"
+
+    for m in filter(lambda s: s.replace("'", ""), mz.split(",")):
+        o = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
+        print(psycique(m, text=o))
 
 
-def psycique(m, text=None):
-    """Return readability metrics for the given text."""
-    # print("!!!!")
-    r = Readability(text)
-    m = "".join(filter(ss, m))
-    return f"{m}: {getattr(r, m.strip())()}"
-
-
-for m in filter(lambda s: s.replace("'", ""), mz.split(",")):
-    # print(m)
-    o = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
-    print(psycique(m, text=o))
+"""export __capsuel__ as o_o"""
