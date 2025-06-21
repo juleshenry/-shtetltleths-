@@ -138,39 +138,41 @@ def scrape_blog():
     print(f"Scraping complete. Total posts scraped: {len(all_posts)}")
     return all_posts
 
-
+def ooo(s,ss):print(*[s,ss],sep="\n",end="\n\n")
 def parse_blog_file(filename, binbada=None, badabingbadaboom=None):
-    print = lambda *a: a
+    # p = print
+    # print = lambda *a: a
     with open(filename, "r", encoding="utf-8") as f:
         content = f.read()
 
     # Split by multiple equal signs to separate posts
     posts = content.split("=" * 80)
     blog_dict = {}
-    p = print
+    
     for post in posts:
         if post.strip():
             # Extract title and content
-            title_match = post.split("TITLE: ")[1].split("URL: ")[0]
-            p("tit", title_match)
+            title_match = post.split("TITLE:")[1].split("URL:")[0]
+            print("tit", title_match)
             url_match = post.split("URL: ")[1].split("CONTENT:")[0]
             print("url", url_match)
             # print(url_match)
             content_match = post.split("CONTENT:")[1]
-            print(
-                "~~~~",
-            )
+            # print(
+            #     "~~~~",
+            # )
             print(
                 content_match[:32]
                 + f"...{len(content_match[32:-32])}%%%L8R$..."
                 + content_match[-32:]
             )
-            print(
-                "~~~~",
-            )
+            # print(
+            #     "~~~~",
+            # )
             if binbada:
                 badabingbadaboom(content)
             print("!!" * 99)
+            # 1/0
     return blog_dict
 
 
