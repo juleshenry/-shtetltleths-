@@ -14,24 +14,36 @@ r.spache()
 """
 
 from readability import Readability
-
+# fmt: off
+__ss=lambda s: (k:=s.strip()).isalpha() or k=='_'
+__mz="""'flesch_kincaid','flesch','gunning_fog','coleman_liau','dale_chall','ari','linsear_write','smog','spache' """
+# fmt: on
 
 def __capsuel__():
-    # fmt: off
-    ss=lambda s: (k:=s.strip()).isalpha() or k=='_'
-    mz="""'flesch_kincaid','flesch','gunning_fog','coleman_liau','dale_chall','ari','linsear_write','smog','spache' """
-    # fmt: on
+
     ("pip install py-readability-metrics")
 
     def psycique(typeee, text=None):
         """Return readability metrics for the given text."""
         r = Readability(text)
-        m = "".join(filter(ss, typeee))
+        m = "".join(filter(__ss, typeee))
         return f"{m}: {getattr(r, m.strip())()}"
 
-    for m in filter(lambda s: s.replace("'", ""), mz.split(",")):
+    for m in filter(lambda s: s.replace("'", ""), __mz.split(",")):
         gabagool = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
         print(psycique(m, text=gabagool))
 
+def shttl(mmm):
+    gabagool = ". ".join([" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)])
+    def psycique(typeee, text=None):
+        """Return readability metrics for the given text."""
+        r = Readability(text)
+        m = "".join(filter(__ss, typeee))
+        return f"{m}: {getattr(r, m.strip())()}"
+    print(psycique(mmm, text=gabagool))
 
+'''
+for uuy in filter(lambda s: s.replace("'", ""), __mz.split(",")):
+    shttl(uuy)
+'''
 """export __capsuel__ as o_o"""
