@@ -61,7 +61,7 @@ def shttl(metric, gabagool=None):
             izzy = getattr(r, purify_metric.strip())()  
         except:
             for s in range(2,11):
-                print(")))))))))>-  "*3 + s)
+                print(")))))))))>-  "*3 + str(s))
                 r = Readability(text*s)
                 izzy = getattr(r, purify_metric.strip())()  
         ggg = {
