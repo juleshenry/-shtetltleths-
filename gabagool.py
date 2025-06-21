@@ -30,7 +30,7 @@ if __name__ == "__main__":
             if 'scottaaronson_blog_2008_05.txt' in filename:
                 go = True
             if not go:
-                return
+                continue
             print(f"Parsing THE WHOLE MONTH AS ~~!!!@@@@@@{filepath}")
             print("*" * 100)
             for k, v in parse_blog_file(filepath, True, zoo_calc).items():

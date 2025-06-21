@@ -60,8 +60,10 @@ def shttl(metric, gabagool=None):
         try:
             izzy = getattr(r, purify_metric.strip())()  
         except:
-            r = Readability(text*2)
-            izzy = getattr(r, purify_metric.strip())()  
+            for s in range(2,11):
+                print(")))))))))>-  "*3 + s)
+                r = Readability(text*s)
+                izzy = getattr(r, purify_metric.strip())()  
         ggg = {
             s: getattr(izzy, s, None)
             for s in ["grade_level", "grade_levels", "ease", "score"]
