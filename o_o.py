@@ -58,16 +58,16 @@ def shttl(metric, gabagool=None):
         r = Readability(text)
         purify_metric = "".join(filter(__ss, metric))
         try:
-            izzy = getattr(r, purify_metric.strip())()  
+            izzy = getattr(r, purify_metric.strip())()
         except Exception as ee:
-            so = (text.split('CONTENT:')[1].split('.')[0].replace('\n','')+'. ')
+            so = text.split("CONTENT:")[1].split(".")[0].replace("\n", "") + ". "
             int_30 = 0
-            if '30 sentences. 'in str(ee):
-                int_30 = int(str(ee).split('30 sentences. ')[1].split(' ')[0])
+            if "30 sentences. " in str(ee):
+                int_30 = int(str(ee).split("30 sentences. ")[1].split(" ")[0])
             r = Readability(text + text * (30 - int_30))
             print(so)
-            izzy = getattr(r, purify_metric.strip())()  
-                    
+            izzy = getattr(r, purify_metric.strip())()
+
         ggg = {
             s: getattr(izzy, s, None)
             for s in ["grade_level", "grade_levels", "ease", "score"]
