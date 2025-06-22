@@ -49,14 +49,16 @@ def shttl(metric, gabagool=None):
 
         #     except ReadabilityException as e:
         # if 'SMOG requires 30 sentences' in str(e):
-        texttt = text.split("CONTENT:")[1].split(".")[0].replace("\n", "") + ". "
-        rat = texttt.split(". ")
+        text = text.split("CONTENT:")[1]  + ". "
+        text_sentenced = text #text.split(".")[0].replace("\n", "")
+        # print("######")
+        rat = text_sentenced.split(". ")
         if len(rat) < 30:
             text += ". ".join(rat)[: 30 - len(rat)]
-        rat2 = texttt.split(" ")
+        rat2 = text_sentenced.split(" ")
         if len(rat2) < 100:
             rat2 += rat2[: 100 - len(rat2)]
-        r = Readability(texttt)
+        r = Readability(text)
         purify_metric = "".join(filter(__ss, metric))
         try:
             izzy = getattr(r, purify_metric.strip())()
@@ -64,12 +66,18 @@ def shttl(metric, gabagool=None):
             int_30 = 0
             if "30 sentences. " in str(ee):
                 int_30 = int(str(ee).split("30 sentences. ")[1].split(" ")[0])
-            r = Readability(texttt + texttt * (30 - int_30))
-            # print(so)
+            fin_text = text + text_sentenced * (30 - int_30)
+            r = Readability(fin_text)
             try:
                 izzy = getattr(r, purify_metric.strip())()
-            except:
-                print(list(map(lambda k:'\n'.join(k),['-'*99]*3)),texttt)
+            except Exception as e:
+                print('\n'+'$'*99+'\n')
+                print(fin_text)
+                print('\n'+'$'*99+'\n')
+                raise e
+            # print(fin_text)
+            # except:
+            #     print(list(map(lambda k:'\n'.join(k),['-'*99]*3)),texttt)
 
         ggg = {
             s: getattr(izzy, s, None)

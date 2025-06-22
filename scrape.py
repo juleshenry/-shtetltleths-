@@ -115,22 +115,17 @@ def parse_blog_file(filename, sema=None, zooc=None):
         goombah = {}
         if post.strip():
             title_match = post.split("TITLE:")[1].split("URL:")[0]
-            print()
-            print(f"PPPPPPP:::{title_match}:!!!!", end='')
-            print()
-            goombah["tit"] = title_match
+            # print()
+            print(f"~~~~~:::{title_match}:!!!!", end='')
+            # print()
+            goombah["title"] = title_match
             url_match = post.split("URL: ")[1].split("CONTENT:")[0]
             goombah["url"] = url_match
             content_match = post.split("CONTENT:")[1]
-            goombah["con"] = (
-                "content"
-                + content_match[:32]
-                + f"...{len(content_match[32:-32])}%%%L8R$..."
-                + content_match[-32:]
-            )
-            print(*[(len(goombah["con"].split(a),), 'words...',goombah["con"]
-            if sema:
+            goombah["content"] = content_match
+            if sema and any(o.isalpha() for o in goombah['content'][:64]):
                 blog_dict[title_match]=zooc(content)
+
     return blog_dict
 
 
