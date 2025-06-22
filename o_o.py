@@ -49,22 +49,22 @@ def shttl(metric, gabagool=None):
 
         #     except ReadabilityException as e:
         # if 'SMOG requires 30 sentences' in str(e):
-        rat = text.split(". ")
+        texttt = text.split("CONTENT:")[1].split(".")[0].replace("\n", "") + ". "
+        rat = texttt.split(". ")
         if len(rat) < 30:
             text += ". ".join(rat)[: 30 - len(rat)]
-        rat2 = text.split(" ")
+        rat2 = texttt.split(" ")
         if len(rat2) < 100:
             rat2 += rat2[: 100 - len(rat2)]
-        r = Readability(text)
+        r = Readability(texttt)
         purify_metric = "".join(filter(__ss, metric))
         try:
             izzy = getattr(r, purify_metric.strip())()
         except Exception as ee:
-            so = text.split("CONTENT:")[1].split(".")[0].replace("\n", "") + ". "
             int_30 = 0
             if "30 sentences. " in str(ee):
                 int_30 = int(str(ee).split("30 sentences. ")[1].split(" ")[0])
-            r = Readability(text + text * (30 - int_30))
+            r = Readability(texttt + texttt * (30 - int_30))
             # print(so)
             izzy = getattr(r, purify_metric.strip())()
 
