@@ -1,7 +1,0 @@
-TITLE: Quantum miscellany
-URL: https://scottaaronson.blog/?m=202309
-CONTENT:
-
-
-================================================================================
-

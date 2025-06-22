@@ -116,7 +116,7 @@ def parse_blog_file(filename, sema=None, zooc=None):
         if post.strip():
             title_match = post.split("TITLE:")[1].split("URL:")[0]
             print()
-            print(f"Processing title: {title_match}: : :: :: : :: !!!!")
+            print(f"PPPPPPP:::{title_match}:!!!!", end='')
             print()
             goombah["tit"] = title_match
             url_match = post.split("URL: ")[1].split("CONTENT:")[0]
@@ -128,6 +128,7 @@ def parse_blog_file(filename, sema=None, zooc=None):
                 + f"...{len(content_match[32:-32])}%%%L8R$..."
                 + content_match[-32:]
             )
+            print(len(goombah["con"].split(' ')), 'words...')
             if sema:
                 blog_dict[title_match]=zooc(content)
     return blog_dict

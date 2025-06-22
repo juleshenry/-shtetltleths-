@@ -21,8 +21,8 @@ if __name__ == "__main__":
     for filename in sorted(os.listdir(output_dir)):
         if filename.endswith(".txt"):
             filepath = os.path.join(output_dir, filename)
-            if 'scottaaronson_blog_2010_01.txt' in filename:
-                go = True
+            if 'scottaaronson_blog_2023_10.txt' in filename:
+                go = True 
             if not go:
                 continue
             print(f"Parsing THE WHOLE MONTH AS ~~!!!@@@@@@{filepath}")

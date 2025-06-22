@@ -66,7 +66,10 @@ def shttl(metric, gabagool=None):
                 int_30 = int(str(ee).split("30 sentences. ")[1].split(" ")[0])
             r = Readability(texttt + texttt * (30 - int_30))
             # print(so)
-            izzy = getattr(r, purify_metric.strip())()
+            try:
+                izzy = getattr(r, purify_metric.strip())()
+            except:
+                print(list(map(lambda k:'\n'.join(k),['-'*99]*3)),texttt)
 
         ggg = {
             s: getattr(izzy, s, None)
