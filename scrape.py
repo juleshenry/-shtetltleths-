@@ -128,7 +128,7 @@ def parse_blog_file(filename, sema=None, zooc=None):
                 + f"...{len(content_match[32:-32])}%%%L8R$..."
                 + content_match[-32:]
             )
-            print(len(goombah["con"].split(' ')), 'words...')
+            print(*[(len(goombah["con"].split(a),), 'words...',goombah["con"]
             if sema:
                 blog_dict[title_match]=zooc(content)
     return blog_dict
