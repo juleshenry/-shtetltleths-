@@ -103,29 +103,33 @@ def scrape_blog():
     print(f"Scraping complete. Total posts scraped: {len(all_posts)}")
     return all_posts
 
+
 def ooo(s, ss):
     print(*[s, ss], sep="\n", end="\n\n")
+
 
 def parse_blog_file(filename, sema=None, zoo_calc=None):
     with open(filename, "r", encoding="utf-8") as f:
         content = f.read()
     posts = content.split("=" * 80)
-    blog_dict = {}
+    post_stats_arr = []
     for post in posts:
-        goombah = {}
-        if post.strip():
-            title_match = post.split("TITLE:")[1].split("URL:")[0]
-            goombah["title"] = title_match
-            url_match = post.split("URL: ")[1].split("CONTENT:")[0]
-            goombah["url"] = url_match
-            print(f"~~~~{title_match}", end='')
-            content_match = post.split("CONTENT:")[1]
-            goombah["content"] = content_match
-            print("len conte",len(content_match))
-            if sema and any(o.isalpha() for o in goombah['content'][:64]):
-                goombah.update(**zoo_calc(content))
-                blog_dict[title_match]=goombah
-    return blog_dict
+        if not post.strip():
+            continue
+        post_stats = {}
+
+        title_match = post.split("TITLE:")[1].split("URL:")[0]
+        url_match = post.split("URL: ")[1].split("CONTENT:")[0]
+        content_match = post.split("CONTENT:")[1]
+
+        post_stats["title"] = title_match
+        post_stats["url"] = url_match
+        post_stats["content"] = content_match
+        
+        if sema and any(o.isalpha() for o in post_stats["content"][:64]):
+            post_stats.update(**zoo_calc(content))
+            post_stats_arr.append( post_stats )
+    return post_stats_arr
 
 
 def test_parse_blog_file():

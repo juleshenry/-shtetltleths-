@@ -1,36 +1,36 @@
 import os
 from scrape import parse_blog_file
-from o_o import lexical_analisis as apply_lexical_analisis
-
+from o_o import lexical_analisis
 
 # fmt: off
 __ss=lambda s: (k:=s.strip()).isalpha() or k=='_'
-__mz__="""'flesch_kincaid','flesch','gunning_fog','coleman_liau','dale_chall','ari','linsear_write','smog','spache' """
+__mz__="""flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
 # fmt: on
 
 
 def zoo_calc(txt):
-    e= {}
+    e = {}
     for lex_tech in filter(lambda s: s.replace("'", ""), __mz__.split(",")):
-        e[lex_tech]= apply_lexical_analisis(lex_tech, txt)
+        e[lex_tech] = lexical_analisis(lex_tech, txt)
     return e
+
 
 if __name__ == "__main__":
     output_dir = "scottaaronson_blog_data"
-    go = False 
+    go = False
     for filename in sorted(os.listdir(output_dir)):
         if filename.endswith(".txt"):
             filepath = os.path.join(output_dir, filename)
-            if 'scottaaronson_blog_2011_01.txt' in filename: #or True:
-                go = True 
+            if "scottaaronson_blog_2011_01.txt" in filename or True:
+                go = True
             if not go:
                 continue
             print(f"Parsing THE WHOLE MONTH AS ~~!!!@@@@@@{filepath}")
-            print("*" * 100)
-            for k, v in parse_blog_file(filepath, True, zoo_calc).items():
-                print(f"\n$$$$$$$Title: {k}")
-                for uuu, iii in v.items():
-                    print(f"{uuu}:{iii[:64]}")
+            # print("*" * 100)
+            stat_dict_arr = parse_blog_file(filepath, True, zoo_calc)
+            for stat_dict in stat_dict_arr:
+                for k, v in stat_dict.items():
+                    print(f"{k} ::: {'~' if k=='content' else v}")
 
 
 """"
