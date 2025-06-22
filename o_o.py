@@ -65,7 +65,7 @@ def shttl(metric, gabagool=None):
             if "30 sentences. " in str(ee):
                 int_30 = int(str(ee).split("30 sentences. ")[1].split(" ")[0])
             r = Readability(text + text * (30 - int_30))
-            print(so)
+            # print(so)
             izzy = getattr(r, purify_metric.strip())()
 
         ggg = {
