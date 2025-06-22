@@ -106,7 +106,7 @@ def scrape_blog():
 def ooo(s, ss):
     print(*[s, ss], sep="\n", end="\n\n")
 
-def parse_blog_file(filename, sema=None, zooc=None):
+def parse_blog_file(filename, sema=None, zoo_calc=None):
     with open(filename, "r", encoding="utf-8") as f:
         content = f.read()
     posts = content.split("=" * 80)
@@ -115,17 +115,16 @@ def parse_blog_file(filename, sema=None, zooc=None):
         goombah = {}
         if post.strip():
             title_match = post.split("TITLE:")[1].split("URL:")[0]
-            # print()
-            print(f"~~~~~:::{title_match}:!!!!", end='')
-            # print()
             goombah["title"] = title_match
             url_match = post.split("URL: ")[1].split("CONTENT:")[0]
             goombah["url"] = url_match
+            print(f"~~~~{title_match}", end='')
             content_match = post.split("CONTENT:")[1]
             goombah["content"] = content_match
+            print("len conte",len(content_match))
             if sema and any(o.isalpha() for o in goombah['content'][:64]):
-                blog_dict[title_match]=zooc(content)
-
+                goombah.update(**zoo_calc(content))
+                blog_dict[title_match]=goombah
     return blog_dict
 
 

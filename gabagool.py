@@ -1,6 +1,6 @@
 import os
 from scrape import parse_blog_file
-from o_o import shttl as __ot
+from o_o import lexical_analisis as apply_lexical_analisis
 
 
 # fmt: off
@@ -10,10 +10,10 @@ __mz__="""'flesch_kincaid','flesch','gunning_fog','coleman_liau','dale_chall','a
 
 
 def zoo_calc(txt):
-    return {
-        uuy: __ot(uuy, txt)
-        for uuy in filter(lambda s: s.replace("'", ""), __mz__.split(","))
-    }
+    e= {}
+    for lex_tech in filter(lambda s: s.replace("'", ""), __mz__.split(",")):
+        e[lex_tech]= apply_lexical_analisis(lex_tech, txt)
+    return e
 
 if __name__ == "__main__":
     output_dir = "scottaaronson_blog_data"
@@ -21,7 +21,7 @@ if __name__ == "__main__":
     for filename in sorted(os.listdir(output_dir)):
         if filename.endswith(".txt"):
             filepath = os.path.join(output_dir, filename)
-            if 'scottaaronson_blog_2006_07.txt' in filename or True:
+            if 'scottaaronson_blog_2011_01.txt' in filename: #or True:
                 go = True 
             if not go:
                 continue
@@ -30,7 +30,7 @@ if __name__ == "__main__":
             for k, v in parse_blog_file(filepath, True, zoo_calc).items():
                 print(f"\n$$$$$$$Title: {k}")
                 for uuu, iii in v.items():
-                    print(uuu, iii)
+                    print(f"{uuu}:{iii[:64]}")
 
 
 """"

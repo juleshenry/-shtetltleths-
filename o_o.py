@@ -38,7 +38,7 @@ def __capsuel__():
         print(psycique(m, text=gabagool))
 
 
-def shttl(metric, gabagool=None):
+def lexical_analisis(metric, gabagool=None):
     if not gabagool:
         gabagool = ". ".join(
             [" ".join(chr(65 + i) * 3 for i in range(26)) for _ in range(30)]
@@ -71,14 +71,11 @@ def shttl(metric, gabagool=None):
             try:
                 izzy = getattr(r, purify_metric.strip())()
             except Exception as e:
-                print('\n'+'$'*99+'\n')
-                print(fin_text)
-                print('\n'+'$'*99+'\n')
+                f = lambda:print('\n'+('$#@!~`'*9+'\n')*2)
+                f()
+                print(fin_text[:512])
+                f()
                 raise e
-            # print(fin_text)
-            # except:
-            #     print(list(map(lambda k:'\n'.join(k),['-'*99]*3)),texttt)
-
         ggg = {
             s: getattr(izzy, s, None)
             for s in ["grade_level", "grade_levels", "ease", "score"]
