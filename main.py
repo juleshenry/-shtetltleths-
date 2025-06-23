@@ -4,6 +4,7 @@ import ollama
 # 0. Stats. Average words, average post length
 # 00. historical metrics
 
+
 def nlp_classify(text):
     prompt = (
         "Categorize the following blog post into its major topics. "
@@ -32,8 +33,13 @@ class Metrixoid:
     def fill_hash(self, list_strs, t__t=None):
         self.hash = {ls: t__t() if t__t else t__t for ls in list_strs}
 
-    def add_float_hash(self, key, val, n):
+    def add_float_hash(self, metric, metric_attr, value, n):
         """index-based rolling average
+
+        key of the hash map {metric: running_Avg}
+        self.hash[key]
+
+        val ... to be added
 
          class A:pass
         metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
@@ -48,13 +54,27 @@ class Metrixoid:
             mmm.add_float_hash(metrix_Strs[0], 'score',10 + 2)
         for a,bA in mmm.hash.items():
             print(a,getattr(bA,"rolling_average",None))
-        
+
         """
-        A = self.hash[key]
-        if n==1:
-            A.rolling_average = n
+        # metric-routes the A
+        metric_A = self.hash[metric]
+        # A.score_a =  getattr(A,metric_attr)
+        if n == 1:
+            setattr(metric_A, metric_attr, value)
         else:
-            A.rolling_average = A * (n - 1 ) / n + (1 / n ) * val
+            score = getattr(metric_A, metric_attr)
+            score *= (n - 1) / n
+            setattr(metric_A, metric_attr, score)
+            setattr(
+                metric_A,
+                metric_attr,
+                getattr(metric_A, metric_attr) + ((1 / n) * value),
+            )
+            print(metric_A)
+            print( getattr(metric_A, metric_attr))
+            # print(n,metric_attr)
+            # a.rolling_average += ((1 / n) * value)
+
 
 def parse_n_fill():
     """
@@ -88,19 +108,37 @@ def parse_n_fill():
 if __name__ == "__main__":
     __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
     mmm = Metrixoid({})
-    class A:pass
+
+    class A:
+        pass
+
     metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
-    mmm.fill_hash(
-       metrix_Strs, t__t=A
-    )
-    for a,bA in mmm.hash.items():
-        print(a,getattr(bA,"rolling_average",None))
-    mmm.add_float_hash(metrix_Strs[0], 'score', 0 + 1)
-    for a,bA in mmm.hash.items():
-        print(a,getattr(bA,"rolling_average",None))
-        mmm.add_float_hash(metrix_Strs[0], 'score', 1 + 2)
-    for a,bA in mmm.hash.items():
-        print(a,getattr(bA,"rolling_average",None))
+    mmm.fill_hash(metrix_Strs, t__t=A)
+
+    ex_triplet = (3,6,9,)
+    for a, bA in mmm.hash.items():
+        if getattr(bA, "score", None):
+            print(a, getattr(bA, "score", None))
+
+    metric = "flesch_kincaid"
+
+    mmm.add_float_hash(metric, "score", ex_triplet[0], 0 + 1)
+    for a, bA in mmm.hash.items():
+        if not getattr(bA, "score", None):
+            continue
+        print(a, getattr(bA, "score", None))
+
+    mmm.add_float_hash(metrix_Strs[0], "score", ex_triplet[1], 1 + 1)
+    for a, bA in mmm.hash.items():
+        if not getattr(bA, "score", None):
+            continue
+        print(a, getattr(bA, "score", None))
+
+    mmm.add_float_hash(metrix_Strs[0], "score", ex_triplet[2], 2 + 1)
+    for a, bA in mmm.hash.items():
+        if not getattr(bA, "score", None):
+            continue
+        print(a, getattr(bA, "score", None))
     # parse_n_fill()
 
 
