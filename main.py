@@ -50,11 +50,11 @@ class Metrixoid:
             print(a,getattr(bA,"rolling_average",None))
         
         """
-        Ass = self.hash[key]
+        A = self.hash[key]
         if n==1:
-            Ass.rolling_average = n
+            A.rolling_average = n
         else:
-            Ass.rolling_average = Ass * (n - 1 ) / n + (1 / n ) * val
+            A.rolling_average = A * (n - 1 ) / n + (1 / n ) * val
 
 def parse_n_fill():
     """
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     mmm.add_float_hash(metrix_Strs[0], 'score', 0 + 1)
     for a,bA in mmm.hash.items():
         print(a,getattr(bA,"rolling_average",None))
-        mmm.add_float_hash(metrix_Strs[0], 'score', 0 + 1)
+        mmm.add_float_hash(metrix_Strs[0], 'score', 1 + 2)
     for a,bA in mmm.hash.items():
         print(a,getattr(bA,"rolling_average",None))
     # parse_n_fill()
