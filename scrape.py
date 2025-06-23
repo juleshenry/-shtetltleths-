@@ -114,6 +114,8 @@ def parse_blog_file(filename, sema=None, zoo_calc=None):
     posts = content.split("=" * 80)
     post_stats_arr = []
     for post in posts:
+        print(post)
+        1/0
         if not post.strip():
             continue
         post_stats = {}
@@ -125,7 +127,10 @@ def parse_blog_file(filename, sema=None, zoo_calc=None):
         post_stats["title"] = title_match
         post_stats["url"] = url_match
         post_stats["content"] = content_match
-        
+        print(post_stats["title"] )
+        print(post_stats["content"] )
+        1/0
+
         if sema and any(o.isalpha() for o in post_stats["content"][:64]):
             post_stats.update(**zoo_calc(content))
             post_stats_arr.append( post_stats )
