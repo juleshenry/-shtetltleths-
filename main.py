@@ -3,10 +3,7 @@ import ollama
 
 # 0. Stats. Average words, average post length
 # 00. historical metrics
-# 1. Proper Name analyzer
 
-
-# 2. Subject classifier
 def nlp_classify(text):
     prompt = (
         "Categorize the following blog post into its major topics. "
@@ -36,8 +33,28 @@ class Metrixoid:
         self.hash = {ls: t__t() if t__t else t__t for ls in list_strs}
 
     def add_float_hash(self, key, val, n):
-        ss = self.hash[key]
-        self.hash[key] = ss * (n-1) / n + (1 /n ) * val
+        """index-based rolling average
+
+         class A:pass
+        metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
+        mmm.fill_hash(
+        metrix_Strs, t__t=A
+        )
+        for a,bA in mmm.hash.items():
+            print(a,getattr(bA,"rolling_average",None))
+        mmm.add_float_hash(metrix_Strs[0], 'score', 0 + 1)
+        for a,bA in mmm.hash.items():
+            print(a,getattr(bA,"rolling_average",None))
+            mmm.add_float_hash(metrix_Strs[0], 'score',10 + 2)
+        for a,bA in mmm.hash.items():
+            print(a,getattr(bA,"rolling_average",None))
+        
+        """
+        Ass = self.hash[key]
+        if n==1:
+            Ass.rolling_average = n
+        else:
+            Ass.rolling_average = Ass * (n - 1 ) / n + (1 / n ) * val
 
 def parse_n_fill():
     """
@@ -57,6 +74,7 @@ def parse_n_fill():
     """
     with open("shtetloptimized_stats.json") as f:
         data = json.load(f)
+        lua_based_ix = 1
         for entry in data[:5]:
             print(entry["date"])
             for stat in entry["stat_array"]:
@@ -70,8 +88,23 @@ def parse_n_fill():
 if __name__ == "__main__":
     __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
     mmm = Metrixoid({})
+    class A:pass
+    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
     mmm.fill_hash(
-        list(filter(lambda s: s.replace("'", ""), __mz__.split(","))), t__t=list
+       metrix_Strs, t__t=A
     )
-    print(mmm.hash)
-    parse_n_fill()
+    for a,bA in mmm.hash.items():
+        print(a,getattr(bA,"rolling_average",None))
+    mmm.add_float_hash(metrix_Strs[0], 'score', 0 + 1)
+    for a,bA in mmm.hash.items():
+        print(a,getattr(bA,"rolling_average",None))
+        mmm.add_float_hash(metrix_Strs[0], 'score', 0 + 1)
+    for a,bA in mmm.hash.items():
+        print(a,getattr(bA,"rolling_average",None))
+    # parse_n_fill()
+
+
+# 1. Proper Name analyzer
+
+
+# 2. Subject classifier
