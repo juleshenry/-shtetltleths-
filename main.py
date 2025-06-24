@@ -219,7 +219,7 @@ if __name__ == "__main__":
         data = json.load(f)
         # lua based index
         metr_ix = {m:1 for m in metrix_Strs}
-        for entry in data[:1]:
+        for entry in data[:1]: #data[:1]: ---< edebug...
             for stat in entry["stat_array"]:
                 score = None
                 for metric in metrix_Strs:
@@ -230,7 +230,7 @@ if __name__ == "__main__":
                         metr_ix[metric] += 1
 
     for metriac, Ao in mmm.hash.items():
-        print(Ao)
+        # print(Ao)
         print(metriac, Ao.score)
         print()
 # 1. Proper Name analyzer
