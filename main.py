@@ -1,5 +1,8 @@
+
 import json
 import ollama
+import numpy as np
+import calendar
 
 # 0. Stats. Average words, average post length
 # 00. historical metrics
@@ -199,10 +202,11 @@ docz3 = '''
     list(map(lambda a:print(a.score),mmm.hash.values()))
 
 '''
-
+docz4 = '''
 if __name__ == "__main__":
     __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
     mmm = Metrixoid({})
+
     class A:
         pass
 
@@ -213,26 +217,106 @@ if __name__ == "__main__":
     #         mmm.add_float_hash(metriac, "score", value, ix)
     # for metriac, Ao in mmm.hash.items():
     #     print(metriac, Ao.score)
-
-    print('#############')
+    metr_hist = Metrixoid({})
+    metr_hist.fill_hash(metrix_Strs, t__t=list)
+    print("#############")
     with open("shtetloptimized_stats.json") as f:
         data = json.load(f)
         # lua based index
-        metr_ix = {m:1 for m in metrix_Strs}
-        for entry in data[:1]: #data[:1]: ---< edebug...
+        metr_ix = {m: 1 for m in metrix_Strs}
+        for entry in data[:1]:  # data[:1]: ---< edebug...
+            print(entry['date'])
             for stat in entry["stat_array"]:
                 score = None
                 for metric in metrix_Strs:
-                    # print(stat[metric], metr_ix[metric])
                     met_score = stat[metric].get("score")
                     if met_score:
                         mmm.add_float_hash(metric, "score", met_score, metr_ix[metric])
                         metr_ix[metric] += 1
-
+                        metr_hist.hash[metric] += ([met_score])
+                        if 'smog' == metric:
+                            print(stat['content'])
+    print(metr_ix)
+    print("<3"*8)
     for metriac, Ao in mmm.hash.items():
-        # print(Ao)
-        print(metriac, Ao.score)
-        print()
+        print(metriac, Ao.score) # metr_hist.hash[metriac])
+'''
+
+if __name__ == "__main__":
+    __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
+    mmm = Metrixoid({})
+
+    class A:
+        pass
+
+    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
+    mmm.fill_hash(metrix_Strs, t__t=A)
+    metr_hist = Metrixoid({})
+    metr_hist.fill_hash(metrix_Strs, t__t=list)
+    print("#############")
+    with open("shtetloptimized_stats.json") as f:
+        data = json.load(f)
+        # lua based index
+        metr_ix = {m: 1 for m in metrix_Strs}
+        for entry in data:  # data[:1]: ---< edebug...
+            print(entry['date'])
+            for stat in entry["stat_array"]:
+                score = None
+                for metric in metrix_Strs:
+                    met_score = stat[metric].get("score")
+                    if met_score:
+                        mmm.add_float_hash(metric, "score", met_score, metr_ix[metric])
+                        metr_ix[metric] += 1
+                        metr_hist.hash[metric] += ([met_score])
+                    else:
+                        metr_hist.hash[metric] += ([0]) # fill with zeroes if no score for entry
+    print(metr_ix)
+    print("<3"*8)
+    for metriac, Ao in mmm.hash.items():
+        # avg
+        # score
+        # hash 
+        print(metriac)
+        print(Ao.score)
+
+    import matplotlib.pyplot as plt
+
+    # Prepare x-axis: one value per month starting Jan 2005
+    num_points = len(next(iter(metr_hist.hash.values())))
+    months = np.arange(num_points)
+    start_year = 2005
+    start_month = 10
+
+    # Generate list of month labels
+    month_labels = []
+    year = start_year
+    month = start_month
+    for _ in range(num_points):
+        month_labels.append(f"{calendar.month_abbr[month]} {year}")
+        month += 1
+        if month > 12:
+            month = 1
+            year += 1
+
+    plt.figure(figsize=(14, 8))
+    for metriac, scores in metr_hist.hash.items():
+        if not scores:
+            continue
+        plt.plot(months, scores, label=metriac)
+        plt.axhline(y=Ao.score, color=plt.gca().lines[-1].get_color(), linestyle='--', linewidth=1, alpha=0.5)
+
+    plt.title("Shtetl-Optimized metriac")
+    plt.xlabel("Month (starting Jan 2005)")
+    plt.ylabel("Score")
+    plt.legend()
+    plt.xticks(
+        ticks=np.arange(0, num_points, max(1, num_points // 12)),
+        labels=[month_labels[i] for i in range(0, num_points, max(1, num_points // 12))],
+        rotation=45,
+    )
+    plt.tight_layout()
+    plt.show()
+
 # 1. Proper Name analyzer
 
 
