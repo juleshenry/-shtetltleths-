@@ -35,12 +35,9 @@ class Metrixoid:
 
     def add_float_hash(self, metric, metric_attr, value, n):
         """index-based rolling average
-
         key of the hash map {metric: running_Avg}
         self.hash[key]
-
-        val ... to be added
-
+        val
          class A:pass
         metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
         mmm.fill_hash(
@@ -54,8 +51,8 @@ class Metrixoid:
             mmm.add_float_hash(metrix_Strs[0], 'score',10 + 2)
         for a,bA in mmm.hash.items():
             print(a,getattr(bA,"rolling_average",None))
-
         """
+        # print(metric, metric_attr, value, n)
         if n == 1:
             setattr(self.hash[metric], metric_attr, value)
         else:
@@ -140,7 +137,7 @@ if __name__ == "__main__":
     # parse_n_fill()
 """
 
-if __name__ == "__main__":
+docz2 = '''
     __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
     mmm = Metrixoid({})
 
@@ -184,7 +181,40 @@ if __name__ == "__main__":
     for metriac, Ao in mmm.hash.items():
         Ao_score = getattr(Ao, "score", None)
         print(metriac, Ao_score)
+'''
 
+docz3 = '''
+    __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
+    mmm = Metrixoid({})
+    class A:
+        pass
+    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
+    mmm.fill_hash(metrix_Strs, t__t=A)
+    for metriac, Ao in mmm.hash.items():
+        for ix,value in zip(range(1,1+10),range(69,69+10)):
+            mmm.add_float_hash(
+                metriac,"score",value, ix)
+            
+        
+    list(map(lambda a:print(a.score),mmm.hash.values()))
+'''
+
+if __name__ == "__main__":
+    __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
+    mmm = Metrixoid({})
+
+    class A:
+        pass
+
+    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
+    mmm.fill_hash(metrix_Strs, t__t=A)
+    for ix, value in zip(range(1, 1 + 10), range(69, 69 + 10)):
+        print(ix, value)
+        for metriac, Ao in mmm.hash.items():
+            print(metriac,end=', ')
+            mmm.add_float_hash(metriac, "score", value, ix)
+        print()
+        print(">>>flesch", "score", value, ix)
 # 1. Proper Name analyzer
 
 
