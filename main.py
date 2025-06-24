@@ -93,8 +93,8 @@ def parse_n_fill():
             print(entry["date"])
             for stat in entry["stat_array"]:
                 # if ('error' in stat.values().keys())
-                for v, k in stat.items():
-                    print(v)
+                for metriac, k in stat.items():
+                    print(metriac)
                     print(str(k[:40]).strip() + "... ~~~" if type(k) == str else k)
                     print()
 
@@ -188,33 +188,51 @@ docz3 = '''
     mmm = Metrixoid({})
     class A:
         pass
+
     metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
     mmm.fill_hash(metrix_Strs, t__t=A)
-    for metriac, Ao in mmm.hash.items():
-        for ix,value in zip(range(1,1+10),range(69,69+10)):
-            mmm.add_float_hash(
-                metriac,"score",value, ix)
-            
-        
+    # for ix, value in zip(range(1, 1 + 10), range(0, 0 + 10)):
+    #     for metriac, Ao in mmm.hash.items():
+    #         mmm.add_float_hash(metriac, "score", value, ix)
+    # for metriac, Ao in mmm.hash.items():
+    #     print(metriac, Ao.score)
     list(map(lambda a:print(a.score),mmm.hash.values()))
+
 '''
 
 if __name__ == "__main__":
     __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
     mmm = Metrixoid({})
-
     class A:
         pass
 
     metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
     mmm.fill_hash(metrix_Strs, t__t=A)
-    for ix, value in zip(range(1, 1 + 10), range(69, 69 + 10)):
-        print(ix, value)
-        for metriac, Ao in mmm.hash.items():
-            print(metriac,end=', ')
-            mmm.add_float_hash(metriac, "score", value, ix)
+    # for ix, value in zip(range(1, 1 + 10), range(0, 0 + 10)):
+    #     for metriac, Ao in mmm.hash.items():
+    #         mmm.add_float_hash(metriac, "score", value, ix)
+    # for metriac, Ao in mmm.hash.items():
+    #     print(metriac, Ao.score)
+
+    print('#############')
+    with open("shtetloptimized_stats.json") as f:
+        data = json.load(f)
+        # lua based index
+        metr_ix = {m:1 for m in metrix_Strs}
+        for entry in data[:1]:
+            for stat in entry["stat_array"]:
+                score = None
+                for metric in metrix_Strs:
+                    # print(stat[metric], metr_ix[metric])
+                    met_score = stat[metric].get("score")
+                    if met_score:
+                        mmm.add_float_hash(metric, "score", met_score, metr_ix[metric])
+                        metr_ix[metric] += 1
+
+    for metriac, Ao in mmm.hash.items():
+        print(Ao)
+        print(metriac, Ao.score)
         print()
-        print(">>>flesch", "score", value, ix)
 # 1. Proper Name analyzer
 
 
