@@ -299,7 +299,7 @@ if __name__ == "__main__":
             year += 1
 
     plt.figure(figsize=(14, 8))
-    for metriac, scores in metr_hist.hash.items():
+    for metriac, scores in list(metr_hist.hash.items())[:1]:
         if not scores:
             continue
         plt.plot(months, scores, label=metriac)
