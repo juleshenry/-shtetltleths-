@@ -1,4 +1,3 @@
-
 import json
 import ollama
 import numpy as np
@@ -249,36 +248,38 @@ if __name__ == "__main__":
     class A:
         pass
 
+    # key:metric, value:A_class
     metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
     mmm.fill_hash(metrix_Strs, t__t=A)
+
+    # {key:metric, value:list[float]}
     metr_hist = Metrixoid({})
     metr_hist.fill_hash(metrix_Strs, t__t=list)
-    print("#############")
+
     with open("shtetloptimized_stats.json") as f:
         data = json.load(f)
-        # lua based index
         metr_ix = {m: 1 for m in metrix_Strs}
-        for entry in data:  # data[:1]: ---< edebug...
-            print(entry['date'])
+        for entry in data:
             for stat in entry["stat_array"]:
-                score = None
                 for metric in metrix_Strs:
                     met_score = stat[metric].get("score")
                     if met_score:
                         mmm.add_float_hash(metric, "score", met_score, metr_ix[metric])
                         metr_ix[metric] += 1
-                        metr_hist.hash[metric] += ([met_score])
+                        metr_hist.hash[metric] += [met_score]
                     else:
-                        metr_hist.hash[metric] += ([0]) # fill with zeroes if no score for entry
+                        metr_hist.hash[metric] += [
+                            0
+                        ]  # fill with zeroes if no score for entry
     print(metr_ix)
-    print("<3"*8)
+    print("<3" * 8)
     for metriac, Ao in mmm.hash.items():
         # avg
         # score
-        # hash 
+        # hash
         print(metriac)
         print(Ao.score)
-
+    # 1/0
     import matplotlib.pyplot as plt
 
     # Prepare x-axis: one value per month starting Jan 2005
@@ -299,23 +300,30 @@ if __name__ == "__main__":
             year += 1
 
     plt.figure(figsize=(14, 8))
-    for metriac, scores in list(metr_hist.hash.items())[:1]:
-        if not scores:
+    for metriac, score_obj in metr_hist.hash.items():
+        if not score_obj:
             continue
-        plt.plot(months, scores, label=metriac)
-        plt.axhline(y=Ao.score, color=plt.gca().lines[-1].get_color(), linestyle='--', linewidth=1, alpha=0.5)
-
-    plt.title("Shtetl-Optimized metriac")
-    plt.xlabel("Month (starting Jan 2005)")
-    plt.ylabel("Score")
-    plt.legend()
-    plt.xticks(
-        ticks=np.arange(0, num_points, max(1, num_points // 12)),
-        labels=[month_labels[i] for i in range(0, num_points, max(1, num_points // 12))],
-        rotation=45,
-    )
-    plt.tight_layout()
-    plt.show()
+        plt.plot(months, score_obj, label=metriac)
+        plt.axhline(
+            y=mmm.hash[metriac].score,
+            color=plt.gca().lines[-1].get_color(),
+            linestyle=":",
+            linewidth=1,
+            alpha=0.5,
+        )
+        plt.title(f"Shtetl-Optimized :{metriac} :avg({mmm.hash[metriac].score})")
+        plt.xlabel("Month (starting October 2005)")
+        plt.ylabel("Score")
+        plt.legend()
+        plt.xticks(
+            ticks=np.arange(0, num_points, max(1, num_points // 12)),
+            labels=[
+                month_labels[i] for i in range(0, num_points, max(1, num_points // 12))
+            ],
+            rotation=45,
+        )
+        plt.tight_layout()
+        plt.show()
 
 # 1. Proper Name analyzer
 
