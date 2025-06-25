@@ -300,30 +300,35 @@ if __name__ == "__main__":
             year += 1
 
     plt.figure(figsize=(14, 8))
-    for metriac, score_obj in metr_hist.hash.items():
+    num_metrics = len(metrix_Strs)
+    ncols = 3
+    nrows = (num_metrics + ncols - 1) // ncols
+
+    for idx, metriac in enumerate(metrix_Strs):
+        score_obj = metr_hist.hash[metriac]
         if not score_obj:
             continue
-        plt.plot(months, score_obj, label=metriac)
-        plt.axhline(
+        ax = plt.subplot(nrows, ncols, idx + 1)
+        ax.plot(months, score_obj, label=metriac)
+        ax.axhline(
             y=mmm.hash[metriac].score,
-            color=plt.gca().lines[-1].get_color(),
+            color="green",
             linestyle=":",
             linewidth=1,
             alpha=0.5,
         )
-        plt.title(f"Shtetl-Optimized :{metriac} :avg({mmm.hash[metriac].score})")
-        plt.xlabel("Month (starting October 2005)")
-        plt.ylabel("Score")
-        plt.legend()
-        plt.xticks(
-            ticks=np.arange(0, num_points, max(1, num_points // 12)),
-            labels=[
-                month_labels[i] for i in range(0, num_points, max(1, num_points // 12))
-            ],
+        ax.set_title(f"{metriac}\navg={mmm.hash[metriac].score:.2f}")
+        ax.set_xlabel("Month")
+        ax.set_ylabel("Score")
+        ax.set_xticks(np.arange(0, num_points, max(1, num_points // 12)))
+        ax.set_xticklabels(
+            [month_labels[i] for i in range(0, num_points, max(1, num_points // 12))],
             rotation=45,
+            fontsize=8,
         )
-        plt.tight_layout()
-        plt.show()
+        ax.legend()
+    plt.tight_layout()
+    plt.show()
 
 # 1. Proper Name analyzer
 
