@@ -1,6 +1,31 @@
 import subprocess
 import sys
 import os
+import shutil
+
+ERASE_LIST = [
+    "simonwillison_all_blogs.csv",
+    "scottaaronson_blog_posts.csv",
+    "alexharri_posts.csv",
+    "juleshenry_posts.csv",
+    "scottaaronson_blog_data",
+    "scrapers/juleshenry_posts.csv",
+    "scrapers/alexharri_posts.csv",
+    "shtetloptimized_stats.json",
+    "stats_output.txt",
+    "writing_stats.png",
+    "writing_stats_time.png"
+]
+
+def cleanup():
+    print("--- Cleaning up existing data ---")
+    for item in ERASE_LIST:
+        if os.path.isdir(item):
+            print(f"Removing directory: {item}")
+            shutil.rmtree(item)
+        elif os.path.isfile(item):
+            print(f"Removing file: {item}")
+            os.remove(item)
 
 def run_command(command):
     print(f"Running: {' '.join(command)}")
@@ -14,6 +39,9 @@ def main():
     limit = "5" if test_mode else None
     
     print(f"Starting Scrape All {'(TEST MODE)' if test_mode else ''}")
+    
+    # Clean up before running
+    cleanup()
     
     # 1. Simon Willison
     print("\n--- Scraping Simon Willison ---")
@@ -38,12 +66,17 @@ def main():
     
     # 4. Scott Aaronson (ShtetlTleths)
     print("\n--- Scraping Scott Aaronson ---")
+    # Using 'update' command which scrapes and then updates CSV
     cmd4 = [sys.executable, "main.py", "update"]
     if limit:
         cmd4.extend(["--limit", limit])
     run_command(cmd4)
 
-    print("\nAll scrapers completed.")
+    # 5. Analysis
+    print("\n--- Running Analysis ---")
+    run_command([sys.executable, "analyze_csvs.py"])
+
+    print("\nAll scrapers and analysis completed.")
 
 if __name__ == "__main__":
     main()

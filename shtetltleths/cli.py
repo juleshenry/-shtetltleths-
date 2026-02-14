@@ -56,6 +56,9 @@ def plot_metrics(tracker, metric_names):
         ax.legend(fontsize='small')
 
     plt.tight_layout()
+    output_plot = "shtetl_metrics_plot.png"
+    plt.savefig(output_plot)
+    print(f"Plot saved to {output_plot}")
     plt.show()
 
 def run_analysis():

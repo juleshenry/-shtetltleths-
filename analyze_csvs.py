@@ -17,6 +17,9 @@ def parse_date(date_str):
     if not isinstance(date_str, str):
         return None
     
+    # Fix Sept -> Sep
+    date_str = date_str.replace('Sept', 'Sep')
+    
     # Strip ordinal suffixes like 1st, 2nd, 3rd, 4th
     date_str = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_str)
     
@@ -25,7 +28,9 @@ def parse_date(date_str):
         "%d %B %Y %I:%M %p", # 13 February 2026 11:38 pm
         "%d %B %Y",          # 13 February 2026
         "%b %d, %Y",         # Jan 17, 2026
+        "%B %d, %Y",         # January 17, 2026
         "%d %b %Y",          # 19 Jan 2026
+        "%A, %B %d, %Y",     # Monday, October 31, 2005
         "%Y-%m-%dT%H:%M:%S.%f", # 2026-02-14T...
         "%Y-%m-%d",          # 2026-01-19
     ]
@@ -63,9 +68,7 @@ def analyze_csv(file_path):
     df = df.dropna(subset=['post'])
     df = df[df['post'].astype(str).str.strip() != '']
     
-    # Sample if too large
-    if len(df) > 50:
-        df = df.sample(n=50, random_state=42)
+    print(f"Found {len(df)} posts in {file_path}")
     
     results = []
     for i, row in df.iterrows():

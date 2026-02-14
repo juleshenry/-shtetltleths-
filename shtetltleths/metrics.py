@@ -26,36 +26,39 @@ class MetricsTracker:
         self.averages[metric_name] = (self.averages[metric_name] * (n - 1) / n) + (score / n)
         self.history[metric_name].append(score)
 
-def get_readability_metrics(metric_name, text):
-    """
-    Calculates a specific readability metric for the given text.
-    """
-    # Most metrics in py-readability-metrics require 100 words
-    if len(text.split()) < 100:
-        return {"error": "Text too short (min 100 words)"}
-        
-    text += ". "
-    try:
-        r = Readability(text)
-        clean_metric = "".join(filter(lambda c: c.isalnum() or c == "_", metric_name)).strip()
-        metric_result = getattr(r, clean_metric)()
-        return {
-            s: getattr(metric_result, s, None)
-            for s in ["grade_level", "grade_levels", "ease", "score"]
-        }
-    except Exception as e:
-        return {"error": str(e).split("\n")[-1]}
-
 def calculate_all_metrics(text):
     """
     Calculates all supported readability metrics for the given text.
     """
+    # Most metrics in py-readability-metrics require 100 words
+    words = text.split()
+    if len(words) < 100:
+        return {m: {"error": "Text too short (min 100 words)"} for m in [
+            "flesch_kincaid", "flesch", "gunning_fog", "coleman_liau", 
+            "dale_chall", "ari", "linsear_write", "smog", "spache"
+        ]}
+        
+    text += ". "
     metrics_to_calculate = [
         "flesch_kincaid", "flesch", "gunning_fog", "coleman_liau", 
         "dale_chall", "ari", "linsear_write", "smog", "spache"
     ]
     
     results = {}
-    for metric in metrics_to_calculate:
-        results[metric] = get_readability_metrics(metric, text)
+    try:
+        r = Readability(text)
+        for metric_name in metrics_to_calculate:
+            try:
+                clean_metric = "".join(filter(lambda c: c.isalnum() or c == "_", metric_name)).strip()
+                metric_result = getattr(r, clean_metric)()
+                results[metric_name] = {
+                    s: getattr(metric_result, s, None)
+                    for s in ["grade_level", "grade_levels", "ease", "score"]
+                }
+            except Exception as e:
+                results[metric_name] = {"error": str(e).split("\n")[-1]}
+    except Exception as e:
+        for metric_name in metrics_to_calculate:
+            results[metric_name] = {"error": str(e).split("\n")[-1]}
+            
     return results
