@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import os
 import sys
 import re
+import argparse
 from datetime import datetime
 
 # Ensure we can import from the current directory
@@ -110,7 +111,33 @@ def analyze_csv(file_path):
             
     return pd.DataFrame(results)
 
+def remove_outliers(df, columns):
+    """Remove outliers using the IQR method per source."""
+    if df.empty:
+        return df
+        
+    filtered_dfs = []
+    for source, group in df.groupby('source'):
+        mask = pd.Series(True, index=group.index)
+        for col in columns:
+            if col in group.columns and group[col].notnull().any():
+                Q1 = group[col].quantile(0.25)
+                Q3 = group[col].quantile(0.75)
+                IQR = Q3 - Q1
+                lower_bound = Q1 - 1.5 * IQR
+                upper_bound = Q3 + 1.5 * IQR
+                # Only filter if we have enough data to calculate IQR reasonably
+                if IQR > 0:
+                    mask &= (group[col] >= lower_bound) & (group[col] <= upper_bound)
+        filtered_dfs.append(group[mask])
+    
+    return pd.concat(filtered_dfs) if filtered_dfs else df
+
 def main():
+    parser = argparse.ArgumentParser(description='Analyze blog post writing metrics from CSV files.')
+    parser.add_argument('--no-outliers', action='store_true', help='Remove outliers from the statistics calculation')
+    args = parser.parse_args()
+
     csv_files = [
         'scottaaronson_blog_posts.csv',
         'alexharri_posts.csv',
@@ -134,6 +161,10 @@ def main():
     
     # Define metrics to plot over time
     time_metrics = ['flesch_kincaid_grade', 'ari_grade', 'gunning_fog_grade', 'lexical_diversity', 'word_count']
+
+    if args.no_outliers:
+        print("Removing outliers...")
+        combined_df = remove_outliers(combined_df, time_metrics)
     
     # Final plot setup: 5 metrics over time
     fig, axes = plt.subplots(len(time_metrics), 1, figsize=(16, 6 * len(time_metrics)))
