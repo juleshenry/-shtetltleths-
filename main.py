@@ -1,297 +1,61 @@
 import json
-import ollama
 import numpy as np
 import calendar
+import matplotlib.pyplot as plt
 
-# 0. Stats. Average words, average post length
-# 00. historical metrics
-
-
-def nlp_classify(text):
-    prompt = (
-        "Categorize the following blog post into its major topics. "
-        "List the main themes or subjects discussed:\n\n"
-        f"{text}\n\n"
-        "Return a list of topics."
-    )
-    response = ollama.chat(model="phi3", messages=[{"role": "user", "content": prompt}])
-    # Extract topics from response
-    return response["message"]["content"]
-
-
-class MetricScore:
-
-    def __init__(self, metr_str="¿", score=None):
-        self.score = score
-        self.metric_str = metr_str
-
-
-class Metrixoid:
-
-    # running tally box
-    def __init__(self, hash={}):
-        self.hash = hash
-
-    def fill_hash(self, list_strs, t__t=None):
-        self.hash = {ls: t__t() if t__t else t__t for ls in list_strs}
-
-    def add_float_hash(self, metric, metric_attr, value, n):
-        """index-based rolling average
-        key of the hash map {metric: running_Avg}
-        self.hash[key]
-        val
-         class A:pass
-        metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
-        mmm.fill_hash(
-        metrix_Strs, t__t=A
-        )
-        for a,bA in mmm.hash.items():
-            print(a,getattr(bA,"rolling_average",None))
-        mmm.add_float_hash(metrix_Strs[0], 'score', 0 + 1)
-        for a,bA in mmm.hash.items():
-            print(a,getattr(bA,"rolling_average",None))
-            mmm.add_float_hash(metrix_Strs[0], 'score',10 + 2)
-        for a,bA in mmm.hash.items():
-            print(a,getattr(bA,"rolling_average",None))
-        """
-        # print(metric, metric_attr, value, n)
-        if n == 1:
-            setattr(self.hash[metric], metric_attr, value)
-        else:
-            score = getattr(self.hash[metric], metric_attr)
-            score *= (n - 1) / n
-            setattr(self.hash[metric], metric_attr, score)
-            setattr(
-                self.hash[metric],
-                metric_attr,
-                getattr(self.hash[metric], metric_attr) + ((1 / n) * value),
-            )
-            # print(metric_A)
-            # print( getattr(metric_A, metric_attr))
-            # print(n,metric_attr)
-            # a.rolling_average += ((1 / n) * value)
-
-
-def parse_n_fill():
+class MetricsTracker:
     """
-    if __name__ == '__main__':
-        with open('shtetloptimized_stats.json')as f:
-            data = json.load(f)
-            for entry in data[:5]:
-                print(entry["date"])
-                for stat in entry["stat_array"]:
-                    # if ('error' in stat.values().keys())
-                    for v,k in stat.items():
-                        print(v)
-                        print(str(k[:40]).strip()+'... ~~~' if type(k)==str else k)
-                        print()
-                    print()
-                    print()
+    Tracks rolling averages and historical data for various metrics.
     """
-    with open("shtetloptimized_stats.json") as f:
-        data = json.load(f)
-        lua_based_ix = 1
-        for entry in data[:5]:
-            print(entry["date"])
-            for stat in entry["stat_array"]:
-                # if ('error' in stat.values().keys())
-                for metriac, k in stat.items():
-                    print(metriac)
-                    print(str(k[:40]).strip() + "... ~~~" if type(k) == str else k)
-                    print()
+    def __init__(self):
+        self.averages = {}  # {metric_name: average_value}
+        self.counts = {}    # {metric_name: number_of_entries}
+        self.history = {}   # {metric_name: list_of_values}
 
+    def initialize_metrics(self, metric_names):
+        """Initializes trackers for the given list of metrics."""
+        for name in metric_names:
+            self.averages[name] = 0.0
+            self.counts[name] = 0
+            self.history[name] = []
 
-docz = """"
-if __name__ == "__main__":
-    __mz__ = '''flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache'''
-    mmm = Metrixoid({})
+    def add_score(self, metric_name, score):
+        """Adds a new score and updates the rolling average."""
+        if metric_name not in self.averages:
+            self.averages[metric_name] = 0.0
+            self.counts[metric_name] = 0
+            self.history[metric_name] = []
 
-    class A:
-        pass
+        self.counts[metric_name] += 1
+        n = self.counts[metric_name]
+        
+        # Update rolling average: avg_n = avg_{n-1} * (n-1)/n + score/n
+        self.averages[metric_name] = (self.averages[metric_name] * (n - 1) / n) + (score / n)
+        self.history[metric_name].append(score)
 
-    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
-    mmm.fill_hash(metrix_Strs, t__t=A)
+def load_stats(filename="shtetloptimized_stats.json"):
+    """Loads stats from the generated JSON file."""
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        print(f"Error loading {filename}: {e}")
+        return []
 
-    ex_triplet = (3,6,9,)
-    for a, bA in mmm.hash.items():
-        if getattr(bA, "score", None):
-            print(a, getattr(bA, "score", None))
+def plot_metrics(tracker, metric_names):
+    """Plots the historical metrics using matplotlib."""
+    if not tracker.history:
+        print("No data to plot.")
+        return
 
-    metric = "flesch_kincaid"
-
-    mmm.add_float_hash(metric, "score", ex_triplet[0], 0 + 1)
-    for a, bA in mmm.hash.items():
-        if not getattr(bA, "score", None):
-            continue
-        print(a, getattr(bA, "score", None))
-
-    mmm.add_float_hash(metrix_Strs[0], "score", ex_triplet[1], 1 + 1)
-    for a, bA in mmm.hash.items():
-        if not getattr(bA, "score", None):
-            continue
-        print(a, getattr(bA, "score", None))
-
-    mmm.add_float_hash(metrix_Strs[0], "score", ex_triplet[2], 2 + 1)
-    for a, bA in mmm.hash.items():
-        if not getattr(bA, "score", None):
-            continue
-        print(a, getattr(bA, "score", None))
-    # parse_n_fill()
-"""
-
-docz2 = '''
-    __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
-    mmm = Metrixoid({})
-
-    class A:
-        pass
-
-    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
-
-    mmm.fill_hash(metrix_Strs, t__t=A)
-
-    for metriac, Ao in mmm.hash.items():
-        Ao_score = getattr(Ao, "score", None)
-        print(metriac, Ao_score)
-
-    for metriac, Ao in mmm.hash.items():
-        Ao_score = getattr(Ao, "score", None)
-        mmm.add_float_hash(
-            metriac,
-            "score",
-            *(
-                69,
-                1,
-            ),
-        )
-
-    for metriac, Ao in mmm.hash.items():
-        Ao_score = getattr(Ao, "score", None)
-        print(metriac, Ao_score)
-
-    for metriac, Ao in mmm.hash.items():
-        Ao_score = getattr(Ao, "score", None)
-        mmm.add_float_hash(
-            metriac,
-            "score",
-            *(
-                71,
-                2,
-            ),
-        )
-
-    for metriac, Ao in mmm.hash.items():
-        Ao_score = getattr(Ao, "score", None)
-        print(metriac, Ao_score)
-'''
-
-docz3 = '''
-    __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
-    mmm = Metrixoid({})
-    class A:
-        pass
-
-    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
-    mmm.fill_hash(metrix_Strs, t__t=A)
-    # for ix, value in zip(range(1, 1 + 10), range(0, 0 + 10)):
-    #     for metriac, Ao in mmm.hash.items():
-    #         mmm.add_float_hash(metriac, "score", value, ix)
-    # for metriac, Ao in mmm.hash.items():
-    #     print(metriac, Ao.score)
-    list(map(lambda a:print(a.score),mmm.hash.values()))
-
-'''
-docz4 = '''
-if __name__ == "__main__":
-    __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
-    mmm = Metrixoid({})
-
-    class A:
-        pass
-
-    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
-    mmm.fill_hash(metrix_Strs, t__t=A)
-    # for ix, value in zip(range(1, 1 + 10), range(0, 0 + 10)):
-    #     for metriac, Ao in mmm.hash.items():
-    #         mmm.add_float_hash(metriac, "score", value, ix)
-    # for metriac, Ao in mmm.hash.items():
-    #     print(metriac, Ao.score)
-    metr_hist = Metrixoid({})
-    metr_hist.fill_hash(metrix_Strs, t__t=list)
-    print("#############")
-    with open("shtetloptimized_stats.json") as f:
-        data = json.load(f)
-        # lua based index
-        metr_ix = {m: 1 for m in metrix_Strs}
-        for entry in data[:1]:  # data[:1]: ---< edebug...
-            print(entry['date'])
-            for stat in entry["stat_array"]:
-                score = None
-                for metric in metrix_Strs:
-                    met_score = stat[metric].get("score")
-                    if met_score:
-                        mmm.add_float_hash(metric, "score", met_score, metr_ix[metric])
-                        metr_ix[metric] += 1
-                        metr_hist.hash[metric] += ([met_score])
-                        if 'smog' == metric:
-                            print(stat['content'])
-    print(metr_ix)
-    print("<3"*8)
-    for metriac, Ao in mmm.hash.items():
-        print(metriac, Ao.score) # metr_hist.hash[metriac])
-'''
-
-if __name__ == "__main__":
-    __mz__ = """flesch_kincaid,flesch,gunning_fog,coleman_liau,dale_chall,ari,linsear_write,smog,spache"""
-    mmm = Metrixoid({})
-
-    class A:
-        pass
-
-    # key:metric, value:A_class
-    metrix_Strs = list(filter(lambda s: s.replace("'", ""), __mz__.split(",")))
-    mmm.fill_hash(metrix_Strs, t__t=A)
-
-    # {key:metric, value:list[float]}
-    metr_hist = Metrixoid({})
-    metr_hist.fill_hash(metrix_Strs, t__t=list)
-
-    with open("shtetloptimized_stats.json") as f:
-        data = json.load(f)
-        metr_ix = {m: 1 for m in metrix_Strs}
-        for entry in data:
-            for stat in entry["stat_array"]:
-                for metric in metrix_Strs:
-                    met_score = stat[metric].get("score")
-                    if met_score:
-                        mmm.add_float_hash(metric, "score", met_score, metr_ix[metric])
-                        metr_ix[metric] += 1
-                        metr_hist.hash[metric] += [met_score]
-                    else:
-                        metr_hist.hash[metric] += [
-                            0
-                        ]  # fill with zeroes if no score for entry
-    print(metr_ix)
-    print("<3" * 8)
-    for metriac, Ao in mmm.hash.items():
-        # avg
-        # score
-        # hash
-        print(metriac)
-        print(Ao.score)
-    # 1/0
-    import matplotlib.pyplot as plt
-
-    # Prepare x-axis: one value per month starting Jan 2005
-    num_points = len(next(iter(metr_hist.hash.values())))
-    months = np.arange(num_points)
-    start_year = 2005
-    start_month = 10
-
-    # Generate list of month labels
+    # Determine number of points (assuming all metrics have same number of history points)
+    # This might vary if some months had no posts, but here we expect one entry per month
+    num_points = len(next(iter(tracker.history.values())))
+    months_idx = np.arange(num_points)
+    
+    # Generate month labels starting from Oct 2005
     month_labels = []
-    year = start_year
-    month = start_month
+    year, month = 2005, 10
     for _ in range(num_points):
         month_labels.append(f"{calendar.month_abbr[month]} {year}")
         month += 1
@@ -299,38 +63,73 @@ if __name__ == "__main__":
             month = 1
             year += 1
 
-    plt.figure(figsize=(14, 8))
-    num_metrics = len(metrix_Strs)
+    plt.figure(figsize=(15, 10))
     ncols = 3
-    nrows = (num_metrics + ncols - 1) // ncols
+    nrows = (len(metric_names) + ncols - 1) // ncols
 
-    for idx, metriac in enumerate(metrix_Strs):
-        score_obj = metr_hist.hash[metriac]
-        if not score_obj:
+    for idx, metric in enumerate(metric_names):
+        if metric not in tracker.history or not tracker.history[metric]:
             continue
+            
         ax = plt.subplot(nrows, ncols, idx + 1)
-        ax.plot(months, score_obj, label=metriac)
-        ax.axhline(
-            y=mmm.hash[metriac].score,
-            color="green",
-            linestyle=":",
-            linewidth=1,
-            alpha=0.5,
-        )
-        ax.set_title(f"{metriac}\navg={mmm.hash[metriac].score:.2f}")
+        ax.plot(months_idx, tracker.history[metric], label="Monthly Score", alpha=0.7)
+        
+        # Draw average line
+        avg = tracker.averages[metric]
+        ax.axhline(y=avg, color="red", linestyle=":", linewidth=1.5, label=f"Avg: {avg:.2f}")
+        
+        ax.set_title(f"{metric.replace('_', ' ').title()}")
         ax.set_xlabel("Month")
         ax.set_ylabel("Score")
-        ax.set_xticks(np.arange(0, num_points, max(1, num_points // 12)))
-        ax.set_xticklabels(
-            [month_labels[i] for i in range(0, num_points, max(1, num_points // 12))],
-            rotation=45,
-            fontsize=8,
-        )
-        ax.legend()
+        
+        # Set ticks for better readability
+        tick_spacing = max(1, num_points // 10)
+        ax.set_xticks(months_idx[::tick_spacing])
+        ax.set_xticklabels([month_labels[i] for i in range(0, num_points, tick_spacing)], 
+                           rotation=45, fontsize=8)
+        ax.legend(fontsize='small')
+
     plt.tight_layout()
     plt.show()
 
-# 1. Proper Name analyzer
+def main():
+    metric_names = [
+        "flesch_kincaid", "flesch", "gunning_fog", "coleman_liau", 
+        "dale_chall", "ari", "linsear_write", "smog", "spache"
+    ]
+    
+    tracker = MetricsTracker()
+    tracker.initialize_metrics(metric_names)
+    
+    data = load_stats()
+    if not data:
+        print("No data found. Please run blog_analyzer.py first.")
+        return
 
+    for entry in data:
+        # Each entry represents one month
+        # We'll calculate the average for the month if there are multiple posts
+        month_metrics = {m: [] for m in metric_names}
+        
+        for post in entry.get("stat_array", []):
+            for metric in metric_names:
+                score = post.get(metric, {}).get("score")
+                if score is not None:
+                    month_metrics[metric].append(score)
+        
+        # Add the monthly average to our tracker
+        for metric in metric_names:
+            if month_metrics[metric]:
+                monthly_avg = sum(month_metrics[metric]) / len(month_metrics[metric])
+                tracker.add_score(metric, monthly_avg)
+            else:
+                tracker.add_score(metric, 0.0) # Or handle missing data differently
 
-# 2. Subject classifier
+    print("Metrics Analysis Complete.")
+    for metric in metric_names:
+        print(f"{metric:15}: Average Score = {tracker.averages[metric]:.2f}")
+        
+    plot_metrics(tracker, metric_names)
+
+if __name__ == "__main__":
+    main()
