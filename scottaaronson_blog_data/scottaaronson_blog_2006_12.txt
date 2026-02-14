@@ -1,5 +1,6 @@
 TITLE: (To all x MerryChristmas(x)) and (To all x GoodNight(x))
 URL: https://scottaaronson.blog/?m=200612
+DATE: Saturday, December 23rd, 2006
 CONTENT:
 
 
@@ -13,6 +14,7 @@ If your idea of the Christmas spirit includes, you know, peace on Earth, goodwil
 
 TITLE: Mercenary in the String Wars
 URL: https://scottaaronson.blog/?m=200612
+DATE: Thursday, December 21st, 2006
 CONTENT:
 My sojourn in Northern California is now at an end; on Sunday I flew to my parents’ place near Philadelphia for Hanukhrismanewyears.  But not before going to Stanford to give a talk to their string theory group about “Computational Complexity and the Anthropic Principle.”  Here are the notes from that talk; you can think of them as a Quantum Computing Since Democritus Special Bonus Lecture.
 
@@ -60,6 +62,7 @@ Update (12/24): Man oh man, I had no idea that people would take my offer so ser
 
 TITLE: complexityzoo.com finally redirects to the Complexity Zoo
 URL: https://scottaaronson.blog/?m=200612
+DATE: Wednesday, December 20th, 2006
 CONTENT:
 Check it out:
 
@@ -71,6 +74,7 @@ Update (12/21): Purely because I love you guys so much, I spent much of today re
 
 TITLE: Quantum Computing Since Democritus Lecture 8: Crypto
 URL: https://scottaaronson.blog/?m=200612
+DATE: Monday, December 11th, 2006
 CONTENT:
 Psst … one-way functions?  Pseudorandom generators?  Lattices?  RSA?  Come and get ’em, in plaintext.
 
@@ -84,6 +88,7 @@ Update: Preparing these notes is a sh&tload of work for me.  So dude — if you 
 
 TITLE: Announcing the Shtetl-Optimized Math Journalism Award!
 URL: https://scottaaronson.blog/?m=200612
+DATE: Friday, December 8th, 2006
 CONTENT:
 To those of us who can’t tell a hypotenuse from a rhombus, the phrase “math journalism” sounds like an oxymoron.  It brings to mind boring pedants like Martin Gardner, Sara Robinson, and Brian Hayes, who make everything seem confusing and complicated, and who won’t even write a single word without consulting two dozen “experts.”  But today, a new breed of journalist is bringing math directly to the people — and they’re doing it with flair, pizzazz, and an eye for the all-too-neglected human side.
 
@@ -95,6 +100,7 @@ Feel free to nominate other journalists for this prestigious award.  (Hat tip fo
 
 TITLE: What American accent do you have?
 URL: https://scottaaronson.blog/?m=200612
+DATE: Tuesday, December 5th, 2006
 CONTENT:
 Among all the mysteries of the universe, it’s good to know that at least one of them is answerable.  My accent, apparently, is “as Philadelphian as a cheesesteak.”  Hat tip to Greg Kuperberg.
 
@@ -102,6 +108,7 @@ Among all the mysteries of the universe, it’s good to know that at least one o
 
 TITLE: Quantum Computing Since Democritus Lecture 7: Randomness
 URL: https://scottaaronson.blog/?m=200612
+DATE: Monday, December 4th, 2006
 CONTENT:
 Yes, less than a week after the course itself finished, a new set of lecture notes is finally here!   The topic: randomness.
 

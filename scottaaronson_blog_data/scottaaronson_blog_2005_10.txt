@@ -1,5 +1,6 @@
 TITLE: Can’t… blog… too much… pain…
 URL: https://scottaaronson.blog/?m=200510
+DATE: Monday, October 31st, 2005
 CONTENT:
 I’m bedridden with a sore throat, and on enough painkillers to knock out an elephant (well, a very small elephant). I assume the String Theory God is punishing me. I’ve been repenting to all five of His manifestations — Type I, Type IIA, Type IIB, Heterotic SO(32), and Heterotic E8xE8 — and hopefully I’ll be back in a couple days.  Happy Halloween.
 
@@ -7,6 +8,7 @@ I’m bedridden with a sore throat, and on enough painkillers to knock out an el
 
 TITLE: Buck, buck, buck
 URL: https://scottaaronson.blog/?m=200510
+DATE: Monday, October 31st, 2005
 CONTENT:
 Like a masked chicken of the darkness, the anonymous commenter deposits his ad hominem attack and then flees the scene, as though repelled by the malodorous stench of his own words.  Alright, I’m not Stephen King.  But the point is that, if you leave an anonymous comment that doesn’t contribute anything, from now on I’m going to feel free to delete it.  I will never delete signed comments, unless they’re completely off-topic, or reveal the coordinates of nuclear missiles being transported across South Dakota, or something like that.  Oh yeah: and tomorrow night, if you’re going to egg any houses or toilet-paper any trees, sign your work.
 
@@ -14,6 +16,7 @@ Like a masked chicken of the darkness, the anonymous commenter deposits his ad h
 
 TITLE: Mahmoud and me (continued)
 URL: https://scottaaronson.blog/?m=200510
+DATE: Sunday, October 30th, 2005
 CONTENT:
 I woke up this afternoon to find, in the comments section of my previous post, an ongoing debate about whether or not I was being serious when I praised the President of Iran for his resoluteness and conviction. For those who couldn’t figure it out, the answer is: of course I was being serious. In fact, right after I finished blogging, I telephoned Mahmoud to ask whether the Iranian army could use the services of a 24-year-old male who speaks fluent English, can do up to two push-ups per day, once fired an actual rifle, loves Persian food, and believes himself able to prove quantum lower bounds under combat conditions.
 
@@ -29,6 +32,7 @@ In 1936 in Berlin, a Jew is sitting in a cafe, reading Der Stürmer.  His friend
 
 TITLE: Mahmoud and me
 URL: https://scottaaronson.blog/?m=200510
+DATE: Saturday, October 29th, 2005
 CONTENT:
 From the Wikipedia entry on Mahmoud Ahmadinejad, the current President of Iran:
 
@@ -44,6 +48,7 @@ In an age when soft-pedaling, pussyfooting, and political correctness are the no
 
 TITLE: Insert “string” pun here
 URL: https://scottaaronson.blog/?m=200510
+DATE: Thursday, October 27th, 2005
 CONTENT:
 Over at Peter Woit’s blog there’s a lively discussion about the differences between string theory and intelligent design. There are a few obvious ones: one is based Fields Medal caliber math and the other on elementary mistakes in probability; one is studied at an Institute and the other at an “Institute”. But arguably, neither theory has yet made a clear prediction or explained what it sets out to in a non-circular way. String theorists explain the muon mass by invoking an infinite set of Calabi-Yau manifolds, some of which presumably yield the right value; ID’ers explain the complicated dance of bees by invoking a yet more complicated designer.
 
@@ -55,6 +60,7 @@ In short, if the ID’ers are armed squatters in the apartment building of scien
 
 TITLE: Missing the boat
 URL: https://scottaaronson.blog/?m=200510
+DATE: Tuesday, October 25th, 2005
 CONTENT:
 This morning I got an email from Eric Klien of the Lifeboat Foundation, an organization that advocates building a “space ark” as an insurance policy in case out-of-control nanorobots destroy all life on Earth. Klien was inviting me to join the foundation’s scientific advisory board, which includes such notables as Ray Kurzweil.  I thought readers of this blog might be interested in my response.
 
@@ -75,6 +81,7 @@ Scott Aaronson
 
 TITLE: Oh, Canada
 URL: https://scottaaronson.blog/?m=200510
+DATE: Tuesday, October 25th, 2005
 CONTENT:
 A headline in yesterday’s Toronto Sun:
 
@@ -90,6 +97,7 @@ In a city of 2.5 million inhabitants, an entire month with no gun homicides
 
 TITLE: Alright, alright, alright
 URL: https://scottaaronson.blog/?m=200510
+DATE: Tuesday, October 25th, 2005
 CONTENT:
 I’ve caved in to popular demand.  From now on, every embryonic insight, discursive jumble of neural firings, and missive from the depths of my soul will be filed under a pithy title, so that readers on the go can quickly decide which ones are worth their time to read.  To maintain consistency, I also went back and titled the 17 previous posts.
 
@@ -97,6 +105,7 @@ I’ve caved in to popular demand.  From now on, every embryonic insight, discur
 
 TITLE: A prophet will arise
 URL: https://scottaaronson.blog/?m=200510
+DATE: Monday, October 24th, 2005
 CONTENT:
 At last night’s FOCS business meeting, there was a panel discussion on how to get the public excited about theoretical computer science. Unfortunately I missed it — I’m skipping FOCS for the first time in years — so I’m grateful to Rocco Servedio for this post about the discussion and to Dave Bacon for this one.
 
@@ -122,6 +131,7 @@ Theoretical computer science will capture the public’s imagination when, and o
 
 TITLE: Doctor of Hacking
 URL: https://scottaaronson.blog/?m=200510
+DATE: Saturday, October 22nd, 2005
 CONTENT:
 Amir Michail has asked me to comment on his proposal to create a new field: one that’s “like computer science, but more creative.” My first reaction was to wonder, how much more creative does he want? He might as well ask for a field that’s like dentistry, but with more teeth. (I was reminded of Hilbert’s famous remark, when told that a student had abandoned math to become a poet: “Good. He didn’t have enough imagination to be a mathematician.”)
 

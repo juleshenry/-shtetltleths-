@@ -1,5 +1,6 @@
 TITLE: Bananas
 URL: https://scottaaronson.blog/?m=200608
+DATE: Sunday, August 27th, 2006
 CONTENT:
 In the wake of my very public relativity humiliation, I’ve decided to sentence myself to a one-month punishment term of only blogging about things that I actually understand.  That means, unfortunately, that from now until September 27 this blog is going to be quite boring and limited in scope.  It also means that Lev R.’s prizewinning question, about the survival prospects of the human race, will need to be deferred until after the punishment term.
 
@@ -11,6 +12,7 @@ The remainder of today’s entry will be about the topic of bananas.  Bananas ar
 
 TITLE: Why I’m not a physicist: reason #4329
 URL: https://scottaaronson.blog/?m=200608
+DATE: Saturday, August 26th, 2006
 CONTENT:
 I botched the calculation.  While I got the answer I wanted (a quadratic improvement in energy), and while I more-or-less correctly identified the reason for that answer (unintuitive properties of the relativistic velocity addition formula), I did the calculation in the rest frame of one of the particles instead of the zero-momentum rest frame, and thereby obtained a scaling of 1/sqrt(ε) versus 1/ε instead of 1/ε1/4 versus 1/sqrt(ε).   As a result, my answer flagrantly violates conservation of energy.
 
@@ -20,6 +22,7 @@ Thanks to rrtucci and perseph0ne.  In my defense, I did call it a doofus discove
 
 TITLE: Why I’m not a physicist: reason #4328
 URL: https://scottaaronson.blog/?m=200608
+DATE: Saturday, August 26th, 2006
 CONTENT:
 There’s a trivial question about particle accelerators that bugged me for a while.   Today I finally figured out the answer, and I’m so excited by my doofus “discovery” that I want to tell the world.
 
@@ -41,6 +44,7 @@ In summary, nothing’s going on here except relativistic addition of velocities
 
 TITLE: Chasmgasm
 URL: https://scottaaronson.blog/?m=200608
+DATE: Friday, August 25th, 2006
 CONTENT:
 The most important research question in astronomy, to judge from the news websites, is neither the nature of dark matter and energy, nor the origin of the Pioneer anomaly or gamma-ray bursts beyond the GZK cutoff, nor the possible existence of Earth-like extrasolar planets.  No, the big question is whether Pluto is “really” a planet, and if so, whether Charon and Ceres are “really” planets, and whether something has to be round to be a planet, and if so, how round.
 
@@ -54,6 +58,7 @@ Can anyone suggest a word for a person obsessed with drawing firm but arbitrary 
 
 TITLE: A far-off dream: automating a problem in P
 URL: https://scottaaronson.blog/?m=200608
+DATE: Friday, August 25th, 2006
 CONTENT:
 In a comment on my last post, Bram Cohen writes:
 
@@ -81,6 +86,7 @@ Update: Freek Wiedijk put together a fantastic online book, which shows the proo
 
 TITLE: Fruitcake fields
 URL: https://scottaaronson.blog/?m=200608
+DATE: Tuesday, August 22nd, 2006
 CONTENT:
 So, this year’s Fields Medals go to Terence Tao and Grisha Perelman (duhhhh), as well as to Andrei Okounkov and Wendelin Werner.  The Nevanlinna Prize goes to an already-prize-bedecked Jon Kleinberg, my professor at Cornell way back in ’97.  Congratulations to all!
 
@@ -98,6 +104,7 @@ Update: The New Yorker article is now online.
 
 TITLE: Low-hanging fruit from two conjoined trees
 URL: https://scottaaronson.blog/?m=200608
+DATE: Monday, August 21st, 2006
 CONTENT:
 Alright, I can give an oracle relative to which BQP is not in SZK, thereby knocking off one of the Ten Most Annoying Questions in Quantum Computing.
 
@@ -117,6 +124,7 @@ Disappointingly, this solution is way too trivial to publish, and almost too tri
 
 TITLE: Pipin’-hot learnin’ theorems
 URL: https://scottaaronson.blog/?m=200608
+DATE: Thursday, August 17th, 2006
 CONTENT:
 I’ve decided to “launch” my latest paper on the blogosphere even before posting it to quant-ph — so that you, my loyal readers, can be the very first to lay eyes on it.  (True fact: as I was writing, I didn’t look once at the screen.)  Comments more than welcome.
 
@@ -131,6 +139,7 @@ Update (8/20): I’ve posted a slightly revised version, mostly in response to t
 
 TITLE: The ten most annoying questions in quantum computing
 URL: https://scottaaronson.blog/?m=200608
+DATE: Tuesday, August 15th, 2006
 CONTENT:
 
 
@@ -138,6 +147,7 @@ CONTENT:
 
 TITLE: Is it possible to write a competent newspaper article about math?
 URL: https://scottaaronson.blog/?m=200608
+DATE: Tuesday, August 15th, 2006
 CONTENT:
 Yes.
 

@@ -1,5 +1,6 @@
 TITLE: Ecoprocrastination
 URL: https://scottaaronson.blog/?m=200704
+DATE: Sunday, April 22nd, 2007
 CONTENT:
 While the reasons I haven’t updated this blog for a week are complex and multifaceted, the fact that I’ve been flying to another university every 2-3 days, waking up at 7 (AM, not PM) each morning, defending quantum computing research all day including mealtimes, and collapsing in my hotel room during rare free intervals is undoubtedly one of the contributing factors.
 
@@ -33,6 +34,7 @@ In short, EPA has offered no reasoned explanation for its refusal to decide whet
 
 TITLE: Physics for Doofuses: Understanding Electricity
 URL: https://scottaaronson.blog/?m=200704
+DATE: Sunday, April 15th, 2007
 CONTENT:
 Welcome to an occasional new Shtetl-Optimized series, where physicists get to amuse themselves by watching me struggle to understand the most basic concepts of their discipline.  I’ll consider my post  on black hole singularities to be retroactively part of this series.
 
@@ -81,6 +83,7 @@ Update (4/16): Chad Orzel answers my question about Ohm’s Law.
 
 TITLE: New comment policy
 URL: https://scottaaronson.blog/?m=200704
+DATE: Tuesday, April 10th, 2007
 CONTENT:
 If you reject an overwhelming consensus on some issue in the hard sciences — whether it’s evolution, general relativity, climate change, or anything else — this blog is an excellent place to share your concerns with the world.  Indeed, you’re even welcome to derail discussion of completely unrelated topics by posting lengthy rants against the academic orthodoxy — the longer and angrier the better!  However, if you wish to do this, I respectfully ask that you obey the following procedure:
 
@@ -95,6 +98,7 @@ Update (4/11): I am, of course, under no illusions whatsoever that my requiremen
 
 TITLE: The wisdom of Gian-Carlo Rota (1932-1999)
 URL: https://scottaaronson.blog/?m=200704
+DATE: Monday, April 9th, 2007
 CONTENT:
 From www.rota.org:
 
@@ -112,6 +116,7 @@ Note: Quotation here does not necessarily imply endorsement by Shtetl-Optimized 
 
 TITLE: D-Wave Easter Spectacular
 URL: https://scottaaronson.blog/?m=200704
+DATE: Saturday, April 7th, 2007
 CONTENT:
 Look, I promise this will be the last D-Wave post in a while.  But there have been two developments that, as Planet Earth’s primary D-Wave skepticism clearinghouse, I feel a duty to report.
 
@@ -141,6 +146,7 @@ Another reason is that D-Wave’s unsupported claims are undermining the efforts
 
 TITLE: D-Wave: Still propagating
 URL: https://scottaaronson.blog/?m=200704
+DATE: Thursday, April 5th, 2007
 CONTENT:
 Last night Jason Pontin, the Editor-in-Chief of MIT’s Technology Review, published a hard-hitting article about D-Wave, the Vancouver startup that claims to have built “the world’s first commercial quantum computer.”  A condensed (and, alas, considerably mangled and dumbed-down) version of his article will appear in Sunday’s New York Times.
 
@@ -171,6 +177,7 @@ When I read this to Umesh Vazirani over the phone, he sardonically replied, “i
 
 TITLE: Quantum Computing Since Democritus Lecture 11: Decoherence and Hidden Variables
 URL: https://scottaaronson.blog/?m=200704
+DATE: Tuesday, April 3rd, 2007
 CONTENT:
 After a week of brainbreaking labor, here it is at last: My Grand Statement on the Interpretation of Quantum Mechanics.
 
@@ -188,6 +195,7 @@ Interpretations of quantum mechanics, unlike Gods, are not jealous, and thus it 
 
 TITLE: Not an April Fools joke
 URL: https://scottaaronson.blog/?m=200704
+DATE: Sunday, April 1st, 2007
 CONTENT:
 Lance’s blog HATH RISEN! (Though ith now some fast-talking bearded guy’s blog.)
 
@@ -195,6 +203,7 @@ Lance’s blog HATH RISEN! (Though ith now some fast-talking bearded guy’s blo
 
 TITLE: My job situation
 URL: https://scottaaronson.blog/?m=200704
+DATE: Sunday, April 1st, 2007
 CONTENT:
 A lot has happened this past week concerning my job prospects for next year.  I didn’t want to comment on the situation while it was still in flux, but now that the options are all on the table, I might as well let people know, and solicit advice about what to do.
 

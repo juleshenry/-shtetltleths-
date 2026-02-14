@@ -1,0 +1,154 @@
+TITLE: The QMA Singularity
+URL: https://scottaaronson.blog/?m=202509
+CONTENT:
+Update (Sep. 29): Since this post has now gone semi-viral on X, Hacker News, etc., with people arguing about how trivial or nontrivial was GPT5’s “discovery,” it seems worthwhile to say something that was implicit in the post.
+
+Namely, GPT5-Thinking’s suggestion of a function to use “should have” been obvious to us.  It would have been obvious to us had we known more, or had we spent more time studying the literature or asking experts.
+
+The point is, anyone engaged in mathematical research knows that an AI that can “merely” fill in the insights that “should’ve been” obvious to you is a really huge freaking deal!  It speeds up the actual discovery process, as opposed to the process of writing LaTeX or preparing the bibliography or whatever.  This post gave one tiny example of what I’m sure will soon be thousands.
+
+I should also add that, since this post went up, a commenter named Phillip Harris proposed a better function to use than GPT-5’s: det(I-E) rather than Tr[(I-E)-1].  While we’re still checking details, not only do we think this works, we think it simplifies our argument and solves one of our open problems.  So it seems human supremacy has been restored, at least for now!
+
+A couple days ago, Freek Witteveen of CWI and I posted a paper to the arXiv called “Limits to black-box amplification in QMA.”  Let me share the abstract:
+
+We study the limitations of black-box amplification in the quantum complexity class QMA. Amplification is known to boost any inverse-polynomial gap between completeness and soundness to exponentially small error, and a recent result (Jeffery and Witteveen, 2025) shows that completeness can in fact be amplified to be doubly exponentially close to 1. We prove that this is optimal for black-box procedures: we provide a quantum oracle relative to which no QMA verification procedure using polynomial resources can achieve completeness closer to 1 than doubly exponential, or a soundness which is super-exponentially small. This is proven by using techniques from complex approximation theory, to make the oracle separation from (Aaronson, 2008), between QMA and QMA with perfect completeness, quantitative.
+
+You can also check out my PowerPoint slides here.
+
+To explain the context: QMA, or Quantum Merlin Arthur, is the canonical quantum version of NP. It’s the class of all decision problems for which, if the answer is “yes,” then Merlin can send Arthur a quantum witness state that causes him to accept with probability at least 2/3 (after a polynomial-time quantum computation), while if the answer is “no,” then regardless of what witness Merlin sends, Arthur accepts with probability at most 1/3. Here, as usual in complexity theory, the constants 2/3 and 1/3 are just conventions, which can be replaced (for example) by 1-2-n and 2-n using amplification.
+
+A longstanding open problem about QMA—not the biggest problem, but arguably the most annoying—has been whether the 2/3 can be replaced by 1, as it can be for classical MA for example. In other words, does QMA = QMA1, where QMA1 is the subclass of QMA that admits protocols with “perfect completeness”? In 2008, I used real analysis to show that there’s a quantum oracle relative to which QMA ≠ QMA1, which means that any proof of QMA = QMA1 would need to use “quantumly nonrelativizing techniques” (not at all an insuperable barrier, but at least we learned something about why the problem is nontrivial).
+
+Then came a bombshell: in June, Freek Witteveen and longtime friend-of-the-blog Stacey Jeffery released a paper showing that any QMA protocol can be amplified, in a black-box manner, to have completeness error that’s doubly exponentially small, 1/exp(exp(n)). They did this via a method I never would’ve thought of, wherein a probability of acceptance is encoded via the amplitudes of a quantum state that decrease in a geometric series. QMA, it turned out, was an old friend that still had surprises up its sleeve after a quarter-century.
+
+In August, we had Freek speak about this breakthrough by Zoom in our quantum group meeting at UT Austin.  Later that day, I asked Freek whether their new protocol was the best you could hope to do with black-box techniques, or whether for example one could amplify the completeness error to be triply exponentially small, 1/exp(exp(exp(n))).  About a week later, Freek and I had a full proof written down that, using black-box techniques, doubly-exponentially small completeness error is the best you can do.  In other words: we showed that, when one makes my 2008 QMA ≠ QMA1 quantum oracle separation quantitative, one gets a lower bound that precisely matches Freek and Stacey’s protocol.
+
+All this will, I hope, interest and excite aficianados of quantum complexity classes, while others might have very little reason to care.
+
+But here’s a reason why other people might care. This is the first paper I’ve ever put out for which a key technical step in the proof of the main result came from AI—specifically, from GPT5-Thinking. Here was the situation: we had an N×N Hermitian matrix E(θ) (where, say, N=2n), each of whose entries was a poly(n)-degree trigonometric polynomial in a real parameter θ. We needed to study the largest eigenvalue of E(θ), as θ varied from 0 to 1, to show that this λmax(E(θ)) couldn’t start out close to 0 but then spend a long time “hanging out” ridiculously close to 1, like 1/exp(exp(exp(n))) close for example.
+
+Given a week or two to try out ideas and search the literature, I’m pretty sure that Freek and I could’ve solved this problem ourselves. Instead, though, I simply asked GPT5-Thinking. After five minutes, it gave me something confident, plausible-looking, and (I could tell) wrong. But rather than laughing at the silly AI like a skeptic might do, I told GPT5 how I knew it was wrong. It thought some more, apologized, and tried again, and gave me something better. So it went for a few iterations, much like interacting with a grad student or colleague. Within a half hour, it had suggested to look at the function
+
+$$ Tr[(I-E(\theta))^{-1}] = \sum_{i=1}^N \frac{1}{1-\lambda_i(\theta)}. $$
+
+It pointed out, correctly, that this was a rational function in θ of controllable degree, that happened to encode the relevant information about how close the largest eigenvalue λmax(E(θ)) is to 1. And this … worked, as we could easily check ourselves with no AI assistance. And I mean, maybe GPT5 had seen this or a similar construction somewhere in its training data. But there’s not the slightest doubt that, if a student had given it to me, I would’ve called it clever.  Obvious with hindsight, but many such ideas are.
+
+I had tried similar problems a year ago, with the then-new GPT reasoning models, but I didn’t get results that were nearly as good. Now, in September 2025, I’m here to tell you that AI has finally come for what my experience tells me is the most quintessentially human of all human intellectual activities: namely, proving oracle separations between quantum complexity classes. Right now, it almost certainly can’t write the whole research paper (at least if you want it to be correct and good), but it can help you get unstuck if you otherwise know what you’re doing, which you might call a sweet spot. Who knows how long this state of affairs will last? I guess I should be grateful that I have tenure.
+
+================================================================================
+
+TITLE: HSBC unleashes yet another “qombie”: a zombie claim of quantum advantage that isn’t
+URL: https://scottaaronson.blog/?m=202509
+CONTENT:
+Today, I got email after email asking me to comment on a new paper from HSBC—yes, the bank—together with IBM. The paper claims to use a quantum computer to get a 34% advantage in predictions of financial trading data. (See also blog posts here and here, or numerous popular articles that you can easily find and I won’t link.) What have we got? Let’s read the abstract:
+
+The estimation of fill probabilities for trade orders represents a key ingredient in the optimization of algorithmic trading strategies. It is bound by the complex dynamics of financial markets with inherent uncertainties, and the limitations of models aiming to learn from multivariate financial time series that often exhibit stochastic properties with hidden temporal patterns. In this paper, we focus on algorithmic responses to trade inquiries in the corporate bond market and investigate fill probability estimation errors of common machine learning models when given real production-scale intraday trade event data, transformed by a quantum algorithm running on IBM Heron processors, as well as on noiseless quantum simulators for comparison. We introduce a framework to embed these quantum-generated data transforms as a decoupled offline component that can be selectively queried by models in lowlatency institutional trade optimization settings. A trade execution backtesting method is employed to evaluate the fill prediction performance of these models in relation to their input data. We observe a relative gain of up to ∼ 34% in out-of-sample test scores for those models with access to quantum hardware-transformed data over those using the original trading data or transforms by noiseless quantum simulation. These empirical results suggest that the inherent noise in current quantum hardware contributes to this effect and motivates further studies. Our work demonstrates the emerging potential of quantum computing as a complementary explorative tool in quantitative finance and encourages applied industry research towards practical applications in trading.
+
+As they say, there are more red flags here than in a People’s Liberation Army parade. To critique this paper is not quite “shooting fish in a barrel,” because the fish are already dead before we’ve reached the end of the abstract.
+
+They see a quantum advantage for the task in question, but only because of the noise in their quantum hardware?  When they simulate the noiseless quantum computation classically, the advantage disappears?  WTF?  This strikes me as all but an admission that the “advantage” is just a strange artifact of the particular methods that they decided to compare—that it has nothing really to do with quantum mechanics in general, or with quantum computational speedup in particular.
+
+Indeed, the possibility of selection bias rears its head. How many times did someone do some totally unprincipled, stab-in-the-dark comparison of a specific quantum learning method against a specific classical method, and get predictions from the quantum method that were worse than whatever they got classically … so then they didn’t publish a paper about it?
+
+If it seems like I’m being harsh, it’s because to my mind, the entire concept of this sort of study is fatally flawed from the beginning, optimized for generating headlines rather than knowledge.  The first task, I would’ve thought, is to show the reality of quantum computational advantage in the system or algorithm under investigation, even just for a useless benchmark problem. Only after one has done that, has one earned the right to look for a practical benefit in algorithmic trading or predicting financial time-series data or whatever, coming from that same advantage. If you skip the first step, then whatever “benefits” you get from your quantum computer are overwhelmingly likely to be cargo cult benefits.
+
+And yet none of it matters. The paper can, more or less, openly admit all this right in the abstract, and yet it will still predictably generate lots of credulous articles in the business and financial news about HSBC using quantum computers to improve bond trading!—which, one assumes, was the point of the exercise from the beginning. Qombies roam the earth: undead narratives of “quantum advantage for important business problems” detached from any serious underlying truth-claim. And even here at one of the top 50 quantum computing blogs on the planet, there’s nothing I can do about it other than scream into the void.
+
+Update (Sep. 26): Someone let me know that Martin Shkreli, the “pharma bro,” will be hosting a conference call for investors to push back on quantum computing hype. He announced on X that he’s offering quantum computing experts $2k each to speak in his call. On the off chance that Shkreli reads this blog: I’d be willing to do it for $50k. And if Shkreli were to complain about my jacking up the price… 😄
+
+================================================================================
+
+TITLE: Darkness over America
+URL: https://scottaaronson.blog/?m=202509
+CONTENT:
+Update (September 24): A sympathetic correspondent wrote to tip me off that this blog post has caused me to get added to a list, maintained by MAGA activists and circulated by email, of academics and others who ought to “[face] some consequences for maligning the patriotic MAGA movement.”  Needless to say, not only did this post unequivocally condemn Charlie Kirk’s murder, it even mentioned areas of common ground between me and Kirk, and my beefs with the social-justice left.  If someone wants to go to the Texas Legislature to get me fired, literally the only thing they’ll have on me is that I “maligned the patriotic MAGA movement,” i.e. expressed political views shared by the majority of Americans.
+
+Still, it’s a strange honor to have had people on both extremes of the ideological spectrum wanting to cancel me for stuff I’ve written on this blog.  What is tenure for, if not this?
+
+Another Update: In a dark and polarized age like ours, one thing that gives hope is the prospect of rational agents updating on each others’ knowledge to come to agreement.  On that note, please enjoy this recent podcast, in which a 95-year-old Robert Aumann explains Aumann’s agreement theorem in his own words (see here for my old post about it, one of the most popular in the history of this blog).
+
+From 2016 until last week, as the Trump movement dismantled one after another of the obvious bipartisan norms of the United States that I’d taken for granted since my childhood—e.g., the loser conceding an election and attending the winner’s inauguration, America being proudly a nation of immigrants, science being good, vaccines being good, Russia invading its neighbors being bad, corruption (when it occurred) not openly boasted about—I often consoled myself that at least the First Amendment, the motor of our whole system since 1791, was still in effect. At least you could still call Trump a thug and a conman without fear. Yes, Trump constantly railed against hostile journalists and comedians and protesters, threatened them at his rallies, filed frivolous lawsuits against them, but none of it seemed to lead to any serious program to shut them down. Oceans of anti-Trump content remained a click away.
+
+I even wondered whether this was Trump’s central innovation in the annals of authoritarianism: proving that, in the age of streaming and podcasts and social media, you no longer needed to bother with censorship in order to build a regime of lies.  You could simply ensure that the truth remained one narrative among others, that it never penetrated the epistemic bubble of your core supporters, who’d continue to be algorithmically fed whatever most flattered their prejudices.
+
+Last week, that all changed.  Another pillar of the previous world fell.  According to the new norm, if you’re a late-night comedian who says anything Trump doesn’t like, he’ll have the FCC threaten your station’s affiliates’ broadcast licenses, and they’ll cave, and you’ll be off the air, and he’ll gloat about it.  We ought to be clear that, even conditioned on everything else, this is a huge further step toward how things work in Erdogan’s Turkey or Orban’s Hungary, and how they were never supposed to work in America.
+
+At risk of stating the obvious:
+
+Anyway, I keep hoping that my next post will be about quantum complexity theory or AI alignment or Busy Beaver 6 or whatever. Whenever I feel backed into a corner, however, I will risk my career, and the Internet’s wrath, to blog my nutty, extreme, embarrassing, totally anodyne liberal beliefs that half or more of Americans actually share.
+
+================================================================================
+
+TITLE: Quantum Information Supremacy
+URL: https://scottaaronson.blog/?m=202509
+CONTENT:
+I’m thrilled that our paper entitled Demonstrating an unconditional separation between quantum and classical information resources, based on a collaboration between UT Austin and Quantinuum, is finally up on the arXiv.  I’m equally thrilled that my coauthor and former PhD student William Kretschmer — who led the theory for this project, and even wrote much of the code — is now my faculty colleague at UT Austin!  My physics colleague Nick Hunter-Jones and my current PhD student Sabee Grewal made important contributions as well.  I’d especially like to thank the team at Quantinuum for recognizing a unique opportunity to test and showcase their cutting-edge hardware, and collaborating with us wild-eyed theorists to make it happen.  This is something that, crucially, would not have been feasible with the quantum computing hardware of only a couple years ago.
+
+Here’s our abstract, which I think explains what we did clearly enough, although do read the paper for more:
+
+A longstanding goal in quantum information science is to demonstrate quantum computations that cannot be feasibly reproduced on a classical computer. Such demonstrations mark major milestones: they showcase fine control over quantum systems and are prerequisites for useful quantum computation. To date, quantum advantage has been demonstrated, for example, through violations of Bell inequalities and sampling-based quantum supremacy experiments. However, both forms of advantage come with important caveats: Bell tests are not computationally difficult tasks, and the classical hardness of sampling experiments relies on unproven complexity-theoretic assumptions. Here we demonstrate an unconditional quantum advantage in information resources required for a computational task, realized on Quantinuum’s H1-1 trapped-ion quantum computer operating at a median two-qubit partial-entangler fidelity of 99.941(7)%. We construct a task for which the most space-efficient classical algorithm provably requires between 62 and 382 bits of memory, and solve it using only 12 qubits. Our result provides the most direct evidence yet that currently existing quantum processors can generate and manipulate entangled states of sufficient complexity to access the exponentiality of Hilbert space. This form of quantum advantage — which we call quantum information supremacy — represents a new benchmark in quantum computing, one that does not rely on unproven conjectures.
+
+I’m very happy to field questions about this paper in the comments section.
+
+Unrelated Announcement: As some of you might have seen, yesterday’s Wall Street Journal carried a piece by Dan Kagan-Kans on “The Rise of ‘Conspiracy Physics.'”  I talked to the author for the piece, and he quoted this blog in the following passage:
+
+This resentment of scientific authority figures is the major attraction of what might be called “conspiracy physics.” Most fringe theories are too arcane for listeners to understand, but anyone can grasp the idea that academic physics is just one more corrupt and self-serving establishment. The German physicist Sabine Hossenfelder has attracted 1.72 million YouTube subscribers in part by attacking her colleagues: “Your problem is that you’re lying to the people who pay you,” she declared. “Your problem is that you’re cowards without a shred of scientific integrity.”
+
+In this corner of the internet, the scientist Scott Aaronson has written, “Anyone perceived as the ‘mainstream establishment’ faces a near-insurmountable burden of proof, while anyone perceived as ‘renegade’ wins by default if they identify any hole whatsoever in mainstream understanding.”
+
+================================================================================
+
+TITLE: For the record
+URL: https://scottaaronson.blog/?m=202509
+CONTENT:
+In response to my recent blog posts, which expressed views that are entirely boring and middle-of-the-road for Americans as a whole, American Jews, and Israelis (“yes, war to destroy Hamas is basically morally justified, even if there are innocent casualties, as the only possible way to a future of coexistence and peace”)—many people declared that I was a raving genocidal maniac who wants to see all Palestinian children murdered out of sheer hatred, and who had destroyed his career and should never show his face in public again.
+
+Others, however, called me something even worse than a genocidal maniac. They called me a Republican!
+
+So I’d like to state for the record:
+
+(1) In my opinion, Trump II remains by far the worst president in American history—beating out the second-worst, either Trump I or Andrew Jackson.  Trump is destroying vaccines and science and universities and renewable energy and sane AI policy and international trade and cheap, lifesaving foreign aid and the rule of law and everything else that’s good, and he’s destroying them because they’re good—because even if destroying them hurts his own voters and America’s standing in the world, it might hurt the educated elites even more. It’s almost superfluous to mention that, while Trump himself is neither of these things, the MAGA movement that will anoint his successor now teems with antisemites and Holocaust “revisionists.”
+
+(2) Thus, I’ll continue to vote straight-ticket Democrat, and donate money to Democrats, so long as the Democrats in question are seriously competing for Zionist Jewish votes at all—as, for example, has every Democratic presidential candidate in my lifetime so far.
+
+(3) If it came down to an Israel-hating Squad Democrat versus a MAGA Republican, I’m not sure what I’d do, but I’d plausibly sit out the election or lodge a protest vote.
+
+(4) In the extremely unlikely event that I had to choose between an Israel-hating Squad Democrat and some principled anti-MAGA Republican like Romney or Liz Cheney—then and only then do I expect that I’d vote Republican, for the first time in my life, a new and unfamiliar experience.
+
+================================================================================
+
+TITLE: Deep Gratitude
+URL: https://scottaaronson.blog/?m=202509
+CONTENT:
+In my last post, I wrote about all the hate mail I’ve received these past few days.  I even shared a Der-Stürmer-like image of a bloodthirsty, hook-nosed Orthodox Jew that some troll emailed me, after he’d repeatedly promised to send me a “diagram” that would improve my understanding of the Middle East.  (Incredibly, commenters on Peter Woit’s blog then blamed me for this antisemitic image, mistakenly imagining that I’d created it myself, and then used their false assumption as further proof of my mental illness.)
+
+Thanks to everyone who wrote to ask whether I’m holding up OK.  The answer is: better than you’d expect!  The first time you get attacked by dozens of Internet randos, it does feel like your life is over.  But the sixth or seventh time?  After you’ve experienced, firsthand, how illusory these people’s power over you actually is—how they can’t even dent your scientific career, can’t separate you from any of the friends who matter most to you (let alone your family), can’t really do anything to you beyond whatever they induce you to do to yourself?  Then the deadly wolves appear more like poodles yapping from behind a fence.  Try it and see!
+
+Today I want to focus on a different kind of message that’s been filling my inbox. Namely, people telling me to stay strong, to keep up my courage, that everything I wrote strikes them as just commonsense morality.
+
+It won’t surprise anyone that many of these people are Jews.  But almost as many are not.  I was touched to hear from several of my non-Jewish scientific colleagues—ones I’d had no idea were in my corner—that they are in my corner.
+
+Then there was the American Gentile who emailed me a story about how, seeing an Orthodox family after October 7, he felt an urge to run up and tell them that, if worst ever came to worst, they could hide in his basement (“and I own guns,” he added). Amusingly, he added that his wife successfully dissuaded him from actually making such an offer, pointing out that it might freak out the recipients.
+
+I replied that, here in America, I don’t expect that I’ll ever need to hide in anyone’s basement.  But, I added, the only reason I don’t expect it is that there are so many Americans who, regardless of any religious or ideological differences, would hide their Jewish neighbors in their basements if necessary.
+
+I also—despite neither I nor this guy exactly believing in God—decided to write a blessing for him, which came out as follows:
+
+May your seed multiply a thousandfold, for like King Cyrus of Persia, you are a righteous man among the Gentiles.  But also, if you’re ever in Austin, be sure to hit me up for tacos and beer.
+
+I’m even grateful, in a way, to SneerClub, and to Woit and his minions.  I’m grateful to them for so dramatically confirming that I’m not delusional: some portion of the world really is out to get me.  I probably overestimated their power, but not their malevolence.
+
+I’ve learned, for example, that there are no words, however balanced or qualified, with which I can express the concept that Israel needs to defeat Hamas for the sake of both Israeli and Palestinian children, which won’t lead to Woit calling me a “genocide apologist who wants to see all the children in Gaza killed.”  Nor are there any words with which to express my solidarity with the Jewish Columbia students who, according to an official university investigation, were last year systematically excluded from campus social life, intimidated, and even assaulted, and which won’t earn me names from Woit like “a fanatic allied with America’s fascist dictator.”  Even my months-long silence about these topics got me labeled as “complicit with fascism and genocide.”
+
+Realizing this is oddly liberating. When your back is to the wall in that way, either you can surrender, or else you can defend yourself. Your enemy has already done you the “favor” of eliminating any third options. Which, again, is just Zionism in a nutshell. It’s the lesson not only of 3,000 years of Jewish history, but also of superhero comics and of much of the world’s literature and cinema. It takes a huge amount of ideological indoctrination before such things stop being obvious.
+
+Reading the SneerClubbers’ armchair diagnoses of my severe mental illness, paranoia, persecution complex, grandiosity, etc. etc. I had the following thought, paraphrasing Shaw:
+
+Yes, they’re absolutely right that psychologically well-adjusted people generally do figure out how to adapt themselves to the reigning morality of their social environment—as indicated by the Asch conformity test, the Milgram electric-shock experiment, and the other classics of social psychology.
+
+It takes someone psychologically troubled, in one way or another, to persist in trying to adapt the reigning morality of their social environment to themselves.
+
+If so, however, this suggests that all the moral progress of humanity depends on psychologically troubled people—a realization for which I’m deeply grateful.
+
+================================================================================
+

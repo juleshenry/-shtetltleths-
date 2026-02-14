@@ -1,0 +1,152 @@
+TITLE: BusyBeaver(6) is really quite large
+URL: https://scottaaronson.blog/?m=202506
+CONTENT:
+For overdetermined reasons, I’ve lately found the world an increasingly terrifying and depressing place.  It’s gotten harder and harder to concentrate on research, or even popular science writing.  Every so often, though, something breaks through that wakes my inner child, reminds me of why I fell in love with research thirty years ago, and helps me forget about the triumphantly strutting factions working to destroy everything I value.
+
+Back in 2022, I reported an exciting advance in BusyBeaverology: namely, whereas we previously knew merely that BB(6) > 1036,534, Pavel Kropitz managed to show that
+
+BB(6) > 1510.
+
+For those tuning in from home, here BB(6) is the 6th Busy Beaver number, i.e. the maximum number of steps that a 6-state Turing machine with a {0,1} alphabet can take before halting, when run on an initially all-0 input tape. Also, the left-superscript means tetration, or iterated exponentiation: for example, 1510 means 10 to the 10 to the 10 and so on 15 times.
+
+By comparison, last year the international “BBchallenge” team determined that BB(5) is “merely” 47,176,870 (see also Quanta magazine’s superb feature article on that milestone).  So, between 5 and 6 is where the Busy Beaver function makes its leap, from the millions to beyond the bounds of observable reality.
+
+But if you thought that was the end of the BB(6) story, think again!  Eleven days ago, Tristan Sterin, who organized the BBchallenge the team, emailed to tell me that a team member with the handle “mxdys” improved the BB(6) bound yet further, to
+
+BB(6) > 10,000,00010
+
+(i.e., 10 to the 10 to the 10 and so on 10 million times), with a correctness proof in Coq.  Then, three days ago, Tristan wrote again to say that mxdys has improved the bound again, to
+
+$$ BB(6) \gt ^{^{{^9}2}2}2 $$
+
+I.e., BB(6) is at least 2 tetrated to the 2 tetrated to the 2 tetrated to the 9. So in particular, BB(6) is at least 2 pentated to the 5, where pentation is iterated tetration, i.e. the operation that is to tetration as tetration is to exponentiation, exponentiation is to multiplication, and multiplication is to addition.
+
+Last week, when we “merely” knew that BB(6) > 10,000,00010, I talked to a journalist who asked me to give an intuitive sense of how big such a number is.  So I said, imagine you had 10,000,00010 grains of sand. Then you could … well, uh … you could fill about 10,000,00010 copies of the observable universe with that sand.  I hope that helps people visualize it!
+
+The journalist also asked: have these new discoveries about BB(6) caused me to rethink any broader beliefs about the Busy Beaver function? And I mean, yes and no: it was always completely within the realm of possibility that BB(6) would already be, not some puny little thing like 1036,534, but way out in iteration land. Now that we know for sure that it is, though, maybe I ought to conjecture that the value of BB(n) becomes independent of the ZFC axioms of set theory already when n is 7 or 8 or 9, rather than when it’s 20 or 30 or whatever. (Currently, we know that BB(n) becomes independent of ZFC only when n=643.)
+
+Unrelated Update: I’m just now returning to the US from STOC’2025 in Prague, where I saw lots of old friends and learned many interesting new things, again helping to distract me from the state of the world!    Many I’ll write about some of those things in a future post.  For now, though, anyone who’s interested in my STOC plenary lecture, entitled “The Status of Quantum Speedups,” can check out the PowerPoint slides here.
+
+================================================================================
+
+TITLE: Raymond Laflamme (1960-2025)
+URL: https://scottaaronson.blog/?m=202506
+CONTENT:
+Even with everything happening in the Middle East right now, even with (relatedly) everything happening in my own family (my wife and son sheltering in Tel Aviv as Iranian missiles rained down), even with all the rather ill-timed travel I’ve found myself doing as these events unfolded (Ecuador and the Galapagos and now STOC’2025 in Prague) … there’s been another thing, a huge one, weighing on my soul.
+
+Ray Laflamme played a major role in launching the whole field of quantum computing and information, and also a major role in launching my own career.  The world has lost him too soon.  I’ve lost him too soon.
+
+After growing up in Quebec—I still hear his French-Canadian accent, constantly on the verge of laughter, as I’m writing this—Ray went into physics and became a PhD student of Stephen Hawking.  No, not a different Stephen Hawking.  If you’ve read or watched anything by or about Hawking, including A Brief History of Time, you might remember the story where Hawking believed for a while that time would reverse itself as the universe contracted in a Big Crunch, with omelettes unscrambling themselves, old people turning into children, etc. etc., but then two graduate students persuaded him that that was totally wrong, and entropy would continue to increase like normal.  Anyway, Ray was one of those students (Don Page was the other).  I’d always meant to ask Ray to explain what argument changed Hawking’s mind, since the idea of entropy decreasing during contraction just seemed obviously wrong to me!  Only today, while writing this post, did I find a 1993 paper by Hawking, Laflamme, and Lyons that explains the matter perfectly clearly, including three fallacious intuitions that Hawking had previously held.  (Even though, as they comment, “the anatomy of error is not ruled by logic.”)
+
+Anyway, in the mid-1990s, starting at Los Alamos National Lab and continuing at the University of Waterloo, Ray became a pioneer of the then-new field of quantum computing and information.  In 1997, he was a coauthor of one of the seminal original papers that proved the possibility of fault-tolerant quantum computation with a constant error rate, what we now call the Threshold Theorem (Aharonov and Ben-Or had such a result independently).  He made lots of other key early contributions to the theory of quantum error-correcting codes and fault-tolerance.
+
+When it comes to Ray’s scientific achievements after his cosmology work with Hawking and after quantum fault-tolerance—well, there are many, but let me talk about two.  Perhaps the biggest is the KLM (Knill-Laflamme-Milburn) Theorem.  It would be fair to say that KLM started the entire field of optical or photonic quantum computation, as it’s existed in the 21st century.  In one sentence, what KLM showed is that it’s possible to build a universal quantum computer using only
+
+All of a sudden, there was a viable path to building a quantum computer out of photons, where you wouldn’t need to get pairs of photons to interact with each other, which had previously been the central sticking point.  The key insight was that feedforward measurements, combined with the statistical properties of identical bosons (what the photons are), are enough to simulate the effect of two-photon interactions.
+
+Have you heard of PsiQuantum, the startup in Palo Alto with a $6 billion valuation and hundreds of employees that’s right now trying to build an optical quantum computer with a million qubits?  Or Xanadu, its competitor in Toronto?  These, in some sense, are companies that grew out of a theorem: specifically the KLM Theorem.
+
+For me, though, the significance of KLM goes beyond the practical. In 2011, I used the KLM Theorem, together with the fact (known since the 1950s) that photonic amplitudes are the permanents of matrices, to give a new proof of Leslie Valiant’s celebrated 1979 theorem that calculating the permanent is a #P-complete problem. Thus, as I pointed out in a talk two years ago at Ray’s COVID-delayed 60th birthday conference, entitled Ray Laflamme, Complexity Theorist (?!), KLM had said something new about computational complexity, without any intention of doing so.  More generally, KLM was crucial backdrop to my and Alex Arkhipov’s later work on BosonSampling, where we gave strong evidence that some classical computational hardness—albeit probably not universal quantum computation—remains in linear optics, even if one gets rid of KLM’s feedforward measurements.
+
+(Incidentally, I gave my talk at Ray’s birthday conference by Zoom, as I had a conflicting engagement.  I’m now sad about that: had I known that that would’ve been my last chance to see Ray, I would’ve cancelled any other plans.)
+
+The second achievement of Ray’s that I wanted to mention was his 1998 creation, again with his frequent collaborator Manny Knill, of the One Clean Qubit or “DQC1” model of quantum computation. In this model, you get to apply an arbitrary sequence of 2-qubit unitary gates, followed by measurements at the end, just like in standard quantum computing—but the catch is that the initial state consists of just a single qubit in the state |0⟩, and all other qubits in the maximally mixed state. If all qubits started in the maximally mixed state, then nothing would ever happen, because the maximally mixed state is left invariant by all unitary transformations. So it would stand to reason that, if all but one of the qubits start out maximally mixed, then almost nothing happens. The big surprise is that this is wrong. Instead you get a model that, while probably not universal for quantum computation, can do a variety of things in polynomial time that we don’t know how to do classically, including estimating the traces of exponentially large unitary matrices and the Jones polynomials of trace closures of braids (indeed, both of these problems turn out to be DQC1-complete). The discovery of DQC1 was one of the first indications that there’s substructure within BQP.  Since then, the DQC1 model has turned up again and again in seemingly unrelated investigations in quantum complexity theory—way more than you’d have any right to expect a priori.
+
+Beyond his direct contributions to quantum information, Ray will be remembered as one of the great institution-builders of our field.  He directed the Institute for Quantum Computing (IQC) at the University of Waterloo in Canada, from its founding in 2002 until he finally stepped down in 2017.  This includes the years 2005-2007, when I was a postdoc at IQC—two of the most pivotal years of my life, when I first drove a car and went out on dates (neither of which I do any longer, for different reasons…), when I started this blog, when I worked on quantum money and learnability of quantum states and much more, and when I taught the course that turned into my book Quantum Computing Since Democritus.  I fondly remember Ray, as my “boss,” showing me every possible kindness.  He even personally attended the Quantum Computing Since Democritus lectures, which is why he appears as a character in the book.
+
+As if that wasn’t enough, Ray also directed the quantum information program of the Canadian Institute for Advanced Research (CIFAR).  If you ever wondered why Canada, as a nation, has punched so far above its weight in quantum computing and information for the past quarter-century—Ray Laflamme is part of the answer.
+
+At the same time, if you imagine the stereotypical blankfaced university administrator, who thinks and talks only in generalities and platitudes (“how can we establish public-private partnerships to build a 21st-century quantum workforce?”) … well, Ray was whatever is the diametric opposite of that.  Despite all his responsibilities, Ray never stopped being a mensch, a friend, an intellectually curious scientist, a truth-teller, and a jokester.  Whenever he and I talked, probably at least a third of the conversation was raucous laughter.
+
+I knew that Ray had spent many years battling cancer. I naïvely thought he was winning, or had won. But as so often with cancer, it looks like the victory was only temporary. I miss him already. He was a ray of light in the world—a ray that sparkles, illuminates, and as we now know, even has the latent power of universal quantum computation.
+
+================================================================================
+
+TITLE: Trump and Iran, by popular request
+URL: https://scottaaronson.blog/?m=202506
+CONTENT:
+I posted this on my Facebook, but several friends asked me to share more widely, so here goes:
+
+I voted against Trump three times, and donated thousands to his opponents. I’d still vote against him today, seeing him as a once-in-a-lifetime threat to American democracy and even to the Enlightenment itself.
+
+But last night I was also grateful to him for overruling the isolationists and even open antisemites in his orbit, striking a blow against the most evil regime on the planet, and making it harder for that regime to build nuclear weapons. I acknowledge that his opponents, who I voted for, would’ve probably settled for a deal that would’ve resulted in Iran eventually getting nuclear weapons, and at any rate getting a flow of money to redirect to Hamas, Hezbollah, and the Houthis.
+
+May last night’s events lead to the downfall of the murderous ayatollah regime altogether, and to the liberation of the Iranian people from 46 years of oppression.  To my many, many Iranian friends: I hope all your loved ones stay safe, and I hope your great people soon sees better days.  I say this as someone whose wife and 8-year-old son are right now in Tel Aviv, sheltering every night from Iranian missiles.
+
+Fundamentally, I believe not only that evil exists in the world, but that it’s important to calibrate evil on a logarithmic scale. Trump (as I’ve written on this blog for a decade) terrifies me, infuriates me, and embarrasses me, and through his evisceration of American science and universities, has made my life noticeably worse. On the other hand, he won’t hang me from a crane for apostasy, nor will he send a ballistic missile to kill my wife and son and then praise God for delivering them into his hands.
+
+Update: I received the following comment on this post, which filled me with hope, and demonstrated more moral courage than perhaps every other anonymous comment in this blog’s 20-year history combined.  To this commenter and their friends and family, I wish safety and eventually, liberation from tyranny.
+
+I will keep my name private for clear reasons. Thank you for your concern for Iranians’ safety and for wishing the mullah regime’s swift collapse. I have fled Tehran and I’m physically safe but mentally, I’m devastated by the war and the internet blackout (the pretext is that Israeli drones are using our internet). Speaking of what the mullahs have done, especially outrageous was the attack on the Weizmann Institute. I hope your wife and son remain safe from the missiles of the regime whose thugs have chased me and my friends in the streets and imprisoned my friends for simple dissent. All’s well that ends well, and I hope this all ends well.
+
+================================================================================
+
+TITLE: Guess I’m A Rationalist Now
+URL: https://scottaaronson.blog/?m=202506
+CONTENT:
+A week ago I attended LessOnline, a rationalist blogging conference featuring many people I’ve known for years—Scott Alexander, Eliezer Yudkowsky, Zvi Mowshowitz, Sarah Constantin, Carl Feynman—as well as people I’ve known only online and was delighted to meet in person, like Joe Carlsmith and Jacob Falkovich and Daniel Reeves.  The conference was at Lighthaven, a bewildering maze of passageways, meeting-rooms, sleeping quarters, gardens, and vines off Telegraph Avenue in Berkeley, which has recently emerged as the nerd Shangri-La, or Galt’s Gulch, or Shire, or whatever.  I did two events at this year’s LessOnline: a conversation with Nate Soares about the Orthogonality Thesis, and an ask-me-anything session about quantum computing and theoretical computer science (no new ground there for regular consumers of my content).
+
+What I’ll remember most from LessOnline is not the sessions, mine or others’, but the unending conversation among hundreds of people all over the grounds, which took place in parallel with the sessions and before and after them, from morning till night (and through the night, apparently, though I’ve gotten too old for that).  It felt like a single conversational archipelago, the largest in which I’ve ever taken part, and the conference’s real point.  (Attendees were exhorted, in the opening session, to skip as many sessions as possible in favor of intense small-group conversations—not only because it was better but also because the session rooms were too small.)
+
+Within the conversational blob, just making my way from one building to another could take hours.  My mean free path was approximately five feet, before someone would notice my nametag and stop me with a question.  Here was my favorite opener:
+
+“You’re Scott Aaronson?!  The quantum physicist who’s always getting into arguments on the Internet, and who’s essentially always right, but who sustains an unreasonable amount of psychic damage in the process?”
+
+“Yes,” I replied, not bothering to correct the “physicist” part.
+
+One night, I walked up to Scott Alexander, who sitting on the ground, with his large bald head and a blanket he was using as a robe, resembled a monk.  “Are you enjoying yourself?” he asked.
+
+I replied, “you know, after all these years of being coy about it, I think I’m finally ready to become a Rationalist.  Is there, like, an initiation ritual or something?”
+
+Scott said, “Oh, you were already initiated a decade ago; you just didn’t realize it at the time.”  Then he corrected himself: “two decades ago.”
+
+The first thing I did, after coming out as a Rationalist, was to get into a heated argument with Other Scott A., Joe  Carlsmith, and other fellow-Rationalists about the ideas I set out twelve years ago in my Ghost in the Quantum Turing Machine essay.  Briefly, my argument was that the irreversibility and ephemerality of biological life, which contrasts with the copyability, rewindability, etc. of programs running on digital computers, and which can ultimately be traced back to microscopic details of the universe’s initial state, subject to the No-Cloning Theorem of quantum mechanics, which then get chaotically amplified during brain activity … might be a clue to a deeper layer of the world, one that we understand about as well as the ancient Greeks understood Newtonian physics, but which is the layer where mysteries like free will and consciousness will ultimately need to be addressed.
+
+I got into this argument partly because it came up, but partly also because this seemed like the biggest conflict between my beliefs and the consensus of my fellow Rationalists.  Maybe part of me wanted to demonstrate that my intellectual independence remained intact—sort of like a newspaper that gets bought out by a tycoon, and then immediately runs an investigation into the tycoon’s corruption, as well as his diaper fetish, just to prove it can.
+
+The funny thing, though, is that all my beliefs are the same as they were before.  I’m still a computer scientist, an academic, a straight-ticket Democratic voter, a liberal Zionist, a Jew, etc. (all identities, incidentally, well-enough represented at LessOnline that I don’t even think I was the unique attendee in the intersection of them all).
+
+Given how much I resonate with what the Rationalists are trying to do, why did it take me so long to identify as one?
+
+Firstly, while 15 years ago I shared the Rationalists’ interests, sensibility, and outlook, and their stances on most issues, I also found them bizarrely, inexplicably obsessed with the question of whether AI would soon become superhumanly powerful and change the basic conditions of life on earth, and with how to make the AI transition go well.  Why that, as opposed to all the other sci-fi scenarios one could worry about, not to mention all the nearer-term risks to humanity?
+
+Suffice it to say that empirical developments have since caused me to withdraw my objection.  Sometimes weird people are weird merely because they see the future sooner than others.  Indeed, it seems to me that the biggest thing the Rationalists got wrong about AI was to underestimate how soon the revolution would happen, and to overestimate how many new ideas would be needed for it (mostly, as we now know, it just took lots more compute and training data).  Now that I, too, spend some of my time working on AI alignment, I was able to use LessOnline in part for research meetings with colleagues.
+
+A second reason I didn’t identify with the Rationalists was cultural: they were, and are, centrally a bunch of twentysomethings who “work” at an ever-changing list of Berkeley- and San-Francisco-based “orgs” of their own invention, and who live in group houses where they explore their exotic sexualities, gender identities, and fetishes, sometimes with the aid of psychedelics.  I, by contrast, am a straight, monogamous, middle-aged tenured professor, married to another such professor and raising two kids who go to normal schools.  Hanging out with the Rationalists always makes me feel older and younger at the same time.
+
+So what changed?  For one thing, with the march of time, a significant fraction of Rationalists now have marriages, children, or both—indeed, a highlight of LessOnline was the many adorable toddlers running around the Lighthaven campus.  Rationalists are successfully reproducing!  Some because of explicit pronatalist ideology, or because they were persuaded by Bryan Caplan’s arguments in Selfish Reasons to Have More Kids.  But others simply because of the same impulses that led their ancestors to do the same for eons.  And perhaps because, like the Mormons or Amish or Orthodox Jews, but unlike typical secular urbanites, the Rationalists believe in something.  For all their fears around AI, they don’t act doomy, but buzz with ideas about how to build a better world for the next generation.
+
+At a LessOnline parenting session, hosted by Julia Wise, I was surrounded by parents who worry about the same things I do: how do we raise our kids to be independent and agentic yet socialized and reasonably well-behaved, technologically savvy yet not droolingly addicted to iPad games?  What schooling options will let them accelerate in math, save them from the crushing monotony that we experienced?  How much of our own lives should we sacrifice on the altar of our kids’ “enrichment,” versus trusting Judith Rich Harris that such efforts quickly hit a point of diminishing returns?
+
+A third reason I didn’t identify with the Rationalists was, frankly, that they gave off some (not all) of the vibes of a cult, with Eliezer as guru.  Eliezer writes in parables and koans.  He teaches that the fate of life on earth hangs in the balance, that the select few who understand the stakes have the terrible burden of steering the future.  Taking what Rationalists call the “outside view,” how good is the track record for this sort of thing?
+
+OK, but what did I actually see at Lighthaven?  I saw something that seemed to resemble a cult only insofar as the Beatniks, the Bloomsbury Group, the early Royal Society, or any other community that believed in something did.  When Eliezer himself—the bearded, cap-wearing Moses who led the nerds from bondage to their Promised Land in Berkeley—showed up, he was argued with like anyone else.  Eliezer has in any case largely passed his staff to a new generation: Nate Soares and Zvi Mowshowitz have found new and, in various ways, better ways of talking about AI risk; Scott Alexander has for the last decade written the blog that’s the community’s intellectual center; figures from Kelsey Piper to Jacob Falkovich to Aella have taken Rationalism in new directions, from mainstream political engagement to the … err … statistical analysis of orgies.
+
+I’ll say this, though, on the naysayers’ side: it’s really hard to make dancing to AI-generated pop songs about Bayes’ theorem and Tarski’s definition of truth not feel cringe, as I can now attest from experience.
+
+The cult thing brings me to the deepest reason I hesitated for so long to identify as a Rationalist: namely, I was scared that if I did, people whose approval I craved (including my academic colleagues, but also just randos on the Internet) would sneer at me.  For years, I searched of some way of explaining this community’s appeal so reasonable that it would silence the sneers.
+
+It took years of psychological struggle, and (frankly) solidifying my own place in the world, to follow the true path, which of course is not to give a shit what some haters think of my life choices.  Consider: five years ago, it felt obvious to me that the entire Rationalist community might be about to implode, under existential threat from Cade Metz’s New York Times article, as well as RationalWiki and SneerClub and all the others laughing at the Rationalists and accusing them of every evil.  Yet last week at LessOnline, I saw a community that’s never been thriving more, with a beautiful real-world campus, excellent writers on every topic who felt like this was the place to be, and even a crop of kids.  How many of the sneerers are living such fulfilled lives?  To judge from their own angry, depressed self-disclosures, probably not many.
+
+But are the sneerers right that, even if the Rationalists are enjoying their own lives, they’re making other people’s lives miserable?  Are they closet far-right monarchists, like Curtis Yarvin?  I liked how The New Yorker put it in its recent, long and (to my mind) devastating profile of Yarvin:
+
+The most generous engagement with Yarvin’s ideas has come from bloggers associated with the rationalist movement, which prides itself on weighing evidence for even seemingly far-fetched claims. Their formidable patience, however, has also worn thin. “He never addressed me as an equal, only as a brainwashed person,” Scott Aaronson, an eminent computer scientist, said of their conversations. “He seemed to think that if he just gave me one more reading assignment about happy slaves singing or one more monologue about F.D.R., I’d finally see the light.”
+
+The closest to right-wing politics that I witnessed at LessOnline was a session, with Kelsey Piper and current and former congressional staffers, about the prospects for moderate Democrats to articulate a pro-abundance agenda that would resonate with the public and finally defeat MAGA.
+
+But surely the Rationalists are incels, bitter that they can’t get laid?  Again, the closest I saw was a session where Jacob Falkovich helped a standing-room-only crowd of mostly male nerds confront their fears around dating and understand women better, with Rationalist women eagerly volunteering to answer questions about their perspective.  Gross, right?  (Also, for those already in relationships, Eliezer’s primary consort and former couples therapist Gretta Duleba did a session on relationship conflict.)
+
+So, yes, when it comes to the Rationalists, I’m going to believe my own lying eyes over the charges of the sneerers.  The sneerers can even say about me, in their favorite formulation, that I’ve “gone mask off,” confirmed the horrible things they’ve always suspected.  Yes, the mask is off—and beneath the mask is the same person I always was, who has an inordinate fondness for the Busy Beaver function and the complexity class BQP/qpoly, and who uses too many filler words and moves his hands too much, and who strongly supports the Enlightenment, and who once feared that his best shot at happiness in life would be to earn women’s pity rather than their contempt.  Incorrectly, as I’m glad to report.  From my nebbishy nadir to the present, a central thing that’s changed is that, from my family to my academic colleagues to the Rationalist community to my blog readers, I finally found some people who want what I have to sell.
+
+Unrelated Announcements:
+
+My replies to comments on this post might be light, as I’ll be accompanying my daughter on a school trip to the Galapagos Islands!
+
+A few weeks ago, I was “ambushed” into leading a session on philosophy and theoretical computer science at UT Austin.  (I.e., asked to show up for the session, but thought I’d just be a participant rather than the main event.)  The session was then recorded and placed on YouTube—and surprisingly, given the circumstances, some people seemed to like it!
+
+Friend-of-the-blog Alon Rosen has asked me to announce a call for nominations for a new theoretical computer science prize, in memory of my former professor (and fellow TCS blogger) Luca Trevisan, who was lost to the world too soon.
+
+And one more: Mahdi Cheraghchi has asked me to announce the STOC’2025 online poster session, registration deadline June 12; see here for more.  Incidentally, I’ll be at STOC in Prague to give a plenary on quantum algorithms; I look forward to meeting any readers who are there!
+
+================================================================================
+

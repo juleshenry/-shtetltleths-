@@ -1,5 +1,6 @@
 TITLE: Sorry, Prof. Guth…
 URL: https://scottaaronson.blog/?m=200707
+DATE: Tuesday, July 31st, 2007
 CONTENT:
 …but it’s been discovered by empirical observation that the universe is not, as you famously claimed, the “ultimate free lunch.” Rather, the FQxi Conference on Foundational Questions in Physics and Cosmology in Reykjavik, Iceland is the ultimate free lunch.
 
@@ -27,6 +28,7 @@ Curse me lucky charms, there’s no pot o’ gold!
 
 TITLE: Deep thoughts in shallow lagoons
 URL: https://scottaaronson.blog/?m=200707
+DATE: Friday, July 27th, 2007
 CONTENT:
 I just got back from a conference in Reykjavik, Iceland (!), on “Foundational Questions in Physics and Cosmology.”  Photos and trip report coming soon.  For now, please content yourself with the following remarks, which I delivered to the assembled pontificators after a day of small-group conversation in a geothermally-heated lagoon.
 
@@ -70,6 +72,7 @@ Well, OK then.  The idea was that, when we’re theorizing about the nature of t
 
 TITLE: Checkers solved
 URL: https://scottaaronson.blog/?m=200707
+DATE: Friday, July 20th, 2007
 CONTENT:
 From Science and NYT.
 
@@ -77,6 +80,7 @@ From Science and NYT.
 
 TITLE: Physics for Doofuses: Mass vs. charge deathmatch
 URL: https://scottaaronson.blog/?m=200707
+DATE: Sunday, July 15th, 2007
 CONTENT:
 Back in high school, I was struck by the apparent symmetry between mass and charge. For the one you’ve got Newton’s F=Gm1m2/r2, for the other you’ve got Coulomb’s F=Kq1q2/r2. So then why, in our current understanding of the universe, are mass and charge treated so differently? Why should one be inextricably linked to the geometry of spacetime, whereas the other seems more like an add-on? Why should it be so much harder to give a quantum-mechanical treatment of one than the other? Notwithstanding that such questions occupied Einstein for the last decades of his life, let’s plunge ahead.
 
@@ -128,6 +132,7 @@ My physicist friends were at least willing to concede to me that, while the expl
 
 TITLE: This one’s for the physicists
 URL: https://scottaaronson.blog/?m=200707
+DATE: Monday, July 9th, 2007
 CONTENT:
 Yesterday I loaded up my Prius with books, computers, bedsheets, a garbage bag full of underwear, and a summer student named Eyal Dechter, and we drove for twelve hours from Waterloo to MIT.  This drive, while historic, was largely uneventful; the main obstacle we encountered along the way was the state of New York.  Still, it was good to have someone around to share the driving, argue about the survival prospects of the human race, and point out when I left my parking brake on.
 
@@ -143,6 +148,7 @@ Notes:
 
 TITLE: FOCS’36 notification
 URL: https://scottaaronson.blog/?m=200707
+DATE: Wednesday, July 4th, 2007
 CONTENT:
 Dear Mr. Turing,
 

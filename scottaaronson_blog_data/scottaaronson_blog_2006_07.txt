@@ -1,5 +1,14 @@
+TITLE: Prague-ing
+URL: https://scottaaronson.blog/?m=200607
+DATE: Thursday, July 27th, 2006
+CONTENT:
+
+
+================================================================================
+
 TITLE: The anthropicism that had to win
 URL: https://scottaaronson.blog/?m=200607
+DATE: Monday, July 24th, 2006
 CONTENT:
 So, my Best Anthropicism Contest elicited almost 50 submissions.  Thanks so much to everyone who entered — if not for you, this tautological tug-of-war would’ve been something other than what it was!
 
@@ -33,6 +42,7 @@ why aren’t physicists too interested in computational complexity? because if t
 
 TITLE: When laziness and idealism coincide
 URL: https://scottaaronson.blog/?m=200607
+DATE: Monday, July 24th, 2006
 CONTENT:
 Back in April, I blogged about why we should all support open-access journals.  But after receiving a long string of referee requests from closed-access journals, I’ve completely changed my mind about this issue.  I now believe we should keep Kluwer, Elsevier, and the other publishing conglomerates rolling in dough for as long as possible, and do whatever we can to sabotage the open-access movement.  Why?  Because as soon as the world switches to open-access, I’ll have no choice but to start accepting referee requests again.
 
@@ -40,6 +50,7 @@ Back in April, I blogged about why we should all support open-access journals.  
 
 TITLE: And they say complexity has no philosophical implications
 URL: https://scottaaronson.blog/?m=200607
+DATE: Sunday, July 23rd, 2006
 CONTENT:
 From these lecture notes by Harvey Friedman comes one of the best metamathematical anecdotes I’ve ever heard (and yes, I’ve heard my share).  Apparently Friedman was attending a talk by the “ultra-finitist” Alexander Yessenin-Volpin, who challenged the “Platonic existence” not only of infinity, but even of large integers like 2100.  So Friedman raised the obvious “draw the line” objection: in the sequence 21,22,…,2100, which is the first integer that Yessenin-Volpin would say doesn’t exist?
 
@@ -63,6 +74,7 @@ It soon became clear that Yessenin-Volpin would answer “yes” to every questi
 
 TITLE: Two John-related announcements
 URL: https://scottaaronson.blog/?m=200607
+DATE: Monday, July 17th, 2006
 CONTENT:
 A year ago, I relinquished my dictatorial control of the Complexity Zoo, accepting an offer from John Stockton to convert the Zoo into wiki format.  Unfortunately, the wiki site has been down for days and shows no signs of coming back anytime soon.  So for now, I’ve put the old Zoo back up at www.complexityzoo.com.  I’ve learned my lesson: in times of crisis, it takes a leader with an iron fist to keep the trains running on time and the animals in their cages.
 
@@ -78,6 +90,7 @@ Naturally, it helps if the physicist in question is Baez.
 
 TITLE: Best anthropicism contest
 URL: https://scottaaronson.blog/?m=200607
+DATE: Sunday, July 16th, 2006
 CONTENT:
 I arrived this morning in Prague for the 2006 Complexity conference.  Soon I’ll have the photos to prove it.  For now, though, I wish to blog neither about the breathtakingly beautiful city in which I find myself, nor about the meaty, succulent topic alluded to in my previous post, but instead about anthropicisms.
 
@@ -97,6 +110,7 @@ The rules are similar to the Best Umeshism Contest: up to three entries per pers
 
 TITLE: Something to munch on while I take a long, succulent post out of the procrastination oven
 URL: https://scottaaronson.blog/?m=200607
+DATE: Tuesday, July 11th, 2006
 CONTENT:
 I’m convinced that the following diagram means something precise:
 
@@ -112,6 +126,7 @@ Maybe it means that, if your axiom system is strong enough to prove SDP is in P,
 
 TITLE: Is publishing as many STOC/FOCS papers as possible a worthy goal to fill the fleeting interlude between infinite expanses of nonexistence?
 URL: https://scottaaronson.blog/?m=200607
+DATE: Saturday, July 1st, 2006
 CONTENT:
 This, I’m embarrassed to admit, is something I’ve asked myself at various points over the last ten years.  Fortunately, thanks to this thread on Lance Fortnow’s blog, I now have my answer: no.
 

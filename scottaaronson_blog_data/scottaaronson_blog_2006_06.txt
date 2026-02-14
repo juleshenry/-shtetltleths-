@@ -1,5 +1,6 @@
 TITLE: Time to do Scott’s research again
 URL: https://scottaaronson.blog/?m=200606
+DATE: Tuesday, June 27th, 2006
 CONTENT:
 Given vectors v1,…,vm in Rn, is it NP-hard to find a unit vector w that maximizes the (absolute value of the) product of inner products, |(v1·w)···(vm·w)|?  What about in Cn? Are these problems hard to approximate on a logarithmic scale?
 
@@ -9,6 +10,7 @@ $20 for answers to all three.  I should get better at doing these things myself.
 
 TITLE: Websbane
 URL: https://scottaaronson.blog/?m=200606
+DATE: Sunday, June 25th, 2006
 CONTENT:
 According to ancient complexity lore, at a saddle point high in the mountains of Oberwolfach lies buried a single flask of a mystical elixir known as Websbane, or the Hammer of Firefox.  Some say that the productivity-enhancing potion was brewed from the sweat of Erdös and the toenail clippings of Euler; others that it was mixed, condensed, and extracted for the Prophesied One centuries hence who will derandomize BPP.  Yet all agree on the tonic’s awesome efficacy: it is said that one drop would furnish lifelong protection against Slate and Salon; a teaspoonful would lift Wikipedia’s stranglehold on the soul.  He who once imbibed would neither reread Onion articles from dusk till dawn, nor follow hyperlinks till scarcely a blue word remained amidst the purple, nor while away a Thursday googling a Montreal-born singer-songwriter mentioned in an email of de Wolf.  Papers would get finished – books written – reimbursement forms turned in – blog entries posted without delay.
 
@@ -20,6 +22,7 @@ Follow these rules, and you might someday become as disciplined and productive a
 
 TITLE: Mistake of the Week: The Unknown Unknown
 URL: https://scottaaronson.blog/?m=200606
+DATE: Wednesday, June 21st, 2006
 CONTENT:
 And how is not this the most reprehensible ignorance, to think that one knows what one does not know? But I, O Athenians! in this, perhaps, differ from most men; and if I should say that I am in any thing wiser than another, it would be in this, that not having a competent knowledge of the things in Hades, I also think that I have not such knowledge.
 
@@ -33,6 +36,7 @@ There’s no shame in proving things that are already known, or that follow easi
 
 TITLE: The physicists and the wagon
 URL: https://scottaaronson.blog/?m=200606
+DATE: Monday, June 19th, 2006
 CONTENT:
 [Here’s a little fable that I wrote today, while listening to a talk “showing” that a fault-tolerant quantum computer would need at least 100 physical qubits for every logical qubit.  Physicists are welcome to shoot back with counter-fables, as are closet computer scientists like His Holiness.]
 
@@ -70,6 +74,7 @@ The computer scientists stared blankly.
 
 TITLE: Back to safe territory
 URL: https://scottaaronson.blog/?m=200606
+DATE: Saturday, June 17th, 2006
 CONTENT:
 When you see me getting chased across the blogosphere by livid, paintbrush-wielding artistes, it can only mean one thing: that I’ve once again abandoned my “promise” to stick to the Serious Complexity Theory That I’m Actually Qualified To Discuss.  So I’ll tell you what, whistling-pig-lovers: answer me the following; then come back for more.
 
@@ -87,6 +92,7 @@ American.
 
 TITLE: Confessions of a Hebrew Philistine
 URL: https://scottaaronson.blog/?m=200606
+DATE: Thursday, June 15th, 2006
 CONTENT:
 I took a lot of flak for expressing wrong musical opinions last week.   Since I so enjoy the role of human flamebait, I’ve decided to have another go at clarifying my views about Art in general.  See, until a few years ago, I was intimidated by art and music snobs, by the sort of person who recently deposited the following on Lance Fortnow’s blog:
 
@@ -138,6 +144,7 @@ PS. There’s really no need to flame me if you have different tastes, since I w
 
 TITLE: Schrödinger’s cat is hunting masked chickens
 URL: https://scottaaronson.blog/?m=200606
+DATE: Monday, June 12th, 2006
 CONTENT:
 A commenter on my last post — who, since he or she chose not to provide a name, I’ll take the liberty of calling Dr. Doofus McRoofus — offers the following prediction about quantum computing:
 
@@ -149,6 +156,7 @@ Four reactions:
 
 TITLE: Anonymous reviewing: the QWERTY of science
 URL: https://scottaaronson.blog/?m=200606
+DATE: Saturday, June 10th, 2006
 CONTENT:
 The journal Nature has started a three-month trial of a new peer review system.  Here’s how it works: while a paper is sent out for traditional review, the authors can also choose to make it open for comments on the web.  Any such comments are public and signed, and the authors can respond to them in public.  Then, when making their acceptance decision, the editors take into account both the anonymous reviews and the public online discussion.
 
@@ -160,6 +168,7 @@ Inspired by Nature’s experiment, I’m going to try an experiment of my own.  
 
 TITLE: Called in for another cohenoscopy
 URL: https://scottaaronson.blog/?m=200606
+DATE: Thursday, June 8th, 2006
 CONTENT:
 Ronald de Wolf asks:
 

@@ -1,5 +1,6 @@
 TITLE: The winner
 URL: https://scottaaronson.blog/?m=200512
+DATE: Saturday, December 31st, 2005
 CONTENT:
 Alright, we had 35 submissions for the Best Umeshism Contest, of which 23 were eligible (i.e., had a name and were posted by the deadline).  After lengthy deliberation, the Shtetl-Optimized Executive Committee is pleased to announce a winner.  But first, the runners-up:
 
@@ -29,6 +30,7 @@ Thanks to everyone who entered, and Happy New Year from your procrastinating, na
 
 TITLE: A setback for science
 URL: https://scottaaronson.blog/?m=200512
+DATE: Friday, December 23rd, 2005
 CONTENT:
 On Tuesday Judge John Jones III released a landmark 139-page decision, which finds that the Dover school board violated the Establishment Clause by endorsing intelligent design. Why is that a setback for science? Because I spent hours reading the decision instead of doing actual work, and so should everyone else.
 
@@ -62,6 +64,7 @@ Part II of this post will appear after I’ve returned to Pennsylvania (“The G
 
 TITLE: Umeshisms
 URL: https://scottaaronson.blog/?m=200512
+DATE: Tuesday, December 20th, 2005
 CONTENT:
 If you’ve never missed a flight, you’re spending too much time in airports.
 
@@ -85,6 +88,7 @@ As a tribute to Umesh, I hereby open the comments section to a Best Umeshism Con
 
 TITLE: My interview with Lance
 URL: https://scottaaronson.blog/?m=200512
+DATE: Thursday, December 15th, 2005
 CONTENT:
 Listen to the latest edition of Lance Fortnow’s ComplexityCast (“Complexity on Your iPod”) on Podcast or MP3.
 
@@ -98,6 +102,7 @@ I’m, uh, sorry about all the, you know, mumbling.  Clearly I haven’t yet bee
 
 TITLE: That’s not a proof, mate — that’s a proof
 URL: https://scottaaronson.blog/?m=200512
+DATE: Tuesday, December 13th, 2005
 CONTENT:
 I arrived Friday morning in an exotic, faraway “Backwards-Land,” where mammals have pouches, vegemite is considered edible, toilets should in principle flush the wrong way, and Christmas trees adorn a tropical summer landscape.
 
@@ -115,6 +120,7 @@ Finally, Australia is also home to terrible race riots, which erupted yesterday 
 
 TITLE: Get off that shoulder — it’s my giant!
 URL: https://scottaaronson.blog/?m=200512
+DATE: Tuesday, December 6th, 2005
 CONTENT:
 Yesterday I visited the Wren Library, which houses many of Newton’s old books.  Notably, they have a first edition of Principia Mathematica, with Newton’s handwritten corrections for the second edition. So what did Ike see fit to correct? Well, the title page of the first edition listed him as a Fellow of the Royal Society. Sir Isaac crossed that out: he was now the President of the Royal Society! As Jonathan Oppenheim pointed out to me, it’s weirdly reassuring to see a guy at the vertiginous top of the academic ladder, grasping in vain for the nonexistent rung above.
 
@@ -122,6 +128,7 @@ Yesterday I visited the Wren Library, which houses many of Newton’s old books.
 
 TITLE: The Bloggour hath returneth
 URL: https://scottaaronson.blog/?m=200512
+DATE: Monday, December 5th, 2005
 CONTENT:
 Picture this: it’s my first visit to Cambridge — Ground Zero of the scientific revolution, a place that’s probably contributed more to human knowledge than any other on Earth. Within walking distance are the original manuscripts of Newton’s Principia; the halls where Darwin, Maxwell, and Russell dined as undergraduates; the Cavendish Laboratory where Rutherford bombarded nuclei and Crick and Watson unravelled nucleic acids; and architecture dating back to the 1200’s, much of it among the finest in Europe. I ought to be taking in the splendor (sorry, “splendour”) by day, and blogging about it by night.
 

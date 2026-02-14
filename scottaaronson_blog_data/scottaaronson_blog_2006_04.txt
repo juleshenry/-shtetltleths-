@@ -1,5 +1,6 @@
 TITLE: One down
 URL: https://scottaaronson.blog/?m=200604
+DATE: Sunday, April 30th, 2006
 CONTENT:
 Last summer I posed Ten Semi-Grand Challenges for Quantum Computing Theory.  Today I’m pleased to report that (part of) one of my challenges has been “solved” — where, as always in this business, the word “solved” is defined broadly so as to include “proven to be not really worth working on, since a solution to it would imply a solution to something else that most of us gave up on years ago.”
 
@@ -13,6 +14,7 @@ Theoretical computer science is often disheartening: there are so many open prob
 
 TITLE: In his country there is problem
 URL: https://scottaaronson.blog/?m=200604
+DATE: Friday, April 28th, 2006
 CONTENT:
 So it seems that Borat — the racist, misogynist, khrum-grabbing “reporter” from Da Ali G Show — has become a serious public relations problem for the former Soviet Republic of Kazakhstan. See here for an old New Yorker piece, and here for the latest on this important story.
 
@@ -22,6 +24,7 @@ Respek.
 
 TITLE: Alright, alright, back to complexity
 URL: https://scottaaronson.blog/?m=200604
+DATE: Wednesday, April 26th, 2006
 CONTENT:
 I’ve learned my lesson, at least for the next day or two.
 
@@ -37,6 +40,7 @@ While I’m on the subject, have you ever wished you could help Scott Aaronson d
 
 TITLE: Earth Day, Doomsday, and Chicken Little
 URL: https://scottaaronson.blog/?m=200604
+DATE: Saturday, April 22nd, 2006
 CONTENT:
 It’s Earth Day, so time for a brief break from my laserlike, day-long focus on complexity theory, and for my long-promised post about climate change.
 
@@ -82,6 +86,7 @@ For me, then, the Doomsday Argument is like an ethereal missile that neutralizes
 
 TITLE: And while I’m at it
 URL: https://scottaaronson.blog/?m=200604
+DATE: Friday, April 21st, 2006
 CONTENT:
 Yaroslav Bulatov sent me the following nice question.  Given vectors (a1,…,an) and (b1,…,bn) in Rn, is there an efficient algorithm to decide whether sgn(a1x1+…+anxn) equals sgn(b1x1+…+bnxn) for all x in {0,1}n?  I could think about it myself, but wouldn’t it be more fun to call upon the collective expertise of my readers?  After all, this is a Serious Blog now.  I await the observation that’s eluded me for the past five minutes.
 
@@ -89,6 +94,7 @@ Yaroslav Bulatov sent me the following nice question.  Given vectors (a1,…,an)
 
 TITLE: What is the name of this post?
 URL: https://scottaaronson.blog/?m=200604
+DATE: Friday, April 21st, 2006
 CONTENT:
 No need to thank me for my turnabout — we’ve got work to do.  There’s a new complexity class in town, and I need you to help me name it.
 
@@ -102,6 +108,7 @@ So let the christening commence!  And for extra credit, prove or (relative to an
 
 TITLE: Repentance
 URL: https://scottaaronson.blog/?m=200604
+DATE: Friday, April 21st, 2006
 CONTENT:
 This morning I got an email pointedly criticizing several aspects of this blog — including my handling of l’affaire Chad Okere, and my ridiculing (as opposed to answering) people who think that if P=NP, the major implication would be that airlines could schedule their flights better.  The author summed up his critique as follows:
 
@@ -115,6 +122,7 @@ So, welcome to a reconceptualized shtetl.  From now on I’ll be sure to ladle o
 
 TITLE: Doofioso
 URL: https://scottaaronson.blog/?m=200604
+DATE: Tuesday, April 18th, 2006
 CONTENT:
 
 
@@ -124,6 +132,7 @@ From Discovery News comes a report that Bernardo Provenzano, the recently-arrest
 
 TITLE: Chicken Soup for the Complexity Soul
 URL: https://scottaaronson.blog/?m=200604
+DATE: Thursday, April 13th, 2006
 CONTENT:
 From the comments on my last post:
 
@@ -135,6 +144,7 @@ Now this is the kind of blog topic I like: zero expenditure of emotional energy 
 
 TITLE: My day job
 URL: https://scottaaronson.blog/?m=200604
+DATE: Monday, April 10th, 2006
 CONTENT:
 You’ve probably spent days, or even months, wondering why I don’t update this blog more often.  What could possibly be more important to my career — besides napping, web surfing, napping again, or watching Jon Stewart?
 

@@ -1,0 +1,131 @@
+TITLE: Mihai Pătrașcu Best Paper Award: Guest post from Seth Pettie
+URL: https://scottaaronson.blog/?m=202511
+CONTENT:
+Scott’s foreword: Today I’m honored to turn over Shtetl-Optimized to a guest post from Michigan theoretical computer scientist Seth Pettie, who writes about a SOSA Best Paper Award newly renamed in honor of the late Mihai Pătrașcu.  Mihai, who I knew from his student days, was a brash, larger-than-life figure in theoretical computer science, for a brief few years until brain cancer tragically claimed him at the age of 29.  Mihai and I didn’t always agree—indeed, I don’t think he especially liked me, or this blog—but as I wrote when he passed, his death made any squabbles seem trivial in retrospect.  He was a lion of data structures, and it’s altogether fitting that this award be named for him. –SA
+
+Seth’s guest post:
+
+The SIAM Symposium on Simplicity in Algorithms (SOSA) was created in 2018 and has been awarding a Best Paper Award since 2020. This year the Steering Committee renamed this award after Mihai Pătrașcu, an extraordinary researcher in theoretical computer science who passed away before his time, in 2012.
+
+Mihai’s research career lasted just a short while, from 2004-2012, but in that span of time he had a huge influence on research in geometry, graph algorithms, data structures, and especially lower bounds. He revitalized the entire areas of cell-probe lower bounds and succinct data structures, and laid the foundation for fine-grained complexity with the first 3SUM-hardness proof for graph problems. He lodged the most successful attack to date on the notorious dynamic optimality conjecture, then recast itas a pure geometry problem. If you are too young to have met Mihai personally, I encourage you to pick up one of his now-classic papers. They are a real joy to read—playful and full of love for theoretical computer science.
+
+The premise of SOSA is that simplicity is extremely valuable, rare, and inexplicably undervalued. We wanted to create a venue where the chief metrics of success were simplicity and insight. It is fitting that the SOSA Best Paper Award be named after Mihai. He brought “fresh eyes” to every problem he worked on, and showed that the cure for our problems is usually one key insight (and of course some mathematical gymnastics).
+
+Let me end by thanking the SOSA 2026 Program Committee, co-chaired by Sepehr Assadi and Eva Rotenberg, and congratulating the authors of the SOSA 2026 Mihai Pătrașcu Best Paper:
+
+This award will be given at the SODA/SOSA business meeting in Vancouver, Canada, on January 12, 2026.
+
+================================================================================
+
+TITLE: Podcasts!
+URL: https://scottaaronson.blog/?m=202511
+CONTENT:
+A 9-year-old named Kai (“The Quantum Kid”) and his mother interviewed me about closed timelike curves, wormholes, Deutsch’s resolution of the Grandfather Paradox, and the implications of time travel for computational complexity:
+
+This is actually one of my better podcasts (and only 24 minutes long), so check it out!
+
+Here’s a podcast I did a few months ago with “632nm” about P versus NP and my other usual topics:
+
+For those who still can’t get enough, here’s an interview about AI alignment for the “Hidden Layers” podcast that I did a year ago, and that I think I forgot to share on this blog at the time:
+
+What else is in the back-catalog?  Ah yes: the BBC interviewed me about quantum computing for a segment on Moore’s Law.
+
+As you may have heard, Steven Pinker recently wrote a fantastic popular book about the concept of common knowledge, entitled When Everyone Knows That Everyone Knows…  Steve’s efforts render largely obsolete my 2015 blog post Common Knowledge and Aumann’s Agreement Theorem, one of the most popular posts in this blog’s history.  But I’m willing to live with that, not only because Steven Pinker is Steven Pinker, but also because he used my post as a central source for the topic.  Indeed, you should watch his podcast with Richard Hanania, where Steve lucidly explains Aumann’s Agreement Theorem, noting how he first learned about it from this blog.
+
+================================================================================
+
+TITLE: Quantum Investment Bros: Have you no shame?
+URL: https://scottaaronson.blog/?m=202511
+CONTENT:
+Near the end of my last post, I made a little offhand remark:
+
+[G]iven the current staggering rate of hardware progress, I now think it’s a live possibility that we’ll have a fault-tolerant quantum computer running Shor’s algorithm before the next US presidential election. And I say that not only because of the possibility of the next US presidential election getting cancelled, or preempted by runaway superintelligence!
+
+As I later clarified, I’ll consider this “live possibility” to be fulfilled even if a fault-tolerant Shor’s algorithm is “merely” used to factor 15 into 3×5—a milestone that seems a few steps, but only a few steps, away from what Google, Quantinuum, QuEra, and others have already demonstrated over the past year.  After that milestone, I then expect “smooth sailing” to more and more logical qubits and gates and the factorization of larger and larger integers, however fast or slow that ramp-up proceeds (which of course I don’t know).
+
+In any case, the main reason I made my remark was just to tee up the wisecrack about whether I’m not sure if there’ll be a 2028 US presidential election.
+
+My remark, alas, then went viral on Twitter, with people posting countless takes like this:
+
+A quantum expert skeptic who the bears quote all the time – Scott Aaronson – recently got very excited about a number of quantum advances. He now thinks there’s a possibility of running Shor before the next US president election – a timeline that lines up ONLY with $IONQ‘s roadmap, and NOBODY else’s! This represent a MAJOR capitulation of previously predicted timelines by any skeptics.
+
+Shall we enumerate the layers of ugh here?
+
+Over the past few days, I’ve explained the above to various people, only to have them look back at me with glazed, uncomprehending eyes and say, “so then, which quantum stock should I buy?  or should I short quantum?”
+
+It would seem rude for me to press quarters into these people’s hands, explaining that they must make gain from whatever they learn.  So instead I reply: “You do realize, don’t you, that I’m, like, a professor at a state university, who flies coach and lives in a nice but unremarkable house?  If I had any skill at timing the market, picking winners, etc., don’t you think I’d live in a mansion with an infinity pool, and fly my Cessna to whichever conferences I deigned to attend?”
+
+It’s like this: if you think quantum computers able to break 2048-bit cryptography within 3-5 years are a near-certainty, then I’d say your confidence is unwarranted.  If you think such quantum computers, once built, will also quickly revolutionize optimization and machine learning and finance and countless other domains beyond quantum simulation and cryptanalysis—then I’d say that more likely than not, an unscrupulous person has lied to you about our current understanding of quantum algorithms.
+
+On the other hand, if you think Bitcoin, and SSL, and all the other protocols based on Shor-breakable cryptography, are almost certainly safe for the next 5 years … then I submit that your confidence is also unwarranted.  Your confidence might then be like most physicists’ confidence in 1938 that nuclear weapons were decades away, or like my own confidence in 2015 that an AI able to pass a reasonable Turing Test was decades away.  It might merely be the confidence that “this still looks like the work of decades—unless someone were to gather together all the scientific building blocks that have now been demonstrated, and scale them up like a stark raving madman.”  The trouble is that sometimes people, y’know, do that.
+
+Beyond that, the question of “how many years?” doesn’t even interest me very much, except insofar as I can mine from it the things I value in life, like scientific understanding, humor, and irony.
+
+There are, famously, many intellectual Communists who are ruthless capitalists in their day-to-day lives.  I somehow wound up the opposite.  Intellectually, I see capitalism as a golden goose, a miraculous engine that’s lifted the human species out of its disease-ridden hovels and into air-conditioned high-rises, whereas Communism led instead to misery and gulags and piles of skulls every single time it was tried.
+
+And yet, when I actually see the workings of capitalism up close, I often want to retch.  In case after case, it seems, our system rewards bold, confident, risk-taking ignoramuses and liars, those who can shamelessly hype a technology (or conversely, declare it flatly impossible)—with such voices drowning out the cautious experts who not only strive to tell the truth, but also made all the actual discoveries that the technology rests on.  My ideal economic system is, basically, whichever one can keep the people who can clearly explain the capabilities and limits and risks and benefits of X in charge of X for as long as possible.
+
+================================================================================
+
+TITLE: Quantum computing: too much to handle!
+URL: https://scottaaronson.blog/?m=202511
+CONTENT:
+Tomorrow I’m headed to Berkeley for the Inkhaven blogging residency, whose participants need to write one blog post per day or get kicked out.  I’ll be there to share my “wisdom” as a distinguished elder blogger (note that Shtetl-Optimized is now in its twentieth year).  I’m acutely aware of the irony, that I myself can barely muster the willpower these days to put up a post every other week.
+
+And it’s not as if nothing is happening in this blog’s traditional stomping-ground of quantum computing!  In fact, the issue is just the opposite: way too much is happening for me to do it any sort of justice.  Who do people think I am, Zvi Mowshowitz?  The mere thought of being comprehensive, of responsibly staying on top of all the latest QC developments, makes me want to curl up in bed, and either scroll through political Substacks or take a nap.
+
+But then, you know, eventually a post gets written.  Let me give you some vignettes about what’s new in QC, any one of which could easily have been its own post if I were twenty years younger.
+
+(1) Google announced verifiable quantum advantage based on Out-of-Time-Order-Correlators (OTOC)—this is actually from back in June, but it’s gotten more and more attention as Google has explained it more thoroughly. See especially this recent 2-page note by King, Kothari, et al., explaining Google’s experiment in theoretical computer science language. Basically, what they do is, starting from the all-|0⟩ state, to apply a random circuit C, then a single gate g, then C-1, then another gate h, then C again, then g again, then C-1, and then measure a qubit. If C is shallow, then the qubit is likely to still be |0⟩. If C is too deep, then the qubit is likely to be in the maximally mixed state, totally uncorrelated with its initial state—the gates g and h having caused a “butterfly effect” that completely ruined all the cancellation between C and C-1. Google claims that, empirically, there’s an intermediate regime where the qubit is neither |0⟩ nor the maximally mixed state, but a third thing—and that this third thing seems hard to determine classically, using tensor network algorithms or anything else they’ve thrown at it, but it can of course be determined by running the quantum computer.  Crucially, because we’re just trying to estimate a few parameters here, rather than sample from a probability distribution (as with previous quantum supremacy experiments), the output can be checked by comparing it against the output of a second quantum computer, even though the problem still isn’t in NP.  Incidentally, if you’re wondering why they go back and forth between C and C-1 multiple times rather than just once, it’s to be extra confident that there’s not a fast classical simulation.  Of course there might turn out to be a fast classical simulation anyway, but if so, it will require a new idea: gauntlet thrown.
+
+(2) Quantinuum, the trapped-ion QC startup in Colorado, announced its Helios processor.  Quick summary of the specs: 98 qubits, all-to-all 2-qubit gates with 99.92% fidelity, the ability to choose which gates to apply “just in time” (rather than fixing the whole circuit in advance, as was needed with their previous API), and an “X”-shaped junction for routing qubits one way or the other (the sort of thing that a scalable trapped-ion quantum computer will need many of).  This will enable, and is already enabling, more and better demonstrations of quantum advantage.
+
+(3) Quantinuum and JP Morgan Chase announced the demonstration of a substantially improved version of my and Shih-Han-Hung’s protocol for generating cryptographically certified random bits, using quantum supremacy experiments based on random circuit sampling.  They did their demo on Quantinuum’s new Helios processor.  Compared to the previous demonstration, the new innovation is to send the circuit to the quantum computer one layer at a time, rather than all at once (something that, again, Quantinuum’s new API allows).  The idea is that a cheating server, who wanted to spoof the randomness deterministically, now has much less time: using the most competitive known methods (e.g., those based on tensor network contraction), it seems the cheater would need to swing into action only after learning the final layer of gates, so would now have mere milliseconds to spoof rather than seconds, making Internet latency the dominant source of spoofing time in practice.  While a complexity-theoretic analysis of the new protocol (or, in general, of “layer-by-layer” quantum supremacy protocols like it) is still lacking, I like the idea a lot.
+
+(4) The startup company BlueQubit announced a candidate demonstration of verifiable quantum supremacy via obfuscated peaked random circuits, again on a Quantinuum trapped-ion processor (though not Helios).  In so doing, BlueQubit is following the program that Yuxuan Zhang and I laid out last year: namely, generate a quantum circuit C that hopefully looks random to any efficient classical algorithm, but that conceals a secret high-probability output string x, which pops out if you run C on a quantum computer on the all-0 initial state.  To try to hide x, BlueQubit uses at least three different circuit obfuscation techniques, which already tells you that they can’t have complete confidence in any one of them (since if they did, why the other two?).  Nevertheless, I’m satisfied that they tried hard to break their own obfuscation, and failed.  Now it’s other people’s turn to try.
+
+(5) Deshpande, Fefferman, et al. announced a different theoretical proposal for quantum advantage from peaked quantum circuits, based on error-correcting codes.  This seems tempting to try to demonstrate along the way to quantum fault-tolerance.
+
+(6) A big one: John Bostanci, Jonas Haferkamp, Chinmay Nirkhe, and Mark Zhandry announced a proof of a classical oracle separation between the complexity classes QMA and QCMA, something that they’ve been working on for well over a year.  Their candidate problem is basically a QMA-ified version of my Forrelation, which Raz and Tal previously used to achieve an oracle separation between BQP and PH.  I caution that their paper is 91 pages long and hasn’t yet been vetted by independent experts, and there have been serious failed attempts on this exact problem in this past.  If this stands, however, it finally settles a problem that’s been open since 2002 (and which I’ve worked on at various points starting in 2002), and shows a strong sense in which quantum proofs are more powerful than classical proofs.  Note that in 2006, Greg Kuperberg and I gave a quantum oracle separation between QMA and QCMA—introducing the concept of quantum oracles for the specific purpose of that result—and since then, there’s been progress on making the oracle steadily “more classical,” but the oracle was always still randomized or “in-place” or had restrictions on how it could be queried.
+
+(7) Oxford Ionics (which is now owned by IonQ) announced a 2-qubit gate with 99.99% fidelity: a record, and significantly past the threshold for quantum fault-tolerance.  However, as far as I know, it remains to demonstrate this sort of fidelity in a large programmable system with dozens of qubits and hundreds of gates.
+
+(8) Semi-announcement: Quanta reports that “Physicists Take the Imaginary Numbers Out of Quantum Mechanics,” and this seems to have gone viral on my social media.  The article misses the opportunity to explain that “taking the imaginary numbers out” is as trivial as choosing to call each complex amplitude “just an ordered pair of reals, obeying such-and-such rules, which happen to mimic the rules for complex numbers.”  Thus, the only interesting question here is whether one can take imaginary numbers out of QM in various more-or-less “natural” ways: a technical debate that the recent papers are pushing forward.  For what it’s worth, I don’t expect that anything coming out of this line of work will ever be “natural” enough for me to stop explaining QM in terms of complex numbers in my undergraduate class, for example.
+
+(9) The list of accepted talks for the annual QIP conference, to be held January 24-30 in Riga, Latvia, is now out.  Lots of great stuff as always.
+
+(10) There are probably other major recent developments in QC that I should’ve put into this post but forgot about.  You can remind me about them in the comments.
+
+(11) Indeed there are!  I completely forgot that Phasecraft announced two simulations of fermionic systems that might achieve quantum advantage, one using Google’s Willow superconducting chip and the other using a Quantinuum device.
+
+To summarize three takeaways:
+
+================================================================================
+
+TITLE: UT Austin’s Statement on Academic Integrity
+URL: https://scottaaronson.blog/?m=202511
+CONTENT:
+A month ago William Inboden, the provost of UT Austin (where I work), invited me to join a university-wide “Faculty Working Group on Academic Integrity.”  The name made me think that it would be about students cheating on exams and the like.  I didn’t relish the prospect but I said sure.
+
+Shortly afterward, Jim Davis, the president of UT Austin, sent out an email listing me among 21 faculty who had agreed to serve on an important working group to decide UT Austin’s position on academic free speech and the responsibilities of professors in the classroom (!).  Immediately I started getting emails from my colleagues, thanking me for my “service” and sharing their thoughts about what this panel needed to say in response to the Trump administration’s Compact on Higher Education.  For context: the Compact would involve universities agreeing to do all sorts of things that the Trump administration wants—capping international student enrollment, “institutional neutrality,” freezing tuition, etc. etc.—in exchange for preferential funding.  UT Austin was one of nine universities originally invited to join the Compact, along with MIT, Penn, Brown, Dartmouth, and more, and is the only one that hasn’t yet rejected it.  It hasn’t accepted it either.
+
+Formally, it was explained to me, UT’s Working Group on Academic Integrity had nothing to do with Trump’s Compact, and no mandate to either accept or reject it.  But it quickly became obvious to me that my faculty colleagues would see everything we did exclusively in light of the Compact, and of other efforts by the Trump administration and the State of Texas to impose conservative values on universities.  While not addressing current events directly, what we could do would be to take a strong stand for academic freedom, and more generally, for the role of intellectually independent universities in a free society.
+
+So, led by Provost Inboden, over two meetings and a bunch of emails we hashed out a document.  You can now read the Texas Statement on Academic Integrity, and I’d encourage you to do so.  The document takes a pretty strong swing for academic freedom:
+
+Academic freedom lies at the core of the academic enterprise.  It is foundational to the excellence of the American higher education system, and is non-negotiable. In the words of the U.S. Supreme Court, academic freedom is “a special concern of the First Amendment.” The world’s finest universities are in free societies, and free societies honor academic freedom.
+
+The statement also reaffirms UT Austin’s previous commitments to the Chicago Principles of Free Expression, and the 1940 and 1967 academic freedom statements of the American Association of University Professors.
+
+Without revealing too much about my role in the deliberations, I’ll say that I was especially pleased by the inclusion of the word “non-negotiable.”  I thought that that word might acquire particular importance, and this was confirmed by the headline in yesterday’s Chronicle of Higher Education: As Trump’s Compact Looms, UT-Austin Affirms ‘Non-Negotiable’ Commitment to Academic Freedom (warning: paywall).
+
+At the same time, the document also talks about the responsibility of a public university to maintain the trust of society, and about the responsibilities of professors in the classroom:
+
+Academic integrity obligates the instructor to protect every student’s academic freedom and right to learn in an environment of open inquiry. This includes the responsibilities:
+
+All stuff that I’ve instinctively followed, in nearly 20 years of classroom teaching, without the need for any statement telling me to. Whatever opinions I might get goaded into expressing on this blog about Trump, feminism, or Israel/Palestine, I’ve always regarded the classroom as a sacred space. (I have hosted a few fierce classroom debates about the interpretation of quantum mechanics, but even there, I try not to tip my own hand!)
+
+I’m sure that there are commenters, on both ends of the political spectrum, who will condemn me for my participation in the faculty working group, and for putting my name on the statement.  At this point in this blog’s history, commenters on both ends of the political spectrum would condemn me for saying that freshly baked chocolate chip cookies are delicious.  But I like the statement, and find nothing in it that any reasonable person should disagree with.  Overall, my participation in this process increased my confidence that UT Austin will be able to navigate this contentious time for the state, country, and world while maintaining its fundamental values.  It made me proud to be a professor here.
+
+================================================================================
+

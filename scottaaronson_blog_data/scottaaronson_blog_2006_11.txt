@@ -1,5 +1,6 @@
 TITLE: Shtetl-Optimized is dead.  Long live Shtetl-Optimized!
 URL: https://scottaaronson.blog/?m=200611
+DATE: Friday, November 24th, 2006
 CONTENT:
 So, I finally had it both with Blogger, which was constantly down, and with my web hosting service, which was constantly down and inserting hidden Cialis ads into my homepage.  (Yes, really.)  So I ditched them both!
 
@@ -13,6 +14,7 @@ This morning Shtetl-Optimized finally departed the old country, and boarded a cr
 
 TITLE: Handle with care
 URL: https://scottaaronson.blog/?m=200611
+DATE: Sunday, November 12th, 2006
 CONTENT:
 In today’s quant-ph we find a report of a truly dramatic experiment — one that detected entanglement between Baton Rouge, Louisiana and Givarlais, France.  How, you ask: by fiber-optic cable?  Satellite?  Neither: by postal mail!  The authors don’t say if it was FedEx, UPS, or some other carrier that managed to ship half an EPR pair across the Atlantic without decohering it — but whoever it was, that’s who I’m using from now on.
 
@@ -22,6 +24,7 @@ In today’s quant-ph we find a report of a truly dramatic experiment — one th
 
 TITLE: Public Relations 101
 URL: https://scottaaronson.blog/?m=200611
+DATE: Sunday, November 12th, 2006
 CONTENT:
 From sayat-travel.kz:
 
@@ -39,6 +42,7 @@ Update (11/13): In response to a comment by Greg Kuperberg, I’ve now reached a
 
 TITLE: Woohoo!
 URL: https://scottaaronson.blog/?m=200611
+DATE: Thursday, November 9th, 2006
 CONTENT:
 
 
@@ -46,6 +50,7 @@ CONTENT:
 
 TITLE: Beating swords into pitchforks
 URL: https://scottaaronson.blog/?m=200611
+DATE: Monday, November 6th, 2006
 CONTENT:
 Here’s a heartwarming story of religious reconciliation in Israel, one that puts the lie to those cynics who thought such ecumenism impossible.  It seems that large portions of Jerusalem’s Orthodox Jewish, Muslim, and Christian communities have finally set aside their differences, and joined together to support a common goal: threatening the marchers in a Gay Pride parade with death.
 
@@ -53,6 +58,7 @@ Here’s a heartwarming story of religious reconciliation in Israel, one that pu
 
 TITLE: This week, let’s overthrow the Taliban
 URL: https://scottaaronson.blog/?m=200611
+DATE: Sunday, November 5th, 2006
 CONTENT:
 Let this man’s face serve as a reminder to all my American friends, to haul your respective asses to your respective polling places with no excuses accepted.  Keep in mind that this year the Democratic voting day is Tuesday November 7th, while the Republican voting day is Wednesday November 8th.
 
@@ -62,6 +68,7 @@ Let this man’s face serve as a reminder to all my American friends, to haul yo
 
 TITLE: More tender nuggets
 URL: https://scottaaronson.blog/?m=200611
+DATE: Friday, November 3rd, 2006
 CONTENT:
 You asked for ’em, you got ’em.  (Do you want fries with that?)
 
@@ -69,6 +76,7 @@ You asked for ’em, you got ’em.  (Do you want fries with that?)
 
 TITLE: Logicians on safari
 URL: https://scottaaronson.blog/?m=200611
+DATE: Thursday, November 2nd, 2006
 CONTENT:
 Sean Carroll, who many of you know from Cosmic Variance, asked the following question in response to my last entry:
 
@@ -101,6 +109,7 @@ Scott
 
 TITLE: My daily dose of depression
 URL: https://scottaaronson.blog/?m=200611
+DATE: Wednesday, November 1st, 2006
 CONTENT:
 Yesterday’s Times ran an essay by Steve Lohr, based on speeches about the future of computing given by my former teachers Richard Karp and Jon Kleinberg.  Though most of the essay is welcome and unobjectionable, let’s look at the first two paragraphs:
 

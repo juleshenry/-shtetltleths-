@@ -1,5 +1,6 @@
 TITLE: “Holy sh#t — maybe biology doesn’t suck!”
 URL: https://scottaaronson.blog/?m=200609
+DATE: Wednesday, September 27th, 2006
 CONTENT:
 So said my brother David (MIT math major), on forwarding me this animation of the inner life of a cell.
 
@@ -7,6 +8,7 @@ So said my brother David (MIT math major), on forwarding me this animation of th
 
 TITLE: Quantum Computing Since Democritus Lecture 3: Gödel, Turing, and Friends
 URL: https://scottaaronson.blog/?m=200609
+DATE: Wednesday, September 27th, 2006
 CONTENT:
 Gödel, Turing, and Friends.  Another whole course compressed into one handwaving lecture.  (This will be a recurring theme.)
 
@@ -14,6 +16,7 @@ Gödel, Turing, and Friends.  Another whole course compressed into one handwavin
 
 TITLE: Is there no other?
 URL: https://scottaaronson.blog/?m=200609
+DATE: Monday, September 25th, 2006
 CONTENT:
 O Achilles of Arkansas, O bane of Foxes and Roves, O solitary warrior among Democrats: dasher of hopes, prince of platitudes, felatee of Jewesses, belated friend of Tutsis, toothless tiger of climate change, greatest of all living Americans: how shall we summon thee back?
 
@@ -21,6 +24,7 @@ O Achilles of Arkansas, O bane of Foxes and Roves, O solitary warrior among Demo
 
 TITLE: Admissions unhooked
 URL: https://scottaaronson.blog/?m=200609
+DATE: Monday, September 25th, 2006
 CONTENT:
 An anonymous indie-cinema-loving hermit friend from Amsterdam sends me an article in this week’s Economist entitled “Poison Ivy: Not so much palaces of learning as bastions of privilege and hypocrisy” (unfortunately, only available to subscribers).  The article is a summary of an excellent Wall Street Journal series by Daniel Golden (again, unfortunately, only available to subscribers), which I’ve been following with great interest.  Golden has also put out a book about this topic, called The Price of Admission (“How America’s Ruling Class Buys Its Way into Elite Colleges — and Who Gets Left Outside the Gates”), which I just ordered from Amazon.  In the meantime, I’ll simply quote a few passages from the Economist piece:
 
@@ -40,6 +44,7 @@ I harped about this issue in one of my very first posts, almost a year ago.  I d
 
 TITLE: Mistake of the Week: “The Future Is In X”
 URL: https://scottaaronson.blog/?m=200609
+DATE: Sunday, September 24th, 2006
 CONTENT:
 One of the surest signs of the shnood is the portentous repetition of the following two slogans:
 
@@ -61,6 +66,7 @@ The future of China and India is in China and India, respectively.
 
 TITLE: Only eight annoying questions to go
 URL: https://scottaaronson.blog/?m=200609
+DATE: Thursday, September 21st, 2006
 CONTENT:
 A month ago, I posed the following as the 10th most annoying question in quantum computing:
 
@@ -78,6 +84,7 @@ What’s the motivation?  If you have to ask…
 
 TITLE: Quantum Computing Since Democritus Lecture 2: Sets
 URL: https://scottaaronson.blog/?m=200609
+DATE: Tuesday, September 19th, 2006
 CONTENT:
 Cardinals, ordinals, and more.  A whole math course compressed into one handwaving lecture, and a piping-hot story that’s only a century old.
 
@@ -85,6 +92,7 @@ Cardinals, ordinals, and more.  A whole math course compressed into one handwavi
 
 TITLE: Yau strikes back
 URL: https://scottaaronson.blog/?m=200609
+DATE: Monday, September 18th, 2006
 CONTENT:
 Along with his law firm.  You can read his side of the Poincaré story at doctoryau.com.
 
@@ -94,6 +102,7 @@ Along with his law firm.  You can read his side of the Poincaré story at doctor
 
 TITLE: How to rig an election
 URL: https://scottaaronson.blog/?m=200609
+DATE: Saturday, September 16th, 2006
 CONTENT:
 My friend Alex Halderman is now after bigger fish than copy-“protected” music CD’s.  Watch this video, in which he, Ed Felten, and Ariel Feldman demonstrate how to rig a Diebold voting machine (and also watch Alex show off his lock-picking skills).  Reading the group’s paper, one becomes painfully aware of a yawning cultural divide between nerds and the rest of the world.  Within the nerd universe, that voting machines need to have a verifiable paper trail, that they need to be open to inspection by researchers, etc., are points so obvious as to be scarcely worth stating.  If a company (Diebold) refuses to take these most trivial of precautions, then even without a demonstration of the sort Alex et al. provide, the presumption must be that their machines are insecure.  Now Alex et al. are trying to take what’s obvious to nerds into a universe — local election boards, the courts, etc. — that operates by entirely different rules.  Within this other universe, the burden is not on Diebold to prove its voting machines are secure; it’s on Alex et al. to prove they’re insecure.  And even if they do prove they’re insecure — well, if it weren’t for those pesky researchers telling the bad guys how to cheat, what would we have to worry about?
 
@@ -103,6 +112,7 @@ So, how does one bridge this divide?  How does one explain the obvious to those 
 
 TITLE: PHYS771 Quantum Computing Since Democritus
 URL: https://scottaaronson.blog/?m=200609
+DATE: Thursday, September 14th, 2006
 CONTENT:
 That, for better or worse, is the name of a course I’m teaching this semester at the University of Waterloo.  I’m going to post all of the lecture notes online, so that you too can enjoy an e-learning cyber-experience in my virtual classroom, even if you live as far away as Toronto.  I’ve already posted Lecture 1, “Atoms and the Void.”  Coming up next: Lecture 2.
 

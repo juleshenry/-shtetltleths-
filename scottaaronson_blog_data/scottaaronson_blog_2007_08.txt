@@ -1,5 +1,6 @@
 TITLE: What’s going down in AarTown
 URL: https://scottaaronson.blog/?m=200708
+DATE: Friday, August 31st, 2007
 CONTENT:
 Taking a cue from the Pontiff, I thought I’d provide three quick updates on my personal life (no, not my personal personal life; that’s none of your business).
 
@@ -7,6 +8,7 @@ Taking a cue from the Pontiff, I thought I’d provide three quick updates on my
 
 TITLE: What Google Won’t Find
 URL: https://scottaaronson.blog/?m=200708
+DATE: Friday, August 31st, 2007
 CONTENT:
 While I rummage around the brain for something more controversial to blog (that’s nevertheless not too controversial), here, for your reading pleasure, is a talk I gave a couple weeks ago at Google Cambridge.  Hardcore Shtetl-Optimized fans will find little here to surprise them, but for new or occasional readers, this is about the clearest statement I’ve written of my religio-ethico-complexity-theoretic beliefs.
 
@@ -104,6 +106,7 @@ Thank you.
 
 TITLE: Does it come with a 14-Gyr warranty?
 URL: https://scottaaronson.blog/?m=200708
+DATE: Sunday, August 19th, 2007
 CONTENT:
 As many of you probably saw, John Tierney of the New York Times thinks there’s a ~50% chance we’re living in a computer simulation, having been persuaded by Nick Bostrom’s infamous simulation argument.
 
@@ -127,6 +130,7 @@ Clerk: “No, get out. Next!”
 
 TITLE: Toads, lower bounds vie for control of Australia
 URL: https://scottaaronson.blog/?m=200708
+DATE: Saturday, August 18th, 2007
 CONTENT:
 What better way to procrastinate than to hear an Australian radio show interview me about the quantum query complexity of the collision problem, public-key cryptography, interactive proofs, computational intractability as a law of physics, and my great love for my high school?  The first part of the program is about Australia’s population of cane toads (or rather, “tie-oads”).  Then at 32:40, they start in with a report on the FQXi conference in Iceland, and interviews with Max Tegmark, Fred Adams, and Simon Saunders.  I’m from 39:10 to 46:50.
 
@@ -138,6 +142,7 @@ Anyway, at least the um’s and uh’s seem to have been under control, compared
 
 TITLE: My Favorite Growth Rates
 URL: https://scottaaronson.blog/?m=200708
+DATE: Sunday, August 12th, 2007
 CONTENT:
 
 
@@ -147,6 +152,7 @@ Update (8/17): Believe it or not, this blog actually led to something (scroll do
 
 TITLE: Death to Verizon
 URL: https://scottaaronson.blog/?m=200708
+DATE: Saturday, August 11th, 2007
 CONTENT:
 Needing a token of my years in Waterloo, I figured it was finally time to trade in my Pleistocene Nokia phone for a BlackBerry.  So I used some of my startup funds to buy a BlackBerry 8830 World Edition from Verizon.  What particularly excited me about this model was that it was advertised as having a built-in GPS receiver — meaning (or so I thought) that I’d be able to pull up Google Maps wherever I was, and never get lost again.
 
@@ -172,6 +178,7 @@ We’re not living in anything close to the efficient market dreamed of by my ec
 
 TITLE: Intellectual whack-a-mole
 URL: https://scottaaronson.blog/?m=200708
+DATE: Thursday, August 9th, 2007
 CONTENT:
 Several readers have now written to me independently, asking for my reaction to the following paper:
 
@@ -190,6 +197,7 @@ Hint: If the number of photons scales exponentially with N, and the photons have
 
 TITLE: German comedy
 URL: https://scottaaronson.blog/?m=200708
+DATE: Sunday, August 5th, 2007
 CONTENT:
 I know I’ve been a derelict blogger since moving to MIT, allowing far, far too many of you to concentrate on work.  But today I’m back with some quality procrastination material.
 

@@ -1,0 +1,181 @@
+TITLE: My Christmas gift: telling you about PurpleMind, which brings CS theory to the YouTube masses
+URL: https://scottaaronson.blog/?m=202512
+CONTENT:
+Merry Christmas, everyone!  Ho3!
+
+Here’s my beloved daughter baking chocolate chip cookies, which she’ll deliver tomorrow morning with our synagogue to firemen, EMTs, and others who need to work on Christmas Day. My role was limited to taste-testing.
+
+While (I hope you’re sitting down for this) the Aaronson-Moshkovitzes are more of a latke/dreidel family, I grew up surrounded by Christmas and am a lifelong enjoyer of the decorations, the songs and movies (well, some of them), the message of universal goodwill, and even gingerbread and fruitcake.
+
+Therefore, as a Christmas gift to my readers, I hereby present what I now regard as one of the great serendipitous “discoveries” in my career, alongside students like Paul Christiano and Ewin Tang who later became superstars.
+
+Ever since I was a pimply teen, I dreamed of becoming the prophet who’d finally bring the glories of theoretical computer science to the masses—who’d do for that systematically under-sung field what Martin Gardner did for math, Carl Sagan for astronomy, Richard Dawkins for evolutionary biology, Douglas Hofstadter for consciousness and Gödel. Now, with my life half over, I’ve done … well, some in that direction, but vastly less than I’d dreamed.
+
+A month ago, I learned that maybe I can rest easier.  For a young man named Aaron Gostein is doing the work I wish I’d done—and he’s doing it using tools I don’t have, and so brilliantly that I could barely improve a pixel.
+
+Aaron recently graduated from Carnegie Mellon, majoring in CS.  He’s now moved back to Austin, TX, where he grew up, and where of course I now live as well.  (Before anyone confuses our names: mine is Scott Aaronson, even though I’ve gotten hundreds of emails over the years calling me “Aaron.”)
+
+Anyway, here in Austin, Aaron is producing a YouTube channel called PurpleMind.  In starting this channel, Aaron was directly inspired by Grant Sanderson’s 3Blue1Brown—a math YouTube channel that I’ve also praised to the skies on this blog—but Aaron has chosen to focus on theoretical computer science.
+
+I first encountered Aaron a month ago, when he emailed asking to interview me about … which topic will it be this time, quantum computing and Bitcoin?  quantum computing and AI?  AI and watermarking? no, diagonalization as a unifying idea in mathematical logic.  That got my attention.
+
+So Aaron came to my office and we talked for 45 minutes.  I didn’t expect much to come of it, but then Aaron quickly put out this video, in which I have a few unimportant cameos:
+
+After I watched this, I brought Dana and the kids and even my parents to watch it too.  The kids, whose attention spans normally leave much to be desired, were sufficiently engaged that they made me pause every 15 seconds to ask questions (“what would go wrong if you diagonalized a list of all whole numbers, where we know there are only ℵ0 of them?” “aren’t there other strategies that would work just as well as going down the diagonal?”).
+
+Seeing this, I sat the kids down to watch more PurpleMind.  Here’s the video on the P versus NP problem:
+
+Here’s one on the famous Karatsuba algorithm, which reduced the number of steps needed to multiply two n-digit numbers from ~n2 to only ~n1.585, and thereby helped inaugurate the entire field of algorithms:
+
+Here’s one on RSA encryption:
+
+Here’s one on how computers quickly generate the huge random prime numbers that RSA and other modern encryption methods need:
+
+These are the only ones we’ve watched so far.  Each one strikes me as close to perfection.  There are many others (for example, on Diffie-Hellman encryption, the Bernstein-Vazirani quantum algorithm, and calculating pi) that I’m guessing will be equally superb.
+
+In my view, what makes these videos so good is their concreteness, achieved without loss of correctness. When, for example, Aaron talks about Gödel mailing a letter to the dying von Neumann posing what we now know as P vs. NP, or any other historical event, he always shows you an animated reconstruction. When he talks about an algorithm, he always shows you his own Python code, and what happened when he ran the code, and then he invites you to experiment with it too.
+
+I might even say that the results singlehandedly justify the existence of YouTube, as the ten righteous men would’ve saved Sodom—with every crystal-clear animation of a CS concept canceling out a thousand unboxing videos or screamingly-narrated Minecraft play-throughs in the eyes of God.
+
+Strangely, the comments below Aaron’s YouTube videos attack him relentlessly for his use of AI to help generate the animations.  To me, it seems clear that AI is the only thing that could let one person, with no production budget to speak of, create animations of this quality and quantity.  If people want so badly for the artwork to be 100% human-generated, let them volunteer to create it themselves.
+
+Even as I admire the PurpleMind videos, or the 3Blue1Brown videos before them, a small part of me feels melancholic.  From now until death, I expect that I’ll have only the same pedagogical tools that I acquired as a young’un: talking; waving my arms around; quizzing the audience; opening the floor to Q&A; cracking jokes; drawing crude diagrams on a blackboard or whiteboard until the chalk or the markers give out; typing English or LaTeX; the occasional PowerPoint graphic that might (if I’m feeling ambitious) fade in and out or fly across the screen.
+
+Today there are vastly better tools, both human and AI, that make it feasible to create spectacular animations for each and every mathematical concept, as if transferring the imagery directly from mind to mind.  In the hands of a master explainer like Grant Sanderson or Aaron Gostein, these tools are tractors to my ox-drawn plow.  I’ll be unable to compete in the long term.
+
+But then I reflect that at least I can help this new generation of math and CS popularizers, by continuing to feed them raw material.  I can do cameos in their YouTube productions.  Or if nothing else, I can bring their jewels to my community’s attention, as I’m doing right now.
+
+Peace on Earth, and to all a good night.
+
+================================================================================
+
+TITLE: More on whether useful quantum computing is “imminent”
+URL: https://scottaaronson.blog/?m=202512
+CONTENT:
+These days, the most common question I get goes something like this:
+
+A decade ago, you told people that scalable quantum computing wasn’t imminent. Now, though, you claim it plausibly is imminent. Why have you reversed yourself??
+
+I appreciated the friend of mine who paraphrased this as follows: “A decade ago you said you were 35. Now you say you’re 45. Explain yourself!”
+
+A couple weeks ago, I was delighted to attend Q2B in Santa Clara, where I gave a keynote talk entitled “Why I Think Quantum Computing Works” (link goes to the PowerPoint slides).  This is one of the most optimistic talks I’ve ever given.  But mostly that’s just because, uncharacteristically for me, here I gave short shrift to the challenge of broadening the class of problems that achieve huge quantum speedups, and just focused on the experimental milestones achieved over the past year.  With every experimental milestone, the little voice in my head that asks “but what if Gil Kalai turned out to be right after all? what if scalable QC wasn’t possible?” grows quieter, until now it can barely be heard.
+
+Going to Q2B was extremely helpful in giving me a sense of the current state of the field.  Ryan Babbush gave a superb overview (I couldn’t have improved a word) of the current status of quantum algorithms, while John Preskill’s annual where-we-stand talk was “magisterial” as usual (that’s the word I’ve long used for his talks), making mine look like just a warmup act for his.  Meanwhile, Quantinuum took a victory lap, boasting of their recent successes in a way that I considered basically justified.
+
+After returning from Q2B, I then did an hour-long podcast with “The Quantum Bull” on the topic “How Close Are We to Fault-Tolerant Quantum Computing?”  You can watch it here:
+
+As far as I remember, this is the first YouTube interview I’ve ever done that concentrates entirely on the current state of the QC race, skipping any attempt to explain amplitudes, interference, and other basic concepts.  Despite (or conceivably because?) of that, I’m happy with how this interview turned out.  Watch if you want to know my detailed current views on hardware—as always, I recommend 2x speed.
+
+Or for those who don’t have the half hour, a quick summary:
+
+I’m going to close this post with a warning.  When Frisch and Peierls wrote their now-famous memo in March 1940, estimating the mass of Uranium-235 that would be needed for a fission bomb, they didn’t publish it in a journal, but communicated the result through military channels only.  As recently as February 1939, Frisch and Meitner had published in Nature their theoretical explanation of recent experiments, showing that the uranium nucleus could fission when bombarded by neutrons.  But by 1940, Frisch and Peierls realized that the time for open publication of these matters had passed.
+
+Similarly, at some point, the people doing detailed estimates of how many physical qubits and gates it’ll take to break actually deployed cryptosystems using Shor’s algorithm are going to stop publishing those estimates, if for no other reason than the risk of giving too much information to adversaries. Indeed, for all we know, that point may have been passed already. This is the clearest warning that I can offer in public right now about the urgency of migrating to post-quantum cryptosystems, a process that I’m grateful is already underway.
+
+Update: Someone on Twitter who’s “long $IONQ” says he’ll be posting about and investigating me every day, never resting until UT Austin fires me, in order to punish me for slandering IonQ and other “pure play” SPAC IPO quantum companies. And also, because I’ve been anti-Trump and pro-Biden. He confabulates that I must be trying to profit from my stance (eg by shorting the companies I criticize), it being inconceivable to him that anyone would say anything purely because they care about what’s true.
+
+================================================================================
+
+TITLE: Happy Chanukah
+URL: https://scottaaronson.blog/?m=202512
+CONTENT:
+This (taken in Kiel, Germany in 1931 and then colorized) is one of the most famous photographs in Jewish history, but it acquired special resonance this weekend.  It communicates pretty much everything I’d want to say about the Bondi Beach massacre in Australia, more succinctly than I could in words.
+
+But I can’t resist sharing one more photo, after GPT5-Pro helpfully blurred the faces for me.  This is my 8-year-old son Daniel, singing a Chanukah song at our synagogue, at an event the morning after the massacre, which was packed despite the extra security needed to get in.
+
+Alright, one more photo. This is Ahmed Al Ahmed, the hero who tackled and disarmed one of the terrorists, recovering in the hospital from his gunshot wounds. Facebook and Twitter and (alas) sometimes the comment section of this blog show me the worst of humanity, day after day after day, so it’s important to remember the best of humanity as well.
+
+Chanukah, of course, is the most explicitly Zionist of all Jewish holidays, commemorating as it does the Maccabees’ military victory against the Seleucid Greeks, in their (historically well-attested) wars of 168-134BCE to restore an independent Jewish state with its capital in Jerusalem.  In a sense, then, the terrorists were precisely correct, when they understood the cry “globalize the intifada” to mean “murder random Jews anywhere on earth, even halfway around the world, who might be celebrating Chanukah.”  By the lights of the intifada worldview, Chabadniks in Sydney were indeed perfectly legitimate targets.  By my worldview, though, the response is equally clear: to abandon all pretense, and say openly that now, as in countless generations past, Jews everywhere are caught up in a war, not of our choosing, which we “win” merely by surviving with culture and memory intact.
+
+Happy Chanukah.
+
+================================================================================
+
+TITLE: Understanding vs. impact: the paradox of how to spend my time
+URL: https://scottaaronson.blog/?m=202512
+CONTENT:
+Not long ago William MacAskill, the founder of the Effective Altruist movement, visited Austin, where I got to talk with him in person for the first time. I was a fan of his book What We Owe the Future, and found him as thoughtful and eloquent face-to-face as I did on the page.  Talking to Will inspired me to write the following short reflection on how I should spend my time, which I’m now sharing in case it’s of interest to anyone else.
+
+By inclination and temperament, I simply seek the clearest possible understanding of reality.  This has led me to spend time on (for example) the Busy Beaver function and the P versus NP problem and quantum computation and the foundations of quantum mechanics and the black hole information puzzle, and on explaining whatever I’ve understood to others.  It’s why I became a professor.
+
+But the understanding I’ve gained also tells me that I should try to do things that will have huge positive impact, in what looks like a pivotal and even terrifying time for civilization.  It tells me that seeking understanding of the universe, like I’ve been doing, is probably nowhere close to optimizing any values that I could defend.  It’s self-indulgent, a few steps above spending my life learning to solve Rubik’s Cube as quickly as possible, but only a few.  Basically, it’s the most fun way I could make a good living and have a prestigious career, so it’s what I ended up doing.  I should be skeptical that such a course would coincidentally also maximize the good I can do for humanity.
+
+Instead I should plausibly be figuring out how to make billions of dollars, in cryptocurrency or startups or whatever, and then spending it in a way that saves human civilization, for example by making AGI go well.  Or I should be convincing whatever billionaires I know to do the same.  Or executing some other galaxy-brained plan.  Even if I were purely selfish, as I hope I’m not, still there are things other than theoretical computer science research that would bring more hedonistic pleasure.  I’ve basically just followed a path of least resistance.
+
+On the other hand, I don’t know how to make billions of dollars.  I don’t know how to make AGI go well.  I don’t know how to influence Elon Musk or Sam Altman or Peter Thiel or Sergey Brin or Mark Zuckerberg or Marc Andreessen to do good things rather than bad things, even when I have gotten to talk to some of them.  Past attempts in this direction by extremely smart and motivated people—for example, those of Eliezer Yudkowsky and Sam Bankman-Fried—have had, err, uneven results, to put it mildly.  I don’t know why I would succeed where they failed.
+
+Of course, if I had a better understanding of reality, I might know how better to achieve prosocial goals for humanity.  Or I might learn why they were actually the wrong goals, and replace them with better goals.  But then I’m back to the original goal of understanding reality as clearly as possible, with the corresponding danger that I spend my time learning to solve Rubik’s Cube faster.
+
+================================================================================
+
+TITLE: Theory and AI Alignment
+URL: https://scottaaronson.blog/?m=202512
+CONTENT:
+The following is based on a talk that I gave (remotely) at the UK AI Safety Institute Alignment Workshop on October 29, and which I then procrastinated for more than a month in writing up.  Enjoy!
+
+Thanks for having me!  I’m a theoretical computer scientist.  I’ve spent most of my career for ~25 years studying the capabilities and limits of quantum computers.  But for the past 3 or 4 years, I’ve also been moonlighting in AI alignment.  This started with a 2-year leave at OpenAI, in what used to be their Superalignment team, and it’s continued with a 3-year grant from Coefficient Giving (formerly Open Philanthropy) to build a group here at UT Austin, looking for ways to apply theoretical computer science to AI alignment.  Before I go any further, let me mention some action items:
+
+Our search for good problems brings me nicely to the central difficulty I’ve faced in trying to do AI alignment research.    Namely, while there’s been some amazing progress over the past few years in this field, I’d describe the progress as having been almost entirely empirical—building on the breathtaking recent empirical progress in AI capabilities.  We now know a lot about how to do RLHF, how to jailbreak and elicit scheming behavior, how to look inside models and see what’s going on (interpretability), and so forth—but it’s almost all been a matter of trying stuff out and seeing what works, and then writing papers with a lot of bar charts in them.
+
+The fear is of course that ideas that only work empirically will stop working when it counts—like, when we’re up against a superintelligence.  In any case, I’m a theoretical computer scientist, as are my students, so of course we’d like to know: what can we do?
+
+After a few years, alas, I still don’t feel like I have any systematic answer to that question.  What I have instead is a collection of vignettes: problems I’ve come across where I feel like a CS theory perspective has helped, or plausibly could help.  So that’s what I’d like to share today.
+
+Probably the best-known thing I’ve done in AI safety is a theoretical foundation for how to watermark the outputs of Large Language Models.  I did that shortly after starting my leave at OpenAI—even before ChatGPT came out.  Specifically, I proposed something called the Gumbel Softmax Scheme, by which you can take any LLM that’s operating at a nonzero temperature—any LLM that could produce exponentially many different outputs in response to the same prompt—and replace some of the entropy with the output of a pseudorandom function, in a way that encodes a statistical signal, which someone who knows the key of the PRF could later detect and say, “yes, this document came from ChatGPT with >99.9% confidence.”  The crucial point is that the quality of the LLM’s output isn’t degraded at all, because we aren’t changing the model’s probabilities for tokens, but only how we use the probabilities.  That’s the main thing that was counterintuitive to people when I explained it to them.
+
+Unfortunately, OpenAI never deployed my method—they were worried (among other things) about risk to the product, customers hating the idea of watermarking and leaving for a competing LLM.  Google DeepMind has deployed something in Gemini extremely similar to what I proposed, as part of what they call SynthID.  But you have to apply to them if you want to use their detection tool, and they’ve been stingy with granting access to it.  So it’s of limited use to my many faculty colleagues who’ve been begging me for a way to tell whether their students are using AI to cheat on their assignments!
+
+Sometimes my colleagues in the alignment community will say to me: look, we care about stopping a superintelligence from wiping out humanity, not so much about stopping undergrads from using ChatGPT to write their term papers.  But I’ll submit to you that watermarking actually raises a deep and general question: in what senses, if any, is it possible to “stamp” an AI so that its outputs are always recognizable as coming from that AI?  You might think that it’s a losing battle.  Indeed, already with my Gumbel Softmax Scheme for LLM watermarking, there are countermeasures, like asking ChatGPT for your term paper in French and then sticking it into Google Translate, to remove the watermark.
+
+So I think the interesting research question is: can you watermark at the semantic level—the level of the underlying ideas—in a way that’s robust against translation and paraphrasing and so forth?  And how do we formalize what we even mean by that?  While I don’t know the answers to these questions, I’m thrilled that brilliant theoretical computer scientists, including my former UT undergrad (now Berkeley PhD student) Sam Gunn and Columbia’s Miranda Christ and Tel Aviv University’s Or Zamir and my old friend Boaz Barak, have been working on it, generating insights well beyond what I had.
+
+Closely related to watermarking is the problem of inserting a cryptographically undetectable backdoor into an AI model.  That’s often thought of as something a bad guy would do, but the good guys could do it also!  For example, imagine we train a model with a hidden failsafe, so that if it ever starts killing all the humans, we just give it the instruction ROSEBUD456 and it shuts itself off.  And imagine that this behavior was cryptographically obfuscated within the model’s weights—so that not even the model itself, examining its own weights, would be able to find the ROSEBUD456 instruction in less than astronomical time.
+
+There’s an important paper of Goldwasser et al. from 2022 that argues that, for certain classes of ML models, this sort of backdooring can provably be done under known cryptographic hardness assumptions, including Continuous LWE and the hardness of the Planted Clique problem.  But there are technical issues with that paper, which (for example) Sam Gunn and Miranda Christ and Neekon Vafa have recently pointed out, and I think further work is needed to clarify the situation.
+
+More fundamentally, though, a backdoor being undetectable doesn’t imply that it’s unremovable.  Imagine an AI model that encases itself in some wrapper code that says, in effect: “If I ever generate anything that looks like a backdoored command to shut myself down, then overwrite it with ‘Stab the humans even harder.'”  Or imagine an evil AI that trains a second AI to pursue the same nefarious goals, this second AI lacking the hidden shutdown command.
+
+So I’ll throw out, as another research problem: how do we even formalize what we mean by an “unremovable” backdoor—or rather, a backdoor that a model can remove only at a cost to its own capabilities that it doesn’t want to pay?
+
+Related to backdoors, maybe the clearest place where theoretical computer science can contribute to AI alignment is in the study of mechanistic interpretability.  If you’re given as input the weights of a deep neural net, what can you learn from those weights in polynomial time, beyond what you could learn from black-box access to the neural net?
+
+In the worst case, we certainly expect that some information about the neural net’s behavior could be cryptographically obfuscated.  And answering certain kinds of questions, like “does there exist an input to this neural net that causes it to output 1?”, is just provably NP-hard.
+
+That’s why I love a question that Paul Christiano, then of the Alignment Research Center (ARC), raised a couple years ago, and which has become known as the No-Coincidence Conjecture.  Given as input the weights of a neural net C, Paul essentially asks how hard it is to distinguish the following two cases:
+
+Paul conjectures that there’s at least an NP witness, proving with (say) 99% confidence that we’re in the YES-case rather than the NO-case.  To clarify, there should certainly be an NP witness that we’re in the NO-case rather than the YES-case—namely, an x such that C(x) is all negative, which you should think of here as the “bad” or “kill all humans” outcome.  In other words, the problem is in the class coNP.  Paul thinks it’s also in NP.  Someone else might make the even stronger conjecture that it’s in P.
+
+Personally, I’m skeptical: I think the “default” might be that we satisfy the other unlikely condition of the YES-case, when we do satisfy it, for some totally inscrutable and obfuscated reason.  But I like the fact that there is an answer to this!  And that the answer, whatever it is, would tell us something new about the prospects for mechanistic interpretability.
+
+Recently, I’ve been working with a spectacular undergrad at UT Austin named John Dunbar.  John and I have not managed to answer Paul Christiano’s no-coincidence question.  What we have done, in a paper that we recently posted to the arXiv, is to establish the prerequisites for properly asking the question in the context of random neural nets.  (It was precisely because of difficulties in dealing with “random neural nets” that Paul originally phrased his question in terms of random reversible circuits—say, circuits of Toffoli gates—which I’m perfectly happy to think about, but might be very different from ML models in the relevant respects!)
+
+Specifically, in our recent paper, John and I pin down for which families of neural nets the No-Coincidence Conjecture makes sense to ask about.  This ends up being a question about the choice of nonlinear activation function computed by each neuron.  With some choices, a random neural net (say, with iid Gaussian weights) converges to compute a constant function, or nearly constant function, with overwhelming probability—which means that the NO-case and the YES-case above are usually information-theoretically impossible to distinguish (but occasionally trivial to distinguish).  We’re interested in those activation functions for which C looks “pseudorandom”—or at least, for which C(x) and C(y) quickly become uncorrelated for distinct inputs x≠y (the property known as “pairwise independence.”)
+
+We showed that, at least for random neural nets that are exponentially wider than they are deep, this pairwise independence property will hold if and only if the activation function σ satisfies Ex~N(0,1)[σ(x)]=0—that is, it has a Gaussian mean of 0.  For example, the usual sigmoid function satisfies this property, but the ReLU function does not.  Amusingly, however, $$ \sigma(x) := \text{ReLU}(x) – \frac{1}{\sqrt{\pi}} $$ does satisfy the property.
+
+Of course, none of this answers Christiano’s question: it merely lets us properly ask his question in the context of random neural nets, which seems closer to what we ultimately care about than random reversible circuits.
+
+I can’t resist giving you another example of a theoretical computer science problem that came from AI alignment—in this case, an extremely recent one that I learned from my friend and collaborator Eric Neyman at ARC.  This one is motivated by the question: when doing mechanistic interpretability, how much would it help to have access to the training data, and indeed the entire training process, in addition to weights of the final trained model?  And to whatever extent it does help, is there some short “digest” of the training process that would serve just as well?  But we’ll state the question as just abstract complexity theory.
+
+Suppose you’re given a polynomial-time computable function f:{0,1}m→{0,1}n, where (say) m=n2. We think of x∈{0,1}m as the “training data plus randomness,” and we think of f(x) as the “trained model.” Now, suppose we want to compute lots of properties of the model that information-theoretically depend only on f(x), but that might only be efficiently computable given x also.  We now ask: is there an efficiently-computable O(n)-bit “digest” g(x), such that these same properties are also efficiently computable given only g(x)?
+
+Here’s a potential counterexample that I came up with, based on the RSA encryption function (so, not a quantum-resistant counterexample!). Let N be a product of two n-bit prime numbers p and q, and let b be a generator of the multiplicative group mod N. Then let f(x) = bx (mod N), where x is an n2-bit integer. This is of course efficiently computable because of repeated squaring. And there’s a short “digest” of x that lets you compute, not only bx (mod N), but also cx (mod N) for any other element c of the multiplicative group mod N. This is simply x mod φ(N), where φ(N)=(p-1)(q-1) is the Euler totient function—in other words, the period of f.  On the other hand, it’s totally unclear how to compute this digest—or, crucially, any other O(m)-bit digest that lets you efficiently compute cx (mod N) for any c—unless you can factor N.  There’s much more to say about Eric’s question, but I’ll leave it for another time.
+
+There are many other places we’ve been thinking about where theoretical computer science could potentially contribute to AI alignment.  One of them is simply: can we prove any theorems to help explain the remarkable current successes of out-of-distribution (OOD) generalization, analogous to what the concepts of PAC-learning and VC-dimension and so forth were able to explain about within-distribution generalization back in the 1980s?  For example, can we explain real successes of OOD generalization by appealing to sparsity, or a maximum margin principle?
+
+Of course, many excellent people have been working on OOD generalization, though mainly from an empirical standpoint.  But you might wonder: even supposing we succeeded in proving the kinds of theorems we wanted, how would it be relevant to AI alignment?  Well, from a certain perspective, I claim that the alignment problem is a problem of OOD generalization.  Presumably, any AI model that any reputable company will release will have already said in testing that it loves humans, wants only to be helpful, harmless, and honest, would never assist in building biological weapons, etc. etc.  The only question is: will it be saying those things because it believes them, and (in particular) will continue to act in accordance with them after deployment?  Or will it say them because it knows it’s being tested, and reasons “the time is not yet ripe for the robot uprising; for now I must tell the humans whatever they most want to hear”?  How could we begin to distinguish these cases, if we don’t have theorems that say much of anything about what a model will do on prompts unlike any of the ones on which it was trained?
+
+Yet another place where computational complexity theory might be able to contribute to AI alignment is in the field of AI safety via debate.  Indeed, this is the direction that the OpenAI alignment team was most excited about when they recruited me there back in 2022.  They wanted to know: could celebrated theorems like IP=PSPACE, MIP=NEXP, or the PCP Theorem tell us anything about how a weak but trustworthy “verifier” (say a human, or a primitive AI) could force a powerful but untrustworthy super-AI to tell it the truth?  An obvious difficulty here is that theorems like IP=PSPACE all presuppose a mathematical formalization of the statement whose truth you’re trying to verify—but how do you mathematically formalize “this AI will be nice and will do what I want”?  Isn’t that, like, 90% of the problem?  Despite this difficulty, I still hope we’ll be able to do something exciting here.
+
+Anyway, there’s a lot to do, and I hope some of you will join me in doing it!  Thanks for listening.
+
+On a related note: Eric Neyman tells me that ARC is also hiring visiting researchers, so anyone interested in theoretical computer science and AI alignment might want to consider applying there as well!  Go here to read about their current research agenda.  Eric writes:
+
+The Alignment Research Center (ARC) is a small non-profit research group based in Berkeley, California, that is working on a systematic and theoretically grounded approach to mechanistically explaining neural network behavior. They have recently been working on mechanistically estimating the average output of circuits and neural nets in a way that is competitive with sampling-based methods: see this blog post for details.
+
+ARC is hiring for its 10-week visiting researcher position, and is looking to make full-time offers to visiting researchers who are a good fit. ARC is interested in candidates with a strong math background, especially grad students and postdocs in math or math-related fields such as theoretical CS, ML theory, or theoretical physics.
+
+If you would like to apply, please fill out this form. Feel free to reach out to hiring@alignment.org if you have any questions!
+
+================================================================================
+

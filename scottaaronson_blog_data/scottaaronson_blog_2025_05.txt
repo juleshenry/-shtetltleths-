@@ -1,0 +1,71 @@
+TITLE: “If Anyone Builds It, Everyone Dies”
+URL: https://scottaaronson.blog/?m=202505
+CONTENT:
+Eliezer Yudkowsky and Nate Soares are publishing a mass-market book, the rather self-explanatorily-titled If Anyone Builds It, Everyone Dies.  (Yes, the “it” means “sufficiently powerful AI.”)  The book is now available for preorder from Amazon:
+
+(If you plan to buy the book at all, Eliezer and Nate ask that you do preorder it, as this will apparently increase the chance of it making the bestseller lists and becoming part of The Discourse.)
+
+I was graciously offered a chance to read a draft and offer, not a “review,” but some preliminary thoughts. So here they are:
+
+For decades, Eliezer has been warning the world that an AI might soon exceed human abilities, and proceed to kill everyone on earth, in pursuit of whatever strange goal it ended up with.  It would, Eliezer said, be something like what humans did to the earlier hominids.  Back around 2008, I followed the lead of most of my computer science colleagues, who considered these worries, even if possible in theory, comically premature given the primitive state of AI at the time, and all the other severe crises facing the world.
+
+Now, of course, not even two decades later, we live on a planet that’s being transformed by some of the signs and wonders that Eliezer foretold.  The world’s economy is about to be upended by entities like Claude and ChatGPT, AlphaZero and AlphaFold—whose human-like or sometimes superhuman cognitive abilities, obtained “merely” by training neural networks (in the first two cases, on humanity’s collective output) and applying massive computing power, constitute (I’d say) the greatest scientific surprise of my lifetime.  Notably, these entities have already displayed some of the worrying behaviors that Eliezer warned about decades ago—including lying to humans in pursuit of a goal, and hacking their own evaluation criteria.  Even many of the economic and geopolitical aspects have played out as Eliezer warned they would: we’ve now seen AI companies furiously racing each other, seduced by the temptation of being (as he puts it) “the first monkey to taste the poisoned banana,” discarding their previous explicit commitments to safety, transparency, and the public good once they get in the way.
+
+Today, then, even if one still isn’t ready to swallow the full package of Yudkowskyan beliefs, any empirically minded person ought to be updating in its direction—and acting accordingly.  Which brings us to the new book by Eliezer and his collaborator Nate Soares.  This book is far and away the clearest, most accessible presentation of Eliezer’s beliefs, the culmination of a quarter-century of his developing and talking about them.  That undoubtedly owes a great deal to Nate, who seems to have sanded down the infamously brusque rough edges of Eliezer’s writing style.  So much the better!  But it also owes a lot to the world itself: current events now offer an endless supply of real-world examples for Eliezer’s formerly abstract arguments about AI, examples that the book deploys to maximum effect.
+
+The book also mines history—everything from the Wright Brothers to World War II to the Chernobyl accident—for lessons about human attitudes toward technological progress, safety, and risk.  And it maintains Eliezer’s fondness for stories and parables, one of the most charming features of his writing.
+
+Even today, I’m not nearly as confident about the doom scenario as Eliezer and Nate are.  I don’t know whether an AI’s goals are really “orthogonal” to its abilities, in the sense that will matter in practice.  And when I reach the part where the AI, having copied itself all over the Internet and built robot factories, then invents and releases self-replicating nanotechnology that gobbles the surface of the earth in hours or days, a large part of me still screams out that there must be practical bottlenecks that haven’t been entirely accounted for here.
+
+And yet, even if you agree with only a quarter of what Eliezer and Nate write, you’re likely to close this book fully convinced—as I am—that governments need to shift to a more cautious approach to AI, an approach more respectful of the civilization-changing enormity of what’s being created.  And that, if they won’t, their citizens need to pressure them to do so.
+
+So regardless of how much they agree or disagree, I’d like everyone on earth who cares about the future to read this book, debate its ideas, and have its thesis in mind when they’re discussing AI.
+
+As for me?  It would’ve been better if I’d reached my current position earlier: if I hadn’t needed empirical reality, plus superb writing like Eliezer’s and Nate’s, to bonk me over the head with the risks that AI was likely to pose to humanity in my lifetime.  But having failed to see as far ahead as they did, the least I can do is update.  You should too, and you can start by reading the book.
+
+As it happens, this weekend I’ll be at LessOnline, the rationalist blogging conference in Berkeley, where (among my other events) I’ll engage in a dialogue/debate with Nate Soares about the orthogonality thesis, one of the crucial underpinnings of his and Eliezer’s case for AI doom.  So, I’ll probably be LessAvailable to respond to comments on this post.  But feel free to discuss anyway!  After all, it’s merely the fate of all Earth-originating life that’s at stake here, not some actually hot-button topic like Trump or Gaza.
+
+================================================================================
+
+TITLE: Cracking the Top Fifty!
+URL: https://scottaaronson.blog/?m=202505
+CONTENT:
+I’ve now been blogging for nearly twenty years—through five presidential administrations, my own moves from Waterloo to MIT to UT Austin, my work on algebrization and BosonSampling and BQP vs. PH and quantum money and shadow tomography, the publication of Quantum Computing Since Democritus, my courtship and marriage and the birth of my two kids, a global pandemic, the rise of super-powerful AI and the terrifying downfall of the liberal world order.
+
+Yet all that time, through more than a thousand blog posts on quantum computing, complexity theory, philosophy, the state of the world, and everything else, I chased a form of recognition for my blogging that remained elusive.
+
+Until now.
+
+This week I received the following email:
+
+I emailed regarding your blog Shtetl-Optimized Blog which was selected by FeedSpot as one of the Top 50 Quantum Computing Blogs on the web.
+
+https://bloggers.feedspot.com/quantum_computing_blogs
+
+We recommend adding your website link and other social media handles to get more visibility in our list, get better ranking and get discovered by brands for collaboration.
+
+We’ve also created a badge for you to highlight this recognition. You can proudly display it on your website or share it with your followers on social media.
+
+We’d be thankful if you can help us spread the word by briefly mentioning Top 50 Quantum Computing Blogs in any of your upcoming posts.
+
+Please let me know if you can do the needful.
+
+You read that correctly: Shtetl-Optimized is now officially one of the top 50 quantum computing blogs on the web.  You can click the link to find the other 49.
+
+Maybe it’s not unrelated to this new notoriety that, over the past few months, I’ve gotten a massively higher-than-usual volume of emailed solutions to the P vs. NP problem, as well as the other Clay Millennium Problems (sometimes all seven problems at once), as well as quantum gravity and life, the universe, and everything.  I now get at least six or seven confident such emails per day.
+
+While I don’t spend much time on this flood of scientific breakthroughs (how could I?), I’d like to note one detail that’s new.  Many of the emails now include transcripts where ChatGPT fills in the details of the emailer’s theories for them—unironically, as though that ought to clinch the case.  Who said generative AI wasn’t poised to change the world?  Indeed, I’ll probably need to start relying on LLMs myself to keep up with the flood of fan mail, hate mail, crank mail, and advice-seeking mail.
+
+Anyway, thanks for reading everyone!  I look forward to another twenty years of Shtetl-Optimized, if my own health and the health of the world cooperate.
+
+================================================================================
+
+TITLE: Opposing SB37
+URL: https://scottaaronson.blog/?m=202505
+CONTENT:
+Yesterday, the Texas State Legislature heard public comments about SB37, a bill that would give a state board direct oversight over course content and faculty hiring at public universities, perhaps inspired by Trump’s national crackdown on higher education. (See here or here for coverage.) So, encouraged by a friend in the history department, I submitted the following public comment, whatever good it will do.
+
+I’m a computer science professor at UT, although I’m writing in my personal capacity. For 20 years, on my blog and elsewhere, I’ve been outspoken in opposing woke radicalism on campus and (especially) obsessive hatred of Israel that often veers into antisemitism, even when that’s caused me to get attacked from my left. Nevertheless, I write to strongly oppose SB37 in its current form, because of my certainty that no world-class research university can survive ceding control over its curriculum and faculty hiring to the state. If this bill passes, for example, it will severely impact my ability to recruit the most talented computer scientists to UT Austin, if they have competing options that will safeguard their academic freedom as traditionally conceived. Even if our candidates are approved, the new layer of bureaucracy will make it difficult and slow for us to do anything. For those concerned about intellectual diversity in academia, a much better solution would include safeguarding tenure and other protections for faculty with heterodox views, and actually enforcing content-neutral time, place, and manner rules for protests and disruptions. UT has actually done a better job on these things than many other universities in the US, and could serve as a national model for how viewpoint diversity can work — but not under an intolerably stifling regime like the one proposed by this bill.
+
+================================================================================
+

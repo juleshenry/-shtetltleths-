@@ -1,5 +1,6 @@
 TITLE: Experimental complexity theory
 URL: https://scottaaronson.blog/?m=200706
+DATE: Wednesday, June 27th, 2007
 CONTENT:
 I just came back from the MIT CSAIL (Computer Science and Artificial Intelligence Lab) annual meeting, which was held at a beach resort in Cape Cod. No, it isn’t California, but for at least a few months a year “my” coast can put up a respectable showing too:
 
@@ -15,6 +16,7 @@ The meeting ended with a “Wild & Crazy Ideas Session,” at which I (naturally
 
 TITLE: America’s nerdiest cities
 URL: https://scottaaronson.blog/?m=200706
+DATE: Sunday, June 24th, 2007
 CONTENT:
 From Money Magazine, a list of American cities with the highest percentage of residents with graduate degrees.  Cambridge, MA (26.3%) narrowly edges out Palo Alto, CA (25.4%) and Berkeley, CA (24.5%) — but beating them both by a long shot is Arlington, VA, the winner at 35.7%.  It takes a much more educated crowd to unify Iraq and 9/11 than to unify relativity and quantum mechanics.
 
@@ -22,6 +24,7 @@ From Money Magazine, a list of American cities with the highest percentage of re
 
 TITLE: You down with SPP?
 URL: https://scottaaronson.blog/?m=200706
+DATE: Sunday, June 17th, 2007
 CONTENT:
 I’ve been in San Diego all week for the FCRC (Federated Computing Research Conference), which just wrapped up yesterday.  I was here for Complexity’2007, but, lawless rebel that I am, I also crashed some of the talks at STOC’2007.  Highlights:
 
@@ -38,6 +41,7 @@ Update (6/20): We may have a winner, Aaron Sterling’s I Just Do Theory.  (Than
 
 TITLE: aaronson@mit
 URL: https://scottaaronson.blog/?m=200706
+DATE: Wednesday, June 13th, 2007
 CONTENT:
 They rejected me for undergrad. They rejected me for grad school. And for reasons best known to them, in July they’re going to let me loose on their campus as an Assistant Professor of Electrical Engineering and Computer Science.
 
@@ -55,6 +59,7 @@ Let me end this post with a plea to any superstar undergrads who (when you’re 
 
 TITLE: In support of an academic boycott
 URL: https://scottaaronson.blog/?m=200706
+DATE: Sunday, June 10th, 2007
 CONTENT:
 Today’s topic is one I was hoping I could avoid, since I know that my stance will alienate many of my own supporters.  But after I read the comments on this post by Bill Gasarch, and reflected on all the men, women, and children who were dispossessed of their land while the world did nothing, I realized I could no longer remain silent.
 
@@ -70,6 +75,7 @@ Even in a world rife with violence and despair, I can think of no single issue w
 
 TITLE: Bluehost sucks
 URL: https://scottaaronson.blog/?m=200706
+DATE: Wednesday, June 6th, 2007
 CONTENT:
 I apologize for my website being down all morning.  Back in the heyday of Bell Labs, they used to engineer telecommunications systems for “five-nines availability” (that is, 99.999% uptime).  In our vastly more sophisticated Internet age, I’d gladly settle for two and a half nines.
 
@@ -79,6 +85,7 @@ So, can anyone recommend a webhosting service that doesn’t suck?  If such a se
 
 TITLE: The groupies of science
 URL: https://scottaaronson.blog/?m=200706
+DATE: Tuesday, June 5th, 2007
 CONTENT:
 A friend sent me this Stanford Daily article about the strange tale of Elizabeth Okazaki, who
 
@@ -110,6 +117,7 @@ It always amuses me when those looking for an “elite” to rail against pick p
 
 TITLE: Wanna bet?
 URL: https://scottaaronson.blog/?m=200706
+DATE: Sunday, June 3rd, 2007
 CONTENT:
 A commenter on my previous post writes:
 

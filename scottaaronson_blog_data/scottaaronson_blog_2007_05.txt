@@ -1,5 +1,6 @@
 TITLE: The Myth of the Ivory Tower
 URL: https://scottaaronson.blog/?m=200705
+DATE: Wednesday, May 30th, 2007
 CONTENT:
 I know I promised no more posts about D-Wave and its “commercial” “quantum” computer for a while.  But will you look at the bait that D-Wave founder Geordie Rose has been dangling in front of me on his blog?
 
@@ -56,6 +57,7 @@ Personally, I hope that Robin’s science futures market gets tried on a signifi
 
 TITLE: A Woitian links, links, links post (slightly stale but still edible)
 URL: https://scottaaronson.blog/?m=200705
+DATE: Sunday, May 20th, 2007
 CONTENT:
 Razborov and Rudich won the Gödel Prize for “Natural Proofs”, which probably did as much as any single paper to elucidate the nature of the P vs. NP problem.  (More from the Bearded One and the Pontiff.) Loosely speaking, R&R showed that any circuit lower bound satisfying certain extremely broad criteria would “bite its own tail,” and lead to efficient algorithms to distinguish random from pseudorandom functions — the very sort of thing that we wanted to prove was hard. This doesn’t by any means imply that a P≠NP proof is impossible, but it does show how the problem has a strange, self-referential character that’s not quite like anything previously encountered in mathematics, including in the work of Gödel and Turing.  Technically simple but conceptually profound, the paper is also a masterpiece of clear, forceful exposition.  When I first came across it as an undergrad at Cornell, I knew complexity was my subject.
 
@@ -73,6 +75,7 @@ After viewing Scoop and receiving your notice, I was more than happy to comply w
 
 TITLE: Religion’s rules of inference
 URL: https://scottaaronson.blog/?m=200705
+DATE: Saturday, May 12th, 2007
 CONTENT:
 Besides defending quantum computing day and night, having drinks with Cosmic Variance‘s Sean Carroll, and being taken out to dinner at lots of restaurants with tablecloths, the other highlight of my job interview tour was meeting a friendly, interesting, articulate divinity student on the flight from San Francisco to Philadelphia, who tried to save my soul from damnation.
 
@@ -110,6 +113,7 @@ Kurt, who looked only slightly older than I am, is already married with two kids
 
 TITLE: Five reasons why I was in a good mood yesterday
 URL: https://scottaaronson.blog/?m=200705
+DATE: Tuesday, May 8th, 2007
 CONTENT:
 [Note: To clear up any confusion, I’m now lucky enough to have several great offers, and have not yet decided where I’m going, even unofficially.]
 
@@ -117,6 +121,7 @@ CONTENT:
 
 TITLE: Two Sunday-morning breakfast links
 URL: https://scottaaronson.blog/?m=200705
+DATE: Sunday, May 6th, 2007
 CONTENT:
 On Thursday NEC put out a press release announcing the “world’s first controllably coupled qubits.”  See here for the abstract of the accompanying Science paper by Niskanen et al. (unfortunately the full text requires a subscription).  NEC’s announcement led to the usual fluffified popular articles; see here, here, and here for example.  But to satisfy Geordie Rose’s curiosity, my hype-o-meter has not yet reached D-Wave levels, for three reasons.
 
@@ -134,6 +139,7 @@ Incidentally, an uncharitable person might suspect a slight conflict of interest
 
 TITLE: The Hiring Scott Aaronson FAQ
 URL: https://scottaaronson.blog/?m=200705
+DATE: Saturday, May 5th, 2007
 CONTENT:
 Last weekend, I got back from interviewing at the University of Washington, Stanford, Caltech, Berkeley, and Cornell.   Then I fell asleep, and am only just now waking up.  On this trip — surely the most exhausting I’ve ever been on —  I seem to remember giving  a talk on The Limits of Quantum Computers.  (You’ll have to go to presentation mode to get the full effect of my PowerPoint animations, and especially the D-Wave montage on slide 2.)
 
@@ -263,6 +269,7 @@ A: I’d say thank you very much for your opinion, and you’ve got me for — l
 
 TITLE: The most trivial theorem I’ve ever written up
 URL: https://scottaaronson.blog/?m=200705
+DATE: Wednesday, May 2nd, 2007
 CONTENT:
 Theorem: Suppose NP-complete problems are efficiently solvable by quantum computers.  Then either the polynomial hierarchy collapses, or else BQP ⊄ AM (that is, quantum computations can’t be efficiently simulated by Arthur-Merlin protocols).
 
@@ -276,6 +283,7 @@ Second Note: When I call this my “Most Trivial Theorem,” obviously I’m exc
 
 TITLE: Refilling your RSS glass before the entrée arrives
 URL: https://scottaaronson.blog/?m=200705
+DATE: Wednesday, May 2nd, 2007
 CONTENT:
 A reader points me to this recent Topology paper by Nabutovsky and Weinberger, which probably contains the biggest numbers to have ever arisen naturally in mathematics.  Specifically, the authors show that, if we maximize the kth Betti number (for k≥3) over all groups whose presentation has size N (while keeping the number finite), then it grows like the “super-duper Busy Beaver function” (that is, Busy Beaver with an oracle for the halting problem with an oracle for the halting problem).
 
@@ -285,6 +293,7 @@ The spiked magazine survey I blogged about earlier has finally been published.  
 
 TITLE: Purely out of intellectual duty
 URL: https://scottaaronson.blog/?m=200705
+DATE: Tuesday, May 1st, 2007
 CONTENT:
 Alright, alright … two separate readers pointed me to this story (from today’s New York Times), about recent research into defense mechanisms in female duck genitalia (“not quite biting, but it sure looks unpleasant,” as one of them says).
 

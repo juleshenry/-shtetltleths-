@@ -1,5 +1,6 @@
 TITLE: Quantum gravity computation: you, too, can be an expert in this field
 URL: https://scottaaronson.blog/?m=200703
+DATE: Friday, March 30th, 2007
 CONTENT:
 I am, I’m slightly embarrassed to admit, quoted pretty extensively in the cover story of this week’s New Scientist magazine (alas, only available to subscribers or those willing to shell out $4.95). The story, by Michael Brooks, is about an interesting recent paper by Lucien Hardy of Perimeter Institute, on the power of “quantum gravity computers.” Lucien’s paper considers the following question: by exploiting quantum fluctuations in the causal structure of spacetime, can one efficiently solve problems that are not efficiently solvable with a garden-variety quantum computer?
 
@@ -53,6 +54,7 @@ Update: Six months ago, New Scientist ran a credulous, uncomprehending story abo
 
 TITLE: The Republican Party’s intellectual
 URL: https://scottaaronson.blog/?m=200703
+DATE: Wednesday, March 28th, 2007
 CONTENT:
 “The debate is over. I mean, how many more thousands and thousands of scientists do we need to say, ‘We have done a study that there is global warming?’ … I am here to make businesses boom, but let’s also protect our environment. Let’s make our air clean. Let’s make our water clean. And let’s fight global warming because we know now that this is a major danger, that this is not a debate anymore.”
 
@@ -62,6 +64,7 @@ Addendum: Unfortunately Friedman’s NYT column on the Right’s scientific musc
 
 TITLE: A hole in the web
 URL: https://scottaaronson.blog/?m=200703
+DATE: Monday, March 26th, 2007
 CONTENT:
 The sun rose this morning on a radically transformed blogosphere: sparser, emptier, populated by only one Cornell-educated prover of complexity class inclusions and oracle separations from the Northeast US.
 
@@ -77,6 +80,7 @@ OK, I will.  Without further ado, here’s an article sent to me by my good frie
 
 TITLE: Barbeque ribs and AWPP forever
 URL: https://scottaaronson.blog/?m=200703
+DATE: Sunday, March 25th, 2007
 CONTENT:
 Lance has announced, completely unexpectedly, that he is ending his blog.  In shock and sadness, I posted the following comment, which I thought I should share here as well.
 
@@ -92,6 +96,7 @@ To honor Lance’s blog’s memory, the background of my own blog will temporari
 
 TITLE: At most finitely many years
 URL: https://scottaaronson.blog/?m=200703
+DATE: Saturday, March 24th, 2007
 CONTENT:
 Paul Cohen, who proved that one can imagine infinite sets larger than the set of integers but smaller than the set of real numbers without leading to contradiction, and who won (to date) the only Fields Medal ever awarded for work in logic, died yesterday. He was 72. You can read more about his achievements here or in Lecture 3.
 
@@ -103,6 +108,7 @@ Like Cantor himself, Cohen started out not as a logician but as an analyst. The 
 
 TITLE: The event horizon’s involved, but the singularity is committed
 URL: https://scottaaronson.blog/?m=200703
+DATE: Thursday, March 22nd, 2007
 CONTENT:
 Lenny Susskind — the Stanford string theorist who Shtetl-Optimized readers will remember from this entry — is currently visiting Perimeter Institute to give a fascinating series of lectures on “Black Holes and Holography.”
 
@@ -124,6 +130,7 @@ Update (3/22): Well, it turns out that I was ignorantly groping toward the famou
 
 TITLE: The Nintendo stork
 URL: https://scottaaronson.blog/?m=200703
+DATE: Monday, March 19th, 2007
 CONTENT:
 In January, the online magazine spiked asked me to write 200 words or less on the question, “What is the greatest innovation in your field?”  I thought it was a dumb question, but I answered it anyway.  The magazine still hasn’t put up the responses — I guess not enough “thinkers” got back to them yet — but today, since I feel like blogging and don’t have anything else to post, here is my response.  Enjoy.
 
@@ -137,6 +144,7 @@ Then a friend showed me a rudimentary spaceship game written in AppleBASIC.  Loo
 
 TITLE: Quantum Computing Since Democritus Lecture 10.5: Penrose
 URL: https://scottaaronson.blog/?m=200703
+DATE: Thursday, March 15th, 2007
 CONTENT:
 You’ve eaten your polynomial-time meatloaf and your BQP brussels sprouts.   So now please enjoy a special dessert lecture, which I didn’t even deliver in class except as a brief coda to Lecture 10.  Watch me squander any remaining credibility, as I pontificate about Roger Penrose’s Gödel argument, strong AI, the No-Cloning Theorem, and whether or not the brain is a quantum computer.  So gravitationally collapse your microtubules to the basis state |fun〉, because even a Turing machine could assent to the proposition that you’re in for a wild ride!
 
@@ -146,6 +154,7 @@ You’ve eaten your polynomial-time meatloaf and your BQP brussels sprouts.   So
 
 TITLE: Back from vacation
 URL: https://scottaaronson.blog/?m=200703
+DATE: Wednesday, March 14th, 2007
 CONTENT:
 I’m told that the first rule of blogging is: “never, ever apologize for the long delay in updating your blog.” As it turns out, I have no need to apologize.  You see, for the past ten days, I’ve been on an intense, meeting-packed, emotionally-draining sightseeing vacation around the United States.  The places I picked to see on my vacation — more-or-less at random — included Princeton, New Jersey; the Hyde Park neighborhood of Chicago; and the southern riverbank of Cambridge, Massachusetts.  To get the most out of my vacation, I made sure to wear my best nerd attire everywhere I went, and to sample all the fine restaurants, seminar rooms, and offices of computer science department chairs and deans.  And since I still haven’t had enough R&R, in April I’m going on a second vacation — this time to Pasadena, Palo Alto, and other exotic locations on the west coast.  As with everything else about my personal life, you can be sure to learn all the juicy details, in real-time, right here on this blog.
 

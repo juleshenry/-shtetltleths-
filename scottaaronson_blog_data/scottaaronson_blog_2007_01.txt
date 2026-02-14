@@ -1,5 +1,6 @@
 TITLE: Open Shtetl Day at QIP’07
 URL: https://scottaaronson.blog/?m=200701
+DATE: Wednesday, January 31st, 2007
 CONTENT:
 So, like, I’m at QIP’2007 in Brisbane, Australia?  And, like, everyone’s expecting me to blog about all the wild talks and poster presentations going down in Q-Town?  But, like, I don’t actually want to blog about that stuff, since it seems suspiciously close to useful content, the very thing this blog was created to avoid?
 
@@ -13,6 +14,7 @@ And get this: after a day or two, I’ll pick the best comments and QIPiest quip
 
 TITLE: Haere mai, kia ora tatou … eh, whatever
 URL: https://scottaaronson.blog/?m=200701
+DATE: Sunday, January 28th, 2007
 CONTENT:
 I’ve just come from a thin strip of volcanic ash near Antarctica, on which no mammal except bats set foot until a thousand years ago, and which today is mostly inhabited by sheep and by people who say “nigh-oh” when they mean “no.” I’m referring, of course, to New Zealand — or as the locals call it, “Middle Earth.” My colleague Andris Ambainis and I were in Auckland for four days, en route to QIP’2007 in Brisbane. While there, we were fed and sheltered by our friend Miriam and her boyfriend David. Miriam was both my housemate and officemate my first year at Berkeley; she now does user-interface research for a web-design company called Shift. You can see some of her handiwork, and learn more about her sheep-intensive homeland, by visiting this website. Hey, if Miriam took you around a place like this
 
@@ -38,6 +40,7 @@ NerdNote: When I first published this post, it mysteriously refused to show up. 
 
 TITLE: Favorite foods
 URL: https://scottaaronson.blog/?m=200701
+DATE: Saturday, January 20th, 2007
 CONTENT:
 Or, why I will weigh at least 3000 pounds by the time I get tenure.
 
@@ -49,6 +52,7 @@ Update (1/23): I finally fixed the time stamps in the comments section.  Unfortu
 
 TITLE: The P-and-NP Show comes to Caltech
 URL: https://scottaaronson.blog/?m=200701
+DATE: Friday, January 19th, 2007
 CONTENT:
 Here are the PowerPoint slides for a physics colloquium I gave at Caltech yesterday, on “Computational Intractability as a Law of Physics.”  The talk was delivered, so I was told, in the very same auditorium where Feynman gave his Lectures on Physics.  At the teatime beforehand, I was going to put both milk and lemon in my tea to honor the old man, but then I decided I actually didn’t want to.
 
@@ -58,6 +62,7 @@ I’m at Caltech till Tuesday, at which point I leave for New Zealand, to visit 
 
 TITLE: Long-awaited God post
 URL: https://scottaaronson.blog/?m=200701
+DATE: Tuesday, January 16th, 2007
 CONTENT:
 This morning, a reader named Bill emailed me the following:
 
@@ -94,6 +99,7 @@ Scott
 
 TITLE: Quantum Computing Since Democritus Lecture 9: Quantum
 URL: https://scottaaronson.blog/?m=200701
+DATE: Saturday, January 13th, 2007
 CONTENT:
 Many students indicated that this was their favorite lecture in the whole course — the one that finally made them feel at home in QuantumLand.  Come read about why quantum mechanics, far from being a mysterious, arbitrary structure foisted on us by experiment, is something that mathematicians could easily have discovered without leaving their armchairs.   (They didn’t?  Minor detail…)
 
@@ -105,6 +111,7 @@ If you’ve been thinking about following the course but haven’t, this lecture
 
 TITLE: My New Years’ resolution: to get a real job
 URL: https://scottaaronson.blog/?m=200701
+DATE: Sunday, January 7th, 2007
 CONTENT:
 Get a leg up on the competition, and offer me a tenure-track position in computer science right now!  Here’s everything you’ll need to decide:
 

@@ -1,5 +1,6 @@
 TITLE: Where even the sun pulls all-nighters
 URL: https://scottaaronson.blog/?m=200605
+DATE: Monday, May 29th, 2006
 CONTENT:
 Who: From left, Ashwin Nayak, Debbie Leung, Mike Mosca, your humble squinting blogger, Andris Ambainis with coffee, Patrick Hayden.
 
@@ -17,6 +18,7 @@ How: You thought they wouldn’t have WiFi here?
 
 TITLE: The neologistas
 URL: https://scottaaronson.blog/?m=200605
+DATE: Saturday, May 27th, 2006
 CONTENT:
 Ever since I arrived at fellow blogger Dave Bacon‘s house on Tuesday, the Pontiff and I have been tossing around ideas for a joint blog initiative.  Finally we hit on something: since we’re both neologistas — people who enjoy spending their free time coining new words — we decided to compile a list of the neologisms we’d most like to see adopted by the general population.  Without further ado:
 
@@ -66,6 +68,7 @@ In an effort to speed up the adoption of these words by the Oxford English Dicti
 
 TITLE: Nerdify the world, and the women will follow
 URL: https://scottaaronson.blog/?m=200605
+DATE: Wednesday, May 24th, 2006
 CONTENT:
 As delighted as I’ve been with the popular response to this blog, it’s come to my attention that there are still a few readers who haven’t yet been angered or offended by anything I’ve written. That’s why today’s entry will be about women, science, and Larry Summers.
 
@@ -146,6 +149,7 @@ In short, if the reason more women don’t study science is that they’re repel
 
 TITLE: The pee versus in-pee question
 URL: https://scottaaronson.blog/?m=200605
+DATE: Saturday, May 20th, 2006
 CONTENT:
 Greetings from America’s fourth-best city, Seattle, where I’m attending the STOC’2006 conference.  I arrived here yesterday from America’s third-best city, Boston, where I visited MIT for a week and gave a talk about The Learnability of Quantum States.  (I’ll leave the best and second-best cities as exercises for the reader.)
 
@@ -171,6 +175,7 @@ In summary, if you think through what my “in-pee” solution would actually en
 
 TITLE: The relativity of originality
 URL: https://scottaaronson.blog/?m=200605
+DATE: Thursday, May 11th, 2006
 CONTENT:
 An anonymous commenter asked for my opinion of The Free Will Theorem, a much-discussed recent paper by John Conway and Simon Kochen.   I’ve been putting it off, but I’ll finally will myself to say something.
 
@@ -224,6 +229,7 @@ there is nothing new under the sun.
 
 TITLE: It’s not radiation-poisoned, it’s just sleeping!
 URL: https://scottaaronson.blog/?m=200605
+DATE: Wednesday, May 10th, 2006
 CONTENT:
 Since I hadn’t heard from my friend Mahmoud Ahmadinejad for a while, I figured he must be busy with his new uranium-enrichment hobby.  My suspicions weren’t alleviated by this excellent piece in the New York Review of Books.  What I hadn’t realized is that Mahmoud is quite the joker!  And no, I’m not talking about the obvious gag of funding a peaceful nuclear energy program by oil exports — I’m talking about the following Pythonesque routine, which I’m not making up:
 
@@ -235,6 +241,7 @@ Iran: Oh, that’s just because the equipment we bought from A. Q. Khan on the b
 
 TITLE: Grab bag
 URL: https://scottaaronson.blog/?m=200605
+DATE: Saturday, May 6th, 2006
 CONTENT:
 Sorry for the long delay; I’m recovering from a cold. Thankfully, nothing like my Canadian-muskox-strength cold in October, but still enough to keep my brain out of service for most of the week. On the positive side, I now have a week’s worth of websurfing to share with you.
 

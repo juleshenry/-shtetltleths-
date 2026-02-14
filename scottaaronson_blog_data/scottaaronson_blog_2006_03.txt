@@ -1,5 +1,6 @@
 TITLE: The Glorious Blog of the People
 URL: https://scottaaronson.blog/?m=200603
+DATE: Wednesday, March 29th, 2006
 CONTENT:
 I have good news and bad news, though neither of them has much to do with biting vaginas.
 
@@ -17,6 +18,7 @@ And while I’m at it, here another experiment, this one aimed at increasing the
 
 TITLE: The mouth that cannot bite
 URL: https://scottaaronson.blog/?m=200603
+DATE: Friday, March 24th, 2006
 CONTENT:
 Warning: Today’s post has not been approved by the Family Research Council.
 
@@ -50,6 +52,7 @@ Surprisingly, I’ve never seen my “biting vagina puzzle” discussed in any b
 
 TITLE: Mmm, sacrilicious!
 URL: https://scottaaronson.blog/?m=200603
+DATE: Tuesday, March 21st, 2006
 CONTENT:
 So it seems The Simpsons — the show that FOX executives will cite as they plead with Satan to be spared from hellfire — has been renewed for two more seasons.  One more renewal, and The Simpsons will become the longest-running primetime TV series in history.
 
@@ -291,6 +294,7 @@ Homer: That’s a typo.
 
 TITLE: And the CMB spoke unto WMAP
 URL: https://scottaaronson.blog/?m=200603
+DATE: Saturday, March 18th, 2006
 CONTENT:
 On Thursday afternoon, the WMAP team released its latest data about the origin and fate of the universe.  For readers with social lives, WMAP is the Wilkinson Microwave Anisotropy Probe, which was launched in 2001 and cost $150 million.  While that’s less than a third the cost of a single Space Shuttle launch, keep in mind that WMAP has taught us next to nothing about the effects of weightlessness on snails, toads, or even fish.  Its sole mission is to study nerdy, technical things like what the universe is made of and whether it’s finite or infinite.
 
@@ -314,6 +318,7 @@ The third conclusion is that it’s time for a new religion: one that would cele
 
 TITLE: ¿Quién puede nombrar el mayor número?
 URL: https://scottaaronson.blog/?m=200603
+DATE: Tuesday, March 14th, 2006
 CONTENT:
 Jorge Alonso has kindly translated my essay “Who Can Name The Bigger Number?” into Spanish.  You can read his translation here, or my original English version here.
 
@@ -325,6 +330,7 @@ They don’t, of course.  But the price I paid for learning enough to do science
 
 TITLE: Alan Turing, moralist
 URL: https://scottaaronson.blog/?m=200603
+DATE: Sunday, March 12th, 2006
 CONTENT:
 Strong AI. The Turing Test. The Chinese room. As I’m sure you’ll agree, not nearly enough has been written about these topics. So when an anonymous commenter told me there’s a new polemic arguing that computers will never think — and that this polemic, by one Mark Halpern, is “being blogged about in a positive way (getting reviews like ‘thoughtful’ and ‘fascinating’)” — of course I had to read it immediately.
 
@@ -389,6 +395,7 @@ I agree with what I take to be Turing’s basic moral principle: that we should 
 
 TITLE: Today I am a mathematician
 URL: https://scottaaronson.blog/?m=200603
+DATE: Wednesday, March 8th, 2006
 CONTENT:
 
 
@@ -398,6 +405,7 @@ I have made my first (and, I expect, last) contribution to the Sarong Theorem Ar
 
 TITLE: It’s all about the hyperfractals
 URL: https://scottaaronson.blog/?m=200603
+DATE: Friday, March 3rd, 2006
 CONTENT:
 Given my public role as zookeeper, blogger, and jester, you might expect that I’d get a lot of strange email: from would-be Ramanujans who’ve proved or disproved P!=NP, stoners with bold new insights about string theory and consciousness, and complexity groupies who wanna collapse my hierarchy. And you’d be right, at least about the first two. But once in a while I’m graced with a missive so sublime — so perfect — that there’s nothing to do but post it here in its entirety.
 

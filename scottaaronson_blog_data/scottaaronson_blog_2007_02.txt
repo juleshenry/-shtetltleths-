@@ -1,5 +1,6 @@
 TITLE: Quantum Computing Since Democritus Lecture 10: Quantum Computing
 URL: https://scottaaronson.blog/?m=200702
+DATE: Wednesday, February 28th, 2007
 CONTENT:
 You’ve waited for weeks.  You’ve pestered me for it.  Now here it is.
 
@@ -11,6 +12,7 @@ Suggestions and bugfixes welcome; I’ll continue revising over the next few day
 
 TITLE: Shor, I’ll do it
 URL: https://scottaaronson.blog/?m=200702
+DATE: Saturday, February 24th, 2007
 CONTENT:
 
 
@@ -116,6 +118,7 @@ Obviously there’s a great deal I’ve skipped over; see here or here or here o
 
 TITLE: NAND now for something completely different
 URL: https://scottaaronson.blog/?m=200702
+DATE: Friday, February 23rd, 2007
 CONTENT:
 There was a real breakthrough in quantum algorithms last week — though you wouldn’t have known about it from reading Slashdot, Yahoo News, The Economist, or (for that matter) this blog.
 
@@ -153,6 +156,7 @@ All in all, this business with NAND trees has only confirmed my core belief abou
 
 TITLE: A complexity theorist’s (non)apology
 URL: https://scottaaronson.blog/?m=200702
+DATE: Wednesday, February 21st, 2007
 CONTENT:
 Several respected physicists wrote to me privately to say how disappointed they were that Umesh and I would fight shoddy journalism by making a shoddy claim of our own: namely, that the inability of quantum computers to solve NP-complete problems efficiently is an established fact.  I took a lot of flak in the comments section over the same issue.
 
@@ -200,6 +204,7 @@ I’m tired of double standards, is all I’m saying.
 
 TITLE: The Vazmeister enters the fray
 URL: https://scottaaronson.blog/?m=200702
+DATE: Saturday, February 17th, 2007
 CONTENT:
 Here’s a letter that Umesh Vazirani (my adviser at Berkeley) sent to The Economist, and which he kindly permitted me to share.  I’m guessing they’ll print this one instead of mine, which is fine by me.
 
@@ -220,6 +225,7 @@ Update (2/18): There’s now a Nature news article about D-Wave (hat tip to the 
 
 TITLE: Bending WordPress to my will
 URL: https://scottaaronson.blog/?m=200702
+DATE: Saturday, February 17th, 2007
 CONTENT:
 Comment previewing has been enabled.
 
@@ -235,6 +241,7 @@ Look out for further improvements in the days ahead — including a total-immers
 
 TITLE: Speaking truth to parallelism
 URL: https://scottaaronson.blog/?m=200702
+DATE: Thursday, February 15th, 2007
 CONTENT:
 Today The Economist put out this paragon of hard-hitting D-Wave journalism.  At first I merely got angry — but then I asked myself what Winston Churchill, Carl Sagan, or Chip ‘n Dale’s Rescue Rangers would do.  So let’s see if The Economist prints the following.
 
@@ -258,6 +265,7 @@ Update (2/16): If you read the comments, Geordie Rose responds to me, and I resp
 
 TITLE: Mistake of the Week: Belief is King
 URL: https://scottaaronson.blog/?m=200702
+DATE: Wednesday, February 14th, 2007
 CONTENT:
 A couple days ago the Times ran a much-debated story about Marcus S. Ross, a young-earth creationist who completed a PhD in geosciences at the University of Rhode Island.  Apparently his thesis was a perfectly-legitimate study of marine reptiles that (as he writes in the thesis) went extinct 65 million years ago.  Ross merely disavows the entire materialistic paradigm of which his thesis is a part.
 
@@ -293,6 +301,7 @@ Or anyway, that’s what I believe.
 
 TITLE: Chicken soup for the frequent flyer’s soul
 URL: https://scottaaronson.blog/?m=200702
+DATE: Tuesday, February 13th, 2007
 CONTENT:
 Some of you might have read about how flight attendants at AirTran kicked a 3-year-old screaming brat and her parents off a plane, after the brat had already delayed takeoff for 15 minutes by refusing to get in her seat, and the parents had demonstrated their total unwillingness to control her.  The parents went to the media expecting sympathy; instead, AirTran was immediately deluged with messages of support and people vowing to fly them from then on. Unfortunately, the airline then squandered a PR bonanza by apologizing profusely to the parents and refunding their tickets.  In my opinion, there was no need to kick anyone off the plane: the child and parents should’ve been promptly moved to the luggage compartment, then whipped and beaten upon arrival.
 
@@ -300,6 +309,7 @@ Some of you might have read about how flight attendants at AirTran kicked a 3-ye
 
 TITLE: The Orion Quantum Computer Anti-Hype FAQ
 URL: https://scottaaronson.blog/?m=200702
+DATE: Friday, February 9th, 2007
 CONTENT:
 Grudgingly offered for your reading pleasure, and in the vain hope of forestalling further questions.
 

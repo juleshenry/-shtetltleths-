@@ -1,0 +1,116 @@
+TITLE: Quantum! AI! Everything but Trump!
+URL: https://scottaaronson.blog/?m=202504
+CONTENT:
+
+
+================================================================================
+
+TITLE: Fight Fiercely
+URL: https://scottaaronson.blog/?m=202504
+CONTENT:
+Last week I visited Harvard and MIT, and as advertised in my last post, gave the Yip Lecture at Harvard on the subject “How Much Math Is Knowable?”  The visit was hosted by Harvard’s wonderful Center of Mathematical Sciences and Applications (CMSA), directed by my former UT Austin colleague Dan Freed.  Thanks so much to everyone at CMSA for the visit.
+
+And good news!  You can now watch my lecture on YouTube here:
+
+I’m told it was one of my better performances.  As always, I strongly recommend watching at 2x speed.
+
+I opened the lecture by saying that, while obviously it would always be an honor to give the Yip Lecture at Harvard, it’s especially an honor right now, as the rest of American academia looks to Harvard to defend the value of our entire enterprise.  I urged Harvard to “fight fiercely,” in the words of the Tom Lehrer song.
+
+I wasn’t just fishing for applause; I meant it.  It’s crucial for people to understand that, in its total war against universities, MAGA has now lost, not merely the anti-Israel leftists, but also most conservatives, classical liberals, Zionists, etc. with any intellectual scruples whatsoever.  To my mind, this opens up the possibility for a broad, nonpartisan response, highlighting everything universities (yes, even Harvard 😂) do for our civilization that’s worth defending.
+
+For three days in my old hometown of Cambridge, MA, I met back-to-back with friends and colleagues old and new.  Almost to a person, they were terrified about whether they’ll be able to keep doing science as their funding gets decimated, but especially terrified for anyone who they cared about on visas and green cards.  International scholars can now be handcuffed, deported, and even placed in indefinite confinement for pretty much any reason—including long-ago speeding tickets—or no reason at all.  The resulting fear has paralyzed, in a matter of months, an American scientific juggernaut that took a century to build.
+
+A few of my colleagues personally knew Rümeysa Öztürk, the Turkish student at Tufts who currently sits in prison for coauthoring an editorial for her student newspaper advocating the boycott of Israel. I of course disagree with what Öztürk wrote … and that is completely irrelevant to my moral demand that she go free. Even supposing the government had much more on her than this one editorial, still the proper response would seem to be a deportation notice—“either contest our evidence in court, or else get on the next flight back to Turkey”—rather than grabbing Öztürk off the street and sending her to indefinite detention in Louisiana. It’s impossible to imagine any university worth attending where the students live in constant fear of imprisonment for the civil expression of opinions.
+
+To help calibrate where things stand right now, here’s the individual you might expect to be most on board with a crackdown on antisemitism at Harvard:
+
+Jason Rubenstein, the executive director of Harvard Hillel, said that the school is in the midst of a long — and long-overdue — reckoning with antisemitism, and that [President] Garber has taken important steps to address the problem. Methodical federal civil rights oversight could play a constructive role in that reform, he said. “But the government’s current, fast-paced assault against Harvard – shuttering apolitical, life-saving research; targeting the university’s tax-exempt status; and threatening all student visas … is neither deliberate nor methodical, and its disregard for the necessities of negotiation and due process threatens the bulwarks of institutional independence and the rule of law that undergird our shared freedoms.”
+
+Meanwhile, as the storm clouds over American academia continue to darken, I’ll just continue to write what I think about everything, because what else can I do?
+
+Last night, alas, I lost yet another left-wing academic friend, the fourth or fifth I’ve lost since October 7. For while I was ready to take a ferocious public stand against the current US government, for the survival and independence of our universities, and for free speech and due process for foreign students, this friend regarded all that as insufficient. He demanded that I also clear the tentifada movement of any charge of antisemitism. For, as he patiently explained to me (while worrying that I wouldn’t grasp the point), while the protesters may have technically violated university rules, disrupted education, created a hostile environment in the sense of Title VI antidiscrimination law in ways that would be obvious were we discussing any other targeted minority, etc. etc., still, the only thing that matters morally is that the protesters represent “the powerless,” whereas Zionist Jews like me represent “the powerful.” So, I told this former friend to go fuck himself. Too harsh? Maybe if he hadn’t been Jewish himself, I could’ve forgiven him for letting the world’s oldest conspiracy theory colonize his brain.
+
+For me, the deep significance of in-person visits, including my recent trip to Harvard, is that they reassure me of the preponderance of sanity within my little world—and thereby of my own sanity. Online, every single day I feel isolated and embattled: pressed in on one side by MAGA forces who claim to care about antisemitism, but then turn out to want the destruction of science, universities, free speech, international exchange, due process of law, and everything else that’s made the modern world less than fully horrible; and on the other side, by leftists who say they stand with me for science and academic freedom and civil rights and everything else that’s good, but then add that the struggle needs to continue until the downfall of the scheming, moneyed Zionists and the liberation of Palestine from river to sea.
+
+When I travel to universities to give talks, though, I meet one sane, reasonable human being after another. Almost to a person, they acknowledge the reality of antisemitism, ideological monoculture, bureaucracy, spiraling costs, and many other problems at universities—and they care about universities enough to want to fix those problems, rather than gleefully nuking the universities from orbit as MAGA is doing. Mostly, though, people just want me to sign Quantum Computing Since Democritus, or tell me how much they like this blog, or ask questions about quantum algorithms or the Busy Beaver function. Which is fine too, and which you can do in the comments.
+
+================================================================================
+
+TITLE: I speak at Harvard as it faces its biggest crisis since 1636
+URL: https://scottaaronson.blog/?m=202504
+CONTENT:
+Every week, I tell myself I won’t do yet another post about the asteroid striking American academia, and then every week events force my hand otherwise.
+
+No one on earth—certainly no one who reads this blog—could call me blasé about the issue of antisemitism at US universities.  I’ve blasted the takeover of entire departments and unrelated student clubs and campus common areas by the dogmatic belief that the State of Israel (and only Israel, among all nations on earth) should be eradicated, by the use of that belief as a litmus test for entry.  Since October 7, I’ve dealt with comments and emails pretty much every day calling me a genocidal Judeofascist Zionist.
+
+So I hope it means something when I say: today I salute Harvard for standing up to the Trump administration. And I’ll say so in person, when I visit Harvard’s math department later this week to give the Fifth Annual Yip Lecture, on “How Much Math Is Knowable?”  The more depressing the news, I find, the more my thoughts turn to the same questions that bothered Euclid and Archimedes and Leibniz and Russell and Turing.  Actually, what the hell, why don’t I share the abstract for this talk?
+
+Theoretical computer science has over the years sought more and more refined answers to the question of which mathematical truths are knowable by finite beings like ourselves, bounded in time and space and subject to physical laws.  I’ll tell a story that starts with Gödel’s Incompleteness Theorem and Turing’s discovery of uncomputability.  I’ll then introduce the spectacular Busy Beaver function, which grows faster than any computable function.  Work by me and Yedidia, along with recent improvements by O’Rear and Riebel, has shown that the value of BB(745) is independent of the axioms of set theory; on the other end, an international collaboration proved last year that BB(5) = 47,176,870.  I’ll speculate on whether BB(6) will ever be known, by us or our AI successors.  I’ll next discuss the P≠NP conjecture and what it does and doesn’t mean for the limits of machine intelligence.  As my own specialty is quantum computing, I’ll summarize what we know about how scalable quantum computers, assuming we get them, will expand the boundary of what’s mathematically knowable.  I’ll end by talking about hypothetical models even beyond quantum computers, which might expand the boundary of knowability still further, if one is able (for example) to jump into a black hole, create a closed timelike curve, or project oneself onto the holographic boundary of the universe.
+
+Now back to the depressing news.  What makes me take Harvard’s side is the experience of Columbia. Columbia had already been moving in the right direction on fighting antisemitism, and on enforcing its rules against disruption, before the government even got involved.  Then, once the government did take away funding and present its ultimatum—completely outside the process specified in Title VI law—Columbia’s administration quickly agreed to everything asked, to howls of outrage from the left-leaning faculty. Yet despite its total capitulation, the government has continued to hold Columbia’s medical research and other science funding hostage, while inventing a never-ending list of additional demands, whose apparent endpoint is that Columbia submit to state ideological control like a university in Russia or Iran.
+
+By taking this scorched-earth route, the government has effectively telegraphed to all the other universities, as clearly as possible: “actually, we don’t care what you do or don’t do on antisemitism. We just want to destroy you, and antisemitism was our best available pretext, the place where you’d most obviously fallen short of your ideals. But we’re not really trying to cure a sick patient, or force the patient to adopt better health habits: we’re trying to shoot, disembowel, and dismember the patient. That being the case, you might as well fight us and go down with dignity!”
+
+No wonder that my distinguished Harvard friends (and past Shtetl-Optimized guest bloggers) Steven Pinker and Boaz Barak—not exactly known as anti-Zionist woke radicals—have come out in favor of Harvard fighting this in court.  So has Harvard’s past president Larry Summers, who’s welcome to guest-blog here as well.  They all understand that events have given us no choice but to fight Trump as if there were no antisemitism, even while we continue to fight antisemitism as if there were no Trump.
+
+Update (April 16): Commenter Greg argues that, in the title of this post, I probably ought to revise “Harvard’s biggest crisis since 1636” to “its biggest crisis since 1640.”  Why 1640?  Because that’s when the new college was shut down, over allegations that its head teacher was beating the students and that the head teacher’s wife (who was also the cook) was serving the students food adulterated with dung.  By 1642, Harvard was back on track and had graduated its first class.
+
+================================================================================
+
+TITLE: My most rage-inducing beliefs
+URL: https://scottaaronson.blog/?m=202504
+CONTENT:
+A friend and I were discussing whether there’s anything I could possibly say, on this blog, in 2025, that wouldn’t provoke an outraged reaction from my commenters.  So I started jotting down ideas.  Let’s see how I did.
+
+================================================================================
+
+TITLE: Theoretical Computer Science for AI Alignment … and More
+URL: https://scottaaronson.blog/?m=202504
+CONTENT:
+In this terrifying time for the world, I’m delighted to announce a little glimmer of good news.  I’m receiving a large grant from the wonderful Open Philanthropy, to build up a group of students and postdocs over the next few years, here at UT Austin, to do research in theoretical computer science that’s motivated by AI alignment.  We’ll think about some of the same topics I thought about in my time at OpenAI—interpretability of neural nets, cryptographic backdoors, out-of-distribution generalization—but we also hope to be a sort of “consulting shop,” to whom anyone in the alignment community can come with theoretical computer science problems.
+
+I already have two PhD students and several undergraduate students working in this direction.  If you’re interested in doing a PhD in CS theory for AI alignment, feel free to apply to the CS PhD program at UT Austin this coming December and say so, listing me as a potential advisor.
+
+Meanwhile, if you’re interested in a postdoc in CS theory for AI alignment, to start as early as this coming August, please email me your CV and links to representative publications, and arrange for two recommendation letters to be emailed to me.
+
+The Open Philanthropy project will put me in regular contact with all sorts of people who are trying to develop complexity theory for AI interpretability and alignment.  One great example of such a person is Eric Neyman—previously a PhD student of Tim Roughgarden at Columbia, now at the Alignment Research Center, the Berkeley organization founded by my former student Paul Christiano.  Eric has asked me to share an exciting announcement, along similar lines to the above:
+
+The Alignment Research Center (ARC) is looking for grad students and postdocs for its visiting researcher program. ARC is trying to develop algorithms for explaining neural network behavior, with the goal of advancing AI safety (see here for a more detailed summary). Our research approach is fairly theory-focused, and we are interested in applicants with backgrounds in CS theory or ML. Visiting researcher appointments are typically 10 weeks long, and are offered year-round.
+
+If you are interested, you can apply here. (The link also provides more details about the role, including some samples of past work done by ARC.) If you have any questions, feel free to email hiring@alignment.org.
+
+Some of my students and I are working closely with the ARC team. I like what I’ve seen of their research so far, and would encourage readers with the relevant background to apply.
+
+Meantime, I of course continue to be interested in quantum computing!  I’ve applied for multiple grants to continue doing quantum complexity theory, though whether or not I can get such grants will alas depend (among other factors) whether the US National Science Foundation continues to exist, as more than a shadow of what it was.  The signs look ominous; Science magazine reports that the NSF just cut by half the number of awarded graduate fellowships, and this has almost certainly directly affected students who I know and care about.
+
+Meantime we all do the best we can.  My UTCS colleague, Chandrajit Bajaj, is currently seeking a postdoc in the general area of Statistical Machine Learning, Mathematics, and Statistical Physics, for up to three years.  Topics include:
+
+If you’re interested, please email Chandra at bajaj@cs.utexas.edu.
+
+Thanks so much to the folks at Open Philanthropy, and to everyone else doing their best to push basic research forward even while our civilization is on fire.
+
+================================================================================
+
+TITLE: In favor of the morally sane thing
+URL: https://scottaaronson.blog/?m=202504
+CONTENT:
+The United States is now a country that disappears people.
+
+Visa holders, green card holders, and even occasionally citizens mistaken for non-citizens: Trump’s goons can now seize them off the sidewalk at any time, handcuff them, detain them indefinitely in a cell in Louisiana with minimal access to lawyers, or even fly them to an overcrowded prison in El Salvador to be tortured.
+
+It’s important to add: from what I know, some of the people being detained and deported are genuinely horrible. Some worked for organizations linked to Hamas, and cheered the murder of Jews. Some trafficked fentanyl. Some were violent gang members.
+
+There are proper avenues to deport such people, in normal pre-Trumpian US law. For example, you can void someone’s visa by convincing a judge that they lied about not supporting terrorist organizations in their visa application.
+
+But already other disappeared people seem to have been entirely innocent. Some apparently did nothing worse than write lefty op-eds or social media posts. Others had innocuous tattoos that were mistaken for gang insignia.
+
+Millennia ago, civilization evolved mechanisms like courts and judges and laws and evidence and testimony, to help separate the guilty from the innocent.  These are known problems with known solutions.  No new ideas are needed.
+
+One reader advised me not to blog about this issue unless I had something original to say: how could I possibly add to the New York Times’ and CNN’s daily coverage of every norm-shattering wrinkle? But other readers were livid at me for not blogging, even interpreting silence or delay as support for fascism.
+
+For those readers, but more importantly for my kids and posterity, let me say: no one who follows this blog could ever accuse me of reflexive bleeding-heart wokery, much less of undue sympathy for “globalize the intifada” agitators. So with whatever credibility that grants me: Shtetl-Optimized unequivocally condemns the “grabbing random foreign students off the street” method of immigration enforcement. If there are resident aliens who merit deportation, prove it to a friggin’ judge (I’ll personally feel more confident that the law is being applied sanely if the judge wasn’t appointed by Trump). Prove that you got the right person, and that they did what you said, and that that violated the agreed-upon conditions of their residency according to some consistently-applied standard. And let the person contest the charges, with advice of counsel.
+
+I don’t want to believe the most hyperbolic claims of my colleagues, that the US is now a full Soviet-style police state, or inevitably on its way to one. I beg any conservatives reading this post, particularly those with influence over events: help me not to believe this.
+
+================================================================================
+

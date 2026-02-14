@@ -1,5 +1,6 @@
 TITLE: My googol rank
 URL: https://scottaaronson.blog/?m=200610
+DATE: Tuesday, October 31st, 2006
 CONTENT:
 According to my usage statistics, of the people who come to scottaaronson.com via a search engine, about 5% do so by typing in one of the following queries:
 
@@ -17,6 +18,7 @@ So, let me satisfy the public’s curiosity once and for all: the biggest number
 
 TITLE: Quantum Computing Since Democritus Lecture 6: P, NP, and Friends
 URL: https://scottaaronson.blog/?m=200610
+DATE: Sunday, October 29th, 2006
 CONTENT:
 P, NP, and Friends.  A whole undergraduate complexity course in one HTML file.
 
@@ -28,6 +30,7 @@ Note: The comment section was down all day, but it’s back now.  Google ought t
 
 TITLE: Mistake of the Week: “X works on paper, but not in the real world”
 URL: https://scottaaronson.blog/?m=200610
+DATE: Thursday, October 26th, 2006
 CONTENT:
 Time again for Shtetl-Optimized’s Mistake of the Week series!  This week my inspiration comes from a paper that’s been heating up the quantum blogosphere (the Blochosphere?): Is Fault-Tolerant Quantum Computation Really Possible? by M. I. Dyakonov.  I’ll start by quoting my favorite passages:
 
@@ -60,6 +63,7 @@ In theory, there’s no difference between theory and practice even in practice.
 
 TITLE: Quantum Computing Since Democritus Lecture 5: Paleocomplexity
 URL: https://scottaaronson.blog/?m=200610
+DATE: Wednesday, October 25th, 2006
 CONTENT:
 From my inbox:
 
@@ -77,6 +81,7 @@ So won’t you join me, as I attempt to excavate the strange forgotten world of 
 
 TITLE: You know you’ve made it when…
 URL: https://scottaaronson.blog/?m=200610
+DATE: Tuesday, October 17th, 2006
 CONTENT:
 … Lance Fortnow and Bill Gasarch perform a Talmudic exegesis of one of your blog posts, taking more time to do so than you took to write the post.  Listen to Bill and Lance dissect my Ten Reasons to Believe P!=NP, and then offer their own reasons that are every bit as flaky as mine are.  (Indeed, Lance’s reason turns out to be almost identical to my reason #9, which he had previously rejected.)
 
@@ -86,6 +91,7 @@ I’m honored, of course, but I’m also offended by Bill and Lance’s speculat
 
 TITLE: Newton vs. Leibniz: the wigs are off
 URL: https://scottaaronson.blog/?m=200610
+DATE: Tuesday, October 17th, 2006
 CONTENT:
 Of course, the greatest scientific flame war of all time was the calculus priority dispute between Isaac Newton and Gottfried Wilhelm Leibniz.  This one had everything: intrigue, pettiness, hypocrisy, nationalism, and even hints of the physicist vs. computer scientist split that continues to this day.
 
@@ -99,6 +105,7 @@ Update (thanks to Dave and Viv Kendon):
 
 TITLE: Reigniting flame wars is my solemn responsibility
 URL: https://scottaaronson.blog/?m=200610
+DATE: Tuesday, October 17th, 2006
 CONTENT:
 The New York Times on Yau.  Thanks to Hoeteck Wee.
 
@@ -106,6 +113,7 @@ The New York Times on Yau.  Thanks to Hoeteck Wee.
 
 TITLE: Setting The Record straight
 URL: https://scottaaronson.blog/?m=200610
+DATE: Monday, October 16th, 2006
 CONTENT:
 So, it seems I’ve been written up in the Kitchener-Waterloo Record, a newspaper whose prestige and journalistic excellence make the Wall Street Journal look like the Shop-Rite coupon book.  The article, by Meghan Waters, is about “nerd culture” in Waterloo, and I am the prototypical nerd who Waters found to interview.
 
@@ -117,6 +125,7 @@ Despite these and other minor errors, I’m glad that my plan to increase the nu
 
 TITLE: Why complexity is better than cannabis
 URL: https://scottaaronson.blog/?m=200610
+DATE: Monday, October 9th, 2006
 CONTENT:
 Whether there exist subexponential-size locally decodable codes, and sub-nε-communication private information retrieval (PIR) protocols, have been major open problems for a decade.  A new preprint by Sergey Yekhanin reveals that both of these questions hinge on — wait for this — whether or not there are infinitely many Mersenne primes.  By using the fact (discovered a month ago) that 232,582,657-1 is prime, Yekhanin can already give a 3-server PIR protocol with communication complexity O(n1/32,582,658), improving the previous bound of O(n1/5.25).   Duuuuuude.  If you’ve ever wondered what it is that motivates complexity theorists, roll this one up and smoke it.
 
@@ -124,6 +133,7 @@ Whether there exist subexponential-size locally decodable codes, and sub-nε-com
 
 TITLE: Ja!  Ein klein Wienerschnitzel Entscheidungsproblem
 URL: https://scottaaronson.blog/?m=200610
+DATE: Monday, October 9th, 2006
 CONTENT:
 I arrived yesterday in Innsbruck, Austria — a lovely medieval town set in a valley in the Tyrolean Alps. Here the Pontiff and I are sharing an office at the Institut für Quantenoptik und Quanteninformation, and will have to work out a comedy routine to be performed Friday morning, when we’re supposed to open the QIPC meeting at Ike Newton’s old stomping grounds, the Royal Society in London.
 

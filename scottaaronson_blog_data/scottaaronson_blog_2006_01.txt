@@ -1,5 +1,6 @@
 TITLE: Hark!  From the Fortress of STOC
 URL: https://scottaaronson.blog/?m=200601
+DATE: Tuesday, January 31st, 2006
 CONTENT:
 The list of accepted papers for STOC’06 is now available. The process of forming this list confirmed my fundamental respect for the scientific peer review process — a process that, in its speed, objectivity, and reliance on reasoned argument, might someday rival such renowned deliberative bodies as the US House of Representatives.
 
@@ -13,6 +14,7 @@ Yes, I’d love to tell you about it, but I’d have to kill you afterwards, and
 
 TITLE: Hooray for democracy!
 URL: https://scottaaronson.blog/?m=200601
+DATE: Friday, January 27th, 2006
 CONTENT:
 
 
@@ -20,6 +22,7 @@ CONTENT:
 
 TITLE: Oops, we did it again
 URL: https://scottaaronson.blog/?m=200601
+DATE: Thursday, January 26th, 2006
 CONTENT:
 Genocide.  Global warming.  Nuclear proliferation.  Sex trafficking in Cambodia.  Famine in sub-Saharan Africa.
 
@@ -43,6 +46,7 @@ Even if not, I’ve just spent over 20 minutes of valuable procrastination time 
 
 TITLE: By popular demand
 URL: https://scottaaronson.blog/?m=200601
+DATE: Monday, January 23rd, 2006
 CONTENT:
 
 
@@ -52,6 +56,7 @@ CONTENT:
 
 TITLE: The quantum jester
 URL: https://scottaaronson.blog/?m=200601
+DATE: Tuesday, January 17th, 2006
 CONTENT:
 I’ve been told that “the world is awaiting” my report about the QIP’2006 conference.  So here it is.  I’m in Paris, near the Pantheon.  The buildings are beautiful, but the weather is crummy.  The food is tasty, expensive, and fattening.  Everyone here has been friendly,  which is surprising — considering that I’m conspicuously American, and that my French consists almost entirely of the following phrases:
 
@@ -76,6 +81,7 @@ I should also apply for jobs for next year.  Actually, would anyone like to offe
 
 TITLE: Portugal: “Non-Catholics Once Again Welcome”
 URL: https://scottaaronson.blog/?m=200601
+DATE: Wednesday, January 11th, 2006
 CONTENT:
 I arrived yesterday morning in Lisbon.  I’m here to give a talk at the Instituto Superior Técnico, which is working to build up a quantum information group.  On Saturday I leave for QIP’2006 in Paris, then for New York City, before returning to Waterloo.  Academia is not an easy life, but I try to bear it like a soldier.
 
@@ -89,6 +95,7 @@ PS. For those Shtetl-Optimized readers who don’t know a shtetl from schmaltz (
 
 TITLE: I’m asking ’cause I want to know
 URL: https://scottaaronson.blog/?m=200601
+DATE: Sunday, January 8th, 2006
 CONTENT:
 Is there an algorithm to decide whether the nth Busy Beaver number is even or odd?  Or is this problem r.e.-complete?  Or might it have intermediate Turing degree?
 
@@ -98,6 +105,7 @@ Is there an algorithm to decide whether the nth Busy Beaver number is even or od
 
 TITLE: Stroke of God
 URL: https://scottaaronson.blog/?m=200601
+DATE: Friday, January 6th, 2006
 CONTENT:
 From CNN:
 
@@ -109,6 +117,7 @@ Though many have condemned Robertson’s latest insight, I myself feel only admi
 
 TITLE: But what if?
 URL: https://scottaaronson.blog/?m=200601
+DATE: Thursday, January 5th, 2006
 CONTENT:
 I still owe you Part II of my Darwinism post.  But in the meantime, I’d like to pontificate about a fallacy that I’ve seen so often it deserves a name.  I’ll call it the But-What-If? Fallacy, after the following joke:
 
@@ -142,6 +151,7 @@ You can then point out the difference between this question and the one that was
 
 TITLE: We the nerds
 URL: https://scottaaronson.blog/?m=200601
+DATE: Tuesday, January 3rd, 2006
 CONTENT:
 “are you referring to yourself in the plural now?  It’s getting a little spooky…”
 (from a comment on a previous post)

@@ -1,5 +1,6 @@
 TITLE: Lord, send no sign
 URL: https://scottaaronson.blog/?m=200602
+DATE: Monday, February 27th, 2006
 CONTENT:
 Lars Johansson asks me to comment on a press release entitled “Quantum computer solves problem, without running.”  Alright, what have we got this time?
 
@@ -35,6 +36,7 @@ Update (3/1): Paul Kwiat has written in to the comments section with some helpfu
 
 TITLE: Mistake of the Week: Empathy=Sympathy
 URL: https://scottaaronson.blog/?m=200602
+DATE: Saturday, February 25th, 2006
 CONTENT:
 With this post, I begin an occasional series called Mistake of the Week — in which I’ll explore “obvious” howlers that nevertheless show up in many different contexts, are made by people who should know better, and do real damage in the world. If you like, you can retroactively consider my post But What If? to be part of this series.
 
@@ -68,6 +70,7 @@ Here, then, is my empathy quiz.  Read the S.C.U.M. Manifesto, trying as you do t
 
 TITLE: Jewish inferiority complex in brief, unfamiliar remission
 URL: https://scottaaronson.blog/?m=200602
+DATE: Tuesday, February 21st, 2006
 CONTENT:
 Five days after the Washington Post’s Richard Cohen shared his doofus insights about algebra, experts debate whether the Cohen balance of the universe has been restored
 
@@ -75,6 +78,7 @@ Five days after the Washington Post’s Richard Cohen shared his doofus insights
 
 TITLE: Eigenvalues up the wazoo
 URL: https://scottaaronson.blog/?m=200602
+DATE: Monday, February 20th, 2006
 CONTENT:
 An anonymous commenter on my last post asks:
 
@@ -116,6 +120,7 @@ Now let me turn the tables, anonymous.  Can you name a subfield of math that inv
 
 TITLE: The Fable of the Chessmaster
 URL: https://scottaaronson.blog/?m=200602
+DATE: Saturday, February 18th, 2006
 CONTENT:
 If a layperson asks you what computational complexity is, you could do worse than to tell the following story, which I learned from Steven Rudich.
 
@@ -162,6 +167,7 @@ Inspired by such examples, and by my recent positive experience answering Peter 
 
 TITLE: A Euclidean theater of misery
 URL: https://scottaaronson.blog/?m=200602
+DATE: Monday, February 13th, 2006
 CONTENT:
 As winner of the Best Umeshism Contest (remember that?), Peter Brooke earned the right to ask me any question and have me answer it on this blog. Without further ado, here is Peter’s question:
 
@@ -185,6 +191,7 @@ Second, that He apparently prefers complex numbers to real numbers, and the L2 n
 
 TITLE: The Cringeometer
 URL: https://scottaaronson.blog/?m=200602
+DATE: Monday, February 6th, 2006
 CONTENT:
 Over at Not Even Wrong, Peter Woit pans “Down the Rabbit Hole,” a movie about quantum mechanics, paranormal phenomena, and the deep imaginary connection between the two that’s setting the pseudoscience world on fire.  (Don’t worry — the fire is harmless to those who have balanced their chakras.)
 
@@ -216,6 +223,7 @@ The results should be self-explanatory — but just in case they aren’t, I’l
 
 TITLE: Compressed squeals
 URL: https://scottaaronson.blog/?m=200602
+DATE: Saturday, February 4th, 2006
 CONTENT:
 My car battery died. My latest research languishes half-written on my hard drive. My receipts for travel reimbursement lie unsubmitted on my floor. My academic future is yet to be decided. So what better way to spend an afternoon than by browsing the SPAM Haiku Archive, and compiling the 62 finest exemplars of the genre into this file?
 
