@@ -1,5 +1,6 @@
 TITLE: In Defense of Kolmogorov Complexity
 URL: https://scottaaronson.blog/?m=201109
+DATE: Tuesday, September 27th, 2011
 CONTENT:
 I got lots of useful and interesting feedback on my last post, though I also learned a valuable sociological lesson about the “two kinds of complexity theory”:
 
@@ -67,6 +68,7 @@ It’s really no different from how, even though we can never say whether a curv
 
 TITLE: The First Law of Complexodynamics
 URL: https://scottaaronson.blog/?m=201109
+DATE: Friday, September 23rd, 2011
 CONTENT:
 A few weeks ago, I had the pleasure of attending FQXi’s Setting Time Aright conference, part of which took place on a cruise from Bergen, Norway to Copenhagen, Denmark.  (Why aren’t theoretical computer science conferences ever held on cruises?  If nothing else, it certainly cuts down on attendees sneaking away from the conference venue.)  This conference brought together physicists, cosmologists, philosophers, biologists, psychologists, and (for some strange reason) one quantum complexity blogger to pontificate about the existence, directionality, and nature of time.  If you want to know more about the conference, check out Sean Carroll’s Cosmic Variance posts here and here.
 
@@ -122,6 +124,7 @@ PS (unrelated). Are neutrinos traveling faster than light?  See this xkcd strip
 
 TITLE: 6.893 Philosophy and Theoretical Computer Science
 URL: https://scottaaronson.blog/?m=201109
+DATE: Tuesday, September 6th, 2011
 CONTENT:
 I thought I’d let Shtetl-Optimized readers know about an experimental new course I’m teaching this fall (starting tomorrow): 6.893 Philosophy and Theoretical Computer Science.  The course was directly inspired by my Why Philosophers Should Care About Computational Complexity essay, and will cover many of the same topics.  Here’s the description:
 

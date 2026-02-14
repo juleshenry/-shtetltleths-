@@ -1,5 +1,6 @@
 TITLE: Silver lining
 URL: https://scottaaronson.blog/?m=201210
+DATE: Monday, October 29th, 2012
 CONTENT:
 Update (10/31): While I continue to engage in surreal arguments in the comments section—Scott, I’m profoundly disappointed that a scientist like you, who surely knows better, would be so sloppy as to assert without any real proof that just because it has tusks and a trunk, and looks and sounds like an elephant, and is the size of the elephant, that it therefore is an elephant, completely ignoring the blah blah blah blah blah—while I do that, there are a few glimmerings that the rest of the world is finally starting to get it.  A new story from The Onion, which I regard as almost the only real newspaper left:
 
@@ -15,6 +16,7 @@ At this point in the post, I was going to transition cleverly into an almost (bu
 
 TITLE: Quantum computing in the newz
 URL: https://scottaaronson.blog/?m=201210
+DATE: Tuesday, October 9th, 2012
 CONTENT:
 Update (10/10).  In case anyone is interested, here’s a comment I posted over at Cosmic Variance, responding to a question about the relevance of Haroche and Wineland’s work for the interpretation of quantum mechanics.
 

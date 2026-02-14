@@ -1,5 +1,6 @@
 TITLE: Talk, be merry, and be rational
 URL: https://scottaaronson.blog/?m=201511
+DATE: Monday, November 23rd, 2015
 CONTENT:
 Yesterday I wrote a statement on behalf of a Scott Alexander SlateStarCodex/rationalist meetup, which happened last night at MIT (in the same room where I teach my graduate class), and which I’d really wanted to attend but couldn’t.  I figured I’d share the statement here:
 
@@ -23,6 +24,7 @@ I’m sure there’s a lesson in here somewhere about what I should spend my tim
 
 TITLE: G.  Phi.  Fo.  Fum.
 URL: https://scottaaronson.blog/?m=201511
+DATE: Wednesday, November 4th, 2015
 CONTENT:
 Update (Dec. 14): The long wait is over!  Here’s Laci’s paper on the arXiv.  So far, I’ve read it only deeply enough to note that it contains the following sentence:
 

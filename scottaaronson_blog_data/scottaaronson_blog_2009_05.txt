@@ -1,5 +1,6 @@
 TITLE: Sidesplitting proofs
 URL: https://scottaaronson.blog/?m=200905
+DATE: Tuesday, May 19th, 2009
 CONTENT:
 One thing I’ve always liked about theoretical computer science is the number of proofs that are patently ridiculous—whose concluding steps seem to call more for a gong or cymbal than a “QED” box.  This is a property that CS theory inherited from logic, and that it shares with several other mathematical fields (though by no means all of them).  The titans of the comedy-proof genre are of course Gödel and Turing’s undecidability results, the latter of which arguably found its best expression as a poem.  But there are other examples all over the place, and many aren’t as well known as they should be.
 
@@ -35,6 +36,7 @@ So what’s your favorite sidesplitting proof?
 
 TITLE: The QIS workshop
 URL: https://scottaaronson.blog/?m=200905
+DATE: Tuesday, May 5th, 2009
 CONTENT:
 As promised, here’s my report on the Quantum Information Science Workshop in Virginia, only a week or so behind schedule.
 
@@ -78,6 +80,7 @@ There were also lots of great talks by the experimentalists.  Having attended t
 
 TITLE: Wanted: Quantum GGM theorem
 URL: https://scottaaronson.blog/?m=200905
+DATE: Sunday, May 3rd, 2009
 CONTENT:
 A commenter on my last post writes:
 

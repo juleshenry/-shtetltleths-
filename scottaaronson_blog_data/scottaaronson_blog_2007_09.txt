@@ -1,5 +1,6 @@
 TITLE: On Deutsches, Shors, and Vaziranis
 URL: https://scottaaronson.blog/?m=200709
+DATE: Friday, September 28th, 2007
 CONTENT:
 My friend Robin Hanson kvetches that scientific contrarians don’t get no respect: even if they ultimately turn out to be right, it’s the more cautious, Johnny-come-lately “conservative radicals” who get the lion’s share of the credit.    (Like many of Robin’s posts, this one is written in a purely descriptive mode that nevertheless leaves no doubt where his sympathies lie.)  And so, as a firmly-entrenched pillar of the hidebound scientific establishment, I thought I’d tell you our side of the story.
 
@@ -23,6 +24,7 @@ So yes, let’s remember the first person who struck gold, but also the first to
 
 TITLE: On drugs, mammoths, and Mahmoud
 URL: https://scottaaronson.blog/?m=200709
+DATE: Wednesday, September 26th, 2007
 CONTENT:
 I was, of course, delighted that Columbia University invited my good friend Mahmoud to speak there, and dismayed only by the tedious introduction by President Lee Bollinger.   (“Having demonstrated conclusively that today’s featured speaker is a murderous tyrant with no more right to partake in the civilized world than Genghis Khan or Attila the Hun, let me now, without further ado…”)  However long your speaker’s list of achievements, crimes against humanity, etc. might be, I think talk introductions should be two minutes tops.
 
@@ -48,6 +50,7 @@ It’s hard to identify a clear thesis in this book, just lots of interesting ob
 
 TITLE: Barriers to proving P!=NP and moving this blog
 URL: https://scottaaronson.blog/?m=200709
+DATE: Sunday, September 16th, 2007
 CONTENT:
 Thanks, everyone, for your patience, and your numerous complaints about the Technology Review site!  Currently, the folks at TR say they can do all the minor things people asked for, like adding permalinks to the titles and letting people include their URL’s with their comments.  On the other hand, they can’t make it so you can post comments without logging in, and they can’t decrease the size of the ad bar.  (I suggested that they at least turn my sidebar into drop-down menus, thereby increasing the screen width available for the entries; they said they’d look into that.) Also, they can’t provide the full text in RSS (since God forbid, that might let people read the blog without seeing ads), although they can give the first 150 words or so.
 
@@ -75,6 +78,7 @@ Comments welcome.  We’ll hopefully have a writeup soon.
 
 TITLE: Sellin’ out to the Man
 URL: https://scottaaronson.blog/?m=200709
+DATE: Monday, September 3rd, 2007
 CONTENT:
 Alright, it’s time to tell you: in a couple of days, Shtetl-Optimized will cease its two-year independent existence, and become a part of MIT Technology Review.  Please check out the new shtetl at technologyreview.com and let me know in the comments section, here or there, if anything is amiss.  (Note: You have to register at technologyreview.com before you can post a comment there, but that should be pretty quick and painless.)  If everything’s OK, then we’ll start redirecting the scottaaronson.com URL’s to point to the new location.
 
@@ -86,6 +90,7 @@ Indeed, the only real disadvantage I could see to hosting the blog on TR was the
 
 TITLE: Black-hole complexity theory: from joke to science
 URL: https://scottaaronson.blog/?m=200709
+DATE: Monday, September 3rd, 2007
 CONTENT:
 One of the most fun arXiv preprints I’ve read in a while:
 
@@ -102,6 +107,7 @@ When I used to spout off about the complexity of retrieving information from a b
 
 TITLE: My take on the Koblitz affair
 URL: https://scottaaronson.blog/?m=200709
+DATE: Saturday, September 1st, 2007
 CONTENT:
 Now that Luca, Michael Mitzenmacher, Jonathan Katz, and Oded Goldreich have all weighed in on Neal Koblitz’s critique of modern cryptography in the Notices of the AMS, I can no longer bear to be left out of the action.
 

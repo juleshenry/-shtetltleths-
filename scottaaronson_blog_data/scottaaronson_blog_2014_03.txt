@@ -1,5 +1,6 @@
 TITLE: This review of Max Tegmark’s book also occurs infinitely often in the decimal expansion of π
 URL: https://scottaaronson.blog/?m=201403
+DATE: Saturday, March 22nd, 2014
 CONTENT:
 Two months ago, commenter rrtucci asked me what I thought about Max Tegmark and his “Mathematical Universe Hypothesis”: the idea, which Tegmark defends in his recent book Our Mathematical Universe, that physical and mathematical existence are the same thing, and that what we call “the physical world” is simply one more mathematical structure, alongside the dodecahedron and so forth.  I replied as follows:
 
@@ -91,6 +92,7 @@ Yes, these multiverses are a perfectly fine thing to speculate about: sure they�
 
 TITLE: The Scientific Case for P≠NP
 URL: https://scottaaronson.blog/?m=201403
+DATE: Friday, March 7th, 2014
 CONTENT:
 Out there in the wider world—OK, OK, among Luboš Motl, and a few others who comment on this blog—there appears to be a widespread opinion that P≠NP is just “a fashionable dogma of the so-called experts,” something that’s no more likely to be true than false.  The doubters can even point to at least one accomplished complexity theorist, Dick Lipton, who publicly advocates agnosticism about whether P=NP.
 
@@ -198,6 +200,7 @@ Yet Another Update (3/17): Dick Lipton and Ken Regan now have a response up to t
 
 TITLE: Recent papers by Susskind and Tao illustrate the long reach of computation
 URL: https://scottaaronson.blog/?m=201403
+DATE: Sunday, March 2nd, 2014
 CONTENT:
 Most of the time, I’m a crabby, cantankerous ogre, whose only real passion in life is using this blog to shoot down the wrong ideas of others.  But alas, try as I might to maintain my reputation as a pure bundle of seething negativity, sometimes events transpire that pierce my crusty exterior.  Maybe it’s because I’m in Berkeley now, visiting the new Simons Institute for Theory of Computing during its special semester on Hamiltonian complexity.  And it’s tough to keep up my acerbic East Coast skepticism of everything new in the face of all this friggin’ sunshine.  (Speaking of which, if you’re in the Bay Area and wanted to meet me, this week’s the week!  Email me.)  Or maybe it’s watching Lily running around, her face wide with wonder.  If she’s so excited by her discovery of (say) a toilet plunger or some lint on the floor, what right do I have not to be excited by actual scientific progress?
 

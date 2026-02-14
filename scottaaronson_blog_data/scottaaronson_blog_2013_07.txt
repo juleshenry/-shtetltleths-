@@ -1,5 +1,6 @@
 TITLE: Microsoft: From QDOS to QMA in less than 35 years
 URL: https://scottaaronson.blog/?m=201307
+DATE: Friday, July 19th, 2013
 CONTENT:
 This past week I was in Redmond for the Microsoft Faculty Summit, which this year included a special session on quantum computing.  (Bill Gates was also there, I assume as our warmup act.)  I should explain that Microsoft Research now has not one but two quantum computing research groups: there’s Station Q in Santa Barbara, directed by Michael Freedman, which pursues topological quantum computing, but there’s also QuArC in Redmond, directed by Krysta Svore, which studies things like quantum circuit synthesis.
 
@@ -13,6 +14,7 @@ Unfortunately, last week I also bought a new laptop, and had the experience of P
 
 TITLE: The Collision Lower Bound After 12 Years
 URL: https://scottaaronson.blog/?m=201307
+DATE: Sunday, July 7th, 2013
 CONTENT:
 Streaming video is now available for the talks at the QStart conference, a couple weeks ago at Hebrew University in Jerusalem.  If you’re the sort of person who likes watching quantum information talks, then check out the excellent ones by Ray Laflamme, John Martinis, Umesh Vazirani, Thomas Vidick, Jacob Bekenstein, and many others.
 

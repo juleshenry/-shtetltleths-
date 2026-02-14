@@ -1,5 +1,6 @@
 TITLE: Microsoft SVC
 URL: https://scottaaronson.blog/?m=201409
+DATE: Tuesday, September 23rd, 2014
 CONTENT:
 By now, the news that Microsoft abruptly closed its Silicon Valley research lab—leaving dozens of stellar computer scientists jobless—has already been all over the theoretical computer science blogosphere: see, e.g., Lance, Luca, Omer Reingold, Michael Mitzenmacher.  I never made a real visit to Microsoft SVC (only went there once IIRC, for a workshop, while a grad student at Berkeley); now of course I won’t have the chance.
 
@@ -13,6 +14,7 @@ Yet one could also view this announcement as a lesson in why academia exists and
 
 TITLE: Speaking Truth to Parallelism: The Book
 URL: https://scottaaronson.blog/?m=201409
+DATE: Monday, September 22nd, 2014
 CONTENT:
 A few months ago, I signed a contract with MIT Press to publish a new book: an edited anthology of selected posts from this blog, along with all-new updates and commentary.  The book’s tentative title (open to better suggestions) is Speaking Truth to Parallelism: Dispatches from the Frontier of Quantum Computing Theory.  The new book should be more broadly accessible than Quantum Computing Since Democritus, although still far from your typical pop-science book.  My goal is to have STTP out by next fall, to coincide with Shtetl-Optimized‘s tenth anniversary.
 
@@ -43,6 +45,7 @@ Update (9/24): After hearing from several of you, I’ve decided on the followin
 
 TITLE: Steven Pinker’s inflammatory proposal: universities should prioritize academics
 URL: https://scottaaronson.blog/?m=201409
+DATE: Thursday, September 11th, 2014
 CONTENT:
 If you haven’t yet, I urge you to read Steven Pinker’s brilliant piece in The New Republic about what’s broken with America’s “elite” colleges and how to fix it.  The piece starts out as an evisceration of an earlier New Republic article on the same subject by William Deresiewicz.  Pinker agrees with Deresiewicz that something is wrong, but finds Deresiewicz’s diagnosis of what to be lacking.  The rest of Pinker’s article sets out his own vision, which involves America’s top universities taking the radical step of focusing on academics, and returning extracurricular activities like sports to their rightful place as extras: ways for students to unwind, rather than a university’s primary reason for existing, or a central criterion for undergraduate admissions.  Most controversially, this would mean that the admissions process at US universities would become more like that in virtually every other advanced country: a relatively-straightforward matter of academic performance, rather than an exercise in peering into the applicants’ souls to find out whether they have a special je ne sais quoi, and the students (and their parents) desperately gaming the intentionally-opaque system, by paying consultants tens of thousands of dollars to develop souls for them.
 
@@ -72,6 +75,7 @@ Update (Sep. 14): For those who feel I’m exaggerating the situation, please re
 
 TITLE: Raise a martini glass for Google and Martinis!
 URL: https://scottaaronson.blog/?m=201409
+DATE: Saturday, September 6th, 2014
 CONTENT:
 We’ve already been discussing this in the comments section of my previous post, but a few people emailed me to ask when I’d devote a separate blog post to the news.
 

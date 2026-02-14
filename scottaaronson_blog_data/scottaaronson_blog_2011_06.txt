@@ -1,5 +1,6 @@
 TITLE: What Alan T. did for his PhD
 URL: https://scottaaronson.blog/?m=201106
+DATE: Tuesday, June 28th, 2011
 CONTENT:
 We’ve all been there before: by the time you start graduate school in Princeton, you’ve already invented the Turing machine, pioneered the concept of computational universality, and proved the unsolvability of Hilbert’s Entscheidungsproblem.  A few years from now, you’re going to return to England to make decisive contributions to the breaking of the Enigma and the winning of World War II.  Your problem is, what do you do for the couple years in between?  (Keep in mind that you have a PhD thesis to submit, and the Turing machine is already old hat by now!)
 
@@ -53,6 +54,7 @@ In connection with your last paragraph, Feferman has shown that there  are paths
 
 TITLE: My responses to GASARCH’s P vs. NP poll
 URL: https://scottaaronson.blog/?m=201106
+DATE: Saturday, June 25th, 2011
 CONTENT:
 The poll is here; my (slightly-edited) responses are below.  It took heroic self-restraint, but I tried to answer with straightforward statements of what I actually think, rather than ironic humor.
 
@@ -106,6 +108,7 @@ Incidentally, “P≠NP means computers can never replace human  mathematicians�
 
 TITLE: Spouting Buhl
 URL: https://scottaaronson.blog/?m=201106
+DATE: Saturday, June 11th, 2011
 CONTENT:
 For those who are interested, video of my Buhl Lecture in Physics at Carnegie Mellon is now available on YouTube.  (The lecture was on April 29; the topic was “Quantum Computing and the Limits of the Efficiently Computable.”)  Thanks to everyone at CMU for their amazing hospitality.
 
@@ -113,6 +116,7 @@ For those who are interested, video of my Buhl Lecture in Physics at Carnegie Me
 
 TITLE: ICS gets a new name and a new location
 URL: https://scottaaronson.blog/?m=201106
+DATE: Wednesday, June 8th, 2011
 CONTENT:
 Shafi Goldwasser has asked me to announce that the next Innovations in Theoretical Computer Science (ITCS) conference—previously called Innovations in Computer Science (ICS)—will be held January 8-10, 2012 in Cambridge, MA, the first I(T)CS to be held outside of China.   The submission deadline is August 7.  The call for papers is here, and the conference website is here.
 
@@ -120,6 +124,7 @@ Shafi Goldwasser has asked me to announce that the next Innovations in Theoretic
 
 TITLE: Tools for the modern complexity theorist
 URL: https://scottaaronson.blog/?m=201106
+DATE: Tuesday, June 7th, 2011
 CONTENT:
 You’re deep in the Congo.  You’ve got an iPhone with some charge left, but there’s no cell tower for hundreds of miles.  With life-or-death urgency, you need to know the definition of the complexity class SBP and its relationship to BPPpath.  What do you do?
 
@@ -133,6 +138,7 @@ Relax: answering challenge #2 from this blog post even before the post went up, 
 
 TITLE: A personal post
 URL: https://scottaaronson.blog/?m=201106
+DATE: Sunday, June 5th, 2011
 CONTENT:
 Here’s an interview with me by math grad student Samuel Hansen, as part of a podcast he runs called Strongly Connected Components.  (Also check out the interviews with Steven Rudich, Steven Rudich a second time, Lance Fortnow, Doron Zeilberger, and your other favorite stars of the nerdosphere!)  In the interview, I talk about my passion for baseball stats, what you don’t know about llama-breeding, the use of color in Matisse’s later works … oh all right, it’s mostly about quantum computing and P vs. NP.
 

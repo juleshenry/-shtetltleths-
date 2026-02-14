@@ -1,5 +1,6 @@
 TITLE: Quantum Computing Since Democritus Lecture 19: Time Travel
 URL: https://scottaaronson.blog/?m=200807
+DATE: Thursday, July 31st, 2008
 CONTENT:
 A visitor from the year 2006, this time travel lecture appears before you now due to a blip in the space/time/procrastination continuum.  No grandfathers were harmed in the writing of it.  I’m looking backward to your comments.
 
@@ -9,6 +10,7 @@ A visitor from the year 2006, this time travel lecture appears before you now du
 
 TITLE: The Pareto curve of freedom
 URL: https://scottaaronson.blog/?m=200807
+DATE: Tuesday, July 29th, 2008
 CONTENT:
 
 
@@ -58,6 +60,7 @@ Of course, people could accept all this (even find it plunkingly obvious), and s
 
 TITLE: Quantum Computing Since Democritus Lecture 18: Free Will
 URL: https://scottaaronson.blog/?m=200807
+DATE: Monday, July 28th, 2008
 CONTENT:
 If you don’t like this latest lecture, please don’t blame me: I had no choice!  (Yeah, yeah, I know.  You presumably have no choice in criticizing it either.  But it can’t hurt to ask!)
 
@@ -67,6 +70,7 @@ Those of you who’ve been reading this blog since the dark days of 2005 might r
 
 TITLE: The Routerhead: a fable
 URL: https://scottaaronson.blog/?m=200807
+DATE: Friday, July 25th, 2008
 CONTENT:
 Inspired by: reading Naomi Klein’s The Shock Doctrine this week alongside Ludwig von Mises’s The Anti-Captialistic Mentality.
 
@@ -126,6 +130,7 @@ I talked again this morning to Ayn and Karl, and they completely agreed with eac
 
 TITLE: Quantum Computing Since Democritus Lecture 17: Fun With The Anthropic Principle
 URL: https://scottaaronson.blog/?m=200807
+DATE: Thursday, July 24th, 2008
 CONTENT:
 Here it is.  There was already a big anthropic debate in the Lecture 16 comments — spurred by a “homework exercise” at the end of that lecture — so I feel absolutely certain that there’s nothing more to argue about.  On the off chance I’m wrong, though, you’re welcome to restart the debate; maybe you’ll even tempt me to join in eventually.
 
@@ -137,6 +142,7 @@ Alas, neither camp is the reason I haven’t posted anything for two weeks; for 
 
 TITLE: Quantum Computing Since Democritus Lecture 16: Interactive Proofs
 URL: https://scottaaronson.blog/?m=200807
+DATE: Tuesday, July 8th, 2008
 CONTENT:
 In which I try to give a non-rigorous taste of the interactive proofs revolution that rocked the complexity world in the 1990’s, as well as its consequences for circuit lower bounds.  I argue that these results matter because they offer a tiny glimpse of how one can exploit the structure of problems like 3SAT to prove lower bounds—something we know will eventually be needed for the P vs. NP question.  If you got off the train before its latest tour through the Complexity Badlands, don’t worry: it will double back into Philosophers’ Valley (where everyone has an opinion and no one has a result) by Lecture 17 (“Fun With Anthropic Principles”).
 

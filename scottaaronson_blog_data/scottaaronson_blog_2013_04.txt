@@ -1,5 +1,6 @@
 TITLE: Quantum Computing Since Democritus now out in the US!  20% discount for Shtetl-Optimized readers
 URL: https://scottaaronson.blog/?m=201304
+DATE: Saturday, April 27th, 2013
 CONTENT:
 OK, this will be my last blog post hawking Quantum Computing Since Democritus, at least for a while.  But I do have four pieces of exciting news about the book that I want to share.
 
@@ -7,6 +8,7 @@ OK, this will be my last blog post hawking Quantum Computing Since Democritus, a
 
 TITLE: Superiority of the Latke: The Unexpected Convergence of Quantum Mechanics and Common Sense
 URL: https://scottaaronson.blog/?m=201304
+DATE: Friday, April 26th, 2013
 CONTENT:
 
 
@@ -26,6 +28,7 @@ Update: Luboš has a new blog post announcing that he finally found a chapter in
 
 TITLE: I was right: Congress’s attack on the NSF widens
 URL: https://scottaaronson.blog/?m=201304
+DATE: Thursday, April 25th, 2013
 CONTENT:
 Last month, I blogged about Sen. Tom Coburn (R-Oklahoma) passing an amendment blocking the National Science Foundation from funding most political science research.  I wrote:
 
@@ -45,6 +48,7 @@ The truth is, I find myself strangely indifferent to whether Smith gets his way 
 
 TITLE: My fortune-cookie wisdom for the day
 URL: https://scottaaronson.blog/?m=201304
+DATE: Thursday, April 18th, 2013
 CONTENT:
 On Sunday afternoon, Dana, Lily, and I were in Copley Square in Boston for a brunch with friends, at the Mandarin Oriental hotel on Boylston Street.  As I now recall, I was complaining bitterly about a number of things.  First, I’d lost my passport (it’s since been found).  Second, we hadn’t correctly timed Lily’s feedings, making us extremely late for the brunch, and causing Lily to scream hysterically the entire car ride.  Third, parking (and later, locating) our car at the Prudential Center was a logistical nightmare.  Fourth, I’d recently received by email a profoundly silly paper, claiming that one of my results was wrong based on a trivial misunderstanding.  Fifth … well, there were other things that were bothering me, but I don’t remember what they were.
 
@@ -70,6 +74,7 @@ In other news, Lily had an eventful day too: she finally figured out how to sque
 
 TITLE: QStart conference in Jerusalem, June 24-27
 URL: https://scottaaronson.blog/?m=201304
+DATE: Sunday, April 14th, 2013
 CONTENT:
 
 
@@ -79,6 +84,7 @@ Friend-of-the-blog Dorit Aharonov asked me to advertise the QStart Conference, w
 
 TITLE: “So You Think Quantum Computing Is Bunk?”
 URL: https://scottaaronson.blog/?m=201304
+DATE: Friday, April 12th, 2013
 CONTENT:
 On Wednesday, I gave a fun talk with that title down the street at Microsoft Research New England.  Disappointingly, no one in the audience did seem to think quantum computing was bunk (or if they did, they didn’t speak up): I was basically preaching to the choir.  My PowerPoint slides are here.  There’s also a streaming video here, but watch it at your own risk—my stuttering and other nerdy mannerisms seemed particularly bad, at least in the short initial segment that I listened to.  I really need media training.  Anyway, thanks very much to Boaz Barak for inviting me.
 
@@ -86,6 +92,7 @@ On Wednesday, I gave a fun talk with that title down the street at Microsoft Res
 
 TITLE: Pigs sprouted wings, Hell froze over, and I guest-posted on Luboš Motl’s blog
 URL: https://scottaaronson.blog/?m=201304
+DATE: Monday, April 8th, 2013
 CONTENT:
 Furthermore, the last of those things actually happened.  What won’t I do to promote Quantum Computing Since Democritus?  Enjoy!
 
@@ -111,6 +118,7 @@ To this, the skeptics might respond: but of course we can’t win over the mains
 
 TITLE: Two P vs. NP updates (neither of them technical)
 URL: https://scottaaronson.blog/?m=201304
+DATE: Tuesday, April 2nd, 2013
 CONTENT:
 “Meme” courtesy of my brother David
 

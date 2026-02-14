@@ -1,5 +1,6 @@
 TITLE: Projects aplenty
 URL: https://scottaaronson.blog/?m=201105
+DATE: Thursday, May 26th, 2011
 CONTENT:
 When ambitious students ask me for projects to work on, I usually kick myself for not having a list of favorite open problems that I can simply point them to.  Sure, half a year ago I listed some of my favorite open problems in quantum complexity theory—but what can I give the majority of students who are more classically-inclined?  The following haphazard list is my attempt at an answer.  Some of the “problems” are open-ended or ill-defined, some are actually implementation projects, some are no doubt trivial or solved, others are no doubt hopelessly difficult, and a couple are shamelessly filched from MathOverflow or CS Theory StackExchange.  Almost all are missing motivation and context.  Without further apologies…
 
@@ -55,6 +56,7 @@ When ambitious students ask me for projects to work on, I usually kick myself fo
 
 TITLE: The Territory Around BQP
 URL: https://scottaaronson.blog/?m=201105
+DATE: Monday, May 16th, 2011
 CONTENT:
 A commenter named Blake Stacey pointed me to a talk entitled The Territory Around BQP: Results and Open Problems, which was given at the Perimeter Institute this past Friday, and which I’d had no idea was available on streaming video.  This talk was part of a fantastic workshop called Conceptual Foundations and Foils for Quantum Information Processing, which was about ways of changing the laws of quantum mechanics to get alternative theories that still make some sort of sense, and that might shed new light on the “tried-and-true original.”  In this particular talk, the speaker discusses a large number of ways to make the complexity class BQP (Bounded-Error Quantum Polynomial-Time) “slightly” bigger or smaller.  I’m embarrassed to admit that I watched this particular talk transfixed to the computer screen: I genuinely couldn’t predict how BQP was going to get mutilated next, and I looked forward to finding out.
 
@@ -62,6 +64,7 @@ A commenter named Blake Stacey pointed me to a talk entitled The Territory Aroun
 
 TITLE: Quantum-Effect-Demonstrating Beef
 URL: https://scottaaronson.blog/?m=201105
+DATE: Sunday, May 15th, 2011
 CONTENT:
 Update (May 25): See my Q&A about D-Wave’s new announcement at Forbes.com.
 
@@ -83,6 +86,7 @@ As some of you might be aware, I’m a theoretical computer scientist, not a phy
 
 TITLE: Point/Counterpoint: “speaking truth to power” vs. speaking power to idiocy
 URL: https://scottaaronson.blog/?m=201105
+DATE: Tuesday, May 10th, 2011
 CONTENT:
 Spoiler: Actual change of opinion below!  You’ll need to read to the end, though.
 
@@ -134,6 +138,7 @@ We  thought that it was important for us not only to protect the lives of  our g
 
 TITLE: Better late than never
 URL: https://scottaaronson.blog/?m=201105
+DATE: Tuesday, May 3rd, 2011
 CONTENT:
 No, I’m not talking about Osama, but about my reactions below to a New Yorker article about quantum computing—reactions whose writing was rudely interrupted by last night’s news.    Of all the possible times in the past decade to get him, they had to pick one that would overshadow an important Shtetl-Optimized discussion about complexity theory, the Many-Worlds Interpretation, and the popularization of science?   Well, I guess I’ll let it slide.
 

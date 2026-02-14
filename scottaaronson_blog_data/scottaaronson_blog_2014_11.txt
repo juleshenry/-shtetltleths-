@@ -1,5 +1,6 @@
 TITLE: PostBQP Postscripts: A Confession of Mathematical Errors
 URL: https://scottaaronson.blog/?m=201411
+DATE: Sunday, November 30th, 2014
 CONTENT:
 tl;dr: This post reveals two errors in one of my most-cited papers, and also explains how to fix them.  Thanks to Piotr Achinger, Michael Cohen, Greg Kuperberg, Ciaran Lee, Ryan O’Donnell, Julian Rosen, Will Sawin, Cem Say, and others for their contributions to this post.
 
@@ -67,6 +68,7 @@ Now that I’ve come clean about all these things, hopefully the healing can beg
 
 TITLE: Lens of Computation on the Sciences
 URL: https://scottaaronson.blog/?m=201411
+DATE: Tuesday, November 25th, 2014
 CONTENT:
 This weekend, the Institute for Advanced Study in Princeton hosted a workshop on the “Lens of Computation in the Sciences,” which was organized by Avi Wigderson, and was meant to showcase theoretical computer science’s imperialistic ambitions to transform every other field.  I was proud to speak at the workshop, representing CS theory’s designs on physics.  But videos of all four of the talks are now available, and all are worth checking out:
 
@@ -78,6 +80,7 @@ Thanks so much to Avi, and everyone else at IAS, for organizing an awesome works
 
 TITLE: Kuperberg’s parable
 URL: https://scottaaronson.blog/?m=201411
+DATE: Sunday, November 23rd, 2014
 CONTENT:
 Recently, longtime friend-of-the-blog Greg Kuperberg wrote a Facebook post that, with Greg’s kind permission, I’m sharing here.
 
@@ -106,6 +109,7 @@ P: It sounds like the science is anything but settled. I’m not interested in h
 
 TITLE: What does the NSA think of academic cryptographers?  Recently-declassified document provides clues
 URL: https://scottaaronson.blog/?m=201411
+DATE: Sunday, November 16th, 2014
 CONTENT:
 Brighten Godfrey was one of my officemates when we were grad students at Berkeley.  He’s now a highly-successful computer networking professor at the University of Illinois Urbana-Champaign, where he studies the wonderful question of how we could get the latency of the Internet down to the physical limit imposed by the finiteness of the speed of light.  (Right now, we’re away from that limit by a factor of about 50.)
 
@@ -119,6 +123,7 @@ Reading this document drove home for me that the “provable security wars” a
 
 TITLE: Der Quantencomputer
 URL: https://scottaaronson.blog/?m=201411
+DATE: Friday, November 14th, 2014
 CONTENT:
 Those of you who read German (I don’t) might enjoy a joint interview of me and Seth Lloyd about quantum computing, which was conducted in Seth’s office by the journalist Christian Meier, and published in the Swiss newspaper Neue Zürcher Zeitung.  Even if you don’t read German, you can just feed the interview into Google Translate, like I did.  While the interview covers ground that will be forehead-bangingly familiar to regular readers of this blog, I’m happy with how it turned out; even the slightly-garbled Google Translate output is much better than most quantum computing articles in the English-language press.  (And while Christian hoped to provoke spirited debate between me and Seth by interviewing us together, we surprised ourselves by finding very little that we actually disagreed about.)  I noticed only one error, when I’m quoted talking about “the discovery of the transistor in the 1960s.”  I might have said something about the widespread commercialization of transistors (and integrated circuits) in the 1960s, but I know full well that the transistor was invented at Bell Labs in 1947.
 
@@ -126,6 +131,7 @@ Those of you who read German (I don’t) might enjoy a joint interview of me an
 
 TITLE: Interstellar’s dangling wormholes
 URL: https://scottaaronson.blog/?m=201411
+DATE: Monday, November 10th, 2014
 CONTENT:
 Update (Nov. 15): A third of my confusions addressed by reading Kip Thorne’s book! Details at the bottom of this post.
 

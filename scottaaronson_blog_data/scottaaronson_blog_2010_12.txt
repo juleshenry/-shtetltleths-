@@ -1,5 +1,6 @@
 TITLE: BQPOTUS (or, the Big-O)
 URL: https://scottaaronson.blog/?m=201012
+DATE: Sunday, December 19th, 2010
 CONTENT:
 Disclaimer: The White House Office of Science and Technology Policy has asked me to clarify that, although this post will contain a photograph of me standing near the President of the United States, nothing in the post, or in Shtetl-Optimized more generally, is endorsed in any way by the White House or the President.  You know, just in case you were wondering.
 
@@ -43,6 +44,7 @@ At the risk of annoying earnestness, I’d like to thank:
 
 TITLE: My painful lesson for the week
 URL: https://scottaaronson.blog/?m=201012
+DATE: Saturday, December 18th, 2010
 CONTENT:
 Years ago, Sasha Razborov taught me one of my all-time favorite jokes.
 
@@ -56,6 +58,7 @@ The lesson I’ve learned this week is that the man was wrong.  In politics, not
 
 TITLE: Alex Halderman, and India’s assault on academic freedom
 URL: https://scottaaronson.blog/?m=201012
+DATE: Friday, December 17th, 2010
 CONTENT:
 Five years ago, not long after the founding of Shtetl-Optimized, I blogged about Alex Halderman: my best friend since seventh grade at Newtown Junior High School, now a famous security researcher and a computer science professor at the University of Michigan, and someone whose exploits seem to be worrying at least one government as much as Julian Assange’s.
 
@@ -69,6 +72,7 @@ To those in the Indian government responsible for the harassment of Alex Halderm
 
 TITLE: QCut
 URL: https://scottaaronson.blog/?m=201012
+DATE: Thursday, December 16th, 2010
 CONTENT:
 WARNING: This post makes (what turned out in retrospect to be) advanced use of sarcasm, irony, and absurdism.  Indeed, even after I added a disclaimer explaining the sarcasm, many commenters still responded as if I actually favored gutting the National Science Foundation.  (Unless, of course, those commenters were also being sarcastic—in which case, touche!)
 

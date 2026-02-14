@@ -1,5 +1,6 @@
 TITLE: With electronic voting machines, it’s entirely plausible
 URL: https://scottaaronson.blog/?m=200809
+DATE: Friday, September 19th, 2008
 CONTENT:
 Here’s what I saw the last time I went to Intrade (yes, I’ve been checking about 200,000 times per day):
 
@@ -15,6 +16,7 @@ Joke-Killing Explanation for Non-Nerds: NaN is “Not a Number,” an error code
 
 TITLE: Open thread #2
 URL: https://scottaaronson.blog/?m=200809
+DATE: Friday, September 12th, 2008
 CONTENT:
 Alright, no more politics for a while.  I’m sick of it.
 
@@ -28,6 +30,7 @@ Given the relative success of Open thread #1, I thought I’d give you the reade
 
 TITLE: On mathematicians and mountains
 URL: https://scottaaronson.blog/?m=200809
+DATE: Sunday, September 7th, 2008
 CONTENT:
 Luca and Terry Tao have already reported the tragic loss of the brilliant probabilist Oded Schramm in a hiking accident.  I didn’t know Oded, but I knew some of his great results and was deeply saddened by the news.  My heartfelt condolences go out to his friends and family.
 
@@ -39,6 +42,7 @@ I’d like to issue a plea to any mathematicians and scientists who might be rea
 
 TITLE: The Singularity Is Far
 URL: https://scottaaronson.blog/?m=200809
+DATE: Sunday, September 7th, 2008
 CONTENT:
 In this post, I wish to propose for the reader’s favorable consideration a doctrine that will strike many in the nerd community as strange, bizarre, and paradoxical, but that I hope will at least be given a hearing.  The doctrine in question is this: while it is possible that, a century hence, humans will have built molecular nanobots and superintelligent AIs, uploaded their brains to computers, and achieved eternal life, these possibilities are not quite so likely as commonly supposed, nor do they obviate the need to address mundane matters such as war, poverty, disease, climate change, and helping Democrats win elections.
 
@@ -78,6 +82,7 @@ Yet while I believe the latter kind of singularity is possible, I’m not at all
 
 TITLE: Quantum Computing Since Democritus Lecture 21: Ask Me Anything
 URL: https://scottaaronson.blog/?m=200809
+DATE: Monday, September 1st, 2008
 CONTENT:
 In the final Democritus installment, I entertain students’ questions about everything from derandomization to the “complexity class for creativity” to the future of religion.  (In this edited version, I omitted questions that seemed too technical, which surprisingly was almost half of them.)  Thanks to all the readers who’ve stuck with me to this point, to the students for a fantastic semester (if they still remember it) as well as their scribing help, to Chris Granade for further scribing, and to Waterloo’s Institute for Quantum Computing for letting me get away with this.  I hope you’ve enjoyed it, and only wish I’d kept my end of the bargain by getting these notes done a year earlier.
 

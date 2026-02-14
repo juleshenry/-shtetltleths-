@@ -1,5 +1,6 @@
 TITLE: Proving Without Explaining, and Verifying Without Understanding
 URL: https://scottaaronson.blog/?m=201211
+DATE: Saturday, November 17th, 2012
 CONTENT:
 Last Friday, I was at a “Symposium on the Nature of Proof” at UPenn, to give a popular talk about theoretical computer scientists’ expansions of the notion of mathematical proof (to encompass things like probabilistic, interactive, zero-knowledge, and quantum proofs).  This really is some of the easiest, best, and most fun material in all of CS theory to popularize.  Here are iTunes videos of my talk and the three others in the symposium: I’m video #2, logician Solomon Feferman is #3, attorney David Rudovsky is #4, and mathematician Dennis DeTurck is #5.  Also, here are my PowerPoint slides.  Thanks very much to Scott Weinstein at Penn for organizing the symposium.
 
@@ -11,6 +12,7 @@ Update (Nov. 18): The Zoo is back up with the old formatting and graphics!!  Th
 
 TITLE: The $10 billion voter
 URL: https://scottaaronson.blog/?m=201211
+DATE: Monday, November 5th, 2012
 CONTENT:
 Update (Nov. 8): Slate’s pundit scoreboard.
 
@@ -42,6 +44,7 @@ No, this isn’t really a decisive argument for anything (I’ll leave it to the
 
 TITLE: A causality post, for no particular reason
 URL: https://scottaaronson.blog/?m=201211
+DATE: Friday, November 2nd, 2012
 CONTENT:
 The following question emerged from a conversation with the machine learning theorist Pedro Domingos a month ago.
 

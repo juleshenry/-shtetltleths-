@@ -1,5 +1,6 @@
 TITLE: Collaborative Refutation
 URL: https://scottaaronson.blog/?m=201302
+DATE: Monday, February 4th, 2013
 CONTENT:
 At least eight people—journalists, colleagues, blog readers—have now asked my opinion of a recent paper by Ross Anderson and Robert Brady, entitled “Why quantum computing is hard and quantum cryptography is not provably secure.”  Where to begin?
 

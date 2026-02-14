@@ -1,5 +1,6 @@
 TITLE: Entanglement for peace and freedom
 URL: https://scottaaronson.blog/?m=200711
+DATE: Friday, November 30th, 2007
 CONTENT:
 A reader named Prempeh writes in the comments section of my last post:
 
@@ -17,6 +18,7 @@ A few quick non-rhetorical answers:
 
 TITLE: Mistake of the Week: Explain Everything (Or Don’t Bother Explaining Anything)
 URL: https://scottaaronson.blog/?m=200711
+DATE: Monday, November 26th, 2007
 CONTENT:
 In today’s post I was going to announce the winners of my Unparadox Contest.  But then I noticed the Lake Wobegon unparadox: if the total winnings are zero, then no one’s winnings are below average and in that sense, everyone’s a winner!
 
@@ -76,6 +78,7 @@ All I really object to, then, is the notion that tracing every question down to 
 
 TITLE: Thanksgiving Special: D-Wave at MIT
 URL: https://scottaaronson.blog/?m=200711
+DATE: Thursday, November 22nd, 2007
 CONTENT:
 Some people think I have a vendetta against D-Wave Systems and its questionable quantum computer claims (see here, here, here, here, here, here, here, here, here for context). But actually, nothing could be further from the truth. I keep trying and trying to change the subject! Wouldn’t you all rather hear about Wolfram, I say? Or unparadoxes? Or my #1 topic du jour, nothing whatsoever?
 
@@ -113,6 +116,7 @@ For a theorist like me — accustomed to talks ending with “if there are no qu
 
 TITLE: ‘Tis the week before deadline
 URL: https://scottaaronson.blog/?m=200711
+DATE: Thursday, November 15th, 2007
 CONTENT:
 and at least over here
 
@@ -124,6 +128,7 @@ The reason is clear
 
 TITLE: MIT sues Frank Gehry over Stata Center
 URL: https://scottaaronson.blog/?m=200711
+DATE: Tuesday, November 6th, 2007
 CONTENT:
 
 
@@ -133,6 +138,7 @@ When I first saw the headline, I assumed it was from The Onion or (more likely) 
 
 TITLE: Deoxyribononapproximability
 URL: https://scottaaronson.blog/?m=200711
+DATE: Sunday, November 4th, 2007
 CONTENT:
 [Updates]
 
@@ -170,6 +176,7 @@ Another Update (11/5): Andy Drucker has pointed out that, in the case where reve
 
 TITLE: Unparadox Contest
 URL: https://scottaaronson.blog/?m=200711
+DATE: Thursday, November 1st, 2007
 CONTENT:
 In a recent talk at MIT, Umesh Vazirani appealed to the famous Birthday Paradox to say that two random subsets of {1,…,N}, each of size o(√N), probably wouldn’t intersect each other.  Of course we all understood what he meant, but it occurred to me that Umesh was actually appealing to the Birthday Unparadox: “If you put three people in a room, chances are no two of them will have the same birthday.”
 

@@ -1,5 +1,6 @@
 TITLE: “Is There Something Mysterious About Math?”
 URL: https://scottaaronson.blog/?m=201504
+DATE: Wednesday, April 22nd, 2015
 CONTENT:
 When it rains, it pours: after not blogging for a month, I now have a second thing to blog about in as many days.  Aeon, an online magazine, asked me to write a short essay responding to the question above, so I did.  My essay is here.  Spoiler alert: my thesis is that yes, there’s something “mysterious” about math, but the main mystery is why there isn’t even more mystery than there is.  Also—shameless attempt to get you to click—the essay discusses the “discrete math is just a disorganized mess of random statements” view of Luboš Motl, who’s useful for putting flesh on what might otherwise be a strawman position.  Comments welcome (when aren’t they?).  You should also read other interesting responses to the same question by Penelope Maddy, James Franklin, and Neil Levy.  Thanks very much to Ed Lake at Aeon for commissioning these pieces.
 
@@ -19,6 +20,7 @@ So in summary, I’d say that history does present us with “two mysteries of
 
 TITLE: Two papers
 URL: https://scottaaronson.blog/?m=201504
+DATE: Tuesday, April 21st, 2015
 CONTENT:
 Just to get myself back into the habit of blogging:
 

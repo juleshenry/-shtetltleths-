@@ -1,5 +1,6 @@
 TITLE: You can’t prove you won’t want to be there
 URL: https://scottaaronson.blog/?m=200906
+DATE: Monday, June 29th, 2009
 CONTENT:
 Avi Wigderson has asked me to announce that Princeton’s recently-founded and delightfully-named Center for Computational Intractability will be holding a week-long workshop on Barriers in Computational Complexity, this August 25th to 29th.  Apparently I’m even co-organizing one of the sessions.  So register now!  Lowerbounderati, provers of meta-impossibility theorems, and other congenital pessimists are particularly discouraged from not attending.
 
@@ -7,6 +8,7 @@ Avi Wigderson has asked me to announce that Princeton’s recently-founded and d
 
 TITLE: What is it like to be a nerd?
 URL: https://scottaaronson.blog/?m=200906
+DATE: Friday, June 26th, 2009
 CONTENT:
 No doubt many of you already know … but for the rest, today’s xkcd comes impressively close (at least, I think it does) to solving the ancient philosophical riddle of how to convey what “being a nerd” feels like to someone cool since birth.
 
@@ -16,6 +18,7 @@ No doubt many of you already know … but for the rest, today’s xkcd comes imp
 
 TITLE: The Two-Conference Solution
 URL: https://scottaaronson.blog/?m=200906
+DATE: Thursday, June 25th, 2009
 CONTENT:
 Anyone who follows the theoretical computer science blogs knows that two peoples—the Technicians and the Conceptualists—have been warring over the same tiny piece of land (the STOC/FOCS accepted papers list) for well over a generation.  The most fundamentalist of the Conceptualists believe that STOC and FOCS were promised to them in a divine covenant with Merlin, while moderates simply point out that the Conceptualists have maintained a continuous presence in these conferences since the time of Cook and Karp, always turning STOCward in prayer on the day of the submission deadline; and that, if not for STOC and FOCS, conceptual papers might get wiped entirely off the face of the earth (or worse, shunted to CCC).  For their part, the Technicians see the Conceptualists as unwelcome usurpers, infiltrating an ancient land of log factors with bizarre new models and definitions; and suggest that, if the Conceptualists feel so wronged by physicists, biologists, and economists who refuse to see the natural and social worlds in computational terms, then let the physicists, biologists, and economists give the Conceptualists sessions in their conferences.
 
@@ -33,6 +36,7 @@ And if Mihai and I are in complete agreement about how the field should evolve, 
 
 TITLE: The secant had it coming
 URL: https://scottaaronson.blog/?m=200906
+DATE: Friday, June 19th, 2009
 CONTENT:
 Yesterday DJ Strouse, a student in MIT’s quantum computing summer school, pointed me to A Mathematician’s Lament by Paul Lockhart, the most blistering indictment of K-12 “math” education I’ve ever encountered.
 
@@ -56,6 +60,7 @@ In the end, Lockhart’s lament is subversive, angry, and radical … but if you
 
 TITLE: The Limits of Irany
 URL: https://scottaaronson.blog/?m=200906
+DATE: Tuesday, June 16th, 2009
 CONTENT:
 Update (6/20/2009): If you agree about Mahmoud deserving his vacation, please read and sign this petition (courtesy of Elham Kashefi).  I have no doubt that if enough Shtetl-Optimized readers sign, it will force the ayatollahs to reconsider.
 
@@ -71,6 +76,7 @@ On the other hand, it seemed hypocritical for me to deny a close friend his vaca
 
 TITLE: My long, complexity-theoretic journey
 URL: https://scottaaronson.blog/?m=200906
+DATE: Thursday, June 11th, 2009
 CONTENT:
 So, what was I doing these past few weeks that could possibly take precedence over writing ill-considered blog entries that I’d probably regret for the rest of my life?
 
@@ -100,6 +106,7 @@ Tell you what: since it’s been a long time, feel free to ask whatever you feel
 
 TITLE: An unexpected application of the P vs. NP problem
 URL: https://scottaaronson.blog/?m=200906
+DATE: Tuesday, June 2nd, 2009
 CONTENT:
 Read to the end — hat tip to Michael Nielsen.  And this post is just to get into blogging stride again.  More coming “soon.”
 

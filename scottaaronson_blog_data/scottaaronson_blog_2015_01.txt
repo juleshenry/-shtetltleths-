@@ -1,5 +1,6 @@
 TITLE: Happy Second Birthday Lily
 URL: https://scottaaronson.blog/?m=201501
+DATE: Wednesday, January 21st, 2015
 CONTENT:
 
 
@@ -17,6 +18,7 @@ So to life!  And happy birthday Lily!
 
 TITLE: BQP/LHC collision
 URL: https://scottaaronson.blog/?m=201501
+DATE: Thursday, January 15th, 2015
 CONTENT:
 
 
@@ -52,6 +54,7 @@ Anyway, thanks so much to Wolfgang Lerche and everyone else at CERN for an aweso
 
 TITLE: Quantum computing news items (by reader request)
 URL: https://scottaaronson.blog/?m=201501
+DATE: Monday, January 12th, 2015
 CONTENT:
 Within the last couple months, there was a major milestone in the quest to build a scalable quantum computer, and also a major milestone in the quest to figure out what you would do with a quantum computer if you had one.  As I’ve admitted many times, neither of those two quests is really the reason why I got into quantum computing—I’m one of the people who would still want to study this field, even if there were no serious prospect either of building a quantum computer or of doing anything useful with it for a thousand years—but for some reason that I don’t fully understand, both of those goals do seem to excite other people.
 

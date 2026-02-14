@@ -1,5 +1,6 @@
 TITLE: I’m liveblogging from the Taj Mahal
 URL: https://scottaaronson.blog/?m=200712
+DATE: Saturday, December 22nd, 2007
 CONTENT:
 No particular news to report — it’s about the same as it was 400 years ago, I guess.  I just wanted to liveblog from the Taj Mahal, is all.  (Jonathan Walgate is the one who suggested it.). Now I’ll go back to looking at it.
 
@@ -7,6 +8,7 @@ No particular news to report — it’s about the same as it was 400 years ago, 
 
 TITLE: Australian educators are using my $5,000 plagiarism settlement to sell schoolkids (on science)
 URL: https://scottaaronson.blog/?m=200712
+DATE: Thursday, December 13th, 2007
 CONTENT:
 Two months ago, you might remember, the gods of humor and blogging saw fit to bestow on me an unexpected gift:
 
@@ -46,6 +48,7 @@ That’s interesting.
 
 TITLE: Review of Mermin’s book
 URL: https://scottaaronson.blog/?m=200712
+DATE: Monday, December 10th, 2007
 CONTENT:
 By now, maybe a half-dozen people have asked me what I thought of David Mermin’s new book Quantum Computer Science: An Introduction; many seemed surprised when I told them I hadn’t read it.  Since I aim to please, I finally cracked open my review copy on a train this weekend, and am pleased to report that … yes, it’s quite good.  Indeed, the biggest problem is just Mermin’s infamous insistence on spelling qubit “Qbit.”   (At this point, one might as well decide to spell quark “Qork.”  A language consists of shared, often highly-irrational conventions that cannot be changed unilaterally.)
 

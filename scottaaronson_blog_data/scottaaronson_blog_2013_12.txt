@@ -1,5 +1,6 @@
 TITLE: BosonSampling Lecture Notes from Rio
 URL: https://scottaaronson.blog/?m=201312
+DATE: Saturday, December 28th, 2013
 CONTENT:
 Update (January 3): There’s now a long interview with me about quantum computing in the Washington Post (or at least, on their website).  The interview accompanies their lead article about quantum computing and the NSA, which also quotes me (among many others), and which reports—unsurprisingly—that the NSA is indeed interested in building scalable quantum computers but, based on the Snowden documents, appears to be quite far from that goal.
 
@@ -21,6 +22,7 @@ Videos of the other talks at the Jerusalem Winter School are available from the 
 
 TITLE: Merry Christmas!  My quantum computing research explained, using only the 1000 most common English words
 URL: https://scottaaronson.blog/?m=201312
+DATE: Tuesday, December 24th, 2013
 CONTENT:
 [With special thanks to the Up-Goer Five Text Editor, which was inspired by this xkcd]
 
@@ -48,6 +50,7 @@ Anyway, I have to go to dinner now. I hope you enjoyed this little piece about t
 
 TITLE: Luke Muehlhauser interviews me about philosophical progress
 URL: https://scottaaronson.blog/?m=201312
+DATE: Saturday, December 14th, 2013
 CONTENT:
 I’m shipping out today to sunny Rio de Janeiro, where I’ll be giving a weeklong course about BosonSampling, at the invitation of Ernesto Galvão.  Then it’s on to Pennsylvania (where I’ll celebrate Christmas Eve with old family friends), Israel (where I’ll drop off Dana and Lily with Dana’s family in Tel Aviv, then lecture at the Jerusalem Winter School in Theoretical Physics), Puerto Rico (where I’ll speak at the FQXi conference on Physics of Information), back to Israel, and then New York before returning to Boston at the beginning of February.  Given this travel schedule, it’s possible that blogging will be even lighter than usual for the next month and a half (or not—we’ll see).
 
@@ -71,6 +74,7 @@ PS. In case you missed it before, Quantum Computing Since Democritus was chosen 
 
 TITLE: 23, Me, and the Right to Misinterpret Probabilities
 URL: https://scottaaronson.blog/?m=201312
+DATE: Wednesday, December 11th, 2013
 CONTENT:
 If you’re the sort of person who reads this blog, you may have heard that 23andMe—the company that (until recently) let anyone spit into a capsule, send it away to a DNA lab, and then learn basic information about their ancestry, disease risks, etc.—has suspended much of its service, on orders from the US Food and Drug Administration.  As I understand it, on Nov. 25, the FDA ordered 23andMe to stop marketing to new customers (though it can still serve existing customers), and on Dec. 5, the company stopped offering new health-related information to any customers (though you can still access the health information you had before, and ancestry and other non-health information is unaffected).
 
@@ -102,6 +106,7 @@ Here are some comments that might help clarify my views:
 
 TITLE: Twenty Reasons to Believe Oswald Acted Alone
 URL: https://scottaaronson.blog/?m=201312
+DATE: Monday, December 2nd, 2013
 CONTENT:
 As the world marked the 50th anniversary of the JFK assassination, I have to confess … no, no, not that I was in on the plot.  I wasn’t even born then, silly.  I have to confess that, in between struggling to make a paper deadline, attending a workshop in Princeton, celebrating Thanksgivukkah, teaching Lily how to pat her head and clap her hands, and not blogging, I also started dipping, for the first time in my life, into a tiny fraction of the vast literature about the JFK assassination.  The trigger (so to speak) for me was this article by David Talbot, the founder of Salon.com.  I figured, if the founder of Salon is a JFK conspiracy buff—if, for crying out loud, my skeptical heroes Bertrand Russell and Carl Sagan were both JFK conspiracy buffs—then maybe it’s at least worth familiarizing myself with the basic facts and arguments.
 

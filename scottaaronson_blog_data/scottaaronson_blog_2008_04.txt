@@ -1,5 +1,6 @@
 TITLE: Open thread
 URL: https://scottaaronson.blog/?m=200804
+DATE: Friday, April 11th, 2008
 CONTENT:
 I’ve had a miserable week (only partly because of the headaches and coughing fits that have been keeping me up all night), and feel a need to be of use to some other human being without leaving my apartment. So this thread is for you to ask about whatever’s on your mind — complexity classes, philosophy, grad school advice, anteaters … anything asked in earnest will be responded to, in considerably less than the two years it took me for Lev R.
 
@@ -9,6 +10,7 @@ Update (4/13): Having spent a good part of the weekend answering 57 questions ab
 
 TITLE: Great Ideas in Theoretical Computer Science Lectures 8-11
 URL: https://scottaaronson.blog/?m=200804
+DATE: Monday, April 7th, 2008
 CONTENT:
 A few more lectures, hot off the Turing machine tape:
 
@@ -28,6 +30,7 @@ Update (4/10): Lenore Blum just gave a talk here at MIT about the future of CS e
 
 TITLE: Lev R.’s question answered at last; fate of humanity revealed
 URL: https://scottaaronson.blog/?m=200804
+DATE: Tuesday, April 1st, 2008
 CONTENT:
 Almost two years ago, a reader named Lev R. won my Best Anthropicism Contest with the following gem:
 

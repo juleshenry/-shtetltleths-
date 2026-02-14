@@ -1,5 +1,6 @@
 TITLE: A hacker’s hacker
 URL: https://scottaaronson.blog/?m=201110
+DATE: Friday, October 14th, 2011
 CONTENT:
 Before someone else is “absolutely stunned” by my silence, let me hereby note with great sadness that Dennis Ritchie, principal designer of C, co-designer of Unix, Turing Award winner, and one of the world’s legendary computer scientists, has passed away at 70.  (See here for the NYT obituary, here for a more detailed ZDNet obituary, and here for Lance Fortnow’s encomium.)  I didn’t know Ritchie, but my father did, as a science and technology writer in the 70s and 80s.  And I often saw Ritchie in the halls when I spent several summers working at Bell Labs in college.  Mostly, though, I know Ritchie through the beautiful language he created.  It’s a testament to C’s elegance and simplicity that I, though extremely far from a hacker, find it almost as easy to express my thoughts in C as I do in my mother tongue, MS-DOS QBASIC.
 
@@ -9,6 +10,7 @@ Update (Oct. 26): AI pioneer and LISP inventor John McCarthy has passed away as 
 
 TITLE: What happened in the world this week
 URL: https://scottaaronson.blog/?m=201110
+DATE: Friday, October 7th, 2011
 CONTENT:
 A commenter named “Daniel Quilp” writes:
 

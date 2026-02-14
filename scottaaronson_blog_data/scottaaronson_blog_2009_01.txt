@@ -1,5 +1,6 @@
 TITLE: Stayin’ alive
 URL: https://scottaaronson.blog/?m=200901
+DATE: Thursday, January 29th, 2009
 CONTENT:
 Within the last week and a half, I saw two movies that rank among the best I’ve ever seen: Slumdog Millionaire and Defiance.  Slumdog, as you probably know by now, is about an orphan from Mumbai who, in the process of fleeing starvation, murder, and the gouging out of his eyes, picks up enough trivia to go on the Indian version of “Who Wants To Be A Millionaire” and answer almost every question correctly.  (It’s about 100 times better than the premise makes it sound.)  Defiance tells the true story of the Bielski brothers in Belorussia (where most of my family is from), who fled to the forest when the Jews were rounded up in December 1941, and eventually organized the largest Jewish resistance operation of the war.
 
@@ -9,6 +10,7 @@ On thinking it over, I was surprised to realize I liked these two seemingly-unre
 
 TITLE: The arc of complexity is long, but it bends toward lower bounds
 URL: https://scottaaronson.blog/?m=200901
+DATE: Thursday, January 22nd, 2009
 CONTENT:
 As MIT grad student Jelani Nelson rightly pointed out to me, an historic world event took place on Tuesday, January 20—an event that many of us have awaited for decades, one that we thought we’d never live to see—and I inexcusably failed my readers by neglecting to blog about it.  The event in question, as everyone knows, was Mark Braverman posting to his web page what looks to be a proof of the Linial-Nisan Conjecture.  The LN conjecture, posed in 1990, held that
 
@@ -50,6 +52,7 @@ In what appears to be a cosmic prank, about the only conjectures in this area th
 
 TITLE: At least there’s fresh running water and a Start button
 URL: https://scottaaronson.blog/?m=200901
+DATE: Wednesday, January 21st, 2009
 CONTENT:
 In response to my (justified) kvetching about Vista in my last post, a commenter named Matt wrote in:
 
@@ -63,6 +66,7 @@ All I need, then, is the Windows analogue of Obama. Would that be the Windows 7 
 
 TITLE: Perspective
 URL: https://scottaaronson.blog/?m=200901
+DATE: Tuesday, January 20th, 2009
 CONTENT:
 I’ve been suffering from terrible bronchitis for two weeks.  I can barely talk.  I had to cancel a planned colloquium.  I’m not even gonna try to describe what I’ve been coughing up.  The doctor couldn’t figure out if it was viral or bacterial, but gave me antibiotics anyway.
 
@@ -80,6 +84,7 @@ Happy Barackday, everyone!
 
 TITLE: The T vs. HT (Truth vs. Higher Truth) problem
 URL: https://scottaaronson.blog/?m=200901
+DATE: Friday, January 9th, 2009
 CONTENT:
 From a predictably-interesting article by Freeman Dyson in Notices of the AMS (hat tip to Peter Woit):
 

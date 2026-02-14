@@ -1,5 +1,6 @@
 TITLE: Lincoln Blogs
 URL: https://scottaaronson.blog/?m=201212
+DATE: Friday, December 28th, 2012
 CONTENT:
 Sorry for the terrible pun.  Today’s post started out as a comment on a review of the movie Lincoln on Sean Carroll’s blog, but it quickly become too long, so I made it into a post on my own blog.  Apparently I lack Abe’s gift for concision.
 
@@ -27,6 +28,7 @@ So that’s why it seems important to have a movie every once in a while that s
 
 TITLE: Quantum Complexity Theory Student Project Showcase 2!
 URL: https://scottaaronson.blog/?m=201212
+DATE: Saturday, December 22nd, 2012
 CONTENT:
 (Note: The “2!” in the title of this post really does mean “2 factorial,” if you want it to.)
 
@@ -44,6 +46,7 @@ Anyway, thanks so much to all the students for making 6.845 such an awesome clas
 
 TITLE: The Boson Apocalypse
 URL: https://scottaaronson.blog/?m=201212
+DATE: Friday, December 21st, 2012
 CONTENT:
 If the world ends today, at least it won’t do so without three identical photons having been used to sample from a probability distribution defined in terms of the permanents of 3×3 matrices, thereby demonstrating the Aaronson-Arkhipov BosonSampling protocol.  And the results were obtained by no fewer than four independent experimental groups, some of whom have now published in Science.  One of the groups is based in Brisbane, Australia, one in Oxford, one in Vienna, and one in Rome; they coordinated to release their results the same day.  That’s right, the number of papers (4) that these groups managed to choreograph to appear simultaneously actually exceeds the number of photons that they so managed (3).  The Brisbane group was even generous enough to ask me to coauthor: I haven’t been within 10,000 miles of their lab, but I did try to make myself useful to them as a “complexity theory consultant.”
 

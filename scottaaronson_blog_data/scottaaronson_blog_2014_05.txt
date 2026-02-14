@@ -1,5 +1,6 @@
 TITLE: Giulio Tononi and Me: A Phi-nal Exchange
 URL: https://scottaaronson.blog/?m=201405
+DATE: Friday, May 30th, 2014
 CONTENT:
 You might recall that last week I wrote a post criticizing Integrated Information Theory (IIT), and its apparent implication that a simple Reed-Solomon decoding circuit would, if scaled to a large enough size, bring into being a consciousness vastly exceeding our own.  On Wednesday Giulio Tononi, the creator of IIT, was kind enough to send me a fascinating 14-page rebuttal, and to give me permission to share it here:
 
@@ -105,6 +106,7 @@ Completely unrelated announcement: Some of you might enjoy this Nature News piec
 
 TITLE: Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton
 URL: https://scottaaronson.blog/?m=201405
+DATE: Tuesday, May 27th, 2014
 CONTENT:
 Update (June 3): A few days after we posted this paper online, Brent Werness, a postdoc in probability theory at the University of Washington, discovered a serious error in the “experimental” part of the paper.  Happily, Brent is now collaborating with us on producing a new version of the paper that fixes the error, which we hope to have available within a few months (and which will replace the version currently on the arXiv).
 
@@ -134,6 +136,7 @@ In unrelated news, Shafi Goldwasser has asked me to announce that the Call for P
 
 TITLE: Why I Am Not An Integrated Information Theorist (or, The Unconscious Expander)
 URL: https://scottaaronson.blog/?m=201405
+DATE: Wednesday, May 21st, 2014
 CONTENT:
 Happy birthday to me!
 
@@ -291,6 +294,7 @@ Update (5/24): See a very interesting comment by David Chalmers.
 
 TITLE: The NEW Ten Most Annoying Questions in Quantum Computing
 URL: https://scottaaronson.blog/?m=201405
+DATE: Tuesday, May 13th, 2014
 CONTENT:
 Eight years ago, I put up a post entitled The Ten Most Annoying Questions in Quantum Computing.  One of the ten wasn’t a real question—it was simply a request for readers to submit questions—so let’s call it nine.  I’m delighted to say that, of the nine questions, six have by now been completely settled—most recently, my question about the parallel-repeated value of the CHSH game, which Andris Ambainis pointed out to me last week can be answered using a 2008 result of Barak et al. combined with a 2013 result of Dinur and Steurer.
 

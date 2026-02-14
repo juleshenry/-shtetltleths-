@@ -1,5 +1,6 @@
 TITLE: Ask me (almost) anything
 URL: https://scottaaronson.blog/?m=200907
+DATE: Thursday, July 30th, 2009
 CONTENT:
 Update (8/19): I’ve answered most of the remaining questions and closed this thread.  If your question wasn’t answered earlier, please check now—sorry for the delay!  And thanks to everyone who asked.
 
@@ -35,6 +36,7 @@ Update (7/31): One question per person, please!
 
 TITLE: Essentials of complexity-theoretic stand-up comedy
 URL: https://scottaaronson.blog/?m=200907
+DATE: Monday, July 13th, 2009
 CONTENT:
 Recently someone asked me how to give funnier talks.  My first response was to recoil at such an insolent question: doesn’t everyone know that at the core of my shtick lies a unique and ineffable je ne sais quoi that can’t be packaged, bottled, or resold?  But the truth was not that I couldn’t give advice; it’s that I didn’t want to.  For if everyone knew how easy it was to keep an audience at least half-awake, how would people like me maintain their edge?  By proving better theorems?  Having something new and relevant and say?  These questions answer themselves.
 

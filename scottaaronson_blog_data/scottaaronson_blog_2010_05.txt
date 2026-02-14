@@ -1,5 +1,6 @@
 TITLE: The Prince of Nerds has left us
 URL: https://scottaaronson.blog/?m=201005
+DATE: Monday, May 24th, 2010
 CONTENT:
 
 
@@ -7,6 +8,7 @@ CONTENT:
 
 TITLE: What’s taking so long, Mr. Babbage?
 URL: https://scottaaronson.blog/?m=201005
+DATE: Saturday, May 22nd, 2010
 CONTENT:
 Recently a journalist asked me why we don’t yet have quantum computers.  Since I get that question, in some form, at least 300 times per day, I thought it might be worthwhile to collect my thoughts about it in one place.  The essay below doesn’t say anything that I and others in the field haven’t said many times before, so hardcore Shtetl-Optimized fans should probably skip it.  (Don’t worry, I’ll let y’all know when I have something new to say and am reckless enough to say it.)
 

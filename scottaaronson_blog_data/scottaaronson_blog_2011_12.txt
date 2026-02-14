@@ -1,5 +1,6 @@
 TITLE: Cerebrum-stuffer from Shtetl Claus
 URL: https://scottaaronson.blog/?m=201112
+DATE: Saturday, December 24th, 2011
 CONTENT:
 Ho3!  Home with family for the holidays and looking for something to do?  Then check out the archives of our 6.893 Philosophy and Theoretical Computer Science course blog.  The course just ended last week, so you can find discussions of everything from the interpretation of quantum mechanics to Occam’s Razor to the Church-Turing Thesis to strong AI, as well as links to student projects, including Criticisms of the Turing Test and Why You Should Ignore (Most of) Them, Barwise Inverse Relation Principle, Bayesian Surprise, Boosting, and Other Things that Begin with the Letter B, and an interactive demonstration of interactive proofs.  Thanks to my TA Andy Drucker, and especially to the students, for making this such an interesting course.
 
@@ -7,6 +8,7 @@ Ho3!  Home with family for the holidays and looking for something to do?  Then
 
 TITLE: My New York Times essay on quantum computing
 URL: https://scottaaronson.blog/?m=201112
+DATE: Monday, December 5th, 2011
 CONTENT:
 I have a special treat for those commenters who consider me an incorrigible publicity-hound: an essay I was invited to write for the New York Times Science section, entitled Quantum Computing Promises New Insights, Not Just Supermachines.  (My original title was “The Real Reasons to Study Quantum Computing.”)  This piece is part of a collection of essays on “the future of computing,” which include one on self-driving cars by Sebastian Thrun, one on online learning by Daphne Koller, and other interesting stuff (the full list is here).
 
@@ -28,6 +30,7 @@ One final comment: in case you’re wondering, those black spots on the Times‘
 
 TITLE: Quantum Algorithms for Quantum Field Theories
 URL: https://scottaaronson.blog/?m=201112
+DATE: Saturday, December 3rd, 2011
 CONTENT:
 For weeks, I’ve been meaning to blog about an important recent paper by Stephen Jordan, Keith Lee, and John Preskill, entitled Quantum Algorithms for Quantum Field Theories.  So I’m now doing so.
 
@@ -45,6 +48,7 @@ Conflict-of-Interest Warning: At a deep, subconscious level, I probably chose to
 
 TITLE: The Alternative to Resentment
 URL: https://scottaaronson.blog/?m=201112
+DATE: Friday, December 2nd, 2011
 CONTENT:
 A year ago, in a post entitled Anti-Complexitism, I tried to grapple with the strange phenomenon—one we’ve seen in force this past week—of anonymous commenters getting angry about the mere fact of announcements, on theoretical computer science blogs, of progress on longstanding open problems in theoretical computer science.  When I post something about global warming, Osama Bin Laden, or (of course) the  interpretation of quantum mechanics, I expect a groundswell of anger … but a lowering of the matrix-multiplication exponent ω?  Huh?  What was that about?
 

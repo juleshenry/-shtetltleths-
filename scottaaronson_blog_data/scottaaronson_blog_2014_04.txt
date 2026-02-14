@@ -1,5 +1,6 @@
 TITLE: The Quest for Randomness
 URL: https://scottaaronson.blog/?m=201404
+DATE: Tuesday, April 22nd, 2014
 CONTENT:
 So, I’ve written an article of that title for the wonderful American Scientist magazine—or rather, Part I of such an article.  This part explains the basics of Kolmogorov complexity and algorithmic information theory: how, under reasonable assumptions, these ideas can be used in principle to “certify” that a string of numbers was really produced randomly—something that one might’ve imagined impossible a priori.  Unfortunately, the article also explains why this fact is of limited use in practice: because Kolmogorov complexity is uncomputable!  Readers who already know this material won’t find much that’s new here, but I hope those who don’t will enjoy the piece.
 
@@ -13,6 +14,7 @@ Update (4/28): Kate Becker of NOVA has published an article about “whether inf
 
 TITLE: Is There Anything Beyond Quantum Computing?
 URL: https://scottaaronson.blog/?m=201404
+DATE: Friday, April 11th, 2014
 CONTENT:
 So I’ve written an article about the above question for PBS’s website—a sort of tl;dr version of my 2005 survey paper NP-Complete Problems and Physical Reality, but updated with new material about the simulation of quantum field theories and about AdS/CFT.  Go over there, read the article (it’s free), then come back here to talk about it if you like.  Thanks so much to Kate Becker for commissioning the article.
 
@@ -24,6 +26,7 @@ Oh, and anyone who thinks the main reason to care about quantum computing is tha
 
 TITLE: Waiting for BQP Fever
 URL: https://scottaaronson.blog/?m=201404
+DATE: Tuesday, April 1st, 2014
 CONTENT:
 Update (April 5): By now, three or four people have written in asking for my reaction to the preprint “Computational solution to quantum foundational problems” by Arkady Bolotin.  (See here for the inevitable Slashdot discussion, entitled “P vs. NP Problem Linked to the Quantum Nature of the Universe.”)  It gives me no pleasure to respond to this sort of thing—it would be far better to let papers this gobsmackingly uninformed about the relevant issues fade away in quiet obscurity—but since that no longer seems to be possible in the age of social media, my brief response is here.
 

@@ -1,5 +1,6 @@
 TITLE: Enough with Bell’s Theorem.  New topic: Psychopathic killer robots!
 URL: https://scottaaronson.blog/?m=201205
+DATE: Friday, May 25th, 2012
 CONTENT:
 See, now this is precisely why I became a CS professor: so that if anyone asked, I could give not merely my opinion, but my professional, expert opinion, on the question of whether psychopathic Terminators will kill us all.
 
@@ -24,6 +25,7 @@ Scott
 
 TITLE: I was wrong about Joy Christian
 URL: https://scottaaronson.blog/?m=201205
+DATE: Thursday, May 10th, 2012
 CONTENT:
 Update: I decided to close comments on this post and the previous Joy Christian post, because they simply became too depressing for me.
 
@@ -61,6 +63,7 @@ Third Update: Quite a few commenters seem to assume that I inappropriately used 
 
 TITLE: Waterman behind the scenes!  Partying hard with the National Science Board
 URL: https://scottaaronson.blog/?m=201205
+DATE: Wednesday, May 9th, 2012
 CONTENT:
 A few months ago, I got a surprise call from Subra Suresh, director of the National Science Foundation, who told me I was going to share this year’s Alan T. Waterman Award with Robert Wood of Harvard.  (At first I assumed it was a telemarketing call, since pretty much no one calls my office phone; I use my iPhone exclusively and have trouble even operating my desk phone.)  Dr. Suresh explained that this was the first time the Waterman would ever be awarded to two people the same year, but that the committee was unanimous in supporting both me and Rob.  Looking up my co-winner, I quickly learned that Rob was a leader in the field of robot bees (see here for video)—and that his work, despite having obvious military applications, had been singled out by Sean Hannity as the latter’s #1 example of government waste (!).  That fact, alone, made me deeply honored to share the award with Rob, and eager to meet him in person.
 
@@ -92,6 +95,7 @@ Thanks so much to all of you for your support.
 
 TITLE: Bell’s-inequality-denialist Joy Christian offers me $200K if scalable quantum computers are built
 URL: https://scottaaronson.blog/?m=201205
+DATE: Wednesday, May 2nd, 2012
 CONTENT:
 Joy Christian is the author of numerous papers claiming to disprove Bell’s theorem.  Yes, that Bell’s theorem: the famous result from the 1960s showing that no local hidden variable theory can reproduce all predictions of quantum mechanics for entangled states of two particles.  Here a “local hidden variable theory” means—and has always meant—a theory where Alice gets some classical information x, Bob gets some other classical information y (generally correlated with x), then Alice and Bob choose which respective experiments to perform, and finally Alice sees a measurement outcome that’s a function only of her choice and of x (not of Bob’s choice or his measurement outcome), and Bob sees a measurement outcome that’s a function only of his choice and of y.  In modern terms, Bell, with simplifications by Clauser et al., gave an example of a game that Alice and Bob can win at most 75% of the time under any local hidden variable theory (that’s the Bell inequality), but can win 85% of the time by measuring their respective halves of an entangled state (that’s the Bell inequality violation).  The proofs are quite easy, both for the inequality and for its violation by quantum mechanics.  Check out this problem set for the undergrad course I’m currently teaching if you’d like to be led through the proof yourself (it’s problem 7).
 

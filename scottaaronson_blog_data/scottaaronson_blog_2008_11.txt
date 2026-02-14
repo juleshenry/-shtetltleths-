@@ -1,5 +1,6 @@
 TITLE: Wanted: Better Wikipedia coverage of theoretical computer science
 URL: https://scottaaronson.blog/?m=200811
+DATE: Wednesday, November 26th, 2008
 CONTENT:
 A year ago, a group of CS theorists—including Eli Ben-Sasson, Andrej Bogdanov, Anupam Gupta, Bobby Kleinberg, Rocco Servedio, and your humble blogger, and fired up by the evangelism of Sanjeev Arora, Christos Papadimitriou, and Avi Wigderson—agreed to form a committee to improve Wikipedia’s arguably-somewhat-sketchy coverage of theoretical computer science.  One year later, our committee of busy academics has done, to a first approximation, nothing.
 
@@ -29,6 +30,7 @@ Update (11/30): A big shout-out and thank-you to those theorists, such as David 
 
 TITLE: Sundry and Various
 URL: https://scottaaronson.blog/?m=200811
+DATE: Friday, November 21st, 2008
 CONTENT:
 1. There’s now a popular article by Lisa Zyga at physorg.com, about my paper with John Watrous on quantum computing with closed timelike curves. On the whole, I think Zyga did an excellent job at getting the facts (such as they are) correct.
 
@@ -42,6 +44,7 @@ CONTENT:
 
 TITLE: The unfamiliar burden of victory
 URL: https://scottaaronson.blog/?m=200811
+DATE: Wednesday, November 5th, 2008
 CONTENT:
 
 
@@ -63,6 +66,7 @@ On balance? I’ll take it.
 
 TITLE: Should you vote?
 URL: https://scottaaronson.blog/?m=200811
+DATE: Tuesday, November 4th, 2008
 CONTENT:
 (Assuming you’re eligible?)
 

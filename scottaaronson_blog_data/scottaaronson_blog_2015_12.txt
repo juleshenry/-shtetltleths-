@@ -1,5 +1,6 @@
 TITLE: 6.S899 Student Project Showcase!
 URL: https://scottaaronson.blog/?m=201512
+DATE: Tuesday, December 22nd, 2015
 CONTENT:
 As 2015 winds down, I thought I’d continue my tradition of using this blog to showcase some awesome student projects from my graduate class.  (For the previous project showcases from Quantum Complexity Theory, see here, here, and here.  Also see here for the showcase from Philosophy and Theoretical Computer Science.)
 
@@ -13,6 +14,7 @@ Update (Dec. 23): Here are two conference announcements that I’ve been asked 
 
 TITLE: Ask an unbounded question, get an uncomputable answer
 URL: https://scottaaronson.blog/?m=201512
+DATE: Friday, December 11th, 2015
 CONTENT:
 Just when I thought I could relax, as the waters slowly receded from the latest D-Tsunami, my inbox and Facebook feed once again lit up with inquiries—this time, asking me to confirm or deny that “A Paradox at the Heart of Mathematics Makes a Physics Problem Unanswerable.”
 
@@ -60,6 +62,7 @@ Update (Dec. 20): My colleague Seth Lloyd calls my attention to a PRL paper of h
 
 TITLE: Google, D-Wave, and the case of the factor-10^8 speedup for WHAT?
 URL: https://scottaaronson.blog/?m=201512
+DATE: Wednesday, December 9th, 2015
 CONTENT:
 Update (Dec. 16):  If you’re still following this, please check out an important comment by Alex Selby, the discoverer of Selby’s algorithm, which I discussed in the post.  Selby queries a few points in the Google paper: among other things, he disagrees with their explanation of why his classical algorithm works so well on D-Wave’s Chimera graph (and with their prediction that it should stop working for larger graphs), and he explains that Karmarkar-Karp is not the best known classical algorithm for the Number Partitioning problem.  He also questions whether simulated annealing is the benchmark against which everything should be compared (on the grounds that “everything else requires fine-tuning”), pointing out that SA itself typically requires lots of tuning to get it to work well.
 
@@ -125,6 +128,7 @@ What the paper does seem to be showing is that the machine in question is actual
 
 TITLE: If I can’t do math, I don’t want to be part of your revolution
 URL: https://scottaaronson.blog/?m=201512
+DATE: Thursday, December 3rd, 2015
 CONTENT:
 1. Emma Goldman, the fiery early-20th-century anarchist, is credited for giving the world the immortal refrain “if I can’t dance, I don’t want to be part of your revolution” (actually it’s not clear that she ever said it so pithily, but she did express such a thought).  Admittedly, no one would mistake me for either a dancer or an anarchist, but I’ve always felt a kinship with Goldman over her terpsichorean line in the sand.  The other day, it occurred to me that there’s a parallel sentence that sums up my entire political philosophy—on the one hand, my default instinct to side with the downtrodden and with the progressive left, but on the other, my dissent from any even vaguely anti-STEM, anti-rationality, or anti-nerd undercurrents, and my refusal to join any popular uprising that seems liable (for example) to delay the discovery of a P≠NP proof, by inconveniencing the people working on one.
 

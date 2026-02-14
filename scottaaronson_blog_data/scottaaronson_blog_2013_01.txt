@@ -1,5 +1,6 @@
 TITLE: TCS+ online seminars
 URL: https://scottaaronson.blog/?m=201301
+DATE: Tuesday, January 29th, 2013
 CONTENT:
 Good news, everyone!  Anindya De, Oded Regev, and my postdoc Thomas Vidick are launching an online theoretical computer science seminar series called TCS+, modeled after the successful Q+ quantum information seminars run by Daniel Burgarth and Matt Leifer.  The inaugural TCS+ lecture will be on Wednesday Feb. 6, at noon Eastern Standard Time.  Ronald de Wolf, longtime friend both of this blog and of its author, will be speaking on Exponential Lower Bounds for Polytopes in Combinatorial Optimization, his STOC’2012 Best Paper with Samuel Fiorini, Serge Massar, Sebastian Pokutta and Hans Raj Tiwary.  This is the paper that used ideas originally from quantum communication complexity to solve a 20-year-old problem in classical optimization: namely, to rule out the possibility of proving P=NP by reducing the Traveling Salesman Problem to certain kinds of linear programs.  Ronald previously gave the talk at MIT, and it rocked.  See Thomas’s blog for details about how to watch.
 
@@ -7,6 +8,7 @@ Good news, everyone!  Anindya De, Oded Regev, and my postdoc Thomas Vidick are 
 
 TITLE: “Quantum Information and the Brain”
 URL: https://scottaaronson.blog/?m=201301
+DATE: Thursday, January 24th, 2013
 CONTENT:
 A month and a half ago, I gave a 45-minute lecture / attempted standup act with the intentionally-nutty title above, for my invited talk at the wonderful NIPS (Neural Information Processing Systems) conference at Lake Tahoe.  Video of the talk is now available at VideoLectures net.  That site also did a short written interview with me, where they asked about the “message” of my talk (which is unfortunately hard to summarize, though I tried!), as well as the Aaron Swartz case and various other things.  If you just want the PowerPoint slides from my talk, you can get those here.
 
@@ -20,6 +22,7 @@ Anyway, it turned out that, while NIPS was founded by people interested in mode
 
 TITLE: Lily Rebecca Aaronson
 URL: https://scottaaronson.blog/?m=201301
+DATE: Sunday, January 20th, 2013
 CONTENT:
 
 
@@ -31,6 +34,7 @@ Given that her parents are both complexity theorists, one question people will h
 
 TITLE: Statement on Aaron Swartz
 URL: https://scottaaronson.blog/?m=201301
+DATE: Monday, January 14th, 2013
 CONTENT:
 Scott Aaronson
  Sasha Costanza-Chock
@@ -45,6 +49,7 @@ Members of the MIT Open Access Working Group
 
 TITLE: Aaron Swartz (1986-2013)
 URL: https://scottaaronson.blog/?m=201301
+DATE: Sunday, January 13th, 2013
 CONTENT:
 Update (1/18): Some more information has emerged.  First, it’s looking like the prosecution’s strategy was to threaten Aaron with decades of prison time, in order to force him to accept a plea bargain involving at most 6 months.  (Carmen Ortiz issued a statement that conveniently skips the first part of the strategy and focuses on the second.)  This is standard operating procedure in our wonderful American justice system, due (in part) to the lack of resources actually to bring most cases to trial.  The only thing unusual about the practice is the spotlight being shone on it, now that it was done not to some poor unknown schmuck but to a tortured prodigy and nerd hero.  Fixing the problem would require far-reaching changes to our justice system.
 
@@ -62,6 +67,7 @@ As I wrote on this blog at the time of Aaron’s arrest: I would never have advi
 
 TITLE: Zork’s bloogorithm
 URL: https://scottaaronson.blog/?m=201301
+DATE: Wednesday, January 9th, 2013
 CONTENT:
 If you have opinions about quantum computing, and haven’t yet read through the discussion following my “response to Dyakonov” post, you’re missing out.  The comments—by QC researchers (Preskill, Kuperberg, Gottesman, Fitzsimons…), skeptics (Dyakonov, Kalai, …), and interested outsiders alike—are some of the most interesting I’ve seen in this two-decade-old debate.
 
@@ -81,6 +87,7 @@ Let me put it this way: if we ever make contact with an advanced extraterrestria
 
 TITLE: Happy New Year!  My response to M. I. Dyakonov
 URL: https://scottaaronson.blog/?m=201301
+DATE: Wednesday, January 2nd, 2013
 CONTENT:
 A couple weeks ago M. I. Dyakonov, a longtime quantum computing skeptic, published a new paper setting out his arguments (maybe “grievances” is a more accurate word) against quantum computing research.  Looking for a way to procrastinate from other work I have to do, I decided to offer some thoughts in response.
 

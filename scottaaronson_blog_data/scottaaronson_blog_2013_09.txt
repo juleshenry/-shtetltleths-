@@ -1,5 +1,6 @@
 TITLE: The Unitarihedron: The Jewel at the Heart of Quantum Computing
 URL: https://scottaaronson.blog/?m=201309
+DATE: Friday, September 20th, 2013
 CONTENT:
 Update (9/24): This parody post was a little like a belch: I felt it build up in me as I read about the topic, I let it out, it was easy and amusing, I don’t feel any profound guilt over it—but on the other hand, not one of the crowning achievements of my career.  As several commenters correctly pointed out, it may be true that, mostly because of the name and other superficialities, and because of ill-founded speculations about “the death of locality and unitarity,” the amplituhedron work is currently inspiring a flood of cringe-inducing misstatements on the web.  But, even if true, still the much more interesting questions are what’s actually going on, and whether or not there are nontrivial connections to computational complexity.
 
@@ -27,6 +28,7 @@ So, journalists and funders: if you’re interested in the unitarihedron, awesom
 
 TITLE: NSA: Possibly breaking US laws, but still bound by laws of computational complexity
 URL: https://scottaaronson.blog/?m=201309
+DATE: Sunday, September 8th, 2013
 CONTENT:
 Update (Sept. 9): Reading more about these things, and talking to friends who are experts in applied cryptography, has caused me to do the unthinkable, and change my mind somewhat.  I now feel that, while the views expressed in this post were OK as far as they went, they failed to do justice to the … complexity (har, har) of what’s at stake.  Most importantly, I didn’t clearly explain that there’s an enormous continuum between, on the one hand, a full break of RSA or Diffie-Hellman (which still seems extremely unlikely to me), and on the other, “pure side-channel attacks” involving no new cryptanalytic ideas.  Along that continuum, there are many plausible places where the NSA might be.  For example, imagine that they had a combination of side-channel attacks, novel algorithmic advances, and sheer computing power that enabled them to factor, let’s say, ten 2048-bit RSA keys every year.  In such a case, it would still make perfect sense that they’d want to insert backdoors into software, sneak vulnerabilities into the standards, and do whatever else it took to minimize their need to resort to such expensive attacks.  But the possibility of number-theoretic advances well beyond what the open world knows certainly wouldn’t be ruled out.  Also, as Schneier has emphasized, the fact that NSA has been aggressively pushing elliptic-curve cryptography in recent years invites the obvious speculation that they know something about ECC that the rest of us don’t.
 

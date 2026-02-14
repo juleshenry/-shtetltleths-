@@ -1,5 +1,6 @@
 TITLE: The Ghost in the Quantum Turing Machine
 URL: https://scottaaronson.blog/?m=201306
+DATE: Saturday, June 15th, 2013
 CONTENT:
 I’ve been traveling this past week (in Israel and the French Riviera), heavily distracted by real life from my blogging career.  But by popular request, let me now provide a link to my very first post-tenure publication: The Ghost in the Quantum Turing Machine.
 
@@ -19,6 +20,7 @@ For now, just one remark: some people might wonder whether this essay marks a ne
 
 TITLE: The tightrope of truth and courtesy
 URL: https://scottaaronson.blog/?m=201306
+DATE: Thursday, June 6th, 2013
 CONTENT:
 A reader calling him- or herself “A Merry Clown” left a comment on my previous post which was so wise, I decided it had to be promoted to a post of its own.
 

@@ -1,5 +1,6 @@
 TITLE: U. of Florida CS department: let it be destroyed by rising sea levels 100 years from now, not reckless administrators today
 URL: https://scottaaronson.blog/?m=201204
+DATE: Monday, April 23rd, 2012
 CONTENT:
 Update (4/27): A famous joke concerns an airplane delivered to the US Defense Department in the 1950s, which included a punch-card computer on board.  By regulation, the contractor had to provide a list of all the components of the plane—engine, wings, fuselage, etc.—along with the weight of each component.  One item in the list read, “Computer software: 0.0 kg.”
 
@@ -35,6 +36,7 @@ Abernathy herself works in materials engineering and has a PhD from Stanford. I�
 
 TITLE: Blogu Picchu
 URL: https://scottaaronson.blog/?m=201204
+DATE: Saturday, April 14th, 2012
 CONTENT:
 
 

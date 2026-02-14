@@ -1,5 +1,6 @@
 TITLE: CS timeline voting: the results are in!
 URL: https://scottaaronson.blog/?m=201104
+DATE: Thursday, April 28th, 2011
 CONTENT:
 The top ten:
 
@@ -201,6 +202,7 @@ I need to catch a plane to give the Buhl Lecture at Carnegie Mellon tomorrow, so
 
 TITLE: Three museum reviews
 URL: https://scottaaronson.blog/?m=201104
+DATE: Thursday, April 21st, 2011
 CONTENT:
 The American Museum of Natural History has two temporary exhibits that are drawing large crowds.  One, Brain: The Inside Story, I can attest is worth a visit the next time you’re in NYC.  From the New York Times review, I’d been worried that the exhibit would be full of la-de-da generalities: “how marvelously complicated is the brain!  how little we understand about it!”  But it turned out that was just the review.   The exhibit itself does a pretty good job of summarizing what’s known about how the brain is organized, how it develops, how various drugs affect it, and more.  One highlight for me was a model brain that you can take apart to see how the brain stem, limbic system, and cerebral cortex fit together—something that 2D images had never successfully conveyed to me.  The other exhibit, The World’s Largest Dinosaurs, was sold out for the entire day when we tried to go there, so we had to content ourselves with the smaller dinosaurs in the rest of the museum.
 
@@ -216,6 +218,7 @@ Summary: While the world’s museums have a great deal to teach us, they ought t
 
 TITLE: Top 150 computer science events to be decided once and for all
 URL: https://scottaaronson.blog/?m=201104
+DATE: Monday, April 11th, 2011
 CONTENT:
 Today I break Shtetl-Optimized‘s long radio silence with a relatively-exciting announcement: you remember my timeline of computer science history?  Well, MIT students Jason Zhu and Ammar Ammar have now kindly created a website where you can vote on each of the entries, as well as new entries suggested by commenters.  It’s pretty simple: you just register (by entering an email address, username, and password), then upvote each entry you like and downvote each entry you dislike (you can also abstain on any entry).
 

@@ -1,5 +1,6 @@
 TITLE: NRC: Nonsensical Ranking Clowns
 URL: https://scottaaronson.blog/?m=201009
+DATE: Thursday, September 30th, 2010
 CONTENT:
 As those of you in American academia have probably heard by now, this week the National Research Council finally released its 2005 rankings of American PhD programs, only five years behind schedule.  This time, the rankings have been made 80% more scientific by the addition of error bars.  Among the startling findings:
 
@@ -29,6 +30,7 @@ So, were these joke rankings an elaborate ruse by the NRC, meant to discredit th
 
 TITLE: Possibly the best thing ever to happen to my inbox
 URL: https://scottaaronson.blog/?m=201009
+DATE: Saturday, September 4th, 2010
 CONTENT:
 Just a quick (but important) announcement: theorist-extraordinaire and friend-since-back-in-undergrad Ryan Williams reports that the Theoretical Computer Science Stack Exchange website is now up in beta!  What is this TCS Stack Exchange?  It’s a place where you can post your questions about theoretical computer science and get informed answers to them—intended as the homegrown CS theory analogue of the wildly-successful Math Overflow site.  From an initial perusal, the TCSSE looks awesome.  Indeed, the only small suggestion I can make is to propose a motto:
 
@@ -44,6 +46,7 @@ Another Update (Sep. 14): There’s now a beautiful talk by Ken Clarkson, Ron Fa
 
 TITLE: Physics for Doofuses: Why Beds Exist
 URL: https://scottaaronson.blog/?m=201009
+DATE: Friday, September 3rd, 2010
 CONTENT:
 I promised to blog more about research, and I will.  Unfortunately, in the one week between my world tour and the start of the fall semester, I’ve been spending less time on quantum complexity research than on sleeping on a new mattress that I bought.  This has provided ample time to ponder the following question, which I’ve decided to add to the Shtetl-Optimized Physics for Doofuses series:
 

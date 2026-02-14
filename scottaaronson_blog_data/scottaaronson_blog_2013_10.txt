@@ -1,5 +1,6 @@
 TITLE: Three things that I should’ve gotten around to years ago
 URL: https://scottaaronson.blog/?m=201310
+DATE: Tuesday, October 15th, 2013
 CONTENT:
 Updates (11/8): Alas, video of Eliezer’s talk will not be available after all.  The nincompoops who we paid to record the talk wrote down November instead of October for the date, didn’t show up, then stalled for a month before finally admitting what had happened.  So my written summary will have to suffice (and maybe Eliezer can put his slides up as well).
 
@@ -39,6 +40,7 @@ Deadline for applications: 15 December, 2013.
 
 TITLE: Five announcements
 URL: https://scottaaronson.blog/?m=201310
+DATE: Tuesday, October 1st, 2013
 CONTENT:
 Update (Oct. 3): OK, a sixth announcement.  I just posted a question on CS Theory StackExchange, entitled Overarching reasons why problems are in P or BPP.  If you have suggested additions or improvements to my rough list of “overarching reasons,” please post them over there — thanks!
 

@@ -1,5 +1,6 @@
 TITLE: Big news
 URL: https://scottaaronson.blog/?m=201203
+DATE: Thursday, March 15th, 2012
 CONTENT:
 Judea Pearl has won a richly-deserved Turing Award, for his pioneering work on reasoning under uncertainty, Bayesian inference, and causality.  Much like last year’s winner Leslie Valiant, Pearl has been a perfectly-plausible candidate since the 1980s; it was really just a question of when they’d get around to him.  For those who don’t know his work, Pearl’s landmark book Causality provides a wonderful introduction to at least one major strand of his thought; I read it this summer and it inverted the way I think about lots of things in statistics.  (Pearl’s fame precedes this award, partly for a tragic reason: he’s probably best known to the public as the father of the murdered journalist Daniel Pearl.)
 

@@ -1,5 +1,6 @@
 TITLE: One way Obama has supported scientists
 URL: https://scottaaronson.blog/?m=200904
+DATE: Tuesday, April 28th, 2009
 CONTENT:
 By giving me a free blog post.  From his address to the National Academy of Science (full text here):
 
@@ -33,6 +34,7 @@ I’d also like to blog about two books I’m reading: Outliers by Malcolm Gladw
 
 TITLE: Let no one call me an enemy of the arts
 URL: https://scottaaronson.blog/?m=200904
+DATE: Sunday, April 19th, 2009
 CONTENT:
 From San Francisco, CA, en route to UC Berkeley, Shtetl-Optimized is proud to bring you…
 
@@ -143,6 +145,7 @@ QED, I just do theory.
 
 TITLE: Corn, rice, and wheat
 URL: https://scottaaronson.blog/?m=200904
+DATE: Saturday, April 11th, 2009
 CONTENT:
 Now, I’m not much of a farming type.  But for some reason, about a year ago I became intensely curious about three cereal grains—corn, rice, and wheat—and the central role they played in getting civilization off the ground.  And so, on this Passover holiday, when Ashkenazi Jews are supposed to avoid not only leavened bread, but corn and rice as well (the reason? apparently some 13th-century rabbi feared that a grain of wheat might fall in undetected), I thought I’d “go against the grain,” and ask “Four Questions” about all three of these strange plants.
 
@@ -160,6 +163,7 @@ Despite the staggering amount of research I did for this post, it remains concei
 
 TITLE: Teleport, tunnel, adiabat—but one way or another, get there
 URL: https://scottaaronson.blog/?m=200904
+DATE: Tuesday, April 7th, 2009
 CONTENT:
 As a general rule, I don’t post workshop announcements on this blog: if I did it for one, I’d have to do it for all, etc. etc.  But I’ve decided that an exception can be made, if the requesting party has won a bet against Stephen Hawking.  And so it is that I, on behalf of John Preskill, hereby encourage you to attend the Quantum Information Science Workshop in Vienna, VA, from April 23-25, which has been hastily called in response to the report A Federal Vision for Quantum Information Science.  The whole quantum information community is invited, but the deadline for the workshop hotel rate is today!  The future of our entire field will be decided at this workshop:
 
@@ -169,6 +173,7 @@ If you’re as hungry for the answers as I am, you won’t want to miss this.
 
 TITLE: A not-quite-exponential dilemma
 URL: https://scottaaronson.blog/?m=200904
+DATE: Sunday, April 5th, 2009
 CONTENT:
 A commenter on my last post writes:
 

@@ -1,5 +1,6 @@
 TITLE: Off the grid
 URL: https://scottaaronson.blog/?m=200910
+DATE: Saturday, October 31st, 2009
 CONTENT:
 My primary link to the rest of the cosmos—my Gmail account, bqpqpoly at gmail.com—has been down for more than 36 hours.  I get a “502 Server Error” every time I try to log in, from any computer and any browser.
 
@@ -21,6 +22,7 @@ My revised view: Google is not an evil behemoth. They’re a good company, and w
 
 TITLE: A little experiment
 URL: https://scottaaronson.blog/?m=200910
+DATE: Thursday, October 15th, 2009
 CONTENT:
 In a New York Times column that exemplifies the highest instincts of science journalism, Dennis Overbye writes about two physicists’ idea that creating a Higgs boson is so abhorrent to the universe that backwards-in-time causal influences have conspired to prevent humans from seeing one—first by causing Congress to cancel the Superconducting Supercollider in 1993, and more recently by causing the faulty electrical connections that have delayed the startup of the LHC.  (For reactions, see pretty much any science blog.  Peter Woit writes that, with the exception of a defense by Sean Carroll, “pretty much all of [the blog chatter] has been unremittingly hostile, when not convinced that these papers must be some sort of joke.”)
 

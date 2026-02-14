@@ -1,5 +1,6 @@
 TITLE: Mistake of the Week: “But even an X says so!”
 URL: https://scottaaronson.blog/?m=200803
+DATE: Monday, March 17th, 2008
 CONTENT:
 Consider the following less-than-hypothetical scenarios:
 
@@ -15,6 +16,7 @@ So what’s my verdict?  Belonging to the group you’re criticizing can give yo
 
 TITLE: Great Ideas In Theoretical Computer Science Lectures 2-7
 URL: https://scottaaronson.blog/?m=200803
+DATE: Monday, March 10th, 2008
 CONTENT:
 For those who missed it on the sidebar, we now have six more GITCS lecture notes available:
 
@@ -36,6 +38,7 @@ More are on the way — compared to the Democritus notes, it’s so much easier 
 
 TITLE: Statement on conceptual contributions in theory
 URL: https://scottaaronson.blog/?m=200803
+DATE: Friday, March 7th, 2008
 CONTENT:
 About six months ago, a group of theoretical computer scientists started raising concerns about what they saw as a growing problem in our field.  (My parody post “FOCS’36 notification” was one attempt to explain what this problem is.)  The group has now put together a statement, which I was happy to sign, and which is meant to serve as a starting point for further discussion at the STOC’08 business meeting.  If you support this statement and want add your name to it, please say so in the comments section! Of course criticism is welcome too. –SA
 
@@ -66,6 +69,7 @@ Salil Vadhan
 
 TITLE: Long-dreaded politics post
 URL: https://scottaaronson.blog/?m=200803
+DATE: Wednesday, March 5th, 2008
 CONTENT:
 Until today, I have failed to uphold one of the most sacred responsibilities of the guild of bloggers: that of weighing in on the Democratic primary.  This is not because of any desire to keep politics out of this blog: I’ve never succeeded in keeping anything out of this blog.  Rather, it’s because I find the question genuinely difficult.
 
@@ -87,6 +91,7 @@ Incidentally, so far as I can tell, the accusations of anti-Semitism against Oba
 
 TITLE: Penrose’s Gödel argument in rap
 URL: https://scottaaronson.blog/?m=200803
+DATE: Sunday, March 2nd, 2008
 CONTENT:
 About as logically sound as the original, and with a better backbeat (link to MP3).  From computer science grad student / hip-hop artist MC Plus+.
 

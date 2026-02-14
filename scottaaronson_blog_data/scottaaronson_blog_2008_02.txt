@@ -1,5 +1,6 @@
 TITLE: Sourkatz
 URL: https://scottaaronson.blog/?m=200802
+DATE: Monday, February 25th, 2008
 CONTENT:
 A reader named Hernan asked me for my opinion of a well-known rant by Jonathan Katz of Washington University, about why young people shouldn’t go into academic science since there are so few jobs and the jobs that there are stink anyway.  I posted my response in the comments section, but since it seems to be of general interest I thought I’d make a proper entry of it.
 
@@ -19,6 +20,7 @@ Incidentally, my comments apply most clearly to computer science PhD programs, w
 
 TITLE: The Nerderer
 URL: https://scottaaronson.blog/?m=200802
+DATE: Monday, February 25th, 2008
 CONTENT:
 Alas, this weekend I became engrossed by the “OJ Simpson trial for nerds”: the ongoing trial of Hans Reiser (the famous Linux file system developer and supposedly-brilliant high-school accelerant) for the murder of his ex-wife Nina.  What makes the case interesting is that Reiser’s defense largely consists of the claim that he was too nerdy and Aspbergerish, too lacking in basic social skills, to realize that doing innocuous things in the weeks following Nina’s disappearance like
 
@@ -38,6 +40,7 @@ Oh right: at the behest of you, my loyal readers, I’m now more than halfway th
 
 TITLE: Scientific American article is out!
 URL: https://scottaaronson.blog/?m=200802
+DATE: Sunday, February 17th, 2008
 CONTENT:
 After three years of procrastination and delays, my 8-page feature article on “The Limits of Quantum Computers” has finally appeared in the March issue of Scientific American. Once I get permission, I’ll post a plain-text version on my website. In the meantime, you can buy the online issue for US$5.00 from SciAm‘s website, in which case you get colorful sidebars and graphics (including a bearded, white-lab-coated cartoon scientist holding quantum computers and complexity class inclusion diagrams), as well as an interview with Jeff Kimble about the unfortunate movie “Jumper”, and other articles about “the end of cosmology”, prediction markets (Robin Hanson and his “futarchy” get a mention), and the disastrous overfishing of the bluefin tuna (the kind used for toro sushi).
 
@@ -59,6 +62,7 @@ Yet, while the “Tarski approach” to magazine writing is a tempting one, here
 
 TITLE: Great Ideas In Theoretical Computer Science Lecture 1
 URL: https://scottaaronson.blog/?m=200802
+DATE: Wednesday, February 13th, 2008
 CONTENT:
 For those who’ve stopped following the Democritus series, there’s another train leaving the station today: the first lecture of my new undergraduate course (“Great Ideas In Theoretical Computer Science”) is now available.
 
@@ -72,6 +76,7 @@ To preempt the inevitable questions, two remarks about the course’s title:
 
 TITLE: Quantum Computing Since Democritus Lecture 12: Proof
 URL: https://scottaaronson.blog/?m=200802
+DATE: Tuesday, February 12th, 2008
 CONTENT:
 After a ten-month hiatus, the Quantum Computing Since Democritus series sheepishly returns with Lecture 12, which explores how, over the past couple of decades, theoretical computer scientists have bent, twisted, and kneaded the concept of mathematical proof into strange and barely-recognizable forms.  Read about proofs that don’t impart any knowledge beyond their own validity, proofs you can check by examining a few random symbols, and (for those who already know that stuff) proofs that certain interpretations of quantum mechanics would predict you can see over the course of your life, yet can’t hold in your mind at any individual time.
 

@@ -1,5 +1,6 @@
 TITLE: Complexity Zoo is down — anyone willing to help?
 URL: https://scottaaronson.blog/?m=201207
+DATE: Tuesday, July 31st, 2012
 CONTENT:
 Update (August 5): Sorry for the delay! Now that the Zoo is back up, my sense of urgency has decreased, but we still do need a long-term solution. Thanks so much to everyone who offered hosting. Alas, I was persuaded by the argument that it’s too complicated to have a wiki mirrored at multiple locations, so I should really choose one—and ideally it should be someplace where I retain control of the files, in case anything goes wrong again. Following the helpful directions of Eric Price, I set up a MediaWiki installation at http://scottaar.scripts.mit.edu/zoo. Is anyone interested in helping me transfer over the content from the qwiki Zoo?
 
@@ -13,6 +14,7 @@ Thanks!!
 
 TITLE: Scott in Scotland
 URL: https://scottaaronson.blog/?m=201207
+DATE: Thursday, July 12th, 2012
 CONTENT:
 
 

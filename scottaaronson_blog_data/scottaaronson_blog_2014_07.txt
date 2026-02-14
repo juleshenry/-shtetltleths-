@@ -1,5 +1,6 @@
 TITLE: US State Department: Let in cryptographers and other scientists
 URL: https://scottaaronson.blog/?m=201407
+DATE: Saturday, July 26th, 2014
 CONTENT:
 Predictably, my last post attracted plenty of outrage (some of it too vile to let through), along with the odd commenter who actually agreed with what I consider my fairly middle-of-the-road, liberal Zionist stance.  But since the outrage came from both sides of the issue, and the two sides were outraged about the opposite things, I guess I should feel OK about it.
 
@@ -15,6 +16,7 @@ It should be obvious to everyone that a crackdown on academic cryptographers ser
 
 TITLE: 3-sentence summary of what’s happening in Israel and Gaza
 URL: https://scottaaronson.blog/?m=201407
+DATE: Thursday, July 24th, 2014
 CONTENT:
 Hamas is trying to kill as many civilians as it can.
 
@@ -30,6 +32,7 @@ See also a good HuffPost article by Ali A. Rizvi, a “Pakistani-Canadian writer
 
 TITLE: “How Might Quantum Information Transform Our Future?”
 URL: https://scottaaronson.blog/?m=201407
+DATE: Tuesday, July 22nd, 2014
 CONTENT:
 So, the Templeton Foundation invited me to write a 1500-word essay on the above question.  It’s like a blog post, except they pay me to do it!  My essay is now live, here.  I hope you enjoy my attempt at techno-futurist prose.  You can comment on the essay either here or over at Templeton’s site.  Thanks very much to Ansley Roan for commissioning the piece.
 
@@ -37,6 +40,7 @@ So, the Templeton Foundation invited me to write a 1500-word essay on the above 
 
 TITLE: Seth Teller (1964-2014)
 URL: https://scottaaronson.blog/?m=201407
+DATE: Friday, July 11th, 2014
 CONTENT:
 
 
@@ -56,6 +60,7 @@ Seth will be sorely missed.  My thoughts go out to his family at this difficult
 
 TITLE: The Power of the Digi-Comp II: My First Conscious Paperlet
 URL: https://scottaaronson.blog/?m=201407
+DATE: Friday, July 4th, 2014
 CONTENT:
 Foreword: Right now, I have a painfully-large stack of unwritten research papers.  Many of these are “paperlets”: cool things I noticed that I want to tell people about, but that would require a lot more development before they became competitive for any major theoretical computer science conference.  And what with the baby, I simply don’t have time anymore for the kind of obsessive, single-minded, all-nighter-filled effort needed to bulk my paperlets up.  So starting today, I’m going to try turning some of my paperlets into blog posts.  I don’t mean advertisements or sneak previews for papers, but replacements for papers: blog posts that constitute the entirety of what I have to say for now about some research topic.  “Peer reviewing” (whether signed or anonymous) can take place in the comments section, and “citation” can be done by URL.  The hope is that, much like with 17th-century scientists who communicated results by letter, this will make it easier to get my paperlets done: after all, I’m not writing Official Papers, just blogging for colleagues and friends.
 

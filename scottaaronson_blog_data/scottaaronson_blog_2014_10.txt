@@ -1,5 +1,6 @@
 TITLE: A few quick announcements
 URL: https://scottaaronson.blog/?m=201410
+DATE: Tuesday, October 14th, 2014
 CONTENT:
 I gave a new survey talk at Yale, entitled “When Exactly Do Quantum Computers Provide a Speedup?”  Here are the PowerPoint slides.  Thanks so much to Rob Schoelkopf for inviting me, and to everyone else at Yale for an awesome visit.
 
@@ -13,6 +14,7 @@ Likewise, Jeff Kinne asks me to remind people that the Complexity’2015 submiss
 
 TITLE: Speaking Truth to Parallelism at Cornell
 URL: https://scottaaronson.blog/?m=201410
+DATE: Friday, October 3rd, 2014
 CONTENT:
 This week I was at my alma mater, Cornell, to give a talk at the 50th anniversary celebration of its computer science department.  You can watch the streaming video here; my talk runs from roughly 1:17:30 to 1:56 (though if you’ve seen other complexity/physics/humor shows by me, this one is pretty similar, except for the riff about Cornell at the beginning).
 

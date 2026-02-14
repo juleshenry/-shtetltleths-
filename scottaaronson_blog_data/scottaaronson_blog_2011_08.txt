@@ -1,5 +1,6 @@
 TITLE: Al?xes in the news
 URL: https://scottaaronson.blog/?m=201108
+DATE: Thursday, August 18th, 2011
 CONTENT:
 Alex Halderman, University of Michigan computer security professor and my best friend from childhood (see previous Shtetl-Optimized coverage here and here), has been in the news again, with a new Internet anti-censorship system called Telex that he co-developed with Ian Goldberg, Eric Wustrow, and Scott Wolchok (see, e.g., here, here, here for more info).  Basically, Telex would let interested governments or ISPs help the citizens of (say) China or Iran access content that their governments are trying to block.  Having gotten hold of the Telex software (say, from a friend), the Chinese or Iranian websurfer would access an innocuous-looking website, but insert cryptographic tags into its HTTPS requests to alert an ISP along the way (not an ISP inside China or Iran) that it wanted to activate the anti-censorship service.
 
@@ -13,6 +14,7 @@ I wish both of these Al?xes the best, as they work toward a better world in thei
 
 TITLE: Ask Me Anything
 URL: https://scottaaronson.blog/?m=201108
+DATE: Saturday, August 13th, 2011
 CONTENT:
 Update (8/16): Phew! By my count, I’ve answered 139 questions over the past few days. Thanks so much to everyone for submitting them, and please don’t submit any more!
 
@@ -32,6 +34,7 @@ So, by popular demand, and as promised a couple months ago, for the next 24 hour
 
 TITLE: Why Philosophers Should Care About Computational Complexity
 URL: https://scottaaronson.blog/?m=201108
+DATE: Monday, August 8th, 2011
 CONTENT:
 Update (August 11, 2011): Thanks to everyone who offered useful feedback!  I uploaded a slightly-revised version, adding a “note of humility” to the introduction, correcting the footnote about Cramer’s Conjecture, incorporating Gil Kalai’s point that an efficient program to pass the Turing Test could exist but be computationally intractable to find, adding some more references, and starting the statement of Valiant’s sample-size theorem with the word “Consider…” instead of “Fix…”
 

@@ -1,5 +1,6 @@
 TITLE: The Singularity: Now 50% Off!
 URL: https://scottaaronson.blog/?m=200909
+DATE: Friday, September 11th, 2009
 CONTENT:
 I’m normally loath to announce conferences on this blog, but my friend Michael Vassar has made an offer that appeals to my vanity, desire to please, and most of all legendary business sense.  Here it is: anyone who registers for the upcoming Singularity Summit, October 3-4 in New York, can get 50% off the registration fee by mentioning this blog.
 
@@ -17,6 +18,7 @@ The 2009 Singularity Summit: “Advancing the messianic dream of Jeremiah, Isaia
 
 TITLE: Worldview Manager is live
 URL: https://scottaaronson.blog/?m=200909
+DATE: Friday, September 4th, 2009
 CONTENT:
 A year ago, I wrote a blog entry seeking summer students to create a Worldview Manager: a web application that would prompt users to state their beliefs about various statements, and then notify them if two or more answers were in “tension” with one another, giving them the chance to modify their beliefs and thereby resolve the tension.  The idea was then covered in a short piece by Lee Gomes at Forbes.com.
 

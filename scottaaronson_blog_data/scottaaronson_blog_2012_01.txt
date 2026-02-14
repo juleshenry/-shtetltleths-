@@ -1,5 +1,6 @@
 TITLE: Boycott Elsevier!
 URL: https://scottaaronson.blog/?m=201201
+DATE: Thursday, January 26th, 2012
 CONTENT:
 If you’re in academia and haven’t done so yet, please take a moment to sign this online petition organized by Tyler Neylon, and pledge that you won’t publish, referee, or do editorial work for any Elsevier journals.  I’ve been boycotting Elsevier (and most other commercial journal publishers—Elsevier is merely the worst) since 2004, when I first learned about their rapacious pricing policies.  I couldn’t possibly be happier with my choice: unlike most idealistic principles, this one gets you out of onerous work rather than committing you to it!  Sure, Elsevier is huge and we’re tiny, but the fight against them is finally gathering steam (possibly because of Elsevier’s support for the “Research Works Act”), years after the case against them became inarguable.  Since their entire business model depends on our donating free labor to them, all it will take to bring them down is for enough of us to decide we’re through being had.  We can actually win this one … Yes We Can.
 
@@ -9,6 +10,7 @@ For more information, see this wonderful recent post by Fields medalist and Shte
 
 TITLE: Updates from Kenya
 URL: https://scottaaronson.blog/?m=201201
+DATE: Wednesday, January 18th, 2012
 CONTENT:
 Yes, I’m blogging from outside Nairobi, where I’ve come to investigate the true circumstances of President Obama’s birth.  Seriously, Dana and I are here to go on a safari for our belated honeymoon—for both of us, it’s our first non-work-related trip in many years.  Needless to say, we both brought our laptops.
 

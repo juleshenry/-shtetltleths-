@@ -1,5 +1,6 @@
 TITLE: The Aaronson $25.00 Prize
 URL: https://scottaaronson.blog/?m=200710
+DATE: Sunday, October 28th, 2007
 CONTENT:
 [Update]
 
@@ -53,6 +54,7 @@ Still, I decided not to make a fuss about such things in my original post, since
 
 TITLE: University takes unfortunate stance on existence of quantum algorithm
 URL: https://scottaaronson.blog/?m=200710
+DATE: Friday, October 26th, 2007
 CONTENT:
 The homepage of Bristol University now prominently features a photograph with the words “NP ⊂ BQP, but the proof is too small to fit on this blackboard.”   Hat tip to Aram Harrow, who’s also the apparent culprit behind this embarrassment to his employer.
 
@@ -60,6 +62,7 @@ The homepage of Bristol University now prominently features a photograph with th
 
 TITLE: Halloween Special: My Inbox
 URL: https://scottaaronson.blog/?m=200710
+DATE: Thursday, October 25th, 2007
 CONTENT:
 Most Respected Profeser Sir Dr. Scot Andersen: I wish to join your esteemed research group.  I have taken two courses in Signal Processing at the Technical College of Freedonia; thus, it is clear that I would be a perfect fit for your laboratory at MIT. Please respond immediately with a specific date for the commencement of my studies.
 
@@ -75,6 +78,7 @@ Brief responses here. Back in the day, I prided myself on answering emails indiv
 
 TITLE: Dead-blogging FOCS’2007
 URL: https://scottaaronson.blog/?m=200710
+DATE: Tuesday, October 23rd, 2007
 CONTENT:
 For the past few days I’ve been at FOCS’2007 in Providence, Rhode Island, where apparently I’m supposed to have been live-blogging the conference. This came as news to me. (One of the organizers wrote to ask if I’d be posting live updates. I replied that I might post something eventually.)
 
@@ -96,6 +100,7 @@ When I think about Munich, Germany, so many mental associations spring immediate
 
 TITLE: What every math talk should be like
 URL: https://scottaaronson.blog/?m=200710
+DATE: Friday, October 19th, 2007
 CONTENT:
 Watch a sphere get turned inside out with no cuts or creases.  Hat tip: John Baez.
 
@@ -103,6 +108,7 @@ Watch a sphere get turned inside out with no cuts or creases.  Hat tip: John Bae
 
 TITLE: Procrastinating on the sidelines of history
 URL: https://scottaaronson.blog/?m=200710
+DATE: Thursday, October 18th, 2007
 CONTENT:
 I wasn’t born to be a blogger.   I can’t respond to events in real-time.    When history happens, I might or might not be there to react.  To give one example: I still don’t have any update to share about the Australian models.  (Hopefully soon.)
 
@@ -138,6 +144,7 @@ There are, of course, many correct answers to these questions, but there’s one
 
 TITLE: Australian actresses are plagiarizing my quantum mechanics lecture to sell printers
 URL: https://scottaaronson.blog/?m=200710
+DATE: Tuesday, October 2nd, 2007
 CONTENT:
 I tried to think of a witty, ironic title for this post, but in the end, I simply couldn’t.  The above title is a literal statement of fact.
 

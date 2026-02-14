@@ -1,5 +1,6 @@
 TITLE: Discussion questions about Watson
 URL: https://scottaaronson.blog/?m=201102
+DATE: Thursday, February 17th, 2011
 CONTENT:
 
 
@@ -7,6 +8,7 @@ CONTENT:
 
 TITLE: My TEDxCaltech talk
 URL: https://scottaaronson.blog/?m=201102
+DATE: Wednesday, February 16th, 2011
 CONTENT:
 A month ago, Caltech hosted a daylong event called “TEDxCaltech / Feynman’s Vision: the Next 50 Years”, which was attended by about a thousand people.  Celebrity participants included Stephen Hawking, Carl and Michelle Feynman (Carl told me he’s a fan of the blog—hi Carl!), and Ondar, a Tuvan throat-singer who pretty much stole the show.
 
@@ -26,6 +28,7 @@ Thanks to Michael Roukes, Mary Sikora, John Preskill, Ann Harvey, and the other 
 
 TITLE: The students and the TAs are one hand
 URL: https://scottaaronson.blog/?m=201102
+DATE: Sunday, February 13th, 2011
 CONTENT:
 Last night, the MIT Egyptian Club hosted a “What’s Going On In Egypt?” event, which included a lecture, a Q&A session with Egyptian students, Egyptian music, and free falafel and baklava.  I went, not least because of the falafel.
 
@@ -55,6 +58,7 @@ So, to my Egyptian readers: congratulations, best wishes, mazel tov, and mabrouk
 
 TITLE: Timeline of computer science
 URL: https://scottaaronson.blog/?m=201102
+DATE: Friday, February 11th, 2011
 CONTENT:
 Update (Feb. 14): Thanks so much to the many commenters who offered suggestions—I’ve implemented a large fraction of them!  In addition to many clarifications and corrections of existing entries, I’ve added entries for:
 

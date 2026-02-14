@@ -1,5 +1,6 @@
 TITLE: Anti-Complexitism
 URL: https://scottaaronson.blog/?m=201011
+DATE: Wednesday, November 17th, 2010
 CONTENT:
 It’s time someone said it.  There exists, among a small but vocal subset of the nerd community, a strange animus against computational complexity theory, which is often rooted in factual misunderstandings, and seems wholly out of proportion to any real shortcomings that complexity theory has.  Granted, every field of science has its backseat-drivers, those extralusionary intellects who feel sure they could best the experts, but haven’t expended any actual effort in solving the problems on which the experts are stuck.  But, perhaps because of the unusual accessibility of its open problems, complexity theory seems (I might be wrong) to attract more such naysayers than other mathematical fields.
 
@@ -25,6 +26,7 @@ Attacks on complexity theory for over-reliance on conjectures, even though almos
 
 TITLE: The Computational Complexity of Linear Optics
 URL: https://scottaaronson.blog/?m=201011
+DATE: Saturday, November 13th, 2010
 CONTENT:
 I usually avoid blogging about my own papers—since, as a tenure-track faculty member, I prefer to be known as a media-whoring clown who trashes D-Wave Sudoku claims, bets $200,000 against alleged P≠NP proofs, and complains about his lecture notes being appropriated by Australian actresses to sell printers.  Any research that I happen to do is best kept secret, lest it interfere with that carefully-constructed persona.
 
@@ -56,6 +58,7 @@ Anyway, the main purpose of this post was simply to provide a place for people w
 
 TITLE: State of circuit lower bounds now slightly less humiliating
 URL: https://scottaaronson.blog/?m=201011
+DATE: Monday, November 8th, 2010
 CONTENT:
 When people want to emphasize how pathetically far we are from proving P≠NP, they often use the following argument: for godsakes, we can’t even prove that NEXP-complete problems aren’t solvable by depth-3, polynomial-size circuits consisting entirely of mod 6 gates!
 

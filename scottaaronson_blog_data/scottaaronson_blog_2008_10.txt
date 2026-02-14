@@ -1,5 +1,6 @@
 TITLE: Keeping cool
 URL: https://scottaaronson.blog/?m=200810
+DATE: Sunday, October 26th, 2008
 CONTENT:
 Update (10/27): Peter Norvig at Google points me to his Election FAQ, for those who feel they haven’t yet spent enough time reading about the election.  I’ve just been perusing it, and it’s an unbelievably good source of information—reaching the same conclusions as I did on just about every particular, yet also calm, reasoned, and professional.
 
@@ -41,6 +42,7 @@ Mathematics is just a place where it becomes clear how a human may think. Comput
 
 TITLE: Opening for a summer student
 URL: https://scottaaronson.blog/?m=200810
+DATE: Monday, October 6th, 2008
 CONTENT:
 I’m seeking a talented student for summer of 2009, to work with me in developing and experimenting with a new open-source web application.  I’m open to students from anywhere, though MIT students will receive special consideration for funding reasons.
 
@@ -106,6 +108,7 @@ Update (10/15): In a somewhat related spirit, Eric Schwitzgebel at UC Riverside 
 
 TITLE: Nerds and theorists, our honor is at stake
 URL: https://scottaaronson.blog/?m=200810
+DATE: Wednesday, October 1st, 2008
 CONTENT:
 Today Sean Carroll emailed various bloggers, defying us to participate in the DonorsChoose Blogger Challenge 2008.  Here’s how it works: we (the bloggers) pick projects that we like in underfunded public schools.  Then we beg our readers to donate small amounts of money to make those projects happen.  Any blogger whose readers can’t or won’t contribute is revealed as weak, pathetic, and inadequate—as are the readers themselves.
 

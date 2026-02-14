@@ -1,5 +1,6 @@
 TITLE: Research projects in quantum complexity theory
 URL: https://scottaaronson.blog/?m=201010
+DATE: Wednesday, October 27th, 2010
 CONTENT:
 Today I’m in College Park, Maryland, for a fun quantum information workshop.  I just came from Las Vegas, where I was at FOCS 2010, appropriately held at the Monte Carlo.  (Don’t tell anyone, but I also skipped out on part of the conference for a helicopter tour of the Grand Canyon.)
 
@@ -75,6 +76,7 @@ Given n bits arranged in a √nx√n square grid, suppose we want to know whethe
 
 TITLE: The Aaronson Postdoctoral Fellowship
 URL: https://scottaaronson.blog/?m=201010
+DATE: Wednesday, October 13th, 2010
 CONTENT:
 So, I’ve decided to simultaneously do something positive for theoretical computer science, stimulate BQPology research at MIT, and solve the “problem” of having too much grant money by hiring a postdoc.  The main area of interest for this postdoc is quantum complexity theory, but I’ll also consider outstanding applicants of a more classical bent—in fact, the ideal applicant is someone equally excited to tackle meaty open problems in quantum complexity, classical complexity, or any combination of the two.  As a postdoc here, you’ll collaborate (I hope) with me and my PhD students, but you’ll also have plenty of opportunities for interaction with the other quantum computing theory folks at MIT (Peter Shor, Ed Farhi, Seth Lloyd…), as well as the other computational complexity folks (too many to list).  This postdoc is for one year, with the expectation of a renewal for a second year.
 
@@ -88,6 +90,7 @@ Finally, while I was tempted to make “reading Shtetl-Optimized” an effective
 
 TITLE: The converse of smoothed analysis
 URL: https://scottaaronson.blog/?m=201010
+DATE: Wednesday, October 6th, 2010
 CONTENT:
 A year ago, Timothy Gowers posted the following beautiful question to MathOverflow:
 

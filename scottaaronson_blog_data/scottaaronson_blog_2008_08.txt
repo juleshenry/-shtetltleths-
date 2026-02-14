@@ -1,5 +1,6 @@
 TITLE: Can we?
 URL: https://scottaaronson.blog/?m=200808
+DATE: Thursday, August 28th, 2008
 CONTENT:
 I was in a miserable mood for weeks—regular readers will know that, for whatever reason, I go through these moods from time to time—and, strangely enough, a key to getting out of it seems to have been watching the Democratic convention and reading Obama’s two books.  I’m not saying this ought to have helped, only that it did.  Why?  Well, I can think of three possible reasons:
 
@@ -19,6 +20,7 @@ A few possibilities:
 
 TITLE: Quantum Computing Since Democritus Lecture 20: Cosmology and Complexity
 URL: https://scottaaronson.blog/?m=200808
+DATE: Thursday, August 21st, 2008
 CONTENT:
 Come watch me attempt to explain the implications of a positive cosmological constant for computational complexity theory.  If this blog is about anything, it’s about me talking about subjects I don’t understand sufficiently well and thereby making a fool of myself.  But it’s also about experts taking the time to correct me.  The latter is the primary saving grace.
 

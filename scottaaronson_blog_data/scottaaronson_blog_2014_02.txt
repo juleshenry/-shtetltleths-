@@ -1,5 +1,6 @@
 TITLE: Umesh Vazirani responds to Geordie Rose
 URL: https://scottaaronson.blog/?m=201402
+DATE: Thursday, February 6th, 2014
 CONTENT:
 You might recall that Shin, Smith, Smolin, and Vazirani posted a widely-discussed preprint a week ago, questioning the evidence for large-scale quantum behavior in the D-Wave machine.  Geordie Rose responded here.   Tonight, in a Shtetl-Optimized exclusive scoop, I bring you Umesh Vazirani’s response to Geordie’s comments. Without further ado:
 
@@ -15,6 +16,7 @@ Rose goes on to point to a large number of experiments conducted by D-Wave to pr
 
 TITLE: TIME’s cover story on D-Wave: A case study in the conventions of modern journalism
 URL: https://scottaaronson.blog/?m=201402
+DATE: Thursday, February 6th, 2014
 CONTENT:
 This morning, commenter rrtucci pointed me to TIME Magazine’s cover story about D-Wave (yes, in today’s digital media environment, I need Shtetl-Optimized readers to tell me what’s on the cover of TIME…).  rrtucci predicted that, soon after reading the article, I’d be hospitalized with a severe stress-induced bleeding ulcer.  Undeterred, I grit my teeth, paid the $5 to go behind the paywall, and read the article.
 

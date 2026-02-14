@@ -1,5 +1,6 @@
 TITLE: Acknowledging the awesome
 URL: https://scottaaronson.blog/?m=200912
+DATE: Sunday, December 27th, 2009
 CONTENT:
 This holiday season, you should see Avatar and read Logicomix (if you haven’t already).  I entered both expecting to wince over scientific inaccuracies and bad dialogue, and left both in a state of catharsis that few books or movies have ever brought me to.  Both break new ground, deal with big issues in a visually stunning way, have been predictably criticized as “simplistic,” and need a sequel.
 
@@ -7,6 +8,7 @@ This holiday season, you should see Avatar and read Logicomix (if you haven’t 
 
 TITLE: Second Women in Theory Workshop
 URL: https://scottaaronson.blog/?m=200912
+DATE: Friday, December 18th, 2009
 CONTENT:
 For the female readers of this blog: I thought all eight of you might be interested in the following announcement, which was sent to me by Tal Rabin.
 
@@ -20,6 +22,7 @@ and view a video of WIT08 at: http://www.youtube.com/watch?v=uUBzBF2awZU
 
 TITLE: Hopefully my last D-Wave post ever
 URL: https://scottaaronson.blog/?m=200912
+DATE: Thursday, December 17th, 2009
 CONTENT:
 Several people asked me to comment on an entry by Hartmut Neven in the Google Research Blog, about using D-Wave’s “quantum” computers for image recognition.
 
@@ -67,6 +70,7 @@ Skeptic: Yes.  I concede!  D-Wave wins, and I hereby retire as skeptic.  In p
 
 TITLE: Prove my lemma, get acknowledged in a paper!
 URL: https://scottaaronson.blog/?m=200912
+DATE: Monday, December 14th, 2009
 CONTENT:
 This will be a little experiment, in which the collaborative mathematics advocated by Timothy Gowers and others combines with my own frustration and laziness.  If it goes well, I might try it more in the future.
 
@@ -80,6 +84,7 @@ Update: After I accepted Scott Morrison’s suggestion to post my problem at mat
 
 TITLE: Simons postdoc: call for applications
 URL: https://scottaaronson.blog/?m=200912
+DATE: Wednesday, December 9th, 2009
 CONTENT:
 Anyone who feared that my taking a real job would lead to the slow demise of this blog: your fears were entirely justified.  I barely even read blogs anymore—or Twitters, or whatever the young people use nowadays.  Though come to think of it, maybe I should switch to a Twitter feed, since blogging has become too weighty and substantive for me?
 

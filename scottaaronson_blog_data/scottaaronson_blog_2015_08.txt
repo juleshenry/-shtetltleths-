@@ -1,5 +1,6 @@
 TITLE: D-Wave Open Thread
 URL: https://scottaaronson.blog/?m=201508
+DATE: Wednesday, August 26th, 2015
 CONTENT:
 A bunch of people have asked me to comment on D-Wave’s release of its 1000-qubit processor, and a paper by a group including Cathy McGeoch saying that the machine is 1 or 2 orders of faster (in annealing time, not wall-clock time) than simulated annealing running on a single-core classical computer.  It’s even been suggested that the “Scott-signal” has been shining brightly for a week above Quantham City, but that Scott-man has been too lazy and out-of-shape even to change into his tights.
 
@@ -21,6 +22,7 @@ As a small token of my goodwill, I enclose two photos from my last visit to a D-
 
 TITLE: 6-photon BosonSampling
 URL: https://scottaaronson.blog/?m=201508
+DATE: Wednesday, August 19th, 2015
 CONTENT:
 The news is more-or-less what the title says!
 
@@ -44,6 +46,7 @@ But you might ask: given that 6×6 permanents are still pretty easy for a class
 
 TITLE: Jacob Bekenstein (1947-2015)
 URL: https://scottaaronson.blog/?m=201508
+DATE: Tuesday, August 18th, 2015
 CONTENT:
 Today I learned the sad news that Jacob Bekenstein, one of the great theoretical physicists of our time, passed away at the too-early age of 68.
 
@@ -57,6 +60,7 @@ I first met Bekenstein in 2003, when I was a grad student spending a semester at
 
 TITLE: Common Knowledge and Aumann’s Agreement Theorem
 URL: https://scottaaronson.blog/?m=201508
+DATE: Sunday, August 16th, 2015
 CONTENT:
 The following is the prepared version of a talk that I gave at SPARC: a high-school summer program about applied rationality held in Berkeley, CA for the past two weeks.  I had a wonderful time in Berkeley, meeting new friends and old, but I’m now leaving to visit the CQT in Singapore, and then to attend the AQIS conference in Seoul.
 

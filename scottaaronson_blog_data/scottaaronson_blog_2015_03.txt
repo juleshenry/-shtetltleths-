@@ -1,5 +1,6 @@
 TITLE: The ultimate physical limits of privacy
 URL: https://scottaaronson.blog/?m=201503
+DATE: Wednesday, March 11th, 2015
 CONTENT:
 Somewhat along the lines of my last post, the other day a reader sent me an amusing list of questions about privacy and fundamental physics.  The questions, and my answers, are below.
 
@@ -29,6 +30,7 @@ But a third problem is that even inside a black hole, your secrets might not be 
 
 TITLE: The flow of emails within the block inbox
 URL: https://scottaaronson.blog/?m=201503
+DATE: Saturday, March 7th, 2015
 CONTENT:
 As a diversion from the important topics of shaming, anti-shaming, and anti-anti-shaming, I thought I’d share a little email exchange (with my interlocutor’s kind permission), which gives a good example of what I find myself doing all day when I’m not blogging, changing diapers, or thinking about possibly doing some real work (but where did all the time go?).
 

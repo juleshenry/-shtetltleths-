@@ -1,5 +1,6 @@
 TITLE: Scattershot BosonSampling: A new approach to scalable BosonSampling experiments
 URL: https://scottaaronson.blog/?m=201311
+DATE: Friday, November 8th, 2013
 CONTENT:
 Update (12/2): Jeremy Hsu has written a fantastic piece for IEEE Spectrum, entitled “D-Wave’s Year of Computing Dangerously.”
 

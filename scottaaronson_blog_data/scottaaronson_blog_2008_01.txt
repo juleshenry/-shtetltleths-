@@ -1,5 +1,6 @@
 TITLE: Geordie Rose at MIT
 URL: https://scottaaronson.blog/?m=200801
+DATE: Tuesday, January 29th, 2008
 CONTENT:
 While there are many, many things in this world that I’m bent on destroying, D-Wave Systems has never been one of them.  Ideally, I’d simply let the D-Wave folks do their thing (namely, try to build an adiabatic quantum computer) while I do my thing (namely, study the fundamental limits of quantum computers).  It was only when, in connection with D-Wave, cringe-worthy claims about quantum computing started appearing all over the press that I felt a professional obligation to say something.
 
@@ -29,6 +30,7 @@ So, where do we stand?  Here’s my attempt at a fair summary:
 
 TITLE: Science: the toroidal pyramid
 URL: https://scottaaronson.blog/?m=200801
+DATE: Wednesday, January 23rd, 2008
 CONTENT:
 Chad Orzel gripes about this month’s Scientific American special issue on “The Future of Physics” — which is actually extremely good, but which turns out to be exclusively about the future of high-energy particle physics.  Not surprisingly, the commenters on Chad’s blog reignite the ancient debate about which science is more fundamental than which other one, and whether all sciences besides particle physics are stamp collecting.
 
@@ -46,6 +48,7 @@ Note (Jan. 25): From now on, all comments asking what I think of the movie “Te
 
 TITLE: Volume 4 is already written (in our hearts)
 URL: https://scottaaronson.blog/?m=200801
+DATE: Thursday, January 10th, 2008
 CONTENT:
 Today is the 70th birthday of Donald E. Knuth: Priest of Programming, Titan of Typesetting, Monarch of MMIX,  intellectual heir to Turing and von Neumann, greatest living computer scientist by almost-universal assent … alright, you get the idea.
 
@@ -109,6 +112,7 @@ On free will and the problem of evil: “I can design a program that never crash
 
 TITLE: Ten Signs a Claimed Mathematical Breakthrough is Wrong
 URL: https://scottaaronson.blog/?m=200801
+DATE: Saturday, January 5th, 2008
 CONTENT:
 Yesterday several people asked my opinion of a preprint claiming to solve the Graph Isomorphism problem in deterministic polynomial time. I responded:
 
@@ -160,6 +164,7 @@ Obviously, these are just some heuristics I’ve found successful in the past. (
 
 TITLE: Special entry for you, my friend
 URL: https://scottaaronson.blog/?m=200801
+DATE: Thursday, January 3rd, 2008
 CONTENT:
 Happy New Year and all that. Recently I got back from a two-week journey to India (to attend the QIP conference in New Delhi and, of course, liveblog from the Taj) as well as England (to meet up with family in London and make a religious pilgrimage to Bletchley Park).
 

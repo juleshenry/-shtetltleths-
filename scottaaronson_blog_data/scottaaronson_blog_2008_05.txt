@@ -1,5 +1,6 @@
 TITLE: How George W. Bush is changing my life for the better
 URL: https://scottaaronson.blog/?m=200805
+DATE: Thursday, May 29th, 2008
 CONTENT:
 I’ll give you a hint: it’s not from the rebate checks.
 
@@ -13,6 +14,7 @@ An enormous hat tip to Michael Nielsen.
 
 TITLE: Great Ideas in Theoretical Computer Science Lectures 16-19
 URL: https://scottaaronson.blog/?m=200805
+DATE: Tuesday, May 27th, 2008
 CONTENT:
 In the next-to-last GITCS installment, we cover some of the greatest hits of the 70’s and 80’s.
 
@@ -28,6 +30,7 @@ Serves 10-100.
 
 TITLE: The array size of the universe
 URL: https://scottaaronson.blog/?m=200805
+DATE: Friday, May 23rd, 2008
 CONTENT:
 I’ve been increasingly tempted to make this blog into a forum solely for responding to the posts at Overcoming Bias.  (Possible new name: “Wallowing in Bias.”)
 
@@ -88,6 +91,7 @@ Until then, I’m happy to adopt a bullet-dodging attitude toward this and all o
 
 TITLE: Floating in Platonic heaven
 URL: https://scottaaronson.blog/?m=200805
+DATE: Thursday, May 15th, 2008
 CONTENT:
 In the comments section of my last post, Jack in Danville writes:
 
@@ -117,6 +121,7 @@ To summarize, Kronecker had it backwards. Man and Woman deal with the integers; 
 
 TITLE: The bullet-swallowers
 URL: https://scottaaronson.blog/?m=200805
+DATE: Tuesday, May 13th, 2008
 CONTENT:
 Question for the day: what do libertarianism and the Many-Worlds Interpretation of quantum mechanics have in common?  Interest in the two worldviews seems to be positively correlated: think of quantum computing pioneer David Deutsch, or several prominent posters over at Overcoming Bias, or … oh, alright, my sample size is admittedly pretty small.
 
@@ -148,6 +153,7 @@ So who’s right: the bullet-swallowing libertarian Many-Worlders, or the bullet
 
 TITLE: Great Ideas in Theoretical Computer Science Lectures 12-15
 URL: https://scottaaronson.blog/?m=200805
+DATE: Friday, May 2nd, 2008
 CONTENT:
 Yeah, yeah, I know.  Combination of the end of the semester and family matters.  But I’m back with four more GITCS lectures:
 

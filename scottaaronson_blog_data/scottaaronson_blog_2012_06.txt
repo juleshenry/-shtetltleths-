@@ -1,5 +1,6 @@
 TITLE: Two announcements
 URL: https://scottaaronson.blog/?m=201206
+DATE: Monday, June 18th, 2012
 CONTENT:
 Tomorrow, at 9AM EST (or an hour before teatime in Britain), I’ll be giving an online talk on Quantum Money from Hidden Subspaces (see here for PowerPoint slides) at the Q+ hangout on Google+.  To watch the talk, go here, then click the “Play” button on the video that will be there tomorrow.  Abstract:
 
@@ -13,6 +14,7 @@ In unrelated news, Alistair Sinclair asked me to announce that UC Berkeley’s n
 
 TITLE: Mihai Pătraşcu (1982-2012)
 URL: https://scottaaronson.blog/?m=201206
+DATE: Thursday, June 7th, 2012
 CONTENT:
 Yesterday brought the tragic news that Mihai Pătraşcu—who revolutionized the field of data structures since he burst onto the scene a decade ago—has passed away at the age of 29, after a year-and-a-half-long battle with brain cancer.  Mihai was not only an outstanding researcher but a fun-loving, larger-than-life personality in the computer science theory community.  For more information, see Lance and Bill’s or Michael Mitzenmacher’s blogs.
 

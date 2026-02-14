@@ -1,5 +1,6 @@
 TITLE: Firewalls
 URL: https://scottaaronson.blog/?m=201308
+DATE: Tuesday, August 27th, 2013
 CONTENT:
 Updates (Aug. 29): John Preskill now has a very nice post summarizing the different views on offer at the firewall workshop, thereby alleviating my guilt for giving you only the mess below.  Thanks, John!
 
@@ -37,6 +38,7 @@ Unrelated, but also of interest: check out an excellent article in Quanta by Eri
 
 TITLE: Twitl-Optimized
 URL: https://scottaaronson.blog/?m=201308
+DATE: Tuesday, August 13th, 2013
 CONTENT:
 Today I experiment with “tweeting”: writing <=140-character announcements, but posting them to my blog.  Like sending lolcat videos by mail
 
@@ -62,6 +64,7 @@ While working on BosonSampling yesterday, (1/6)pi^2 and Euler-Mascheroni constan
 
 TITLE: The SuperScott and Morgan Freeman FAQ
 URL: https://scottaaronson.blog/?m=201308
+DATE: Monday, August 5th, 2013
 CONTENT:
 
 
@@ -132,6 +135,7 @@ Some of it is silly, no two ways about it!  On the other hand, I feel satisfie
 
 TITLE: Three announcements
 URL: https://scottaaronson.blog/?m=201308
+DATE: Saturday, August 3rd, 2013
 CONTENT:
 1. As many of you probably know, this week my EECS colleague Hal Abelson released his 180-page report on MIT’s involvement in the Aaron Swartz case.  I read the whole thing, and I recommend it if you have any interest in the case.  My take is that, far from being the “whitewash” that some people described it as, the report (if you delve into it) clearly and eloquently explains how MIT failed to live up to its own standards, even as it formally followed the rules.  The central insight here is that the world expects MIT to behave, not like some other organization would behave if someone hid a laptop in its supply closet to download the whole JSTOR database, insulted and then tried to flee from its security officers when questioned, etc. etc., but rather with perspective and imagination—worrying less about the security of its facilities than about the future of the world.  People expect MIT, of all places, to realize that the sorts of people who pull these sorts of shenanigans in their twenties sometimes become Steve Jobs or Richard Feynman (or for that matter, MIT professor Robert Morris) later in their lives, and therefore to speak up in their defense.  In retrospect, I wish Swartz’s arrest had sparked a debate about the wider issues among MIT’s students, faculty, and staff.  I think it’s likely that such a debate would have led to pressure on the administration to issue a statement in Swartz’s support.  As it was (and as I pointed out in this interview), most people at MIT, even if they’d read about the arrest, weren’t even aware of the issue’s continued existence, let alone of MIT’s continued role in it, until after Swartz had already committed suicide.  For the MIT community—which includes some prominent supporters of open access—to have played such a passive role is one of the many tragedies that’s obvious with hindsight.
 

@@ -1,5 +1,6 @@
 TITLE: Introducing some British people to P vs. NP
 URL: https://scottaaronson.blog/?m=201507
+DATE: Wednesday, July 22nd, 2015
 CONTENT:
 Here’s a 5-minute interview that I did with The Naked Scientists (a radio show syndicated by the BBC, and no, I’m not sure why it’s called that), explaining the P vs. NP problem.  For readers of this blog, there won’t be anything new here, but, well … you might enjoy the rest of the hour-long programme [sic], which also includes segments about a few other Clay Millennium problems (the Riemann Hypothesis, Navier-Stokes, and Poincaré), as well as a segment about fat fish that live in caves and gorge themselves on food on the rare occasions when it becomes available, and which turn out to share a gene variant with humans with similar tendencies.
 

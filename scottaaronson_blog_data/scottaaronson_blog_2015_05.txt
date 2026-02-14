@@ -1,5 +1,6 @@
 TITLE: NSA in P/poly: The Power of Precomputation
 URL: https://scottaaronson.blog/?m=201505
+DATE: Friday, May 22nd, 2015
 CONTENT:
 Even after the Snowden revelations, there remained at least one big mystery about what the NSA was doing and how.  The NSA’s classified 2013 budget request mentioned, as a priority item, “groundbreaking cryptanalytic capabilities to defeat adversarial cryptography and exploit internet traffic.”  There was a requested increase, of several hundred million dollars, for “cryptanalytic IT services” and “cryptanalysis and exploitation services program C” (whatever that was).  And a classified presentation slide showed encrypted data being passed to a high-performance computing system called “TURMOIL,” and decrypts coming out.  But whatever was going on inside TURMOIL seemed to be secret even within NSA; someone at Snowden’s level wouldn’t have had access to the details.
 
@@ -51,6 +52,7 @@ Perhaps the right lesson to draw is how silly such debates really are.  In the 
 
 TITLE: Five announcements
 URL: https://scottaaronson.blog/?m=201505
+DATE: Saturday, May 16th, 2015
 CONTENT:
 1. Sanjeev Arora sent me a heads-up that there’s a discussion about the future of the STOC conference  at the Windows on Theory blog—in particular, about the idea of turning STOC into a longer “CS theory festival.”  If you have opinions about this, don’t miss the chance to make your voice heard.
 

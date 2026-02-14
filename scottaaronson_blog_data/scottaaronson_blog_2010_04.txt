@@ -1,5 +1,6 @@
 TITLE: Schrödinger’s cash
 URL: https://scottaaronson.blog/?m=201004
+DATE: Thursday, April 15th, 2010
 CONTENT:
 There’s an article in this week’s New Scientist by Justin Mullins about unforgeable quantum money.  By the standards of “quantum mechanics journalism,” the article is actually really good; I’d encourage you to read it if you want to know what’s going on in this area.  In particular, Mullins correctly emphasizes that the point of studying quantum money is to understand quantum mechanics better, not to mint practical QCash anytime soon (to do the latter, you’d first have to solve the minor problem of the money decohering within microseconds…).
 
@@ -21,6 +22,7 @@ Considered as research topics in complexity theory, uncloneable quantum money, c
 
 TITLE: The Future of Computer Science, and Why Every Other Major Sucks By Comparison
 URL: https://scottaaronson.blog/?m=201004
+DATE: Monday, April 12th, 2010
 CONTENT:
 Does this post finally herald my return to regular blogging after a months-long absence?
 

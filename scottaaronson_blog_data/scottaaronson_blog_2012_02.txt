@@ -1,5 +1,6 @@
 TITLE: Tell President Obama to support the Federal Research Public Access Act
 URL: https://scottaaronson.blog/?m=201202
+DATE: Tuesday, February 28th, 2012
 CONTENT:
 If you’re tired of blog posts about open science, sorry dude—but it feels great to be part a group of blogging nerds who, for once, are actually having a nonzero (and positive, I think!) impact on the political process.  Yesterday, Elsevier, which had been the biggest supporter of the noxious Research Works Act, announced, under pressure from the “Cost of Knowledge” movement, that it was dropping its support for RWA.  Only hours later, Elsevier’s paid cheerleaders in Congress, Darrell Issa (R-CA) and Carolyn Maloney (D-NY), announced that they were shelving the RWA for now.  See this hilarious post by physicist John Baez, which translates Issa and Maloney’s statement on why they’re letting the RWA die into ordinary English sentence-by-sentence.
 
@@ -11,6 +12,7 @@ And if you’re not a US citizen: that’s cool too!  Support open-access initi
 
 TITLE: My visit to D-Wave: Beyond the roast-beef sandwich
 URL: https://scottaaronson.blog/?m=201202
+DATE: Tuesday, February 21st, 2012
 CONTENT:
 Last week I was in Vancouver, to give talks at the University of British Columbia and at the American Association for the Advancement of Science annual meeting.  As part of that visit, on Friday afternoon, John Preskill, John Martinis, Michael Freedman and I accepted a gracious invitation to tour the headquarters of D-Wave Systems in Burnaby (a suburb of Vancouver).  We started out in a conference room, where they served us cookies and sodas.  Being the mature person that I am, the possibility of the cookies being poisoned at no point crossed my mind.
 
@@ -40,6 +42,7 @@ Finally, given the skeptical-yet-positive tone of this post, some people will wo
 
 TITLE: Safari photos from Kenya
 URL: https://scottaaronson.blog/?m=201202
+DATE: Sunday, February 12th, 2012
 CONTENT:
 (Credit for most of the photos: Dana)
 
@@ -51,6 +54,7 @@ But then I never got around to writing that essay.  So enjoy the photos, and as
 
 TITLE: The battle against Elsevier gains momentum
 URL: https://scottaaronson.blog/?m=201202
+DATE: Wednesday, February 8th, 2012
 CONTENT:
 Check out this statement on “The Cost of Knowledge” released today, which (besides your humble blogger) has been signed by Ingrid Daubechies (President of the International Mathematical Union), Timothy Gowers, Terence Tao, László Lovász, and 29 others.  The statement carefully explains the rationale for the current Elsevier boycott, and answers common questions like “why single out Elsevier?” and “what comes next?”
 
@@ -64,6 +68,7 @@ Update (Feb. 9): There’s now a great editorial by Gareth Cook in the Boston Gl
 
 TITLE: Whether or not God plays dice, I do
 URL: https://scottaaronson.blog/?m=201202
+DATE: Friday, February 3rd, 2012
 CONTENT:
 Another Update (Feb. 7): I have a new piece up at IEEE Spectrum, explaining why I made this bet.  Thanks to Rachel Courtland for soliciting the piece and for her suggestions improving it.
 

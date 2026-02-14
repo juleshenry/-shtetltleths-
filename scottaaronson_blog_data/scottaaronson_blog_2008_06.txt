@@ -1,5 +1,6 @@
 TITLE: Arithmetic natural proofs theory is sought
 URL: https://scottaaronson.blog/?m=200806
+DATE: Monday, June 30th, 2008
 CONTENT:
 This post will be longer and more technical than most — but what can I say?  Sometimes you need to get something technical off your chest.  The topic is something my student, Andy Drucker, and I (along with several interested others) have been thinking about on and off for months, and if we’re not going to get a paper out of it, at least we’ll have this blog post.
 
@@ -67,6 +68,7 @@ But please be quick about it!  If we don’t hurry up and find a formal barrier 
 
 TITLE: Quantum Computing Since Democritus Lecture 15: Learning
 URL: https://scottaaronson.blog/?m=200806
+DATE: Thursday, June 26th, 2008
 CONTENT:
 Lektur iz heer.
 
@@ -80,6 +82,7 @@ Ah yes, complexity.  This week I was at the Conference on Computational Complex
 
 TITLE: Better safe than sorry
 URL: https://scottaaronson.blog/?m=200806
+DATE: Saturday, June 21st, 2008
 CONTENT:
 After reading these blog posts dealing with the possibility of the Large Hadron Collider creating a black hole of strangelet that would destroy the earth — as well as this report from the LHC Safety Assessment Group, and these websites advocating legal action against the LHC — I realized that I can remain silent about this important issue no longer.
 
@@ -95,6 +98,7 @@ After all, the fate of the planet might conceivably depend on it.
 
 TITLE: Quantum Computing Since Democritus Lecture 14: Skepticism of Quantum Computing
 URL: https://scottaaronson.blog/?m=200806
+DATE: Thursday, June 12th, 2008
 CONTENT:
 I just came from Brookhaven National Lab, where I gave my standard colloquium talk on the limits of quantum computers, and got driven around the RHIC accelerator ring by physicist Rob Pisarski.  I knew the lab was big; what I hadn’t quite appreciated before getting there is that it’s an entire town, with its own police department, restaurants, etc.  In many ways it looks like lots of small towns across America, except that this one’s primary business is smashing gold ions into each other at relativistic speeds and measuring properties of the resulting quark-gluon plasmas.
 
@@ -104,6 +108,7 @@ When I talk to physicists like the ones at BNL, they often find it faintly ridic
 
 TITLE: Quantum Computing Since Democritus Lecture 13: How Big Are Quantum States?
 URL: https://scottaaronson.blog/?m=200806
+DATE: Sunday, June 8th, 2008
 CONTENT:
 A year and a half after the actual course, the remaining Democritus lecture notes are finally being transcribed and posted — thanks to my new summer student, Chris Granade.  In Lecture 13, you can read about why QMA, QCMA, and BQP/qpoly are not merely complexity classes but battlefields, where competing visions of what quantum states really are face each other off in conflicts that we as theorists intentionally provoked.  (Work with me here.)
 

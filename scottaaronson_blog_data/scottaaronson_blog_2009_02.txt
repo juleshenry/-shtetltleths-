@@ -1,5 +1,6 @@
 TITLE: Popular complexity
 URL: https://scottaaronson.blog/?m=200902
+DATE: Monday, February 9th, 2009
 CONTENT:
 A little-known discipline of science called computational intractability studies the boundaries of our understanding – not questions of the philosophical realm (Is there a god? An afterlife?) but of the everyday computational realm.
 
@@ -13,6 +14,7 @@ Speaking of Public Understanding of Science: as you may have heard, much of the 
 
 TITLE: Math: the book
 URL: https://scottaaronson.blog/?m=200902
+DATE: Wednesday, February 4th, 2009
 CONTENT:
 Today I continue a three-entry streak of praising things that are good.  While visiting IAS to give a talk, I noticed on several of my friends’ desks heavily-bookmarked copies of the Princeton Companion to Mathematics: a 1000-page volume that’s sort of an encyclopedia of math, history of math, biographical dictionary of math, beginners’ guide to math, experts’ desk reference of math, philosophical treatise on math, cultural account of math, and defense of math rolled into one, written by about 130 topic specialists and edited by the Fields medalist, blogger, and master expositor Timothy Gowers.
 

@@ -1,5 +1,6 @@
 TITLE: How can we fight online shaming campaigns?
 URL: https://scottaaronson.blog/?m=201502
+DATE: Wednesday, February 25th, 2015
 CONTENT:
 Longtime friend and colleague Boaz Barak sent me a fascinating New York Times Magazine article that profiles people who lost their jobs or otherwise had their lives ruined, because of a single remark that then got amplified a trillionfold in importance by social media.  (The author, Jon Ronson, also has a forthcoming book on the topic.)  The article opens with Justine Sacco: a woman who, about to board a flight to Cape Town, tweeted “Going to Africa.  Hope I don’t get AIDS.  Just kidding.  I’m white!”
 
@@ -85,6 +86,7 @@ Update (Feb. 28): In the middle of this affair, perhaps the one thing that depre
 
 TITLE: “The Man Who Tried to Redeem the World with Logic”
 URL: https://scottaaronson.blog/?m=201502
+DATE: Wednesday, February 18th, 2015
 CONTENT:
 No, I’m not talking about me!
 
@@ -98,6 +100,7 @@ Update (Feb. 24): In loosely-related news, check out a riveting profile of Geo
 
 TITLE: Memrefuting
 URL: https://scottaaronson.blog/?m=201502
+DATE: Wednesday, February 11th, 2015
 CONTENT:
 (in which I bring this blog back to the “safe, uncontroversial” territory of arguing with people who think they can solve NP-complete problems in polynomial time)
 
@@ -133,6 +136,7 @@ It’s important to realize that the idea of solving NP-complete problems in pol
 
 TITLE: Quantum Machine Learning Algorithms: Read the Fine Print
 URL: https://scottaaronson.blog/?m=201502
+DATE: Monday, February 2nd, 2015
 CONTENT:
 So, I’ve written a 4-page essay of that title, which examines the recent spate of quantum algorithms for clustering, classification, support vector machines, and other “Big Data” problems that grew out of a 2008 breakthrough on solving linear systems by Harrow, Hassidim, and Lloyd, as well as the challenges in applying these algorithms to get genuine exponential speedups over the best classical algorithms.  An edited version of the essay will be published as a Commentary in Nature Physics.  Thanks so much to Iulia Georgescu at Nature for suggesting that I write this.
 

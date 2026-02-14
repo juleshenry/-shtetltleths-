@@ -1,5 +1,6 @@
 TITLE: Six announcements
 URL: https://scottaaronson.blog/?m=201509
+DATE: Monday, September 21st, 2015
 CONTENT:
 
 
@@ -7,6 +8,7 @@ CONTENT:
 
 TITLE: Bell inequality violation finally done right
 URL: https://scottaaronson.blog/?m=201509
+DATE: Tuesday, September 15th, 2015
 CONTENT:
 A few weeks ago, Hensen et al., of the Delft University of Technology and Barcelona, Spain, put out a paper reporting the first experiment that violates the Bell inequality in a way that closes off the two main loopholes simultaneously: the locality and detection loopholes.  Well, at least with ~96% confidence.  This is big news, not only because of the result itself, but because of the advances in experimental technique needed to achieve it.  Last Friday, two renowned experimentalists—Chris Monroe of U. of Maryland and Jungsang Kim of Duke—visited MIT, and in addition to talking about their own exciting ion-trap work, they did a huge amount to help me understand the new Bell test experiment.  So OK, let me try to explain this.
 
@@ -64,6 +66,7 @@ At a more fundamental level, will this experiment finally convince everyone tha
 
 TITLE: Ask Me Anything: Diversity Edition
 URL: https://scottaaronson.blog/?m=201509
+DATE: Saturday, September 5th, 2015
 CONTENT:
 With the fall semester imminent, and by popular request, I figured I’d do another Ask Me Anything (see here for the previous editions).  This one has a special focus: I’m looking for questions from readers who consider themselves members of groups that have historically been underrepresented in the Shtetl-Optimized comments section.  Besides the “obvious”—e.g., women and underrepresented ethnic groups—other examples might include children, traditionally religious people, jocks, liberal-arts majors… (but any group that includes John Sidles is probably not an example).  If I left out your group, please go ahead and bring it to my and your fellow readers’ attention!
 

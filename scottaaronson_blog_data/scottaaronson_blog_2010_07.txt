@@ -1,5 +1,6 @@
 TITLE: Going into deep freeze
 URL: https://scottaaronson.blog/?m=201007
+DATE: Saturday, July 31st, 2010
 CONTENT:
 I’m leaving tomorrow for a grand tour of Banff, then Israel, then Greece, then Princeton.  Blogging may be even lighter than usual.
 
@@ -11,6 +12,7 @@ While I’m traveling, here’s a fun Singularity-related topic to discuss in th
 
 TITLE: My diavlog with Anthony Aguirre
 URL: https://scottaaronson.blog/?m=201007
+DATE: Saturday, July 24th, 2010
 CONTENT:
 Bloggingheads has just posted an hour-long diavlog between the cosmologist Anthony Aguirre and your humble blogger.  Topics discussed include: the anthropic principle; how to do quantum mechanics if the universe is so large that there could be multiple copies of you; Nick Bostrom’s “God’s Coin Toss” thought experiment; the cosmological constant; the total amount of computation in the observable universe; whether it’s reasonable to restrict cosmology to our observable region and ignore everything beyond that; whether the universe “is” a computer; whether, when we ask the preceding question, we’re no better than those Renaissance folks who asked whether the universe “is” a clockwork mechanism; and other questions that neither Anthony, myself, nor anyone else is really qualified to address.
 
@@ -20,6 +22,7 @@ There was one point that sort of implicit in the discussion, but I noticed after
 
 TITLE: My philomath project: Sensitivity versus block-sensitivity
 URL: https://scottaaronson.blog/?m=201007
+DATE: Tuesday, July 13th, 2010
 CONTENT:
 If you like math, and you don’t yet have a Math Overflow account, stop reading this post now (not right now, but by the end of the sentence) and set one up, before returning here to finish reading the post.  Math Overflow is the real deal: something that I’ve missed, dreamed about, and told my friends someone ought to set up for the last fifteen years, and that now finally actually exists.  (It was founded by Berkeley grad students and postdocs Anton Geraschenko, David Brown, and Scott Morrison.)  If you have a research-related math problem you can’t solve, you can post it there and there’s a nontrivial chance someone will solve it (or at least tell you something new), possibly within eleven minutes.  If you’re an ambitious student looking for a problem to solve, you can go there and find one (or a hundred).
 
@@ -53,6 +56,7 @@ So, here are the philomath project rules: do you have an idea about sensitivity 
 
 TITLE: The Generalized Linial-Nisan Conjecture is false
 URL: https://scottaaronson.blog/?m=201007
+DATE: Sunday, July 11th, 2010
 CONTENT:
 In a post a year and a half ago, I offered a prize of $200 for proving something called the Generalized Linial-Nisan Conjecture, which basically said that almost k-wise independent distributions fool AC0 circuits.  (Go over to that post if you want to know what that means and why I cared about it.)
 
@@ -72,6 +76,7 @@ To dispel any confusion, the $200 prize still stands for the original problem th
 
 TITLE: Doing my oracle duty
 URL: https://scottaaronson.blog/?m=201007
+DATE: Monday, July 5th, 2010
 CONTENT:
 I promised myself I’d stop blogging about controversial issues whose mere mention could instigate a flamewar and permanently get me in trouble.  Well, today I’m going to violate that rule, by blogging about the difference relativized and unrelativized complexity classes.
 

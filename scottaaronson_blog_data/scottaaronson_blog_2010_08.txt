@@ -1,5 +1,6 @@
 TITLE: Teaching your students not to need a teacher
 URL: https://scottaaronson.blog/?m=201008
+DATE: Friday, August 27th, 2010
 CONTENT:
 Yesterday, after coming across my teaching statement, a reader named Arber Borici sent me the following questions:
 
@@ -36,6 +37,7 @@ Scott
 
 TITLE: Bringing a sacrificial goat and n-bit string to the oracle
 URL: https://scottaaronson.blog/?m=201008
+DATE: Sunday, August 22nd, 2010
 CONTENT:
 I’ve been enjoying Athens and the coast of Greece for the past four days.  I was going to take a day trip to Delphi, for the sole purpose of blogging about having “queried the Oracle” there, but I ultimately decided to confine this trip to the unrelativized regions of Greece.
 
@@ -53,6 +55,7 @@ However, recently a consensus seems to have formed, among the community of disgr
 
 TITLE: And now a word from our sponsors
 URL: https://scottaaronson.blog/?m=201008
+DATE: Sunday, August 15th, 2010
 CONTENT:
 Today I interrupt your regularly-scheduled P vs. NP programming to bring you a special message from Dmitry Maslov, the program director at NSF Computing and Communication Foundations (CCF) who handles quantum information science.  Besides paying for my CAREER grant (and thus, arguably, in an indirect sense, for this blog), Dmitry also happens to be one of my favoritest people anywhere: a stand-up guy who’s doing an incredible amount to help quantum computing research in the United States.  So, given that what he wants is for us to send in more proposals, so that he can help us even more, I found it impossible to say no to his request for some advertising space on Shtetl-Optimized.  Announcement follows.
 
@@ -71,6 +74,7 @@ Additional information may be found here: http://www.nsf.gov/funding/pgm_summ.js
 
 TITLE: P vs. NP for Dummies
 URL: https://scottaaronson.blog/?m=201008
+DATE: Sunday, August 15th, 2010
 CONTENT:
 A reader named Darren commented on my last post:
 
@@ -96,6 +100,7 @@ Feel free to use the comments section to suggest other resources, or to ask and 
 
 TITLE: Eight Signs A Claimed P≠NP Proof Is Wrong
 URL: https://scottaaronson.blog/?m=201008
+DATE: Friday, August 13th, 2010
 CONTENT:
 As of this writing, Vinay Deolalikar still hasn’t retracted his P≠NP claim, but a clear consensus has emerged that the proof, as it stands, is fatally flawed.  The first reason is that we’re not going to separate k-SAT from much easier problems purely by looking at the structure of the solution space: see for example this comment by Ryan Williams.  The second reason is that, independently of the solution-space issue, Neil Immerman has identified critical flaws in the finite model theory part of the paper.
 
@@ -125,6 +130,7 @@ Update (8/14): Somehow I completely forgot, over the course of the last three po
 
 TITLE: The ethics of scientific betting
 URL: https://scottaaronson.blog/?m=201008
+DATE: Wednesday, August 11th, 2010
 CONTENT:
 Throughout the day, Dick Lipton’s blog has hosted a phenomenal discussion of Vinay Deolalikar’s attempted proof of P≠NP (of which a new draft appeared as this blog entry was going to press).  As of this writing, the discussion seems to have led to the following two conclusions:
 
@@ -166,6 +172,7 @@ Update (8/12): I was hoping for some enlightening discussion about the ethics of
 
 TITLE: Putting my money where my mouth isn’t
 URL: https://scottaaronson.blog/?m=201008
+DATE: Monday, August 9th, 2010
 CONTENT:
 A few days ago, Vinay Deolalikar of HP Labs started circulating a claimed proof of P≠NP.  As anyone could predict, the alleged proof has already been Slashdotted (see also Lipton’s blog and Bacon’s blog), and my own inbox has been filling up faster than the Gulf of Mexico.
 

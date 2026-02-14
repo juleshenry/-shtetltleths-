@@ -1,5 +1,6 @@
 TITLE: Quantum Complexity Theory student project showcase!
 URL: https://scottaaronson.blog/?m=201101
+DATE: Monday, January 17th, 2011
 CONTENT:
 This fall, for the second time, I taught my 6.845 Quantum Complexity Theory graduate course (see here for the lecture notes from the first iteration).  Thanks so much to the students for making the course a success—I hope they enjoyed it at least half as much as I did!
 
@@ -27,6 +28,7 @@ Raluca Ada Popa, Witness-Indistinguishability Against Quantum Adversaries.  Bui
 
 TITLE: Burnt Carmel
 URL: https://scottaaronson.blog/?m=201101
+DATE: Thursday, January 6th, 2011
 CONTENT:
 Three (pseudo-)random updates:
 

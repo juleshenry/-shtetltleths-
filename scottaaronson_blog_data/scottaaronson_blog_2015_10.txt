@@ -1,5 +1,6 @@
 TITLE: A breakthrough on QMA(2)?
 URL: https://scottaaronson.blog/?m=201510
+DATE: Friday, October 30th, 2015
 CONTENT:
 Last night, Martin Schwarz posted a preprint to the arXiv that claims to show the new complexity class containment QMA(2) ⊆ EXP.  (See also his brief blog post about this result.)  Here QMA(2) means Quantum Merlin-Arthur with two Merlins—i.e., the set of languages for which a “yes” answer can be witnessed by two unentangled quantum states, |ψ〉⊗|φ〉, on polynomially many qubits each, which are checked by a polynomial-time quantum algorithm—while EXP means deterministic exponential time.  Previously, the best upper bound we had was the trivial QMA(2) ⊆ NEXP (Nondeterministic Exponential Time), which comes from guessing exponential-size classical descriptions of the two quantum proofs.
 
@@ -27,6 +28,7 @@ Update (Nov. 10): I thought I should let people know that a serious concern has 
 
 TITLE: Ordinary Words Will Do
 URL: https://scottaaronson.blog/?m=201510
+DATE: Sunday, October 18th, 2015
 CONTENT:
 Izabella Laba, a noted mathematician at the University of British Columbia, recently posted some tweets that used me as a bad, cautionary example for how “STEM faculty should be less contemptuous of social sciences.”  Here was the offending comment of mine, from the epic Walter Lewin thread last fall:
 

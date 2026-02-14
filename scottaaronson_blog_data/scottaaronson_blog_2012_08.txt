@@ -1,5 +1,6 @@
 TITLE: The Toaster-Enhanced Turing Machine
 URL: https://scottaaronson.blog/?m=201208
+DATE: Thursday, August 30th, 2012
 CONTENT:
 Over at Theoretical Computer Science StackExchange, an entertaining debate has erupted about the meaning and validity of the Church-Turing Thesis.  The prompt for this debate was a question asking for opinions about Peter Wegner and Dina Goldin’s repetitive diatribes claiming to refute “the myth of the Church-Turing Thesis”—on the grounds that, you see, Turing machines can only handle computations with static inputs and outputs, not interactivity, or programs like operating systems that run continuously.  For a demolition of this simple misunderstanding, see Lance Fortnow’s CACM article.  Anyway, I wrote my own parodic response to the question, which generated so many comments that the moderators started shooing people away.  So I decided to repost my answer on my blog.  That way, after you’re done upvoting my answer over at CS Theory StackExchange :-), you can come back here and continue the discussion in the comments section.
 
@@ -19,6 +20,7 @@ Update (Sept. 6): Check out this awesome comment by Lou Scheffer, describing his
 
 TITLE: Why Many-Worlds is not like Copernicanism
 URL: https://scottaaronson.blog/?m=201208
+DATE: Saturday, August 18th, 2012
 CONTENT:
 [Update (8/26): Inspired by the great responses to my last Physics StackExchange question, I just asked a new one—also about the possibilities for gravitational decoherence, but now focused on Gambini et al.’s “Montevideo interpretation” of quantum mechanics.
 
@@ -62,6 +64,7 @@ I can’t think of any better summary of the empirical attitude than the famous 
 
 TITLE: The right to bear ICBMs
 URL: https://scottaaronson.blog/?m=201208
+DATE: Tuesday, August 7th, 2012
 CONTENT:
 (Note for non-US readers: This will be another one of my America-centric posts.  But don’t worry, it’s probably one you’ll agree with.)
 
@@ -81,6 +84,7 @@ But crucially, I claim that’s a losing argument for the gun-rights crowd.  Fo
 
 TITLE: Ten reasons why the Olympics suck
 URL: https://scottaaronson.blog/?m=201208
+DATE: Sunday, August 5th, 2012
 CONTENT:
 1. The 1936 Berlin Olympics, in which American participation was ensured by the racist, sexist, antisemitic, Nazi-sympathizing future decades-long IOC president Avery Brundage (also, the IOC’s subsequent failure to accept responsibility for its role in legimitizing Hitler).
 

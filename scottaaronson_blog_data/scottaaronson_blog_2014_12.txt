@@ -1,5 +1,6 @@
 TITLE: What I believe
 URL: https://scottaaronson.blog/?m=201412
+DATE: Tuesday, December 30th, 2014
 CONTENT:
 Two weeks ago, prompted by a commenter named Amy, I wrote by far the most personal thing I’ve ever made public—what’s now being referred to in some places as just “comment 171.”  My thinking was: I’m giving up a privacy that I won’t regain for as long as I live, opening myself to ridicule, doing the blog equivalent of a queen-and-two-rook sacrifice.  But at least—and this is what matters—no one will ever again be able to question the depth of my feminist ideals.  Not after they understand how I clung to those ideals through a decade when I wanted to die.  And any teenage male nerds who read this blog, and who find themselves in a similar hole, will know that they too can get out without giving up on feminism. Surely that’s a message any decent person could get behind?
 
@@ -69,6 +70,7 @@ More generally, I’ve been thrilled by the almost-unanimously positive reaction
 
 TITLE: Quantum Complexity Theory Student Project Showcase 3
 URL: https://scottaaronson.blog/?m=201412
+DATE: Friday, December 26th, 2014
 CONTENT:
 Merry Christmas (belatedly)!  This year Quanta Claus has brought us eight fascinating final project reports from students in my 6.845 Quantum Complexity Theory class, covering everything from interactive proofs to query and communication complexity to quantum algorithms to quantum gates (and one project even includes a web-based demo you can try!).  Continuing in the tradition of the two previous showcases, I’m sharing the reports here; some of these works might also be posted to the arXiv and/or submitted to journals.  Thanks so much to the students who volunteered to participate in the showcase, and to all the students for making this such a great class.
 
@@ -76,6 +78,7 @@ Merry Christmas (belatedly)!  This year Quanta Claus has brought us eight fasc
 
 TITLE: The Turing movie
 URL: https://scottaaronson.blog/?m=201412
+DATE: Tuesday, December 16th, 2014
 CONTENT:
 Last week I finally saw The Imitation Game, the movie with Benedict Cumberbatch as Alan Turing.
 
@@ -93,6 +96,7 @@ For more, see an excellent piece in Slate, How Accurate Is The Imitation Game?. 
 
 TITLE: Walter Lewin
 URL: https://scottaaronson.blog/?m=201412
+DATE: Wednesday, December 10th, 2014
 CONTENT:
 Yesterday I heard the sad news that Prof. Walter Lewin, age 78—perhaps the most celebrated physics teacher in MIT’s history—has been stripped of his emeritus status and barred from campus, and all of his physics lectures removed from OpenCourseWare, because an internal investigation found that he had been sexually harassing students online.  I don’t know anything about what happened beyond the terse public announcements, but those who do know tell me that the charges were extremely serious, and that “this wasn’t a borderline case.”
 

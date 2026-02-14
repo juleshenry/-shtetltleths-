@@ -1,5 +1,6 @@
 TITLE: ITCS’2012 in Cambridge, MA
 URL: https://scottaaronson.blog/?m=201111
+DATE: Tuesday, November 29th, 2011
 CONTENT:
 Since everything I write now seems to provide an occasion for bitter controversy, I’ll be curious to learn whose sensibilities I inadvertently offended by posting the following announcement for next year’s ITCS conference. -SA
 
@@ -43,6 +44,7 @@ Shafi Goldwasser, Silvio Micali, and Yael Tauman Kalai
 
 TITLE: 2.373
 URL: https://scottaaronson.blog/?m=201111
+DATE: Monday, November 28th, 2011
 CONTENT:
 For twenty years, the fastest known algorithm to multiply two n-by-n matrices, due to Coppersmith and Winograd, took a leisurely O(n2.376) steps.   Last year, though, in his PhD thesis, Andrew Stothers gave an improvement to O(n2.374) steps.  And today,  Virginia Vassilevska Williams of Berkeley and Stanford, released a paper that gives a general methodology for analyzing Coppersmith-Winograd-type algorithms, and that improves the matrix-multiplication time to a lightning-fast O(n2.373) steps.  (Virgi’s work was independent of Stothers’, though she credits him and applies an idea of his to simplify her proof.)  Full disclosure: I actually knew a month ago that this was coming—I had a hell of a time keeping the secret.  I’d recommend that you get started memorizing “ω<2.373,” but as Russell Impagliazzo points out in the comments, the exponent might get lowered again in short order.  Huge congratulations to Virgi and to Andrew for this breakthrough!
 
@@ -62,6 +64,7 @@ Another Update: On the third hand, if you’re one of the commenters whose beef 
 
 TITLE: The quantum state cannot be interpreted as something other than a quantum state
 URL: https://scottaaronson.blog/?m=201111
+DATE: Saturday, November 19th, 2011
 CONTENT:
 Lots of people asked me to comment on a much-discussed new preprint by Matthew Pusey, Jonathan Barrett, and Terry Rudolph (henceforth PBR), “The quantum state cannot be interpreted statistically”.  (See here for an effusive Nature News article, here for the predictable Slashdot confusion-fest, here for a related Cosmic Variance guest post by David Wallace, and here for a spiteful rant by Lubos Motl that hilariously misunderstands the new result as “anti-quantum-mechanics.”)
 
@@ -109,6 +112,7 @@ The above statement is certainly true, but it seems to me that it was already de
 
 TITLE: Simons Postdoctoral Fellowship Announcement
 URL: https://scottaaronson.blog/?m=201111
+DATE: Wednesday, November 16th, 2011
 CONTENT:
 The Theory of Computation (TOC) group at the Computer Science and Artificial Intelligence Laboratory (CSAIL) at MIT is seeking candidates for a post-doctoral position in the general area of the theory of computation. Applicants in all areas of theory are encouraged to apply, including (but not exclusive to) algorithms, complexity theory, combinatorial optimization, cryptography, distributed computing, game theory and computation, geometry, parallel computing, and quantum computing. This fellowship is made possible by a generous gift from the Simons Foundation.
 
@@ -129,6 +133,7 @@ Cambridge, MA 02139, USA.
 
 TITLE: The pedophile upper bound
 URL: https://scottaaronson.blog/?m=201111
+DATE: Monday, November 14th, 2011
 CONTENT:
 Lance Fortnow now has a post up about how wonderful Graham Spanier and Joe Paterno were, and how sorry he is to see them go.
 

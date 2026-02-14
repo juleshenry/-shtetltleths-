@@ -1,5 +1,6 @@
 TITLE: Two links
 URL: https://scottaaronson.blog/?m=200812
+DATE: Friday, December 26th, 2008
 CONTENT:
 1. The CRA’s Computing Community Consortium, chaired by national treasure Ed Lasowska of the University of Washington, recently put up a website with fifteen brief essays about “Computing Research Initiatives for the 21st Century.”  These essays will apparently be reviewed by the science policy staff at the Obama transition office.  Dave Bacon and I wrote the essay on quantum computing—or rather, Dave wrote it with his inimitable enthusiasm, and then I tried in vain to moderate it slightly.  (When Dave told me that President-elect Obama needed my help with quantum computing policy, what was I going to say?  “Sorry, I’m doing my laundry this weekend”?)
 
@@ -11,6 +12,7 @@ CONTENT:
 
 TITLE: What can first-order logic do for your self-esteem?
 URL: https://scottaaronson.blog/?m=200812
+DATE: Wednesday, December 24th, 2008
 CONTENT:
 Whereas nerds stand to benefit, even more than normal people, from becoming more assertive, outgoing, optimistic, obamalike in temperament, and all those other good things,
 
@@ -40,6 +42,7 @@ Merry Christmas, everyone!
 
 TITLE: How long could a black hole remain in the center of the earth?
 URL: https://scottaaronson.blog/?m=200812
+DATE: Sunday, December 21st, 2008
 CONTENT:
 The above question came up in conversation with Michael Vassar and some other nerds in New York City yesterday (before I went with relatives to see Gimpel Tam, an extraordinarily dark and depressing musical performed entirely in Yiddish).  Look, I know a massive black hole would swallow the earth extremely quickly, and I also know that a microscopic black hole would quickly evaporate as Hawking radiation.  So suppose we chose one of intermediate size so as to maximize the earth’s survival time—how long a time could we achieve?  (Does the answer depend on the viscosity of the magma or whatever else is in the earth’s core?)  Sure, I could try to calculate an answer myself, but why bother when so many physicists read this blog?  Pencils out!
 
@@ -47,6 +50,7 @@ The above question came up in conversation with Michael Vassar and some other ne
 
 TITLE: Four announcements
 URL: https://scottaaronson.blog/?m=200812
+DATE: Monday, December 15th, 2008
 CONTENT:
 
 
@@ -54,6 +58,7 @@ CONTENT:
 
 TITLE: Time: Different from space
 URL: https://scottaaronson.blog/?m=200812
+DATE: Friday, December 12th, 2008
 CONTENT:
 Over at Cosmic Variance, I learned that FQXi (the organization that paid for me to go to Iceland) sponsored an essay contest on “The Nature of Time”, and the submission deadline was last week.  Because of deep and fundamental properties of time (at least as perceived by human observers), this means that I will not be able to enter the contest.  However, by exploiting the timeless nature of the blogosphere, I can now tell you what I would have written about if I had entered.(Warning: I can’t write this post without actually explaining some standard CS and physics in a semi-coherent fashion.  I promise to return soon to your regularly-scheduled programming of inside jokes and unexplained references.)
 
@@ -131,6 +136,7 @@ By building in a time dimension that behaves differently from the space dimensio
 
 TITLE: Nö nö nö
 URL: https://scottaaronson.blog/?m=200812
+DATE: Wednesday, December 3rd, 2008
 CONTENT:
 At least three people have now asked my opinion of the paper Mathematical Undecidability and Quantum Randomness by Paterek et al., which claims to link quantum mechanics with Gödelian incompleteness.  Abstract follows:
 

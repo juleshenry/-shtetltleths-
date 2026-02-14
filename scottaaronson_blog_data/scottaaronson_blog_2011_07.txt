@@ -1,5 +1,6 @@
 TITLE: Force multiplier
 URL: https://scottaaronson.blog/?m=201107
+DATE: Thursday, July 28th, 2011
 CONTENT:
 We live in perilous times.  Within a few days, the United States might default on its debt, plunging the country into an unprecedented catastrophe.  Meanwhile, the tragedy in Norway (a country I’ll visit for the first time next month) reminds us that the civilized world faces threats from extremists of every ideology.  All this news, of course, occurs against the backdrop of record-breaking heatwaves, the decimation of worldwide fish stocks, the dwindling supply of accessible oil, and the failure of the Large Hadron Collider to find supersymmetry.
 
@@ -17,6 +18,7 @@ Crucially, the “Flickr method” isn’t limited to multiplication.  It works
 
 TITLE: Rosser’s Theorem via Turing machines
 URL: https://scottaaronson.blog/?m=201107
+DATE: Thursday, July 21st, 2011
 CONTENT:
 (Thanks to Amit Sahai for spurring me to write this post!)
 
@@ -96,6 +98,7 @@ So, will Gödel’s Theorem always and forevermore be taught as a centerpiece of
 
 TITLE: The dude invented nondeterminism
 URL: https://scottaaronson.blog/?m=201107
+DATE: Monday, July 18th, 2011
 CONTENT:
 Michael Mitzenmacher asked me to post the following announcement:
 

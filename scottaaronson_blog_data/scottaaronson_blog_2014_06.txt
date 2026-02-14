@@ -1,5 +1,6 @@
 TITLE: A Physically Universal Cellular Automaton
 URL: https://scottaaronson.blog/?m=201406
+DATE: Thursday, June 26th, 2014
 CONTENT:
 It’s been understood for decades that, if you take a simple discrete rule—say, a cellular automaton like Conway’s Game of Life—and iterate it over and over, you can very easily get the capacity for universal computation.  In other words, your cellular automaton becomes able to implement any desired sequence of AND, OR, and NOT gates, store and retrieve bits in a memory, and even (in principle) run Windows or Linux, albeit probably veerrryyy sloowwllyyy, using a complicated contraption of thousands or millions of cells to represent each bit of the desired computation.  If I’m not mistaken, a guy named Wolfram even wrote an entire 1200-page-long book about this phenomenon (see here for my 2002 review).
 
@@ -41,6 +42,7 @@ Luke has now taken a first stab at answering these questions.  Whether his resu
 
 TITLE: Integrated Information Theory: Virgil Griffith opines
 URL: https://scottaaronson.blog/?m=201406
+DATE: Wednesday, June 25th, 2014
 CONTENT:
 Remember the two discussions about Integrated Information Theory that we had a month ago on this blog?  You know, the ones where I argued that IIT fails because “the brain might be an expander, but not every expander is a brain”; where IIT inventor Giulio Tononi wrote a 14-page response biting the bullet with mustard; and where famous philosopher of mind David Chalmers, and leading consciousness researcher (and IIT supporter) Christof Koch, also got involved in the comments section?
 
@@ -58,6 +60,7 @@ Anyway, there’s much more to Virgil’s letters than the above—including ans
 
 TITLE: Eigenmorality
 URL: https://scottaaronson.blog/?m=201406
+DATE: Wednesday, June 18th, 2014
 CONTENT:
 This post is about an idea I had around 1997, when I was 16 years old and a freshman computer-science major at Cornell.  Back then, I was extremely impressed by a research project called CLEVER, which one of my professors, Jon Kleinberg, had led while working at IBM Almaden.  The idea was to use the link structure of the web itself to rank which web pages were most important, and therefore which ones should be returned first in a search query.  Specifically, Kleinberg defined “hubs” as pages that linked to lots of “authorities,” and “authorities” as pages that were linked to by lots of “hubs.”  At first glance, this definition seems hopelessly circular, but Kleinberg observed that one can break the circularity by just treating the World Wide Web as a giant directed graph, and doing some linear algebra on its adjacency matrix.  Equivalently, you can imagine an iterative process where each web page starts out with the same hub/authority “starting credits,” but then in each round, the pages distribute their credits among their neighbors, so that the most popular pages get more credits, which they can then, in turn, distribute to their neighbors by linking to them.
 
@@ -175,6 +178,7 @@ If you’re wondering whether anything in this post was original … well, so fa
 
 TITLE: Randomness Rules in Quantum Mechanics
 URL: https://scottaaronson.blog/?m=201406
+DATE: Monday, June 16th, 2014
 CONTENT:
 So, Part II of my two-part series for American Scientist magazine about how to recognize random numbers is now out.  This part—whose original title was the one above, but was changed to “Quantum Randomness” to fit the allotted space—is all about quantum mechanics and the Bell inequality, and their use in generating “Einstein-certified random numbers.”  I discuss the CHSH game, the Free Will Theorem, and Gerard ‘t Hooft’s “superdeterminism” (just a bit), before explaining the striking recent protocols of Colbeck, Pironio et al., Vazirani and Vidick, Couldron and Yuen, and Miller and Shi, all of which expand a short random seed into additional random bits that are “guaranteed to be random unless Nature resorted to faster-than-light communication to bias them.”  I hope you like it.
 
@@ -186,6 +190,7 @@ In totally unrelated news, President Obama’s commencement speech at UC Irvine,
 
 TITLE: My Conversation with “Eugene Goostman,” the Chatbot that’s All Over the News for Allegedly Passing the Turing Test
 URL: https://scottaaronson.blog/?m=201406
+DATE: Monday, June 9th, 2014
 CONTENT:
 If you haven’t read about it yet, “Eugene Goostman” is a chatbot that’s being heavily promoted by the University of Reading’s Kevin Warwick, for fooling 33% of judges in a recent Turing Test competition into thinking it was human, and thereby supposedly becoming “the first program to pass the Turing Test” as Turing defined it in his 1950 paper.  See for example here, here, here, here.  In reality, while Turing did venture a prediction involving AIs fooling humans 30% of the time by the year 2000, he never set such a numerical milestone as the condition for “passing his test.”  Much more importantly, Turing’s famous example dialogue, involving Mr. Pickwick and Christmas, clearly shows that the kind of conversation Turing had in mind was at a vastly higher level than what any chatbot, including Goostman, has ever been able to achieve.
 
@@ -277,6 +282,7 @@ Update (June 12): If you’re one of the people who think that I “cheated” b
 
 TITLE: CCC’s Declaration of Independence
 URL: https://scottaaronson.blog/?m=201406
+DATE: Friday, June 6th, 2014
 CONTENT:
 Recently, the participants of the Conference on Computational Complexity (CCC)—the latest iteration of which I’ll be speaking at next week in Vancouver—voted to declare their independence from the IEEE, and to become a solo, researcher-organized conference.  See this open letter for the reasons why (basically, IEEE charged a huge overhead, didn’t allow open access to the proceedings, and increased rather than decreased the administrative burden on the organizers).  As a former member of the CCC Steering Committee, I’m in violent agreement with this move, and only wish we’d managed to do it sooner.
 

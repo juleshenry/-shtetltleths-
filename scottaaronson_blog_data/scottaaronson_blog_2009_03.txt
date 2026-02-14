@@ -1,5 +1,6 @@
 TITLE: Literature that skewers pompous fools
 URL: https://scottaaronson.blog/?m=200903
+DATE: Monday, March 30th, 2009
 CONTENT:
 Update (April 4): I just finished reading Postmodern Pooh by Frederick Crews—a hilarious spoof of modern literary criticism, by someone who was the chair of Berkeley’s English department and understands the theories he’s ridiculing as well as anyone. I actually found Crews’ fake Marxist, feminist, and deconstructionist exegeses of  Winnie the Pooh far more persuasive than the “serious” scholarship he “reverently” quotes.  Crews seems to be breathing life into straw opponents here: making the obscurantist literary theories much more sensible and interesting than they really are, in order to give himself some challenge knocking them down. (The real fun comes when his intentionally goofy arguments start  working on you—when you yourself can no longer read innocent passages about Eeyore, Piglet, and Tigger without seeing the simmering sexual innuendo and class struggle.)  For anyone who likes the sort of books I discuss in this post, I recommend Postmodern Pooh in the strongest terms.
 
@@ -19,6 +20,7 @@ Look, there’s an obvious paradox in the idea of “rationalist literature.”�
 
 TITLE: The complement of Atlas Shrugged
 URL: https://scottaaronson.blog/?m=200903
+DATE: Monday, March 23rd, 2009
 CONTENT:
 A few months ago I read Atlas Shrugged, the 1,069-page Ayn Rand opus that was recently praised by Stephen Colbert (for its newfound popularity with beleaguered CEOs).  As I mentioned in the comments of a previous post, like many other nerds I went through a brief Aynfatuation around the age of 14.  Rand’s portrayal of an anti-mind, anti-reason cabal of collectivist rulers, who spout oleaginous platitudes about love and self-sacrifice even as they mercilessly repress any spark of individuality, happens to be extremely relevant to at least two cases I’m aware of:
 
@@ -38,6 +40,7 @@ Murray Rothbard and Eliezer Yudkowsky take different routes to some of the same 
 
 TITLE: Time for another contest
 URL: https://scottaaronson.blog/?m=200903
+DATE: Tuesday, March 17th, 2009
 CONTENT:
 Come up with the best mnemonic device for remembering which is injective and which is surjective.
 
@@ -45,6 +48,7 @@ Come up with the best mnemonic device for remembering which is injective and whi
 
 TITLE: Discuss: Should children have the right to vote?
 URL: https://scottaaronson.blog/?m=200903
+DATE: Tuesday, March 10th, 2009
 CONTENT:
 The above is a question that’s interested me for as long as I can remember, though I avoided blogging about it until now.  See, unlike many libertarian economist Ayn-Rand types, I don’t actually like asking social or political questions the very asking of which marks you as eccentric and Aspergerish.  I’d rather apply myself to proving lower bounds, popularizing quantum mechanics, or other tasks that are (somewhat) more respected by the society I depend on for my dinner.  And I’d rather pick battles, like evolution or climate change, where truth and justice have well-connected allies on their side and a non-negligible chance of winning.  For years, I’ve been studying the delicate art of keeping my mouth shut when what I have to say will be deeply unpopular—and despite lapses, I’ve actually made a great deal of progress since (let’s say) the age of 14.
 
@@ -105,6 +109,7 @@ Finally people say: that’s just the way things are.  This argument—also use
 
 TITLE: The Email Event Horizon
 URL: https://scottaaronson.blog/?m=200903
+DATE: Wednesday, March 4th, 2009
 CONTENT:
 I know I’ve been gone from the shtetl too long—I even stood by as a P=NP goon performed a drive-by shooting through my comments section.  Part of the explanation, I’m ashamed to admit, is that I’ve been procrastinating by proving theorems and writing papers, rather than building up the massive corpus of blog entries on which my tenure case will undoubtedly rest.
 
@@ -122,6 +127,7 @@ When I was a student, I used to wonder constantly about the professors who’d i
 
 TITLE: The LEGO Turing machine
 URL: https://scottaaronson.blog/?m=200903
+DATE: Sunday, March 1st, 2009
 CONTENT:
 Just to get back into blogging mode, here it is.  They do a good job of hamming it up, too.  Courtesy of Mikkel Vester, Anders Nissen, Martin Have, and Sean Geggie at the University of Aarhus (which is hereby forgiven for coming before me alphabetically).
 

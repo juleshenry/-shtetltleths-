@@ -1,5 +1,6 @@
 TITLE: D-Wave: Truth finally starts to emerge
 URL: https://scottaaronson.blog/?m=201305
+DATE: Thursday, May 16th, 2013
 CONTENT:
 Wrap-Up (June 5): This will be my final update on this post (really!!), since the discussion seems to have reached a point where not much progress is being made, and since I’d like to oblige the commenters who’ve asked me to change the subject.  Let me try to summarize the main point I’ve been trying to get across this whole time.  I’ll call the point (*).
 
@@ -107,6 +108,7 @@ When it comes down to it, that’s the reason why I care about this matter enoug
 
 TITLE: Ask Me Anything!  Tenure Edition
 URL: https://scottaaronson.blog/?m=201305
+DATE: Monday, May 6th, 2013
 CONTENT:
 Update (5/7): Enough!  Thanks, everyone, for asking so many imaginative questions, and please accept my apologies if yours remains unaddressed.  (It’s nothing personal: they simply came fast and furious, way faster than I could handle in an online fashion—so I gave up on chronological order and simply wrote answers in whatever order they popped into my head.)  At this point, I’m no longer accepting any new questions.  I’ll try to answer all the remaining questions by tomorrow night.
 
@@ -122,6 +124,7 @@ Update (5/12): I’ve finally answered all ~90 questions, a mere 4 days after th
 
 TITLE: The Tenured Toll-Taker
 URL: https://scottaaronson.blog/?m=201305
+DATE: Sunday, May 5th, 2013
 CONTENT:
 Update (5/6): In “honor” of the news below, Boaz Barak has written a beautiful blog post on the reasons to care about the P vs. NP question, offering his responses to several of the most common misconceptions.  Thank you so much, Boaz — this is one of the best presents I’ve ever gotten from anyone!
 
@@ -141,6 +144,7 @@ That’s how I am; I doubt I can change it any more than I can change my blood t
 
 TITLE: “Closer to Truth”
 URL: https://scottaaronson.blog/?m=201305
+DATE: Wednesday, May 1st, 2013
 CONTENT:
 Two years ago, when I attended the FQXi conference on a ship from Norway to Denmark, I (along with many other conference participants) was interviewed by Robert Lawrence Kuhn, who produces a late-night TV program called “Closer to Truth.”  I’m pleased to announce (hat tip: Sean Carroll) that four videos from my interview are finally available online:
 

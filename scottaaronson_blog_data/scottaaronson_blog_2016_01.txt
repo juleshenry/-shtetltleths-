@@ -1,5 +1,6 @@
 TITLE: Marvin Minsky
 URL: https://scottaaronson.blog/?m=201601
+DATE: Tuesday, January 26th, 2016
 CONTENT:
 Yesterday brought the sad news that Marvin Minsky passed away at age 88.  I never met Minsky (I wish I had); I just had one email exchange with him back in 2002, about Stephen Wolfram’s book.  But Minsky was my academic great-grandfather (through Manuel Blum and Umesh Vazirani), and he influenced me in many other ways.  For example, in his and Papert’s 1968 book Perceptrons—notorious for “killing neural net research for a decade,” because of its mis- or over-interpreted theorems about the representational limitations of single-layer neural nets—the way Minsky and Papert proved those theorems was by translating questions about computation into questions about the existence or nonexistence of low-degree polynomials with various properties, and then answering the latter questions using MATH.  Their “polynomial method” is now a mainstay of quantum algorithms research (having been brought to the subject by Beals et al.), and in particular, has been a mainstay of my own career.  Hardly Minsky’s best-known contribution to human knowledge, but that even such a relatively minor part of his oeuvre could have legs half a century later is a testament to his impact.
 
@@ -9,6 +10,7 @@ I’m sure readers will have other thoughts to share about Minsky, so please do 
 
 TITLE: Happy Third Birthday Lily!
 URL: https://scottaaronson.blog/?m=201601
+DATE: Thursday, January 21st, 2016
 CONTENT:
 Non-Lily-Related Updates (Jan. 22)
 
@@ -72,6 +74,7 @@ Me: That’s enough for today Lily!
 
 TITLE: Edging in: the biggest science news of 2015
 URL: https://scottaaronson.blog/?m=201601
+DATE: Sunday, January 3rd, 2016
 CONTENT:
 For years, I was forced to endure life with my nose up against the glass of the Annual Edge Question.  What are you optimistic about?  Ooh! ooh! Call on me!  I’m optimistic about someday being able to prove my pessimistic beliefs (like P≠NP).  How is the Internet changing the way you think?  Ooh, ooh! I know! Google and MathOverflow are saving me from having to think at all!  So then why are they only asking Steven Pinker, Freeman Dyson, Richard Dawkins, David Deutsch, some random other people like that?
 

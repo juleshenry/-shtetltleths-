@@ -1,5 +1,6 @@
 TITLE: Sen. Tom Coburn, the National Science Foundation, and Antarctican Jello Wrestling
 URL: https://scottaaronson.blog/?m=201303
+DATE: Monday, March 25th, 2013
 CONTENT:
 As some of you probably heard, last week Sen. Tom Coburn (R-Oklahoma) managed to get an amendment passed prohibiting the US National Science Foundation from funding any research in political science, unless the research can be “certified” as “promoting national security or the economic interests of the United States.”  This sort of political interference with the peer-review process, of course, sets a chilling precedent for all academic research, regardless of discipline.  (What’s next, an amendment banning computer science research, unless it has applications to scheduling baseball games or slicing apple pies?)  But on researching further, I discovered that Sen. Coburn has long had it in for the NSF, and even has a whole webpage listing his grievances against the agency.  Most of it is the usual “can you believe they wasted money to study something so silly or obvious?,” but by far my favorite tidbit is the following:
 
@@ -11,6 +12,7 @@ It occurred to me that the NSF really has no need to explain this one, since a c
 
 TITLE: Quantum Computing Since Democritus: The Buzz Intensifies
 URL: https://scottaaronson.blog/?m=201303
+DATE: Thursday, March 21st, 2013
 CONTENT:
 Update (March 22): The Kindle edition of Quantum Computing Since Democritus is now available, for the low price of $15.40!  (Not factorial.)  Click here to get it from amazon.com, or here to get it from amazon.co.uk.  And let me know how it looks (I haven’t seen it yet).  Another Update: Just saw the Kindle edition, and the figures and formulas came out great!  It’s a product I stand behind with pride.
 
@@ -42,6 +44,7 @@ Much as the hype still grated, I had to admit that I’d run out of counterargum
 
 TITLE: John Preskill: My Lodestar of Awesomeness
 URL: https://scottaaronson.blog/?m=201303
+DATE: Monday, March 18th, 2013
 CONTENT:
 I got back a couple days ago from John Preskill‘s 60th birthday symposium at Caltech.  To the general public, Preskill is probably best known for winning two bets against Stephen Hawking.  To readers of Shtetl-Optimized, he might be known for his leadership in quantum information science, his pioneering work in quantum error-correction, his beautiful lecture notes, or even his occasional comments here (though these days he has his own group blog and Twitter feed to keep him busy).  I know John as a friend, colleague, and mentor who’s done more for me than I can say.
 
@@ -67,6 +70,7 @@ Two unrelated announcements.
 
 TITLE: Silvio and Shafi win Turing Award
 URL: https://scottaaronson.blog/?m=201303
+DATE: Wednesday, March 13th, 2013
 CONTENT:
 Today I break long radio silence to deliver some phenomenal news.  Two of the people who I eat lunch with every week—my MIT CSAIL colleagues Silvio Micali and Shafi Goldwasser—have won a well-deserved Turing Award, for their fundamental contributions to cryptography from the 1980s till today.  (I see that Lance just now beat me to a blog post about this.  Dammit, Lance!)
 

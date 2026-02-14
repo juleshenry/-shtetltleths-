@@ -1,5 +1,6 @@
 TITLE: Quantum query complexity: the other shoe drops
 URL: https://scottaaronson.blog/?m=201506
+DATE: Tuesday, June 30th, 2015
 CONTENT:
 Two weeks ago I blogged about a breakthrough in query complexity: namely, the refutation by Ambainis et al. of a whole slew of conjectures that had stood for decades (and that I mostly believed, and that had helped draw me into theoretical computer science as a teenager) about the largest possible gaps between various complexity measures for total Boolean functions. Specifically, Ambainis et al. built on a recent example of Göös, Pitassi, and Watson to construct bizarre Boolean functions f with, among other things, near-quadratic gaps between D(f) and R0(f) (where D is deterministic query complexity and R0 is zero-error randomized query complexity), near-1.5th-power gaps between R0(f) and R(f) (where R is bounded-error randomized query complexity), and near-4th-power gaps between D(f) and Q(f) (where Q is bounded-error quantum query complexity). See my previous post for more about the definitions of these concepts and the significance of the results (and note also that Mukhopadhyay and Sanyal independently obtained weaker results).
 
@@ -23,6 +24,7 @@ Update (July 2): In conversation with Robin Kothari and Cedric Lin, I realized t
 
 TITLE: Celebrate gay marriage—and its 2065 equivalent
 URL: https://scottaaronson.blog/?m=201506
+DATE: Saturday, June 27th, 2015
 CONTENT:
 Yesterday was a historic day for the United States, and I was as delighted as everyone else I know.  I’ve supported gay marriage since the mid-1990s, when as a teenager, I read Andrew Hodges’ classic biography of Alan Turing, and burned with white-hot rage at Turing’s treatment.  In the world he was born into—our world, until fairly recently—Turing was “free”: free to prove the unsolvability of the halting problem, free to help save civilization from the Nazis, just not free to pursue the sexual and romantic fulfillment that nearly everyone else took for granted.  I resolved then that, if I was against anything in life, I was against the worldview that had hounded Turing to his death, or anything that even vaguely resembled it.
 
@@ -34,6 +36,7 @@ Do you want to impress me with your moral backbone?  Then go and find a group t
 
 TITLE: “Can Quantum Computing Reveal the True Meaning of Quantum Mechanics?”
 URL: https://scottaaronson.blog/?m=201506
+DATE: Thursday, June 25th, 2015
 CONTENT:
 I now have a 3500-word post on that question up at NOVA’s “Nature of Reality” blog.  If you’ve been reading Shtetl-Optimized religiously for the past decade (why?), there won’t be much new to you there, but if not, well, I hope you like it!  Comments are welcome, either here or there.  Thanks so much to Kate Becker at NOVA for commissioning this piece, and for her help editing it.
 
@@ -41,6 +44,7 @@ I now have a 3500-word post on that question up at NOVA’s “Nature of Realit
 
 TITLE: FCRC Highlights
 URL: https://scottaaronson.blog/?m=201506
+DATE: Friday, June 19th, 2015
 CONTENT:
 By popular request, here are some highlights from this week’s FCRC conference in Portland, Oregon:
 
@@ -50,6 +54,7 @@ There are many great things that I haven’t written about—for example, I have
 
 TITLE: A query complexity breakthrough
 URL: https://scottaaronson.blog/?m=201506
+DATE: Wednesday, June 17th, 2015
 CONTENT:
 Update (June 26): See this just-released paper, which independently obtains a couple of the same results as the Ambainis et al. paper, but in a different way (using the original Göös et al. function, rather than modifications of it).
 
@@ -178,6 +183,7 @@ I conjecture that the truth is (ii); it would be great to have a proof or dispro
 
 TITLE: 97% environmentalist
 URL: https://scottaaronson.blog/?m=201506
+DATE: Sunday, June 7th, 2015
 CONTENT:
 I decided to add my name to a petition by, as of this writing, 81 MIT faculty, calling on MIT to divest its endowment from fossil fuel companies.  (My co-signatories include Noam Chomsky, so I guess there’s something we agree about!)  There’s also a wider petition signed by nearly 3500 MIT students, faculty, and staff, mirroring similar petitions all over the world.
 
@@ -201,6 +207,7 @@ These realities have a counterintuitive practical implication that I wish both s
 
 TITLE: Can blog posts nourish the soul?  Scott A. (alas, not me) as existence proof
 URL: https://scottaaronson.blog/?m=201506
+DATE: Wednesday, June 3rd, 2015
 CONTENT:
 Reading the essays and speculative fiction of Scott Alexander, as they’ve grown in awesomeness even just within the past half-year, has for me been like witnessing the birth of a new Asimov.  (For more Alexandery goodness, check out Universal Love, Said the Cactus Person.)  That this nerd-bard, this spinner of stupid Internet memes into reflections on eternity, came to my attention by way of his brilliantly defending me, is almost immaterial at this point; I don’t think it plays any role in my continuing admiration for his work.  Whatever you do, just keep writing, other Scott A.
 
@@ -208,6 +215,7 @@ Reading the essays and speculative fiction of Scott Alexander, as they’ve grow
 
 TITLE: The End of Suffering?
 URL: https://scottaaronson.blog/?m=201506
+DATE: Monday, June 1st, 2015
 CONTENT:
 A computer science undergrad who reads this blog recently emailed me about an anxiety he’s been feeling connected to the Singularity—not that it will destroy all human life, but rather that it will make life suffering-free and therefore no longer worth living (more Brave New World than Terminator, one might say).
 

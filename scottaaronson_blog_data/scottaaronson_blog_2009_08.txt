@@ -1,5 +1,6 @@
 TITLE: Barriers to snarky blogging
 URL: https://scottaaronson.blog/?m=200908
+DATE: Thursday, August 27th, 2009
 CONTENT:
 I’m writing from the Barriers in Computational Complexity workshop in Princeton, where too many real things are happening for me to blog about nothing.  I understand that streaming video of all the talks will be up eventually; for now, a few highlights:
 
@@ -15,6 +16,7 @@ And now I bid adieu, as the next talk is starting and my laptop is running out o
 
 TITLE: My diavlog with Eliezer Yudkowsky
 URL: https://scottaaronson.blog/?m=200908
+DATE: Monday, August 17th, 2009
 CONTENT:
 Here it is.  It’s mostly about the Singularity and the Many-Worlds Interpretation.
 
@@ -26,6 +28,7 @@ And here’s the discussion that already took place over at Eliezer’s blogging
 
 TITLE: Malthusianisms
 URL: https://scottaaronson.blog/?m=200908
+DATE: Saturday, August 15th, 2009
 CONTENT:
 (See also: Umeshisms, Anthropicisms)
 

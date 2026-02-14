@@ -1,5 +1,6 @@
 TITLE: More “tweets”
 URL: https://scottaaronson.blog/?m=201401
+DATE: Friday, January 31st, 2014
 CONTENT:
 Update (Feb. 4): After Luke Muelhauser of MIRI interviewed me about “philosophical progress,” Luke asked me for other people to interview about philosophy and theoretical computer science. I suggested my friend and colleague Ronald de Wolf of the University of Amsterdam, and I’m delighted that Luke took me up on it. Here’s the resulting interview, which focuses mostly on quantum computing (with a little Kolmogorov complexity and Occam’s Razor thrown in). I read the interview with admiration (and hoping to learn some tips): Ronald tackles each question with more clarity, precision, and especially levelheadedness than I would.
 
@@ -19,6 +20,7 @@ Cool new SciCast site (scicast.org) lets you place bets on P vs NP, Unique Games
 
 TITLE: Retiring falsifiability?  A storm in Russell’s teacup
 URL: https://scottaaronson.blog/?m=201401
+DATE: Friday, January 17th, 2014
 CONTENT:
 My good friend Sean Carroll took a lot of flak recently for answering this year’s Edge question, “What scientific idea is ready for retirement?,” with “Falsifiability”, and for using string theory and the multiverse as examples of why science needs to break out of its narrow Popperian cage.  For more, see this blog post of Sean’s, where one commenter after another piles on the beleaguered dude for his abandonment of science and reason themselves.
 
@@ -43,6 +45,7 @@ Finally, not that Edge asked me, but I’d say the whole notions of “determini
 
 TITLE: What happens when an unstoppable PR force hits an NP-hard problem?  The answer’s getting clearer
 URL: https://scottaaronson.blog/?m=201401
+DATE: Thursday, January 16th, 2014
 CONTENT:
 Update (Jan. 23): Daniel Lidar, one of the authors of the “Defining and detecting…” paper, was kind enough to email me his reactions to this post.  While he thought the post was generally a “very nice summary” of their paper, he pointed out one important oversight in my discussion.  Ironically, this oversight arose from my desire to bend over backwards to be generous to D-Wave!  Specifically, I claimed that there were maybe ~10% of randomly-chosen 512-qubit problem instances on which the D-Wave Two slightly outperformed the simulated annealing solver (compared to ~75% where simulated annealing outperformed the D-Wave Two), while also listing several reasons (such as the minimum annealing time, and the lack of any characterization of the “good” instances) why that “speedup” is likely to be entirely an artifact.  I obtained the ~10% and ~75% figures by eyeballing Figure 7 in the paper, and looking at which quantiles were just above and just below the 100 line when N=512.
 

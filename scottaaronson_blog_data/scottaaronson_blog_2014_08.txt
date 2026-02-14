@@ -1,5 +1,6 @@
 TITLE: Do theoretical computer scientists despise practitioners?  (Answer: no, that’s crazy)
 URL: https://scottaaronson.blog/?m=201408
+DATE: Thursday, August 28th, 2014
 CONTENT:
 A roboticist and Shtetl-Optimized fan named Jon Groff recently emailed me the following suggestion for a blog entry:
 
@@ -37,6 +38,7 @@ Scott
 
 TITLE: “Could a Quantum Computer Have Subjective Experience?”
 URL: https://scottaaronson.blog/?m=201408
+DATE: Monday, August 25th, 2014
 CONTENT:
 Author’s Note: Below is the prepared version of a talk that I gave two weeks ago at the workshop Quantum Foundations of a Classical Universe, which was held at IBM’s TJ Watson Research Center in Yorktown Heights, NY.  My talk is for entertainment purposes only; it should not be taken seriously by anyone.  If you reply in a way that makes clear you did take it seriously (“I’m shocked and outraged that someone who dares to call himself a scientist would … [blah blah]”), I will log your IP address, hunt you down at night, and force you to put forward an account of consciousness and decoherence that deals with all the paradoxes discussed below—and then reply at length to all criticisms of your account.
 
@@ -146,6 +148,7 @@ At this point, I’ve probably laid out enough craziness, so let me stop and ope
 
 TITLE: Subhash Khot’s prizewinning research
 URL: https://scottaaronson.blog/?m=201408
+DATE: Saturday, August 16th, 2014
 CONTENT:
 I already congratulated Subhash Khot in my last post for winning the Nevanlinna Award, but this really deserves a separate post.  Khot won theoretical computer science’s highest award largely for introducing and exploring the Unique Games Conjecture (UGC), which says (in one sentence) that a large number of the approximation problems that no one has been able to prove NP-hard, really are NP-hard.  In particular, if the UGC is true, then for MAX-CUT and dozens of other important optimization problems, no polynomial-time algorithm can always get you closer to the optimal solution than some semidefinite-programming-based algorithm gets you, unless P=NP.  The UGC might or might not be true—unlike with (say) P≠NP itself, there’s no firm consensus around it—but even if it’s false, the effort to prove or disprove it has by now had a huge impact on theoretical computer science research, leading to connections with geometry, tiling, analysis of Boolean functions, quantum entanglement, and more.
 
@@ -163,6 +166,7 @@ Congratulations again to Subhash!
 
 TITLE: Is the P vs. NP problem ill-posed?  (Answer: no.)
 URL: https://scottaaronson.blog/?m=201408
+DATE: Wednesday, August 13th, 2014
 CONTENT:
 A couple days ago, a reader wrote to me to ask whether it’s possible that the solution to the P vs. NP problem is simply undefined—and that one should enlarge the space of possible answers using non-classical logics (the reader mentioned something called Catuṣkoṭi logic).  Since other people have emailed me with similar questions in the past, I thought my response might be of more general interest, and decided to post it here.
 

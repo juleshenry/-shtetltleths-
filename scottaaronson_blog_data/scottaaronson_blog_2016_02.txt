@@ -1,5 +1,6 @@
 TITLE: From Boston to Austin
 URL: https://scottaaronson.blog/?m=201602
+DATE: Sunday, February 28th, 2016
 CONTENT:
 I have some big news—well, not for the world, but for me personally.  Starting this summer, I’ll be leaving MIT, and starting a new phase of my life, as David J. Bruton Jr. Centennial Professor of Computer Science at the University of Texas at Austin.  I’ll also be the founding director of UT Austin’s new quantum computing center, whose motto will be “Hook ’em Hadamards“, and whose logo will depict a fierce longhorn bull, whose horns are bra and ket signs enclosing an inner product between two quantum states.  My brilliant and talented wife, Dana Moshkovitz Aaronson, will also be joining UT Austin, as a tenured Associate Professor of Computer Science.  Our current PhD students will remain enrolled at MIT, while also spending as much time as they like in Austin.
 
@@ -29,6 +30,7 @@ Totally Unrelated Update (Feb. 29): Michael Mitzenmacher has asked me to announc
 
 TITLE: The universe has a high (but not infinite) Sleep Number
 URL: https://scottaaronson.blog/?m=201602
+DATE: Friday, February 12th, 2016
 CONTENT:
 As everyone knows, this was a momentous week in the history of science.  And I don’t need to tell you why: the STOC and CCC accepted paper lists finally came out.
 
@@ -46,6 +48,7 @@ As if I needed to say it, this post is an invitation for experts to correct what
 
 TITLE: “Why does the universe exist?” … finally answered (or dissolved) in this blog post!
 URL: https://scottaaronson.blog/?m=201602
+DATE: Saturday, February 6th, 2016
 CONTENT:
 In my previous post, I linked to seven Closer to Truth videos of me spouting about free will, Gödel’s Theorem, black holes, etc. etc.  I also mentioned that there was a segment of me talking about why the universe exists that for some reason they didn’t put up.  Commenter mjgeddes wrote, “Would have liked to hear your views on the existence of the universe question,” so I answered in another comment.
 
@@ -71,6 +74,7 @@ Admittedly, suppose there were a giant red button, somewhere within the universe
 
 TITLE: Here’s some video of me spouting about Deep Questions
 URL: https://scottaaronson.blog/?m=201602
+DATE: Thursday, February 4th, 2016
 CONTENT:
 In January 2014, I attended an FQXi conference on Vieques island in Puerto Rico.  While there, Robert Lawrence Kuhn interviewed me for his TV program Closer to Truth, which deals with science and religion and philosophy and you get the idea.  Alas, my interview was at the very end of the conference, and we lost track of the time—so unbeknownst to me, a plane full of theorists was literally sitting on the runway waiting for me to finish philosophizing!  This was the second time Kuhn interviewed me for his show; the first time was on a cruise ship near Norway in 2011.  (Thankless hero that I am, there’s nowhere I won’t travel for the sake of truth.)
 

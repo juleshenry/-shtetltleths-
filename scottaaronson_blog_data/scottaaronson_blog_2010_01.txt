@@ -1,5 +1,6 @@
 TITLE: QIP’2010: The Power and the Glory of Quantum Complexity Theory
 URL: https://scottaaronson.blog/?m=201001
+DATE: Tuesday, January 19th, 2010
 CONTENT:
 Firstly, if you haven’t contributed to relief efforts in Haiti, you can do so (the charity linked to was recommended by a Haitian-American working at MIT CSAIL).  I wish I had something more useful to say about this tragedy, but I don’t.
 
@@ -25,6 +26,7 @@ The full schedule is here; feel free to ask in the comments about any talks I di
 
 TITLE: Changing fields
 URL: https://scottaaronson.blog/?m=201001
+DATE: Wednesday, January 13th, 2010
 CONTENT:
 I’m at CWI in Amsterdam, after spending two weeks in Israel.  Next week I head to QIP’2010 in Zurich, and the week after that, to the Perimeter Institute in Waterloo.
 
