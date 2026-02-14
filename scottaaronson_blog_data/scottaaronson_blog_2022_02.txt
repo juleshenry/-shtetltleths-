@@ -1,5 +1,6 @@
 TITLE: Nothing non-obvious to say…
 URL: https://scottaaronson.blog/?m=202202
+DATE: Thursday, February 24th, 2022
 CONTENT:
 … but these antiwar protesters in St. Petersburg know that they’re all going to be arrested and are doing it anyway.
 
@@ -11,6 +12,7 @@ Update (March 1): A longtime Shtetl-Optimized reader has a friend who’s trying
 
 TITLE: Happy 70th birthday Dad!
 URL: https://scottaaronson.blog/?m=202202
+DATE: Saturday, February 12th, 2022
 CONTENT:
 When, before covid, I used to travel the world giving quantum computing talks, every once in a while I’d meet an older person who asked whether I had any relation to a 1970s science writer by the name of Steve Aaronson.  So, yeah, Steve Aaronson is my dad.  He majored in English in Penn State, where he was lucky enough to study under the legendary Phil Klass, who wrote under the pen name William Tenn and who basically created the genre of science-fiction comedy, half a century before there were any such things as Futurama.  After graduating, my dad became a popular physics and cosmology writer, who interviewed greats like Steven Weinberg and John Archibald Wheeler and Arno Penzias (discoverer of the cosmic microwave background radiation).  He published not only in science magazines but in Playboy and Penthouse, which (as he explained to my mom) paid better than the science magazines.  When I was growing up, my dad had a Playboy on his office shelf, which I might take down if for example I wanted to show a friend a 2-page article, with an Aaronson byline, about the latest thinking on the preponderance of matter over antimatter in the visible universe.
 
@@ -36,6 +38,7 @@ Happy 70th birthday Pops, congrats on beating the cancer, and here’s to many m
 
 TITLE: AlphaCode as a dog speaking mediocre English
 URL: https://scottaaronson.blog/?m=202202
+DATE: Sunday, February 6th, 2022
 CONTENT:
 Tonight, I took the time actually to read DeepMind’s AlphaCode paper, and to work through the example contest problems provided, and understand how I would’ve solved those problems, and how AlphaCode solved them.
 
@@ -55,6 +58,7 @@ Update: A colleague of mine points out that one million, the number of candidate
 
 TITLE: Scott Aaronson Speculation Grant WINNERS!
 URL: https://scottaaronson.blog/?m=202202
+DATE: Friday, February 4th, 2022
 CONTENT:
 Two weeks ago, I announced on this blog that, thanks to the remarkable generosity of Jaan Tallinn, and the Speculation Grants program of the Survival and Flourishing Fund that Jaan founded, I had $200,000 to give away to charitable organizations of my choice.  So, inspired by what Scott Alexander had done, I invited the readers of Shtetl-Optimized to pitch their charities, mentioning only some general areas of interest to me (e.g., advanced math education at the precollege level, climate change mitigation, pandemic preparedness, endangered species conservation, and any good causes that would enrage the people who attack me on Twitter).
 

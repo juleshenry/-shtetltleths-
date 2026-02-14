@@ -1,5 +1,6 @@
 TITLE: “Never A Better Time to Visit”: Our Post-October-7 Trip to Israel
 URL: https://scottaaronson.blog/?m=202406
+DATE: Thursday, June 27th, 2024
 CONTENT:
 Dana, the kids, and I got back to the US last week after a month spent in England and then Israel.  We decided to visit Israel because … uhh, we heard there’s never been a better time.
 
@@ -49,6 +50,7 @@ Anyway, on that pleasant note, time soon to tune in to the Trump/Biden debate!  
 
 TITLE: Luca Trevisan (1971-2024)
 URL: https://scottaaronson.blog/?m=202406
+DATE: Wednesday, June 19th, 2024
 CONTENT:
 (See here for Boaz Barak’s obituary, and here for Lance Fortnow’s—they cover different aspects of Luca’s legacy from each other and from this post. Also, click here to register for a free online TCS4All talk that Luca was scheduled to give, and that will now be given in his memory, this Monday at 3:30pm Eastern time.)
 
@@ -86,6 +88,7 @@ Best,Scott
 
 TITLE: Situational Awareness
 URL: https://scottaaronson.blog/?m=202406
+DATE: Saturday, June 8th, 2024
 CONTENT:
 My friend Leopold Aschenbrenner, who I got to know and respect on OpenAI’s now-disbanded Superalignment team before he left the company under disputed circumstances, just released “Situational Awareness,” one of the most extraordinary documents I’ve ever read. With unusual clarity, concreteness, and seriousness, and with a noticeably different style than the LessWrongers with whom he shares some key beliefs, Leopold sets out his vision of how AI is going to transform civilization over the next 5-10 years. He makes a case that, even after ChatGPT and all that followed it, the world still hasn’t come close to “pricing in” what’s about to hit it. We’re still treating this as a business and technology story like personal computing or the Internet, rather than (also) a national security story like the birth of nuclear weapons, except more so.  And we’re still indexing on LLMs’ current capabilities (“fine, so they can pass physics exams, but they still can’t do original physics research“), rather than looking at the difference between now and five years ago, and then trying our best to project forward an additional five years.
 

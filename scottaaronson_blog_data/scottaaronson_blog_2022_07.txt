@@ -1,5 +1,6 @@
 TITLE: Juris Hartmanis (1928-2022): Guest post by Ryan Williams
 URL: https://scottaaronson.blog/?m=202207
+DATE: Saturday, July 30th, 2022
 CONTENT:
 Scott’s Introduction
 
@@ -43,6 +44,7 @@ Besides the obituary by Lipton and Regan, see also the obituary by Bill Gasarch.
 
 TITLE: On black holes, holography, the Quantum Extended Church-Turing Thesis, fully homomorphic encryption, and brain uploading
 URL: https://scottaaronson.blog/?m=202207
+DATE: Wednesday, July 27th, 2022
 CONTENT:
 I promise you: this post is going to tell a scientifically coherent story that involves all five topics listed in the title.  Not one can be omitted.
 
@@ -128,6 +130,7 @@ Lenny’s new gedankenexperiment, however, is the first case I’ve seen where y
 
 TITLE: More AI debate between me and Steven Pinker!
 URL: https://scottaaronson.blog/?m=202207
+DATE: Thursday, July 21st, 2022
 CONTENT:
 Several people have complained that Shtetl-Optimized has become too focused on the niche topic of “people being mean to Scott Aaronson on the Internet.”  In one sense, this criticism is deeply unfair—did I decide that a shockingly motivated and sophisticated troll should attack me all week, in many cases impersonating fellow academics to do so?  Has such a thing happened to you?  Did I choose a personality that forces me to respond when it happens?
 
@@ -179,6 +182,7 @@ What I keep saying is this: we have the luxury of regarding airplanes and smartp
 
 TITLE: A low-tech solution
 URL: https://scottaaronson.blog/?m=202207
+DATE: Tuesday, July 19th, 2022
 CONTENT:
 Thanks so much to everyone who offered help and support as this blog’s comment section endured the weirdest, most motivated and sophisticated troll attack in its 17-year history.  For a week, a parade of self-assured commenters showed up to demand that I explain and defend my personal hygiene, private thoughts, sexual preferences, and behavior around female students (and, absurdly, to cajole me into taking my family on a specific Disney cruise ship).  In many cases, the troll or trolls appropriated the names and email addresses of real academics, imitating them so convincingly that those academics’ closest colleagues told me they were confident it was really them.  And when some trolls finally “outed” themselves, I had no way to know whether that was just another chapter in the trolling campaign.  It was enough to precipitate an epistemic crisis, where one actively doubts the authenticity of just about every piece of text.
 
@@ -206,6 +210,7 @@ Eventually, we might move to a model where the SOCG members can log in to WordPr
 
 TITLE: Choosing a new comment policy
 URL: https://scottaaronson.blog/?m=202207
+DATE: Tuesday, July 12th, 2022
 CONTENT:
 Update (July 13): I was honored to read this post by my friend Boaz Barak.
 
@@ -227,6 +232,7 @@ So, regular readers: what do you prefer?
 
 TITLE: Linkz!
 URL: https://scottaaronson.blog/?m=202207
+DATE: Saturday, July 9th, 2022
 CONTENT:
 (1) Fellow CS theory blogger (and, 20 years ago, member of my PhD thesis committee) Luca Trevisan interviews me about Shtetl-Optimized, for the Bulletin of the European Association for Theoretical Computer Science.  Questions include: what motivates me to blog, who my main inspirations are, my favorite posts, whether blogging has influenced my actual research, and my thoughts on the role of public intellectuals in the age of social-media outrage.
 
@@ -240,6 +246,7 @@ CONTENT:
 
 TITLE: Einstein-Bohr debate settled once and for all
 URL: https://scottaaronson.blog/?m=202207
+DATE: Friday, July 8th, 2022
 CONTENT:
 In Steven Pinker’s guest post from last week, there’s one bit to which I never replied.  Steve wrote:
 
@@ -265,6 +272,7 @@ And with that, I’m proud to have said the final word about precisely what Eins
 
 TITLE: We Are the God of the Gaps (a little poem)
 URL: https://scottaaronson.blog/?m=202207
+DATE: Tuesday, July 5th, 2022
 CONTENT:
 When the machines outperform us on every goal for which performance can be quantified,
 

@@ -1,5 +1,6 @@
 TITLE: Scott’s Supreme Quantum Supremacy FAQ!
 URL: https://scottaaronson.blog/?m=201909
+DATE: Monday, September 23rd, 2019
 CONTENT:
 You’ve seen the stories—in the Financial Times, Technology Review, CNET, Facebook, Reddit, Twitter, or elsewhere—saying that a group at Google has now achieved quantum computational supremacy with a 53-qubit superconducting device.  While these stories are easy to find, I’m not going to link to them here, for the simple reason that none of them were supposed to exist yet.
 
@@ -121,6 +122,7 @@ Last update: John Preskill’s Quanta column about quantum supremacy is predicta
 
 TITLE: Blurry but clear enough
 URL: https://scottaaronson.blog/?m=201909
+DATE: Friday, September 20th, 2019
 CONTENT:
 My vision is blurry right now, because yesterday I had a procedure called corneal cross-linking, intended to prevent further deterioration of my eyes as I get older.  But I can see clearly enough to tap out a post with random thoughts about the world.
 
@@ -140,6 +142,7 @@ Oh, and on the quantum supremacy front—I foresee some big news very soon.  You
 
 TITLE: Paul Bernays Lectures
 URL: https://scottaaronson.blog/?m=201909
+DATE: Monday, September 9th, 2019
 CONTENT:
 Last week, I had the honor of giving the annual Paul Bernays Lectures at ETH Zürich.  My opening line: “as I look at the list of previous Bernays Lecturers—many of them Nobel physics laureates, Fields Medalists, etc.—I think to myself, how badly did you have to screw up this year in order to end up with me?”
 
@@ -169,6 +172,7 @@ Finally, thanks so much to Giovanni Sommaruga and everyone else at ETH for arran
 
 TITLE: A rare classified ad
 URL: https://scottaaronson.blog/?m=201909
+DATE: Saturday, September 7th, 2019
 CONTENT:
 Dana and I are searching for a live-in nanny for our two kids, Lily (age 6) and Daniel (age 2).  We can offer $750/week.  We can also offer a private room with a full bathroom and a beautiful view in our home in central Austin, TX, as well as free food and other amenities.  The responsibilities include helping to take the kids to and from school and drive them to various activities, helping to get them ready for school/daycare in the morning and ready for sleep at night, cooking and other housework.  We’d ask for no more than 45 hours per week, and could give several days off at a time depending on scheduling constraints.
 

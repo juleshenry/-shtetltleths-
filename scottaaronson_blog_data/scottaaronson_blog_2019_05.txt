@@ -1,5 +1,6 @@
 TITLE: The SSL Certificate of Damocles
 URL: https://scottaaronson.blog/?m=201905
+DATE: Tuesday, May 14th, 2019
 CONTENT:
 Ever since I “upgraded” this website to use SSL, it’s become completely inaccessible once every three months, because the SSL certificate expires.  Several years in, I’ve been unable to find any way to prevent this from happening, and Bluehost technical support was unable to suggest any solution.  The fundamental problem is that, as long as the site remains up, the Bluehost control panel tells me that there’s nothing to do, since there is a current certificate.  Meanwhile, though, I start getting menacing emails saying that my SSL certificate is about to expire and “you must take action to secure the site”—never, of course, specifying what action to take.  The only thing to do seems to be to wait for the whole site to go down, then frantically take random certificate-related actions until somehow the site goes back up.  Those actions vary each time and are not repeatable.
 
@@ -11,6 +12,7 @@ Does anyone know a simple solution to this ridiculous problem?
 
 TITLE: On the scientific accuracy of “Avengers: Endgame”
 URL: https://scottaaronson.blog/?m=201905
+DATE: Friday, May 3rd, 2019
 CONTENT:
 [BY REQUEST: SPOILERS FOLLOW]
 
@@ -28,6 +30,7 @@ Anyway, if you’ve seen the movie, and/or you know Deutsch’s causal consisten
 
 TITLE: A small post
 URL: https://scottaaronson.blog/?m=201905
+DATE: Friday, May 3rd, 2019
 CONTENT:
 
 

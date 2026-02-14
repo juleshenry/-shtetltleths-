@@ -1,5 +1,6 @@
 TITLE: Once we can see them, it’s too late
 URL: https://scottaaronson.blog/?m=202101
+DATE: Saturday, January 30th, 2021
 CONTENT:
 [updates: here’s the paper, and here’s Robin’s brief response to some of the comments here]
 
@@ -77,6 +78,7 @@ Update (Jan. 31): Reading the reactions here, on Hacker News, and elsewhere unde
 
 TITLE: Research (by others) proceeds apace
 URL: https://scottaaronson.blog/?m=202101
+DATE: Wednesday, January 27th, 2021
 CONTENT:
 At age 39, I already feel more often than not like a washed-up has-been in complexity theory and quantum computing research.  It’s not intelligence that I feel like I’ve lost, so much as two other necessary ingredients: burning motivation and time.  But all is not lost: I still have students and postdocs to guide and inspire!  I still have the people who email me every day—journalists, high-school kids, colleagues—asking this and that!  Finally, I still have this blog, with which to talk about all the exciting research that others are doing!
 
@@ -88,6 +90,7 @@ Speaking of blogging about research: I know I ought to do more of it, so let me 
 
 TITLE: Sufficiently amusing that I had no choice
 URL: https://scottaaronson.blog/?m=202101
+DATE: Thursday, January 21st, 2021
 CONTENT:
 BREAKING: President Biden signs executive order banning people from saying “Quantum computers solve problems by just trying all possible solutions in parallel” pic.twitter.com/zeAZvmKA1T
 
@@ -95,6 +98,7 @@ BREAKING: President Biden signs executive order banning people from saying “Qu
 
 TITLE: A day to celebrate
 URL: https://scottaaronson.blog/?m=202101
+DATE: Wednesday, January 20th, 2021
 CONTENT:
 The reason I’m celebrating is presumably obvious to all: today is my daughter Lily’s 8th birthday!  (She had a tiny Star Wars-themed party, dressed in her Rey costume.)
 
@@ -114,6 +118,7 @@ Update (Jan 21): WOOHOO!  Yet another reason to celebrate: Scott Alexander is fi
 
 TITLE: To all Trumpists who comment on this blog
 URL: https://scottaaronson.blog/?m=202101
+DATE: Wednesday, January 6th, 2021
 CONTENT:
 The violent insurrection now unfolding in Washington DC is precisely the thing you called me nuts, accused me of “Trump Derangement Syndrome,” for warning about since 2016.  Crazy me, huh, always seeing brownshirts around the corner?  And you called the other side violent anarchists?  This is all your doing.  So own it.  Wallow in it.  May you live the rest of your lives in shame.
 
@@ -123,6 +128,7 @@ Update (Jan. 7): As someone who hasn’t always agreed with BLM’s slogans and 
 
 TITLE: Distribute the vaccines NOW!
 URL: https://scottaaronson.blog/?m=202101
+DATE: Saturday, January 2nd, 2021
 CONTENT:
 My last post about covid vaccines felt like shouting uselessly into the void … at least until Patrick Collison, the cofounder of Stripe and a wonderful friend, massively signal-boosted the post by tweeting it.  This business is of such life-and-death urgency right now, and a shift in attitude or a hardening of resolve by just a few people reading could have such an outsized effect, that with apologies to anyone wanting me to return to my math/CS/physics lane, I feel like a second post on the same topic is called for.
 

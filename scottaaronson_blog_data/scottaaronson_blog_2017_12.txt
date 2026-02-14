@@ -1,5 +1,6 @@
 TITLE: Should I join Heterodox Academy?
 URL: https://scottaaronson.blog/?m=201712
+DATE: Sunday, December 31st, 2017
 CONTENT:
 Happy new year, everyone!
 
@@ -33,6 +34,7 @@ Readers: what do you think?  In the comments, give me your best argument for wh
 
 TITLE: Classifieds thread
 URL: https://scottaaronson.blog/?m=201712
+DATE: Sunday, December 24th, 2017
 CONTENT:
 In addition to the emails from journalists, I also get a large number of emails seeking interactions with me—a discussion of cryptocurrencies, help in planning a political campaign, whatever—that could probably be had just as well, or better, with some other reader of this blog.  So inspired by Slate Star Codex, my lodestar of blog-greatness, I’ve decided to host Shtetl-Optimized‘s first ever classifieds thread.  This is your place to post any announcement, ad, offer, proposal, etc. that you think would be of particular interest to fellow Shtetl-Optimized readers.  As usual, I reserve the right to remove anything too spammy or otherwise unsuitable (“C@$H 4 G0LD!!!”), but will generally be pretty permissive.
 
@@ -44,6 +46,7 @@ Update: OK, let me start the ball rolling, or rather the photon propagating.  Re
 
 TITLE: Journalist moratorium
 URL: https://scottaaronson.blog/?m=201712
+DATE: Sunday, December 17th, 2017
 CONTENT:
 For over a decade, one of the main ways I’ve tried to advance the cause of Enlightenment has been talking to journalists writing popular articles on quantum computing (or P vs. NP, or the universe as a computer simulation, or whatever).  Because of my blog, journalists knew how to reach me, and because I’m a ham, I always agreed to be interviewed.  Well, I told myself I was doing it as my way of giving back to the field, so that my smarter colleagues would have more time for research.
 
@@ -65,6 +68,7 @@ Unrelated Update #2: As many of you have probably seen, the cruel and monstrous 
 
 TITLE: ITCS’2018 and more
 URL: https://scottaaronson.blog/?m=201712
+DATE: Wednesday, December 13th, 2017
 CONTENT:
 My good friend Yael Tauman Kalai asked me to share the following announcement (which is the only part of this post that she’s responsible for):
 
@@ -98,6 +102,7 @@ NSF has recently posted a new Dear Colleague Letter (DCL) inviting proposal subm
 
 TITLE: Googatory
 URL: https://scottaaronson.blog/?m=201712
+DATE: Thursday, December 7th, 2017
 CONTENT:
 When I awoke with glowing, translucent hands, and hundreds of five-pointed yellow stars lined up along the left of my visual field, my first thought was that a dream must have made itself self-defeatingly obvious. I was a 63-year-old computer science professor. I might’ve been dying of brain cancer, but my mind was lucid enough that I’d refused hospice care, lived at home, still even met sometimes with my students, and most importantly: still answered my email, more or less. I could still easily distinguish dreams from waking reality. Couldn’t I?
 
@@ -191,6 +196,7 @@ Note: To anyone who emailed me lately, I apologize for the delay in replying. I 
 
 TITLE: Quickies
 URL: https://scottaaronson.blog/?m=201712
+DATE: Monday, December 4th, 2017
 CONTENT:
 Updates (Dec. 5): The US Supreme Court has upheld Trump’s latest travel ban.  I’m grateful to all the lawyers who have thrown themselves in front of the train of fascism, desperately trying to slow it down—but I could never, ever have been a lawyer myself.  Law is fundamentally a make-believe discipline.  Sure, there are times when it involves reason and justice, possibly even resembles mathematics—but then there are times when the only legally correct thing to say is, “I guess that, contrary to what I thought, the Establishment Clause of the First Amendment does let you run for president promising to discriminate against a particular religious group, and then find a pretext under which to do it.  The people with the power to decide that question have decided it.”  I imagine that I’d last about half a day before tearing up my law-school diploma in disgust, which is surely a personality flaw on my part.
 

@@ -1,5 +1,6 @@
 TITLE: Is “information is physical” contentful?
 URL: https://scottaaronson.blog/?m=201707
+DATE: Thursday, July 20th, 2017
 CONTENT:
 “Information is physical.”
 
@@ -89,6 +90,7 @@ Some readers might suspect circularity in the arguments we’ve made: are we mer
 
 TITLE: Three things
 URL: https://scottaaronson.blog/?m=201707
+DATE: Monday, July 17th, 2017
 CONTENT:
 I was shocked and horrified to learn of the loss of Maryam Mirzakhani at age 40, after a battle with cancer (see here or here).  Mirzakhani was a renowned mathematician at Stanford and the world’s first and so far only female Fields Medalist.  I never had the privilege of meeting her, but everything I’ve read about her fills me with admiration.  I wish to offer condolences to her friends and family, including her husband Jan Vondrák, also a professor at Stanford and a member of the CS theory community.
 
@@ -112,6 +114,7 @@ Indeed, this strikes me as the most exciting news in experimental quantum inform
 
 TITLE: Amsterdam art museums plagiarizing my blog?
 URL: https://scottaaronson.blog/?m=201707
+DATE: Wednesday, July 12th, 2017
 CONTENT:
 This past week I had the pleasure of attending COLT (Conference on Learning Theory) 2017 in Amsterdam, and of giving an invited talk on “PAC-Learning and Reconstruction of Quantum States.”  You can see the PowerPoint slides here; videos were also made, but don’t seem to be available yet.
 
@@ -129,6 +132,7 @@ Photo credits: Ronald de Wolf and Marijn Heule.
 
 TITLE: ITCS’2018
 URL: https://scottaaronson.blog/?m=201707
+DATE: Wednesday, July 5th, 2017
 CONTENT:
 My friend Anna Karlin, who chairs the ITCS program committee this year, asked me to post the following announcement, and I’m happy to oblige her.  I’ve enjoyed ITCS every time I’ve attended, and was even involved in the statement that led to ITCS’s creation, although I don’t take direct responsibility for the content of this ad. –SA
 

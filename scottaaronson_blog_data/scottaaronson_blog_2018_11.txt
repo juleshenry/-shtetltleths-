@@ -1,5 +1,6 @@
 TITLE: Airport idiocy
 URL: https://scottaaronson.blog/?m=201811
+DATE: Wednesday, November 28th, 2018
 CONTENT:
 On Sunday, I returned to Austin with Dana and the kids from Thanksgiving in Pennsylvania.  The good news is that I didn’t get arrested this time, didn’t mistake any tips for change, and didn’t even miss the flight!  But I did experience two airports that changed decisively for the worse.
 
@@ -19,6 +20,7 @@ Postscript II.  No, I don’t harbor any illusions that posts like this, or any
 
 TITLE: Teaching quantum in junior high: special Thanksgiving guest post by Terry Rudolph
 URL: https://scottaaronson.blog/?m=201811
+DATE: Thursday, November 22nd, 2018
 CONTENT:
 Happy Thanksgiving!
 
@@ -74,6 +76,7 @@ Q is for Quantum is certainly not designed to be used as a classroom text – if
 
 TITLE: Ten updates
 URL: https://scottaaronson.blog/?m=201811
+DATE: Wednesday, November 7th, 2018
 CONTENT:
 If you like quantum, complexity, etc., then please read to the end! I’ve gotten a bunch of emails lately of the form “why haven’t you ever blogged about such-and-such?,” when it turned out that I damn well did blog about it; it was just somewhere down in a multi-item post.
 

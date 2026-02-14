@@ -1,5 +1,6 @@
 TITLE: Movie Review: M3GAN
 URL: https://scottaaronson.blog/?m=202301
+DATE: Sunday, January 15th, 2023
 CONTENT:
 [WARNING: SPOILERS FOLLOW]
 
@@ -37,6 +38,7 @@ Incredibly, unbelievably, here in the real world of 2023, what still seems most 
 
 TITLE: Cargo Cult Quantum Factoring
 URL: https://scottaaronson.blog/?m=202301
+DATE: Wednesday, January 4th, 2023
 CONTENT:
 Just days after we celebrated my wife’s 40th birthday, she came down with COVID, meaning she’s been isolating and I’ve been spending almost all my time dealing with our kids.
 

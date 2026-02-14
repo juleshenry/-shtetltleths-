@@ -1,5 +1,6 @@
 TITLE: My AI Safety Lecture for UT Effective Altruism
 URL: https://scottaaronson.blog/?m=202211
+DATE: Monday, November 28th, 2022
 CONTENT:
 Two weeks ago, I gave a lecture setting out my current thoughts on AI safety, halfway through my year at OpenAI.  I was asked to speak by UT Austin’s Effective Altruist club.  You can watch the lecture on YouTube here (I recommend 2x speed).
 
@@ -307,6 +308,7 @@ Certainly in the watermarking scheme that I’m working on now, we crucially exp
 
 TITLE: Dismantling Quantum Hype with Tim Nguyen
 URL: https://scottaaronson.blog/?m=202211
+DATE: Tuesday, November 22nd, 2022
 CONTENT:
 Happy Thanksgiving to my American readers!  While I enjoy a family holiday-week vacation in exotic Dallas—and yes, I will follow up on my old JFK post by visiting Dealey Plaza—please enjoy the following Thanksgiving victuals:
 
@@ -320,6 +322,7 @@ Enjoy!
 
 TITLE: Reform AI Alignment
 URL: https://scottaaronson.blog/?m=202211
+DATE: Sunday, November 20th, 2022
 CONTENT:
 Update (Nov. 22): Theoretical computer scientist and longtime friend-of-the-blog Boaz Barak writes to tell me that, coincidentally, he and Ben Edelman just released a big essay advocating a version of “Reform AI Alignment” on Boaz’s Windows on Theory blog, as well as on LessWrong.  (I warned Boaz that, having taken the momentous step of posting to LessWrong, in 6 months he should expect to find himself living in a rationalist group house in Oakland…)  Needless to say, I don’t necessarily endorse their every word or vice versa, but there’s a striking amount of convergence.  They also have a much more detailed discussion of (e.g.) which kinds of optimization processes they consider relatively safe.
 
@@ -371,6 +374,7 @@ What have I missed?
 
 TITLE: WINNERS of the Scott Aaronson Grant for Advanced Precollege STEM Education!
 URL: https://scottaaronson.blog/?m=202211
+DATE: Friday, November 18th, 2022
 CONTENT:
 I’m thrilled to be able to interrupt your regular depressing programming for 100% happy news.
 
@@ -388,6 +392,7 @@ I feel good that, in the tiny, underfunded world of accelerated STEM education, 
 
 TITLE: Sneerers
 URL: https://scottaaronson.blog/?m=202211
+DATE: Wednesday, November 16th, 2022
 CONTENT:
 In the past few weeks, I’ve learned two ways to think about online sneerers that have been helping me tremendously, and that I wanted to share in case they’re helpful to others:
 
@@ -399,6 +404,7 @@ Second, the sneerers are like alligators—and about as likely to be moved by yo
 
 TITLE: Sam Bankman-Fried and the geometry of conscience
 URL: https://scottaaronson.blog/?m=202211
+DATE: Sunday, November 13th, 2022
 CONTENT:
 Update (Dec. 15): This, by former Shtetl-Optimized guest blogger Sarah Constantin, is the post about SBF that I should’ve written and wish I had written.Update (Nov. 16): Check out this new interview of SBF by my friend and leading Effective Altruist writer Kelsey Piper.  Here Kelsey directly confronts SBF with some of the same moral and psychological questions that animated this post and the ensuing discussion—and, surely to the consternation of his lawyers, SBF answers everything she asks.  And yet I still don’t know what exactly to make of it.  SBF’s responses reveal a surprising cynicism (surprising because, if you’re that cynical, why be open about it?), as well as an optimism that he can still fix everything that seems wildly divorced from reality.
 
@@ -448,6 +454,7 @@ At any rate, I’d try to impress on him, as I do on anyone reading now, that th
 
 TITLE: The Caesar problem remains open
 URL: https://scottaaronson.blog/?m=202211
+DATE: Tuesday, November 8th, 2022
 CONTENT:
 If I haven’t blogged until now about the midterm election, it’s because I find the state of the world too depressing.  Go vote, obviously, if you’re eligible and haven’t yet.  How many more chances will you have?
 

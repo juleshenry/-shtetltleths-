@@ -1,5 +1,6 @@
 TITLE: An understandable failing?
 URL: https://scottaaronson.blog/?m=202205
+DATE: Sunday, May 29th, 2022
 CONTENT:
 I hereby precommit that this will be my last post, for a long time, around the twin themes of (1) the horribleness in the United States and the world, and (2) my desperate attempts to reason with various online commenters who hold me personally complicit in all this horribleness.  I should really focus my creativity more on actually fixing the world’s horribleness, than on seeking out every random social-media mudslinger who blames me for it, shouldn’t I?  Still, though, isn’t undue obsession with the latter a pretty ordinary human failing, a pretty understandable one?
 
@@ -31,6 +32,7 @@ Is it, err, OK if I sit this one out for now?  There’s probably, like, actuall
 
 TITLE: Donate to protect women’s rights: a call to my fellow creepy, gross, misogynist nerdbros
 URL: https://scottaaronson.blog/?m=202205
+DATE: Wednesday, May 4th, 2022
 CONTENT:
 So, I’d been planning a fun post for today about the DALL-E image-generating AI model, and in particular, a brief new preprint about DALL-E’s capabilities by Ernest Davis, Gary Marcus, and myself.  We wrote this preprint as a sort of “adversarial collaboration”: Ernie and Gary started out deeply skeptical of DALL-E, while I was impressed bordering on awestruck.  I was pleasantly surprised that we nevertheless managed to produce a text that we all agreed on.
 

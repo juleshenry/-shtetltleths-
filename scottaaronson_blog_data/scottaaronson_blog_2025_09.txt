@@ -1,5 +1,6 @@
 TITLE: The QMA Singularity
 URL: https://scottaaronson.blog/?m=202509
+DATE: Saturday, September 27th, 2025
 CONTENT:
 Update (Sep. 29): Since this post has now gone semi-viral on X, Hacker News, etc., with people arguing about how trivial or nontrivial was GPT5’s “discovery,” it seems worthwhile to say something that was implicit in the post.
 
@@ -39,6 +40,7 @@ I had tried similar problems a year ago, with the then-new GPT reasoning models,
 
 TITLE: HSBC unleashes yet another “qombie”: a zombie claim of quantum advantage that isn’t
 URL: https://scottaaronson.blog/?m=202509
+DATE: Thursday, September 25th, 2025
 CONTENT:
 Today, I got email after email asking me to comment on a new paper from HSBC—yes, the bank—together with IBM. The paper claims to use a quantum computer to get a 34% advantage in predictions of financial trading data. (See also blog posts here and here, or numerous popular articles that you can easily find and I won’t link.) What have we got? Let’s read the abstract:
 
@@ -60,6 +62,7 @@ Update (Sep. 26): Someone let me know that Martin Shkreli, the “pharma bro,”
 
 TITLE: Darkness over America
 URL: https://scottaaronson.blog/?m=202509
+DATE: Monday, September 22nd, 2025
 CONTENT:
 Update (September 24): A sympathetic correspondent wrote to tip me off that this blog post has caused me to get added to a list, maintained by MAGA activists and circulated by email, of academics and others who ought to “[face] some consequences for maligning the patriotic MAGA movement.”  Needless to say, not only did this post unequivocally condemn Charlie Kirk’s murder, it even mentioned areas of common ground between me and Kirk, and my beefs with the social-justice left.  If someone wants to go to the Texas Legislature to get me fired, literally the only thing they’ll have on me is that I “maligned the patriotic MAGA movement,” i.e. expressed political views shared by the majority of Americans.
 
@@ -81,6 +84,7 @@ Anyway, I keep hoping that my next post will be about quantum complexity theory 
 
 TITLE: Quantum Information Supremacy
 URL: https://scottaaronson.blog/?m=202509
+DATE: Friday, September 12th, 2025
 CONTENT:
 I’m thrilled that our paper entitled Demonstrating an unconditional separation between quantum and classical information resources, based on a collaboration between UT Austin and Quantinuum, is finally up on the arXiv.  I’m equally thrilled that my coauthor and former PhD student William Kretschmer — who led the theory for this project, and even wrote much of the code — is now my faculty colleague at UT Austin!  My physics colleague Nick Hunter-Jones and my current PhD student Sabee Grewal made important contributions as well.  I’d especially like to thank the team at Quantinuum for recognizing a unique opportunity to test and showcase their cutting-edge hardware, and collaborating with us wild-eyed theorists to make it happen.  This is something that, crucially, would not have been feasible with the quantum computing hardware of only a couple years ago.
 
@@ -100,6 +104,7 @@ In this corner of the internet, the scientist Scott Aaronson has written, “Any
 
 TITLE: For the record
 URL: https://scottaaronson.blog/?m=202509
+DATE: Thursday, September 4th, 2025
 CONTENT:
 In response to my recent blog posts, which expressed views that are entirely boring and middle-of-the-road for Americans as a whole, American Jews, and Israelis (“yes, war to destroy Hamas is basically morally justified, even if there are innocent casualties, as the only possible way to a future of coexistence and peace”)—many people declared that I was a raving genocidal maniac who wants to see all Palestinian children murdered out of sheer hatred, and who had destroyed his career and should never show his face in public again.
 
@@ -119,6 +124,7 @@ So I’d like to state for the record:
 
 TITLE: Deep Gratitude
 URL: https://scottaaronson.blog/?m=202509
+DATE: Tuesday, September 2nd, 2025
 CONTENT:
 In my last post, I wrote about all the hate mail I’ve received these past few days.  I even shared a Der-Stürmer-like image of a bloodthirsty, hook-nosed Orthodox Jew that some troll emailed me, after he’d repeatedly promised to send me a “diagram” that would improve my understanding of the Middle East.  (Incredibly, commenters on Peter Woit’s blog then blamed me for this antisemitic image, mistakenly imagining that I’d created it myself, and then used their false assumption as further proof of my mental illness.)
 

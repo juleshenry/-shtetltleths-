@@ -1,5 +1,6 @@
 TITLE: Mihai Pătrașcu Best Paper Award: Guest post from Seth Pettie
 URL: https://scottaaronson.blog/?m=202511
+DATE: Sunday, November 30th, 2025
 CONTENT:
 Scott’s foreword: Today I’m honored to turn over Shtetl-Optimized to a guest post from Michigan theoretical computer scientist Seth Pettie, who writes about a SOSA Best Paper Award newly renamed in honor of the late Mihai Pătrașcu.  Mihai, who I knew from his student days, was a brash, larger-than-life figure in theoretical computer science, for a brief few years until brain cancer tragically claimed him at the age of 29.  Mihai and I didn’t always agree—indeed, I don’t think he especially liked me, or this blog—but as I wrote when he passed, his death made any squabbles seem trivial in retrospect.  He was a lion of data structures, and it’s altogether fitting that this award be named for him. –SA
 
@@ -19,6 +20,7 @@ This award will be given at the SODA/SOSA business meeting in Vancouver, Canada,
 
 TITLE: Podcasts!
 URL: https://scottaaronson.blog/?m=202511
+DATE: Saturday, November 22nd, 2025
 CONTENT:
 A 9-year-old named Kai (“The Quantum Kid”) and his mother interviewed me about closed timelike curves, wormholes, Deutsch’s resolution of the Grandfather Paradox, and the implications of time travel for computational complexity:
 
@@ -36,6 +38,7 @@ As you may have heard, Steven Pinker recently wrote a fantastic popular book abo
 
 TITLE: Quantum Investment Bros: Have you no shame?
 URL: https://scottaaronson.blog/?m=202511
+DATE: Thursday, November 20th, 2025
 CONTENT:
 Near the end of my last post, I made a little offhand remark:
 
@@ -69,6 +72,7 @@ And yet, when I actually see the workings of capitalism up close, I often want t
 
 TITLE: Quantum computing: too much to handle!
 URL: https://scottaaronson.blog/?m=202511
+DATE: Thursday, November 13th, 2025
 CONTENT:
 Tomorrow I’m headed to Berkeley for the Inkhaven blogging residency, whose participants need to write one blog post per day or get kicked out.  I’ll be there to share my “wisdom” as a distinguished elder blogger (note that Shtetl-Optimized is now in its twentieth year).  I’m acutely aware of the irony, that I myself can barely muster the willpower these days to put up a post every other week.
 
@@ -104,6 +108,7 @@ To summarize three takeaways:
 
 TITLE: UT Austin’s Statement on Academic Integrity
 URL: https://scottaaronson.blog/?m=202511
+DATE: Thursday, November 6th, 2025
 CONTENT:
 A month ago William Inboden, the provost of UT Austin (where I work), invited me to join a university-wide “Faculty Working Group on Academic Integrity.”  The name made me think that it would be about students cheating on exams and the like.  I didn’t relish the prospect but I said sure.
 

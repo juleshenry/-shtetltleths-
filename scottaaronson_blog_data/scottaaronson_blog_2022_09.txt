@@ -1,5 +1,6 @@
 TITLE: Shorties!
 URL: https://scottaaronson.blog/?m=202209
+DATE: Friday, September 30th, 2022
 CONTENT:
 (1) Since I didn’t blog about this before: huge congratulations to David Deutsch, Charles Bennett, Gilles Brassard, and my former MIT colleague Peter Shor, and separately to Dan Spielman, for their well-deserved Breakthrough Prizes! Their contributions are all so epochal, so universally known to all of us in quantum information and theoretical computer science, that there’s little I can write to gild the lily, except to say how much I’ve learned by interacting with all five of them personally. I did enjoy this comment on the Breakthrough Prizes by someone on Twitter: “As long as that loudmouth Scott Aaronson keeps getting ignored, I’ll be happy.”
 
@@ -13,6 +14,7 @@ CONTENT:
 
 TITLE: I had a dream
 URL: https://scottaaronson.blog/?m=202209
+DATE: Wednesday, September 14th, 2022
 CONTENT:
 As I slept fitfully, still recovering from COVID, I had one of the more interesting dreams of my life:
 
@@ -32,6 +34,7 @@ A coda: I woke a bit after 7AM Central and started to write this down. But then�
 
 TITLE: What I’ve learned from having COVID
 URL: https://scottaaronson.blog/?m=202209
+DATE: Sunday, September 4th, 2022
 CONTENT:
 
 
@@ -39,6 +42,7 @@ CONTENT:
 
 TITLE: Win a $250,000 Scott Aaronson Grant for Advanced Precollege STEM Education!
 URL: https://scottaaronson.blog/?m=202209
+DATE: Thursday, September 1st, 2022
 CONTENT:
 Back in January, you might recall, Skype cofounder Jaan Tallinn’s Survival and Flourishing Fund (SFF) was kind enough to earmark $200,000 for me to donate to any charitable organizations of my choice.  So I posted a call for proposals on this blog.  You “applied” to my “foundation” by simply sending me an email, or leaving a comment on this blog, with a link to your organization’s website and a 1-paragraph explanation of what you wanted the grant for, and then answering any followup questions that I had.
 

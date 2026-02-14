@@ -1,5 +1,6 @@
 TITLE: David Poulin
 URL: https://scottaaronson.blog/?m=202006
+DATE: Monday, June 29th, 2020
 CONTENT:
 2020 sucks.
 
@@ -17,6 +18,7 @@ David was taken way too soon and will be missed by everyone who knew him.  Feel 
 
 TITLE: Pseudonymity as a trivial concession to genius
 URL: https://scottaaronson.blog/?m=202006
+DATE: Tuesday, June 23rd, 2020
 CONTENT:
 Update (6/24): For further thoughts and context about this unfolding saga, see this excellent piece by Tom Chivers (author of The AI Does Not Hate You, so far the only book about the rationalist community, one that I reviewed here).
 
@@ -50,6 +52,7 @@ For now, though, the brute fact is that Scott is obviously not comfortable makin
 
 TITLE: Quantum Computing Since Democritus: New Foreword!
 URL: https://scottaaronson.blog/?m=202006
+DATE: Saturday, June 20th, 2020
 CONTENT:
 Time for a non-depressing post.  Quantum Computing Since Democritus, which is already available in English and Russian, is about to be published in both Chinese and Japanese.  (So if you read this blog, but have avoided tackling QCSD because your Chinese or Japanese is better than your English, today’s your day!)  To go along with the new editions, Cambridge University Press asked me to write a new foreword, reflecting on what happened in the seven years since the book was published.  The editor, Paul Dobson, kindly gave me permission to share the new foreword on my blog.  So without further ado…
 
@@ -95,6 +98,7 @@ Scott AaronsonAustin, TexasJune 2020
 
 TITLE: Justice has no faction
 URL: https://scottaaronson.blog/?m=202006
+DATE: Thursday, June 18th, 2020
 CONTENT:
 (1) To start with some rare good news: I was delighted that the US Supreme Court, in a 5-4 holding led by Chief Justice Roberts (!), struck down the Trump administration’s plan to end DACA (Deferred Action for Childhood Arrivals). Dismantling DACA would’ve been a first step toward deporting 700,000 overwhelmingly blameless and peaceful people from, in many cases, the only homes they remember, for no particular reason other than to slake the resentment of Trump’s base. Better still was the majority’s argument: that when, by law, a federal agency has to supply a reason for a policy change (in this case, ending DACA), its reason can’t just be blatantly invented post facto.
 
@@ -116,6 +120,7 @@ The second reasonable argument is that, as far as I can tell, Hsu really did gra
 
 TITLE: Book Review: “Will He Go?”
 URL: https://scottaaronson.blog/?m=202006
+DATE: Thursday, June 11th, 2020
 CONTENT:
 Will He Go?, by legal scholar Lawrence Douglas, is, at 120 pages, a slim volume focused on a single question: what happens if the 2020 US election delivers a narrow or disputed result favoring Biden, and Trump refuses to concede?  This question will, of course, either be answered or rendered irrelevant in half a year.  And yet, in my estimation, there’s at least a 15% probability that Will He Go? will enter the ranks of the most important and prescient books ever written.  You should read it right now (or at least read this Vox interview), if you want to think through the contours of a civilizational Singularity that seems at least as plausible to me as the AI Singularity, but whose fixed date of November 3, 2020 we’re now hurtling toward.
 
@@ -171,6 +176,7 @@ I’d rather not, though.  As Douglas points out, the more overwhelming we can m
 
 TITLE: Jonathan Dowling (1955-2020)
 URL: https://scottaaronson.blog/?m=202006
+DATE: Saturday, June 6th, 2020
 CONTENT:
 Today I woke up to the sad and shocking news that Jon Dowling (homepage / Twitter / Wikipedia)—physics professor at Louisiana State, guy who got the US government to invest in quantum computing back in the 90s, author of the popular book Schrödinger’s Killer App: Race to Build the World’s First Quantum Computer, investigator of BosonSampling among many other topics, owner of a “QUBIT” license plate, and one of my main competitors in the field of quantum computing humor—has passed away at age 65, apparently due to an aortic aneurysm.
 
@@ -190,6 +196,7 @@ Feel free to share your own Dowling stories in the comments.
 
 TITLE: Pooled testing for covid: Guest post by Zeph Landau
 URL: https://scottaaronson.blog/?m=202006
+DATE: Thursday, June 4th, 2020
 CONTENT:
 Scott’s foreword: Zeph Landau, a noted quantum computing theorist at UC Berkeley who’s worked closely with my adviser Umesh Vazirani, recently asked me if he could write a guest post about pooled testing for covid—an old idea that, Zeph argues, could play a crucial role in letting universities safely reopen this fall.  Seeing a small chance to do a great good, I readily agreed.
 
@@ -285,6 +292,7 @@ Zeph LandauDept. of Computer ScienceUniversity of California, Berkeley
 
 TITLE: The US might die, but P and PSPACE are forever
 URL: https://scottaaronson.blog/?m=202006
+DATE: Monday, June 1st, 2020
 CONTENT:
 Today, I interrupt the news of the rapid disintegration of the United States of America, on every possible front at once (medical, economic, social…), to bring you something far more important: a long-planned two-hour podcast, where theoretical physicist and longtime friend-of-the-blog Sean Carroll interviews yours truly about complexity theory!  Here’s Sean’s description of this historic event:
 

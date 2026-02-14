@@ -1,5 +1,6 @@
 TITLE: Quantum Complexity Theory Student Project Showcase #5 (2025 Edition)!
 URL: https://scottaaronson.blog/?m=202507
+DATE: Thursday, July 31st, 2025
 CONTENT:
 Sorry for the long blog-hiatus!  I was completely occupied for weeks, teaching an intensive course on theoretical computer science to 11-year-olds (!), at a math camp in St. Louis that was also attended by my 8-year-old son.  Soon I’ll accompany my 12-year-old daughter to a science camp in Connecticut, where I’ll also give lectures.
 

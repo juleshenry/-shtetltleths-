@@ -1,5 +1,6 @@
 TITLE: De-sneering my life
 URL: https://scottaaronson.blog/?m=201902
+DATE: Wednesday, February 27th, 2019
 CONTENT:
 If I’m being honest, the most exciting recent development in my life is this: a little over a month ago, I stopped checking “SneerClub” (a place I’d previously resolved not even to name here, but I think an exception is warranted now).  Permanently, cold turkey.  I won’t even visit to read their sneers about this post.  I’ve made progress cutting down on other self-destructive social media fixations as well.  Many friends suggested this course to me, and I thank them all, though I ultimately had to follow my own path to the obvious.
 
@@ -27,6 +28,7 @@ But on the bright side: how wonderful to have born into a time and place when, f
 
 TITLE: Four updates
 URL: https://scottaaronson.blog/?m=201902
+DATE: Tuesday, February 12th, 2019
 CONTENT:
 A few weeks ago, I was at QIP’2019 in Boulder, CO.  This week I was at SQuInT’2019 in Albuquerque, NM.  There were lots of amazing talks—feel free to ask in the comments section.
 
@@ -40,6 +42,7 @@ The STOC’2019 accepted papers list is finally out.  Lots of cool stuff!
 
 TITLE: Sabineblogging
 URL: https://scottaaronson.blog/?m=201902
+DATE: Monday, February 4th, 2019
 CONTENT:
 I’ve of course been following the recent public debate about whether to build a circular collider to succeed the LHC—notably including Sabine Hossenfelder’s New York Times column arguing that we shouldn’t.  (See also the responses by Jeremy Bernstein and Lisa Randall, and the discussion on Peter Woit’s blog, and Daniel Harlow’s Facebook thread, and this Vox piece by Kelsey Piper.)  Let me blog about this as a way of cracking my knuckles or tuning my violin, just getting back into blog-shape after a long hiatus for travel and family and the beginning of the semester.
 

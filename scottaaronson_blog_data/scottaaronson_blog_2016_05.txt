@@ -1,5 +1,6 @@
 TITLE: My Quora session
 URL: https://scottaaronson.blog/?m=201605
+DATE: Thursday, May 19th, 2016
 CONTENT:
 Here it is.  Enjoy!  (But sorry, no new questions right now.)
 
@@ -7,6 +8,7 @@ Here it is.  Enjoy!  (But sorry, no new questions right now.)
 
 TITLE: Three announcements
 URL: https://scottaaronson.blog/?m=201605
+DATE: Monday, May 9th, 2016
 CONTENT:
 (-3) Bonus Announcement of May 30: As a joint effort by Yuri Matiyasevich, Stefan O’Rear, and myself, and using the Not-Quite-Laconic language that Stefan adapted from Adam Yedidia’s Laconic, we now have a 744-state TM that halts iff there’s a counterexample to the Riemann Hypothesis.
 
@@ -34,6 +36,7 @@ So yes, I really hope Uber, Lyft, and the city of Austin manage to sort this out
 
 TITLE: The 8000th Busy Beaver number eludes ZF set theory: new paper by Adam Yedidia and me
 URL: https://scottaaronson.blog/?m=201605
+DATE: Tuesday, May 3rd, 2016
 CONTENT:
 I’ve supervised a lot of great student projects in my nine years at MIT, but my inner nerdy teenager has never been as personally delighted by a project as it is right now.  Today, I’m proud to announce that Adam Yedidia, a PhD student at MIT (but an MEng student when he did most of this work), has explicitly constructed a one-tape, two-symbol Turing machine with 7,918 states, whose behavior (when run on a blank tape) can never be proven from the usual axioms of set theory, under reasonable consistency hypotheses.  Adam has also constructed a 4,888-state Turing machine that halts iff there’s a counterexample to Goldbach’s Conjecture, and a 5,372-state machine that halts iff there’s a counterexample to the Riemann Hypothesis.  In all three cases, this is the first time we’ve had a reasonable explicit upper bound on how many states you need in a Turing machine before you can see the behavior in question.
 
@@ -91,6 +94,7 @@ Addendum: Some people might wonder “why Turing machines,” as opposed to a mo
 
 TITLE: “Largely just men doing sums”: My review of the excellent Ramanujan film
 URL: https://scottaaronson.blog/?m=201605
+DATE: Sunday, May 1st, 2016
 CONTENT:
 [Warning: This movie review contains spoilers, as well as a continued fraction expansion.]
 

@@ -1,5 +1,6 @@
 TITLE: Why Quantum Mechanics?
 URL: https://scottaaronson.blog/?m=202201
+DATE: Tuesday, January 25th, 2022
 CONTENT:
 In the past few months, I’ve twice injured the same ankle while playing with my kids.  This, perhaps combined with covid, led me to several indisputable realizations:
 
@@ -33,6 +34,7 @@ OK, maybe four more comments to enable a more productive discussion, before I sh
 
 TITLE: Win a Scott Aaronson Speculation Grant!
 URL: https://scottaaronson.blog/?m=202201
+DATE: Thursday, January 20th, 2022
 CONTENT:
 Exciting news, everyone!  Jaan Tallinn, who many of you might recognize as a co-creator of Skype, tech enthusiast, and philanthropist, graciously invited me, along with a bunch of other nerds, to join the new Speculation Grants program of the Survival and Flourishing Fund (SFF).  In plain language, that means that Jaan is giving me $200,000 to distribute to charitable organizations in any way I see fit—though ideally, my choices will have something to do with the survival and flourishing of our planet and civilization.
 
@@ -64,6 +66,7 @@ Note: Any other philanthropists who read this blog, and who’d like to add to t
 
 TITLE: On tardigrades, superdeterminism, and the struggle for sanity
 URL: https://scottaaronson.blog/?m=202201
+DATE: Monday, January 10th, 2022
 CONTENT:
 (Hopefully no one has taken taken that title yet!)
 
@@ -97,6 +100,7 @@ Update: Oh right, and the QIP’2022 list of accepted talks is out!  And I was o
 
 TITLE: The demise of Scientific American: Guest post by Ashutosh Jogalekar
 URL: https://scottaaronson.blog/?m=202201
+DATE: Monday, January 3rd, 2022
 CONTENT:
 Scott’s foreword
 
@@ -136,6 +140,7 @@ Update (from Scott): See here for the Hacker News thread about this post.  I was
 
 TITLE: Book Review: “Viral” by Alina Chan and Matt Ridley
 URL: https://scottaaronson.blog/?m=202201
+DATE: Saturday, January 1st, 2022
 CONTENT:
 Happy New Year, everyone!
 

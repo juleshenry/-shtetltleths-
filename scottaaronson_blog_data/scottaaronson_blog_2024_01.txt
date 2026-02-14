@@ -1,5 +1,6 @@
 TITLE: Does fermion doubling make the universe not a computer?
 URL: https://scottaaronson.blog/?m=202401
+DATE: Monday, January 29th, 2024
 CONTENT:
 Unrelated Announcement: The Call for Papers for the 2024 Conference on Computational Complexity is now out!  Submission deadline is Friday February 16.
 

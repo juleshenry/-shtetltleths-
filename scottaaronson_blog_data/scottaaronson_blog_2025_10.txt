@@ -1,5 +1,6 @@
 TITLE: On keeping a packed suitcase
 URL: https://scottaaronson.blog/?m=202510
+DATE: Friday, October 31st, 2025
 CONTENT:
 Update (Nov. 6): I’ve closed the comments, as they crossed the threshold from “sometimes worthwhile” to “purely abusive.”  As for Mamdani’s victory: as I like to say in such cases (and said, e.g., after George W. Bush’s and Trump’s victories), the silver lining to which I cling is that either I’ll be pleasantly surprised, and things won’t be quite as terrible as I expect, or else I’ll be vindicated.
 
@@ -39,6 +40,7 @@ Oh, and speaking of zombies, Happy Halloween everyone!  Boooooooo!
 
 TITLE: An Experimental Program for AI-Powered Feedback at STOC: Guest Post from David Woodruff
 URL: https://scottaaronson.blog/?m=202510
+DATE: Tuesday, October 28th, 2025
 CONTENT:
 This year for STOC, we decided to run an experiment to explore the use of Large Language Models in the theoretical computer science community, and we’re inviting the entire community to participate.
 
@@ -64,6 +66,7 @@ Please see the STOC Call for Papers here and specific details on the experimen
 
 TITLE: My talk at Columbia University: “Computational Complexity and Explanations in Physics”
 URL: https://scottaaronson.blog/?m=202510
+DATE: Thursday, October 16th, 2025
 CONTENT:
 Last week, I gave the Patrick Suppes Lecture in the Columbia University Philosophy Department.  Patrick Suppes was a distinguished philosopher at Stanford who (among many other things) pioneered remote gifted education through the EPGY program, and who I was privileged to spend some time with back in 2007, when he was in his eighties.
 
@@ -91,6 +94,7 @@ All in all, I had a wonderful time at Columbia, and based on what I saw, I won�
 
 TITLE: Sad and happy day
 URL: https://scottaaronson.blog/?m=202510
+DATE: Tuesday, October 7th, 2025
 CONTENT:
 Today, of course, is the second anniversary of the genocidal Oct. 7 invasion of Israel—the deadliest day for Jews since the Holocaust, and the event that launched the current wars that have been reshaping the Middle East for better and/or worse. Regardless of whether their primary concern is for Israelis, Palestinians, or both, I’d hope all readers of this blog could at least join me in wishing this barbaric invasion had never happened, and in condemning the celebrations of it taking place around the world.
 

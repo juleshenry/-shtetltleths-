@@ -1,5 +1,6 @@
 TITLE: Quantum! AI! Everything but Trump!
 URL: https://scottaaronson.blog/?m=202504
+DATE: Wednesday, April 30th, 2025
 CONTENT:
 
 
@@ -7,6 +8,7 @@ CONTENT:
 
 TITLE: Fight Fiercely
 URL: https://scottaaronson.blog/?m=202504
+DATE: Thursday, April 24th, 2025
 CONTENT:
 Last week I visited Harvard and MIT, and as advertised in my last post, gave the Yip Lecture at Harvard on the subject “How Much Math Is Knowable?”  The visit was hosted by Harvard’s wonderful Center of Mathematical Sciences and Applications (CMSA), directed by my former UT Austin colleague Dan Freed.  Thanks so much to everyone at CMSA for the visit.
 
@@ -38,6 +40,7 @@ When I travel to universities to give talks, though, I meet one sane, reasonable
 
 TITLE: I speak at Harvard as it faces its biggest crisis since 1636
 URL: https://scottaaronson.blog/?m=202504
+DATE: Tuesday, April 15th, 2025
 CONTENT:
 Every week, I tell myself I won’t do yet another post about the asteroid striking American academia, and then every week events force my hand otherwise.
 
@@ -59,6 +62,7 @@ Update (April 16): Commenter Greg argues that, in the title of this post, I prob
 
 TITLE: My most rage-inducing beliefs
 URL: https://scottaaronson.blog/?m=202504
+DATE: Monday, April 14th, 2025
 CONTENT:
 A friend and I were discussing whether there’s anything I could possibly say, on this blog, in 2025, that wouldn’t provoke an outraged reaction from my commenters.  So I started jotting down ideas.  Let’s see how I did.
 
@@ -66,6 +70,7 @@ A friend and I were discussing whether there’s anything I could possibly say, 
 
 TITLE: Theoretical Computer Science for AI Alignment … and More
 URL: https://scottaaronson.blog/?m=202504
+DATE: Thursday, April 10th, 2025
 CONTENT:
 In this terrifying time for the world, I’m delighted to announce a little glimmer of good news.  I’m receiving a large grant from the wonderful Open Philanthropy, to build up a group of students and postdocs over the next few years, here at UT Austin, to do research in theoretical computer science that’s motivated by AI alignment.  We’ll think about some of the same topics I thought about in my time at OpenAI—interpretability of neural nets, cryptographic backdoors, out-of-distribution generalization—but we also hope to be a sort of “consulting shop,” to whom anyone in the alignment community can come with theoretical computer science problems.
 
@@ -93,6 +98,7 @@ Thanks so much to the folks at Open Philanthropy, and to everyone else doing the
 
 TITLE: In favor of the morally sane thing
 URL: https://scottaaronson.blog/?m=202504
+DATE: Thursday, April 3rd, 2025
 CONTENT:
 The United States is now a country that disappears people.
 

@@ -1,5 +1,6 @@
 TITLE: The Busy Beaver Frontier
 URL: https://scottaaronson.blog/?m=202007
+DATE: Thursday, July 23rd, 2020
 CONTENT:
 Update (July 27): I now have a substantially revised and expanded version (now revised and expanded even a second time), which incorporates (among other things) the extensive feedback that I got from this blog post.  There are new philosophical remarks, some lovely new open problems, and an even-faster-growing (!) integer sequence.  Check it out!
 
@@ -35,6 +36,7 @@ Update (July 24): Longtime commenter Joshua Zelinsky gently reminded me that one
 
 TITLE: Is this blog obsolete?
 URL: https://scottaaronson.blog/?m=202007
+DATE: Monday, July 20th, 2020
 CONTENT:
 Longtime friend-of-the-blog Michael Nielsen, formerly a quantum computing theorist and now an independent thinker about science and AI and learning, posted the following exchange with the astounding GPT-3 text generator / chatbot:
 
@@ -58,6 +60,7 @@ And yes, as many have already remarked, this is clearly the MITS Altair of text-
 
 TITLE: My Enlightenment fanaticism
 URL: https://scottaaronson.blog/?m=202007
+DATE: Tuesday, July 7th, 2020
 CONTENT:
 Update (July 17): Friend-of-the-blog Karen Morenz points me to a piece by Bonny Brooks, articulating a left-wing case against cancel culture.  I read it and found much to agree with.  Mostly, though, I was really happy to spend this week doing some actual research (nearly the first since the pandemic started) rather than blogging culture-war stuff!  Speaking of which, please get in any last comments within the next day or so; then I’ll close down the thread.
 
@@ -111,6 +114,7 @@ Spend a lot of time on Twitter and Reddit and news sites, and it feels like the 
 
 TITLE: Scott’s Zoom tip: Email the link!
 URL: https://scottaaronson.blog/?m=202007
+DATE: Friday, July 3rd, 2020
 CONTENT:
 Like many academics, I’ve now been regularly “attending” conferences and giving talks via Zoom for four months.  Naturally, I’ve learned a lot about how to use this platform—one that, despite numerous quirks and flaws, actually works well enough that it could probably replace at least 2/3 of in-person talks and meetings after the covid crisis is over.  But one particular lesson is so important that I thought I’d make a public service announcement of it.  So without further ado:
 

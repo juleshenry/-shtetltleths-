@@ -1,5 +1,6 @@
 TITLE: My podcast with Brian Greene
 URL: https://scottaaronson.blog/?m=202410
+DATE: Friday, October 18th, 2024
 CONTENT:
 Yes, he’s the guy from The Elegant Universe book and TV series.  Our conversation is 1 hour 40 minutes; as usual I strongly recommend listening at 2x speed.  The topics, chosen by Brian, include quantum computing (algorithms, hardware, error-correction … the works), my childhood, the interpretation of quantum mechanics, the current state of AI, the future of sentient life in the cosmos, and mathematical Platonism.  I’m happy with how it turned out; in particular, my verbal infelicities seem to have been at a minimum this time.  I recommend skipping the YouTube comments if you want to stay sane, but do share your questions and reactions in the comments here.  Thanks to Brian and his team for doing this.  Enjoy!
 
@@ -9,6 +10,7 @@ Update (Oct. 28): If that’s not enough Scott Aaronson video content for you, p
 
 TITLE: My Nutty, Extremist Beliefs
 URL: https://scottaaronson.blog/?m=202410
+DATE: Sunday, October 13th, 2024
 CONTENT:
 In nearly twenty years of blogging, I’ve unfortunately felt more and more isolated and embattled.  It now feels like anything I post earns severe blowback, from ridicule on Twitter, to pseudonymous comment trolls, to scary and aggressive email bullying campaigns.  Reflecting on this, though, I came to see that such strong reactions are an understandable response to my extremist stances.  When your beliefs smash the Overton Window into tiny shards like mine do, what do you expect?  Just consider some of the intransigent, hard-line stances I’ve taken here on Shtetl-Optimized:
 
@@ -50,6 +52,7 @@ All the same, I sometimes ask myself: what was the point of becoming a professor
 
 TITLE: My October 7 post
 URL: https://scottaaronson.blog/?m=202410
+DATE: Monday, October 7th, 2024
 CONTENT:
 For weeks I agonized over what, if anything, this post should say. How does one commemorate a tragedy that isn’t over for millions of innocents on either side?  How do I add to what friend-of-the-blog Boaz Barak and countless others have already written?
 
@@ -85,6 +88,7 @@ And that’s the exact point where we reach the end of discussion and argument, 
 
 TITLE: Quantum advantage for NP approximation? For REAL this time?
 URL: https://scottaaronson.blog/?m=202410
+DATE: Saturday, October 5th, 2024
 CONTENT:
 The other night I spoke at a quantum computing event and was asked—for the hundredth time? the thousandth?—whether I agreed that the quantum algorithm called QAOA was poised revolutionize industries by finding better solutions to NP-hard optimization problems. I replied that while serious, worthwhile research on that algorithm continues, alas, so far I have yet to see a single piece of evidence that QAOA outperforms the best classical heuristics on any problem that anyone cares about. (Note added: in the comments, Ashley Montanaro shares a paper with empirical evidence that QAOA provides a modest polynomial speedup over known classical heuristics for random k-SAT.  This is the best/only such evidence I’ve seen, and which still stands as far as I know!)
 
@@ -126,6 +130,7 @@ Regardless, though, as of this week, the hope of using quantum computers to get 
 
 TITLE: Sad times for AI safety
 URL: https://scottaaronson.blog/?m=202410
+DATE: Tuesday, October 1st, 2024
 CONTENT:
 Many of you will have seen the news that Governor Gavin Newsom has vetoed SB 1047, the groundbreaking AI safety bill that overwhelmingly passed the California legislature. Newsom gave a disingenuous explanation (which no one on either side of the debate took seriously), that he vetoed the bill only because it didn’t go far enough (!!) in regulating the misuses of small models. While sad, this doesn’t come as a huge shock, as Newsom had given clear prior indications that he was likely to veto the bill, and many observers had warned to expect him to do whatever he thought would most further his political ambitions and/or satisfy his strongest lobbyists. In any case, I’m reluctantly forced to the conclusion that either Governor Newsom doesn’t read Shtetl-Optimized, or else he somehow wasn’t persuaded by my post last month in support of SB 1047.
 

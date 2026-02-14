@@ -1,5 +1,6 @@
 TITLE: Can we reverse time to before this hypefest started?
 URL: https://scottaaronson.blog/?m=201903
+DATE: Friday, March 15th, 2019
 CONTENT:
 The purpose of this post is mostly just to signal-boost Konstantin Kakaes’s article in MIT Technology Review, entitled “No, scientists didn’t just ‘reverse time’ with a quantum computer.”  The title pretty much says it all—but if you want more, you should read the piece, which includes the following droll quote from some guy calling himself “Director of the Quantum Information Center at the University of Texas at Austin”:
 
@@ -13,6 +14,7 @@ If there’s anything interesting here, I suppose it’s just that “scientists
 
 TITLE: “Quantum Computing and the Meaning of Life”
 URL: https://scottaaronson.blog/?m=201903
+DATE: Wednesday, March 13th, 2019
 CONTENT:
 Manolis Kellis is a computational biologist at MIT, known as one of the leaders in applying big data to genomics and gene regulatory networks.  Throughout my 9 years at MIT, Manolis was one of my best friends there, even though our research styles and interests might seem distant.  He and I were in the same PECASE class; see if you can spot us both in this photo (in the rows behind America’s last sentient president).  My and Manolis’s families also became close after we both got married and had kids.  We still keep in touch.
 
@@ -28,6 +30,7 @@ Happy birthday Manolis!
 
 TITLE: Death of proof greatly exaggerated
 URL: https://scottaaronson.blog/?m=201903
+DATE: Thursday, March 7th, 2019
 CONTENT:
 In 1993, the science writer John Horgan—who’s best known for his book The End of Science, and (of course) for interviewing me in 2016—wrote a now-(in)famous cover article for Scientific American entitled “The Death of Proof.”  Mashing together a large number of (what I’d consider) basically separate trends and ideas, Horgan argued that math was undergoing a fundamental change, with traditional deductive proofs being replaced by a combination of non-rigorous numerical simulations, machine-generated proofs, probabilistic and probabilistically-checkable proofs, and proofs using graphics and video.  Horgan also suggested that Andrew Wiles’s then-brand-new proof of Fermat’s Last Theorem—which might have looked, at first glance, like a spectacular counterexample to the “death of proof” thesis—could be the “last gasp of a dying culture” and a “splendid anachronism.”  Apparently, “The Death of Proof” garnered one of the largest volumes of angry mail in Scientific American‘s history, with mathematician after mathematician arguing that Horgan had strung together half-digested quotes and vignettes to manufacture a non-story.
 

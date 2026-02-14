@@ -1,5 +1,6 @@
 TITLE: Quantum computing news (98% Trump-free)
 URL: https://scottaaronson.blog/?m=201611
+DATE: Thursday, November 24th, 2016
 CONTENT:
 (1) Apparently Microsoft has decided to make a major investment in building topological quantum computers, which will include hiring Charles Marcus and Matthias Troyer among others.  See here for their blog post, and here for the New York Times piece.  In the race to implement QC among the established corporate labs, Microsoft thus joins the Martinis group at Google, as well as the IBM group at T. J. Watson—though both Google and IBM are focused on superconducting qubits, rather than the more exotic nonabelian anyon approach that Microsoft has long favored and is now doubling down on.  I don’t really know more about this new initiative beyond what’s in the articles, but I know many of the people involved, they’re some of the most serious in the business, and Microsoft intensifying its commitment to QC can only be good for the field.  I wish the new effort every success, despite being personally agnostic between superconducting qubits, trapped ions, photonics, nonabelian anyons, and other QC hardware proposals—whichever one gets there first is fine with me!
 
@@ -19,6 +20,7 @@ Unfortunately, Lior tells me that Oded Regev has discovered a flaw in the algori
 
 TITLE: A paper trail that’s never checked might as well not exist
 URL: https://scottaaronson.blog/?m=201611
+DATE: Wednesday, November 23rd, 2016
 CONTENT:
 Update and Action Item: Just since late this afternoon, the Jill Stein campaign has already raised more than $1 million toward requesting hand recounts in Pennsylvania, Michigan, and Wisconsin.  Their target is $6-7 million.  I just donated what I could; if you agree with this post, then please do the same.  It doesn’t matter at this point if you disagree with Stein, or even (like me) think she shouldn’t have run: the goal is just to get a recount to happen before the deadline expires.
 
@@ -46,6 +48,7 @@ Happy Thanksgiving.
 
 TITLE: Never, never, never normalize this
 URL: https://scottaaronson.blog/?m=201611
+DATE: Friday, November 11th, 2016
 CONTENT:
 It’s become depressingly clear the last few days that even many American liberals don’t understand the magnitude of what’s happened.  Maybe those well-meaning liberals simply have more faith than I do in our nation’s institutions, despite the recent overwhelming evidence to the contrary (if the institutions couldn’t stop a Trump presidency, then what can they stop?).  Maybe they think all Republicans are as bad as Trump, or even that Trump is preferable to a generic Republican.  Or maybe my liberal friends are so obsessed by the comparatively petty rivalries between the far left and the center left—between Sanders and Clinton, or between social-justice types and Silicon Valley nerds—that they’ve lost sight of the only part of this story that anyone will care about a hundred years from now: namely, the delivering of the United States into the hands of a vengeful lunatic and his sycophants.
 
@@ -166,6 +169,7 @@ Some readers might also be interested in my reflections on being on the “same 
 
 TITLE: What is there to say?
 URL: https://scottaaronson.blog/?m=201611
+DATE: Wednesday, November 9th, 2016
 CONTENT:
 Update (Nov. 10): In the wake of the US’s authoritarian takeover, I will sadly understand if foreign students and postdocs no longer wish to study in the US, or if foreign researchers no longer wish to enter the US even for conferences and visits.  After all, I wouldn’t feel safe in Erdogan’s Turkey or the Mullahs’ Iran.  In any case, I predict that the US’s scientific influence will now start to wane, as top researchers from elsewhere find ways to route around us.
 

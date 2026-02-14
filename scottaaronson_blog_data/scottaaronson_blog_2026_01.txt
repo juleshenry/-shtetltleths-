@@ -1,5 +1,6 @@
 TITLE: Guest Post from an Iranian
 URL: https://scottaaronson.blog/?m=202601
+DATE: Saturday, January 31st, 2026
 CONTENT:
 The following guest post was written by a Shtetl-Optimized fan in Iran, who’s choosing to remain anonymous for obvious reasons.  I’m in awe of the courage of this individual and the millions of other Iranians who’ve risked or, tragically, sacrificed their lives these past few weeks, to stand for something about as unequivocally good and against something about as unequivocally evil as has ever existed on earth.  I’m enraged at the relative indifference of the world, and of the US in particular, to these brave Iranians’ plight.  There’s still time for the US to fulfill its promise to the protesters and do the right thing—something that I’ll support even if it endangers my friends and family living in Israel.  I check the news from Iran every day, and pray that my friends and colleagues there stay safe—and that they, and the world, will soon be free from the Ayatollahs, who now stand fully unmasked before the world as the murderous thugs they always were. –SA
 
@@ -41,6 +42,7 @@ Thank you to everyone who took the time to read this. I know it is long, and I k
 
 TITLE: Quantum is my happy place
 URL: https://scottaaronson.blog/?m=202601
+DATE: Wednesday, January 28th, 2026
 CONTENT:
 
 
@@ -48,6 +50,7 @@ CONTENT:
 
 TITLE: On thugs
 URL: https://scottaaronson.blog/?m=202601
+DATE: Saturday, January 24th, 2026
 CONTENT:
 Those of us who tried to stop Trump from ever coming to power—and who then tried to stop his return to power—were accused of hysterics, of Trump Derangement Syndrome, when we talked about authoritarianism and the death of liberal democracy. Yet masked government agents summarily executing protesters in the street, under the orders and protection of the president, is now the reality and even the defining image of the United States—or at least the defining image of Minnesota, and the model will soon be exported nationally if it isn’t stopped right now by coast-to-coast revulsion and defiance. Let all those who denied what was happening, or who justified it, including in the comments section of this blog, hang their heads in shame forever.
 
@@ -63,6 +66,7 @@ This is a stance, I’ve learned, that will lose you friends. People will say: �
 
 TITLE: I Had A Dream
 URL: https://scottaaronson.blog/?m=202601
+DATE: Sunday, January 18th, 2026
 CONTENT:
 Alas, the dream that I had last night was not the inspiring, MLK kind of dream, even though tomorrow happens to be the great man’s day.  No, I had the literal kind of dream, where everything seems real but then you wake up and remember only the last fragments.
 
@@ -94,6 +98,7 @@ Mostly, I remember being surprised to have had a dream that was this coherent an
 
 TITLE: Scott A. on Scott A. on Scott A.
 URL: https://scottaaronson.blog/?m=202601
+DATE: Sunday, January 18th, 2026
 CONTENT:
 Scott Alexander has put up one of his greatest posts ever, a 10,000-word eulogy to Dilbert creator Scott Adams, of which I would’ve been happy to read 40,000 words more.  In it, Alexander trains a microscope on Adams’ tragic flaws as a thinker and human being, but he adds:
 
@@ -143,6 +148,7 @@ Scott Adams was hardly the first great artist to have tragic moral flaws, or to 
 
 TITLE: FREEDOM (while hoping my friends stay safe)
 URL: https://scottaaronson.blog/?m=202601
+DATE: Sunday, January 11th, 2026
 CONTENT:
 This deserves to become one of the iconic images of human history, alongside the Tank Man of Tiananmen Square and so forth.
 
@@ -166,6 +172,7 @@ Update: I’m sick with fear for my many colleagues and friends in Iran and thei
 
 TITLE: The Goodness Cluster
 URL: https://scottaaronson.blog/?m=202601
+DATE: Wednesday, January 7th, 2026
 CONTENT:
 The blog-commenters come at me one by one, a seemingly infinite supply of them, like masked henchmen in an action movie throwing karate chops at Jackie Chan.
 
@@ -199,6 +206,7 @@ Announcement: I’m currently on my way to Seattle, to speak in the CS departmen
 
 TITLE: Venezuela through the lens of good and evil
 URL: https://scottaaronson.blog/?m=202601
+DATE: Sunday, January 4th, 2026
 CONTENT:
 I woke up yesterday morning happy and relieved that the Venezuelan people were finally free of their brutal dictator.
 

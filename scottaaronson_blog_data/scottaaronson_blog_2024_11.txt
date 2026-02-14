@@ -1,5 +1,6 @@
 TITLE: Thanksgiving
 URL: https://scottaaronson.blog/?m=202411
+DATE: Thursday, November 28th, 2024
 CONTENT:
 I’m thankful to the thousands of readers of this blog.  Well, not the few who submit troll comments from multiple pseudonymous handles, but the 99.9% who don’t. I’m thankful that they’ve stayed here even when events (as they do more and more often) send me into a spiral of doomscrolling and just subsisting hour-to-hour—when I’m left literally without words for weeks.
 
@@ -43,6 +44,7 @@ I’m thankful for Futurama, and for the ability to stream every episode of it i
 
 TITLE: Letter to a Jewish voter in Pennsylvania
 URL: https://scottaaronson.blog/?m=202411
+DATE: Sunday, November 3rd, 2024
 CONTENT:
 Election Day Update: For anyone who’s still undecided (?!?), I can’t beat this from Sam Harris.
 
@@ -110,6 +112,7 @@ More Resources: Be sure to check out Scott Alexander’s election-eve post, whic
 
 TITLE: Steven Rudich (1961-2024)
 URL: https://scottaaronson.blog/?m=202411
+DATE: Saturday, November 2nd, 2024
 CONTENT:
 I was sure my next post would be about the election—the sword of Damocles hanging over the United States and civilization as a whole.  Instead, I have sad news, but also news that brings memories of warmth, humor, and complexity-theoretic insight.
 

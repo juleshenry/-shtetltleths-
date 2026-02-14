@@ -1,5 +1,6 @@
 TITLE: Ryan Williams strikes again
 URL: https://scottaaronson.blog/?m=202502
+DATE: Monday, February 24th, 2025
 CONTENT:
 Update (Feb. 27): While we’re on the subject of theoretical computer science, friends-of-the-blog Adam Klivans and Raghu Meka have asked me to publicize that STOC’2025 TheoryFest, to be held June 23-27 in Prague, is eagerly seeking proposals for workshops.  The deadline is March 9th.
 
@@ -9,6 +10,7 @@ Update (Feb. 25): It occurs to me that the new result is yet another vindication
 
 TITLE: FAQ on Microsoft’s topological qubit thing
 URL: https://scottaaronson.blog/?m=202502
+DATE: Thursday, February 20th, 2025
 CONTENT:
 Q1. Did you see Microsoft’s announcement?A. Yes, thanks, you can stop emailing to ask!  Microsoft’s Chetan Nayak was even kind enough to give me a personal briefing a few weeks ago.  Yesterday I did a brief interview on this for the BBC’s World Business Report, and I also commented for MIT Technology Review.
 
@@ -36,6 +38,7 @@ Update (Feb 20): Chetan Nayak himself comments here, to respond to criticisms ab
 
 TITLE: Toward a non-constant cancellation function
 URL: https://scottaaronson.blog/?m=202502
+DATE: Tuesday, February 11th, 2025
 CONTENT:
 It now seems the switch of Cancel Culture has only two settings:
 
@@ -57,6 +60,7 @@ The trouble with these questions is that, not only are their answers not positiv
 
 TITLE: “If you’re not a woke communist, you have nothing to fear,” they claimed
 URL: https://scottaaronson.blog/?m=202502
+DATE: Saturday, February 8th, 2025
 CONTENT:
 Part of me feels bad not to have written for weeks about quantum error-correction or BQP or QMA or even the new Austin-based startup that launched a “quantum computing dating app” (which, before anyone asks, is 100% as gimmicky and pointless as it sounds).
 
@@ -86,6 +90,7 @@ But if you won’t save the NSF and the other basic research agencies—well hey
 
 TITLE: The duty of stating the obvious
 URL: https://scottaaronson.blog/?m=202502
+DATE: Wednesday, February 5th, 2025
 CONTENT:
 1. Trump’s proposal for the US to “take over” Gaza and expel its inhabitants is, like nearly everything else Trump has said and done over the past two weeks and indeed the past decade, completely batshit insane.
 
@@ -101,6 +106,7 @@ CONTENT:
 
 TITLE: Hymn to be recited for the next thousand mornings
 URL: https://scottaaronson.blog/?m=202502
+DATE: Sunday, February 2nd, 2025
 CONTENT:
 A few years ago, scientists feared they’d lose their jobs if they said anything against diversity programs.
 

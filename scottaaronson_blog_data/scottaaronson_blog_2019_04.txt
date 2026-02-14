@@ -1,5 +1,6 @@
 TITLE: Not yet retired from research
 URL: https://scottaaronson.blog/?m=201904
+DATE: Friday, April 19th, 2019
 CONTENT:
 Last night, two papers appeared on the quantum physics arXiv that my coauthors and I have been working on for more than a year, and that I’m pretty happy about.
 
@@ -39,6 +40,7 @@ Meantime, the biggest breakthrough in quantum complexity theory of the past mont
 
 TITLE: Just says in P
 URL: https://scottaaronson.blog/?m=201904
+DATE: Wednesday, April 17th, 2019
 CONTENT:
 Recently a Twitter account started called justsaysinmice.  The only thing this account does, is to repost breathless news articles about medical research breakthroughs that fail to mention that the effect in question was only observed in mice, and then add the words “IN MICE” to them.  Simple concept, but it already seems to be changing the conversation about science reporting.
 
@@ -48,6 +50,7 @@ It occurred to me that we could do something analogous for quantum computing.  W
 
 TITLE: Wonderful world
 URL: https://scottaaronson.blog/?m=201904
+DATE: Thursday, April 11th, 2019
 CONTENT:
 I was saddened about the results of the Israeli election.  The Beresheet lander, which lost its engine and crashed onto the moon as I was writing this, seems like a fitting symbol for where the country is now headed.  Whatever he was at the start of his career, Netanyahu has become the Israeli Trump—a breathtakingly corrupt strongman who appeals to voters’ basest impulses, sacrifices his country’s future and standing in the world for short-term electoral gain, considers himself unbound by laws, recklessly incites hatred of minorities, and (despite zero personal piety) cynically panders to religious fundamentalists who help keep him in power.  Just like with Trump, it’s probably futile to hope that lawyers will swoop in and free the nation from the demagogue’s grip: legal systems simply aren’t designed for assaults of this magnitude.
 
@@ -81,6 +84,7 @@ Finally, I’m happy about the following “Sierpinskitaschen” baked by CS gra
 
 TITLE: Congratulations!
 URL: https://scottaaronson.blog/?m=201904
+DATE: Friday, April 5th, 2019
 CONTENT:
 Congrats to Geoffrey Hinton, Yann LeCun, and Yoshua Bengio, who won the 2018 Turing Award for their work on deep learning (i.e., what used to be called neural nets).  This might be the first Turing Award ever given for something where no one really understands why it works … and it’s years overdue.
 
@@ -92,6 +96,7 @@ And congrats to Mark Braverman for winning the Alan T. Waterman Award, one that 
 
 TITLE: Beware of fake FOCS site!
 URL: https://scottaaronson.blog/?m=201904
+DATE: Wednesday, April 3rd, 2019
 CONTENT:
 As most of you in theoretical computer science will know, the submission deadline for the 2019 FOCS conference is this Friday, April 5.  The FOCS’2019 program committee chair, my UT Austin colleague David Zuckerman, has asked me to warn everyone that a fake submission site was set up at aconf.org—apparently as a phishing scam—and is one of the first results to come up when you google “FOCS 2019.”  Do not submit there!  The true URL is focs2019.cs.jhu.edu; accept no substitutes!
 

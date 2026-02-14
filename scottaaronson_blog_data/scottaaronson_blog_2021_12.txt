@@ -1,5 +1,6 @@
 TITLE: My values, howled into the wind
 URL: https://scottaaronson.blog/?m=202112
+DATE: Sunday, December 19th, 2021
 CONTENT:
 I’m about to leave for a family vacation—our first such since before the pandemic, one planned and paid for literally the day before the news of Omicron broke.  On the negative side, staring at the case-count graphs that are just now going vertical, I estimate a ~25% chance that at least one of us will get Omicron on this trip.  On the positive side, I estimate a ~60% chance that in the next 6 months, at least one of us would’ve gotten Omicron or some other variant even without this trip—so maybe it’s just as well if we get it now, when we’re vaxxed to the maxx and ready and school and university are out.
 
@@ -47,6 +48,7 @@ Do you call such a person “liberal,” “progressive,” “center-left,” �
 
 TITLE: An alarming trend in K-12 math education: a guest post and an open letter
 URL: https://scottaaronson.blog/?m=202112
+DATE: Friday, December 3rd, 2021
 CONTENT:
 Updates: Our open letter made the WSJ, and has been tweeted by Matt Yglesias and others.  See also Boaz Barak’s thread, and a supportive tweet from Rep. Ro Khanna (D-Silicon Valley). If you’re just arriving here, try TodayMag for an overview of some of the issues at stake.  Added: Newsweek.  See also this post in Spanish.  And see a post by Greg Ashman for more details on what’s been happening in California.
 
@@ -80,6 +82,7 @@ Note: The above guest post reflects the views of its authors, Boaz Barak and Edi
 
 TITLE: Two new talks and an interview
 URL: https://scottaaronson.blog/?m=202112
+DATE: Thursday, December 2nd, 2021
 CONTENT:
 Enjoy y’all!
 

@@ -1,5 +1,6 @@
 TITLE: “Will AI Destroy Us?”: Roundtable with Coleman Hughes, Eliezer Yudkowsky, Gary Marcus, and me (+ GPT-4-enabled transcript!)
 URL: https://scottaaronson.blog/?m=202307
+DATE: Saturday, July 29th, 2023
 CONTENT:
 A month ago Coleman Hughes, a young writer whose name I recognized from his many thoughtful essays in Quillette and elsewhere, set up a virtual “AI safety roundtable” with Eliezer Yudkowsky, Gary Marcus, and, err, yours truly, for his Conversations with Coleman podcast series.  Maybe Coleman was looking for three people with the most widely divergent worldviews who still accept the premise that AI could, indeed, go catastrophically for the human race, and that talking about that is not merely a “distraction” from near-term harms.  In any case, the result was that you sometimes got me and Gary against Eliezer, sometimes me and Eliezer against Gary, and occasionally even Eliezer and Gary against me … so I think it went well!
 
@@ -597,6 +598,7 @@ That’s it for this episode of Conversations with Coleman, guys. As always, tha
 
 TITLE: Because they could
 URL: https://scottaaronson.blog/?m=202307
+DATE: Tuesday, July 25th, 2023
 CONTENT:
 Why did 64 members of Israel’s Knesset just vote to change how the Israeli government operates, to give the Prime Minister and his cabinet nearly unchecked power as in autocratic regimes—even as the entire opposition walked out of the chamber rather than legitimize the vote, even as the largest protests in Israel’s history virtually shut down the country, even as thousands of fighter pilots and reservists of elite units like 8200 and Sayeret Matkal and others central to Israel’s security say that they’ll no longer report for duty?
 
@@ -610,6 +612,7 @@ For someone like me, who lives and dies by reasons and arguments, it’s endless
 
 TITLE: On students as therapy
 URL: https://scottaaronson.blog/?m=202307
+DATE: Friday, July 21st, 2023
 CONTENT:
 This summer, I’m delighted to report, we’ve had four (!) students complete their PhDs in computer science through UT Austin’s Quantum Information Center:
 
@@ -627,6 +630,7 @@ The fact that there are people so far beyond the reach of reason bothers me much
 
 TITLE: Common knowledge and quantum utility
 URL: https://scottaaronson.blog/?m=202307
+DATE: Sunday, July 16th, 2023
 CONTENT:
 Yesterday James Knight did a fun interview with me for his “Philosophical Muser” podcast about Aumann’s agreement theorem and human disagreements more generally.  It’s already on YouTube here for those who would like to listen.
 
@@ -642,6 +646,7 @@ I remember that years ago, probably during one of the interminable debates about
 
 TITLE: Life, blogging, and the Busy Beaver function go on
 URL: https://scottaaronson.blog/?m=202307
+DATE: Wednesday, July 5th, 2023
 CONTENT:
 Update (July 11): If you’re interested in blogging about progress in science and technology, check out a new fellowship from The Roots of Progress (h/t Jason Crawford).Update (July 10): Speaking of the Busy Beaver function, check out this beautifully-produced YouTube video about BB by Duane Rich—a video that Duane says was directly inspired by my survey article!  Duane tells me that a Part II is coming as well.
 

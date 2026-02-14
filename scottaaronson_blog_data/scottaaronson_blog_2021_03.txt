@@ -1,5 +1,6 @@
 TITLE: QC ethics and hype: the call is coming from inside the house
 URL: https://scottaaronson.blog/?m=202103
+DATE: Saturday, March 20th, 2021
 CONTENT:
 For years, I’d sometimes hear discussions about the ethics of quantum computing research.  Quantum ethics!
 
@@ -31,6 +32,7 @@ Update (March 22): Read this comment by “FB” if you’d like to understand h
 
 TITLE: Abel to win
 URL: https://scottaaronson.blog/?m=202103
+DATE: Wednesday, March 17th, 2021
 CONTENT:
 Many of you will have seen the happy news today that Avi Wigderson and László Lovász share this year’s Abel Prize (which now contends with the Fields Medal for the highest award in pure math).  This is only the second time that the Abel Prize has been given wholly or partly for work in theoretical computer science, after Szemerédi in 2012.  See also the articles in Quanta or the NYT, which actually say most of what I would’ve said for a lay audience about Wigderson’s and Lovász’s most famous research results and their importance (except, no, Avi hasn’t yet proved P=BPP, just taken some major steps toward it…).
 
@@ -42,6 +44,7 @@ Huge congratulations to both Avi and László!
 
 TITLE: Long-delayed UT Austin Quantum Complexity Theory Student Project Showcase!
 URL: https://scottaaronson.blog/?m=202103
+DATE: Thursday, March 11th, 2021
 CONTENT:
 Back at MIT, whenever I taught my graduate course on Quantum Complexity Theory (see here for lecture notes), I had a tradition of showcasing the student projects on this blog: see here (Fall 2010), here (Fall 2012), here (Fall 2014).  I was incredibly proud that, each time I taught, at least some of the projects led to publishable original research—sometimes highly significant research, like Paul Christiano’s work on quantum money (which led to my later paper with him), Shelby Kimmel’s work on quantum query complexity, Jenny Barry’s work on quantum partially observable Markov decision processes (“QOMDPs”), or Matt Coudron and Henry Yuen’s work on randomness expansion (which led to their later breakthrough in the subject).
 
@@ -93,6 +96,7 @@ We give a quantum algorithm for counting triangles in graph streams that uses le
 
 TITLE: Sayonara Majorana?
 URL: https://scottaaronson.blog/?m=202103
+DATE: Wednesday, March 10th, 2021
 CONTENT:
 Many of you have surely already seen the news that the Kouwenhoven group in Delft—which in 2018 published a paper in Nature claiming to have detected Majorana particles, a type of nonabelian anyon—have retracted the paper and apologized for “insufficient scientific rigour.”  This work was considered one of the linchpins of Microsoft’s experimental effort toward building topological quantum computers.
 
@@ -106,6 +110,7 @@ The purpose of this post is to invite informed scientific discussion of the rele
 
 TITLE: Another axe swung at the Sycamore
 URL: https://scottaaronson.blog/?m=202103
+DATE: Sunday, March 7th, 2021
 CONTENT:
 So there’s an interesting new paper on the arXiv by Feng Pan and Pan Zhang, entitled “Simulating the Sycamore supremacy circuits.”  It’s about a new tensor contraction strategy for classically simulating Google’s 53-qubit quantum supremacy experiment from Fall 2019.  Using their approach, and using just 60 GPUs running for a few days, the authors say they managed to generate a million correlated 53-bit strings—meaning, strings that all agree on a specific subset of 20 or so bits—that achieve a high linear cross-entropy score.
 
@@ -121,6 +126,7 @@ Anyway, very happy for thoughts from anyone who knows more.
 
 TITLE: The Zen Anti-Interpretation of Quantum Mechanics
 URL: https://scottaaronson.blog/?m=202103
+DATE: Thursday, March 4th, 2021
 CONTENT:
 As I lay bedridden this week, knocked out by my second dose of the Moderna vaccine, I decided I should blog some more half-baked ideas because what the hell?  It feels therapeutic, I have tenure, and anyone who doesn’t like it can close their broswer tab.
 

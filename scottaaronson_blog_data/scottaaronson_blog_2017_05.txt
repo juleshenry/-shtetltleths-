@@ -1,5 +1,6 @@
 TITLE: The Social Justice Warriors are right
 URL: https://scottaaronson.blog/?m=201705
+DATE: Monday, May 29th, 2017
 CONTENT:
 As you might know, I haven’t been exactly the world’s most consistent fan of the Social Justice movement, nor has it been the most consistent fan of me.
 
@@ -35,6 +36,7 @@ And if, after the last Confederate general comes down, the public spaces are too
 
 TITLE: Yet more errors in papers
 URL: https://scottaaronson.blog/?m=201705
+DATE: Wednesday, May 24th, 2017
 CONTENT:
 Following up on my posts PostBQP Postscripts and More Wrong Things I Said In Papers, it felt like time for another post in which I publicly flog myself for mistakes in my research papers.  [Warning: The rest of this post is kinda, sorta technical.  Read at your own risk.]
 
@@ -56,6 +58,7 @@ Nevertheless, I’ve always felt like in science, the louder you are about your
 
 TITLE: Unsong of unsongs
 URL: https://scottaaronson.blog/?m=201705
+DATE: Saturday, May 20th, 2017
 CONTENT:
 On Wednesday, Scott Alexander finally completed his sprawling serial novel Unsong, after a year and a half of weekly updates—incredibly, in his spare time while also working as a full-term resident in psychiatry, and also regularly updating Slate Star Codex, which I consider to be the world’s best blog.  I was honored to attend a party in Austin (mirroring parties in San Francisco, Boston, Tel Aviv, and elsewhere) to celebrate Alexander’s release of the last chapter—depending on your definition, possibly the first “fan event” I’ve ever attended.
 
@@ -81,6 +84,7 @@ Anyway, unlike the Comet King, and unlike a certain other Scott A., I have merel
 
 TITLE: My broken blog
 URL: https://scottaaronson.blog/?m=201705
+DATE: Monday, May 8th, 2017
 CONTENT:
 I wanted to let people know I’m well-aware that Shtetl-Optimized has been suffering from the following problems lately:
 
@@ -92,6 +96,7 @@ Thanks so much, and hope to return to your regularly scheduled programming short
 
 TITLE: This Week’s BS
 URL: https://scottaaronson.blog/?m=201705
+DATE: Friday, May 5th, 2017
 CONTENT:
 There are two pieces of BosonSampling-related news that people have asked me about this week.
 
@@ -109,6 +114,7 @@ On the other hand, what does this mean for the number of photons needed for “q
 
 TITLE: Thoughts on the murderer outside my building
 URL: https://scottaaronson.blog/?m=201705
+DATE: Tuesday, May 2nd, 2017
 CONTENT:
 A reader named Choronzon asks:
 

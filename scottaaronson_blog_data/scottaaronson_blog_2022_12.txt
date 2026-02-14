@@ -1,5 +1,6 @@
 TITLE: Happy 40th Birthday Dana!
 URL: https://scottaaronson.blog/?m=202212
+DATE: Friday, December 30th, 2022
 CONTENT:
 The following is what I read at Dana’s 40th birthday party last night.  Don’t worry, it’s being posted with her approval. –SA
 
@@ -45,6 +46,7 @@ Anyway, happy birthday Dana!
 
 TITLE: Short letter to my 11-year-old self
 URL: https://scottaaronson.blog/?m=202212
+DATE: Saturday, December 24th, 2022
 CONTENT:
 Dear Scott,
 
@@ -80,6 +82,7 @@ PPS. About the bullies, and girls, and dating … I could tell you things that w
 
 TITLE: Google’s Sycamore chip: no wormholes, no superfast classical simulation either
 URL: https://scottaaronson.blog/?m=202212
+DATE: Friday, December 2nd, 2022
 CONTENT:
 Update (Dec. 6): I’m having a blast at the Workshop on Spacetime and Quantum Information at the Institute for Advanced Study in Princeton.  I’m learning a huge amount from the talks and discussions here—and also simply enjoying being back in Princeton, to see old friends and visit old haunts like the Bent Spoon.  Tomorrow I’ll speak about my recent work with Jason Pollack on polynomial-time AdS bulk reconstruction. [New: click here for video of my talk!]
 

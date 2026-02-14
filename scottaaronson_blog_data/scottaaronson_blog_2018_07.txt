@@ -1,5 +1,6 @@
 TITLE: Summer recapitulates life
 URL: https://scottaaronson.blog/?m=201807
+DATE: Tuesday, July 24th, 2018
 CONTENT:
 Last week, I was back at the IAS in Princeton, to speak at a wonderful PITP summer school entitled “From Qubits to Spacetime,” co-organized by Juan Maldacena and Edward Witten. This week, I’ll be back in Waterloo, to visit old and new friends at the Perimeter Institute and Institute for Quantum Computing and give a couple talks.  Then, over the weekend, I’ll be back in Boston to see old friends, colleagues, and students.  After some other miscellaneous travel, I’ll then return to Austin in late August when the semester begins.  The particular sequence IAS → Waterloo → Boston → Austin is of course one that I’ve followed before, over a longer timescale.
 
@@ -15,6 +16,7 @@ Addendum: Many of the PITP videos are well worth watching!  As one example, I f
 
 TITLE: Customers who liked this quantum recommendation engine might also like its dequantization
 URL: https://scottaaronson.blog/?m=201807
+DATE: Thursday, July 12th, 2018
 CONTENT:
 I’m in Boulder, CO right now for the wonderful Boulder summer school on quantum information, where I’ll be lecturing today and tomorrow on introductory quantum algorithms.  But I now face the happy obligation of taking a break from all the lecture-preparing and schmoozing, to blog about a striking new result by a student of mine—a result that will probably make an appearance in my lectures as well.
 

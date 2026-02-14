@@ -1,5 +1,6 @@
 TITLE: In which I answer more quantum computing questions
 URL: https://scottaaronson.blog/?m=202105
+DATE: Monday, May 24th, 2021
 CONTENT:
 Yesterday, I had fun doing an open-ended Q&A at the Astral Codex Ten weekly online meetup.  See here for the YouTube video.  The questions were mainly about quantum computing, but ranged over various other topics as well, including education policy, the Great Stagnation, and what my biggest disagreements with Scott Alexander are.
 
@@ -53,6 +54,7 @@ Update (May 25): Please, no new questions; just discussion of the existing quest
 
 TITLE: On turning 40 today
 URL: https://scottaaronson.blog/?m=202105
+DATE: Friday, May 21st, 2021
 CONTENT:
 Holy crap.
 
@@ -76,6 +78,7 @@ If you feel compelled to give me a 40th birthday present, then just make it a co
 
 TITLE: What I told my kids
 URL: https://scottaaronson.blog/?m=202105
+DATE: Saturday, May 15th, 2021
 CONTENT:
 You’ll hear that it’s not as simple as the Israelis are good guys and Palestinians are bad guys, or vice versa.  And that’s true.
 
@@ -111,6 +114,7 @@ If, like me, you favor two countries living in peace, then you need never fear a
 
 TITLE: Three updates
 URL: https://scottaaronson.blog/?m=202105
+DATE: Monday, May 10th, 2021
 CONTENT:
 
 

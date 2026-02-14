@@ -1,5 +1,6 @@
 TITLE: Me interviewed by John Horgan (the author of “The End of Science”)
 URL: https://scottaaronson.blog/?m=201604
+DATE: Thursday, April 21st, 2016
 CONTENT:
 You can read it here.
 
@@ -11,6 +12,7 @@ If you read this blog, much of what I say there will be old hat, but some of it
 
 TITLE: Grading Trudeau on quantum computing
 URL: https://scottaaronson.blog/?m=201604
+DATE: Sunday, April 17th, 2016
 CONTENT:
 Update (4/19): Inspired by Trudeau’s performance (which they clocked at 35 seconds), Maclean’s magazine asked seven quantum computing researchers—me, Krysta Svore, Aephraim Steinberg, Barry Sanders, Davide Venturelli, Martin Laforest, and Murray Thom—to also explain quantum computing in 35 seconds or fewer.  You can see all the results here (here’s the audio from my entry).
 

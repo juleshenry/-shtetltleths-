@@ -1,5 +1,6 @@
 TITLE: Time to vote-swap
 URL: https://scottaaronson.blog/?m=201610
+DATE: Sunday, October 30th, 2016
 CONTENT:
 I blogged about anti-Trump vote-swapping before (and did an interview at Huffington Post with Linchuan Zhang), but now, for my most in-depth look at the topic yet, check out my podcast interview with the incomparable Julia Galef, of “Rationally Speaking.”  Or if you’re bothered by my constant uhs and y’knows, I strongly recommend reading the transcript instead—I always sound smarter in print.
 
@@ -15,6 +16,7 @@ I’ve already voted for Gary Johnson in Texas, having “teleported” my Clint
 
 TITLE: My 5-minute quantum computing talk at the White House
 URL: https://scottaaronson.blog/?m=201610
+DATE: Tuesday, October 25th, 2016
 CONTENT:
 (OK, technically it was in the Eisenhower Executive Office Building, which is not exactly the White House itself, but is adjacent to the West Wing in the White House complex.  And President Obama wasn’t there—maybe, like Justin Trudeau, he already knows everything about quantum computing?  But lots of people from the Office of Science and Technology Policy were!  And some of us talked with Valerie Jarrett, Obama’s adviser, when she passed us on her way to the West Wing.
 
@@ -62,6 +64,7 @@ If I have any policy advice, it’s this: recognize that a clear demonstration o
 
 TITLE: May reason trump the Trump in all of us
 URL: https://scottaaronson.blog/?m=201610
+DATE: Wednesday, October 19th, 2016
 CONTENT:
 Two years ago, when I was the target of an online shaming campaign, what helped me through it were hundreds of messages of support from friends, slight acquaintances, and strangers of every background.  I vowed then to return the favor, by standing up when I saw decent people unfairly shamed.  Today I have an opportunity to make good.
 
@@ -125,6 +128,7 @@ Pol Pot: Five degrees of separation.
 
 TITLE: Avi Wigderson’s “Permanent” Impact on Me
 URL: https://scottaaronson.blog/?m=201610
+DATE: Wednesday, October 12th, 2016
 CONTENT:
 The following is the lightly-edited transcript of a talk that I gave a week ago, on Wednesday October 5, at Avi Wigderson’s 60th birthday conference at the Institute for Advanced Study in Princeton.  Videos of all the talks (including mine) are now available here.
 
@@ -362,6 +366,7 @@ I’ve now told you about the eventual impact of one single survey talk that Avi
 
 TITLE: Stuff That’s Happened
 URL: https://scottaaronson.blog/?m=201610
+DATE: Sunday, October 9th, 2016
 CONTENT:
 Hi from FOCS’2016 in scenic New Brunswick, NJ!  (I just got here from Avi Wigderson’s 60th birthday conference, to which I’ll devote another post.)
 

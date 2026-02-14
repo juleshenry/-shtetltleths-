@@ -1,5 +1,6 @@
 TITLE: Quantum miscellany
 URL: https://scottaaronson.blog/?m=202309
+DATE: Tuesday, September 19th, 2023
 CONTENT:
 
 

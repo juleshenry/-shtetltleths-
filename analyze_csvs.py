@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import sys
+import re
 from datetime import datetime
 
 # Ensure we can import from the current directory
@@ -15,12 +16,18 @@ except ImportError:
 def parse_date(date_str):
     if not isinstance(date_str, str):
         return None
+    
+    # Strip ordinal suffixes like 1st, 2nd, 3rd, 4th
+    date_str = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_str)
+    
     # Try various formats
     formats = [
-        "%b %d, %Y",      # Jan 17, 2026
-        "%d %b %Y",      # 19 Jan 2026
+        "%d %B %Y %I:%M %p", # 13 February 2026 11:38 pm
+        "%d %B %Y",          # 13 February 2026
+        "%b %d, %Y",         # Jan 17, 2026
+        "%d %b %Y",          # 19 Jan 2026
         "%Y-%m-%dT%H:%M:%S.%f", # 2026-02-14T...
-        "%Y-%m-%d",      # 2026-01-19
+        "%Y-%m-%d",          # 2026-01-19
     ]
     for fmt in formats:
         try:

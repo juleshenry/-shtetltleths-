@@ -1,5 +1,6 @@
 TITLE: Me at the Science March today, in front of the Texas Capitol in Austin
 URL: https://scottaaronson.blog/?m=201704
+DATE: Saturday, April 22nd, 2017
 CONTENT:
 
 
@@ -7,6 +8,7 @@ CONTENT:
 
 TITLE: If Google achieves superintelligence, time zones will be its Achilles heel
 URL: https://scottaaronson.blog/?m=201704
+DATE: Monday, April 17th, 2017
 CONTENT:
 Like a latter-day Prometheus, Google brought a half-century of insights down from Mount Academic CS, and thereby changed life for the better here in our sublunary realm.  You’ve probably had the experience of Google completing a search query before you’d fully formulated it in your mind, and thinking: “wow, our dysfunctional civilization might no longer be able to send people to the Moon, or even build working mass-transit systems, but I guess there are still engineers who can create things that inspire awe.  And apparently many of them work at Google.”
 

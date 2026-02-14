@@ -1,5 +1,6 @@
 TITLE: Oh right, quantum computing
 URL: https://scottaaronson.blog/?m=202210
+DATE: Monday, October 31st, 2022
 CONTENT:
 These days, I often need to remind myself that, as an undergrad, grad student, postdoc, or professor, I’ve now been doing quantum computing research for a quarter-century—i.e., well over half of the subject’s existence.  As a direct result, when I feel completely jaded about a new development in QC, it might actually be exciting.  When I feel moderately excited, it might actually be the most exciting thing for years.
 
@@ -25,6 +26,7 @@ According to the AdS/CFT correspondence, the geometries of certain spacetimes ar
 
 TITLE: On Bryan Caplan and his new book
 URL: https://scottaaronson.blog/?m=202210
+DATE: Friday, October 28th, 2022
 CONTENT:
 Yesterday I attended a lecture by George Mason University economist Bryan Caplan, who’s currently visiting UT Austin, about his new book entitled Don’t Be a Feminist.  (See also here for previous back-and-forth between me and Bryan about his book.)  A few remarks:
 
@@ -50,6 +52,7 @@ Bryan would probably reply: why even waste time engaging with such a hysterical 
 
 TITLE: Explanation-Gödel and Plausibility-Gödel
 URL: https://scottaaronson.blog/?m=202210
+DATE: Wednesday, October 12th, 2022
 CONTENT:
 Here’s an observation that’s mathematically trivial but might not be widely appreciated.  In kindergarten, we all learned Gödel’s First Incompleteness Theorem, which given a formal system F, constructs an arithmetical encoding of
 
@@ -89,6 +92,7 @@ Anyway, I don’t know where I’m going with this, or even why I posted it, but
 
 TITLE: Postdocs, matrix multiplication, and WSJ: yet more shorties
 URL: https://scottaaronson.blog/?m=202210
+DATE: Friday, October 7th, 2022
 CONTENT:
 I’m proud to say that Nick Hunter-Jones and Matteo Ippoliti—both of whom work at the interface between quantum information science and condensed-matter physics (Nick closer to the former and Matteo to the latter)—have joined the physics faculty at UT Austin this year.  And Nick, Matteo, and I are jointly seeking postdocs to start in Fall 2023!  Please check out our call for applications here.  The deadline is December 1; you apply through AcademicJobsOnline rather than by emailing me as in past years.
 
@@ -106,6 +110,7 @@ Meanwhile, American academics say it’s gotten harder for Chinese students to o
 
 TITLE: Two more shorties
 URL: https://scottaaronson.blog/?m=202210
+DATE: Tuesday, October 4th, 2022
 CONTENT:
 For anyone living under a rock with no access to nerd social media, Alain Aspect, John Clauser, and Anton Zeilinger have finally won the Nobel Prize in Physics, for their celebrated experiments that rubbed everyone’s faces in the reality of quantum entanglement (including Bell inequality violation and quantum teleportation).  I don’t personally know Aspect or Clauser, but Zeilinger extremely graciously hosted me and my wife Dana when we visited Vienna in 2012, even bringing us to the symphony (he knows the director and has front-row seats), and somehow making me feel more cultured rather than less.
 

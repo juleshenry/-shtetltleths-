@@ -1,5 +1,6 @@
 TITLE: Review of Vivek Wadhwa’s Washington Post column on quantum computing
 URL: https://scottaaronson.blog/?m=201802
+DATE: Tuesday, February 13th, 2018
 CONTENT:
 Various people pointed me to a Washington Post piece by Vivek Wadhwa, entitled “Quantum computers may be more of an immiment threat than AI.”  I know I’m late to the party, but in the spirit of Pete Wells’ famous New York Times “review” of Guy Fieri’s now-closed Times Square restaurant, I have a few questions that have been gnawing at me:
 
@@ -31,6 +32,7 @@ Update (Feb. 21): For casual readers, Vivek Wadhwa quickly came into the comment
 
 TITLE: Three updates
 URL: https://scottaaronson.blog/?m=201802
+DATE: Monday, February 5th, 2018
 CONTENT:
 
 
@@ -38,6 +40,7 @@ CONTENT:
 
 TITLE: Interpretive cards (MWI, Bohm, Copenhagen: collect ’em all)
 URL: https://scottaaronson.blog/?m=201802
+DATE: Saturday, February 3rd, 2018
 CONTENT:
 I’ve been way too distracted by actual research lately from my primary career as a nerd blogger—that’s what happens when you’re on sabbatical.  But now I’m sick, and in no condition to be thinking about research.  And this morning, in a thread that had turned to my views on the interpretation of quantum mechanics called “QBism,” regular commenter Atreat asked me the following pointed question:
 

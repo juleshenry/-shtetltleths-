@@ -1,5 +1,6 @@
 TITLE: If AI scaling is to be shut down, let it be for a coherent reason
 URL: https://scottaaronson.blog/?m=202303
+DATE: Thursday, March 30th, 2023
 CONTENT:
 There’s now an open letter arguing that the world should impose a six-month moratorium on the further scaling of AI models such as GPT, by government fiat if necessary, to give AI safety and interpretability research a bit more time to catch up.  The letter is signed by many of my friends and colleagues, many who probably agree with each other about little else, over a thousand people including Elon Musk, Steve Wozniak, Andrew Yang, Jaan Tallinn, Stuart Russell, Max Tegmark, Yuval Noah Harari, Ernie Davis, Gary Marcus, and Yoshua Bengio.
 
@@ -31,6 +32,7 @@ But, I dunno, maybe I’m making the greatest mistake of my life?  Feel free to 
 
 TITLE: An unexpected democracy slogan
 URL: https://scottaaronson.blog/?m=202303
+DATE: Tuesday, March 28th, 2023
 CONTENT:
 At least six readers have by now sent me the following photo, which was taken in Israel a couple nights ago during the historic street protests against Netanyahu’s attempted putsch:
 
@@ -48,6 +50,7 @@ And when this fight resumes after Passover, may those standing up for the checks
 
 TITLE: Xavier Waintal responds (tl;dr Grover is still quadratically faster)
 URL: https://scottaaronson.blog/?m=202303
+DATE: Thursday, March 23rd, 2023
 CONTENT:
 This morning Xavier Waintal, coauthor of the new arXiv preprint “””refuting””” Grover’s algorithm, which I dismantled here yesterday, emailed me a two-paragraph response.  He remarked that the “classy” thing for me to do would be to post the response on my blog, but: “I would totally understand if you did not want to be contradicted in your own zone of influence.”
 
@@ -81,6 +84,7 @@ More generally, over the past few days, as far as I can tell, every actual exper
 
 TITLE: Of course Grover’s algorithm offers a quantum advantage!
 URL: https://scottaaronson.blog/?m=202303
+DATE: Wednesday, March 22nd, 2023
 CONTENT:
 Unrelated Update: Huge congratulations to Ethernet inventor Bob Metcalfe, for winning UT Austin’s third Turing Award after Dijkstra and Emerson!
 
@@ -122,6 +126,7 @@ For a much more technical response—one that explains how this preprint’s det
 
 TITLE: On overexcitable children
 URL: https://scottaaronson.blog/?m=202303
+DATE: Friday, March 17th, 2023
 CONTENT:
 Update (March 21): After ChatGPT got “only” a D on economist Bryan Caplan’s midterm exam, Bryan bet against any AI getting A’s on his exams before 2029.  A mere three months later, GPT-4 has earned an A on the same exam (having been trained on data that ended before the exam was made public).  Though not yet conceding the bet on a technicality, Bryan has publicly admitted that he was wrong, breaking a string of dozens of successful predictions on his part.  As Bryan admirably writes: “when the answers change, I change my mind.”  Or as he put it on Twitter:
 
@@ -161,6 +166,7 @@ Anyway, the reasons for doubt are many, varied, and subtle. But the bottom line 
 
 TITLE: The False Promise of Chomskyism
 URL: https://scottaaronson.blog/?m=202303
+DATE: Thursday, March 9th, 2023
 CONTENT:
 Important Update (March 10): On deeper reflection, I probably don’t need to spend emotional energy refuting people like Chomsky, who believe that Large Language Models are just a laughable fad rather than a step-change in how humans can and will use technology, any more than I would’ve needed to spend it refuting those who said the same about the World Wide Web in 1993.  Yes, they’re wrong, and yes, despite being wrong they’re self-certain, hostile, and smug, and yes I can see this, and yes it angers me.  But the world is going to make the argument for me.  And if not the world, Bing already does a perfectly serviceable job at refuting Chomsky’s points (h/t Sebastien Bubeck via Boaz Barak).
 
@@ -188,6 +194,7 @@ I submit that, like the Jesuit astronomers declining to look through Galileo’s
 
 TITLE: Why am I not terrified of AI?
 URL: https://scottaaronson.blog/?m=202303
+DATE: Monday, March 6th, 2023
 CONTENT:
 Every week now, it seems, events on the ground make a fresh mockery of those who confidently assert what AI will never be able to do, or won’t do for centuries if ever, or is incoherent even to ask for, or wouldn’t matter even if an AI did appear to do it, or would require a breakthrough in “symbol-grounding,” “semantics,” “compositionality” or some other abstraction that puts the end of human intellectual dominance on earth conveniently far beyond where we’d actually have to worry about it.  Many of my brilliant academic colleagues still haven’t adjusted to the new reality: maybe they’re just so conditioned by the broken promises of previous decades that they’d laugh at the Silicon Valley nerds with their febrile Skynet fantasies even as a T-1000 reconstituted itself from metal droplets in front of them.
 

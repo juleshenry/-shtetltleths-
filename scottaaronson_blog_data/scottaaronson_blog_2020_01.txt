@@ -1,5 +1,6 @@
 TITLE: From shtetl to Forum
 URL: https://scottaaronson.blog/?m=202001
+DATE: Saturday, January 18th, 2020
 CONTENT:
 Update (Feb. 4): Immediately after departing Davos, I visited the University of Waterloo and the Perimeter Institute to give three talks, then the Simons Institute at UC Berkeley to give another talk; then I returned to Austin for a weekend with my family, all while fighting off my definitely-not-coronavirus cold.  Right now I’m at Harvard to speak at the Black Hole Initiative as well as the Center of Mathematical Sciences and Applications, then my old haunt MIT to speak at CSAIL Hot Topics, then Princeton to give a CS theory seminar—all part of my Quantum Supremacy 2020 World Tour.
 
@@ -191,6 +192,7 @@ I wrote before about how surprisingly clear and logical the trains to Davos were
 
 TITLE: An alternative argument for why women leave STEM: Guest post by Karen Morenz
 URL: https://scottaaronson.blog/?m=202001
+DATE: Thursday, January 16th, 2020
 CONTENT:
 Scott’s preface: Imagine that every time you turned your blog over to a certain topic, you got denounced on Twitter and Reddit as a privileged douchebro, entitled STEMlord, counterrevolutionary bourgeoisie, etc. etc.  The sane response would simply be to quit blogging about that topic.  But there’s also an insane (or masochistic?) response: the response that says, “but if everyone like me stopped talking, we’d cede the field by default to the loudest, angriest voices on all sides—thereby giving those voices exactly what they wanted.  To hell with that!”
 
@@ -280,6 +282,7 @@ By demonstrating that we will support women in STEM who choose to have a family,
 
 TITLE: MIP*=RE
 URL: https://scottaaronson.blog/?m=202001
+DATE: Tuesday, January 14th, 2020
 CONTENT:
 Another Update (Jan. 16): Yet another reason to be excited about this result—one that somehow hadn’t occurred to me—is that, as far as I know, it’s the first-ever fully convincing example of a non-relativizing computability result.  See this comment for more.
 

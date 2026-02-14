@@ -1,5 +1,6 @@
 TITLE: The easiest exercise in the moral philosophy book
 URL: https://scottaaronson.blog/?m=202104
+DATE: Sunday, April 25th, 2021
 CONTENT:
 Peter Singer, in the parable that came to represent his whole worldview and that of the effective altruism movement more generally, asked us to imagine that we could save a drowning child at the cost of jumping into a lake and ruining an expensive new suit.  Assuming we’d do that, he argued that we do in fact face an ethically equivalent choice; if we don’t donate most of our income to save children in the Third World, then we need to answer for why, as surely as the person who walked past the kid thrashing in the water.
 
@@ -15,6 +16,7 @@ And I’m sorry that this brief post doesn’t contain any information or insigh
 
 TITLE: Doubts about teapot supremacy: my reply to Richard Borcherds
 URL: https://scottaaronson.blog/?m=202104
+DATE: Tuesday, April 20th, 2021
 CONTENT:
 Richard Borcherds is a British mathematician at Berkeley, who won the 1998 Fields Medal for the proof of the monstrous moonshine conjecture among many other contributions.  A couple months ago, Borcherds posted on YouTube a self-described “rant” about quantum computing, which was recently making the rounds on Facebook and which I found highly entertaining.
 
@@ -52,6 +54,7 @@ Another Update: Some of you might enjoy John Horgan’s Scientific American colu
 
 TITLE: The ACM Prize thing
 URL: https://scottaaronson.blog/?m=202104
+DATE: Wednesday, April 14th, 2021
 CONTENT:
 Last week I got an email from Dina Katabi, my former MIT colleague, asking me to call her urgently.  Am I in trouble?  For what, though??  I haven’t even worked at MIT for five years!
 
@@ -77,6 +80,7 @@ Update: And by an amusing coincidence, today is apparently “World Quantum Day�
 
 TITLE: Just some prizes
 URL: https://scottaaronson.blog/?m=202104
+DATE: Friday, April 9th, 2021
 CONTENT:
 Oded Goldreich is a theoretical computer scientist at the Weizmann Institute in Rehovot, Israel.  He’s best known for helping to lay the rigorous foundations of cryptography in the 1980s, through seminal results like the Goldreich-Levin Theorem (every one-way function can be modified to have a hard-core predicate), the Goldreich-Goldwasser-Micali Theorem (every pseudorandom generator can be made into a pseudorandom function), and the Goldreich-Micali-Wigderson protocol for secure multi-party computation.  I first met Oded more than 20 years ago, when he lectured at a summer school at the Institute for Advanced Study in Princeton, barefoot and wearing a tank top and what looked like pajama pants.  It was a bracing introduction to complexity-theoretic cryptography.  Since then, I’ve interacted with Oded from time to time, partly around his firm belief that quantum computing is impossible.
 
@@ -104,6 +108,7 @@ Anyway, this seems like a good occasion to recognize some foundational achieveme
 
 TITLE: The Computational Expressiveness of a Model Train Set: A Paperlet
 URL: https://scottaaronson.blog/?m=202104
+DATE: Sunday, April 4th, 2021
 CONTENT:
 Update (April 5, 2021): So it turns out that Adam Chalcraft and Michael Greene already proved the essential result of this post back in 1994 (hat tip to commenter Dylan).  Not terribly surprising in retrospect!
 

@@ -1,5 +1,6 @@
 TITLE: An Orthodox rabbi and Steven Weinberg walk into an email exchange…
 URL: https://scottaaronson.blog/?m=202110
+DATE: Friday, October 22nd, 2021
 CONTENT:
 Ever since I posted my obituary for the great Steven Weinberg three months ago, I’ve gotten a steady trickle of emails—all of which I’ve appreciated enormously—from people who knew Steve, or were influenced by him, and who wanted to share their own thoughts and memories.  Last week, I was contacted by one Moshe Katz, an Orthodox rabbi, who wanted to share a long email exchange that he’d had with Steve, about Steve’s reasons for rejecting his birth-religion of Judaism (along with every other religion).  Even though Rabbi Katz, rather than Steve, does most of the talking in this exchange, and even though Steve mostly expresses the same views he’d expressed in many of his public writings, I knew immediately on seeing this exchange that it could be of broader interest—so I secured permission to share it here on Shtetl-Optimized, both from Rabbi Katz and from Steve’s widow Louise.
 
@@ -13,6 +14,7 @@ Update (Nov. 2, 2021): By request, see here for some of my own thoughts.
 
 TITLE: Welcome to scottaaronson.blog !
 URL: https://scottaaronson.blog/?m=202110
+DATE: Thursday, October 21st, 2021
 CONTENT:
 If you’ve visited Shtetl-Optimized lately — which, uh, I suppose you have — you may have noticed that your URL was redirected from www.scottaaronson.com/blog to scottaaronson.blog.  That’s because Automattic, makers of WordPress.com, volunteered to move my blog there from Bluehost, free of charge.  If all goes according to plan, you should notice faster loading times, less downtime, and hopefully nothing else different.  Please let me know if you encounter any problems.  And huge thanks to the WordPress.com Special Projects Team, especially Christopher Jones and Mark Drovdahl, for helping me out with this.
 
@@ -20,6 +22,7 @@ If you’ve visited Shtetl-Optimized lately — which, uh, I suppose you have �
 
 TITLE: Gaussian BosonSampling, higher-order correlations, and spoofing: An update
 URL: https://scottaaronson.blog/?m=202110
+DATE: Sunday, October 10th, 2021
 CONTENT:
 In my last post, I wrote (among other things) about an ongoing scientific debate between the group of Chaoyang Lu at USTC in China, which over the past year has been doing experiments that seek to demonstrate quantum supremacy via Gaussian BosonSampling; and the group of Sergio Boixo at Google, which had a recent paper on a polynomial-time classical algorithm to sample approximately from the same distributions.  I reported the facts as I understood them at the time.  Since then, though, a long call with the Google team gave me a new and different understanding, and I feel duty-bound to share that here.
 
@@ -73,6 +76,7 @@ Thanks so much to Sergio Boixo and Ben Villalonga for the conversation, and to C
 
 TITLE: The Physics Nobel, Gaussian BosonSampling, and Dorian Abbot
 URL: https://scottaaronson.blog/?m=202110
+DATE: Tuesday, October 5th, 2021
 CONTENT:
 1. Huge congratulations to the winners of this year’s Nobel Prize in Physics: Syukuro Manabe and Klaus Hasselmann for climate modelling, and separately, Giorgio Parisi for statistical physics.  While I don’t know the others, I had the great honor to get to know Parisi three years ago, when he was chair of the committee that awarded me the Tomassoni-Chisesi Prize in Physics, and when I visited Parisi’s department at Sapienza University of Rome to give the prize lecture and collect the award.  I remember Parisi’s kindness, a lot of good food, and a lot of discussion of the interplay between theoretical computer science and physics.  Note that, while much of Parisi’s work is beyond my competence to comment on, in computer science he’s very well-known for applying statistical physics methods to the analysis of survey propagation—an algorithm that revolutionized the study of random 3SAT when it was introduced two decades ago.
 

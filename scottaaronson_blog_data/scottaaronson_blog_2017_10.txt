@@ -1,5 +1,6 @@
 TITLE: Grad students and postdocs and faculty sought
 URL: https://scottaaronson.blog/?m=201710
+DATE: Saturday, October 28th, 2017
 CONTENT:
 I’m eagerly seeking PhD students and postdocs to join our Quantum Information Center at UT Austin, starting in Fall 2018.  We’re open to any theoretical aspects of quantum information, although if you wanted to work with me personally, then areas close to computer science would be the closest fit.  I’m also able to supervise PhD students in physics, but am not directly involved with admissions to the physics department: this is a discussion we would have after you were already admitted to UT.
 
@@ -23,6 +24,7 @@ In other news, my UT friend and colleague Adam Klivans, and his student Surbhi G
 
 TITLE: 2^n is exponential, but 2^50 is finite
 URL: https://scottaaronson.blog/?m=201710
+DATE: Sunday, October 22nd, 2017
 CONTENT:
 Unrelated Update (Oct. 23) I still feel bad that there was no time for public questions at my “Theoretically Speaking” talk in Berkeley, and also that the lecture hall was too small to accomodate a large fraction of the people who showed up.  So, if you’re someone who came there wanting to ask me something, go ahead and ask in the comments of this post.
 
@@ -54,6 +56,7 @@ I apologize, sincerely, if I come off as too testy in this post.  No doubt it�
 
 TITLE: The problem with Uber
 URL: https://scottaaronson.blog/?m=201710
+DATE: Thursday, October 19th, 2017
 CONTENT:
 I just spent a wonderful and exhausting five days in the Bay Area: meeting friends, holding the first-ever combined SlateStarCodex/Shtetl-Optimized meetup, touring quantum computing startups, meeting with Silicon Valley folks about quantum computing, and giving a public lecture for the Simons Institute in Berkeley.  I’ll probably say more about some of these events in future posts, but for now: thanks so much to everyone who helped them happen!
 
@@ -75,6 +78,7 @@ But—good news, everyone!—I have an idea to solve the problem, which I hereby
 
 TITLE: Not the critic who counts
 URL: https://scottaaronson.blog/?m=201710
+DATE: Wednesday, October 11th, 2017
 CONTENT:
 There’s a website called Stop Timothy Gowers! !!! —yes, that’s the precise name, including the exclamation points.  The site is run by a mathematician who for years went under the pseudonym “owl / sowa,” but who’s since outed himself as Nikolai Ivanov.
 
@@ -132,6 +136,7 @@ It is not the critic who counts; not the man who points out how the strong man s
 
 TITLE: Coming to Nerd Central
 URL: https://scottaaronson.blog/?m=201710
+DATE: Sunday, October 8th, 2017
 CONTENT:
 While I’m generally on sabbatical in Tel Aviv this year, I’ll be in the Bay Area from Saturday Oct. 14 through Wednesday Oct. 18, where I look forward to seeing many friends new and old.  On Wednesday evening, I’ll be giving a public talk in Berkeley, through the Simons Institute’s “Theoretically Speaking” series, entitled Black Holes, Firewalls, and the Limits of Quantum Computers.  I hope to see at least a few of you there!  (I do have readers in the Bay Area, don’t I?)
 
@@ -143,6 +148,7 @@ On an unrelated note, some people might enjoy my answer to a MathOverflow questi
 
 TITLE: Because you asked: the Simulation Hypothesis has not been falsified; remains unfalsifiable
 URL: https://scottaaronson.blog/?m=201710
+DATE: Tuesday, October 3rd, 2017
 CONTENT:
 By email, by Twitter, even as the world was convulsed by tragedy, the inquiries poured in yesterday about a different topic entirely: Scott, did physicists really just prove that the universe is not a computer simulation—that we can’t be living in the Matrix?
 
@@ -174,6 +180,7 @@ Comment Policy: I welcome discussion about the Ringel-Dovrizhin paper; what migh
 
 TITLE: Also against individual IQ worries
 URL: https://scottaaronson.blog/?m=201710
+DATE: Sunday, October 1st, 2017
 CONTENT:
 Scott Alexander recently blogged “Against Individual IQ Worries.”  Apparently, he gets many readers writing to him terrified that they scored too low on an IQ test, and therefore they’ll never be able to pursue their chosen career, or be a full-fledged intellectual or member of the rationalist community or whatever.  Amusingly, other Scott says, some of these readers have even performed their own detailed Bayesian analysis of what it might mean that their IQ score is only 90, cogently weighing the arguments and counterarguments while deploying the full vocabulary of statistical research.  It somehow reminds me of the joke about the talking dog, who frets to his owner that he doesn’t think he’s articulate enough to justify all the media attention he’s getting.
 

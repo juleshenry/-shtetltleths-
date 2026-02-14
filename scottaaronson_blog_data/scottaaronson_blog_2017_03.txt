@@ -1,5 +1,6 @@
 TITLE: Daniel Moshe Aaronson
 URL: https://scottaaronson.blog/?m=201703
+DATE: Saturday, March 25th, 2017
 CONTENT:
 
 
@@ -13,6 +14,7 @@ I apologize that I haven’t been answering comments on the is-the-universe-a-si
 
 TITLE: Your yearly dose of is-the-universe-a-simulation
 URL: https://scottaaronson.blog/?m=201703
+DATE: Wednesday, March 22nd, 2017
 CONTENT:
 Yesterday Ryan Mandelbaum, at Gizmodo, posted a decidedly tongue-in-cheek piece about whether or not the universe is a computer simulation.  (The piece was filed under the category “LOL.”)
 
@@ -36,6 +38,7 @@ I’d write more, but by coincidence, right now I’m at an It from Qubit meetin
 
 TITLE: I will not log in to your website
 URL: https://scottaaronson.blog/?m=201703
+DATE: Sunday, March 19th, 2017
 CONTENT:
 Two or three times a day, I get an email whose basic structure is as follows:
 
@@ -57,6 +60,7 @@ Back when we were discussing the boycott of Elsevier and the other predatory pu
 
 TITLE: Insert D-Wave Post Here
 URL: https://scottaaronson.blog/?m=201703
+DATE: Thursday, March 16th, 2017
 CONTENT:
 In the two months since I last blogged, the US has continued its descent into madness.  Yet even while so many certainties have proven ephemeral as the morning dew—the US’s autonomy from Russia, the sanity of our nuclear chain of command, the outcome of our Civil War, the constraints on rulers that supposedly set us apart from the world’s dictator-run hellholes—I’ve learned that certain facts of life remain constant.
 

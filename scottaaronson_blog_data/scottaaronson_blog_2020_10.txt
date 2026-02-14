@@ -1,5 +1,6 @@
 TITLE: The Complete Idiot’s Guide to the Independence of the Continuum Hypothesis: Part 1 of <=Aleph_0
 URL: https://scottaaronson.blog/?m=202010
+DATE: Saturday, October 31st, 2020
 CONTENT:
 A global pandemic, apocalyptic fires, and the possible descent of the US into violent anarchy three days from now can do strange things to the soul.
 
@@ -117,6 +118,7 @@ Oh, and happy Halloween.  Ghostly sets of intermediate cardinality … spoooooky
 
 TITLE: Vote in person if you can
 URL: https://scottaaronson.blog/?m=202010
+DATE: Tuesday, October 13th, 2020
 CONTENT:
 [If you’re not American, or you’re American but a masochist who enjoys the current nightmare, this post won’t be relevant to you—sorry!]
 
@@ -142,6 +144,7 @@ Unrelated Update (10/16): For those who are interested, here’s a new podcast w
 
 TITLE: My second podcast with Lex Fridman
 URL: https://scottaaronson.blog/?m=202010
+DATE: Monday, October 12th, 2020
 CONTENT:
 Here it is—enjoy!  (I strongly recommend listening at 2x speed.)
 
@@ -153,6 +156,7 @@ Thanks so much to Lex for his characteristically probing questions, apologies as
 
 TITLE: On the destruction of America’s best high school
 URL: https://scottaaronson.blog/?m=202010
+DATE: Sunday, October 4th, 2020
 CONTENT:
 [C]hildren with special abilities and skills need to be nourished and encouraged.  They are a national treasure.  Challenging programs for the “gifted” are sometimes decried as “elitism.”  Why aren’t intensive practice sessions for varsity football, baseball, and basketball players and interschool competition deemed elitism?  After all, only the most gifted athletes participate.  There is a self-defeating double standard at work here, nationwide.—Carl Sagan, The Demon-Haunted World (1996)
 

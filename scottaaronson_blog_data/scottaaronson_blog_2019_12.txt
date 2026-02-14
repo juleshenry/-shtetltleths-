@@ -1,5 +1,6 @@
 TITLE: Quantum computing motte-and-baileys
 URL: https://scottaaronson.blog/?m=201912
+DATE: Saturday, December 28th, 2019
 CONTENT:
 In the wake of two culture-war posts—the first on the term “quantum supremacy,” the second on the acronym “NIPS”—it’s clear that we all need to cool off with something anodyne and uncontroversial.  Fortunately, this holiday season, I know just the thing to bring everyone together: groaning about quantum computing hype!
 
@@ -39,6 +40,7 @@ In the holiday spirit, let me end on a positive note.  When I did the Q&A at Q2B
 
 TITLE: NIPS vs. NeurIPS: guest post by Steven Pinker
 URL: https://scottaaronson.blog/?m=201912
+DATE: Monday, December 23rd, 2019
 CONTENT:
 Scott’s Update (Dec. 26): Comments on this post are now closed, since I felt that whatever progress could be made, had been, and I wanted to move on to more interesting topics.  Thanks so much to everyone who came here to hash things out in good faith—which, as far as I’m concerned, included the majority of the participants on both sides.
 
@@ -98,6 +100,7 @@ Best,Steve
 
 TITLE: Quantum Dominance, Hegemony, and Superiority
 URL: https://scottaaronson.blog/?m=201912
+DATE: Thursday, December 19th, 2019
 CONTENT:
 Yay!  I’m now a Fellow of the ACM.  Along with my fellow new inductee Peter Shor, who I hear is a real up-and-comer in the quantum computing field.  I will seek to use this awesome responsibility to steer the ACM along the path of good rather than evil.
 
@@ -217,6 +220,7 @@ Anyway, as I said, that’s how half of me feels.  The other half is ready to sw
 
 TITLE: Two updates
 URL: https://scottaaronson.blog/?m=201912
+DATE: Monday, December 2nd, 2019
 CONTENT:
 
 

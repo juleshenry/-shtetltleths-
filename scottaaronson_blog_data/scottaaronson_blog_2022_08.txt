@@ -1,5 +1,6 @@
 TITLE: My Quantum Information Science II Lecture Notes: The wait is over!
 URL: https://scottaaronson.blog/?m=202208
+DATE: Wednesday, August 31st, 2022
 CONTENT:
 Here they are [PDF].
 
@@ -25,6 +26,7 @@ Anyway, let me know of any mistakes you find!  We’ll try to fix them.
 
 TITLE: Busy Beaver Updates: Now Even Busier
 URL: https://scottaaronson.blog/?m=202208
+DATE: Tuesday, August 30th, 2022
 CONTENT:
 Way back in the covid-filled summer of 2020, I wrote a survey article about the ridiculously-rapidly-growing Busy Beaver function.  My survey then expanded to nearly twice its original length, with the ideas, observations, and open problems of commenters on this blog.  Ever since, I’ve felt a sort of duty to blog later developments in BusyBeaverology as well.  It’s like, I’ve built my dam, I’ve built my lodge, I’m here in the pond to stay!
 
@@ -34,6 +36,7 @@ So without further ado:
 
 TITLE: That Financial Times QC skepticism piece
 URL: https://scottaaronson.blog/?m=202208
+DATE: Monday, August 29th, 2022
 CONTENT:
 Several people have asked me to comment about a Financial Times opinion piece entitled The Quantum Computing Bubble (subtitle: “The industry has yet to demonstrate any real utility, despite the fanfare, billions of VC dollars and three Spacs”) (archive link).  The piece is purely deflationary—not a positive word in it—though it never goes so far as to suggest that QC is blocked by any Gil-Kalai-like fundamental principle, nor does it even evince curiosity about that question.
 
@@ -57,6 +60,7 @@ Best,Scott
 
 TITLE: Summer 2022 Quantum Supremacy Updates
 URL: https://scottaaronson.blog/?m=202208
+DATE: Saturday, August 13th, 2022
 CONTENT:
 Update: We’re now finalizing the lecture notes—basically, a textbook—for the brand-new Quantum Information Science II course that I taught this past spring!  The notes will be freely shared on this blog.  But the bibliographies for the various lectures need to be merged, and we don’t know how.  Would any TeXpert like to help us, in exchange for a generous acknowledgment?  A reader named Pablo Cingolani has now graciously taken care of this.  Thanks so much, Pablo!
 
@@ -82,6 +86,7 @@ I’ll be flying back with my family to Austin today after seven weeks at the Je
 
 TITLE: Updatez
 URL: https://scottaaronson.blog/?m=202208
+DATE: Tuesday, August 2nd, 2022
 CONTENT:
 
 

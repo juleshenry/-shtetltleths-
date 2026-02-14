@@ -1,5 +1,6 @@
 TITLE: “If Anyone Builds It, Everyone Dies”
 URL: https://scottaaronson.blog/?m=202505
+DATE: Friday, May 30th, 2025
 CONTENT:
 Eliezer Yudkowsky and Nate Soares are publishing a mass-market book, the rather self-explanatorily-titled If Anyone Builds It, Everyone Dies.  (Yes, the “it” means “sufficiently powerful AI.”)  The book is now available for preorder from Amazon:
 
@@ -29,6 +30,7 @@ As it happens, this weekend I’ll be at LessOnline, the rationalist blogging co
 
 TITLE: Cracking the Top Fifty!
 URL: https://scottaaronson.blog/?m=202505
+DATE: Thursday, May 8th, 2025
 CONTENT:
 I’ve now been blogging for nearly twenty years—through five presidential administrations, my own moves from Waterloo to MIT to UT Austin, my work on algebrization and BosonSampling and BQP vs. PH and quantum money and shadow tomography, the publication of Quantum Computing Since Democritus, my courtship and marriage and the birth of my two kids, a global pandemic, the rise of super-powerful AI and the terrifying downfall of the liberal world order.
 
@@ -62,6 +64,7 @@ Anyway, thanks for reading everyone!  I look forward to another twenty years of 
 
 TITLE: Opposing SB37
 URL: https://scottaaronson.blog/?m=202505
+DATE: Tuesday, May 6th, 2025
 CONTENT:
 Yesterday, the Texas State Legislature heard public comments about SB37, a bill that would give a state board direct oversight over course content and faculty hiring at public universities, perhaps inspired by Trump’s national crackdown on higher education. (See here or here for coverage.) So, encouraged by a friend in the history department, I submitted the following public comment, whatever good it will do.
 

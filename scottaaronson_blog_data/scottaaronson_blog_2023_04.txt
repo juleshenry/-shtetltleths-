@@ -1,5 +1,6 @@
 TITLE: Five Worlds of AI (a joint post with Boaz Barak)
 URL: https://scottaaronson.blog/?m=202304
+DATE: Thursday, April 27th, 2023
 CONTENT:
 Artificial intelligence has made incredible progress in the last decade, but in one crucial aspect, it still lags behind the theoretical computer science of the 1990s: namely, there is no essay describing five potential worlds that we could live in and giving each one of them whimsical names.  In other words, no one has done for AI what Russell Impagliazzo did for complexity theory in 1995, when he defined the five worlds Algorithmica, Heuristica, Pessiland, Minicrypt, and Cryptomania, corresponding to five possible resolutions of the P vs. NP problem along with the central unsolved problems of cryptography.
 
@@ -35,6 +36,7 @@ To whatever extent we foresee “Singularia” or “Paperclipalypse,” however
 
 TITLE: Will UT Austin and Texas A&M survive beyond this week?
 URL: https://scottaaronson.blog/?m=202304
+DATE: Monday, April 17th, 2023
 CONTENT:
 Update (April 20): Alas, the Texas Senate has approved SB 18.  The survival of higher education in Texas now hinges on this bill not being taken up or passed in the House, or not being enforced as written (e.g., because UT’s existing post-tenure review system is judged to satisfy it).
 
@@ -58,6 +60,7 @@ I don’t expect that most of my readers, in or out of Texas, will need to be pe
 
 TITLE: AI safety: what should actually be done now?
 URL: https://scottaaronson.blog/?m=202304
+DATE: Sunday, April 16th, 2023
 CONTENT:
 So, I recorded a 2.5-hour-long podcast with Daniel Filan about “reform AI alignment,” and the work I’ve been doing this year at OpenAI.  The end result is … well, probably closer to my current views on this subject than anything else I’ve said or written! Listen here or read the transcript here.  Here’s Daniel’s abstract:
 
@@ -105,6 +108,7 @@ So let’s get started on that!  Readers: which unaligned behaviors would you li
 
 TITLE: GPT-4 gets a B on my quantum computing final exam!
 URL: https://scottaaronson.blog/?m=202304
+DATE: Tuesday, April 11th, 2023
 CONTENT:
 Update (April 14): On the suggestion of my TA Justin Yirka, I gave GPT-4 problem 2 from the final exam, along with its own answers and my and Justin’s grading comments, and asked it whether it wanted to argue for a higher grade, and if so on what basis.  Here is what it wrote (it felt disconcerting to see the grade-grubbing appear immediately, with not even one second’s delay):
 
@@ -170,6 +174,7 @@ OK, last question, about the k-SUM problem.  Total score: 6 / 15.
 
 TITLE: Quips are what I’ve got
 URL: https://scottaaronson.blog/?m=202304
+DATE: Saturday, April 1st, 2023
 CONTENT:
 In the comments on my last post—the one about the open letter calling for a six-month pause on AI scaling—a commenter named Hans Holander berates me over and over, as have others before him, for my failure to see that GPT is just a hoax and scam with no “true” intelligence.  Below is my reply: probably one of the most revealing things I’ve ever written (which is saying something).
 

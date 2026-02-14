@@ -1,5 +1,6 @@
 TITLE: Postdocs wanted!
 URL: https://scottaaronson.blog/?m=202312
+DATE: Friday, December 22nd, 2023
 CONTENT:
 David Soloveichik, my friend and colleague in UT Austin’s Electrical and Computer Engineering department, and I are looking to hire a joint postdoc in “Unconventional Computing,” broadly defined.  Areas of interest include but are not limited to:
 
@@ -13,6 +14,7 @@ My wife Dana Moshkovitz Aaronson and my friend and colleague David Zuckerman are
 
 TITLE: Rowena He
 URL: https://scottaaronson.blog/?m=202312
+DATE: Wednesday, December 20th, 2023
 CONTENT:
 This fall, I’m honored to have made a new friend: the noted Chinese dissident scholar Rowena He, currently a Research Fellow at the Civitas Institute at UT Austin, and formerly of Harvard, the Institute for Advanced Study at Princeton, the National Humanities Center, and other fine places.  I was connected to Rowena by the Harvard computer scientist Harry Lewis.
 
@@ -28,6 +30,7 @@ This post has a practical purpose.  Since her exile from China, Rowena has spent
 
 TITLE: On being wrong about AI
 URL: https://scottaaronson.blog/?m=202312
+DATE: Wednesday, December 13th, 2023
 CONTENT:
 Update (Dec. 17): Some of you might enjoy a 3-hour podcast I recently did with Lawrence Krauss, which was uploaded to YouTube just yesterday.  The first hour is about my life and especially childhood (!); the second hour’s about quantum computing; the third hour’s about computational complexity, computability, and AI safety.
 
@@ -65,6 +68,7 @@ Here’s what I want to know in the comments section.  Did you foresee the curre
 
 TITLE: Weird but cavity-free
 URL: https://scottaaronson.blog/?m=202312
+DATE: Friday, December 8th, 2023
 CONTENT:
 Over at Astral Codex Ten, the other Scott A. blogs in detail about a genetically engineered mouth bacterium that metabolizes sugar into alcohol rather than acid, thereby (assuming it works as intended) ending dental cavities forever.  Despite good results in trials with hundreds of people, this bacterium has spent decades in FDA approval hell.  It’s in the news because Lantern Bioworks, a startup founded by rationalists, is now trying again to legalize it.
 
@@ -88,6 +92,7 @@ Update: See a Hacker News thread where the merits of this new treatment are deba
 
 TITLE: Staggering toward quantum fault-tolerance
 URL: https://scottaaronson.blog/?m=202312
+DATE: Thursday, December 7th, 2023
 CONTENT:
 Happy Hanukkah!  I’m returning to Austin from a Bay Area trip that included the annual Q2B (Quantum 2 Business) conference.  This year, for the first time, I opened the conference, with a talk on “The Future of Quantum Supremacy Experiments,” rather than closing it with my usual ask-me-anything session.
 

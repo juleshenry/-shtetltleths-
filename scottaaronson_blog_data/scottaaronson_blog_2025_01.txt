@@ -1,5 +1,6 @@
 TITLE: The American science funding catastrophe
 URL: https://scottaaronson.blog/?m=202501
+DATE: Thursday, January 30th, 2025
 CONTENT:
 It’s been almost impossible to get reliable information this week, but here’s what my sources are telling me:
 
@@ -27,6 +28,7 @@ Yet another update: Terry Tao discusses the NSF funding crisis in terms of mean 
 
 TITLE: Good news for once!  A faster Quantum Fourier Transform
 URL: https://scottaaronson.blog/?m=202501
+DATE: Thursday, January 23rd, 2025
 CONTENT:
 Update: In the comments, Craig Gidney points out that Ronit’s O(n log2 n) quantum circuits for the exact QFT were already published by Cleve and Watrous in 2000 (in a paper whose main point was something else, parallelization).  Ronit’s O(n (log log n)2) circuits for the approximate QFT still appear to be new (Gidney says he and others knew related techniques but had never explicitly combined them).  Of course, while the exact result was Platonically “known,” it wasn’t sufficiently well known that any of the four quantum algorithms experts I’d consulted had heard of it!  Hopefully this very post will go some way toward fixing the situation.
 
@@ -60,6 +62,7 @@ I’d love for Ronit to continue in quantum computing theory.  But in what’s s
 
 TITLE: Open letter to any Shtetl-Optimized readers who know Elon
 URL: https://scottaaronson.blog/?m=202501
+DATE: Tuesday, January 21st, 2025
 CONTENT:
 Did Elon Musk make a Nazi salute?  Well, not exactly.  As far as I can tell, the truth is that he recklessly and repeatedly made a hand gesture that the world’s millions of Nazi sympathizers eagerly misinterpreted as a Nazi salute.  He then (the worse part) declined to clarify or apologize in any way, opting instead for laugh emojis.
 
@@ -79,6 +82,7 @@ Anyway, I figured it was worth a try, given how much I really believe might hing
 
 TITLE: The mini-singularity
 URL: https://scottaaronson.blog/?m=202501
+DATE: Monday, January 20th, 2025
 CONTENT:
 Err, happy MLK Day!
 
@@ -106,6 +110,7 @@ Oh, and on top of all the other plotlines, today—January 20th—is my daughter
 
 TITLE: Above my pay grade: Jensen Huang and the quantum computing stock market crash
 URL: https://scottaaronson.blog/?m=202501
+DATE: Thursday, January 9th, 2025
 CONTENT:
 Update (Jan. 13): Readers might enjoy the Bankless Podcast, in which I and Justin Drake of the Ethereum engineering team discuss quantum computing and its impact on cryptocurrency. I learned something interesting from Justin—namely that Satoshi has about $90 billion worth of bitcoin that’s never been touched since the cryptocurrency’s earliest days, much of which (added: the early stuff, the stuff not additionally protected by a hash function) would be stealable by anyone who could break elliptic curve cryptography—for example, by using a scalable quantum computer. At what point in time, if any, would this stash acquire the moral or even legal status of (say) gold doubloons just lying on the bottom of the ocean? Arrr, ’tis avast Hilbert space!
 

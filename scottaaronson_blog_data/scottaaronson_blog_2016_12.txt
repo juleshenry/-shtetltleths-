@@ -1,5 +1,6 @@
 TITLE: “THE TALK”: My quantum computing cartoon with Zach Weinersmith
 URL: https://scottaaronson.blog/?m=201612
+DATE: Wednesday, December 14th, 2016
 CONTENT:
 OK, here’s the big entrée that I promised you yesterday:
 
@@ -17,6 +18,7 @@ In case you’re wondering how this came about: after our mutual friend Sean Car
 
 TITLE: The teaser
 URL: https://scottaaronson.blog/?m=201612
+DATE: Tuesday, December 13th, 2016
 CONTENT:
 Tomorrow, I’ll have something big to announce here.  So, just to whet your appetites, and to get myself back into the habit of blogging, I figured I’d offer you an appetizer course: some more miscellaneous non-Trump-related news.
 

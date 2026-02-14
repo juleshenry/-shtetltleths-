@@ -1,5 +1,6 @@
 TITLE: “The Chair”: A Straussian interpretation
 URL: https://scottaaronson.blog/?m=202108
+DATE: Tuesday, August 31st, 2021
 CONTENT:
 
 
@@ -37,6 +38,7 @@ Under this theory, it presumably falls to those slightly outside the world portr
 
 TITLE: Please cheer me up
 URL: https://scottaaronson.blog/?m=202108
+DATE: Friday, August 27th, 2021
 CONTENT:
 Update: Come to think of it, let’s circle back to the thing about kids under 13 getting banned from taking the SAT, as a ridiculous unintended consequence of some federal regulation.  I wonder whether this is a campaign this blog could spearhead that would have an actual chance of making a positive difference in the world (!!), rather than just giving me space to express myself, to vent my impotent rage at the tragic failures of our civilization and the blankfaces who sleep soundly despite knowing that they caused those failures.  What if, like, a whole bunch of us wrote to the College Board, or whatever federal agency enforces the regulation that the College Board is worried about, and we asked them whether a solution might be found in which parents gave permission on the web form for their under-13s to take the SAT, given how memorable this opportunity was for many of us, how it was a nerd rite of passage, and how surely none of us have any wish to deny that opportunity to the next generation, so let’s work together to solve this?
 
@@ -60,6 +62,7 @@ So that’s it, it’s off my chest.  Commenters: what else have you got that mi
 
 TITLE: Stephen Wiesner (1942-2021)
 URL: https://scottaaronson.blog/?m=202108
+DATE: Friday, August 13th, 2021
 CONTENT:
 
 
@@ -119,6 +122,7 @@ In the 70’s he lived in California where he worked in various Silicon Valley s
 
 TITLE: Yet more mistakes in papers
 URL: https://scottaaronson.blog/?m=202108
+DATE: Tuesday, August 10th, 2021
 CONTENT:
 Amazing Update (Aug. 19): My former PhD student Daniel Grier tells me that he, Sergey Bravyi, and David Gosset have an arXiv preprint, from February, where they give a corrected proof of my and Andris Ambainis’s claim that any k-query quantum algorithm can be simulated by an O (N1-1/2k)-query classical randomized algorithm (albeit, not of our stronger statement, about a randomized algorithm to estimate any bounded low-degree real polynomial).  The reason I hadn’t known about this is that they don’t mention it in the abstract of their paper (!!).  But it’s right there in Theorem 5.
 
@@ -178,6 +182,7 @@ Update (Aug. 11): Here’s a third bonus retraction, which I thank my colleague 
 
 TITLE: On blankfaces
 URL: https://scottaaronson.blog/?m=202108
+DATE: Monday, August 2nd, 2021
 CONTENT:
 For years, I’ve had a private term I’ve used with my family.  To give a few examples of its use:
 

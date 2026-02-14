@@ -1,5 +1,6 @@
 TITLE: My Christmas gift: telling you about PurpleMind, which brings CS theory to the YouTube masses
 URL: https://scottaaronson.blog/?m=202512
+DATE: Wednesday, December 24th, 2025
 CONTENT:
 Merry Christmas, everyone!  Ho3!
 
@@ -51,6 +52,7 @@ Peace on Earth, and to all a good night.
 
 TITLE: More on whether useful quantum computing is “imminent”
 URL: https://scottaaronson.blog/?m=202512
+DATE: Sunday, December 21st, 2025
 CONTENT:
 These days, the most common question I get goes something like this:
 
@@ -78,6 +80,7 @@ Update: Someone on Twitter who’s “long $IONQ” says he’ll be posting abou
 
 TITLE: Happy Chanukah
 URL: https://scottaaronson.blog/?m=202512
+DATE: Monday, December 15th, 2025
 CONTENT:
 This (taken in Kiel, Germany in 1931 and then colorized) is one of the most famous photographs in Jewish history, but it acquired special resonance this weekend.  It communicates pretty much everything I’d want to say about the Bondi Beach massacre in Australia, more succinctly than I could in words.
 
@@ -93,6 +96,7 @@ Happy Chanukah.
 
 TITLE: Understanding vs. impact: the paradox of how to spend my time
 URL: https://scottaaronson.blog/?m=202512
+DATE: Thursday, December 11th, 2025
 CONTENT:
 Not long ago William MacAskill, the founder of the Effective Altruist movement, visited Austin, where I got to talk with him in person for the first time. I was a fan of his book What We Owe the Future, and found him as thoughtful and eloquent face-to-face as I did on the page.  Talking to Will inspired me to write the following short reflection on how I should spend my time, which I’m now sharing in case it’s of interest to anyone else.
 
@@ -110,6 +114,7 @@ Of course, if I had a better understanding of reality, I might know how better t
 
 TITLE: Theory and AI Alignment
 URL: https://scottaaronson.blog/?m=202512
+DATE: Saturday, December 6th, 2025
 CONTENT:
 The following is based on a talk that I gave (remotely) at the UK AI Safety Institute Alignment Workshop on October 29, and which I then procrastinated for more than a month in writing up.  Enjoy!
 

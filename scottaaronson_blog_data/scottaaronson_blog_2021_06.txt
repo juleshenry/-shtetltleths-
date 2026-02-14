@@ -1,5 +1,6 @@
 TITLE: STOC’2021 and BosonSampling
 URL: https://scottaaronson.blog/?m=202106
+DATE: Wednesday, June 23rd, 2021
 CONTENT:
 Happy birthday to Alan Turing!
 
@@ -15,6 +16,7 @@ So, bottom line, it now looks like the USTC experiment, amazing engineering achi
 
 TITLE: On Guilt
 URL: https://scottaaronson.blog/?m=202106
+DATE: Thursday, June 10th, 2021
 CONTENT:
 The other night Dana and I watched “The Internet’s Own Boy,” the 2014 documentary about the life and work of Aaron Swartz, which I’d somehow missed when it came out.  Swartz, for anyone who doesn’t remember, was the child prodigy who helped create RSS and Reddit, who then became a campaigner for an open Internet, who was arrested for using a laptop in an MIT supply closet to download millions of journal articles and threatened with decades in prison, and who then committed suicide at age 26.  I regret that I never knew Swartz, though he did once send me a fan email about Quantum Computing Since Democritus.
 
@@ -42,6 +44,7 @@ Looking back—which, now that I’m 40, I confess is an increasingly large frac
 
 TITLE: More quantum computing popularization!
 URL: https://scottaaronson.blog/?m=202106
+DATE: Tuesday, June 8th, 2021
 CONTENT:
 I now have a feature article up at Quanta magazine, entitled “What Makes Quantum Computing So Hard To Explain?”  I.e., why do journalists, investors, etc. so consistently get central points wrong, even after the subject has been in public consciousness for more than 25 years?  Perhaps unsurprisingly, I found it hard to discuss that meta-level question, as Quanta‘s editors asked me to do, without also engaging in the object-level task of actually explaining QC.  For regular Shtetl-Optimized readers, there will be nothing new here, but I’m happy with how the piece turned out.
 
@@ -61,6 +64,7 @@ OK, one last announcement: the Simons Institute for the Theory of Computing, in 
 
 TITLE: Three updates
 URL: https://scottaaronson.blog/?m=202106
+DATE: Tuesday, June 1st, 2021
 CONTENT:
 
 

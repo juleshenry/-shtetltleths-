@@ -1,5 +1,6 @@
 TITLE: The Collapsing Leviathan
 URL: https://scottaaronson.blog/?m=202005
+DATE: Tuesday, May 26th, 2020
 CONTENT:
 I was seriously depressed for the last week, by noticeably more than my baseline amount for the new pandemic-ravaged world.  The depression seems to have been triggered by two pieces of news:
 
@@ -33,6 +34,7 @@ Update (May 30): Woohoo!!  Avoiding yet another tragedy, after years of setbacks
 
 TITLE: Quantum Computing Lecture Notes 2.0
 URL: https://scottaaronson.blog/?m=202005
+DATE: Wednesday, May 20th, 2020
 CONTENT:
 Two years ago, I posted detailed lecture notes on this blog for my Intro to Quantum Information Science undergrad course at UT Austin.  Today, with enormous thanks to UT PhD student Corey Ostrove, we’ve gotten the notes into a much better shape (for starters, they’re now in LaTeX).  You can see the results here (7MB)—it’s basically a 260-page introductory quantum computing textbook in beta form, covering similar material as many other introductory quantum computing textbooks, but in my style for those who like that.  It’s missing exercises, as well as material on quantum supremacy experiments, recent progress in hardware, etc., but that will be added in the next version if there’s enough interest.  Enjoy!
 
@@ -42,6 +44,7 @@ Unrelated Announcement: Bjorn Poonen at MIT pointed me to researchseminars.org, 
 
 TITLE: Four striking papers
 URL: https://scottaaronson.blog/?m=202005
+DATE: Wednesday, May 13th, 2020
 CONTENT:
 In the past week or two, four striking papers appeared on quant-ph.  Rather than doing my usual thing—envisioning a huge, meaty blog post about each paper, but then procrastinating on writing them until the posts are no longer even relevant—I thought I’d just write a paragraph about each paper and then open things up for discussion.
 
@@ -59,6 +62,7 @@ And what about my own “research program”?  Well yesterday, having previously
 
 TITLE: Announcements
 URL: https://scottaaronson.blog/?m=202005
+DATE: Friday, May 8th, 2020
 CONTENT:
 Update (May 10): Extremely sorry to everyone who wanted to attend my SlateStarCodex talk on quantum necromancy, but wasn’t able due to technical problems!  My PowerPoint slides are here; a recording might be made available later.  Thanks to everyone who attended and asked great questions.  Even though there were many, many bugs to be worked out, I found giving my first talk in virtual reality a fascinating experience; thanks so much to Patrick V. for inviting me and setting it up.
 
@@ -78,6 +82,7 @@ I’ll try, as best I can, to give a 10-minute overview of the century-old measu
 
 TITLE: Vaccine challenge trials NOW!
 URL: https://scottaaronson.blog/?m=202005
+DATE: Friday, May 1st, 2020
 CONTENT:
 Update (May 5): Here’s a Quillette article making the case for human challenge trials.  I think there’s an actual non-negligible chance that this cause will win—but every wasted day means thousands more dead.
 

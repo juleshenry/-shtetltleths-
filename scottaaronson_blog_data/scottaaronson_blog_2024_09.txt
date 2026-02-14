@@ -1,5 +1,6 @@
 TITLE: The International Olympiad in Injustice
 URL: https://scottaaronson.blog/?m=202409
+DATE: Thursday, September 26th, 2024
 CONTENT:
 Today is the day I became radicalized in my Jewish and Zionist identities.
 
@@ -45,6 +46,7 @@ IOI 2024 began on September 1st, 2024. At that time, the Israeli delegation was 
 
 TITLE: Quantum Computing: Between Hope and Hype
 URL: https://scottaaronson.blog/?m=202409
+DATE: Sunday, September 22nd, 2024
 CONTENT:
 So, back in June the White House announced that UCLA would host a binational US/India workshop, for national security officials from both countries to learn about the current status of quantum computing and post-quantum cryptography. It fell to my friend and colleague Rafail Ostrovsky to organize the workshop, which ended up being held last week. When Rafi invited me to give the opening talk, I knew he’d keep emailing until I said yes. So, on the 3-hour flight to LAX, I wrote the following talk in a spiral notebook, which I then delivered the next morning with no slides. I called it “Quantum Computing: Between Hope and Hype.” I thought Shtetl-Optimized readers might be interested too, since it contains my reflections on a quarter-century in quantum computing, and prognostications on what I expect soon. Enjoy, and let me know what you think!
 
@@ -124,6 +126,7 @@ On the one hand, when I started in quantum computing 25 years ago, I reconciled 
 
 TITLE: AI transcript of my AI podcast
 URL: https://scottaaronson.blog/?m=202409
+DATE: Sunday, September 22nd, 2024
 CONTENT:
 In the comments of my last post—on a podcast conversation between me and Dan Fagella—I asked whether readers wanted me to use AI to prepare a clean written transcript of the conversation, and several people said yes.  I’ve finally gotten around to doing that, using GPT-4o.
 
@@ -325,6 +328,7 @@ Daniel Fagella: That’s all for this episode. A big thank you to everyone for t
 
 TITLE: My podcast with Dan Faggella
 URL: https://scottaaronson.blog/?m=202409
+DATE: Sunday, September 15th, 2024
 CONTENT:
 Dan Faggella recorded an unusual podcast with me that’s now online.  He introduces me as a “quantum physicist,” which is something that I never call myself (I’m a theoretical computer scientist) but have sort of given up on not being called by others.  But the ensuing 85-minute conversation has virtually nothing to do with physics, or anything technical at all.
 
@@ -342,6 +346,7 @@ Added: See here for other podcasts in the same series and on the same set of que
 
 TITLE: Quantum fault-tolerance milestones dropping like atoms
 URL: https://scottaaronson.blog/?m=202409
+DATE: Tuesday, September 10th, 2024
 CONTENT:
 Update: I’d been wavering—should I vote for the terrifying lunatic, ranting about trans criminal illegal aliens cooking cat meat, or for the nice woman constantly making faces as though the lunatic was completely cracking her up?  But when the woman explicitly came out in favor of AI and quantum computing research … that really sealed the deal for me.
 
@@ -367,6 +372,7 @@ Let me end by sticking my neck out.  If hardware progress continues at the rate 
 
 TITLE: In Support of SB 1047
 URL: https://scottaaronson.blog/?m=202409
+DATE: Wednesday, September 4th, 2024
 CONTENT:
 I’ve finished my two-year leave at OpenAI, and returned to being just a normal (normal?) professor, quantum complexity theorist, and blogger. Despite the huge drama at OpenAI that coincided with my time there, including the departures of most of the people I worked with in the former Superalignment team, I’m incredibly grateful to OpenAI for giving me an opportunity to learn and witness history, and even to contribute here and there, though I wish I could’ve done more.
 
@@ -396,6 +402,7 @@ If you agree with this, it wouldn’t hurt to contact Governor Newsom’s office
 
 TITLE: Book Review: “2040” by Pedro Domingos
 URL: https://scottaaronson.blog/?m=202409
+DATE: Sunday, September 1st, 2024
 CONTENT:
 Pedro Domingos is a computer scientist at the University of Washington.  I’ve known him for years as a guy who’d confidently explain to me why I was wrong about everything from physics to CS to politics … but then, for some reason, ask to meet with me again.  Over the past 6 or 7 years, Pedro has become notorious in the CS world as a right-wing bomb-thrower on what I still call Twitter—one who, fortunately for Pedro, is protected by his tenure at UW.  He’s also known for a popular book on machine learning called The Master Algorithm, which I probably should’ve read but didn’t.
 

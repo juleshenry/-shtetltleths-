@@ -1,5 +1,6 @@
 TITLE: Agent 3203.7: Guest post by Eliezer Yudkowsky
 URL: https://scottaaronson.blog/?m=202009
+DATE: Sunday, September 20th, 2020
 CONTENT:
 In his day, Agent 3203.7 had stopped people from trying to kill Adolf Hitler, Richard Nixon, and even, in the case of one unusually thoughtful assassin, Henry David Thoreau. But this was a new one on him.
 
@@ -27,6 +28,7 @@ Agent 3203.7 shook his head in amazement. Talk about shooting the messenger. “
 
 TITLE: In a world like this one, take every ally you can get
 URL: https://scottaaronson.blog/?m=202009
+DATE: Wednesday, September 16th, 2020
 CONTENT:
 Update (Sep. 17): Several people, here and elsewhere, wrote to tell me that while they completely agreed with my strategic and moral stance in this post, they think that it’s the ads of Republican Voters Against Trump, rather than the Lincoln Project, that have been most effective in changing Trump supporters’ minds.  So please consider donating to RVAT instead or in addition!  In fact, what the hell, I’ll match donations to RVAT up to $1000.
 
@@ -62,6 +64,7 @@ To my mind, turning one’s back on would-be allies, in a conflict whose stakes 
 
 TITLE: My Utility+ podcast with Matthew Putman
 URL: https://scottaaronson.blog/?m=202009
+DATE: Thursday, September 3rd, 2020
 CONTENT:
 Another Update (Sep. 15): Sorry for the long delay; new post coming soon!  To tide you over—or just to distract you from the darkness figuratively and literally engulfing our civilization—here’s a Fortune article about today’s announcement by IBM of its plans for the next few years in superconducting quantum computing, with some remarks from yours truly.
 

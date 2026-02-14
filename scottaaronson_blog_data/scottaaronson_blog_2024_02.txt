@@ -1,5 +1,6 @@
 TITLE: The Problem of Human Specialness in the Age of AI
 URL: https://scottaaronson.blog/?m=202402
+DATE: Monday, February 12th, 2024
 CONTENT:
 Update (Feb. 29): A YouTube video of this talk is now available, plus a comment section filled (as usual) with complaints about everything from my speech and mannerisms to my failure to address the commenter’s pet topic.
 
@@ -187,6 +188,7 @@ Does this help with alignment?  I’m not sure.  But, well, I could’ve falle
 
 TITLE: On whether we’re living in a simulation
 URL: https://scottaaronson.blog/?m=202402
+DATE: Wednesday, February 7th, 2024
 CONTENT:
 Unrelated Announcement (Feb. 7): Huge congratulations to longtime friend-of-the-blog John Preskill for winning the 2024 John Stewart Bell Prize for research on fundamental issues in quantum mechanics!
 

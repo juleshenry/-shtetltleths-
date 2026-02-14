@@ -1,5 +1,6 @@
 TITLE: 30 of my favorite books
 URL: https://scottaaronson.blog/?m=201803
+DATE: Wednesday, March 28th, 2018
 CONTENT:
 A reader named Shozab writes:
 
@@ -118,6 +119,7 @@ Unsong by Scott Alexander
 
 TITLE: Review of Steven Pinker’s Enlightenment Now
 URL: https://scottaaronson.blog/?m=201803
+DATE: Thursday, March 22nd, 2018
 CONTENT:
 It’s not every day that I check my office mailbox and, amid the junk brochures, find 500 pages on the biggest questions facing civilization—all of them, basically—by possibly the single person on earth most qualified to tackle those questions.  That’s what happened when, on a trip back to Austin from my sabbatical, I found a review copy of Steven Pinker’s Enlightenment Now: The Case for Reason, Science, Humanism, and Progress.
 
@@ -203,6 +205,7 @@ So my advice is this: buy Pinker’s book and read it.  Then work for a future 
 
 TITLE: Hawking
 URL: https://scottaaronson.blog/?m=201803
+DATE: Friday, March 16th, 2018
 CONTENT:
 
 

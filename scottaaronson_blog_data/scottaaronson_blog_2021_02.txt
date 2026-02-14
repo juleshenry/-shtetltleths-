@@ -1,5 +1,6 @@
 TITLE: Stop emailing my utexas address
 URL: https://scottaaronson.blog/?m=202102
+DATE: Tuesday, February 23rd, 2021
 CONTENT:
 A month ago, UT Austin changed its email policies—banning auto-forwarding from university accounts to Gmail accounts, apparently as a way to force the faculty and other employees to separate their work email from their personal email, and thereby comply with various government regulations.  Ever since that change, the email part of my life has been a total, unmitigated disaster.  I’ve missed (or been late to see) dozens of important work emails, with the only silver lining being that that’s arguably UT’s problem more than it is mine!
 
@@ -15,6 +16,7 @@ Update: Thanks so much to commenter Avraham and to my colleague Etienne Vouga, w
 
 TITLE: Brief thoughts on the Texas catastrophe
 URL: https://scottaaronson.blog/?m=202102
+DATE: Thursday, February 18th, 2021
 CONTENT:
 This past week, I spent so much mental energy worrying about the fate of Scott Alexander that I almost forgot that right here in Texas, I’m surrounded by historic scenes of Third-World-style devastation: snowstorms and sub-freezing temperatures for which our infrastructure was completely unprepared; impassable roads; burst gas and water pipes; millions without electricity or heat or clean water; the UT campus a short walk from me converted into a giant refugee camp.
 
@@ -30,6 +32,7 @@ Alright, now back to watching the Mars lander, which is apparently easier to bui
 
 TITLE: On standing up sans backbone
 URL: https://scottaaronson.blog/?m=202102
+DATE: Monday, February 15th, 2021
 CONTENT:
 Note: To get myself into the spirit of writing this post, tonight I watched the 2019 movie Mr. Jones, about the true story of the coverup of Stalin’s 1932-3 mass famine by New York Times journalist Walter Duranty.  Recommended!
 
@@ -51,6 +54,7 @@ To all those who called me naïve or a coward for having cooperated with the NYT
 
 TITLE: A grand anticlimax: the New York Times on Scott Alexander
 URL: https://scottaaronson.blog/?m=202102
+DATE: Saturday, February 13th, 2021
 CONTENT:
 Updates (Feb. 14, 2021): Scott Alexander Siskind responds here.
 

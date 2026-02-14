@@ -1,5 +1,6 @@
 TITLE: The Winding Road to Quantum Supremacy
 URL: https://scottaaronson.blog/?m=201901
+DATE: Tuesday, January 15th, 2019
 CONTENT:
 Greetings from QIP’2019 in Boulder, Colorado!  Obvious highlights of the conference include Urmila Mahadev’s opening plenary talk on her verification protocol for quantum computation (which I blogged about here), and Avishay Tal’s upcoming plenary on his and Ran Raz’s oracle separation between BQP and PH (which I blogged about here).  If you care, here are the slides for the talk I just gave, on the paper “Online Learning of Quantum States” by me, Xinyi Chen, Elad Hazan, Satyen Kale, and Ashwin Nayak.  Feel free to ask in the comments about what else is going on.
 

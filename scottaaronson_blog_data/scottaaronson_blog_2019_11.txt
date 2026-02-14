@@ -1,5 +1,6 @@
 TITLE: Guest post by Greg Kuperberg: Archimedes’ other principle and quantum supremacy
 URL: https://scottaaronson.blog/?m=201911
+DATE: Tuesday, November 26th, 2019
 CONTENT:
 Scott’s Introduction: Happy Thanksgiving!  Please join me in giving thanks for the beautiful post below, by friend-of-the-blog Greg Kuperberg, which tells a mathematical story that stretches from the 200s BC all the way to Google’s quantum supremacy result last month.
 
@@ -59,6 +60,7 @@ It is thought to be computationally intractable to calculate where each bit stri
 
 TITLE: The Aaronson-Ambainis Conjecture (2008-2019)
 URL: https://scottaaronson.blog/?m=201911
+DATE: Sunday, November 17th, 2019
 CONTENT:
 Update: Sadly, Nathan Keller and Ohad Klein tell me that they’ve retracted their preprint, because of what currently looks like a fatal flaw in Lemma 5.3, uncovered by Paata Ivanishvili.  I wish them the best of luck in fixing the problem.  In the meantime, I’m leaving up this post for “historical” reasons.
 
@@ -98,6 +100,7 @@ Anyway, I’m not sure how helpful it is to write more: the paper itself is abou
 
 TITLE: Annual recruitment post
 URL: https://scottaaronson.blog/?m=201911
+DATE: Tuesday, November 12th, 2019
 CONTENT:
 Just like I did last year, and the year before, I’m putting up a post to let y’all know about opportunities in our growing Quantum Information Center at UT Austin.
 
@@ -121,6 +124,7 @@ Hook ’em Hadamards!
 
 TITLE: The morality of quantum computing
 URL: https://scottaaronson.blog/?m=201911
+DATE: Thursday, November 7th, 2019
 CONTENT:
 This morning a humanities teacher named Richard Horan, having read my NYT op-ed on quantum supremacy, emailed me the following question about it:
 

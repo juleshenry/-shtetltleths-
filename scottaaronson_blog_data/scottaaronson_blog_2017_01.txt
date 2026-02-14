@@ -1,5 +1,6 @@
 TITLE: First they came for the Iranians
 URL: https://scottaaronson.blog/?m=201701
+DATE: Wednesday, January 25th, 2017
 CONTENT:
 Action Item: If you’re an American academic, please sign the petition against the Immigration Executive Order. (There are already more than eighteen thousand signatories, including Nobel Laureates, Fields Medalists, you name it, but it could use more!)
 
@@ -53,6 +54,7 @@ I find these people to be simply articulating, more clearly and logically than m
 
 TITLE: A day to celebrate
 URL: https://scottaaronson.blog/?m=201701
+DATE: Friday, January 20th, 2017
 CONTENT:
 Today—January 20, 2017—I have something cheerful, something that I’m celebrating.  It’s Lily’s fourth birthday. Happy birthday Lily!
 
@@ -68,6 +70,7 @@ Meanwhile, here’s a photo I took of UT Austin students protesting Trump’s in
 
 TITLE: My 116-page survey article on P vs. NP: better late than never
 URL: https://scottaaronson.blog/?m=201701
+DATE: Tuesday, January 3rd, 2017
 CONTENT:
 For those who just want the survey itself, not the backstory, it’s here. (Note: Partly because of the feedback I’ve gotten on this blog, it’s now expanded to 121 pages!)
 
@@ -119,6 +122,7 @@ Update (Jan. 19): This moment—the twilight of the Enlightenment, the eve of th
 
 TITLE: State
 URL: https://scottaaronson.blog/?m=201701
+DATE: Sunday, January 1st, 2017
 CONTENT:
 Happy New Year, everyone!  I tripped over a well-concealed hole and sprained my ankle while carrying my daughter across the grass at Austin’s New Years festival, so am now ringing in 2017 lying in bed immobilized, which somehow seems appropriate.  At least Lily is fine, and at least being bedridden gives me ample opportunity to blog.
 

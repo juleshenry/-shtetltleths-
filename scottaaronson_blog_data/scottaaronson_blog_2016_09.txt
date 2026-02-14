@@ -1,5 +1,6 @@
 TITLE: The No-Cloning Theorem and the Human Condition: My After-Dinner Talk at QCRYPT
 URL: https://scottaaronson.blog/?m=201609
+DATE: Monday, September 19th, 2016
 CONTENT:
 The following are the after-dinner remarks that I delivered at QCRYPT’2016, the premier quantum cryptography conference, on Thursday Sep. 15 in Washington DC.  You could compare to my after-dinner remarks at QIP’2006 to see how much I’ve “”matured”” since then. Thanks so much to Yi-Kai Liu and the other organizers for inviting me and for putting on a really fantastic conference.
 
@@ -113,6 +114,7 @@ Update (Sep. 20): Unbeknownst to me, Marc Kaplan did video the event and put it 
 
 TITLE: The Ninth Circuit ruled that vote-swapping is legal.  Let’s use it to stop Trump.
 URL: https://scottaaronson.blog/?m=201609
+DATE: Saturday, September 10th, 2016
 CONTENT:
 Updates: Commenter JT informs me that there’s already a vote-swapping site available: MakeMineCount.org.  (I particularly like their motto: “Everybody wins.  Except Trump.”)  I still think there’s a need for more sites, particularly ones that would interface with Facebook, but this is a great beginning.  I’ve signed up for it myself.
 
@@ -174,6 +176,7 @@ Not surprisingly, the “balanced rebellion” is advocated by Johnson fans.
 
 TITLE: Shtetl-Optimized Open Thread
 URL: https://scottaaronson.blog/?m=201609
+DATE: Friday, September 2nd, 2016
 CONTENT:
 Sorry for a post-free month.  I was completely preoccupied with the logistics of the move to Texas.  But now that I’m finally more-or-less settled on my 1000-acre cattle ranch, with my supply of shotguns and whiskey, I’ve decided to ease myself gently back into blogging, via Shtetl-Optimized‘s first-ever SlateStarCodex-style “Open Thread.”  This is not an Ask Me Anything thread.  Rather, it’s a thread for you, the readers, to ask each other whatever you want or bring up any topic on your mind.  I’ll chime in occasionally, and will moderate if needed.  No personal attacks or local hidden variable theories, please.
 

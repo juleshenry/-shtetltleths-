@@ -1,5 +1,6 @@
 TITLE: Lecture notes!  Intro to Quantum Information Science
 URL: https://scottaaronson.blog/?m=201808
+DATE: Sunday, August 26th, 2018
 CONTENT:
 Someone recently wrote that my blog is “too high on nerd whining content and too low on actual compsci content to be worth checking too regularly.”  While that’s surely one of the mildest criticisms I’ve ever received, I hope that today’s post will help to even things out.
 
@@ -35,6 +36,7 @@ If you finish these notes and are still hankering for more, try my Quantum Compl
 
 TITLE: Thank you, world!
 URL: https://scottaaronson.blog/?m=201808
+DATE: Wednesday, August 15th, 2018
 CONTENT:
 1. This post has no technical content.  As the tag indicates, it’s entirely “Nerd Self-Help”—thoughts I’ve recently found extremely helpful to me, and that I’m hopeful some others might be able to apply to their own life situations.  If that doesn’t interest you, feel free to skip.
 
@@ -94,6 +96,7 @@ I can only imagine how much pain and psychic energy it costs you to do that so p
 
 TITLE: Beyond fiction
 URL: https://scottaaronson.blog/?m=201808
+DATE: Wednesday, August 8th, 2018
 CONTENT:
 I now know firsthand what it’s like to be arrested by armed police officers, handcuffed, and sharply interrogated, while one’s wife and children look on helplessly.  This is not a prank post.
 

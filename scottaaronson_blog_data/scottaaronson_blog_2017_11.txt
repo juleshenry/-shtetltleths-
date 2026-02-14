@@ -1,5 +1,6 @@
 TITLE: The destruction of graduate education in the United States
 URL: https://scottaaronson.blog/?m=201711
+DATE: Friday, November 17th, 2017
 CONTENT:
 If and when you emerged from your happiness bubble to read the news, you’ll have seen (at least if you live in the US) that the cruel and reckless tax bill has passed the House of Representatives, and remains only to be reconciled with an equally-vicious Senate bill and then voted on by the Republican-controlled Senate.  The bill will add about $1.7 trillion to the national debt and raise taxes for about 47.5 million people, all in order to deliver a massive windfall to corporations, and to wealthy estates that already pay some of the lowest taxes in the developed world.
 
@@ -23,6 +24,7 @@ Anyway, what else is there to say, except to call your representative, if you’
 
 TITLE: Review of “Inadequate Equilibria,” by Eliezer Yudkowsky
 URL: https://scottaaronson.blog/?m=201711
+DATE: Thursday, November 16th, 2017
 CONTENT:
 Inadequate Equilibria: Where and How Civilizations Get Stuck is a little gem of a book: wise, funny, and best of all useful (and just made available for free on the web).  Eliezer Yudkowsky and I haven’t always agreed about everything, but on the subject of bureaucracies and how they fail, his insights are gold.  This book is one of the finest things he’s written.  It helped me reflect on my own choices in life, and it will help you reflect on yours.
 
@@ -60,6 +62,7 @@ Anyway, go read Inadequate Equilibria, then venture into the world and look for 
 
 TITLE: The Karp-Lipton Advice Column
 URL: https://scottaaronson.blog/?m=201711
+DATE: Wednesday, November 15th, 2017
 CONTENT:
 Today, Shtetl-Optimized is extremely lucky to have the special guest blogger poly: the ‘adviser’ in the computational complexity class P/poly (P with polynomial-sized advice string), defined by Richard Karp and Richard Lipton in 1982.
 
@@ -127,6 +130,7 @@ poly’s polynomial-sized advice column is syndicated in newspapers nationwide, 
 
 TITLE: Superposition your mouse over these five exciting QC links!
 URL: https://scottaaronson.blog/?m=201711
+DATE: Friday, November 3rd, 2017
 CONTENT:
 (1) My TEDx talk from Dresden, entitled “What Quantum Computing Isn’t,” is finally up on YouTube.  For regular Shtetl-Optimized readers, there’s unlikely to be much that’s new here: it’s basically 15 minutes of my usual spiel, packaged for mass consumption.  But while it went over well with the live audience, right now the only comment on the video is—I quote—“uuuuuuuuuuuuuuu,” from user “imbatman8472.”  So if you feel so inclined, go over there, watch it, and try to start a more contentful discussion!  Thanks so much to Andrés Goens, and everyone else in Dresden, for inviting me there and hosting a great visit.
 

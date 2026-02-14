@@ -57,17 +57,29 @@ def parse_segments(soup):
 
         # Date extraction
         date_str = ""
-        prev_h3 = segment.find_previous("h3", class_="blog-mixed-list-year")
-        if prev_h3:
-            date_str = prev_h3.get_text(strip=True)
-            
-        time_tag = segment.select_one("p.date-and-tags a[rel='bookmark'], div.entryFooter a:first-child")
-        if time_tag:
-            time_text = time_tag.get_text(strip=True)
-            if ":" in time_text or "am" in time_text.lower() or "pm" in time_text.lower():
+        # Try to get date from entryFooter (more reliable in current layout)
+        entry_footer = segment.select_one("div.entryFooter")
+        if entry_footer:
+            footer_links = entry_footer.find_all("a")
+            if len(footer_links) >= 2:
+                # The second link is usually the date like "13th February 2026"
+                date_str = footer_links[1].get_text(strip=True)
+                # The first link is usually the time
+                time_text = footer_links[0].get_text(strip=True)
+                date_str = f"{date_str} {time_text}"
+        
+        if not date_str:
+            # Fallback to older method
+            prev_h3 = segment.find_previous("h3", class_="blog-mixed-list-year")
+            if prev_h3:
+                date_str = prev_h3.get_text(strip=True)
+                
+            time_tag = segment.select_one("p.date-and-tags a[rel='bookmark']")
+            if time_tag:
+                time_text = time_tag.get_text(strip=True)
                 date_str += f" {time_text}"
 
-        # Summary extraction
+        # Summary/Content extraction
         content_texts = []
         for elem in segment.children:
             if elem.name in ["p", "blockquote", "div"]:
@@ -77,6 +89,20 @@ def parse_segments(soup):
                     content_texts.append(elem.get_text(strip=True))
         
         summary = " ".join(content_texts)
+        
+        # Fetch full post if it looks like a summary
+        full_content = summary
+        if "[..." in summary and post_url:
+            print(f"  Fetching full post: {post_url}", file=sys.stderr)
+            post_soup = get_soup(post_url)
+            if post_soup:
+                entry_page = post_soup.select_one("div.entryPage div[data-permalink-context]")
+                if entry_page:
+                    # Remove some unneeded bits
+                    for unwanted in entry_page.select(".mobile-date, .edit-page-link, .recent-articles"):
+                        unwanted.decompose()
+                    full_content = entry_page.get_text(separator="\n", strip=True)
+                time.sleep(0.5) # Be gentle
 
         if not date_str:
             raise ValueError(f"Could not find date for segment: {title}")
@@ -86,7 +112,7 @@ def parse_segments(soup):
             "title": title,
             "url": post_url,
             "date": date_str,
-            "summary": summary,
+            "summary": full_content,
             "timestamp": date_str
         })
     

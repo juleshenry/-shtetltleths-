@@ -1,5 +1,6 @@
 TITLE: “The Right Side of History”
 URL: https://scottaaronson.blog/?m=202408
+DATE: Friday, August 16th, 2024
 CONTENT:
 This morning I was pondering one of the anti-Israel protesters’ favorite phrases—I promise, out of broad philosophical curiosity rather than just parochial concern for my extended family’s survival.
 
@@ -49,6 +50,7 @@ Anyway, maybe this generalizes.  Sure, a call to “stand on the right side of h
 
 TITLE: My Reading Burden
 URL: https://scottaaronson.blog/?m=202408
+DATE: Wednesday, August 14th, 2024
 CONTENT:
 Want some honesty about how I (mis)spend my time?  These days, my daily routine includes reading all of the following:
 
@@ -74,6 +76,7 @@ And as for my reading fast, there’s always tomorrow.
 
 TITLE: My pontificatiest AI podcast ever!
 URL: https://scottaaronson.blog/?m=202408
+DATE: Sunday, August 11th, 2024
 CONTENT:
 Back in May, I had the honor (nay, honour) to speak at HowTheLightGetsIn, an ideas festival held annually in Hay-on-Wye on the English/Welsh border.  It was my first time in that part of the UK, and I loved it.  There was an immense amount of mud due to rain on the festival ground, and many ideas presented at the talks and panels that I vociferously disagreed with (but isn’t that the point?).
 

@@ -1,5 +1,6 @@
 TITLE: My “Never-Trump From Here to Eternity” FAQ
 URL: https://scottaaronson.blog/?m=202407
+DATE: Tuesday, July 30th, 2024
 CONTENT:
 Q1: Who will you be voting for in November?
 
@@ -101,6 +102,7 @@ A: Not only does civil disagreement not compromise any of my values, it is a val
 
 TITLE: New comment policy
 URL: https://scottaaronson.blog/?m=202407
+DATE: Monday, July 15th, 2024
 CONTENT:
 Update (July 24): Remember the quest that Adam Yedidia and I started in 2016, to find the smallest n such that the value of the nth Busy Beaver number can be proven independent of the axioms of ZF set theory?  We managed to show that BB(8000) was independent.  This was later improved to BB(745) by Stefan O’Rear and Johannes Riebel.  Well, today Rohan Ridenour writes to tell me that he’s achieved a further improvement to BB(643).  Awesome!
 
@@ -124,6 +126,7 @@ The new policy starts now, in the comment section of this post.  To the many who
 
 TITLE: My Prayer
 URL: https://scottaaronson.blog/?m=202407
+DATE: Sunday, July 14th, 2024
 CONTENT:
 It is the duty of good people, always and everywhere, to condemn, reject, and disavow the use of political violence.
 
@@ -173,6 +176,7 @@ Endnote 3: If you thought that Trump’s base was devoted before, now that the M
 
 TITLE: Quantum developments!
 URL: https://scottaaronson.blog/?m=202407
+DATE: Thursday, July 11th, 2024
 CONTENT:
 Perhaps like the poor current President of the United States, I can feel myself fading, my memory and verbal facility and attention to detail failing me, even while there’s so much left to do to battle the nonsense in the world.  I started my career on an accelerated schedule—going to college at 15, finishing my PhD at 22, etc. etc.—and the decline is (alas) also hitting me early, at the ripe age of 43.
 
@@ -192,6 +196,7 @@ Incidentally, congratulations to Peter Shor for winning the Shannon Award!
 
 TITLE: The Zombie Misconception of Theoretical Computer Science
 URL: https://scottaaronson.blog/?m=202407
+DATE: Monday, July 8th, 2024
 CONTENT:
 In Michael Sipser’s Introduction to the Theory of Computation textbook, he has one Platonically perfect homework exercise, so perfect that I can reconstruct it from memory despite not having opened the book for over a decade.  It goes like this:
 
@@ -225,6 +230,7 @@ Anyway, I’m writing this post mostly just so that I have a place to link the n
 
 TITLE: BusyBeaver(5) is now known to be 47,176,870
 URL: https://scottaaronson.blog/?m=202407
+DATE: Tuesday, July 2nd, 2024
 CONTENT:
 The news these days feels apocalyptic to me—as if we’re living through, if not the last days of humanity, then surely the last days of liberal democracy on earth.
 

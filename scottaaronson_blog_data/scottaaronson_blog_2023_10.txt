@@ -1,5 +1,6 @@
 TITLE: The floorboard test
 URL: https://scottaaronson.blog/?m=202310
+DATE: Monday, October 30th, 2023
 CONTENT:
 Last night a colleague sent me a gracious message, wishing for the safe return of the hostages and expressing disgust over the antisemites in my comment section. I wanted to share my reply.
 
@@ -17,6 +18,7 @@ Be well.—Scott
 
 TITLE: Bring the Brodutch family home
 URL: https://scottaaronson.blog/?m=202310
+DATE: Saturday, October 21st, 2023
 CONTENT:
 Another Update (Oct. 27): At Boaz Barak’s Windows on Theory blog, you can now find a petition signed by 63 prize-winning mathematicians and computer scientists—one guess which one is alphabetically first—asking that the kidnapped Israeli children be returned home.  I feel confident that the pleas of Fields Medalists and Turing Award laureates will be what finally makes Hamas see the light.
 
@@ -54,6 +56,7 @@ I am asking all the governments in the world, do the right thing and help bring 
 
 TITLE: Shtetl-Optimized’s First-Ever “Profile in Courage”
 URL: https://scottaaronson.blog/?m=202310
+DATE: Tuesday, October 10th, 2023
 CONTENT:
 Update (Oct. 11): While this post celebrated Harvard’s Boaz Barak, and his successful effort to shame his into disapproving of the murder of innocents, I missed Boaz’s best tweet about this.  There, Boaz points out that there might be a way to get Western leftists on board with basic humanity on this issue.  Namely: we simply need to unearth video proof that, at some point before beheading their Jewish victims in front of their families, burning them alive, and/or parading their mutilated bodies through the streets, at some point Hamas also misgendered them.
 
@@ -79,6 +82,7 @@ When I get depressed about the state of the world—as I have a lot the past few
 
 TITLE: To all those who’ve emailed me…
 URL: https://scottaaronson.blog/?m=202310
+DATE: Monday, October 9th, 2023
 CONTENT:
 My wife’s family is OK; thanks very much for asking. But yes, missiles are landing and sirens are going off in Tel Aviv, and people there regularly have to use their buildings’ bomb shelters.
 

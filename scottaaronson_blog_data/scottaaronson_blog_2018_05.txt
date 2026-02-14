@@ -1,5 +1,6 @@
 TITLE: PDQP/qpoly = ALL
 URL: https://scottaaronson.blog/?m=201805
+DATE: Saturday, May 19th, 2018
 CONTENT:
 I’ve put up a new paper.  Unusually for me these days, it’s a very short and simple one (8 pages)—I should do more like this!  Here’s the abstract:
 
@@ -17,6 +18,7 @@ Update: I posted a new version of the PDQP/qpoly=ALL paper, which includes an ob
 
 TITLE: The stupidest story I ever wrote (it was a long flight)
 URL: https://scottaaronson.blog/?m=201805
+DATE: Friday, May 18th, 2018
 CONTENT:
 All the legal maneuvers, the decades of recriminations, came down in the end to two ambiguous syllables.  No one knew why old man Memeson had named his two kids “Laurel” and “Yanny,” or why his late wife had gone along with it.  Not Laura, not Lauren, but Laurel—like, the leaves that the complacent rest on?  Poor girl.  And yet she lucked out compared to her younger brother. “Yanny”? Rhymes with fanny, seriously?  If you got picked on in school half as much as Yanny did, you too might grow up angry enough to spend half your life locked in an inheritance fight.
 
@@ -52,6 +54,7 @@ Are there any recordings from the platform?  There is one, which was lost for g
 
 TITLE: The Zeroth Commandment
 URL: https://scottaaronson.blog/?m=201805
+DATE: Sunday, May 6th, 2018
 CONTENT:
 “I call heaven and earth to witness against you this day, that I have set before thee life and death, the blessing and the curse: therefore choose life, that thou mayest live, thou and thy seed.” –Deuteronomy 30:19
 

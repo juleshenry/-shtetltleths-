@@ -1,5 +1,6 @@
 TITLE: My New York Times op-ed on quantum supremacy
 URL: https://scottaaronson.blog/?m=201910
+DATE: Wednesday, October 30th, 2019
 CONTENT:
 Here it is.
 
@@ -13,6 +14,7 @@ While I’m posting: those of a more technical bent might want to check out my n
 
 TITLE: Quantum supremacy: the gloves are off
 URL: https://scottaaronson.blog/?m=201910
+DATE: Wednesday, October 23rd, 2019
 CONTENT:
 Links:Google paper in NatureNew York Times articleIBM paper and blog post responding to Google’s announcementBoaz Barak’s new post: “Boaz’s inferior classical inferiority FAQ”Lipton and Regan’s postMy quantum supremacy interview with the BBC (featuring some of my fewest “uhms” and “ahs” ever!)NEW: My preprint with Sam Gunn, On the Classical Hardness of Spoofing Linear Cross-Entropy BenchmarkingMy interview on NPR affiliate WOSU (starts around 16:30)
 
@@ -116,6 +118,7 @@ Update #2: Aaannd … timed to coincide with the Google paper, last night the gr
 
 TITLE: Book Review: ‘The AI Does Not Hate You’ by Tom Chivers
 URL: https://scottaaronson.blog/?m=201910
+DATE: Sunday, October 6th, 2019
 CONTENT:
 A couple weeks ago I read The AI Does Not Hate You: Superintelligence, Rationality, and the Race to Save the World, the first-ever book-length examination of the modern rationalist community, by British journalist Tom Chivers.  I was planning to review it here, before it got preempted by the news of quantum supremacy (and subsequent news of classical non-supremacy).  Now I can get back to rationalists.
 
@@ -161,6 +164,7 @@ I still don’t know whether there’s a risk worth worrying about that a misali
 
 TITLE: From quantum supremacy to classical fallacy
 URL: https://scottaaronson.blog/?m=201910
+DATE: Wednesday, October 2nd, 2019
 CONTENT:
 Retrospective Comment (Dec. 26, 2019): While I basically stand by what I wrote in this post, I wanted to call attention to the fact that, in its aftermath, one of the authors of the p-bit paper—Kerem Camsari—displayed a striking degree of intellectual courage and honesty.  He showed up in the comments section to defend the motivation for the p-bit model, but also to concede the points I’d raised about scaling.  Notably, on some matters, he explicitly broke with his own coauthors.  He treated having his paper harshly criticized on Shtetl-Optimized not as a personal attack, but as an opportunity to learn and grow.  I’m not sure that I would’ve been able to do the same in his shoes, and I regard it as one of the happier outcomes in this blog’s history. –SA
 

@@ -1,5 +1,6 @@
 TITLE: Open Letter to Anti-Zionists on Twitter
 URL: https://scottaaronson.blog/?m=202403
+DATE: Monday, March 25th, 2024
 CONTENT:
 Dear Twitter Anti-Zionists,
 
@@ -175,6 +176,7 @@ Cheers,Scott
 
 TITLE: Never go to “Planet Word” in Washington DC
 URL: https://scottaaronson.blog/?m=202403
+DATE: Friday, March 15th, 2024
 CONTENT:
 In fact, don’t try to take kids to Washington DC if you can possibly avoid it.
 
@@ -198,6 +200,7 @@ And to anyone who reached the end of this post and who feels like it was an unwe
 
 TITLE: On being faceless
 URL: https://scottaaronson.blog/?m=202403
+DATE: Wednesday, March 6th, 2024
 CONTENT:
 Update: Alright, I’m back in.  (After trying the same recovery mechanisms that didn’t work before, but suddenly did work this afternoon.)  Thanks also to the Facebook employee who emailed offering to help.  Now I just need to decide the harder question of whether I want to be back in!
 

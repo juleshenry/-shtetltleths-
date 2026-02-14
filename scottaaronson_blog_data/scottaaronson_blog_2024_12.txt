@@ -1,5 +1,6 @@
 TITLE: The Google Willow thing
 URL: https://scottaaronson.blog/?m=202412
+DATE: Tuesday, December 10th, 2024
 CONTENT:
 Yesterday I arrived in Santa Clara for the Q2B (Quantum 2 Business) conference, which starts this morning, and where I’ll be speaking Thursday on “Quantum Algorithms in 2024: How Should We Feel?” and also closing the conference via an Ask-Us-Anything session with John Preskill.  (If you’re at Q2B, reader, come and say hi!)
 
@@ -15,6 +16,7 @@ Update: Here’s Sabine Hossenfelder’s take. I don’t think she and I disagre
 
 TITLE: Podcasts!
 URL: https://scottaaronson.blog/?m=202412
+DATE: Wednesday, December 4th, 2024
 CONTENT:
 Update (Dec. 9): For those who still haven’t gotten enough, check out a 1-hour Zoom panel discussion about quantum algorithms, featuring yours truly along with my distinguished colleagues Eddie Farhi, Aram Harrow, and Andrew Childs, moderated by Barry Sanders, as part of the QTML’2024 conference held in Melbourne (although, it being Thanksgiving week, none of the four panelists were actually there in person).  Part of the panel devolves into a long debate between me and Eddie about how interesting quantum algorithms are if they don’t achieve speedups over classical algorithms, and whether some quantum algorithms papers mislead people by not clearly addressing the speedup question (you get one guess as to which side I took).  I resolved going in to keep my comments as civil and polite as possible—you can judge for yourself how well I succeeded!  Thanks very much to Barry and the other QTML organizers for making this happen.
 

@@ -1,5 +1,6 @@
 TITLE: A postdoc post
 URL: https://scottaaronson.blog/?m=201603
+DATE: Saturday, March 19th, 2016
 CONTENT:
 I apologize that this announcement is late in this year’s hiring season, but here goes.  I’m seeking postdocs in computational complexity and/or quantum information science to join me at UT Austin starting in Fall of 2016.  As I mentioned before, there’s a wonderful CS theory group at UT that you can work with and benefit from, including Adam Klivans, David Zuckerman, Anna Gal, Vijaya Ramachandran, Brent Waters, Eric Price, Greg Plaxton, and of course my wife Dana Moshkovitz, who will be joining UT as well.  If you’re interested, please email me a CV and a short cover letter, and ask your PhD adviser and one or two others to email me recommendation letters.  The postdoc would be for two years by default.
 
@@ -11,6 +12,7 @@ Another Update: I’m very honored, along with fourteen others, to have received
 
 TITLE: Quantum.  Crypto.  Things happen.  I blog.
 URL: https://scottaaronson.blog/?m=201603
+DATE: Sunday, March 6th, 2016
 CONTENT:
 1. A bunch of people emailed me to ask about the paper “Realization of a scalable Shor algorithm”: a joint effort by the groups of my MIT colleague Ike Chuang and of Innsbruck’s Rainer Blatt.  The paper has been on the arXiv since July, but last week everyone suddenly noticed it because it appeared in Science.  See also the articles in MIT News and IEEE Spectrum.
 

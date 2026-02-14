@@ -1,5 +1,6 @@
 TITLE: HTTPS / Kurtz / eclipse / Charlottesville / Blum / P vs. NP
 URL: https://scottaaronson.blog/?m=201708
+DATE: Friday, August 25th, 2017
 CONTENT:
 This post has a grab bag of topics, unified only by the fact that I can no longer put off blogging about them. So if something doesn’t interest you, just scroll down till you find something that does.
 
@@ -71,6 +72,7 @@ During the discussion of Deolalikar’s earlier P≠NP claim, I once compared 
 
 TITLE: What I believe II (ft. Sarah Constantin and Stacey Jeffery)
 URL: https://scottaaronson.blog/?m=201708
+DATE: Tuesday, August 15th, 2017
 CONTENT:
 Unrelated Update: To everyone who keeps asking me about the “new” P≠NP proof: I’d again bet $200,000 that the paper won’t stand, except that the last time I tried that, it didn’t achieve its purpose, which was to get people to stop asking me about it. So: please stop asking, and if the thing hasn’t been refuted by the end of the week, you can come back and tell me I was a closed-minded fool.
 
@@ -212,6 +214,7 @@ As it happens, I’m at a quantum supremacy workshop in Bristol, UK right now—
 
 TITLE: The Kolmogorov option
 URL: https://scottaaronson.blog/?m=201708
+DATE: Tuesday, August 8th, 2017
 CONTENT:
 Andrey Nikolaevich Kolmogorov was one of the giants of 20th-century mathematics.  I’ve always found it amazing that the same man was responsible both for establishing the foundations of classical probability theory in the 1930s, and also for co-inventing the theory of algorithmic randomness (a.k.a. Kolmogorov complexity) in the 1960s, which challenged the classical foundations, by holding that it is possible after all to talk about the entropy of an individual object, without reference to any ensemble from which the object was drawn.  Incredibly, going strong into his eighties, Kolmogorov then pioneered the study of “sophistication,” which amends Kolmogorov complexity to assign low values both to “simple” objects and “random” ones, and high values only to a third category of objects, which are “neither simple nor random.”  So, Kolmogorov was at the vanguard of the revolution, counter-revolution, and counter-counter-revolution.
 

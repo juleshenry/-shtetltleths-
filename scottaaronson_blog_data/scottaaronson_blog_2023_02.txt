@@ -1,5 +1,6 @@
 TITLE: Should GPT exist?
 URL: https://scottaaronson.blog/?m=202302
+DATE: Wednesday, February 22nd, 2023
 CONTENT:
 I still remember the 90s, when philosophical conversation about AI went around in endless circles—the Turing Test, Chinese Room, syntax versus semantics, connectionism versus symbolic logic—without ever seeming to make progress.  Now the days have become like months and the months like decades.
 
@@ -73,6 +74,7 @@ I’m in Boulder, CO right now, to give a physics colloquium at CU Boulder and t
 
 TITLE: Statement of Jewish scientists opposing the “judicial reform” in Israel
 URL: https://scottaaronson.blog/?m=202302
+DATE: Thursday, February 16th, 2023
 CONTENT:
 Today, Dana and I unhesitatingly join a group of Jewish scientists around the world (see the full current list of signatories here, including Ed Witten, Steven Pinker, Manuel Blum, Shafi Goldwasser, Judea Pearl, Lenny Susskind, and several hundred more) who’ve released the following statement:
 
@@ -106,6 +108,7 @@ As a lifelong Zionist, this is not what I signed up for.  If Netanyahu succeeds 
 
 TITLE: Visas for Chinese students: US shoots itself in the foot again
 URL: https://scottaaronson.blog/?m=202302
+DATE: Tuesday, February 14th, 2023
 CONTENT:
 Coming out of blog-hiatus for some important stuff, today, tomorrow, and the rest of the week.
 

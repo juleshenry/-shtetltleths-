@@ -1,5 +1,6 @@
 TITLE: Palate cleanser
 URL: https://scottaaronson.blog/?m=202308
+DATE: Monday, August 21st, 2023
 CONTENT:
 
 
@@ -7,6 +8,7 @@ CONTENT:
 
 TITLE: Long-awaited Shtetl-Optimized Barbenheimer post! [warning: spoilers]
 URL: https://scottaaronson.blog/?m=202308
+DATE: Sunday, August 13th, 2023
 CONTENT:
 I saw Oppenheimer three weeks ago, but I didn’t see Barbie until this past Friday.  Now, my scheduled flight having been cancelled, I’m on multiple redeyes on my way to a workshop on Large Language Models at the Simons Institute in Berkeley, organized by my former adviser and quantum complexity theorist Umesh Vazirani (!).  What better occasion to review the two movies of the year, or possibly decade?
 
@@ -56,6 +58,7 @@ I suppose Barbie could be read as, among other things, a condemnation of male in
 
 TITLE: Testing GPT-4 with math plugins
 URL: https://scottaaronson.blog/?m=202308
+DATE: Sunday, August 13th, 2023
 CONTENT:
 A couple nights ago Ernie Davis and I put out a paper entitled Testing GPT-4 on Wolfram Alpha and Code Interpreter plug-ins on math and science problems.  Following on our DALL-E paper with Gary Marcus, this was another “adversarial collaboration” between me and Ernie.  I’m on leave to work for OpenAI, and have been extremely excited by the near-term applications of LLMs, while Ernie has often been skeptical of OpenAI’s claims, but we both want to test our preconceptions against reality.  As I recently remarked to Ernie, we both see the same glass; it’s just that he mostly focuses on the empty half, whereas I remember how fantastical even a drop of water in this glass would’ve seemed to me just a few years ago, and therefore focus more on the half that’s full.
 

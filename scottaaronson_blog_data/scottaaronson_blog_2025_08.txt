@@ -1,5 +1,6 @@
 TITLE: Staying sane on a zombie planet
 URL: https://scottaaronson.blog/?m=202508
+DATE: Sunday, August 31st, 2025
 CONTENT:
 Hardly for the first time in my life, this weekend I got floridly denounced every five minutes—on SneerClub, on the blog of Peter Woit, and in my own inbox.  The charge this time was that I’m a genocidal Zionist who wants to kill all Palestinian children purely because of his mental illness and raging persecution complex.
 
@@ -39,6 +40,7 @@ Addendum: The troll who sent the antisemitic image now says that he regrets and 
 
 TITLE: Deep Zionism
 URL: https://scottaaronson.blog/?m=202508
+DATE: Thursday, August 28th, 2025
 CONTENT:
 Suppose a man has already murdered most of your family, including several of your children, for no other reason than that he believes your kind doesn’t deserve to exist on earth.  The murderer was never seriously punished for this, because most of your hometown actually shared his feelings about your family.  They watched the murders with attitudes ranging from ineffectual squeamishness to indifference to unconcealed glee.
 
@@ -76,6 +78,7 @@ We’re not completely on our own though. There remain decent people of every ba
 
 TITLE: Updates!
 URL: https://scottaaronson.blog/?m=202508
+DATE: Wednesday, August 13th, 2025
 CONTENT:
 (1) My 8-year-old son asked me last week, “daddy, did you hear that GPT-5 is now out?”  So yes, I’m indeed aware that GPT-5 is now out!  I’ve just started playing around with it.  For detailed reports on what’s changed and how impressive it is compared to previous models, see for example Zvi #1, #2, #3.  Briefly, it looks like there are major reductions in hallucinations and sycophancy, and improvements in practical usefulness for coding and other tasks, even while the “raw intelligence” is unlikely to blow away someone who was already well-acquainted with o3 and Opus 4 other state-of-the-art models, the way ChatGPT and then GPT-4 blew away people who had no idea what was possible in late 2022 and early 2023.  Partly how impressive a result you see depends on which of several GPT-5 models your query gets routed to, which you don’t entirely control.  Anyway, there’s grist here for the people who claim that progress toward AGI is slowing down, but also grist for the people who claim that it continues pretty much as expected within our post-ChatGPT reality!
 
@@ -97,6 +100,7 @@ CONTENT:
 
 TITLE: ChatGPT and the Meaning of Life: Guest Post by Harvey Lederman
 URL: https://scottaaronson.blog/?m=202508
+DATE: Monday, August 4th, 2025
 CONTENT:
 Scott Aaronson’s Brief Foreword:
 

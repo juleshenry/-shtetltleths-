@@ -1,5 +1,6 @@
 TITLE: Alex Halderman testifying before the Senate Intelligence Committee
 URL: https://scottaaronson.blog/?m=201706
+DATE: Wednesday, June 21st, 2017
 CONTENT:
 This morning, my childhood best friend Alex Halderman testified before the US Senate about the proven ease of hacking electronic voting machines without leaving any record, the certainty that Russia has the technical capability to hack American elections, and the urgency of three commonsense (and cheap) countermeasures:
 
@@ -11,6 +12,7 @@ Alex’s testimony—its civic, nonpartisan nature, right down to Alex’s flour
 
 TITLE: Higher-level causation exists (but I wish it didn’t)
 URL: https://scottaaronson.blog/?m=201706
+DATE: Sunday, June 4th, 2017
 CONTENT:
 Unrelated Update (June 6): It looks like the issues we’ve had with commenting have finally been fixed! Thanks so much to Christie Wright and others at WordPress Concierge Services for handling this. Let me know if you still have problems. In the meantime, I also stopped asking for commenters’ email addresses (many commenters filled that field with nonsense anyway).  Oops, that ended up being a terrible idea, because it made commenting impossible!  Back to how it was before.
 

@@ -1,5 +1,6 @@
 TITLE: Happy Thanksgiving Y’All!
 URL: https://scottaaronson.blog/?m=202011
+DATE: Wednesday, November 25th, 2020
 CONTENT:
 While a lot of pain is still ahead, this year I’m thankful that a dark chapter in American history might be finally drawing to a close.  I’m thankful that the mRNA vaccines actually work.  I’m thankful that my family has remained safe, and I’m thankful for all the essential workers who’ve kept our civilization running.
 
@@ -11,6 +12,7 @@ A few things:
 
 TITLE: Huck Finn and the gaslighting of America
 URL: https://scottaaronson.blog/?m=202011
+DATE: Monday, November 23rd, 2020
 CONTENT:
 For the past month, I’ve been reading The Adventures of Huckleberry Finn to my 7-year-old daughter Lily.  Is she too young for it?  Is there a danger that she’ll slip up and say the n-word in school?  I guess so, maybe.  But I found it worthwhile just for the understanding that lit up her face when she realized what it meant that Huck would help Jim escape slavery even though Huck really, genuinely believed that he’d burn in hell for it.
 
@@ -48,6 +50,7 @@ Update: I just noticed this Twitter thread by friend-of-the-blog Sean Carroll, w
 
 TITLE: Annual post: Come join UT Austin’s Quantum Information Center!
 URL: https://scottaaronson.blog/?m=202011
+DATE: Wednesday, November 18th, 2020
 CONTENT:
 Hook ’em Hadamards!
 
@@ -61,6 +64,7 @@ If you’re a prospective faculty member: Yes, faculty searches are still happen
 
 TITLE: The Complexity Zoo needs a new home
 URL: https://scottaaronson.blog/?m=202011
+DATE: Thursday, November 12th, 2020
 CONTENT:
 Update (Nov. 14): I now have a deluge of serious hosting offers—thank you so much, everyone!  No need for more.
 
@@ -84,6 +88,7 @@ Unrelated Announcement: I’ll once again be doing an Ask-Me-Anything session at
 
 TITLE: On defeating a sociopath
 URL: https://scottaaronson.blog/?m=202011
+DATE: Monday, November 9th, 2020
 CONTENT:
 There are people who really, genuinely, believe, as far as you can dig down, that winning is everything—that however many lies they told, allies they betrayed, innocent lives they harmed, etc. etc., it was all justified by the fact that they won and their enemies lost.  Faced with such sociopaths, people like me typically feel an irresistible compulsion to counterargue: to make the sociopath realize that winning is not everything, that truth and honor are terminal values as well; to subject the sociopath to the standards by which the rest of us are judged; to find the conscience that the sociopath buried even from himself and drag it out into the light.  Let me know if you can think of any case in human history where such efforts succeeded, because I’m having difficulty doing so.
 
@@ -99,6 +104,7 @@ Anyway, that pretty much sums up my thoughts regarding Arthur Chu.  In other new
 
 TITLE: Five Thoughts
 URL: https://scottaaronson.blog/?m=202011
+DATE: Saturday, November 7th, 2020
 CONTENT:
 (1) A friend commented that Biden’s victory becomes more impressive after you contemplate the enthusiasm gap: Trump’s base believed that Trump was sent by God, whereas Biden’s base believed that Biden probably wasn’t a terrible human being.  I replied that what we call the “Enlightenment” was precisely this, the switch from cowering before leaders who were sent by God to demanding leaders who probably aren’t terrible human beings.
 
@@ -114,6 +120,7 @@ CONTENT:
 
 TITLE: On the removal of a hideous growth
 URL: https://scottaaronson.blog/?m=202011
+DATE: Friday, November 6th, 2020
 CONTENT:
 The title of this post is not an allegory.
 
@@ -127,6 +134,7 @@ Again intellectually, I know that there’s still lots more pain in the days ahe
 
 TITLE: A Drawing for Singularity Eve
 URL: https://scottaaronson.blog/?m=202011
+DATE: Monday, November 2nd, 2020
 CONTENT:
 Lily, my 7-year-old, asked me to share the above on my blog.  She says it depicts the US Army luring Trump out of the White House with a hamburger, in order to lock the front door once he’s out—what she proposes should happen if Trump refuses to acknowledge a loss.
 

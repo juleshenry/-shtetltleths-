@@ -1,5 +1,6 @@
 TITLE: The Acrobatics of BQP
 URL: https://scottaaronson.blog/?m=202111
+DATE: Friday, November 19th, 2021
 CONTENT:
 Just in case anyone is depressed this afternoon and needs something to cheer them up, students William Kretschmer, DeVon Ingram, and I have finally put out a new paper:
 
@@ -27,6 +28,7 @@ Incidentally, particularly when I’ve worked on a project with students, I’m 
 
 TITLE: Scott Aaronson, when reached for comment, said…
 URL: https://scottaaronson.blog/?m=202111
+DATE: Tuesday, November 16th, 2021
 CONTENT:
 About IBM’s new 127-qubit superconducting chip: As I told New Scientist, I look forward to seeing the actual details!  As far as I could see, the marketing materials that IBM released yesterday take a lot of words to say absolutely nothing about what, to experts, is the single most important piece of information: namely, what are the gate fidelities?  How deep of a quantum circuit can they apply?  How have they benchmarked the chip?  Right now, all I have to go on is a stats page for the new chip, which reports its average CNOT error as 0.9388—in other words, close to 1, or terrible! (But see also a tweet by James Wootton, which explains that such numbers are often highly misleading when a new chip is first rolled out.)  Does anyone here have more information? Update (11/17): As of this morning, the average CNOT error has been updated to 2%.  Thanks to multiple commenters for letting me know!
 
@@ -40,6 +42,7 @@ About the Association for Mathematical Research: Last month, some colleagues inv
 
 TITLE: Q2B 2021
 URL: https://scottaaronson.blog/?m=202111
+DATE: Monday, November 1st, 2021
 CONTENT:
 This is a quick post to let people know that the 2021 Q2B (Quantum 2 Business) conference will be this December 7-9 at the Santa Clara Convention Center.  (Full disclosure: Q2B is hosted by QC Ware, Inc., to which I’m the scientific adviser.)  Barring a dramatic rise in cases or the like, I’m planning to attend to do my Ask-Me-Anything session, in what’s become an annual tradition.  Notably, this will be my first in-person conference, and in fact my first professional travel of any kind, since before covid shut down the US in late March 2020.  I hope to see many of you there!  And if you won’t be at Q2B, but you’ll be in the Bay Area and would like to meet otherwise, let me know and we’ll try to work something out.
 

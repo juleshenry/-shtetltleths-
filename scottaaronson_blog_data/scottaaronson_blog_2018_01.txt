@@ -1,5 +1,6 @@
 TITLE: Practicing the modus ponens of Twitter
 URL: https://scottaaronson.blog/?m=201801
+DATE: Monday, January 29th, 2018
 CONTENT:
 I saw today that Ryan Lackey generously praised my and Zach Weinersmith’s quantum computing SMBC comic on Twitter:
 
@@ -21,6 +22,7 @@ How’d I do?  Was there still too much argument there for the world of 2018?
 
 TITLE: John Preskill, laziness enabler
 URL: https://scottaaronson.blog/?m=201801
+DATE: Thursday, January 4th, 2018
 CONTENT:
 The purpose of this post is just to call everyone’s attention to a beautiful and accessible new article by John Preskill: Quantum Computing in the NISQ era and beyond.  The article is based on John’s keynote address at the recent “Q2B” (Quantum Computing for Business) conference, which I was unfortunately unable to attend.  Here’s the abstract:
 

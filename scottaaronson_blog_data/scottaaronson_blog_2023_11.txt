@@ -1,5 +1,6 @@
 TITLE: More Updates!
 URL: https://scottaaronson.blog/?m=202311
+DATE: Sunday, November 26th, 2023
 CONTENT:
 Yet Another Update (Dec. 5): For those who still haven’t had enough of me, check me out on Curt Jaimungal’s Theories of Everything Podcast, talking about … err, computational complexity, the halting problem, the time hierarchy theorem, free will, Newcomb’s Paradox, the no-cloning theorem, interpretations of quantum mechanics, Wolfram, Penrose, AI, superdeterminism, consciousness, integrated information theory, and whatever the hell else Curt asks me about.  I strongly recommend watching the video at 2x speed to smooth over my verbal infelicities.
 
@@ -37,6 +38,7 @@ The impulse should be resisted. A much better response would be to redouble our 
 
 TITLE: Updates!
 URL: https://scottaaronson.blog/?m=202311
+DATE: Saturday, November 18th, 2023
 CONTENT:
 No, I don’t know what happened with Sam Altman, beyond what’s being reported all over the world’s press, which I’ve been reading along with everyone else.  Ilya Sutskever does know, and I talk to Ilya nearly every week.  But I know Ilya well enough to know that whatever he’d tell me about this, he’d also tell the world.  It feels weird to be so close to the biggest news story on the planet, and yet at the same time so far from it.  My current contract with OpenAI is set to expire this summer.  Until then, and afterwards, I remain just as interested in figuring out what theoretical computer science can contribute to AI safety as I was yesterday morning.
 
@@ -56,6 +58,7 @@ Besides AI intrigue, this past week might be remembered for a major breakthrough
 
 TITLE: New travel/podcast/speaking policy
 URL: https://scottaaronson.blog/?m=202311
+DATE: Wednesday, November 15th, 2023
 CONTENT:
 I’ve been drowning in both quantum-computing-related and AI-related talks, interviews, podcasts, panels, and so on.  These activities have all but taken over my days, leaving virtually no time for the actual research (especially once one factors in time for family, and time for getting depressed on social media).  I’ve let things reach this point partly because I really do love talking about things that interest me, but partly also because I never learned how to say no.  I have no choice but to cut back.
 
@@ -65,6 +68,7 @@ So, the purpose of this post is for me to link people to it whenever I get a new
 
 TITLE: The Tragedy of SBF
 URL: https://scottaaronson.blog/?m=202311
+DATE: Monday, November 6th, 2023
 CONTENT:
 So, Sam Bankman-Fried has been found guilty on all counts, after the jury deliberated for just a few hours. His former inner circle all pointed fingers at him, in exchange for immunity or reduced sentences, and their testimony doomed him. The most dramatic was the testimony of Caroline Ellison, the CEO of Alameda Research (to which FTX gave customer deposits) and SBF’s sometime-girlfriend. The testimony of Adam Yedidia, my former MIT student, who Shtetl-Optimized readers might remember for our paper proving the value of the 8000th Busy Beaver number independent of the axioms of set theory, also played a significant role. (According to news reports, Adam testified about confronting SBF during a tennis match over $8 billion in missing customer deposits.)
 

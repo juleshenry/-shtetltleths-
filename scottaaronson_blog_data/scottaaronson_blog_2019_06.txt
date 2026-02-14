@@ -1,5 +1,6 @@
 TITLE: Quanta of Solace
 URL: https://scottaaronson.blog/?m=201906
+DATE: Thursday, June 20th, 2019
 CONTENT:
 In Quanta magazine, Kevin Hartnett has a recent article entitled A New Law to Describe Quantum Computing’s Rise?  The article discusses “Neven’s Law”—a conjecture, by Hartmut Neven (head of Google’s quantum computing effort), that the number of integrated qubits is now increasing exponentially with time, so that the difficulty of simulating a state-of-the-art QC on a fixed classical computer is increasing doubly exponentially with time.  (Jonathan Dowling tells me that he expressed the same thought years ago.)
 
@@ -23,6 +24,7 @@ I’m now at the end of my annual family trip to Tel Aviv, returning to the East
 
 TITLE: NP-complete Problems and Physics: A 2019 View
 URL: https://scottaaronson.blog/?m=201906
+DATE: Sunday, June 2nd, 2019
 CONTENT:
 If I want to get back to blogging on a regular basis, given the negative amount of time that I now have for such things, I’ll need to get better at dispensing with pun-filled titles, jokey opening statements, etc. etc., and resigning myself to a less witty, more workmanlike blog.
 

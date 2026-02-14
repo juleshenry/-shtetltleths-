@@ -1,5 +1,6 @@
 TITLE: “Is China Ahead in the Quantum Computing Race?”
 URL: https://scottaaronson.blog/?m=202109
+DATE: Sunday, September 26th, 2021
 CONTENT:
 Please enjoy an hourlong panel discussion of that question on YouTube, featuring yours truly, my former MIT colleague Will Oliver, and political scientist and China scholar Elsa Kania.  If you’re worried that the title sounds too sensationalistic, I hope my fellow panelists and I will pleasantly surprise you with our relative sobriety!  Thanks so much to QC Ware for arranging the panel (full disclosure: I’m QC Ware’s scientific adviser).
 
@@ -7,6 +8,7 @@ Please enjoy an hourlong panel discussion of that question on YouTube, featuring
 
 TITLE: Was Scientific American Sokal’d?
 URL: https://scottaaronson.blog/?m=202109
+DATE: Friday, September 24th, 2021
 CONTENT:
 Here’s yesterday’s clickbait offering from Scientific American, the once-legendary home of Martin Gardner’s Mathematical Games column:
 
@@ -24,6 +26,7 @@ Meantime, of course, the US continues to careen toward its worst Constitutional 
 
 TITLE: My ACM TechTalk on quantum supremadvantage
 URL: https://scottaaronson.blog/?m=202109
+DATE: Wednesday, September 15th, 2021
 CONTENT:
 This Erev Yom Kippur, I wish to repent for not putting enough quantum computing content on this blog.  Of course, repentance is meaningless unless accompanied by genuine reform.  That being the case, please enjoy the YouTube video of my ACM TechTalk from last week about quantum supremacy—although, as you’ll see if you watch the thing, I oscillate between quantum supremacy and other terms like “quantum advantage” and even “quantum supremadvantage.”  This represents the first time ever that I got pushback about a talk before I’d delivered it for political reasons—the social-justice people, it turns out, are actually serious about wanting to ban the term “quantum supremacy”—but my desire to point out all the difficulties with their proposal competed with my desire not to let that issue overshadow my talk.
 
@@ -39,6 +42,7 @@ Thanks so much to Yan Timanovsky for inviting and organizing this talk, and to w
 
 TITLE: Open Problems Related to Quantum Query Complexity
 URL: https://scottaaronson.blog/?m=202109
+DATE: Tuesday, September 14th, 2021
 CONTENT:
 Way back in 2005, I posed Ten Semi-Grand Challenges for Quantum Computing Theory, on at least half of which I’d say there’s been dramatic progress in the 16 years since (most of the challenges were open-ended, so that it’s unclear when to count them as “solved”).  I posed more open quantum complexity problems in 2010, and some classical complexity problems in 2011.  In the latter cases, I’d say there’s been dramatic progress on about a third of the problems.  I won’t go through the problems one by one, but feel free to ask in the comments about any that interest you.
 
@@ -60,6 +64,7 @@ Enjoy!  And tell me what I missed or got wrong or has a trivial solution that I 
 
 TITLE: Exciting opportunities at Kabul University!
 URL: https://scottaaronson.blog/?m=202109
+DATE: Sunday, September 5th, 2021
 CONTENT:
 Update (Sept. 6): Alright, as promised in this post, I’ve now matched a reader’s generosity by donating $2,000 to NARAL’s Avow fund, which is fighting for abortion rights for women in Texas.  Woke people on Twitter, I invite you/youse/y’all to figure out some creative ways to condemn me for that.
 

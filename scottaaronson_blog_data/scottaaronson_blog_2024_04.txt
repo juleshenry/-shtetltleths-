@@ -1,5 +1,6 @@
 TITLE: My Passover press release
 URL: https://scottaaronson.blog/?m=202404
+DATE: Monday, April 22nd, 2024
 CONTENT:
 FOR IMMEDIATE RELEASE – From the university campuses of Assyria to the thoroughfares of Ur to the palaces of the Hittite Empire, students across the Fertile Crescent have formed human chains, camel caravans, and even makeshift tent cities to protest the oppression of innocent Egyptians by the rogue proto-nation of “Israel” and its vengeful, warlike deity Yahweh.  According to leading human rights organizations, the Hebrews, under the leadership of a bearded extremist known as Moses or “Genocide Moe,” have unleashed frogs, wild beasts, hail, locusts, cattle disease, and other prohibited collective punishments on Egypt’s civilian population, regardless of the humanitarian cost.
 
@@ -31,6 +32,7 @@ Have a wonderful holiday!
 
 TITLE: That IACR preprint
 URL: https://scottaaronson.blog/?m=202404
+DATE: Tuesday, April 16th, 2024
 CONTENT:
 Update (April 19): Apparently a bug has been found, and the author has withdrawn the claim (see the comments).
 
@@ -50,6 +52,7 @@ Unrelated Update: Connor Tabarrok and his friends just put a podcast with me up 
 
 TITLE: Avi Wigderson wins Turing Award!
 URL: https://scottaaronson.blog/?m=202404
+DATE: Wednesday, April 10th, 2024
 CONTENT:
 Back in 2006, in the midst of an unusually stupid debate in the comment section of Lance Fortnow and Bill Gasarch’s blog, someone chimed in:
 
@@ -71,6 +74,7 @@ Huge congratulations to Avi.
 
 TITLE: And yet quantum computing continues to progress
 URL: https://scottaaronson.blog/?m=202404
+DATE: Wednesday, April 3rd, 2024
 CONTENT:
 Pissing away my life in a haze of doomscrolling, sporadic attempts to “parent” two rebellious kids, and now endless conversations about AI safety, I’m liable to forget for days that I’m still mostly known (such as I am) as a quantum computing theorist, and this blog is still mostly known as a quantum computing blog. Maybe it’s just that I spent a quarter-century on quantum computing theory. As an ADHD sufferer, anything could bore me after that much time, even one of the a-priori most exciting things in the world.
 

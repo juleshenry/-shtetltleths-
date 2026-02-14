@@ -1,5 +1,6 @@
 TITLE: My new motto
 URL: https://scottaaronson.blog/?m=202008
+DATE: Sunday, August 30th, 2020
 CONTENT:
 Update (Sep 1): Thanks for the comments, everyone!  As you can see, I further revised this blog’s header based on the feedback and on further reflection.The Right could only kill me and everyone I know.The Left is scarier; it could convince me that it was my fault!
 
@@ -11,6 +12,7 @@ Update: A friend expressed concern that, because my new motto appears to “blam
 
 TITLE: Seven announcements
 URL: https://scottaaronson.blog/?m=202008
+DATE: Sunday, August 9th, 2020
 CONTENT:
 
 

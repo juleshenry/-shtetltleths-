@@ -1,5 +1,6 @@
 TITLE: A nerdocratic oath
 URL: https://scottaaronson.blog/?m=201908
+DATE: Friday, August 30th, 2019
 CONTENT:
 Recently, my Facebook wall was full of discussion about instituting an oath for STEM workers, analogous to the Hippocratic oath for doctors.  Perhaps some of the motivation for this comes from a worldview I can’t get behind—one that holds STEM nerds almost uniquely responsible for the world’s evils.  Nevertheless, on reflection, I find myself in broad support of the idea.
 

@@ -1,5 +1,6 @@
 TITLE: Striking new Beeping Busy Beaver champion
 URL: https://scottaaronson.blog/?m=202107
+DATE: Tuesday, July 27th, 2021
 CONTENT:
 For the past few days, I was bummed about the sooner-than-expected loss of Steven Weinberg.  Even after putting up my post, I spent hours just watching old interviews with Steve on YouTube and reading his old essays for gems of insight that I’d missed.  (Someday, I’ll tackle Steve’s celebrated quantum field theory and general relativity textbooks … but that day is not today.)
 
@@ -35,6 +36,7 @@ Note that the Blanking Beaver function does not have the same sort of super-unco
 
 TITLE: Steven Weinberg (1933-2021): a personal view
 URL: https://scottaaronson.blog/?m=202107
+DATE: Saturday, July 24th, 2021
 CONTENT:
 
 
@@ -136,6 +138,7 @@ Miscellaneous Steven Weinberg links
 
 TITLE: Slowly emerging from blog-hibervacation
 URL: https://scottaaronson.blog/?m=202107
+DATE: Wednesday, July 21st, 2021
 CONTENT:
 Alright everyone:
 
@@ -145,6 +148,7 @@ Alright everyone:
 
 TITLE: Open thread on new quantum supremacy claims
 URL: https://scottaaronson.blog/?m=202107
+DATE: Sunday, July 4th, 2021
 CONTENT:
 Happy 4th to those in the US!
 

@@ -1,5 +1,6 @@
 TITLE: Links, proofs, talks, jokes
 URL: https://scottaaronson.blog/?m=201907
+DATE: Tuesday, July 30th, 2019
 CONTENT:
 For those who haven’t yet seen it, Erica Klarreich has a wonderful article in Quanta on Hao Huang’s proof of the Sensitivity Conjecture.  This is how good popular writing about math can be.
 
@@ -19,6 +20,7 @@ Let me close this post by sharing two important new insights about quantum mecha
 
 TITLE: Fake it till you make it (to the moon)
 URL: https://scottaaronson.blog/?m=201907
+DATE: Friday, July 19th, 2019
 CONTENT:
 While I wait to board a flight at my favorite location on earth—Philadelphia International Airport—I figured I might as well blog something to mark the 50th anniversary of Apollo 11.  (Thanks also to Joshua Zelinsky for a Facebook post that inspired this.)
 
@@ -38,6 +40,7 @@ One could summarize the situation by saying that, in certain respects, the Apoll
 
 TITLE: On two blog posts of Jerry Coyne
 URL: https://scottaaronson.blog/?m=201907
+DATE: Saturday, July 13th, 2019
 CONTENT:
 A few months ago, I got to know Jerry Coyne, the recently-retired biologist at the University of Chicago who writes the blog “Why Evolution Is True.”  The interaction started when Jerry put up a bemused post about my thoughts on predictability and free will, and I pointed out that if he wanted to engage me on those topics, there was more to go on than an 8-minute YouTube video.  I told Coyne that it would be a shame to get off on the wrong foot with him, since perusal of his blog made it obvious that whatever he and I disputed, it was dwarfed by our areas of agreement.  He and I exchanged more emails and had lunch in Chicago.
 
@@ -93,6 +96,7 @@ OK, but what about Alan Dershowitz—the man who apparently used to be Epstein�
 
 TITLE: John Wright joins UT Austin
 URL: https://scottaaronson.blog/?m=201907
+DATE: Wednesday, July 3rd, 2019
 CONTENT:
 I’m delighted to announce that quantum computing theorist John Wright will be joining the computer science faculty at UT Austin in Fall 2020, after he finishes a one-year postdoc at Caltech.
 
@@ -114,6 +118,7 @@ A huge welcome to John, and hook ’em Hadamards!
 
 TITLE: Sensitivity Conjecture resolved
 URL: https://scottaaronson.blog/?m=201907
+DATE: Tuesday, July 2nd, 2019
 CONTENT:
 The Sensitivity Conjecture, which I blogged about here, says that, for every Boolean function f:{0,1}n→{0,1}, the sensitivity of f—that is, the maximum, over all 2n input strings x∈{0,1}n, of the number of input bits such that flipping them changes the value of f—is at most polynomially smaller than a bunch of other complexity measures of f, including f’s block sensitivity, degree as a real polynomial, and classical and quantum query complexities.  (For more, see for example this survey by Buhrman and de Wolf.  Or for quick definitions of the relevant concepts, see here.)
 
@@ -153,6 +158,7 @@ Another Update: In the comments section, my former student Shalev Ben-David poin
 
 TITLE: Quantum Sabinacy
 URL: https://scottaaronson.blog/?m=201907
+DATE: Monday, July 1st, 2019
 CONTENT:
 Sabine Hossenfelder—well-known to readers of Shtetl-Optimized for opposing the building of a higher-energy collider, and various other things—has weighed in on “quantum supremacy” in this blog post and this video.  Sabine consulted with me by phone before doing the video and post, and despite what some might see as her negative stance, I agree with what she has to say substantially more than I disagree.
 

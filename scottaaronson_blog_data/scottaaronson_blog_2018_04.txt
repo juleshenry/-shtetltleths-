@@ -1,5 +1,6 @@
 TITLE: Review of Bryan Caplan’s The Case Against Education
 URL: https://scottaaronson.blog/?m=201804
+DATE: Thursday, April 26th, 2018
 CONTENT:
 If ever a book existed that I’d judge harshly by its cover—and for which nothing inside could possibly make me reverse my harsh judgment—Bryan Caplan’s The Case Against Education would seem like it.  The title is not a gimmick; the book’s argument is exactly what it says on the tin.  Caplan—an economist at George Mason University, home of perhaps the most notoriously libertarian economics department on the planet—holds that most of the benefit of education to students (he estimates around 80%, but certainly more than half) is about signalling the students’ preexisting abilities, rather than teaching or improving the students in any way.  He includes the entire educational spectrum in his indictment, from elementary school all the way through college and graduate programs.  He does have a soft spot for education that can be shown empirically to improve worker productivity, such as technical and vocational training and apprenticeships.  In other words, precisely the kind of education that many readers of this blog may have spent their lives trying to avoid.
 
@@ -107,6 +108,7 @@ My preferences for American politics have two tiers.  In the first tier, I simp
 
 TITLE: Summer of the Shark
 URL: https://scottaaronson.blog/?m=201804
+DATE: Thursday, April 19th, 2018
 CONTENT:
 Sometimes a single word or phrase is enough to expand your mental toolkit across almost every subject.  “Averaging argument.”  “Motte and bailey.”  “Empirically indistinguishable.”  “Overfitting.”  Yesterday I learned another such phrase: “Summer of the Shark.”
 
@@ -134,6 +136,7 @@ Update: This post by Scott Alexander, which I’d somehow forgotten about, makes
 
 TITLE: How to upper-bound the probability of something bad
 URL: https://scottaaronson.blog/?m=201804
+DATE: Friday, April 13th, 2018
 CONTENT:
 Scott Alexander has a new post decrying how rarely experts encode their knowledge in the form of detailed guidelines with conditional statements and loops—or what one could also call flowcharts or expert systems—rather than just blanket recommendations.  He gives, as an illustration of what he’s looking for, an algorithm that a psychiatrist might use to figure out which antidepressants or other treatments will work for a specific patient—with the huge proviso that you shouldn’t try his algorithm at home, or (most importantly) sue him if it doesn’t work.
 
@@ -167,6 +170,7 @@ Step 10. Consider the possibility that the statement you’re trying to prove is
 
 TITLE: Amazing progress on longstanding open problems
 URL: https://scottaaronson.blog/?m=201804
+DATE: Wednesday, April 11th, 2018
 CONTENT:
 For those who haven’t seen it:
 
@@ -180,6 +184,7 @@ Another Update: Another friend, Holden Karnofsky of the Open Philanthropy Projec
 
 TITLE: Two announcements
 URL: https://scottaaronson.blog/?m=201804
+DATE: Saturday, April 7th, 2018
 CONTENT:
 Before my next main course comes out of the oven, I bring you two palate-cleansing appetizers:
 

@@ -1,5 +1,6 @@
 TITLE: My vaccine crackpottery: a confession
 URL: https://scottaaronson.blog/?m=202012
+DATE: Thursday, December 31st, 2020
 CONTENT:
 I hope everyone is enjoying a New Years’ as festive as the circumstances allow!
 
@@ -35,6 +36,7 @@ Update (Jan. 1, 2021): If you want a sense of the on-the-ground realities of adm
 
 TITLE: The case for moving to a red state
 URL: https://scottaaronson.blog/?m=202012
+DATE: Tuesday, December 22nd, 2020
 CONTENT:
 Update (Dec. 23): This post quickly attracted many of the most … colorful comments in this blog’s 15-year history.  My moderation queue is overflowing right now with “gas the kikes,” “[f-word] [n-words],” “race war now,” “kikes deserve to burn in hell,” “a world without [n-words],” “the day of the rope approaches,” and countless similar contributions.  One commenter focused on how hilarious he found my romantic difficulties earlier in life.
 
@@ -50,6 +52,7 @@ Then a possible explanation hit me: namely, the sort of person who’d leave suc
 
 TITLE: Chinese BosonSampling experiment: the gloves are off
 URL: https://scottaaronson.blog/?m=202012
+DATE: Wednesday, December 16th, 2020
 CONTENT:
 Two weeks ago, I blogged about the striking claim, by the group headed by Chaoyang Lu and Jianwei Pan at USTC in China, to have achieved quantum supremacy via BosonSampling with 50-70 detected photons.  I also did a four-part interview on the subject with Jonathan Tennenbaum at Asia Times, and other interviews elsewhere.  None of that stopped some people, who I guess didn’t google, from writing to tell me how disappointed they were by my silence!
 
@@ -129,6 +132,7 @@ And that’s all for now!  I’m grateful to all the colleagues I talked to over
 
 TITLE: Beth Harmon and the Inner World of Squares
 URL: https://scottaaronson.blog/?m=202012
+DATE: Monday, December 14th, 2020
 CONTENT:
 The other day Dana and I finished watching The Queen’s Gambit, Netflix’s fictional saga of an orphaned girl in the 1960’s, Beth Harmon, who breaks into competitive chess and destroys one opponent after the next in her quest to become the world champion, while confronting her inner demons and addictions.
 
@@ -174,6 +178,7 @@ Granted, the timeless truths of chess, an arbitrary and invented game, are less 
 
 TITLE: Happy Chanukah / Vaccine Approval Day!
 URL: https://scottaaronson.blog/?m=202012
+DATE: Friday, December 11th, 2020
 CONTENT:
 
 
@@ -181,6 +186,7 @@ CONTENT:
 
 TITLE: Shor’s algorithm in higher dimensions: Guest post by Greg Kuperberg
 URL: https://scottaaronson.blog/?m=202012
+DATE: Monday, December 7th, 2020
 CONTENT:
 Upbeat advertisement: If research in QC theory or CS theory otherwise is your thing, then wouldn’t you like to live in peaceful, quiet, bicycle-based Davis, California, and be a faculty member at the large, prestigious, friendly university known as UC Davis? In the QCQI sphere, you’d have Marina Radulaski, Bruno Nachtergaele, Martin Fraas, Mukund Rangamani, Veronika Hubeny, and Nick Curro as faculty colleagues, among others; and yours truly, and hopefully more people in the future. This year the UC Davis CS department has a faculty opening in quantum computing, and another faculty opening in CS theory including quantum computing. If you are interested, then time is of the essence, since the full-consideration deadline is December 15.
 
@@ -216,6 +222,7 @@ My solution to this conundrum is to observe that the multiples of a randomly cho
 
 TITLE: Quantum supremacy, now with BosonSampling
 URL: https://scottaaronson.blog/?m=202012
+DATE: Thursday, December 3rd, 2020
 CONTENT:
 Update (12/5): The Google team, along with Gil Kalai, have raised questions about whether the results of the new BosonSampling experiment might be easier to spoof classically than the USTC team thought they were, because of a crucial difference between BosonSampling and qubit-based random circuit sampling.  Namely, with random circuit sampling, the marginal distribution over any k output qubits (for small k) is exponentially close to the uniform distribution.  With BosonSampling, by contrast, the marginal distribution over k output modes is distinguishable from uniform, as Arkhipov and I noted in a 2013 followup paper.  On the one hand, these easily-detected nonuniformities provide a quick, useful sanity check for whether BosonSampling is being done correctly.  On the other hand, they might also give classical spoofing algorithms more of a toehold.  The question is whether, by spoofing the k-mode marginals, a classical algorithm could also achieve scores on the relevant “HOG” (Heavy Output Generation) benchmark that are comparable to what the USTC team reported.
 

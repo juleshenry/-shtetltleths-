@@ -1,5 +1,6 @@
 TITLE: On “armchair epidemiology”
 URL: https://scottaaronson.blog/?m=202003
+DATE: Monday, March 30th, 2020
 CONTENT:
 Update (March 31): Since commenter after commenter seems to have missed my point—or rather, rounded the point to something different that I didn’t say—let me try one more time.  My faith in official pronouncements from health authorities, and in institutions like the CDC and the FDA, was clearly catastrophically misplaced—and if that doesn’t force significant revisions to my worldview, then I’m beyond hope.  Maybe the failures are because these organizations are at the mercy of political incompetents—meaning ultimately Trump and his cronies.  Or maybe the rot started long before Trump.  Maybe it’s specific to the US, or maybe it’s everywhere.  I still don’t know the answers to those questions.
 
@@ -45,6 +46,7 @@ This post represents my apology to her.  Like, it’s one thing to be so afraid 
 
 TITLE: Ask Me Anything: Apocalypse Edition
 URL: https://scottaaronson.blog/?m=202003
+DATE: Wednesday, March 18th, 2020
 CONTENT:
 So far, I confess, this pandemic is not shaping up for me like for Isaac Newton.  It’s not just that I haven’t invented calculus or mechanics: I feel little motivation to think about research at all.  Or to catch up on classic literature or films … or even to shower, shave, or brush my teeth.  I’m quarantined in the house with my wife, our two kids, and my parents, so certainly there’s been plenty of family time, although my 7-year-daughter would inexplicably rather play fashion games on her iPad than get personalized math lessons from the author of Quantum Computing Since Democritus.
 
@@ -64,6 +66,7 @@ Update (March 24): Thanks again for the 90-odd questions!  For your reading conv
 
 TITLE: First it came for Wuhan
 URL: https://scottaaronson.blog/?m=202003
+DATE: Thursday, March 12th, 2020
 CONTENT:
 Update (March 13): One day after I put up this post—a post that many commenters criticized as too alarmist—the first covid cases were detected in Austin.  As a result, UT Austin closed its campus (including my son’s daycare), and at 3:30am, the Austin Independent School District announced its decision to suspend all schools until further notice.  All my remaining plans for the semester (including visits to Berkeley, Stanford, Harvard, CU Boulder, Fermilab, Yale, and CMU) are obviously cancelled.  My family is now on lockdown, in our house, probably at least until the summer.  The war on the virus has reached us.  The “1939” analogy that I mentioned in the post turned out to be more precise than I thought: then, as now, there were intense debates about how just serious the crisis would be, but those debates never even had a chance to get settled by argument; events on the ground simply rendered them irrelevant.
 
@@ -97,6 +100,7 @@ The season has changed, and the seven years of famine have begun.
 
 TITLE: National disgrace
 URL: https://scottaaronson.blog/?m=202003
+DATE: Tuesday, March 10th, 2020
 CONTENT:
 In this blog’s now 15-year-history, at Waterloo and then MIT and now UT Austin, I’ve tried to make it clear that I blog always as Scott, never as Dr. Aaronson of Such-and-Such Institution.  (God knows I’ve written a few things that a prudent dean might prefer that I hadn’t—though if I couldn’t honestly say that, in what sense would I even enjoy “academic freedom”?)  Today, though, for only about the second time, I’m also writing as a professor motivated by a duty of care toward his students.
 
@@ -124,6 +128,7 @@ The above, I suspect, is a sentiment that will now forever date any writing cont
 
 TITLE: Coronavirus: the second-weirdest solution?
 URL: https://scottaaronson.blog/?m=202003
+DATE: Friday, March 6th, 2020
 CONTENT:
 Many people have suggested coating handles, doorknobs and so forth with virus-killing copper tape.  It’s a shame that this isn’t being tried on a wider scale.  In the meantime, though, here’s a related but different idea that I had last night.
 
@@ -141,6 +146,7 @@ Mostly, having the above thoughts made me grateful for my friend Robin Hanson.  
 
 TITLE: Turn down the quantum volume
 URL: https://scottaaronson.blog/?m=202003
+DATE: Thursday, March 5th, 2020
 CONTENT:
 Several people asked me to comment on the recent announcement by Honeywell that they’ll soon have what they call “the most powerful” quantum computer (see here for press release, here for Forbes article, here for paper).
 
@@ -170,6 +176,7 @@ I confess that the answers to the above questions are hard to summarize in a sin
 
 TITLE: A coronavirus poem
 URL: https://scottaaronson.blog/?m=202003
+DATE: Tuesday, March 3rd, 2020
 CONTENT:
 These next few months, every time I stop myself from touching my face by force of will,
 
@@ -185,6 +192,7 @@ In one plausible scenario, with at least ~0.1% probability and probably higher d
 
 TITLE: Paperz
 URL: https://scottaaronson.blog/?m=202003
+DATE: Tuesday, March 3rd, 2020
 CONTENT:
 Soon, all anyone will want to talk about is quarantines, food shortages, N95 masks, the suspension of universities and of scientific conferences.  (As many others have pointed out, this last might actually be a boon to scientific productivity—as it was for a young Isaac Newton when Cambridge was closed for the bubonic plague, so Newton went home and invented calculus and mechanics.)
 

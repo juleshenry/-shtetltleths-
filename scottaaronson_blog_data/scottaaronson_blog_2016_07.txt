@@ -1,5 +1,6 @@
 TITLE: More Wrong Things I Said in Papers
 URL: https://scottaaronson.blog/?m=201607
+DATE: Friday, July 29th, 2016
 CONTENT:
 Two years ago, I wrote a blog post entitled PostBQP Postscripts, owning up to not one but four substantive mathematical errors that I’d made over the years in my published papers, and which my students and colleagues later brought to my sheepish attention.  Fortunately, none of these errors affected the papers’ main messages; they just added interesting new twists to the story.  Even so, I remember feeling at the time like undergoing this public repentance was soul-cleansing intellectual hygiene.  I also felt like writing one big “post of shame” was easier than writing a bunch of separate errata and submitting them to journals, while also reaching a wider audience (and, therefore, doing an even better soul-cleansing job).
 
@@ -63,6 +64,7 @@ If any of my colleagues feel inspired to write up their own “litanies of mathe
 
 TITLE: My biology paper in Science (really)
 URL: https://scottaaronson.blog/?m=201607
+DATE: Friday, July 22nd, 2016
 CONTENT:
 Think I’m pranking you, right?
 
@@ -242,6 +244,7 @@ Unrelated Announcement from My Friend Julia Wise (July 24): Do you like science 
 
 TITLE: The Complexity of Quantum States and Transformations: From Quantum Money to Black Holes
 URL: https://scottaaronson.blog/?m=201607
+DATE: Sunday, July 17th, 2016
 CONTENT:
 On February 21-25, I taught a weeklong mini-course at the Bellairs Research Institute in Barbados, where I tried to tell an integrated story about everything from quantum proof and advice complexity classes to quantum money to AdS/CFT and the firewall problem—all through the unifying lens of quantum circuit complexity.  After a long effort—on the part of me, the scribes, the guest lecturers, and the organizers—the 111-page lecture notes are finally available, right here.
 
@@ -259,6 +262,7 @@ And now I’m headed to the Perimeter Institute for their It from Qubit summer s
 
 TITLE: ITCS’2017: Special Guest Post by Christos Papadimitriou
 URL: https://scottaaronson.blog/?m=201607
+DATE: Wednesday, July 6th, 2016
 CONTENT:
 The wait is over.
 
@@ -302,6 +306,7 @@ You should come!
 
 TITLE: “Did Einstein Kill Schrödinger’s Cat?  A Quantum State of Mind”
 URL: https://scottaaronson.blog/?m=201607
+DATE: Saturday, July 2nd, 2016
 CONTENT:
 No, I didn’t invent that title.  And no, I don’t know of any interesting sense in which “Einstein killed Schrödinger’s cat,” though arguably there are senses in which Schrödinger’s cat killed Einstein.
 

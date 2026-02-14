@@ -1,5 +1,6 @@
 TITLE: BusyBeaver(6) is really quite large
 URL: https://scottaaronson.blog/?m=202506
+DATE: Saturday, June 28th, 2025
 CONTENT:
 For overdetermined reasons, I’ve lately found the world an increasingly terrifying and depressing place.  It’s gotten harder and harder to concentrate on research, or even popular science writing.  Every so often, though, something breaks through that wakes my inner child, reminds me of why I fell in love with research thirty years ago, and helps me forget about the triumphantly strutting factions working to destroy everything I value.
 
@@ -31,6 +32,7 @@ Unrelated Update: I’m just now returning to the US from STOC’2025 in Prague,
 
 TITLE: Raymond Laflamme (1960-2025)
 URL: https://scottaaronson.blog/?m=202506
+DATE: Tuesday, June 24th, 2025
 CONTENT:
 Even with everything happening in the Middle East right now, even with (relatedly) everything happening in my own family (my wife and son sheltering in Tel Aviv as Iranian missiles rained down), even with all the rather ill-timed travel I’ve found myself doing as these events unfolded (Ecuador and the Galapagos and now STOC’2025 in Prague) … there’s been another thing, a huge one, weighing on my soul.
 
@@ -64,6 +66,7 @@ I knew that Ray had spent many years battling cancer. I naïvely thought he was 
 
 TITLE: Trump and Iran, by popular request
 URL: https://scottaaronson.blog/?m=202506
+DATE: Sunday, June 22nd, 2025
 CONTENT:
 I posted this on my Facebook, but several friends asked me to share more widely, so here goes:
 
@@ -83,6 +86,7 @@ I will keep my name private for clear reasons. Thank you for your concern for Ir
 
 TITLE: Guess I’m A Rationalist Now
 URL: https://scottaaronson.blog/?m=202506
+DATE: Monday, June 9th, 2025
 CONTENT:
 A week ago I attended LessOnline, a rationalist blogging conference featuring many people I’ve known for years—Scott Alexander, Eliezer Yudkowsky, Zvi Mowshowitz, Sarah Constantin, Carl Feynman—as well as people I’ve known only online and was delighted to meet in person, like Joe Carlsmith and Jacob Falkovich and Daniel Reeves.  The conference was at Lighthaven, a bewildering maze of passageways, meeting-rooms, sleeping quarters, gardens, and vines off Telegraph Avenue in Berkeley, which has recently emerged as the nerd Shangri-La, or Galt’s Gulch, or Shire, or whatever.  I did two events at this year’s LessOnline: a conversation with Nate Soares about the Orthogonality Thesis, and an ask-me-anything session about quantum computing and theoretical computer science (no new ground there for regular consumers of my content).
 

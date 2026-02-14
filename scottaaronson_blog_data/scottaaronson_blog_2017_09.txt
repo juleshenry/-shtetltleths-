@@ -1,5 +1,6 @@
 TITLE: Michael Cohen (1992-2017)
 URL: https://scottaaronson.blog/?m=201709
+DATE: Thursday, September 28th, 2017
 CONTENT:
 
 
@@ -25,6 +26,7 @@ This is an unfathomable loss for Michael’s family, for his many friends and co
 
 TITLE: My Big Numbers talk at Festivaletteratura
 URL: https://scottaaronson.blog/?m=201709
+DATE: Thursday, September 14th, 2017
 CONTENT:
 Last weekend, I gave a talk on big numbers, as well as a Q&A about quantum computing, at Festivaletteratura: one of the main European literary festivals, held every year in beautiful and historic Mantua, Italy.  (For those who didn’t know, as I didn’t: this is the city where Virgil was born, and where Romeo gets banished in Romeo and Juliet.  Its layout hasn’t substantially changed since the Middle Ages.)
 
@@ -303,6 +305,7 @@ On a happier note, though, if our goal is to make math engaging to young people,
 
 TITLE: GapP, Oracles, and Quantum Supremacy
 URL: https://scottaaronson.blog/?m=201709
+DATE: Friday, September 1st, 2017
 CONTENT:
 Let me start with a few quick announcements before the main entrée:
 

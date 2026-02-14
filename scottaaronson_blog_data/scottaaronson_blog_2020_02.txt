@@ -1,5 +1,6 @@
 TITLE: Freeman Dyson and Boris Tsirelson
 URL: https://scottaaronson.blog/?m=202002
+DATE: Saturday, February 29th, 2020
 CONTENT:
 Today, as the world braces for the possibility of losing millions of lives to the new coronavirus—to the hunger for pangolin meat, of all things (combined with the evisceration of competent public health agencies like the CDC)—we also mourn the loss of two incredibly special lives, those of Freeman Dyson (age 96) and Boris Tsirelson (age 69).
 
@@ -19,6 +20,7 @@ Please share any memories of Dyson or Tsirelson in the comments section.
 
 TITLE: My video interview with Lex Fridman at MIT about philosophy and quantum computing
 URL: https://scottaaronson.blog/?m=202002
+DATE: Monday, February 17th, 2020
 CONTENT:
 Here it is (about 90 minutes; I recommend the 1.5x speed)
 
@@ -30,6 +32,7 @@ Thanks so much to Lex for arranging the interview and for his questions!
 
 TITLE: My “Quantum Supremacy: Skeptics Were Wrong” 2020 World Speaking Tour
 URL: https://scottaaronson.blog/?m=202002
+DATE: Monday, February 17th, 2020
 CONTENT:
 (At a few people’s request, I’ve changed the title so that it no longer refers to a specific person.  I try always to be accurate, amusing, and appropriate, but sometimes I only hit 1 or 2 of the 3.)
 

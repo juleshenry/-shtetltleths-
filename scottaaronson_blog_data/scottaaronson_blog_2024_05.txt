@@ -1,5 +1,6 @@
 TITLE: Openness on OpenAI
 URL: https://scottaaronson.blog/?m=202405
+DATE: Monday, May 20th, 2024
 CONTENT:
 I am, of course, sad that Jan Leike and Ilya Sutskever, the two central people who recruited me to OpenAI and then served as my “bosses” there—two people for whom I developed tremendous admiration—have both now resigned from the company.  Ilya’s resignation followed the board drama six months ago, but Jan’s resignation last week came as a shock to me and others.  The Superalignment team, which Jan and Ilya led and which I was part of, is being split up and merged into other teams at OpenAI.
 
@@ -23,6 +24,7 @@ I don’t know the answers to these questions, but if you do, feel free to tell 
 
 TITLE: Jim Simons (1938-2024)
 URL: https://scottaaronson.blog/?m=202405
+DATE: Saturday, May 11th, 2024
 CONTENT:
 When I learned of Jim Simons’s passing, I was actually at the Simons Foundation headquarters in lower Manhattan, for the annual board meeting of the unparalleled Quanta Magazine, which Simons founded and named.  The meeting was interrupted to share the sad news, before it became public … and then it was continued, because that’s obviously what Simons would’ve wanted.  An oil portrait of Simons in the conference room took on new meaning.
 
@@ -38,6 +40,7 @@ I’m glad that Simons, as a lifelong chain smoker, made it all the way to age 8
 
 TITLE: UmeshFest
 URL: https://scottaaronson.blog/?m=202405
+DATE: Friday, May 10th, 2024
 CONTENT:
 Unrelated Announcements: See here for a long interview with me in The Texas Orator, covering the usual stuff (quantum computing, complexity theory, AI safety).  And see here for a podcast with me and Spencer Greenberg about a similar mix of topics.
 

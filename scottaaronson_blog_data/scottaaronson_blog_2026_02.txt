@@ -1,5 +1,6 @@
 TITLE: “My Optimistic Vision for 2050”
 URL: https://scottaaronson.blog/?m=202602
+DATE: Thursday, February 12th, 2026
 CONTENT:
 The following are prepared remarks that I delivered by Zoom to a student group at my old stomping-grounds of MIT, and which I thought might interest others (even though much of it will be familiar to Shtetl-Optimized regulars).  The students asked me to share my “optimistic vision” for the year 2050, so I did my best to oblige.  A freewheeling discussion then followed, as a different freewheeling discussion can now follow in the comments section.
 
@@ -39,6 +40,7 @@ I agree that something would be lost here. But on the other hand, what fraction 
 
 TITLE: Nate Soares visiting UT Austin tomorrow!
 URL: https://scottaaronson.blog/?m=202602
+DATE: Monday, February 9th, 2026
 CONTENT:
 This is just a quick announcement that I’ll be hosting Nate Soares—who coauthored the self-explanatorily titled If Anyone Builds It, Everyone Dies with Eliezer Yudkowsky—tomorrow (Tuesday) at 5PM at UT Austin, for a brief talk followed by what I’m sure will be an extremely lively Q&A about his book.  Anyone in the Austin area is welcome to join us.
 
@@ -46,6 +48,7 @@ This is just a quick announcement that I’ll be hosting Nate Soares—who coaut
 
 TITLE: Luca Trevisan Award for Expository Work
 URL: https://scottaaronson.blog/?m=202602
+DATE: Friday, February 6th, 2026
 CONTENT:
 Friend-of-the-blog Salil Vadhan has asked me to share the following.
 
@@ -63,6 +66,7 @@ For more details see here.
 
 TITLE: The time I didn’t meet Jeffrey Epstein
 URL: https://scottaaronson.blog/?m=202602
+DATE: Sunday, February 1st, 2026
 CONTENT:
 Last night, I was taken aback to discover that my name appears in the Epstein Files, in 26 different documents. This is despite the fact that I met Jeffrey Epstein a grand total of zero times, and had zero email or any other contact with him … which is more (less) than some of my colleagues can say.
 

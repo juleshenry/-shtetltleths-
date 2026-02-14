@@ -1,5 +1,6 @@
 TITLE: Book Review: “Quantum Supremacy” by Michio Kaku (tl;dr DO NOT BUY)
 URL: https://scottaaronson.blog/?m=202305
+DATE: Friday, May 19th, 2023
 CONTENT:
 Update (June 6): I wish to clarify that I did not write any of the dialogue for the “Scott Aaronson” character who refutes Michio Kaku’s quantum computing hype in this YouTube video, which uses an AI recreation of my voice.  The writer appears to be physics/math blogger and podcaster Hassaan Saleem; see his website here.  Luckily, the character and I do share many common views; I’m sure we’d hit it off if we met.
 
@@ -57,6 +58,7 @@ In case this wasn’t clear enough from my post, Kaku appears to have had zero p
 
 TITLE: Could GPT help with dating anxiety?
 URL: https://scottaaronson.blog/?m=202305
+DATE: Tuesday, May 16th, 2023
 CONTENT:
 [Like everything else on this blog—but perhaps even more so—this post represents my personal views, not those of UT Austin or OpenAI]
 
@@ -220,6 +222,7 @@ Endnotes.
 
 TITLE: Robin Hanson and I discuss the AI future
 URL: https://scottaaronson.blog/?m=202305
+DATE: Wednesday, May 10th, 2023
 CONTENT:
 That’s all.  No real post this morning, just an hour-long podcast on YouTube featuring two decades-long veterans of the nerd blogosphere, Robin Hanson and yours truly, talking about AI, trying to articulate various possibilities outside the Yudkowskyan doom scenario.  The podcast was Robin’s idea.  Hope you enjoy, and looking forward to your comments!
 
@@ -231,6 +234,7 @@ Update: Yet another new podcast, with Daniel Bashir of The Gradient.  Daniel tit
 
 TITLE: Brief Update on Texan Tenure
 URL: https://scottaaronson.blog/?m=202305
+DATE: Sunday, May 7th, 2023
 CONTENT:
 Update (May 8): Some tentative good news!  It looks like there’s now a compromise bill in the House that would preserve tenure, insisting only on the sort of post-tenure review that UT (like most universities) already has.
 
@@ -260,6 +264,7 @@ For this reason, I hope that even conservatives in the Texas House will see that
 
 TITLE: AI and Aaronson’s Law of Dark Irony
 URL: https://scottaaronson.blog/?m=202305
+DATE: Thursday, May 4th, 2023
 CONTENT:
 The major developments in human history are always steeped in dark ironies.  Yes, that’s my Law of Dark Irony, the whole thing.
 

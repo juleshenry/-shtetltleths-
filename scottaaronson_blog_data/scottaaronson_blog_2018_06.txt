@@ -1,5 +1,6 @@
 TITLE: My Y Combinator podcast
 URL: https://scottaaronson.blog/?m=201806
+DATE: Friday, June 29th, 2018
 CONTENT:
 Here it is, recorded last week at Y Combinator’s office in San Francisco.  For regular readers of this blog, there will be a few things that are new—research projects I’ve been working on this year—and many things that are old.  Hope you enjoy it!  Thanks so much to Craig Cannon of Y Combinator for inviting me.
 
@@ -11,6 +12,7 @@ I’m at STOC’2018 TheoryFest in Los Angeles right now, where theoretical comp
 
 TITLE: Ask me anything: moral judgments edition
 URL: https://scottaaronson.blog/?m=201806
+DATE: Sunday, June 17th, 2018
 CONTENT:
 Reader Lewikee asked when I’d do another “Ask Me Anything.”  So fine, let’s do one now (and for the next 24 hours or so, or until I get too fatigued).  The rules:
 
@@ -24,6 +26,7 @@ Update (June 18): OK, thanks to everyone who participated!  I’ll circle back t
 
 TITLE: Five announcements
 URL: https://scottaaronson.blog/?m=201806
+DATE: Tuesday, June 12th, 2018
 CONTENT:
 Update (June 16): Even though I said there wouldn’t be a meetup, enough people eventually emailed wanting to have coffee that we did do the first-ever dedicated Shtetl-Optimized meetup after all—appropriately, given the title of the blog, at Saul’s Delicatessen in Berkeley.  It was awesome.  I met people working on fascinating and important things, from cheap nuclear energy to data analytics for downballot Democrats, and who I felt very proud to count as readers.  Thanks so much to everyone who came; we’ll have to do another one sometime!
 
@@ -31,6 +34,7 @@ Update (June 16): Even though I said there wouldn’t be a meetup, enough people
 
 TITLE: Quantum computing for policymakers and philosopher-novelists
 URL: https://scottaaronson.blog/?m=201806
+DATE: Wednesday, June 6th, 2018
 CONTENT:
 Last week Rebecca Newberger Goldstein, the great philosopher and novelist who I’m privileged to call a friend, wrote to ask me whether I “see any particular political and security problems that are raised by quantum computing,” to help her prepare for a conference she’d be attending in which that question would be discussed.  So I sent her the response below, and then decided that it might be of broader interest.
 
@@ -95,6 +99,7 @@ Unrelated Update (June 8): Ian Tierney asked me to advertise a Kickstarter for a
 
 TITLE: The relativized BQP vs. PH problem (1993-2018)
 URL: https://scottaaronson.blog/?m=201806
+DATE: Sunday, June 3rd, 2018
 CONTENT:
 Update (June 4): OK, I think the blog formatting issues are fixed now—thanks so much to Jesse Kipp for his help!
 

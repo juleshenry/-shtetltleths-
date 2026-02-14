@@ -1,5 +1,6 @@
 TITLE: Martinis, The Plot Against America, Kill Chain
 URL: https://scottaaronson.blog/?m=202004
+DATE: Thursday, April 23rd, 2020
 CONTENT:
 Update (May 1): Check out this Forbes interview, where Martinis explains his reasons for leaving Google in much more detail.
 
@@ -19,6 +20,7 @@ In short, what The Plot Against America and Kill Chain have in common is that th
 
 TITLE: AirToAll: Another guest post by Steve Ebin
 URL: https://scottaaronson.blog/?m=202004
+DATE: Monday, April 20th, 2020
 CONTENT:
 Scott’s foreword: Today I’m honored to host another guest post by friend-of-the-blog Steve Ebin, who not only published a beautiful essay here a month ago (the one that I titled “First it came from Wuhan”), but also posted an extremely informative timeline of what he understood when about the severity of the covid crisis, from early January until March 31st.  By the latter date, Steve had quit his job, having made a hefty sum shorting airline stocks, and was devoting his full time to a new nonprofit to manufacture low-cost ventilators, called AirToAll.  A couple weeks ago, Steve was kind enough to include me in one of AirToAll’s regular Zoom meetings; I learned more about pistons than I had in my entire previous life (admittedly, still not much).  Which brings me to what Steve wants to talk about today: what he and others are doing and how you can help.
 
@@ -50,6 +52,7 @@ We are a group of 700+ volunteers and growing rapidly.  If you’d like to help,
 
 TITLE: Lockdown day 39
 URL: https://scottaaronson.blog/?m=202004
+DATE: Sunday, April 19th, 2020
 CONTENT:
 
 
@@ -57,6 +60,7 @@ CONTENT:
 
 TITLE: The quantum computer that knows all
 URL: https://scottaaronson.blog/?m=202004
+DATE: Tuesday, April 14th, 2020
 CONTENT:
 This is my first post in more than a month that’s totally unrelated to the covid crisis.  Or rather, it’s related only insofar as it’s about a Hulu miniseries, the sort of thing that many of us have more occasion to watch while holed up at home.
 
@@ -88,6 +92,7 @@ And I see now that I’ve violated my promise that this post would have nothing 
 
 TITLE: John Horton Conway (1937-2020)
 URL: https://scottaaronson.blog/?m=202004
+DATE: Sunday, April 12th, 2020
 CONTENT:
 Update (4/13): Check out the comments on this post for some wonderful firsthand Conway stories.  Or for the finest tribute I’ve seen so far, see a MathOverflow thread entitled Conway’s lesser known results.  Virtually everything there is a gem to be enjoyed by amateurs and experts alike.  And if you actually click through to any of Conway’s papers … oh my god, what a rebuke to the way most of us write papers!
 
@@ -119,6 +124,7 @@ Feel free to share your own Conway memories in the comments.
 
 TITLE: When events make craziness sane
 URL: https://scottaaronson.blog/?m=202004
+DATE: Tuesday, April 7th, 2020
 CONTENT:
 This post is simply to say the following (and thereby to make it common knowledge that I said it, and that I no longer give a shit who thinks less of me for saying it):
 
@@ -156,6 +162,7 @@ Happy Passover and Easter!
 
 TITLE: If I used Twitter…
 URL: https://scottaaronson.blog/?m=202004
+DATE: Saturday, April 4th, 2020
 CONTENT:
 I’m thinking of writing a novel where human civilization is threatened by a global pandemic, and is then almost singlehandedly rescued by one man … a man who reigned for decades as the world’s prototypical ruthless and arrogant tech billionaire, but who was then transformed by the love of his wife.  That is, if the billionaire can make it past government regulators as evil as they are stupid.  I need some advice: how can I make my storyline a bit subtler, so critics don’t laugh it off as some immature nerd fantasy?
 

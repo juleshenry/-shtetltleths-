@@ -1,5 +1,6 @@
 TITLE: Incompleteness ex machina
 URL: https://scottaaronson.blog/?m=201812
+DATE: Sunday, December 30th, 2018
 CONTENT:
 I have a treat with which to impress your friends at New Year’s Eve parties tomorrow night: a rollicking essay graciously contributed by a reader named Sebastian Oberhoff, about a unified and simplified way to prove all of Gödel’s Incompleteness Theorems, as well as Rosser’s Theorem, directly in terms of computer programs.  In particular, this improves over my treatments in Quantum Computing Since Democritus and my Rosser’s Theorem via Turing machines post.  While there won’t be anything new here for the experts, I loved the style—indeed, it brings back wistful memories of how I used to write, before I accumulated too many imaginary (and non-imaginary) readers tut-tutting at crass jokes over my shoulder.  May 2019 bring us all the time and the courage to express ourselves authentically, even in ways that might be sneered at as incomplete, inconsistent, or unsound.
 
@@ -7,6 +8,7 @@ I have a treat with which to impress your friends at New Year’s Eve parties to
 
 TITLE: Announcements
 URL: https://scottaaronson.blog/?m=201812
+DATE: Thursday, December 27th, 2018
 CONTENT:
 I’m planning to be in Australia soon—in Melbourne January 4-10 for a friend’s wedding, then in Sydney January 10-11 to meet colleagues and give a talk.  It will be my first trip down under for 12 years (and Dana’s first ever).  If there’s interest, I might be able to do a Shtetl-Optimized meetup in Melbourne the evening of Friday the 4th (or the morning of Saturday the 5th), and/or another one in Sydney the evening of Thursday the 10th.  Email me if you’d go, and then we’ll figure out details.
 
@@ -18,6 +20,7 @@ Frank Verstraete asked me to announce that the University of Vienna is seeking a
 
 TITLE: Why are amplitudes complex?
 URL: https://scottaaronson.blog/?m=201812
+DATE: Monday, December 17th, 2018
 CONTENT:
 [By prior agreement, this post will be cross-posted on Microsoft’s Q# blog, even though it has nothing to do with the Q# programming language.  It does, however, contain many examples that might be fun to implement in Q#!]
 
@@ -137,6 +140,7 @@ Unrelated Update (Dec. 18): Probably many of you have already seen it, and/or al
 
 TITLE: The NP genie
 URL: https://scottaaronson.blog/?m=201812
+DATE: Tuesday, December 11th, 2018
 CONTENT:
 Hi from the Q2B conference!
 

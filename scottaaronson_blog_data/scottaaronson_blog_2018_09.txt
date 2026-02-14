@@ -1,5 +1,6 @@
 TITLE: It’s hard to think when someone Hadamards your brain
 URL: https://scottaaronson.blog/?m=201809
+DATE: Tuesday, September 25th, 2018
 CONTENT:
 “Unperformed measurements have no results.” —Asher Peres
 
@@ -65,6 +66,7 @@ Another Unrelated Announcement: As of Sept. 25, 2018, it is the official editori
 
 TITLE: CS and quantum information at UT Austin: come join us!
 URL: https://scottaaronson.blog/?m=201809
+DATE: Wednesday, September 19th, 2018
 CONTENT:
 Merry Yom Kippur!
 
@@ -86,6 +88,7 @@ As we like to say down here in Texas, hook ’em Hadamards!  (Well OK, no, we d
 
 TITLE: My Tomassoni-Chisesi Prize talk
 URL: https://scottaaronson.blog/?m=201809
+DATE: Saturday, September 15th, 2018
 CONTENT:
 Update (Sep. 21) Video of Philip Kim’s and my talks is now available!  (But not streaming, just a giant mp4 that you can download.)
 

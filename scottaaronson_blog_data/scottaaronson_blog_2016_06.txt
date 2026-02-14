@@ -1,5 +1,6 @@
 TITLE: Leonard Susskind’s Open Letter on “The Lunatic”
 URL: https://scottaaronson.blog/?m=201606
+DATE: Wednesday, June 22nd, 2016
 CONTENT:
 In my own anti-Trump post two weeks ago, I started out by mentioning that Terry Tao and Stephen Hawking had recently denounced Trump, and jokingly wondered when we’d hear from Ed Witten.  Well, will Leonard Susskind of Stanford University—a creator of string theory, and one of the most legendarily original physicists and physics expositors of our time—do instead?
 
@@ -27,6 +28,7 @@ Stanford University
 
 TITLE: Entanglement without end
 URL: https://scottaaronson.blog/?m=201606
+DATE: Monday, June 20th, 2016
 CONTENT:
 Today we take a break from this blog’s usual round of topics—free will, consciousness, the Singularity, social justice, Donald Trump—to talk about something really crazy and left-field.  Namely, recent research in quantum information.
 
@@ -86,6 +88,7 @@ Unrelated Announcement (June 21): Ran Raz asks me to announce a workshop for Avi
 
 TITLE: Daddy, why didn’t you blog about Trump?
 URL: https://scottaaronson.blog/?m=201606
+DATE: Tuesday, June 7th, 2016
 CONTENT:
 A few days ago, Terry Tao, whose superb blog typically focuses on things like gaps in the primes and finite-time blowup in PDEs, wrote an unusual post, arguing that virtually everyone knows Donald Trump is unqualified to be President, so the challenge is “just” to make that fact common knowledge (i.e., to ensure everyone knows everyone knows it, everyone knows everyone knows everyone knows it, etc).  Tao’s post even included the pseudo-mathematical
 
@@ -145,6 +148,7 @@ If you have additional ideas, feel free to share them in the comments!  As you 
 
 TITLE: “Can computers become conscious?”: My reply to Roger Penrose
 URL: https://scottaaronson.blog/?m=201606
+DATE: Thursday, June 2nd, 2016
 CONTENT:
 A few weeks ago, I attended the Seven Pines Symposium on Fundamental Problems in Physics outside Minneapolis, where I had the honor of participating in a panel discussion with Sir Roger Penrose.  The way it worked was, Penrose spoke for a half hour about his ideas about consciousness (Gödel, quantum gravity, microtubules, uncomputability, you know the drill), then I delivered a half-hour “response,” and then there was an hour of questions and discussion from the floor.  Below, I’m sharing the prepared notes for my talk, as well as some very brief recollections about the discussion afterward.  (Sorry, there’s no audio or video.)  I unfortunately don’t have the text or transparencies for Penrose’s talk available to me, but—with one exception, which I touch on in my own talk—his talk very much followed the outlines of his famous books, The Emperor’s New Mind and Shadows of the Mind.
 
